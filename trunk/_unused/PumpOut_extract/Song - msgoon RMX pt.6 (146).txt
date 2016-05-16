@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+	<head>
+				<title>PumpOut: msgoon RMX pt.6 - msgoon</title>
+		<link rel="icon" type="image/png" href="Images/9x9.gif">
+		<meta name="description" content="PumpOut is a searchable chart list for Pump it Up: Prime; use us to figure out which charts to play during your Pump sessions!" />
+		
+		<meta itemprop="name" content="PumpOut: msgoon RMX pt.6 - msgoon" />
+		<meta itemprop="image" content="http://pumpout.anyhowstep.com/Images/TitleCards/62.png" />
+		<meta itemprop="description" content="PumpOut is a searchable chart list for Pump it Up: Prime; use us to figure out which charts to play during your Pump sessions!" />
+		
+		<meta name="twitter:title" content="PumpOut: msgoon RMX pt.6 - msgoon" />
+		<meta name="twitter:image:src" content="http://pumpout.anyhowstep.com/Images/TitleCards/62.png" />
+		<meta name="twitter:description" content="PumpOut is a searchable chart list for Pump it Up: Prime; use us to figure out which charts to play during your Pump sessions!" />
+		
+		<meta property="og:title" content="PumpOut: msgoon RMX pt.6 - msgoon"/>
+		<meta property="og:url" content="http://pumpout.anyhowstep.com/SongDetails.php?SongId=146" />
+		<meta property="og:image" content="http://pumpout.anyhowstep.com/Images/TitleCards/62.png" />
+		<meta property="og:description" content="PumpOut is a searchable chart list for Pump it Up: Prime; use us to figure out which charts to play during your Pump sessions!" />
+		
+		<meta charset="UTF-8">
+		<meta property="fb:app_id" content="862855893735326"/>
+		<script>
+	var FBSession = function () {
+		var m_PreviousStatus = "undefined";
+		var onLoginStatusReceived = function (response) {
+			console.log(response);
+			console.log(m_PreviousStatus);
+			if (response.status === "connected") {
+				if (m_PreviousStatus === "unknown") {
+					window.location.reload();
+				}
+			} else {
+				if (m_PreviousStatus === "connected") {
+					window.location.reload();
+				}
+			}
+			m_PreviousStatus = response.status;
+			console.log(response.status);
+		};
+		return {
+			getLoginStatus: function () {
+				FB.getLoginStatus(onLoginStatusReceived);
+			}
+		};
+	}();
+	window.fbAsyncInit = function () {
+		FB.init({
+			appId : "862855893735326",
+			status: true,
+			cookie: true,
+			xfbml : true,
+			channelUrl: "Includes/channel.html",
+			oauth: true
+		});
+		FBSession.getLoginStatus();
+	};
+</script>		<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="CSS/style.php?v=1" rel="stylesheet" type="text/css">		<script src="JavaScript/helpers.js"></script>
+		
+		<!--PhotoSwipe-->
+		<link rel="stylesheet" href="PhotoSwipe/dist/photoswipe.css">
+		<link rel="stylesheet" href="PhotoSwipe/dist/default-skin/default-skin.css">
+		<script src="PhotoSwipe/dist/photoswipe.min.js"></script>
+		<script src="PhotoSwipe/dist/photoswipe-ui-default.min.js"></script>
+	</head>
+	<body>
+		<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div id="PhotoSwipe" class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+</div>		<div id="MenuBar">
+	<div class="border">
+	</div>
+	<div id="MenuBarContent">
+		<a href="Mixes.php">
+			<div class="MenuItem">
+				Mixes
+			</div>
+		</a>
+		<a href="Versions.php">
+			<div class="MenuItem">
+				Versions
+			</div>
+		</a>
+		<a href="Channels.php">
+			<div class="MenuItem">
+				Channels
+			</div>
+		</a>
+		<a href="Categories.php">
+			<div class="MenuItem">
+				Categories
+			</div>
+		</a>
+		<a href="Modes.php">
+			<div class="MenuItem">
+				Modes
+			</div>
+		</a>
+		<a href="Artists.php">
+			<div class="MenuItem">
+				Artists
+			</div>
+		</a>
+		<a href="Songs.php">
+			<div class="MenuItem">
+				Songs
+			</div>
+		</a>
+		<a href="Tags.php">
+			<div class="MenuItem">
+				Tags
+			</div>
+		</a>
+		<a href="SearchConfirm.php">
+			<div class="MenuItem">
+				Search
+			</div>
+		</a>
+		<a href="ChartFlags.php">
+			<div class="MenuItem">
+				Unresolved Reports
+			</div>
+		</a>
+				<div id="LogIn">
+							<div
+	class="fb-login-button"
+	data-max-rows="1"
+	data-size="medium"
+	data-show-faces="false"
+	data-auto-logout-link="true"
+	onlogin="FBSession.getLoginStatus();"
+></div>				<a href="TwitterLogIn.php"><img src="Images/twitter.png"></a>
+					</div>
+	</div>
+</div>		<div id="fb-root"></div>
+<script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+</script>		<div id="Content"><center>
+	<img src="Images/TitleCards/62.png">
+</center>
+<div class="SongDetails">
+<span style="display: block;"><span class="SongDetailsTitle">msgoon RMX pt.6</span><span class="SongDetailsBPM">150 BPM</span></span><span style="display: block;"><span class="SongDetailsChannels"><span><a href="Songs.php?SongId=146&amp;ChannelId=6">FIESTA</a>, <a href="Songs.php?SongId=146&amp;ChannelId=11">REMIX</a></span></span><span class="SongDetailsCategory"><a href="Songs.php?SongId=146&amp;CategoryId=3">ORIGINAL</a></span></span><span><span><a href="ArtistDetails.php?ArtistId=30">msgoon</a></span></span>
+</div><table class="">
+<thead>
+<tr><th colspan="3">Chart</th></tr>
+<tr>
+<th> Level</th>
+<th> You Tube</th>
+<th> Tag</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-th=" Level"><a href="ChartDetails.php?ChartId=906" class="S20"></a></td>
+<td data-th=" You Tube"><a href="https://www.youtube.com/results?search_query=allintitle%3A+%28%22msgoon+RMX+pt.6%22%29+%28%22S20%22%29" onclick=""><img src="Images/youtube_64.png"></a></td>
+<td data-th=" Tag" class=" TextAlignLeft"><span>&nbsp;</span></td>
+</tr>
+<tr>
+<td data-th=" Level"><a href="ChartDetails.php?ChartId=907" class="D19"></a></td>
+<td data-th=" You Tube"><a href="https://www.youtube.com/results?search_query=allintitle%3A+%28%22msgoon+RMX+pt.6%22%29+%28%22D19%22%29" onclick=""><img src="Images/youtube_64.png"></a></td>
+<td data-th=" Tag" class=" TextAlignLeft"><span>&nbsp;</span></td>
+</tr>
+</tbody>
+</table>
+			<div id="FooterSpace">
+				&nbsp;
+			</div>
+		</div>
+	</body>
+</html>

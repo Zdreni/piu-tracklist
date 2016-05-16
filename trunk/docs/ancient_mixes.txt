@@ -1,0 +1,312 @@
+1xx - 1st:
+ fromMix: "1st",
+101	Ignition Starts	Banya	146		7			7							8	7		•	•	•	 	•	•									•	•	•	Ignition Starts	101
+102	Hypnosis	Banya	180		7			7							9	7	A	•	•	•	 	•	•									•	•	•	Hypnosis	102
+103	Forever Love	Fin.K.L	138	1														•		•	 	•	•	•		•	•	•	•	•				•	Forever Love	103
+104	Passion	Yu Seung Jun	125	2	5			5								5		•		•	 	•	•	•		•	•	•	•	•		•	•	•	Passion	104
+105	Black Cat	Turbo	150		5			5										•		•	 	•	•			•	•	•	•						Black Cat	105
+106	Pom Pom Pom	Sechskies	150	1	6			5										•		•	 	•	•			•	•	•	•						Pom Pom Pom	106
+107	The Rap	Honey Family	90	2														•		•	 	•	•			•	•	•	•						The Rap	107
+108	Come To Me	Clon	137	3	6			6							4	6		•		•	 	•	•			•	•	•	•		•	•	•	•	Come To Me (Clon)	108
+109	Funky Tonight	Clon	105		4			4								4		•	•		 	•	•	•		•	•	•	•	•	•	•	•	•	Funky Tonight	109
+110	What Do U Really Want?	Monocrome	112.12	4														•		•	 	•	•			•	•	•	•						What Do U Really Want? (Monocrome)	110
+111	Hatred	Novasonic	136		7			7									C	•		•	 	•	•			•	•	•	•					•	Hatred	111
+112	Another Truth	Novasonic	136	3	5			7								7	A	•	•	•	 	•	•	•		•	•	•	•	•	•	•	•	•	Another Truth	112
+113	I Want U	Drunken Tiger	87	2				2										•		•	 	•	•	•		•	•	•	•	•					I Want U	113
+114	I Don't Know Anything	Uhm Jung Hwa	130	3				3										•		•	 	•	•			•	•	•	•						I Don't Know Anything	114
+115	No Particular Reason	Park Mee Kyung	133	3				4										•		•	 	•	•			•	•	•	•						No Particular Reason	115
+116	Mix 1-1	Fin.K.L/Cleo/Park Mee Kyung	134						4									•		•	 	•	•												Mix 1-1	116
+117	Mix 1-2	Park Mee Kyung/Jo Sung Mo/Uhm Jung Hwa	137						4									•		•	 	•	•												Mix 1-2	117
+118	Mix 1-3	Kim Gun Mo/Clon/Sechskies	150						6									•		•	 	•	•												Mix 1-3	118
+119	Mix 1-4	Turbo	147.7						7	7								•	•	•	 	•	•	•											Mix 1-4	119
+
+2xx - 2nd:
+ fromMix: "2nd",
+201	Creamy Skinny	Banya	85.9	2	3			4											•	•	 	•	•			•	•	•	•						Creamy Skinny	201
+202	Hate	Banya	90.4	1	4			4								4			•	•	 	•	•			•	•	•	•			•	•	•	Hate	202
+203	Koul	Banya	102		5			5							7	5			•	•	 	•	•	•		•	•	•	•	•		•	•	•	Koul	203
+204	Final Audition	Banya	130.5	3	6			5							10	5	A		•	•	 	•	•			•	•	•	•			•	•	•	Final Audition	204
+205	Extravaganza	Banya	195		8	5		7				3	3		5	7	A		•	•	 	•	•	•		•	•	•	•	•	•	•	•	•	Extravaganza	205
+206	Rewind	Lee Kang Shin	125.6	3															•	•	 	•	•			•	•	•	•						Rewind	206
+207	I-yah!	H.O.T	86		4			4											•	•	 	•	•	•		•	•	•		•					I-yah!	207
+208	Fighting Spirits	H.O.T	98	3				5											•	•	 	•	•	•		•	•	•		•			•	•	Fighting Spirits	208
+210	Love	S.E.S	95	1															•	•	 	•	•			•	•	•	•						Love (S.E.S)	210
+211	Please	Kim Gun Mo	132.1		5			4											•	•	 	•	•			•	•	•	•						Please	211
+212	Com'back	Sechskies	158		6										3				•	•	 	•	•	•		•	•	•	•	•		•	•	•	Com'back	212
+213	Mobius Strip	Sechskies	106		6			7											•	•	 	•	•	•		•	•	•	•	•				•	Mobius Strip	213
+214	Fever	Cho PD	110	3	6			6											•	•	 	•	•	•		•	•	•	•	•					Fever	214
+215	Curiosity	Hans Band	137	2	2			3											•	•	 	•	•			•	•	•	•						Curiosity	215
+216	Love	Click-B	140		5														•	•	 	•	•			•	•	•	•						Love (Click-B)	216
+217	Tell Me, Tell Me	S#arp	130	1	4			4											•	•	 	•	•			•	•	•	•						Tell Me, Tell Me	217
+218	Heart Break	Jo Sung Mo	150.9	3	3														•	•	 	•	•			•	•	•							Heart Break	218
+219	Mix 2-1	Jo Sung Mo	150.8						4	4									•	•	 	•	•												Mix 2-1	219
+220	Mix 2-2	Uhm Jung Hwa	137						4	4									•	•	 	•	•												Mix 2-2	220
+221	Mix 2-3	Drunken Tiger/Honey Family	95						5	5									•	•	 	•	•	•											Mix 2-3	221
+223	Mix 2-4	H.O.T/S.E.S	98						6	6									•	•	 	•	•												Mix 2-4	223
+224	Mix 2-5	Banya	150						6	6									•	•	 	•	•	•											Mix 2-5	224
+225	Mix 2-7	Clon/Sechskies	140						6	6	6								•	•	 	•	•												Mix 2-7	225
+
+
+3xx - OBG
+ fromMix: "OBG",
+301	Final Audition 2	Banya	130.6		6	6		6							6	6	B			•	•	•	•			•	•	•	•		•	•	•	•	Final Audition 2	301
+302	Naissance	Banya	135.5		6	6		6							6	6				•	•	•	•	•		•	•	•	•	•		•	•	•	Naissance	302
+303	Turkey March	Banya	150		7	7		7				2	2		7	7	B			•	•	•	•	•		•	•	•	•	•		•	•	•	Turkey March	303
+304	With My Lover	Banya	124	3																•	•	•	•			•	•	•	•						With My Lover	304
+305	An Interesting View	Banya	160		6	6														•	•	•	•			•	•	•	•						An Interesting View	305
+306	Nightmare	Banya	80	1	4			3								3				•	•	•	•			•	•	•	•			•	•	•	Nightmare	306
+307	Close your Eyes	Banya	105	2	3			4												•	•	•	•			•	•	•	•						Close your Eyes	307
+308	Free Style	Banya	99	2				3												•	•	•	•	•		•	•	•	•	•					Free Style	308
+309	Midnight Blue	Banya	80		4			4												•	•	•	•			•	•	•	•						Midnight Blue	309
+310	She Likes Pizza	Banya	229.6		8	8		8							8	8	A			•	•	•	•			•	•	•	•			•	•	•	She Likes Pizza	310
+311	Pumping Up	Banya	135		4															•	•	•	•			•	•	•	•			•	•	•	Pumping Up	311
+312	Don't Bother Me	Tashannie	110	1	5			4							5	4				•	•	•	•	•		•	•	•	•	•		•	•	•	Don't Bother Me	312
+313	Love Song	Yu Seung Jun	118	2	3			4									C			•	•	•	•	•		•	•	•	•	•				•	Love Song	313
+314	Lover's Grief	GOD	106	2				5												•	•	•	•			•	•	•	•						Lover's Grief	314
+315	To the Top	6 Mill. Bionic Juno	120	3	5															•	•	•	•	•		•	•	•	•	•				•	To the Top	315
+316	Separation With Her	Kim Hyun Jung	141		5	5		6												•	•	•	•			•	•	•	•						Separation With Her	316
+317	Puyo Puyo	U.P	140	3				4												•	•	•	•			•	•	•	•						Puyo Puyo	317
+318	We Are	Deux	115.9		5			5							7	5				•	•	•	•	•		•	•	•	•	•	•	•	•	•	We Are	318
+319	Time To Say Goodbye	So Chan Hwui	132	3	5	5														•	•	•	•			•	•	•	•						Time To Say Goodbye	319
+320	Tell Me	Jinusean	120		4															•	•	•	•	•		•	•	•	•	•	•				Tell Me	320
+321	OK? OK!	DJ. DOC	130	3				5												•	•	•	•			•	•	•	•						OK? OK!	321
+322	Mix 3-1 1234567890123456789012	Fin.K.L/S#arp/Hans Band	138						4	4										•	•	•	•												Mix 3-1 1234567890123456789012	322
+323	Mix 3-2	Park Mee Kyung	136.2						4	4										•	•	•	•												Mix 3-2	323
+324	Mix 3-3	Banya	99						5	5										•	•	•	•												Mix 3-3	324
+325	Mix 3-4	Park Jin Young	116.5						6	6										•	•	•	•	•											Mix 3-4	325
+326	Mix 3-5	Novasonic	136						6	6										•	•	•	•												Mix 3-5	326
+327	Mix 3-7	Banya	146/180/
+195						6	6	6									•	•	•	•												Mix 3-7	327
+
+
+4xx - SE:
+ fromMix: "OBG_SE",
+401	Oh! Rosa	Banya	148	4	6	7		7							7	7					•	•	•			•	•	•	•		•	•	•	•	Oh! Rosa	401
+402	First Love	Banya	104	4	3	8		4							8	4					•	•	•	•		•	•	•	•	•	•	•	•	•	First Love	402
+403	Betrayer	Banya	92	4	4	6		6							6	6					•	•	•	•		•	•	•	•	•	•	•	•	•	Betrayer	403
+404	Solitary	Banya	136	4	7	6		8							6	8	C				•	•	•	•		•	•	•	•	•	•	•	•	•	Solitary	404
+405	Mr. Larpus	Banya	190	4	10	10		10				3	3		10	10	A				•	•	•	•		•	•	•	•	•	•	•	•	•	Mr. Larpus	405
+406	Sad Salsa	Baek Ji young	125	4	7	8		6													•	•	•			•	•	•	•						Sad Salsa	406
+407	Summer of Love	Roo'Ra	125	4	5	6		7													•	•	•			•	•	•	•						Summer of Love	407
+408	Kiss	Country Kko Kko	142.6	4	4	5		6													•	•	•												Kiss	408
+409	Man & Woman	Cool	172.1	4	4	4		5													•	•	•			•	•	•	•						Man & Woman	409
+410	First Love	Clon	142.9	4	8	7		7													•	•	•			•	•	•	•						First Love	410
+411	A-Trap	Baby V.O.X	125.1	4	5	5		5													•	•	•			•	•	•	•					•	A-Trap	411
+412	Disco Bus	Kim Hyun Jung	120.1	4	5	4															•	•	•			•	•	•	•						Disco Bus	412
+413	Run!	Novasonic	140.1	4	7	8		7							8	7	C				•	•	•			•	•	•	•		•	•	•	•	Run!	413
+414	Run to You	DJ. DOC	132	4	3	4		4							4	4					•	•	•	•		•	•	•	•	•		•	•		Run to You	414
+415	Mix 4-1	Sechskies	106/150						5	6	5										•	•	•	•											Mix 4-1	415
+
+
+5xx - PC
+ fromMix: "Perfect",
+501	Pump Jump	Banya	106	2	4	6		4							6	4							•	•		•	•	•	•	•		•	•	•	Pump Jump	501
+502	N	Banya	106	3	4	5		4															•			•	•	•	•						N	502
+503	Rolling Christmas	Banya	142	2	3	4		4							4	4							•			•	•	•	•		•	•	•	•	Rolling Christmas	503
+504	All I Want For X-mas	Banya	130	2	3	3		3							3	3							•			•	•	•	•			•	•	•	All I Want For X-mas	504
+505	Beethoven Virus	Banya	162	5	6	8		9				1	1		8	9	A						•	•		•	•	•	•	•	•	•	•	•	Beethoven Virus	505
+506	I Will Accept You	Park Ji Yoon	99	2	3			4															•	•		•	•	•	•	•					I Will Accept You	506
+507	Come Back to Me	Deux	116.4	2	4	3		4							3	4	A						•			•	•	•	•			•	•	•	Come Back to Me	507
+508	As I Told U	Kim Sung Jae	119.5	3	5	2		5							2	5	A						•			•	•	•	•		•	•	•	•	As I Told U	508
+509	I Know	Taiji Boys	109.7	1	2	3		4															•	•		•	•	•		•					I Know	509
+510	My Fantasy	Taiji Boys	126.1	3	3	3		3															•	•		•	•	•		•					My Fantasy	510
+511	Unforgettable Memory	Taiji Boys	104.9	2	4	8		3				2	2										•	•		•	•	•		•					Unforgettable Memory	511
+512	Hayuga	Taiji Boys	104.7	3	4	7		5															•	•		•	•	•		•					Hayuga	512
+513	Certain Victory	Taiji Boys	176.2	4	4	5		5															•	•		•	•	•		•					Certain Victory	513
+514	Ultramania	Seo Taiji	83	2	3	7		3															•	•		•	•	•		•					Ultramania	514
+515	Bonaccia	Nazca	76 or 152	2	4	4		1															•	•		•	•	•	•	•					Bonaccia	515
+516	Slam	Novasonic	131.99	4	6	9		6				4	4		9	6	B						•	•		•	•	•	•	•	•	•	•	•	Slam	516
+517	Space Fantasy	E-paksa	186	5	5	7		6							7	6							•			•	•	•	•			•	•		Space Fantasy	517
+
+
+6xx - Pre
+ fromMix: "Premiere",
+601	Oops! I Did it Again	Britney Spears	95	2	5			5																		•		•							Oops! I Did it Again	601
+602	Bye Bye Bye	*N SYNC	87	2	5			4																		•		•							Bye Bye Bye	602
+603	I Need to Know	Marc Anthony	115	2	4			5																		•		•							I Need to Know	603
+604	Let's Get Loud!	Jennifer Lopez	131	3	3			4																		•		•							Let's Get Loud!	604
+605	Mambo #5	Lou Bega	173	3	4			5																		•		•							Mambo #5	605
+606	Take on Me	A-ha	167	4	6			7																		•		•							Take on Me	606
+[607]	A Cerca	Skank	158.4	3	7			7																			•								A Cerca	[607]
+[608]	De Volta ao Planeta	Jota Quest	108.1	3	5			5																			•								De Volta ao Planeta	[608]
+[609]	Pensamento	Cidade Negra	86.1	3	5			6																			•								Pensamento	[609]
+[610]	Popozuda Rock 'n Roll	De Falla	130.2	2	6			6																			•								Popozuda Rock 'n Roll	[610]
+[611]	Rebola Na Boa	Mr. Jam	126	2	3			3																			•								Rebola Na Boa	[611]
+[612]	Sempre Assim	Jota Quest	114	5	6			7																			•								Sempre Assim	[612]
+[613]	Uma Bomba	Braga Boys	94.3	1	4			4																			•								Uma Bomba	[613]
+[614]	Vaqueiro Bom Demais	Limao Com Mel	132	2	5			5																			•								Vaqueiro Bom Demais	[614]
+
+
+7xx - Reb
+ fromMix: "Rebirth",
+701	Dr. M	Banya	145	3	5	7	8	7						??		7	A								•				•	•	•	•	•	•	Dr. M	701
+702	Emperor	Banya	150	3	5	6	2	6																	•				•	•					Emperor	702
+703	Get Your Groove On	Banya	96	2	3	7	3	4								4									•				•	•	•	•	•	•	Get Your Groove On	703
+704	Love is a Danger Zone	Banya	140	3	8	5	6	6						??		6	C								•				•	•	•	•	•	•	Love is a Danger Zone	704
+705	Maria	Banya	136	3	6	6	6	6								6									•				•	•	•	•	•	•	Maria	705
+706	Mission Possible	Banya	124	2	4	4	5	6																	•				•	•					Mission Possible	706
+707	My Way	Banya	118	2	4	8	2	4																	•				•	•	•			•	My Way	707
+708	Point Break	Banya	92	1	3	4	4	5						??											•				•	•				•	Point Break	708
+709	Street Show Down	Banya	124	3	5	4	4	2									C								•				•	•				•	Street Show Down	709
+710	Top City	Banya	110.72	2	5	5	7	5						??											•				•	•					Top City	710
+711	Winter	Banya	168	5	8	10	9	8						??		8	A								•				•	•	•	•	•	•	Winter	711
+712	Will o' the Wisp	Banya	210	6	9	9	10	10						??		10	A								•				•	•	•	•	•	•	Will o' the Wisp	712
+713	Till the End of Time	Banya	140	1	2	4	5	5						??											•				•	•					Till the End of Time	713
+714	Oy Oy Oy	Banya	148	4	7	3	7	7								7									•				•	•	•	•	•	•	Oy Oy Oy	714
+715	We Will Meet Again	Banya	118	4	5	3	4	4																	•				•	•					We Will Meet Again	715
+716	Miss's Story	Banya	111	3	5	3	3	3																	•				•	•					Miss's Story	716
+717	Set Me Up	Banya	120	2	4	7	6	6						??											•				•	•					Set Me Up	717
+718	Dance With Me	Banya	122	3	4	5	5	5						??											•				•	•					Dance With Me	718
+719	Go Away!	To-Ya	103	3	5	4	4	5						??		5									•				•	•	•	•	•	•	Go Away! (To-Ya)	719
+720	I Love You	Jewelry	161.1	1	4	2	3	3						??											•				•	•	•				I Love You	720
+721	Gotta Be Kidding	Hanul	138.3	3	4	6	4	3						??		3									•				•	•	•	•	•	•	Gotta be Kidding	721
+722	Zzanga	Kim Gun Mo	108/54/
+108	2	6	4	4	5						??											•				•	•					Zzanga	722
+723	A Prison Without Bars	Park Jin Young	120.2	3	4	5	5	4						??											•				•	•					A Prison Without Bars	723
+724	A Whistle	C.B. Mass	109	3	3	3	4	4																	•				•	•					A Whistle	724
+725	Gentleman Quality	C.B. Mass	104	4	4	6	5	5						??											•				•	•					Gentleman Quality	725
+726	Run Away	To-Ya	127.5	4	5	3	4	5						??											•				•	•					Run Away	726
+727	Swing Baby	Park Jin Young	100	2	4	9	3	3																	•				•	•					Swing Baby	727
+728	Temptation	Harisu	136.9	2	5	3	5	5																	•				•	•					Temptation	728
+729	Y	Kim Gun Mo	95	1	3	7	5	3																	•				•	•					Y	729
+730	Perfect!	Diva	132	3	5	6	5	4						??		4	A								•				•	•	•	•	•	•	Perfect!	730
+731	Let's Boogie	Turtles	109	2	6	7	4	5						??											•				•	•					Let's Boogie	731
+732	My Best Day is Gone	Can	115.8	4	4	8	3	4						??											•				•	•					My Best Day is Gone	732
+733	The Waves	UN	138.1	4	5	4	4	3						??											•				•	•	•				The Waves	733
+734	Always	Boy Club	123	4	4	5	4	4						??											•				•	•	•				Always	734
+735	Vook	Banya	184	6	8	10	9	12						??		12	A								•				•	•	•	•	•	•	Vook	735
+736	Csikos Post	Banya	180	6	8	9	7	8						??		8	A								•				•	•	•	•	•	•	Csikos Post	736
+
+
+8xx - Pre3
+ fromMix: "Premiere3",
+801	Bambole	Papa Gonzales	128	3	6	8	5	6							8	6	A														•	•	•	•	Bambole	801
+802	Bee	Banya	160	5	8	9	8	9							9	9	B														•	•	•	•	Bee	802
+803	Burning Krypt	B-Legit, 2Wice, & 4Tray	96	3	5	7	8	5							7	5															•	•			Burning Krypt	803
+804	Can You Feel Dis or Dat	2Wice	97	2	3	6	2	4							6	4															•	•			Can You Feel Dis or Dat	804
+805	Clap Your Hands	Scoop feat. Joyce Lyle	127	2	4	6	5	6							6	6	A														•	•	•	•	Clap Your Hands	805
+806	Conga	Queen Latin	124	4	6	9	4	6							9	6	C														•	•	•	•	Conga	806
+807	D Gang	Banya	150	6	7	8	7	6							8	6	C														•	•	•	•	D Gang	807
+808	DJ Nightmare	Rodney O & Joe Cooley	114	3	4	8	5	4							8	4															•	•			DJ Nightmare	808
+809	Eres Para Mi	Mozquito	128	2	5	9	4	7							9	7															•	•	•	•	Eres Para Mi	809
+810	Fiesta Macarena Pt. 1	DJ Paula	130.5	2	5	5	5	5							5	5															•	•	•	•	Fiesta Macarena Pt. 1	810
+811	Hello	Banya	140	4	5	7	5	6							7	6															•	•	•	•	Hello	811
+812	On Your Side	Kay Kent	123	2	4	1	4	4							1	4															•	•	•	•	On Your Side	812
+813	Everybody	Carlos T. Quila	110	2	1	3	5	4							3	4															•	•	•	•	Everybody	813
+814	Join the Party	Gans	131	2	3	4	5	4							4	5	A														•	•	•	•	Join the Party	814
+815	Lay it Down	Fresno	130.5	4	5	5	4	5							6	4															•	•	•	•	Lay it Down	815
+816	Let the Sunshine In	Lisa Cool & the South Spirit	128	3	4	4	3	3							4	3															•	•	•	•	Let the Sunshine In	816
+817	Lovething	Down Low	103	3	5	5	2	7							5	7	A														•	•	•	•	Lovething	817
+818	Mexi Mexi	Mozquito	138	4	6	7	6	6							7	6															•	•	•	•	Mexi Mexi	818
+819	You Don't Wanna Runup	Rodney O & Joe Cooley	107	5	6	7	5	6							7	6															•	•			You Don't Wanna Runup	819
+820	Beat of the War	Banya	186/140/
+202	7	9	9	9	10							9	10	C														•	•	•	•	Beat of the War	820
+821	Empire of the Sun	Novasonic	118	4	6		7								7	9	A															•	•	•	Empire of the Sun	821
+822	Just a Girl	No Doubt	108/216	?	?		?								?	?	?																		Just a Girl	822
+823	Let's Get the Party Started	Pink	128.9	2	6		4								7	4	A															•	•		Let's Get the Party Started	823
+824	Objection	Shakira	180	?	?		?								?	?	?																		Objection	824
+825	It's My Party	Thalia	132	?	?		?								?	?	?																		It's My Party	825
+826	Come to Me	Banya	100/107/
+100	1	3		4								6	3	A															•	•	•	Come To Me (Banya)	826
+827	Music	Madonna	120	?	?		?								?	?	?																		Music	827
+828	Master of Puppets	Metallica	212	?	?		?								?	?	?																		Master of Puppets	828
+
+
+9xx - Extra
+ fromMix: "Extra",
+901	Flower of Night	People Crew	120.9	3	5			5																•				•		•					Flower of Night	901
+902	Circus Magic	Crying Nut	xxx.x or 141		7			8							7	8								•				•				•	•	•	Circus Magic	902
+903	Move Your Head	Tin Tin Five	143	5	6			6																•				•		•					Move Your Head	903
+904	Trash Man	N.EX.T	174.6			8						5	5											•				•		•					Trash Man	904
+905	Funky Jockey	B.O.K	116.9	4	6			6																•				•		•					Funky Jockey	905
+906	Starian	Duke	134.9		6			7							8	7								•				•		•		•	•	•	Starian	906
+907	Big Money	X-Teen	109.9	5	5			5																•				•		•					Big Money	907
+908	Wayo Wayo	O.P.P.A	148	4	6			5																•				•		•					Wayo Wayo	908
+909	Guilty Conscience	U'Two	110	1	5			4																•				•		•					Guilty Conscience	909
+910	The Rap: Act 3	Honey Family	98	2	5			3									C							•				•		•				•	The Rap: Act 3	910
+911	Chicken Wing	Banya	200			7		7				3	3		7	7								•				•		•	•	•	•	•	Chicken Wing	911
+912	Holiday	F2 Systems	190			9		9				5	5											•				•		•					Holiday	912
+913	Can Can	F2 Systems 1234567890123	196.3/197.5/
+197.2			10		10				6	6		8	7	B							•				•		•		•	•	•	Can Can	913
+914	Wish You Could Find	Yu Seung Jun	118	3	5			5																•				•		•					Wish You Could Find	914
+915	Loner	T.T.Ma	155		8	5		9				1	1		5	9								•				•		•		•	•	•	Loner	915
+916	Monkey Magic	E-paksa	151.9	3	6	6		7				1	1		5	7								•				•		•	•	•	•		Monkey Magic	916
+917	Out of the Ring	Deux	115	2	4			4																•				•		•					Out of the Ring	917
+918	Blind Faith	O-24	96	4	5			5																•				•		•					Blind Faith	918
+919	Lazenca, Save Us	N.EX.T	85.1	2	4			4																•				•		•					Lazenca, Save Us	919
+920	Ferry Boat	DJ. DOC	135	5	5			6																•				•		•					Ferry Boat	920
+921	Pierrot	Lee Hyun Do	100	1	5			5							8	5	A							•				•		•	•	•	•	•	Pierrot	921
+922	Final Audition Episode 1	Banya	189		9	9		10				4	4		7	10	B							•				•		•		•	•	•	Final Audition Episode 1	922
+[923]	First Love (Techno Mix)	Clon	142	4	8			7				2	2											•											First Love (Techno Mix)	[923]
+[924]	Mix 9-1	People Crew/Honey Family	98/120.9						3	3														•											Mix 9-1	[924]
+[925]	Mix 9-2	E-paksa	151.8						4	4														•											Mix 9-2	[925]
+[926]	Mix 9-3	O-24/X-Teen	109.9						5	5														•											Mix 9-3	[926]
+[927]	Mix 9-4	Lee Hyun Do/Deux	100/115						6	6														•											Mix 9-4	[927]
+[928]	Mix 9-5	Banya	200						9	9														•											Mix 9-5	[928]
+
+
+Axx - Exceed
+A01	Final Audition 3 U.F	Banya	130.5	*	*	*		*									*																•	•	Final Audition 3 U.F	A01
+A02	Naissance 2	Banya	128	*	*	*		*									*																•	•	Naissance 2	A02
+A03	Monkey Fingers	Banya	186	*	*	*		*									*																•	•	Monkey Fingers	A03
+A04	Blazing	Banya	157	*	*	*		*									*																•	•	Blazing	A04
+A05	Pump Me Amadeus	Banya	170	*	*	*		*									*																•	•	Pump Me Amadeus	A05
+A06	X-Treme	Banya	162	*	*	*		*									*																•	•	X-Treme	A06
+A07	Get Up!	Banya	180	*	*	*		*									*																•	•	Get Up!	A07
+A08	Dignity	Crash	195	*	*	*		*									*																•	•	Dignity	A08
+A09	Shake That Bootie	OneTwo	145	*	*	*		*									*																•	•	Shake That Bootie	A09
+A10	Valenti	BoA*	104	*	*	*		*									*																•	•	Valenti	A10
+A11	What Do You Really Want?	Crash	110	*	*	*		*									*																•	•	What Do You Really Want? (Crash)	A11
+A12	Go	U;Nee	138	*	*	*		*									*																•	•	Go	A12
+A13	Flamenco	Oliver	105	*	*	*		*									*																•	•	Flamenco	A13
+A14	Kiss Me	Debbie Scott	126	*	*	*		*									*																•	•	Kiss Me	A14
+A15	Essa Maneira	Kaoma	150	*	*	*		*									*																•	•	Essa Maneira	A15
+A16	Ba Be Loo Be Ra	Kristeen	126	*	*	*		*									*																•	•	Ba Be Loo Be Ra	A16
+A17	La Cubanita	Los Niños de Sara	120	*	*	*		*									*																•	•	La Cubanita	A17
+A18	Shake it Up	Rod	120	*	*	*		*									*																•	•	Shake it Up	A18
+A19	One Love	S'Max	98	*	*	*		*									*																•	•	One Love	A19
+A20	Power of Dreams	Victoria	122	*	*	*		*									*																•	•	Power of Dreams	A20
+A21	Watch Out	Victoria	109	*	*	*		*									*																•	•	Watch Out	A21
+A22	Fiesta	El Cuba	140	*	*	*		*									*																•	•	Fiesta	A22
+A23	Soca Make Yuh Ram Ram	General Grant	108	*	*	*		*									*																•	•	Soca Make Yuh Ram Ram	A23
+A24	Born to be Alive	Banya	124.4	*	*	*		*									*																•	•	Born to be Alive	A24
+A25	Xi Bom Bom Bom	Los Del Ritimo	148	*	*	*		*									*																•	•	Xi Bom Bom Bom	A25
+A26	Oh! Rosa (Spanish)	Banya	148	*	*	*		*									*																•	•	Oh! Rosa (Spanish)	A26
+A27	First Love (Spanish)	Banya	104	*	*	*		*									*																•	•	First Love (Spanish)	A27
+B01	Greenhorn	Lexy	109	*	*	*		*									*																 	•	Greenhorn	B01
+B02	Hot	1TYM	98	*	*	*		*									*																 	•	Hot	B02
+B03	Pray	Som2	122	*	*	*		*									*																 	•	Pray	B03
+B04	Go Away	BMK	132	*	*	*		*									*																 	•	Go Away (B.M.K)	B04
+B05	Drunken In Melody	Eun Ji Won	94.3	*	*	*		*									*																 	•	Drunken In Melody	B05
+B06	Deja Vu	Som2	115	*	*	*		*									*																 	•	Deja Vu	B06
+B07	U	Ju Dain	111	*	*	*		*									*																 	•	U	B07
+B08	Sajahu	Lee Hyun Do	126	*	*	*		*									*																 	•	Sajahu	B08
+B09	Typhoon	Lee Hyun Do	112	*	*	*		*									*																 	•	Typhoon	B09
+B10	Eternity	Uhm Jung Hwa	120	*	*	*		*									*																 	•	Eternity	B10
+B11	Foxy Lady	Harisu	130	*	*	*		*									*																 	•	Foxy Lady	B11
+B12	Too Late	Shyne	97.1	*	*	*		*									*																 	•	Too Late	B12
+B13	I'll Give You All My Love	WAX	164	*	*	*		*									*																 	•	I'll Give You All My Love	B13
+B14	Huu Yah Yeah	Y*Me	110	*	*	*		*									*																 	•	Huu Yah Yeah	B14
+B15	We Don't Stop	Asoto Union	100	*	*	*		*									*																 	•	We Don't Stop	B15
+B16	J Bong	Banya	140	*	*	*		*									*																 	•	J Bong	B16
+B17	HI-BI	Banya	145	*	*	*		*									*																 	•	HI-BI	B17
+B18	Solitary 2	Banya	136	*	*	*		*									*																 	•	Solitary 2	B18
+B19	Canon-D	Banya	160	*	*	*		*									*																 	•	Canon-D	B19
+B20	Le Code de Bonne Conduite	Manresa	171	*	*	*		*									*																 	•	Le Code de Bonne Conduite	B20
+B26	NSR #1: Novarash	Novasonic/Crash	118	*	*	*		*									*																 	•	NSR #1: Novarash	B26
+B27	NSR #2: Lexy & 1TYM Remix	Lexy/1TYM	123		*	*		*									*																 	•	NSR #2: Lexy & 1TYM Remix	B27
+B28	NSR #3: Treme-Vook of the War	Banya	***		*	*		*									*																 	•	NSR #3: Treme-Vook of the War	B28
+B29	NSR #4: Banya Classic Remix	Banya	162.2		*	*		*									*																 	•	NSR #4: Banya Classic Remix	B29
+B30	NSR #5: Deux Remix	Deux	119.5		*	*		*									*																 	•	NSR #5: Deux Remix	B30
+B31	NSR #6: Diva Remix	BoA*/Shyne/Y*Me	110		*	*		*									*																 	•	NSR #6: Diva Remix	B31
+B50	NSR #7: The World Remix	Mozquito/Down Low/B.M.K/Uhm Jung Hwa	128		*	*		*									*																 	•	NSR #7: The World Remix	B50
+B51	NSR #8: Dignity Full Remix	Crash	195		*	*		*									*																 	•	NSR #8: Dignity Full Remix	B51
+B52	NSR #9: Novasonic Remix (2nd)	Novasonic	136		*	*		*									*																 	•	NSR #9: Novasonic Remix (2nd)	B52
+B53	NSR #10: Turbo Remix (2nd)	Turbo	147.7		*	*		*									*																 	•	NSR #10: Turbo Remix (2nd)	B53
+B54	NSR #11: 2nd Hidden Remix (2nd)	Clon/Sechskies	140		*	*		*									*																 	•	NSR #11: 2nd Hidden Remix (2nd)	B54
+B55	NSR #12: Drunken Family Remix (2nd)	Drunken Tiger/Honey Family	95		*	*		*									*																 	•	NSR #12: Drunken Family Remix (2nd)	B55
+B56	NSR #13: Banya Hip-Hop Remix (2nd)	Banya	99		*	*		*									*																 	•	NSR #13: Banya Hip-Hop Remix (2nd)	B56
+B57	NSR #14: Treme-Vook of the War (Another)	Banya	***			*											*																 	•	NSR #14: Treme-Vook of the War (Another)	B57
+B58	NSR #??: Canon-D Full Mix	Banya	160			*																											 	•	NSR #??: Canon-D Full Mix	B58
+001	Raw: Exceed 2 Intro	Banya	177.2														*																 	•	Raw: Exceed 2 Intro	001
+ID#	Song Title	Artist	BPM	N	H	C	HD	FD	R	RD	RC	XX	XD	D	C3	F	N	1st	2nd	OBG	SE	TC	PC	EX	Reb.	Pre.I	Pre.B	Prex	Pre.2	Prex.2	Pre.3	Prex.3	EXC	EXC2	Song Title	ID#

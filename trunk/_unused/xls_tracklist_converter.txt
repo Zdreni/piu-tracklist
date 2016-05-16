@@ -1,0 +1,32 @@
+{
+	title: "Beat of the War 2 (D&G Ver.)", artist: "BanYa",
+	Fiesta: [],
+},
+{
+	title: "Phantom (Accel. Ver)", artist: "BanYa Production",
+	Fiesta: [],
+},
+{
+	title: "Guitar Man", artist: "BanYa Production", duration: "Full",
+	Fiesta: [],
+},
+{
+	title: "Mr. Fire Fighter", artist: "Spooky Banana", duration: "Full",
+	Fiesta: [],
+},
+{
+	title: "Very Old Couples", artist: "015B", duration: "Full",
+	Fiesta: [],
+},
+{
+	title: "BanYa Extra Remix", duration: "Remix",
+	Fiesta: [],
+},
+{
+	title: "Scream Song", duration: "Remix",
+	Fiesta: [],
+},
+{
+	title: "Yasangma", duration: "Remix",
+	Fiesta: [],
+},

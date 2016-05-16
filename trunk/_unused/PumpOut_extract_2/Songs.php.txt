@@ -1,0 +1,2700 @@
+<!DOCTYPE html>
+<html>
+	<head>
+				<title>PumpOut: Songs</title>
+		<link rel="icon" type="image/png" href="Images/9x9.gif">
+		<meta name="description" content="PumpOut is a searchable chart list for Pump it Up: Prime; use us to figure out which charts to play during your Pump sessions!" />
+		
+		<meta itemprop="name" content="PumpOut: Songs" />
+		<meta itemprop="image" content="http://pumpout.anyhowstep.com/Images/logo_pump.png" />
+		<meta itemprop="description" content="PumpOut is a searchable chart list for Pump it Up: Prime; use us to figure out which charts to play during your Pump sessions!" />
+		
+		<meta name="twitter:title" content="PumpOut: Songs" />
+		<meta name="twitter:image:src" content="http://pumpout.anyhowstep.com/Images/logo_pump.png" />
+		<meta name="twitter:description" content="PumpOut is a searchable chart list for Pump it Up: Prime; use us to figure out which charts to play during your Pump sessions!" />
+		
+		<meta property="og:title" content="PumpOut: Songs"/>
+		<meta property="og:url" content="http://pumpout.anyhowstep.com/Songs.php" />
+		<meta property="og:image" content="http://pumpout.anyhowstep.com/Images/logo_pump.png" />
+		<meta property="og:description" content="PumpOut is a searchable chart list for Pump it Up: Prime; use us to figure out which charts to play during your Pump sessions!" />
+		
+		<meta charset="UTF-8">
+		<meta property="fb:app_id" content="862855893735326"/>
+		<script>
+	var FBSession = function () {
+		var m_PreviousStatus = "undefined";
+		var onLoginStatusReceived = function (response) {
+			console.log(response);
+			console.log(m_PreviousStatus);
+			if (response.status === "connected") {
+				if (m_PreviousStatus === "unknown") {
+					window.location.reload();
+				}
+			} else {
+				if (m_PreviousStatus === "connected") {
+					window.location.reload();
+				}
+			}
+			m_PreviousStatus = response.status;
+			console.log(response.status);
+		};
+		return {
+			getLoginStatus: function () {
+				FB.getLoginStatus(onLoginStatusReceived);
+			}
+		};
+	}();
+	window.fbAsyncInit = function () {
+		FB.init({
+			appId : "862855893735326",
+			status: true,
+			cookie: true,
+			xfbml : true,
+			channelUrl: "Includes/channel.html",
+			oauth: true
+		});
+		FBSession.getLoginStatus();
+	};
+</script>		<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="CSS/style.php?v=1" rel="stylesheet" type="text/css">		<script src="JavaScript/helpers.js"></script>
+		<script src="JavaScript/jquery-2.1.4.min.js"></script>
+		
+		<!--PhotoSwipe-->
+		<link rel="stylesheet" href="PhotoSwipe/dist/photoswipe.css">
+		<link rel="stylesheet" href="PhotoSwipe/dist/default-skin/default-skin.css">
+		<script src="PhotoSwipe/dist/photoswipe.min.js"></script>
+		<script src="PhotoSwipe/dist/photoswipe-ui-default.min.js"></script>
+		
+		<!--Tooltipster-->
+		<link rel="stylesheet" href="tooltipster-master/css/tooltipster.css">
+		<script src="tooltipster-master/js/jquery.tooltipster.min.js"></script>
+		
+		<!--jQueryUI-->
+				<link href="jquery-ui-1.11.4.custom/jquery-ui.css" rel="stylesheet">
+		<script src="jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+				<!--jQueryMobile-->
+		<link href="jquerymobile/jquery.mobile-1.4.5.css" rel="stylesheet">
+			</head>
+	<body>
+		<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div id="PhotoSwipe" class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+</div>		<div id="Songs" data-role="page">
+						<div id="MenuBar">
+	<div id="MenuBarContent">
+		<a href="Index.php">
+			<div class="MenuItem">
+				Home
+			</div>
+		</a>
+		<a href="Lists.php">
+			<div class="MenuItem">
+				Lists
+			</div>
+		</a>
+		<a href="SearchConfirm.php">
+			<div class="MenuItem">
+				Search
+			</div>
+		</a>
+		<a href="IDontKnowWhatToPlay.php">
+			<div class="MenuItem">
+				<u>IDK What to Play</u>
+			</div>
+		</a>
+		<a href="WeDontKnowWhatToPlay.php">
+			<div class="MenuItem">
+				<u>WDK What to Play</u>
+			</div>
+		</a>
+		<br>
+				<a href="ChartFlags.php">
+			<div class="MenuItem">
+				Unresolved Reports
+			</div>
+		</a>
+		<a href="ChangeLog.php">
+			<div class="MenuItem">
+				Change Log
+			</div>
+		</a>
+		<div id="LogIn">
+							<div
+	class="fb-login-button"
+	data-max-rows="1"
+	data-size="medium"
+	data-show-faces="false"
+	data-auto-logout-link="true"
+	onlogin="FBSession.getLoginStatus();"
+></div>				<a href="TwitterLogIn.php"><img src="Images/twitter.png"></a>
+					</div>
+	</div>
+</div>
+			<div id="fb-root"></div>
+<script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+</script>						<div id="Dialog"></div>
+			<script>
+				var DIALOG = (DIALOG) ? DIALOG : null;
+				$(document).ready(function () {
+					if (DIALOG) { return; }
+					var d = $("#Dialog");
+					DIALOG = d.dialog({
+						width : window.innerWidth *0.9,
+						height: window.innerHeight*0.9,
+						autoOpen: false
+					});
+				});
+				var ajaxDialog = function (url, params) {
+					$.ajax(url, params).done(function (data) {
+						var d = $("#Dialog");
+						d.html(data);
+						var isOpen = DIALOG.dialog("isOpen") === true;
+						if (!isOpen) {
+							DIALOG.dialog("option", "position", { my: "center", at: "center", of: window });
+							DIALOG.dialog("option", "width" , window.innerWidth *0.9);
+							DIALOG.dialog("option", "height", window.innerHeight*0.9);
+							DIALOG.dialog("open");
+						}
+					});
+				};
+			</script>
+						<script>
+				$(document).ready(function () {
+					$("a").each(function (index) {
+						if ($(this).attr("data-rel") != "dialog") {
+							$(this).attr("rel", "external");
+						}
+					});
+					$("form").attr("data-ajax", "false");
+				});
+			</script>
+			<div id="Content">
+									<center>All songs the site supports are listed here.<br>Click on song's title to see its details.<br>Click on an artist to see all its songs.<br>Click on a channel or category to apply a filter.</center>
+				<form action="Songs.php" method="GET">
+				<input
+		type="text"
+		name="SongTitle"
+		value=""
+		placeholder="Song Title"
+		class="SongTitleSearchInput"
+	>
+	<input
+		type="submit"
+		value="Search"
+		class="SongFilterSubmit"
+	>
+</form>
+<div>
+	Filters:
+	<br>
+			</div><table class="VerticalShort">
+<thead>
+<tr><th colspan="5">Song</th></tr>
+<tr>
+<th class=" TextAlignLeft">Title</th>
+<th class=" TextAlignLeft">Artist</th>
+<th class=" TextAlignLeft">B P M</th>
+<th class=" TextAlignLeft">Channel</th>
+<th>Category</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=350" onclick="">1950</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=116">SLAM</a></span></td>
+<td class="NoDataTH TextAlignLeft">200</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=220" onclick="">Accident</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=28">MAX</a></span></td>
+<td class="NoDataTH TextAlignLeft">183</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=322" onclick="">Achluoias</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=105">D_AAN</a></span></td>
+<td class="NoDataTH TextAlignLeft">200</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft SongToolTip" title="&lt;b&gt;Require Unlock Versions&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Prime JE - v1.01.0: PP 1300&lt;/li&gt;&lt;li&gt;Prime JE - v1.02.0: PP 1300&lt;/li&gt;&lt;/ul&gt;"><a href="SongDetails.php?SongId=1" onclick="">All I Want For X-mas</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">130</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=1">1ST~PERF.</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=202" onclick="">Allegro Con Fuoco</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=39">DM Ashura</a></span></td>
+<td class="NoDataTH TextAlignLeft">156</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=290" onclick="">Allegro Piu Mosso</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=39">DM Ashura</a></span></td>
+<td class="NoDataTH TextAlignLeft">169</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=24" onclick="">Another Truth</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=5">Novasonic</a></span></td>
+<td class="NoDataTH TextAlignLeft">136</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=1">1ST~PERF.</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=101" onclick="">Arch of Darkness</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=2">Yahpp</a></span></td>
+<td class="NoDataTH TextAlignLeft">135.9</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=135" onclick="">Arirang</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">160</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=191" onclick="">ASDF</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=29">Doin</a></span></td>
+<td class="NoDataTH TextAlignLeft">170</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=327" onclick="">Avalanche</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=82">Memme</a></span></td>
+<td class="NoDataTH TextAlignLeft">175</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=329" onclick="">Avalanquiem</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=28">MAX</a> &amp; <a href="ArtistDetails.php?ArtistId=82">Memme</a></span></td>
+<td class="NoDataTH TextAlignLeft">175</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a>, <a href="Songs.php?ChannelId=11">REMIX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=141" onclick="">B.P Classic Remix</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">164</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a>, <a href="Songs.php?ChannelId=11">REMIX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=143" onclick="">B.P Classic Remix 2</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">180</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a>, <a href="Songs.php?ChannelId=11">REMIX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=349" onclick="">B2</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=28">MAX</a></span></td>
+<td class="NoDataTH TextAlignLeft">158</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=342" onclick="">Bad Apple!! feat. Nomico</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=110">Masayoshi Minoshima</a></span></td>
+<td class="NoDataTH TextAlignLeft">136</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=4" onclick="">J-MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=225" onclick="">Bad Girl Good Girl</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=53">Miss A</a></span></td>
+<td class="NoDataTH TextAlignLeft">136</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=60" onclick="">Banya Classic Remix</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">162 ~ 170</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a>, <a href="Songs.php?ChannelId=11">REMIX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=61" onclick="">BANYA HIPHOP REMIX</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">99</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a>, <a href="Songs.php?ChannelId=11">REMIX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=99" onclick="">Banya-P Guitar  Remix</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">120</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a>, <a href="Songs.php?ChannelId=11">REMIX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=293" onclick="">Bar Bar Bar</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=86">Crayon Pop</a></span></td>
+<td class="NoDataTH TextAlignLeft">134</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=311" onclick="">Bar Bar Bar</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=86">Crayon Pop</a></span></td>
+<td class="NoDataTH TextAlignLeft">134</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a>, <a href="Songs.php?ChannelId=10">FULL SONGS</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=213" onclick="">Baroque Virus</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=41">Zircon</a></span></td>
+<td class="NoDataTH TextAlignLeft">135</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=279" onclick="">Be Alive (Raaban Inc. Mix)</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=78">Stian K</a></span></td>
+<td class="NoDataTH TextAlignLeft">142</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=233" onclick="">Be Mine</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=59">Infinite</a></span></td>
+<td class="NoDataTH TextAlignLeft">130</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=114" onclick="">Beat # No.4</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=21">HEaDTriP</a></span></td>
+<td class="NoDataTH TextAlignLeft">121</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a>, <a href="Songs.php?ChannelId=10">FULL SONGS</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=115" onclick="">Beat # No.4</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=21">HEaDTriP</a></span></td>
+<td class="NoDataTH TextAlignLeft">121</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=26" onclick="">Beat of The War</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">???</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=3">EXTRA~PREX 3</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=47" onclick="">Beat of The War 2</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">???</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=112" onclick="">Beat of the War 2</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=2">Yahpp</a></span></td>
+<td class="NoDataTH TextAlignLeft">???</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a>, <a href="Songs.php?ChannelId=10">FULL SONGS</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=93" onclick="">Beat The Ghost</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">124</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=25" onclick="">Bee</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">160</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=3">EXTRA~PREX 3</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=310" onclick="">Beethoven Influenza</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a> &amp; <a href="ArtistDetails.php?ArtistId=80">Warak</a></span></td>
+<td class="NoDataTH TextAlignLeft">170</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a>, <a href="Songs.php?ChannelId=11">REMIX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=4" onclick="">Beethoven Virus</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">162</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=1">1ST~PERF.</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=161" onclick="">Bemera</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=2">Yahpp</a></span></td>
+<td class="NoDataTH TextAlignLeft">210</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=110" onclick="">BEMERA</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=2">Yahpp</a></span></td>
+<td class="NoDataTH TextAlignLeft">210</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=121" onclick="">Big metra Remix</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=22">Big metra</a></span></td>
+<td class="NoDataTH TextAlignLeft">105</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a>, <a href="Songs.php?ChannelId=11">REMIX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=248" onclick="">BIG to the BANG</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=57">Bigbang</a> &amp; <a href="ArtistDetails.php?ArtistId=28">MAX</a></span></td>
+<td class="NoDataTH TextAlignLeft">135</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a>, <a href="Songs.php?ChannelId=11">REMIX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=78" onclick="">Blaze Emotion</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=2">Yahpp</a></span></td>
+<td class="NoDataTH TextAlignLeft">170</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=66" onclick="">Blazing</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">158</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=105" onclick="">Bullfighter's Song</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">168</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=176" onclick="">Butterfly</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=28">MAX</a> &amp; <a href="ArtistDetails.php?ArtistId=31">Rorychesell (SID-SOUND)</a></span></td>
+<td class="NoDataTH TextAlignLeft">128</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=228" onclick="">Can't Nobody</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=55">2NE1</a></span></td>
+<td class="NoDataTH TextAlignLeft">130</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=256" onclick="">Can't Nobody</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=55">2NE1</a></span></td>
+<td class="NoDataTH TextAlignLeft">130</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a>, <a href="Songs.php?ChannelId=10">FULL SONGS</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=79" onclick="">Cannon X.1</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=2">Yahpp</a></span></td>
+<td class="NoDataTH TextAlignLeft">185</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=58" onclick="">Canon D</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">160</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=62" onclick="">Canon D FULL Song MIX</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">160</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a>, <a href="Songs.php?ChannelId=10">FULL SONGS</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=88" onclick="">Caprice of DJ Otada</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">180</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a>, <a href="Songs.php?ChannelId=11">REMIX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=94" onclick="">Caprice of Otada</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">160</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=153" onclick="">CHICKEN WING</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">200</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=42" onclick="">Chicken Wing</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">200</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=3">EXTRA~PREX 3</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=102" onclick="">Chimera</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=2">Yahpp</a></span></td>
+<td class="NoDataTH TextAlignLeft">210</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=284" onclick="">Chinese restaurant</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=82">Memme</a></span></td>
+<td class="NoDataTH TextAlignLeft">175</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=80" onclick="">Chopsticks Challenge</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=2">Yahpp</a></span></td>
+<td class="NoDataTH TextAlignLeft">128</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=90" onclick="">Chopsticks Challenge</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=2">Yahpp</a></span></td>
+<td class="NoDataTH TextAlignLeft">128</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a>, <a href="Songs.php?ChannelId=10">FULL SONGS</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=70" onclick="">Chung Hwa Ban Jeom</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=13">Louis</a></span></td>
+<td class="NoDataTH TextAlignLeft">149.5</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=172" onclick="">Cleaner</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=29">Doin</a></span></td>
+<td class="NoDataTH TextAlignLeft">203</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=186" onclick="">Cleaner</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=29">Doin</a></span></td>
+<td class="NoDataTH TextAlignLeft">203</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=21" onclick="">Com'Back</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=9">Sechs Kies</a></span></td>
+<td class="NoDataTH TextAlignLeft">158</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=1">1ST~PERF.</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=27" onclick="">Come to Me</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">100 ~ 107</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=3">EXTRA~PREX 3</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=306" onclick="">Cosmical Rhythm</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=65">SID-Sound</a></span></td>
+<td class="NoDataTH TextAlignLeft">128</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=196" onclick="">Crashday</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=18">Crash</a></span></td>
+<td class="NoDataTH TextAlignLeft">220</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=199" onclick="">Crashday</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=18">Crash</a></span></td>
+<td class="NoDataTH TextAlignLeft">220</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a>, <a href="Songs.php?ChannelId=10">FULL SONGS</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=234" onclick="">Crayon</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=58">G-Dragon</a></span></td>
+<td class="NoDataTH TextAlignLeft">132</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=347" onclick="">Creed - 1st Desire -</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=115">TatshMusicCircle</a></span></td>
+<td class="NoDataTH TextAlignLeft">163</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=4" onclick="">J-MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=41" onclick="">Csikos Post</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">180</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=3">EXTRA~PREX 3</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=221" onclick="">D</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=28">MAX</a></span></td>
+<td class="NoDataTH TextAlignLeft">180</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=241" onclick="">Dam</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=63">Ben Chalatit</a></span></td>
+<td class="NoDataTH TextAlignLeft">141</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=126" onclick="">Dance All Night</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=25">OscillatorX</a></span></td>
+<td class="NoDataTH TextAlignLeft">140</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=127" onclick="">Dance Vibrations</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=26">Elpis</a></span></td>
+<td class="NoDataTH TextAlignLeft">130</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=39" onclick="">Dance with me</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">122</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=3">EXTRA~PREX 3</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=316" onclick="">Danza Kuduro</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=99">Don Omar</a> &amp; <a href="ArtistDetails.php?ArtistId=100">Ft. Lucenzo</a></span></td>
+<td class="NoDataTH TextAlignLeft">130</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=113" onclick="">Dawn of the Apocalypse</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=20">Vassline</a></span></td>
+<td class="NoDataTH TextAlignLeft">???</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=167" onclick="">Dawn of the Apocalypse</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=20">Vassline</a></span></td>
+<td class="NoDataTH TextAlignLeft">???</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a>, <a href="Songs.php?ChannelId=10">FULL SONGS</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=72" onclick="">Deja Vu</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=15">SOM2</a></span></td>
+<td class="NoDataTH TextAlignLeft">115</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=166" onclick="">Deja Vu</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=15">SOM2</a></span></td>
+<td class="NoDataTH TextAlignLeft">115</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a>, <a href="Songs.php?ChannelId=10">FULL SONGS</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=163" onclick="">Destination</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=3">SHK</a></span></td>
+<td class="NoDataTH TextAlignLeft">150</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=132" onclick="">Destination</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=3">SHK</a></span></td>
+<td class="NoDataTH TextAlignLeft">150</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=171" onclick="">Dieciseis</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=24">Nina Pilots</a></span></td>
+<td class="NoDataTH TextAlignLeft">143</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=119" onclick="">Digan Lo Que Digan</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=24">Nina Pilots</a></span></td>
+<td class="NoDataTH TextAlignLeft">162</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=124" onclick="">Digan Lo Que Digan</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=24">Nina Pilots</a></span></td>
+<td class="NoDataTH TextAlignLeft">162</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a>, <a href="Songs.php?ChannelId=10">FULL SONGS</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=76" onclick="">Dignity</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=18">Crash</a></span></td>
+<td class="NoDataTH TextAlignLeft">195</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=75" onclick="">DIGNITY FULL SONG MIX</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=18">Crash</a></span></td>
+<td class="NoDataTH TextAlignLeft">195</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a>, <a href="Songs.php?ChannelId=10">FULL SONGS</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=82" onclick="">DJ Otada</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">180</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=103" onclick="">Do U Know That-Old School</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">120</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=351" onclick="">Dolly Kiss</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=65">SID-Sound</a></span></td>
+<td class="NoDataTH TextAlignLeft">149</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=19" onclick="">Don't Bother Me</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=7">Tashannie</a></span></td>
+<td class="NoDataTH TextAlignLeft">110</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=1">1ST~PERF.</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=89" onclick="">Dr. KOA</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">156</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a>, <a href="Songs.php?ChannelId=11">REMIX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft SongToolTip" title="&lt;b&gt;Require Unlock Versions&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Prime JE - v1.01.0: PP 2100&lt;/li&gt;&lt;li&gt;Prime JE - v1.02.0: PP 2100&lt;/li&gt;&lt;/ul&gt;"><a href="SongDetails.php?SongId=28" onclick="">Dr. M</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">145</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=3">EXTRA~PREX 3</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=208" onclick="">Dream To Nightmare</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=44">Nightmare</a></span></td>
+<td class="NoDataTH TextAlignLeft">178</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=211" onclick="">Electric</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=48">The DNC</a></span></td>
+<td class="NoDataTH TextAlignLeft">120</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=214" onclick="">Elise</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=39">DM Ashura</a></span></td>
+<td class="NoDataTH TextAlignLeft">162</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=294" onclick="">ELVIS</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=87">AOA</a></span></td>
+<td class="NoDataTH TextAlignLeft">135</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=29" onclick="">Emperor</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">150</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=3">EXTRA~PREX 3</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=128" onclick="">Energizer</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=27">Zig Zag</a></span></td>
+<td class="NoDataTH TextAlignLeft">151.5</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=183" onclick="">Everybody Got 2 Know</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=28">MAX</a></span></td>
+<td class="NoDataTH TextAlignLeft">128</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a>, <a href="Songs.php?ChannelId=11">REMIX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=158" onclick="">Exceed2 Opening</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">???</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=44" onclick="">EXTRA BanYa Remix</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">200</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=3">EXTRA~PREX 3</a>, <a href="Songs.php?ChannelId=11">REMIX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=152" onclick="">Extravaganza</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">195</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=13" onclick="">Extravaganza</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">195</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=1">1ST~PERF.</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=230" onclick="">Fantastic Baby</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=57">Bigbang</a></span></td>
+<td class="NoDataTH TextAlignLeft">130</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=255" onclick="">Fantastic Baby</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=57">Bigbang</a></span></td>
+<td class="NoDataTH TextAlignLeft">130</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a>, <a href="Songs.php?ChannelId=10">FULL SONGS</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=96" onclick="">Faster Z</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=2">Yahpp</a></span></td>
+<td class="NoDataTH TextAlignLeft">162</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=218" onclick="">FFF</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=29">Doin</a></span></td>
+<td class="NoDataTH TextAlignLeft">200</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=261" onclick="">FFF</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=29">Doin</a></span></td>
+<td class="NoDataTH TextAlignLeft">200</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=12" onclick="">Final Audition</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">130.5</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=1">1ST~PERF.</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=147" onclick="">Final Audition 2</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">130</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=8" onclick="">Final Audition 2</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">130</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=1">1ST~PERF.</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=148" onclick="">Final Audition 3</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">130.5</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=63" onclick="">Final Audition 3</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">130.5</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=43" onclick="">Final Audition Ep. 1</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">189</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=3">EXTRA~PREX 3</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=107" onclick="">Final Audition Ep. 2-1</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=2">Yahpp</a></span></td>
+<td class="NoDataTH TextAlignLeft">170</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft SongToolTip" title="&lt;b&gt;Require Unlock Versions&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Prime JE - v1.01.0: PP 2050&lt;/li&gt;&lt;li&gt;Prime JE - v1.02.0: PP 2050&lt;/li&gt;&lt;/ul&gt;"><a href="SongDetails.php?SongId=108" onclick="">Final Audition Ep. 2-2</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=2">Yahpp</a></span></td>
+<td class="NoDataTH TextAlignLeft">200</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=149" onclick="">Final Audition EP. 2-X</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=2">Yahpp</a></span></td>
+<td class="NoDataTH TextAlignLeft">170</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=86" onclick="">Final Audition Ep. 2-X</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=2">Yahpp</a></span></td>
+<td class="NoDataTH TextAlignLeft">170</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=303" onclick="">Flying duck</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=94">Cherry Filter</a></span></td>
+<td class="NoDataTH TextAlignLeft">158</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=245" onclick="">Follow Me</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=3">SHK</a></span></td>
+<td class="NoDataTH TextAlignLeft">155</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=23" onclick="">Funky Tonight</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=10">CLON</a></span></td>
+<td class="NoDataTH TextAlignLeft">105</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=1">1ST~PERF.</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=201" onclick="">Gargoyle</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=38">Sanxion7</a></span></td>
+<td class="NoDataTH TextAlignLeft">150</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=139" onclick="">Get Up (and go)</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">164</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=69" onclick="">Get Up!</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">180</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=116" onclick="">Groove Party</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=7">Tashannie</a> &amp; <a href="ArtistDetails.php?ArtistId=10">CLON</a></span></td>
+<td class="NoDataTH TextAlignLeft">105 ~ 110</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a>, <a href="Songs.php?ChannelId=11">REMIX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=104" onclick="">Gun Rock</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">104</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=144" onclick="">Hard Core Rock Mix</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">???</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a>, <a href="Songs.php?ChannelId=11">REMIX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=269" onclick="">Hardkore of the North</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=71">Diclonius Kid</a></span></td>
+<td class="NoDataTH TextAlignLeft">190</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=297" onclick="">Hate, Don't Hate!</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=89">Dal shabet</a></span></td>
+<td class="NoDataTH TextAlignLeft">123</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=232" onclick="">Heart Breaker</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=58">G-Dragon</a></span></td>
+<td class="NoDataTH TextAlignLeft">135</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=257" onclick="">Heart Breaker</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=58">G-Dragon</a></span></td>
+<td class="NoDataTH TextAlignLeft">135</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a>, <a href="Songs.php?ChannelId=10">FULL SONGS</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=275" onclick="">Heel and Toe</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=76">KURi-ZiLL</a></span></td>
+<td class="NoDataTH TextAlignLeft">185</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=137" onclick="">Hello William</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">170</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=300" onclick="">HER</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=92">Block B</a></span></td>
+<td class="NoDataTH TextAlignLeft">162</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=6" onclick="">Hestia</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=4">Gentle Stick</a></span></td>
+<td class="NoDataTH TextAlignLeft">150</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=56" onclick="">Hi Bi</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">145</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=98" onclick="">Higgledy Piggledy</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">150</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=71" onclick="">HOT</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=14">1Tym</a></span></td>
+<td class="NoDataTH TextAlignLeft">98</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=179" onclick="">Hungarian Dance V</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">145</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=16" onclick="">Hypnosis</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">180.2</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=1">1ST~PERF.</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=217" onclick="">Hypnosis(SynthWulf Mix)</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a> &amp; <a href="ArtistDetails.php?ArtistId=49">SynthWulf</a></span></td>
+<td class="NoDataTH TextAlignLeft">175</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=74" onclick="">I'll Give You All My Love</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=17">Wax</a></span></td>
+<td class="NoDataTH TextAlignLeft">164</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=295" onclick="">I'm Sorry</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=88">CNBLUE</a></span></td>
+<td class="NoDataTH TextAlignLeft">131</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=227" onclick="">I'm The Best</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=55">2NE1</a></span></td>
+<td class="NoDataTH TextAlignLeft">128</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=253" onclick="">I'm The Best</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=55">2NE1</a></span></td>
+<td class="NoDataTH TextAlignLeft">128</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a>, <a href="Songs.php?ChannelId=10">FULL SONGS</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=215" onclick="">Ignis Fatuus(DM Ashura Mix)</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a> &amp; <a href="ArtistDetails.php?ArtistId=39">DM Ashura</a></span></td>
+<td class="NoDataTH TextAlignLeft">220</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=260" onclick="">Ignis Fatuus(DM Ashura Mix)</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=39">DM Ashura</a></span></td>
+<td class="NoDataTH TextAlignLeft">220</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=15" onclick="">Ignition Starts</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">146.05</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=1">1ST~PERF.</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=346" onclick="">Imprinting</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=114">Sakuzyo</a></span></td>
+<td class="NoDataTH TextAlignLeft">175</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=4" onclick="">J-MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=304" onclick="">Ineffective Boss Without Power</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=34">Norazo</a></span></td>
+<td class="NoDataTH TextAlignLeft">170</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=250" onclick="">Infinity RMX</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=49">SynthWulf</a> &amp; <a href="ArtistDetails.php?ArtistId=28">MAX</a></span></td>
+<td class="NoDataTH TextAlignLeft">175</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a>, <a href="Songs.php?ChannelId=11">REMIX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=173" onclick="">Interference</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=29">Doin</a></span></td>
+<td class="NoDataTH TextAlignLeft">180.4</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=184" onclick="">Interference</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=29">Doin</a></span></td>
+<td class="NoDataTH TextAlignLeft">180.4</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a>, <a href="Songs.php?ChannelId=10">FULL SONGS</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=55" onclick="">JBong</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">140</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=192" onclick="">Jonathan's Dream</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=28">MAX</a> &amp; <a href="ArtistDetails.php?ArtistId=33">Seorryang (SID-SOUND)</a></span></td>
+<td class="NoDataTH TextAlignLeft">140</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=160" onclick="">K.O.A : Alice in Wonderworld</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">156</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=83" onclick="">K.O.A : Alice In Wonderworld</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">156</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=309" onclick="">Karyawisata</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=96">Vesuvia x REDSHiFT</a></span></td>
+<td class="NoDataTH TextAlignLeft">173</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=348" onclick="">KATKOI</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=79">M2U</a></span></td>
+<td class="NoDataTH TextAlignLeft">180</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=268" onclick="">Ladybug</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=70">Coconut</a></span></td>
+<td class="NoDataTH TextAlignLeft">133</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=282" onclick="">Latino Virus</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=80">Warak</a></span></td>
+<td class="NoDataTH TextAlignLeft">170</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=287" onclick="">Leakage Voltage</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=29">Doin</a></span></td>
+<td class="NoDataTH TextAlignLeft">180</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=231" onclick="">Lie</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=57">Bigbang</a></span></td>
+<td class="NoDataTH TextAlignLeft">125</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=195" onclick="">Like A Man</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=36">Outsider</a></span></td>
+<td class="NoDataTH TextAlignLeft">180</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=197" onclick="">Like A Man</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=36">Outsider</a></span></td>
+<td class="NoDataTH TextAlignLeft">180</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a>, <a href="Songs.php?ChannelId=10">FULL SONGS</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=318" onclick="">Limbo</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=101">Daddy Yankee</a></span></td>
+<td class="NoDataTH TextAlignLeft">125</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=73" onclick="">Lion's roar</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=16">D.O</a></span></td>
+<td class="NoDataTH TextAlignLeft">126</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=243" onclick="">Log In</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=3">SHK</a></span></td>
+<td class="NoDataTH TextAlignLeft">140</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=302" onclick="">Loner</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=36">Outsider</a></span></td>
+<td class="NoDataTH TextAlignLeft">125</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=238" onclick="">Los Malaventurados No Lloran</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=23">PXNDX</a></span></td>
+<td class="NoDataTH TextAlignLeft">172</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=150" onclick="">Love is a Danger Zone</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">140</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=30" onclick="">Love is a Danger Zone</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">140</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=3">EXTRA~PREX 3</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=216" onclick="">Love Is A Danger Zone (Cranky Mix)</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a> &amp; <a href="ArtistDetails.php?ArtistId=50">Cranky</a></span></td>
+<td class="NoDataTH TextAlignLeft">155</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=53" onclick="">Love is a danger zone (try to B.P.M.)</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">140 ~ 169</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a>, <a href="Songs.php?ChannelId=11">REMIX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=111" onclick="">Love is a Danger Zone 2</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=2">Yahpp</a></span></td>
+<td class="NoDataTH TextAlignLeft">100 ~ 162</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a>, <a href="Songs.php?ChannelId=10">FULL SONGS</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=151" onclick="">Love is a Danger Zone pt. 2</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">162</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=50" onclick="">Love is a Danger Zone pt. 2</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">162</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=54" onclick="">Love is a Danger Zone pt.2 another</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">162</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=317" onclick="">Lovumba</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=101">Daddy Yankee</a></span></td>
+<td class="NoDataTH TextAlignLeft">121</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=223" onclick="">Lucid(PIU Edit)</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=51">Yak Won</a></span></td>
+<td class="NoDataTH TextAlignLeft">40 ~ 190</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=235" onclick="">Mackerel</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=34">Norazo</a></span></td>
+<td class="NoDataTH TextAlignLeft">150</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=31" onclick="">Maria</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">136</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=3">EXTRA~PREX 3</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=307" onclick="">MATADOR</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=50">Cranky</a></span></td>
+<td class="NoDataTH TextAlignLeft">168</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=319" onclick="">Melodia</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=102">Lylloo feat. Egas</a></span></td>
+<td class="NoDataTH TextAlignLeft">135</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=247" onclick="">Mental Rider</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=66">SQUAR</a></span></td>
+<td class="NoDataTH TextAlignLeft">120 ~ 140</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=286" onclick="">Meteorize</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=83">Paul Bazooka</a></span></td>
+<td class="NoDataTH TextAlignLeft">136</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=11" onclick="">Midnight Blue</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">80</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=1">1ST~PERF.</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=324" onclick="">Milky Way Galaxy</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=106">3R2</a></span></td>
+<td class="NoDataTH TextAlignLeft">175</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=46" onclick="">Mistake</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=12">U-Too</a></span></td>
+<td class="NoDataTH TextAlignLeft">110</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=3">EXTRA~PREX 3</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=344" onclick="">Mitotsudaira</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=112">ETIA.</a></span></td>
+<td class="NoDataTH TextAlignLeft">136</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=4" onclick="">J-MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=22" onclick="">Mobius Strip</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=9">Sechs Kies</a></span></td>
+<td class="NoDataTH TextAlignLeft">106</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=1">1ST~PERF.</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=65" onclick="">Monkey Fingers</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">186</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=95" onclick="">Monkey Fingers 2</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">180</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=264" onclick="">Monolith</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=67">Affinity</a></span></td>
+<td class="NoDataTH TextAlignLeft">196</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=156" onclick="">Moonlight</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">180</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft SongToolTip" title="&lt;b&gt;Require Unlock Versions&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Prime JE - v1.01.0: PP 1600&lt;/li&gt;&lt;li&gt;Prime JE - v1.02.0: PP 1600&lt;/li&gt;&lt;/ul&gt;"><a href="SongDetails.php?SongId=48" onclick="">Moonlight</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">180</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=340" onclick="">Move That Body!</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=108">DM Ashura feat. Skizzo</a> &amp; <a href="ArtistDetails.php?ArtistId=109">Hanna</a></span></td>
+<td class="NoDataTH TextAlignLeft">145</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=341" onclick="">Move That Body!</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=39">DM Ashura</a></span></td>
+<td class="NoDataTH TextAlignLeft">145</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=7" onclick="">Mr. Larpus</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">190</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=1">1ST~PERF.</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=146" onclick="">msgoon RMX pt.6</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=30">msgoon</a></span></td>
+<td class="NoDataTH TextAlignLeft">150</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a>, <a href="Songs.php?ChannelId=11">REMIX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=84" onclick="">My Dreams</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">136</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=32" onclick="">My Way</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">118</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=3">EXTRA~PREX 3</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=9" onclick="">Naissance</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">136</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=1">1ST~PERF.</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=64" onclick="">Naissance 2</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">129</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=165" onclick="">Napalm</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=29">Doin</a></span></td>
+<td class="NoDataTH TextAlignLeft">185</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=168" onclick="">NARCISISTA POR EXCELENCIA</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=23">PXNDX</a></span></td>
+<td class="NoDataTH TextAlignLeft">164</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=169" onclick="">NARCISISTA POR EXCELENCIA</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=23">PXNDX</a></span></td>
+<td class="NoDataTH TextAlignLeft">164</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a>, <a href="Songs.php?ChannelId=10">FULL SONGS</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=181" onclick="">Native</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=3">SHK</a></span></td>
+<td class="NoDataTH TextAlignLeft">135</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=205" onclick="">Necromancy</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=41">Zircon</a></span></td>
+<td class="NoDataTH TextAlignLeft">173</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=281" onclick="">Nemesis</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=79">M2U</a></span></td>
+<td class="NoDataTH TextAlignLeft">160</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=120" onclick="">Nina PXNDX Mix</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=24">Nina Pilots</a> &amp; <a href="ArtistDetails.php?ArtistId=23">PXNDX</a></span></td>
+<td class="NoDataTH TextAlignLeft">160</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a>, <a href="Songs.php?ChannelId=11">REMIX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=194" onclick="">No.3</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=35">Bae Chi Gi</a></span></td>
+<td class="NoDataTH TextAlignLeft">128</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=198" onclick="">No.3</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=35">Bae Chi Gi</a></span></td>
+<td class="NoDataTH TextAlignLeft">128</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a>, <a href="Songs.php?ChannelId=10">FULL SONGS</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=224" onclick="">Nobody</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=52">Wonder Girls</a></span></td>
+<td class="NoDataTH TextAlignLeft">131</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=301" onclick="">NoNoNo</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=93">Apink</a></span></td>
+<td class="NoDataTH TextAlignLeft">106</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=159" onclick="">NX Opening</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=2">Yahpp</a></span></td>
+<td class="NoDataTH TextAlignLeft">133</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=321" onclick="">On and On</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=104">VIXX</a></span></td>
+<td class="NoDataTH TextAlignLeft">119</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=305" onclick="">One</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=95">Epik High</a></span></td>
+<td class="NoDataTH TextAlignLeft">135</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=237" onclick="">One Two Three Go!</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=60">Belanova</a></span></td>
+<td class="NoDataTH TextAlignLeft">150</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=240" onclick="">Online</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=62">Saykoji</a></span></td>
+<td class="NoDataTH TextAlignLeft">118</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=177" onclick="">Overblow</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=28">MAX</a></span></td>
+<td class="NoDataTH TextAlignLeft">155</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=188" onclick="">Overblow</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=28">MAX</a></span></td>
+<td class="NoDataTH TextAlignLeft">155</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=37" onclick="">Oy Oy Oy</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">148</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=3">EXTRA~PREX 3</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=296" onclick="">Pandora</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=54">KARA</a></span></td>
+<td class="NoDataTH TextAlignLeft">140</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=117" onclick="">Panuelito Rojo</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=22">Big metra</a></span></td>
+<td class="NoDataTH TextAlignLeft">98</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=122" onclick="">Panuelito Rojo</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=22">Big metra</a></span></td>
+<td class="NoDataTH TextAlignLeft">98</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a>, <a href="Songs.php?ChannelId=10">FULL SONGS</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=52" onclick="">Papa Gonzales</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">145</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=142" onclick="">PaPa helloizing</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">145 ~ 158</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a>, <a href="Songs.php?ChannelId=11">REMIX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft SongToolTip" title="&lt;b&gt;Require Unlock Versions&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Prime JE - v1.01.0: PP 1650&lt;/li&gt;&lt;li&gt;Prime JE - v1.02.0: PP 1650&lt;/li&gt;&lt;/ul&gt;"><a href="SongDetails.php?SongId=212" onclick="">Passacaglia</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=49">SynthWulf</a></span></td>
+<td class="NoDataTH TextAlignLeft">175</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=259" onclick="">Passacaglia</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=49">SynthWulf</a></span></td>
+<td class="NoDataTH TextAlignLeft">175</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=189" onclick="">Pavane</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=32">V.A.</a></span></td>
+<td class="NoDataTH TextAlignLeft">160</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft SongToolTip" title="&lt;b&gt;Require Unlock Versions&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Prime JE - v1.01.0: PP 2000&lt;/li&gt;&lt;li&gt;Prime JE - v1.02.0: PP 2000&lt;/li&gt;&lt;/ul&gt;"><a href="SongDetails.php?SongId=51" onclick="">Phantom</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">136</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=140" onclick="">Phantom -Intermezzo-</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">140</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=190" onclick="">Pine Nut</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=29">Doin</a></span></td>
+<td class="NoDataTH TextAlignLeft">200</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=33" onclick="">Point Break</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">92</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=3">EXTRA~PREX 3</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=210" onclick="">Pop The Track</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=45">J-Mi</a> &amp; <a href="ArtistDetails.php?ArtistId=46">Midi-D</a> &amp; <a href="ArtistDetails.php?ArtistId=47">Ft. Hanna Stockzell</a></span></td>
+<td class="NoDataTH TextAlignLeft">160</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=258" onclick="">Pop The Track</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=45">J-Mi</a> &amp; <a href="ArtistDetails.php?ArtistId=46">Midi-D</a> &amp; <a href="ArtistDetails.php?ArtistId=47">Ft. Hanna Stockzell</a></span></td>
+<td class="NoDataTH TextAlignLeft">160</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=323" onclick="">PRIME Opening</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=28">MAX</a></span></td>
+<td class="NoDataTH TextAlignLeft">128</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=118" onclick="">Procedimientos Para Llegar A Un Comun Acuerdo</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=23">PXNDX</a></span></td>
+<td class="NoDataTH TextAlignLeft">160</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=123" onclick="">Procedimientos Para Llegar A Un Comun Acuerdo</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=23">PXNDX</a></span></td>
+<td class="NoDataTH TextAlignLeft">160</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a>, <a href="Songs.php?ChannelId=10">FULL SONGS</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=170" onclick="">Procedimientos Para Llegar A Un Comun Acuerdo</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=23">PXNDX</a></span></td>
+<td class="NoDataTH TextAlignLeft">160</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft SongToolTip" title="&lt;b&gt;Require Unlock Versions&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Prime JE - v1.01.0: PP 1350&lt;/li&gt;&lt;li&gt;Prime JE - v1.02.0: PP 1350&lt;/li&gt;&lt;/ul&gt;"><a href="SongDetails.php?SongId=67" onclick="">Pump me Amadeus</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">170</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=162" onclick="">Pumptris 8Bit ver.</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=2">Yahpp</a></span></td>
+<td class="NoDataTH TextAlignLeft">162</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=91" onclick="">Pumptris 8Bit ver.</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=2">Yahpp</a></span></td>
+<td class="NoDataTH TextAlignLeft">162</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=97" onclick="">Pumptris Quattro</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=2">Yahpp</a></span></td>
+<td class="NoDataTH TextAlignLeft">153</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=320" onclick="">Que Viva La Vida</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=103">Wisin Ft. Michel Telo</a></span></td>
+<td class="NoDataTH TextAlignLeft">130</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=315" onclick="">Rabiosa</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=97">Shakira</a> &amp; <a href="ArtistDetails.php?ArtistId=98">Ft. Pitbull</a></span></td>
+<td class="NoDataTH TextAlignLeft">133</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=308" onclick="">Ragnarok</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=49">SynthWulf</a></span></td>
+<td class="NoDataTH TextAlignLeft">170</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=276" onclick="">Rainspark</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=38">Sanxion7</a></span></td>
+<td class="NoDataTH TextAlignLeft">125</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=207" onclick="">Rave Until The Night Is Over</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=42">DM Ashura feat. MC Jay</a> &amp; <a href="ArtistDetails.php?ArtistId=43">Veronica</a></span></td>
+<td class="NoDataTH TextAlignLeft">144</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=274" onclick="">RE-RAVE</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=76">KURi-ZiLL</a></span></td>
+<td class="NoDataTH TextAlignLeft">146</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=174" onclick="">Reality</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=3">SHK</a></span></td>
+<td class="NoDataTH TextAlignLeft">135</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=289" onclick="">Red Swan</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=2">Yahpp</a></span></td>
+<td class="NoDataTH TextAlignLeft">172</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=14" onclick="">Repeatorment Remix</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">150</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=1">1ST~PERF.</a>, <a href="Songs.php?ChannelId=11">REMIX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=285" onclick="">Requiem</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=28">MAX</a></span></td>
+<td class="NoDataTH TextAlignLeft">160</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=270" onclick="">Rippin' It Up</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=72">Future Funk Squad</a></span></td>
+<td class="NoDataTH TextAlignLeft">128</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=292" onclick="">Robot battle</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=85">CYO Style</a></span></td>
+<td class="NoDataTH TextAlignLeft">198</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=291" onclick="">Rock the house</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=84">Matduke</a></span></td>
+<td class="NoDataTH TextAlignLeft">175</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=314" onclick="">Rock the house</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=84">Matduke</a></span></td>
+<td class="NoDataTH TextAlignLeft">175</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft SongToolTip" title="&lt;b&gt;Require Unlock Versions&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Prime JE - v1.01.0: PP 1600&lt;/li&gt;&lt;li&gt;Prime JE - v1.02.0: PP 1600&lt;/li&gt;&lt;/ul&gt;"><a href="SongDetails.php?SongId=266" onclick="">Rockhill</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=68">Beltaine</a></span></td>
+<td class="NoDataTH TextAlignLeft">140</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=2" onclick="">Rolling Christmas</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">142</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=1">1ST~PERF.</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=18" onclick="">Run to you</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=6">DJ DOC</a></span></td>
+<td class="NoDataTH TextAlignLeft">132</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=1">1ST~PERF.</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=325" onclick="">Selfishness</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=65">SID-Sound</a></span></td>
+<td class="NoDataTH TextAlignLeft">160</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=326" onclick="">Selfishness</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=65">SID-Sound</a></span></td>
+<td class="NoDataTH TextAlignLeft">160</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=38" onclick="">Set me up</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">120</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=3">EXTRA~PREX 3</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=145" onclick="">Set Up Me2 Mix</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">122</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a>, <a href="Songs.php?ChannelId=11">REMIX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=229" onclick="">Shanghai Romance</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=56">Orange Caramel</a></span></td>
+<td class="NoDataTH TextAlignLeft">149</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=254" onclick="">Shanghai Romance</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=56">Orange Caramel</a></span></td>
+<td class="NoDataTH TextAlignLeft">149</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a>, <a href="Songs.php?ChannelId=10">FULL SONGS</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=239" onclick="">Sik Asik</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=61">Ayu Ting Ting</a></span></td>
+<td class="NoDataTH TextAlignLeft">147</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=17" onclick="">Slam</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=5">Novasonic</a></span></td>
+<td class="NoDataTH TextAlignLeft">131.99</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=1">1ST~PERF.</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=204" onclick="">Smells Like A Chocolate</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=40">Vospi</a></span></td>
+<td class="NoDataTH TextAlignLeft">175.9</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=343" onclick="">Smile Diary</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=111">you</a></span></td>
+<td class="NoDataTH TextAlignLeft">175</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=4" onclick="">J-MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=5" onclick="">Solitary</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">136</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=1">1ST~PERF.</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=92" onclick="">Solitary 1.5</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=2">Yahpp</a></span></td>
+<td class="NoDataTH TextAlignLeft">136</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=155" onclick="">Solitary 2</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">136</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=57" onclick="">Solitary 2</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">136</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=130" onclick="">Sorceress Elise</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=2">Yahpp</a></span></td>
+<td class="NoDataTH TextAlignLeft">158</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=280" onclick="">Star Command</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=41">Zircon</a></span></td>
+<td class="NoDataTH TextAlignLeft">155</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=45" onclick="">Starian</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=11">DUKE</a></span></td>
+<td class="NoDataTH TextAlignLeft">134.9</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=3">EXTRA~PREX 3</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=226" onclick="">Step</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=54">KARA</a></span></td>
+<td class="NoDataTH TextAlignLeft">123</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=252" onclick="">STEP</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=54">KARA</a></span></td>
+<td class="NoDataTH TextAlignLeft">123</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a>, <a href="Songs.php?ChannelId=10">FULL SONGS</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=345" onclick="">Sudden Romance [PIU Edit]</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=113">void</a></span></td>
+<td class="NoDataTH TextAlignLeft">152</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=4" onclick="">J-MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=339" onclick="">Sugar Conspiracy Theory</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=28">MAX</a></span></td>
+<td class="NoDataTH TextAlignLeft">170</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=242" onclick="">Sugar Eyes</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=64">Sugar Eyes</a></span></td>
+<td class="NoDataTH TextAlignLeft">122</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=299" onclick="">Sugar Free</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=91">T-ara</a></span></td>
+<td class="NoDataTH TextAlignLeft">128</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=312" onclick="">Sugar Free</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=91">T-ara</a></span></td>
+<td class="NoDataTH TextAlignLeft">128</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a>, <a href="Songs.php?ChannelId=10">FULL SONGS</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=288" onclick="">Super Fantasy</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=3">SHK</a></span></td>
+<td class="NoDataTH TextAlignLeft">145</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=249" onclick="">Super Mackerel</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=34">Norazo</a> &amp; <a href="ArtistDetails.php?ArtistId=28">MAX</a></span></td>
+<td class="NoDataTH TextAlignLeft">150</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a>, <a href="Songs.php?ChannelId=11">REMIX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=298" onclick="">Supermagic</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=90">Supreme Team</a></span></td>
+<td class="NoDataTH TextAlignLeft">112</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=193" onclick="">Superman</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=34">Norazo</a></span></td>
+<td class="NoDataTH TextAlignLeft">150</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=267" onclick="">Switchback</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=69">Celldweller</a></span></td>
+<td class="NoDataTH TextAlignLeft">112</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=273" onclick="">Take Me Back</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=75">KaW</a></span></td>
+<td class="NoDataTH TextAlignLeft">172</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=175" onclick="">Take Out</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=3">SHK</a></span></td>
+<td class="NoDataTH TextAlignLeft">170</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=187" onclick="">Take Out</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=3">SHK</a></span></td>
+<td class="NoDataTH TextAlignLeft">170</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=136" onclick="">Tek -Club Copenhagen-</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">132</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=164" onclick="">Tepris</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=29">Doin</a></span></td>
+<td class="NoDataTH TextAlignLeft">145</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=180" onclick="">The Devil</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">130 ~ 240</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=81" onclick="">The People didn't know</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">134</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=87" onclick="">The People didn't know Pumping up</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">134</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a>, <a href="Songs.php?ChannelId=11">REMIX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=36" onclick="">Till the end of time</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">140</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=3">EXTRA~PREX 3</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=85" onclick="">Toccata</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">104</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=125" onclick="">Trato De No Trabarme</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=22">Big metra</a></span></td>
+<td class="NoDataTH TextAlignLeft">105</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a>, <a href="Songs.php?ChannelId=10">FULL SONGS</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=59" onclick="">Tream Vook of the war REMIX</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">184 ~ 202</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a>, <a href="Songs.php?ChannelId=11">REMIX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=271" onclick="">Tribe Attacker</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=73">Hi-G</a></span></td>
+<td class="NoDataTH TextAlignLeft">150</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=185" onclick="">Trotpris</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=29">Doin</a></span></td>
+<td class="NoDataTH TextAlignLeft">156.118</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=10" onclick="">Turkey March</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">150</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=1">1ST~PERF.</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=138" onclick="">Turkey March -Minimal Tunes-</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">130</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=236" onclick="">Two Guys</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=35">Bae Chi Gi</a></span></td>
+<td class="NoDataTH TextAlignLeft">128</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=131" onclick="">U Got 2 Know</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=28">MAX</a></span></td>
+<td class="NoDataTH TextAlignLeft">127</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=222" onclick="">U Got Me Rocking</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=28">MAX</a></span></td>
+<td class="NoDataTH TextAlignLeft">128</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=263" onclick="">U Got Me Rocking</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=28">MAX</a></span></td>
+<td class="NoDataTH TextAlignLeft">128</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=106" onclick="">Ugly Dee</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">92</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft SongToolTip" title="&lt;b&gt;Require Unlock Versions&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Prime JE - v1.01.0: PP 1550&lt;/li&gt;&lt;li&gt;Prime JE - v1.02.0: PP 1550&lt;/li&gt;&lt;/ul&gt;"><a href="SongDetails.php?SongId=219" onclick="">Unique</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=3">SHK</a></span></td>
+<td class="NoDataTH TextAlignLeft">145</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=262" onclick="">Unique</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=3">SHK</a></span></td>
+<td class="NoDataTH TextAlignLeft">145</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=277" onclick="">Utopia</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=77">Smiley</a></span></td>
+<td class="NoDataTH TextAlignLeft">166</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=133" onclick="">Vacuum</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=29">Doin</a></span></td>
+<td class="NoDataTH TextAlignLeft">200</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=182" onclick="">Vacuum Cleaner</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=29">Doin</a></span></td>
+<td class="NoDataTH TextAlignLeft">222.22</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a>, <a href="Songs.php?ChannelId=11">REMIX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=331" onclick="">Venus</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=107">Shinhwa</a></span></td>
+<td class="NoDataTH TextAlignLeft">126</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=328" onclick="">Very good</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=92">Block B</a></span></td>
+<td class="NoDataTH TextAlignLeft">136</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=272" onclick="">Virtual Emotion</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=74">Inspector K</a></span></td>
+<td class="NoDataTH TextAlignLeft">180</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=40" onclick="">Vook</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">184</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=3">EXTRA~PREX 3</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=209" onclick="">VVV</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=27">Zig Zag</a></span></td>
+<td class="NoDataTH TextAlignLeft">310</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=20" onclick="">We Are</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=8">DEUX</a></span></td>
+<td class="NoDataTH TextAlignLeft">115.9</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=1">1ST~PERF.</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft SongToolTip" title="&lt;b&gt;Require Unlock Versions&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Prime JE - v1.01.0: PP 1150&lt;/li&gt;&lt;li&gt;Prime JE - v1.02.0: PP 1150&lt;/li&gt;&lt;/ul&gt;"><a href="SongDetails.php?SongId=178" onclick="">We Got 2 Know</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=28">MAX</a></span></td>
+<td class="NoDataTH TextAlignLeft">128</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=251" onclick="">What Are You Doin?</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=29">Doin</a> &amp; <a href="ArtistDetails.php?ArtistId=28">MAX</a></span></td>
+<td class="NoDataTH TextAlignLeft">200</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a>, <a href="Songs.php?ChannelId=11">REMIX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=77" onclick="">What Do You Really Want?</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=18">Crash</a></span></td>
+<td class="NoDataTH TextAlignLeft">110</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=1" onclick="">K-POP</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=200" onclick="">What Happened</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=37">Throwdown</a></span></td>
+<td class="NoDataTH TextAlignLeft">130</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=109" onclick="">WI-EX-DOC-VA</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=2">Yahpp</a></span></td>
+<td class="NoDataTH TextAlignLeft">195</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a>, <a href="Songs.php?ChannelId=11">REMIX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=35" onclick="">Will-O-The-Wisp</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">210</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=3">EXTRA~PREX 3</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=244" onclick="">Windmill</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=51">Yak Won</a></span></td>
+<td class="NoDataTH TextAlignLeft">246</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=154" onclick="">Winter</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">168</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=34" onclick="">Winter</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">168</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=3">EXTRA~PREX 3</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=157" onclick="">Witch Doctor</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">195</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=49" onclick="">Witch Doctor</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">195</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=100" onclick="">Witch Doctor #1</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=2">Yahpp</a></span></td>
+<td class="NoDataTH TextAlignLeft">122</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=5">NX~NXA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=68" onclick="">X Treme</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=1">BanYa</a></span></td>
+<td class="NoDataTH TextAlignLeft">162</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=4">EXCEED~ZERO</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=203" onclick="">X-Rave</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=39">DM Ashura</a></span></td>
+<td class="NoDataTH TextAlignLeft">147</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=206" onclick="">X-Rave</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=39">DM Ashura</a></span></td>
+<td class="NoDataTH TextAlignLeft">147</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=7">FIESTA EX</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=134" onclick="">Xenesis</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=19">BanYa Production</a></span></td>
+<td class="NoDataTH TextAlignLeft">152</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=129" onclick="">XTREE</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=2">Yahpp</a></span></td>
+<td class="NoDataTH TextAlignLeft">190</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=6">FIESTA</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=278" onclick="">Xuxa</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=77">Smiley</a></span></td>
+<td class="NoDataTH TextAlignLeft">160</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=265" onclick="">Y2Z</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=67">Affinity</a></span></td>
+<td class="NoDataTH TextAlignLeft">162</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=2" onclick="">WORLD MUSIC</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=246" onclick="">Yeo rae a</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=65">SID-Sound</a></span></td>
+<td class="NoDataTH TextAlignLeft">90</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=8">FIESTA 2</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=283" onclick="">Yog-Sothoth</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=81">Nato</a></span></td>
+<td class="NoDataTH TextAlignLeft">200</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=313" onclick="">Yog-Sothoth</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=81">Nato</a></span></td>
+<td class="NoDataTH TextAlignLeft">200</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a>, <a href="Songs.php?ChannelId=12">SHORT CUT</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+<tr>
+<td class="NoDataTH TextAlignLeft"><a href="SongDetails.php?SongId=330" onclick="">You Got Me Crazy</a></td>
+<td class="NoDataTH TextAlignLeft"><span><a href="ArtistDetails.php?ArtistId=28">MAX</a></span></td>
+<td class="NoDataTH TextAlignLeft">128</td>
+<td class="NoDataTH TextAlignLeft"><span><a href="Songs.php?ChannelId=9">PRIME</a></span></td>
+<td class="NoDataTH"><a href="Songs.php?CategoryId=3" onclick="">ORIGINAL</a></td>
+</tr>
+</tbody>
+</table>
+				<script>
+					$('.tooltip').tooltipster();
+					$('.SongToolTip').tooltipster({
+						contentAsHTML: true
+					});
+					$('.StepBallToolTip').tooltipster({
+						contentAsHTML: true
+					});
+					$('.StepBallToolTipMobile').tooltipster({
+						contentAsHTML: true
+					});
+					$('.StepBallToolTipInteractive').tooltipster({
+						contentAsHTML: true,
+						interactive: true
+					});
+					$('.StepBallToolTipInteractiveMobile').tooltipster({
+						contentAsHTML: true,
+						interactive: true
+					});
+				</script>
+				<div id="FooterSpace">
+					&nbsp;
+				</div>
+							</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+	<script src="include/underscore/underscore-min.js"></script>
+</head>
+
+<script src="tracklist.js"></script>
+<script src="tracklist_src.js"></script>
+<script src="tracklist_src_add.js"></script>
+<!--
+<script src="check.js"></script>
+<script src="check_Exceed2_Zero.js"></script>
+<script src="check_NX.js"></script>
+<script src="check_NX2_NXA.js"></script>
+-->
+<!-- -->
+<script src="tracklist_bpms.js"></script>
+<!-- <script src="tracklist_unlocks.js"></script> -->
+<!-- <script src="tracklist_level_estimations.js"></script> -->
+
+<code>
+<script>
+function JStr( obj )
+{
+	return JSON.stringify( obj, null, 1 );
+}
+
+function JStrWQ( obj )
+{
+	var jstr = JStr( obj );
+	return jstr.substring( 3, jstr.length - 2 );
+}
+
+// document.write( JSON.stringify( tracklist, null, 2 ) );
+for( var trackID in tracklist )
+{
+	var track = tracklist[ trackID ];
+	for( var mixID of mixesOrder )
+	{
+		delete track.chartsCount;
+
+		var mixCharts = track[ mixID ];
+		if( ! mixCharts )
+			continue;
+
+		track[ mixID ] = {};
+		for( var chart of mixCharts )
+		{
+			if( chart.realLevelNum === chart.levelNum )
+				delete chart.realLevelNum;
+
+			if( String( chart.levelNum ) === chart.levelText )
+				delete chart.levelNum;
+
+			var newTagIndex = NewTags.indexOf( chart.tag );
+			if( newTagIndex >= 0 )
+			{
+				if( NewTagTypes[ newTagIndex ] === chart.type )
+					delete chart.type;
+			}
+
+			var oldArcadeTagIndex = OldArcadeTags.indexOf( chart.tag );
+			if( oldArcadeTagIndex >= 0 )
+			{
+				if( track.duration === STANDARD  &&  chart.zone === ARCADE )
+					delete chart.zone;
+				if( ( track.duration === REMIX  ||  track.duration === FULL )  &&  chart.zone === SPECIAL )
+					delete chart.zone;
+				if( OldTagTypes[ oldArcadeTagIndex ] === chart.type )
+					delete chart.type;
+			}
+
+			var oldSpecialTagIndex = OldSpecialTags.indexOf( chart.tag );
+			if( oldSpecialTagIndex >= 0 )
+			{
+				if( chart.zone === SPECIAL )
+					delete chart.zone;
+				if( OldTagTypes[ oldSpecialTagIndex ] === chart.type )
+					delete chart.type;
+			}
+
+			if( chart.tag + chart.levelText === chart.text  ||  chart.tag + "-" + chart.levelText === chart.text )
+			{
+				chart.text = chart.tag + "-" + chart.levelText;
+				delete chart.tag;
+				delete chart.levelText;
+			}
+
+			//if( chart.levelText === chart.text )
+			//	delete chart.levelText;
+
+			var chartIndex = chart.index;
+			delete chart.index;
+			if( Object.keys( chart ).length === 1 )  // only "text"
+				chart = chart.text;
+			track[ mixID ][ chartIndex ] = chart;
+		}
+	}
+}
+
+//document.write( Object.keys( tracklist ).length + " tracks:<br><br>")
+
+document.write("{<br><br>");
+
+result = ""
+
+var nextTrack = false;
+for( var trackID in tracklist )
+{
+	if( nextTrack )
+		result += ",<br><br>";
+	else
+		nextTrack = true;
+
+	
+	var track = tracklist[ trackID ];
+
+	track.title = track.title.replace( "  ", "&nbsp;&nbsp;" );
+
+	var mixesTemp = {};
+	for( var mixID of mixesOrder )
+	{
+		mixesTemp[ mixID ] = track[ mixID ];
+		delete track[ mixID ];
+	}
+
+	result += JStr( trackID ) + ": {<br>&nbsp;" + JStrWQ( track ) + ",<br>";
+
+	var nextMix = false;
+	for( var mixID of mixesOrder )
+	{
+		var mixCharts = mixesTemp[ mixID ];
+		if( mixCharts )
+		{
+			if( nextMix )
+				result += ",<br>";
+			else
+				nextMix = true;
+			result += "\t&nbsp;" + JStr( mixID ) + ": {<br>";
+
+			var nextChart = false;
+			for( var chartIndex in mixCharts )
+			{
+				if( nextChart )
+					result += ",<br>";
+				else
+					nextChart = true;
+				result += "&nbsp;&nbsp;" + JStr(chartIndex) + ": " + JStr( mixCharts[ chartIndex ] );
+			}
+
+			result += "<br>&nbsp;}";
+		}
+	}
+	result += "<br>}";
+}
+document.write( result );
+document.write("<br><br>}");
+</script>
+</code>
+
+</body>
+</html>

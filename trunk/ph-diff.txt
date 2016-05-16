@@ -1,0 +1,126 @@
+Zero:
+
+'Beat of the War'  differs from check list:
+Zero NL - 5 или 3,  HD - 9 или 6
+- -  list is  Zero: ["5","9","13","9","19"],
+- - check is  Zero: ["3","6","13","9","19"],
+
+'Bee'  differs from check list:
+Zero HD - 6 или 9
+- -  list is  Zero: ["3","6","13","9","20"],
+- - check is  Zero: ["3","9","13","9","20"],
+
+'Bullfighter's Song'  differs from check list:
+Zero HD - 8 или 9
+- -  list is  NX: ["4","8","15/16","6","20"],
+- - check is  NX: ["4","9","15/16","6","20"],
+
+'Canon-D'  differs from check list:
+Zero HD - 5 или 8
+- -  list is  Zero: ["2","5","20","8","21"],
+- - check is  Zero: ["2","8","20","8","21"],
+
+'Clap Your Hands'  differs from check list:
+Zero NM - 14 или 11 (вроде 14)
+- -  list is  Zero: ["2","5","9","5","14"],
+- - check is  Zero: ["2","5","9","5","11"],
+
+'J Bong'  differs from check list:
+Zero FS - 5 или 8
+- -  list is  Zero: ["5","7","13","5","19"],
+- - check is  Zero: ["5","7","14","8","19"],
+
+'What Do You Really Want?'  differs from check list:
+Zero NM - 14 или 16
+- -  list is  Zero: ["2","7","18","7","14"],
+- - check is  Zero: ["2","7","18","7","16"],
+
+
+NX:
+'Hyun Jin Young Go Jin Young Go'  differs from check list:
+NX HD - 6 или 3
+- -  list is  NX: ["2","6","19","6","19"],
+- - check is  NX: ["2","3","19","6","19"],
+
+'Mr. Larpus'  differs from check list:
+NX HD - 11 или 10
+- -  list is  NX: ["4","11","14","14","17"],
+- - check is  NX: ["4","10","14","14","17"],
+
+
+NX2:
+
+'For You'  differs from check list:
+NX2 FS - 2 или 5
+- -  list is  NX2: ["1","5","14","2","20"],
+- - check is  NX2: ["1","5","14","5","20"],
+
+'Oh My!'  differs from check list:
+NX2 - нормала нет или 2
+- -  list is  NX2: ["","4","10","4","11"],
+- - check is  NX2: ["2","4","10","4","11"],
+
+'Come to Me'  differs from check list:
+NX2 aCZ - 17 или 15
+- -  list is  NX2_: ["","12","15","","14"],
+- - check is  NX2_: ["","12","17","","14"],
+
+
+NXA:
+
+'Chopsticks Challenge'  differs from check list:
+NXA NL - 3 или 1
+- -  list is  NXA: ["3","6","17","3","16"],
+- - check is  NXA: ["1","6","17","3","16"],
+
+'Crazy'  differs from check list:
+NXA HD - 6 или 5
+- -  list is  NXA: ["2","6","15","6","19"],
+- - check is  NXA: ["2","5","15","6","19"],
+
+'Do It!'  differs from check list:
+NXA FS - 5 или 4
+- -  list is  NXA: ["2","6","15","5","18"],
+- - check is  NXA: ["2","6","15","4","18"],
+
+'Dr. M'  differs from check list:
+NXA NM - 15 или 16
+- -  list is  NXA: ["4","7","12","11","15"],
+- - check is  NXA: ["4","7","12","11","16"],
+
+'Valenti'  differs from check list:
+тут вообще с версией всё ясно
+- -  list is  NX: undefined,
+- - check is  NX: ["2","4","11","4","13"],
+
+
+
+Различия только из-за доп оценки:
+'Canon-D'  differs from check list:
+- -  list is  Exceed2: ["2","6","??(20)","7","??(22)"],
+- - check is  Exceed2: ["2","6","??","7","??"],
+
+'Chimera'  differs from check list:
+- -  list is  NX: ["8","15/16","22","20","??(25)"],
+- - check is  NX: ["8","15/16","22","20","???"],
+- -  list is  NX2: ["8","17","23","20","??(25)"],
+- - check is  NX2: ["8","17","23","20","25"],
+- -  list is  NXA: ["7","16","23","21","??(25)"],
+- - check is  NXA: ["7","16","23","21","??"],
+
+'Final Audition Episode 2-2'  differs from check list:
+- -  list is  NX: ["7","15/16","21","18","??(24)"],
+- - check is  NX: ["7","15/16","21","18","???"],
+
+'Final Audition Episode 2-X'  differs from check list:
+- -  list is  NXA: ["8","17","??(23)","21","??(24)"],
+- - check is  NXA: ["8","17","25","21","25"],
+
+'Faster Z'  differs from check list:
+- -  list is  NX2: ["4","11","20","15","??(24)"],
+- - check is  NX2: ["4","11","20","15","25"],
+
+'Pumptris Quattro'  differs from check list:
+- -  list is  NX2: ["3","8","20","14","??(22)"],
+- - check is  NX2: ["3","8","20","14","25"],
+

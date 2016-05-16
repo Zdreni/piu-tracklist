@@ -1,0 +1,2 @@
+ChartDetails\.php\?ChartId=\d+" class="(.+)"
+						&lt;/tr&gt;&lt;/table&gt;' class="S04 StepBallToolTip" onclick="ajaxDialog('http://pumpout.anyhowstep.com/ChartDetails.php?ChartId=1304&amp;NoMenuBar=on')"></a></td>

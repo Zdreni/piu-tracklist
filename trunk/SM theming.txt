@@ -1,0 +1,72 @@
+Перечень экранов и управление в них описывается в metrics.ini
+Каждый экран - раздел (например, "[ScreenPrefPrompt]")
+Опции:
+	Fallback (string)
+	PrevScreen (string)
+	NextScreen (string)
+	AllowDisabledPlayerInput
+
+	ChoiceNames
+	DefaultChoice
+	Choice<название> (command)
+
+	ShowIcon (bool)
+	UseIconMetrics
+	IconGainFocusCommand
+	IconLoseFocusCommand
+	IconChoice<название>X
+	IconChoice<название>Y
+
+	StopMusicOnBack (bool)
+	PlayMusic (bool)
+	WaitForChildrenBeforeTweening (bool)
+
+	ForceTimer (bool)
+	TimerMetricsGroup (string)
+	TimerSeconds (int)
+	TimerOnCommand (command)
+	TimerX
+	TimerY
+
+
+	PerChoiceScrollElement (bool)
+	WrapScroller (bool)
+	ShowScroller (bool)
+	ScrollerX (int)
+	ScrollerY (int)
+	ScrollerOnCommand (command)
+	ScrollerOffCommand (command)
+	ScrollerTransform (function)
+	
+
+В ChoiceNames через запятую перечисляются опции, которые игрок может выбрать
+Например:
+	ChoiceNames="Yes,No"
+
+Тогда по мотивам этих названий будут ещё считываться строки действий:
+	ChoiceYes="screen,ScreenTitleMenu"
+	ChoiceNo="screen,ScreenTitleMenu"
+
+команда может быть формата
+	"screen,ScreenSelectProfile;applydefaultoptions;text,Play;"
+это значит, что надо перейти на экран ScreenSelectProfile, что текст с названием команды
+будет "Play", и что надо что-то сделать с "applydefaultoptions" (??)
+
+В DefaultChoice указывается один из вариантов, который должен быть по умолчанию.
+
+IconChoice2X=SCREEN_CENTER_X-20
+IconChoice2Y=THEME:GetMetric("ScreenTitleMenu","IconPositionY");
+
+
+Начальный экран задаётся в [Common]InitialScreen
+
+Что такое:
+	PrepareScreens - предположительно, какой экран надо загружать заранее
+	NextScreen
+	StartScreen
+?
+TimerSeconds - кол-во секунд, после которых экран перейдёт в другой
+
+В metrics.ini можно вызывать функции вместо конкретных строк, например:
+	NextScreen=SetPrefBranch()
+Тогда эта функция будет читать например из ThemeConfig.lua

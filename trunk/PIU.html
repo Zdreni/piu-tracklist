@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>Pump It Up tracks</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+<!--
+  This is fix for loading jquery mobile 1.45 for some unknown reason
+  Details at http://stackoverflow.com/questions/32453806/uncaught-securityerror-failed-to-execute-replacestate-on-history-cannot-be
+-->
+<script>
+    $(document).bind('mobileinit',function(){
+        $.mobile.changePage.defaults.changeHash = false;
+        $.mobile.hashListeningEnabled = false;
+        $.mobile.pushStateEnabled = false;
+    });
+</script> 
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="http://underscorejs.org/underscore-min.js"></script>
+<!--
+	<link rel="stylesheet" href="include/jquery-mobile/jquery.mobile-1.4.5.min.css" />
+	<script src="include/jquery/jquery-2.1.4.min.js"></script>
+	<script src="include/jquery-mobile/jquery.mobile-1.4.5.min.js"></script>
+	<script src="include/jquery-modal/jquery.modal.js" type="text/javascript" charset="utf-8"></script>
+	<script src="include/underscore/underscore-min.js"></script>
+-->
+</head>
+<body style="max-width:800px; margin-left:auto ;margin-right:auto">
+
+<script src="tracklist.js"></script>
+<script src="tracklist_src.js"></script>
+<!--
+<script src="check.js"></script>
+<script src="check_Exceed2_Zero.js"></script>
+<script src="check_NX.js"></script>
+<script src="check_NX2_NXA.js"></script>
+-->
+<!-- -->
+<script src="tracklist_bpms.js"></script>
+<script src="tracklist_unlocks.js"></script>
+<script src="tracklist_level_estimations.js"></script>
+<!-- -->
+<script src="UI.js"></script>
+
+<!--
+<div id="ex1" style="display:none;">
+	<p>Thanks for clicking.  That felt good.
+		<a href="#" rel="modal:close">Close</a> or press ESC
+	</p>
+</div>
+<p><a href="#ex1" rel="modal:open">Open Modal</a></p>
+
+<div data-role="fieldcontain">
+   <label for="select-mix" class="select">Mix:</label>
+   <select name="select-mix" id="select-mix">
+      <option value="0">Exceed</option>
+      <option value="1">Exceed 2</option>
+      <option value="2">Zero</option>
+      <option value="3">NX</option>
+      <option value="4">NX 2</option>
+      <option value="5">NX Absolute</option>
+      <option value="6">Fiesta</option>
+      <option value="7">Fiesta EX</option>
+      <option value="8">Fiesta 2</option>
+      <option value="9">Prime</option>
+   </select>
+</div>
+
+<div data-role="fieldcontain">
+   <label for="select-version" class="select">Ver:</label>
+   <select name="select-mix" id="select-mix">
+      <option value="0">1.0</option>
+      <option value="1">1.01</option>
+      <option value="2">1.02</option>
+      <option value="3">1.10</option>
+      <option value="4">1.20</option>
+   </select>
+</div>
+-->
+
+<script>
+AddRadioButtons( {
+	legend: "Mix:",  id: "Mix",
+	items: [
+		{ title: "Exceed"   }, { title: "Exceed2"  }, { title: "Zero"     }, { title: "NX"       }, { title: "NX2"      }, { title: "NXA"      },
+		{ title: "Fiesta"   }, { title: "FiestaEX" }, { title: "Fiesta2"  }, { title: "Prime"    },
+	],
+	
+	onSelect: function( item )
+	{
+		$("#ChartType").show();
+		$("#ChartZone").toggle( mixes[ item.title ].style === "old" );
+		$("#TrackDuration").toggle( mixes[ item.title ].style === "new" );
+
+		chartFilter.mixID = item.title;
+		var mixPatches = mixes[ chartFilter.mixID ].patches;
+		chartFilter.patchIndex = mixPatches  ?  mixPatches.length - 1  :  0;
+
+		UpdateList();
+	}
+} );
+
+
+AddRadioButtons( {
+	legend: "Exclude mixes:",  id: "NotMix",
+	items: [
+		{ title: "Exceed"   }, { title: "Exceed2"  }, { title: "Zero"     }, { title: "NX"       }, { title: "NX2"      }, { title: "NXA"      },
+		{ title: "Fiesta"   }, { title: "FiestaEX" }, { title: "Fiesta2"  }, { title: "Prime"    },
+	],
+	type: "checkbox",
+	
+	onToggle: function( item, checked )
+	{
+		if( checked )
+			chartFilter.excludeMixIDs.push( item.title );
+		else
+			chartFilter.excludeMixIDs.splice( chartFilter.excludeMixIDs.indexOf( item.title ), 1 );
+
+		UpdateList();
+	}
+} );
+
+
+AddRadioButtons( {
+	hidden: true,  inline: true,
+	legend: "Chart type:",  id: "ChartType",
+	items: [
+		{ title: "Singles", setType: SINGLE },
+		{ title: "Doubles", setType: DOUBLE },
+		{ title: "Couples", setType: COUPLE },
+	],
+	autoSelect: "Singles",
+	onSelect: function( item )
+	{
+		chartFilter.type = item.setType;
+		UpdateList();
+	}
+} );
+
+
+
+AddRadioButtons( {
+	hidden: true,  inline: true,
+	legend: "Zone:",  id: "ChartZone",
+	items: [
+		{ title: "Arcade",  setZone: ARCADE,  setDuration: STANDARD },
+		{ title: "Another", setZone: SPECIAL, setDuration: STANDARD },
+		{ title: "Remix",   setZone: SPECIAL, setDuration: REMIX    },
+		{ title: "Full",    setZone: SPECIAL, setDuration: FULL     },
+	],
+	autoSelect: "Arcade",
+	onSelect: function( item )
+	{
+		chartFilter.old.zone = item.setZone;
+		chartFilter.old.duration = item.setDuration;
+		UpdateList();
+	}
+} );
+
+
+AddRadioButtons( {
+	hidden: true,  inline: true,
+	legend: "Duration:",  id: "TrackDuration",
+	items: [
+		{ title: "Short",    setDuration: SHORT    },
+		{ title: "Standard", setDuration: STANDARD },
+		{ title: "Remix",    setDuration: REMIX    },
+		{ title: "Full",     setDuration: FULL     },
+	],
+	autoSelect: "Standard",
+	onSelect: function( item )
+	{
+		chartFilter.new.duration = item.setDuration;
+		UpdateList();
+	}
+} );
+</script>
+
+<!--
+	Level slider
+-->
+<form id="slider-levels">
+	<label for="slider-range">Level:</label>
+	<input type="range" name="slider-range" id="slider-range" data-highlight="true" min="0" max="27" value="10">
+</form>
+
+<script>
+$( "#slider-levels" ).change(function() {
+	chartFilter.levelMin = chartFilter.levelMax = parseInt( $("#slider-range").val() );
+	UpdateList();
+});
+
+chartFilter.levelMin = chartFilter.levelMax = parseInt( $("#slider-range").val() );
+
+//$("#slider-levels").style.margin = "10px 50px 30px 50px";
+
+function setLevelsRange( from, to )
+{
+	chartFilter.levelMin = from;
+	chartFilter.levelMax = to;
+
+	//$( "#amount" ).val( from + " - " + to );
+	//$( "#amount" ).html( "Levels: " + from + " - " + to );
+}
+</script>
+
+<style>
+.ChartInfoTable {
+    position:relative;
+}
+.ChartInfoTable td {
+    border:1px solid #CCCCCC;
+    height:45px;
+    text-align:center;
+    vertical-align:middle;
+    position:relative;
+}
+.ChartInfo {
+    color:Black;
+    position: relative;
+}
+.ChartCellNote {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    text-align:right;
+    vertical-align:top;
+}
+</style>
+
+
+<!--
+	Random picker
+-->
+<div data-role="collapsible" data-content-theme="c">
+	<h3>Randomizer</h3>
+	<p>
+		<div id="random-track-descr" align="center" style="margin: 15px 0px 0px 15px; color:#62c462; font-weight:bold; font-size:150%"></div>
+		<button type="button" class="btn btn-warning" id="pick-random">Pick random!</button>
+   </p>
+</div>
+
+<!--
+		<table class="ChartInfoTable">
+			<tr><td><span class="ChartInfo">Final Audition episode 2-1</span> <span class="ChartCellNote">TITLE</span><td></tr>
+			<tr><td></td></td></td></tr>
+		</table>
+-->
+
+<script>
+	$( "#pick-random" ).click( function() {
+		var item = chartFilter.GetNextRandomItem();
+		if( item )
+		{
+			var randomTrackDescr = item.track.title + " &nbsp; " + ChartDescr( item.chart ) + "<br>" +
+								   item.track.artist + "<br>[" + GetTrackFirstMix( item.track ) + ", " + item.track.channel + "]";
+			$( "#random-track-descr" ).html( randomTrackDescr );
+		}
+	} );
+</script>
+	</center>
+
+<style>
+th {
+    border-bottom: 1px solid #d6d6d6;
+}
+
+tr:nth-child(even) {
+    background: #e9e9e9;
+}
+
+table { border-collapse: collapse; empty-cells: show; }
+
+td { position: relative; }
+
+tr.strikeout td:before {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  border-bottom: 1px solid #111;
+  width: 100%;
+}
+
+tr.strikeout td:after {
+  content: "\00B7";
+  font-size: 1px;
+}
+</style>
+
+	<table data-role="table" class="ui-responsive ui-shadow">
+		<thead><tr><th>Name</th><th>Chart</th><th>BPM</th><th>Speed</th><th>Artist</th><th>Access</th></tr></thead>
+		<tbody id="tracks"></tbody>
+	</table>
+
+<script>
+	var arrows = ["&#8599;", "&#8600;"];
+	//var arrows = ["&#8663;", "&#8664;"];
+	//var arrows = ["&#8613;", "&#8615;"];
+
+	function URL(url, descr)
+	{
+		return "<a href=\"" + url + "\">" + descr + "</a>";
+	}
+
+	function ChartDescr( chart )
+	{
+		if( chart.type == COUPLE )
+			return chart.tag + "-" + chart.levelText + " / " + chart.players.toString() + "p";
+
+		var descrStr;
+		if( chart.levelNum < chart.realLevelNum )
+			descrStr = chart.tag + "-<i>" + chart.levelText + "</i> " + arrows[0] + " " + chart.realLevelNum.toString();
+		else if( chart.levelNum > chart.realLevelNum )
+			descrStr = chart.tag + "-<i>" + chart.levelText + "</i> " + arrows[1] + " " + chart.realLevelNum.toString();
+		else
+			descrStr = chart.tag + "-" + chart.levelText;
+		return descrStr;
+	}
+
+	function TableRow( rowClass, OTHER_ARGS )
+	{
+		var result = ( rowClass != ""  ?  "<tr class=\"" + rowClass + "\">"  :  "<tr>" );
+		
+		for( var i = 1;  i < arguments.length;  i++ )
+			result += "<td>" + arguments[ i ] + "</td>";
+		result += "</tr>";
+		return result;
+	}
+
+	function RatioOf( from, to, value )
+	{
+		return ( value - from ) / ( to - from );
+	}
+	
+	function ValueOf( from, to, ratio )
+	{
+		return from * (1 - ratio) + to * ratio;
+	}
+	
+	function GetCurveValue( arr, pos )
+	{
+		for( var i = 0;  i < arr.length;  i += 2 )
+			if( arr[ i ] > pos )
+			{
+				return ValueOf( arr[ i - 1 ], arr[ i + 1 ], RatioOf( arr[ i - 2 ], arr[ i ], pos ) )
+			}
+		return NaN;
+	}
+	
+	function TableItemDescr( item )
+	{
+		var rowClass = item.realLevelMatches  ?  ""  :  "strikeout";
+
+		var chartBPM = item.chart.bpm  ?  "<b>" + item.chart.bpm + "</b>"  :  item.track.bpm;
+		var availability = item.chart.fromPatchIndex  ?  "from " + mixes[ chartFilter.mixID ].patches[ item.chart.fromPatchIndex ]  :  "";
+		if( item.chart.unlockDescr )
+		{
+			if( availability != "" )
+				availability += ", ";
+			availability += item.chart.unlockDescr;
+			if( item.chart.unlockPatch )
+				availability += ", until " + item.chart.unlockPatch;
+		}
+		
+		var bpmStr = item.chart.bpm  ?  item.chart.bpm  :  item.track.bpm;
+		var bpmNum = parseInt( bpmStr );
+		
+		var recommendedSpeed = "???";
+		if( bpmNum != NaN  &&  bpmNum == bpmStr  &&  item.chart.realLevelNum != NaN )
+		{
+			var calculatedSpeed;
+			switch( item.chart.type )
+			{
+				case SINGLE:
+					//calculatedSpeed = ( 260 + item.chart.realLevelNum * 17 ) / bpmNum;
+					calculatedSpeed = GetCurveValue( [ 1, 250, 15, 550, 25, 700 ], item.chart.realLevelNum ) / bpmNum;
+				break;
+				case DOUBLE:
+					calculatedSpeed = GetCurveValue( [ 1, 300, 15, 550, 25, 650 ], item.chart.realLevelNum ) / bpmNum;
+				break;
+				case COUPLE:
+					calculatedSpeed = GetCurveValue( [ 1, 400, 25, 500 ], item.chart.realLevelNum ) / bpmNum;
+				break;
+			}
+			var availSpeed = Math.round(calculatedSpeed * 2) / 2;
+			if( Math.abs( availSpeed - calculatedSpeed ) > 0.15 )
+				recommendedSpeed = availSpeed + "x (" + ( Math.round(calculatedSpeed * 100) / 100 ) + ")";
+			else
+				recommendedSpeed = availSpeed + "x";
+		}
+
+		var youtubeUrl = "https://www.youtube.com/results?search_query=Pump+It+Up+" + chartFilter.mixID + "+" + item.track.title + "+" + item.chart.tag + "+" + item.chart.levelText;
+		
+		return TableRow( rowClass,
+		                 URL( youtubeUrl, item.track.title ),
+		                 URL( youtubeUrl, ChartDescr( item.chart ) ),
+		                 chartBPM,
+		                 recommendedSpeed,
+		                 item.track.artist,
+		                 availability );
+	}
+
+	function UpdateList()
+	{
+		chartFilter.UpdateList();
+
+		$("#tracks").html( _.reduce( chartFilter.list, function(text, item) { return text + TableItemDescr( item ) }, "" ) );
+	}
+</script>
+
+<!--
+<style>
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+</style>
+
+<div id="openModal" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<h2>Modal Box</h2>
+		<p>This is a sample modal box that can be created using the powers of CSS3.</p>
+		<p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
+	</div>
+</div>
+
+<script>
+document.getElementById("openModal").showModal();
+</script>
+-->
+
+<!--
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button
+
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+-->
+
+</body>
+</html>

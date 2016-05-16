@@ -1,0 +1,49 @@
+DOTA -> Dawn of the Apocalypse
+BOTW -> Beat of the War
+IGYAML -> I'll Give You All My Love
+
+Trabarme -> Trato de no Trabarme  [FULL]
+Big Metra -> Big Metra Remix
+
+HCTP -> Handsome Character that Pass
+Handsome -> Handsome Character that Pass
+Narcisista -> Narcisista Por Excelencia
+Angel Who Lost Wings -> The Angel Who Lost Her Wings
+
+nameSplits делаются так:
+- делаем lowercase
+- любой из символов "!?&'\".,;:*-~()[]{}/\\" заменяется на пробел
+- разбиваем по пробелам
+- убираем пустые участки
+
+function GetTracksByAbbr( abbr )
+
+
+
+	int taskNameMatchesPatternFromWord(Task task)
+	{
+		return StringMatchesPatternFromWordEx(task.trackNameSplits_, 0, 0, taskFilterText_.toLowerCase(), 0);
+	}
+
+	static int StringMatchesPatternFromWordEx(String[] stringSplits, int wordIndex, int wordCharIndex, String pattern, int patternCharIndex)
+		if (patternCharIndex == pattern.length())
+	{
+			return wordIndex;
+
+		for (int i = wordIndex;  i < stringSplits.length;  ++i)
+		{
+			int testCharIndex = (i == wordIndex) ? wordCharIndex : 0;
+
+			if (stringSplits[i].length <= testCharIndex)
+				continue;
+
+			if (stringSplits[i].charAt(testCharIndex) != pattern.charAt(patternCharIndex))
+				continue;
+
+			int result = StringMatchesPatternFromWordEx(stringSplits, i, testCharIndex + 1, pattern, patternCharIndex + 1);
+			if (result >= 0)
+				return i;
+		}
+
+		return -1;
+	}

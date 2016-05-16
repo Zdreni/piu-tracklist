@@ -1,0 +1,2161 @@
+2006 Love Song
+	Fiesta2: "=",
+	FiestaEX: "+S3 +S10 +S12 +S15 +D13 +Dp5",
+
+80's Pop
+	Fiesta2: "=",
+	FiestaEX: "= +S8",
+	Fiesta: "+S2 +S5 +S12 +S16 +D6 +D17 +Sp3 +Dp4",
+
+Accident
+	Prime: "=",
+	Fiesta2: "+S4 +S7 +S10 +S19 +D11 +D20",
+
+Achluoias
+	Prime: "+S8 +S15 +S18 +S22 +D12 +D16 +D24 +S24",
+
+Adios
+	Fiesta2: "=",
+	FiestaEX: "= +S1",
+	Fiesta: "+S3 +S6 +S14 +D16 +Sp2 +Dp4",
+
+All I Want For X-mas
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S3 +S6 +S11 +D7",
+
+Allegro Con Fuoco
+	Prime: "=",
+	Fiesta2: "= +S22",
+	FiestaEX: "+S4 +S7 +S11 +S17 +D9 +D18 +D23 +Sp1 +Dp6",
+
+Allegro Piu Mosso
+	Prime: "+S4 +S6 +S11 +S16 +D13 +D19",
+
+Another Truth
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S8",
+	Fiesta: "+S3 +S5 +S15 +D6 +D16 +D17 +D22",
+
+Arch of Darkness
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S2 +S4 +S5 +S8 +S14 +S16 +D7 +D18",
+
+Arirang
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +Dp2",
+	Fiesta: "+S9 +S18 +S22 +D10 +D20",
+
+ASDF
+	Prime: "=",
+	Fiesta2: "= +S9 -S8",
+	FiestaEX: "+S8 +S17 +D10 +D17",
+
+Avalanche
+	Prime: "+S4 +S6 +S9 +S18 +D10 +D19 +D24",
+
+Bad Character
+	Fiesta2: "=",
+	FiestaEX: "= -S5",
+	Fiesta: "+S3 +S5 +S6 +S10 +D11 +Sp1 +Dp3",
+
+Bad Girl Good Girl
+	Prime: "=",
+	Fiesta2: "+S1 +S3 +S5 +S14 +D4 +D13 +Sp2 +Dp3",
+
+Bar Bar Bar
+	Prime: "+S3 +S5 +S8 +S14 +D4 +D11 +D15 +Dp??(x3)",
+
+Baroque Virus
+	Prime: "=",
+	Fiesta2: "+S5 +S9 +S17 +D11 +D18 +D20",
+
+Be Alive (Raaban Inc. Mix)
+	Prime: "=",
+	Fiesta2: "+S2 +S5 +S8 +D10 +Dp??(x2) +S15 +S17 +D16",
+
+Be Mine
+	Prime: "=",
+	Fiesta2: "+S2 +S4 +S7 +S15 +D5 +D15 +Sp3 +Dp5",
+
+Beat # No.4
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S6 +S15 +D17 +Sp2 +Dp5",
+
+Beat of the War
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S3 +S9",
+	Fiesta: "+S5 +S10 +S15 +D12 +D19",
+
+Beat of the War 2
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S4 +S6",
+	Fiesta: "+S5 +S10 +S16 +D12 +D19",
+
+Beat the Ghost
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S3 +S9 +S18 +S20 +D7 +D20",
+
+Bee
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S7 +S10 +D19",
+	Fiesta: "+S4 +S11 +S15 +S19 +D11 +D21 +D23",
+
+Beethoven Virus
+	Prime: "= -Dp11",
+	Fiesta2: "=",
+	FiestaEX: "= +Dp3",
+	Fiesta: "+S4 +S7 +S8 +S13 +S16 +S17 +D8 +D18 +D20 +Dp11",
+
+Betrayer
+	Fiesta2: "=",
+	FiestaEX: "= +S1 +S13",
+	Fiesta: "+S5 +S8 +D8 +D13 +Sp2",
+
+Betrayer -Act. 2-
+	Fiesta2: "=",
+	FiestaEX: "= +D15",
+	Fiesta: "+S4 +S6 +S10 +Sp3 +Dp3",
+
+Big Beat
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S5 +S13 +S15 +D6 +D14 +Sp3 +Dp5",
+
+Blaze Emotion
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S3 +S6 +S9",
+	Fiesta: "+S2 +S7 +S16 +S17 +D10 +D17 +D18",
+
+Blazing
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S9",
+	Fiesta: "+S3 +S6 +S15 +D19",
+
+Breakin' Love
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S6 +S12 +D14 +Sp2 +Dp4",
+
+Bullfighter's Song
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S4",
+	Fiesta: "+S5 +S8 +S16 +D9 +D17 +D21",
+
+Butterfly
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S3 +S6 +S8 +S13 +S16 +D7 +D17 +Sp2 +Dp3",
+
+By Chance
+	Fiesta2: "=",
+	FiestaEX: "= +S5",
+	Fiesta: "+S2 +S4 +S15 +D6 +D16 +Sp2 +Dp4",
+
+Can't Nobody
+	Prime: "= -S17",
+	Fiesta2: "+S2 +S4 +S6 +S15 +D5 +D16 +Sp3 +Dp5 +S17",
+
+Cannon X.1
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S7",
+	Fiesta: "+S3 +S10 +S20 +S21 +D13 +D22",
+
+Canon-D
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S9",
+	Fiesta: "+S3 +S7 +S20 +S21 +D10 +D22",
+
+Caprice of Otada
+	Prime: "=",
+	Fiesta2: "= +D21",
+	FiestaEX: "= +S6",
+	Fiesta: "+S4 +S8 +S17 +D10 +D18",
+
+Change Myself
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S1 +S4 +S5 +S10 +D9 +Sp1 +Dp5",
+
+Chicken Wing
+	Prime: "=",
+	Fiesta2: "= +S17",
+	FiestaEX: "= +S4 +S6 +S9 +D17",
+	Fiesta: "+S10 +S19 +D11",
+
+Chimera
+	Prime: "= -D??(x3)",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S4 +S7 +S11 +S16 +S18 +S23 +D16 +D25 +D??(x3) +Dp??(x2)",
+
+Chinese Restaurant
+	Prime: "+S4 +S7 +S10 +S16 +S18 +D10 +D20",
+
+Chocolate
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S5 +S6 +S9 +S13 +D9 +D15 +Sp2 +Dp3",
+
+Chopsticks Challenge
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S6 +S17 +D3 +D16 +Sp1",
+
+Chopstix
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S5 +S13 +D15 +Sp2 +Dp2",
+
+Chung Hwa Ban Jeom
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S6 +S14 +D16 +Sp1 +Dp2",
+
+Cleaner
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S4 +S7 +S12 +S18 +S22 +S23 +D20 +D24 +D26",
+
+Close Your Eyes
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S4 +Sp2 +Dp3",
+
+Com'Back
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S8 -D8",
+	Fiesta: "+S4 +S6 +S15 +D7 +D8 +D16",
+
+Come On!
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S2 +S4 +S5 +S12 +D9 +Dp4",
+
+Come to Me
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S4",
+	Fiesta: "+S6 +S11 +S12 +S15 +D13 +D14 +Sp3 +Dp6",
+
+Cosmical Rhythm
+	Prime: "+S3 +S6 +S8 +S15 +D10 +D16",
+
+Crashday
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S4 +S6 +S11 +S17 +S23 +S24 +D17 +D26",
+
+Crayon
+	Prime: "=",
+	Fiesta2: "+S4 +S6 +S8 +S17 +D5 +D17",
+
+Crazy
+	Fiesta2: "=",
+	FiestaEX: "= +S2 +S4 +S8 +Dp3",
+	Fiesta: "+S5 +S15 +D19 +Sp2 +Dp6",
+
+Csikos Post
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S3 +S7 +S10 +S13 +D8 +D16",
+
+D
+	Prime: "=",
+	Fiesta2: "+S4 +S7 +S9 +S18 +D11 +D19 +D18",
+
+D Gang
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S4 +S6 +S9 +D7 +S18 +D15",
+
+Dam
+	Prime: "=",
+	Fiesta2: "+S1 +S3 +S5 +S8 +D4 +D9",
+
+Dance All Night
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S5 +S13 +D15 +Sp2",
+
+Dance Vibrations
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S4",
+	Fiesta: "+S5 +S10 +S14 +D15 +D18 +Sp1 +Dp6",
+
+Dance With Me
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S2 +S4 +S6 +S12 +S14 +D15 +Dp4",
+	Fiesta: "+Sp4 +Dp6",
+
+Danza Kuduro
+	Prime: "=",
+	Fiesta2: "+S4 +S7 +S9 +S15 +D10 +D16",
+
+Dawn of the Apocalypse
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S4 +S14 +S21 +D14 +D21",
+
+Deja Vu
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S1",
+	Fiesta: "+S3 +S6 +S13 +D6 +D13",
+
+Destination
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S19 +Dp5",
+	Fiesta: "+S4 +S7 +S11 +S16 +S18 +D13 +D20",
+
+Dieciseis
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S2 +S4 +S6 +S13 +D5 +D15",
+
+Digan Lo Que Digan
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S4 +S7 +S9",
+	Fiesta: "+S3 +S6 +S16 +D13 +D18 +Dp8",
+
+Dignity
+	Prime: "=",
+	Fiesta2: "= +S22",
+	FiestaEX: "= +D18",
+	Fiesta: "+S3 +S5 +S12 +S16 +S20 +D13 +D23",
+
+DJ Otada
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S6",
+	Fiesta: "+S4 +S8 +S19 +D14 +D22",
+
+Do It -Reggae Style-
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S13 +D15 +Sp4 +Dp5",
+
+Do It!
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S6 +S15 +D18 +Sp2 +Dp4",
+
+Do You Know That ~old school
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S4 +S6 +S14 +D18 +Dp8",
+
+Don't Bother Me
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +D13",
+	Fiesta: "+S4 +S5 +S10 +D5 +Sp2",
+
+Dr. M
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S9",
+	Fiesta: "+S3 +S7 +S12 +S16 +D11 +D16",
+
+Dream To Nightmare
+	Prime: "= -S23",
+	Fiesta2: "+S19 +S21 +S23 +D22 +D24",
+
+Electric
+	Prime: "=",
+	Fiesta2: "+S2 +S4 +S6 +S14 +D4 +D16",
+
+Elise
+	Prime: "=",
+	Fiesta2: "+S4 +S7 +S10 +S17 +S19 +D13 +D16 +Dp??(x2) +S22 +D23",
+
+Elvis
+	Prime: "+S2 +S4 +S7 +S15 +D5 +D16",
+
+Emperor
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S2 +S8 +Sp3 +Dp3",
+	Fiesta: "+S5 +S11 +S16 +D17",
+
+Empire of the sun
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S6 +S11 +D13 +Sp1 +Dp4",
+
+Energizer
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S4 +S7",
+	Fiesta: "+S9 +S16 +D11 +D17 +Sp2",
+
+Energy
+	Fiesta2: "=",
+	FiestaEX: "+S4 +S8 +S13 +S15 +D9 +D14 +Sp4 +Dp5",
+
+Enjoy! Enjoy!
+	Fiesta2: "=",
+	FiestaEX: "= -S4",
+	Fiesta: "+S3 +S4 +S6 +S11 +S14 +D7 +D14 +Sp4 +Dp5",
+
+Enter the Dragon
+	Fiesta2: "=",
+	FiestaEX: "= +S8",
+	Fiesta: "+S1 +S4 +S5 +S14 +D17 +Sp2 +Dp5",
+
+Exciting
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S2 +S3 +S14 +D14 +Sp5",
+
+Extravaganza
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S4 +S7",
+	Fiesta: "+S9 +S11 +S16 +S21 +D12 +D17 +D19",
+
+Fantastic Baby
+	Prime: "=",
+	Fiesta2: "+S3 +S5 +S8 +S14 +D5 +D17 +Sp1 +Dp5",
+
+Faster Z
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S6 +D23",
+	Fiesta: "+S4 +S8 +S12 +S16 +S19 +S20 +D14 +D20",
+
+Flew Far Faster
+	Prime: "=",
+	Fiesta2: "+S10 +S17 +S23 +D22 +Dp??(x3) +D12",
+
+Final Audition
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S2 +S6 +S9",
+	Fiesta: "+S7 +S15 +S17 +D15 +D17 +Dp3",
+
+Final Audition 2
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S4 +S7 +Dp3",
+	Fiesta: "+S8 +S10 +S16 +D8 +D17 +D19",
+
+Final Audition 3 U.F
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S2 +S5 +S9",
+	Fiesta: "+S6 +S14 +D17 +D19 +Sp3 +Dp5",
+
+Final Audition episode 1
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S4 +S7",
+	Fiesta: "+S8 +S13 +S15 +S19 +D11 +D21 +D23",
+
+Final Audition episode 2-1
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S3 +S4 +S7 +S18 +S20 +S21 +D9 +D21 +D22",
+
+Final Audition episode 2-2
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S7 +S16 +S17 +S21 +S22 +D18 +D23 +D24",
+
+Final Audition episode 2-X
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S3 +S5 +Dp2",
+	Fiesta: "+S8 +S17 +S23 +D21 +D24",
+
+Fire
+	Fiesta2: "=",
+	FiestaEX: "= +D14",
+	Fiesta: "+S3 +S5 +S8 +S15 +S16 +D4 +D11 +Sp3 +Dp4",
+
+First Love
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S4 +S9 +D14 +Sp1 +Dp4",
+
+Fly
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S1 +S3 +S6 +S14 +D16 +Sp3 +Dp4",
+
+Flying duck
+	Prime: "+S3 +S7 +S10 +S16 +D11 +D18",
+
+Follow Me
+	Prime: "=",
+	Fiesta2: "+S4 +S6 +S9 +S14 +S17 +D9 +D18 +Dp??(x2)",
+
+Forward
+	Fiesta2: "=",
+	FiestaEX: "= +S2",
+	Fiesta: "+S4 +S5 +S13 +D13 +Sp2 +Dp5",
+
+Free Style
+	Fiesta2: "=",
+	FiestaEX: "= +S13",
+	Fiesta: "+D15 +Sp1 +Dp3",
+
+Funky Tonight
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +D14",
+	Fiesta: "+S2 +S4 +S5 +S12 +D4",
+
+Gargoyle
+	Prime: "=",
+	Fiesta2: "= +S22",
+	FiestaEX: "+S4 +S7 +S9 +S18 +D12 +D20 +D23 +Sp2",
+
+Get Up!
+	Prime: "=",
+	Fiesta2: "= +D17",
+	FiestaEX: "=",
+	Fiesta: "+S4 +S8 +S13 +D9 +D18",
+
+Get Up (and Go)
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +Dp3",
+	Fiesta: "+S4 +S7 +S10 +S17 +D11 +D20",
+
+Get Your Groove On
+	Fiesta2: "=",
+	FiestaEX: "+S4 +S6 +S13 +D9",
+
+Go
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S3 +S7 +S12 +D13 +Dp3",
+
+Good Life
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S2 +S4 +S15 +D5 +D16 +Sp2 +Dp3",
+
+Groovin' Motion
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S6 +S9 +D11 +Sp3 +Dp6",
+
+Guitar Man
+	Fiesta2: "=",
+	FiestaEX: "+S3 +S9 +S13 +S18 +D10 +D13 +D19",
+
+Gun Rock
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S5 +S11 +S17 +S18 +D11 +D18 +D22",
+
+Haley
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S4 +S9 +D11 +Sp2 +Dp4",
+
+Hands Up (East 4A Mix)
+	Fiesta2: "+S3 +S5 +S8 +S15 +D5 +D15 +Sp3 +Dp4",
+
+Hardkore of the North
+	Prime: "=",
+	Fiesta2: "+S4 +S7 +S11 +S21 +D16 +D23",
+
+Hate, Don't Hate!
+	Prime: "+S2 +S4 +S6 +S15 +D6 +D16",
+
+Hatred
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S6 +S13 +D7 +D16 +Dp7",
+
+Heart Breaker
+	Prime: "= -D18",
+	Fiesta2: "+S1 +S3 +S5 +S15 +D4 +D16 +Sp3 +Dp6 +D18",
+
+Heel and Toe
+	Prime: "=",
+	Fiesta2: "+S2 +S7 +S9 +D11 +Dp??(x2) +S17",
+
+Hello
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S7 +S16 +D9 +D16",
+
+Hello William
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S4 +S6 +S9 +S17 +S19 +D9 +D21",
+
+Her
+	Prime: "+S4 +S6 +S9 +S16 +D7 +D17 +Dp??(x2)",
+
+Hestia
+	Prime: "+S4 +S7 +S10 +S18 +D11 +D20",
+
+Hi-Bi
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S5",
+	Fiesta: "+S3 +S8 +S15 +S18 +D8 +D18 +D20",
+
+Higgledy Piggledy
+	Prime: "=",
+	Fiesta2: "= +S16",
+	FiestaEX: "= +S9",
+	Fiesta: "+S2 +S6 +S14 +D8 +D15 +Sp1",
+
+Hot
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S2 +S4 +S6 +S10 +D12 +Dp4",
+
+Hot Issue
+	Fiesta2: "= +D26",
+	FiestaEX: "+S3 +S7 +S10 +S16 +D5 +D13 +D15 +Sp4 +Dp5",
+
+Hungarian Dance V
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S4 +S6 +S8 +S17 +S18 +D9 +D17 +Sp2",
+
+Hybs
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S4 +S11 +D13 +Sp2 +Dp4",
+
+Hypnosis
+	Prime: "+S7 +S15 +D8 +D15",
+
+Hypnosis (SynthWulf Mix)
+	Prime: "=",
+	Fiesta2: "+S8 +S11 +S17 +S21 +D13 +D15 +D20",
+
+I'll Give You All My Love
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S2",
+	Fiesta: "+S4 +S7 +S16 +D7 +D18",
+
+I'm Sorry
+	Prime: "+S4 +S6 +S9 +S16 +D8 +D17",
+
+I'm the Best
+	Prime: "=",
+	Fiesta2: "+S2 +S4 +S6 +S15 +D5 +D13 +Sp3 +Dp4",
+
+I'm Your Girl
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S1 +S3 +S5 +S12 +D10 +Sp2 +Dp6",
+
+Ignis Fatuus (DM Ashura Mix)
+	Prime: "= -D24 -D26",
+	Fiesta2: "+S9 +S15 +S19 +S23 +D15 +D17 +D19 +D23 +D25 +Dp??(x2) +D24 +D26",
+
+Ignition Starts!
+	Prime: "+S8 +S15 +D10",
+
+In Your Fantasy
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S2 +S4 +S6 +S14 +D7 +D16 +Dp3",
+
+Ineffective Boss Without Power
+	Prime: "+S4 +S6 +S8 +S18 +D5 +D19 +Dp??(x3)",
+
+Innocent
+	Fiesta2: "=",
+	FiestaEX: "= +S14",
+	Fiesta: "+S3 +S5 +S11 +D6 +D15",
+
+Interference
+	Prime: "= +D21",
+	Fiesta2: "=",
+	FiestaEX: "+S11 +S18 +D12 +D19 +Sp2 +Dp3",
+
+J Bong
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S3 +S8",
+	Fiesta: "+S5 +S7 +S13 +D17 +Dp5",
+
+Jam o' Beat
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S7 +S14 +D14 +Sp2 +Dp6",
+
+Jonathan's Dream
+	Prime: "= -D18",
+	Fiesta2: "= +D18",
+	FiestaEX: "+S8 +S16 +D10 +D15",
+
+K.O.A. -Alice in Wonderworld-
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S2",
+	Fiesta: "+S3 +S5 +S8 +S17 +D10 +D18",
+
+Karyawisata
+	Prime: "+S4 +S7 +S10 +S17 +S20 +D7 +D16",
+
+La La La
+	Fiesta2: "=",
+	FiestaEX: "= +S1",
+	Fiesta: "+S3 +S5 +S10 +D13 +Sp2 +Dp5",
+
+Ladybug
+	Prime: "=",
+	Fiesta2: "+S1 +S3 +S5 +S13 +D13 +Dp??(x2)",
+
+Last Farewell
+	Fiesta2: "=",
+	FiestaEX: "+S2 +S5 +S8 +S13 +S17 +D6 +D14 +Sp3 +Dp5",
+
+Latino Virus
+	Prime: "+S3 +S7 +S9 +S17 +D12 +D19 +Dp??(x2)",
+
+Leakage Voltage
+	Prime: "+S10 +S15 +S17 +D12 +D19",
+
+Lie
+	Prime: "=",
+	Fiesta2: "+S2 +S4 +S6 +S15 +D5 +D15 +Sp2 +Dp5",
+
+Like a Man
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S4 +S6 +S8 +S18 +D10 +D18 +Dp3",
+
+Limbo
+	Prime: "+S2 +S4 +S6 +S15 +D5 +D15",
+
+Log In
+	Prime: "=",
+	Fiesta2: "+S4 +S7 +S10 +S18 +S21 +D10 +D20",
+
+Loner
+	Prime: "+S3 +S5 +S8 +S15 +S19 +D6 +D17 +D22",
+
+Los Malaventurados No Lloran
+	Prime: "=",
+	Fiesta2: "+S4 +S7 +S9 +S16 +D12 +D18",
+
+Love is a Danger Zone
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S10",
+	Fiesta: "+S3 +S7 +S15 +S19 +D6 +D15 +D20 +Dp??(x2)",
+
+Love Is A Danger Zone (Cranky Mix)
+	Prime: "= -S19",
+	Fiesta2: "+S6 +S12 +S20 +D8 +D16 +Dp??(x2) +D24 +S18 +S19 +S22 +D20",
+
+Love is a Danger Zone 2
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S9",
+	Fiesta: "+S4 +S7 +S15 +S21 +D17 +D23",
+
+Love is a Danger Zone 2 (D&G Ver.)
+	Prime: "= -D??(x2)",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S16 +S17 +D??(x2) +Dp??(x2)",
+
+Lovumba
+	Prime: "= -D19",
+	Fiesta2: "+S2 +S5 +S8 +S14 +D5 +D16 +D19",
+
+Lucid (PIU Edit)
+	Prime: "=",
+	Fiesta2: "+S4 +S7 +S10 +S20 +D11 +D20 +Dp??(x2) +D23",
+
+Mackerel
+	Prime: "=",
+	Fiesta2: "+S4 +S6 +S8 +S16 +D5 +D15 +Sp2 +Dp4 +Dp??(x2)",
+
+Magic
+	Fiesta2: "=",
+	FiestaEX: "+S1 +S4 +S8 +S13 +D3 +D14 +Sp3 +Dp4",
+
+Magic Girl
+	Fiesta2: "=",
+	FiestaEX: "+S4 +S7 +S11 +S15 +D5 +D13 +D16 +D21 +Sp3 +Dp4",
+
+Maria
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S6 +S11 +S15 +D15",
+
+Matador
+	Prime: "+S4 +S7 +S10 +S18 +D7 +D19",
+
+Melodia
+	Prime: "+S2 +S4 +S6 +S14 +D4 +D15",
+
+Mental Rider
+	Prime: "=",
+	Fiesta2: "+S12 +S16 +S21 +D13 +D19 +D23",
+
+Meteorize
+	Prime: "+S3 +S5 +S10 +S15 +D8 +D16",
+
+Midnight Blue
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S12 +D13 +Sp4 +Dp5",
+
+Milky Way Galaxy
+	Prime: "+S6 +S11 +S17 +D11 +D18",
+
+Miss's Story
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S5 +S18 +D19 +Sp3 +Dp5",
+
+Mission Possible
+	Fiesta2: "=",
+	FiestaEX: "+S5 +S7 +S13 +S19 +D8",
+
+Mission Possible -Blowback-
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S18 +D17 +Sp3 +Dp5",
+
+Mistake
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S11",
+	Fiesta: "+S2 +S4 +S6 +D12 +Sp1 +Dp6",
+
+Mobius Strip
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S2",
+	Fiesta: "+S4 +S6 +S12 +D7 +D14",
+
+Money
+	Fiesta2: "=",
+	FiestaEX: "+S10 +S14 +D12 +D16 +Sp4",
+
+Monkey Fingers
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S3",
+	Fiesta: "+S5 +S8 +S15 +D17 +Sp5",
+
+Monkey Fingers 2
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S6 +S10 +S17 +D9 +D19",
+
+Monolith
+	Prime: "=",
+	Fiesta2: "+S3 +S5 +S9 +D13 +S16 +D18",
+
+Moonlight
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S4",
+	Fiesta: "+S7 +S10 +S18 +S19 +D11 +D20 +D21",
+
+Mother
+	Fiesta2: "=",
+	FiestaEX: "+S1 +S4 +S7 +S13 +D5 +D14 +Sp2 +Dp3",
+
+Move That Body!
+	Prime: "+S3 +S5 +S8 +S12 +S17 +S20 +D10 +D18",
+
+Mr. Fire Fighter
+	Fiesta2: "=",
+	FiestaEX: "= -S2",
+	Fiesta: "+S2 +S4 +S7 +S13 +D8 +D15",
+
+Mr. Larpus
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S3 -D25?",
+	Fiesta: "+S5 +S11 +S14 +S20 +S22 +D14 +D17 +D23 +D25?",
+
+My Dreams
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S4 +S10 +S17 +S18 +D18 +Dp5",
+
+My Friend
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S1 +S3 +S6 +S12 +D14 +Sp3 +Dp5 +Dp6",
+
+My Way
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S3 +S8 +Dp4",
+	Fiesta: "+S5 +S12 +D15 +Sp2 +Dp6",
+
+N
+	Fiesta2: "=",
+	FiestaEX: "= +D16",
+	Fiesta: "+S5 +S16 +Sp2 +Dp5",
+
+Naissance
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S4 +S8",
+	Fiesta: "+S7 +S10 +S20 +D7 +D15",
+
+Naissance 2
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S6 +S13 +D15 +D19 +Sp3 +Dp5",
+
+Napalm
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S13 +S19 +S22 +D14 +D23",
+
+Narcisista Por Excelencia
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S3",
+	Fiesta: "+S5 +S8 +S16 +D9 +D18",
+
+Native
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S3 +S5 +S9 +S17 +S20 +D10 +D18 +Sp2 +Dp3",
+
+Necromancy
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S4 +S7 +S10 +S18 +S20 +D13 +D19 +D24 +Sp2 +Dp3",
+
+Nemesis
+	Prime: "+S4 +S7 +S11 +S16 +S18 +D12 +D20 +Dp??(x2)",
+
+Nightmare
+	Fiesta2: "=",
+	FiestaEX: "= +D13",
+	Fiesta: "+S1 +S4 +Dp5",
+
+No.3
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S4 +S7 +S9 +S16 +D5 +D16 +Dp4",
+
+Nobody
+	Prime: "=",
+	Fiesta2: "+S2 +S4 +S6 +S15 +D8 +D17 +Sp3 +Dp4",
+
+NoNoNo
+	Prime: "+S2 +S3 +S5 +S14 +D5 +D14 +Sp15 +Dp15 +Dp??(x2)",
+
+No Rhyme No Reason
+	Fiesta2: "=",
+	FiestaEX: "= +S8",
+	Fiesta: "+S2 +S5 +S15 +D20 +Sp2",
+
+Oh! Rosa!
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S7 +S13 +D7",
+
+On and On
+	Prime: "+S2 +S4 +S6 +S15 +D5 +D15",
+
+One
+	Prime: "+S1 +S3 +S5 +S15 +D5 +D16",
+
+One Night
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S5 +S13 +D14 +Sp2 +Dp4",
+
+One Two Three Go!
+	Prime: "=",
+	Fiesta2: "+S3 +S6 +S8 +S13 +D7 +D14",
+
+Online
+	Prime: "=",
+	Fiesta2: "+S1 +S4 +S6 +S15 +D4 +D15",
+
+Only You
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S3 +S6 +S12 +D3 +D13",
+
+Overblow
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S4 +S7 +S10 +S16 +S18 +S20 +D12 +D18 +D20 +Sp2 +Dp3",
+
+Oy Oy Oy
+	Prime: "= +S4 -S3",
+	Fiesta2: "=",
+	FiestaEX: "= +S3 +S13 +D13 +Sp2 +Dp3",
+	Fiesta: "+S6 +S8",
+
+Pandora
+	Prime: "+S2 +S4 +S7 +S16 +D6 +D16",
+
+Panuelito Rojo
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S5 +S10 +D18 +Sp1 +Dp4",
+
+Papa Gonzales
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S4 +S8",
+	Fiesta: "+S6 +S14 +D7 +D18",
+
+Passacaglia
+	Prime: "= -S19",
+	Fiesta2: "+S4 +S7 +S10 +S16 +D12 +D17 +D22 +S20 +S19 +D24",
+
+Pavane
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S3 +S6 +S10 +S17 +D16 +D22 +Sp2",
+
+Phantom
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S2 +S7",
+	Fiesta: "+S12 +S17 +S18 +D12 +D19 +D20 +Dp7",
+
+Phantom -Intermezzo-
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S3 +S7 +D20 +Dp3",
+	Fiesta: "+S12 +S15 +S19 +S21 +D15 +D19",
+
+Pine Nut
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S13 +S20 +D16",
+
+Point Break
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S6 +D14 +Sp3 +Dp6",
+
+Pop The Track
+	Prime: "=",
+	Fiesta2: "+S2 +S7 +S9 +S16 +D9 +D18 +Dp??(x2) +S19 +D20",
+
+Procedimientos Para Llegar a un Comun Acuerdo
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S3 +S7 +S15 +D7 +D16",
+
+Pump Breakers
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S5 +S17 +D15 +Sp2 +Dp4",
+
+Pump Jump
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S4 +S15 +D17 +Sp2 +Dp4",
+
+Pump Me Amadeus
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S3 -S4",
+	Fiesta: "+S4 +S5 +S9 +S17 +D10 +D18 +D19",
+
+Pumping Jumping
+	Fiesta2: "=",
+	FiestaEX: "= +S19",
+	Fiesta: "+S1 +S3 +S5 +S13 +S15 +S17 +D6 +D17 +Sp4 +Dp5 +Dp6",
+
+Pumping Up
+	Fiesta2: "=",
+	FiestaEX: "= +S12",
+	Fiesta: "+S4",
+
+Pumptris Quattro
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S3 +S7 +S12 +S17 +S19 +D13 +D20 +D22 +Sp10 +Dp2",
+
+Pumptris 8Bit ver.
+	Prime: "= -D??(x3)",
+	Fiesta2: "=",
+	FiestaEX: "= +S3 +S5 +S8",
+	Fiesta: "+S16 +S17 +D??(x3) +Sp15 +Dp??(x2)",
+
+Que Viva La Vida
+	Prime: "+S2 +S4 +S6 +S16 +D7 +D16",
+
+Rabiosa
+	Prime: "=",
+	Fiesta2: "+S2 +S4 +S7 +S14 +D5 +D16",
+
+Ragnarok
+	Prime: "+S7 +S11 +S16 +S18 +D9 +D13 +D17",
+
+Rainspark
+	Prime: "=",
+	Fiesta2: "+S2 +S5 +S9 +S15 +D5 +D17",
+
+Rave Until The Night Is Over
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S2 +S5 +S9 +S15 +D11 +D17 +Sp3 +Dp4",
+
+Re-Rave
+	Prime: "= -S16",
+	Fiesta2: "+S2 +S6 +S11 +S16 +S17 +D12 +D18",
+
+Reality
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S3 +S6 +S8 +S14 +S17 +D4 +D15 +Sp4 +Dp2",
+
+Red Swan
+	Prime: "+S4 +S6 +S8 +S18 +D12 +D20 +D21 +Dp??(x2)",
+
+Requiem
+	Prime: "+S4 +S7 +S11 +S16 +S19 +D9 +D19 +D23",
+
+Ring Ding Dong
+	Fiesta2: "=",
+	FiestaEX: "+S3 +S5 +S8 +S15 +D5 +D17 +Sp3 +Dp4",
+
+Rippin' It Up
+	Prime: "=",
+	Fiesta2: "+S2 +S5 +S9 +S16 +D4 +D18",
+
+Robot Battle
+	Prime: "+S8 +S12 +S21 +D12 +D23",
+
+Rock the House
+	Prime: "+S7 +S10 +S17 +D10 +D18 +D22",
+
+Rockhill
+	Prime: "=",
+	Fiesta2: "+S3 +S6 +S11 +S16 +D12 +D18",
+
+Rolling Christmas
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S3 +S5 +S8 +S13 +D5 +D13",
+
+Run!
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S4 +S8 +S15 +D8 +D17",
+
+Run to You
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S2 +S4 +S5 +S7 +S10 +S13 +D6 +D14",
+
+Sajahu
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S3 +S6 +S13 +D14 +Sp3 +Dp5",
+
+Selfishness
+	Prime: "+S3 +S6 +S11 +S17 +D12 +D18",
+
+Set Me Up
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S2 +S4 +S6 +S9 +S13 +Dp4",
+	Fiesta: "+Sp4 +Dp7",
+
+Shanghai Romance
+	Prime: "= -S18 -D17",
+	Fiesta2: "+S4 +S7 +S9 +S14 +D5 +D13 +Sp2 +Dp4 +S16 +S18 +D17",
+
+She Likes Pizza
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S8 +S9 +D9 +D16",
+
+Shock
+	Fiesta2: "=",
+	FiestaEX: "+S3 +S5 +S8 +S14 +S16 +D4 +D15 +Dp5",
+
+Sik Asik
+	Prime: "=",
+	Fiesta2: "+S3 +S5 +S8 +S13 +D4 +D14",
+
+Slam
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S9",
+	Fiesta: "+S3 +S6 +S17 +S18 +D6 +D20",
+
+Slightly
+	Fiesta2: "=",
+	FiestaEX: "= +D14",
+	Fiesta: "+S4 +S14 +D12 +Sp1 +Dp5",
+
+Smells Like a Chocolate
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S4 +S6 +S9 +S16 +D12 +D17 +Sp1 +Dp3",
+
+Solitary
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S2 +S4 +S8 +Dp5",
+	Fiesta: "+S6 +S9 +S16 +S17 +D7 +D16 +Sp3",
+
+Solitary 1.5
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S7 +S16 +D18 +Sp4 +Dp6",
+
+Solitary 2
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S4 +S8",
+	Fiesta: "+S6 +S17 +D18 +Sp3 +Dp6",
+
+Sorceress Elise
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S15 +S21",
+	Fiesta: "+S4 +S6 +S8 +S10 +S18 +S23 +D8 +D17 +D24 +Dp??(x2)",
+
+Star Command
+	Prime: "=",
+	Fiesta2: "+S3 +S5 +S12 +S15 +S19 +D14 +D21 +D23",
+
+Starian
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S2",
+	Fiesta: "+S7 +S13 +S15 +D9 +D17",
+
+Step
+	Prime: "= -D16",
+	Fiesta2: "+S2 +S4 +S7 +S15 +D5 +D15 +Sp2 +Dp4 +D16",
+
+Storm
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S5 +S12 +D13 +Sp3 +Dp4",
+
+Street Show Down
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S7 +S15 +D13 +Sp4 +Dp6",
+
+Sugar Conspiracy Theory
+	Prime: "+S1 +S3 +S6 +S10 +S15 +S18 +S19 +D7 +D11 +D17 +D20",
+
+Sugar Eyes
+	Prime: "=",
+	Fiesta2: "+S1 +S3 +S6 +S8 +S10 +D4 +D9 +S13",
+
+Sugar Free
+	Prime: "+S4 +S6 +S8 +S15 +D5 +D16",
+
+Super Fantasy
+	Prime: "+S4 +S7 +S10 +S16 +S19 +D11 +D21 +Dp??(x2)",
+
+Supermagic
+	Prime: "+S2 +S4 +S6 +S14 +D5 +D15",
+
+Superman
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S4 +S6 +S8 +S14 +S16 +D9 +D15 +D23 +Sp1 +Dp4 +Dp??(x2)",
+
+Switchback
+	Prime: "=",
+	Fiesta2: "+S3 +S5 +S9 +S15 +S18 +D10 +D16 +D18",
+
+Take Me Back
+	Prime: "=",
+	Fiesta2: "+S3 +S7 +S9 +S17 +D10 +D16",
+
+Take Out
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S4 +S7 +S11 +S17 +S20 +D13 +D19 +D22 +D23 +Dp??(x3)",
+
+Tek -Club Copenhagen-
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S3 +S5 +S16 +S17 +D17 +Sp5 +Dp4",
+
+Tepris
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S2 +S4 +S7 +S16 +D9 +D18 +Dp??(x2)",
+
+The Angel Who Lost Her Wings
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S1 +S4 +S6 +S13 +D6 +D16 +Sp2 +Dp3",
+
+The Devil
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S4 +S6 +S9 +S12 +S20 +D13 +D21 +Dp??(x2)",
+
+The People Didn't Know
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S2 +S5 +S15 +D7 +D17",
+
+Till the End of Time
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +Dp3",
+	Fiesta: "+S2 +S4 +S9",
+
+To the Sky
+	Fiesta2: "=",
+	FiestaEX: "= +S15",
+	Fiesta: "+S1 +S3 +S5 +S12 +D6 +D16 +Sp3 +Dp6",
+
+Toccata
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S4 +S7 +S10 +S17 +D14 +D17 +Sp3 +Dp6",
+
+Top City
+	Fiesta2: "=",
+	FiestaEX: "+S4 +S6 +S12 +D7 +D12",
+
+Tribe Attacker
+	Prime: "=",
+	Fiesta2: "+S3 +S6 +S9 +S16 +D10 +D15 +Dp??(x4)",
+
+Turkey March
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S3",
+	Fiesta: "+S7 +S12 +S15 +D9 +D19",
+
+Turkey March -Minimal Tunes-
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +Dp1",
+	Fiesta: "+S3 +S6 +S8 +S17 +D10 +D18",
+
+Two Guys / To Mary
+	Prime: "= -D18",
+	Fiesta2: "+S4 +S7 +S9 +S15 +D5 +D16 +Sp3 +Dp6 +D18",
+
+Twist King
+	Fiesta2: "=",
+	FiestaEX: "= +S10",
+	Fiesta: "+S4 +S6 +S14 +D7 +D15 +Sp4",
+
+U
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S1 +S4 +S6 +S14 +D13 +Sp2 +Dp5",
+
+U Got 2 Know
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S2 +S7 +S8",
+	Fiesta: "+S17 +S18 +S19 +D18 +Sp2 +Dp4",
+
+U Got Me Crazy
+	Prime: "+S4 +S9 +S17 +S18 +D5 +D18",
+
+U Got Me Rocking
+	Prime: "=",
+	Fiesta2: "+S3 +S6 +S8 +S17 +D4 +D17 +Dp3 +S18",
+
+Ugly Dee
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S3 +S5 +S9",
+	Fiesta: "+D11 +D15",
+
+Unique
+	Prime: "= -S16",
+	Fiesta2: "+S3 +S6 +S10 +S17 +D12 +D19 +S15 +D16 +S16",
+
+Uprock
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S5 +S17 +D14 +Sp2 +Dp4",
+
+Utopia
+	Prime: "=",
+	Fiesta2: "+S4 +S7 +S9 +S17 +D9 +D18",
+
+Vacuum
+	Prime: "=",
+	Fiesta2: "= +S19",
+	FiestaEX: "= +Dp3",
+	Fiesta: "+S21 +S23 +D22 +D25",
+
+Very Good
+	Prime: "+S3 +S6 +S9 +S15 +D5 +D15",
+
+Very Old Couples
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S6 +S13 +D15 +Sp2 +Dp6",
+
+Virtual Emotion
+	Prime: "=",
+	Fiesta2: "+S3 +S7 +S11 +D18 +S17 +Dp??(x2)",
+
+Vook
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S4 +S7",
+	Fiesta: "+S9 +S15 +S17 +S20 +D12 +D17 +D18 +D19",
+
+VVV
+	Prime: "= -D24",
+	Fiesta2: "+S18 +S23 +D16 +D19 +D24",
+
+Wanna
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S2 +S4 +S9 +S16 +D3 +D12 +D17 +Sp2 +Dp5",
+
+We Are
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S2 +Dp4",
+	Fiesta: "+S4 +S5 +S12 +D6 +D13",
+
+We Goin' Fly -remix-
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S5 +S15 +D19 +Sp3 +Dp6",
+
+We Got 2 Know
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S1 +S5 +S8 +S17 +S20 +D4 +D18 +Sp2 +Dp3 +Dp??(x3)",
+
+We Will Meet Again
+	Fiesta2: "=",
+	FiestaEX: "+S3 +S8 +S13 +S14 +D8",
+
+What Do You Really Want?
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S9 +S14 +S19 +D16 +D20",
+
+What Happened
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S3 +S7 +S12 +S17 +S20 +D20 +D23",
+
+Will o' the Wisp
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S3",
+	Fiesta: "+S5 +S10 +S13 +S19 +D10 +D13 +D19 +D21",
+
+Windmill
+	Prime: "=",
+	Fiesta2: "+S8 +S13 +S17 +S21 +D14 +D18 +D24",
+
+Winter
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +D17",
+	Fiesta: "+S4 +S6 +S8 +S15 +D11 +D19",
+
+Witch Doctor
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S4 +S6 +S10",
+	Fiesta: "+S16 +S19 +S21 +D19 +D22 +D23",
+
+Witch Doctor #1
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S2 +S5 +S8 +S9 +S15 +S16 +S18 +D17 +D19 +D20 +Sp3 +Dp7",
+
+X-Rave
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S3 +S6 +S9 +S17 +D11 +D20 +Sp2 +Dp6",
+
+X-Tree
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S3 +Sp2 +Dp3",
+	Fiesta: "+S7 +S12 +S20 +D14 +D18 +D22",
+
+X-Treme
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S4 +S7 +S18",
+	Fiesta: "+S9 +S14 +D13 +D19",
+
+Xenesis
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +Sp1",
+	Fiesta: "+S4 +S7 +S10 +S18 +D12 +D15 +D18",
+
+Xuxa
+	Prime: "=",
+	Fiesta2: "+S3 +S5 +S9 +S14 +D12 +D18 +Dp??(x2)",
+
+Y2Z
+	Prime: "=",
+	Fiesta2: "+S3 +S6 +S9 +S16 +D9 +D17",
+
+Yeo rae a
+	Prime: "=",
+	Fiesta2: "+S1 +S3 +S5 +S13 +D5 +D12",
+
+Yog-Sothoth
+	Prime: "+S9 +S18 +S21 +S23 +D23 +D25 +Dp??(x3)",
+
+Venus
+	Prime: "+S2 +S3 +S5 +S14 +D6 +D14",
+
+Bemera  [SHORT]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S13 +S21 +S23 +D19",
+
+Chicken Wing  [SHORT]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S20 +D13",
+
+Cleaner  [SHORT]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S21 +D20",
+
+Destination  [SHORT]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S9 +S15 +D18 +D20",
+
+Exceed 2 Opening
+	Prime: "= -D??(x9)",
+	Fiesta2: "=",
+	FiestaEX: "= +D??(x9)",
+	Fiesta: "+S15 +D19",
+
+Extravaganza  [SHORT]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S14 +D14 +D21 +Sp15",
+
+Flew Far Faster / FFF  [SHORT]
+	Prime: "=",
+	Fiesta2: "+S18 +D21",
+
+Final Audition 2  [SHORT]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S16 +D17 -D18",
+	Fiesta: "+D18",
+
+Final Audition 3  [SHORT]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S17",
+	Fiesta: "+D16",
+
+Final Audition Episode 2-X  [SHORT]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S20",
+	Fiesta: "+D19",
+
+Ignis Fatuus (DM Ashura Mix)  [SHORT]
+	Prime: "=",
+	Fiesta2: "+S21 +D21",
+
+K.O.A : Alice in Wonderworld  [SHORT]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +D18",
+	Fiesta: "+S8 +S16",
+
+Love is a Danger Zone  [SHORT]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S20",
+	Fiesta: "+S13 +D17",
+
+Love is a Danger Zone pt. 2  [SHORT]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S8 +S19 +D21",
+
+Moonlight  [SHORT]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +D20",
+	Fiesta: "+S16 +S18",
+
+Move That Body!
+	Prime: "+S16 +D18",
+
+Narcisista Por Excelencia  [SHORT]
+	Prime: "+S17 +D18",
+
+NX Opening
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S16 +D17",
+
+Overblow  [SHORT]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S18 +D17",
+
+Passacaglia  [SHORT]
+	Prime: "=",
+	Fiesta2: "+S17 +D18",
+
+Pop The Track  [SHORT]
+	Prime: "=",
+	Fiesta2: "+S18 +D16",
+
+PRIME Opening
+	Prime: "+S15 +D15 +Dp??(x5)",
+
+Procedimientos Para Llegar A Un Comun Acuerdo  [SHORT]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S18 +D16",
+
+Pumptris 8Bit ver.  [SHORT]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +D22",
+	Fiesta: "+S8 +S16",
+
+Rock the house  [SHORT]
+	Prime: "+S15 +S18 +D20",
+
+Selfishness  [SHORT]
+	Prime: "+S17 +D18",
+
+Solitary 2  [SHORT]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S18",
+	Fiesta: "+D17",
+
+Take Out  [SHORT]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S18 +D19",
+
+Trotpris  [SHORT]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S14 +D15",
+
+U Got Me Rocking  [SHORT]
+	Prime: "=",
+	Fiesta2: "+S17 +D17",
+
+Unique  [SHORT]
+	Prime: "=",
+	Fiesta2: "+S18 +D16",
+
+Winter  [SHORT]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +D17",
+	Fiesta: "+S6 +S9 +S16 +D10",
+
+Witch Doctor  [SHORT]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S20",
+	Fiesta: "+S14 +D16",
+
+X-Rave  [SHORT]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S16 +D18",
+
+Yog-Sothoth  [SHORT]
+	Prime: "+S13 +S18 +S21 +D16 +D21",
+
+45rpm & Eun Ji Won Remix
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S11 +D14 +Dp5",
+
+Avalanquiem
+	Prime: "+S23 +D25",
+
+B.P. Classic Remix
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S18",
+	Fiesta: "+S12 +D13 +D19",
+
+B.P. Classic Remix 2
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S11 +S18",
+
+Banya Classic Remix
+	Prime: "= +D11 -Dp11",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S7 +S19 +D20 +Dp11",
+
+BanYa Hip-Hop Remix
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S6 +S7 +Dp6",
+
+BanYa-P Guitar Remix
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S22 +D24",
+
+Beethoven Influenza
+	Prime: "+S18 +S21 +D21",
+
+Bemera
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S16 +S24 +D18 +D26",
+
+Big Metra Remix
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S5 +S19 +D17",
+
+BIG to the BANG
+	Prime: "=",
+	Fiesta2: "+S17 +D17",
+
+Caprice of DJ Otada
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +D25",
+	Fiesta: "+S11 +S19 +D22",
+
+Dr. K.O.A
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S8 +S18 +D20",
+
+Everybody Got 2 Know
+	Prime: "= -S??",
+	Fiesta2: "=",
+	FiestaEX: "+S?? +S19 +D18",
+
+EXTRA BanYa Remix
+	Prime: "+S8 +S21 +D13",
+
+FAE1 & Chicken Wing Remix (NX2 ver.)
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S8 +S21 +D13",
+
+Groove Party
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S5 +S14 +D15 +Dp5",
+
+Hard Core Rock Mix
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S18 +S21",
+
+History: We Are The Zest
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+Sp6 +Dp5",
+
+Infinity RMX
+	Prime: "=",
+	Fiesta2: "+S20 +D20",
+
+K-POP Boy Group RMX
+	Fiesta2: "=",
+	FiestaEX: "+D17",
+
+K-Pop Dance Remix
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S8 +S14 +D9 +D16",
+
+K-Pop Girl Group RMX
+	Fiesta2: "=",
+	FiestaEX: "+S14 +D15",
+
+K-Pop Mix (Old & New)
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S7 +S13",
+
+Love is a danger zone (try to B.P.M.)
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S12 +S20 +D14 +D23",
+
+Money Fingers
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S8 +S16 +D9 +D17",
+
+msgoon RMX pt. 1
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S7 +S17 +D17",
+
+msgoon RMX pt. 3
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S6 +S17 +D11 +D20",
+
+msgoon RMX pt. 5
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S17 +D17 +Sp3 +Dp4",
+
+msgoon RMX pt. 6
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+D19 +S20",
+
+msgoon RMX pt. 7
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S17 +Dp4",
+
+Nina PXNDX Mix
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S6 +S16 +D8",
+
+Novarash
+	Fiesta2: "=",
+	FiestaEX: "+S11 +S17 +D12",
+
+Novasonic Mix ver. 3
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S6 +S17 +D19",
+
+PaPa helloizing
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S19",
+	Fiesta: "+S8",
+
+Pro Pop Mix (new remix)
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S17",
+
+Pump It Up With You
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S17 +D17",
+
+Set Up Me2 Mix
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S17",
+
+Super Mackerel
+	Prime: "=",
+	Fiesta2: "+S16 +D18",
+
+Techno Repeatorment
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S7 +S19 +D8",
+
+The People Didn't Know Pumping Up
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S7 +D4 +D17",
+
+Treme-Vook of the War
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S11 +S19 +D13 +D22",
+
+Turkey Virus
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S8 +S15 +D11",
+
+Vacuum Cleaner
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S15 +S20 +S25 +D27",
+
+What Are You Doin?
+	Prime: "=",
+	Fiesta2: "+S19 +D24",
+
+Wi-Ex Doc-Va
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S15 +S21 +D15 +D23",
+
+Bar Bar Bar  [FULL]
+	Prime: "+S16 +D15",
+
+Beat # No.4  [FULL]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S17 +D19 +Dp6",
+
+Beat of the War 2  [FULL]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S19 +D20",
+
+Can't Nobody  [FULL]
+	Prime: "=",
+	Fiesta2: "+S15 +D16",
+
+Canon-D  [FULL]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S11 +S16 +D23",
+
+Chopsticks Challenge  [FULL]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S15 +D19",
+
+Crashday  [FULL]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S22 +D22",
+
+Dawn of the Apocalypse  [FULL]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= +S21",
+	Fiesta: "+S15",
+
+Deja Vu  [FULL]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S7 +S16 +D16",
+
+Digan Lo Que Digan  [FULL]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S7 +S18",
+
+Dignity  [FULL]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S13 +S19 +D16 +D22",
+
+Energy  [FULL]
+	Fiesta2: "=",
+	FiestaEX: "+S15",
+
+Enter the Dragon  [FULL]
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S17 +D18 +Dp3",
+
+Fantastic Baby  [FULL]
+	Prime: "=",
+	Fiesta2: "+S17 +D15",
+
+Fire  [FULL]
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S14",
+
+Fly  [FULL]
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S10 +S15 +D16 +D17",
+
+Forward  [FULL]
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S4 +S15 +D5",
+
+Heart Breaker  [FULL]
+	Prime: "=",
+	Fiesta2: "+S16 +D16",
+
+Hot Issue  [FULL]
+	Fiesta2: "=",
+	FiestaEX: "+S9 +S14 +D16",
+
+I'm the Best  [FULL]
+	Prime: "=",
+	Fiesta2: "+S18 +D14",
+
+Interference  [FULL]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S18 +D15 +D18",
+
+La La La  [FULL]
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S4 +S14",
+
+Like A Man  [FULL]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S19 +D19",
+
+Love is a Danger Zone 2  [FULL]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S19 +D21",
+
+Magic Girl  [FULL]
+	Fiesta2: "=",
+	FiestaEX: "+S12",
+
+Narcisista Por Excelencia  [FULL]
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S17 +D18",
+
+No.3  [FULL]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "+S17 +D18",
+
+Panuelito Rojo  [FULL]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S9 +S16 +D18",
+
+Procedimientos Para Llegar A Un Comun Acuerdo  [FULL]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S6 +S17 +D7",
+
+Ring Ding Ding  [FULL]
+	Fiesta2: "=",
+	FiestaEX: "+S16 +D17",
+
+Shanghai Romance  [FULL]
+	Prime: "=",
+	Fiesta2: "+S17 +D16",
+
+Shock  [FULL]
+	Fiesta2: "=",
+	FiestaEX: "+S17 +D15",
+
+Slightly  [FULL]
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S5 +S17",
+
+Step  [FULL]
+	Prime: "=",
+	Fiesta2: "+S15 +D17",
+
+Sugar Free  [FULL]
+	Prime: "+S15 +D15",
+
+Trato De No Trabarme  [FULL]
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S10 +S22 +D24",
+
+Wanna  [FULL]
+	Fiesta2: "=",
+	FiestaEX: "=",
+	Fiesta: "+S16",

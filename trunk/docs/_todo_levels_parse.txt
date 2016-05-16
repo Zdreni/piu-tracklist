@@ -1,0 +1,139 @@
+Error: Level of 'Another Truth  aNM-??' can't be parsed.
+Error: Level of 'Another Truth  CZ-15/16' parsed incorrectly.
+Error: Level of 'Another Truth  NM-15/16' parsed incorrectly.
+Error: Level of 'Beat of the War  CZ-15/16' parsed incorrectly.
+Error: Level of 'Beat of the War 2  CZ-15/16' parsed incorrectly.
+Error: Level of 'Bee  CZ-15/16' parsed incorrectly.
+Error: Level of 'Bee  aNM-??' can't be parsed.
+Error: Level of 'Beethoven Virus  aHD-(@)' can't be parsed.
+Error: Level of 'Beethoven Virus  aCZ-15/16' parsed incorrectly.
+Error: Level of 'Beethoven Virus  aNM-(@)' can't be parsed.
+Error: Level of 'Blazing  CZ-15/16' parsed incorrectly.
+Error: Level of 'Bullfighter's Song  CZ-15/16' parsed incorrectly.
+Error: Level of 'Chimera  HD-15/16' parsed incorrectly.
+Error: Level of 'Chimera  aFS-15/16' parsed incorrectly.
+Error: Level of 'Chimera  aNM-??' can't be parsed.
+Error: Level of 'Chung Hwa Ban Jeom  NM-15/16' parsed incorrectly.
+Error: Level of 'Circus Magic  aNM-??' can't be parsed.
+Error: Level of 'Circus Magic  aNM-15/16' parsed incorrectly.
+Error: Level of 'Com'Back  CZ-15/16' parsed incorrectly.
+Error: Level of 'Com'Back  NM-15/16' parsed incorrectly.
+Error: Level of 'Conga  NM-15/16' parsed incorrectly.
+Error: Level of 'Csikos Post  NM-15/16' parsed incorrectly.
+Error: Level of 'Dignity  FS-15/16' parsed incorrectly.
+Error: Level of 'Do It Yourself  aNM-??' can't be parsed.
+Error: Level of 'Do You Know That ~old school  CZ-15/16' parsed incorrectly.
+Error: Level of 'Dr. M  NM-15/16' parsed incorrectly.
+Error: Level of 'Dr. M  aCZ-15/16' parsed incorrectly.
+Error: Level of 'Eres Para Mi  aFS-??' can't be parsed.
+Error: Level of 'Extravaganza  aCZ-??' can't be parsed.
+Error: Level of 'Extravaganza  aNM-??' can't be parsed.
+Error: Level of 'Extravaganza  aHD-(@)' can't be parsed.
+Error: Level of 'Fighting Spirits  aNM-15/16' parsed incorrectly.
+Error: Level of 'Final Audition  aCZ-??' can't be parsed.
+Error: Level of 'Final Audition  aNM-??' can't be parsed.
+Error: Level of 'Final Audition  CZ-15/16' parsed incorrectly.
+Error: Level of 'Final Audition  NM-15/16' parsed incorrectly.
+Error: Level of 'Final Audition  aCZ-15/16' parsed incorrectly.
+Error: Level of 'Final Audition  aNM-15/16' parsed incorrectly.
+Error: Level of 'Final Audition 2  aCZ-??' can't be parsed.
+Error: Level of 'Final Audition 2  aCZ-15/16' parsed incorrectly.
+Error: Level of 'Final Audition 3 U.F  aNM-??' can't be parsed.
+Error: Level of 'Final Audition episode 1  CZ-15/16' parsed incorrectly.
+Error: Level of 'Final Audition episode 1  aFS-(@)' can't be parsed.
+Error: Level of 'Final Audition episode 2-2  HD-15/16' parsed incorrectly.
+Error: Level of 'Final Audition episode 2-2  aNM-??' can't be parsed.
+Error: Level of 'Fly  NM-15/16' parsed incorrectly.
+Error: Level of 'Free!  CZ-15/16' parsed incorrectly.
+Error: Level of 'Greenhorn  NM-15/16' parsed incorrectly.
+Error: Level of 'Handsome Character That Pass  NM-15/16' parsed incorrectly.
+Error: Level of 'I'll Give You All My Love  aNM-??' can't be parsed.
+Error: Level of 'I'll Give You All My Love  CZ-15/16' parsed incorrectly.
+Error: Level of 'Join The Party  aNM-??' can't be parsed.
+Error: Level of 'Kiss me  NM-15/16' parsed incorrectly.
+Error: Level of 'Kiss me  aCZ-(@)' can't be parsed.
+Error: Level of 'Kiss me  aNM-15/16' parsed incorrectly.
+Error: Level of 'La Cubanita  NM-15/16' parsed incorrectly.
+Error: Level of 'Le Code De Bonne Conduite  NM-15/16' parsed incorrectly.
+Error: Level of 'Love is a Danger Zone  aFS-??' can't be parsed.
+Error: Level of 'Love is a Danger Zone  aNM-??' can't be parsed.
+Error: Level of 'Love is a Danger Zone  aCZ-15/16' parsed incorrectly.
+Error: Level of 'Love is a Danger Zone  aNM-??' can't be parsed.
+Error: Level of 'Love is a Danger Zone  aNM-??(x2)' can't be parsed.
+Error: Level of 'Love is a Danger Zone 2  HD-15/16' parsed incorrectly.
+Error: Level of 'Love is a Danger Zone 2 (D&G Ver.)  aHD-??' can't be parsed.
+Error: Level of 'Love is a Danger Zone 2 (D&G Ver.)  aCZ-??' can't be parsed.
+Error: Level of 'Love is a Danger Zone 2 (D&G Ver.)  aNM-??' can't be parsed.
+Error: Level of 'Love is a Danger Zone 2 (D&G Ver.)  aHD-15/16' parsed incorrectly.
+Error: Level of 'Love is a Danger Zone 2 (D&G Ver.)  aNM-??' can't be parsed.
+Error: Level of 'Love is a Danger Zone 2 (D&G Ver.)  aNM-??(x2)' can't be parsed.
+Error: Level of 'Love is a Danger Zone 2 (D&G Ver.)  aFS-??(x2)' can't be parsed.
+Error: Level of 'Love is a Danger Zone 2 (D&G Ver.)  aNM-??(x2)' can't be parsed.
+Error: Level of 'Mexi Mexi  aNM-??' can't be parsed.
+Error: Level of 'Mexi Mexi  aNM-15/16' parsed incorrectly.
+Error: Level of 'Monkey Fingers  CZ-15/16' parsed incorrectly.
+Error: Level of 'Mr. Fire Fighter  NM-15/16' parsed incorrectly.
+Error: Level of 'Mr. Larpus  aNM-??' can't be parsed.
+Error: Level of 'My Friend  aFS-??' can't be parsed.
+Error: Level of 'N  CZ-15/16' parsed incorrectly.
+Error: Level of 'Naissance 2  aNM-??' can't be parsed.
+Error: Level of 'Naissance 2  NM-15/16' parsed incorrectly.
+Error: Level of 'Power of Dream  NM-15/16' parsed incorrectly.
+Error: Level of 'Pumptris Quattro (8bit version)  aFS-??(x3)' can't be parsed.
+Error: Level of 'Pumptris Quattro (8bit version)  aNM-??(x2)' can't be parsed.
+Error: Level of 'Run!  CZ-15/16' parsed incorrectly.
+Error: Level of 'Run!  NM-15/16' parsed incorrectly.
+Error: Level of 'Shake It Up  CZ-15/16' parsed incorrectly.
+Error: Level of 'Shake It Up  aCZ-15/16' parsed incorrectly.
+Error: Level of 'Shake That Bootie  NM-15/16' parsed incorrectly.
+Error: Level of 'She Likes Pizza  NM-15/16' parsed incorrectly.
+Error: Level of 'Slam  CZ-15/16' parsed incorrectly.
+Error: Level of 'Solitary  NM-15/16' parsed incorrectly.
+Error: Level of 'Solitary 2  NL-??' can't be parsed.
+Error: Level of 'Solitary 2  HD-??' can't be parsed.
+Error: Level of 'Solitary 2  CZ-??' can't be parsed.
+Error: Level of 'Solitary 2  FS-??' can't be parsed.
+Error: Level of 'Solitary 2  NM-??' can't be parsed.
+Error: Level of 'Solitary 2  aCZ-??' can't be parsed.
+Error: Level of 'Solitary 2  aNM-??' can't be parsed.
+Error: Level of 'Terminal Depository  NM-15/16' parsed incorrectly.
+Error: Level of 'Throw 'em Up  NM-15/16' parsed incorrectly.
+Error: Level of 'Vook  aFS-??' can't be parsed.
+Error: Level of 'Vook  aNM-??' can't be parsed.
+Error: Level of 'Vook  FS-15/16' parsed incorrectly.
+Error: Level of 'Vook  aCZ-(@)' can't be parsed.
+Error: Level of 'Witch Doctor  aCZ-??' can't be parsed.
+Error: Level of 'Witch Doctor  aNM-??' can't be parsed.
+Error: Level of 'Witch Doctor  CZ-15/16' parsed incorrectly.
+Error: Level of 'Exceed 2 Opening  NM-??' can't be parsed.
+Error: Level of '2nd Hidden Remix  NM-??' can't be parsed.
+Error: Level of 'Banya Classic Remix  NM-??' can't be parsed.
+Error: Level of 'Bemera  NM-??' can't be parsed.
+Error: Level of 'Chicago Club Mix  CZ-15/16' parsed incorrectly.
+Error: Level of 'Ignition Starts/Hypnosis/Extravaganza Remix  HD-??' can't be parsed.
+Error: Level of 'Ignition Starts/Hypnosis/Extravaganza Remix  CZ-??' can't be parsed.
+Error: Level of 'Ignition Starts/Hypnosis/Extravaganza Remix  FS-??' can't be parsed.
+Error: Level of 'K-Pop Dance Remix  CZ-15/16' parsed incorrectly.
+Error: Level of 'K-Pop Dance Remix  NM-15/16' parsed incorrectly.
+Error: Level of 'Love is a Danger Zone (try to B.P.M.)  FS-15/16' parsed incorrectly.
+Error: Level of 'Pop House Remix  NM-15/16' parsed incorrectly.
+Warning: Pump It Up With You has no bpm specified.
+Error: Level of 'Wi-Ex-Doc-Va  HD-15/16' parsed incorrectly.
+Error: Level of 'Beat of the War 2  [FULL]  HD-(@)' can't be parsed.
+Error: Level of 'Canon-D  [FULL]  CZ-??' can't be parsed.
+Error: Level of 'Canon-D  [FULL]  HD-15/16' parsed incorrectly.
+Error: Level of 'Canon-D  [FULL]  NM-(@)' can't be parsed.
+Error: Level of 'Dignity  [FULL]  HD-??' can't be parsed.
+Error: Level of 'Dignity  [FULL]  CZ-??' can't be parsed.
+Error: Level of 'Dignity  [FULL]  FS-??' can't be parsed.
+Error: Level of 'Dignity  [FULL]  HD-??' can't be parsed.
+Error: Level of 'Dignity  [FULL]  CZ-??' can't be parsed.
+Error: Level of 'Dignity  [FULL]  FS-??' can't be parsed.
+Error: Level of 'Dignity  [FULL]  FS-15/16' parsed incorrectly.
+Error: Level of 'Fire  [FULL]  FS-(@)' can't be parsed.
+Error: Level of 'Hold the Line  [FULL]  CZ-15/16' parsed incorrectly.
+Error: Level of 'Love is a Danger Zone 2  [FULL]  HD-(@)' can't be parsed.
+Error: Level of 'Love is a Danger Zone 2  [FULL]  FS-(@)' can't be parsed.
+Error: Level of 'Lovely  [FULL]  CZ-(@)' can't be parsed.
+Error: Level of 'Lovely  [FULL]  NM-(@)' can't be parsed.
+Error: Level of 'U Inside My Dim Memory  [FULL]  NM-15/16' parsed incorrectly.
