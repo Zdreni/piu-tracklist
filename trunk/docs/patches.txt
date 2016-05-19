@@ -1734,6 +1734,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1140-update-information
      BPM : 140      
      Default step chart :  S17, D18      
  
+
 2. New step charts
 
 1) Song :  FFF
@@ -1751,14 +1752,17 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1140-update-information
      BPM : 175        
      Step chart :  S16(UCS), D13(UCS) 
 
- 4) Song :   Super Fantasy
+4) Song :   Super Fantasy
       Artist :   SHK
       BPM : 145
       Step chart :  S14(UCS), D16(UCS) 
- 5) Song :    Karyawisata
+
+5) Song :    Karyawisata
       Artist :    Vesuvia x REDSHiFT
       BPM : 173
       Step chart :  S15(UCS), D16(UCS) 
+
+
 3. Quest zone    
 Quest “Chapter14” is updated.
 1) Song : J Bong
@@ -1800,32 +1804,40 @@ Prime 1.15
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1150-update-information/1281991668495752
 (prime_14.bin)
 
+
 1. New Songs
+
 1) Song :  PRIME
     Artist :  Tatsh
     BPM : 165   
     Default step chart :   S04, S07, S11, S16, S18, D12, D16, D18 
     Unlock step chart : S??, D??
+
 2) Song :   Mad5cience   
      Artist :   Paul Bazooka  
      BPM : 130   
      Default step chart :   S05, S16, D07, D16    
      Unlock step chart : S??
+
 3) Song :   Red Snow
      Artist :  Cashew
      BPM : 170
      Default step chart :   S11, S16, D12  
      Unlock step chart : S??, D??
+
 4) Song :   Break It Down
      Artist :   MAZO
      BPM : 176
      Default step chart :   S07, S14, S16, D05, D12, D17 
  
+
 2. New step charts
+
 1) Song :   Electric
     Artist :   The DNC
     BPM : 120        
     Step chart :  S17
+
 
 3. New unlock step charts 
 
@@ -1835,22 +1847,31 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1150-update-information
 2) Song :  Imprinting -  Sakuzyo          
      Step chart : D24
 
-4. Quest zone    
+
+4. Quest zone
 Quest “Chapter15” is updated.
+
 1) Song :  Higleddy pigleddy
     Step chart :   S09, S14, S16, S18
+
 2) Song :  Turkey March – Minimal Tunes –  
      Step chart :  S06, S08, S17, S18
+
 3)  Song :   Witch Doctor    
       Step chart :   S10, S16, S19, S20
+
 4) Song :    Pavane  
      Step chart :   S10, S17, D16, D20
+
 5) Song :   X-Rave   
      Step chart :   S06, S09, S17, S24
 
+
 5. Unlocked Step charts
+
 1) Song :    Violet Perfume   
     Step chart :  D19  - released!  
+
 2) Song :   Scolpion King           
      Step chart : S19 - released!
 
@@ -1860,7 +1881,9 @@ Quest “Chapter15” is updated.
 4) Song : Queen Of The Red
      Step chart : S18, D19 - released!
 
+
 6. New Features
+
 1) Double Performance step charts was added!
     - Various performance step charts for Freestyle category of WPF2016!
     - Please check out over 50 step charts of Prime 1.15 song list from www.piugame.com.
