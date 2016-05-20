@@ -390,6 +390,8 @@ var chartFilter = {
 			if( chart.fromPatchIndex  &&  chartFilter.patchIndex < chart.fromPatchIndex )
 				return;
 
+			item.isUnlocked = ! chart.unlockDescr  ||  chart.unlockPatch;
+
 			for( var mixID of chartFilter.excludeMixIDs )
 			{
 				//if( track[ mixID ]  &&  _.findWhere( track[ mixID ], { index: chart.index, } ) )
@@ -455,11 +457,11 @@ var chartFilter = {
 				function LevelMatchScore( item )
 				{
 					if( item.realLevelMatches && item.levelMatches )
-						return 1;
+						return 10;
 					if( item.realLevelMatches )
-						return 2;
+						return 20;
 					if( item.levelMatches )
-						return 3;
+						return 30;
 				}
 				
 				var levelMatchScoreDelta = LevelMatchScore( item1 ) - LevelMatchScore( item2 );

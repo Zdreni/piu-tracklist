@@ -687,8 +687,8 @@ var tracklist = {
 "1302":
 {
 	title: "Electric", artist: "The DNC", channel: WORLD, bpm: "120",
-	Prime: "=",
-	Fiesta2: "S2 S4 S6 S14 D4 D16  @1.15 S17",
+	Prime: "=  @1.15 S17",
+	Fiesta2: "S2 S4 S6 S14 D4 D16",
 },
 
 "1303":
@@ -5750,7 +5750,7 @@ function PreprocessTracklist()
 	}
 
 
-	function PreprocessNewStyleChart( track, result, chartDescr )
+	function PreprocessNewStyleChart( track, result, chartDescr, mixID )
 	{
 		var chartInfo = chartDescr.split( "." );
 		//if( track.oldSlotChartIDs  &&  chartInfo.length === 1)
@@ -5769,13 +5769,19 @@ function PreprocessTracklist()
 			}
 			else
 			{
-				var prevChart = FindChart( track, prevChartDescr );
+				prevChart = FindChart( track, prevChartDescr );
 				console.assert( prevChart );
 				prevChartIndex = prevChart.index;
 			}
 		}
 			
 		var chart = ParseNewStyleChart( track, chartInfo[ 0 ], prevChartIndex );
+
+		if( prevChartIndex > 0 )
+			chart.fromMixID = prevChart.fromMixID;
+		else
+			chart.fromMixID = mixID;
+
 		if( chartIsUcs )
 			chart.isUCS = true;
 
@@ -5835,13 +5841,13 @@ function PreprocessTracklist()
 			}
 			else if( chartText[0] === '+' )
 			{
-				var chart = PreprocessNewStyleChart( track, track[ mixID ], chartText.substring( 1 ) );
+				var chart = PreprocessNewStyleChart( track, track[ mixID ], chartText.substring( 1 ), mixID );
 				if( patchIndex > 0 )
 					chart.fromPatchIndex = patchIndex;
 			}
 			else if( chartText[0] === 'S'  ||  chartText[0] === 'D' )  // implicit '+' is considered
 			{
-				var chart = PreprocessNewStyleChart( track, track[ mixID ], chartText );
+				var chart = PreprocessNewStyleChart( track, track[ mixID ], chartText, mixID );
 				if( patchIndex > 0 )
 					chart.fromPatchIndex = patchIndex;
 			}

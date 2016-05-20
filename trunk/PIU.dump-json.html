@@ -5,8 +5,8 @@
 
 <script src="tracklist.js"></script>
 <script src="tracklist_src.js"></script>
-<script src="tracklist_src_add.js"></script>
 <!--
+<script src="tracklist_src_add.js"></script>
 <script src="check.js"></script>
 <script src="check_Exceed2_Zero.js"></script>
 <script src="check_NX.js"></script>
@@ -14,7 +14,7 @@
 -->
 <!-- -->
 <script src="tracklist_bpms.js"></script>
-<!-- <script src="tracklist_unlocks.js"></script> -->
+<script src="tracklist_unlocks.js"></script>
 <!-- <script src="tracklist_level_estimations.js"></script> -->
 
 <code>
@@ -90,6 +90,7 @@ for( var trackID in tracklist )
 
 			var chartIndex = chart.index;
 			delete chart.index;
+			delete chart.fromMixID;
 			if( Object.keys( chart ).length === 1 )  // only "text"
 				chart = chart.text;
 			track[ mixID ][ chartIndex ] = chart;

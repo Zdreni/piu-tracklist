@@ -349,7 +349,34 @@ tr.strikeout td:after {
 			}
 		return NaN;
 	}
-	
+
+	var speedCurves = {
+		"Single": [ 1, 250, 15, 600, 25, 720 ],
+		"Double": [ 1, 300, 15, 550, 25, 650 ],
+		"Couple": [ 1, 400, 25, 500 ]
+	};
+
+	function GetRecommendedSpeedDescr( item )
+	{
+		var recommendedSpeed = "???";
+
+		var bpmStr = item.chart.bpm  ?  item.chart.bpm  :  item.track.bpm;
+		var bpmNum = parseInt( bpmStr );
+
+		if( bpmNum != NaN  &&  bpmNum == bpmStr  &&  item.chart.realLevelNum != NaN )
+		{
+			var calculatedSpeed = GetCurveValue( speedCurves[ item.chart.type ], item.chart.realLevelNum ) / bpmNum;
+			var availSpeed = Math.round( calculatedSpeed * 2 ) / 2;
+
+			if( Math.abs( availSpeed - calculatedSpeed ) > 0.15 )
+				recommendedSpeed = availSpeed + "x (" + ( Math.round(calculatedSpeed * 100) / 100 ) + ")";
+			else
+				recommendedSpeed = availSpeed + "x";
+		}
+
+		return recommendedSpeed;
+	}
+
 	function TableItemDescr( item )
 	{
 		var rowClass = item.realLevelMatches  ?  ""  :  "strikeout";
@@ -365,32 +392,7 @@ tr.strikeout td:after {
 				availability += ", until " + item.chart.unlockPatch;
 		}
 		
-		var bpmStr = item.chart.bpm  ?  item.chart.bpm  :  item.track.bpm;
-		var bpmNum = parseInt( bpmStr );
-		
-		var recommendedSpeed = "???";
-		if( bpmNum != NaN  &&  bpmNum == bpmStr  &&  item.chart.realLevelNum != NaN )
-		{
-			var calculatedSpeed;
-			switch( item.chart.type )
-			{
-				case SINGLE:
-					//calculatedSpeed = ( 260 + item.chart.realLevelNum * 17 ) / bpmNum;
-					calculatedSpeed = GetCurveValue( [ 1, 250, 15, 550, 25, 700 ], item.chart.realLevelNum ) / bpmNum;
-				break;
-				case DOUBLE:
-					calculatedSpeed = GetCurveValue( [ 1, 300, 15, 550, 25, 650 ], item.chart.realLevelNum ) / bpmNum;
-				break;
-				case COUPLE:
-					calculatedSpeed = GetCurveValue( [ 1, 400, 25, 500 ], item.chart.realLevelNum ) / bpmNum;
-				break;
-			}
-			var availSpeed = Math.round(calculatedSpeed * 2) / 2;
-			if( Math.abs( availSpeed - calculatedSpeed ) > 0.15 )
-				recommendedSpeed = availSpeed + "x (" + ( Math.round(calculatedSpeed * 100) / 100 ) + ")";
-			else
-				recommendedSpeed = availSpeed + "x";
-		}
+		var recommendedSpeed = GetRecommendedSpeedDescr( item );
 
 		var youtubeUrl = "https://www.youtube.com/results?search_query=Pump+It+Up+" + chartFilter.mixID + "+" + item.track.title + "+" + item.chart.tag + "+" + item.chart.levelText;
 		

@@ -5,8 +5,8 @@
 
 <script src="tracklist.js"></script>
 <script src="tracklist_src.js"></script>
-<script src="tracklist_src_add.js"></script>
 <!--
+<script src="tracklist_src_add.js"></script>
 <script src="check.js"></script>
 <script src="check_Exceed2_Zero.js"></script>
 <script src="check_NX.js"></script>
@@ -14,19 +14,21 @@
 -->
 <!-- -->
 <script src="tracklist_bpms.js"></script>
-<!-- <script src="tracklist_unlocks.js"></script> -->
+<script src="tracklist_unlocks.js"></script>
 <!-- <script src="tracklist_level_estimations.js"></script> -->
 
 <code>
 <script>
 var mixID = "Prime";
-var lowerLevel = 17;
-var upperLevel = 30;
+//var appearedMixesIDs = [ "FiestaEX", "Fiesta2", "Prime" ];
+var appearedMixesIDs = [ "FiestaEX" ];
+var lowerLevel = 20;
+var upperLevel = 22;
 
 var levels = {};
-for( var level = lowerLevel;  level < upperLevel;  ++level)
+for( var level = lowerLevel;  level <= upperLevel;  ++level)
 {
-	levels[ "S" + level ] = [];
+	levels[ "S" + level ] =	 [];
 	levels[ "D" + level ] = [];
 }
 
@@ -43,9 +45,17 @@ for( var trackID in tracklist )
 	track[ mixID ] = {};
 	for( var chart of mixCharts )
 	{
+		if( appearedMixesIDs.indexOf( chart.fromMixID ) < 0 )
+			continue;
+
 		var tag = chart.text;
 		if( levels[ tag ] )
-			levels[ tag ].push( track.title + "&nbsp;&nbsp;" + chart.text );
+		{
+			if( chart.unlockDescr  &&  ! chart.unlockPatch )
+				levels[ tag ].push( "[" + chart.unlockDescr + "] &nbsp;" + track.title + "&nbsp;&nbsp;" + chart.text );
+			else
+				levels[ tag ].push( track.title + "&nbsp;&nbsp;" + chart.text );
+		}
 	}
 }
 
@@ -62,7 +72,7 @@ function WriteBlock( tag )
 	document.write( "<br>" );
 }
 
-for( var level = lowerLevel;  level < upperLevel;  ++level)
+for( var level = lowerLevel;  level <= upperLevel;  ++level)
 {
 	WriteBlock( "S" + level );
 	WriteBlock( "D" + level );
