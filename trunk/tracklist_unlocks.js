@@ -30,11 +30,18 @@ NXA:
 */
 
 var currentMixID;
-var currentMixUnlockPatch;
+var currentMixUnlockPatchIndex;
 
-function ReadPatch( tillPatch )
+function ReadPatchIndex( tillPatch )
 {
-	return tillPatch;
+	if( ! tillPatch )
+		return;
+
+	console.assert( tillPatch.startsWith( '..@' ) );
+	var patch = tillPatch.substring( 3 );
+	patchIndex = mixes[ currentMixID ].patches.indexOf( patch );
+	console.assert( patchIndex >= 0 )
+	return patchIndex;
 }
 
 function On( mixID, tillPatch )
@@ -42,7 +49,7 @@ function On( mixID, tillPatch )
 	// tempCurrentMix = mixID
 	// tempUnlockPatch = ReadPatch( tillPatch )
 	currentMixID = mixID;
-	currentMixUnlockPatch = ReadPatch( tillPatch );
+	currentMixUnlockPatchIndex = ReadPatchIndex( tillPatch );
 }
 
 function FindChartForLock( track, mixID, chartText )
@@ -71,9 +78,9 @@ function Lock( trackCharts, description, tillPatch )
 		chart.unlockDescr = description;
 
 		if( tillPatch )
-			chart.unlockPatch = ReadPatch( tillPatch );
-		else if( currentMixUnlockPatch )
-			chart.unlockPatch = currentMixUnlockPatch;
+			chart.unlockPatchIndex = ReadPatchIndex( tillPatch );
+		else if( currentMixUnlockPatchIndex )
+			chart.unlockPatchIndex = currentMixUnlockPatchIndex;
 	}
 }
 
@@ -275,7 +282,7 @@ On( "Prime" )
 	Lock( "Red Snow  S19, D20", PIUGAME );
 	Lock( "Annihilator Method  D24", PIUGAME );
 	Lock( "Imprinting  D24", PIUGAME );
-// 1.15
+// 1.16
 	Lock( "Moment Day  S18, D19", PIUGAME );
 	Lock( "Houkago Stride  S19, D21", PIUGAME );
 	Lock( "Idealized Romance  S18, D18", PIUGAME );
@@ -284,5 +291,5 @@ On( "Prime" )
 	Lock( "Stardust Overdrive  D24", PIUGAME );
 
 
-delete tempUnlockPatch;
-delete tempCurrentMix;
+//delete tempUnlockPatchIndex;
+//delete tempCurrentMix;

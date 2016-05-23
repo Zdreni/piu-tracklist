@@ -51,7 +51,7 @@ for( var trackID in tracklist )
 		var tag = chart.text;
 		if( levels[ tag ] )
 		{
-			if( chart.unlockDescr  &&  ! chart.unlockPatch )
+			if( chart.unlockDescr  &&  ! chart.unlockPatchIndex )
 				levels[ tag ].push( "[" + chart.unlockDescr + "] &nbsp;" + track.title + "&nbsp;&nbsp;" + chart.text );
 			else
 				levels[ tag ].push( track.title + "&nbsp;&nbsp;" + chart.text );

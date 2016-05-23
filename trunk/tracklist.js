@@ -390,7 +390,7 @@ var chartFilter = {
 			if( chart.fromPatchIndex  &&  chartFilter.patchIndex < chart.fromPatchIndex )
 				return;
 
-			item.isUnlocked = ! chart.unlockDescr  ||  chart.unlockPatch;
+			item.isUnlocked = ! chart.unlockDescr  ||  chart.unlockPatchIndex;
 
 			for( var mixID of chartFilter.excludeMixIDs )
 			{

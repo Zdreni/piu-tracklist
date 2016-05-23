@@ -388,8 +388,8 @@ tr.strikeout td:after {
 			if( availability != "" )
 				availability += ", ";
 			availability += item.chart.unlockDescr;
-			if( item.chart.unlockPatch )
-				availability += ", until " + item.chart.unlockPatch;
+			if( item.chart.unlockPatchIndex )
+				availability += ", until " + mixes[ chartFilter.mixID ].patches[ item.chart.unlockPatchIndex ];
 		}
 		
 		var recommendedSpeed = GetRecommendedSpeedDescr( item );
