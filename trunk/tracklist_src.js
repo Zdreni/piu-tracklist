@@ -45,9 +45,10 @@ var tracklist = {
 "14xx":
 {
 	title: "", artist: "", channel: , bpm: "",
-	Prime: "@1.16",
+	Prime: "@1.17",
 },
 */
+
 
 // \14 - Prime
 
@@ -142,7 +143,11 @@ var tracklist = {
 	Prime: "@1.01 S4 S7 S10 S18 D11 D20",
 },
 
-// "1416":
+"1416":
+{
+	title: "Amphitryon", artist: "Gentle Stick", channel: ORIGINAL, bpm: "155",
+	Prime: "@1.17 S06 S11 D12  S18 D20",
+},
 
 "1417":
 {
@@ -176,7 +181,11 @@ var tracklist = {
 	Prime: "@1.10 S9 S13 D12  S18 S21 D19 D23",
 },
 
-// "1423":
+"1423":
+{
+	title: "Blaze emotion (Band version)", artist: "Yahpp", bpm: "170",
+	Prime: "@1.17 S2 S8 S17 D4 D18",
+},
 
 "1424":
 {
@@ -240,7 +249,7 @@ var tracklist = {
 "1436":
 {
 	title: "Robot Battle", artist: "CYO Style", channel: WORLD, bpm: "198",
-	Prime: "S8 S12 S21 D12 D23",
+	Prime: "S8 S12 S21 D12 D23  @1.17 S18.ucs D19.ucs",
 },
 
 "1437":
@@ -478,7 +487,7 @@ var tracklist = {
 "1481":
 {
 	title: "Bad Apple!! feat. Nomico", artist: "Masayoshi Minoshima", channel: JMUSIC, bpm: "138",
-	Prime: "@1.09 S1 S5 S9 S13 D10  S17 S19 D18 D21",
+	Prime: "@1.09 S1 S5 S9 S13 D10  S17 S19 D18 D21  @1.17 S3",
 },
 
 "1482":
@@ -500,13 +509,13 @@ var tracklist = {
 "1486":
 {
 	title: "Setsuna Trip", artist: "LastNote", channel: JMUSIC, bpm: "145",
-	Prime: "@1.12 S1 S5 S09 S13 S16 D8 D14 Dp??(x2)  S18 D19",
+	Prime: "@1.12 S1 S5 S09 S13 S16 D8 D14 Dp??(x2)  S18 D19  @1.17 S3",
 },
 
 "1487":
 {
 	title: "Trashy Innocence", artist: "LastNote", channel: JMUSIC, bpm: "230",
-	Prime: "@1.14 S1 S5 S10 S14 D10 D15 Dp??(x2)  S20 D24",
+	Prime: "@1.14 S1 S5 S10 S14 D10 D15 Dp??(x2)  S20 D24  @1.17 S3",
 },
 
 "1488":
@@ -530,7 +539,7 @@ var tracklist = {
 "1491":
 {
 	title: "Bad &infin; End &infin; Night", artist: "HitoshizukuP X yama&#9651", channel: JMUSIC, bpm: "204",
-	Prime: "@1.11 S2 S6 S10 S13 D11 Dp4 Dp??(x3)  S17 S19 D18 D23",
+	Prime: "@1.11 S2 S6 S10 S13 D11 Dp4 Dp??(x3)  S17 S19 D18 D23  @1.17 S4",
 },
 
 "1492":
@@ -4578,9 +4587,9 @@ var tracklist = {
 "911":
 {
 	title: "Chicken Wing", artist: "BanYa", bpm: "200",
-	Prime: "=",
-	Fiesta2: "= @1.60 S17",
-	FiestaEX: "= @1.51 S4 S6 S9 D17",
+	Prime: "=  @1.17 S21.ucs S22.ucs D23.ucs",
+	Fiesta2: "=  @1.60 S17",
+	FiestaEX: "=  @1.51 S4 S6 S9 D17",
 	Fiesta: "S10.cz D11.nm  S19",
 	Exceed2: ["", "", "10", "", "11"],
 	Exceed: ["", "", "10", "6", ""],
@@ -4984,7 +4993,7 @@ var tracklist = {
 "713":
 {
 	title: "Till the End of Time", artist: "BanYa", bpm: "140", fromMix: "Rebirth",
-	Prime: "=",
+	Prime: "=  @1.17 S13.ucs S17.ucs D8.ucs D13.ucs D16.ucs",
 	Fiesta2: "=",
 	FiestaEX: "= @1.10 Dp3",
 	Fiesta: "S2 S4 S9",

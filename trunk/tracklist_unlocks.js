@@ -273,9 +273,9 @@ On( "Prime" )
 	Lock( "Ragnarok  S20", PIUGAME );
 // 1.14
 	Lock( "Trashy Innocence  S20, D24", PIUGAME );
-	Lock( "Ren'ai Yuusha  S19, D20", PIUGAME );
+	Lock( "Ren'ai Yuusha  S19, D20", PIUGAME, "..@1.17" );
 	Lock( "Just Hold on (To All Fighters)  S21, D22, D25", PIUGAME );
-	Lock( "Enhanced Reality  S19, D20", PIUGAME );
+	Lock( "Enhanced Reality  S19, D20", PIUGAME, "..@1.17" );
 // 1.15
 	Lock( "Prime  S20, D20", PIUGAME );
 	Lock( "Mad5cience  S20", PIUGAME );
@@ -289,7 +289,8 @@ On( "Prime" )
 	Lock( "Force of Ra  S19, D20", PIUGAME );
 	Lock( "Achluoias  D26", PIUGAME );
 	Lock( "Stardust Overdrive  D24", PIUGAME );
-
+// 1.17
+	Lock( "Amphitryon  S18, D20", PIUGAME );
 
 //delete tempUnlockPatchIndex;
 //delete tempCurrentMix;
