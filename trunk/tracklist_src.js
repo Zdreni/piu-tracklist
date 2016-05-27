@@ -2025,7 +2025,7 @@ var tracklist = {
 
 "1047":
 {
-	title: "Pump It Up With You", artist: "msgoon", duration: REMIX,
+	title: "Pump It Up With You", artist: "msgoon", bpm: "???", duration: REMIX,
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S17 D17",
@@ -5688,8 +5688,10 @@ function ParseChartLevel( chartText )
 
 function PreprocessTracklist()
 {
-	function PreprocessOldStyleListCharts( track, arcadeCharts, anotherCharts )
+	function PreprocessOldStyleListCharts( track, mixID )
 	{
+		var arcadeCharts = track[ mixID ];
+		var anotherCharts = track[ mixID + "_" ];
 		var result = [];
 
 		function PreprocessStation( inCharts, zone, tags )
@@ -5889,7 +5891,7 @@ function PreprocessTracklist()
 
 		if( track[ mixID ]  ||  track[ mixID + "_" ] )
 		{
-			track[ mixID ] = PreprocessOldStyleListCharts( track, track[ mixID ], track[ mixID + "_" ] );
+			track[ mixID ] = PreprocessOldStyleListCharts( track, mixID );
 			delete track[ mixID + "_" ];
 		}
 	}
