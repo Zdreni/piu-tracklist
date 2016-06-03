@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+	<script src="include/underscore/underscore-min.js"></script>
+</head>
+
+<script src="tracklist.js"></script>
+<script src="tracklist_src.js"></script>
+<script src="tracklist_bpms.js"></script>
+<script src="tracklist_unlocks.js"></script>
+<script src="tournament-rules.js"></script>
+
+List: 
+<code>
+<script>
+document.write("<select id='set' onchange='selectSet( this )'>\n");
+for( var setKey in sets)
+{
+	document.write("<option value='" + setKey + "'>" + setKey + "</option>\n" );
+}
+document.write("</select>\n");
+
+function selectSet( control )
+{
+	var setKey = control.value;
+	var charts = sets[ setKey ];
+	charts.sort( function( c1, c2 ) { return c1.track.title.localeCompare( c2.track.title ); } );
+	var str = "";
+	for( var chart of charts )
+	{
+		str += chart.track.title + "  " + chart.text + "<br>";
+	}
+
+	$("#tracks").html( str );
+}
+
+</script>
+</code>
+
+<br><hr><br>
+
+<div id="tracks"></div>
+
+<code>
+<script>
+</script>
+</code>
+
+</body>
+</html>

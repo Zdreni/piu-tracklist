@@ -1,0 +1,27 @@
+tracklist = {
+	...
+	'<track id>': {
+		title
+		artist
+		bpm
+		channel: 'Original' / 'KPop' / 'JMusic' / 'World'
+		duration: 'Short' / 'Standard' / 'Remix' / 'Full'
+		chartsCount
+		[fromMix: mixID, if older then Exceeed]
+		'<mix id>': [
+			...
+			[n]: {
+				fromMixID
+				index: <thorough index in chart>
+				text: <like 'S3' for newer mixes>
+				      <like 'HD' for older mixes>
+				type: 'Single' / 'Double' / 'Couple'
+				levelText: <like '3' or '15/16' or '??'>
+				levelNum: 
+				realLevelNum:
+				tag: 'S' / 'Sp' / 'D' / 'Dp' (for newer mixes)
+				     'NL' / 'HD' / 'CZ' / 'FS' / 'NM' / 'aNL' / ... (for older mixes)
+			}
+		]
+	}
+}

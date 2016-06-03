@@ -12,19 +12,14 @@
 <script src="check_NX.js"></script>
 <script src="check_NX2_NXA.js"></script>
 -->
-<!-- -->
+<!--
 <script src="tracklist_bpms.js"></script>
+-->
 <script src="tracklist_unlocks.js"></script>
-<!-- <script src="tracklist_level_estimations.js"></script> -->
+<script src="tournament-rules.js"></script>
 
 <code>
 <script>
-var mixID = "Prime";
-//var appearedMixesIDs = [ "FiestaEX", "Fiesta2", "Prime" ];
-var appearedMixesIDs = [ "FiestaEX" ];
-var lowerLevel = 20;
-var upperLevel = 22;
-
 var levels = {};
 for( var level = lowerLevel;  level <= upperLevel;  ++level)
 {
@@ -35,6 +30,10 @@ for( var level = lowerLevel;  level <= upperLevel;  ++level)
 for( var trackID in tracklist )
 {
 	var track = tracklist[ trackID ];
+
+	if( ! TrackIsAllowedByMix( track ) )
+		continue;
+
 	if( track.duration != "Standard" )
 		continue;
 
@@ -45,14 +44,21 @@ for( var trackID in tracklist )
 	track[ mixID ] = {};
 	for( var chart of mixCharts )
 	{
-		if( appearedMixesIDs.indexOf( chart.fromMixID ) < 0 )
+		if( ! ChartIsAllowedByMix( chart ) )
+			continue;
+
+		var chartIsUnlock = chart.unlockDescr  &&  ! chart.unlockPatchIndex;
+		if( chartIsUnlock  &&  ! showUnlocks)
+			continue;
+
+		if( chart.isUCS  &&  ! showUCS )
 			continue;
 
 		var tag = chart.text;
 		if( levels[ tag ] )
 		{
-			if( chart.unlockDescr  &&  ! chart.unlockPatchIndex )
-				levels[ tag ].push( "[" + chart.unlockDescr + "] &nbsp;" + track.title + "&nbsp;&nbsp;" + chart.text );
+			if( chart.unlockPatchIndex )
+				levels[ tag ].push( "[from " + mixes[ mixID ].patches[ chart.unlockPatchIndex ] + "] &nbsp;" + track.title + "&nbsp;&nbsp;" + chart.text );
 			else
 				levels[ tag ].push( track.title + "&nbsp;&nbsp;" + chart.text );
 		}
