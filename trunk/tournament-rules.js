@@ -23,16 +23,21 @@ function ChartIsAllowedByMix( chart )
 
 }
 
-function IsNonEmptyAndContains( table, item )
+function IsNonEmpty( table )
 {
-	if( typeof table != 'object' )
-		return false;
-
-	if( table.length === 0 )
-		return false;
-
-	return( table.indexOf( item ) < 0 );
+	return ( typeof table === 'object'  &&  table.length > 0 );
 }
+
+function IsEmpty( table )
+{
+	return ( typeof table != 'object'  ||  table.length === 0 );
+}
+
+function IsEmptyOrContains( table, item )
+{
+	return IsEmpty( table )  ||  table.indexOf( item ) >= 0;
+}
+
 
 function GetCharts( request )
 {
@@ -41,13 +46,13 @@ function GetCharts( request )
 	{
 		var track = tracklist[ trackID ];
 	
-		if( IsNonEmptyAndContains( request.trackAppearedMixesIDs, GetTrackFirstMix( track ) ) )
+		if( ! IsEmptyOrContains( request.trackAppearedMixesIDs, GetTrackFirstMix( track ) ) )
 			continue;
 	
 		if( request.duration  &&  track.duration != request.duration )
 			continue;
 
-		if( IsNonEmptyAndContains( request.excludeTracks, track.title ) )
+		if( IsEmptyOrContains( request.excludeTracks, track.title ) )
 			continue;
 
 		var mixCharts = track[ request.mixID ];
@@ -57,7 +62,7 @@ function GetCharts( request )
 		for( var chart of mixCharts )
 		{
 			chart.track = track;
-			if( IsNonEmptyAndContains( request.chartAppearedMixesIDs, chart.fromMixID ) )
+			if( ! IsEmptyOrContains( request.chartAppearedMixesIDs, chart.fromMixID ) )
 				continue;
 
 			if( request.type  &&  chart.type != request.type )
@@ -88,6 +93,26 @@ function LogCharts( request )
 	}
 }
 
+function shuffle(array)
+{
+  var currentIndex = array.length, temporaryValue, randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+}
+
 var lowerLevel = 16;
 var upperLevel = 20;
 
@@ -100,7 +125,12 @@ var tournamentRange = {
 	showUnlocks: false,
 	mixID: "Prime",
 	trackAppearedMixesIDs: [ "Fiesta2", "Prime" ],
-	excludeTracks: [ "Log-In" ], // offsync
+	excludeTracks: [
+		"Log-In", // offsync
+		"Nobody", // lot of stops
+		"Move That Body!", // tournament
+		"Super Fantasy", // tournament
+	]
 }
 
 var singles = {
@@ -118,6 +148,10 @@ var any = {
 }
 
 
+var S11 = { __proto__: singles, level: 11 };
+var S12 = { __proto__: singles, level: 12 };
+var S13 = { __proto__: singles, level: 13 };
+var S14 = { __proto__: singles, level: 14 };
 var S15 = { __proto__: singles, level: 15 };
 var S16 = { __proto__: singles, level: 16 };
 var S17 = { __proto__: singles, level: 17 };
@@ -126,6 +160,8 @@ var S19 = { __proto__: singles, level: 19 };
 var S20 = { __proto__: singles, level: 20 };
 var S21 = { __proto__: singles, level: 21 };
 
+var D13 = { __proto__: doubles, level: 13 };
+var D14 = { __proto__: doubles, level: 14 };
 var D15 = { __proto__: doubles, level: 15 };
 var D16 = { __proto__: doubles, level: 16 };
 var D17 = { __proto__: doubles, level: 17 };
@@ -151,12 +187,25 @@ function Stage(name, t1, t2, t3)
 	sets[ name + " (c)" ] = GetCharts( t3 );
 }
 
-Stage(  "8 -> 4+4",  S15, D16, R17);
-Stage("4+4 -> 4+2",  S17, D17, R18);
-Stage("4+2 -> 2+4",  S18, D19, R19);
-Stage("2+4 -> 2+2",  S18, D19, R20);
-Stage("2+2 -> 2+1",  S19, D20, R21);
-Stage("2+1 -> 1+2",  S20, D20, R21);
-Stage("1+2 -> 1+1",  S20, D21, R21);
-Stage("1+1 -> 1"  ,  S21, D21, R21);
-
+if( true )  // range 15-20
+{
+	Stage(  "8 -> 4+4",  S15, D16, R16);
+	Stage("4+4 -> 4+2",  S17, D17, R18);
+	Stage("4+2 -> 2+4",  S17, D18, R18);
+	Stage("2+4 -> 2+2",  S18, D19, R20);
+	Stage("2+2 -> 2+1",  S19, D19, R20);
+	Stage("2+1 -> 1+2",  S19, D20, R20);
+	Stage("1+2 -> 1+1",  S19, D20, R20);
+	Stage("1+1 -> 1"  ,  S20, D20, R20);
+}
+else  // range 15-21
+{
+	Stage(  "8 -> 4+4",  S15, D16, R17);
+	Stage("4+4 -> 4+2",  S17, D17, R18);
+	Stage("4+2 -> 2+4",  S18, D19, R19);
+	Stage("2+4 -> 2+2",  S18, D19, R20);
+	Stage("2+2 -> 2+1",  S19, D20, R21);
+	Stage("2+1 -> 1+2",  S20, D20, R21);
+	Stage("1+2 -> 1+1",  S20, D21, R21);
+	Stage("1+1 -> 1"  ,  S21, D21, R21);
+}

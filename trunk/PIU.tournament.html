@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<head>
 	<script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
 	<script src="include/underscore/underscore-min.js"></script>
 </head>
@@ -10,41 +11,109 @@
 <script src="tracklist_unlocks.js"></script>
 <script src="tournament-rules.js"></script>
 
+<body>
+<style type="text/css">
+div.picked-chart {
+    color: LightGray;
+	font-size: 20px;
+	text-align: left;
+}
+
+div.available-chart {
+    color: Black;
+	font-size: 20px;
+	text-align: left;
+}
+
+div.pick-result {
+    color: DarkRed;
+	font-size: 30px;
+	text-align: center;
+}
+</style>
+
 List: 
-<code>
-<script>
-document.write("<select id='set' onchange='selectSet( this )'>\n");
+<code><script>
+document.write("<select id='set' onchange='OnSelectSet( this )'>\n");
+
 for( var setKey in sets)
 {
 	document.write("<option value='" + setKey + "'>" + setKey + "</option>\n" );
 }
 document.write("</select>\n");
 
-function selectSet( control )
+var currentSetKey = "";
+var currentSet = null;
+
+function OnSelectSet( control )
 {
-	var setKey = control.value;
-	var charts = sets[ setKey ];
-	charts.sort( function( c1, c2 ) { return c1.track.title.localeCompare( c2.track.title ); } );
+	SelectSet( control.value );
+}
+
+function SelectSet( value )
+{
+	currentSetKey = value;
+	currentSet = sets[ currentSetKey ];
+	currentSet.sort( function( c1, c2 ) { return c1.track.title.localeCompare( c2.track.title ); } );
+
+	UpdateSetList();
+}
+
+function UpdateSetList()
+{
 	var str = "";
-	for( var chart of charts )
+	for( var chart of currentSet )
 	{
-		str += chart.track.title + "  " + chart.text + "<br>";
+		if( chart.wasPicked )
+			str += "<div class='picked-chart'>&nbsp; &nbsp; &nbsp; &nbsp; " + chart.track.title + " &nbsp; " + chart.text + "</div>";
+		else
+			str += "<div class='available-chart'>" + chart.track.title + " &nbsp; " + chart.text + "</div>";
 	}
 
 	$("#tracks").html( str );
 }
 
-</script>
-</code>
+function PickChart()
+{
+	var unpickedCharts = _.filter( currentSet, function( chart ){ return ! chart.wasPicked; });
+	if( unpickedCharts.length === 0)
+	{
+		for( var chart of currentSet )
+			chart.wasPicked = false;
+		unpickedCharts = _.filter( currentSet, function( chart ){ return ! chart.wasPicked; });
+	}
+	unpickedCharts = shuffle( unpickedCharts );
+	unpickedCharts[ 0 ].wasPicked = true;
+	return unpickedCharts[ 0 ];
+}
+
+</script></code>
+
+<button id="pick-random">PICK</button>
+
+<br><hr><br>
+
+<div id='random-result' class='pick-result'>???</div>
+
+<code><script>
+	$( "#pick-random" ).click( function() {
+		var chart = PickChart();
+		$( "#random-result" ).html( chart.track.title + " &nbsp; " + chart.text );
+		UpdateSetList();
+	} );
+</script></code>
 
 <br><hr><br>
 
 <div id="tracks"></div>
 
-<code>
-<script>
-</script>
-</code>
+<code><script>
+for( var firstSet in sets )
+{
+	SelectSet( firstSet );
+	break;
+}
+</script></code>
 
 </body>
 </html>
