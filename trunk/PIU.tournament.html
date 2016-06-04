@@ -82,9 +82,10 @@ function PickChart()
 			chart.wasPicked = false;
 		unpickedCharts = _.filter( currentSet, function( chart ){ return ! chart.wasPicked; });
 	}
-	unpickedCharts = shuffle( unpickedCharts );
-	unpickedCharts[ 0 ].wasPicked = true;
-	return unpickedCharts[ 0 ];
+	unpickedCharts = shuffled( unpickedCharts );
+	var pickedChart = unpickedCharts[ Math.floor( Math.random() * unpickedCharts.length ) ];
+	pickedChart.wasPicked = true;
+	return pickedChart;
 }
 
 </script></code>

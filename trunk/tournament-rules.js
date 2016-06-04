@@ -93,24 +93,24 @@ function LogCharts( request )
 	}
 }
 
-function shuffle(array)
+function shuffled(array)
 {
-  var currentIndex = array.length, temporaryValue, randomIndex;
+	var currentIndex = array.length;
 
-  // While there remain elements to shuffle...
-  while (0 !== currentIndex) {
+	// While there remain elements to shuffle...
+	while (currentIndex !== 0)
+	{
+		// Pick a remaining element...
+		var randomIndex = Math.floor(Math.random() * currentIndex);
+		currentIndex -= 1;
 
-    // Pick a remaining element...
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex -= 1;
+		// And swap it with the current element.
+		var temp = array[currentIndex];
+		array[currentIndex] = array[randomIndex];
+		array[randomIndex] = temp;
+	}
 
-    // And swap it with the current element.
-    temporaryValue = array[currentIndex];
-    array[currentIndex] = array[randomIndex];
-    array[randomIndex] = temporaryValue;
-  }
-
-  return array;
+	return array;
 }
 
 var lowerLevel = 16;
