@@ -9,7 +9,7 @@ var tracklistEstimated = [
                          "Bee  S-19 -> 18",       // mndd: OK!
                      "Cleaner  D-20 -> 19",
                        "Crazy  D-19 -> 17",  //NM
-                  "Destination S-16 -> 17",       // mndd: Трек ебет не по детски
+                 "Destination  S-16 -> 17",       // mndd: Трек ебет не по детски
                 "Extravaganza  D-19 -> 20", //aNM
     "Final Audition episode 1  S-19 -> 20", //aCZ
   "Final Audition episode 2-1  S-20 -> 21", // CZ // mndd: OK
@@ -27,7 +27,7 @@ var tracklistEstimated = [
         "Phantom -Intermezzo-  S-21 -> 22",       // mndd: ОК, много дерьма
                 "Robot Battle  S-21 -> 22",
                 "Robot Battle  D-23 -> 24",       // mndd: Почему бы и нет?
-                "Super Fantasy D-21 -> 22",       // mndd: OK
+               "Super Fantasy  D-21 -> 22",       // mndd: OK
                 "Witch Doctor  D-23 -> 22", //aNM // mndd: ОК
 
    "Beat of the War 2  [FULL]  S-19 -> 20",// CZ
@@ -168,6 +168,35 @@ Narcisista por Excelencia  FULL  D-18 (19) -
 Panuelito Rojo  FULL  D-18.nm (19) -
 */
 
+function ApplyPatch( tracklist, estimations )
+{
+	for( var trackLine of estimations )
+	{
+		var estimation_Match = trackLine.match( "(.*)  (.*)-(.*) -> (.*)" );
+		if( ! estimation_Match )
+			console.log( "Can't parse estimation " + trackLine );
+		console.assert( estimation_Match );
+		
+		var trackTitle = estimation_Match[ 1 ];
+		var chartTag = estimation_Match[ 2 ];
+		var chartLevelText = estimation_Match[ 3 ];
+		var chartRealLevelNum = Number( estimation_Match[ 4 ] );
+		console.assert( ! isNaN( chartRealLevelNum ) );
+
+		var track = FindTrack( tracklist, trackTitle );
+		console.assert( track );
+		
+		var chartIndex = FindChartIndexNew( track, chartTag, chartLevelText );
+		if( ! chartIndex )
+			console.log( "Can't find " + track.title + " " + chartTag + "-" + chartLevelText );
+		console.assert( chartIndex );
+		
+		var charts = FindChartsWithIndex( track, chartIndex );
+		console.assert( charts.length > 0 );
+		for( var chart of charts )
+			chart.realLevelNum = chartRealLevelNum;
+	}
+}
 
 
-
+ApplyPatch( tracklist, tracklistEstimated );
