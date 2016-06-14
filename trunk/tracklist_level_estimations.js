@@ -18,6 +18,7 @@ var tracklistEstimated = [
              "Get Up (and Go)  D-20 -> 18",
                       "Napalm  D-23 -> 22",       // mndd: ОК
                   "Like a Man  S-18 -> 17",       // mndd: ОК
+ "Mission Possible -Blowback-  D-17 -> 18",       // mndd: ОК
                       "Napalm  S-22 -> 21",       // mndd: ОК
                   "Necromancy  D-24 -> 23",
              "Sorceress Elise  S-21 -> 22",       // mndd: ОК
@@ -29,6 +30,7 @@ var tracklistEstimated = [
                 "Robot Battle  D-23 -> 24",       // mndd: Почему бы и нет?
                "Super Fantasy  D-21 -> 22",       // mndd: OK
                 "Witch Doctor  D-23 -> 22", //aNM // mndd: ОК
+                      "X-Tree  D-18 -> 20",       // mndd: OK
 
    "Beat of the War 2  [FULL]  S-19 -> 20",// CZ
    "Beat of the War 2  [FULL]  D-20 -> 21",// NM
@@ -43,6 +45,7 @@ var tracklistLeftForEstimation = [
                 "Extravaganza  S-16 -> 17",  //aHD
                 "Extravaganza  D-17 -> 18",  //NM
        "Hardkore of the North  S-21 -> 22",
+                 "Flying Duck  D-18 -> 16",
 
 
                     "Accident  S-19 -> 18",
@@ -77,7 +80,7 @@ var tracklistLeftForEstimation = [
 "Ignis Fatuus (DM Ashura Mix)  D-17 -> 18",
    "I'll Give You All My Love  D-18 -> 17",  //NM
                 "Miss's Story  D-19 -> 17",
- "Mission Possible -Blowback-  D-17 -> 18", //ОК, седня бегал немного тяжковато для 17
+
                   "Mr. Larpus  S-20 -> 19", //Впринципе ок, но колбасы там много
                    "My Dreams  S-17 -> 18",  //aCZ
                    "My Dreams  S-18 -> 17",  //CZ
@@ -114,7 +117,7 @@ var tracklistLeftForEstimation = [
              "Witch Doctor #1  S-18 -> 19",  //aCZ
              "Witch Doctor #1  D-19 -> 20",  //NM //ГОВНО
                       "X-Rave  D-20 -> 21",
-                      "X-Tree  D-18 -> 19", //mndd если не 20...
+
                  "Yog-Sothoth  S-21 -> 20",  // не сложнее чем X-tree 20 и вообще любая 20, проще любой 21
           "Hard Core Rock Mix  S-21 -> 20",
               "Vacuum Cleaner  S-20 -> 21", //ОК, я бы сказал 20.5
