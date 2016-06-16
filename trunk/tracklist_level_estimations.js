@@ -6,23 +6,31 @@ S18 -
 
 var tracklistEstimated = [
                      "Arirang  S-18 -> 19",       // mndd: ОК
-                         "Bee  S-19 -> 18",       // mndd: OK!
-                     "Cleaner  D-20 -> 19",
+                         "Bee  S-19 -> 18",       // mndd: OK
+                     "Cleaner  D-20 -> 19",       // mndd: OK
                        "Crazy  D-19 -> 17",  //NM
+          "Creed -1st Desire-  D-23 -> 22",
                  "Destination  S-16 -> 17",       // mndd: Трек ебет не по детски
                 "Extravaganza  D-19 -> 20", //aNM
     "Final Audition episode 1  S-19 -> 20", //aCZ
   "Final Audition episode 2-1  S-20 -> 21", // CZ // mndd: OK
   "Final Audition episode 2-1  S-21 -> 22", //aCZ // mndd: OK
+  "Final Audition episode 2-1  D-21 -> 22", //aCZ // mndd: OK
   "Final Audition episode 2-X  S-17 -> 18", // HD // mndd: ОК
+                 "Flying Duck  D-18 -> 17",
+                    "Hypnosis  D-18 -> 19",       // mndd: ОК
              "Get Up (and Go)  D-20 -> 18",
+"Ignis Fatuus (DM Ashura Mix)  D-17 -> 18",
+                  "Mr. Larpus  D-23 -> 22",
                       "Napalm  D-23 -> 22",       // mndd: ОК
                   "Like a Man  S-18 -> 17",       // mndd: ОК
+//                       "Loner  D-22 -> 21",       // mndd: ОК
  "Mission Possible -Blowback-  D-17 -> 18",       // mndd: ОК
                       "Napalm  S-22 -> 21",       // mndd: ОК
                   "Necromancy  D-24 -> 23",
              "Sorceress Elise  S-21 -> 22",       // mndd: ОК
                     "Take Out  S-17 -> 18",       // mndd: ОК
+                    "Take Out  D-22 -> 23",       // mndd: ОК
                       "Tepris  D-18 -> 19",
                      "Phantom  S-18 -> 19", // CZ // mndd: ОК
         "Phantom -Intermezzo-  S-21 -> 22",       // mndd: ОК, много дерьма
@@ -30,7 +38,7 @@ var tracklistEstimated = [
                 "Robot Battle  D-23 -> 24",       // mndd: Почему бы и нет?
                "Super Fantasy  D-21 -> 22",       // mndd: OK
                 "Witch Doctor  D-23 -> 22", //aNM // mndd: ОК
-                      "X-Tree  D-18 -> 20",       // mndd: OK
+                      "X-Tree  D-18 -> 19",       // mndd: OK
 
    "Beat of the War 2  [FULL]  S-19 -> 20",// CZ
    "Beat of the War 2  [FULL]  D-20 -> 21",// NM
@@ -38,14 +46,14 @@ var tracklistEstimated = [
 
 var tracklistLeftForEstimation = [
 // нужно мнение майнда
-                    "Hypnosis  D-18 -> 19",
-                     "Arirang  D-10 -> 13",
+                      "Pavane  D-22 -> 23",
+                     "Arirang  D-10 -> 13", //я ниже 16 не бегаю =(
           "Digan Lo Que Digan  D-18 -> 17",
-            "Caprice of Otada  D-21 -> 23",  //aNM
-                "Extravaganza  S-16 -> 17",  //aHD
-                "Extravaganza  D-17 -> 18",  //NM
+            "Caprice of Otada  D-21 -> 23",  //aNM //его вроде нет на Фиесте ЕХ
+                "Extravaganza  S-16 -> 17",  //aHD //ОК
+                "Extravaganza  D-17 -> 18",  //NM //Ок сфигале оно ваще 17 оО
+
        "Hardkore of the North  S-21 -> 22",
-                 "Flying Duck  D-18 -> 16",
 
 
                     "Accident  S-19 -> 18",
@@ -77,7 +85,6 @@ var tracklistLeftForEstimation = [
                       "Hestia  S-18 -> 20",
                        "Hi-Bi  D-18 -> 19",  //NM //ОК -_-
     "Hypnosis (SynthWulf Mix)  S-8 -> 9",
-"Ignis Fatuus (DM Ashura Mix)  D-17 -> 18",
    "I'll Give You All My Love  D-18 -> 17",  //NM
                 "Miss's Story  D-19 -> 17",
 
@@ -116,7 +123,6 @@ var tracklistLeftForEstimation = [
              "Witch Doctor #1  S-18 -> 19",  //aCZ
              "Witch Doctor #1  S-18 -> 19",  //aCZ
              "Witch Doctor #1  D-19 -> 20",  //NM //ГОВНО
-                      "X-Rave  D-20 -> 21",
 
                  "Yog-Sothoth  S-21 -> 20",  // не сложнее чем X-tree 20 и вообще любая 20, проще любой 21
           "Hard Core Rock Mix  S-21 -> 20",
