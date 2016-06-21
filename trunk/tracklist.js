@@ -169,7 +169,7 @@ var NewTagTypes = [ SINGLE, SINGLE, DOUBLE, DOUBLE ];
 function Normalized( title )
 {
 	var result = title.toLowerCase();
-	for( var chr of " !?&'\".,;:*-~()[]{}/\\".split('') )
+	for( var chr of ( " !?&'\".,;:*-~()[]{}/\\".split('') ) )
 	{
 		while( true )
 		{
@@ -184,29 +184,24 @@ function Normalized( title )
 }
 
 
-function FindTrackIfAny( tracklist, title, artist )
+function FindTrack( tracklist, title )
 {
-	var result = _.filter( tracklist, function( item ) { return Normalized( item.title ) === Normalized( title )  &&  item.artist   &&  ( ! artist  ||  Normalized( item.artist ) == Normalized( artist ) ); } );
-	if( result.length > 1 )
-	{
-		window.alert("Too much tracks '" + title + "'");
-		return;
-	}
-	return result[ 0 ];
-}
-
-
-function FindTrack( tracklist, title, artist )
-{
+	var arr = title.split( " @ " );
+	title = arr[ 0 ];
+	var ID = arr[ 1 ];
+	
 	//var result = _.where( tracklist, { title: trackTitle } );
-	var result = _.filter( tracklist, function( item ) { return Normalized( item.title ) === Normalized( title )  &&  ( ! artist  ||  Normalized( item.artist ) == Normalized( artist ) ); } );
+	var result = _.filter( tracklist, function( item, key )
+		{
+			return Normalized( item.title ) === Normalized( title )  &&  ( ! ID  ||  key == ID );
+		} );
 	if( result.length === 0 )
 	{
-		window.alert("Can't found track '" + title + "', artist '" + artist + "'" );
+		window.alert("Can't found track '" + title + "'" );
 	}
 	else if( result.length > 1 )
 	{
-		window.alert("Too much tracks '" + title + "'");
+		window.alert("Several tracks with name '" + title + "' found, specify '" + title + " @ <id>' to find required one");
 	}
 	console.assert( result.length === 1 );
 	return result[ 0 ];
@@ -220,7 +215,7 @@ function FindChartIndexNew( track, chartTag, chartlevelText )
 	{
 		if( mixes[ mixID ].style === "new"  &&  track[ mixID ] )
 		{
-			var chart = _.findWhere( track[ mixID ], { tag: chartTag, levelText: chartlevelText,  } );
+			var chart = _.findWhere( track[ mixID ], { tag: chartTag, levelText: chartlevelText, } );
 			if( chart )
 				return chart.index;
 		}

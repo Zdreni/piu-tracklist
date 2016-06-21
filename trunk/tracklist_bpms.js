@@ -20,7 +20,7 @@ var separateBPMs =
 	{              chart: "Big Metra Remix  NM", ratio: "2", mixes: "FiestaEX.." },
 	{                      chart: "Forward  NM", ratio: "2", mixes: "..FiestaEX" },
 	{               chart: "Panuelito Rojo  NM", ratio: "2" },
-	{                chart: "Pump Breakers  NM.NXA", bpm: "120 - 240" },
+	{            chart: "Pump Breakers  NM.NXA", bpm: "120 - 240" },
 	{ chart: "Trato de no Trabarme  [FULL]  CZ", ratio: "2" },
 	{ chart: "Trato de no Trabarme  [FULL]  NM", ratio: "2" },
 	
@@ -29,6 +29,8 @@ var separateBPMs =
 
 	{           chart: "We Will Meet Again  S14", bpm: "118..177" },
 	{                    chart: "Yeo rae a  S13", ratio: "0.5" },
+
+	{                 chart: "Star Command  S12", ratio: "1.25" },
 ];
 
 

@@ -92,6 +92,21 @@ function CreateCheckTracklist( srcLines, srcConfig )
 }
 
 
+function FindTrackIfAny( tracklist, title, artist )
+{
+	var result = _.filter( tracklist, function( item )
+		{
+			return Normalized( item.title ) === Normalized( title )  &&  item.artist   &&  ( ! artist  ||  Normalized( item.artist ) == Normalized( artist ) );
+		} );
+	if( result.length > 1 )
+	{
+		window.alert("Too much tracks '" + title + "'");
+		return;
+	}
+	return result[ 0 ];
+}
+
+
 function CheckTracklist( tracklist, checkTracklist, config )
 {
 	for( var checkTrack of checkTracklist )
