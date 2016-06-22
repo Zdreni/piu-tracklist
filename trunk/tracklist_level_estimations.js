@@ -5,13 +5,18 @@ S18 -
 */
 
 var tracklistEstimated = [
+// Scorpion King  S-15 -> ?17  // grem
+// ??            "Creed -1st Desire-  D-23 -> 22",
+
                        "Arirang  S-18 -> 19",       // mndd: ОК
+            "Bad Girl Good Girl  D-13 -> 12",       // Marina
                 "Beat the Ghost  S-18 -> 19",       // mndd: ОК
                 "Beat the Ghost  S-20 -> 19",       // mndd: ОК
                            "Bee  S-19 -> 18",       // mndd: OK!
                        "Cleaner  D-20 -> 19",       // mndd: OK
+                      "Com'Back  D-16 -> 17", // NM // mndd
                          "Crazy  D-19 -> 17", // NM
-            "Creed -1st Desire-  D-23 -> 22",
+                 "Dance With Me  D-15 -> 13",       // Marina
                    "Destination  S-16 -> 17",       // mndd: ОК
                   "Extravaganza  S-16 -> 17", //aHD // mndd: ОК
                   "Extravaganza  D-17 -> 18", // NM // mndd: ОК
@@ -27,15 +32,16 @@ var tracklistEstimated = [
                       "Hypnosis  D-18 -> 19",       // mndd: ОК
                "Get Up (and Go)  D-20 -> 18",
   "Ignis Fatuus (DM Ashura Mix)  D-17 -> 18",
-"Just Hold on (To All Fighters)  S-21 -> 22",      // mndd: ОК
+"Just Hold on (To All Fighters)  S-21 -> 22",       // mndd: ОК
+                        "Napalm  D-23 -> 22",       // mndd: ОК
                     "Like a Man  S-18 -> 17",       // mndd: ОК
-                         "Loner  D-22 -> 21",       // mndd: ОК
-                    "Mr. Larpus  D-23 -> 22",
+                  "Loner @ 1449  D-22 -> 21",       // mndd: ОК
+                       "Matador  D-21 -> 22",       // Dino
+                  "Mental Rider  S-12 -> 13", // ben
    "Mission Possible -Blowback-  D-17 -> 18",       // mndd: ОК
                         "Napalm  S-22 -> 21",       // mndd: ОК
-                        "Napalm  D-23 -> 22",       // mndd: ОК
                     "Necromancy  D-24 -> 23",
-                       "Phantom  D-19 -> 20",// NM  // mndd: OK
+                       "Phantom  D-19 -> 20", // NM // mndd: OK
                "Sorceress Elise  S-21 -> 22",       // mndd: ОК
                       "Take Out  S-17 -> 18",       // mndd: ОК
                       "Take Out  D-22 -> 23",       // mndd: ОК
@@ -45,6 +51,7 @@ var tracklistEstimated = [
                   "Robot Battle  S-21 -> 22",
                   "Robot Battle  D-23 -> 24",       // mndd: Почему бы и нет?
                  "Super Fantasy  D-21 -> 22",       // mndd: OK
+                "Violet Perfume  D-19 -> 18",       // Dino
                   "Witch Doctor  D-23 -> 22", //aNM // mndd: ОК
                         "X-Tree  D-18 -> 19",       // mndd: OK
   
@@ -54,84 +61,85 @@ var tracklistEstimated = [
 
 var tracklistLeftForEstimation = [
 // нужно мнение майнда
-                      "Pavane  D-22 -> 23",  // не факт, просто ёбнутое
-                     "Blazing  D-19 -> 20",
-          "Digan Lo Que Digan  D-18 -> 17",
-            "Caprice of Otada  D-21 -> 23",  //aNM //его вроде нет на Фиесте ЕХ
-       "Hardkore of the North  S-21 -> 22",
-                "Miss's Story  D-19 -> 17",
-   "Narcisista Por Excelencia  D-18 -> 19",
-          "No Rhyme No Reason  D-20 -> 19",
-                     "Phantom  S-17 -> 18",//aCZ
-                     "Phantom  D-20 -> 18",//aNM
-               "What Happened  D-20 -> 18",
+                        "Pavane  D-22 -> 23",  // не факт, просто ёбнутое
+                       "Blazing  D-19 -> 20",
+            "Digan Lo Que Digan  D-18 -> 17",
+              "Caprice of Otada  D-21 -> 23",  //aNM //его вроде нет на Фиесте ЕХ
+         "Hardkore of the North  S-21 -> 22",
+                  "Miss's Story  D-19 -> 17",
+                    "Mr. Larpus  D-23 -> 22",
+     "Narcisista Por Excelencia  D-18 -> 19",
+            "No Rhyme No Reason  D-20 -> 19",
+                       "Phantom  S-17 -> 18",//aCZ
+                       "Phantom  D-20 -> 18",//aNM
+                 "What Happened  D-20 -> 18",
 
-                 "Yog-Sothoth  S-21 -> 20",  // не сложнее чем X-tree 20 и вообще любая 20, проще любой 21
+                   "Yog-Sothoth  S-21 -> 20",  // не сложнее чем X-tree 20 и вообще любая 20, проще любой 21
 
 //-----------------------------------------
-                   "By Chance  D-16 -> 15",
-                     "Arirang  D-10 -> 13", //я ниже 16 не бегаю =(
+                     "By Chance  D-16 -> 15",
+                       "Arirang  D-10 -> 13", //я ниже 16 не бегаю =(
 
 
 
-                    "Accident  S-19 -> 18",
-        "All I Want For X-mas  S-11 -> 8",
-               "Another Truth  D-22 -> 18",
-                     "Arirang  D-20 -> 21",
-               "Blaze Emotion  D-17 -> 18", //Обычная 18-ка
-          "Bullfighter's Song  S-8 -> 9",
-                "Chicken Wing  S-19 -> 20",
-        "Chopsticks Challenge  D-16 -> 15",  //NM
-                 "Destination  S-18 -> 19",
-                     "Dignity  D-18 -> 20", // Для меня он 20, но там элементы, которые я бегаю плохо, потому не уверен, что он объективно 20
-                       "Dr. M  D-16 -> 17",  //NM //OK
-                       "Elise  S-22 -> 20",
-                    "Faster Z  S-8 -> 9",
-        "Final Audition 3 U.F  D-19 -> 18",  //aNM
-  "Final Audition episode 2-1  D-21 -> 23",  //aNM //не ANM, а NM наверное?
-             "Flew Far Faster  S-23 -> 22",  // проверить 2-2 и Vacuum S21, а также Achluoias, 2-2 и Cleaner S22 //ОК - Нормальная 22
-                  "Guitar Man  S-18 -> 20",  //aCZ //19? Дрели конечно сложные, но больше там ничего нет
-                    "Gun Rock  S-18 -> 16",  //CZ //Шутка чтоли!? Обычный крейзи? - ну да, проблема в том, что там кроме тех троек в конце НИЧЕГО сложного нет, а у них сложность даже ояебу сколько, но не выставлять же по ней? //Дино у тебя S на нем? На ссаной 16-ке? Сомневаюсь, кинь его в 17 хотя бы
-                      "Hatred  D-16 -> 17",  //NM
-               "Hello William  D-21 -> 20", //ОК
-                      "Hestia  S-18 -> 20",
-    "Hypnosis (SynthWulf Mix)  S-8 -> 9",
-   "I'll Give You All My Love  D-18 -> 17",  //NM
+                      "Accident  S-19 -> 18",
+          "All I Want For X-mas  S-11 -> 8",
+                 "Another Truth  D-22 -> 18",
+                       "Arirang  D-20 -> 21",
+                 "Blaze Emotion  D-17 -> 18", //Обычная 18-ка
+            "Bullfighter's Song  S-8 -> 9",
+                  "Chicken Wing  S-19 -> 20",
+          "Chopsticks Challenge  D-16 -> 15",  //NM
+                   "Destination  S-18 -> 19",
+                       "Dignity  D-18 -> 20", // Для меня он 20, но там элементы, которые я бегаю плохо, потому не уверен, что он объективно 20
+                         "Dr. M  D-16 -> 17",  //NM //OK
+                         "Elise  S-22 -> 20",
+                      "Faster Z  S-8 -> 9",
+          "Final Audition 3 U.F  D-19 -> 18",  //aNM
+    "Final Audition episode 2-1  D-21 -> 23",  //aNM //не ANM, а NM наверное?
+               "Flew Far Faster  S-23 -> 22",  // проверить 2-2 и Vacuum S21, а также Achluoias, 2-2 и Cleaner S22 //ОК - Нормальная 22
+                    "Guitar Man  S-18 -> 20",  //aCZ //19? Дрели конечно сложные, но больше там ничего нет
+                      "Gun Rock  S-18 -> 16",  //CZ //Шутка чтоли!? Обычный крейзи? - ну да, проблема в том, что там кроме тех троек в конце НИЧЕГО сложного нет, а у них сложность даже ояебу сколько, но не выставлять же по ней? //Дино у тебя S на нем? На ссаной 16-ке? Сомневаюсь, кинь его в 17 хотя бы
+                        "Hatred  D-16 -> 17",  //NM
+                 "Hello William  D-21 -> 20", //ОК
+                        "Hestia  S-18 -> 20",
+      "Hypnosis (SynthWulf Mix)  S-8 -> 9",
+     "I'll Give You All My Love  D-18 -> 17",  //NM
 
-                  "Mr. Larpus  S-20 -> 19", //Впринципе ок, но колбасы там много
-                   "My Dreams  S-17 -> 18",  //aCZ
-                   "My Dreams  S-18 -> 17",  //CZ
-                 "Naissance 2  D-19 -> 20",  //aNM
-                      "Napalm  S-19 -> 18",
-                  "Necromancy  D-13 -> 14",
-                    "Overblow  D-18 -> 19",
-                    "Overblow  D-20 -> 19",      //ОК
-        "Phantom -Intermezzo-  S-19 -> 20",
-        "Phantom -Intermezzo-  D-15 -> 16",
-        "Phantom -Intermezzo-  D-20 -> 21", //MNDD - HZ
-                   "Pump Jump  D-17 -> 16",
-           //"Pump Me Amadeus  S-17 -> 18",//CZ
-             "Pumping Jumping  D-17 -> 18",
-            "Pumptris Quattro  D-22 -> 23",//aNM //серьезно? 23? Ты его сам бегаешь на стабильное А, даже на рейте бегал, какое там 23!? - да уж хуже канона сбегаю точно - А что из нормальных 21-22 ты сбегаешь лучше?) Даже ФАЕП1_Д21 ты бегал на 18 миссов(!) Канон - исключение.
-                     "Requiem  S-19 -> 20",   // не проще Necromancy S20
-             "Sorceress Elise  S-15 -> 16",
+                    "Mr. Larpus  S-20 -> 19", //Впринципе ок, но колбасы там много
+                     "My Dreams  S-17 -> 18",  //aCZ
+                     "My Dreams  S-18 -> 17",  //CZ
+                   "Naissance 2  D-19 -> 20",  //aNM
+                        "Napalm  S-19 -> 18",
+                    "Necromancy  D-13 -> 14",
+                      "Overblow  D-18 -> 19",
+                      "Overblow  D-20 -> 19",      //ОК
+          "Phantom -Intermezzo-  S-19 -> 20",
+          "Phantom -Intermezzo-  D-15 -> 16",
+          "Phantom -Intermezzo-  D-20 -> 21", //MNDD - HZ
+                     "Pump Jump  D-17 -> 16",
+             //"Pump Me Amadeus  S-17 -> 18",//CZ
+               "Pumping Jumping  D-17 -> 18",
+              "Pumptris Quattro  D-22 -> 23",//aNM //серьезно? 23? Ты его сам бегаешь на стабильное А, даже на рейте бегал, какое там 23!? - да уж хуже канона сбегаю точно - А что из нормальных 21-22 ты сбегаешь лучше?) Даже ФАЕП1_Д21 ты бегал на 18 миссов(!) Канон - исключение.
+                       "Requiem  S-19 -> 20",   // не проще Necromancy S20
+               "Sorceress Elise  S-15 -> 16",
 
-    "The Angel Who Lost Wings  D-16 -> 15",
-                "U Got 2 Know  S-18 -> 19",
-                "U Got 2 Know  S-19 -> 18",
-                        "Vook  S-17 -> 18",  //aCZ
-                        "Vook  D-17 -> 18",  //FS
-                        "Vook  D-18 -> 19",  //NM
-                       "Wanna  D-17 -> 18",
-             "Witch Doctor #1  S-16 -> 17",  //aHD
-             "Witch Doctor #1  S-18 -> 19",  //aCZ
-             "Witch Doctor #1  S-18 -> 19",  //aCZ
-             "Witch Doctor #1  D-19 -> 20",  //NM //ГОВНО
+      "The Angel Who Lost Wings  D-16 -> 15",
+                  "U Got 2 Know  S-18 -> 19",
+                  "U Got 2 Know  S-19 -> 18",
+                          "Vook  S-17 -> 18",  //aCZ
+                          "Vook  D-17 -> 18",  //FS
+                          "Vook  D-18 -> 19",  //NM
+                         "Wanna  D-17 -> 18",
+               "Witch Doctor #1  S-16 -> 17",  //aHD
+               "Witch Doctor #1  S-18 -> 19",  //aCZ
+               "Witch Doctor #1  S-18 -> 19",  //aCZ
+               "Witch Doctor #1  D-19 -> 20",  //NM //ГОВНО
 
-          "Hard Core Rock Mix  S-21 -> 20",
-              "Vacuum Cleaner  S-20 -> 21", //ОК, я бы сказал 20.5
+            "Hard Core Rock Mix  S-21 -> 20",
+                "Vacuum Cleaner  S-20 -> 21", //ОК, я бы сказал 20.5
 
-            "Crashday  [FULL]  S-22 -> 21",  //CZ //ОК, хотя он долгий и нудный...
+              "Crashday  [FULL]  S-22 -> 21",  //CZ //ОК, хотя он долгий и нудный...
 
 ];
 
