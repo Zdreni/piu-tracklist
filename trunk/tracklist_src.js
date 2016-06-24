@@ -47,6 +47,24 @@ var tracklist = {
 	title: "", artist: "", channel: , bpm: "",
 	Prime: "@1.17",
 },
+
+"1418":
+{
+	title: "Removable Disc 0", artist: "Doin", channel: ORIGINAL, bpm: "130",
+	Prime: "@1.18 S6 S15",
+},
+
+"1483":
+{
+	title: "Sora no Shirabe", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "172",
+	Prime: "@1.18 S8 S15",
+},
+
+"14A2":
+{
+	title: "Paradoxx", artist: "Slam & NATO", channel: ORIGINAL, bpm: "220", duration: REMIX,
+	Prime: "@1.18 S21 S26",
+},
 */
 
 
