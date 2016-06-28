@@ -213,13 +213,13 @@ var tracklist = {
 
 "1425":
 {
-	title: "Sugar Conspiracy Theory", artist: "MAX", bpm: "174",
+	title: "Sugar Conspiracy Theory", artist: "MAX", bpm: "170",
 	Prime: "@1.06 S1 S3 S6 S10 S15 S18 S19 D7 D11 D17 D20",
 },
 
 "1426":
 {
-	title: "Allegro Piu Mosso", artist: "DM Ashura", channel: ORIGINAL, bpm: "169",
+	title: "Allegro Piu Mosso", artist: "DM Ashura", channel: ORIGINAL, bpm: "160",
 	Prime: "S4 S6 S11 S16 D13 D19  @1.09 S19",
 },
 
@@ -562,7 +562,7 @@ var tracklist = {
 
 "1492":
 {
-	title: "Queen of the Red", artist: "ETIA", channel: JMUSIC, bpm: "145",
+	title: "Queen of the Red", artist: "ETIA", channel: JMUSIC, bpm: "188",
 	Prime: "@1.12 S4 S7 S11 S15 D12 D16 S18 D19",
 },
 
