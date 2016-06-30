@@ -2074,3 +2074,59 @@ Step chart : S16, D10, D15, D22
 5. New Features 
 
 All locked step charts are unlocked in EVENT mode and will be available until 1.18.0 update
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Prime 1.17.1
+https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1180-update-delay-notice/1347936445234607
+(prime_17.bin)
+
+This is the notice about 1.18.0 update schedule. 
+
+We found some problem on 1.17.0 update and it causes to 1.18.0 update to not available update by online.
+In order to update 1.18.0, download 1.17.1 update file to USB from official website and manually update it first.
+If 1.17.1 update is successfully done, 1.18.0 update by online is available.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Prime 1.18
+https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1180-update-information/1348601531834765
+(prime_171.bin)
+
+
+1.	New Songs
+1)	Song : Removable Disk0
+        Artist : Doin
+        BPM : 130
+        Default step chart : S03, S06, S15, D05, D16
+
+2)	Song : Sora no shirabe
+       Artist : TatshMusicCircle
+       BPM : 172
+       Default step chart : S03, S08, S12, S15, D11, D16
+       Unlock step chart : S??, D??
+
+3)	Song : PARADOXX
+        Artist : SLAM & NATO
+        BPM : 220
+        Default step chart : S21     
+        Unlock step chart : S??, D?? 
+
+2.	 Quest zone    
+1)	Song : Final Audition  
+        Step chart : S09, S15, S17, S18  
+2)	Song : Take me back
+        Step chart : S07, S09, S17, S18 
+3)	Song : Monolith
+        Step chart : S05, S09, S16, S20
+4)	Song : Rock the house
+        Step chart : S07, S10, S17, S21
+5)	Song : Rock hill
+        Step chart : S11, S16, D18, D23
+
+
+3.	 Unlocked Step charts  
+1)	Song : Red Snow  
+        Step chart : S19

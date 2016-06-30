@@ -279,7 +279,8 @@ On( "Prime" )
 // 1.15
 	Lock( "Prime  S20, D20", PIUGAME );
 	Lock( "Mad5cience  S20", PIUGAME );
-	Lock( "Red Snow  S19, D20", PIUGAME );
+	Lock( "Red Snow  S19", PIUGAME, "..@1.18" );
+	Lock( "Red Snow  D20", PIUGAME );
 	Lock( "Annihilator Method  D24", PIUGAME );
 	Lock( "Imprinting  D24", PIUGAME );
 // 1.16

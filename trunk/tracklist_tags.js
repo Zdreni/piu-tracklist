@@ -10,4 +10,4 @@ function Tags( title, tags )
 	AddTags( chart, tags );
 }
 
-AddTags( "Arirang  S-18", DRILLS + 
+// AddTags( "Arirang  S-18", DRILLS + 
