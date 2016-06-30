@@ -292,6 +292,9 @@ On( "Prime" )
 	Lock( "Stardust Overdrive  D24", PIUGAME );
 // 1.17
 	Lock( "Amphitryon  S18, D20", PIUGAME );
+// 1.18
+	Lock( "Sora no Shirabe  S18, D20", PIUGAME );
+	Lock( "Paradoxx  S23, S26", PIUGAME );
 
 //delete tempUnlockPatchIndex;
 //delete tempCurrentMix;

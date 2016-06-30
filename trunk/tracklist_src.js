@@ -48,23 +48,9 @@ var tracklist = {
 	Prime: "@1.17",
 },
 
-"1418":
-{
-	title: "Removable Disk0", artist: "Doin", channel: ORIGINAL, bpm: "130",
-	Prime: "@1.18 S3 S6 S15 D5 D16",
-},
 
-"1483":
-{
-	title: "Sora no Shirabe", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "172",
-	Prime: "@1.18 S03 S08 S12 S15 D11 D16  S?? D??",
-},
 
-"14A2":
-{
-	title: "Paradoxx", artist: "Slam & NATO", channel: ORIGINAL, bpm: "220", duration: REMIX,
-	Prime: "@1.18 S21 S23 S26",
-},
+
 */
 
 
@@ -173,7 +159,11 @@ var tracklist = {
 	Prime: "S10 S15 S17 D12 D19  @1.12 S20.ucs D20.ucs D22.ucs",
 },
 
-// "1418":
+"1418":
+{
+	title: "Removable Disk0", artist: "Doin", channel: ORIGINAL, bpm: "130",
+	Prime: "@1.18 S3 S6 S15 D5 D16",
+},
 
 "1419":
 {
@@ -514,7 +504,11 @@ var tracklist = {
 	Prime: "@1.13 S4 S7 S12 D11 Dp5  S18 S21 D18 D23",
 },
 
-// "1483": "Sora no Shirabe"  JE only
+"1483":
+{
+	title: "Sora no Shirabe", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "172",
+	Prime: "@1.18 S03 S08 S12 S15 D11 D16  S18 D20",
+},
 
 "1484":
 {
@@ -603,6 +597,12 @@ var tracklist = {
 {
 	title: "Avalanquiem", artist: "MAX & Memme", channel: ORIGINAL, bpm: "175", duration: REMIX,
 	Prime: "@1.04 S23 D25  @1.10 S19",
+},
+
+"14A2":
+{
+	title: "Paradoxx", artist: "Slam & NATO", channel: ORIGINAL, bpm: "220", duration: REMIX,
+	Prime: "@1.18 S21 S23 S26",
 },
 
 "14C0":
@@ -3804,7 +3804,7 @@ var tracklist = {
 	title: "Mr. Fire Fighter", artist: "Spooky Banana", channel: KPOP, bpm: "158",
 	Fiesta2: "=",
 	FiestaEX: "= -S2",
-	Fiesta: "S2 S4 S7 S13 D8 D15",
+	Fiesta: "S2.nl S7.hd S13.cz D8.fs D15.nm  S4.new",
 	NXA: ["2", "7", "13", "8", "15"],
 	NX2: ["2", "7", "13", "8", "15"],
 	NX: ["2", "7", "13", "8", "15/16"],
@@ -5268,8 +5268,8 @@ var tracklist = {
 	title: "Mr. Larpus", artist: "BanYa", bpm: "190", fromMix: "OBG_SE",
 	Prime: "=",
 	Fiesta2: "=",
-	FiestaEX: "= -D25?  @1.51 S3",
-	Fiesta: "S5 S11 S14 S20 S22 D14 D17 D23 D25?",  //? что за D25 такой?
+	FiestaEX: "= @1.51 S3",
+	Fiesta: "S5.nl S11.hd S14.cz S22.acz D14.fs D17.nm D23.afs  S20.new",  //? что за D25, он вроде только на фиесте ex есть
 	NXA: ["5", "11", "14", "14", "17"], NXA_: ["", "", "22", "23", "25"],
 	NX2: ["4", "11", "14", "14", "17"], NX2_: ["", "", "21", "23", "25"],
 	NX: ["4", "11", "14", "14", "17"], NX_: ["", "", "21", "21", "23"],
