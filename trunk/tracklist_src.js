@@ -5563,7 +5563,7 @@ var tracklist = {
 "101":
 {
 	title: "Ignition Starts", artist: "BanYa", bpm: "146", fromMix: "1st",
-	Prime: "@1.01 S8 S15 D10",  //?
+	Prime: "@1.01 S8.hd S15.cz D10.fs",
 	Exceed2: ["", "6", "12", "7", ""],
 	Exceed: ["", "6", "12", "6", ""],
 },
