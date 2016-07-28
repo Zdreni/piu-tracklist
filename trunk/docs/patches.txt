@@ -1902,6 +1902,7 @@ Prime 1.16
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1160-update-information/1303524496342469
 (prime_15.bin)
 
+
 1. New Songs
 
 1) Song :  Moment Day 
@@ -2053,6 +2054,7 @@ Step chart : S19 , D20 -  released!
 2)	Song : Enhance Reality  
 Step chart : S19 , D20 - released!  
 
+
 4.	 Quest zone    
 
 1)	Song : Destination  
@@ -2097,6 +2099,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1180-update-information
 
 
 1.	New Songs
+
 1)	Song : Removable Disk0
         Artist : Doin
         BPM : 130
@@ -2114,19 +2117,167 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1180-update-information
         Default step chart : S21     
         Unlock step chart : S??, D?? 
 
+
 2.	 Quest zone    
+
 1)	Song : Final Audition  
         Step chart : S09, S15, S17, S18  
+
 2)	Song : Take me back
         Step chart : S07, S09, S17, S18 
+
 3)	Song : Monolith
         Step chart : S05, S09, S16, S20
+
 4)	Song : Rock the house
         Step chart : S07, S10, S17, S21
+
 5)	Song : Rock hill
         Step chart : S11, S16, D18, D23
 
 
 3.	 Unlocked Step charts  
+
 1)	Song : Red Snow  
         Step chart : S19
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Prime 1.19
+https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1190-update-information/1369478283080423
+(prime_18.bin)
+
+
+1.	New Songs
+1)	Song : Smile Diary
+        Artist : you
+        BPM : 175
+        Default step chart : S04, S07, S11, S16, D08, D17
+        Unlock step chart : S??, D?? 
+
+2)	Song : Campanella
+        Artist : Cashew
+        BPM : 140
+        Default step chart : S06, S09, S16, D10, D16
+
+3)	Song : Feel My Happiness
+        Artist : 3r2
+        BPM : 175
+        Default step chart : S03, S10, S17, D06, D18
+
+
+2. New step charts
+
+1)	Song : Ignition starts
+        Artist : banya
+        BPM : 146.05
+        Step chart : S18, D17
+
+2)	Song : Final Audition 3
+        Artist : banya
+        BPM : 130.5
+        Step chart : S17
+
+3)	Song : Beat # No.4
+        Artist : HEaDTriP
+        BPM : 121
+        Step chart : D18
+
+4)	Song : Procedimientos Para Llegar A Un Común Acuerdo
+        Artist : PXNDX
+        BPM : 160
+        Step chart : S18, D19
+
+5)	Song : Dream To Nightmare
+        Artist : Nightmare
+        BPM : 178
+        Step chart : S22
+
+6)	Song : Yog-Sothoth
+        Artist : Nato
+        BPM : 200
+        Step chart : D17
+
+7)	Song : Super Fantasy
+        Artist : SHK
+        BPM : 145
+        Step chart : D18
+
+8)	Song : Dolly KiSS
+        Artist : SID-SOUND
+        BPM : 149
+        Step chart : S17
+
+9)	Song : [REMIX] Vacuum Cleaner
+        Artist : Doin
+        BPM : 222.22
+        Step chart : D20
+
+10)	Song : [FULL SONG] Canon D FULL Song MIX
+        Artist : banya
+        BPM : 160
+        Step chart : D24 
+
+11)	Song : 1950
+        Artist : SLAM
+        BPM : 200
+        Step chart : S16(UCS), S17(UCS), D21(UCS) 
+
+12)	Song : Hestia
+        Artist : Gentle Stick
+        BPM : 150
+        Step chart : S17(UCS), D18(UCS) 
+
+13)	Song : Chinese Restaurant
+        Artist : Memme
+        BPM : 175
+        Step chart : D17(UCS)
+
+
+3. New unlock step charts
+
+1)	Song : [REMIX] Paradoxx
+        Artist : SLAM & NATO
+        BPM : 220
+        Step chart : D28 
+
+
+4. Quest zone
+Quest “Chapter19” is updated.
+
+1)	Song : Butterfly
+        Step chart : S13, S16, D17, D18
+
+2)	Song : Crashday
+        Step chart : S06, S11, S17, S19
+
+3)	Song : U Got Me Rocking
+        Step chart : S17, S18, D17, D20
+
+4)	Song : Csikos Post
+        Step chart : S07, S10, S13, S21
+
+5)	Song : Pump me Amadeus
+        Step chart : D10, S18, D19, D24
+
+
+5. Unlocked Step Charts
+
+1)	Song : Force of Ra
+        Step chart : S19  - released!
+
+2)	Song : Moment Day
+        Step chart : S18, D19  - released!
+
+3)	Song : Houkago Stride
+        Step chart : S19  - released!
+
+4)	Song : Idealized Romance
+        Step chart : S18, D19  - released!
+
+
+6.	Changing function
+
+- It is changed that you cannot play the step if you didn't unlock it from Event mode.
+- RANDOM FOR WPF 2016 channel is deleted.
