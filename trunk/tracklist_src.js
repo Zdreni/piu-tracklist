@@ -45,10 +45,8 @@ var tracklist = {
 "14xx":
 {
 	title: "", artist: "", channel: , bpm: "",
-	Prime: "@1.17",
+	Prime: "@1.",
 },
-
-
 
 
 */
@@ -83,7 +81,7 @@ var tracklist = {
 "1405":
 {
 	title: "Yog-Sothoth", artist: "Nato", channel: ORIGINAL, bpm: "200",
-	Prime: "S9 S18 S21 S23 D23 D25  @1.01 Dp??(x3)",
+	Prime: "S9 S18 S21 S23 D23 D25  @1.01 Dp??(x3)  @1.19 D17",
 },
 
 "1406":
@@ -95,7 +93,7 @@ var tracklist = {
 "1407":
 {
 	title: "Chinese Restaurant", artist: "Memme", channel: ORIGINAL, bpm: "175",
-	Prime: "S4 S7 S10 S16 S18 D10 D20",
+	Prime: "S4 S7 S10 S16 S18 D10 D20  @1.19 D17.ucs",
 },
 
 "1408":
@@ -144,7 +142,7 @@ var tracklist = {
 "1415":
 {
 	title: "Hestia", artist: "Gentle Stick", channel: ORIGINAL, bpm: "150",
-	Prime: "@1.01 S4 S7 S10 S18 D11 D20",
+	Prime: "@1.01 S4 S7 S10 S18 D11 D20  @1.19 S17.ucs D18.ucs",
 },
 
 "1416":
@@ -168,7 +166,7 @@ var tracklist = {
 "1419":
 {
 	title: "Super Fantasy", artist: "SHK", channel: ORIGINAL, bpm: "145",
-	Prime: "S4 S7 S10 S16 S19 D11 D21 Dp??(x2)  @1.14 S14.ucs D16.ucs",
+	Prime: "S4 S7 S10 S16 S19 D11 D21 Dp??(x2)  @1.14 S14.ucs D16.ucs  @1.19 D18",
 },
 
 "1420":
@@ -197,8 +195,8 @@ var tracklist = {
 
 "1424":
 {
-	title: "1950", artist: "Slam", bpm:"200",
-	Prime: "@1.07 S23 D25  S25 D27  @1.12 S20",
+	title: "1950", artist: "Slam", bpm: "200",
+	Prime: "@1.07 S23 D25  S25 D27  @1.12 S20  @1.19 S16.ucs S17.ucs D21.ucs",
 },
 
 "1425":
@@ -251,7 +249,12 @@ var tracklist = {
 	Prime: "@1.15 S11 S16 D12  S19 D20",
 },
 
-// "1434":
+"1434":
+{
+	title: "Campanella", artist: "Cashew", channel: ORIGINAL, bpm: "140",
+	Prime: "@1.19 S6 S9 S16 D10 D16",
+},
+
 // "1435":
 
 "1436":
@@ -380,7 +383,7 @@ var tracklist = {
 "1458":
 {
 	title: "Dolly Kiss", artist: "SID-Sound", bpm: "149",
-	Prime: "@1.07 S3 S6 S14 D6 D15",
+	Prime: "@1.07 S3 S6 S14 D6 D15  @1.19 S17",
 },
 
 "1459":
@@ -395,7 +398,11 @@ var tracklist = {
 	Prime: "@1.03 S6 S11 S17 D11 D18",
 },
 
-// "1461":
+"1461":
+{
+	title: "Feel My Happiness", artist: "3R2", channel: WORLD, bpm: "175",
+	Prime: "@1.19 S3 S10 S17 D6 D18",
+},
 
 "1462":
 {
@@ -490,7 +497,12 @@ var tracklist = {
 
 // "1478": "Sudden Romance (PIU Edit)"  JE only
 // "1479": "Mitotsudaira"  JE only
-// "1480": "Smile Diary"  JE only
+
+"1480":
+{
+	title: "Smile Diary", artist: "you", channel: JMUSIC, bpm: "175",
+	Prime: "@1.19 S4 S7 S11 S16 D8 D17  S19 D20",
+},
 
 "1481":
 {
@@ -602,7 +614,7 @@ var tracklist = {
 "14A2":
 {
 	title: "Paradoxx", artist: "Slam & NATO", channel: ORIGINAL, bpm: "220", duration: REMIX,
-	Prime: "@1.18 S21 S23 S26",
+	Prime: "@1.18 S21 S23 S26  @1.19 D28",
 },
 
 "14C0":
@@ -1206,7 +1218,7 @@ var tracklist = {
 "1228":
 {
 	title: "Dream to Nightmare", artist: "Nightmare", channel: WORLD, bpm: "178",
-	Prime: "= -S23",
+	Prime: "= -S23  @1.19 S22",
 	Fiesta2: "@1.30 S19 S21 S23 D22 D24",
 },
 
@@ -1488,7 +1500,7 @@ var tracklist = {
 "1131":
 {
 	title: "Vacuum Cleaner", artist: "Doin", channel: ORIGINAL, bpm: "222.22", duration: REMIX,
-	Prime: "=",
+	Prime: "=  @1.19 D20",
 	Fiesta2: "=",
 	FiestaEX: "@1.30 S15 S20 S25 D27",
 },
@@ -2367,7 +2379,7 @@ var tracklist = {
 "F14":
 {
 	title: "Procedimientos Para Llegar a un Comun Acuerdo", artist: "PXNDX", bpm: "160",
-	Prime: "=",
+	Prime: "=  @1.19 S18 D19",
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S3.nl S7.hd S15.cz D7.fs D16.nm",
@@ -2968,7 +2980,7 @@ var tracklist = {
 "E20":
 {
 	title: "Beat # No.4", artist: "HeaDTriP", channel: KPOP, bpm: "121",
-	Prime: "=",
+	Prime: "=  @1.19 D18",
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "Sp2.nl S6.hd S15.cz Dp5.fs D17.nm",
@@ -4267,7 +4279,7 @@ var tracklist = {
 "B57":
 {
 	title: "Canon-D  [FULL]", artist: "BanYa", bpm: "160",
-	Prime: "=  @1.11 S17 S18 D17 D18",
+	Prime: "=  @1.11 S17 S18 D17 D18  @1.19 D24",
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S11.hd S16.cz  D23",
@@ -4284,7 +4296,7 @@ var tracklist = {
 "A01":
 {
 	title: "Final Audition 3 U.F", artist: "BanYa", bpm: "130",
-	Prime: "=",
+	Prime: "=  @1.19 S17",
 	Fiesta2: "=",
 	FiestaEX: "= @1.51 S2 S5 S9",
 	Fiesta: "Sp3.nl S6.hd S14.cz Dp5.fs D17.nm  D19.anm",
@@ -5563,7 +5575,7 @@ var tracklist = {
 "101":
 {
 	title: "Ignition Starts", artist: "BanYa", bpm: "146", fromMix: "1st",
-	Prime: "@1.01 S8.hd S15.cz D10.fs",
+	Prime: "@1.01 S8.hd S15.cz D10.fs  @1.19 S18 D17",
 	Exceed2: ["", "6", "12", "7", ""],
 	Exceed: ["", "6", "12", "6", ""],
 },

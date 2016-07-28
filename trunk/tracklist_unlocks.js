@@ -284,10 +284,12 @@ On( "Prime" )
 	Lock( "Annihilator Method  D24", PIUGAME );
 	Lock( "Imprinting  D24", PIUGAME );
 // 1.16
-	Lock( "Moment Day  S18, D19", PIUGAME );
-	Lock( "Houkago Stride  S19, D21", PIUGAME );
-	Lock( "Idealized Romance  S18, D18", PIUGAME );
-	Lock( "Force of Ra  S19, D20", PIUGAME );
+	Lock( "Moment Day  S18, D19", PIUGAME, "..@1.19" );
+	Lock( "Houkago Stride  S19", PIUGAME, "..@1.19" );
+	Lock( "Houkago Stride  D21", PIUGAME );
+	Lock( "Idealized Romance  S18, D18", PIUGAME, "..@1.19" );
+	Lock( "Force of Ra  S19", PIUGAME, "..@1.19" );
+	Lock( "Force of Ra  D20", PIUGAME );
 	Lock( "Achluoias  D26", PIUGAME );
 	Lock( "Stardust Overdrive  D24", PIUGAME );
 // 1.17
@@ -295,6 +297,10 @@ On( "Prime" )
 // 1.18
 	Lock( "Sora no Shirabe  S18, D20", PIUGAME );
 	Lock( "Paradoxx  S23, S26", PIUGAME );
+// 1.19
+	Lock( "Smile Diary  S19, D20", PIUGAME );
+	Lock( "Paradoxx  D28", PIUGAME );
+
 
 //delete tempUnlockPatchIndex;
 //delete tempCurrentMix;
