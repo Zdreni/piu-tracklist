@@ -5676,15 +5676,6 @@ function GetPreviousMixID( nextMixID )
 	var mixIndex = mixesOrder.indexOf( nextMixID );
 	console.assert( mixIndex > 0);
 	return mixesOrder[ mixIndex - 1 ];
-/*	
-	var prevMixID;
-	for( var mixID of mixesOrder )
-	{
-		if( mixID === nextMixID )
-			return prevMixID;
-		prevMixID = mixID;
-	}
-*/
 }
 
 
@@ -5716,6 +5707,15 @@ function ParseChartLevel( chartText )
 }
 
 
+function GetCommonChart( track, idx )
+{
+	if( ! track.charts )
+		track.charts = {};
+	if( ! ( index in track.charts ) )
+		track.charts[ index ] = { index: idx };
+	return track.charts[ index ];
+}
+
 function PreprocessTracklist()
 {
 	function PreprocessOldStyleListCharts( track, mixID )
@@ -5738,8 +5738,7 @@ function PreprocessTracklist()
 				{
 					if( inCharts[ i ] === "15/16" ) // NX glitch
 					{
-						chart.levelNum = 15;
-						chart.realLevelNum = 15;
+						chart.realLevelNum = chart.levelNum = 15;
 					}
 					else
 					{
@@ -5757,10 +5756,10 @@ function PreprocessTracklist()
 				chart.tag = tags[ i ];
 				chart.text = chart.tag + "-" + inCharts[ i ];
 				chart.type = ( chart.players  ?  COUPLE  :  OldTagTypes[ i ] );
-				if( track.oldSlotChartIDs[ chart.tag ] )
-					chart.index = track.oldSlotChartIDs[ chart.tag ];
-				else
-					track.oldSlotChartIDs[ chart.tag ] = chart.index = ++track.chartsCount;
+				if( ! track.oldSlotChartIDs[ chart.tag ] )
+					track.oldSlotChartIDs[ chart.tag ] = ++track.chartsCount;
+				
+				chart.common = GetCommonChart( track, track.oldSlotChartIDs[ chart.tag ] );
 				chart.zone = zone;
 				result.push( chart );
 			}
@@ -5785,7 +5784,7 @@ function PreprocessTracklist()
 				chart.text = chartText;
 				chart.tag = prefix;
 				chart.type = ( chart.players  ?  COUPLE  :  ( prefix[0] === "S"  ?  SINGLE  :  DOUBLE ) );
-				chart.index = ( index > 0  ?  index  :  ++track.chartsCount );
+				chart.common = GetCommonChart( track, index > 0  ?  index  :  ++track.chartsCount );
 				return chart;
 			}
 	}
@@ -5812,7 +5811,7 @@ function PreprocessTracklist()
 			{
 				prevChart = FindChart( track, prevChartDescr );
 				console.assert( prevChart );
-				prevChartIndex = prevChart.index;
+				prevChartIndex = prevChart.common.index;
 			}
 		}
 			
@@ -5941,8 +5940,6 @@ function PreprocessTracklist()
 	for( var trackID in tracklist )
 	{
 		var track = tracklist[ trackID ];
-		//if( ! track.id )
-		//	console.log("Warning: " + track.title + " has no ID specified." );
 
 		if( ! track.duration )
 			track.duration = GuessDurationFromTitle( track.title );

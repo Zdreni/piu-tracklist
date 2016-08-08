@@ -356,6 +356,7 @@ tr.strikeout td:after {
 		"Couple": [ 1, 400, 25, 500 ]
 	};
 
+
 	function GetRecommendedSpeedDescr( item )
 	{
 		var recommendedSpeed = "???";
@@ -377,6 +378,7 @@ tr.strikeout td:after {
 		return recommendedSpeed;
 	}
 
+
 	function TableItemDescr( item )
 	{
 		var rowClass = item.realLevelMatches  ?  ""  :  "strikeout";
@@ -391,6 +393,9 @@ tr.strikeout td:after {
 			if( item.chart.unlockPatchIndex )
 				availability += ", until " + mixes[ chartFilter.mixID ].patches[ item.chart.unlockPatchIndex ];
 		}
+
+		if( item.chart.isUCS )
+			availability += ", UCS";
 		
 		var recommendedSpeed = GetRecommendedSpeedDescr( item );
 

@@ -3,21 +3,21 @@
 
 String.prototype.endsWith = function(suffix)
 {
-    return this.indexOf(suffix, this.length - suffix.length) !== -1;
+	return this.indexOf(suffix, this.length - suffix.length) !== -1;
 }
 
 	
 Array.prototype.shuffle = function()
 {
-    for( var i = this.length - 1;  i > 0;  --i )
+	for( var i = this.length - 1;  i > 0;  --i )
 	{
-        var j = Math.floor( Math.random() * ( i + 1 ) );
+		var j = Math.floor( Math.random() * ( i + 1 ) );
 
-        var temp = this[ i ];
-        this[ i ] = this[ j ];
-        this[ j ] = temp;
-    }
-    return this;
+		var temp = this[ i ];
+		this[ i ] = this[ j ];
+		this[ j ] = temp;
+	}
+	return this;
 }
 
 var CopyAttribsList = function( source, attribs)
@@ -226,7 +226,7 @@ function FindChartIndexNew( track, chartTag, chartlevelText )
 // range treated as [ mixIndexFrom..mixIndexTo ), not including the <mixIndexTo> mix
 function FindChartsWithIndexInMixesRange( track, chartIndex, mixIndexFrom, mixIndexTo )
 {
-	console.assert( 0 <= mixIndexFrom  && mixIndexFrom < mixIndexTo  &&  mixIndexTo <= mixesOrder.length );
+	console.assert( 0 <= mixIndexFrom  &&  mixIndexFrom < mixIndexTo  &&  mixIndexTo <= mixesOrder.length );
 
 	var charts = [];
 	for( var i = mixIndexFrom;  i < mixIndexTo;  ++i )
