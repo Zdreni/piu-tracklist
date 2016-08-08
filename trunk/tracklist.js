@@ -38,28 +38,33 @@ var CopyAttribsFrom = function( target, source )
 
 /*
 Структура трека:
-	   title: <название>,
-	  artist: <исполнитель>,
-	 channel: ORIGINAL / KPOP / WORLD,
-	     bpm: <бпм> (один или несколько),
-	duration: SHORT / STANDARD / REMIX / FULL,
-
-	<микс 1>: массив чартов,
-	<микс 2>: массив чартов,
+	   title:  <название>
+	  artist:  <исполнитель>
+	 channel:  ORIGINAL / KPOP / JMUSIC / WORLD
+	     bpm:  <бпм> (один или несколько)
+	duration:  SHORT / STANDARD / REMIX / FULL
+	  charts:  массив коммон-чартов
+	<микс 1>:  массив инстанс-чартов для микса 1
+	<микс 2>:  массив инстанс-чартов для микса 2
 	...
-	<микс N>: массив чартов,
+	<микс N>:  массив инстанс-чартов для микса N
 
-Структура чарта:
-	 text: текст с описанием чарта, как он был в исходной таблице. Например, "15" (для старых миксов) или "Dp3" (для новых)
-	 type: SINGLE / DOUBLE / COUPLE
-	 zone: ARCADE / SPECIAL (только для старых чартов)
-	  tag: 'NL' / 'HD' / 'CZ' / 'FS' / 'NM' для старых чартов или 'S' / 'Sp' / 'D' / 'Dp' для новых
-	levelText: сложность чарта, как она объявлена на автомате. Это может быть число или '??' (черепки-звёздочки на NX также переведены в числа)
-	levelNum: сложность чарта, выраженная числом (вычисленная из скоринга, даже если написано '??')
-	realLevelNum: сложность чарта после переоценки (по чьему-то субьективному ощущению)
-	index: индекс уникального чарта (в пределах трека). Все чарты трека с одинаковым индексом считаются одним чартом, вне зависимости от микса, слота (CZ / HD) и т.д.
-	  bpm: бпм отдельного чарта, если отличается от бпм трека
-	fromPatchIndex: номер патча микса, начиная с которого чарт доступен на этом миксе
+Структура коммон-чарта (т.е. тех данных о чарте, которые не зависят от конкретного микса):
+	       index:  индекс чарта в треке
+	        type:  SINGLE / DOUBLE / COUPLE
+	     fromMix:  индекс микса, на котором впервые появился этот чарт
+	realLevelNum:  сложность чарта после переоценки (по чьему-то субьективному ощущению)
+
+Структура инстанс-чарта (т.е. того, как именно этот чарт описан на данном конкретном миксе):
+	        common:  коммон-чарт
+	          text:  текст с описанием чарта, как он был в исходной таблице. Например, "15" (для старых миксов) или "Dp3" (для новых)
+	          zone:  ARCADE / SPECIAL (только для старых чартов)
+	           tag:  'NL' / 'HD' / 'CZ' / 'FS' / 'NM' для старых чартов или 'S' / 'Sp' / 'D' / 'Dp' для новых
+	     levelText:  сложность чарта, как она объявлена на автомате.
+	                 Это может быть число или '??' (черепки-звёздочки на NX также переведены в числа)
+	      levelNum:  сложность чарта, выраженная числом (вычисленная из скоринга, даже если написано '??')
+	           bpm:  бпм отдельного чарта, если отличается от бпм трека
+	fromPatchIndex:  номер патча микса, начиная с которого чарт доступен на этом миксе
 
 /*
 function DeepCopy( obj )
@@ -123,10 +128,8 @@ var mixes =
 
 var mixesOrder = [ "Exceed", "Exceed2", "Zero", "NX", "NX2", "NXA", "Fiesta", "FiestaEX", "Fiesta2", "Prime" ];
 var firstNewMixIndex = mixesOrder.indexOf( "Fiesta" );
-var oldMixesReverseOrder = mixesOrder.slice(0, firstNewMixIndex ).reverse();
-//[ "NXA", "NX2", "NX", "Zero", "Exceed2", "Exceed" ];
-var newMixesOrder = mixesOrder.slice( firstNewMixIndex );
-//[ "Fiesta", "FiestaEX", "Fiesta2", "Prime" ];
+var oldMixesReverseOrder = mixesOrder.slice(0, firstNewMixIndex ).reverse();  // NXA..Exceed
+var newMixesOrder = mixesOrder.slice( firstNewMixIndex );  // Fiesta..Prime
 
 // mode
 var SINGLE = "Single";
