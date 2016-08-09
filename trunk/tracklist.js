@@ -373,7 +373,7 @@ var chartFilter = {
 			var realLevelMatches = true;
 			var levelMatches = true;
 
-			if( chart.type != COUPLE )
+			if( chart.common.type != COUPLE )
 			{
 				levelMatches = ( chartFilter.levelMin <= chart.levelNum  &&  chart.levelNum <= chartFilter.levelMax );
 				realLevelMatches = ( chartFilter.levelMin <= chart.realLevelNum  &&  chart.realLevelNum <= chartFilter.levelMax );

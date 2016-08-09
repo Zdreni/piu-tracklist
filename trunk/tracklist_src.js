@@ -5733,31 +5733,31 @@ function PreprocessTracklist()
 			if( inCharts[ i ] != "" )
 			{
 				var chart = ParseChartLevel( inCharts[ i ] );
+				chart.tag = tags[ i ];
+				if( ! track.oldSlotChartIDs[ chart.tag ] )
+					track.oldSlotChartIDs[ chart.tag ] = ++track.chartsCount;
 
-				if( isNaN( chart.realLevelNum ) )
+				if( isNaN( chart.common.realLevelNum ) )
 				{
 					if( inCharts[ i ] === "15/16" ) // NX glitch
 					{
-						chart.realLevelNum = chart.levelNum = 15;
+						chart.common.realLevelNum = chart.levelNum = 15;
 					}
 					else
 					{
 						console.log( "Error: real level of '" + track.title + "  " + tags[ i ] + "-" + inCharts[ i ] + "' can't be parsed." );
-						chart.realLevelNum = 0;
+						chart.common.realLevelNum = 0;
 					}
 				}
 
-				if( chart.levelNum === chart.realLevelNum  &&  String(chart.levelNum) != chart.levelText )
+				if( chart.levelNum === chart.common.realLevelNum  &&  String(chart.levelNum) != chart.levelText )
 				{
 					console.log( "Error: level of '" + track.title + "  " + tags[ i ] + "-" + inCharts[ i ] + "' parsed incorrectly." );
 					chart.levelNum = 0;
 				}
 
-				chart.tag = tags[ i ];
 				chart.text = chart.tag + "-" + inCharts[ i ];
 				chart.type = ( chart.players  ?  COUPLE  :  OldTagTypes[ i ] );
-				if( ! track.oldSlotChartIDs[ chart.tag ] )
-					track.oldSlotChartIDs[ chart.tag ] = ++track.chartsCount;
 				
 				chart.common = GetCommonChart( track, track.oldSlotChartIDs[ chart.tag ] );
 				chart.zone = zone;
