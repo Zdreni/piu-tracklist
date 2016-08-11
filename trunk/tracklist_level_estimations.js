@@ -220,15 +220,11 @@ function ApplyPatch( tracklist, estimations )
 		var track = FindTrack( tracklist, trackTitle );
 		console.assert( track );
 		
-		var chartIndex = FindChartIndexNew( track, chartTag, chartLevelText );
-		if( ! chartIndex )
+		var shared = FindChartSharedNew( track, chartTag, chartLevelText );
+		if( ! shared )
 			console.log( "Can't find " + track.title + " " + chartTag + "-" + chartLevelText );
-		console.assert( chartIndex );
-		
-		var charts = FindChartsWithIndex( track, chartIndex );
-		console.assert( charts.length > 0 );
-		for( var chart of charts )
-			chart.realLevelNum = chartRealLevelNum;
+		console.assert( shared );
+		shared.realLevelNum = chartRealLevelNum;
 	}
 }
 

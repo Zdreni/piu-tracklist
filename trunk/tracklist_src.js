@@ -2177,7 +2177,7 @@ var tracklist = {
 	Fiesta2: "=",
 	FiestaEX: "= D??(x9).nm",
 	Fiesta: "S15  @1.06 D19",
-	Exceed2: ["", "", "", "", "??"],
+	Exceed2: ["", "", "", "", "??(x9)"],
 },
 
 "1060":
@@ -3309,10 +3309,10 @@ var tracklist = {
 	Prime: "= -D??(x3)",
 	Fiesta2: "=",
 	FiestaEX: "=",
-	Fiesta: "S7.nl S16.hd S23.cz D25.nm  D16.afs Dp??(x2).anm  S4.new S11.new S18.new D??(x3).new",
-	NXA: ["7", "16", "23", "21", "??(25)"], NXA_: ["", "16", "19", "16", "??(24)"],
-	NX2: ["8", "17", "23", "20", "??(25)"], NX2_: ["", "13", "20", "15", "??(24)"],
-	NX: ["8", "15/16", "22", "20", "??(25)"], NX_: ["", "13", "", "15/16", "??"],
+	Fiesta: "S7.nl S16.hd S23.cz D25.nm  D16.afs Dp??(x2)  S4.new S11.new S18.new D??(x3).anm",  //?? Dp.x2 is new?
+	NXA: ["7", "16", "23", "21", "??(25)"], NXA_: ["", "16", "19", "16", "??(24)(x3)"],
+	NX2: ["8", "17", "23", "20", "??(25)"], NX2_: ["", "13", "20", "15", "??(24)(x3)"],
+	NX: ["8", "15/16", "22", "20", "??(25)"], NX_: ["", "13", "", "15/16", "??(x3)"],
 },
 
 "D04":
@@ -3929,8 +3929,8 @@ var tracklist = {
 	NXA_: ["", "16", "17", "??(x2)", "??(x2)"],
 	// Dp - капл, D - ahd+acz
 	NX2_: ["", "16", "18", "", "??(x2)"],
-	NX_: ["", "15/16", "18", "", "??"],
-	Zero_: ["", "??", "??", "", "??"],
+	NX_: ["", "15/16", "18", "", "??(x2)"],
+	Zero_: ["", "??", "??", "", "??(x2)"],
 },
 
 
@@ -4923,8 +4923,8 @@ var tracklist = {
 	Fiesta: "S3.nl S7.hd S19.cz D6.fs D20.nm  S15.acz D15.afs Dp??(x2).anm",
 	NXA: ["4", "7", "19", "6", "20"], NXA_: ["", "", "16", "7", "??(x2)"],  // у afs неправильная оценка, он гораздо круче
 	NX2: ["3", "5", "19", "6", "20"], NX2_: ["", "", "16", "8", "??(x2)"],
-	NX: ["3", "6", "19", "6", "20"], NX_: ["", "", "15/16", "8", "??"],
-	Zero: ["2", "6", "19", "6", "20"], Zero_: ["", "", "", "??", "??"],
+	NX: ["3", "6", "19", "6", "20"], NX_: ["", "", "15/16", "8", "??(x2)"],
+	Zero: ["2", "6", "19", "6", "20"], Zero_: ["", "", "", "??", "??(x2)"],
 	Exceed2: ["2", "6", "18", "6", "20"],
 	Exceed: ["2", "6", "11", "5", ""],
 },
@@ -5679,41 +5679,42 @@ function GetPreviousMixID( nextMixID )
 }
 
 
-function ParseChartLevel( chartText )
+function ParseChartLevel( chart, chartText )
 {
 	// we treat substitution immediately in tracklist not as re-estimation, but an official estimation in case when number is hard to see
 	// that applies for various '??' level, as vell as for 15/16 levels on NX, which are marked with the same symbol
 	var levelSubst_Match = chartText.match( /(.*)\s*\((\d+)\)$/ );
 	if( levelSubst_Match )
-		return {    levelText: levelSubst_Match[ 1 ], 
-		             levelNum: Number( levelSubst_Match[ 2 ] ) };
-/*		
-		return {    levelText: levelSubst_Match[ 1 ], 
-		             levelNum: Number( levelSubst_Match[ 1 ] ),
-		         realLevelNum: Number( levelSubst_Match[ 2 ] ) };
-*/
+	{
+		chart.levelText = levelSubst_Match[ 1 ];
+		chart.levelNum = Number( levelSubst_Match[ 2 ] );
+		return;
+	}
 
 	var couple_Match = chartText.match( /(.*)\s*\(x(\d+)\)$/ );
 	if( couple_Match )
-		return { levelText: couple_Match[ 1 ],
-		          levelNum: Number( couple_Match[ 1 ] ),
-		           players: Number( couple_Match[ 2 ] ) };
+	{
+		chart.levelText = couple_Match[ 1 ];
+		chart.levelNum = Number( couple_Match[ 1 ] );
+		chart.players = Number( couple_Match[ 2 ] );
+		return;
+	}
 
 	console.assert( ! chartText.match( /(\d+)\s*\((.+)\)/ ) );
 
-	return {    levelText: chartText,
-	             levelNum: Number( chartText ),
-	         realLevelNum: Number( chartText ) };
+	chart.levelText = chartText;
+	chart.levelNum = Number( chartText );
+	chart.shared.realLevelNum = Number( chartText );
 }
 
 
-function GetCommonChart( track, idx )
+function GetSharedChart( track, idx )
 {
 	if( ! track.charts )
 		track.charts = {};
-	if( ! ( index in track.charts ) )
-		track.charts[ index ] = { index: idx };
-	return track.charts[ index ];
+	if( ! ( idx in track.charts ) )
+		track.charts[ idx ] = { index: idx };
+	return track.charts[ idx ];
 }
 
 function PreprocessTracklist()
@@ -5730,36 +5731,43 @@ function PreprocessTracklist()
 				return;
 
 			for( var i = 0;  i < OldTagTypes.length;  ++i )
-			if( inCharts[ i ] != "" )
 			{
-				var chart = ParseChartLevel( inCharts[ i ] );
-				chart.tag = tags[ i ];
-				if( ! track.oldSlotChartIDs[ chart.tag ] )
-					track.oldSlotChartIDs[ chart.tag ] = ++track.chartsCount;
+				if( inCharts[ i ] === "" )
+					continue;
 
-				if( isNaN( chart.common.realLevelNum ) )
+				var chart = {};
+				chart.tag = tags[ i ];
+				if( ! track.oldSlotSharedCharts[ chart.tag ] )
+					track.oldSlotSharedCharts[ chart.tag ] = GetSharedChart( track, ++track.chartsCount );
+				chart.shared = track.oldSlotSharedCharts[ chart.tag ];
+				ParseChartLevel( chart, inCharts[ i ] );
+
+				if( isNaN( chart.shared.realLevelNum ) )
 				{
 					if( inCharts[ i ] === "15/16" ) // NX glitch
 					{
-						chart.common.realLevelNum = chart.levelNum = 15;
+						chart.shared.realLevelNum = chart.levelNum = 15;
 					}
 					else
 					{
 						console.log( "Error: real level of '" + track.title + "  " + tags[ i ] + "-" + inCharts[ i ] + "' can't be parsed." );
-						chart.common.realLevelNum = 0;
+						chart.shared.realLevelNum = 0;
 					}
 				}
 
-				if( chart.levelNum === chart.common.realLevelNum  &&  String(chart.levelNum) != chart.levelText )
+				if( chart.levelNum === chart.shared.realLevelNum  &&  String(chart.levelNum) != chart.levelText )
 				{
 					console.log( "Error: level of '" + track.title + "  " + tags[ i ] + "-" + inCharts[ i ] + "' parsed incorrectly." );
 					chart.levelNum = 0;
 				}
 
 				chart.text = chart.tag + "-" + inCharts[ i ];
-				chart.type = ( chart.players  ?  COUPLE  :  OldTagTypes[ i ] );
+				var chartType = chart.players  ?  COUPLE  :  OldTagTypes[ i ];
+				if( ! chart.shared.type )
+					chart.shared.type = chartType;
+				else
+					console.assert( chart.shared.type == chartType );
 				
-				chart.common = GetCommonChart( track, track.oldSlotChartIDs[ chart.tag ] );
 				chart.zone = zone;
 				result.push( chart );
 			}
@@ -5780,11 +5788,18 @@ function PreprocessTracklist()
 		for( var prefix of NewTags )
 			if( chartText.indexOf( prefix ) === 0 )
 			{
-				var chart = ParseChartLevel( chartText.substring( prefix.length ) );
+				var chart = {};
+				chart.shared = GetSharedChart( track, index > 0  ?  index  :  ++track.chartsCount );
+				ParseChartLevel( chart, chartText.substring( prefix.length ) );
 				chart.text = chartText;
 				chart.tag = prefix;
-				chart.type = ( chart.players  ?  COUPLE  :  ( prefix[0] === "S"  ?  SINGLE  :  DOUBLE ) );
-				chart.common = GetCommonChart( track, index > 0  ?  index  :  ++track.chartsCount );
+				var chartType = ( chart.players  ?  COUPLE  :  ( prefix[0] === "S"  ?  SINGLE  :  DOUBLE ) );
+				if( ! chart.shared.type )
+					chart.shared.type = chartType;
+				else
+					console.assert( chart.shared.type === chartType );
+				
+					
 				return chart;
 			}
 	}
@@ -5793,8 +5808,6 @@ function PreprocessTracklist()
 	function PreprocessNewStyleChart( track, result, chartDescr, mixID )
 	{
 		var chartInfo = chartDescr.split( "." );
-		//if( track.oldSlotChartIDs  &&  chartInfo.length === 1)
-		//	console.log( "Warning: " );
 
 		var prevChartIndex = 0;
 		var prevChart;
@@ -5811,7 +5824,7 @@ function PreprocessTracklist()
 			{
 				prevChart = FindChart( track, prevChartDescr );
 				console.assert( prevChart );
-				prevChartIndex = prevChart.common.index;
+				prevChartIndex = prevChart.shared.index;
 			}
 		}
 			
@@ -5966,13 +5979,13 @@ function PreprocessTracklist()
 				PreprocessNewStyleStringCharts( track, mixID );
 			else
 			{
-				if( ! track.oldSlotChartIDs )
-					track.oldSlotChartIDs = {};
+				if( ! track.oldSlotSharedCharts )
+					track.oldSlotSharedCharts = {};
 				PreprocessListCharts( track, mixID );
 			}
 		}
 
-		delete track.oldSlotChartIDs;
+		delete track.oldSlotSharedCharts;
 	}
 }
 

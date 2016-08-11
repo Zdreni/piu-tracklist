@@ -90,7 +90,7 @@ function SetChartBPM( descr )
 
 	var mixesRange = GetMixesRange( descr.mixes );
 
-	var charts = FindChartsWithIndexInMixesRange( track, chart.index, mixesRange[ 0 ], mixesRange[ 1 ] );
+	var charts = FindChartsWithIndexInMixesRange( track, chart.shared.index, mixesRange[ 0 ], mixesRange[ 1 ] );
 	if( charts.length === 0 )
 	{
 		console.log( "Can't find " + descr.chart + " in range [" + mixesOrder[ mixesRange[ 0 ] ] + ".." + mixesOrder[ mixesRange[ 1 ] ] + "]" );

@@ -14,16 +14,25 @@ function FindChart( track, chartText )
 */
 
 
-function Tag( fullChartDescr, tags )
+function Tag( fullChartDescr, tag )
 {
-	var splits = fullChartDescr.split( "  " );
-	var chartDescr = splits.pop();
-	var trackTitle = splits.join( "  " );
+	var chart_Match = fullChartDescr.match( "(.*)  (.*)-(.*)" );
+	if( ! chart_Match )
+		console.log( "Can't parse chart " + fullChartDescr );
+
+	var trackTitle = chart_Match[ 1 ];
+	var chartTag = chart_Match[ 2 ];
+	var chartLevelText = chart_Match[ 3 ];
+
 	var track = FindTrack( tracklist, trackTitle );
 	console.assert( track );
 
-	var chart = FindChart( track, chartDescr );
-	//console.assert( chart );
+	var shared = FindChartSharedNew( track, chartTag, chartLevelText );
+	console.assert( shared );
+	if( ! shared.tags )
+		shared.tags = tag;
+	else
+		shared.tags += " " + tag;
 }
 
 Tag( "Arirang  S-18", "UPF-2016" );

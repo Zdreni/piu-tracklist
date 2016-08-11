@@ -43,20 +43,20 @@ var CopyAttribsFrom = function( target, source )
 	 channel:  ORIGINAL / KPOP / JMUSIC / WORLD
 	     bpm:  <бпм> (один или несколько)
 	duration:  SHORT / STANDARD / REMIX / FULL
-	  charts:  массив коммон-чартов
+	  charts:  массив shared-чартов
 	<микс 1>:  массив инстанс-чартов для микса 1
 	<микс 2>:  массив инстанс-чартов для микса 2
 	...
 	<микс N>:  массив инстанс-чартов для микса N
 
-Структура коммон-чарта (т.е. тех данных о чарте, которые не зависят от конкретного микса):
+Структура shared-чарта (т.е. тех данных о чарте, которые не зависят от конкретного микса):
 	       index:  индекс чарта в треке
 	        type:  SINGLE / DOUBLE / COUPLE
 	     fromMix:  индекс микса, на котором впервые появился этот чарт
 	realLevelNum:  сложность чарта после переоценки (по чьему-то субьективному ощущению)
 
 Структура инстанс-чарта (т.е. того, как именно этот чарт описан на данном конкретном миксе):
-	        common:  коммон-чарт
+	        shared:  shared-чарт
 	          text:  текст с описанием чарта, как он был в исходной таблице. Например, "15" (для старых миксов) или "Dp3" (для новых)
 	          zone:  ARCADE / SPECIAL (только для старых чартов)
 	           tag:  'NL' / 'HD' / 'CZ' / 'FS' / 'NM' для старых чартов или 'S' / 'Sp' / 'D' / 'Dp' для новых
@@ -211,7 +211,7 @@ function FindTrack( tracklist, title )
 }
 
 
-function FindChartIndexNew( track, chartTag, chartlevelText )
+function FindChartSharedNew( track, chartTag, chartlevelText )
 {
 	console.assert( ["S", "Sp", "D", "Dp"].indexOf( chartTag ) >= 0 );
 	for( var mixID of mixesOrder )
@@ -220,7 +220,10 @@ function FindChartIndexNew( track, chartTag, chartlevelText )
 		{
 			var chart = _.findWhere( track[ mixID ], { tag: chartTag, levelText: chartlevelText, } );
 			if( chart )
-				return chart.index;
+			{
+				console.assert( chart.shared );
+				return chart.shared;
+			}
 		}
 	}
 }
@@ -234,21 +237,18 @@ function FindChartsWithIndexInMixesRange( track, chartIndex, mixIndexFrom, mixIn
 	var charts = [];
 	for( var i = mixIndexFrom;  i < mixIndexTo;  ++i )
 	{
-		var trackInMix = track[ mixesOrder[ i ] ];
-		if( trackInMix )
+		var chartsInMix = track[ mixesOrder[ i ] ];
+		if( chartsInMix )
 		{
-			var chart = _.find( trackInMix, { index: chartIndex } );
-			if( chart )
-				charts.push( chart );
+			for( var chart of chartsInMix )
+				if( chart.shared.index === chartIndex )
+				{
+					charts.push( chart );
+					break;
+				}
 		}
 	}
 	return charts;
-}
-
-
-function FindChartsWithIndex( track, chartIndex )
-{
-	return FindChartsWithIndexInMixesRange( track, chartIndex, 0, mixesOrder.length );
 }
 
 
@@ -373,7 +373,7 @@ var chartFilter = {
 			var realLevelMatches = true;
 			var levelMatches = true;
 
-			if( chart.common.type != COUPLE )
+			if( chart.shared.type != COUPLE )
 			{
 				levelMatches = ( chartFilter.levelMin <= chart.levelNum  &&  chart.levelNum <= chartFilter.levelMax );
 				realLevelMatches = ( chartFilter.levelMin <= chart.realLevelNum  &&  chart.realLevelNum <= chartFilter.levelMax );
