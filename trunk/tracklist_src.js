@@ -3309,7 +3309,7 @@ var tracklist = {
 	Prime: "= -D??(x3)",
 	Fiesta2: "=",
 	FiestaEX: "=",
-	Fiesta: "S7.nl S16.hd S23.cz D25.nm  D16.afs Dp??(x2)  S4.new S11.new S18.new D??(x3).anm",  //?? Dp.x2 is new?
+	Fiesta: "S7.nl S16.hd S23.cz D25.nm  D16.afs Dp??(x2).new  S4.new S11.new S18.new D??(x3).anm",
 	NXA: ["7", "16", "23", "21", "??(25)"], NXA_: ["", "16", "19", "16", "??(24)(x3)"],
 	NX2: ["8", "17", "23", "20", "??(25)"], NX2_: ["", "13", "20", "15", "??(24)(x3)"],
 	NX: ["8", "15/16", "22", "20", "??(25)"], NX_: ["", "13", "", "15/16", "??(x3)"],
