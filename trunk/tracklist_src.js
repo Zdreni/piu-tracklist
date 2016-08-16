@@ -69,13 +69,13 @@ var tracklist = {
 "1403":
 {
 	title: "Latino Virus", artist: "Warak", channel: ORIGINAL, bpm: "170",
-	Prime: "S3 S7 S9 S17 D12 D19 Dp??(x2)  @1.12 Dp03.ucs",
+	Prime: "S3 S7 S9 S17 D12 D19 Dp??(x2)  @1.12 Dp3.ucs",
 },
 
 "1404":
 {
 	title: "Elysium", artist: "Warak", channel: ORIGINAL, bpm: "128",
-	Prime: "@1.13 S04 S08 S15 D10 D16",
+	Prime: "@1.13 S4 S8 S15 D10 D16",
 },
 
 "1405":
@@ -148,7 +148,7 @@ var tracklist = {
 "1416":
 {
 	title: "Amphitryon", artist: "Gentle Stick", channel: ORIGINAL, bpm: "155",
-	Prime: "@1.17 S06 S11 D12  S18 D20",
+	Prime: "@1.17 S6 S11 D12  S18 D20",
 },
 
 "1417":
@@ -178,7 +178,7 @@ var tracklist = {
 "1421":
 {
 	title: "Red Swan", artist: "Yahpp", bpm: "172",
-	Prime: "S4 S6 S8 S18 D12 D20 D21  @1.02 Dp??(x2)  @1.12 Dp04.ucs Dp20.ucs",
+	Prime: "S4 S6 S8 S18 D12 D20 D21  @1.02 Dp??(x2)  @1.12 Dp4.ucs Dp20.ucs",
 },
 
 "1422":
@@ -220,7 +220,7 @@ var tracklist = {
 "1428":
 {
 	title: "Move That Body!", artist: "DM Ashura", channel: ORIGINAL, bpm: "145",
-	Prime: "@1.06 S3 S5 S8 S12 S17 S20 D10 D18  @1.11 Dp03",
+	Prime: "@1.06 S3 S5 S8 S12 S17 S20 D10 D18  @1.11 Dp3",
 },
 
 "1429":
@@ -238,7 +238,7 @@ var tracklist = {
 "1431":
 {
 	title: "Point Zero One", artist: "SynthWulf", channel: WORLD, bpm: "170",
-	Prime: "@1.13 S09 S16 D11 D17  S20 D22",
+	Prime: "@1.13 S9 S16 D11 D17  S20 D22",
 },
 
 // "1432":
@@ -302,7 +302,7 @@ var tracklist = {
 "1443":
 {
 	title: "Venus", artist: "Shinwa", bpm: "126",
-	Prime: "@1.05 S2 S3 S5 S14 D6 D14  @1.11 Dp03",
+	Prime: "@1.05 S2 S3 S5 S14 D6 D14  @1.11 Dp3",
 },
 
 "1444":
@@ -456,7 +456,7 @@ var tracklist = {
 "1471":
 {
 	title: "Enhanced Reality", artist: "Matduke", channel: WORLD, bpm: "170",
-	Prime: "@1.14 S09 S14 D11  S19 D20",
+	Prime: "@1.14 S9 S14 D11  S19 D20",
 },
 
 "1472":
@@ -519,7 +519,7 @@ var tracklist = {
 "1483":
 {
 	title: "Sora no Shirabe", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "172",
-	Prime: "@1.18 S03 S08 S12 S15 D11 D16  S18 D20",
+	Prime: "@1.18 S3 S8 S12 S15 D11 D16  S18 D20",
 },
 
 "1484":
@@ -533,7 +533,7 @@ var tracklist = {
 "1486":
 {
 	title: "Setsuna Trip", artist: "LastNote", channel: JMUSIC, bpm: "145",
-	Prime: "@1.12 S1 S5 S09 S13 S16 D8 D14 Dp??(x2)  S18 D19  @1.17 S3",
+	Prime: "@1.12 S1 S5 S9 S13 S16 D8 D14 Dp??(x2)  S18 D19  @1.17 S3",
 },
 
 "1487":
@@ -5681,13 +5681,15 @@ function GetPreviousMixID( nextMixID )
 
 function ParseChartLevel( chart, chartText )
 {
-	// we treat substitution immediately in tracklist not as re-estimation, but an official estimation in case when number is hard to see
-	// that applies for various '??' level, as vell as for 15/16 levels on NX, which are marked with the same symbol
+	// check for "instant level substitution" here
+	// it is used not for a players re-estimation, but for official estimation, in case when number is not visible on arcade
+	// for example, this is used for '??' levels, as well as for 15/16 levels on NX, which are marked with the same symbol
 	var levelSubst_Match = chartText.match( /(.*)\s*\((\d+)\)$/ );
 	if( levelSubst_Match )
 	{
 		chart.levelText = levelSubst_Match[ 1 ];
 		chart.levelNum = Number( levelSubst_Match[ 2 ] );
+		console.assert( chart.levelNum !== null );
 		return;
 	}
 
@@ -5696,6 +5698,7 @@ function ParseChartLevel( chart, chartText )
 	{
 		chart.levelText = couple_Match[ 1 ];
 		chart.levelNum = Number( couple_Match[ 1 ] );
+		console.assert( chart.levelNum !== null );
 		chart.players = Number( couple_Match[ 2 ] );
 		return;
 	}
@@ -5704,6 +5707,7 @@ function ParseChartLevel( chart, chartText )
 
 	chart.levelText = chartText;
 	chart.levelNum = Number( chartText );
+	console.assert( chart.levelNum !== null );
 	chart.shared.realLevelNum = Number( chartText );
 }
 
