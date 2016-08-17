@@ -50,10 +50,10 @@ var CopyAttribsFrom = function( target, source )
 	<микс N>:  массив инстанс-чартов для микса N
 
 Структура shared-чарта (т.е. тех данных о чарте, которые не зависят от конкретного микса):
-	       index:  индекс чарта в треке
-	        type:  SINGLE / DOUBLE / COUPLE
-	     fromMix:  индекс микса, на котором впервые появился этот чарт
-	realLevelNum:  сложность чарта после переоценки (по чьему-то субьективному ощущению)
+	           index:  индекс чарта в треке
+	            type:  SINGLE / DOUBLE / COUPLE
+	         fromMix:  индекс микса, на котором впервые появился этот чарт
+	etimatedLevelNum:  сложность чарта после переоценки (по чьему-то субьективному ощущению)
 
 Структура инстанс-чарта (т.е. того, как именно этот чарт описан на данном конкретном миксе):
 	        shared:  shared-чарт
@@ -322,6 +322,14 @@ function FindChart( track, chartDescr )
 }
 
 
+function ChartRealLevelNum( chart )
+{
+	if( chart.shared.estimatedLevelNum )
+		return chart.shared.estimatedLevelNum;
+	if( isNaN( chart.levelNum ) )
+		return 0;
+	return chart.levelNum;
+}
 
 
 function GetTrackFirstMix( track )

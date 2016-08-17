@@ -5689,7 +5689,7 @@ function ParseChartLevel( chart, chartText )
 	{
 		chart.levelText = levelSubst_Match[ 1 ];
 		chart.levelNum = Number( levelSubst_Match[ 2 ] );
-		console.assert( chart.levelNum !== null );
+		console.assert( ! isNaN( chart.levelNum ) );
 		return;
 	}
 
@@ -5698,8 +5698,11 @@ function ParseChartLevel( chart, chartText )
 	{
 		chart.levelText = couple_Match[ 1 ];
 		chart.levelNum = Number( couple_Match[ 1 ] );
-		console.assert( chart.levelNum !== null );
-		chart.players = Number( couple_Match[ 2 ] );
+		console.assert( ! isNaN( chart.levelNum ) );
+		if( ! chart.shared.players )
+			chart.shared.players = Number( couple_Match[ 2 ] );
+		else
+			console.assert( chart.shared.players === Number( couple_Match[ 2 ] ) );
 		return;
 	}
 
@@ -5707,8 +5710,7 @@ function ParseChartLevel( chart, chartText )
 
 	chart.levelText = chartText;
 	chart.levelNum = Number( chartText );
-	console.assert( chart.levelNum !== null );
-	chart.shared.realLevelNum = Number( chartText );
+	//console.assert( ! isNaN( chart.levelNum ) );
 }
 
 
@@ -5746,27 +5748,27 @@ function PreprocessTracklist()
 				chart.shared = track.oldSlotSharedCharts[ chart.tag ];
 				ParseChartLevel( chart, inCharts[ i ] );
 
-				if( isNaN( chart.shared.realLevelNum ) )
+				if( isNaN( chart.levelNum ) )
 				{
 					if( inCharts[ i ] === "15/16" ) // NX glitch
 					{
-						chart.shared.realLevelNum = chart.levelNum = 15;
+						chart.levelNum = 15;
 					}
 					else
 					{
 						console.log( "Error: real level of '" + track.title + "  " + tags[ i ] + "-" + inCharts[ i ] + "' can't be parsed." );
-						chart.shared.realLevelNum = 0;
+						//chart.levelNum = 0;
 					}
 				}
 
-				if( chart.levelNum === chart.shared.realLevelNum  &&  String(chart.levelNum) != chart.levelText )
+				if( String(chart.levelNum) != chart.levelText )
 				{
 					console.log( "Error: level of '" + track.title + "  " + tags[ i ] + "-" + inCharts[ i ] + "' parsed incorrectly." );
-					chart.levelNum = 0;
+					//chart.levelNum = 0;
 				}
 
 				chart.text = chart.tag + "-" + inCharts[ i ];
-				var chartType = chart.players  ?  COUPLE  :  OldTagTypes[ i ];
+				var chartType = chart.shared.players  ?  COUPLE  :  OldTagTypes[ i ];
 				if( ! chart.shared.type )
 					chart.shared.type = chartType;
 				else
@@ -5797,7 +5799,7 @@ function PreprocessTracklist()
 				ParseChartLevel( chart, chartText.substring( prefix.length ) );
 				chart.text = chartText;
 				chart.tag = prefix;
-				var chartType = ( chart.players  ?  COUPLE  :  ( prefix[0] === "S"  ?  SINGLE  :  DOUBLE ) );
+				var chartType = ( chart.shared.players  ?  COUPLE  :  ( prefix[0] === "S"  ?  SINGLE  :  DOUBLE ) );
 				if( ! chart.shared.type )
 					chart.shared.type = chartType;
 				else

@@ -14,12 +14,12 @@ function FindChart( track, chartText )
 */
 
 
-function Tag( fullChartDescr, tag )
+function Tag( tag, fullChartDescr )
 {
 	if( Array.isArray( fullChartDescr ) )
 	{
 		for( var item of fullChartDescr )
-			Tag( item, tag );
+			Tag( tag, item );
 		return;
 	}
 
@@ -42,20 +42,23 @@ function Tag( fullChartDescr, tag )
 		shared.tags += " " + tag;
 }
 
-Tag(["1950  S-20",
-     "Karyawisata  S-20",
-     "Move That Body!  S-20",
-     "Yog-Sothoth  S-21",
-     "Robot Battle  S-21",
-     "Achluoias  S-22",
-     "1950  S-23",
-     "Yog-Sothoth  S-23"], "UPF-2016-singles");
+Tag( "UPF-2016-singles",
+     [ "1950  S-20",
+       "Karyawisata  S-20",
+       "Move That Body!  S-20",
+       "Yog-Sothoth  S-21",
+       "Robot Battle  S-21",
+       "Achluoias  S-22",
+       "1950  S-23",
+       "Yog-Sothoth  S-23" ] );
 
-Tag(["Achluoias  D-24",
-     "Avalanche  D-24",
-     "1950  D-25",
-     "Yog-Sothoth  D-25"], "UPF-2016-doubles");
+Tag( "UPF-2016-doubles",
+     [ "Achluoias  D-24",
+       "Avalanche  D-24",
+       "1950  D-25",
+       "Yog-Sothoth  D-25" ] );
 
+Tag( "triples", [] );
 
 /*
 Tag(

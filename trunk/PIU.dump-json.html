@@ -47,8 +47,8 @@ for( var trackID in tracklist )
 		track[ mixID ] = {};
 		for( var chart of mixCharts )
 		{
-			if( chart.realLevelNum === chart.levelNum )
-				delete chart.realLevelNum;
+			//if( chart.innerLevelNum === chart.levelNum )
+			//	delete chart.innerLevelNum;
 
 			if( String( chart.levelNum ) === chart.levelText )
 				delete chart.levelNum;
@@ -80,12 +80,11 @@ for( var trackID in tracklist )
 					delete chart.type;
 			}
 
-			if( chart.tag + chart.levelText === chart.text  ||  chart.tag + "-" + chart.levelText === chart.text )
-			{
-				chart.text = chart.tag + "-" + chart.levelText;
-				delete chart.tag;
-				delete chart.levelText;
-			}
+			chart.text = chart.tag + "-" + chart.levelText;
+			delete chart.tag;
+			delete chart.levelText;
+			if( isNaN( chart.levelNum )  ||  chart.levelNum === null )
+				delete chart.levelNum;
 
 			//if( chart.levelText === chart.text )
 			//	delete chart.levelText;
@@ -133,7 +132,6 @@ for( var trackID in tracklist )
 		var shared = charts[ chartIndex ];
 		delete shared.index;
 		delete shared.type;
-		delete shared.realLevelNum;
 		if( Object.keys(shared).length === 0 )
 			delete charts[ chartIndex ];
 	}

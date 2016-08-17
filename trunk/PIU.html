@@ -308,13 +308,17 @@ tr.strikeout td:after {
 	function ChartDescr( chart )
 	{
 		if( chart.type == COUPLE )
-			return chart.tag + "-" + chart.levelText + " / " + chart.players.toString() + "p";
+			return chart.tag + "-" + chart.levelText + " / " + chart.shared.players.toString() + "p";
 
 		var descrStr;
-		if( chart.levelNum < chart.realLevelNum )
-			descrStr = chart.tag + "-<i>" + chart.levelText + "</i> " + arrows[0] + " " + chart.realLevelNum.toString();
-		else if( chart.levelNum > chart.realLevelNum )
-			descrStr = chart.tag + "-<i>" + chart.levelText + "</i> " + arrows[1] + " " + chart.realLevelNum.toString();
+		var realLevelNum = ChartRealLevelNum( chart );
+		if( realLevelNum != chart.levelNum )
+		{
+			if( chart.levelNum < realLevelNum )
+				descrStr = chart.tag + "-<i>" + chart.levelText + "</i> " + arrows[0] + " " + realLevelNum.toString();
+			else if( chart.levelNum > realLevelNum )
+				descrStr = chart.tag + "-<i>" + chart.levelText + "</i> " + arrows[1] + " " + realLevelNum.toString();
+		}
 		else
 			descrStr = chart.tag + "-" + chart.levelText;
 		return descrStr;
@@ -364,9 +368,9 @@ tr.strikeout td:after {
 		var bpmStr = item.chart.bpm  ?  item.chart.bpm  :  item.track.bpm;
 		var bpmNum = parseInt( bpmStr );
 
-		if( bpmNum != NaN  &&  bpmNum == bpmStr  &&  item.chart.realLevelNum != NaN )
+		if( bpmNum != NaN  &&  bpmNum == bpmStr )
 		{
-			var calculatedSpeed = GetCurveValue( speedCurves[ item.chart.type ], item.chart.realLevelNum ) / bpmNum;
+			var calculatedSpeed = GetCurveValue( speedCurves[ item.chart.type ], ChartRealLevelNum( item.chart ) ) / bpmNum;
 			var availSpeed = Math.round( calculatedSpeed * 2 ) / 2;
 
 			if( Math.abs( availSpeed - calculatedSpeed ) > 0.15 )

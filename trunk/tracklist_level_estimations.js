@@ -214,8 +214,8 @@ function ApplyPatch( tracklist, estimations )
 		var trackTitle = estimation_Match[ 1 ];
 		var chartTag = estimation_Match[ 2 ];
 		var chartLevelText = estimation_Match[ 3 ];
-		var chartRealLevelNum = Number( estimation_Match[ 4 ] );
-		console.assert( ! isNaN( chartRealLevelNum ) );
+		var chartEstimatedLevelNum = Number( estimation_Match[ 4 ] );
+		console.assert( ! isNaN( chartEstimatedLevelNum ) );
 
 		var track = FindTrack( tracklist, trackTitle );
 		console.assert( track );
@@ -224,7 +224,7 @@ function ApplyPatch( tracklist, estimations )
 		if( ! shared )
 			console.log( "Can't find " + track.title + " " + chartTag + "-" + chartLevelText );
 		console.assert( shared );
-		shared.realLevelNum = chartRealLevelNum;
+		shared.estimatedLevelNum = chartEstimatedLevelNum;
 	}
 }
 
