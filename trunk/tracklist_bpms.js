@@ -36,7 +36,7 @@ var separateBPMs =
 
 function GetMixesRange( text )
 {
-	var range = [ 0, mixesOrder.length - 1 ];
+	var range = [ 0, mixesOrder.length ];
 
 	if( text )
 	{

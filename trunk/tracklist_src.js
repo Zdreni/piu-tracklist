@@ -5698,11 +5698,11 @@ function ParseChartLevel( chart, chartText )
 	{
 		chart.levelText = couple_Match[ 1 ];
 		chart.levelNum = Number( couple_Match[ 1 ] );
-		console.assert( ! isNaN( chart.levelNum ) );
+		//console.assert( ! isNaN( chart.levelNum ) );
 		if( ! chart.shared.players )
 		{
 			chart.shared.players = Number( couple_Match[ 2 ] );
-			console.assert( ! isNaN( chart.players ) );
+			console.assert( ! isNaN( chart.shared.players ) );
 		}
 		else
 			console.assert( chart.shared.players === Number( couple_Match[ 2 ] ) );
