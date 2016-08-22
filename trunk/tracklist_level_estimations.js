@@ -6,18 +6,20 @@ S18 -
 
 var tracklistEstimated = [
 // Scorpion King  S-15 -> ?17  // grem
-// ??            "Creed -1st Desire-  D-23 -> 22",
 
 // trashy innocence D-15 -> центральный квад
+                          "1950  D-21 -> 22",
                       "Accident  D-20 -> 19",
                        "Arirang  S-18 -> 19",       // mndd: ОК
-            "Bad Girl Good Girl  D-13 -> 12",       // Marina
+                       "Arirang  D-20 -> 21",       // mndd: OK
+            "Bad Girl Good Girl  D-13 -> 12",  // Marina
                 "Beat the Ghost  S-18 -> 19",       // mndd: ОК
                 "Beat the Ghost  S-20 -> 19",       // mndd: ОК
                            "Bee  S-19 -> 18",       // mndd: OK
                        "Cleaner  D-20 -> 19",       // mndd: OK
                       "Com'Back  D-16 -> 17", // NM // mndd
                          "Crazy  D-19 -> 17", // NM
+                      "Crashday  D-26 -> 24",
                  "Dance With Me  D-15 -> 13",       // Marina
                    "Destination  S-16 -> 17",       // mndd: ОК
                        "Dignity  D-18 -> 19",       // mndd: ОК
@@ -35,19 +37,20 @@ var tracklistEstimated = [
     "Four Seasons of Loneliness  D-21 -> 22",
                "Get Up (and Go)  D-20 -> 18",       // mndd: 19-ка, у меня по миссам обычная 19-ка.
 // да бля, его Эсить пора уже и давно, там делать нефиг, не сложнее оверблоу 18. Сложнее, причем заметно =Р
-         "Hardkore of the North  S-21 -> 22",
+         "Hardkore of the North  S-21 -> 23",
                          "Hello  D-16 -> 18", // NM // mndd: ОК
                          "Hi-Bi  D-18 -> 19", // NM // mndd: ОК
                       "Hypnosis  D-18 -> 19",       // mndd: ОК
                     "Imprinting  S-20 -> 21",
-  "Ignis Fatuus (DM Ashura Mix)  D-17 -> 18",		//mndd: помню, ебрило еще то
+  "Ignis Fatuus (DM Ashura Mix)  D-17 -> 18",       // mndd: ОК
 "Just Hold on (To All Fighters)  S-21 -> 22",       // mndd: ОК
                         "Napalm  D-23 -> 22",       // mndd: ОК
                "Leakage Voltage  S-20 -> 21",
                     "Like a Man  S-18 -> 17",       // mndd: ОК
                   "Loner @ 1449  D-22 -> 20",       // mndd: ОК
                        "Matador  D-21 -> 22",
-                  "Mental Rider  S-12 -> 13", // ben
+                  "Mental Rider  S-12 -> 13",  // ben
+                  "Mental Rider  S-21 -> 22",
    "Mission Possible -Blowback-  D-17 -> 18",       // mndd: ОК
                         "Napalm  S-22 -> 21",       // mndd: ОК
                     "Necromancy  D-24 -> 23",
@@ -57,27 +60,32 @@ var tracklistEstimated = [
                       "Take Out  S-17 -> 18",       // mndd: ОК
                       "Take Out  D-19 -> 20",       // mndd: ОК
                       "Take Out  D-22 -> 23",       // mndd: ОК
+                "The Revolution  D-19 -> 18",
                         "Tepris  D-18 -> 19",       // mndd: ОК
                        "Phantom  S-18 -> 19", // CZ // mndd: ОК
           "Phantom -Intermezzo-  S-21 -> 22",       // mndd: ОК
               "Pumptris Quattro  S-19 -> 20", // CZ // mndd: ОК
+                       "Requiem  D-19 -> 18",
                   "Robot Battle  S-21 -> 22",       // mndd: OK
                   "Robot Battle  D-23 -> 24",       // mndd: OK
                  "Super Fantasy  D-21 -> 22",       // mndd: OK
                 "Violet Perfume  D-19 -> 18",
                           "Vook  D-17 -> 18", // FS // mndd: OK
                           "Vook  D-18 -> 19", // NM // mndd: OK
+                      "Windmill  D-18 -> 17",
                   "Witch Doctor  D-23 -> 22", //aNM // mndd: ОК
                         "X-Tree  D-18 -> 19",       // mndd: OK
-                   "Yog-Sothoth  S-23 -> 22",       // посмотрел, у меня там 21 мисс, халявнее всех 22- //MNDD: Кхе-Кхе, ага, конечно!
-  
+                   "Yog-Sothoth  S-21 -> 20",
+                   "Yog-Sothoth  D-23 -> 24",
+                   "Yog-Sothoth  D-25 -> 26",
+
      "Beat of the War 2  [FULL]  S-19 -> 20",// CZ // mndd: OK
      "Beat of the War 2  [FULL]  D-20 -> 21",// NM // mndd: OK
 ];
 
 var tracklistLeftForEstimation = [
 // нужно мнение майнда
-                       "Arirang  D-20 -> 21", //mndd: OK
+
                        "Blazing  D-19 -> 20", //mndd: Такое… 19.5 макс
             "Digan Lo Que Digan  D-18 -> 17",
               "Caprice of Otada  D-21 -> 23",  //aNM //его вроде нет на Фиесте ЕХ
@@ -90,7 +98,6 @@ var tracklistLeftForEstimation = [
                        "Phantom  D-20 -> 18",//aNM
                  "What Happened  D-20 -> 18", //OK
 
-                   "Yog-Sothoth  S-21 -> 20",  // не сложнее чем X-tree 20 и вообще любая 20, проще любой 21
 
 //-----------------------------------------
                      "By Chance  D-16 -> 15",
@@ -148,7 +155,7 @@ var tracklistLeftForEstimation = [
             "Hard Core Rock Mix  S-21 -> 20",
                 "Vacuum Cleaner  S-20 -> 21", //ОК, я бы сказал 20.5
 
-              "Crashday  [FULL]  S-22 -> 21",  //CZ //ОК, хотя он долгий и нудный...
+              "Crashday  [FULL]  S-22 -> 21",  //CZ // mndd: ОК, хотя он долгий и нудный...
 
 ];
 
@@ -201,6 +208,10 @@ Chicken Wing D-17 (18) - Какой-то напряжный для 17-ки
 Msgoon.rmx.pt.6 D-19 (20) - вообще срака
 
 */
+
+
+//===================================================================================================================================================
+
 
 function ApplyPatch( tracklist, estimations )
 {
