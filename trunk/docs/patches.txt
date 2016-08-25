@@ -2281,3 +2281,56 @@ Quest “Chapter19” is updated.
 
 - It is changed that you cannot play the step if you didn't unlock it from Event mode.
 - RANDOM FOR WPF 2016 channel is deleted.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Prime 1.20
+https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1200-update-information/1395918663769718
+(prime_19.bin)
+
+
+1.	New Songs
+
+1)	Song :  Across the ocean         
+        Artist :  Zircon        
+        BPM :  130 
+        Default step chart :  S03, S06, S09, S15, D11, D16 
+
+2)	Song :  Mitotsudaira        
+        Artist :  ETIA. 
+        BPM : 136         
+        Default step chart :  S01, S04, S09, S15, S18, D10, D16, D19
+
+
+
+
+2. Quest zone
+
+Quest “Chapter20” is updated.
+
+1)	Song :  Baroque Virus          
+        Step chart :  S05, S09, S17, S19 
+
+2)	Song :  Papa Gonzales 
+        Step chart :  S06, S08, S14, S20 
+
+3)	Song :  Heel And Toe        
+        Step chart :  S09, S17, D11, D20 
+
+4)	Song : Y2Z       
+        Step chart :  S09, S16, D17, D21
+
+5)	Song :  Final Audition Episode 2-2          
+        Step chart :  D18, D23, D24, D27
+
+
+3. Unlocked Step Charts
+
+1)	Song :  Amphitryon         
+        Step chart : S18, D20  - released!
+
+
+
+
+4. Minor bugs fixed
