@@ -293,13 +293,14 @@ On( "Prime" )
 	Lock( "Achluoias  D26", PIUGAME );
 	Lock( "Stardust Overdrive  D24", PIUGAME );
 // 1.17
-	Lock( "Amphitryon  S18, D20", PIUGAME );
+	Lock( "Amphitryon  S18, D20", PIUGAME, "..@1.20" );
 // 1.18
 	Lock( "Sora no Shirabe  S18, D20", PIUGAME );
 	Lock( "Paradoxx  S23, S26", PIUGAME );
 // 1.19
 	Lock( "Smile Diary  S19, D20", PIUGAME );
 	Lock( "Paradoxx  D28", PIUGAME );
+// 1.20 - nothing
 
 
 //delete tempUnlockPatchIndex;

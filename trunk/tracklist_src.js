@@ -451,7 +451,11 @@ var tracklist = {
 	Prime: "S2 S4 S6 S16 D7 D16",
 },
 
-// "1470":
+"1470":
+{
+	title: "Across the ocean", artist: "Zircon", channel: WORLD, bpm: "130",
+	Prime: "@1.20 S3 S6 S9 S15 D11 D16",
+},
 
 "1471":
 {
@@ -496,7 +500,12 @@ var tracklist = {
 },
 
 // "1478": "Sudden Romance (PIU Edit)"  JE only
-// "1479": "Mitotsudaira"  JE only
+
+"1479":
+{
+	title: "Mitotsudaira", artist: "ETIA.", channel: JMUSIC, bpm: "136",
+	Prime: "@1.20 S1 S4 S9 S15 S18 D10 D16 D19",
+},
 
 "1480":
 {
