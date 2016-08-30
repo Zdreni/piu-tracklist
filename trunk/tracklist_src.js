@@ -12,6 +12,9 @@ var knownArtists = {
 	"Crying Nut": KPOP,
 	"2NE1": KPOP,
 	"Kara": KPOP,
+	"Seo Taiji": KPOP, 
+	"Taiji Boys": KPOP,
+	"Epik High": KPOP, 
 
 	"PXNDX": WORLD,
 };
@@ -62,7 +65,7 @@ var tracklist = {
 
 "1402":
 {
-	title: "Katkoi", artist: "M2U", bpm: "180",
+	title: "Katkoi", artist: "M2U", channel: ORIGINAL, bpm: "180",
 	Prime: "@1.07 S7 S10 S14 S18 D12 D15 D19",
 },
 
@@ -123,7 +126,7 @@ var tracklist = {
 
 "1412":
 {
-	title: "B2", artist: "MAX", bpm: "158",
+	title: "B2", artist: "MAX", channel: ORIGINAL, bpm: "158",
 	Prime: "@1.07 S4 S7 S11 S16 S18 D13 D19",
 },
 
@@ -195,13 +198,13 @@ var tracklist = {
 
 "1424":
 {
-	title: "1950", artist: "Slam", bpm: "200",
+	title: "1950", artist: "Slam", channel: ORIGINAL, bpm: "200",
 	Prime: "@1.07 S23 D25  S25 D27  @1.12 S20  @1.19 S16.ucs S17.ucs D21.ucs",
 },
 
 "1425":
 {
-	title: "Sugar Conspiracy Theory", artist: "MAX", bpm: "170",
+	title: "Sugar Conspiracy Theory", artist: "MAX", channel: ORIGINAL, bpm: "170",
 	Prime: "@1.06 S1 S3 S6 S10 S15 S18 S19 D7 D11 D17 D20",
 },
 
@@ -295,13 +298,13 @@ var tracklist = {
 
 "1442":
 {
-	title: "Pandora", artist: "Kara", channel: KPOP, bpm: "140",
+	title: "Pandora", artist: "Kara", bpm: "140",
 	Prime: "S2 S4 S7 S16 D6 D16",
 },
 
 "1443":
 {
-	title: "Venus", artist: "Shinwa", bpm: "126",
+	title: "Venus", artist: "Shinwa", channel: KPOP, bpm: "126",
 	Prime: "@1.05 S2 S3 S5 S14 D6 D14  @1.11 Dp3",
 },
 
@@ -355,13 +358,13 @@ var tracklist = {
 
 "1452":
 {
-	title: "One", artist: "Epik High", channel: KPOP, bpm: "135",
+	title: "One", artist: "Epik High", bpm: "135",
 	Prime: "S1 S3 S5 S15 D5 D16",
 },
 
 "1453":
 {
-	title: "The Revolution", artist: "Max & Doom", bpm: "160",
+	title: "The Revolution", artist: "Max & Doom", channel: WORLD, bpm: "160",
 	Prime: "@1.09 S7 S11 S17 S19 D12 D19  @1.11 S21.ucs D22.ucs D23.ucs D24.ucs",
 },
 
@@ -382,7 +385,7 @@ var tracklist = {
 
 "1458":
 {
-	title: "Dolly Kiss", artist: "SID-Sound", bpm: "149",
+	title: "Dolly Kiss", artist: "SID-Sound", channel: WORLD, bpm: "149",
 	Prime: "@1.07 S3 S6 S14 D6 D15  @1.19 S17",
 },
 
@@ -465,7 +468,7 @@ var tracklist = {
 
 "1472":
 {
-	title: "Stardust Overdrive", artist: "typeMARS", bpm: "175",
+	title: "Stardust Overdrive", artist: "typeMARS", channel: WORLD, bpm: "175",
 	Prime: "@1.09 S4 S9 S16 S18 D5 D13 D16 D19  @1.16 D24",
 },
 
@@ -888,7 +891,7 @@ var tracklist = {
 
 "1324":
 {
-	title: "Hands Up (East 4A Mix)", artist: "2PM", bpm: "130",
+	title: "Hands Up (East 4A Mix)", artist: "2PM", channel: KPOP, bpm: "130",
 	Fiesta2: "S3 S5 S8 S15 D5 D15 Sp3 Dp4",
 },
 
@@ -1334,35 +1337,35 @@ var tracklist = {
 
 "1108":
 {
-	title: "Magic", artist: "Secret", bpm: "107",
+	title: "Magic", artist: "Secret", channel: KPOP, bpm: "107",
 	Fiesta2: "=",
 	FiestaEX: "S1 S4 S8 S13 D3 D14 Sp3 Dp4",
 },
 
 "1109":
 {
-	title: "Hot Issue", artist: "4Minute", bpm: "128",
+	title: "Hot Issue", artist: "4Minute", channel: KPOP, bpm: "128",
 	Fiesta2: "= @1.50 D26",
 	FiestaEX: "S3 S7 S10 D5 D13 Sp4 Dp5  @1.30 S16 D15",
 },
 
 "1110":
 {
-	title: "Magic Girl", artist: "Orange Caramel", bpm: "136",
+	title: "Magic Girl", artist: "Orange Caramel", channel: KPOP, bpm: "136",
 	Fiesta2: "=",
 	FiestaEX: "S4 S7 S11 D5 D13 D21 Sp3 Dp4  @1.10 S15  @1.30 D16",
 },
 
 "1111":
 {
-	title: "Ring Ding Dong", artist: "SHINee", bpm: "125",
+	title: "Ring Ding Dong", artist: "SHINee", channel: KPOP, bpm: "125",
 	Fiesta2: "=",
 	FiestaEX: "S3 S5 S8 S15 D5 D17 Sp3 Dp4",
 },
 
 "1112":
 {
-	title: "Shock", artist: "BEAST", bpm: "135",
+	title: "Shock", artist: "BEAST", channel: KPOP, bpm: "135",
 	Fiesta2: "=",
 	FiestaEX: "S3 S5 S14 D4 D15 Dp5  @1.10 S16  @1.51 S8",
 },
@@ -1384,14 +1387,14 @@ var tracklist = {
 
 "1115":
 {
-	title: "Energy", artist: "Mighty Mouth", bpm: "155",
+	title: "Energy", artist: "Mighty Mouth", channel: KPOP, bpm: "155",
 	Fiesta2: "=",
 	FiestaEX: "S4 S8 S13 S15 D9 D14 Sp4 Dp5",
 },
 
 "1116":
 {
-	title: "Mother", artist: "1TYM", bpm: "96",
+	title: "Mother", artist: "1TYM", channel: KPOP, bpm: "96",
 	Fiesta2: "=",
 	FiestaEX: "S1 S4 S7 S13 D5 D14 Sp2 Dp3",
 },
@@ -1532,28 +1535,28 @@ var tracklist = {
 
 "1136":
 {
-	title: "Magic Girl  [FULL]", artist: "Orange Caramel", bpm: "136",
+	title: "Magic Girl  [FULL]", artist: "Orange Caramel", channel: KPOP, bpm: "136",
 	Fiesta2: "=",
 	FiestaEX: "S12",
 },
 
 "1137":
 {
-	title: "Ring Ding Dong  [FULL]", artist: "SHINee", bpm: "125",
+	title: "Ring Ding Dong  [FULL]", artist: "SHINee", channel: KPOP, bpm: "125",
 	Fiesta2: "=",
 	FiestaEX: "@1.30 S16 D17",
 },
 
 "1138":
 {
-	title: "Shock  [FULL]", artist: "BEAST", bpm: "135",
+	title: "Shock  [FULL]", artist: "BEAST", channel: KPOP, bpm: "135",
 	Fiesta2: "=",
 	FiestaEX: "S17 D15",
 },
 
 "1139":
 {
-	title: "Energy  [FULL]", artist: "Mighty Mouth", bpm: "155",
+	title: "Energy  [FULL]", artist: "Mighty Mouth", channel: KPOP, bpm: "155",
 	Fiesta2: "=",
 	FiestaEX: "S15",
 },
@@ -1584,7 +1587,7 @@ var tracklist = {
 
 "1143":
 {
-	title: "Hot Issue  [FULL]", artist: "4Minute", bpm: "128",
+	title: "Hot Issue  [FULL]", artist: "4Minute", channel: KPOP, bpm: "128",
 	Fiesta2: "=",
 	FiestaEX: "@1.30 S9 S14 D16",
 },
@@ -1692,7 +1695,7 @@ var tracklist = {
 
 "1003":
 {
-	title: "Betrayer -Act. 2-", artist: "msgoon", bpm: "92",
+	title: "Betrayer -Act. 2-", artist: "msgoon", channel: ORIGINAL, bpm: "92",
 	Fiesta2: "=",
 	FiestaEX: "= @1.51 D15",
 	Fiesta: "S4 S6 S10 Sp3 Dp3",
@@ -1700,7 +1703,7 @@ var tracklist = {
 
 "1004":
 {
-	title: "Good Life", artist: "Drunken Tiger", bpm: "98.2",
+	title: "Good Life", artist: "Drunken Tiger", channel: KPOP, bpm: "98.2",
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S2 S4 S15 D5 D16 Sp2 Dp3",
@@ -1708,7 +1711,7 @@ var tracklist = {
 
 "1005":
 {
-	title: "Big Beat", artist: "NOW", bpm: "104",
+	title: "Big Beat", artist: "NOW", channel: KPOP, bpm: "104",
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S5 S13 S15  D6 D14  Sp3 Dp5",
@@ -1716,7 +1719,7 @@ var tracklist = {
 
 "1006":
 {
-	title: "Exciting", artist: "Dynamic Duo", bpm: "104",
+	title: "Exciting", artist: "Dynamic Duo", channel: KPOP, bpm: "104",
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S2 S3 S14 D14 Sp5",
@@ -1724,7 +1727,7 @@ var tracklist = {
 
 "1007":
 {
-	title: "By Chance", artist: "Baby V.O.X.", bpm: "127",
+	title: "By Chance", artist: "Baby V.O.X.", channel: KPOP, bpm: "127",
 	Fiesta2: "=",
 	FiestaEX: "= @1.51 S5",
 	Fiesta: "S2 S4 S15 D6 D16 Sp2 Dp4",
@@ -1749,7 +1752,7 @@ var tracklist = {
 
 "1010":
 {
-	title: "The Angel Who Lost Wings", artist: "Roo'ra", bpm: "135",
+	title: "The Angel Who Lost Wings", artist: "Roo'ra", channel: KPOP, bpm: "135",
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S1 S4 S6 S13 D6 D16 Sp2 Dp3",
@@ -1757,7 +1760,7 @@ var tracklist = {
 
 "1011":
 {
-	title: "Innocent", artist: "Koyote", bpm: "137",
+	title: "Innocent", artist: "Koyote", channel: KPOP, bpm: "137",
 	Fiesta2: "=",
 	FiestaEX: "= S14",  // pumbi unlock
 	Fiesta: "S3 S5 S11 D6 D15",
@@ -1765,7 +1768,7 @@ var tracklist = {
 
 "1012":
 {
-	title: "Enjoy! Enjoy!", artist: "Mudagang", bpm: "138",
+	title: "Enjoy! Enjoy!", artist: "Mudagang", channel: KPOP, bpm: "138",
 	Fiesta2: "=",
 	FiestaEX: "= -S4",
 	Fiesta: "S3 S4 S6 S11 S14 D7 D14 Sp4 Dp5",
@@ -1799,7 +1802,7 @@ var tracklist = {
 
 "1016":
 {
-	title: "Wanna", artist: "Kara", channel: KPOP, bpm: "161",
+	title: "Wanna", artist: "Kara", bpm: "161",
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S2 S4 S9 S16 D3 D12 Sp2 Dp5  @1.05 D17",
@@ -1825,7 +1828,7 @@ var tracklist = {
 
 "1019":
 {
-	title: "No Rhyme No Reason", artist: "LTJ X-Perience", bpm: "110",
+	title: "No Rhyme No Reason", artist: "LTJ X-Perience", channel: WORLD, bpm: "110",
 	Fiesta2: "=",
 	FiestaEX: "= @1.51 S8",
 	Fiesta: "S2 S5 S15 Sp2  @1.05 D20",
@@ -1833,7 +1836,7 @@ var tracklist = {
 
 "1020":
 {
-	title: "80's Pop", artist: "Energy Presents", bpm: "128",
+	title: "80's Pop", artist: "Energy Presents", channel: WORLD, bpm: "128",
 	Fiesta2: "=",
 	FiestaEX: "= @1.51 S8",
 	Fiesta: "S2 S5 S12 D6 D17 Sp3 Dp4  @1.05 S16",
@@ -2359,7 +2362,7 @@ var tracklist = {
 
 "F11":
 {
-	title: "Uprock", artist: "Sam-I-Am", channel: "", bpm: "120",
+	title: "Uprock", artist: "Sam-I-Am", channel: WORLD, bpm: "120",
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "Sp2.nl S5.hd S17.cz Dp4.fs D14.nm",
@@ -2425,7 +2428,7 @@ var tracklist = {
 
 "F18":
 {
-	title: "Come On!", artist: "Lee Jeong Hyun", bpm: "141",
+	title: "Come On!", artist: "Lee Jeong Hyun", channel: WORLD, bpm: "141",
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S2.nl S5.hd S12.cz Dp4.fs D9.nm  S4",
@@ -2434,7 +2437,7 @@ var tracklist = {
 
 "F19":
 {
-	title: "Bad Character", artist: "Jang Na Ra", bpm: "100",
+	title: "Bad Character", artist: "Jang Na Ra", channel: WORLD, bpm: "100",
 	Fiesta2: "=",
 	FiestaEX: "= -S5",
 	Fiesta: "Sp1.nl S5.hd S10.cz  Dp3.fs D11.nm  S3.new S6.new",
@@ -2800,7 +2803,7 @@ var tracklist = {
 
 "F64":
 {
-	title: "Enter the Dragon  [FULL]", artist: "JTL", bpm: "110",
+	title: "Enter the Dragon  [FULL]", artist: "JTL", channel: KPOP, bpm: "110",
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S17.cz Dp3.fs D18.nm",
@@ -2946,7 +2949,7 @@ var tracklist = {
 
 "E14":
 {
-	title: "It's My Business", artist: "Taiji Boys", channel: KPOP, bpm: "200",
+	title: "It's My Business", artist: "Taiji Boys", bpm: "200",
 	NXA: ["3", "11", "20", "13", "21"], NXA_: ["", "", "14", "", "17"],
 	NX2: ["3", "10", "20", "13", "21"], NX2_: ["", "", "10", "", "14"],
 },
@@ -2999,14 +3002,14 @@ var tracklist = {
 
 "E21":
 {
-	title: "Come Back Home", artist: "Taiji Boys", channel: KPOP, bpm: "93",
+	title: "Come Back Home", artist: "Taiji Boys", bpm: "93",
 	NXA: ["1", "4", "", "4", ""],
 	NX2: ["1", "4", "", "4", ""],
 },
 
 "E22":
 {
-	title: "Feel the Soul", artist: "Seo Taiji", channel: KPOP, bpm: "93.54",
+	title: "Feel the Soul", artist: "Seo Taiji", bpm: "93.54",
 	NXA: ["2", "7", "17", "4", "18"],
 	NX2: ["3", "9", "18", "4", "20"],
 },
@@ -3206,7 +3209,7 @@ var tracklist = {
 
 "E74":
 {
-	title: "V.I.P  [FULL]", artist: "Bada", bpm: "112",
+	title: "V.I.P  [FULL]", artist: "Bada", channel: KPOP, bpm: "112",
 	NXA_: ["1", "4", "", "4", ""],
 	NX2_: ["2", "6", "", "6", ""],
 },
@@ -3222,7 +3225,7 @@ var tracklist = {
 
 "E77":
 {
-	title: "Tell Me  [FULL]", artist: "Wonder Girls", bpm: "127",
+	title: "Tell Me  [FULL]", artist: "Wonder Girls", channel: KPOP, bpm: "127",
 	NXA_: ["", "2", "", "3", ""],
 	NX2_: ["", "5", "", "5", ""],
 },
@@ -3333,7 +3336,7 @@ var tracklist = {
 
 "D05":
 {
-	title: "Fly", artist: "Epik High", channel: KPOP, bpm: "128",
+	title: "Fly", artist: "Epik High", bpm: "128",
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "Sp3.nl S14.cz Dp4.fs D16.nm  S1.new S3.new S6.new",
@@ -3559,7 +3562,7 @@ var tracklist = {
 
 "D31":
 {
-	title: "K-Pop Dance Remix", artist: "DJ DOC/Epik High", bpm: "132", duration: FULL,
+	title: "K-Pop Dance Remix", artist: "DJ DOC/Epik High", channel: KPOP, bpm: "132", duration: REMIX,
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S8.hd S14.cz D9.fs D16.nm",
@@ -3625,7 +3628,7 @@ var tracklist = {
 
 "D38":
 {
-	title: "U Inside My Dim Memory  [FULL]", artist: "Hyun Jin Young vs. Yahpp", bpm: "118",
+	title: "U Inside My Dim Memory  [FULL]", artist: "Hyun Jin Young vs. Yahpp", channel: KPOP, bpm: "118",
 	NX2_: ["", "9", "15", "10", "19"],
 	NX_: ["", "8", "14", "9", "15/16"],
 },
@@ -3639,7 +3642,7 @@ var tracklist = {
 
 "D40":
 {
-	title: "Lovely  [FULL]", artist: "Kim Jong Kook", bpm: "188",
+	title: "Lovely  [FULL]", artist: "Kim Jong Kook", channel: KPOP, bpm: "188",
 	NX2_: ["", "6", "", "7", ""],
 	NX_: ["", "5", "(@)", "6", "(@)"],
 },
@@ -5982,13 +5985,14 @@ function PreprocessTracklist()
 		if( ! track.channel )
 			track.channel = knownArtists[ track.artist ];
 		else if( knownArtists[ track.artist ] === track.channel )
-			console.log("Warning: " + track.title + " artist channel is globally defined" );
+			console.log("Warning: " + track.title + " artist channel is globally defined." );
 
 		if( ! track.bpm )
 			console.log("Warning: " + track.title + " has no bpm specified." );
 
-		if( track.channel )
-			console.assert( [ORIGINAL, WORLD, KPOP, JMUSIC].indexOf( track.channel ) >= 0 );
+		//if( track.channel )
+		if( track.duration !== REMIX  &&  [ORIGINAL, WORLD, KPOP, JMUSIC].indexOf( track.channel ) < 0 )
+			console.log("Warning: " + track.title + " has no channel specified.")
 
 		track.chartsCount = 0;
 
