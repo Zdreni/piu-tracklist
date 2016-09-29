@@ -164,20 +164,20 @@ On( "FiestaEX", "..@1.50" )
 	Lock( "Take Out  D22", PUMBI + " (48.000PP)" );
 	Lock( "To the Sky  S15", PUMBI + " (30.000PP)" );
 	Lock( "We Got 2 Know  S20", PUMBI + " (40.000PP)" );
-
+*/
 
 On( "Fiesta2", "..@1.60" )
-	Lock( "Ladybug  Dp??", "Pumbi, 50 missions, ssmax" );
-	Lock( "Virtual Emotion  Dp??", "Pumbi, 100 missions, v.kim" );
-	Lock( "Heel and Toe  Dp??", "Pumbi, 150 missions, cashew" );
-	Lock( "Be Alive  Dp??", "Pumbi, 200 missions, mercenary" );
-	Lock( "Tribe Attacker  Dp??", "Pumbi, 250 missions, Pitii" );
+	Lock( "Ladybug  Dp??(x2)", "Pumbi, 50 missions, ssmax" );
+	Lock( "Virtual Emotion  Dp??(x2)", "Pumbi, 100 missions, v.kim" );
+	Lock( "Heel and Toe  Dp??(x2)", "Pumbi, 150 missions, cashew" );
+	Lock( "Be Alive (Raaban Inc. Mix)  Dp??(x2)", "Pumbi, 200 missions, mercenary" );
+	Lock( "Tribe Attacker  Dp??(x4)", "Pumbi, 250 missions, Pitii" );
 
 	Lock( "Rippin' It Up  D4", "Pumbi, level 2" );
 	Lock( "Heel and Toe  D11", "Pumbi, level 3" );
 	Lock( "Rainspark  D5", "Pumbi, level 4" );
 	Lock( "Monolith  D13", "Pumbi, level 5" );
-	Lock( "Be Alive  D10", "Pumbi, level 6" );
+	Lock( "Be Alive (Raaban Inc. Mix)  D10", "Pumbi, level 6" );
 	Lock( "Star Command  D14", "Pumbi, level 7" );
 	Lock( "Switchback  D10", "Pumbi, level 8" );
 	Lock( "Ladybug  S13", "Pumbi, level 9" );
@@ -200,7 +200,7 @@ On( "Fiesta2", "..@1.60" )
 	Lock( "Switchback  S18", "Pumbi, level 85" );
 	Lock( "Rippin' It Up  D18", "Pumbi, level 90" );
 	Lock( "Star Command  D21", "Pumbi, level 94" );
-	Lock( "Ignis Fatuus  D24", "Pumbi, level 98, from music train" );
+	Lock( "Ignis Fatuus (DM Ashura Mix)  D24", "Pumbi, level 98, from music train" );
 
 	//Lock( "Music Train Slot +1 unlock", "Pumbi, level 11" );
 	//Lock( "Music Train Slot +1 unlock", "Pumbi, level 16" );
@@ -209,12 +209,12 @@ On( "Fiesta2", "..@1.60" )
 	//Lock( "Random Skin unlock", "Pumbi, level 46" );
 	//Lock( "Music Tempo x1.3 unlock", "Pumbi, level 61" );
 	//Lock( "Music Tempo x0.9 unlock", "Pumbi, level 99" );
-*/
+
 	
 var PIUGAME = "piugame unlock";
 
 
-On( "Prime" )
+On( "Prime", "..@1.21" )
 // 1.03
 	Lock( "Achluoias  S24", PIUGAME, "..@1.06" );
 	Lock( "Milky Way Galaxy  S17, D18", PIUGAME, "..@1.06" );
@@ -301,6 +301,7 @@ On( "Prime" )
 	Lock( "Smile Diary  S19, D20", PIUGAME );
 	Lock( "Paradoxx  D28", PIUGAME );
 // 1.20 - nothing
+// 1.21 - everything
 
 
 //delete tempUnlockPatchIndex;

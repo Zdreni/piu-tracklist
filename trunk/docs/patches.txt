@@ -2334,3 +2334,68 @@ Quest “Chapter20” is updated.
 
 
 4. Minor bugs fixed
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Prime 1.21
+
+1. New Songs 
+
+1) Song : You again my love 
+Artist : CYO Style & Henohenomoheji 
+BPM : 137 
+Default step chart : S01, S03, S06, S14, D06, D14 
+
+2) Song : Like Me 
+Artist : SHK 
+BPM : 155 
+Default step chart : S06, S10, S14, S17, D11, D18, CO-OP02 
+
+
+2. New step charts 
+
+1) Song : Bad Apple!! feat. Nomico 
+Artist : Masayoshi Minoshima 
+BPM : 138 
+Step chart : S15 
+
+1) Song : Red Snow 
+Artist : Cashew 
+BPM : 170 
+Step chart : S07 
+
+
+3. Unlocked Step Charts 
+- All locked step charts are released! 
+
+
+4. New UCS songs are added! 
+- Katkoi 
+- Elysium 
+- Yog Sothoth 
+- silhouette Effect 
+- Avalanche 
+- Force of Ra 
+- Requiem 
+- B2 
+- Meteorize 
+- Mad5cience 
+- Amphitryon 
+- Removable Disk0 
+- Violet Perfume 
+- Hyacinth 
+- Blaze Emotion(Band version) 
+- Sugar conspiracy Theory 
+- Allegro Più Mosso 
+- Annihilator Method 
+- Move That Body! 
+- Scorpion King 
+- Point Zero One 
+- Red Snow 
+- Campanella 
+- Reminiscence 
+- Moment Day 
+- HYPERCUBE 
+- Enhance Reality 
+- Break It Down 

@@ -45,12 +45,23 @@ var tracklist = {
 
 // unsorted
 /*
-"14xx":
+"15xx":
 {
 	title: "", artist: "", channel: , bpm: "",
 	Prime: "@1.",
 },
 
+"14xx":
+{
+	title: "You again my love", artist: "CYO Style & Henohenomoheji", channel: ORIGINAL, bpm: "137",
+	Prime: "@1.21 S1 S3 S6 S14 D6 D14",
+},
+
+"14xx":
+{
+	title: "Like Me", artist: "SHK", channel: ORIGINAL, bpm: "155",
+	Prime: "@1.21 S6 S10 S14 S17 D11 D18 Dp??(x2)",
+},
 
 */
 
@@ -249,7 +260,7 @@ var tracklist = {
 "1433":
 {
 	title: "Red Snow", artist: "Cashew", channel: ORIGINAL, bpm: "170",
-	Prime: "@1.15 S11 S16 D12  S19 D20",
+	Prime: "@1.15 S11 S16 D12  S19 D20  @1.21 S7",
 },
 
 "1434":
@@ -519,7 +530,7 @@ var tracklist = {
 "1481":
 {
 	title: "Bad Apple!! feat. Nomico", artist: "Masayoshi Minoshima", channel: JMUSIC, bpm: "138",
-	Prime: "@1.09 S1 S5 S9 S13 D10  S17 S19 D18 D21  @1.17 S3",
+	Prime: "@1.09 S1 S5 S9 S13 D10  S17 S19 D18 D21  @1.17 S3  @1.21 S15",
 },
 
 "1482":
