@@ -8,20 +8,31 @@ var tracklistEstimated = [
 // Scorpion King  S-15 -> ?17  // grem
 
 // trashy innocence D-15 -> центральный квад
+// Venus  D-14 - мигания стрелок, смена чарта из-под ног
+// ? Destination D-13 -> 14
+// Dignity  D-13 -> 15
+// Csikos Post D-21 -> 22
+
                           "1950  D-21 -> 22",
                       "Accident  D-20 -> 19",
+            "Annihilator Method  D-12 -> 13",
+                       "Arirang  D-10 -> 13",
                        "Arirang  S-18 -> 19",       // mndd: ОК
                        "Arirang  D-20 -> 21",       // mndd: OK
             "Bad Girl Good Girl  D-13 -> 12",  // Marina
                 "Beat the Ghost  S-18 -> 19",       // mndd: ОК
                 "Beat the Ghost  S-20 -> 19",       // mndd: ОК
                            "Bee  S-19 -> 18",       // mndd: OK
+                    "Cannon X.1  D-13 -> 14",
+                       "Chimera  S-23 -> 24",
                        "Cleaner  D-20 -> 19",       // mndd: OK
                       "Com'Back  D-16 -> 17", // NM // mndd
                          "Crazy  D-19 -> 17", // NM
+                      "Crashday  S-23 -> 22",
                       "Crashday  D-26 -> 24",
                  "Dance With Me  D-15 -> 13",       // Marina
                    "Destination  S-16 -> 17",       // mndd: ОК
+                   "Destination  S-18 -> 19",
                        "Dignity  D-18 -> 19",       // mndd: ОК
                   "Extravaganza  S-16 -> 17", //aHD // mndd: ОК
                   "Extravaganza  D-17 -> 18", // NM // mndd: ОК
@@ -39,6 +50,7 @@ var tracklistEstimated = [
 // да бля, его Эсить пора уже и давно, там делать нефиг, не сложнее оверблоу 18. Сложнее, причем заметно =Р
          "Hardkore of the North  S-21 -> 23",
                          "Hello  D-16 -> 18", // NM // mndd: ОК
+                        "Hestia  S-18 -> 19",
                          "Hi-Bi  D-18 -> 19", // NM // mndd: ОК
                       "Hypnosis  D-18 -> 19",       // mndd: ОК
                     "Imprinting  S-20 -> 21",
@@ -50,29 +62,43 @@ var tracklistEstimated = [
                   "Loner @ 1449  D-22 -> 20",       // mndd: ОК
                        "Matador  D-21 -> 22",
                   "Mental Rider  S-12 -> 13",  // ben
+                  "Mental Rider  D-13 -> 15",
                   "Mental Rider  S-21 -> 22",
+                  "Mental Rider  D-23 -> 24",
    "Mission Possible -Blowback-  D-17 -> 18",       // mndd: ОК
+                        "Napalm  S-19 -> 18",
                         "Napalm  S-22 -> 21",       // mndd: ОК
+                    "Necromancy  D-13 -> 14",
                     "Necromancy  D-24 -> 23",
+                        "NoNoNo  D-14 -> 12",
                       "Overblow  D-20 -> 19",       // mndd: ОК
+                       "Phantom  S-18 -> 19", // CZ // mndd: ОК
                        "Phantom  D-19 -> 20", // NM // mndd: OK
+          "Phantom -Intermezzo-  S-19 -> 20",
+          "Phantom -Intermezzo-  S-21 -> 22",       // mndd: ОК
+          "Phantom -Intermezzo-  D-15 -> 16",
+          "Phantom -Intermezzo-  D-20 -> 21",
+              "Pumptris Quattro  S-19 -> 20", // CZ // mndd: ОК
+                       "Requiem  D-19 -> 18",
+                  "Robot Battle  S-21 -> 22",       // mndd: OK
+                  "Robot Battle  D-23 -> 24",       // mndd: OK
+                 "Super Fantasy  D-21 -> 22",       // mndd: OK
+                  "Setsuna Trip  D-14 -> 13",
                "Sorceress Elise  S-21 -> 22",       // mndd: ОК
                       "Take Out  S-17 -> 18",       // mndd: ОК
                       "Take Out  D-19 -> 20",       // mndd: ОК
                       "Take Out  D-22 -> 23",       // mndd: ОК
                 "The Revolution  D-19 -> 18",
                         "Tepris  D-18 -> 19",       // mndd: ОК
-                       "Phantom  S-18 -> 19", // CZ // mndd: ОК
-          "Phantom -Intermezzo-  S-21 -> 22",       // mndd: ОК
-              "Pumptris Quattro  S-19 -> 20", // CZ // mndd: ОК
-                       "Requiem  D-19 -> 18",
-                  "Robot Battle  S-21 -> 22",       // mndd: OK
-                  "Robot Battle  D-23 -> 24",       // mndd: OK
-                 "Super Fantasy  D-21 -> 22",       // mndd: OK
+                     "The Devil  D-21 -> 20",
+                "The Revolution  D-23 -> 22",
+          "Till the End of Time  D-13 -> 12",
                 "Violet Perfume  D-19 -> 18",
                           "Vook  D-17 -> 18", // FS // mndd: OK
                           "Vook  D-18 -> 19", // NM // mndd: OK
+                           "VVV  D-19 -> 20",
                       "Windmill  D-18 -> 17",
+                        "Winter  D-11 -> 12",
                   "Witch Doctor  D-23 -> 22", //aNM // mndd: ОК
                         "X-Tree  D-18 -> 19",       // mndd: OK
                    "Yog-Sothoth  S-21 -> 20",
@@ -101,7 +127,6 @@ var tracklistLeftForEstimation = [
 
 //-----------------------------------------
                      "By Chance  D-16 -> 15",
-                       "Arirang  D-10 -> 13", //я ниже 16 не бегаю =(
 
 
 
@@ -112,7 +137,7 @@ var tracklistLeftForEstimation = [
             "Bullfighter's Song  S-8 -> 9",
                   "Chicken Wing  S-19 -> 20",
           "Chopsticks Challenge  D-16 -> 15",  //NM
-                   "Destination  S-18 -> 19",
+
                          "Dr. M  D-16 -> 17",  //NM //OK
                          "Elise  S-22 -> 20",
                       "Faster Z  S-8 -> 9",
@@ -121,7 +146,6 @@ var tracklistLeftForEstimation = [
                     "Guitar Man  S-18 -> 20",  //aCZ //19? Дрели конечно сложные, но больше там ничего нет
                       "Gun Rock  S-18 -> 16",  //CZ //Шутка чтоли!? Обычный крейзи? - ну да, проблема в том, что там кроме тех троек в конце НИЧЕГО сложного нет, а у них сложность даже ояебу сколько, но не выставлять же по ней? //Дино у тебя S на нем? На ссаной 16-ке? Сомневаюсь, пусть остается 18-кой, или на худой - 17
                  "Hello William  D-21 -> 20", //ОК
-                        "Hestia  S-18 -> 20",
       "Hypnosis (SynthWulf Mix)  S-8 -> 9",
      "I'll Give You All My Love  D-18 -> 17",  //NM
 
@@ -129,15 +153,9 @@ var tracklistLeftForEstimation = [
                      "My Dreams  S-17 -> 18",  //aCZ
                      "My Dreams  S-18 -> 17",  //CZ
                    "Naissance 2  D-19 -> 20",  //aNM
-                        "Napalm  S-19 -> 18",
-                    "Necromancy  D-13 -> 14",
-          "Phantom -Intermezzo-  S-19 -> 20",
-          "Phantom -Intermezzo-  D-15 -> 16",
-          "Phantom -Intermezzo-  D-20 -> 21", //MNDD - HZ
                      "Pump Jump  D-17 -> 16",
              //"Pump Me Amadeus  S-17 -> 18",//CZ
                "Pumping Jumping  D-17 -> 18",
-              "Pumptris Quattro  D-22 -> 23",//aNM //серьезно? 23? Ты его сам бегаешь на стабильное А, даже на рейте бегал, какое там 23!? - да уж хуже канона сбегаю точно - А что из нормальных 21-22 ты сбегаешь лучше?) Даже ФАЕП1_Д21 ты бегал на 18 миссов(!) Канон - исключение.
                        "Requiem  S-19 -> 20",   // не проще Necromancy S20
                "Sorceress Elise  S-15 -> 16",
 
@@ -180,7 +198,7 @@ Do You Know That ~old school  D-18.nm (19) - 19 ему норм, ты сам е�
 Final Audition 2  D-19.anm (18) - //Бля даже не знаю - у меня там неплохой результат, но я тупо вребаю 5х и рубаю брутом, на поворотах там достаточно тяжко… Оставь в 19, сам при мне бегал
 Final Audition episode 2-2  S-21.acz.nx2 (22) -
 Gargoyle  S-18 -> 19 - //Согласен, это 19
-Get Up!  D-18 (19) - Больше поход все же на 18
+Get Up!  D-18 (19) - Больше похож все же на 18
 Hyun Jin Young Go  CZ-19 (20) ? //Он, конечно, мудаковатый, но 20 - перебор. Он скорее техничный шибко
 Hyun Jin Young Go  NM-20 (21) ?
 Necromancy  S-18 (19) - //ОК, 19
