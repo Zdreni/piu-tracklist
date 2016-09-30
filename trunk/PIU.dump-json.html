@@ -32,6 +32,11 @@ function JStrNoQuotes( obj )
 	return jstr.substring( 3, jstr.length - 2 );
 }
 
+function DictToArr( dict, func )
+{
+	return Object.keys( dict ).map( function ( key ) {  return func( key, dict[ key ] );  } );
+}
+
 // document.write( JSON.stringify( tracklist, null, 2 ) );
 for( var trackID in tracklist )
 {
@@ -140,17 +145,8 @@ for( var trackID in tracklist )
 
 	if( Object.keys( charts ).length > 0 )
 	{
-		result += "\t&nbsp;\"charts\": {<br>";
-		var nextShared = false;
-		for( var chartIndex in charts )
-		{
-			if( nextShared )
-				result += ",<br>";
-			else
-				nextShared = true;
-			result += "&nbsp;&nbsp;" + JStr(chartIndex) + ": " + JStr( charts[ chartIndex ] );
-		}
-		result += "<br>&nbsp;},<br>";
+		var chartsArr = DictToArr( charts, function ( key, val ) {  return "&nbsp;&nbsp;" + JStr( key ) + ": " + JStr( val );  } );
+		result += "\t&nbsp;\"charts\": {<br>" + chartsArr.join( ",<br>" ) + "<br>&nbsp;},<br>";
 	}
 	
 	var nextMix = false;
@@ -165,15 +161,8 @@ for( var trackID in tracklist )
 				nextMix = true;
 			result += "\t&nbsp;" + JStr( mixID ) + ": {<br>";
 
-			var nextChart = false;
-			for( var chartIndex in mixCharts )
-			{
-				if( nextChart )
-					result += ",<br>";
-				else
-					nextChart = true;
-				result += "&nbsp;&nbsp;" + JStr(chartIndex) + ": " + JStr( mixCharts[ chartIndex ] );
-			}
+			var mixChartsArr = DictToArr( mixCharts, function ( key, val ) {  return "&nbsp;&nbsp;" + JStr( key ) + ": " + JStr( val );  } );
+			result += mixChartsArr.join( ",<br>" );
 
 			result += "<br>&nbsp;}";
 		}
