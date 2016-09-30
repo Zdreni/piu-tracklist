@@ -166,6 +166,7 @@ On( "FiestaEX", "..@1.50" )
 	Lock( "We Got 2 Know  S20", PUMBI + " (40.000PP)" );
 */
 
+/*
 On( "Fiesta2", "..@1.60" )
 	Lock( "Ladybug  Dp??(x2)", "Pumbi, 50 missions, ssmax" );
 	Lock( "Virtual Emotion  Dp??(x2)", "Pumbi, 100 missions, v.kim" );
@@ -209,7 +210,7 @@ On( "Fiesta2", "..@1.60" )
 	//Lock( "Random Skin unlock", "Pumbi, level 46" );
 	//Lock( "Music Tempo x1.3 unlock", "Pumbi, level 61" );
 	//Lock( "Music Tempo x0.9 unlock", "Pumbi, level 99" );
-
+*/
 	
 var PIUGAME = "piugame unlock";
 

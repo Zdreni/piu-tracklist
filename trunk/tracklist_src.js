@@ -51,18 +51,6 @@ var tracklist = {
 	Prime: "@1.",
 },
 
-"14xx":
-{
-	title: "You again my love", artist: "CYO Style & Henohenomoheji", channel: ORIGINAL, bpm: "137",
-	Prime: "@1.21 S1 S3 S6 S14 D6 D14",
-},
-
-"14xx":
-{
-	title: "Like Me", artist: "SHK", channel: ORIGINAL, bpm: "155",
-	Prime: "@1.21 S6 S10 S14 S17 D11 D18 Dp??(x2)",
-},
-
 */
 
 
@@ -269,7 +257,11 @@ var tracklist = {
 	Prime: "@1.19 S6 S9 S16 D10 D16",
 },
 
-// "1435":
+"1435":
+{
+	title: "You again my love", artist: "CYO Style & Henohenomoheji", channel: ORIGINAL, bpm: "137",
+	Prime: "@1.21 S1 S3 S6 S14 D6 D14",
+},
 
 "1436":
 {
@@ -620,6 +612,12 @@ var tracklist = {
 {
 	title: "Hypercube", artist: "MAX", channel: JMUSIC, bpm: "145",
 	Prime: "@1.12 S6 S10 S15 S17 D10 D16 D20",
+},
+
+"1499":
+{
+	title: "Like Me", artist: "SHK", channel: ORIGINAL, bpm: "155",
+	Prime: "@1.21 S6 S10 S14 S17 D11 D18 Dp??(x2)",
 },
 
 "14A0":
@@ -2466,7 +2464,7 @@ var tracklist = {
 
 "F21":
 {
-	title: "Breakin' Love", artist: "Yoo Seung Jun", channel: KPOP, bpm: "102",
+	title: "Breakin' Love", artist: "Yoo Seung Jun", channel: WORLD, bpm: "102",
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "Sp2.nl S6.hd S12.cz  Dp4.fs D14.nm",
