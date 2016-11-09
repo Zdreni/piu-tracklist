@@ -41,6 +41,7 @@ function DictToArr( dict, func )
 for( var trackID in tracklist )
 {
 	var track = tracklist[ trackID ];
+
 	for( var mixID of mixesOrder )
 	{
 		delete track.chartsCount;
@@ -102,6 +103,11 @@ for( var trackID in tracklist )
 			track[ mixID ][ chartIndex ] = chart;
 		}
 	}
+
+	if( track.duration == "Standard" )
+		delete track.duration;
+
+	track.title = track.title.replace( "  ", "&nbsp;&nbsp;" );
 }
 
 //document.write( Object.keys( tracklist ).length + " tracks:<br><br>")
@@ -118,10 +124,7 @@ for( var trackID in tracklist )
 	else
 		nextTrack = true;
 
-	
 	var track = tracklist[ trackID ];
-
-	track.title = track.title.replace( "  ", "&nbsp;&nbsp;" );
 
 	var mixesTemp = {};
 	for( var mixID of mixesOrder )
