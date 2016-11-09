@@ -370,7 +370,7 @@ tr.strikeout td:after {
 
 		if( bpmNum != NaN  &&  bpmNum == bpmStr )
 		{
-			var calculatedSpeed = GetCurveValue( speedCurves[ item.chart.type ], ChartRealLevelNum( item.chart ) ) / bpmNum;
+			var calculatedSpeed = GetCurveValue( speedCurves[ item.chart.shared.type ], ChartRealLevelNum( item.chart ) ) / bpmNum;
 			var availSpeed = Math.round( calculatedSpeed * 2 ) / 2;
 
 			if( Math.abs( availSpeed - calculatedSpeed ) > 0.15 )

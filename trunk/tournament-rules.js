@@ -1,28 +1,6 @@
 "use strict";
 
 
-var mixID = "Prime";  // mix we will use to play
-
-var trackAppearedMixesIDs = [ "Fiesta2", "Prime" ];  // mixes, on which allowed _tracks_ were appeared
-function TrackIsAllowedByMix( track )
-{
-	if( typeof trackAppearedMixesIDs != 'object'  ||  trackAppearedMixesIDs.length === 0 )
-		return true;
-
-	return ( trackAppearedMixesIDs.indexOf( GetTrackFirstMix( track ) ) >= 0 );
-
-}
-
-//var chartAppearedMixesIDs = [ "Fiesta2", "Prime" ];  // mixes, on which allowed _charts_ were appeared
-function ChartIsAllowedByMix( chart )
-{
-	if( typeof chartAppearedMixesIDs != 'object'  ||  chartAppearedMixesIDs.length === 0 )
-		return true;
-
-	return ( chartAppearedMixesIDs.indexOf( chart.fromMixID ) >= 0 );
-
-}
-
 function IsNonEmpty( table )
 {
 	return ( typeof table === 'object'  &&  table.length > 0 );
@@ -65,7 +43,7 @@ function GetCharts( request )
 			if( ! IsEmptyOrContains( request.chartAppearedMixesIDs, chart.fromMixID ) )
 				continue;
 
-			if( request.type  &&  chart.type != request.type )
+			if( request.type  &&  chart.shared.type != request.type )
 				continue;
 	
 			var chartIsUnlock = chart.unlockDescr  &&  ! chart.unlockPatchIndex;
@@ -123,8 +101,8 @@ var tournamentRange = {
 	duration: "Standard",
 	showUCS: false,
 	showUnlocks: false,
-	mixID: "Prime",
-	trackAppearedMixesIDs: [ "Fiesta2", "Prime" ],
+	mixID: "FiestaEX",  // mix we will use to play
+	trackAppearedMixesIDs: [ /*"Fiesta2", "Prime"*/ ],  // mixes, on which allowed _tracks_ were appeared
 	excludeTracks: [
 		"Log-In", // offsync
 		"Nobody", // lot of stops

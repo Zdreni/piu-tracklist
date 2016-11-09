@@ -389,10 +389,14 @@ var chartFilter = {
 			var realLevelMatches = true;
 			var levelMatches = true;
 
-			if( chart.shared.type != COUPLE )
+			if( chartFilter.type !== chart.shared.type )
+				return;
+
+			if( chart.shared.type !== COUPLE )
 			{
 				levelMatches = ( chartFilter.levelMin <= chart.levelNum  &&  chart.levelNum <= chartFilter.levelMax );
-				realLevelMatches = ( chartFilter.levelMin <= chart.realLevelNum  &&  chart.realLevelNum <= chartFilter.levelMax );
+				var chartRealLevelNum = ChartRealLevelNum( chart );
+				realLevelMatches = ( chartFilter.levelMin <= chartRealLevelNum  &&  chartRealLevelNum <= chartFilter.levelMax );
 				if( ! realLevelMatches  &&  ! levelMatches )
 					return;
 			}
@@ -426,8 +430,7 @@ var chartFilter = {
 			return;
 
 		for( var chart of charts )
-			if( chartFilter.type === chart.type )
-				CheckAddChart( chart );
+			CheckAddChart( chart );
 	},
 
 
