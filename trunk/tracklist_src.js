@@ -425,7 +425,7 @@ var tracklist = {
 "1464":
 {
 	title: "Karyawisata", artist: "Vesuvia x REDSHiFT", channel: WORLD, bpm: "173",
-	Prime: "S4 S7 S10 S17 S20 D7 D16  @1.14 S15.ucs D16.ucs",
+	Prime: "S4 S7 S10 S17 S20 D7 D16  @1.14 S15.ucs D19.ucs",
 },
 
 "1465":
@@ -522,6 +522,7 @@ var tracklist = {
 "1481":
 {
 	title: "Bad Apple!! feat. Nomico", artist: "Masayoshi Minoshima", channel: JMUSIC, bpm: "138",
+	shortTitle: "Bad Apple", 
 	Prime: "@1.09 S1 S5 S9 S13 D10  S17 S19 D18 D21  @1.17 S3  @1.21 S15",
 },
 
@@ -595,7 +596,8 @@ var tracklist = {
 
 "1494":
 {
-	title: "Just Hold on (To All Fighters)", artist: "Void", channel: WORLD, bpm: "170",
+	title: "Just Hold On (To All Fighters)", artist: "Void", channel: WORLD, bpm: "170",
+	shortTitle: "Just Hold On",
 	Prime: "@1.14 S4 S7 S10 S16 D12 D18  S21 D22 D25",
 },
 
@@ -671,12 +673,14 @@ var tracklist = {
 "14C5":
 {
 	title: "Four Seasons of Loneliness ver B feat. Sariyajin  [FULL]", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "178",
+	shortTitle: "Four Seasons of Loneliness",
 	Prime: "@1.09 S14 S19 D14 D19",
 },
 
 "14C6":
 {
 	title: "Bad Apple!! feat. Nomico  [FULL]", artist: "Masayoshi Minoshima", channel: JMUSIC, bpm: "138",
+	shortTitle: "Bad Apple",
 	Prime: "@1.09 S10 S14 S17 D11 D18 D22 Dp??(x4)",
 },
 
@@ -775,6 +779,7 @@ var tracklist = {
 "1306":
 {
 	title: "Ignis Fatuus (DM Ashura Mix)", artist: "BanYa & DM Ashura", channel: ORIGINAL, bpm: "220",
+	shortTitle: "Ignis Fatuus",
 	Prime: "= -D24 -D26",
 	Fiesta2: "S9 S15 S19 S23 D15 D17 D19 D23 D25 Dp??(x2)  @1.50 D24 D26",
 },
@@ -782,6 +787,7 @@ var tracklist = {
 "1307":
 {
 	title: "Love is a Danger Zone (Cranky Mix)", artist: "BanYa & Cranky", channel: ORIGINAL, bpm: "155",
+	shortTitle: "Love is a Danger Zone  (Cranky)",
 	Prime: "= -S19",
 	Fiesta2: "S6 S12 S20 D8 D16 Dp??(x2)  @1.01 D24  @1.40 S18  @1.50 S19  @1.60 S22 D20",
 },
@@ -831,6 +837,7 @@ var tracklist = {
 "1314":
 {
 	title: "Lucid (PIU Edit)", artist: "Yak Won", channel: ORIGINAL, bpm: "40 ~ 190",
+	shortTitle: "Lucid",
 	Prime: "=  @1.12 S16.ucs",
 	Fiesta2: "S4 S7 S10 S20 D11 D20 Dp??(x2)  @1.60 D23",
 },
@@ -901,6 +908,7 @@ var tracklist = {
 "1324":
 {
 	title: "Hands Up (East 4A Mix)", artist: "2PM", channel: KPOP, bpm: "130",
+	shortTitle: "Hands Up",
 	Fiesta2: "S3 S5 S8 S15 D5 D15 Sp3 Dp4",
 },
 
@@ -1124,6 +1132,7 @@ var tracklist = {
 "13E2":
 {
 	title: "Ignis Fatuus (DM Ashura Mix)  [SHORT]", artist: "DM Ashura", channel: ORIGINAL, bpm: "220",
+	shortTitle: "Ignis Fatuus",
 	Prime: "=",
 	Fiesta2: "S21 D21",
 },
@@ -1267,6 +1276,7 @@ var tracklist = {
 "1237":
 {
 	title: "Be Alive (Raaban Inc. Mix)", artist: "Stian K", channel: WORLD, bpm: "142",
+	shortTitle: "Be Alive",
 	Prime: "=",
 	Fiesta2: "S2 S5 S8  @1.50 D10 Dp??(x2)  @1.60 S15 S17 D16",
 },
@@ -1898,6 +1908,7 @@ var tracklist = {
 "1026":
 {
 	title: "Turkey March -Minimal Tunes-", artist: "BanYa Production", bpm: "130",
+	shortTitle: "Turkey March -Minimal-",
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "= Dp1",
@@ -1985,6 +1996,7 @@ var tracklist = {
 "1036":
 {
 	title: "Pro Pop Mix (new remix)", artist: "BanYa Production", bpm: "151", duration: REMIX,
+	shortTitle: "Pro Pop Mix (new)",
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S17",
@@ -2222,6 +2234,7 @@ var tracklist = {
 "1063":
 {
 	title: "Pumptris (8Bit ver.)  [SHORT]", artist: "Yahpp", bpm: "162",
+	shortTitle: "Pumptris (8Bit)",
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "= D22",
@@ -2239,7 +2252,8 @@ var tracklist = {
 
 "1065":
 {
-	title: "Procedimientos Para Llegar A Un Comun Acuerdo  [SHORT]", artist: "PXNDX", bpm: "160",
+	title: "Procedimientos Para Llegar a un Comun Acuerdo  [SHORT]", artist: "PXNDX", bpm: "160",
+	shortTitle: "Procedimientos Para Llegar\na un Comun Acuerdo",
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -2400,6 +2414,7 @@ var tracklist = {
 "F14":
 {
 	title: "Procedimientos Para Llegar a un Comun Acuerdo", artist: "PXNDX", bpm: "160",
+	shortTitle: "Procedimientos Para Llegar\na un Comun Acuerdo",
 	Prime: "=  @1.19 S18 D19",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -2544,6 +2559,7 @@ var tracklist = {
 "F29":
 {
 	title: "Final Audition episode 2-X", artist: "Yahpp", bpm: "170",
+	shortTitle: "Final Audition ep. 2-X",
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "= @1.20 Dp2  @1.51 S3 S5",
@@ -2563,6 +2579,7 @@ var tracklist = {
 "F31":
 {
 	title: "The People Didn't Know Pumping Up", artist: "BanYa Production", bpm: "134", duration: REMIX,
+	shortTitle: "The People Didn't Know\nPumping Up",
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -2645,6 +2662,7 @@ var tracklist = {
 "F41":
 {
 	title: "Mr. Fire Fighter Falls in Love With Me", artist: "Spooky Banana / No Brain", bpm: "158", duration: REMIX,
+	shortTitle: "Mr. Fire Fighter\nFalls in Love With Me",
 	NXA_: ["", "8", "15", "9", ""],
 },
 
@@ -2724,7 +2742,8 @@ var tracklist = {
 
 "F54":
 {
-	title: "Procedimientos Para Llegar A Un Comun Acuerdo  [FULL]", artist: "PXNDX", bpm: "160",
+	title: "Procedimientos Para Llegar a un Comun Acuerdo  [FULL]", artist: "PXNDX", bpm: "160",
+	shortTitle: "Procedimientos Para Llegar\na un Comun Acuerdo",
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -2949,6 +2968,7 @@ var tracklist = {
 "E13B":
 {
 	title: "Pumptris Quattro (8bit version)", artist: "Yahpp", bpm: "162",
+	shortTitle: "Pumptris Quattro (8bit)",
 	Prime: "= -D??(x3)",
 	Fiesta2: "=",
 	FiestaEX: "= @1.51 S3 S5 S8",
@@ -3291,6 +3311,7 @@ var tracklist = {
 "E928":
 {
 	title: "FAE1 & Chicken Wing Remix (NX2 ver.)", artist: "BanYa", bpm: "200", duration: REMIX,
+	shortTitle: "FAE1 & Chicken Wing Remix",
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -3424,6 +3445,7 @@ var tracklist = {
 "D15":
 {
 	title: "Do You Know That -Old School-", artist: "BanYa Production", bpm: "120",
+	shortTitle: "Do You Know That\n-Old School-",
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "S4.nl S6.hd S14.cz Dp8.fs D18.nm",
@@ -3467,6 +3489,7 @@ var tracklist = {
 "D19":
 {
 	title: "Hyun Jin Young Go Jin Young Go", artist: "Hyun Jin Young", channel: KPOP, bpm: "150",
+	shortTitle: "Hyun Jin Young Go",
 	NX2: ["3", "6", "19", "6", "20"],
 	NX: ["2", "6", "19", "6", "19"],
 },
@@ -3530,6 +3553,7 @@ var tracklist = {
 "D27":
 {
 	title: "We Goin' Fly -remix-", artist: "Gyfted", channel: WORLD, bpm: "112",
+	shortTitle: "We Goin' Fly",
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "Sp3.nl S5.hd S15.cz Dp6.fs D19.nm",
@@ -3541,6 +3565,7 @@ var tracklist = {
 "D28":
 {
 	title: "Final Audition episode 2-1", artist: "Yahpp", bpm: "170",
+	shortTitle: "Final Audition ep. 2-1",
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -3559,6 +3584,7 @@ var tracklist = {
 "D30":
 {
 	title: "Final Audition episode 2-2", artist: "Yahpp", bpm: "200",
+	shortTitle: "Final Audition ep. 2-2",
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -3909,6 +3935,7 @@ var tracklist = {
 "C41":
 {
 	title: "Love is a Danger Zone (try to B.P.M.)", artist: "BanYa", bpm: "140 ~ 169", duration: REMIX,
+	shortTitle: "Love is a Danger Zone (B.P.M.)",
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -3943,6 +3970,7 @@ var tracklist = {
 "C1C04":
 {
 	title: "Love is a Danger Zone 2 (D&G Ver.)", artist: "BanYa", bpm: "162",
+	shortTitle: "Love is a Danger Zone 2 (D&G)",
 	Prime: "= -D??(x2)",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -4686,6 +4714,7 @@ var tracklist = {
 "922":
 {
 	title: "Final Audition episode 1", artist: "BanYa", bpm: "189", fromMix: "Extra",
+	shortTitle: "Final Audition ep. 1",
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "= @1.51 S4 S7",
