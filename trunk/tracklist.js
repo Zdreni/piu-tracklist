@@ -362,6 +362,8 @@ var chartFilter = {
 
 	excludeMixIDs: [],
 
+	useLevelEstimations: false,
+
 /*
 	ReadSettings: function()
 	{
@@ -395,8 +397,16 @@ var chartFilter = {
 			if( chart.shared.type !== COUPLE )
 			{
 				levelMatches = ( chartFilter.levelMin <= chart.levelNum  &&  chart.levelNum <= chartFilter.levelMax );
-				var chartRealLevelNum = ChartRealLevelNum( chart );
-				realLevelMatches = ( chartFilter.levelMin <= chartRealLevelNum  &&  chartRealLevelNum <= chartFilter.levelMax );
+				if( ! chartFilter.useLevelEstimations )
+				{
+					realLevelMatches = levelMatches;
+				}
+				else
+				{
+					var chartRealLevelNum = ChartRealLevelNum( chart );
+					realLevelMatches = ( chartFilter.levelMin <= chartRealLevelNum  &&  chartRealLevelNum <= chartFilter.levelMax );
+				}
+
 				if( ! realLevelMatches  &&  ! levelMatches )
 					return;
 			}
