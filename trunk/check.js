@@ -73,7 +73,7 @@ function AddCheckTracklist( result, srcLines, srcConfig )
 			var mixCol = srcConfig[ mixID ];
 			if( mixCol )
 			{
-				var mixTag = ( isSpecial  ?  mixID + "_"  :  mixID );
+				var mixTag = ( isSpecial  ?  mixID + "_S"  :  mixID + "_A" );
 				var charts = line.slice( mixCol, mixCol + 5 );
 				if( JSON.stringify( charts ) != JSON.stringify( ["", "", "", "", ""] ) )
 					track[ mixTag ] = charts;
@@ -121,34 +121,40 @@ function CheckTracklist( tracklist, checkTracklist, config )
 				if( ! config[ mixID ] )
 					continue;
 
-				if( checkTrack[ mixID ] )
-					console.log( "- - " + mixID + ": " + JSON.stringify( checkTrack[ mixID ] ) + "," );
-				if( checkTrack[ mixID + "_" ] )
-					console.log( "- - " + mixID + "_: " + JSON.stringify( checkTrack[ mixID + "_" ] ) + "," );
+				if( checkTrack[ mixID + "_A" ] )
+					console.log( "- - " + mixID + ": " + JSON.stringify( checkTrack[ mixID + "_A" ] ) + "," );
+				if( checkTrack[ mixID + "_S" ] )
+					console.log( "- - " + mixID + "_: " + JSON.stringify( checkTrack[ mixID + "_S" ] ) + "," );
 			}
 			continue;
 		}
 
 		for( var mixID of oldMixes )
 		{
-			if( ! config[ mixID] )
+			if( ! config[ mixID ] )
 				continue;
 
-			var tag = mixID;
-			if( JSON.stringify( checkTrack[ tag ] ) != JSON.stringify( track[ tag ] ) )
-			{
-				console.log( "'" + checkTrack.title + "'  differs from check list:" );
-				console.log( "- -  list is  " + tag + ": " + JSON.stringify( track[ tag ] ) + "," );
-				console.log( "- - check is  " + tag + ": " + JSON.stringify( checkTrack[ tag ] ) + "," );
-			}
+			var srcTag = mixID + "_A";
+			var checkTag = srcTag;
 
-			tag += "_";
-			if( JSON.stringify( checkTrack[ tag ] ) != JSON.stringify( track[ tag ] ) )
+			if( JSON.stringify( checkTrack[ checkTag ] ) != JSON.stringify( track[ srcTag ] ) )
 			{
 				console.log( "'" + checkTrack.title + "'  differs from check list:" );
-				console.log( "- -  list is  " + tag + ": " + JSON.stringify( track[ tag ] ) + "," );
-				console.log( "- - check is  " + tag + ": " + JSON.stringify( checkTrack[ tag ] ) + "," );
+				console.log( "- -  list is  " + srcTag + ": " + JSON.stringify( track[ srcTag ] ) + "," );
+				console.log( "- - check is  " + checkTag + ": " + JSON.stringify( checkTrack[ checkTag ] ) + "," );
 			}
+			delete track[ srcTag ];
+
+			srcTag = mixID + "_S";
+			checkTag = srcTag;
+
+			if( JSON.stringify( checkTrack[ checkTag ] ) != JSON.stringify( track[ srcTag ] ) )
+			{
+				console.log( "'" + checkTrack.title + "'  differs from check list:" );
+				console.log( "- -  list is  " + srcTag + ": " + JSON.stringify( track[ srcTag ] ) + "," );
+				console.log( "- - check is  " + checkTag + ": " + JSON.stringify( checkTrack[ checkTag ] ) + "," );
+			}
+			delete track[ srcTag ];
 		}
 	}
 }
