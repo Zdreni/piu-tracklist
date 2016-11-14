@@ -36,32 +36,11 @@ Zero NM - 14 или 16
 - - check is  Zero: ["2","7","18","7","16"],
 
 
-NX:
-'Hyun Jin Young Go Jin Young Go'  differs from check list:
-NX HD - 6 или 3
-- -  list is  NX: ["2","6","19","6","19"],
-- - check is  NX: ["2","3","19","6","19"],
-
-'Mr. Larpus'  differs from check list:
-NX HD - 11 или 10
-- -  list is  NX: ["4","11","14","14","17"],
-- - check is  NX: ["4","10","14","14","17"],
-
-
 NX2:
-
-'For You'  differs from check list:
-NX2 FS - 2 или 5
-- -  list is  NX2: ["1","5","14","2","20"],
-- - check is  NX2: ["1","5","14","5","20"],
-
-'Oh My!'  differs from check list:
-NX2 - нормала нет или 2
-- -  list is  NX2: ["","4","10","4","11"],
-- - check is  NX2: ["2","4","10","4","11"],
 
 'Come to Me'  differs from check list:
 NX2 aCZ - 17 или 15
+по видяшке turkeyslam вообще непонятно, его там нет - https://www.youtube.com/watch?v=HBJ8T2WN0qI
 - -  list is  NX2_: ["","12","15","","14"],
 - - check is  NX2_: ["","12","17","","14"],
 

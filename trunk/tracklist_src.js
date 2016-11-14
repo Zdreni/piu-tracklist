@@ -3416,7 +3416,7 @@ var tracklist = {
 "D11":
 {
 	title: "For You", artist: "N.EX.T", channel: KPOP, bpm: "160",
-	NX2: ["1", "5", "14", "2", "20"], NX2_: ["", "", "", "13", ""],
+	NX2: ["1", "5", "14", "5", "20"], NX2_: ["", "", "", "13", ""],
 	NX: ["1", "5", "14", "5", "20"], NX_: ["", "", "", "14", ""],
 },
 
@@ -3491,7 +3491,7 @@ var tracklist = {
 	title: "Hyun Jin Young Go Jin Young Go", artist: "Hyun Jin Young", channel: KPOP, bpm: "150",
 	shortTitle: "Hyun Jin Young Go",
 	NX2: ["3", "6", "19", "6", "20"],
-	NX: ["2", "6", "19", "6", "19"],
+	NX: ["3", "6", "19", "6", "19"],
 },
 
 "D20":
@@ -3881,7 +3881,7 @@ var tracklist = {
 "C17":
 {
 	title: "Oh My!", artist: "Jang Yoon Jung", channel: KPOP, bpm: "112",
-	NX2: ["", "4", "10", "4", "11"],
+	NX2: ["2", "4", "10", "4", "11"],
 	NX: ["2", "4", "10", "4", "11"],
 	Zero: ["3", "4", "9", "5", "10"],
 },
@@ -5993,7 +5993,12 @@ function PreprocessTracklist()
 
 		if( track[ mixID ]  ||  track[ mixID + "_" ] )
 		{
+			// for check:
+			// track[ mixID + "_A" ] = track[ mixID ];
+			// track[ mixID + "_S" ] = track[ mixID + "_" ];
+
 			track[ mixID ] = PreprocessOldStyleListCharts( track, mixID );
+
 			delete track[ mixID + "_" ];
 		}
 	}
@@ -6082,10 +6087,10 @@ function PostprocessTracklist()
 
 	for( var track of tracklist )
 	{
-        if ( ! track.Prime  &&  ! track.Fiesta2  &&  ! track.FiestaEX  &&  ! track.Fiesta )
-            continue;
+		if ( ! track.Prime  &&  ! track.Fiesta2  &&  ! track.FiestaEX  &&  ! track.Fiesta )
+			continue;
 
-        console.log( track.title );
+		console.log( track.title );
 		var r1 = GetNewStyleChartDiff( track, "Prime", "Fiesta2" )
 		if( r1 )
 			console.log( "\tPrime: \"" + r1 + "\", " );
