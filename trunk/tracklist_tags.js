@@ -42,6 +42,7 @@ function Tag( tag, fullChartDescr )
 		shared.tags += " " + tag;
 }
 
+/*
 Tag( "IPF-2016-singles",
 	[
 		"Passacaglia  S-20",
@@ -85,8 +86,9 @@ Tag( "IPF-2016-doubles",
 		"Yog-Sothoth  D-25",
 		//"1950  D-25",
 	] );
+*/
 
-Tag( "Tricky stops",
+Tag( "Tricky_stops",
 	[
 		"Bad Apple!! feat. Nomico  S-15",
 		"Everybody Got 2 Know  S-19",
