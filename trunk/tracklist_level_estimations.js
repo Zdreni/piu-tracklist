@@ -10,29 +10,34 @@ var tracklistEstimated = [
 // trashy innocence D-15 -> центральный квад
 // Venus  D-14 - мигания стрелок, смена чарта из-под ног
 // ? Destination D-13 -> 14
-// Dignity  D-13 -> 15
-// Csikos Post D-21 -> 22
+// ? Necromancy  S-20 -> 19
 
+                          "1950  S-25 -> 24",
                           "1950  D-21 -> 22",
                       "Accident  D-20 -> 19",
             "Annihilator Method  D-12 -> 13",
+                 "Another Truth  D-22 -> 20",
                        "Arirang  D-10 -> 13",
                        "Arirang  S-18 -> 19",       // mndd: ОК
+                       "Arirang  S-22 -> 23",
                        "Arirang  D-20 -> 21",       // mndd: OK
             "Bad Girl Good Girl  D-13 -> 12",  // Marina
                 "Beat the Ghost  S-18 -> 19",       // mndd: ОК
                 "Beat the Ghost  S-20 -> 19",       // mndd: ОК
                            "Bee  S-19 -> 18",       // mndd: OK
                     "Cannon X.1  D-13 -> 14",
+              "Caprice of Otada  D-21 -> 22",//aNM
                        "Chimera  S-23 -> 24",
                        "Cleaner  D-20 -> 19",       // mndd: OK
                       "Com'Back  D-16 -> 17", // NM // mndd
                          "Crazy  D-19 -> 17", // NM
                       "Crashday  S-23 -> 22",
                       "Crashday  D-26 -> 24",
+                   "Csikos Post  D-21 -> 22",
                  "Dance With Me  D-15 -> 13",       // Marina
                    "Destination  S-16 -> 17",       // mndd: ОК
                    "Destination  S-18 -> 19",
+                       "Dignity  D-13 -> 15",
                        "Dignity  D-18 -> 19",       // mndd: ОК
                   "Extravaganza  S-16 -> 17", //aHD // mndd: ОК
                   "Extravaganza  D-17 -> 18", // NM // mndd: ОК
@@ -45,6 +50,7 @@ var tracklistEstimated = [
           "Final Audition 3 U.F  D-19 -> 18", //aNM // mndd: ОК
                "Flew Far Faster  S-23 -> 22",       // mndd: ОК
                    "Flying Duck  D-18 -> 17",       // mndd: ОК
+    "Four Seasons of Loneliness  S-20 -> 21",
     "Four Seasons of Loneliness  D-21 -> 22",
                "Get Up (and Go)  D-20 -> 18",       // mndd: 19-ка, у меня по миссам обычная 19-ка.
 // да бля, его Эсить пора уже и давно, там делать нефиг, не сложнее оверблоу 18. Сложнее, причем заметно =Р
@@ -54,6 +60,7 @@ var tracklistEstimated = [
                          "Hi-Bi  D-18 -> 19", // NM // mndd: ОК
                       "Hypnosis  D-18 -> 19",       // mndd: ОК
                     "Imprinting  S-20 -> 21",
+  "Ignis Fatuus (DM Ashura Mix)  S-23 -> 22",
   "Ignis Fatuus (DM Ashura Mix)  D-17 -> 18",       // mndd: ОК
 "Just Hold on (To All Fighters)  S-21 -> 22",       // mndd: ОК
                         "Napalm  D-23 -> 22",       // mndd: ОК
@@ -63,14 +70,17 @@ var tracklistEstimated = [
                        "Matador  D-21 -> 22",
                   "Mental Rider  S-12 -> 13",  // ben
                   "Mental Rider  D-13 -> 15",
-                  "Mental Rider  S-21 -> 22",
+              //? "Mental Rider  S-21 -> 22",
                   "Mental Rider  D-23 -> 24",
    "Mission Possible -Blowback-  D-17 -> 18",       // mndd: ОК
+                    "Mr. Larpus  S-20 -> 19",       // mndd: ОК
+                    "Mr. Larpus  D-23 -> 21",
                         "Napalm  S-19 -> 18",
                         "Napalm  S-22 -> 21",       // mndd: ОК
                     "Necromancy  D-13 -> 14",
                     "Necromancy  D-24 -> 23",
                         "NoNoNo  D-14 -> 12",
+            "No Rhyme No Reason  D-20 -> 19",
                       "Overblow  D-20 -> 19",       // mndd: ОК
                        "Phantom  S-18 -> 19", // CZ // mndd: ОК
                        "Phantom  D-19 -> 20", // NM // mndd: OK
@@ -78,7 +88,10 @@ var tracklistEstimated = [
           "Phantom -Intermezzo-  S-21 -> 22",       // mndd: ОК
           "Phantom -Intermezzo-  D-15 -> 16",
           "Phantom -Intermezzo-  D-20 -> 21",
+                 "Pop the Track  D-20 -> 21",
               "Pumptris Quattro  S-19 -> 20", // CZ // mndd: ОК
+                      "Ragnarok  S-20 -> 21",
+  "Rave Until The Night Is Over  D-17 -> 18",
                        "Requiem  D-19 -> 18",
                   "Robot Battle  S-21 -> 22",       // mndd: OK
                   "Robot Battle  D-23 -> 24",       // mndd: OK
@@ -86,6 +99,7 @@ var tracklistEstimated = [
                   "Setsuna Trip  D-14 -> 13",
                "Sorceress Elise  S-21 -> 22",       // mndd: ОК
                       "Take Out  S-17 -> 18",       // mndd: ОК
+                      "Take Out  S-20 -> 21",       // mndd: ОК
                       "Take Out  D-19 -> 20",       // mndd: ОК
                       "Take Out  D-22 -> 23",       // mndd: ОК
                 "The Revolution  D-19 -> 18",
@@ -93,10 +107,13 @@ var tracklistEstimated = [
                      "The Devil  D-21 -> 20",
                 "The Revolution  D-23 -> 22",
           "Till the End of Time  D-13 -> 12",
+              "Trashy Innocence  D-24 -> 23",
                 "Violet Perfume  D-19 -> 18",
                           "Vook  D-17 -> 18", // FS // mndd: OK
                           "Vook  D-18 -> 19", // NM // mndd: OK
                            "VVV  D-19 -> 20",
+                 "What Happened  S-20 -> 21",
+                 "What Happened  D-20 -> 18", //OK
                       "Windmill  D-18 -> 17",
                         "Winter  D-11 -> 12",
                   "Witch Doctor  D-23 -> 22", //aNM // mndd: ОК
@@ -114,16 +131,10 @@ var tracklistLeftForEstimation = [
 
                        "Blazing  D-19 -> 20", //mndd: Такое… 19.5 макс
             "Digan Lo Que Digan  D-18 -> 17",
-              "Caprice of Otada  D-21 -> 23",  //aNM //его вроде нет на Фиесте ЕХ
-         "Hardkore of the North  S-21 -> 22",
                   "Miss's Story  D-19 -> 17",
-                    "Mr. Larpus  D-23 -> 22",       // mndd: OK
      "Narcisista Por Excelencia  D-18 -> 19",
-            "No Rhyme No Reason  D-20 -> 19",
                        "Phantom  S-17 -> 18",//aCZ
                        "Phantom  D-20 -> 18",//aNM
-                 "What Happened  D-20 -> 18", //OK
-
 
 //-----------------------------------------
                      "By Chance  D-16 -> 15",
@@ -149,7 +160,6 @@ var tracklistLeftForEstimation = [
       "Hypnosis (SynthWulf Mix)  S-8 -> 9",
      "I'll Give You All My Love  D-18 -> 17",  //NM
 
-                    "Mr. Larpus  S-20 -> 19", //Впринципе ок... Я его хоть и на S проходил, но он просто колбасный
                      "My Dreams  S-17 -> 18",  //aCZ
                      "My Dreams  S-18 -> 17",  //CZ
                    "Naissance 2  D-19 -> 20",  //aNM
@@ -212,7 +222,6 @@ Shake It Up  aNM-18 (19) ?
 Solitary  S-17.acz (18) -
 Solitary 2  aCZ-17 (18) -
 Take Out  S-20 (22) - //22? Многовато, хотя для меня там тяжко. Пусть 21 будет
-What Happened  S-20 (22) - //22!? Епнулся!? 21 - максимум
 
 Hard Core Rock Mix  S-18 (19) -
 
@@ -221,7 +230,6 @@ PUMP IT UP with YOU  D-17 (19) -
 Narcisista por Excelencia  FULL  D-18 (19) -
 Panuelito Rojo  FULL  D-18.nm (19) -
 Final Audition episode 2-2  D-18 (19) - Внезапно оказался сложным О_О
-Rave Until The Night Is Over D-17 (18) - шото больше похоже на 18, но ты сбегай посмотри
 Chicken Wing D-17 (18) - Какой-то напряжный для 17-ки
 Msgoon.rmx.pt.6 D-19 (20) - вообще срака
 
