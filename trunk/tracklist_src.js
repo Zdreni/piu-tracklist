@@ -3458,7 +3458,7 @@ var tracklist = {
 	title: "Gun Rock", artist: "BanYa Production", bpm: "104",
 	Prime: "=",
 	Fiesta2: "=",
-	FiestaEX: "S5 S11 S17.cz D11 D22.nm  S18.acz D18.anm",  //? nl hd fs, и проверить аркаду для NX2
+	FiestaEX: "S5 S11 S18.cz D11 D22.nm   S17.acz D18.anm",  //? nl hd fs, и проверить аркаду для NX2
 	                                NX2_: ["", "", "18", "", "19"],
 	NX: ["2", "8", "18", "6", "22"], NX_: ["", "", "17", "", "18"],
 },
