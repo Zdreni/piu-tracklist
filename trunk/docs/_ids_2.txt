@@ -140,7 +140,7 @@
 	title: "Funky Jockey",
 },
 
-{ 
+{
 	id: "725",
 	title: "Gentleman Quality",
 },
@@ -271,7 +271,7 @@
 	title: "Lover's Grief [2]",
 },
 
-{   
+{
 	id: "605",
 	title: "Mambo #5",
 },
@@ -396,7 +396,7 @@
 	title: "Rappers Delight",
 },
 
-{ 
+{
 	id: "611",
 	title: "Rebola Na Boa",
 },
@@ -448,7 +448,7 @@
 	title: "Summer of Love [2]",
 },
 
-{ 
+{
 	id: "727",
 	title: "Swing Baby [1]",
 	id: "727A",

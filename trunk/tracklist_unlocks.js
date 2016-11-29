@@ -69,7 +69,7 @@ function Lock( trackCharts, description, tillPatch )
 	var track = FindTrack( tracklist, trackSplits[ 0 ] );
 
 	var chartSplits = trackSplits[ 1 ].split( ", " );
-	
+
 	for( var chartText of chartSplits )
 	{
 		var chart = FindChartForLock( track, currentMixID, chartText )
@@ -122,7 +122,7 @@ On( "Fiesta" )
 	Lock(                    "KOA  [SHORT]  D18", PUMBI + " (50 battles won)" );
 	Lock( "Final audition ep. 2-x  [SHORT]  S20", PUMBI + " (60 battles won)" );
 	Lock( "Exceed opening D??", PUMBI + " (70 battles won)" ); // RAW
-	
+
 	Lock(               "Hard core rock mix  S21" );
 	Lock(                  "msgoon RMX pt.5  D17" );
 	Lock(                  "msgoon RMX pt.6  D19" );
@@ -211,7 +211,7 @@ On( "Fiesta2", "..@1.60" )
 	//Lock( "Music Tempo x1.3 unlock", "Pumbi, level 61" );
 	//Lock( "Music Tempo x0.9 unlock", "Pumbi, level 99" );
 */
-	
+
 var PIUGAME = "piugame unlock";
 
 

@@ -15,7 +15,7 @@
         $.mobile.hashListeningEnabled = false;
         $.mobile.pushStateEnabled = false;
     });
-</script> 
+</script>
 	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 	<script src="http://underscorejs.org/underscore-min.js"></script>
 <!--
@@ -86,7 +86,7 @@ AddRadioButtons( {
 		{ title: "Exceed"   }, { title: "Exceed2"  }, { title: "Zero"     }, { title: "NX"       }, { title: "NX2"      }, { title: "NXA"      },
 		{ title: "Fiesta"   }, { title: "FiestaEX" }, { title: "Fiesta2"  }, { title: "Prime"    },
 	],
-	
+
 	onSelect: function( item )
 	{
 		$("#ChartType").show();
@@ -109,7 +109,7 @@ AddRadioButtons( {
 		{ title: "Fiesta"   }, { title: "FiestaEX" }, { title: "Fiesta2"  }, { title: "Prime"    },
 	],
 	type: "checkbox",
-	
+
 	onToggle: function( item, checked )
 	{
 		if( checked )
@@ -327,7 +327,7 @@ tr.strikeout td:after {
 	function TableRow( rowClass, OTHER_ARGS )
 	{
 		var result = ( rowClass != ""  ?  "<tr class=\"" + rowClass + "\">"  :  "<tr>" );
-		
+
 		for( var i = 1;  i < arguments.length;  i++ )
 			result += "<td>" + arguments[ i ] + "</td>";
 		result += "</tr>";
@@ -338,12 +338,12 @@ tr.strikeout td:after {
 	{
 		return ( value - from ) / ( to - from );
 	}
-	
+
 	function ValueOf( from, to, ratio )
 	{
 		return from * (1 - ratio) + to * ratio;
 	}
-	
+
 	function GetCurveValue( arr, pos )
 	{
 		for( var i = 0;  i < arr.length;  i += 2 )
@@ -400,11 +400,11 @@ tr.strikeout td:after {
 
 		if( item.chart.isUCS )
 			availability += ", UCS";
-		
+
 		var recommendedSpeed = GetRecommendedSpeedDescr( item );
 
 		var youtubeUrl = "https://www.youtube.com/results?search_query=Pump+It+Up+" + chartFilter.mixID + "+" + item.track.title + "+" + item.chart.tag + "+" + item.chart.levelText;
-		
+
 		return TableRow( rowClass,
 		                 URL( youtubeUrl, item.track.title ),
 		                 URL( youtubeUrl, ChartDescr( item.chart ) ),

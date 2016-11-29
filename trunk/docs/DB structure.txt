@@ -17,7 +17,7 @@ tracklist = {
 				      <like 'HD' for older mixes>
 				type: 'Single' / 'Double' / 'Couple'
 				levelText: <like '3' or '15/16' or '??'>
-				levelNum: 
+				levelNum:
 				realLevelNum:
 				tag: 'S' / 'Sp' / 'D' / 'Dp' (for newer mixes)
 				     'NL' / 'HD' / 'CZ' / 'FS' / 'NM' / 'aNL' / ... (for older mixes)

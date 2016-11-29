@@ -6,7 +6,6 @@ String.prototype.endsWith = function(suffix)
 	return this.indexOf(suffix, this.length - suffix.length) !== -1;
 }
 
-	
 Array.prototype.shuffle = function()
 {
 	for( var i = this.length - 1;  i > 0;  --i )
@@ -107,7 +106,7 @@ var mixes =
 	'Extra':     {},  // Extra
 	'Premiere':  {},  // Premiere (International). There was also a Brazil version
 	'Prex':      {},  // PREX
-	'Premiere2': {},  // Premiere 2 
+	'Premiere2': {},  // Premiere 2
 	'Rebirth':   {},  // Rebirth
 	'Prex2':     {},  // Premiere EX 2
 	'Premiere3': {},  // Premiere 3
@@ -130,8 +129,8 @@ var mixes =
 	              patches: ["1.0",  "1.01", "1.02", "1.03", "1.04", "1.05", "1.06", "1.07", "1.08", "1.09", "1.10",
 	                        "1.11", "1.12", "1.13", "1.14", "1.15", "1.16", "1.17", "1.18", "1.19", "1.20", "1.21"] },
 	              //patches: VerList("1.0 .01 .02 .03 .04 .05 .06 .07 .08 .09 .10 .11 .12 .13 .14 .15 .16 .17 .18 .19 .20 .21") },
-	'Prime2':	{ style: "new", 
-				  patches: [] },
+	'Prime2':	{ style: "new",
+				  patches: ["1.0"] },
 };
 
 var mixesOrder = [ "Exceed", "Exceed2", "Zero", "NX", "NX2", "NXA", "Fiesta", "FiestaEX", "Fiesta2", "Prime" ];
@@ -200,7 +199,7 @@ function FindTrack( tracklist, title )
 	var arr = title.split( " @ " );
 	title = arr[ 0 ];
 	var ID = arr[ 1 ];
-	
+
 	//var result = _.where( tracklist, { title: trackTitle } );
 	var result = _.filter( tracklist, function( item, key )
 		{
@@ -267,7 +266,7 @@ function FindChart( track, chartDescr )
 	var mixID = chartInfo.length > 1  ?  chartInfo[ 1 ]  :  "";
 	var localChartDescr = chartInfo [ 0 ];
 
-	var arcadeTagIndex = OldArcadeTags_low.indexOf( localChartDescr.toLowerCase() );	
+	var arcadeTagIndex = OldArcadeTags_low.indexOf( localChartDescr.toLowerCase() );
 	var specialTagIndex = OldSpecialTags_low.indexOf( localChartDescr.toLowerCase() );
 	if( arcadeTagIndex >= 0  ||  specialTagIndex >= 0 )
 	{
@@ -303,7 +302,7 @@ function FindChart( track, chartDescr )
 			chartTag = result[ 1 ];
 			chartlevelText = result[ 2 ];
 		}
-		
+
 		if( mixID != "" )
 		{
 			var chart = _.findWhere( track[ mixID ], { tag: chartTag, levelText: chartlevelText, } );
@@ -324,7 +323,7 @@ function FindChart( track, chartDescr )
 
 		console.log( "Can't find " + track.title + " " + chartDescr );
 	}
-		
+
 	console.assert( chart );
 	return chart;
 }
@@ -490,7 +489,7 @@ var chartFilter = {
 					if( item.levelMatches )
 						return 30;
 				}
-				
+
 				var levelMatchScoreDelta = LevelMatchScore( item1 ) - LevelMatchScore( item2 );
 				if( levelMatchScoreDelta )
 					return levelMatchScoreDelta;

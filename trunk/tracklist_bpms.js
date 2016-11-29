@@ -23,7 +23,7 @@ var separateBPMs =
 	{            chart: "Pump Breakers  NM.NXA", bpm: "120 - 240" },
 	{ chart: "Trato de no Trabarme  [FULL]  CZ", ratio: "2" },
 	{ chart: "Trato de no Trabarme  [FULL]  NM", ratio: "2" },
-	
+
 	{                    chart: "Good Life  S15", bpm: "98 - 49" },
 	{                    chart: "Good Life  D16", bpm: "98 - 147" },
 
@@ -59,7 +59,7 @@ function GetMixesRange( text )
 		else
 			range[ 1 ] = range[ 0 ] + 1;
 	}
-	
+
 	return range;
 }
 
@@ -116,7 +116,7 @@ function SetChartBPM( descr )
 for( var item of separateBPMs )
 	SetChartBPM( item );
 
-/*	
+/*
 
 
 стар комманд s12 в районе 190

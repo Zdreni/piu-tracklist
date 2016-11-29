@@ -20,11 +20,11 @@ Fiesta  1.04:
 <prev url>
 
 - Change commend method of speed choice in Basic mode (79795)
-- Add up speed 1X & 4X in basic mode 
+- Add up speed 1X & 4X in basic mode
 - Co-op mode is possible to enjoy without USB
-- Add up mark “2X” in window commend for Mania mode. 
-- USB identification process become 1 Step. 
-- The gradel limitation is changed from Level5 to level10. 
+- Add up mark “2X” in window commend for Mania mode.
+- USB identification process become 1 Step.
+- The gradel limitation is changed from Level5 to level10.
 - Now it’s possible to set sound volume
 
 
@@ -34,12 +34,12 @@ Fiesta  1.04:
 Fiesta  1.05:
 http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=87&page=2
 
-- Help function in BASIC MODE is updated. 
+- Help function in BASIC MODE is updated.
 - New STEPS in FULL MODE are added.
 
-- Soccer ball SKIN in FULL MODE is added. It is available in V1.05 for event purpose. 
+- Soccer ball SKIN in FULL MODE is added. It is available in V1.05 for event purpose.
 - Bugs in V1.04 is upgraded.
- 
+
 80's POP - Energy presents / single 16
 U Got 2 know - MAX / single 17
 Destination - SHK / single 16
@@ -56,7 +56,7 @@ Phantom [Intermezzo] - BanYa / single 15
 Fiesta  1.06:
 http://www.ph-online.net/cgi-bin/ib3/ikonboard.cgi?act=ST;f=18;t=10943
 
-- Bugs in mission zone of V1.05 are revised. 
+- Bugs in mission zone of V1.05 are revised.
 - New STEPS (total 13 modes) in ShortCut Mode are added !
 - New contents (total 3 modes) in Music Train Mode are added !
 
@@ -75,7 +75,7 @@ Newly added ShortCut steps:
 Newly added Music Train contents:
 1. msgoon series
 2. Notorious Nightmares
-3. Shocking Shortcut D 
+3. Shocking Shortcut D
 
 
 
@@ -96,7 +96,7 @@ NEW SONGS:
 -Doin - Tepris (S2, S7, S16, D??)
 -Doin - Napalm (S13, S19, S22, D23)
 -Nina Pilots - Dieciseis (lv. 2 - 15)
--Taiji Boys - In My Fantasy (finally available in arcade station) 
+-Taiji Boys - In My Fantasy (finally available in arcade station)
 
 REVIVALS:
 
@@ -329,7 +329,7 @@ X Treme – BanYa / Single 18
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Fiesta EX  1.50:
-It has come to our attention that a song featured in the Fiesta EX 1.50 update does not have a correct license agreement. There was a miscommunication in the licensing process with "Deadbeat Boyfriend" by "Lucky Princess" and it must be removed. 
+It has come to our attention that a song featured in the Fiesta EX 1.50 update does not have a correct license agreement. There was a miscommunication in the licensing process with "Deadbeat Boyfriend" by "Lucky Princess" and it must be removed.
 We will be releasing Fiesta EX Update 1.51 to correct this issue. Upon upgrading to 1.51, players will be able to add 2 more UCS files making a maximum of 5 UCS files per USB.
 We apologize to Disko Warp records and any of their affiliates for the confusion.There are rumors of stolen songs, but this is false. Every song in the 1.50 patch has either an executed or pending license agreement.
 
@@ -339,14 +339,14 @@ We apologize to Disko Warp records and any of their affiliates for the confusion
 
 Fiesta EX 1.51:
 https://www.facebook.com/notes/449963461698581/
- 
+
 1. UCS(User Custom Step) !
 A. By using this function, you can make and play your own step charts to the maximum 5 charts!
 B. Please refer to the UCS page for the details.
- 
+
 2. New Songs for the Next PIU !
 A. We decided to contain 11 songs for the next PIU in Fiesta EX v1.51, and some of the step charts through PIU Step Making Contest can be chosen as formal step charts for the next PIU, but these songs are in Basic Mode only in Fiesta EX.
- 
+
 B. Please refer to the PIU Step Making Contest event page for the details.
 
 //? Dino: какие сложности добавлять, базовые?
@@ -362,15 +362,15 @@ Heel and Toe - KURi-ZiLL
 Rainspark - Sanxion7
 Be Alive (Raaban Inc. Mix) - Stian K
 Star Command – Zircon
- 
+
 3. Newly Added Songs List !
- 
+
 Jonathan’s Dream – MAX&Seorryang (SID-SOUND)
 ASDF – Doin
 Pine Nut – Doin
- 
+
 4. Newly Added Step Charts List !
- 
+
 Cleaner - Doin [Single 4, 7, 12]
 Reality - SHK [Single 8]
 Butterfly - MAX & Rorychesell (SID-SOUND) [Single 8]
@@ -464,13 +464,13 @@ Com'Back - Sechs Kies [Single 8]
 Mobius Strip - Sechs Kies [Single 2]
 Repeatorment Remix - BanYa [Single 19]
 Another Truth - Novasonic [Single 8]
- 
+
 4. All of the PumBI Contents Unlocked !
- 
+
 All the hidden contents in PumBI are unlocked, and now everyone can play all of them freely!
- 
+
 5. Fixed bugs !
- 
+
 Several bugs have been fixed.
 Now, players can enjoy the game in much more stable environment!
 
@@ -669,7 +669,7 @@ https://www.facebook.com/notes/pump-it-up/fiesta-2s-9th-official-updatev160-info
 -	Dignity : S22
 
 3. Add U.C.S. contents
--	Y2Z 
+-	Y2Z
 -	Rockhill
 -	Take Me Back
 -	RE-RAVE
@@ -712,7 +712,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1010-update-information
      Artist  : NORAZO
      BPM : 170
      Step chart : S4, S6, S8, S18, D5, D19, DP??
-      * Both Basic and Full mode available 
+      * Both Basic and Full mode available
 
  3) Song : [Full song] Sugar Free
      Artist : T-ara
@@ -720,8 +720,8 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1010-update-information
      Step chart : S15 D15
 
 2. New step charts
- 1) Nemesis : DP ?? 
- 2) Yog-Sothoth : DP ?? 
+ 1) Nemesis : DP ??
+ 2) Yog-Sothoth : DP ??
 
 3. Revive songs
  1) Song : Ignition Starts
@@ -786,7 +786,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1020-update-information
  3) Song : PRIME Opening  (shortcut)
      Artist : MAX
      BPM : 128
-     Step chart : S15, D15, DP?? 
+     Step chart : S15, D15, DP??
 
 
 2. New step charts
@@ -837,7 +837,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1030-update-information
      Artist : SID-SOUND
      BPM : 160
      Default step chart : S17, D18
- 
+
 
 2. New step charts
  1) Achluoias  : S24 - Unlock condition(possible to buy from www.piugame.com)
@@ -864,9 +864,9 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1030-update-information
 
 
 4. Item shop release :
-  
+
   1) Step charts  (refer to "2. new Step Charts")
-  
+
   2) Avata  : 26 Avatars added
 
 
@@ -934,7 +934,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1050-update-information
     Song : Interference
     Artist : Doin
     Unlock step chart : D?
-   
+
 3. Quest zone
     Quest “Chapter5” is updated.
 
@@ -955,12 +955,12 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1050-update-information
 
 
 4. Favorite and Custom Music Train are available
- 
-  1) Favorite 
+
+  1) Favorite
       Players can put their favorite songs up to 20 songs.
      (It is available from "My page" on http://www.piugame.com and can be played in the "Favorite Channel" of the game.)
- 
-  2) Custom Music Train 
+
+  2) Custom Music Train
       Players can make their own "Music train" and it is available up to 3 slots.
       (It is available from "My page" on http://www.piugame.com and can be played in the "Music train Channel" of the game.)
 
@@ -993,7 +993,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1060-update-information
 
 
 2. New step charts
- 
+
 1) Song :Yeo rae a
      Artist : Sid-Sound
      Step chart : S8
@@ -1025,8 +1025,8 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1060-update-information
   5) Allegro Con Fuoco
       Step chart : S11, S17, S22, S23
 
-4. Unlocked Step charts 
- 
+4. Unlocked Step charts
+
  1) Achluoias : S24 - released
  2) Milky Way Galaxy : S17, D18 - released
  3) Selfishness : S17, D18 - released
@@ -1103,7 +1103,7 @@ Bugfix.
 
 
 2. New unlock step charts
- 
+
 1) Song : Meteorize
      Artist : Paul Bazooka
      Unlock Step chart : S?, D?
@@ -1161,7 +1161,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1080-update-information
 
 
 2. New unlock step charts
- 
+
 1) Song : Hypnosis
      Artist : Banya
      Unlock Step chart : S?, D?
@@ -1191,7 +1191,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1080-update-information
 5. UCS(User Custom Step)!
 Finally, you can use UCS in PIU 2015 PRIME!
 By using this function, you can make and play your own step charts to the maximum 5 charts!
-WEB pages of UCS will be opened in 28, August, too. 
+WEB pages of UCS will be opened in 28, August, too.
 Please refer to the UCS WEB page for the details.
 
 
@@ -1242,7 +1242,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1090-update-information
 
 
 2. New unlock step charts
- 
+
 1) Song :Allegro Piu Mosso
      Artist : DM Ashura
      Unlock Step chart : S??
@@ -1450,7 +1450,7 @@ https://www.facebook.com/notes/1189158797779040/
 4) Song : Reality
   Step chart : D15, D18, D20, D21
 
-5) Song : Mr. Larpus 
+5) Song : Mr. Larpus
     Step chart : D14, D17, D23, D25
 
 
@@ -1474,7 +1474,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1120-update-information
 1) Song : Setsuna Trip
    Artist : LastNote
    BPM : 145
-   Default step chart : S01, S05, S09, S13, S16, D08, D14, CO-OP02 
+   Default step chart : S01, S05, S09, S13, S16, D08, D14, CO-OP02
    Unlock step chart : S??,D??
 
 2) Song : Queen Of The Red
@@ -1492,7 +1492,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1120-update-information
 4) Song : Violet Perfume
    Artist : SHK
    BPM : 140
-   Default step chart : S04, S06, S08, S14, S17, D10, D15 
+   Default step chart : S04, S06, S08, S14, S17, D10, D15
    Unlock step chart : D??
 
 5) Song : HYPERCUBE
@@ -1517,12 +1517,12 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1120-update-information
 2) Song : Turkey March
    Artist : Banya
    BPM : 150
-   Step chart : S18(UCS), D17(UCS), CO-OPx02(UCS) 
+   Step chart : S18(UCS), D17(UCS), CO-OPx02(UCS)
 
 3) Song : Maria
    Artist : Banya
    BPM : 136
-   Step chart : S18(UCS) 
+   Step chart : S18(UCS)
 
 4) Song : Csikos Post
    Artist : Banya
@@ -1565,7 +1565,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1120-update-information
     Step chart : DP04(UCS), DP20(UCS)
 
 
-3. Quest zone    
+3. Quest zone
 Quest “Chapter12” is updated.
 
 1) Song : We Got 2 Know
@@ -1580,14 +1580,14 @@ Quest “Chapter12” is updated.
 4) Song : K.O.A : Alice In Wonderworld
    Step chart : S08, S17, D18, D21
 
-5) Song : Vook 
+5) Song : Vook
    Step chart : D17, D18, D19, D23
 
 
 4. Unlocked Step charts
 1) Song : Bad Apple!! feat. Nomico
    Step chart : S17, S19, D18 - released!
-   
+
 2) Song : FOUR SEASONS OF LONELINESS ver β feat. Sariyajin
    Step chart : S17, D18 - released!
 
@@ -1652,36 +1652,36 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1130-update-information
      BPM : 128
      Default step chart : S04, S08, S15, D10, D16
 
-4) Song : (Full song) Creed -1st Desire- 
+4) Song : (Full song) Creed -1st Desire-
     Artist : TatshMusicCircle
     BPM : 163
     Default step chart : S18, S23, D19, D24
 
 
 2. New unlock step charts
-1) Song :  Avalanche- Memme     
-     Step chart : S22 - released!  
+1) Song :  Avalanche- Memme
+     Step chart : S22 - released!
 
-2) Song : Ragnarok - SynthWulf      
+2) Song : Ragnarok - SynthWulf
      Step chart : S20 - released!
 
 
-3. Quest zone    
+3. Quest zone
 Quest “Chapter13” is updated.
 
 1) Song : All  I Want For Christmas
     Step chart : S06, S11, D07, D18
 
-2) Song : Caprice of Otada   
+2) Song : Caprice of Otada
      Step chart : S06, S08, S17, S19
 
-3) Song : Unique  
+3) Song : Unique
      Step chart : D12, D16, D19, D20
 
-4) Song : Chimera   
+4) Song : Chimera
     Step chart : S11, S16, S18, S23
 
-5)  Song : Blazing    
+5)  Song : Blazing
      Step chart : S09, S15, D19, D23
 
 
@@ -1711,78 +1711,78 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1140-update-information
 1. New Songs
 1) Song :  Trashy Innocence
     Artist :  LastNote
-    BPM : 230   
-    Default step chart :  S01, S05, S10, S14, D10, D15, CO-OP02 
+    BPM : 230
+    Default step chart :  S01, S05, S10, S14, D10, D15, CO-OP02
     Unlock step chart : S??, D??
-2) Song :  Renai Yuusha   
-     Artist :  LastNote  
-     BPM : 190   
-     Default step chart :  S03, S06, S12, S17, D04, D13, D18, CO-OP03    
+2) Song :  Renai Yuusha
+     Artist :  LastNote
+     BPM : 190
+     Default step chart :  S03, S06, S12, S17, D04, D13, D18, CO-OP03
      Unlock step chart : S??, D??
 3) Song :  Just Hold on (To All Fighters)
      Artist : Void
      BPM : 170
-     Default step chart :  S04, S07, S10, S16, D12, D18 
+     Default step chart :  S04, S07, S10, S16, D12, D18
      Unlock step chart : S??, D??, D??
 4) Song :  Enhance Reality
      Artist :  Matduke
      BPM : 170
-     Default step chart :  S09, S14, D11 
+     Default step chart :  S09, S14, D11
      Unlock step chart : S??, D??
 5) Song :  [Full Song] Pandora
      Artist :  KARA
-     BPM : 140      
-     Default step chart :  S17, D18      
- 
+     BPM : 140
+     Default step chart :  S17, D18
+
 
 2. New step charts
 
 1) Song :  FFF
     Artist :  Doin
-    BPM : 200        
+    BPM : 200
     Step chart :  D24
 
 2) Song :  Canon D
      Artist :  BanYa
-     BPM : 160        
+     BPM : 160
      Step chart :  CO-OP02
 
 3) Song :   Rock the house
      Artist :   Matduke
-     BPM : 175        
-     Step chart :  S16(UCS), D13(UCS) 
+     BPM : 175
+     Step chart :  S16(UCS), D13(UCS)
 
 4) Song :   Super Fantasy
       Artist :   SHK
       BPM : 145
-      Step chart :  S14(UCS), D16(UCS) 
+      Step chart :  S14(UCS), D16(UCS)
 
 5) Song :    Karyawisata
       Artist :    Vesuvia x REDSHiFT
       BPM : 173
-      Step chart :  S15(UCS), D19(UCS) 
+      Step chart :  S15(UCS), D19(UCS)
 
 
-3. Quest zone    
+3. Quest zone
 Quest “Chapter14” is updated.
 1) Song : J Bong
     Step chart :  S07, S08, S13, S18
-2) Song : Final Audition3   
+2) Song : Final Audition3
      Step chart : S06, S09, S14, S18
-3)  Song :  Chopsticks Callenge    
+3)  Song :  Chopsticks Callenge
       Step chart :  S06, S17, D16, D19
 
-4) Song :   Com’Back  
+4) Song :   Com’Back
      Step chart :   S08, S15, D16, D20
-5) Song :  Tepris   
+5) Song :  Tepris
      Step chart :  S07, S16, D18, D22
 
 4. Unlocked Step charts
 
-1) Song :   Bad ∞ End ∞ Night     
-    Step chart :  S17, S19, D18  - released!  
+1) Song :   Bad ∞ End ∞ Night
+    Step chart :  S17, S19, D18  - released!
 
-2) Song :  video out c           
+2) Song :  video out c
      Step chart : S17 - released!
 
 5. New Features
@@ -1809,42 +1809,42 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1150-update-information
 
 1) Song :  PRIME
     Artist :  Tatsh
-    BPM : 165   
-    Default step chart :   S04, S07, S11, S16, S18, D12, D16, D18 
+    BPM : 165
+    Default step chart :   S04, S07, S11, S16, S18, D12, D16, D18
     Unlock step chart : S??, D??
 
-2) Song :   Mad5cience   
-     Artist :   Paul Bazooka  
-     BPM : 130   
-     Default step chart :   S05, S16, D07, D16    
+2) Song :   Mad5cience
+     Artist :   Paul Bazooka
+     BPM : 130
+     Default step chart :   S05, S16, D07, D16
      Unlock step chart : S??
 
 3) Song :   Red Snow
      Artist :  Cashew
      BPM : 170
-     Default step chart :   S11, S16, D12  
+     Default step chart :   S11, S16, D12
      Unlock step chart : S??, D??
 
 4) Song :   Break It Down
      Artist :   MAZO
      BPM : 176
-     Default step chart :   S07, S14, S16, D05, D12, D17 
- 
+     Default step chart :   S07, S14, S16, D05, D12, D17
+
 
 2. New step charts
 
 1) Song :   Electric
     Artist :   The DNC
-    BPM : 120        
+    BPM : 120
     Step chart :  S17
 
 
-3. New unlock step charts 
+3. New unlock step charts
 
-1) Song :   Annihilator Method-  DM Ashura           
-    Step chart : D24  
+1) Song :   Annihilator Method-  DM Ashura
+    Step chart : D24
 
-2) Song :  Imprinting -  Sakuzyo          
+2) Song :  Imprinting -  Sakuzyo
      Step chart : D24
 
 
@@ -1854,25 +1854,25 @@ Quest “Chapter15” is updated.
 1) Song :  Higleddy pigleddy
     Step chart :   S09, S14, S16, S18
 
-2) Song :  Turkey March – Minimal Tunes –  
+2) Song :  Turkey March – Minimal Tunes –
      Step chart :  S06, S08, S17, S18
 
-3)  Song :   Witch Doctor    
+3)  Song :   Witch Doctor
       Step chart :   S10, S16, S19, S20
 
-4) Song :    Pavane  
+4) Song :    Pavane
      Step chart :   S10, S17, D16, D20
 
-5) Song :   X-Rave   
+5) Song :   X-Rave
      Step chart :   S06, S09, S17, S24
 
 
 5. Unlocked Step charts
 
-1) Song :    Violet Perfume   
-    Step chart :  D19  - released!  
+1) Song :    Violet Perfume
+    Step chart :  D19  - released!
 
-2) Song :   Scolpion King           
+2) Song :   Scolpion King
      Step chart : S19 - released!
 
 3) Song : Setsuna Trip
@@ -1888,7 +1888,7 @@ Quest “Chapter15” is updated.
     - Various performance step charts for Freestyle category of WPF2016!
     - Please check out over 50 step charts of Prime 1.15 song list from www.piugame.com.
       (Basic mode song list,   Full mode song list)
-    * A lot of  Freestyle players contributed step charts and thank you all for your efforts and  
+    * A lot of  Freestyle players contributed step charts and thank you all for your efforts and
        contributions.
 
 7.  Bugs fixed.
@@ -1905,71 +1905,71 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1160-update-information
 
 1. New Songs
 
-1) Song :  Moment Day 
+1) Song :  Moment Day
 Artist :  MAX
-BPM : 158   
-Default step chart :   S03, S06, S10, S15, S17, D09, D16, CO-OPx02      
+BPM : 158
+Default step chart :   S03, S06, S10, S15, S17, D09, D16, CO-OPx02
 Unlock step chart : S??, D??
 
-2) Song :  Houkago Stride    
- Artist :   Last Note.     
- BPM : 225    
-Default step chart :   S03, S06, S10, S15, D10, D16          
+2) Song :  Houkago Stride
+ Artist :   Last Note.
+ BPM : 225
+Default step chart :   S03, S06, S10, S15, D10, D16
 Unlock step chart : S??, D??
 
-3) Song :   Idealized Romance     
- Artist :  void  
-BPM : 140      
-Default step chart :   S02, S04, S07, S11, S16, D10        
+3) Song :   Idealized Romance
+ Artist :  void
+BPM : 140
+Default step chart :   S02, S04, S07, S11, S16, D10
 Unlock step chart : S??, D??
 
-4) Song :   Force of Ra 
-Artist :   Memme    
-BPM : 180      
+4) Song :   Force of Ra
+Artist :   Memme
+BPM : 180
 Default step chart :   S07, S12, S17, D12
 Unlock step chart : S??, D??
 
 
- 2. New unlock step charts   
+ 2. New unlock step charts
 
 1) Song :   Achluoias
 Artist : D_AAN
-BPM : 200              
-Step chart : D26    
+BPM : 200
+Step chart : D26
 
-2) Song :   Stardust Overdrive 
-Artist : typeMARS    
-BPM : 175          
+2) Song :   Stardust Overdrive
+Artist : typeMARS
+BPM : 175
 Step chart : D24
 
 
-3. Quest zone   
+3. Quest zone
 
 Quest “Chapter15” is updated.
 
-1) Song :   Hello William 
+1) Song :   Hello William
 Step chart :   S09, S17, D09, D18
 
-2) Song :   Bullfighter's Song 
+2) Song :   Bullfighter's Song
 Step chart :  S05, S08, S16, S19
 
-3)  Song :    Ladybug       
+3)  Song :    Ladybug
 Step chart :   S05, S13, D13, D19
 
-4) Song :    Moonlight      
+4) Song :    Moonlight
 Step chart :   D11, D20, D21, D22
 
-5) Song :   FFF    
+5) Song :   FFF
 Step chart :   S17, S23, D22, D26
 
 
 4. Unlocked Step charts
 
-1) Song :    Creed -1st Desire-     
-Step chart :  S18, D18  - released!  
+1) Song :    Creed -1st Desire-
+Step chart :  S18, D18  - released!
 
 
-5. New U.C.S songs are added! 
+5. New U.C.S songs are added!
 
 - Nemesis
 - Chinese restaurant
@@ -1985,95 +1985,95 @@ It is now available to play for 2 players in Rank mode of event mode
 
 
 
-7.  Minor bugs fixed.    
- 
- 
+7.  Minor bugs fixed.
+
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Prime 1.17
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1170-update-information/1323575054337413
 (prime_16.bin)
 
-1. New Songs 
+1. New Songs
 
-1)	Song : Amphitryon  
-Artist : Gentle Stick  
-BPM : 155  
+1)	Song : Amphitryon
+Artist : Gentle Stick
+BPM : 155
 Default step chart :  S06, S11, D12
-Unlock step chart : S??, D??  
+Unlock step chart : S??, D??
 
-2)	Song : Blaze emotion (Band version)  
-Artist : Yahpp  
-BPM : 170  
+2)	Song : Blaze emotion (Band version)
+Artist : Yahpp
+BPM : 170
 Default step chart : S02, S08, S17, D04, D18
 
 
-2. New step charts 
+2. New step charts
 
-1)	Song : Bad Apple!! feat. Nomico  
-Artist : Masayoshi Minoshima   
-BPM : 138  
-Step chart  : S03  
+1)	Song : Bad Apple!! feat. Nomico
+Artist : Masayoshi Minoshima
+BPM : 138
+Step chart  : S03
 
-2)	Song : Setsuna Trip  
-Artist : Last Note.   
-BPM : 145  
-Step chart : S03  
+2)	Song : Setsuna Trip
+Artist : Last Note.
+BPM : 145
+Step chart : S03
 
-3)	Song : Trashy Innocence  
-Artist : Last Note.   
-BPM : 230  
-Step chart : S03  
+3)	Song : Trashy Innocence
+Artist : Last Note.
+BPM : 230
+Step chart : S03
 
-4)	Song : Bad ∞ End ∞ Night  
-Artist : HitoshizukuP X yama△  
-BPM : 204  
-Step chart : S04  
+4)	Song : Bad ∞ End ∞ Night
+Artist : HitoshizukuP X yama△
+BPM : 204
+Step chart : S04
 
-5)	Song : Till the end of time  
-Artist : BanYa   
-BPM : 140  
-Step chart : S13(UCS), S17(UCS), D08(UCS), D13(UCS), D16(UCS)  
+5)	Song : Till the end of time
+Artist : BanYa
+BPM : 140
+Step chart : S13(UCS), S17(UCS), D08(UCS), D13(UCS), D16(UCS)
 
-6)	Song : Chicken Wing  
-Artist : BanYa   
-BPM : 200  
-Step chart : S21(UCS), S22(UCS), D23(UCS)  
+6)	Song : Chicken Wing
+Artist : BanYa
+BPM : 200
+Step chart : S21(UCS), S22(UCS), D23(UCS)
 
-7)	Song : Robot Battle  
-Artist : CYO Style  
-BPM : 198  
-Step chart : S18(UCS), D19(UCS)   
-
-
-3.	 Unlocked Step charts  
-
-1)	Song : Renai Yuusha  
-Step chart : S19 , D20 -  released!   
-
-2)	Song : Enhance Reality  
-Step chart : S19 , D20 - released!  
+7)	Song : Robot Battle
+Artist : CYO Style
+BPM : 198
+Step chart : S18(UCS), D19(UCS)
 
 
-4.	 Quest zone    
+3.	 Unlocked Step charts
 
-1)	Song : Destination  
-Step chart : S11, S16, D13, D18  
+1)	Song : Renai Yuusha
+Step chart : S19 , D20 -  released!
 
-2)	Song : Phantom  
-Step chart : S12, S17, S18, S19  
-
-3)	Song : Selfishness  
-Step chart : S11, S17, D18, D21  
-
-4)	Song : Love is a danger zone pt.2  
-Step chart : S07, S15, D17, D21  
-
-5)	Song : Tribe Attacker  
-Step chart : S16, D10, D15, D22 
+2)	Song : Enhance Reality
+Step chart : S19 , D20 - released!
 
 
-5. New Features 
+4.	 Quest zone
+
+1)	Song : Destination
+Step chart : S11, S16, D13, D18
+
+2)	Song : Phantom
+Step chart : S12, S17, S18, S19
+
+3)	Song : Selfishness
+Step chart : S11, S17, D18, D21
+
+4)	Song : Love is a danger zone pt.2
+Step chart : S07, S15, D17, D21
+
+5)	Song : Tribe Attacker
+Step chart : S16, D10, D15, D22
+
+
+5. New Features
 
 All locked step charts are unlocked in EVENT mode and will be available until 1.18.0 update
 
@@ -2084,7 +2084,7 @@ Prime 1.17.1
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1180-update-delay-notice/1347936445234607
 (prime_17.bin)
 
-This is the notice about 1.18.0 update schedule. 
+This is the notice about 1.18.0 update schedule.
 
 We found some problem on 1.17.0 update and it causes to 1.18.0 update to not available update by online.
 In order to update 1.18.0, download 1.17.1 update file to USB from official website and manually update it first.
@@ -2114,17 +2114,17 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1180-update-information
 3)	Song : PARADOXX
         Artist : SLAM & NATO
         BPM : 220
-        Default step chart : S21     
-        Unlock step chart : S??, D?? 
+        Default step chart : S21
+        Unlock step chart : S??, D??
 
 
-2.	 Quest zone    
+2.	 Quest zone
 
-1)	Song : Final Audition  
-        Step chart : S09, S15, S17, S18  
+1)	Song : Final Audition
+        Step chart : S09, S15, S17, S18
 
 2)	Song : Take me back
-        Step chart : S07, S09, S17, S18 
+        Step chart : S07, S09, S17, S18
 
 3)	Song : Monolith
         Step chart : S05, S09, S16, S20
@@ -2136,9 +2136,9 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1180-update-information
         Step chart : S11, S16, D18, D23
 
 
-3.	 Unlocked Step charts  
+3.	 Unlocked Step charts
 
-1)	Song : Red Snow  
+1)	Song : Red Snow
         Step chart : S19
 
 
@@ -2154,7 +2154,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1190-update-information
         Artist : you
         BPM : 175
         Default step chart : S04, S07, S11, S16, D08, D17
-        Unlock step chart : S??, D?? 
+        Unlock step chart : S??, D??
 
 2)	Song : Campanella
         Artist : Cashew
@@ -2217,17 +2217,17 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1190-update-information
 10)	Song : [FULL SONG] Canon D FULL Song MIX
         Artist : banya
         BPM : 160
-        Step chart : D24 
+        Step chart : D24
 
 11)	Song : 1950
         Artist : SLAM
         BPM : 200
-        Step chart : S16(UCS), S17(UCS), D21(UCS) 
+        Step chart : S16(UCS), S17(UCS), D21(UCS)
 
 12)	Song : Hestia
         Artist : Gentle Stick
         BPM : 150
-        Step chart : S17(UCS), D18(UCS) 
+        Step chart : S17(UCS), D18(UCS)
 
 13)	Song : Chinese Restaurant
         Artist : Memme
@@ -2240,7 +2240,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1190-update-information
 1)	Song : [REMIX] Paradoxx
         Artist : SLAM & NATO
         BPM : 220
-        Step chart : D28 
+        Step chart : D28
 
 
 4. Quest zone
@@ -2292,14 +2292,14 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1200-update-information
 
 1.	New Songs
 
-1)	Song :  Across the ocean         
-        Artist :  Zircon        
-        BPM :  130 
-        Default step chart :  S03, S06, S09, S15, D11, D16 
+1)	Song :  Across the ocean
+        Artist :  Zircon
+        BPM :  130
+        Default step chart :  S03, S06, S09, S15, D11, D16
 
-2)	Song :  Mitotsudaira        
-        Artist :  ETIA. 
-        BPM : 136         
+2)	Song :  Mitotsudaira
+        Artist :  ETIA.
+        BPM : 136
         Default step chart :  S01, S04, S09, S15, S18, D10, D16, D19
 
 
@@ -2309,25 +2309,25 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1200-update-information
 
 Quest “Chapter20” is updated.
 
-1)	Song :  Baroque Virus          
-        Step chart :  S05, S09, S17, S19 
+1)	Song :  Baroque Virus
+        Step chart :  S05, S09, S17, S19
 
-2)	Song :  Papa Gonzales 
-        Step chart :  S06, S08, S14, S20 
+2)	Song :  Papa Gonzales
+        Step chart :  S06, S08, S14, S20
 
-3)	Song :  Heel And Toe        
-        Step chart :  S09, S17, D11, D20 
+3)	Song :  Heel And Toe
+        Step chart :  S09, S17, D11, D20
 
-4)	Song : Y2Z       
+4)	Song : Y2Z
         Step chart :  S09, S16, D17, D21
 
-5)	Song :  Final Audition Episode 2-2          
+5)	Song :  Final Audition Episode 2-2
         Step chart :  D18, D23, D24, D27
 
 
 3. Unlocked Step Charts
 
-1)	Song :  Amphitryon         
+1)	Song :  Amphitryon
         Step chart : S18, D20  - released!
 
 
@@ -2359,7 +2359,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1210-update-information
 2.	New step charts
 
 1)	Song : Bad Apple!! feat. Nomico
-        Artist : Masayoshi Minoshima 
+        Artist : Masayoshi Minoshima
         BPM : 138
         Step chart : S15
 

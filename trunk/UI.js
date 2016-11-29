@@ -64,7 +64,7 @@ function AddRadioButtons( config )
 				config.onToggle( selectedItem, this.checked );
 		} );
 	}
-		
+
 
 	$( "#" + config.id ).toggle( ! config.hidden );
 }

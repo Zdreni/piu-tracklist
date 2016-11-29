@@ -1,7 +1,7 @@
 "use strict";
 
 /* список эталонных чартов:
-S18 - 
+S18 -
 */
 
 var tracklistEstimated = [
@@ -196,7 +196,7 @@ var tracklistForOldMixes = [
                     "Solitary  aNM-18 -> 20",
 ];
 
-					
+
 /*
 Неподтверждённое:
 80's Pop  D-17 (18) -
@@ -247,7 +247,7 @@ function ApplyPatch( tracklist, estimations )
 		if( ! estimation_Match )
 			console.log( "Can't parse estimation " + trackLine );
 		console.assert( estimation_Match );
-		
+
 		var trackTitle = estimation_Match[ 1 ];
 		var chartTag = estimation_Match[ 2 ];
 		var chartLevelText = estimation_Match[ 3 ];
@@ -256,7 +256,7 @@ function ApplyPatch( tracklist, estimations )
 
 		var track = FindTrack( tracklist, trackTitle );
 		console.assert( track );
-		
+
 		var shared = FindChartSharedNew( track, chartTag, chartLevelText );
 		if( ! shared )
 			console.log( "Can't find " + track.title + " " + chartTag + "-" + chartLevelText );

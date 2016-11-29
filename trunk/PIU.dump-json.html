@@ -150,7 +150,7 @@ for( var trackID in tracklist )
 		var chartsArr = DictToArr( charts, function ( key, val ) {  return "&nbsp;&nbsp;" + JStr( key ) + ": " + JStr( val );  } );
 		result += "\t&nbsp;\"charts\": {<br>" + chartsArr.join( ",<br>" ) + "<br>&nbsp;},<br>";
 	}
-	
+
 	var nextMix = false;
 	for( var mixID of mixesOrder )
 	{

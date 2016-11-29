@@ -4,7 +4,7 @@ function AddTags( chart, tags )
 {
 }
 
-/*	
+/*
 function FindChart( track, chartText )
 {
 	for( var chart of track[ mixID ] )
@@ -226,7 +226,6 @@ Tag( "quads",
 	[
 	] );
 
-	
 /*
 Tag(
 [
@@ -234,4 +233,4 @@ Tag(
 "",
 	)
 	*/
-// AddTags( "Arirang  S-18", DRILLS + 
+// AddTags( "Arirang  S-18", DRILLS +

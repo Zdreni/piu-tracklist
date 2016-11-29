@@ -18,7 +18,7 @@
 	<option value="F05">Adios</option>
 	<option value="C13">All Famy</option>
 	<option value="504">All I Want For X-mas</option>
-	<option value="1122">Allegro Con Fuoco</option> 
+	<option value="1122">Allegro Con Fuoco</option>
 	<option value="1426">Allegro Piu Mosso</option>
 	<option value="1426A">Allegro Piu Mosso [HD]</option>
 	<option value="734">Always</option>
@@ -71,7 +71,7 @@
 	<option value="803">Burning Krypt</option>
 	<option value="D25">Bust Back [1]</option>
 	<option value="D25E">Bust Back [2]</option>
-	<option value="1105">Butterfly</option>  
+	<option value="1105">Butterfly</option>
 	<option value="1007">By Chance</option>
 	<option value="602">Bye Bye Bye</option>
 	<option value="913">Can Can [1]</option>
@@ -98,7 +98,7 @@
 	<option value="902A">Circus Magic [2]</option>
 	<option value="902B">Circus Magic [3]</option>
 	<option value="805">Clap Your Hands</option>
-	<option value="1101">Cleaner</option>   
+	<option value="1101">Cleaner</option>
 	<option value="307">Close Your Eyes [1]</option>
 	<option value="307A">Close Your Eyes [2]</option>
 	<option value="307B">Close Your Eyes [3]</option>
@@ -115,7 +115,7 @@
 	<option value="806">Conga</option>
 	<option value="1457">Cosmical Rhythm</option>
 	<option value="1457A">Cosmical Rhythm [HD]</option>
-	<option value="1119">Crashday</option> 
+	<option value="1119">Crashday</option>
 	<option value="1326">Crayon</option>
 	<option value="1326A">Crayon [HD]</option>
 	<option value="F12">Crazy</option>
@@ -161,8 +161,8 @@
 	<option value="702">Emperor</option>
 	<option value="821">Empire of the Sun</option>
 	<option value="E29">Energizer</option>
-	<option value="1115">Energy [1]</option> 
-	<option value="1157">Energy [2]</option> 
+	<option value="1115">Energy [1]</option>
+	<option value="1157">Energy [2]</option>
 	<option value="1012">Enjoy! Enjoy!</option>
 	<option value="C18">Enter the Dragon</option>
 	<option value="809">Eres Para Mi [1]</option>
@@ -233,7 +233,7 @@
 	<option value="308A">Free Style [2]</option>
 	<option value="905">Funky Jockey</option>
 	<option value="109">Funky Tonight</option>
-	<option value="1121">Gargoyle</option> 
+	<option value="1121">Gargoyle</option>
 	<option value="725">Gentleman Quality</option>
 	<option value="E08">Get My Phone Call</option>
 	<option value="A07">Get Up!</option>
@@ -287,7 +287,7 @@
 	<option value="B02">Hot</option>
 	<option value="1109">Hot Issue [1]</option>
 	<option value="1150">Hot Issue [2]</option>
-	<option value="1123">Hungarian Dance V</option>   
+	<option value="1123">Hungarian Dance V</option>
 	<option value="B14">Huu Yah Yeah</option>
 	<option value="D23">Hybs</option>
 	<option value="102">Hypnosis</option>
@@ -321,7 +321,7 @@
 	<option value="1451">Ineffective Boss Without Power</option>
 	<option value="1451A">Ineffective Boss Without Power [HD]</option>
 	<option value="1011">Innocent</option>
-	<option value="1102">Interference</option>  
+	<option value="1102">Interference</option>
 	<option value="E14">It's My Business</option>
 	<option value="825">It's My Party</option>
 	<option value="B16">J Bong</option>
@@ -341,10 +341,10 @@
 	<option value="A17">La Cubanita</option>
 	<option value="1209">Ladybug</option>
 	<option value="F04">LaLaLa</option>
-	<option value="1113">Last Farewell [1]</option> 
-	<option value="1155">Last Farewell [2]</option> 
+	<option value="1113">Last Farewell [1]</option>
+	<option value="1155">Last Farewell [2]</option>
 	<option value="1403">Latino Virus</option>
-	<option value="1403A">Latino Virus [HD]</option>	
+	<option value="1403A">Latino Virus [HD]</option>
 	<option value="815">Lay it Down</option>
 	<option value="919">Lazenca, Save Us</option>
 	<option value="B20">Le Code de Bonne Conduite</option>
@@ -359,7 +359,7 @@
 	<option value="AE03">Let's Groove</option>
 	<option value="1322">Lie</option>
 	<option value="1322A">Lie [HD]</option>
-	<option value="1118">Like A Man</option> 
+	<option value="1118">Like A Man</option>
 	<option value="1467">Limbo</option>
 	<option value="1467A">Limbo [HD]</option>
 	<option value="1338">Log-In</option>
@@ -389,7 +389,7 @@
 	<option value="1314A">Lucid (PIU Edit) [HD]</option>
 	<option value="1327">Mackerel</option>
 	<option value="1108">Magic</option>
-	<option value="1110">Magic Girl</option>   
+	<option value="1110">Magic Girl</option>
 	<option value="605">Mambo #5</option>
 	<option value="409">Man &amp; Woman [1]</option>
 	<option value="409A">Man &amp; Woman [2]</option>
@@ -421,7 +421,7 @@
 	<option value="916A">Monkey Magic [2]</option>
 	<option value="1201">Monolith</option>
 	<option value="C02">Moonlight</option>
-	<option value="1116">Mother</option> 
+	<option value="1116">Mother</option>
 	<option value="1428">Move that Body!</option>
 	<option value="1428A">Move that Body! [HD]</option>
 	<option value="903">Move Your Head [1]</option>
@@ -455,7 +455,7 @@
 	<option value="1151">Night Duty</option>
 	<option value="306">Nightmare [1]</option>
 	<option value="306A">Nightmare [2]</option>
-	<option value="1117">No. 3</option> 
+	<option value="1117">No. 3</option>
 	<option value="E18">No Despair</option>
 	<option value="115">No Particular Reason</option>
 	<option value="1019">No Rhyme No Reason</option>
@@ -533,7 +533,7 @@
 	<option value="AE05">Rappers Delight</option>
 	<option value="1159">Rave Until the Night is Over</option>
 	<option value="1225">Re-Rave</option>
-	<option value="1103">Reality</option> 
+	<option value="1103">Reality</option>
 	<option value="611">Rebola Na Boa</option>
 	<option value="1421">Red Swan</option>
 	<option value="1421A">Red Swan [HD]</option>
@@ -542,7 +542,7 @@
 	<option value="206">Rewind [1]</option>
 	<option value="206A">Rewind [2]</option>
 	<option value="206B">Rewind [3]</option>
-	<option value="1111">Ring Ding Dong</option> 
+	<option value="1111">Ring Ding Dong</option>
 	<option value="1218">Rippin' It Up</option>
 	<option value="1436">Robot Battle</option>
 	<option value="1436A">Robot Battle [HD]</option>
@@ -571,7 +571,7 @@
 	<option value="310">She Likes Pizza [1]</option>
 	<option value="310A">She Likes Pizza [2]</option>
 	<option value="E09">Shiny Day</option>
-	<option value="1112">Shock</option> 
+	<option value="1112">Shock</option>
 	<option value="1334">Sik Asik</option>
 	<option value="516">Slam</option>
 	<option value="F06">Slightly</option>
@@ -605,13 +605,13 @@
 	<option value="1419A">Super Fantasy [HD]</option>
 	<option value="1445">Supermagic</option>
 	<option value="1445A">Supermagic [HD]</option>
-	<option value="1114">Superman</option> 
+	<option value="1114">Superman</option>
 	<option value="727">Swing Baby [1]</option>
 	<option value="727A">Swing Baby [2]</option>
 	<option value="1208">Switchback</option>
 	<option value="1222">Take Me Back</option>
 	<option value="606">Take On Me</option>
-	<option value="1104">Take Out</option>  
+	<option value="1104">Take Out</option>
 	<option value="1024">Tek -Club Copenhagen-</option>
 	<option value="320">Tell Me (Jinusean) [1]</option>
 	<option value="320A">Tell Me (Jinusean) [2]</option>
@@ -622,7 +622,7 @@
 	<option value="D10">Terminal Depository [1]</option>
 	<option value="D10E">Terminal Depository [2]</option>
 	<option value="1010">The Angel Who Lost Wings</option>
-	<option value="1124">The Devil</option> 
+	<option value="1124">The Devil</option>
 	<option value="F22">The People Didn't Know</option>
 	<option value="107">The Rap [1]</option>
 	<option value="107A">The Rap [2]</option>
@@ -691,12 +691,12 @@
 	<option value="318A">We Are [2]</option>
 	<option value="B15">We Don't Stop</option>
 	<option value="D27">We Goin' Fly Remix</option>
-	<option value="1107">We Got 2 Know</option>    
+	<option value="1107">We Got 2 Know</option>
 	<option value="715">We Will Meet Again</option>
 	<option value="110">What Do U Really Want (Monocrome) [1]</option>
 	<option value="110A">What Do U Really Want (Monocrome) [2]</option>
 	<option value="A11">What Do You Really Want? (Crash)</option>
-	<option value="1120">What Happened</option> 
+	<option value="1120">What Happened</option>
 	<option value="C12">What's Goin' On?</option>
 	<option value="712">Will o' the Wisp</option>
 	<option value="1339">Windmill</option>
