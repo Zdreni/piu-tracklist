@@ -129,11 +129,11 @@ var mixes =
 	              patches: ["1.0",  "1.01", "1.02", "1.03", "1.04", "1.05", "1.06", "1.07", "1.08", "1.09", "1.10",
 	                        "1.11", "1.12", "1.13", "1.14", "1.15", "1.16", "1.17", "1.18", "1.19", "1.20", "1.21"] },
 	              //patches: VerList("1.0 .01 .02 .03 .04 .05 .06 .07 .08 .09 .10 .11 .12 .13 .14 .15 .16 .17 .18 .19 .20 .21") },
-	'Prime2':	{ style: "new",
-				  patches: ["1.0"] },
+	'Prime2':   { style: "new",
+	              patches: ["1.0"] },
 };
 
-var mixesOrder = [ "Exceed", "Exceed2", "Zero", "NX", "NX2", "NXA", "Fiesta", "FiestaEX", "Fiesta2", "Prime" ];
+var mixesOrder = [ "Exceed", "Exceed2", "Zero", "NX", "NX2", "NXA", "Fiesta", "FiestaEX", "Fiesta2", "Prime", "Prime2" ];
 var firstNewMixIndex = mixesOrder.indexOf( "Fiesta" );
 var oldMixesReverseOrder = mixesOrder.slice(0, firstNewMixIndex ).reverse();  // NXA..Exceed
 var newMixesOrder = mixesOrder.slice( firstNewMixIndex );  // Fiesta..Prime

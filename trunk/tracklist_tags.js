@@ -216,7 +216,7 @@ Tag( "bruteforce",
 
 Tag( "extreme-twists",
 	[
-		"Love is a Danger Zone 2  S-23",
+		"Love is a Danger Zone 2  D-23",
 		"Love is a Danger Zone (Cranky Mix)  S-19",
 		"Love is a Danger Zone (Cranky Mix)  S-22",
 	] );
