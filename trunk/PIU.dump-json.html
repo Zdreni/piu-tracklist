@@ -85,7 +85,8 @@ for( var trackID in tracklist )
 					delete chart.type;
 			}
 
-			chart.text = chart.tag + "-" + chart.levelText;
+			if( chart.levelText  &&  chart.levelText !== "" )
+				chart.text = chart.tag + "-" + chart.levelText;
 			delete chart.tag;
 			delete chart.levelText;
 			if( isNaN( chart.levelNum )  ||  chart.levelNum === null )

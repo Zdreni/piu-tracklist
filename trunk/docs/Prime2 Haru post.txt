@@ -43,7 +43,7 @@ Red swan dp04/dp20
 1950 s17/d21
 Robot battle s18/d19
 Rock the house d13
-The revolution d22 
+The revolution d22
 Cosmical rhythm d18
 Matador s21/d16/d21
 Karyawisata s15
@@ -56,18 +56,19 @@ Till the end of time s13/s17/d08/d13/d16
 Maria s18
 Rolling Christmas d17
 Turkey march s18/d17/coop
+
 Gone
-Hestia s17/d18
-Leakage d20
-Super fantasy d16
-1950 s16
-Rock the house s16
-The revolution s21/d23/d24
-Cosmical rhythm s16
-Karyawisata d19
-Move that body full d20
-Canon D s18/d18
-Сhicken wing s22
+	Hestia s17/d18
+	Leakage d20
+	Super fantasy d16
+	1950 s16
+	Rock the house s16
+	The revolution s21/d23/d24
+	Cosmical rhythm s16
+	Karyawisata d19
+	Move that body full d20
+	Canon D s18/d18
+	Сhicken wing s22
 
 Full list of returning songs. All charts are back for revivals (same list for Banya revivals as from Fiesta 2, no new anothers back), except Top City D12.
 Arcade:
@@ -94,364 +95,368 @@ Arcade:
 	Bar Bar Bar
 	Baroque virus
 	Be alive
-Beat of the War
-Beat of the War 2
-Beat the Ghost
-Bee
-Beethoven Virus
-Betrayer
-Betrayer -Act. 2-
-Blaze Emotion
-Blaze Emotion (Band Version)
-Blazing
-Break It Down
-Bullfighter's song
-Butterfly
-Campanella
-Cannon X.1
-Canon-D
-Caprice of Otada
-Chicken Wing
-Chimera
-Chinese Restaurant
-Chopsticks Challenge
-Chung hwa ban jeom
-Cleaner
-Close Your Eyes
-Com'back
-Come To Me
-Cosmical Rhythm
-Crashday
-Creed -1st Desire-
-Csikos Post
-D
-D Gang
-Dam
-Dance All Night
-Dance Vibrations
-Dance With Me
-Dawn of the Apocalypse
-Deja Vu
-Destination
-Dieciseis
-Digan Lo Que Digan
-DJ Otada
-Do It -Reggae Style-
-Do you know that -old school-
-Dolly Kiss
-Don't Bother Me
-Dr. M
-Dream to nightmare
-Elise
-Elvis
-Elysium
-Emperor
-Energizer
-Enhanced Reality
-Extravaganza
-Faster Z
-Feel My Happiness
-Final Audition
-Final Audition 2
-Final Audition 3 UF
-Final Audition Episode 1
-Final Audition Episode 2-1
-Final Audition Episode 2-2
-Final Audition Episode 2-X
-First Love
-Flew Far Faster
-Flying Duck
-Follow Me
-Force of Ra
-Four Seasons of Loneliness
-Free Style
-Funky Tonight
-Gargoyle
-Get Up (And Go)
-Get Up!
-Get your groove on
-Guitar Man
-Gun Rock
-Hardkore of the North
-Hate Don't Hate
-Heel and toe
-Hello
-Hello William
-HER
-Heavy Rotation (cover) - AM.Pass exclusive
-Hestia
-Hi-Bi
-Higgledy Piggledy
-Houkago Stride
-Hungarian dance V
-Hyacinth
-Hypercube
-Hypnosis
-Hypnosys remix
-Idealized Romance
-Ignis Fatuus
-Ignition starts
-I'll Give You All My Love
-I'm Sorry
-Imprinting
-Ineffective Boss without Power
-Interference
-J Bong
-Jam O Beat
-Jonathan's dream
-Just Hold On
-K.O.A.
-Kakkoii
-Karyawisata
-Ladybug
-Latino Virus
-Leakage Voltage
-Like me
-Log In
-Loner
-Love is a Danger Zone
-Love is a danger zone (Cranky remix)
-Love is a Danger Zone 2
-Love is a Danger Zone 2 (D&G Ver.)
-Lucid (PIU Edit)
-Mad5cience
-Maria
-Matador
-Mental rider
-Meteorize
-Midnight blue
-Milky Way Galaxy
-Mission possible 
-Mission Possible -Blowback-
-Miss's Story
-Mitotsudaira
-Mobius Strip
-Moment Day
-Money
-Monkey Fingers
-Monkey Fingers 2
-Monolith
-Moonlight
-Move that Body
-Mr. Larpus
-My Dreams
-My Way
-N
-Naissance
-Naissance 2
-Napalm
-Narcisista Por Excelencia
-Native
-Necromancy
-Nemesis
-Nightmare
-NoNoNo
-Oh Rosa
-On and On
-One
-Online
-Overblow
-Oy Oy Oy
-Pandora
-Panuelito Rojo
-Papa Gonzales
-Passacaglia
-Pavane
-Phantom
-Phantom -Intermezzo-
-Pine nut
-Point Break
-Point Zero One
-Pop the Track
-Prime
-Procedimientos Para Llegar A Un Comun Acuerdo
-Pump Jump
-Pump Me Amadeus
-Pumping Jumping
-Pumping Up
-Pumptris 8bit ver. 
-Pumptris Quattro
-Queen of the Red
-Ragnarok
-Rainspark 
-Rave until the night is over
-Re:RAVE
-Reality
-Red Snow
-Red Swan
-Reminiscence
-Removable Disk0
-Renai Yuusha
-Requiem
-Rippin' It Up
-Robot Battle
-Rock the House
-Rockhill
-Rolling Christmas
-Scorpion King
-Selfishness
-Set Me Up
-Setsuna Trip
-She Likes Pizza
-Sik asik
-Silhouette Effect
-Slam
-Smells like a chocolate
-Smile Diary
-Solitary
-Solitary 1.5
-Solitary 2
-Sorano Shirabe
-Sorceress Elise
-Star command
-Stardust Overdrive
-Street Show Down
-Sudden Romance
-Sugar Conspiracy Theory
-Sugar eyes
-Sugar Free
-Super Fantasy
-Super Magic
-Switchback
-Take me back
-Take out
-Tek -Club Copenhagen
-Tepris
-The Devil
-The People Didn't Know
-The Revolution
-Till the End of Time
-Toccata
-Top city
-Trashy Innocense
-Tribe Attacker
-Turkey March
-Turkey March -Minimal Tunes-
-U Got 2 Know
-U got me crazy
-U Got Me Rocking
-Ugly Dee
-Unique
-Unlock (cover) - AM.Pass exclusive
-Utopia
-Vacuum
-Venus
-Very Good
-Video Out C
-Violet Perfume
-Virtual emotion
-Vook
-VVV
-We got 2 know
-We Will Meet Again
-What happened
-Will o' the Wisp
-Windmill
-Winter
-Witch Doctor
-Witch Doctor #1
-Xenesis
-X-rave
-X-Tree
-X-Treme
-Xuxa
-Y2Z
-Yeo Rae A
-Yog Sothoth
-Yoropiku Pikuyoro
-You again my love
+	Beat of the War
+	Beat of the War 2
+	Beat the Ghost
+	Bee
+	Beethoven Virus
+	Betrayer
+	Betrayer -Act. 2-
+	Blaze Emotion
+	Blaze Emotion (Band Version)
+	Blazing
+	Break It Down
+	Bullfighter's song
+	Butterfly
+	Campanella
+	Cannon X.1
+	Canon-D
+	Caprice of Otada
+	Chicken Wing
+	Chimera
+	Chinese Restaurant
+	Chopsticks Challenge
+	Chung hwa ban jeom
+	Cleaner
+	Close Your Eyes
+	Com'back
+	Come To Me
+	Cosmical Rhythm
+	Crashday
+	Creed -1st Desire-
+	Csikos Post
+	D
+	D Gang
+	Dam
+	Dance All Night
+	Dance Vibrations
+	Dance With Me
+	Dawn of the Apocalypse
+	Deja Vu
+	Destination
+	Dieciseis
+	Digan Lo Que Digan
+	DJ Otada
+	Do It -Reggae Style-
+	Do you know that -old school-
+	Dolly Kiss
+	Don't Bother Me
+	Dr. M
+	Dream to nightmare
+	Elise
+	Elvis
+	Elysium
+	Emperor
+	Energizer
+	Enhanced Reality
+	Extravaganza
+	Faster Z
+	Feel My Happiness
+	Final Audition
+	Final Audition 2
+	Final Audition 3 UF
+	Final Audition Episode 1
+	Final Audition Episode 2-1
+	Final Audition Episode 2-2
+	Final Audition Episode 2-X
+	First Love
+	Flew Far Faster
+	Flying Duck
+	Follow Me
+	Force of Ra
+	Four Seasons of Loneliness
+	Free Style
+	Funky Tonight
+	Gargoyle
+	Get Up (And Go)
+	Get Up!
+	Get your groove on
+	Guitar Man
+	Gun Rock
+	Hardkore of the North
+	Hate Don't Hate
+	Heel and toe
+	Hello
+	Hello William
+	HER
+	Heavy Rotation (cover) - AM.Pass exclusive
+	Hestia
+	Hi-Bi
+	Higgledy Piggledy
+	Houkago Stride
+	Hungarian dance V
+	Hyacinth
+	Hypercube
+	Hypnosis
+	Hypnosys remix
+	Idealized Romance
+	Ignis Fatuus
+	Ignition starts
+	I'll Give You All My Love
+	I'm Sorry
+	Imprinting
+	Ineffective Boss without Power
+	Interference
+	J Bong
+	Jam O Beat
+	Jonathan's dream
+	Just Hold On
+	K.O.A.
+	Kakkoii
+	Karyawisata
+	Ladybug
+	Latino Virus
+	Leakage Voltage
+	Like me
+	Log In
+	Loner
+	Love is a Danger Zone
+	Love is a danger zone (Cranky remix)
+	Love is a Danger Zone 2
+	Love is a Danger Zone 2 (D&G Ver.)
+	Lucid (PIU Edit)
+	Mad5cience
+	Maria
+	Matador
+	Mental rider
+	Meteorize
+	Midnight blue
+	Milky Way Galaxy
+	Mission possible
+	Mission Possible -Blowback-
+	Miss's Story
+	Mitotsudaira
+	Mobius Strip
+	Moment Day
+	Money
+	Monkey Fingers
+	Monkey Fingers 2
+	Monolith
+	Moonlight
+	Move that Body
+	Mr. Larpus
+	My Dreams
+	My Way
+	N
+	Naissance
+	Naissance 2
+	Napalm
+	Narcisista Por Excelencia
+	Native
+	Necromancy
+	Nemesis
+	Nightmare
+	NoNoNo
+	Oh Rosa
+	On and On
+	One
+	Online
+	Overblow
+	Oy Oy Oy
+	Pandora
+	Panuelito Rojo
+	Papa Gonzales
+	Passacaglia
+	Pavane
+	Phantom
+	Phantom -Intermezzo-
+	Pine nut
+	Point Break
+	Point Zero One
+	Pop the Track
+	Prime
+	Procedimientos Para Llegar A Un Comun Acuerdo
+	Pump Jump
+	Pump Me Amadeus
+	Pumping Jumping
+	Pumping Up
+	Pumptris 8bit ver.
+	Pumptris Quattro
+	Queen of the Red
+	Ragnarok
+	Rainspark
+	Rave until the night is over
+	Re:RAVE
+	Reality
+	Red Snow
+	Red Swan
+	Reminiscence
+	Removable Disk0
+	Renai Yuusha
+	Requiem
+	Rippin' It Up
+	Robot Battle
+	Rock the House
+	Rockhill
+	Rolling Christmas
+	Scorpion King
+	Selfishness
+	Set Me Up
+	Setsuna Trip
+	She Likes Pizza
+	Sik asik
+	Silhouette Effect
+	Slam
+	Smells like a chocolate
+	Smile Diary
+	Solitary
+	Solitary 1.5
+	Solitary 2
+	Sorano Shirabe
+	Sorceress Elise
+	Star command
+	Stardust Overdrive
+	Street Show Down
+	Sudden Romance
+	Sugar Conspiracy Theory
+	Sugar eyes
+	Sugar Free
+	Super Fantasy
+	Super Magic
+	Switchback
+	Take me back
+	Take out
+	Tek -Club Copenhagen
+	Tepris
+	The Devil
+	The People Didn't Know
+	The Revolution
+	Till the End of Time
+	Toccata
+	Top city
+	Trashy Innocense
+	Tribe Attacker
+	Turkey March
+	Turkey March -Minimal Tunes-
+	U Got 2 Know
+	U got me crazy
+	U Got Me Rocking
+	Ugly Dee
+	Unique
+	Unlock (cover) - AM.Pass exclusive
+	Utopia
+	Vacuum
+	Venus
+	Very Good
+	Video Out C
+	Violet Perfume
+	Virtual emotion
+	Vook
+	VVV
+	We got 2 know
+	We Will Meet Again
+	What happened
+	Will o' the Wisp
+	Windmill
+	Winter
+	Witch Doctor
+	Witch Doctor #1
+	Xenesis
+	X-rave
+	X-Tree
+	X-Treme
+	Xuxa
+	Y2Z
+	Yeo Rae A
+	Yog Sothoth
+	Yoropiku Pikuyoro
+	You again my love
+
 Full songs:
-FULL SONG: Bad Apple
-FULL SONG: Bar Bar Bar
-FULL SONG: Beat of the War 2
-FULL SONG: Canon-D
-FULL SONG: Chopsticks Challenge
-FULL SONG: Crashday
-FULL SONG: Creed -First Desire-
-FULL SONG: Dawn of the Apocalypse
-FULL SONG: Deja Vu
-FULL SONG: Digan Lo Que Digan
-FULL SONG: Four Seasons of Loneliness
-FULL SONG: Interference
-FULL SONG: Love is a Danger Zone 2
-FULL SONG: Move That Body
-FULL SONG: Narcisista Por Excelencia
-FULL SONG: No No No
-FULL SONG: Pandora
-FULL SONG: Panuelito Rojo
-FULL SONG: Procedimientos Para Llegar A Un Comun Acuerdo
-FULL SONG: Sugar Free
-FULL SONG: Trato De No Trabarme
+	FULL SONG: Bad Apple
+	FULL SONG: Bar Bar Bar
+	FULL SONG: Beat of the War 2
+	FULL SONG: Canon-D
+	FULL SONG: Chopsticks Challenge
+	FULL SONG: Crashday
+	FULL SONG: Creed -First Desire-
+	FULL SONG: Dawn of the Apocalypse
+	FULL SONG: Deja Vu
+	FULL SONG: Digan Lo Que Digan
+	FULL SONG: Four Seasons of Loneliness
+	FULL SONG: Interference
+	FULL SONG: Love is a Danger Zone 2
+	FULL SONG: Move That Body
+	FULL SONG: Narcisista Por Excelencia
+	FULL SONG: No No No
+	FULL SONG: Pandora
+	FULL SONG: Panuelito Rojo
+	FULL SONG: Procedimientos Para Llegar A Un Comun Acuerdo
+	FULL SONG: Sugar Free
+	FULL SONG: Trato De No Trabarme
+
 Remixes:
-REMIX: Avalanquiem
-REMIX: BanYa HipHop Mix
-REMIX: B.P. Classic remix
-REMIX: B.P. Classic Remix 2
-REMIX: BanYa Classic Remix
-REMIX: BanYa-P Guitar Remix
-REMIX: Beethoven Influenza
-REMIX: Bemera
-REMIX: Big Metra Remix
-REMIX: Caprice of DJ Otada
-REMIX: Dr. K.O.A
-REMIX: Everybody Got 2 Know
-REMIX: FAE1 & Chicken Wing Remix (NX2 ver.) aka Extra Remix
-REMIX: Hard Core Rock Mix
-REMIX: Infinity RMX
-REMIX: Love is a Danger Zone - Try to BPM
-REMIX: Money Fingers
-REMIX: msgoon RMX pt. 1
-REMIX: msgoon RMX pt. 3
-REMIX: msgoon RMX pt. 5
-REMIX: msgoon RMX pt. 6
-REMIX: Nina/Pxndx Remix
-REMIX: PaPa Helloizing
-REMIX: Paradoxx
-REMIX: Set Up Me2 Mix
-REMIX: Techno repeatorment
-REMIX: The People Didn't Know "Pumping Up"
-REMIX: Treme-Vook of the War
-REMIX: Turkey Virus
-REMIX: Vacuum cleaner
-REMIX: What are you Doin?
-REMIX: Wi-Ex-Doc-Va
+	REMIX: Avalanquiem
+	REMIX: BanYa HipHop Mix
+	REMIX: B.P. Classic remix
+	REMIX: B.P. Classic Remix 2
+	REMIX: BanYa Classic Remix
+	REMIX: BanYa-P Guitar Remix
+	REMIX: Beethoven Influenza
+	REMIX: Bemera
+	REMIX: Big Metra Remix
+	REMIX: Caprice of DJ Otada
+	REMIX: Dr. K.O.A
+	REMIX: Everybody Got 2 Know
+	REMIX: FAE1 & Chicken Wing Remix (NX2 ver.) aka Extra Remix
+	REMIX: Hard Core Rock Mix
+	REMIX: Infinity RMX
+	REMIX: Love is a Danger Zone - Try to BPM
+	REMIX: Money Fingers
+	REMIX: msgoon RMX pt. 1
+	REMIX: msgoon RMX pt. 3
+	REMIX: msgoon RMX pt. 5
+	REMIX: msgoon RMX pt. 6
+	REMIX: Nina/Pxndx Remix
+	REMIX: PaPa Helloizing
+	REMIX: Paradoxx
+	REMIX: Set Up Me2 Mix
+	REMIX: Techno repeatorment
+	REMIX: The People Didn't Know "Pumping Up"
+	REMIX: Treme-Vook of the War
+	REMIX: Turkey Virus
+	REMIX: Vacuum cleaner
+	REMIX: What are you Doin?
+	REMIX: Wi-Ex-Doc-Va
+
 Shortcuts:
-SHORT CUT: Bemera
-SHORT CUT: Chicken Wing
-SHORT CUT: Cleaner
-SHORT CUT: Destination
-SHORT CUT: Exceed 2 Opening
-SHORT CUT: Extravaganza
-SHORT CUT: Final audition 2
-SHORT CUT: Final Audition 3
-SHORT CUT: Final Audition Episode 2-X
-SHORT CUT: Flew Far Faster
+	SHORT CUT: Bemera
+	SHORT CUT: Chicken Wing
+	SHORT CUT: Cleaner
+	SHORT CUT: Destination
+	SHORT CUT: Exceed 2 Opening
+	SHORT CUT: Extravaganza
+	SHORT CUT: Final audition 2
+	SHORT CUT: Final Audition 3
+	SHORT CUT: Final Audition Episode 2-X
+	SHORT CUT: Flew Far Faster
 SHORT CUT: Heavy Rotation (cover) - AM.Pass exclusive
-SHORT CUT: Ignis fatuus
-SHORT CUT: K.O.A
-SHORT CUT: Love is a Danger Zone
-SHORT CUT: Love is a Danger Zone 2
-SHORT CUT: Moonlight
-SHORT CUT: Move That Body
-SHORT CUT: NX Opening
-SHORT CUT: Overblow
-SHORT CUT: Passacaglia
-SHORT CUT: Pop the track
-SHORT CUT: Prime Opening
-SHORT CUT: Procedimientos Para Llegar A Un Comun Acuerdo
-SHORT CUT: Pumptris 8bit Ver.
-SHORT CUT: Rock The House
-SHORT CUT: Selfishness
-SHORT CUT: Silhouette Effect
-SHORT CUT: Solitary 2
-SHORT CUT: Stardust Overdrive
-SHORT CUT: Super Fantasy
-SHORT CUT: Take out
-SHORT CUT: Trotpris
-SHORT CUT: U got me rocking
-SHORT CUT: Unique
-SHORT CUT: Winter
-SHORT CUT: Witch Doctor
-SHORT CUT: X-rave
-SHORT CUT: Yog Sothoth
+	SHORT CUT: Ignis fatuus
+	SHORT CUT: K.O.A
+	SHORT CUT: Love is a Danger Zone
+	SHORT CUT: Love is a Danger Zone 2
+	SHORT CUT: Moonlight
+	SHORT CUT: Move That Body
+	SHORT CUT: NX Opening
+	SHORT CUT: Overblow
+	SHORT CUT: Passacaglia
+	SHORT CUT: Pop the track
+	SHORT CUT: Prime Opening
+	SHORT CUT: Procedimientos Para Llegar A Un Comun Acuerdo
+	SHORT CUT: Pumptris 8bit Ver.
+	SHORT CUT: Rock The House
+	SHORT CUT: Selfishness
+	SHORT CUT: Silhouette Effect
+	SHORT CUT: Solitary 2
+	SHORT CUT: Stardust Overdrive
+	SHORT CUT: Super Fantasy
+	SHORT CUT: Take out
+	SHORT CUT: Trotpris
+	SHORT CUT: U got me rocking
+	SHORT CUT: Unique
+	SHORT CUT: Winter
+	SHORT CUT: Witch Doctor
+	SHORT CUT: X-rave
+	SHORT CUT: Yog Sothoth
+
 All music trains are gone and completely replaced with Random trains.

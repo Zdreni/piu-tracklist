@@ -1474,7 +1474,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1120-update-information
 1) Song : Setsuna Trip
    Artist : LastNote
    BPM : 145
-   Default step chart : S01, S05, S09, S13, S16, D08, D14, CO-OP02
+   Default step chart : S01, S05, S09, S13, S16, D08, D14, CO-OP x2
    Unlock step chart : S??,D??
 
 2) Song : Queen Of The Red
@@ -1517,7 +1517,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1120-update-information
 2) Song : Turkey March
    Artist : Banya
    BPM : 150
-   Step chart : S18(UCS), D17(UCS), CO-OPx02(UCS)
+   Step chart : S18(UCS), D17(UCS), CO-OP x2(UCS)
 
 3) Song : Maria
    Artist : Banya
@@ -1712,12 +1712,12 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1140-update-information
 1) Song :  Trashy Innocence
     Artist :  LastNote
     BPM : 230
-    Default step chart :  S01, S05, S10, S14, D10, D15, CO-OP02
+    Default step chart :  S01, S05, S10, S14, D10, D15, CO-OP x2
     Unlock step chart : S??, D??
 2) Song :  Renai Yuusha
      Artist :  LastNote
      BPM : 190
-     Default step chart :  S03, S06, S12, S17, D04, D13, D18, CO-OP03
+     Default step chart :  S03, S06, S12, S17, D04, D13, D18, CO-OP x3
      Unlock step chart : S??, D??
 3) Song :  Just Hold on (To All Fighters)
      Artist : Void
@@ -1745,7 +1745,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1140-update-information
 2) Song :  Canon D
      Artist :  BanYa
      BPM : 160
-     Step chart :  CO-OP02
+     Step chart :  CO-OP x2
 
 3) Song :   Rock the house
      Artist :   Matduke
@@ -1908,7 +1908,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1160-update-information
 1) Song :  Moment Day
 Artist :  MAX
 BPM : 158
-Default step chart :   S03, S06, S10, S15, S17, D09, D16, CO-OPx02
+Default step chart :   S03, S06, S10, S15, S17, D09, D16, CO-OP x2
 Unlock step chart : S??, D??
 
 2) Song :  Houkago Stride
@@ -2353,7 +2353,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1210-update-information
 2)	Song : Like Me
         Artist : SHK
         BPM : 155
-        Default step chart : S06, S10, S14, S17, D11, D18, CO-OP02
+        Default step chart : S06, S10, S14, S17, D11, D18, CO-OP x2
 
 
 2.	New step charts

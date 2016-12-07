@@ -172,8 +172,8 @@ var OldSpecialTags_low = ["anl", "ahd", "acz", "afs", "anm"];
 
 var OldTagTypes = [ SINGLE, SINGLE, SINGLE, DOUBLE, DOUBLE ];
 
-var NewTags = [ "Sp", "S", "Dp", "D" ];
-var NewTagTypes = [ SINGLE, SINGLE, DOUBLE, DOUBLE ];
+var NewTags = [ "Sp", "S", "Dp", "D", "CoOp" ];
+var NewTagTypes = [ SINGLE, SINGLE, DOUBLE, DOUBLE, COUPLE ];
 
 
 function Normalized( title )
