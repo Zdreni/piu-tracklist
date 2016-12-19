@@ -133,6 +133,9 @@ for( var trackID in tracklist )
 		delete track[ mixID ];
 	}
 
+	if( ! track.charts )
+		continue;
+
 	var charts = track.charts;
 	delete track.charts;
 	for( var chartIndex in charts )

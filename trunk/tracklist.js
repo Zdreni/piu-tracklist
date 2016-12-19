@@ -152,6 +152,7 @@ var ORIGINAL = "Original";
 var KPOP = "K-Pop";
 var WORLD = "World";
 var JMUSIC = "J-Music";
+var XROSS = "Xross";
 
 // duration
 var SHORT = "Short";

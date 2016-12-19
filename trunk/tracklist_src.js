@@ -52,6 +52,221 @@ var tracklist = {
 
 */
 
+// \15 - Prime 2
+
+"1501":
+{
+	title: "Last Rebirth", artist: "SHK", channel: ORIGINAL, bpm: "120",
+	// Prime2_hh: "@1.",
+},
+
+// "1502":
+
+"1503":
+{
+	title: "Hellfire", artist: "Memme", channel: ORIGINAL, bpm: "170",
+	// Prime2_hh: "@1.",
+},
+
+// "1504":
+// "1505":
+// "1506":
+
+"1507":
+{
+	title: "God Mode feat. skizzo", artist: "Nato", channel: ORIGINAL, bpm: "152",
+	// Prime2_hh: "@1.",
+},
+
+// "1508":
+
+"1509":
+{
+	title: "Further", artist: "Doin", channel: ORIGINAL, bpm: "194",
+	// Prime2_hh: "@1.",
+},
+
+// "1510":
+// "1511":
+
+"1512":
+{
+	title: "Bring Back the Beat", artist: "Lunatic Sounds", channel: ORIGINAL, bpm: "160",
+	// Prime2_hh: "@1.",
+},
+
+// "1513":
+// "1514":
+// "1515":
+
+"1516":
+{
+	title: "Sarabande", artist: "MAX", channel: ORIGINAL, bpm: "155",
+	// Prime2_hh: "@1.",
+},
+
+// "1517":
+// "1518":
+// "1519":
+// "1520":
+// "1521":
+// "1522":
+// "1523":
+// "1524":
+
+"1525":
+{
+	title: "Arcana Force", artist: "mzet:-P", channel: ORIGINAL, bpm: "175",
+	// Prime2_hh: "@1.",
+},
+
+// "1526":
+// "1527":
+// "1528":
+// "1529":
+// "1530":
+// "1531":
+// "1532":
+// "1533":
+// "1534":
+// "1535":
+// "1536":
+// "1537":
+// "1538":
+// "1539":
+// "1540":
+// "1541":
+// "1542":
+// "1543":
+
+"1544":
+{
+	title: "Bang Bang Bang", artist: "Big Bang", channel: KPOP, bpm: "135",
+	// Prime2_hh: "@1.",
+},
+
+"1545":
+{
+	title: "Me Gustas Tu", artist: "Gfriend", channel: KPOP, bpm: "106",
+	// Prime2_hh: "@1.",
+},
+
+"1546":
+{
+	title: "Rhythm Ta", artist: "iKon", channel: KPOP, bpm: "82",
+	// Prime2_hh: "@1.",
+},
+
+// "1547":
+
+"1548":
+{
+	title: "Pick Me", artist: "Produce 101", channel: KPOP, bpm: "128",
+	// Prime2_hh: "@1.",
+},
+
+"1549":
+{
+	title: "Jackpot", artist: "Block B", channel: KPOP, bpm: "130",
+	// Prime2_hh: "@1.",
+},
+
+// "1550":
+
+"1551":
+{
+	title: "Boombayah", artist: "Black Pink", channel: KPOP, bpm: "125",
+	// Prime2_hh: "@1.",
+},
+
+// "1552":
+
+"1553":
+{
+	title: "Up & Down", artist: "EXID", channel: KPOP, bpm: "112",
+	// Prime2_hh: "@1.",
+},
+
+// "1554":
+
+"1555":
+{
+	title: "You're the Best", artist: "Mamamoo", channel: KPOP, bpm: "122",
+	// Prime2_hh: "@1.",
+},
+
+"1556":
+{
+	title: "Number Nine", artist: "T-ara", channel: KPOP, bpm: "128",
+	// Prime2_hh: "@1.",
+},
+
+"1557":
+{
+	title: "Acquaintance", artist: "Outsider", channel: KPOP, bpm: "130",
+	// Prime2_hh: "@1.",
+},
+
+// "1558":
+// "1559":
+// "1560":
+// "1561":
+// "1562":
+// "1563":
+
+"1564":
+{
+	title: "Moon Light Dance", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "182",
+	// Prime2_hh: "@1.",
+},
+
+"15A6":
+{
+	title: "Death Moon", artist: "SHK", channel: XROSS, bpm: "160",
+	// Prime2_hh: "@1.",
+},
+
+"15A8":
+{
+	title: "Christmas Memories", artist: "Beautiful Day remixed by Warak", channel: XROSS, bpm: "170",
+	// Prime2_hh: "@1.",
+},
+
+"15B0":
+{
+	title: "Asterios -ReEntry-", artist: "ATAS (NaSch)", channel: XROSS, bpm: "148",
+	// Prime2_hh: "@1.",
+},
+
+"15B1":
+{
+	title: "Le Grand Bleu", artist: "KIEN", channel: XROSS, bpm: "165",
+	// Prime2_hh: "@1.",
+},
+
+"15D0":
+{
+	title: "Vulcan  [REMIX]", artist: "Memme", channel: ORIGINAL, bpm: "",
+	// Prime2_hh: "@1.",
+},
+
+"15E1":
+{
+	title: "Bang Bang Bang  [FULL]", artist: "Big Bang", channel: KPOP, bpm: "135",
+	// Prime2_hh: "@1.",
+},
+
+"15F0":
+{
+	title: "Sarabande  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "",
+	// Prime2_hh: "@1.",
+},
+
+"15F1":
+{
+	title: "Death Moon  [SHORT]", artist: "SHK", channel: XROSS, bpm: "",
+	// Prime2_hh: "@1.",
+},
 
 // \14 - Prime
 
