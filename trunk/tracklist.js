@@ -262,7 +262,7 @@ function FindChartsWithIndexInMixesRange( track, chartIndex, mixIndexFrom, mixIn
 
 function FindChart( track, chartDescr )
 {
-	var chartInfo = chartDescr.split( "." );
+	var chartInfo = chartDescr.split( "-" );
 
 	var mixID = chartInfo.length > 1  ?  chartInfo[ 1 ]  :  "";
 	var localChartDescr = chartInfo [ 0 ];

@@ -57,7 +57,7 @@ var tracklist = {
 "1501":
 {
 	title: "Last Rebirth", artist: "SHK", channel: ORIGINAL, bpm: "120",
-	// Prime2_hh: "@1.",
+	Prime2: "S3 S5 S8 S13 S15.ampass  D7 D14 D16.ampass  Dp3",
 },
 
 // "1502":
@@ -65,7 +65,7 @@ var tracklist = {
 "1503":
 {
 	title: "Hellfire", artist: "Memme", channel: ORIGINAL, bpm: "170",
-	// Prime2_hh: "@1.",
+	Prime2: "S7 S11 S15 S18.ampass  D9 D19.ampass D23",
 },
 
 // "1504":
@@ -75,7 +75,7 @@ var tracklist = {
 "1507":
 {
 	title: "God Mode feat. skizzo", artist: "Nato", channel: ORIGINAL, bpm: "152",
-	// Prime2_hh: "@1.",
+	Prime2: "S5 S8 S13 S18 S20.ampass  D9 D17 D21.ampass",
 },
 
 // "1508":
@@ -83,7 +83,7 @@ var tracklist = {
 "1509":
 {
 	title: "Further", artist: "Doin", channel: ORIGINAL, bpm: "194",
-	// Prime2_hh: "@1.",
+	Prime2: "S10 S18 S22 S24.ampass  D14 D22 D25.ampass",
 },
 
 // "1510":
@@ -92,7 +92,7 @@ var tracklist = {
 "1512":
 {
 	title: "Bring Back the Beat", artist: "Lunatic Sounds", channel: ORIGINAL, bpm: "160",
-	// Prime2_hh: "@1.",
+	Prime2: "S7 S12 S17  D8 D19.ampass",
 },
 
 // "1513":
@@ -101,8 +101,8 @@ var tracklist = {
 
 "1516":
 {
-	title: "Sarabande", artist: "MAX", channel: ORIGINAL, bpm: "155",
-	// Prime2_hh: "@1.",
+	title: "Sarabande", artist: "MAX", channel: ORIGINAL, bpm: "157",
+	Prime2: "S2 S4 S7 S16 S18.ampass  D11 D18 D20.ampass",
 },
 
 // "1517":
@@ -117,7 +117,7 @@ var tracklist = {
 "1525":
 {
 	title: "Arcana Force", artist: "mzet:-P", channel: ORIGINAL, bpm: "175",
-	// Prime2_hh: "@1.",
+	Prime2: "S4 S9 S16 S20.ampass  D10 D17 D20.ampass",
 },
 
 // "1526":
@@ -142,19 +142,19 @@ var tracklist = {
 "1544":
 {
 	title: "Bang Bang Bang", artist: "Big Bang", channel: KPOP, bpm: "135",
-	// Prime2_hh: "@1.",
+	Prime2: "S1 S3 S5 S10 S15  D6 D16 D20.ampass  Sp3",
 },
 
 "1545":
 {
 	title: "Me Gustas Tu", artist: "Gfriend", channel: KPOP, bpm: "106",
-	// Prime2_hh: "@1.",
+	Prime2: "S2 S4 S6 S13 S15.ampass  D6 D14 D16 D19.ampass  Dp4",
 },
 
 "1546":
 {
 	title: "Rhythm Ta", artist: "iKon", channel: KPOP, bpm: "82",
-	// Prime2_hh: "@1.",
+	Prime2: "S2 S4 S7 S10 S15  D5 D11 D17.ampass",
 },
 
 // "1547":
@@ -162,13 +162,13 @@ var tracklist = {
 "1548":
 {
 	title: "Pick Me", artist: "Produce 101", channel: KPOP, bpm: "128",
-	// Prime2_hh: "@1.",
+	Prime2: "S1 S3 S5 S8 S13 S15.ampass  D6 D10 D16  Dp3  CoOp(x2).ampass",
 },
 
 "1549":
 {
 	title: "Jackpot", artist: "Block B", channel: KPOP, bpm: "130",
-	// Prime2_hh: "@1.",
+	Prime2: "S1 S3 S6 S9 S15  D6 D15",
 },
 
 // "1550":
@@ -176,7 +176,7 @@ var tracklist = {
 "1551":
 {
 	title: "Boombayah", artist: "Black Pink", channel: KPOP, bpm: "125",
-	// Prime2_hh: "@1.",
+	Prime2: "S2 S4 S6 S9 S13 S16.ampass  D7 D15 D17.ampass  CoOp(x2)",
 },
 
 // "1552":
@@ -184,7 +184,7 @@ var tracklist = {
 "1553":
 {
 	title: "Up & Down", artist: "EXID", channel: KPOP, bpm: "112",
-	// Prime2_hh: "@1.",
+	Prime2: "S2 S4 S7 S9 S15 S17.ampass  D5 D15  CoOp(x2).ampass",
 },
 
 // "1554":
@@ -192,19 +192,19 @@ var tracklist = {
 "1555":
 {
 	title: "You're the Best", artist: "Mamamoo", channel: KPOP, bpm: "122",
-	// Prime2_hh: "@1.",
+	Prime2: "S2 S4 S6 S10 S15  D7 D10 D16.ampass",
 },
 
 "1556":
 {
 	title: "Number Nine", artist: "T-ara", channel: KPOP, bpm: "128",
-	// Prime2_hh: "@1.",
+	Prime2: "S3 S5 S8 S11 S13 S15.ampass  D8 D15 D17.ampass",
 },
 
 "1557":
 {
 	title: "Acquaintance", artist: "Outsider", channel: KPOP, bpm: "130",
-	// Prime2_hh: "@1.",
+	Prime2: "S3 S7 S9 S17 S20.ampass  D7 D18 D21.ampass  CoOp(x2)",  // Prime2_hh: "@1.",
 },
 
 // "1558":
@@ -217,56 +217,57 @@ var tracklist = {
 "1564":
 {
 	title: "Moon Light Dance", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "182",
-	// Prime2_hh: "@1.",
+	Prime2: "S3 S7 S11 S14 S17.ampass  D4 D15 D19.ampass",
 },
 
 "15A6":
 {
 	title: "Death Moon", artist: "SHK", channel: XROSS, bpm: "160",
-	// Prime2_hh: "@1.",
+	Prime2: "S3 S6 S10 S14 S17 S19.ampass  D7 D17 D21.ampass  CoOp(x2)",
 },
 
 "15A8":
 {
 	title: "Christmas Memories", artist: "Beautiful Day remixed by Warak", channel: XROSS, bpm: "170",
-	// Prime2_hh: "@1.",
+	Prime2: "S3 S5 S8 S14  D9 D15  CoOp(x2)",
 },
 
 "15B0":
 {
 	title: "Asterios -ReEntry-", artist: "ATAS (NaSch)", channel: XROSS, bpm: "148",
-	// Prime2_hh: "@1.",
+	Prime2: "S4 S6 S11 S14 S17 S19.ampass  D8 D18 D21.ampass  CoOp(x2).ampass",
 },
 
 "15B1":
 {
 	title: "Le Grand Bleu", artist: "KIEN", channel: XROSS, bpm: "165",
-	// Prime2_hh: "@1.",
+	Prime2: "S7 S12 S16 S18.ampass  D9 D18 D20.ampass",
 },
 
 "15D0":
 {
-	title: "Vulcan  [REMIX]", artist: "Memme", channel: ORIGINAL, bpm: "",
-	// Prime2_hh: "@1.",
+	title: "Vulcan", artist: "Memme", channel: ORIGINAL, bpm: "175", duration: REMIX,
+	Prime2: "S22  D24",
 },
 
 "15E1":
 {
 	title: "Bang Bang Bang  [FULL]", artist: "Big Bang", channel: KPOP, bpm: "135",
-	// Prime2_hh: "@1.",
+	Prime2: "S6 S18  D20",
 },
 
 "15F0":
 {
-	title: "Sarabande  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "",
-	// Prime2_hh: "@1.",
+	title: "Sarabande  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "157",
+	Prime2: "S9 S16 S18  D17",
 },
 
 "15F1":
 {
-	title: "Death Moon  [SHORT]", artist: "SHK", channel: XROSS, bpm: "",
-	// Prime2_hh: "@1.",
+	title: "Death Moon  [SHORT]", artist: "SHK", channel: XROSS, bpm: "160",
+	Prime2: "S9 S15 S19  D17 D22",
 },
+
 
 // \14 - Prime
 
@@ -793,9 +794,9 @@ var tracklist = {
 
 "1478":
 {
-	title: "Sudden Romance (PIU Edit)",
+	title: "Sudden Romance (PIU Edit)", artist: "void", channel: JMUSIC, bpm: "152",
 	shortTitle: "Sudden Romance",
-	Prime2: "S4 S6 S9 S14 S19 D8 D14 D19",
+	Prime2: "S4 S6 S9 S14 S19  D8 D14 D19",
 	// from PrimeJE
 },
 
@@ -845,8 +846,8 @@ var tracklist = {
 
 "1485":
 {
-	title: "Ai, Yurete",
-	Prime2: "S1 S3 S6 S9 S13 S16 D8 D15 D18",
+	title: "Ai, Yurete", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "152",
+	Prime2: "S1 S3 S6 S9 S13 S16  D8 D15 D18",
 	// from PrimeJE
 },
 
@@ -854,14 +855,14 @@ var tracklist = {
 {
 	title: "Setsuna Trip", artist: "LastNote", channel: JMUSIC, bpm: "145",
 	Prime2: "=",  // Prime2_hh: "=",
-	Prime: "@1.12 S1 S5 S9 S13 S16 D8 D14 CoOp(x2)  S18 D19  @1.17 S3",
+	Prime: "@1.12 S1 S5 S9 S13 S16  D8 D14  CoOp(x2)  S18 D19  @1.17 S3",
 },
 
 "1487":
 {
 	title: "Trashy Innocence", artist: "LastNote", channel: JMUSIC, bpm: "230",
 	Prime2: "=",  // Prime2_hh: "=",
-	Prime: "@1.14 S1 S5 S10 S14 D10 D15 CoOp(x2)  S20 D24  @1.17 S3",
+	Prime: "@1.14 S1 S5 S10 S14  D10 D15  CoOp(x2)  S20 D24  @1.17 S3",
 },
 
 "1488":
@@ -917,14 +918,14 @@ var tracklist = {
 "1495":
 {
 	title: "Unlock", artist: "Daichi Miura (Cover)", channel: JMUSIC, bpm: "128",
-	Prime2: "S2 S3 S5 S7 S11 S14 D3 D9 D15",  //? AM.Pass exclusive
+	Prime2: "S2 S3 S5 S7 S11 S14  D3 D9 D15",  //? AM.Pass exclusive
 	// from PrimeJE
 },
 
 "1496":
 {
 	title: "Heavy Rotation", artist: "AKB48 (Cover)", channel: JMUSIC, bpm: "178",
-	Prime2: "S2 S4 S5 S9 S16 S18 D6 D16 D19 CoOp(x2)",  //? AM.Pass exclusive
+	Prime2: "S2 S4 S5 S9 S16 S18  D6 D16 D19  CoOp(x2)",  //? AM.Pass exclusive
 	// from PrimeJE
 },
 
@@ -1079,7 +1080,7 @@ var tracklist = {
 
 "14E7":
 {
-	title: "Stardust Overdrive  [SHORT]", artist: "typeMARS", bpm: "175",
+	title: "Stardust Overdrive  [SHORT]", artist: "typeMARS", channel: WORLD, bpm: "175",
 	Prime2: "=",  // Prime2_hh: "=",
 	Prime: "@1.09 S16 D17",
 },
@@ -1087,7 +1088,7 @@ var tracklist = {
 "14F0":
 {
 	title: "Heavy Rotation  [SHORT]", artist: "AKB48 (Cover)", channel: JMUSIC, bpm: "178",
-	Prime2: "S10 S15 S18 D9 D16 D20",  //? AM.Pass exclusive
+	Prime2: "S10 S15 S18  D9 D16 D20",  //? AM.Pass exclusive
 	// PrimeJE
 },
 
@@ -3259,7 +3260,7 @@ var tracklist = {
 
 "F55":
 {
-	title: "Forward  [FULL]", artist: "DJ Missill", bpm: "97",
+	title: "Forward  [FULL]", artist: "DJ Missill", channel: KPOP, bpm: "97",
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S4.hd S15.cz D5.fs",
@@ -3277,7 +3278,7 @@ var tracklist = {
 
 "F58":
 {
-	title: "Chocolate  [FULL]", artist: "Banana Girl", bpm: "130",
+	title: "Chocolate  [FULL]", artist: "Banana Girl", channel: KPOP, bpm: "130",
 	NXA_: ["", "6", "15", "8", ""],
 },
 
@@ -3299,7 +3300,7 @@ var tracklist = {
 
 "F57":
 {
-	title: "Come On!  [FULL]", artist: "Lee Jeong Hyun", bpm: "140",
+	title: "Come On!  [FULL]", artist: "Lee Jeong Hyun", channel: WORLD, bpm: "140",
 	NXA_: ["", "6", "", "6", ""],
 },
 
@@ -3327,13 +3328,13 @@ var tracklist = {
 
 "F61":
 {
-	title: "Crazy  [FULL]", artist: "Gyfted", bpm: "108.1",
+	title: "Crazy  [FULL]", artist: "Gyfted", channel: KPOP, bpm: "108",
 	NXA_: ["", "3", "13", "3", ""],
 },
 
 "F62":
 {
-	title: "U  [FULL]", artist: "Super Junior M", bpm: "115",
+	title: "U  [FULL]", artist: "Super Junior M", channel: KPOP, bpm: "115",
 	NXA_: ["", "3", "15", "3", ""],
 },
 
@@ -3854,7 +3855,7 @@ var tracklist = {
 	Prime2: "=",  // Prime2_hh: "=",
 	Prime: "=",
 	Fiesta2: "=",
-	FiestaEX: "Sp3.nl S9.hd S15.cz Dp7.fs D20.nm  S16.ahd.NX2 S18.acz.NX2 D17.afs.NX2 D19.anm.NX2   @1.51 S2 S5 S8",
+	FiestaEX: "Sp3.nl S9.hd S15.cz Dp7.fs D20.nm  S16.ahd-NX2 S18.acz-NX2 D17.afs-NX2 D19.anm-NX2   @1.51 S2 S5 S8",
 	NXA: ["3", "7", "14", "5", "19"], NXA_: ["", "7", "18", "7", "20"],
 	NX2: ["3", "7", "14", "5", "19"], NX2_: ["", "18", "20", "19", "21"],
 	NX: ["3", "7", "14", "5", "19"], NX_: ["", "17", "18", "20", ""],
@@ -6402,294 +6403,322 @@ function GetSharedChart( track, idx )
 	return track.charts[ idx ];
 }
 
+// On NX, both 15 and 16 were marked as one 'skull' mark. So the only way to determine level precisely
+// is to pass it with predictable score and calculate level bonus multiplier manually.
+var NX_GLITCH_LEVEL = "15/16"
+
+function PreprocessOldStyleStation( track, inCharts, zone, tags, oldSlotSharedCharts )
+{
+	var result = [];
+
+	if( ! inCharts )
+		return result;
+
+	for( var i = 0;  i < OldTagTypes.length;  ++i )
+	{
+		if( inCharts[ i ] === "" )
+			continue;
+
+		var chart = {};
+		chart.tag = tags[ i ];
+		if( ! oldSlotSharedCharts[ chart.tag ] )
+			oldSlotSharedCharts[ chart.tag ] = GetSharedChart( track, ++track.chartsCount );
+		chart.shared = oldSlotSharedCharts[ chart.tag ];
+		ParseChartLevel( chart, inCharts[ i ] );
+
+		if( isNaN( chart.levelNum )  ||  ( String( chart.levelNum ) != chart.levelText  &&  ! chart.levelText.endsWith( "(" + String( chart.levelNum ) + ")" ) ) )
+		{
+			if( inCharts[ i ] === NX_GLITCH_LEVEL )
+				chart.levelNum = 15;
+			else if( inCharts[ i ].startsWith( "??" ) )
+				;
+			else
+				console.log( "Error: level of '" + track.title + "  " + tags[ i ] + "-" + inCharts[ i ] + "' can't be parsed, got " + String( chart.levelNum ) );
+		}
+
+		chart.text = chart.tag + "-" + inCharts[ i ];
+		var chartType = chart.shared.players  ?  COUPLE  :  OldTagTypes[ i ];
+		if( ! chart.shared.type )
+			chart.shared.type = chartType;
+		else
+			console.assert( chart.shared.type == chartType );
+
+		chart.zone = zone;
+		result.push( chart );
+	}
+
+	return result;
+}
+
+/*
+function PreprocessOldStyleListCharts( track, mixID, oldSlotSharedCharts )
+{
+	var arcadeCharts = track[ mixID ];
+	var anotherCharts = track[ mixID + "_" ];
+	var result = [];
+
+	if( track.duration === REMIX  ||  track.duration === FULL )
+	{
+		result.concat( PreprocessOldStyleStation( anotherCharts, SPECIAL, OldArcadeTags, oldSlotSharedCharts ) );
+	}
+	else
+	{
+		result.concat( PreprocessOldStyleStation( arcadeCharts, ARCADE, OldArcadeTags, oldSlotSharedCharts, result ) );
+		result.concat( PreprocessOldStyleStation( anotherCharts, SPECIAL, OldSpecialTags, oldSlotSharedCharts, result ) );
+	}
+
+	return( result.length > 0  ?  result  :  undefined );
+}
+*/
+
+function ParseNewStyleChart( track, chartText, sharedIndex )
+{
+	for( var prefix of NewTags )
+		if( chartText.indexOf( prefix ) === 0 )
+		{
+			var chart = {};
+			chart.shared = GetSharedChart( track, sharedIndex > 0  ?  sharedIndex  :  ++track.chartsCount );
+			ParseChartLevel( chart, chartText.substring( prefix.length ) );
+			chart.text = chartText;
+			chart.tag = prefix;
+			var chartType = ( chart.shared.players  ?  COUPLE  :  ( prefix[0] === "S"  ?  SINGLE  :  DOUBLE ) );
+			if( ! chart.shared.type )
+				chart.shared.type = chartType;
+			else
+				console.assert( chart.shared.type === chartType );
+
+			return chart;
+		}
+	alert( "Unknown chart tag '" + chartText + "'" );
+}
+
+
+function PreprocessNewStyleChart( track, result, chartDescr, mixID, patchIndex )
+{
+	var descrTokens = chartDescr.split( "." );
+	var chartText = descrTokens[ 0 ];
+	descrTokens = descrTokens.slice( 1 );
+
+	var sharedIndex = 0;
+	var prevChart;
+	var chartIsUcs = false;
+
+	for( var token of descrTokens )
+	{
+		if( token === "new" )
+			continue;
+
+		if( token === "ucs" )
+		{
+			chartIsUcs = true;
+			continue;
+		}
+
+		if( token === "ampass" )
+			continue;
+
+		prevChart = FindChart( track, token );
+		if( ! prevChart )
+			alert( "Unknown prev chart '" + track.title + "  " + token + "'" );
+		console.assert( prevChart );
+		sharedIndex = prevChart.shared.index;
+	}
+
+	var chart = ParseNewStyleChart( track, chartText, sharedIndex );
+
+	if( prevChart )
+		chart.fromMixID = prevChart.fromMixID;
+	else
+		chart.fromMixID = mixID;
+
+	if( chartIsUcs )
+		chart.isUCS = true;
+
+	if( chart && prevChart )
+		console.assert( ( prevChart.type === SINGLE ) === ( chart.type === SINGLE ) );
+
+	result.push( chart );
+
+	if( patchIndex > 0 )
+		chart.fromPatchIndex = patchIndex;
+
+	return chart;
+}
+
+
+function RemoveNewStyleChart( track, mixID, chartText )
+{
+	var index = _.findIndex( track[ mixID ], function( item ) { return item.text === chartText; } );
+	if( index < 0)
+	{
+		console.log( "Can't find " + track.title + " " + chartText + " on " + mixID );
+		console.assert( index >= 0 );
+		return;
+	}
+	track[ mixID ].splice( index, 1 );
+}
+
+
+function CopyCharts( track, mixID, fromMixID, patchIndex )
+{
+	console.assert( track[ mixID ].length === 0 );
+
+	if( fromMixID === "" )
+	{
+		var mixIndex = mixesOrder.indexOf( mixID );
+		for( var i = mixIndex - 1;  i >= 0;  --i )
+			if( track[ mixesOrder[ i ] ] )
+			{
+				fromMixID = mixesOrder[ i ];
+				break;
+			}
+	}
+
+	console.assert( track[ fromMixID ] );
+	track[ mixID ] = JSON.parse( JSON.stringify( track[ fromMixID ] ) );
+	for( var chart of track[ mixID ] )
+	{
+		if( patchIndex > 0 )
+			chart.fromPatchIndex = patchIndex;
+		else
+			delete chart.fromPatchIndex;
+	}
+}
+
+
+function ParsePatchIndex( mixID, patchName )
+{
+	var patchIndex = mixes[ mixID ].patches.indexOf( patchName );
+	if( patchIndex < 0 )
+	{
+		console.log( "ERROR: No patch " + patchName + " for " + mixID );
+		alert( "No patch " + patchName + " for " + mixID );
+		console.assert( false );
+	}
+}
+
+
+function PreprocessNewStyleStringCharts( track, mixID )
+{
+	var chartsStr = track[ mixID ];
+	if( ! chartsStr )
+		return;
+
+	track[ mixID ] = [];
+
+	var charts = chartsStr.split( " " );
+	var patchIndex = mixes[ mixID ].patches ? 0 : -1;
+	for( var token of charts )
+	{
+		if( token === "")
+		{
+		}
+		else if( token[0] === '=' )
+		{
+			CopyCharts( track, mixID, token.substr( 1 ), patchIndex );
+		}
+		else if( token[0] === '+' )
+		{
+			var chart = PreprocessNewStyleChart( track, track[ mixID ], token.substr( 1 ), mixID, patchIndex );
+		}
+		else if( token[0] === 'S'  ||  token[0] === 'D'  ||  token.substr(0, 4) === 'CoOp' )  // implicit '+' is considered
+		{
+			var chart = PreprocessNewStyleChart( track, track[ mixID ], token, mixID, patchIndex );
+		}
+		else if( token[0] === '-' )
+		{
+			RemoveNewStyleChart( track, mixID, token.substring( 1 ) );
+		}
+		else if( token[0] === '@' )
+		{
+			patchIndex = ParsePatchIndex( mixID, token.substring( 1 ) );
+		}
+		else
+		{
+			var message = "Unrecognized '" + track.title + "' chart token :'" + token + "'";
+			console.log( "ERROR: " + message );
+			alert( message );
+			console.assert( false );
+		}
+	}
+}
+
+
+function PreprocessOldStyleListCharts( track, mixID, oldSlotSharedCharts )
+{
+	var mix = mixes[ mixID ];
+	console.assert( mix.style === "old"  ||  ! track[ mixID ] );
+
+	var arcadeCharts = track[ mixID ];
+	var specialCharts = track[ mixID + "_" ];
+	if( arcadeCharts  ||  specialCharts )
+	{
+		// for check:
+		// track[ mixID + "_A" ] = arcadeCharts;
+		// track[ mixID + "_S" ] = specialCharts;
+
+		if( track.duration !== REMIX  &&  track.duration !== FULL )
+			track[ mixID ] = PreprocessOldStyleStation( track, arcadeCharts, ARCADE, OldArcadeTags, oldSlotSharedCharts )
+		                     .concat(
+			                 PreprocessOldStyleStation( track, specialCharts, SPECIAL, OldSpecialTags, oldSlotSharedCharts )
+			                 );
+		else
+			track[ mixID ] = PreprocessOldStyleStation( track, specialCharts, SPECIAL, OldArcadeTags, oldSlotSharedCharts );
+
+		console.assert( track[ mixID ].length > 0 );
+
+		delete track[ mixID + "_" ];
+	}
+}
+
+
+function GuessDurationFromTitle( title )
+{
+	if( title.endsWith( "[SHORT]" ) )
+		return SHORT;
+	if( title.endsWith( "[FULL]" ) )
+		return FULL;
+
+	return STANDARD;
+}
+
+
+function PreprocessTrack( track )
+{
+	if( ! track.duration )
+		track.duration = GuessDurationFromTitle( track.title );
+
+	if( ! track.artist )
+		console.log("Warning: " + track.title + " has no artist specified." );
+
+	if( ! track.channel )
+		track.channel = knownArtists[ track.artist ];
+	else if( knownArtists[ track.artist ] === track.channel )
+		console.log("Warning: '" + track.title + "'' artist '" + track.artist + "' channel is already defined as '" + track.channel + "'" );
+
+	if( ! track.bpm )
+		console.log("Warning: " + track.title + " has no bpm specified." );
+
+	if( track.duration !== REMIX  &&  [ORIGINAL, WORLD, KPOP, JMUSIC].indexOf( track.channel ) < 0 )
+		console.log("Warning: " + track.title + " has no channel specified.")
+
+	track.chartsCount = 0;
+
+	var oldSlotSharedCharts = {};
+	for( var mixID of mixesOrder )
+	{
+		if( typeof track[ mixID ] === "string" )
+			PreprocessNewStyleStringCharts( track, mixID );
+		else
+			PreprocessOldStyleListCharts( track, mixID, oldSlotSharedCharts );
+	}
+}
+
+
 function PreprocessTracklist()
 {
-	function PreprocessOldStyleListCharts( track, mixID )
-	{
-		var arcadeCharts = track[ mixID ];
-		var anotherCharts = track[ mixID + "_" ];
-		var result = [];
-
-		function PreprocessStation( inCharts, zone, tags )
-		{
-			if( ! inCharts )
-				return;
-
-			for( var i = 0;  i < OldTagTypes.length;  ++i )
-			{
-				if( inCharts[ i ] === "" )
-					continue;
-
-				var chart = {};
-				chart.tag = tags[ i ];
-				if( ! track.oldSlotSharedCharts[ chart.tag ] )
-					track.oldSlotSharedCharts[ chart.tag ] = GetSharedChart( track, ++track.chartsCount );
-				chart.shared = track.oldSlotSharedCharts[ chart.tag ];
-				ParseChartLevel( chart, inCharts[ i ] );
-
-				if( isNaN( chart.levelNum ) )
-				{
-					if( inCharts[ i ] === "15/16" ) // NX glitch
-					{
-						chart.levelNum = 15;
-					}
-					else
-					{
-						console.log( "Error: real level of '" + track.title + "  " + tags[ i ] + "-" + inCharts[ i ] + "' can't be parsed." );
-						//chart.levelNum = 0;
-					}
-				}
-
-				if( String(chart.levelNum) != chart.levelText )
-				{
-					console.log( "Error: level of '" + track.title + "  " + tags[ i ] + "-" + inCharts[ i ] + "' parsed incorrectly." );
-					//chart.levelNum = 0;
-				}
-
-				chart.text = chart.tag + "-" + inCharts[ i ];
-				var chartType = chart.shared.players  ?  COUPLE  :  OldTagTypes[ i ];
-				if( ! chart.shared.type )
-					chart.shared.type = chartType;
-				else
-					console.assert( chart.shared.type == chartType );
-
-				chart.zone = zone;
-				result.push( chart );
-			}
-		}
-
-		PreprocessStation( arcadeCharts, ARCADE, OldArcadeTags );
-		if( track.duration === REMIX  ||  track.duration === FULL )
-			PreprocessStation( anotherCharts, SPECIAL, OldArcadeTags );
-		else
-			PreprocessStation( anotherCharts, SPECIAL, OldSpecialTags );
-
-		return( result.length > 0  ?  result  :  undefined );
-	}
-
-
-	function ParseNewStyleChart( track, chartText, index )
-	{
-		for( var prefix of NewTags )
-			if( chartText.indexOf( prefix ) === 0 )
-			{
-				var chart = {};
-				chart.shared = GetSharedChart( track, index > 0  ?  index  :  ++track.chartsCount );
-				ParseChartLevel( chart, chartText.substring( prefix.length ) );
-				chart.text = chartText;
-				chart.tag = prefix;
-				var chartType = ( chart.shared.players  ?  COUPLE  :  ( prefix[0] === "S"  ?  SINGLE  :  DOUBLE ) );
-				if( ! chart.shared.type )
-					chart.shared.type = chartType;
-				else
-					console.assert( chart.shared.type === chartType );
-
-				return chart;
-			}
-		alert( "Unknown chart tag '" + chartText + "'" );
-	}
-
-
-	function PreprocessNewStyleChart( track, result, chartDescr, mixID )
-	{
-		var chartInfo = chartDescr.split( "." );
-
-		var prevChartIndex = 0;
-		var prevChart;
-		var chartIsUcs = false;
-
-		if( chartInfo.length > 1  &&  chartInfo[1] != "new")
-		{
-			var prevChartDescr = chartInfo.slice( 1 ).join( "." );
-			if( prevChartDescr === "ucs" )
-			{
-				chartIsUcs = true;
-			}
-			else
-			{
-				prevChart = FindChart( track, prevChartDescr );
-				console.assert( prevChart );
-				prevChartIndex = prevChart.shared.index;
-			}
-		}
-
-		var chart = ParseNewStyleChart( track, chartInfo[ 0 ], prevChartIndex );
-
-		if( prevChartIndex > 0 )
-			chart.fromMixID = prevChart.fromMixID;
-		else
-			chart.fromMixID = mixID;
-
-		if( chartIsUcs )
-			chart.isUCS = true;
-
-		if( chart && prevChart )
-			console.assert( ( prevChart.type === SINGLE ) === ( chart.type === SINGLE ) );
-
-		if( chart )
-			result.push( chart );
-
-		return chart;
-	}
-
-
-	function RemoveNewStyleChart( track, mixID, chartText )
-	{
-		var index = _.findIndex( track[ mixID ], function( item ) { return item.text === chartText; } );
-		if( index < 0)
-		{
-			console.log( "Can't find " + track.title + " " + chartText + " on " + mixID );
-			console.assert( index >= 0 );
-			return;
-		}
-		track[ mixID ].splice( index, 1 );
-	}
-
-
-	function PreprocessNewStyleStringCharts( track, mixID )
-	{
-		var chartsStr = track[ mixID ];
-		if( ! chartsStr )
-			return;
-
-		track[ mixID ] = [];
-
-		var charts = chartsStr.split( " " );
-		var patchIndex = mixes[ mixID ].patches ? 0 : -1;
-		for( var chartText of charts )
-		{
-			if( chartText === "")
-				continue;
-
-			if( chartText[0] === '=' )
-			{
-				var fromMixID = chartText.substr( 1 );
-				if( fromMixID === "" )
-				{
-					//fromMixID = GetPreviousMixID( mixID );
-					var mixIndex = mixesOrder.indexOf( mixID );
-					for( var i = mixIndex - 1;  i >= 0;  --i )
-						if( track[ mixesOrder[ i ] ] )
-						{
-							fromMixID = mixesOrder[ i ];
-							break;
-						}
-				}
-
-				console.assert( track[ fromMixID ] );
-				track[ mixID ] = JSON.parse( JSON.stringify( track[ fromMixID ] ) );
-				for( var chart of track[ mixID ] )
-				{
-					if( patchIndex > 0 )
-						chart.fromPatchIndex = patchIndex;
-					else
-						delete chart.fromPatchIndex;
-				}
-			}
-			else if( chartText[0] === '+' )
-			{
-				var chart = PreprocessNewStyleChart( track, track[ mixID ], chartText.substring( 1 ), mixID );
-				if( patchIndex > 0 )
-					chart.fromPatchIndex = patchIndex;
-			}
-			else if( chartText[0] === 'S'  ||  chartText[0] === 'D'  ||  chartText.substring(0, 4) === 'CoOp' )  // implicit '+' is considered
-			{
-				var chart = PreprocessNewStyleChart( track, track[ mixID ], chartText, mixID );
-				if( patchIndex > 0 )
-					chart.fromPatchIndex = patchIndex;
-			}
-			else if( chartText[0] === '-' )
-			{
-				RemoveNewStyleChart( track, mixID, chartText.substring( 1 ) );
-			}
-			else if( chartText[0] === '@' )
-			{
-				var patch = chartText.substring( 1 );
-				patchIndex = mixes[ mixID ].patches.indexOf( patch );
-				if( patchIndex < 0 )
-				{
-					console.log( "ERROR: no patch " + patch + " for " + mixID );
-					console.assert( patchIndex >= 0 );
-				}
-			}
-			else
-			{
-				var message = "Unrecognized chart :'" + chartText + "'";
-				console.log( "ERROR: " + message );
-				alert( message );
-				console.assert( false );
-			}
-		}
-	}
-
-
-	function PreprocessListCharts( track, mixID )
-	{
-		var mix = mixes[ mixID ];
-		console.assert( mix.style === "old"  ||  ! track[ mixID ] );
-
-		if( track[ mixID ]  ||  track[ mixID + "_" ] )
-		{
-			// for check:
-			// track[ mixID + "_A" ] = track[ mixID ];
-			// track[ mixID + "_S" ] = track[ mixID + "_" ];
-
-			track[ mixID ] = PreprocessOldStyleListCharts( track, mixID );
-
-			delete track[ mixID + "_" ];
-		}
-	}
-
-
-	function GuessDurationFromTitle( title )
-	{
-		if( title.endsWith( "[SHORT]" ) )
-			return SHORT;
-		if( title.endsWith( "[FULL]" ) )
-			return FULL;
-
-		return STANDARD;
-	}
-
-
 	for( var trackID in tracklist )
-	{
-		var track = tracklist[ trackID ];
-
-		if( ! track.duration )
-			track.duration = GuessDurationFromTitle( track.title );
-
-		if( ! track.artist )
-			console.log("Warning: " + track.title + " has no artist specified." );
-
-		if( ! track.channel )
-			track.channel = knownArtists[ track.artist ];
-		else if( knownArtists[ track.artist ] === track.channel )
-			console.log("Warning: " + track.title + " artist channel is globally defined." );
-
-		if( ! track.bpm )
-			console.log("Warning: " + track.title + " has no bpm specified." );
-
-		//if( track.channel )
-		if( track.duration !== REMIX  &&  [ORIGINAL, WORLD, KPOP, JMUSIC].indexOf( track.channel ) < 0 )
-			console.log("Warning: " + track.title + " has no channel specified.")
-
-		track.chartsCount = 0;
-
-		for( var mixID of mixesOrder )
-		{
-			if( typeof track[ mixID ] === "string" )
-				PreprocessNewStyleStringCharts( track, mixID );
-			else
-			{
-				if( ! track.oldSlotSharedCharts )
-					track.oldSlotSharedCharts = {};
-				PreprocessListCharts( track, mixID );
-			}
-		}
-
-		delete track.oldSlotSharedCharts;
-	}
+		PreprocessTrack( tracklist[ trackID ] );
 }
 
 
