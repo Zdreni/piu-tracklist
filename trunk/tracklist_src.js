@@ -6595,6 +6595,7 @@ function ParsePatchIndex( mixID, patchName )
 		alert( "No patch " + patchName + " for " + mixID );
 		console.assert( false );
 	}
+	return patchIndex;
 }
 
 
