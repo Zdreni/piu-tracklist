@@ -311,7 +311,7 @@ http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=107&page=2
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Fiesta EX 1.40:
+Fiesta EX  1.40:
 http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=110&page=2
 
 1. New Songs !
@@ -337,7 +337,7 @@ We apologize to Disko Warp records and any of their affiliates for the confusion
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Fiesta EX 1.51:
+Fiesta EX  1.51:
 https://www.facebook.com/notes/449963461698581/
 
 1. UCS(User Custom Step) !
@@ -818,7 +818,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1020-update-information
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Prime 1.03:
+Prime  1.03:
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1030-update-information/1045108392184082
 (prime_02.bin)
 
@@ -872,7 +872,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1030-update-information
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Prime 1.04:
+Prime  1.04:
 https://www.facebook.com/piugame/posts/1067527343275520
 (prime_03.bin)
 
@@ -1197,7 +1197,7 @@ Please refer to the UCS WEB page for the details.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Prime 1.09
+Prime  1.09
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1090-update-information/1158163230878597
 (prime_08.bin)
 
@@ -1275,7 +1275,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1090-update-information
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Prime 1.10
+Prime  1.10
 https://www.facebook.com/notes/1175368725824714/
 (prime_09.bin)
 
@@ -1358,7 +1358,7 @@ Thanks!!
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Prime 1.11
+Prime  1.11
 https://www.facebook.com/notes/1189158797779040/
 (prime_10.bin, prime_11.bin)
 
@@ -1465,7 +1465,7 @@ https://www.facebook.com/notes/1189158797779040/
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Prime 1.12
+Prime  1.12
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1120-update-information/1209014152460171
 (prime_111.bin)
 
@@ -1629,7 +1629,7 @@ The songs listed below are moved to J-MUSIC Channel.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Prime 1.13
+Prime  1.13
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1130-update-information/1230466223648297
 (prime_12.bin)
 
@@ -1704,7 +1704,7 @@ Arcade location name is now indicated in game result screen
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Prime 1.14
+Prime  1.14
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1140-update-information/1249949081700011
 (prime_13.bin)
 
@@ -1898,7 +1898,7 @@ Quest “Chapter15” is updated.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Prime 1.16
+Prime  1.16
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1160-update-information/1303524496342469
 (prime_15.bin)
 
@@ -1990,7 +1990,7 @@ It is now available to play for 2 players in Rank mode of event mode
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Prime 1.17
+Prime  1.17
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1170-update-information/1323575054337413
 (prime_16.bin)
 
@@ -2080,7 +2080,7 @@ All locked step charts are unlocked in EVENT mode and will be available until 1.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Prime 1.17.1
+Prime  1.17.1
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1180-update-delay-notice/1347936445234607
 (prime_17.bin)
 
@@ -2093,7 +2093,7 @@ If 1.17.1 update is successfully done, 1.18.0 update by online is available.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Prime 1.18
+Prime  1.18
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1180-update-information/1348601531834765
 (prime_171.bin)
 
@@ -2144,7 +2144,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1180-update-information
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Prime 1.19
+Prime  1.19
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1190-update-information/1369478283080423
 (prime_18.bin)
 
@@ -2285,7 +2285,7 @@ Quest “Chapter19” is updated.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Prime 1.20
+Prime  1.20
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1200-update-information/1395918663769718
 (prime_19.bin)
 
@@ -2338,7 +2338,7 @@ Quest “Chapter20” is updated.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Prime 1.21
+Prime  1.21
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1210-update-information/1431142530247331
 (prime_20.bin)
 
@@ -2406,3 +2406,44 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1210-update-information
 
 
  See you next PRIME
+ 
+ 
+ ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Prime 2  1.01.0:
+https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1010-update-notice/1571313309563585
+(.bin)
+
+1.	New Songs 
+1)	Song :  Clue
+        Artist :  Transin                 
+        BPM :  140    
+        Default step chart :  S04, S08, S12, S16, D10, D18
+        S??, D?? (Card only step)   
+2)	Song :  Just Kiddin                
+        Artist :  Vospi          
+        BPM : 125                  
+        Default step chart :  S05, S13, S16, D09
+        D?? (Card only step)
+3)	Song :  (FULL SONG) Me Gustas Tu                    
+        Artist :  GFriend                   
+        BPM : 106                           
+        Default step chart :  S16, D17
+
+2.	Bug fixing 
+ - Fix typo in BGA text
+ - Minor bug fixing
+
+3.	Additional function
+ - DR command can be applied to 1P/2P each
+
+4.	Fix national use songs problem
+ - Some songs that supposed to be played only particular country were possible to play in any countries after login by AM.PASS card and we fixed that problem.
+         
+     1) Miura Daichi (Cover) – Unlock (Changed to be played only in Japan)  
+     2) AKB48 (Cover) – Heavy Rotation (Changed to be played only in Japan)  
+     3) Daddy Yankee – Limbo (Changed to be played only in South American countries)  
+     4) Lylloo feat. Egas – Melodia (Changed to be played only in South American countries)  
+     5) Wisin Ft.. Michel Teló – Que Viva La Vida  (Changed to be played only in South American countries)
+ 
+- We apologize for any caused inconveniences.
