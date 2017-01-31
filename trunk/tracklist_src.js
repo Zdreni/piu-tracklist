@@ -5232,7 +5232,7 @@ var tracklist = {
 
 "911":
 {
-	title: "Chicken Wing", artist: "BanYa", bpm: "200",
+	title: "Chicken Wing", artist: "BanYa", bpm: "200", fromMix: "Extra",
 	Prime2: "= -S22",  // Prime2_hh: "=",
 	Prime: "=  @1.17 S21.ucs S22.ucs D23.ucs",
 	Fiesta2: "=  @1.60 S17",
