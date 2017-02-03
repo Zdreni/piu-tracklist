@@ -36,7 +36,7 @@ Prime: "= -S10  @1.51 D13 Dp??(x3)"
 
 ID треков берутся из
 	https://en.wikipedia.org/wiki/List_of_Pump_It_Up_songs
-	https://en.m.wikipedia.org/wiki/Pump_It_Up_(video_game_series)
+	https://en.wikipedia.org/wiki/Pump_It_Up_(video_game_series)
 	http://freiritogeek.blogspot.com/2015/04/total-de-canciones-desbloqueables-en.html
 */
 
@@ -47,9 +47,27 @@ var tracklist = {
 "15xx":
 {
 	title: "", artist: "", channel: , bpm: "",
-	// Prime2_hh: "@1.",
+	Prime2: "@1.01",
 },
 
+
+"15xx Clue":
+{
+	title: "Clue", artist: "Transin", channel: XROSS, bpm: "140",
+	Prime2: "@1.01 S4 S8 S12 S16 D10 D18  S18.ampass D20.ampass",
+},
+
+"15xx Just Kiddin":
+{
+	title: "Just Kiddin", artist: "Vospi", channel: WORLD, bpm: "125",
+	Prime2: "@1.01 S5 S13 S16 D9  D18.ampass",
+},
+
+"15xx Me Gustas Tu  [FULL]":
+{
+	title: "Me Gustas Tu  [FULL]", artist: "GFriend", channel: KPOP, bpm: "106",
+	Prime2: "@1.01 S16 D17",
+},
 */
 
 // \15 - Prime 2
@@ -57,7 +75,7 @@ var tracklist = {
 "1501":
 {
 	title: "Last Rebirth", artist: "SHK", channel: ORIGINAL, bpm: "120",
-	Prime2: "S3 S5 S8 S13 S15.ampass  D7 D14 D16.ampass  Dp3",
+	Prime2: "S3 S5 S8 S13 S15.ampass D7 D14 D16.ampass  Dp3",
 },
 
 // "1502":
@@ -65,7 +83,7 @@ var tracklist = {
 "1503":
 {
 	title: "Hellfire", artist: "Memme", channel: ORIGINAL, bpm: "170",
-	Prime2: "S7 S11 S15 S18.ampass  D9 D19.ampass D23",
+	Prime2: "S7 S11 S15 S18.ampass D9 D19.ampass D23",
 },
 
 // "1504":
@@ -75,7 +93,7 @@ var tracklist = {
 "1507":
 {
 	title: "God Mode feat. skizzo", artist: "Nato", channel: ORIGINAL, bpm: "152",
-	Prime2: "S5 S8 S13 S18 S20.ampass  D9 D17 D21.ampass",
+	Prime2: "S5 S8 S13 S18 S20.ampass D9 D17 D21.ampass",
 },
 
 // "1508":
@@ -83,7 +101,7 @@ var tracklist = {
 "1509":
 {
 	title: "Further", artist: "Doin", channel: ORIGINAL, bpm: "194",
-	Prime2: "S10 S18 S22 S24.ampass  D14 D22 D25.ampass",
+	Prime2: "S10 S18 S22 S24.ampass D14 D22 D25.ampass",
 },
 
 // "1510":
@@ -92,7 +110,7 @@ var tracklist = {
 "1512":
 {
 	title: "Bring Back the Beat", artist: "Lunatic Sounds", channel: ORIGINAL, bpm: "160",
-	Prime2: "S7 S12 S17  D8 D19.ampass",
+	Prime2: "S7 S12 S17 D8 D19.ampass",
 },
 
 // "1513":
@@ -102,7 +120,7 @@ var tracklist = {
 "1516":
 {
 	title: "Sarabande", artist: "MAX", channel: ORIGINAL, bpm: "157",
-	Prime2: "S2 S4 S7 S16 S18.ampass  D11 D18 D20.ampass",
+	Prime2: "S2 S4 S7 S16 S18.ampass D11 D18 D20.ampass",
 },
 
 // "1517":
@@ -117,7 +135,7 @@ var tracklist = {
 "1525":
 {
 	title: "Arcana Force", artist: "mzet:-P", channel: ORIGINAL, bpm: "175",
-	Prime2: "S4 S9 S16 S20.ampass  D10 D17 D20.ampass",
+	Prime2: "S4 S9 S16 S20.ampass D10 D17 D20.ampass",
 },
 
 // "1526":
@@ -142,19 +160,19 @@ var tracklist = {
 "1544":
 {
 	title: "Bang Bang Bang", artist: "Big Bang", channel: KPOP, bpm: "135",
-	Prime2: "S1 S3 S5 S10 S15  D6 D16 D20.ampass  Sp3",
+	Prime2: "S1 S3 S5 S10 S15 D6 D16 D20.ampass Sp3",
 },
 
 "1545":
 {
 	title: "Me Gustas Tu", artist: "Gfriend", channel: KPOP, bpm: "106",
-	Prime2: "S2 S4 S6 S13 S15.ampass  D6 D14 D16 D19.ampass  Dp4",
+	Prime2: "S2 S4 S6 S13 S15.ampass D6 D14 D16 D19.ampass Dp4",
 },
 
 "1546":
 {
 	title: "Rhythm Ta", artist: "iKon", channel: KPOP, bpm: "82",
-	Prime2: "S2 S4 S7 S10 S15  D5 D11 D17.ampass",
+	Prime2: "S2 S4 S7 S10 S15 D5 D11 D17.ampass",
 },
 
 // "1547":
@@ -162,13 +180,13 @@ var tracklist = {
 "1548":
 {
 	title: "Pick Me", artist: "Produce 101", channel: KPOP, bpm: "128",
-	Prime2: "S1 S3 S5 S8 S13 S15.ampass  D6 D10 D16  Dp3  CoOp(x2).ampass",
+	Prime2: "S1 S3 S5 S8 S13 S15.ampass D6 D10 D16 Dp3 CoOp(x2).ampass",
 },
 
 "1549":
 {
 	title: "Jackpot", artist: "Block B", channel: KPOP, bpm: "130",
-	Prime2: "S1 S3 S6 S9 S15  D6 D15",
+	Prime2: "S1 S3 S6 S9 S15 D6 D15",
 },
 
 // "1550":
@@ -184,7 +202,7 @@ var tracklist = {
 "1553":
 {
 	title: "Up & Down", artist: "EXID", channel: KPOP, bpm: "112",
-	Prime2: "S2 S4 S7 S9 S15 S17.ampass  D5 D15  CoOp(x2).ampass",
+	Prime2: "S2 S4 S7 S9 S15 S17.ampass D5 D15 CoOp(x2).ampass",
 },
 
 // "1554":
@@ -192,19 +210,19 @@ var tracklist = {
 "1555":
 {
 	title: "You're the Best", artist: "Mamamoo", channel: KPOP, bpm: "122",
-	Prime2: "S2 S4 S6 S10 S15  D7 D10 D16.ampass",
+	Prime2: "S2 S4 S6 S10 S15 D7 D10 D16.ampass",
 },
 
 "1556":
 {
 	title: "Number Nine", artist: "T-ara", channel: KPOP, bpm: "128",
-	Prime2: "S3 S5 S8 S11 S13 S15.ampass  D8 D15 D17.ampass",
+	Prime2: "S3 S5 S8 S11 S13 S15.ampass D8 D15 D17.ampass",
 },
 
 "1557":
 {
 	title: "Acquaintance", artist: "Outsider", channel: KPOP, bpm: "130",
-	Prime2: "S3 S7 S9 S17 S20.ampass  D7 D18 D21.ampass  CoOp(x2)",  // Prime2_hh: "@1.",
+	Prime2: "S3 S7 S9 S17 S20.ampass D7 D18 D21.ampass CoOp(x2)",
 },
 
 // "1558":
@@ -217,55 +235,55 @@ var tracklist = {
 "1564":
 {
 	title: "Moon Light Dance", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "182",
-	Prime2: "S3 S7 S11 S14 S17.ampass  D4 D15 D19.ampass",
+	Prime2: "S3 S7 S11 S14 S17.ampass D4 D15 D19.ampass",
 },
 
 "15A6":
 {
 	title: "Death Moon", artist: "SHK", channel: XROSS, bpm: "160",
-	Prime2: "S3 S6 S10 S14 S17 S19.ampass  D7 D17 D21.ampass  CoOp(x2)",
+	Prime2: "S3 S6 S10 S14 S17 S19.ampass D7 D17 D21.ampass CoOp(x2)",
 },
 
 "15A8":
 {
 	title: "Christmas Memories", artist: "Beautiful Day remixed by Warak", channel: XROSS, bpm: "170",
-	Prime2: "S3 S5 S8 S14  D9 D15  CoOp(x2)",
+	Prime2: "S3 S5 S8 S14 D9 D15 CoOp(x2)",
 },
 
 "15B0":
 {
 	title: "Asterios -ReEntry-", artist: "ATAS (NaSch)", channel: XROSS, bpm: "148",
-	Prime2: "S4 S6 S11 S14 S17 S19.ampass  D8 D18 D21.ampass  CoOp(x2).ampass",
+	Prime2: "S4 S6 S11 S14 S17 S19.ampass D8 D18 D21.ampass CoOp(x2).ampass",
 },
 
 "15B1":
 {
 	title: "Le Grand Bleu", artist: "KIEN", channel: XROSS, bpm: "165",
-	Prime2: "S7 S12 S16 S18.ampass  D9 D18 D20.ampass",
+	Prime2: "S7 S12 S16 S18.ampass D9 D18 D20.ampass",
 },
 
 "15D0":
 {
 	title: "Vulcan", artist: "Memme", channel: ORIGINAL, bpm: "175", duration: REMIX,
-	Prime2: "S22  D24",
+	Prime2: "S22 D24",
 },
 
 "15E1":
 {
 	title: "Bang Bang Bang  [FULL]", artist: "Big Bang", channel: KPOP, bpm: "135",
-	Prime2: "S6 S18  D20",
+	Prime2: "S6 S18 D20",
 },
 
 "15F0":
 {
 	title: "Sarabande  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "157",
-	Prime2: "S9 S16 S18  D17",
+	Prime2: "S9 S16 S18 D17",
 },
 
 "15F1":
 {
 	title: "Death Moon  [SHORT]", artist: "SHK", channel: XROSS, bpm: "160",
-	Prime2: "S9 S15 S19  D17 D22",
+	Prime2: "S9 S15 S19 D17 D22",
 },
 
 
