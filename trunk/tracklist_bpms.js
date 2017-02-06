@@ -16,13 +16,13 @@ var separateBPMs =
 	{                    chart: "Maelstrom  CZ", bpm: "102 - 204" },
 	{                    chart: "Maelstrom  NM", bpm: "102 - 204" },
 
-	{              chart: "Big Metra Remix  CZ", ratio: "2" },
-	{              chart: "Big Metra Remix  NM", ratio: "2", mixes: "FiestaEX.." },
+	{              chart: "Big Metra Remix  CZ", ratio: "2", mixes: "..Prime2" },
+	{              chart: "Big Metra Remix  NM", ratio: "2", mixes: "FiestaEX..Prime2" },
 	{                      chart: "Forward  NM", ratio: "2", mixes: "..FiestaEX" },
-	{               chart: "Panuelito Rojo  NM", ratio: "2" },
+	{               chart: "Panuelito Rojo  NM", ratio: "2", mixes: "..Prime2" },
 	{                chart: "Pump Breakers  NM", bpm: "120 - 240", mixes: "NXA" },
-	{ chart: "Trato de no Trabarme  [FULL]  CZ", ratio: "2" },
-	{ chart: "Trato de no Trabarme  [FULL]  NM", ratio: "2" },
+	{ chart: "Trato de no Trabarme  [FULL]  CZ", ratio: "2", mixes: "..Prime2" },
+	{ chart: "Trato de no Trabarme  [FULL]  NM", ratio: "2", mixes: "..Prime2" },
 
 	{                    chart: "Good Life  S15", bpm: "98 - 49" },
 	{                    chart: "Good Life  D16", bpm: "98 - 147" },
