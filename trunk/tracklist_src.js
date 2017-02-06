@@ -37,7 +37,7 @@ Prime: "= -S10  @1.51 D13 Dp??(x3)"
 ID треков берутся из
 	https://en.wikipedia.org/wiki/List_of_Pump_It_Up_songs
 	https://en.wikipedia.org/wiki/Pump_It_Up_(video_game_series)
-	http://freiritogeek.blogspot.com/2015/04/total-de-canciones-desbloqueables-en.html
+	http://www.ph-online.net/cgi-bin/ib3/ikonboard.cgi?act=ST;f=18;t=13117
 */
 
 var tracklist = {
@@ -48,25 +48,6 @@ var tracklist = {
 {
 	title: "", artist: "", channel: , bpm: "",
 	Prime2: "@1.01",
-},
-
-
-"15xx Clue":
-{
-	title: "Clue", artist: "Transin", channel: XROSS, bpm: "140",
-	Prime2: "@1.01 S4 S8 S12 S16 D10 D18  S18.ampass D20.ampass",
-},
-
-"15xx Just Kiddin":
-{
-	title: "Just Kiddin", artist: "Vospi", channel: WORLD, bpm: "125",
-	Prime2: "@1.01 S5 S13 S16 D9  D18.ampass",
-},
-
-"15xx Me Gustas Tu  [FULL]":
-{
-	title: "Me Gustas Tu  [FULL]", artist: "GFriend", channel: KPOP, bpm: "106",
-	Prime2: "@1.01 S16 D17",
 },
 */
 
@@ -159,7 +140,7 @@ var tracklist = {
 
 "1544":
 {
-	title: "Bang Bang Bang", artist: "Big Bang", channel: KPOP, bpm: "135",
+	title: "Bang Bang Bang", artist: "Big Bang", bpm: "135",
 	Prime2: "S1 S3 S5 S10 S15 D6 D16 D20.ampass Sp3",
 },
 
@@ -238,6 +219,24 @@ var tracklist = {
 	Prime2: "S3 S7 S11 S14 S17.ampass D4 D15 D19.ampass",
 },
 
+// "1565":
+// "1566":
+// "1567":
+// "1568":
+// "1569":
+// "1570":
+// "1571":
+// "1572":
+// "1573":
+// "1574":
+// "1575":
+
+"1576":
+{
+	title: "Just Kiddin", artist: "Vospi", channel: WORLD, bpm: "125",
+	Prime2: "@1.01 S5 S13 S16 D9  D18.ampass",
+},
+
 "15A6":
 {
 	title: "Death Moon", artist: "SHK", channel: XROSS, bpm: "160",
@@ -262,15 +261,27 @@ var tracklist = {
 	Prime2: "S7 S12 S16 S18.ampass D9 D18 D20.ampass",
 },
 
+"15B7":
+{
+	title: "Clue", artist: "Transin", channel: XROSS, bpm: "140",
+	Prime2: "@1.01 S4 S8 S12 S16 D10 D18  S18.ampass D20.ampass",
+},
+
 "15D0":
 {
 	title: "Vulcan", artist: "Memme", channel: ORIGINAL, bpm: "175", duration: REMIX,
 	Prime2: "S22 D24",
 },
 
+"15E0":
+{
+	title: "Me Gustas Tu  [FULL]", artist: "GFriend", channel: KPOP, bpm: "106",
+	Prime2: "@1.01 S16 D17",
+},
+
 "15E1":
 {
-	title: "Bang Bang Bang  [FULL]", artist: "Big Bang", channel: KPOP, bpm: "135",
+	title: "Bang Bang Bang  [FULL]", artist: "Big Bang", bpm: "135",
 	Prime2: "S6 S18 D20",
 },
 
@@ -1063,7 +1074,7 @@ var tracklist = {
 
 "14E2":
 {
-	title: "Silhouette Effect  [SHORT]", artist: "Nato", bpm: "167",
+	title: "Silhouette Effect  [SHORT]", artist: "Nato", channel: ORIGINAL, bpm: "167",
 	Prime2: "=",  // Prime2_hh: "=",
 	Prime: "@1.08 S17 D18",
 },
@@ -2568,7 +2579,7 @@ var tracklist = {
 
 "1047":
 {
-	title: "Pump It Up With You", artist: "msgoon", bpm: "???", duration: REMIX,
+	title: "Pump It Up With You", artist: "msgoon", bpm: "105-135", duration: REMIX,
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S17 D17",
@@ -3367,7 +3378,7 @@ var tracklist = {
 
 "F80":
 {
-	title: "In Your Fantasy", artist: "Taiji Boys", bpm: "130",
+	title: "In Your Fantasy", artist: "Taiji Boys", bpm: "130", fromMix: "NXA",
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "@1.10 S2 S4 S6 S14 D7 D16 Dp3",
@@ -6718,7 +6729,7 @@ function PreprocessTrack( track )
 	if( ! track.bpm )
 		console.log("Warning: " + track.title + " has no bpm specified." );
 
-	if( track.duration !== REMIX  &&  [ORIGINAL, WORLD, KPOP, JMUSIC].indexOf( track.channel ) < 0 )
+	if( track.duration !== REMIX  &&  [ ORIGINAL, WORLD, KPOP, JMUSIC, XROSS ].indexOf( track.channel ) < 0 )
 		console.log("Warning: " + track.title + " has no channel specified.")
 
 	track.chartsCount = 0;
