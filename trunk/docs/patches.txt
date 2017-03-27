@@ -2406,9 +2406,9 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1210-update-information
 
 
  See you next PRIME
- 
- 
- ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Prime 2  1.01.0:
 https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1010-update-notice/1571313309563585
@@ -2447,3 +2447,40 @@ https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1010-update-notice/157
      5) Wisin Ft.. Michel Teló – Que Viva La Vida  (Changed to be played only in South American countries)
  
 - We apologize for any caused inconveniences.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Prime 2  1.02.0:
+https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1020-update-notice/1657768780918037
+(prime2_010.bin)
+
+1.	New Songs
+1)	Song :  Chase Me
+        Artist :  Dreamcatcher
+        BPM :  200
+        Default step chart :   S03, S05, S09, S15, S18, D11, D19
+        S??, D?? (Card only step)
+2)	Song :   Kasou Shinja
+        Artist :  MAX
+        BPM : 170
+        Default step chart :   S04, S07, S09, S16, S18, D12, D19
+        D?? (Card only step)
+ 3)	Song :  Step
+        Artist :  SID-SOUND
+        BPM : 156
+        Default step chart :   S07, S13, S17, D12, D18
+        D?? (Card only step)
+4)	Song :  (FULL SONG)  BOOMBAYAH
+        Artist :  BLACKPINK
+        BPM : 125
+        Default step chart :  S10, S17, D18
+
+2.     New skin
+- PRIME Skin Added
+
+3.	Bug fixing
+- Minor bug fixing
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
