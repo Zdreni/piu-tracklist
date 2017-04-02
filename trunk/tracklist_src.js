@@ -47,7 +47,7 @@ var tracklist = {
 "15xx":
 {
 	title: "", artist: "", channel: , bpm: "",
-	Prime2: "@1.01",
+	Prime2: "@1.02",
 },
 */
 
@@ -104,7 +104,12 @@ var tracklist = {
 	Prime2: "S2 S4 S7 S16 S18.ampass D11 D18 D20.ampass",
 },
 
-// "1517":
+"1517":
+{
+	title: "Kasou Shinja", artist: "MAX", channel: ORIGINAL, bpm: "170",
+	Prime2: "@1.02 S4 S7 S9 S16 S18 S20 D12 D19 D23.ampass",
+},
+
 // "1518":
 // "1519":
 // "1520":
@@ -156,7 +161,11 @@ var tracklist = {
 	Prime2: "S2 S4 S7 S10 S15 D5 D11 D17.ampass",
 },
 
-// "1547":
+"1547":
+{
+	title: "Chase Me", artist: "Dreamcatcher", channel: KPOP, bpm: "200",
+	Prime2: "@1.02 S3 S5 S9 S15 S18 D11 D19 S21.ampass D23.ampass CoOp(x2)",
+},
 
 "1548":
 {
@@ -229,7 +238,12 @@ var tracklist = {
 // "1572":
 // "1573":
 // "1574":
-// "1575":
+
+"1575":
+{
+	title: "Step", artist: "SID-SOUND", channel: WORLD, bpm: "156",
+	Prime2: "@1.02 S7 S13 S17 D12 D18 D20.ampass",
+},
 
 "1576":
 {
@@ -283,6 +297,12 @@ var tracklist = {
 {
 	title: "Bang Bang Bang  [FULL]", artist: "Big Bang", bpm: "135",
 	Prime2: "S6 S18 D20",
+},
+
+"15E2":
+{
+	title: "Boombayah  [FULL]", artist: "Black Pink", channel: KPOP, bpm: "125",
+	Prime2: "@1.02 S10 S17 D18",
 },
 
 "15F0":
@@ -542,8 +562,8 @@ var tracklist = {
 
 "1436":
 {
-	title: "Robot Battle", artist: "CYO Style", channel: WORLD, bpm: "198",
-	Prime2: "=",  // Prime2_hh: "=",
+	title: "Robot Battle", artist: "CYO Style", channel: ORIGINAL, bpm: "198",
+	Prime2: "=",
 	Prime: "S8 S12 S21 D12 D23  @1.17 S18.ucs D19.ucs",
 },
 
