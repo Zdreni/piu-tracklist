@@ -2510,13 +2510,13 @@ https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1030-update-notice/166
         Artist :  ESTi
         BPM :  175
         Default step chart :   S05, S07, S11, S16, S18, D11, D15
-        S??, D?? (Card only step)
+        S??(19), D??(19) (Card only step)
 
-2)	Song :   Hyperion                    
-        Artist :  M2U          
-        BPM : 145                      
-        Default step chart :   S05, S09, S14, D11, D18         
-        S??, D?? (Card only step)
+2)	Song :   Hyperion
+        Artist :  M2U
+        BPM : 145
+        Default step chart :   S05, S09, S14, D11, D18
+        S??(18), D??(20) (Card only step)
 
 3)	Song :  HUSH  [Philippines only]
         Artist :   Yassi Pressman & Nadine Lustre

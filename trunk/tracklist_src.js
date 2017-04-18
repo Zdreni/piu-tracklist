@@ -47,9 +47,35 @@ var tracklist = {
 "15xx":
 {
 	title: "", artist: "", channel: , bpm: "",
-	Prime2: "@1.02",
+	Prime2: "@1.03",
 },
 */
+
+
+"15xx":
+{
+	title: "Helix", artist: "ESTi", channel: , bpm: "175",
+	Prime2: "@1.03 S5 S7 S11 S16 S18 D11 D15 S19.ampass D19.ampass",
+},
+
+"15xx":
+{
+	title: "Hyperion", artist: "M2U", channel: , bpm: "145",
+	Prime2: "@1.03 S5 S9 S14 D11 D18 S18.ampass D20.ampass",
+},
+
+"15xx":
+{
+	title: "HUSH", artist: "Yassi Pressman & Nadine Lustre", channel: , bpm: "82", region: PHILIPPINES,
+	Prime2: "@1.03 S3 S5 S8 S14 D6 D15",
+},
+
+"15xx":
+{
+	title: "HUSH  [FULL]", artist: "Yassi Pressman & Nadine Lustre", channel: , bpm: "82", region: PHILIPPINES,
+	Prime2: "@1.03 S15 D16",
+},
+
 
 // \15 - Prime 2
 
@@ -351,7 +377,7 @@ var tracklist = {
 "1405":
 {
 	title: "Yog-Sothoth", artist: "Nato", channel: ORIGINAL, bpm: "200",
-	Prime2: "=",  // Prime2_hh: "=",
+	Prime2: "=  @1.03 S16.ucs.ampass",
 	Prime: "S9 S18 S21 S23 D23 D25  @1.01 CoOp(x3)  @1.19 D17",
 },
 
@@ -372,7 +398,7 @@ var tracklist = {
 "1408":
 {
 	title: "Avalanche", artist: "Memme", channel: ORIGINAL, bpm: "175",
-	Prime2: "=",  // Prime2_hh: "=",
+	Prime2: "=  @1.03 S16.ucs.ampass, D18.ucs.ampass",
 	Prime: "@1.04 S4 S6 S9 S18 D10 D19 D24  @1.13 S22",
 },
 
