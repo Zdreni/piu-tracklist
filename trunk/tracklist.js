@@ -163,6 +163,7 @@ var FULL = "Full";
 // region
 var LATIN = "Latin";
 var CHINESE = "Chinese";
+var PHILIPPINES = "Philippines";
 
 
 var OldArcadeTags     = ["NL", "HD", "CZ", "FS", "NM"];
