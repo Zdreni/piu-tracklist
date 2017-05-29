@@ -3556,8 +3556,9 @@ var tracklist = {
 	NX2: ["3", "8", "20", "14", "??(22)"], NX2_: ["7", "8", "17", "4", "22"],
 },
 
-"E13B":
+"FE13B":
 {
+	altID: "E13B",
 	title: "Pumptris Quattro (8bit version)", artist: "Yahpp", bpm: "162",
 	shortTitle: "Pumptris Quattro (8bit)",
 	Prime2: "=",  // Prime2_hh: "=",
