@@ -206,6 +206,7 @@ Tag( "slowdowns",
 Tag( "bruteforce",
 	[
 		"Chimera  S-23",
+		"Dignity  [FULL]  S-19",
 		"Dignity  S-22",
 		"Hi-Bi  S-18",
 		"Love is a Danger Zone  S-19",
