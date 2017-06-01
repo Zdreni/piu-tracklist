@@ -39,7 +39,7 @@ function DictToArr( dict, func )
 }
 
 
-function RemoveObviousFields( track, chart )
+function RemoveObviousFields( track, mixID, chart )
 {
 	if( String( chart.levelNum ) === chart.levelText )
 		delete chart.levelNum;
@@ -84,7 +84,7 @@ function RemoveObviousFields( track, chart )
 	if( Object.keys( chart ).length === 1 )  // if we can parse all chart details from text description,
 		chart = chart.text;                  //   save text instead of dict
 
-	return chartIndex;
+	track[ mixID ][ chartIndex ] = chart;
 }
 
 
@@ -100,10 +100,7 @@ function ConvertInnerDataToOutput( track )
 
 		track[ mixID ] = {};
 		for( var chart of mixCharts )
-		{
-			var chartIndex = RemoveObviousFields( track, chart );
-			track[ mixID ][ chartIndex ] = chart;
-		}
+			RemoveObviousFields( track, mixID, chart );
 	}
 
 	if( track.duration == "Standard" )
