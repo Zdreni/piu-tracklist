@@ -2645,3 +2645,101 @@ https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1040-update-notice/173
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Prime 2  1.05:
+https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1050-update-notice/1754622061232708/
+(prime2_040.bin)
+
+1.	New Songs 
+
+1)	Song :   Utsushiyo No Kaze feat. Kana
+        Artist :  void       
+        BPM :  152       
+        Default step chart :   S07, S11, S16, D11, D19           
+        S??(20), D??(18) (Card only step)   
+
+2)	Song :  Start On Red
+        Artist :  Nato   
+        BPM :  160    
+        Default step chart :    S04, S08, S11, S15, D12    
+        S19, D20 (Unlocked step)
+
+3)	Song :   Seize My Day 
+        Artist :   Rainbowdragoneyes       
+        BPM :  160       
+        Default step chart :    S02, S06, S10, S14, S18, D07, D12, D19           
+        D??(20) (Card only step)   
+
+4)	Song :  [FULL SONG] Up&Down
+        Artist :  EXID  
+        BPM :  112
+        Default step chart :    S08, S18, D19    
+
+
+2.	New Step charts
+
+1)	Song :   She Likes Pizza
+        Artist :  BanYa   
+        BPM :  230    
+        step chart :    S??(21), D??(23) (Unlocked step)
+
+2)	Song :   Last Rebirth 
+        Artist :   SHK       
+        BPM :  120      
+        step chart : D??(18) (Card only step)         
+
+3)	Song :  Red Snow
+        Artist :  Cashew 
+        BPM :  170
+        Default step chart :    CO-OP02  
+
+
+3. Quest zone
+Quest “Chapter2” is updated.
+  1)   Song :  Bring Back The Beat 
+        Step chart :  S12, S17, D19, D20   
+  2)   Song :  U God Me Rocking 
+        Step chart :  S17, S18, D17, D19 
+  3)   Song :  FOUR SEASONS OF LONELINESS ver β feat. Sariyajin
+        Step chart :  S14, S17, D18, D19
+  4)   Song :  Moment Day
+        Step chart :  S15, D17, D19, D20 
+  5)   Song :  Mental Rider
+        Step chart :  S12, S16, S20, D21 
+  6)   Song :  Papa Gonzales
+        Step chart :  S08, S14, D18, D22  
+  7)   Song :  Renai Yuusha 
+        Step chart :  S17, S19, D20, D24
+
+  
+4. PP bonus event
+PP bonus event will be launched.
+- The percentage of getting PP will be increased to 200% while playing every Thursday(GMT 00:00)
+- We apply this event after updating to the version 1.05.0.
+- The PP bonus periods might be slightly different in each country due to the time difference.
+
+  
+5. PUMP IT UP 2015 PRIME online service end 
+June 30th PUMP IT UP 2015 PRIME online service is end.
+- Update will be same like previous updates.
+- Update version will be PUMP IT UP 2015 PRIME 1.22.0
+- For 1.22.0, machine will be offline and it is unable to login & use online contents except Quest zone. (Even if you don’t update 1.22.0 and your version is still 1.21.0, anyway machine will be offline.)
+- In 1.22.0 version, every Quest zone will be opened. All steps of Quest zone will be in status of cleared, you can play all without login.
+
+
+ 6.	Bug fixing  
+- Minor bug fixing 
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Prime 2  1.05.1:
+https://www.facebook.com/notes/pump-it-up/hotfix-1051/1760300200664894/
+(prime2_050.bin)
+
+We found a problem and 1.05.0 and have fixed it urgently in this 1.05.1
+
+- Bug : fixed a bug the leftmost step chart is played forcibly  when Arcade song is played after Questzone play.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------

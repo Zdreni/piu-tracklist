@@ -317,6 +317,10 @@ On( "Prime2" )
 	Lock( "Redline  S18, D19", PIUGAME )
 	Lock( "Enhanced Reality  S16, D18", PIUGAME )
 	Lock( "Slam  D23", PIUGAME )
+// 1.05
+	Lock( "Start On Red  S19, D20", PIUGAME )
+	Lock( "She Likes Pizza  S21, D23", PIUGAME )
+
 
 //delete tempUnlockPatchIndex;
 //delete tempCurrentMix;

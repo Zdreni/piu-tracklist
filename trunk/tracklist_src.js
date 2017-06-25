@@ -47,10 +47,34 @@ var tracklist = {
 "15xx":
 {
 	title: "", artist: "", channel: , bpm: "",
-	Prime2: "@1.04",
+	Prime2: "@1.",
 },
 */
 
+
+"15_Utsushiyo_No_Kaze":
+{
+	title: "Utsushiyo No Kaze feat. Kana", artist: "void", channel: ORIGINAL, bpm: "152",
+	Prime2: "@1.05 S7 S11 S16 D11 D19 S20.ampass D18.ampass",
+},
+
+"15_Start_On_Red":
+{
+	title: "Start On Red", artist: "Nato", channel: XROSS, bpm: "160",
+	Prime2: "@1.05 S4 S8 S11 S15 D12 S19 D20",
+},
+
+"15_Seize_My_Day":
+{
+	title: "Seize My Day", artist: "Rainbowdragoneyes", channel: WORLD, bpm: "160",
+	Prime2: "@1.05 S2 S6 S10 S14 S18 D7 D12 D19 D20.ampass",
+},
+
+"15_Up_Down_FULL":
+{
+	title: "Up & Down  [FULL]", artist: "EXID", channel: KPOP, bpm: "112",
+	Prime2: "@1.05 S8 S18 D19",
+},
 
 "15_Good_Night":
 {
@@ -66,8 +90,8 @@ var tracklist = {
 
 "15_Super_Stylin":
 {
-	title: "Super Stylin’", artist: "Warak", channel: XROSS, bpm: "146",
-	Prime2: "@1.04 S7 S9 S11 S17 D9 D12 D??.ampass",
+	title: "Super Stylin'", artist: "Warak", channel: XROSS, bpm: "146",
+	Prime2: "@1.04 S7 S9 S11 S17 D9 D12 D17.ampass",
 },
 
 "15_Redline":
@@ -88,7 +112,7 @@ var tracklist = {
 "1501":
 {
 	title: "Last Rebirth", artist: "SHK", channel: ORIGINAL, bpm: "120",
-	Prime2: "S3 S5 S8 S13 S15.ampass D7 D14 D16.ampass  Dp3",
+	Prime2: "S3 S5 S8 S13 S15.ampass D7 D14 D16.ampass  Dp3  @1.05 D18.ampass",
 },
 
 // "1502":
@@ -633,7 +657,7 @@ var tracklist = {
 
 "1431":
 {
-	title: "Point Zero One", artist: "SynthWulf", channel: WORLD, bpm: "170",
+	title: "Point Zero One", artist: "SynthWulf", channel: ORIGINAL, bpm: "170",
 	Prime2: "=",
 	Prime: "@1.13 S9 S16 D11 D17  S20 D22",
 },
@@ -643,7 +667,7 @@ var tracklist = {
 "1433":
 {
 	title: "Red Snow", artist: "Cashew", channel: ORIGINAL, bpm: "170",
-	Prime2: "=",
+	Prime2: "=  @1.05 CoOp(x2)",
 	Prime: "@1.15 S11 S16 D12  S19 D20  @1.21 S7",
 },
 
@@ -6224,7 +6248,7 @@ var tracklist = {
 "310":
 {
 	title: "She Likes Pizza", artist: "BanYa", bpm: "230", fromMix: "OBG",
-	Prime2: "=",  // Prime2_hh: "=",
+	Prime2: "=  @1.05 S21 D23",
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S8.hd S9.cz D9.fs D16.nm",
