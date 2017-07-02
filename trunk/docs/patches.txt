@@ -2668,7 +2668,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1050-update-notice/175
         Artist :   Rainbowdragoneyes       
         BPM :  160       
         Default step chart :    S02, S06, S10, S14, S18, D07, D12, D19           
-        D??(20) (Card only step)   
+        D??(22) (Card only step)   
 
 4)	Song :  [FULL SONG] Up&Down
         Artist :  EXID  

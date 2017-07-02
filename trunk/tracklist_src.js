@@ -67,7 +67,7 @@ var tracklist = {
 "15_Seize_My_Day":
 {
 	title: "Seize My Day", artist: "Rainbowdragoneyes", channel: WORLD, bpm: "160",
-	Prime2: "@1.05 S2 S6 S10 S14 S18 D7 D12 D19 D20.ampass",
+	Prime2: "@1.05 S2 S6 S10 S14 S18 D7 D12 D19 D22.ampass",
 },
 
 "15_Up_Down_FULL":
