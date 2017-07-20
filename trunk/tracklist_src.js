@@ -517,7 +517,7 @@ var tracklist = {
 
 "1411":
 {
-	title: "U Got Me Crazy", artist: "MAX", channel: ORIGINAL, bpm: "128",
+	title: "You Got Me Crazy", artist: "MAX", channel: ORIGINAL, bpm: "128",
 	Prime2: "=",
 	Prime: "@1.05 S4 S9 S17 S18 D5 D18  @1.06 S6",
 },
