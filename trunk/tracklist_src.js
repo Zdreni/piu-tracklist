@@ -46,65 +46,11 @@ var tracklist = {
 /*
 "15xx":
 {
+	altID: "",
 	title: "", artist: "", channel: , bpm: "",
 	Prime2: "@1.",
 },
 */
-
-
-"15_Utsushiyo_No_Kaze":
-{
-	title: "Utsushiyo No Kaze feat. Kana", artist: "void", channel: ORIGINAL, bpm: "152",
-	Prime2: "@1.05 S7 S11 S16 D11 D19 S20.ampass D18.ampass",
-},
-
-"15_Start_On_Red":
-{
-	title: "Start On Red", artist: "Nato", channel: XROSS, bpm: "160",
-	Prime2: "@1.05 S4 S8 S11 S15 D12 S19 D20",
-},
-
-"15_Seize_My_Day":
-{
-	title: "Seize My Day", artist: "Rainbowdragoneyes", channel: WORLD, bpm: "160",
-	Prime2: "@1.05 S2 S6 S10 S14 S18 D7 D12 D19 D22.ampass",
-},
-
-"15_Up_Down_FULL":
-{
-	title: "Up & Down  [FULL]", artist: "EXID", channel: KPOP, bpm: "112",
-	Prime2: "@1.05 S8 S18 D19",
-},
-
-"15_Good_Night":
-{
-	title: "Good Night", artist: "Dreamcatcher", channel: KPOP, bpm: "196",
-	Prime2: "@1.04 S3 S5 S9 S17 D5 D19 S20 S23 D22 D24",
-},
-
-"15_Allegro_Furioso":
-{
-	title: "Allegro Furioso", artist: "DM Ashura", channel: ORIGINAL, bpm: "176",
-	Prime2: "@1.04 S5 S10 S13 S17 D14 S20 D20",
-},
-
-"15_Super_Stylin":
-{
-	title: "Super Stylin'", artist: "Warak", channel: XROSS, bpm: "146",
-	Prime2: "@1.04 S7 S9 S11 S17 D9 D12 D17.ampass",
-},
-
-"15_Redline":
-{
-	title: "Redline", artist: "Archefluxx", channel: XROSS, bpm: "170",
-	Prime2: "@1.04 S5 S10 S16 D13 D20 S18 D19",
-},
-
-"15_Prime2_Opening":
-{
-	title: "PRIME2 Opening  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "145",
-	Prime2: "@1.04 S7 S12 S17 D18",
-},
 
 
 // \15 - Prime 2
@@ -180,11 +126,24 @@ var tracklist = {
 	Prime2: "S4 S9 S16 S20.ampass D10 D17 D20.ampass",
 },
 
-// "1526":
+"1526":
+{
+	altID: "15_Allegro_Furioso",
+	title: "Allegro Furioso", artist: "DM Ashura", channel: ORIGINAL, bpm: "176",
+	Prime2: "@1.04 S5 S10 S13 S17 D14 S20 D20",
+},
+
 // "1527":
 // "1528":
 // "1529":
-// "1530":
+
+"1530":
+{
+	altID: "15_Utsushiyo_No_Kaze",
+	title: "Utsushiyo No Kaze feat. Kana", artist: "void", channel: ORIGINAL, bpm: "152",
+	Prime2: "@1.05 S7 S11 S16 D11 D19 S20.ampass D18.ampass",
+},
+
 // "1531":
 // "1532":
 // "1533":
@@ -251,7 +210,12 @@ var tracklist = {
 	Prime2: "S2 S4 S7 S9 S15 S17.ampass D5 D15 CoOp(x2).ampass",
 },
 
-// "1554":
+"1554":
+{
+	altID: "15_Good_Night",
+	title: "Good Night", artist: "Dreamcatcher", channel: KPOP, bpm: "196",
+	Prime2: "@1.04 S3 S5 S9 S17 D5 D19 S20 S23 D22 D24",
+},
 
 "1555":
 {
@@ -351,7 +315,14 @@ var tracklist = {
 
 // "15A0":
 // "15A1":
-// "15A2":
+
+"15A2":
+{
+	altID: "15_Start_On_Red",
+	title: "Start On Red", artist: "Nato", channel: XROSS, bpm: "160",
+	Prime2: "@1.05 S4 S8 S11 S15 D12 S19 D20",
+},
+
 // "15A3":
 // "15A4":
 // "15A5":
@@ -362,7 +333,12 @@ var tracklist = {
 	Prime2: "S3 S6 S10 S14 S17 S19.ampass D7 D17 D21.ampass CoOp(x2)",
 },
 
-// "15A7":
+"15A7":
+{
+	altID: "15_Super_Stylin",
+	title: "Super Stylin'", artist: "Warak", channel: XROSS, bpm: "146",
+	Prime2: "@1.04 S7 S9 S11 S17 D9 D12 D17.ampass",
+},
 
 "15A8":
 {
@@ -394,6 +370,24 @@ var tracklist = {
 	Prime2: "@1.01 S4 S8 S12 S16 D10 D18  S18.ampass D20.ampass",
 },
 
+"15B8":
+{
+	altID: "15_Redline",
+	title: "Redline", artist: "Archefluxx", channel: XROSS, bpm: "170",
+	Prime2: "@1.04 S5 S10 S16 D13 D20 S18 D19",
+},
+
+// "15C1":
+// "15C2":
+// "15C3":
+
+"15C4":
+{
+	altID: "15_Seize_My_Day",
+	title: "Seize My Day", artist: "Rainbowdragoneyes", channel: WORLD, bpm: "160",
+	Prime2: "@1.05 S2 S6 S10 S14 S18 D7 D12 D19 D22.ampass",
+},
+
 "15D0":
 {
 	title: "Vulcan", artist: "Memme", channel: ORIGINAL, bpm: "175", duration: REMIX,
@@ -418,7 +412,13 @@ var tracklist = {
 	Prime2: "@1.02 S10 S17 D18",
 },
 
-// "15E3":
+"15E3":
+{
+	altID: "15_Up_Down_FULL",
+	title: "Up & Down  [FULL]", artist: "EXID", channel: KPOP, bpm: "112",
+	Prime2: "@1.05 S8 S18 D19",
+},
+
 // "15E4":
 // "15E5":
 
@@ -442,6 +442,14 @@ var tracklist = {
 	Prime2: "S9 S15 S19 D17 D22",
 },
 
+// "15F2":
+
+"15F3":
+{
+	altID: "15_Prime2_Opening",
+	title: "PRIME2 Opening  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "145",
+	Prime2: "@1.04 S7 S12 S17 D18",
+},
 
 // \14 - Prime
 

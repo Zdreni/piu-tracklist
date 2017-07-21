@@ -229,7 +229,7 @@ On( "Prime", "..@1.21" )
 // 1.04
 	Lock( "Avalanche  S18, D19, D24", PIUGAME, "..@1.07" )
 // 1.05
-	Lock( "U got me crazy  S17, S18, D18", PIUGAME, "..@1.08" )
+	Lock( "You got me crazy  S17, S18, D18", PIUGAME, "..@1.08" )
 	Lock( "Interference  D21", PIUGAME, "..@1.08" )
 // 1.06
 	Lock( "Sugar Conspiracy Theory  S15, S18, S19, D17, D20", PIUGAME, "..@1.09" )
