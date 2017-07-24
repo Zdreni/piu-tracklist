@@ -320,6 +320,10 @@ On( "Prime2" )
 // 1.05
 	Lock( "Start On Red  S19, D20", PIUGAME )
 	Lock( "She Likes Pizza  S21, D23", PIUGAME )
+// 1.06
+	Lock( "Shub Niggurath  S21, S24, D23, D26", PIUGAME )
+	Lock( "Pumping Up  D15", PIUGAME )
+
 
 
 //delete tempUnlockPatchIndex;

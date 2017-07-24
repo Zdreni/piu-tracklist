@@ -2467,6 +2467,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1020-update-notice/165
         BPM : 170
         Default step chart :   S04, S07, S09, S16, S18, D12, D19
         D??(20) (Card only step)
+        хз, что с S20, не указано
  3)	Song :  Step
         Artist :  SID-SOUND
         BPM : 156
@@ -2650,76 +2651,76 @@ Prime 2  1.05:
 https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1050-update-notice/1754622061232708/
 (prime2_040.bin)
 
-1.	New Songs 
+1.	New Songs
 
 1)	Song :   Utsushiyo No Kaze feat. Kana
-        Artist :  void       
-        BPM :  152       
-        Default step chart :   S07, S11, S16, D11, D19           
-        S??(20), D??(18) (Card only step)   
+        Artist :  void
+        BPM :  152
+        Default step chart :   S07, S11, S16, D11, D19
+        S??(20), D??(18) (Card only step)
 
 2)	Song :  Start On Red
-        Artist :  Nato   
-        BPM :  160    
-        Default step chart :    S04, S08, S11, S15, D12    
+        Artist :  Nato
+        BPM :  160
+        Default step chart :    S04, S08, S11, S15, D12
         S19, D20 (Unlocked step)
 
-3)	Song :   Seize My Day 
-        Artist :   Rainbowdragoneyes       
-        BPM :  160       
-        Default step chart :    S02, S06, S10, S14, S18, D07, D12, D19           
-        D??(22) (Card only step)   
+3)	Song :   Seize My Day
+        Artist :   Rainbowdragoneyes
+        BPM :  160
+        Default step chart :    S02, S06, S10, S14, S18, D07, D12, D19
+        D??(22) (Card only step)
 
 4)	Song :  [FULL SONG] Up&Down
-        Artist :  EXID  
+        Artist :  EXID
         BPM :  112
-        Default step chart :    S08, S18, D19    
+        Default step chart :    S08, S18, D19
 
 
 2.	New Step charts
 
 1)	Song :   She Likes Pizza
-        Artist :  BanYa   
-        BPM :  230    
+        Artist :  BanYa
+        BPM :  230
         step chart :    S??(21), D??(23) (Unlocked step)
 
-2)	Song :   Last Rebirth 
-        Artist :   SHK       
-        BPM :  120      
-        step chart : D??(18) (Card only step)         
+2)	Song :   Last Rebirth
+        Artist :   SHK
+        BPM :  120
+        step chart : D??(18) (Card only step)
 
 3)	Song :  Red Snow
-        Artist :  Cashew 
+        Artist :  Cashew
         BPM :  170
-        Default step chart :    CO-OP02  
+        Default step chart :    CO-OP02
 
 
 3. Quest zone
 Quest “Chapter2” is updated.
-  1)   Song :  Bring Back The Beat 
-        Step chart :  S12, S17, D19, D20   
-  2)   Song :  U God Me Rocking 
-        Step chart :  S17, S18, D17, D19 
+  1)   Song :  Bring Back The Beat
+        Step chart :  S12, S17, D19, D20
+  2)   Song :  U God Me Rocking
+        Step chart :  S17, S18, D17, D19
   3)   Song :  FOUR SEASONS OF LONELINESS ver β feat. Sariyajin
         Step chart :  S14, S17, D18, D19
   4)   Song :  Moment Day
-        Step chart :  S15, D17, D19, D20 
+        Step chart :  S15, D17, D19, D20
   5)   Song :  Mental Rider
-        Step chart :  S12, S16, S20, D21 
+        Step chart :  S12, S16, S20, D21
   6)   Song :  Papa Gonzales
-        Step chart :  S08, S14, D18, D22  
-  7)   Song :  Renai Yuusha 
+        Step chart :  S08, S14, D18, D22
+  7)   Song :  Renai Yuusha
         Step chart :  S17, S19, D20, D24
 
-  
+
 4. PP bonus event
 PP bonus event will be launched.
 - The percentage of getting PP will be increased to 200% while playing every Thursday(GMT 00:00)
 - We apply this event after updating to the version 1.05.0.
 - The PP bonus periods might be slightly different in each country due to the time difference.
 
-  
-5. PUMP IT UP 2015 PRIME online service end 
+
+5. PUMP IT UP 2015 PRIME online service end
 June 30th PUMP IT UP 2015 PRIME online service is end.
 - Update will be same like previous updates.
 - Update version will be PUMP IT UP 2015 PRIME 1.22.0
@@ -2727,8 +2728,8 @@ June 30th PUMP IT UP 2015 PRIME online service is end.
 - In 1.22.0 version, every Quest zone will be opened. All steps of Quest zone will be in status of cleared, you can play all without login.
 
 
- 6.	Bug fixing  
-- Minor bug fixing 
+ 6.	Bug fixing
+- Minor bug fixing
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -2741,5 +2742,91 @@ We found a problem and 1.05.0 and have fixed it urgently in this 1.05.1
 
 - Bug : fixed a bug the leftmost step chart is played forcibly  when Arcade song is played after Questzone play.
 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Prime 2  1.06
+https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1060-update-notice/1803260489702198/
+
+1. New Songs
+
+1) Song : SOBER
+    Artist : BIGBANG
+    BPM : 130
+    Default step chart : S02, S04, S07, S13, D03, D14
+    S??(17), D??(17), DP??(CoOp(x2)) (Card only step)
+
+2) Song : Shub Niggurath
+    Artist : Nato
+    BPM : 220
+    Default step chart : S11, S15, S19, D17
+    S21, S24, D23, D26 (Unlocked step)
+
+3) Song : Magical Vacation
+    Artist : SID-SOUND
+    BPM : 154
+    Default step chart : S06, S11, S16, D07, D13
+    S??(19), D??(18) (Card only step)
+
+ 4) Song : [FULL SONG] Acquaintance
+    Artist : Outsider
+    BPM : 130
+    Default step chart : S20, D22
+
+2. New Step Charts
+
+1) Song : Pumping Up
+    Artist : BanYa
+    BPM : 135
+    step chart : D??(15) (Unlocked step)
+
+ 2) Song : PICK ME
+    Artist : PRODUCE 101
+    BPM : 128
+    step chart : D20 (Card only step)
+
+ 3) Song : Kasou Shinja
+    Artist : MAX
+    BPM : 170
+    step chart : CO-OP02 (Card only step)
+
+
+3. Big update for Double performance step
+There is big scale of update for Double performance step of PRIME 2 new songs.
+We deeply appreciate for the people provided the steps for it.
+
+	 1) Acquaintance DP04
+	 2) Arcana Force DP02
+	 3) Asterios - ReEntry – DP03
+	 4) BANG BANG BANG DP03
+	 5) BOOMBAYAH DP03
+	 6) Bring Back The Beat DP05
+	 7) Christmas Memories DP04
+	 8) Clue DP04
+	 9) Death Moon DP03
+	10) Further DP03
+	11) God Mode feat. skizzo DP04
+	12) Hellfire DP04
+	13) Jackpot DP03
+	14) Just Kiddin DP05
+	15) Le Grand Bleu DP06
+	16) Moonlight Dance DP04
+	17) NUMBER NINE DP04
+	18) RHYTHM TA DP04
+	19) Sarabande DP04
+	20) Up & Down DP05
+	21) You’re The Best DP02
+
+
+4. Webcam function added for LX cabinet
+Webcam function dedicated to LX cabinet is added.
+1) Webcam function is only for LX cabinet.
+2) There will be webcam shooting stage after the result screen of the first stage in every
+      credit. You may agree or disagree with taking a picture by controlling step or button.
+3) After the approval, webcam will take a picture of you.
+4) The picture will be uploaded to PIU website. (preparing)
+     If you are in login status, picture will be uploaded to 'My Gallery'.
+     If you are not in login status, it will be uploaded to 'Guest Gallery'.
+     Website uploading function is on developing and will be updated later.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -43,13 +43,64 @@ ID треков берутся из
 var tracklist = {
 
 // unsorted
+
+"15_Sober":
+{
+	title: "Sober", artist: "Big Bang", bpm: "130",
+	Prime2: "@1.06 S2 S4 S7 S13 D3 D14 S17.ampass D17.ampass CoOp(x2).ampass",
+},
+
+"15_Magical_Vacation":
+{
+	title: "Magical Vacation", artist: "S.I.D-Sound", channel: XROSS, bpm: "154",
+	Prime2: "@1.06 S6 S11 S16 D7 D13 S19.ampass D18.ampass",
+},
+
+"15_Shub_Niggurath":
+{
+	title: "Shub Niggurath", artist: "Nato", channel: ORIGINAL, bpm: "220",
+	Prime2: "@1.06 S11 S15 S19 D17 S21 S24 D23 D26",
+},
+
+"15_Acquaintance_FULL":
+{
+	title: "Acquaintance  [FULL]", artist: "Outsider", channel: KPOP, bpm: "130",
+	Prime2: "@1.06 S20 D22",
+},
+
+
 /*
+"15_Overblow2":
+{
+	title: "Overblow2", artist: "Max", channel: ORIGINAL, bpm: "155",
+	Prime2: "@1.07",
+},
+
+"15_Hey_U":
+{
+	title: "Hey U", artist: "Mazo", channel: ORIGINAL, bpm: "162",
+	Prime2: "@1.07",
+},
+
+"15_Bedlam":
+{
+	title: "Bedlam", artist: "SANY-ON", channel: XROSS, bpm: "183",
+	Prime2: "@1.07",
+},
+
+"15_Leather":
+{
+	title: "Leather", artist: "Doin", channel: ORIGINAL, bpm: "200", duration: REMIX,
+	Prime2: "@1.",
+},
+
 "15xx":
 {
 	altID: "",
 	title: "", artist: "", channel: , bpm: "",
 	Prime2: "@1.",
 },
+
 */
 
 
@@ -66,7 +117,7 @@ var tracklist = {
 "1503":
 {
 	title: "Hellfire", artist: "Memme", channel: ORIGINAL, bpm: "170",
-	Prime2: "S7 S11 S15 S18.ampass D9 D19.ampass D23",
+	Prime2: "S7 S11 S15 S18.ampass D9 D19.ampass D23  @1.06 Dp4",
 },
 
 // "1504":
@@ -76,7 +127,7 @@ var tracklist = {
 "1507":
 {
 	title: "God Mode feat. skizzo", artist: "Nato", channel: ORIGINAL, bpm: "152",
-	Prime2: "S5 S8 S13 S18 S20.ampass D9 D17 D21.ampass",
+	Prime2: "S5 S8 S13 S18 S20.ampass D9 D17 D21.ampass  @1.06 Dp4",
 },
 
 // "1508":
@@ -84,7 +135,7 @@ var tracklist = {
 "1509":
 {
 	title: "Further", artist: "Doin", channel: ORIGINAL, bpm: "194",
-	Prime2: "S10 S18 S22 S24.ampass D14 D22 D25.ampass",
+	Prime2: "S10 S18 S22 S24.ampass D14 D22 D25.ampass  @1.06 Dp3",
 },
 
 // "1510":
@@ -93,7 +144,7 @@ var tracklist = {
 "1512":
 {
 	title: "Bring Back the Beat", artist: "Lunatic Sounds", channel: ORIGINAL, bpm: "160",
-	Prime2: "S7 S12 S17 D8 D19.ampass",
+	Prime2: "S7 S12 S17 D8 D19.ampass  @1.06 Dp5",
 },
 
 // "1513":
@@ -103,13 +154,13 @@ var tracklist = {
 "1516":
 {
 	title: "Sarabande", artist: "MAX", channel: ORIGINAL, bpm: "157",
-	Prime2: "S2 S4 S7 S16 S18.ampass D11 D18 D20.ampass",
+	Prime2: "S2 S4 S7 S16 S18.ampass D11 D18 D20.ampass  @1.06 Dp4",
 },
 
 "1517":
 {
 	title: "Kasou Shinja", artist: "MAX", channel: ORIGINAL, bpm: "170",
-	Prime2: "@1.02 S4 S7 S9 S16 S18 S20 D12 D19 D23.ampass",
+	Prime2: "@1.02 S4 S7 S9 S16 S18 S20 D12 D19 D23.ampass  @1.06 CoOp(x2).ampass",
 },
 
 // "1518":
@@ -123,7 +174,7 @@ var tracklist = {
 "1525":
 {
 	title: "Arcana Force", artist: "mzet:-P", channel: ORIGINAL, bpm: "175",
-	Prime2: "S4 S9 S16 S20.ampass D10 D17 D20.ampass",
+	Prime2: "S4 S9 S16 S20.ampass D10 D17 D20.ampass  @1.06 Dp2",
 },
 
 "1526":
@@ -161,7 +212,7 @@ var tracklist = {
 "1544":
 {
 	title: "Bang Bang Bang", artist: "Big Bang", bpm: "135",
-	Prime2: "S1 S3 S5 S10 S15 D6 D16 D20.ampass Sp3",
+	Prime2: "S1 S3 S5 S10 S15 D6 D16 D20.ampass Sp3  @1.06 Dp3",
 },
 
 "1545":
@@ -173,7 +224,7 @@ var tracklist = {
 "1546":
 {
 	title: "Rhythm Ta", artist: "iKon", channel: KPOP, bpm: "82",
-	Prime2: "S2 S4 S7 S10 S15 D5 D11 D17.ampass",
+	Prime2: "S2 S4 S7 S10 S15 D5 D11 D17.ampass  @1.06 Dp4",
 },
 
 "1547":
@@ -185,13 +236,13 @@ var tracklist = {
 "1548":
 {
 	title: "Pick Me", artist: "Produce 101", channel: KPOP, bpm: "128",
-	Prime2: "S1 S3 S5 S8 S13 S15.ampass D6 D10 D16 Dp3 CoOp(x2).ampass",
+	Prime2: "S1 S3 S5 S8 S13 S15.ampass D6 D10 D16 Dp3 CoOp(x2).ampass  @1.06 D20.ampass",
 },
 
 "1549":
 {
 	title: "Jackpot", artist: "Block B", channel: KPOP, bpm: "130",
-	Prime2: "S1 S3 S6 S9 S15 D6 D15",
+	Prime2: "S1 S3 S6 S9 S15 D6 D15  @1.06 Dp3",
 },
 
 // "1550":
@@ -199,7 +250,7 @@ var tracklist = {
 "1551":
 {
 	title: "Boombayah", artist: "Black Pink", channel: KPOP, bpm: "125",
-	Prime2: "S2 S4 S6 S9 S13 S16.ampass  D7 D15 D17.ampass  CoOp(x2)",
+	Prime2: "S2 S4 S6 S9 S13 S16.ampass D7 D15 D17.ampass CoOp(x2)  @1.06 Dp3",
 },
 
 // "1552":
@@ -207,7 +258,7 @@ var tracklist = {
 "1553":
 {
 	title: "Up & Down", artist: "EXID", channel: KPOP, bpm: "112",
-	Prime2: "S2 S4 S7 S9 S15 S17.ampass D5 D15 CoOp(x2).ampass",
+	Prime2: "S2 S4 S7 S9 S15 S17.ampass D5 D15 CoOp(x2).ampass  @1.06 Dp5",
 },
 
 "1554":
@@ -220,19 +271,19 @@ var tracklist = {
 "1555":
 {
 	title: "You're the Best", artist: "Mamamoo", channel: KPOP, bpm: "122",
-	Prime2: "S2 S4 S6 S10 S15 D7 D10 D16.ampass",
+	Prime2: "S2 S4 S6 S10 S15 D7 D10 D16.ampass  @1.06 Dp2",
 },
 
 "1556":
 {
 	title: "Number Nine", artist: "T-ara", channel: KPOP, bpm: "128",
-	Prime2: "S3 S5 S8 S11 S13 S15.ampass D8 D15 D17.ampass",
+	Prime2: "S3 S5 S8 S11 S13 S15.ampass D8 D15 D17.ampass  @1.06 Dp4",
 },
 
 "1557":
 {
 	title: "Acquaintance", artist: "Outsider", channel: KPOP, bpm: "130",
-	Prime2: "S3 S7 S9 S17 S20.ampass D7 D18 D21.ampass CoOp(x2)",
+	Prime2: "S3 S7 S9 S17 S20.ampass D7 D18 D21.ampass CoOp(x2)  @1.06 Dp4",
 },
 
 // "1558":
@@ -245,7 +296,7 @@ var tracklist = {
 "1564":
 {
 	title: "Moon Light Dance", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "182",
-	Prime2: "S3 S7 S11 S14 S17.ampass D4 D15 D19.ampass",
+	Prime2: "S3 S7 S11 S14 S17.ampass D4 D15 D19.ampass  @1.06 Dp4",
 },
 
 // "1565":
@@ -261,14 +312,14 @@ var tracklist = {
 
 "1575":
 {
-	title: "Step", artist: "SID-SOUND", channel: WORLD, bpm: "156",
+	title: "Step", artist: "S.I.D-Sound", channel: WORLD, bpm: "156",
 	Prime2: "@1.02 S7 S13 S17 D12 D18 D20.ampass",
 },
 
 "1576":
 {
 	title: "Just Kiddin", artist: "Vospi", channel: WORLD, bpm: "125",
-	Prime2: "@1.01 S5 S13 S16 D9  D18.ampass",
+	Prime2: "@1.01 S5 S13 S16 D9  D18.ampass  @1.06 Dp5",
 },
 
 // "1577":
@@ -330,7 +381,7 @@ var tracklist = {
 "15A6":
 {
 	title: "Death Moon", artist: "SHK", channel: XROSS, bpm: "160",
-	Prime2: "S3 S6 S10 S14 S17 S19.ampass D7 D17 D21.ampass CoOp(x2)",
+	Prime2: "S3 S6 S10 S14 S17 S19.ampass D7 D17 D21.ampass CoOp(x2)  @1.06 Dp3",
 },
 
 "15A7":
@@ -343,19 +394,19 @@ var tracklist = {
 "15A8":
 {
 	title: "Christmas Memories", artist: "Beautiful Day remixed by Warak", channel: XROSS, bpm: "170",
-	Prime2: "S3 S5 S8 S14 D9 D15 CoOp(x2)",
+	Prime2: "S3 S5 S8 S14 D9 D15 CoOp(x2)  @1.06 Dp4",
 },
 
 "15B0":
 {
 	title: "Asterios -ReEntry-", artist: "ATAS (NaSch)", channel: XROSS, bpm: "148",
-	Prime2: "S4 S6 S11 S14 S17 S19.ampass D8 D18 D21.ampass CoOp(x2).ampass",
+	Prime2: "S4 S6 S11 S14 S17 S19.ampass D8 D18 D21.ampass CoOp(x2).ampass  @1.06 Dp3",
 },
 
 "15B1":
 {
 	title: "Le Grand Bleu", artist: "KIEN", channel: XROSS, bpm: "165",
-	Prime2: "S7 S12 S16 S18.ampass D9 D18 D20.ampass",
+	Prime2: "S7 S12 S16 S18.ampass D9 D18 D20.ampass  @1.06 Dp6",
 },
 
 // "15B2":
@@ -367,7 +418,7 @@ var tracklist = {
 "15B7":
 {
 	title: "Clue", artist: "Transin", channel: XROSS, bpm: "140",
-	Prime2: "@1.01 S4 S8 S12 S16 D10 D18  S18.ampass D20.ampass",
+	Prime2: "@1.01 S4 S8 S12 S16 D10 D18  S18.ampass D20.ampass  @1.06 Dp4",
 },
 
 "15B8":
@@ -821,7 +872,7 @@ var tracklist = {
 
 "1454":
 {
-	title: "Selfishness", artist: "SID-Sound", channel: WORLD, bpm: "160",
+	title: "Selfishness", artist: "S.I.D-Sound", channel: WORLD, bpm: "160",
 	Prime2: "=",
 	Prime: "@1.03 S3 S6 S11 S17 D12 D18",
 },
@@ -831,14 +882,14 @@ var tracklist = {
 
 "1457":
 {
-	title: "Cosmical Rhythm", artist: "SID-Sound", channel: WORLD, bpm: "128",
+	title: "Cosmical Rhythm", artist: "S.I.D-Sound", channel: WORLD, bpm: "128",
 	Prime2: "= -S16",
 	Prime: "S3 S6 S8 S15 D10 D16  @1.12 S16.ucs D18.ucs",
 },
 
 "1458":
 {
-	title: "Dolly Kiss", artist: "SID-Sound", channel: WORLD, bpm: "149",
+	title: "Dolly Kiss", artist: "S.I.D-Sound", channel: WORLD, bpm: "149",
 	Prime2: "=",
 	Prime: "@1.07 S3 S6 S14 D6 D15  @1.19 S17",
 },
@@ -1234,7 +1285,7 @@ var tracklist = {
 
 "14E3":
 {
-	title: "Selfishness  [SHORT]", artist: "SID-Sound", channel: WORLD, bpm: "160",
+	title: "Selfishness  [SHORT]", artist: "S.I.D-Sound", channel: WORLD, bpm: "160",
 	Prime2: "=",
 	Prime: "@1.03 S17 D18",
 },
@@ -1585,7 +1636,7 @@ var tracklist = {
 
 "1341":
 {
-	title: "Yeo Rae A", artist: "SID-Sound", channel: ORIGINAL, bpm: "90",
+	title: "Yeo Rae A", artist: "S.I.D-Sound", channel: ORIGINAL, bpm: "90",
 	Prime2: "=",
 	Prime: "=  @1.06 S8",
 	Fiesta2: "@1.60 S1 S3 S5 S13 D5 D12",
@@ -6271,7 +6322,7 @@ var tracklist = {
 "311":
 {
 	title: "Pumping Up", artist: "BanYa", bpm: "135", fromMix: "OBG",
-	Prime2: "=",
+	Prime2: "=  @1.06 D15",
 	Fiesta2: "=",
 	FiestaEX: "=  @1.30 S12",
 	Fiesta: "S4.hd",
