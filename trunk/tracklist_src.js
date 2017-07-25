@@ -44,31 +44,6 @@ var tracklist = {
 
 // unsorted
 
-"15_Sober":
-{
-	title: "Sober", artist: "Big Bang", bpm: "130",
-	Prime2: "@1.06 S2 S4 S7 S13 D3 D14 S17.ampass D17.ampass CoOp(x2).ampass",
-},
-
-"15_Magical_Vacation":
-{
-	title: "Magical Vacation", artist: "S.I.D-Sound", channel: XROSS, bpm: "154",
-	Prime2: "@1.06 S6 S11 S16 D7 D13 S19.ampass D18.ampass",
-},
-
-"15_Shub_Niggurath":
-{
-	title: "Shub Niggurath", artist: "Nato", channel: ORIGINAL, bpm: "220",
-	Prime2: "@1.06 S11 S15 S19 D17 S21 S24 D23 D26",
-},
-
-"15_Acquaintance_FULL":
-{
-	title: "Acquaintance  [FULL]", artist: "Outsider", channel: KPOP, bpm: "130",
-	Prime2: "@1.06 S20 D22",
-},
-
-
 /*
 "15_Overblow2":
 {
@@ -130,7 +105,12 @@ var tracklist = {
 	Prime2: "S5 S8 S13 S18 S20.ampass D9 D17 D21.ampass  @1.06 Dp4",
 },
 
-// "1508":
+"1508":
+{
+	altID: "15_Shub_Niggurath",
+	title: "Shub Niggurath", artist: "Nato", channel: ORIGINAL, bpm: "220",
+	Prime2: "@1.06 S11 S15 S19 D17 S21 S24 D23 D26",
+},
 
 "1509":
 {
@@ -253,7 +233,12 @@ var tracklist = {
 	Prime2: "S2 S4 S6 S9 S13 S16.ampass D7 D15 D17.ampass CoOp(x2)  @1.06 Dp3",
 },
 
-// "1552":
+"1552":
+{
+	altID: "15_Sober",
+	title: "Sober", artist: "Big Bang", bpm: "130",
+	Prime2: "@1.06 S2 S4 S7 S13 D3 D14 S17.ampass D17.ampass CoOp(x2).ampass",
+},
 
 "1553":
 {
@@ -375,7 +360,14 @@ var tracklist = {
 },
 
 // "15A3":
-// "15A4":
+
+"15A4":
+{
+	altID: "15_Magical_Vacation",
+	title: "Magical Vacation", artist: "S.I.D-Sound", channel: XROSS, bpm: "154",
+	Prime2: "@1.06 S6 S11 S16 D7 D13 S19.ampass D18.ampass",
+},
+
 // "15A5":
 
 "15A6":
@@ -470,7 +462,13 @@ var tracklist = {
 	Prime2: "@1.05 S8 S18 D19",
 },
 
-// "15E4":
+"15E4":
+{
+	altID: "15_Acquaintance_FULL",
+	title: "Acquaintance  [FULL]", artist: "Outsider", channel: KPOP, bpm: "130",
+	Prime2: "@1.06 S20 D22",
+},
+
 // "15E5":
 
 "15E6":
