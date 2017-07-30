@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+	<script src="include/underscore/underscore-min.js"></script>
+</head>
+
+<script src="tracklist.js"></script>
+<script src="tracklist_src.js"></script>
+<!--
+<script src="check.js"></script>
+<script src="check_Exceed2_Zero.js"></script>
+<script src="check_NX.js"></script>
+<script src="check_NX2_NXA.js"></script>
+-->
+<!-- -->
+<script src="tracklist_bpms.js"></script>
+<script src="tracklist_unlocks.js"></script>
+<script src="tracklist_level_estimations.js"></script>
+<script src="tracklist_tags.js"></script>
+<!-- <script src="verify_bpms.js"></script> -->
+
+<code>
+<script>
+function JStr( obj )
+{
+	return JSON.stringify( obj, null, 1 );
+}
+
+
+function JStrNoQuotes( obj )
+{
+	var jstr = JStr( obj );
+	return jstr.substring( 3, jstr.length - 2 );
+}
+
+
+function DictToArr( dict, func )
+{
+	return Object.keys( dict ).map( function ( key ) {  return func( key, dict[ key ] );  } );
+}
+
+
+function RemoveObviousFields( track, mixID, chart )
+{
+	if( String( chart.levelNum ) === chart.levelText )
+		delete chart.levelNum;
+
+	var newTagIndex = NewTags.indexOf( chart.tag );
+	if( newTagIndex >= 0 )
+	{
+		if( NewTagTypes[ newTagIndex ] === chart.type )
+			delete chart.type;
+	}
+
+	var oldArcadeTagIndex = OldArcadeTags.indexOf( chart.tag );
+	if( oldArcadeTagIndex >= 0 )
+	{
+		if( track.duration === STANDARD  &&  chart.zone === ARCADE )
+			delete chart.zone;
+		if( ( track.duration === REMIX  ||  track.duration === FULL )  &&  chart.zone === SPECIAL )
+			delete chart.zone;
+		if( OldTagTypes[ oldArcadeTagIndex ] === chart.type )
+			delete chart.type;
+	}
+
+	var oldSpecialTagIndex = OldSpecialTags.indexOf( chart.tag );
+	if( oldSpecialTagIndex >= 0 )
+	{
+		if( chart.zone === SPECIAL )
+			delete chart.zone;
+		if( OldTagTypes[ oldSpecialTagIndex ] === chart.type )
+			delete chart.type;
+	}
+
+	if( chart.levelText  &&  chart.levelText !== "" )
+		chart.text = chart.tag + "-" + chart.levelText;
+	delete chart.tag;
+	delete chart.levelText;
+	if( isNaN( chart.levelNum )  ||  chart.levelNum === null )
+		delete chart.levelNum;
+
+	var chartIndex = chart.shared.index;
+	delete chart.shared;
+	delete chart.fromMixID;
+	if( Object.keys( chart ).length === 1 )  // if we can parse all chart details from text description,
+		chart = chart.text;                  //   save text instead of dict
+
+	track[ mixID ][ chartIndex ] = chart;
+}
+
+
+/*
+	static int CompareTracksSortOrder( Track t1, Track t2 )
+	{
+		var result = t2.fromMixT.CompareTo( t1.fromMixT );
+		if( result == 0 )
+			result = t1.channelT.CompareTo( t2.channelT );
+		if( result == 0 )
+			result = t1.ID.CompareTo( t2.ID );
+		return result;
+	}
+
+
+	static bool TrackHasSameLevelChart( Track track, Chart chart )
+	{
+		var mixCharts = track.mixCharts[ Profiles.Current.mixFilter.mixT ];
+		return mixCharts != null  && mixCharts.Any( ch => ( ch.indicatedLevel == chart.indicatedLevel ) );
+	}
+
+
+	static bool TrackHasSameTypeLevel( Track track, Chart chart )
+	{
+		var mixCharts = track.mixCharts[ Profiles.Current.mixFilter.mixT ];
+		return mixCharts != null  && mixCharts.Any( ch => ( ch.modeT == chart.modeT  &&  ch.indicatedLevel == chart.indicatedLevel ) );
+	}
+
+
+	static bool TrackIsFromSameMix( Track track, Chart chart )
+	{
+		var mixCharts = track.mixCharts[ Profiles.Current.mixFilter.mixT ];
+		return mixCharts != null  &&  track.fromMixT == chart.track.fromMixT;
+	}
+
+
+	static void TestChartOrder( Chart chart, bool onlyArcade )
+	{
+		var sameLevelChartTracks = Tracklist.Instance.tracks_.Values
+			//.Where( track => TrackHasSameTypeLevel( track, chart ) )
+			.Where( track => TrackIsFromSameMix( track, chart ) )
+			.ToList();
+		sameLevelChartTracks.Sort( CompareTracksSortOrder );
+		int i = 0;
+		foreach( var t in sameLevelChartTracks )
+			Debug.LogFormat( "{0}/{1} - {2} {3}  ({4})", ++i, sameLevelChartTracks.Count, t.ID, t.title, t.channel );
+	}
+*/
+
+function SortChartsForPrime()
+{
+	// all tunes
+}
+
+// function ConvertInnerDataToOutput( track )
+// {
+// 	for( var mixID of mixesOrder )
+// 	{
+// 		delete track.chartsCount;
+
+// 		var mixCharts = track[ mixID ];
+// 		if( ! mixCharts )
+// 			continue;
+
+// 		track[ mixID ] = {};
+// 		for( var chart of mixCharts )
+// 			RemoveObviousFields( track, mixID, chart );
+// 	}
+
+// 	if( track.duration == "Standard" )
+// 		delete track.duration;
+
+// 	track.title = track.title.replace( "  ", "&nbsp;&nbsp;" );
+// }
+
+
+// for( var trackID in tracklist )
+// 	ConvertInnerDataToOutput( tracklist[ trackID ] );
+
+
+
+
+
+
+document.write("{<br><br>");
+
+result = ""
+
+var nextTrack = false;
+for( var trackID in tracklist )
+{
+	if( nextTrack )
+		result += ",<br><br>";
+	else
+		nextTrack = true;
+
+	var track = tracklist[ trackID ];
+
+	var mixesTemp = {};
+	for( var mixID of mixesOrder )
+	{
+		mixesTemp[ mixID ] = track[ mixID ];
+		delete track[ mixID ];
+	}
+
+	if( ! track.charts )
+		continue;
+
+	var charts = track.charts;
+	delete track.charts;
+	for( var chartIndex in charts )
+	{
+		var shared = charts[ chartIndex ];
+		delete shared.index;
+		delete shared.type;
+		if( Object.keys(shared).length === 0 )
+			delete charts[ chartIndex ];
+	}
+
+	result += JStr( trackID ) + ": {<br>&nbsp;" + JStrNoQuotes( track ) + ",<br>";
+
+	if( Object.keys( charts ).length > 0 )
+	{
+		var chartsArr = DictToArr( charts, function ( key, val ) {  return "&nbsp;&nbsp;" + JStr( key ) + ": " + JStr( val );  } );
+		result += "\t&nbsp;\"charts\": {<br>" + chartsArr.join( ",<br>" ) + "<br>&nbsp;},<br>";
+	}
+
+	var nextMix = false;
+	for( var mixID of mixesOrder )
+	{
+		var mixCharts = mixesTemp[ mixID ];
+		if( mixCharts )
+		{
+			if( nextMix )
+				result += ",<br>";
+			else
+				nextMix = true;
+			result += "\t&nbsp;" + JStr( mixID ) + ": {<br>";
+
+			var mixChartsArr = DictToArr( mixCharts, function ( key, val ) {  return "&nbsp;&nbsp;" + JStr( key ) + ": " + JStr( val );  } );
+			result += mixChartsArr.join( ",<br>" );
+
+			result += "<br>&nbsp;}";
+		}
+	}
+	result += "<br>}";
+}
+document.write( result );
+document.write("<br><br>}");
+</script>
+</code>
+
+</body>
+</html>
