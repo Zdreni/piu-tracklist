@@ -2168,14 +2168,14 @@ var tracklist = {
 
 "1129":
 {
-	title: "K-Pop Girl Group RMX", artist: "Secret & Orange Caramel & 4Minute & 2NE1", bpm: "128", duration: REMIX,
+	title: "K-Pop Girl Group RMX", artist: "Secret & Orange Caramel & 4Minute & 2NE1", channel: KPOP, bpm: "128", duration: REMIX,
 	Fiesta2: "=",
 	FiestaEX: "S14 D15",
 },
 
 "1130":
 {
-	title: "K-POP Boy Group RMX", artist: "BEAST & Big Bang & SHINee", bpm: "125 - 135", duration: REMIX,
+	title: "K-POP Boy Group RMX", artist: "BEAST & Big Bang & SHINee", channel: KPOP, bpm: "125 - 135", duration: REMIX,
 	Fiesta2: "=",
 	FiestaEX: "@1.30 D17",
 },
@@ -2701,7 +2701,7 @@ var tracklist = {
 
 "1038":
 {
-	title: "msgoon RMX pt. 5", artist: "msgoon", duration: REMIX, bpm: "102.8",
+	title: "msgoon RMX pt. 5", artist: "msgoon", channel: ORIGINAL, duration: REMIX, bpm: "102.8",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -2720,7 +2720,7 @@ var tracklist = {
 
 "1040":
 {
-	title: "msgoon RMX pt. 7", artist: "msgoon", duration: REMIX, bpm: "130",
+	title: "msgoon RMX pt. 7", artist: "msgoon", channel: ORIGINAL, duration: REMIX, bpm: "130",
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S17 Dp4",
@@ -2728,7 +2728,7 @@ var tracklist = {
 
 "1041":
 {
-	title: "History: We Are The Zest", artist: "msgoon", bpm: "112.5", duration: REMIX,
+	title: "History: We Are The Zest", artist: "msgoon", channel: ORIGINAL, bpm: "112.5", duration: REMIX,
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "Sp6 Dp5",
@@ -2781,7 +2781,7 @@ var tracklist = {
 
 "1047":
 {
-	title: "Pump It Up With You", artist: "msgoon", bpm: "105-135", duration: REMIX,
+	title: "Pump It Up With You", artist: "msgoon", channel: ORIGINAL, bpm: "105-135", duration: REMIX,
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S17 D17",
@@ -3296,7 +3296,7 @@ var tracklist = {
 
 "F30":
 {
-	title: "45rpm & Eun Ji Won Remix", artist: "45RPM / Eun Ji Won", bpm: "123", duration: REMIX,
+	title: "45rpm & Eun Ji Won Remix", artist: "45RPM / Eun Ji Won", channel: KPOP, bpm: "123", duration: REMIX,
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S11.cz Dp5.fs D14.nm",
@@ -3345,13 +3345,13 @@ var tracklist = {
 
 "F35":
 {
-	title: "Jam O Beat # No. 4", artist: "BanYa Production / HEaDTriP", bpm: "121", duration: REMIX,
+	title: "Jam O Beat # No. 4", artist: "BanYa Production / HEaDTriP", channel: ORIGINAL, bpm: "121", duration: REMIX,
 	NXA_: ["", "", "16", "6", "16"],
 },
 
 "F36":
 {
-	title: "YG Remix", artist: "Big Bang / Perry", bpm: "102", duration: REMIX,
+	title: "YG Remix", artist: "Big Bang / Perry", channel: KPOP, bpm: "102", duration: REMIX,
 	NXA_: ["", "5", "", "6", "15"],
 },
 
@@ -3378,7 +3378,7 @@ var tracklist = {
 
 "F39":
 {
-	title: "NXA Hip-Hop Mix", artist: "DJ Missill / Gyfted", bpm: "108", duration: REMIX,
+	title: "NXA Hip-Hop Mix", artist: "DJ Missill / Gyfted", channel: WORLD, bpm: "108", duration: REMIX,
 	NXA_: ["", "6", "13", "4", ""],
 },
 
@@ -3393,7 +3393,7 @@ var tracklist = {
 
 "F41":
 {
-	title: "Mr. Fire Fighter Falls in Love With Me", artist: "Spooky Banana / No Brain", bpm: "158", duration: REMIX,
+	title: "Mr. Fire Fighter Falls in Love With Me", artist: "Spooky Banana / No Brain", channel: KPOP, bpm: "158", duration: REMIX,
 	shortTitle: "Mr. Fire Fighter\nFalls in Love With Me",
 	NXA_: ["", "8", "15", "9", ""],
 },
@@ -3416,7 +3416,7 @@ var tracklist = {
 
 "F44":
 {
-	title: "msgoon RMX pt. 1", artist: "msgoon", bpm: "120", duration: REMIX,
+	title: "msgoon RMX pt. 1", artist: "msgoon", channel: ORIGINAL, bpm: "120", duration: REMIX,
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -3426,13 +3426,13 @@ var tracklist = {
 
 "F45":
 {
-	title: "msgoon RMX pt. 2", artist: "msgoon", bpm: "105", duration: REMIX,
+	title: "msgoon RMX pt. 2", artist: "msgoon", channel: KPOP, bpm: "105", duration: REMIX,
 	NXA_: ["", "5", "16", "5", ""],
 },
 
 "F46":
 {
-	title: "msgoon RMX pt. 3", artist: "msgoon", bpm: "168", duration: REMIX,
+	title: "msgoon RMX pt. 3", artist: "msgoon", channel: ORIGINAL, bpm: "168", duration: REMIX,
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -3925,14 +3925,14 @@ var tracklist = {
 
 "E54":
 {
-	title: "NX2 K-Pop Remix 1", artist: "U;Nee/Duke/Lee Hyun Do", bpm: "136", duration: REMIX,
+	title: "NX2 K-Pop Remix 1", artist: "U;Nee/Duke/Lee Hyun Do", channel: KPOP, bpm: "136", duration: REMIX,
 	NXA_: ["", "6", "13", "7", "16"],
 	NX2_: ["", "8", "15", "9", "16"],
 },
 
 "E55":
 {
-	title: "NX2 K-Hip Hop Remix", artist: "Eun Ji Won/Dynamic Duo", bpm: "110", duration: REMIX,
+	title: "NX2 K-Hip Hop Remix", artist: "Eun Ji Won/Dynamic Duo", channel: KPOP, bpm: "110", duration: REMIX,
 	NX2_: ["", "7", "14", "", "15"],
 },
 
@@ -3944,26 +3944,26 @@ var tracklist = {
 
 "E57":
 {
-	title: "NX2 K-Pop Remix 2", artist: "Mina/Bae Chi Gi", bpm: "117", duration: REMIX,
+	title: "NX2 K-Pop Remix 2", artist: "Mina/Bae Chi Gi", channel: KPOP, bpm: "117", duration: REMIX,
 	NXA_: ["", "5", "", "", "15"],
 	NX2_: ["", "7", "", "", "14"],
 },
 
 "E58":
 {
-	title: "No Despair  [FULL]", artist: "Hot Potato", bpm: "160", duration: REMIX,
+	title: "No Despair  [FULL]", artist: "Hot Potato", channel: KPOP, bpm: "160", duration: REMIX,  // REMIX indeed
 	NX2_: ["", "7", "18", "", "20"],
 },
 
 "E59":
 {
-	title: "NX2 K-Pop Remix 3", artist: "Lee Hyun Do / Som 2", bpm: "112", duration: REMIX,
+	title: "NX2 K-Pop Remix 3", artist: "Lee Hyun Do / Som 2", channel: KPOP, bpm: "112", duration: REMIX,
 	NX2_: ["", "7", "13", "", "13"],
 },
 
 "E60":
 {
-	title: "NX2 Diva Remix", artist: "Joanne / Bada", bpm: "120", duration: REMIX,
+	title: "NX2 Diva Remix", artist: "Joanne / Bada", channel: KPOP, bpm: "120", duration: REMIX,
 	NXA_: ["", "4", "9", "5", ""],
 	NX2_: ["", "4", "12", "5", ""],
 },
@@ -4113,8 +4113,8 @@ var tracklist = {
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S7.nl S16.hd S23.cz D25.nm  D16.afs Dp??(x2).new  S4.new S11.new S18.new D??(x3).anm",
-	NXA: ["7", "16", "23", "21", "??(25)"], NXA_: ["", "16", "19", "16", "??(24)(x3)"],
-	NX2: ["8", "17", "23", "20", "??(25)"], NX2_: ["", "13", "20", "15", "??(24)(x3)"],
+	NXA: ["7", "16", "23", "21", "??(25)"], NXA_: ["", "16", "19", "16", "??(x3)"],
+	NX2: ["8", "17", "23", "20", "??(25)"], NX2_: ["", "13", "20", "15", "??(x3)"],
 	NX: ["8", "15/16", "22", "20", "??(25)"], NX_: ["", "13", "", "15/16", "??(x3)"],
 },
 
@@ -4388,7 +4388,7 @@ var tracklist = {
 
 "D33":
 {
-	title: "Pop House Mix", artist: "Kristeen/Scoop/Fresno", bpm: "128-130.5", duration: REMIX,
+	title: "Pop House Mix", artist: "Kristeen/Scoop/Fresno", channel: WORLD, bpm: "128-130.5", duration: REMIX,
 	NX2_: ["", "8", "15", "", "16"],
 	NX_: ["", "8", "14", "", "15/16"],
 },
@@ -4428,7 +4428,7 @@ var tracklist = {
 
 "D37":
 {
-	title: "Chicago Club Mix", artist: "Haley/DVS/Gyfted", bpm: "112", duration: REMIX,
+	title: "Chicago Club Mix", artist: "Haley/DVS/Gyfted", channel: WORLD, bpm: "112", duration: REMIX,
 	NX_: ["", "10", "15/16", "11", "17"],
 },
 
@@ -4729,7 +4729,7 @@ var tracklist = {
 
 "C42":
 {
-	title: "K-Hip Hop Mix Vol. 1", artist: "Perry/Drunken Tiger/JTL/Eun Ji Won", bpm: "110", duration: REMIX,
+	title: "K-Hip Hop Mix Vol. 1", artist: "Perry/Drunken Tiger/JTL/Eun Ji Won", channel: KPOP, bpm: "110", duration: REMIX,
 	NX2_: ["", "8", "14", "7", ""],
 	NX_: ["", "8", "14", "7", ""],
 	Zero_: ["", "7", "13", "6", ""],
@@ -4737,7 +4737,7 @@ var tracklist = {
 
 "C43":
 {
-	title: "Zero K-House Mix Vol. 1", artist: "Turtles/Cho PD/Harisu/Jang Yoon Jung", bpm: "136", duration: REMIX,
+	title: "Zero K-House Mix Vol. 1", artist: "Turtles/Cho PD/Harisu/Jang Yoon Jung", channel: KPOP, bpm: "136", duration: REMIX,
 	NX_: ["", "7", "13", "6", ""],
 	Zero_: ["", "6", "12", "5", ""],
 },
@@ -4995,7 +4995,7 @@ var tracklist = {
 
 "B27":
 {
-	title: "Lexy & 1TYM Remix", artist: "Lexy/1TYM", bpm: "123", duration: REMIX,
+	title: "Lexy & 1TYM Remix", artist: "Lexy/1TYM", channel: KPOP, bpm: "123", duration: REMIX,
 	Exceed2_: ["", "7", "11", "8", ""],
 	Zero_: ["", "7", "11", "8", ""],
 },
@@ -5031,7 +5031,7 @@ var tracklist = {
 
 "B30":
 {
-	title: "Deux Remix", artist: "Deux", bpm: "119.5", duration: REMIX,
+	title: "Deux Remix", artist: "Deux", channel: KPOP, bpm: "119.5", duration: REMIX,
 	NX2_: ["", "7", "14", "8", ""],
 	NX_: ["", "7", "14", "7", ""],
 	Zero_: ["", "6", "15", "7", ""],
@@ -5040,7 +5040,7 @@ var tracklist = {
 
 "B31":
 {
-	title: "Diva's Remix", artist: "BoA*/Shyne/Y*Me", bpm: "110", duration: REMIX,
+	title: "Diva's Remix", artist: "BoA*/Shyne/Y*Me", channel: KPOP, bpm: "110", duration: REMIX,
 	NX_: ["", "8", "11", "9", ""],
 	Zero_: ["", "7", "11", "8", ""],
 	Exceed2_: ["", "7", "11", "8", ""],
@@ -5076,7 +5076,7 @@ var tracklist = {
 
 "B53":
 {
-	title: "Turbo Remix", artist: "Turbo", bpm: "147.7", duration: REMIX,
+	title: "Turbo Remix", artist: "Turbo", channel: KPOP, bpm: "147.7", duration: REMIX,
 	NX2_: ["", "9", "12", "10", ""],
 	NX_: ["", "9", "11", "11", ""],
 	Zero_: ["", "8", "14", "10", ""],
@@ -5085,7 +5085,7 @@ var tracklist = {
 
 "B54":
 {
-	title: "2nd Hidden Remix", artist: "Clon/Sechskies", bpm: "140", duration: REMIX,
+	title: "2nd Hidden Remix", artist: "Clon/Sechskies", channel: KPOP, bpm: "140", duration: REMIX,
 	NX2_: ["", "10", "11", "13", "16"],
 	NX_: ["", "10", "11", "12", "17"],
 	Zero_: ["", "9", "10", "12", "??"],
@@ -5094,7 +5094,7 @@ var tracklist = {
 
 "B55":
 {
-	title: "Drunken Family Remix", artist: "Drunken Tiger/Honey Family", bpm: "95", duration: REMIX,
+	title: "Drunken Family Remix", artist: "Drunken Tiger/Honey Family", channel: KPOP, bpm: "95", duration: REMIX,
 	NX2_: ["", "6", "7", "6", ""],
 	NX_: ["", "6", "7", "6", ""],
 	Zero_: ["", "5", "6", "5", ""],
@@ -6639,6 +6639,13 @@ function GetSharedChart( track, idx )
 // is to pass it with predictable score and calculate level bonus multiplier manually.
 var NX_GLITCH_LEVEL = "15/16"
 
+// On NX, there were charts unavailable to play in normal mode, one needs a hack to pley them.
+// So they had no official level, no easy access and should not be treated as common charts.
+var NX_SPECIAL_ZONE_HIDDEN = "(@)"
+
+// Some charts were marked as "?? DANGER", so they have no official estimation
+var NO_OFFICIAL_ESTIMATION = "??"
+
 function PreprocessOldStyleStation( track, inCharts, zone, tags, oldSlotSharedCharts )
 {
 	var result = [];
@@ -6648,7 +6655,7 @@ function PreprocessOldStyleStation( track, inCharts, zone, tags, oldSlotSharedCh
 
 	for( var i = 0;  i < OldTagTypes.length;  ++i )
 	{
-		if( inCharts[ i ] === "" )
+		if( inCharts[ i ] === ""  ||  inCharts[ i ] === NX_SPECIAL_ZONE_HIDDEN )
 			continue;
 
 		var chart = {};
@@ -6658,14 +6665,17 @@ function PreprocessOldStyleStation( track, inCharts, zone, tags, oldSlotSharedCh
 		chart.shared = oldSlotSharedCharts[ chart.tag ];
 		ParseChartLevel( chart, inCharts[ i ] );
 
-		if( isNaN( chart.levelNum )  ||  ( String( chart.levelNum ) != chart.levelText  &&  ! chart.levelText.endsWith( "(" + String( chart.levelNum ) + ")" ) ) )
+		var levelIsOfficial =  ! isNaN( chart.levelNum )  &&  String( chart.levelNum ) == chart.levelText
+		var coupleDetected =  ! isNaN( chart.shared.players )  &&  chart.shared.players >= 2
+		var levelIsSpecified =  ! isNaN( chart.levelNum )  &&  inCharts[ i ].endsWith( "(" + String( chart.levelNum ) + ")" )
+		if( ! levelIsOfficial  &&  ! levelIsSpecified  &&  ! coupleDetected )
 		{
 			if( inCharts[ i ] === NX_GLITCH_LEVEL )
 				chart.levelNum = 15;
-			else if( inCharts[ i ].startsWith( "??" ) )
+			else if( inCharts[ i ] === NO_OFFICIAL_ESTIMATION )
 				;
 			else
-				console.log( "Error: level of '" + track.title + "  " + tags[ i ] + "-" + inCharts[ i ] + "' can't be parsed, got " + String( chart.levelNum ) );
+				console.warn( "level of '" + track.title + "  " + tags[ i ] + "-" + inCharts[ i ] + "' can't be parsed, got " + String( chart.levelNum ) );
 		}
 
 		chart.text = chart.tag + "-" + inCharts[ i ];
@@ -6909,6 +6919,7 @@ function GuessDurationFromTitle( title )
 {
 	if( title.endsWith( "[SHORT]" ) )
 		return SHORT;
+
 	if( title.endsWith( "[FULL]" ) )
 		return FULL;
 
@@ -6922,18 +6933,18 @@ function PreprocessTrack( track )
 		track.duration = GuessDurationFromTitle( track.title );
 
 	if( ! track.artist )
-		console.log("Warning: " + track.title + " has no artist specified." );
+		console.error( "'" + track.title + "' has no artist specified." );
 
 	if( ! track.channel )
 		track.channel = knownArtists[ track.artist ];
 	else if( knownArtists[ track.artist ] === track.channel )
-		console.log("Warning: '" + track.title + "'' artist '" + track.artist + "' channel is already defined as '" + track.channel + "'" );
+		console.warn( "'" + track.title + "' artist '" + track.artist + "' channel is already defined as '" + track.channel + "'" );
+
+	if( [ ORIGINAL, WORLD, KPOP, JMUSIC, XROSS ].indexOf( track.channel ) < 0 )
+		console.error( "'" + track.title + "' has no channel specified.")
 
 	if( ! track.bpm )
-		console.log("Warning: " + track.title + " has no bpm specified." );
-
-	if( track.duration !== REMIX  &&  [ ORIGINAL, WORLD, KPOP, JMUSIC, XROSS ].indexOf( track.channel ) < 0 )
-		console.log("Warning: " + track.title + " has no channel specified.")
+		console.error( "'" + track.title + "' has no bpm specified." );
 
 	track.chartsCount = 0;
 
