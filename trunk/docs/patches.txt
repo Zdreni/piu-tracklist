@@ -2829,4 +2829,84 @@ Webcam function dedicated to LX cabinet is added.
      If you are not in login status, it will be uploaded to 'Guest Gallery'.
      Website uploading function is on developing and will be updated later.
 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Prime 2  1.07
+https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1070-update-notice/1811354622226118/
+
+1. New Songs
+
+1) Song : Overblow2
+    Artist : MAX
+    BPM : 155
+    Default step chart : S05, S09, S15, D07, D14
+    S??(18) , D??(19) (Card only step)
+
+2) Song : Hey U
+    Artist : MAZO
+    BPM : 162
+    Default step chart : S05, S10, S15, D10, D16
+
+3) Song : BEDLAM
+    Artist : SANY-ON
+    BPM : 183
+    Default step chart : S08, S15, S18, D13, D20
+    S22, D24 (Unlocked step)
+
+4) Song : [REMIX] Leather
+    Artist : Doin
+    BPM : 200
+    Default step chart : S18, S21, D22
+    S24, D26 (Unlocked step)
+
+
+2. New Step Charts
+
+1) Song : Bring Back The Beat
+    Artist : Lunatic Sounds
+    BPM : 160
+    step chart : D??(S19) (Card only step)
+
+2) Song : Red Snow
+    Artist : Cashew
+    BPM : 170
+    step chart : D18 (6th U.C.S Contest Winner’s step, Unlocked step)
+
+3) Song : Winter
+    Artist : BanYa
+    BPM : 168
+    step chart : S19 (Unlocked step)
+
+4) Song : [SHORT CUT] Death Moon
+    Artist : SHK
+    BPM : 160
+    step chart : S22 (Unlocked step)
+
+
+3. Quest zone
+Quest “Chapter3” is updated.
+
+ 1) Song :  Very Good
+       Step chart :  S06, S09, S15, S16
+
+ 2) Song :  Rippin It Up
+        Step chart :  S05, S09, S16, S19
+
+ 3) Song :   Achluoias
+       Step chart :  S08, S15, S18, S21
+
+ 4) Song :  Hyperion
+        Step chart :  S09, S14, S18, S21
+
+ 5) Song :  Destination
+        Step chart :  S11, S16, S18, S21
+
+ 6) Song :  Ignis Fatuus
+       Step chart :  S15, S19, S23, S24
+
+ 7) Song :  Extravaganza
+        Step chart :  S11, S16, S21, D24
+
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------

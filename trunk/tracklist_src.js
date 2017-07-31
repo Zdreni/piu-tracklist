@@ -44,30 +44,32 @@ var tracklist = {
 
 // unsorted
 
-/*
+
 "15_Overblow2":
 {
 	title: "Overblow2", artist: "Max", channel: ORIGINAL, bpm: "155",
-	Prime2: "@1.07",
+	Prime2: "@1.07 S5 S9 S15 D7 D14 S18.ampass D19.ampass",
 },
 
 "15_Hey_U":
 {
 	title: "Hey U", artist: "Mazo", channel: ORIGINAL, bpm: "162",
-	Prime2: "@1.07",
+	Prime2: "@1.07 S5 S10 S15 D10 D16",
 },
 
 "15_Bedlam":
 {
 	title: "Bedlam", artist: "SANY-ON", channel: XROSS, bpm: "183",
-	Prime2: "@1.07",
+	Prime2: "@1.07 S8 S15 S18 D13 D20 S22 D24",
 },
 
 "15_Leather":
 {
 	title: "Leather", artist: "Doin", channel: ORIGINAL, bpm: "200", duration: REMIX,
-	Prime2: "@1.",
+	Prime2: "@1.07 S18 S21 D22 S24 D26",
 },
+
+/*
 
 "15xx":
 {
@@ -124,9 +126,8 @@ var tracklist = {
 "1512":
 {
 	title: "Bring Back the Beat", artist: "Lunatic Sounds", channel: ORIGINAL, bpm: "160",
-	Prime2: "S7 S12 S17 D8 D19.ampass  @1.06 Dp5",
+	Prime2: "S7 S12 S17 D8 D19.ampass  @1.06 Dp5  @1.07 S19.ampass",
 },
-
 // "1513":
 // "1514":
 // "1515":
@@ -488,7 +489,7 @@ var tracklist = {
 "15F1":
 {
 	title: "Death Moon  [SHORT]", artist: "SHK", channel: XROSS, bpm: "160",
-	Prime2: "S9 S15 S19 D17 D22",
+	Prime2: "S9 S15 S19 D17 D22  @1.07 S22",
 },
 
 // "15F2":
@@ -724,7 +725,7 @@ var tracklist = {
 "1433":
 {
 	title: "Red Snow", artist: "Cashew", channel: ORIGINAL, bpm: "170",
-	Prime2: "=  @1.05 CoOp(x2)",
+	Prime2: "=  @1.05 CoOp(x2)  @1.07 D18.ucs",
 	Prime: "@1.15 S11 S16 D12  S19 D20  @1.21 S7",
 },
 
@@ -5859,7 +5860,7 @@ var tracklist = {
 "711":
 {
 	title: "Winter", artist: "BanYa", bpm: "168", fromMix: "Rebirth",
-	Prime2: "=",
+	Prime2: "=  @1.07 S19",
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "=  @1.30 D17",

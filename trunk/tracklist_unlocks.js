@@ -65,20 +65,23 @@ function FindChartForLock( track, mixID, chartText )
 			return chart;
 }
 
-function Lock( trackCharts, description, tillPatch )
+function Lock( trackTitle, charts, description, tillPatch )
 {
 	if( ! description )
 		description = "locked";
 
 	// find chart
-	var trackSplits = trackCharts.split( "  " );
-	var track = FindTrack( tracklist, trackSplits[ 0 ] );
+	var track = FindTrack( tracklist, trackTitle );
+	if( ! track )
+		console.error( "Can't find track ", trackSplits[ 0 ] );
 
-	var chartSplits = trackSplits[ 1 ].split( ", " );
+	var chartSplits = charts.split( ", " );
 
 	for( var chartText of chartSplits )
 	{
 		var chart = FindChartForLock( track, currentMixID, chartText )
+		if( ! chart )
+			console.error( "Can't find ", track.title, "  ", chartText )
 		console.assert( chart );
 		console.assert( ! chart.unlockDescr );
 		chart.unlockDescr = description;
@@ -223,108 +226,112 @@ var PIUGAME = "piugame unlock";
 
 On( "Prime", "..@1.21" )
 // 1.03
-	Lock( "Achluoias  S24", PIUGAME, "..@1.06" )
-	Lock( "Milky Way Galaxy  S17, D18", PIUGAME, "..@1.06" )
-	Lock( "Selfishness  S17, D18", PIUGAME, "..@1.06" )
+	Lock( "Achluoias", "S24", PIUGAME, "..@1.06" )
+	Lock( "Milky Way Galaxy", "S17, D18", PIUGAME, "..@1.06" )
+	Lock( "Selfishness", "S17, D18", PIUGAME, "..@1.06" )
 // 1.04
-	Lock( "Avalanche  S18, D19, D24", PIUGAME, "..@1.07" )
+	Lock( "Avalanche", "S18, D19, D24", PIUGAME, "..@1.07" )
 // 1.05
-	Lock( "You got me crazy  S17, S18, D18", PIUGAME, "..@1.08" )
-	Lock( "Interference  D21", PIUGAME, "..@1.08" )
+	Lock( "You got me crazy", "S17, S18, D18", PIUGAME, "..@1.08" )
+	Lock( "Interference", "D21", PIUGAME, "..@1.08" )
 // 1.06
-	Lock( "Sugar Conspiracy Theory  S15, S18, S19, D17, D20", PIUGAME, "..@1.09" )
-	Lock( "Move That Body!  S17, S20, D18", PIUGAME, "..@1.09" )
+	Lock( "Sugar Conspiracy Theory", "S15, S18, S19, D17, D20", PIUGAME, "..@1.09" )
+	Lock( "Move That Body!", "S17, S20, D18", PIUGAME, "..@1.09" )
 // 1.07
-	Lock( "Katkoi  S14, S18, D15, D19", PIUGAME, "..@1.10" )
-	Lock( "B2  S16, S18, D19", PIUGAME, "..@1.10" )
-	Lock( "1950  S25, D27", PIUGAME )
-	Lock( "Dolly KiSS  S14, D15", PIUGAME, "..@1.10" )
-	Lock( "Meteorize  S17, D18", PIUGAME )
+	Lock( "Katkoi", "S14, S18, D15, D19", PIUGAME, "..@1.10" )
+	Lock( "B2", "S16, S18, D19", PIUGAME, "..@1.10" )
+	Lock( "1950", "S25, D27", PIUGAME )
+	Lock( "Dolly KiSS", "S14, D15", PIUGAME, "..@1.10" )
+	Lock( "Meteorize", "S17, D18", PIUGAME )
 //1.08
-	Lock( "Silhouette Effect  S18", PIUGAME, "..@1.11" )
-	Lock( "Silhouette Effect  D20", PIUGAME )
-	Lock( "Annihilator Method  S19", PIUGAME, "..@1.11")
-	Lock( "Annihilator Method  D20", PIUGAME)
-	Lock( "Hypnosis  S18, D18", PIUGAME )
+	Lock( "Silhouette Effect", "S18", PIUGAME, "..@1.11" )
+	Lock( "Silhouette Effect", "D20", PIUGAME )
+	Lock( "Annihilator Method", "S19", PIUGAME, "..@1.11")
+	Lock( "Annihilator Method", "D20", PIUGAME)
+	Lock( "Hypnosis", "S18, D18", PIUGAME )
 // 1.09
-	Lock( "Bad Apple!! feat. Nomico  S17, S19, D18", PIUGAME, "..@1.12" )
-	Lock( "Bad Apple!! feat. Nomico  D21", PIUGAME )
-	Lock( "Four Seasons of Loneliness  S17, D18", PIUGAME, "..@1.12" )
-	Lock( "Four Seasons of Loneliness  S20, D21", PIUGAME )
-	Lock( "The Revolution  S19, D19", PIUGAME, "..@1.12" )
-	Lock( "Stardust Overdrive  S18, D19", PIUGAME, "..@1.12" )
-	Lock( "Allegro Piu Mosso  S19", PIUGAME )
+	Lock( "Bad Apple!! feat. Nomico", "S17, S19, D18", PIUGAME, "..@1.12" )
+	Lock( "Bad Apple!! feat. Nomico", "D21", PIUGAME )
+	Lock( "Four Seasons of Loneliness", "S17, D18", PIUGAME, "..@1.12" )
+	Lock( "Four Seasons of Loneliness", "S20, D21", PIUGAME )
+	Lock( "The Revolution", "S19, D19", PIUGAME, "..@1.12" )
+	Lock( "Stardust Overdrive", "S18, D19", PIUGAME, "..@1.12" )
+	Lock( "Allegro Piu Mosso", "S19", PIUGAME )
 // 1.10
-	Lock( "Reminiscence  S17, D18", PIUGAME, "..@1.13" )
-	Lock( "Hyacinth  S18, D19", PIUGAME, "..@1.13" )
-	Lock( "Hyacinth  S21, D23", PIUGAME )
-	Lock( "Imprinting  S17", PIUGAME, "..@1.13" )
-	Lock( "Imprinting  S20, D20", PIUGAME )
+	Lock( "Reminiscence", "S17, D18", PIUGAME, "..@1.13" )
+	Lock( "Hyacinth", "S18, D19", PIUGAME, "..@1.13" )
+	Lock( "Hyacinth", "S21, D23", PIUGAME )
+	Lock( "Imprinting", "S17", PIUGAME, "..@1.13" )
+	Lock( "Imprinting", "S20, D20", PIUGAME )
 // 1.11
-	Lock( "Bad &infin; End &infin; Night  S17, S19, D18", PIUGAME, "..@1.14" )
-	Lock( "Bad &infin; End &infin; Night  D23", PIUGAME )
-	Lock( "video out c  S17", PIUGAME, "..@1.14" )
-	Lock( "video out c  S22, D23", PIUGAME )
+	Lock( "Bad &infin; End &infin; Night", "S17, S19, D18", PIUGAME, "..@1.14" )
+	Lock( "Bad &infin; End &infin; Night", "D23", PIUGAME )
+	Lock( "video out c", "S17", PIUGAME, "..@1.14" )
+	Lock( "video out c", "S22, D23", PIUGAME )
 // 1.12
-	Lock( "Setsuna Trip  S18, D19", PIUGAME, "..@1.15" )
-	Lock( "Queen Of The Red  S18, D19", PIUGAME, "..@1.15" )
-	Lock( "Scorpion King  S19", PIUGAME, "..@1.15" )
-	Lock( "Scorpion King  D20", PIUGAME )
-	Lock( "Violet Perfume  D19", PIUGAME, "..@1.15" )
-	Lock( "Hypercube  D20", PIUGAME )
+	Lock( "Setsuna Trip", "S18, D19", PIUGAME, "..@1.15" )
+	Lock( "Queen Of The Red", "S18, D19", PIUGAME, "..@1.15" )
+	Lock( "Scorpion King", "S19", PIUGAME, "..@1.15" )
+	Lock( "Scorpion King", "D20", PIUGAME )
+	Lock( "Violet Perfume", "D19", PIUGAME, "..@1.15" )
+	Lock( "Hypercube", "D20", PIUGAME )
 // 1.13
-	Lock( "Creed -1st Desire -  S18, D18", PIUGAME, "..@1.16" )
-	Lock( "Creed -1st Desire -  S21, D23", PIUGAME )
-	Lock( "Point Zero One  S20, D22", PIUGAME )
-	Lock( "Avalanche  S22", PIUGAME )
-	Lock( "Ragnarok  S20", PIUGAME )
+	Lock( "Creed -1st Desire -", "S18, D18", PIUGAME, "..@1.16" )
+	Lock( "Creed -1st Desire -", "S21, D23", PIUGAME )
+	Lock( "Point Zero One", "S20, D22", PIUGAME )
+	Lock( "Avalanche", "S22", PIUGAME )
+	Lock( "Ragnarok", "S20", PIUGAME )
 // 1.14
-	Lock( "Trashy Innocence  S20, D24", PIUGAME )
-	Lock( "Ren'ai Yuusha  S19, D20", PIUGAME, "..@1.17" )
-	Lock( "Just Hold on (To All Fighters)  S21, D22, D25", PIUGAME )
-	Lock( "Enhanced Reality  S19, D20", PIUGAME, "..@1.17" )
+	Lock( "Trashy Innocence", "S20, D24", PIUGAME )
+	Lock( "Ren'ai Yuusha", "S19, D20", PIUGAME, "..@1.17" )
+	Lock( "Just Hold on (To All Fighters)", "S21, D22, D25", PIUGAME )
+	Lock( "Enhanced Reality", "S19, D20", PIUGAME, "..@1.17" )
 // 1.15
-	Lock( "Prime  S20, D20", PIUGAME )
-	Lock( "Mad5cience  S20", PIUGAME )
-	Lock( "Red Snow  S19", PIUGAME, "..@1.18" )
-	Lock( "Red Snow  D20", PIUGAME )
-	Lock( "Annihilator Method  D24", PIUGAME )
-	Lock( "Imprinting  D24", PIUGAME )
+	Lock( "Prime", "S20, D20", PIUGAME )
+	Lock( "Mad5cience", "S20", PIUGAME )
+	Lock( "Red Snow", "S19", PIUGAME, "..@1.18" )
+	Lock( "Red Snow", "D20", PIUGAME )
+	Lock( "Annihilator Method", "D24", PIUGAME )
+	Lock( "Imprinting", "D24", PIUGAME )
 // 1.16
-	Lock( "Moment Day  S18, D19", PIUGAME, "..@1.19" )
-	Lock( "Houkago Stride  S19", PIUGAME, "..@1.19" )
-	Lock( "Houkago Stride  D21", PIUGAME )
-	Lock( "Idealized Romance  S18, D18", PIUGAME, "..@1.19" )
-	Lock( "Force of Ra  S19", PIUGAME, "..@1.19" )
-	Lock( "Force of Ra  D20", PIUGAME )
-	Lock( "Achluoias  D26", PIUGAME )
-	Lock( "Stardust Overdrive  D24", PIUGAME )
+	Lock( "Moment Day", "S18, D19", PIUGAME, "..@1.19" )
+	Lock( "Houkago Stride", "S19", PIUGAME, "..@1.19" )
+	Lock( "Houkago Stride", "D21", PIUGAME )
+	Lock( "Idealized Romance", "S18, D18", PIUGAME, "..@1.19" )
+	Lock( "Force of Ra", "S19", PIUGAME, "..@1.19" )
+	Lock( "Force of Ra", "D20", PIUGAME )
+	Lock( "Achluoias", "D26", PIUGAME )
+	Lock( "Stardust Overdrive", "D24", PIUGAME )
 // 1.17
-	Lock( "Amphitryon  S18, D20", PIUGAME, "..@1.20" )
+	Lock( "Amphitryon", "S18, D20", PIUGAME, "..@1.20" )
 // 1.18
-	Lock( "Sora no Shirabe  S18, D20", PIUGAME )
-	Lock( "Paradoxx  S23, S26", PIUGAME )
+	Lock( "Sora no Shirabe", "S18, D20", PIUGAME )
+	Lock( "Paradoxx", "S23, S26", PIUGAME )
 // 1.19
-	Lock( "Smile Diary  S19, D20", PIUGAME )
-	Lock( "Paradoxx  D28", PIUGAME )
+	Lock( "Smile Diary", "S19, D20", PIUGAME )
+	Lock( "Paradoxx", "D28", PIUGAME )
 // 1.20 - nothing
 // 1.21 - everything
 
 On( "Prime2" )
 // 1.04
-	Lock( "Good Night  S20, S23, D22, D24", PIUGAME )
-	Lock( "Allegro Furioso  S20, D20", PIUGAME )
-	Lock( "Redline  S18, D19", PIUGAME )
-	Lock( "Enhanced Reality  S16, D18", PIUGAME )
-	Lock( "Slam  D23", PIUGAME )
+	Lock( "Good Night", "S20, S23, D22, D24", PIUGAME )
+	Lock( "Allegro Furioso", "S20, D20", PIUGAME )
+	Lock( "Redline", "S18, D19", PIUGAME )
+	Lock( "Enhanced Reality", "S16, D18", PIUGAME )
+	Lock( "Slam", "D23", PIUGAME )
 // 1.05
-	Lock( "Start On Red  S19, D20", PIUGAME )
-	Lock( "She Likes Pizza  S21, D23", PIUGAME )
+	Lock( "Start On Red", "S19, D20", PIUGAME )
+	Lock( "She Likes Pizza", "S21, D23", PIUGAME )
 // 1.06
-	Lock( "Shub Niggurath  S21, S24, D23, D26", PIUGAME )
-	Lock( "Pumping Up  D15", PIUGAME )
-
-
+	Lock( "Shub Niggurath", "S21, S24, D23, D26", PIUGAME )
+	Lock( "Pumping Up", "D15", PIUGAME )
+// 1.07
+	Lock( "Bedlam", "S22, D24", PIUGAME )
+	Lock( "Leather", "S24, D26", PIUGAME )
+	Lock( "Red Snow", "D18", PIUGAME )
+	Lock( "Winter", "S19", PIUGAME )
+	Lock( "Death Moon  [SHORT]", "S22", PIUGAME )
 
 //delete tempUnlockPatchIndex;
 //delete tempCurrentMix;
