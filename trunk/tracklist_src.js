@@ -2861,7 +2861,7 @@ var tracklist = {
 
 "1054":
 {
-	title: "Chicken Wing  [SHORT]", artist: "BanYa", bpm: "200", fromMix: "Extra",
+	title: "Chicken Wing  [SHORT]", artist: "BanYa", bpm: "200", //fromMix: "Extra",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -4068,7 +4068,7 @@ var tracklist = {
 
 "E928":
 {
-	title: "FAE1 & Chicken Wing Remix (NX2 ver.)", artist: "BanYa", bpm: "200", duration: REMIX,
+	title: "FAE1 & Chicken Wing Remix (NX2 ver.)", artist: "BanYa", bpm: "200", duration: REMIX, fromMix: "Extra"
 	shortTitle: "FAE1 & Chicken Wing Remix",  //? altTitle: "Extra Remix"
 	Prime2: "=",
 	Prime: "=",
@@ -6465,7 +6465,7 @@ var tracklist = {
 
 "224":
 {
-	title: "Techno Repeatorment", artist: "BanYa", bpm: "150", duration: REMIX,
+	title: "Techno Repeatorment", artist: "BanYa", bpm: "150", duration: REMIX, fromMix: "2nd",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
