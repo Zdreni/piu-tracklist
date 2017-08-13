@@ -45,35 +45,11 @@ var tracklist = {
 // unsorted
 
 
-"15_Overblow2":
-{
-	title: "Overblow2", artist: "Max", channel: ORIGINAL, bpm: "155",
-	Prime2: "@1.07 S5 S9 S15 D7 D14 S18.ampass D19.ampass",
-},
-
-"15_Hey_U":
-{
-	title: "Hey U", artist: "Mazo", channel: ORIGINAL, bpm: "162",
-	Prime2: "@1.07 S5 S10 S15 D10 D16",
-},
-
-"15_Bedlam":
-{
-	title: "Bedlam", artist: "SANY-ON", channel: XROSS, bpm: "183",
-	Prime2: "@1.07 S8 S15 S18 D13 D20 S22 D24",
-},
-
-"15_Leather":
-{
-	title: "Leather", artist: "Doin", channel: ORIGINAL, bpm: "200", duration: REMIX,
-	Prime2: "@1.07 S18 S21 D22 S24 D26",
-},
-
 /*
 
 "15xx":
 {
-	altID: "",
+	//altID: "",
 	title: "", artist: "", channel: , bpm: "",
 	Prime2: "@1.",
 },
@@ -144,7 +120,13 @@ var tracklist = {
 	Prime2: "@1.02 S4 S7 S9 S16 S18 S20 D12 D19 D23.ampass  @1.06 CoOp(x2).ampass",
 },
 
-// "1518":
+"1518":
+{
+	altID: "15_Overblow2",
+	title: "Overblow2", artist: "Max", channel: ORIGINAL, bpm: "155",
+	Prime2: "@1.07 S5 S9 S15 D7 D14 S18.ampass D19.ampass",
+},
+
 // "1519":
 // "1520":
 // "1521":
@@ -178,7 +160,14 @@ var tracklist = {
 
 // "1531":
 // "1532":
-// "1533":
+
+"1533":
+{
+	altID: "15_Hey_U",
+	title: "Hey U", artist: "Mazo", channel: ORIGINAL, bpm: "162",
+	Prime2: "@1.07 S5 S10 S15 D10 D16",
+},
+
 // "1534":
 // "1535":
 // "1536":
@@ -405,7 +394,14 @@ var tracklist = {
 // "15B2":
 // "15B3":
 // "15B4":
-// "15B5":
+
+"15B5":
+{
+	altID: "15_Bedlam",
+	title: "Bedlam", artist: "SANY-ON", channel: XROSS, bpm: "183",
+	Prime2: "@1.07 S8 S15 S18 D13 D20 S22 D24",
+},
+
 // "15B6":
 
 "15B7":
@@ -436,6 +432,16 @@ var tracklist = {
 {
 	title: "Vulcan", artist: "Memme", channel: ORIGINAL, bpm: "175", duration: REMIX,
 	Prime2: "S22 D24",
+},
+
+// "15D1":
+// "15D2":
+
+"15D3":
+{
+	altID: "15_Leather",
+	title: "Leather", artist: "Doin", channel: ORIGINAL, bpm: "200", duration: REMIX,
+	Prime2: "@1.07 S18 S21 D22 S24 D26",
 },
 
 "15E0":
@@ -1026,7 +1032,7 @@ var tracklist = {
 
 "1478":
 {
-	title: "Sudden Romance (PIU Edit)", artist: "void", channel: JMUSIC, bpm: "152",
+	title: "Sudden Romance (PIU Edit)", artist: "void", channel: JMUSIC, bpm: "152", fromMix: "Prime",
 	shortTitle: "Sudden Romance",
 	Prime2: "S4 S6 S9 S14 S19  D8 D14 D19",
 	// from PrimeJE
@@ -1078,7 +1084,7 @@ var tracklist = {
 
 "1485":
 {
-	title: "Ai, Yurete", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "152",
+	title: "Ai, Yurete", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "152", fromMix: "Prime",
 	Prime2: "S1 S3 S6 S9 S13 S16  D8 D15 D18",
 	// from PrimeJE
 },
@@ -1141,7 +1147,7 @@ var tracklist = {
 
 "1494":
 {
-	title: "Just Hold On (To All Fighters)", artist: "Void", channel: WORLD, bpm: "170",
+	title: "Just Hold On (To All Fighters)", artist: "Void", channel: JMUSIC, bpm: "170",
 	shortTitle: "Just Hold On",
 	Prime2: "=",
 	Prime: "@1.14 S4 S7 S10 S16 D12 D18  S21 D22 D25",
@@ -1170,7 +1176,7 @@ var tracklist = {
 
 "1498":
 {
-	title: "Hypercube", artist: "MAX", channel: JMUSIC, bpm: "145",
+	title: "Hypercube", artist: "MAX", channel: ORIGINAL, bpm: "145",
 	Prime2: "=",
 	Prime: "@1.12 S6 S10 S15 S17 D10 D16 D20",
 },
@@ -1291,7 +1297,8 @@ var tracklist = {
 
 "14E4":
 {
-	title: "Rock the House  [SHORT]", artist: "Matduke", channel: WORLD, bpm: "175",
+// yes, shortcut is ORIGINAL for some reason, at least on Prime
+	title: "Rock the House  [SHORT]", artist: "Matduke", channel: ORIGINAL, bpm: "175",
 	Prime2: "=",
 	Prime: "S15 S18 D20",
 },
@@ -2685,6 +2692,7 @@ var tracklist = {
 {
 	title: "Pro Pop Mix (new remix)", artist: "BanYa Production", bpm: "151", duration: REMIX,
 	shortTitle: "Pro Pop Mix (new)",
+	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S17",
@@ -2861,7 +2869,7 @@ var tracklist = {
 
 "1054":
 {
-	title: "Chicken Wing  [SHORT]", artist: "BanYa", bpm: "200", //fromMix: "Extra",
+	title: "Chicken Wing  [SHORT]", artist: "BanYa", bpm: "200",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -2911,7 +2919,7 @@ var tracklist = {
 
 "1059":
 {
-	title: "Exceed 2 Opening", artist: "BanYa Production", bpm: "178", duration: SHORT,
+	title: "Exceed 2 Opening", artist: "BanYa Production", bpm: "178", duration: SHORT, fromMix: "Fiesta",
 	Prime2: "=",
 	Prime: "= -D??(x9)",
 	Fiesta2: "=",
@@ -4068,7 +4076,7 @@ var tracklist = {
 
 "E928":
 {
-	title: "FAE1 & Chicken Wing Remix (NX2 ver.)", artist: "BanYa", bpm: "200", duration: REMIX, fromMix: "Extra"
+	title: "FAE1 & Chicken Wing Remix (NX2 ver.)", artist: "BanYa", bpm: "200", duration: REMIX, fromMix: "Extra",
 	shortTitle: "FAE1 & Chicken Wing Remix",  //? altTitle: "Extra Remix"
 	Prime2: "=",
 	Prime: "=",
