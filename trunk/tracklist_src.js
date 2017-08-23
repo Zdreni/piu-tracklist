@@ -1156,6 +1156,7 @@ var tracklist = {
 "1495":
 {
 	title: "Unlock", artist: "Daichi Miura (Cover)", channel: JMUSIC, bpm: "128",
+	region: JAPAN,
 	Prime2: "S2 S3 S5 S7 S11 S14  D3 D9 D15",  //? AM.Pass exclusive
 	// from PrimeJE
 },
@@ -1163,6 +1164,7 @@ var tracklist = {
 "1496":
 {
 	title: "Heavy Rotation", artist: "AKB48 (Cover)", channel: JMUSIC, bpm: "178",
+	region: JAPAN,
 	Prime2: "S2 S4 S5 S9 S16 S18  D6 D16 D19  CoOp(x2)",  //? AM.Pass exclusive
 	// from PrimeJE
 },
@@ -1327,6 +1329,7 @@ var tracklist = {
 "14F0":
 {
 	title: "Heavy Rotation  [SHORT]", artist: "AKB48 (Cover)", channel: JMUSIC, bpm: "178",
+	region: JAPAN,
 	Prime2: "S10 S15 S18  D9 D16 D20",  //? AM.Pass exclusive
 	// PrimeJE
 },

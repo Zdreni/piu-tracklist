@@ -161,8 +161,9 @@ var REMIX = "Remix";
 var FULL = "Full";
 
 // region
-var LATIN = "Latin";
 var CHINESE = "Chinese";
+var JAPAN = "Japan";
+var LATIN = "Latin";
 var PHILIPPINES = "Philippines";
 
 
