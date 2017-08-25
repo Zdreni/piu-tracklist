@@ -1299,8 +1299,8 @@ var tracklist = {
 
 "14E4":
 {
-// yes, shortcut is ORIGINAL for some reason, at least on Prime
-	title: "Rock the House  [SHORT]", artist: "Matduke", channel: ORIGINAL, bpm: "175",
+	title: "Rock the House  [SHORT]", artist: "Matduke", channel: WORLD, bpm: "175",
+	// it was ORIGINAL at Prime2 1.01 (and maybe in Prime, but that was left annoticed because it was New Tunes). In P2 1.07 it is WORLD
 	Prime2: "=",
 	Prime: "S15 S18 D20",
 },
@@ -1786,7 +1786,7 @@ var tracklist = {
 },
 
 
-// \12 - ???
+// \12 - crossovers from Pro 2
 
 "1201":
 {
