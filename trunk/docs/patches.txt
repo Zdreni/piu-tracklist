@@ -1474,7 +1474,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1120-update-information
 1) Song : Setsuna Trip
    Artist : LastNote
    BPM : 145
-   Default step chart : S01, S05, S09, S13, S16, D08, D14, CO-OP x2
+   Default step chart : S01, S05, S09, S13, S16, D08, D14, CO-OP02
    Unlock step chart : S??,D??
 
 2) Song : Queen Of The Red
@@ -1517,7 +1517,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1120-update-information
 2) Song : Turkey March
    Artist : Banya
    BPM : 150
-   Step chart : S18(UCS), D17(UCS), CO-OP x2(UCS)
+   Step chart : S18(UCS), D17(UCS), CO-OPx02(UCS)
 
 3) Song : Maria
    Artist : Banya
@@ -1532,7 +1532,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1120-update-information
 5) Song : Rolling Christmas
    Artist : Banya
    BPM : 142
-   Step chart : DP03
+   Step chart : D17(UCS)
 
 6) Song : Lucid(PIU Edit)
    Artist : Yak Won

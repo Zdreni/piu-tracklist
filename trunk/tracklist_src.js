@@ -6046,7 +6046,7 @@ var tracklist = {
 {
 	title: "Rolling Christmas", artist: "BanYa", bpm: "142", fromMix: "Perfect",
 	Prime2: "=",
-	Prime: "=  @1.11 Dp??(x2)  @1.12 Dp3",
+	Prime: "=  @1.11 Dp??(x2)  @1.12 D17.ucs",
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "D5.fs D13.nm  S3.new S5.new S8.new S13.new",
