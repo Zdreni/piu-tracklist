@@ -3371,6 +3371,7 @@ var tracklist = {
 {
 	title: "Nina PXNDX Mix", artist: "Nina Pilots / PXNDX", channel: WORLD, bpm: "160", duration: REMIX,
 	Prime2: "=",
+	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S6.hd S16.cz D8.fs",
