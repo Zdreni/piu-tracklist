@@ -67,6 +67,7 @@ var tracklistEstimated = [
                "Leakage Voltage  S-20 -> 21",
                     "Like a Man  S-18 -> 17",       // mndd: ОК
                   "Loner @ 1449  D-22 -> 20",       // mndd: ОК
+          "Love is a Danger Zone  S-7 -> 8",  // Taras: 8
                        "Matador  D-21 -> 22",
                   "Mental Rider  S-12 -> 13",  // ben
                   "Mental Rider  D-13 -> 15",
@@ -75,6 +76,7 @@ var tracklistEstimated = [
    "Mission Possible -Blowback-  D-17 -> 18",       // mndd: ОК
                     "Mr. Larpus  S-20 -> 19",       // mndd: ОК
                     "Mr. Larpus  D-23 -> 21",
+                      "Moonlight  S-7 -> 8",  // Vadim: 8
                         "Napalm  S-19 -> 18",
                         "Napalm  S-22 -> 21",       // mndd: ОК
                     "Necromancy  D-13 -> 14",
