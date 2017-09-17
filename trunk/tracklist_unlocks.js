@@ -101,7 +101,7 @@ On( "Fiesta" )
 	Lock( "Big Beat  S15", PUMBI );
 	Lock( "Phantom -Intermezzo-  S21", PUMBI );
 	Lock( "Sorceress Elise  D24", PUMBI );
-	Lock( "U Got 2 Know  S18", "old S17, died in 1.05, " + PUMBI );
+	Lock( "U Got 2 Know  S18", "old S17, died in 1.05, ", PUMBI );
 	Lock( "Vacuum  S23", PUMBI );
 	Lock( "Wanna  S16", PUMBI );
 	Lock( "X-Tree  D18", PUMBI + ", from music train" );

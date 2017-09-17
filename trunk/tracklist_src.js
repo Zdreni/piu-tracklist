@@ -5133,7 +5133,7 @@ var tracklist = {
 {
 	title: "Canon-D  [FULL]", artist: "BanYa", bpm: "160",
 	Prime2: "=",
-	Prime: "=  @1.11 S17 S18 D17 D18  @1.19 D24",
+	Prime: "=  @1.19 D24",
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S11.hd S16.cz  D23",
