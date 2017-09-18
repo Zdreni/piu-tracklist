@@ -332,6 +332,8 @@ On( "Prime2" )
 	Lock( "Red Snow", "D18", PIUGAME )
 	Lock( "Winter", "S19", PIUGAME )
 	Lock( "Death Moon  [SHORT]", "S22", PIUGAME )
+// 1.08
+	Lock( "Gotta Be You", "S17, D18", PIUGAME )
 
 //delete tempUnlockPatchIndex;
 //delete tempCurrentMix;

@@ -44,6 +44,25 @@ var tracklist = {
 
 // unsorted
 
+"1550":
+{
+	title: "Gotta Be You", artist: "2NE1", bpm: "130",
+	Prime2: "@1.08 S3 S5 S8 S15 D6 D16 S17 D18",
+},
+
+"15C4+_Fallen_Angel":
+{
+	//altID: "",
+	title: "Fallen Angel", artist: "DM Ashura", channel: WORLD, bpm: "157",
+	Prime2: "@1.08 S6 S10 S17 D10 D15 D21 D20.ampass",
+},
+
+"15F3+_Shub_Niggurath_SHORT":
+{
+	//altID: "",
+	title: "Shub Niggurath  [SHORT]", artist: "Nato", channel: ORIGINAL, bpm: "220",
+	Prime2: "@1.08 S18 S22 D23",
+},
 
 /*
 
@@ -519,7 +538,7 @@ var tracklist = {
 "1402":
 {
 	title: "Katkoi", artist: "M2U", channel: ORIGINAL, bpm: "180",
-	Prime2: "=",
+	Prime2: "=  @1.08 Dp4",
 	Prime: "@1.07 S7 S10 S14 S18 D12 D15 D19",
 },
 
@@ -568,7 +587,7 @@ var tracklist = {
 "1409":
 {
 	title: "Force of Ra", artist: "Memme", channel: ORIGINAL, bpm: "180",
-	Prime2: "=",
+	Prime2: "=  @1.08 Dp3",
 	Prime: "@1.16 S7 S12 S17 D12  S19 D20",
 },
 
@@ -603,35 +622,35 @@ var tracklist = {
 "1414":
 {
 	title: "Mad5cience", artist: "Paul Bazooka", channel: ORIGINAL, bpm: "130",
-	Prime2: "=",
+	Prime2: "=  @1.08 Dp5",
 	Prime: "@1.15 S5 S16 D7 D16  S20",
 },
 
 "1415":
 {
 	title: "Hestia", artist: "Gentle Stick", channel: ORIGINAL, bpm: "150",
-	Prime2: "= -S17 -D18",
+	Prime2: "= -S17 -D18  @1.08 Dp3",
 	Prime: "@1.01 S4 S7 S10 S18 D11 D20  @1.19 S17.ucs D18.ucs",
 },
 
 "1416":
 {
 	title: "Amphitryon", artist: "Gentle Stick", channel: ORIGINAL, bpm: "155",
-	Prime2: "=",
+	Prime2: "=  @1.08 Dp4",
 	Prime: "@1.17 S6 S11 D12  S18 D20",
 },
 
 "1417":
 {
 	title: "Leakage Voltage", artist: "Doin", channel: ORIGINAL, bpm: "180",
-	Prime2: "= -D20",
+	Prime2: "= -D20  @1.08 Dp3",
 	Prime: "S10 S15 S17 D12 D19  @1.12 S20.ucs D20.ucs D22.ucs",
 },
 
 "1418":
 {
 	title: "Removable Disk0", artist: "Doin", channel: ORIGINAL, bpm: "130",
-	Prime2: "=",
+	Prime2: "=  @1.08 Dp3",
 	Prime: "@1.18 S3 S6 S15 D5 D16",
 },
 
@@ -659,14 +678,14 @@ var tracklist = {
 "1422":
 {
 	title: "Hyacinth", artist: "Yahpp", bpm: "192",
-	Prime2: "=",
+	Prime2: "=  @1.08 Dp4",
 	Prime: "@1.10 S9 S13 D12  S18 S21 D19 D23",
 },
 
 "1423":
 {
 	title: "Blaze emotion (Band version)", artist: "Yahpp", bpm: "170",
-	Prime2: "=",
+	Prime2: "=  @1.08 Dp3",
 	Prime: "@1.17 S2 S8 S17 D4 D18",
 },
 
@@ -731,21 +750,21 @@ var tracklist = {
 "1433":
 {
 	title: "Red Snow", artist: "Cashew", channel: ORIGINAL, bpm: "170",
-	Prime2: "=  @1.05 CoOp(x2)  @1.07 D18.ucs",
+	Prime2: "=  @1.05 CoOp(x2)  @1.07 D18.ucs  @1.08 Dp4",
 	Prime: "@1.15 S11 S16 D12  S19 D20  @1.21 S7",
 },
 
 "1434":
 {
 	title: "Campanella", artist: "Cashew", channel: ORIGINAL, bpm: "140",
-	Prime2: "=",
+	Prime2: "=  @1.08 Dp5",
 	Prime: "@1.19 S6 S9 S16 D10 D16",
 },
 
 "1435":
 {
 	title: "You again my love", artist: "CYO Style & Henohenomoheji", channel: ORIGINAL, bpm: "137",
-	Prime2: "=",
+	Prime2: "=  @1.08 Dp4",
 	Prime: "@1.21 S1 S3 S6 S14 D6 D14",
 },
 
@@ -759,7 +778,7 @@ var tracklist = {
 "1437":
 {
 	title: "Bar Bar Bar", artist: "Crayon Pop", channel: KPOP, bpm: "134",
-	Prime2: "=",
+	Prime2: "=  @1.08 Dp3",
 	Prime: "S3 S5 S8 S14  D4 D11 D15  CoOp(x3)",
 },
 
@@ -843,14 +862,14 @@ var tracklist = {
 "1449":
 {
 	title: "Loner", artist: "Outsider", channel: KPOP, bpm: "125",
-	Prime2: "=",
+	Prime2: "=  @1.08 Dp4",
 	Prime: "S3 S5 S8 S15 S19 D6 D17 D22",
 },
 
 "1450":
 {
 	title: "Flying Duck", artist: "Cherry Filter", channel: KPOP, bpm: "158",
-	Prime2: "=",
+	Prime2: "=  @1.08 Dp4",
 	Prime: "S3 S7 S10 S16 D11 D18",
 },
 
@@ -916,7 +935,7 @@ var tracklist = {
 "1461":
 {
 	title: "Feel My Happiness", artist: "3R2", channel: WORLD, bpm: "175",
-	Prime2: "=",
+	Prime2: "=  @1.08 Dp2",
 	Prime: "@1.19 S3 S10 S17 D6 D18",
 },
 
@@ -977,14 +996,14 @@ var tracklist = {
 "1470":
 {
 	title: "Across the ocean", artist: "Zircon", channel: WORLD, bpm: "130",
-	Prime2: "=",
+	Prime2: "=  @1.08 Dp2",
 	Prime: "@1.20 S3 S6 S9 S15 D11 D16",
 },
 
 "1471":
 {
 	title: "Enhanced Reality", artist: "Matduke", channel: WORLD, bpm: "170",
-	Prime2: "=  @1.04 S16 D18",
+	Prime2: "=  @1.04 S16 D18  @1.08 Dp5",
 	Prime: "@1.14 S9 S14 D11  S19 D20",
 },
 
@@ -1005,7 +1024,7 @@ var tracklist = {
 "1474":
 {
 	title: "Moment Day", artist: "MAX", channel: ORIGINAL, bpm: "158",
-	Prime2: "=",
+	Prime2: "=  @1.08 Dp5",
 	Prime: "@1.16 S3 S6 S10 S15 S17 D9 D16 CoOp(x2)  S18 D19",
 },
 
@@ -1034,21 +1053,21 @@ var tracklist = {
 {
 	title: "Sudden Romance (PIU Edit)", artist: "void", channel: JMUSIC, bpm: "152", fromMix: "Prime",
 	shortTitle: "Sudden Romance",
-	Prime2: "S4 S6 S9 S14 S19  D8 D14 D19",
+	Prime2: "S4 S6 S9 S14 S19  D8 D14 D19  @1.08 Dp4",
 	// from PrimeJE
 },
 
 "1479":
 {
 	title: "Mitotsudaira", artist: "ETIA.", channel: JMUSIC, bpm: "136",
-	Prime2: "=",
+	Prime2: "=  @1.08 Dp4",
 	Prime: "@1.20 S1 S4 S9 S15 S18 D10 D16 D19",
 },
 
 "1480":
 {
 	title: "Smile Diary", artist: "you", channel: JMUSIC, bpm: "175",
-	Prime2: "=",
+	Prime2: "=  @1.08 Dp5",
 	Prime: "@1.19 S4 S7 S11 S16 D8 D17  S19 D20",
 },
 
@@ -1070,7 +1089,7 @@ var tracklist = {
 "1483":
 {
 	title: "Sora no Shirabe", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "172",
-	Prime2: "=",
+	Prime2: "=  @1.08 Dp4",
 	Prime: "@1.18 S3 S8 S12 S15 D11 D16  S18 D20",
 },
 
@@ -1085,7 +1104,7 @@ var tracklist = {
 "1485":
 {
 	title: "Ai, Yurete", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "152", fromMix: "Prime",
-	Prime2: "S1 S3 S6 S9 S13 S16  D8 D15 D18",
+	Prime2: "S1 S3 S6 S9 S13 S16  D8 D15 D18  @1.08 Dp4",
 	// from PrimeJE
 },
 
@@ -1106,21 +1125,21 @@ var tracklist = {
 "1488":
 {
 	title: "Ren'ai Yuusha", artist: "LastNote", channel: JMUSIC, bpm: "190",
-	Prime2: "=",
+	Prime2: "=  @1.08 Dp4",
 	Prime: "@1.14 S3 S6 S12 S17 D4 D13 D18 CoOp(x3)  S19 D20",
 },
 
 "1489":
 {
 	title: "Houkago Stride", artist: "Last Note", channel: JMUSIC, bpm: "225",
-	Prime2: "=",
+	Prime2: "=  @1.08 Dp5",
 	Prime: "@1.16 S3 S6 S10 S15 D10 D16  S19 D21",
 },
 
 "1490":
 {
 	title: "Prime", artist: "Tatsh", channel: JMUSIC, bpm: "165",
-	Prime2: "=",
+	Prime2: "=  @1.08 Dp3",
 	Prime: "@1.15 S4 S7 S11 S16 S18 D12 D16 D18  S20 D20",
 },
 
@@ -1186,7 +1205,7 @@ var tracklist = {
 "1499":
 {
 	title: "Like Me", artist: "SHK", channel: ORIGINAL, bpm: "155",
-	Prime2: "=",
+	Prime2: "=  @1.08 Dp2",
 	Prime: "@1.21 S6 S10 S14 S17 D11 D18 CoOp(x2)",
 },
 
