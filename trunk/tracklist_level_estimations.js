@@ -1,9 +1,5 @@
 "use strict";
 
-/* список эталонных чартов:
-S18 -
-*/
-
 var tracklistVotes = {
 
 // Scorpion King  S-15 -> ?17  // grem
@@ -211,6 +207,10 @@ var tracklistVotes = {
 	"Hi-Bi  D-18": {  // NM
 		Dino: 19,
 		Mindless: 19,
+	},
+	"Houkago Stride  D-21": {
+		Dino: 22,
+		Grumd: 20,
 	},
 	"Hypnosis  S-18": {
 		Dino: 19,
@@ -584,11 +584,11 @@ Msgoon.rmx.pt.6 D-19 (20) - вообще срака
 
 function ApplyPatch( tracklist, estimations )
 {
-	for( var chart in estimations )
+	for( var chartDescr in estimations )
 	{
-		var estimation_Match = chart.match( "(.*)  (.*)-(.*)" );
+		var estimation_Match = chartDescr.match( "(.*)  (.*)-(.*)" );
 		if( ! estimation_Match )
-			console.log( "Can't parse estimation " + chart );
+			console.log( "Can't parse estimation " + chartDescr );
 		console.assert( estimation_Match );
 
 		var trackTitle = estimation_Match[ 1 ];
@@ -603,19 +603,21 @@ function ApplyPatch( tracklist, estimations )
 			console.log( "Can't find " + track.title + " " + chartTag + "-" + chartLevelText );
 		console.assert( shared );
 
-		var votes = estimations[ chart ];
+		var votes = estimations[ chartDescr ];
 		if( Object.keys( votes ).length > 0 )
 		{
-/*		
+/*
 			var votesSum = 0;
 			for( var v in votes )
 				votesSum += votes[ v ];
 			shared.estimatedLevelNum = votesSum / Object.keys( votes ).length;
 */
 			var sum = _.reduce( Object.values( votes ), function( x, y ) { return x + y }, 0 );
-			shared.suggestedLevelNum = sum / Object.keys( votes ).length;
+			var suggestedLevelNum = sum / Object.keys( votes ).length;
+			if( suggestedLevelNum != chartLevelText )
+				shared.suggestedLevelNum = suggestedLevelNum;
 		}
-		
+
 		//var chartEstimatedLevelNum = Number( estimation_Match[ 4 ] );
 		//console.assert( ! isNaN( chartEstimatedLevelNum ) );
 		//shared.estimatedLevelNum = chartEstimatedLevelNum;
