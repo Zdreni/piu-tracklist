@@ -27,6 +27,9 @@ var separateBPMs =
 	{                    chart: "Good Life  S15", bpm: "98 - 49" },
 	{                    chart: "Good Life  D16", bpm: "98 - 147" },
 
+	{  chart: "Mission Possible -Blowback-  S18", bpm: "122, ends 150" },
+
+	{                     chart: "Gargoyle  S18", bpm: "150, ends 180" },
 	{           chart: "We Will Meet Again  S14", bpm: "118..177" },
 	{                    chart: "Yeo rae a  S13", ratio: "0.5" },
 
