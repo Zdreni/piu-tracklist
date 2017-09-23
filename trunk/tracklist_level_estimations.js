@@ -7,13 +7,15 @@ var tracklistVotes = {
 // trashy innocence D-15 -> центральный квад
 // Venus  D-14 - мигания стрелок, смена чарта из-под ног
 // ? Destination D-13 -> 14
-// ? Necromancy  S-20 -> 19
 
 	"1950  S-25": {
 		Dino: 24,
 	},
 	"1950  D-21": {
 		Dino: 22,
+	},
+	"Accident  S-19": {
+		Dino: 18,
 	},
 	"Accident  D-20": {
 		Dino: 19,
@@ -24,6 +26,7 @@ var tracklistVotes = {
 	"Arirang  D-10": {
 		Dino: 13,
 		Grem: 12,
+		Grumd: 13,
 	},
 	"Arirang  S-18": {
 		Dino: 19,
@@ -54,6 +57,9 @@ var tracklistVotes = {
 		Dino: 18,
 		Mindless: 18,
 	},
+"Campanella  D-16": {
+	Grumd: 17, // брекеты на д16 редкость, а тут они в стримах, новая и сложная техника для д16
+},
 	"Cannon X.1  D-13": {
 		Dino: 14,
 	},
@@ -121,11 +127,16 @@ var tracklistVotes = {
 	},
 	"Dignity  D-13": {
 		Dino: 15,
+		Grumd: 15,
 	},
 	"Dignity  D-18": {
 		Dino: 19,
 		Mindless: 19,
 	},
+	"Dr. M  D-16": {
+		Dino: 17,
+		Grumd: 17,
+},
 	"Extravaganza  S-16": {  // aHD
 		Dino: 17,
 		Mindless: 17,
@@ -138,6 +149,9 @@ var tracklistVotes = {
 		Dino: 20,
 		Mindless: 20,
 	},
+	"Fallen Angel  D-20": {
+		Dino: 21,
+},
 	"Final Audition episode 1  S-19": { // aCZ
 		Dino: 20,
 		Mindless: 20,
@@ -172,6 +186,7 @@ var tracklistVotes = {
 	"Flying Duck  D-18": {
 		Dino: 17,
 		Mindless: 17,
+		Grumd: 17,
 	},
 	"Four Seasons of Loneliness  S-20": {
 		Dino: 21,
@@ -204,13 +219,13 @@ var tracklistVotes = {
 	"Hestia  S-18": {
 		Dino: 19,
 	},
-	"Hi-Bi  D-18": {  // NM
-		Dino: 19,
-		Mindless: 19,
-	},
 	"Houkago Stride  D-21": {
 		Dino: 22,
 		Grumd: 20,
+},
+	"Hi-Bi  D-18": {  // NM
+		Dino: 19,
+		Mindless: 19,
 	},
 	"Hypnosis  S-18": {
 		Dino: 19,
@@ -219,6 +234,9 @@ var tracklistVotes = {
 		Dino: 19,
 		Mindless: 19,
 	},
+"I'll Give You All My Love  D-18": {  // NM
+	Dino: 17,
+},
 	"Imprinting  S-20": {
 		Dino: 21,
 	},
@@ -287,6 +305,9 @@ var tracklistVotes = {
 	"Moonlight  S-19": {
 		Dino: 20,
 	},
+	"Naissance 2  D-19": {  // aNM
+		Dino: 20,   // перепады BPM делают своё дело
+	},
 	"Napalm  S-19": {
 		Dino: 18,
 	},
@@ -294,9 +315,13 @@ var tracklistVotes = {
 		Dino: 21,
 		Mindless: 21,
 	},
-     "Narcisista Por Excelencia  D-18": {
-     	Dino: 19,
+  	"Narcisista Por Excelencia  D-18": {
+Dino: 19,
+Grumd: 19,
 	},
+"Necromancy  S-20": {
+Dino: 19,
+},
 	"Necromancy  D-13": {
 		Dino: 14,
 	},
@@ -313,6 +338,9 @@ var tracklistVotes = {
 		Dino: 19,
 		Mindless: 19,
 	},
+	"Phantom  S-17": {  // aCZ
+		Dino: 18,
+},
 	"Phantom  S-18": {  // CZ
 		Dino: 19,
 		Mindless: 19,
@@ -321,6 +349,9 @@ var tracklistVotes = {
 		Dino: 20,
 		Mindless: 20,
 	},
+	"Phantom  D-20": {  // aNM
+		Dino: 19,
+},
 	"Phantom -Intermezzo-  S-19": {
 		Dino: 20,
 	},
@@ -363,6 +394,9 @@ var tracklistVotes = {
 		Dino: 22,
 		Mindless: 22,
 	},
+	"Sugar Free  S-17": {
+		Grumd: 16,
+},
 	"Setsuna Trip  D-14": {
 		Dino: 13,
 	},
@@ -370,6 +404,9 @@ var tracklistVotes = {
 		Dino: 22,
 		Mindless: 22,
 	},
+	"Star Command  D-21": {
+		Grumd: 20,
+},
 	"Take Out  S-17": {
 		Dino: 18,
 		Mindless: 18,
@@ -386,9 +423,6 @@ var tracklistVotes = {
 		Dino: 23,
 		Mindless: 23,
 	},
-	"The Revolution  D-19": {
-		Dino: 18,
-	},
 	"Tepris  D-18": {
 		Dino: 19,
 		Mindless: 19,
@@ -402,6 +436,10 @@ var tracklistVotes = {
 	"The Revolution  D-23": {  // reestimated in Prime2
 		Dino: 22,
 	},
+	"The Revolution  D-19": {
+		Dino: 18,
+		Grumd: 19,
+	},
 	"Till the End of Time  D-13": {
 		Dino: 12,
 	},
@@ -411,12 +449,17 @@ var tracklistVotes = {
 	"Trashy Innocence  D-24": {
 		Dino: 23,
 	},
+	"Violet Perfume  S-17": {
+		Grumd: 16,
+	},
 	"Violet Perfume  D-19": {
 		Dino: 18,
+		Grumd: 18,
 	},
 	"Vook  D-17": {  // FS
 		Dino: 18,
 		Mindless: 18,
+		Grumd: 19,
 	},
 	"Vook  D-18": {  // NM
 		Dino: 19,
@@ -434,6 +477,7 @@ var tracklistVotes = {
 	"What Happened  D-20": {
 		Dino: 18,
 		Mindless: 18,
+		Grumd: 19,
 	},
 	"Windmill  D-18": {
 		Dino: 17,
@@ -478,23 +522,19 @@ var tracklistLeftForEstimation = [
                        "Blazing  D-19 -> 20", //mndd: Такое… 19.5 макс
             "Digan Lo Que Digan  D-18 -> 17",
                   "Miss's Story  D-19 -> 17",
-                       "Phantom  S-17 -> 18",//aCZ
-                       "Phantom  D-20 -> 18",//aNM
+
 
 //-----------------------------------------
                      "By Chance  D-16 -> 15",
 
 
 
-                      "Accident  S-19 -> 18",
           "All I Want For X-mas  S-11 -> 8",
-                 "Another Truth  D-22 -> 18",
+                 "Another Truth  D-22 -> 18", // grumd: лучше 20, там холды сливают весь кредит, если недостаточно хорошо попасть по кваду 
                  "Blaze Emotion  D-17 -> 18", //Обычная 18-ка
             "Bullfighter's Song  S-8 -> 9",
-                  "Chicken Wing  S-19 -> 20",
           "Chopsticks Challenge  D-16 -> 15",  //NM
 
-                         "Dr. M  D-16 -> 17",  //NM //OK
                          "Elise  S-22 -> 20",
                       "Faster Z  S-8 -> 9",
 
@@ -502,15 +542,12 @@ var tracklistLeftForEstimation = [
                     "Guitar Man  S-18 -> 20",  //aCZ //19? Дрели конечно сложные, но больше там ничего нет
                       "Gun Rock  S-18 -> 16",  //CZ //Шутка чтоли!? Обычный крейзи? - ну да, проблема в том, что там кроме тех троек в конце НИЧЕГО сложного нет, а у них сложность даже ояебу сколько, но не выставлять же по ней? //Дино у тебя S на нем? На ссаной 16-ке? Сомневаюсь, пусть остается 18-кой, или на худой - 17
       "Hypnosis (SynthWulf Mix)  S-8 -> 9",
-     "I'll Give You All My Love  D-18 -> 17",  //NM
 
                      "My Dreams  S-17 -> 18",  //aCZ
                      "My Dreams  S-18 -> 17",  //CZ
-                   "Naissance 2  D-19 -> 20",  //aNM
                      "Pump Jump  D-17 -> 16",
              //"Pump Me Amadeus  S-17 -> 18",//CZ
                "Pumping Jumping  D-17 -> 18",
-                       "Requiem  S-19 -> 20",   // не проще Necromancy S20
                "Sorceress Elise  S-15 -> 16",
 
       "The Angel Who Lost Wings  D-16 -> 15",
@@ -519,10 +556,10 @@ var tracklistLeftForEstimation = [
                           "Vook  S-17 -> 18",  //aCZ
 
                          "Wanna  D-17 -> 18",
-               "Witch Doctor #1  S-16 -> 17",  //aHD
-               "Witch Doctor #1  S-18 -> 19",  //aCZ
-               "Witch Doctor #1  S-18 -> 19",  //aCZ
-               "Witch Doctor #1  D-19 -> 20",  //NM //ГОВНО
+               "Witch Doctor #1  S-16 -> 17",  // aHD
+               "Witch Doctor #1  S-18 -> 19",  // aCZ
+               "Witch Doctor #1  S-18 -> 19",  // aCZ
+               "Witch Doctor #1  D-19 -> 20",  // NM //ГОВНО
 
             "Hard Core Rock Mix  S-21 -> 20",
                 "Vacuum Cleaner  S-20 -> 21", //ОК, я бы сказал 20.5
@@ -531,14 +568,7 @@ var tracklistLeftForEstimation = [
 
 ];
 
-var tracklistForOldMixes = [
-            "Caprice of Otada  ACZ-21 -> 22",  //ACZ
-                     "Chimera  FS-21 -> 22",
-  "Final Audition episode 2-2  D-25 -> 27",  //aNM.NX
-      "U Inside My Dim Memory  NM-17 -> 16",
-                     "Valenti  NM-12 -> 14",
-                    "Solitary  aNM-18 -> 20",
-];
+//////////////////////////////////////////////////////////////////////////////////////////
 
 
 /*
