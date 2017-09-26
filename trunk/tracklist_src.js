@@ -64,6 +64,28 @@ var tracklist = {
 	Prime2: "@1.08 S18 S22 D23",
 },
 
+"15xx":
+{
+	//altID: "",
+	title: "Time Attack <Blue>", artist: "r300k", channel: , bpm: "119",
+	Prime2: "@1.09 S8 S15 D10 D16 S18 D20",
+},
+
+"15xx":
+{
+	//altID: "",
+	title: "Kill Them!", artist: "Archefluxx", channel: , bpm: "170",
+	Prime2: "@1.09 S05, S10, S15, D09, D19 
+    S?? (Card only step)",
+},
+
+"15xx":
+{
+	//altID: "",
+	title: "Chase Me  [FULL]", artist: "Dreamcatcher", channel: , bpm: "200",
+	Prime2: "@1.09 S19 D25",
+},
+
 /*
 
 "15xx":
@@ -841,7 +863,7 @@ var tracklist = {
 "1446":
 {
 	title: "Sugar Free", artist: "T-ara", channel: KPOP, bpm: "128",
-	Prime2: "=",
+	Prime2: "=  @1.09 D18",
 	Prime: "S4 S6 S8 S15 D5 D16  @1.11 S17",
 },
 
@@ -897,7 +919,7 @@ var tracklist = {
 "1454":
 {
 	title: "Selfishness", artist: "S.I.D-Sound", channel: WORLD, bpm: "160",
-	Prime2: "=",
+	Prime2: "=  @1.09 D21",
 	Prime: "@1.03 S3 S6 S11 S17 D12 D18",
 },
 
@@ -5824,7 +5846,7 @@ var tracklist = {
 "705":
 {
 	title: "Maria", artist: "BanYa", bpm: "136", fromMix: "Rebirth",
-	Prime2: "=",
+	Prime2: "=  @1.09 D19",
 	Prime: "=  @1.12 S18.ucs",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -5844,7 +5866,7 @@ var tracklist = {
 "707":
 {
 	title: "My Way", artist: "BanYa", bpm: "118", fromMix: "Rebirth",
-	Prime2: "=",
+	Prime2: "=  @1.09 D18",
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "=  @1.20 Dp4  @1.51 S3 S8",
