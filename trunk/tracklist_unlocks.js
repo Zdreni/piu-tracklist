@@ -334,6 +334,12 @@ On( "Prime2" )
 	Lock( "Death Moon  [SHORT]", "S22", PIUGAME )
 // 1.08
 	Lock( "Gotta Be You", "S17, D18", PIUGAME )
+// 1.09
+	Lock( "Time Attack <Blue>", "S18, D20", PIUGAME )
+	Lock( "Maria", "D19", PIUGAME )
+	Lock( "My Way", "D18", PIUGAME )
+	Lock( "Sugar Free", "D18", PIUGAME )
+	Lock( "Selfishness", "D21", PIUGAME )
 
 //delete tempUnlockPatchIndex;
 //delete tempCurrentMix;
