@@ -1154,10 +1154,9 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1080-update-information
      Unlock step chart : S?, S?, D?
 
 3)  Song : Silhouette Effect(Shortcut)
-
      Artist : Nato
      BPM : 167
-     Default step chart : S17, D18
+     Default step chart : S18, D17
 
 
 2. New unlock step charts
@@ -2986,53 +2985,53 @@ https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1090-update-notice/187
 
 1) Title : Time Attack <Blue>
     Artist : r300k
-    BPM : 119                                                                                                                                                  
+    BPM : 119
     Default step chart : S08, S15, D10, D16
     S??(18), D??(20) (Unlocked step)
-2) Title : Kill Them!    
-    Artist : Archefluxx     
-    BPM : 170                                                                                                                                                       
-    Default step chart : S05, S10, S15, D09, D19 
+2) Title : Kill Them!
+    Artist : Archefluxx
+    BPM : 170
+    Default step chart : S05, S10, S15, D09, D19
     S??(18) (Card only step)
 3) Title : [FULL SONG] Chase Me
     Artist : Dreamcatcher
-    BPM : 200                                                                                                                                                
+    BPM : 200
     Default step chart : S19, D25
 
 2. New Step Charts
 1) Title : Maria
-    Artist : BanYa     
-    BPM : 136                                                                                                                                                
+    Artist : BanYa
+    BPM : 136
     step chart : D19
 2) Title : My Way
     Artist : BanYa
-    BPM : 118                                                                                                                                                
+    BPM : 118
     step chart : D18
 3) Title : Sugar Free
-    Artist : T-ara     
-    BPM : 128                                                                                                                                                
+    Artist : T-ara
+    BPM : 128
     step chart : D18
 4) Title : Selfishness
     Artist : SID-SOUND
-    BPM : 160                                                                                                                                                
+    BPM : 160
     step chart : D21
 
 
 3. Quest zone
 Quest “Chapter4” is updated.
-1) Song :   Last Rebirth      
-    Step chart :   S08, S13, S15, S17    
-2) Song :   Sarabande     
-     Step chart :   S07, S16, S18, S19 
-3) Song :    Katkoi   
-    Step chart :   S14, S18, D19, D21 
+1) Song :   Last Rebirth
+    Step chart :   S08, S13, S15, S17
+2) Song :   Sarabande
+     Step chart :   S07, S16, S18, S19
+3) Song :    Katkoi
+    Step chart :   S14, S18, D19, D21
 4) Song :   Final Audition 3
-    Step chart :  S17, D17, D19, D22 
-5) Song :   Mad5cience     
-    Step chart :  S05, S16, D16, D22 
-6) Song :   The Revolution  
-    Step chart :   S19, S22, D22, D24  
-7) Song :   Monkey Fingers     
+    Step chart :  S17, D17, D19, D22
+5) Song :   Mad5cience
+    Step chart :  S05, S16, D16, D22
+6) Song :   The Revolution
+    Step chart :   S19, S22, D22, D24
+7) Song :   Monkey Fingers
     Step chart :   S08, S15, D17, D25
 
 

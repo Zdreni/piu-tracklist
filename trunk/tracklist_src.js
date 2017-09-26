@@ -64,25 +64,24 @@ var tracklist = {
 	Prime2: "@1.08 S18 S22 D23",
 },
 
-"15xx":
+"15A3":
 {
 	//altID: "",
-	title: "Time Attack <Blue>", artist: "r300k", channel: , bpm: "119",
+	title: "Time Attack <Blue>", artist: "r300k", channel: XROSS, bpm: "119",
 	Prime2: "@1.09 S8 S15 D10 D16 S18 D20",
 },
 
 "15xx":
 {
 	//altID: "",
-	title: "Kill Them!", artist: "Archefluxx", channel: , bpm: "170",
-	Prime2: "@1.09 S05, S10, S15, D09, D19 
-    S?? (Card only step)",
+	title: "Kill Them!", artist: "Archefluxx", channel: WORLD, bpm: "170",
+	Prime2: "@1.09 S5 S10 S15 D9 D19 S18.ampass",
 },
 
 "15xx":
 {
 	//altID: "",
-	title: "Chase Me  [FULL]", artist: "Dreamcatcher", channel: , bpm: "200",
+	title: "Chase Me  [FULL]", artist: "Dreamcatcher", channel: KPOP, bpm: "200",
 	Prime2: "@1.09 S19 D25",
 },
 
@@ -1328,14 +1327,14 @@ var tracklist = {
 {
 	title: "Silhouette Effect  [SHORT]", artist: "Nato", channel: ORIGINAL, bpm: "167",
 	Prime2: "=",
-	Prime: "@1.08 S17 D18",
+	Prime: "@1.08 S18 D18",
 },
 
 "14E3":
 {
 	title: "Selfishness  [SHORT]", artist: "S.I.D-Sound", channel: WORLD, bpm: "160",
 	Prime2: "=",
-	Prime: "@1.03 S17 D18",
+	Prime: "@1.03 S18 D17",
 },
 
 "14E4":
