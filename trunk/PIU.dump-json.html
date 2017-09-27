@@ -22,14 +22,14 @@
 <script>
 function JStr( obj )
 {
-	return JSON.stringify( obj, null, 1 );
+	return JSON.stringify( obj, null, 1 ).replace( "<", "&lt;" ).replace( ">", "&gt;" )
 }
 
 
 function JStrNoQuotes( obj )
 {
-	var jstr = JStr( obj );
-	return jstr.substring( 3, jstr.length - 2 );
+	var jstr = JStr( obj )
+	return jstr.substring( 3, jstr.length - 2 )
 }
 
 
