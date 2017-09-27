@@ -404,6 +404,9 @@ Dino: 19,
 		Dino: 22,
 		Mindless: 22,
 	},
+	"Solitary  D-16": {
+		Grumd: 17,
+	},
 	"Star Command  D-21": {
 		Grumd: 20,
 },
@@ -530,7 +533,7 @@ var tracklistLeftForEstimation = [
 
 
           "All I Want For X-mas  S-11 -> 8",
-                 "Another Truth  D-22 -> 18", // grumd: лучше 20, там холды сливают весь кредит, если недостаточно хорошо попасть по кваду 
+                 "Another Truth  D-22 -> 18", // grumd: лучше 20, там холды сливают весь кредит, если недостаточно хорошо попасть по кваду
                  "Blaze Emotion  D-17 -> 18", //Обычная 18-ка
             "Bullfighter's Song  S-8 -> 9",
           "Chopsticks Challenge  D-16 -> 15",  //NM
@@ -643,7 +646,7 @@ function ApplyPatch( tracklist, estimations )
 			shared.estimatedLevelNum = votesSum / Object.keys( votes ).length;
 */
 			var sum = _.reduce( Object.values( votes ), function( x, y ) { return x + y }, 0 );
-			var suggestedLevelNum = sum / Object.keys( votes ).length;
+			var suggestedLevelNum = Math.round( sum / Object.keys( votes ).length * 10 ) / 10;
 			if( suggestedLevelNum != chartLevelText )
 				shared.suggestedLevelNum = suggestedLevelNum;
 		}
