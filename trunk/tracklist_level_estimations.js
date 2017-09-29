@@ -57,9 +57,9 @@ var tracklistVotes = {
 		Dino: 18,
 		Mindless: 18,
 	},
-"Campanella  D-16": {
-	Grumd: 17, // брекеты на д16 редкость, а тут они в стримах, новая и сложная техника для д16
-},
+	"Campanella  D-16": {
+		Grumd: 17, // брекеты на д16 редкость, а тут они в стримах, новая и сложная техника для д16
+	},
 	"Cannon X.1  D-13": {
 		Dino: 14,
 	},
@@ -136,7 +136,10 @@ var tracklistVotes = {
 	"Dr. M  D-16": {
 		Dino: 17,
 		Grumd: 17,
-},
+	},
+	"Dream to Nightmare  D-24": {
+		Dino: 23,
+	},
 	"Extravaganza  S-16": {  // aHD
 		Dino: 17,
 		Mindless: 17,
@@ -151,7 +154,7 @@ var tracklistVotes = {
 	},
 	"Fallen Angel  D-20": {
 		Dino: 21,
-},
+	},
 	"Final Audition episode 1  S-19": { // aCZ
 		Dino: 20,
 		Mindless: 20,
@@ -192,7 +195,7 @@ var tracklistVotes = {
 		Dino: 21,
 	},
 	"Four Seasons of Loneliness  D-21": {
-		Dino: 22,
+	//	Dino: 22,
 	},
 	"Get Up (and Go)  D-20": {
 		Dino: 18,
@@ -222,7 +225,7 @@ var tracklistVotes = {
 	"Houkago Stride  D-21": {
 		Dino: 22,
 		Grumd: 20,
-},
+	},
 	"Hi-Bi  D-18": {  // NM
 		Dino: 19,
 		Mindless: 19,
@@ -234,9 +237,9 @@ var tracklistVotes = {
 		Dino: 19,
 		Mindless: 19,
 	},
-"I'll Give You All My Love  D-18": {  // NM
-	Dino: 17,
-},
+	"I'll Give You All My Love  D-18": {  // NM
+		Dino: 17,
+	},
 	"Imprinting  S-20": {
 		Dino: 21,
 	},
@@ -316,12 +319,12 @@ var tracklistVotes = {
 		Mindless: 21,
 	},
   	"Narcisista Por Excelencia  D-18": {
-Dino: 19,
-Grumd: 19,
+		Dino: 19,
+		Grumd: 19,
 	},
-"Necromancy  S-20": {
-Dino: 19,
-},
+	"Necromancy  S-20": {
+		Dino: 19,
+	},
 	"Necromancy  D-13": {
 		Dino: 14,
 	},
@@ -338,9 +341,12 @@ Dino: 19,
 		Dino: 19,
 		Mindless: 19,
 	},
+	"Papa Gonzales  S-14": {  // CZ
+		Dino: 15,
+	},
 	"Phantom  S-17": {  // aCZ
 		Dino: 18,
-},
+	},
 	"Phantom  S-18": {  // CZ
 		Dino: 19,
 		Mindless: 19,
@@ -350,8 +356,8 @@ Dino: 19,
 		Mindless: 20,
 	},
 	"Phantom  D-20": {  // aNM
-		Dino: 19,
-},
+		//	Dino: 19,
+	},
 	"Phantom -Intermezzo-  S-19": {
 		Dino: 20,
 	},
@@ -390,15 +396,12 @@ Dino: 19,
 		Dino: 24,
 		Mindless: 24,
 	},
-	"Super Fantasy  D-21": {
-		Dino: 22,
-		Mindless: 22,
-	},
-	"Sugar Free  S-17": {
-		Grumd: 16,
-},
 	"Setsuna Trip  D-14": {
 		Dino: 13,
+	},
+	"Slam  D-23": {
+		Dino: 24,
+		Dope: 24,
 	},
 	"Sorceress Elise  S-21": {
 		Dino: 22,
@@ -409,7 +412,17 @@ Dino: 19,
 	},
 	"Star Command  D-21": {
 		Grumd: 20,
-},
+	},
+	"Stardust Overdrive  D-24": {
+		Dino: 23,
+	},
+	"Super Fantasy  D-21": {
+		Dino: 22,
+		Mindless: 22,
+	},
+	"Sugar Free  S-17": {
+		Grumd: 16,
+	},
 	"Take Out  S-17": {
 		Dino: 18,
 		Mindless: 18,
@@ -484,6 +497,9 @@ Dino: 19,
 	},
 	"Windmill  D-18": {
 		Dino: 17,
+	},
+	"Windmill  D-24": {
+		Dino: 23,
 	},
 	"Winter  D-11": {
 		Dino: 12,
