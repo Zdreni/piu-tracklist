@@ -95,6 +95,18 @@ Tag( "IPF-2016-doubles",
 	] );
 */
 
+Tag( "Drills",
+	[
+	] )
+
+Tag( "Bursts",
+	[
+	] )
+
+Tag( "Streams",
+	[
+	] )
+
 Tag( "Tricky_stops",
 	[
 		"Bad Apple!! feat. Nomico  S-15",
@@ -103,15 +115,15 @@ Tag( "Tricky_stops",
 		"NoNoNo  Dp-15",
 		"Red Swan  Dp-20",
 		"Uprock  S-17",
-	] );
+	] )
 
 Tag( "M-runs",
 	[
 		"Mr. Larpus  S-22",
 		"Dignity  S-22",
-	] );
+	] )
 
-Tag( "legpos",
+Tag( "brackets",
 	[
 		"1950  D-21",
 		"1950  D-25",
@@ -174,7 +186,8 @@ Tag( "legpos",
 		"Witch Doctor #1  D-19",
 		"X-Rave  S-17",
 		"Yog-Sothoth  D-25",
-	] );
+	] )
+
 /*
 Tag( "slowdowns",
 	[
