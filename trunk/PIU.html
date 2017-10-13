@@ -291,7 +291,7 @@ tr.strikeout td:after {
 </style>
 
 	<table data-role="table" class="ui-responsive ui-shadow">
-		<thead><tr><th>Name</th><th>Chart</th><th>BPM</th><th>Speed</th><th>Artist</th><th>Access</th></tr></thead>
+		<thead><tr><th>Name</th><th>Chart</th><th>Mix</th><th>BPM</th><th>Artist</th><th>Access</th></tr></thead>
 		<tbody id="tracks"></tbody>
 	</table>
 
@@ -334,6 +334,7 @@ tr.strikeout td:after {
 		return result;
 	}
 
+/*
 	function RatioOf( from, to, value )
 	{
 		return ( value - from ) / ( to - from );
@@ -381,37 +382,44 @@ tr.strikeout td:after {
 
 		return recommendedSpeed;
 	}
-
+*/
 
 	function TableItemDescr( item )
 	{
 		var rowClass = item.realLevelMatches  ?  ""  :  "strikeout";
 
 		var chartBPM = item.chart.bpm  ?  "<b>" + item.chart.bpm + "</b>"  :  item.track.bpm;
-		var availability = item.chart.fromPatchIndex  ?  "from " + mixes[ chartFilter.mixID ].patches[ item.chart.fromPatchIndex ]  :  "";
+		var notes = []
+
+		var availAtMix = GetTrackFirstMix( item.track )
+		if( item.chart.fromPatchIndex )
+			availAtMix += "&nbsp;" + mixes[ chartFilter.mixID ].patches[ item.chart.fromPatchIndex ]
+
+		if( item.chart.isAmpass )
+			notes.push( "ampass" )
+
 		if( item.chart.unlockDescr )
 		{
-			if( availability != "" )
-				availability += ", ";
-			availability += item.chart.unlockDescr;
+			notes.push( item.chart.unlockDescr )
 			if( item.chart.unlockPatchIndex )
-				availability += ", until " + mixes[ chartFilter.mixID ].patches[ item.chart.unlockPatchIndex ];
+				notes.push( "unlocked at " + mixes[ chartFilter.mixID ].patches[ item.chart.unlockPatchIndex ] )
 		}
 
 		if( item.chart.isUCS )
-			availability += ", UCS";
+			notes.push( "UCS" );
 
-		var recommendedSpeed = GetRecommendedSpeedDescr( item );
+		//var recommendedSpeed = GetRecommendedSpeedDescr( item );
 
 		var youtubeUrl = "https://www.youtube.com/results?search_query=Pump+It+Up+" + chartFilter.mixID + "+" + item.track.title + "+" + item.chart.tag + "+" + item.chart.levelText;
 
 		return TableRow( rowClass,
 		                 URL( youtubeUrl, item.track.title ),
 		                 URL( youtubeUrl, ChartDescr( item.chart ) ),
+		                 availAtMix,
 		                 chartBPM,
-		                 recommendedSpeed,
+		                 //recommendedSpeed,
 		                 item.track.artist,
-		                 availability );
+		                 notes.join( ", " ) );
 	}
 
 	function UpdateList()

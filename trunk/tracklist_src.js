@@ -913,8 +913,12 @@ var tracklist = {
 "1453":
 {
 	title: "The Revolution", artist: "Max & Doom", channel: WORLD, bpm: "160",
-	Prime2: "= -S21 -D23 -D24",  // Prime2_hh: "= -S21",
+	Prime2: "= -S21 -D22 -D24 D22.D23",
 	Prime: "@1.09 S7 S11 S17 S19 D12 D19  @1.11 S21.ucs D22.ucs D23.ucs D24.ucs",
+	// yes, D23 on P1 became D22 on P2
+	// D22 on Prime - https://www.youtube.com/watch?v=XCwJO8n5O7Y
+	// D23 on Prime - https://www.youtube.com/watch?v=SZBvBn_ea4k
+	// D22 on Prime2 - https://www.youtube.com/watch?v=pu7knXy5YXc
 },
 
 "1454":
@@ -1704,7 +1708,6 @@ var tracklist = {
 "13A0":
 {
 	title: "BIG to the BANG", artist: "Big Bang & MAX", channel: KPOP, bpm: "135", duration: REMIX,
-	// Prime2_hh: "=",
 	Prime: "=",
 	Fiesta2: "S17 D17",
 },
@@ -4431,7 +4434,6 @@ var tracklist = {
 "D32":
 {
 	title: "Groove Party", artist: "Clon/Tashannie", channel: KPOP, bpm: "105-110", duration: REMIX,
-	// Prime2_hh: "=",
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -6799,20 +6801,24 @@ function PreprocessNewStyleChart( track, result, chartDescr, mixID, patchIndex )
 	var sharedIndex = 0;
 	var prevChart;
 	var chartIsUcs = false;
+	var chartIsAmpass = false;
 
 	for( var token of descrTokens )
 	{
 		if( token === "new" )
 			continue;
 
+		if( token === "ampass" )
+		{
+			chartIsAmpass = true;
+			continue;
+		}
+
 		if( token === "ucs" )
 		{
 			chartIsUcs = true;
 			continue;
 		}
-
-		if( token === "ampass" )
-			continue;
 
 		prevChart = FindChart( track, token );
 		if( ! prevChart )
@@ -6827,6 +6833,9 @@ function PreprocessNewStyleChart( track, result, chartDescr, mixID, patchIndex )
 		chart.fromMixID = prevChart.fromMixID;
 	else
 		chart.fromMixID = mixID;
+
+	if( chartIsAmpass )
+		chart.isAmpass = true;
 
 	if( chartIsUcs )
 		chart.isUCS = true;
