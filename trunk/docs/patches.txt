@@ -2465,8 +2465,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1020-update-notice/165
         Artist :  MAX
         BPM : 170
         Default step chart :   S04, S07, S09, S16, S18, D12, D19
-        D??(20) (Card only step)
-        хз, что с S20, не указано
+        (S20,) D??(20) (Card only step)
  3)	Song :  Step
         Artist :  SID-SOUND
         BPM : 156

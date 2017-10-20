@@ -159,7 +159,7 @@ var tracklist = {
 "1517":
 {
 	title: "Kasou Shinja", artist: "MAX", channel: ORIGINAL, bpm: "170",
-	Prime2: "@1.02 S4 S7 S9 S16 S18 S20 D12 D19 D23.ampass  @1.06 CoOp(x2).ampass",
+	Prime2: "@1.02 S4 S7 S9 S16 S18 S20.ampass D12 D19 D23.ampass  @1.06 CoOp(x2).ampass",
 },
 
 "1518":
