@@ -2850,9 +2850,8 @@ var tracklist = {
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
-	FiestaEX: "= S16 D17 -D18",
-	// переоценка или новый чарт?
-	Fiesta: "D18",
+	FiestaEX: "=",
+	Fiesta: "S16 D17",
 },
 
 "1049":
@@ -3336,7 +3335,7 @@ var tracklist = {
 	FiestaEX: "=",
 	Fiesta: "S4.nl S14.hd S21.cz D14.fs D21.nm",
 	NXA: ["4", "14", "21", "14", "21"],
-	// NXA unlock
+	//? NXA unlock
 },
 
 "F29":
@@ -5076,7 +5075,7 @@ var tracklist = {
 {
 	title: "Banya Classic Remix", artist: "BanYa", bpm: "162 ~ 170", duration: REMIX,
 	Prime2: "=",
-	Prime: "= D11 -Dp11",  // просто сменили тип?
+	Prime: "= D11 -Dp11",  //? просто сменили тип?
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "@1.10 S7.hd S19.cz Dp11.fs D20.nm",
@@ -6484,7 +6483,7 @@ var tracklist = {
 "208":
 {
 	title: "Fighting Spirits", artist: "H.O.T.", channel: KPOP, bpm: "98", fromMix: "2nd",
-	NX: ["2", "", "", "5", ""], NX_: ["", "", "13", "", "15/16"], //? только до версии 1.08
+	NX: ["2", "", "", "5", ""], NX_: ["", "", "13", "", "15/16"], // только до версии 1.08
 	Zero: ["2", "", "", "5", ""],
 	Exceed2: ["2", "", "", "5", ""],
 	Exceed: ["3", "", "", "5", ""],
