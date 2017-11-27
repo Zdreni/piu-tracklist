@@ -240,6 +240,13 @@ Tag( "quads",
 	[
 	] );
 
+Tag( "lol",
+	[
+		"VVV  D-16",
+		"Destination  [SHORT]  D-18",
+		"Final Audition  S-15",
+		"Pumptris (8Bit)  D-22",
+	])
 /*
 Tag(
 [
