@@ -340,6 +340,13 @@ On( "Prime2" )
 	Lock( "My Way", "D18", PIUGAME )
 	Lock( "Sugar Free", "D18", PIUGAME )
 	Lock( "Selfishness", "D21", PIUGAME )
+// 1.09
+	Lock( "Heart Attack", "S18, D20", PIUGAME )
+	Lock( "Keep On!", "S18, S21, D20, D22", PIUGAME )
+	Lock( "Get Your Groove On", "D21", PIUGAME )
+	Lock( "Caprice of Otada", "S19", PIUGAME )
+	Lock( "Monolith", "D23", PIUGAME )
+	Lock( "Reminiscence", "S15, D17", PIUGAME )
 
 //delete tempUnlockPatchIndex;
 //delete tempCurrentMix;

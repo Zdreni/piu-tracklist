@@ -44,48 +44,36 @@ var tracklist = {
 
 // unsorted
 
-"1550":
-{
-	title: "Gotta Be You", artist: "2NE1", bpm: "130",
-	Prime2: "@1.08 S3 S5 S8 S15 D6 D16 S17 D18",
-},
-
-"15C4+_Fallen_Angel":
+// after Just Kiddin "1576"
+"1576+_200_Nakakapagpabagabag":
 {
 	//altID: "",
-	title: "Fallen Angel", artist: "DM Ashura", channel: WORLD, bpm: "157",
-	Prime2: "@1.08 S6 S10 S17 D10 D15 D21 D20.ampass",
+	title: "Nakakapagpabagabag", artist: "Dasu feat. Kagamine Len", channel: WORLD, bpm: "145",
+	Prime2: "@1.10 S10 S14 S18 D15 D19.ampass CoOp(x2)",
 },
 
-"15F3+_Shub_Niggurath_SHORT":
+// after 576+_200_Nakakapagpabagabag
+"1576+_250_Heart_Attack":
 {
 	//altID: "",
-	title: "Shub Niggurath  [SHORT]", artist: "Nato", channel: ORIGINAL, bpm: "220",
-	Prime2: "@1.08 S18 S22 D23",
+	title: "Heart Attack", artist: "DJ Counterforce", channel: WORLD, bpm: "148",
+	Prime2: "@1.10 S7 S11 S16 D9 D18  S18 D20",
 },
 
-// between start on red "15A2" and magical vacation "15A4"
-"15A3":
+// after 1576+_250_Heart_Attack, before Helix "1597"
+"1576+_300_Cross_Time":
 {
 	//altID: "",
-	title: "Time Attack <Blue>", artist: "r300k", channel: XROSS, bpm: "119",
-	Prime2: "@1.09 S8 S15 D10 D16 S18 D20",
+	title: "Cross Time", artist: "Brandy", channel: XROSS, bpm: "160",
+	Prime2: "@1.10 S3 S7 S11 S15 S18.ampass D11 D17 D20.ampass",
 },
 
-// between redline "15B8" and seize my day "15C4"
-"15B8+_Kill_Them":
+"15A9":
 {
-	//altID: "",
-	title: "Kill Them!", artist: "Archefluxx", channel: WORLD, bpm: "170",
-	Prime2: "@1.09 S5 S10 S15 D9 D19 S18.ampass",
+	title: "Keep On!", artist: "AmamoriP", channel: XROSS, bpm: "185",
+	Prime2: "@1.10 S6 S12 S15 D12 D17  S18 S21 D20 D22",
 },
 
-// after acquintance "15E4", before move that body "14C3"
-"15E5":
-{
-	title: "Chase Me  [FULL]", artist: "Dreamcatcher", channel: KPOP, bpm: "200",
-	Prime2: "@1.09 S19 D25",
-},
 
 /*
 
@@ -257,7 +245,11 @@ var tracklist = {
 	Prime2: "S1 S3 S6 S9 S15 D6 D15  @1.06 Dp3",
 },
 
-// "1550":
+"1550":
+{
+	title: "Gotta Be You", artist: "2NE1", bpm: "130",
+	Prime2: "@1.08 S3 S5 S8 S15 D6 D16 S17 D18",
+},
 
 "1551":
 {
@@ -391,7 +383,11 @@ var tracklist = {
 	Prime2: "@1.05 S4 S8 S11 S15 D12 S19 D20",
 },
 
-// "15A3":
+"15A3":
+{
+	title: "Time Attack <Blue>", artist: "r300k", channel: XROSS, bpm: "119",
+	Prime2: "@1.09 S8 S15 D10 D16 S18 D20",
+},
 
 "15A4":
 {
@@ -459,6 +455,13 @@ var tracklist = {
 	Prime2: "@1.04 S5 S10 S16 D13 D20 S18 D19",
 },
 
+"15B9":
+{
+	altID: "15B8+_Kill_Them",
+	title: "Kill Them!", artist: "Archefluxx", channel: WORLD, bpm: "170",
+	Prime2: "@1.09 S5 S10 S15 D9 D19 S18.ampass",
+},
+
 // "15C1":
 // "15C2":
 // "15C3":
@@ -468,6 +471,13 @@ var tracklist = {
 	altID: "15_Seize_My_Day",
 	title: "Seize My Day", artist: "Rainbowdragoneyes", channel: WORLD, bpm: "160",
 	Prime2: "@1.05 S2 S6 S10 S14 S18 D7 D12 D19 D22.ampass",
+},
+
+"15C5":
+{
+	altID: "15C4+_Fallen_Angel",
+	title: "Fallen Angel", artist: "DM Ashura", channel: WORLD, bpm: "157",
+	Prime2: "@1.08 S6 S10 S17 D10 D15 D21 D20.ampass",
 },
 
 "15D0":
@@ -518,7 +528,11 @@ var tracklist = {
 	Prime2: "@1.06 S20 D22",
 },
 
-// "15E5":
+"15E5":
+{
+	title: "Chase Me  [FULL]", artist: "Dreamcatcher", channel: KPOP, bpm: "200",
+	Prime2: "@1.09 S19 D25",
+},
 
 "15E6":
 {
@@ -526,7 +540,6 @@ var tracklist = {
 	title: "HUSH  [FULL]", artist: "Yassi Pressman & Nadine Lustre", channel: WORLD, bpm: "82", region: PHILIPPINES,
 	Prime2: "@1.03 S15 D16",
 },
-
 
 "15F0":
 {
@@ -547,6 +560,13 @@ var tracklist = {
 	altID: "15_Prime2_Opening",
 	title: "PRIME2 Opening  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "145",
 	Prime2: "@1.04 S7 S12 S17 D18",
+},
+
+"15F4":
+{
+	altID: "15F3+_Shub_Niggurath_SHORT",
+	title: "Shub Niggurath  [SHORT]", artist: "Nato", channel: ORIGINAL, bpm: "220",
+	Prime2: "@1.08 S18 S22 D23",
 },
 
 // \14 - Prime
@@ -1044,7 +1064,7 @@ var tracklist = {
 "1473":
 {
 	title: "Reminiscence", artist: "MAX", bpm: "155", channel: ORIGINAL,
-	Prime2: "=",
+	Prime2: "=  @1.10 S15 D17",
 	Prime: "@1.10 S3 S6 S10 D10 CoOp(x2)  S17 D18",
 },
 
@@ -1836,7 +1856,7 @@ var tracklist = {
 "1201":
 {
 	title: "Monolith", artist: "Affinity", channel: WORLD, bpm: "196",
-	Prime2: "=",
+	Prime2: "=  @1.10 D23",
 	Prime: "=",
 	Fiesta2: "S3 S5 S9  @1.50 D13   @1.60 S16 D18",
 },
@@ -3672,7 +3692,7 @@ var tracklist = {
 "E03":
 {
 	title: "Caprice of Otada", artist: "BanYa Production", bpm: "160",
-	Prime2: "=",
+	Prime2: "=  @1.10 S19",
 	Prime: "=",
 	Fiesta2: "=  @1.50 D21.anm",
 	FiestaEX: "=  @1.51 S6",
@@ -5822,7 +5842,7 @@ var tracklist = {
 "703":
 {
 	title: "Get Your Groove On", artist: "BanYa", bpm: "96", fromMix: "Rebirth",
-	Prime2: "=",
+	Prime2: "=  @1.10 D21",
 	Fiesta2: "=",
 	FiestaEX: "S4 S6 S13 D9",  //? nl hd cz fs
 	Exceed2: ["1", "5", "7", "8", ""],
