@@ -44,38 +44,52 @@ var tracklist = {
 
 // unsorted
 
-// after Just Kiddin "1576"
-"1576+_200_Nakakapagpabagabag":
-{
-	//altID: "",
-	title: "Nakakapagpabagabag", artist: "Dasu feat. Kagamine Len", channel: WORLD, bpm: "145",
-	Prime2: "@1.10 S10 S14 S18 D15 D19.ampass CoOp(x2)",
-},
-
-// after 576+_200_Nakakapagpabagabag
-"1576+_250_Heart_Attack":
-{
-	//altID: "",
-	title: "Heart Attack", artist: "DJ Counterforce", channel: WORLD, bpm: "148",
-	Prime2: "@1.10 S7 S11 S16 D9 D18  S18 D20",
-},
-
-// after 1576+_250_Heart_Attack, before Helix "1597"
-"1576+_300_Cross_Time":
-{
-	//altID: "",
-	title: "Cross Time", artist: "Brandy", channel: XROSS, bpm: "160",
-	Prime2: "@1.10 S3 S7 S11 S15 S18.ampass D11 D17 D20.ampass",
-},
-
-"15A9":
-{
-	title: "Keep On!", artist: "AmamoriP", channel: XROSS, bpm: "185",
-	Prime2: "@1.10 S6 S12 S15 D12 D17  S18 S21 D20 D22",
-},
-
-
 /*
+Super Capriccio - SHK
+ORIGINAL
+150 bpm
+
+Anguished Unmaking - void
+ORIGINAL
+170 bpm
+
+Beautiful - Wanna One
+KPOP
+80 bpm
+
+Energetic - Wanna One
+KPOP
+125 bpm
+
+Really Really - Winner
+KPOP
+103 bpm
+
+Infinity - Lunatic Sounds
+XROSS
+175 bpm
+
+V3 - Beautiful Day
+XROSS
+160 bpm
+
+Hyperion short - M2U
+XROSS
+145 bpm
+
+Kasou Shinja short - MAX
+XROSS
+170 bpm
+
+Twist of Fate (feat Ruriling) - Jehezukiel
+ORIGINAL
+141 bpm
+
+HTTP - Quree
+ORIGINAL
+147 bpm
+
+
 
 "15xx":
 {
@@ -331,8 +345,20 @@ var tracklist = {
 	Prime2: "@1.01 S5 S13 S16 D9  D18.ampass  @1.06 Dp5",
 },
 
-// "1577":
-// "1578":
+"1577":
+{
+	altID: "1576+_200_Nakakapagpabagabag",
+	title: "Nakakapagpabagabag", artist: "Dasu feat. Kagamine Len", channel: WORLD, bpm: "145",
+	Prime2: "@1.10 S10 S14 S18 D15 D19.ampass CoOp(x2)",
+},
+
+"1578":
+{
+	altID: "1576+_250_Heart_Attack",
+	title: "Heart Attack", artist: "DJ Counterforce", channel: WORLD, bpm: "148",
+	Prime2: "@1.10 S7 S11 S16 D9 D18  S18 D20",
+},
+
 // "1579":
 // "1580":
 // "1581":
@@ -355,7 +381,14 @@ var tracklist = {
 // "1591":
 // "1592":
 // "1593":
-// "1594":
+
+"1594":
+{
+	altID: "1576+_300_Cross_Time",
+	title: "Cross Time", artist: "Brandy", channel: XROSS, bpm: "160",
+	Prime2: "@1.10 S3 S7 S11 S15 S18.ampass D11 D17 D20.ampass",
+},
+
 // "1595":
 // "1596":
 
@@ -415,6 +448,12 @@ var tracklist = {
 {
 	title: "Christmas Memories", artist: "Beautiful Day remixed by Warak", channel: XROSS, bpm: "170",
 	Prime2: "S3 S5 S8 S14 D9 D15 CoOp(x2)  @1.06 Dp4",
+},
+
+"15A9":
+{
+	title: "Keep On!", artist: "AmamoriP", channel: XROSS, bpm: "185",
+	Prime2: "@1.10 S6 S12 S15 D12 D17  S18 S21 D20 D22",
 },
 
 "15B0":
