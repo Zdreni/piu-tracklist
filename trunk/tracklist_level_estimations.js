@@ -42,6 +42,9 @@ var tracklistVotes = {
 	"Another Truth  D-22": {
 		Dino: 20,
 	},
+	"Asterios -ReEntry-  D-21": {
+		//	Dino: 22
+	},
 	"Bad Girl Good Girl  D-13": {
 		Marina: 12,
 	},
@@ -75,7 +78,9 @@ var tracklistVotes = {
 	"Chicken Wing  S-21": {
 		Dino: 22,
 	},
-	//"Chimera  S-23": 24,
+	"Chimera  S-16": {
+		Dino: 18,
+	},
 	"Cleaner  S-22": {
 		Dino: 21,
 	},
@@ -115,6 +120,12 @@ var tracklistVotes = {
 		Dino: 20,
 		Mindless: 20,
 	},
+	"Death Moon  [SHORT]  S-22": {
+		Dino: 24,
+	},
+	"Death Moon  [SHORT]  D-22": {
+		Dino: 24,
+	},
 	"Destination  S-16": {
 		Dino: 17,
 		Mindless: 17,
@@ -126,8 +137,9 @@ var tracklistVotes = {
 		Dino: 20,
 	},
 	"Dignity  D-13": {
-		Dino: 15,
-		Grumd: 15,
+		Dino: 16,
+		Grumd: 16,
+		Mindless: 16,
 	},
 	"Dignity  D-18": {
 		Dino: 19,
@@ -201,6 +213,9 @@ var tracklistVotes = {
 		Dino: 18,
 		Mindless: 19,
 	},
+	"Good Night  S-17": {
+		Dino: 18,
+	},
 	"Good Night  S-20": {
 		Dino: 19,
 	},
@@ -214,8 +229,7 @@ var tracklistVotes = {
 		Dino: 18,
 		Mindless: 18,
 	},
-	"Hello William  D-21":
-	{
+	"Hello William  D-21": {
 		Dino: 20,
 		Mindless: 20,
 	},
@@ -233,6 +247,9 @@ var tracklistVotes = {
 	"Hypnosis  S-18": {
 		Dino: 19,
 	},
+	"Hypnosis  D-15": {
+		Dino: 16,
+	},
 	"Hypnosis  D-18": {
 		Dino: 19,
 		Mindless: 19,
@@ -243,16 +260,25 @@ var tracklistVotes = {
 	"Imprinting  S-20": {
 		Dino: 21,
 	},
- 	"Ignis Fatuus (DM Ashura Mix)  S-23": {
+	"Imprinting  D-20": {
+		Dino: 21,
+		Grem: 21,
+	},
+	"Ignis Fatuus (DM Ashura Mix)  S-23": {
 // 		Dino: 22,
- 	},
+	},
+	"Ignis Fatuus (DM Ashura Mix)  D-15": {
+		Dino: 17,
+		Grumd: 17,
+	},
 	"Ignis Fatuus (DM Ashura Mix)  D-17": {
 		Dino: 18,
+		Grumd: 18,
 		Mindless: 18,
 	},
- 	"Ignition Starts  S-18": {
- 		Dino: 19,
- 	},
+	"Ignition Starts  S-18": {
+		Dino: 19,
+	},
 	"Just Hold on (To All Fighters)  S-21": {
 		Dino: 22,
 		Mindless: 22,
@@ -284,7 +310,9 @@ var tracklistVotes = {
 	"Mental Rider  D-13": {
 		Dino: 15,
 	},
-	//? "Mental Rider  S-21": { Dino: 22, },
+	"Mental Rider  S-21": {
+//		Dino: 22,
+	},
 	"Mental Rider  D-23": {
 		Dino: 24,
 	},
@@ -298,6 +326,9 @@ var tracklistVotes = {
 	"Mr. Larpus  S-20": {
 		Dino: 19,
 		Mindless: 19,
+	},
+	"Mr. Larpus  D-14": {
+		Dino: 15,
 	},
 	"Mr. Larpus  D-23": {
 		Dino: 21,
@@ -379,6 +410,9 @@ var tracklistVotes = {
 		Dino: 20,
 		Mindless: 20,
 	},
+	"Pumptris (8Bit ver.)  [SHORT]  D-22": {
+		Dino: 23,
+	},
 	"Ragnarok  S-20": {
 		Dino: 21,
 	},
@@ -388,6 +422,9 @@ var tracklistVotes = {
 	"Requiem  D-19": {
 		Dino: 18,
 	},
+	"Redline  D-13": {
+		Dino: 14,
+	},
 	"Robot Battle  S-21": {
 		Dino: 22,
 		Mindless: 22,
@@ -395,6 +432,9 @@ var tracklistVotes = {
 	"Robot Battle  D-23": {
 		Dino: 24,
 		Mindless: 24,
+	},
+	"Selfishness  D-21": {
+		Dino: 22,
 	},
 	"Setsuna Trip  D-14": {
 		Dino: 13,
@@ -416,12 +456,12 @@ var tracklistVotes = {
 	"Stardust Overdrive  D-24": {
 		Dino: 23,
 	},
+	"Sugar Free  S-17": {
+		Grumd: 16,
+	},
 	"Super Fantasy  D-21": {
 		Dino: 22,
 		Mindless: 22,
-	},
-	"Sugar Free  S-17": {
-		Grumd: 16,
 	},
 	"Take Out  S-17": {
 		Dino: 18,
@@ -495,6 +535,9 @@ var tracklistVotes = {
 		Mindless: 18,
 		Grumd: 19,
 	},
+	"What Happened  D-23": {
+		Dino: 24,
+	},
 	"Windmill  D-18": {
 		Dino: 17,
 	},
@@ -507,6 +550,12 @@ var tracklistVotes = {
 	"Witch Doctor  D-23": {  //aNM
 		Dino: 22,
 		Mindless: 22,
+	},
+	"Will o' the Wisp  D-13": {
+		Dino: 15,
+		Grem: 15,
+		Grumd: 15,
+		Mindless: 15,
 	},
 	"X-Tree  D-18": {
 		Dino: 19,
@@ -549,7 +598,7 @@ var tracklistLeftForEstimation = [
 
 
           "All I Want For X-mas  S-11 -> 8",
-                 "Another Truth  D-22 -> 18", // grumd: лучше 20, там холды сливают весь кредит, если недостаточно хорошо попасть по кваду
+                 "Another Truth  D-22 -> 18", // grumd: лучше 20, там холды сливают весь кредит, если недостаточно хорошо попасть по кваду 
                  "Blaze Emotion  D-17 -> 18", //Обычная 18-ка
             "Bullfighter's Song  S-8 -> 9",
           "Chopsticks Challenge  D-16 -> 15",  //NM
@@ -586,6 +635,7 @@ var tracklistLeftForEstimation = [
               "Crashday  [FULL]  S-22 -> 21",  //CZ // mndd: ОК, хотя он долгий и нудный...
 
 ];
+
 
 //////////////////////////////////////////////////////////////////////////////////////////
 
