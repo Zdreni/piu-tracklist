@@ -340,13 +340,23 @@ On( "Prime2" )
 	Lock( "My Way", "D18", PIUGAME )
 	Lock( "Sugar Free", "D18", PIUGAME )
 	Lock( "Selfishness", "D21", PIUGAME )
-// 1.09
+// 1.10
 	Lock( "Heart Attack", "S18, D20", PIUGAME )
 	Lock( "Keep On!", "S18, S21, D20, D22", PIUGAME )
 	Lock( "Get Your Groove On", "D21", PIUGAME )
 	Lock( "Caprice of Otada", "S19", PIUGAME )
 	Lock( "Monolith", "D23", PIUGAME )
 	Lock( "Reminiscence", "S15, D17", PIUGAME )
+
+// 2.0
+	Lock( "Super Capriccio", "S18, D18", PIUGAME )
+	Lock( "Anguished Unmaking", "S17, D18", PIUGAME )
+	Lock( "Energetic", "S16, D16, D19", PIUGAME )
+	Lock( "Really Really", "S15, D16", PIUGAME )
+	Lock( "Infinity", "S18, S21, D19, D24", PIUGAME )
+	Lock( "V3", "S17, D18, D24", PIUGAME )
+	Lock( "Twist of Fate (feat. Ruriling)", "S18, D20", PIUGAME )
+	Lock( "HTTP", "S17, S21, D19, D23", PIUGAME )
 
 //delete tempUnlockPatchIndex;
 //delete tempCurrentMix;

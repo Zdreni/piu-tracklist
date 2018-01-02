@@ -1,6 +1,27 @@
 "use strict";
 
 var tracklistVotes = {
+	"Anguished Unmaking  S-17": {
+		Mimi: 18,
+	},
+	"Anguished Unmaking  D-18": {
+		Mimi: 20,
+	},
+	"Super Capriccio  S-18": {
+		Mimi: 19,
+	},
+	"Super Capriccio  D-18": {
+		Mimi: 19,
+	},
+	"HTTP  D-19": {
+		Mimi: 20,
+	},
+	"V3  D-24": {
+		Mimi: 25,
+	},
+	"V3  D-18": {
+		Mimi: 19,
+	},
 
 // Scorpion King  S-15 -> ?17  // grem
 
@@ -598,7 +619,7 @@ var tracklistLeftForEstimation = [
 
 
           "All I Want For X-mas  S-11 -> 8",
-                 "Another Truth  D-22 -> 18", // grumd: лучше 20, там холды сливают весь кредит, если недостаточно хорошо попасть по кваду 
+                 "Another Truth  D-22 -> 18", // grumd: лучше 20, там холды сливают весь кредит, если недостаточно хорошо попасть по кваду
                  "Blaze Emotion  D-17 -> 18", //Обычная 18-ка
             "Bullfighter's Song  S-8 -> 9",
           "Chopsticks Challenge  D-16 -> 15",  //NM
@@ -638,6 +659,7 @@ var tracklistLeftForEstimation = [
 
 
 //////////////////////////////////////////////////////////////////////////////////////////
+
 
 
 /*

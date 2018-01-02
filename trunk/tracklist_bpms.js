@@ -2,38 +2,41 @@
 
 var separateBPMs =
 [
-	{                    chart: "Mexi Mexi  CZ", ratio: "2", mixes: "Exceed2" },
+	{                      chart: "Mexi Mexi  CZ", ratio: "2", mixes: "Exceed2" },
 
-	{                     chart: "Gun Rock  NM", ratio: "2", mixes: "..FiestaEX" },
-	{                            chart: "N  CZ", ratio: "2", mixes: "..FiestaEX" },
-	{                  chart: "Naissance 2  aNM", bpm: "129 - 258" },
+	{                       chart: "Gun Rock  NM", ratio: "2", mixes: "..FiestaEX" },
+	{                              chart: "N  CZ", ratio: "2", mixes: "..FiestaEX" },
+	{                    chart: "Naissance 2  aNM", bpm: "129 - 258" },
 
-	{                  chart: "Compunction  NM", bpm: "133 - 177" },
-	{                chart: "Feel the Soul  HD", ratio: "2" },
-	{                chart: "Feel the Soul  CZ", bpm: "94 - 141" },
-	{                chart: "Feel the Soul  NM", bpm: "94 - 141" },
-	{ chart: "Handsome Character that Pass  CZ", bpm: "125 - 250" },
-	{                    chart: "Maelstrom  CZ", bpm: "102 - 204" },
-	{                    chart: "Maelstrom  NM", bpm: "102 - 204" },
+	{                    chart: "Compunction  NM", bpm: "133 - 177" },
+	{                  chart: "Feel the Soul  HD", ratio: "2" },
+	{                  chart: "Feel the Soul  CZ", bpm: "94 - 141" },
+	{                  chart: "Feel the Soul  NM", bpm: "94 - 141" },
+	{   chart: "Handsome Character that Pass  CZ", bpm: "125 - 250" },
+	{                      chart: "Maelstrom  CZ", bpm: "102 - 204" },
+	{                      chart: "Maelstrom  NM", bpm: "102 - 204" },
 
-	{              chart: "Big Metra Remix  CZ", ratio: "2", mixes: "..Prime2" },
-	{              chart: "Big Metra Remix  NM", ratio: "2", mixes: "FiestaEX..Prime2" },
-	{                      chart: "Forward  NM", ratio: "2", mixes: "..FiestaEX" },
-	{               chart: "Panuelito Rojo  NM", ratio: "2", mixes: "..Prime2" },
-	{                chart: "Pump Breakers  NM", bpm: "120 - 240", mixes: "NXA" },
-	{ chart: "Trato de no Trabarme  [FULL]  CZ", ratio: "2", mixes: "..Prime2" },
-	{ chart: "Trato de no Trabarme  [FULL]  NM", ratio: "2", mixes: "..Prime2" },
+	{                chart: "Big Metra Remix  CZ", ratio: "2", mixes: "..Prime2" },
+	{                chart: "Big Metra Remix  NM", ratio: "2", mixes: "FiestaEX..Prime2" },
+	{                        chart: "Forward  NM", ratio: "2", mixes: "..FiestaEX" },
+	{                 chart: "Panuelito Rojo  NM", ratio: "2", mixes: "..Prime2" },
+	{                  chart: "Pump Breakers  NM", bpm: "120 - 240", mixes: "NXA" },
+	{   chart: "Trato de no Trabarme  [FULL]  CZ", ratio: "2", mixes: "..Prime2" },
+	{   chart: "Trato de no Trabarme  [FULL]  NM", ratio: "2", mixes: "..Prime2" },
 
-	{                    chart: "Good Life  S15", bpm: "98 - 49" },
-	{                    chart: "Good Life  D16", bpm: "98 - 147" },
+	{                      chart: "Good Life  S15", bpm: "98 - 49" },
+	{                      chart: "Good Life  D16", bpm: "98 - 147" },
 
-	{  chart: "Mission Possible -Blowback-  S18", bpm: "122, ends 150" },
+	{    chart: "Mission Possible -Blowback-  S18", bpm: "122, ends 150" },
 
-	{                     chart: "Gargoyle  S18", bpm: "150, ends 180" },
-	{           chart: "We Will Meet Again  S14", bpm: "118..177" },
-	{                    chart: "Yeo rae a  S13", ratio: "0.5" },
+	{                       chart: "Gargoyle  S18", bpm: "150, ends 180" },
+	{             chart: "We Will Meet Again  S14", bpm: "118..177" },
+	{                      chart: "Yeo rae a  S13", ratio: "0.5" },
 
-	{                 chart: "Star Command  S12", ratio: "1.25" },
+	{                   chart: "Star Command  S12", ratio: "1.25" },
+
+	{ chart: "Twist of Fate (feat. Ruriling)  S18", bpm: "141..28" },
+	{ chart: "Twist of Fate (feat. Ruriling)  D20", bpm: "141..28" },
 ];
 
 

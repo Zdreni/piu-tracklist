@@ -44,71 +44,109 @@ var tracklist = {
 
 // unsorted
 
+
+"1502":
+{
+	title: "Super Capriccio", artist: "SHK", channel: ORIGINAL, bpm: "150",
+	Prime2: "@2.00 S4 S7 S11 S16 D11 S18 D18",
+},
+
+"15_Anguished_Unmaking":
+{
+	sortingID: "1526+_100",  // after Allegro Furioso
+	//altID: "",
+	title: "Anguished Unmaking", artist: "void", channel: ORIGINAL, bpm: "170",
+	Prime2: "@2.00 S3 S5 S8 S15 D9 S17 D18",
+},
+
+"15_Energetic":
+{
+	sortingID: "1557+_100",  // after Acquaintance
+	//altID: "",
+	title: "Energetic", artist: "Wanna One", channel: KPOP, bpm: "125",
+	Prime2: "@2.00 S2 S4 S6 S9 S13 D6 D14 S16 D16 D19",
+},
+
+"15_Beautiful":
+{
+	sortingID: "1557+_200",  // after Energetic
+	//altID: "",
+	title: "Beautiful", artist: "Wanna One", channel: KPOP, bpm: "80",
+	Prime2: "@2.00 S2 S3 S5 S9 S15 D5 D12 D18.ampass",
+},
+
+"15_Really_Really":
+{
+	sortingID: "1557+_300",  // after Beautiful
+	//altID: "",
+	title: "Really Really", artist: "Winner", channel: KPOP, bpm: "103",
+	Prime2: "@2.00 S2 S4 S6 S13 D7 S15 D16",
+},
+
+"15_Infinity":
+{
+	sortingID: "15B1+_100",  // after Asterios and [possibly] Grand Blue
+	//altID: "",
+	title: "Infinity", artist: "Lunatic Sounds", channel: XROSS, bpm: "175",
+	Prime2: "@2.00 S10 S15 D10 CoOp(x2) S18 S21 D19 D24",
+},
+
+"15_V3":
+{
+	sortingID: "1578+_100",  // after Heart Attack
+	//altID: "",
+	title: "V3", artist: "Beautiful Day", channel: XROSS, bpm: "160",
+	Prime2: "@2.00 S6 S9 S14 D9 S17 D18 D24",
+},
+
+"15_Twist_of_Fate":
+{
+	sortingID: "1533+_100",  // after Hey U
+	//altID: "",
+	title: "Twist of Fate (feat. Ruriling)", artist: "Jehezukiel", channel: ORIGINAL, bpm: "141",
+	shortTitle: "Twist of Fate",
+	Prime2: "@2.00 S4 S6 S10 S16 D10 D17 S18 D20",
+},
+
+"15_HTTP":
+{
+	sortingID: "1533+_200",  // after Twist of Fate
+	//altID: "",
+	title: "HTTP", artist: "Quree", channel: ORIGINAL, bpm: "147",
+	Prime2: "@2.00 S2 S4 S7 S14 D10 D12 S17 S21 D19 D23",
+},
+
+"15_Hyperion_SHORT":
+{
+	sortingID: "15F4+_100",  // after Shub Niggurath SHORT
+	//altID: "",
+	title: "Hyperion  [SHORT]", artist: "M2U", channel: XROSS, bpm: "145",
+	Prime2: "@2.00 S15 S20 D21",
+},
+
+"15_Kasou Shinja_SHORT":
+{
+	sortingID: "15F4+_200",  // after Hyperion SHORT
+	//altID: "",
+	title: "Kasou Shinja  [SHORT]", artist: "MAX", channel: XROSS, bpm: "170",
+	Prime2: "@2.00 S20 D21",
+},
+
+
 /*
-Super Capriccio - SHK
-1502
-Last Rebirth 1501 <-> Hellfire 1503, 2/71
-ORIGINAL
-150 bpm
-
-Anguished Unmaking - void
-Allegro Furioso 1526 <-> Utsushio 1530, 13/71
-ORIGINAL
-170 bpm
-
-Twist of Fate (feat Ruriling) - Jehezukiel
-Hey U 1533 <-> HTTP, 16/71
-ORIGINAL
-141 bpm
-
-HTTP - Quree
-Twist of Fate <-> Bang Bang Bang 1544, 17/339
-ORIGINAL
-147 bpm
-
-Energetic - Wanna One
-Acquaintance 1557 <-> Beautiful, 31/71
-KPOP
-125 bpm
-
-Beautiful - Wanna One
-Energetic <-> Really Really, 32/71
-KPOP
-80 bpm
-
-Really Really - Winner
-Beautiful <-> Moonlight Dance 1564, 33/71
-KPOP
-103 bpm
-
-V3 - Beautiful Day
-Heart Attack 1578 <-> Cross Time 1594, 39/71
-XROSS
-160 bpm
-
-Infinity - Lunatic Sounds
-Asterios 15B0 <-> Bedlam 15B5, 51/71 (Le Grand Blue 15B1 missing)
-XROSS
-175 bpm
-
-Hyperion short - M2U
-Shub Niggurath short 15F4 <-> Kasou Shinja short, 70/71
-XROSS
-145 bpm
-
-Kasou Shinja short - MAX
-Hyperion short <-> Last Rebirth, 71/71
-XROSS
-170 bpm
-
 
 
 "15xx":
 {
+	sortingID: "",
 	//altID: "",
 	title: "", artist: "", channel: , bpm: "",
-	Prime2: "@1.",
+	Prime2: "@2.",
 },
+
+
+2. New Step Charts
+
 
 */
 
@@ -306,7 +344,7 @@ XROSS
 "1555":
 {
 	title: "You're the Best", artist: "Mamamoo", channel: KPOP, bpm: "122",
-	Prime2: "S2 S4 S6 S10 S15 D7 D10 D16.ampass  @1.06 Dp2",
+	Prime2: "S2 S4 S6 S10 S15 D7 D10 D16.ampass  @1.06 Dp2  @2.00 CoOp(x2)",
 },
 
 "1556":
@@ -477,7 +515,7 @@ XROSS
 "15B1":
 {
 	title: "Le Grand Bleu", artist: "KIEN", channel: XROSS, bpm: "165",
-	Prime2: "S7 S12 S16 S18.ampass D9 D18 D20.ampass  @1.06 Dp6",
+	Prime2: "S7 S12 S16 S18.ampass D9 D18 D20.ampass  @1.06 Dp6  @2.00 S20",
 },
 
 // "15B2":
@@ -674,7 +712,7 @@ XROSS
 "1408":
 {
 	title: "Avalanche", artist: "Memme", channel: ORIGINAL, bpm: "175",
-	Prime2: "=  @1.03 S16.ucs.ampass D18.ucs.ampass",
+	Prime2: "=  @1.03 S16.ucs.ampass D18.ucs.ampass  @2.00 CoOp(x3)",
 	Prime: "@1.04 S4 S6 S9 S18 D10 D19 D24  @1.13 S22",
 },
 
@@ -793,7 +831,7 @@ XROSS
 "1425":
 {
 	title: "Sugar Conspiracy Theory", artist: "MAX", channel: ORIGINAL, bpm: "170",
-	Prime2: "=",
+	Prime2: "=  @2.00 CoOp(x2)",
 	Prime: "@1.06 S1 S3 S6 S10 S15 S18 S19 D7 D11 D17 D20",
 },
 
@@ -5076,7 +5114,7 @@ XROSS
 "B18":
 {
 	title: "Solitary 2", artist: "BanYa", bpm: "136",
-	Prime2: "=",
+	Prime2: "=  @2.00 D21",
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "=  @1.51 S4 S8",
@@ -5717,7 +5755,7 @@ XROSS
 "807":
 {
 	title: "D Gang", artist: "BanYa", bpm: "150", fromMix: "Premiere3",
-	Prime2: "=",
+	Prime2: "=  @2.00 D17",
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S4.nl S6.hd S9.cz D7.fs  S18 D15",
