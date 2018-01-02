@@ -46,48 +46,60 @@ var tracklist = {
 
 /*
 Super Capriccio - SHK
+1502
+Last Rebirth 1501 <-> Hellfire 1503, 2/71
 ORIGINAL
 150 bpm
 
 Anguished Unmaking - void
+Allegro Furioso 1526 <-> Utsushio 1530, 13/71
 ORIGINAL
 170 bpm
 
-Beautiful - Wanna One
-KPOP
-80 bpm
-
-Energetic - Wanna One
-KPOP
-125 bpm
-
-Really Really - Winner
-KPOP
-103 bpm
-
-Infinity - Lunatic Sounds
-XROSS
-175 bpm
-
-V3 - Beautiful Day
-XROSS
-160 bpm
-
-Hyperion short - M2U
-XROSS
-145 bpm
-
-Kasou Shinja short - MAX
-XROSS
-170 bpm
-
 Twist of Fate (feat Ruriling) - Jehezukiel
+Hey U 1533 <-> HTTP, 16/71
 ORIGINAL
 141 bpm
 
 HTTP - Quree
+Twist of Fate <-> Bang Bang Bang 1544, 17/339
 ORIGINAL
 147 bpm
+
+Energetic - Wanna One
+Acquaintance 1557 <-> Beautiful, 31/71
+KPOP
+125 bpm
+
+Beautiful - Wanna One
+Energetic <-> Really Really, 32/71
+KPOP
+80 bpm
+
+Really Really - Winner
+Beautiful <-> Moonlight Dance 1564, 33/71
+KPOP
+103 bpm
+
+V3 - Beautiful Day
+Heart Attack 1578 <-> Cross Time 1594, 39/71
+XROSS
+160 bpm
+
+Infinity - Lunatic Sounds
+Asterios 15B0 <-> Bedlam 15B5, 51/71 (Le Grand Blue 15B1 missing)
+XROSS
+175 bpm
+
+Hyperion short - M2U
+Shub Niggurath short 15F4 <-> Kasou Shinja short, 70/71
+XROSS
+145 bpm
+
+Kasou Shinja short - MAX
+Hyperion short <-> Last Rebirth, 71/71
+XROSS
+170 bpm
 
 
 
@@ -1990,6 +2002,7 @@ ORIGINAL
 
 "1228":
 {
+	sortingID: "1300__1",  // before any of 13xx charts
 	title: "Dream to Nightmare", artist: "Nightmare", channel: WORLD, bpm: "178",
 	Prime2: "=",
 	Prime: "= -S23  @1.19 S22",
@@ -2031,6 +2044,7 @@ ORIGINAL
 
 "1240":
 {
+	sortingID: "1300__2",  // before any of 13xx charts, after DtN
 	title: "VVV", artist: "Zig Zag", channel: WORLD, bpm: "310",
 	Prime2: "=",
 	Prime: "= -D24",
@@ -4865,6 +4879,7 @@ ORIGINAL
 
 "C1C04":
 {
+	sortingID: " C41__1",  // after C41 - LIADZ Try To BPM
 	title: "Love is a Danger Zone 2 (D&G Ver.)", artist: "BanYa", bpm: "162",
 	shortTitle: "Love is a Danger Zone 2 (D&G)",
 	Prime2: "=",

@@ -3104,6 +3104,7 @@ Quest “Chapter5” is updated.
 Prime 2  2.0
 https://www.facebook.com/notes/pump-it-up/piu-prime2-2018-2000-update-notice/1976605012367744/
 (also https://www.facebook.com/PIU2018Prime2/posts/1623705891026078)
+(prime2_100.bin, prime2_101.bin and prime2_102.bin)
 
 
 1. New Songs   
