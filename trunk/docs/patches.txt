@@ -3101,7 +3101,7 @@ Quest “Chapter5” is updated.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Prime 2  2.0
+Prime 2  2.00
 https://www.facebook.com/notes/pump-it-up/piu-prime2-2018-2000-update-notice/1976605012367744/
 	(also https://www.facebook.com/PIU2018Prime2/posts/1623705891026078)
 (prime2_100.bin, prime2_101.bin and prime2_102.bin)
@@ -3221,4 +3221,21 @@ New avatars can be found on the avatar menu of the PIU official hompage (www.piu
 
 5. Some graphic changes
 Some graphics have been changed for PRIME2 2018.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Prime 2  2.00.1
+https://www.facebook.com/notes/pump-it-up/hotfix-2001/1981220521906193/
+(prime2_200.bin)
+
+
+We found a problem about 2.00.0 update and have fixed it urgently in this 2.00.1 
+- D Gang, La Grand Bleu, You’re the best, A problem with these three songs disappearing has been fixed.
+- Twist of Fate (feat. Ruriling) S18, D20 Steps balance problem due to certain commands has been fixed.
+- Super capriccio sync has been fixed.
+- Some quest zone steps clear condition problems has been fixed.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
 
