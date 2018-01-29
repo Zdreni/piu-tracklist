@@ -2,7 +2,7 @@
 
 var test_PH_NX2_NXA_tracklist = [];
 
-var test_PH_NX2_NXA_arcade = 
+var test_PH_NX2_NXA_arcade =
 [
   [ "103", "", "", "K-Pop", "Forever Love", "Fin.K.L", "138", "", "1", "", "", "", "13", "E1", "1", "", "", "", "13", "", "", "", "", "Forever Love", "103" ],
   [ "109", "", "", "K-Pop", "Funky Tonight", "Clon", "105", "", "", "4", "12", "4", "", "E6", "", "4", "12", "4", "", "", "", "", "", "Funky Tonight", "109" ],
@@ -215,7 +215,7 @@ var test_PH_NX2_NXA_arcade =
 
 AddCheckTracklist( test_PH_NX2_NXA_tracklist, test_PH_NX2_NXA_arcade, { channel: 3, title: 4, artist: 5, bpm: 6, NX2: 8, NXA: 14, } );
 
-var test_PH_NX2_NXA_special = 
+var test_PH_NX2_NXA_special =
 [
   [ "D31", "", "", "Special", "K-Pop Dance Remix", "DJ. DOC/Epik High", "132", "", "", "8", "15", "9", "17", "", "", "", "", "", "", "", "", "", "K-Pop Dance Remix", "D31" ],
   [ "D32", "", "", "Special", "Groove Party Remix", "Clon/Tashannie", "105-110", "", "", "7", "13", "6", "15", "", "5", "14", "5", "15", "", "", "", "", "Groove Party Remix", "D32" ],
@@ -360,7 +360,7 @@ var test_PH_NX2_NXA_special =
   [ "DD30", "", "", "Special", "Final Audition Episode 2-2 (Another)", "Yahpp", "200", "", "", "16", "21", "18", "25", "", "16", "21", "18", "23", "", "", "", "", "Final Audition Episode 2-2 (Another)", "DD30" ],
   [ "E303", "", "", "Special", "Turkey March (Another)", "BanYa", "150", "", "", "15", "18", "", "", "", "", "", "", "", "", "", "", "", "Turkey March (Another)", "E303" ],
   [ "E404", "", "", "Special", "Solitary (Another)", "BanYa", "136", "", "", "", "17", "", "19", "", "", "17", "", "18", "", "", "", "", "Solitary (Another)", "E404" ],
-  [ "E826", "", "", "Special", "Come to Me (Another)", "BanYa", "100-107", "", "", "12", "17", "", "14", "", "", "", "", "", "", "", "", "", "Come to Me (Another)", "E826" ],
+  [ "E826", "", "", "Special", "Come to Me (Another)", "BanYa", "100-107", "", "", "12", "15", "", "14", "", "", "", "", "", "", "", "", "", "Come to Me (Another)", "E826" ],
   [ "ED08", "", "", "Special", "Free! (Another)", "Jiny", "174.6", "", "", "", "", "5", "", "", "", "", "", "", "", "", "", "", "Free (Another)", "ED08" ],
   [ "ED12", "", "", "Special", "Snow Dream (Another)", "Apple Jam", "170", "", "", "", "", "6", "", "", "", "", "", "", "", "", "", "", "Snow Dream (Another)", "ED12" ],
   [ "ED13", "", "", "Special", "Handsome Character That Pass (Another)", "May", "125", "", "", "", "13", "", "14", "", "", "", "", "", "", "", "", "", "Handsome Character That Pass (Another)", "ED13" ],

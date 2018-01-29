@@ -1,13 +1,13 @@
 "use strict";
 
-var test_PH_NX = 
+var test_PH_NX =
 [
 /*
 		<TABLE class="border sortable" id="songlist3" width="100%\">
 			<THEAD>
 			  <TR>
 				<TD colSpan=6><B>Title and Artist</B>", "|</TD>
-				<TD colSpan=5><B>Level on NX/New Xenesis (<A href=\"#notes\">read note</A>) 
+				<TD colSpan=5><B>Level on NX/New Xenesis (<A href=\"#notes\">read note</A>)
 				  </B></TD>
 				<TD colSpan=3>Song Info"],
 			  <TR>
@@ -139,7 +139,7 @@ var test_PH_NX =
 	["D14", "BanYa", "2006 Love Song", "BanYa Production", "96", "", "", "2", "7", "10", "4", "13", "1x", "2006 Love Song", "D14"],
 	["D15", "BanYa", "Do You Know That -Old School-", "BanYa Production", "120", "", "", "3", "4", "15/16", "7", "18", "", "Do You Know That -Old School-", "D15"],
 	["D16", "BanYa", "Gun Rock", "BanYa Production", "104", "", "", "2", "8", "18", "6", "22", "2x", "Gun Rock", "D16"],
-	["D17", "BanYa", "Bullfighter's Song", "BanYa Production", "168", "", "", "4", "9", "15/16", "6", "20", "", "Bullfighter's Song", "D17"],
+	["D17", "BanYa", "Bullfighter's Song", "BanYa Production", "168", "", "", "4", "8", "15/16", "6", "20", "", "Bullfighter's Song", "D17"],
 	["D18", "BanYa", "Ugly Dee", "BanYa Production", "92", "", "", "1", "4", "13", "5", "14", "", "Ugly Dee", "D18"],
 	["D19", "K-Pop", "Hyun Jin Young Go Jin Young Go", "Hyun Jin Young", "150", "", "", "3", "6", "19", "6", "19", "2x", "Hyun Jin Young Go Jin Young Go", "D19"],
 	["D20", "K-Pop", "My Brother is Street Singer", "Park Hyang Lim vs. Yahpp", "129", "", "", "2", "5", "11", "3", "13", "4x", "My Brother is Street Singer", "D20"],

@@ -1,51 +1,9 @@
-Zero:
-
-'Beat of the War'  differs from check list:
-Zero HD - 9 или 6
-- -  list is  Zero: ["5","9","13","9","19"],
-- - check is  Zero: ["5","6","13","9","19"],
-
-'Bee'  differs from check list:
-Zero HD - 6 или 9
-- -  list is  Zero: ["3","6","13","9","20"],
-- - check is  Zero: ["3","9","13","9","20"],
-
-'Canon-D'  differs from check list:
-Zero HD - 5 или 8
-- -  list is  Zero: ["2","5","20","8","21"],
-- - check is  Zero: ["2","8","20","8","21"],
-
-'Clap Your Hands'  differs from check list:
-Zero NM - 14 или 11 (вроде 14)
-- -  list is  Zero: ["2","5","9","5","14"],
-- - check is  Zero: ["2","5","9","5","11"],
-
-'J Bong'  differs from check list:
-Zero FS - 5 или 8
-- -  list is  Zero: ["5","7","13","5","19"],
-- - check is  Zero: ["5","7","14","8","19"],
-
-'What Do You Really Want?'  differs from check list:
-Zero NM - 14 или 16
-- -  list is  Zero: ["2","7","18","7","14"],
-- - check is  Zero: ["2","7","18","7","16"],
-
-
 NX:
 
-'Bullfighter's Song'  differs from check list:
-NX HD - 8 или 9
-- -  list is  NX: ["4","8","15/16","6","20"],
-- - check is  NX: ["4","9","15/16","6","20"],
-
-
-NX2:
-
-'Come to Me'  differs from check list:
-NX2 aCZ - 17 или 15
-по видяшке turkeyslam вообще непонятно, его там нет - https://www.youtube.com/watch?v=HBJ8T2WN0qI
-- -  list is  NX2_: ["","12","15","","14"],
-- - check is  NX2_: ["","12","17","","14"],
+'Valenti'  differs from check list:
+тут вообще с версией всё ясно
+- -  list is  NX: undefined,
+- - check is  NX: ["2","4","11","4","13"],
 
 
 NXA:
@@ -69,12 +27,6 @@ NXA FS - 5 или 4
 NXA NM - 15 или 16
 - -  list is  NXA: ["4","7","12","11","15"],
 - - check is  NXA: ["4","7","12","11","16"],
-
-'Valenti'  differs from check list:
-тут вообще с версией всё ясно
-- -  list is  NX: undefined,
-- - check is  NX: ["2","4","11","4","13"],
-
 
 
 Различия только из-за доп оценки:
