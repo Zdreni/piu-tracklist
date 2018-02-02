@@ -6019,7 +6019,7 @@ var tracklist = {
 "710":
 {
 	title: "Top City", artist: "BanYa", bpm: "110.72", fromMix: "Rebirth",
-	Prime2: "=",
+	Prime2: "= -D12",
 	Fiesta2: "=",
 	FiestaEX: "S4 S6 S12 D7 D12",
 },
