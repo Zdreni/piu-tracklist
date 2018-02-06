@@ -2839,7 +2839,7 @@ var tracklist = {
 
 "1035":
 {
-	title: "Hard Core Rock Mix", artist: "BanYa Production", bpm: "???", duration: REMIX,
+	title: "Hard Core Rock Mix", artist: "BanYa Production", bpm: "196", duration: REMIX,
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -2923,7 +2923,7 @@ var tracklist = {
 
 "1044":
 {
-	title: "Dawn of the Apocalypse  [FULL]", artist: "Vassline", channel: KPOP, bpm: "???",
+	title: "Dawn of the Apocalypse  [FULL]", artist: "Vassline", channel: KPOP, bpm: "100 ~ 210",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -4635,7 +4635,7 @@ var tracklist = {
 
 "D42":
 {
-	title: "Beat of the War 2  [FULL]", artist: "Yahpp", bpm: "???",
+	title: "Beat of the War 2  [FULL]", artist: "Yahpp", bpm: "120 ~ 190",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
