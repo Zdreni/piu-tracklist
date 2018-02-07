@@ -6,29 +6,6 @@ NX:
 - - check is  NX: ["2","4","11","4","13"],
 
 
-NXA:
-
-'Chopsticks Challenge'  differs from check list:
-NXA NL - 3 или 1
-- -  list is  NXA: ["3","6","17","3","16"],
-- - check is  NXA: ["1","6","17","3","16"],
-
-'Crazy'  differs from check list:
-NXA HD - 6 или 5
-- -  list is  NXA: ["2","6","15","6","19"],
-- - check is  NXA: ["2","5","15","6","19"],
-
-'Do It!'  differs from check list:
-NXA FS - 5 или 4
-- -  list is  NXA: ["2","6","15","5","18"],
-- - check is  NXA: ["2","6","15","4","18"],
-
-'Dr. M'  differs from check list:
-NXA NM - 15 или 16
-- -  list is  NXA: ["4","7","12","11","15"],
-- - check is  NXA: ["4","7","12","11","16"],
-
-
 Различия только из-за доп оценки:
 'Canon-D'  differs from check list:
 - -  list is  Exceed2: ["2","6","??(20)","7","??(22)"],
