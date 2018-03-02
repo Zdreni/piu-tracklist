@@ -84,7 +84,7 @@ var tracklist = {
 "15_Donatello":
 {
 	title: "Donatello", artist: "Triplestar", channel: XROSS, bpm: "175",
-	sortingID: "15B9_random", // supposingly after Keep On! 15A9
+	sortingID: "15B9+_100", // after Kill Them! 15B9
 	// altID: "",
 	Prime2: "@2.02 S12 S17 S21 D18  D22.ampass",
 },
