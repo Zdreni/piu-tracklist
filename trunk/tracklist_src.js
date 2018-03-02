@@ -44,112 +44,65 @@ var tracklist = {
 
 // unsorted
 
-
-"1502":
-{
-	title: "Super Capriccio", artist: "SHK", channel: ORIGINAL, bpm: "150",
-	Prime2: "@2.00 S4 S7 S11 S16 D11 S18 D18",
-},
-
-"15_Anguished_Unmaking":
-{
-	sortingID: "1526+_100",  // after Allegro Furioso
-	//altID: "",
-	title: "Anguished Unmaking", artist: "void", channel: ORIGINAL, bpm: "170",
-	Prime2: "@2.00 S3 S5 S8 S15 D9 S17 D18",
-},
-
-"15_Energetic":
-{
-	sortingID: "1557+_100",  // after Acquaintance
-	//altID: "",
-	title: "Energetic", artist: "Wanna One", channel: KPOP, bpm: "125",
-	Prime2: "@2.00 S2 S4 S6 S9 S13 D6 D14 S16 D16 D19",
-},
-
-"15_Beautiful":
-{
-	sortingID: "1557+_200",  // after Energetic
-	//altID: "",
-	title: "Beautiful", artist: "Wanna One", channel: KPOP, bpm: "80",
-	Prime2: "@2.00 S2 S3 S5 S9 S15 D5 D12 D18.ampass",
-},
-
-"15_Really_Really":
-{
-	sortingID: "1557+_300",  // after Beautiful
-	//altID: "",
-	title: "Really Really", artist: "Winner", channel: KPOP, bpm: "103",
-	Prime2: "@2.00 S2 S4 S6 S13 D7 S15 D16",
-},
-
-"15_Infinity":
-{
-	sortingID: "15B1+_100",  // after Asterios and [possibly] Grand Blue
-	//altID: "",
-	title: "Infinity", artist: "Lunatic Sounds", channel: XROSS, bpm: "175",
-	Prime2: "@2.00 S10 S15 D10 CoOp(x2) S18 S21 D19 D24",
-},
-
-"15_V3":
-{
-	sortingID: "1578+_100",  // after Heart Attack
-	//altID: "",
-	title: "V3", artist: "Beautiful Day", channel: XROSS, bpm: "160",
-	Prime2: "@2.00 S6 S9 S14 D9 S17 D18 D24",
-},
-
-"15_Twist_of_Fate":
-{
-	sortingID: "1533+_100",  // after Hey U
-	//altID: "",
-	title: "Twist of Fate (feat. Ruriling)", artist: "Jehezukiel", channel: ORIGINAL, bpm: "141",
-	shortTitle: "Twist of Fate",
-	Prime2: "@2.00 S4 S6 S10 S16 D10 D17 S18 D20",
-},
-
-"15_HTTP":
-{
-	sortingID: "1533+_200",  // after Twist of Fate
-	//altID: "",
-	title: "HTTP", artist: "Quree", channel: ORIGINAL, bpm: "147",
-	Prime2: "@2.00 S2 S4 S7 S14 D10 D12 S17 S21 D19 D23",
-},
-
-"15_Hyperion_SHORT":
-{
-	sortingID: "15F4+_100",  // after Shub Niggurath SHORT
-	//altID: "",
-	title: "Hyperion  [SHORT]", artist: "M2U", channel: XROSS, bpm: "145",
-	Prime2: "@2.00 S15 S20 D21",
-},
-
-"15_Kasou Shinja_SHORT":
-{
-	sortingID: "15F4+_200",  // after Hyperion SHORT
-	//altID: "",
-	title: "Kasou Shinja  [SHORT]", artist: "MAX", channel: XROSS, bpm: "170",
-	Prime2: "@2.00 S20 D21",
-},
-
-
 /*
 
-
-"15xx":
+"15_":
 {
-	sortingID: "",
-	//altID: "",
 	title: "", artist: "", channel: , bpm: "",
+	sortingID: "", // altID: "",
 	Prime2: "@2.",
 },
 
-
-2. New Step Charts
-
-
 */
 
+"1561":
+{
+	title: "Pick Me", artist: "Produce 101 Season 2", channel: KPOP, bpm: "128",
+	Prime2: "@2.01 S2 S4 S6 S14 D5 D16  S17 D18",
+},
+
+
+"15_Rave_til_the_earth_end":
+{
+	title: "Rave'til the earth's end", artist: "5argon", channel: ORIGINAL, bpm: "160",
+	sortingID: "1537+_300", // after Travel to Future 1537+_200, before Bang Bang Bang 1544
+	// altID: "",
+	Prime2: "@2.01 S4 S7 S15 S17 D13 D18  S19 D20",
+},
+
+
+"15_The_Festival_of_Ghost2":
+{
+	title: "The Festival of Ghost2 (Sneak)", artist: "Brandy", channel: XROSS, bpm: "136",
+	sortingID: "1594+_100", // after Cross Time 1594
+	// altID: "",
+	Prime2: "@2.01 S11 S16 S18 D11 D17  S20.ampass D20.ampass",
+},
+
+
+"15_Donatello":
+{
+	title: "Donatello", artist: "Triplestar", channel: XROSS, bpm: "175",
+	sortingID: "15B9_random", // supposingly after Keep On! 15A9
+	// altID: "",
+	Prime2: "@2.02 S12 S17 S21 D18  D22.ampass",
+},
+
+"15_Up_&_Up":
+{
+	title: "Up & Up (Produced by AWAL)", artist: "Skizzo", channel: ORIGINAL, bpm: "150",
+	sortingID: "1537+_100", // after HTTP 1537
+	// altID: "",
+	Prime2: "@2.02 S3 S5 S8 S17 D9 D18",
+},
+
+"15_Travel_to_Future":
+{
+	title: "Travel to Future", artist: "Neutral Moon", channel: ORIGINAL, bpm: "160",
+	sortingID: "1537+_200", // after Up & Up 1537+_100
+	// altID: "",
+	Prime2: "@2.02 S3 S7 S11 S17 D12 D18 D21  S19 D23",
+},
 
 // \15 - Prime 2
 
@@ -159,7 +112,11 @@ var tracklist = {
 	Prime2: "S3 S5 S8 S13 S15.ampass D7 D14 D16.ampass  Dp3  @1.05 D18.ampass",
 },
 
-// "1502":
+"1502":
+{
+	title: "Super Capriccio", artist: "SHK", channel: ORIGINAL, bpm: "150",
+	Prime2: "@2.00 S4 S7 S11 S16 D11 S18 D18",
+},
 
 "1503":
 {
@@ -179,9 +136,9 @@ var tracklist = {
 
 "1508":
 {
-	altID: "15_Shub_Niggurath",
 	title: "Shub Niggurath", artist: "Nato", channel: ORIGINAL, bpm: "220",
-	Prime2: "@1.06 S11 S15 S19 D17 S21 S24 D23 D26",
+	altID: "15_Shub_Niggurath",
+	Prime2: "@1.06 S11 S15 S19 D17 S21 S24 D23 D26  @2.01 Dp3",
 },
 
 "1509":
@@ -211,14 +168,14 @@ var tracklist = {
 "1517":
 {
 	title: "Kasou Shinja", artist: "MAX", channel: ORIGINAL, bpm: "170",
-	Prime2: "@1.02 S4 S7 S9 S16 S18 S20.ampass D12 D19 D23.ampass  @1.06 CoOp(x2).ampass",
+	Prime2: "@1.02 S4 S7 S9 S16 S18 S20.ampass D12 D19 D23.ampass  @1.06 CoOp(x2).ampass  @2.01 Dp3",
 },
 
 "1518":
 {
-	altID: "15_Overblow2",
 	title: "Overblow2", artist: "Max", channel: ORIGINAL, bpm: "155",
-	Prime2: "@1.07 S5 S9 S15 D7 D14 S18.ampass D19.ampass",
+	altID: "15_Overblow2",
+	Prime2: "@1.07 S5 S9 S15 D7 D14 S18.ampass D19.ampass  @2.01 Dp3",
 },
 
 // "1519":
@@ -236,20 +193,26 @@ var tracklist = {
 
 "1526":
 {
-	altID: "15_Allegro_Furioso",
 	title: "Allegro Furioso", artist: "DM Ashura", channel: ORIGINAL, bpm: "176",
-	Prime2: "@1.04 S5 S10 S13 S17 D14 S20 D20",
+	altID: "15_Allegro_Furioso",
+	Prime2: "@1.04 S5 S10 S13 S17 D14 S20 D20  @2.01 Dp4",
 },
 
 // "1527":
 // "1528":
-// "1529":
+
+"1529":
+{
+	title: "Anguished Unmaking", artist: "void", channel: ORIGINAL, bpm: "170",
+	altID: "15_Anguished_Unmaking",
+	Prime2: "@2.00 S3 S5 S8 S15 D9 S17 D18",
+},
 
 "1530":
 {
-	altID: "15_Utsushiyo_No_Kaze",
 	title: "Utsushiyo No Kaze feat. Kana", artist: "void", channel: ORIGINAL, bpm: "152",
-	Prime2: "@1.05 S7 S11 S16 D11 D19 S20.ampass D18.ampass",
+	altID: "15_Utsushiyo_No_Kaze",
+	Prime2: "@1.05 S7 S11 S16 D11 D19 S20.ampass D18.ampass  @2.01 Dp5",
 },
 
 // "1531":
@@ -257,15 +220,29 @@ var tracklist = {
 
 "1533":
 {
-	altID: "15_Hey_U",
 	title: "Hey U", artist: "Mazo", channel: ORIGINAL, bpm: "162",
-	Prime2: "@1.07 S5 S10 S15 D10 D16",
+	altID: "15_Hey_U",
+	Prime2: "@1.07 S5 S10 S15 D10 D16  @2.01 Dp4",
 },
 
 // "1534":
 // "1535":
-// "1536":
-// "1537":
+
+"1536":
+{
+	title: "Twist of Fate (feat. Ruriling)", artist: "Jehezukiel", channel: ORIGINAL, bpm: "141",
+	shortTitle: "Twist of Fate",
+	altID: "15_Twist_of_Fate",
+	Prime2: "@2.00 S4 S6 S10 S16 D10 D17 S18 D20",
+},
+
+"1537":
+{
+	title: "HTTP", artist: "Quree", channel: ORIGINAL, bpm: "147",
+	altID: "15_HTTP",
+	Prime2: "@2.00 S2 S4 S7 S14 D10 D12 S17 S21 D19 D23",
+},
+
 // "1538":
 // "1539":
 // "1540":
@@ -294,7 +271,7 @@ var tracklist = {
 "1547":
 {
 	title: "Chase Me", artist: "Dreamcatcher", channel: KPOP, bpm: "200",
-	Prime2: "@1.02 S3 S5 S9 S15 S18 D11 D19 S21.ampass D23.ampass CoOp(x2)",
+	Prime2: "@1.02 S3 S5 S9 S15 S18 D11 D19 S21.ampass D23.ampass CoOp(x2)  @2.01 Dp3",
 },
 
 "1548":
@@ -312,7 +289,7 @@ var tracklist = {
 "1550":
 {
 	title: "Gotta Be You", artist: "2NE1", bpm: "130",
-	Prime2: "@1.08 S3 S5 S8 S15 D6 D16 S17 D18",
+	Prime2: "@1.08 S3 S5 S8 S15 D6 D16 S17 D18  @2.01 Dp3",
 },
 
 "1551":
@@ -323,9 +300,9 @@ var tracklist = {
 
 "1552":
 {
-	altID: "15_Sober",
 	title: "Sober", artist: "Big Bang", bpm: "130",
-	Prime2: "@1.06 S2 S4 S7 S13 D3 D14 S17.ampass D17.ampass CoOp(x2).ampass",
+	altID: "15_Sober",
+	Prime2: "@1.06 S2 S4 S7 S13 D3 D14 S17.ampass D17.ampass CoOp(x2).ampass  @2.01 Dp3",
 },
 
 "1553":
@@ -336,9 +313,9 @@ var tracklist = {
 
 "1554":
 {
-	altID: "15_Good_Night",
 	title: "Good Night", artist: "Dreamcatcher", channel: KPOP, bpm: "196",
-	Prime2: "@1.04 S3 S5 S9 S17 D5 D19 S20 S23 D22 D24",
+	altID: "15_Good_Night",
+	Prime2: "@1.04 S3 S5 S9 S17 D5 D19 S20 S23 D22 D24  @2.01 Dp3",
 },
 
 "1555":
@@ -360,16 +337,36 @@ var tracklist = {
 },
 
 // "1558":
-// "1559":
-// "1560":
+
+"1559":
+{
+	title: "Energetic", artist: "Wanna One", channel: KPOP, bpm: "125",
+	altID: "15_Energetic",
+	Prime2: "@2.00 S2 S4 S6 S9 S13 D6 D14 S16 D16 D19",
+},
+
+"1560":
+{
+	title: "Beautiful", artist: "Wanna One", channel: KPOP, bpm: "80",
+	altID: "15_Beautiful",
+	Prime2: "@2.00 S2 S3 S5 S9 S15 D5 D12 D18.ampass",
+},
+
 // "1561":
-// "1562":
+
+"1562":
+{
+	title: "Really Really", artist: "Winner", channel: KPOP, bpm: "103",
+	altID: "15_Really_Really",
+	Prime2: "@2.00 S2 S4 S6 S13 D7 S15 D16",
+},
+
 // "1563":
 
 "1564":
 {
 	title: "Moon Light Dance", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "182",
-	Prime2: "S3 S7 S11 S14 S17.ampass D4 D15 D19.ampass  @1.06 Dp4",
+	Prime2: "S3 S7 S11 S14 S17.ampass D4 D15 D19.ampass  @1.06 Dp4  @2.02 CoOp(x2)",
 },
 
 // "1565":
@@ -386,7 +383,7 @@ var tracklist = {
 "1575":
 {
 	title: "Step", artist: "S.I.D-Sound", channel: WORLD, bpm: "156",
-	Prime2: "@1.02 S7 S13 S17 D12 D18 D20.ampass",
+	Prime2: "@1.02 S7 S13 S17 D12 D18 D20.ampass  @2.01 Dp2",
 },
 
 "1576":
@@ -397,16 +394,16 @@ var tracklist = {
 
 "1577":
 {
-	altID: "1576+_200_Nakakapagpabagabag",
 	title: "Nakakapagpabagabag", artist: "Dasu feat. Kagamine Len", channel: WORLD, bpm: "145",
-	Prime2: "@1.10 S10 S14 S18 D15 D19.ampass CoOp(x2)",
+	altID: "1576+_200_Nakakapagpabagabag",
+	Prime2: "@1.10 S10 S14 S18 D15 D19.ampass CoOp(x2)  @2.01 Dp4",
 },
 
 "1578":
 {
-	altID: "1576+_250_Heart_Attack",
 	title: "Heart Attack", artist: "DJ Counterforce", channel: WORLD, bpm: "148",
-	Prime2: "@1.10 S7 S11 S16 D9 D18  S18 D20",
+	altID: "1576+_250_Heart_Attack",
+	Prime2: "@1.10 S7 S11 S16 D9 D18  S18 D20  @2.01 Dp3",
 },
 
 // "1579":
@@ -417,8 +414,8 @@ var tracklist = {
 
 "1584":
 {
-	altID: "15_Hush",
 	title: "HUSH", artist: "Yassi Pressman & Nadine Lustre", channel: WORLD, bpm: "82", region: PHILIPPINES,
+	altID: "15_Hush",
 	Prime2: "@1.03 S3 S5 S8 S14 D6 D15",
 },
 
@@ -430,13 +427,19 @@ var tracklist = {
 // "1590":
 // "1591":
 // "1592":
-// "1593":
+
+"1593":
+{
+	title: "V3", artist: "Beautiful Day", channel: XROSS, bpm: "160",
+	altID: "15_V3",
+	Prime2: "@2.00 S6 S9 S14 D9 S17 D18 D24",
+},
 
 "1594":
 {
-	altID: "1576+_300_Cross_Time",
 	title: "Cross Time", artist: "Brandy", channel: XROSS, bpm: "160",
-	Prime2: "@1.10 S3 S7 S11 S15 S18.ampass D11 D17 D20.ampass",
+	altID: "1576+_300_Cross_Time",
+	Prime2: "@1.10 S3 S7 S11 S15 S18.ampass D11 D17 D20.ampass  @2.01 Dp3",
 },
 
 // "1595":
@@ -444,16 +447,16 @@ var tracklist = {
 
 "1597":
 {
-	altID: "15_Helix",
 	title: "Helix", artist: "ESTi", channel: XROSS, bpm: "175",
-	Prime2: "@1.03 S5 S7 S11 S16 S18 D11 D15 S19.ampass D19.ampass",
+	altID: "15_Helix",
+	Prime2: "@1.03 S5 S7 S11 S16 S18 D11 D15 S19.ampass D19.ampass  @2.01 Dp5",
 },
 
 "1598":
 {
-	altID: "15_Hyperion",
 	title: "Hyperion", artist: "M2U", channel: XROSS, bpm: "145",
-	Prime2: "@1.03 S5 S9 S14 D11 D18 S18.ampass D20.ampass",
+	altID: "15_Hyperion",
+	Prime2: "@1.03 S5 S9 S14 D11 D18 S18.ampass D20.ampass  @2.01 Dp4",
 },
 
 // "15A0":
@@ -461,22 +464,22 @@ var tracklist = {
 
 "15A2":
 {
-	altID: "15_Start_On_Red",
 	title: "Start On Red", artist: "Nato", channel: XROSS, bpm: "160",
-	Prime2: "@1.05 S4 S8 S11 S15 D12 S19 D20",
+	altID: "15_Start_On_Red",
+	Prime2: "@1.05 S4 S8 S11 S15 D12 S19 D20  @2.01 Dp3",
 },
 
 "15A3":
 {
 	title: "Time Attack <Blue>", artist: "r300k", channel: XROSS, bpm: "119",
-	Prime2: "@1.09 S8 S15 D10 D16 S18 D20",
+	Prime2: "@1.09 S8 S15 D10 D16 S18 D20  @2.01 Dp3",
 },
 
 "15A4":
 {
-	altID: "15_Magical_Vacation",
 	title: "Magical Vacation", artist: "S.I.D-Sound", channel: XROSS, bpm: "154",
-	Prime2: "@1.06 S6 S11 S16 D7 D13 S19.ampass D18.ampass",
+	altID: "15_Magical_Vacation",
+	Prime2: "@1.06 S6 S11 S16 D7 D13 S19.ampass D18.ampass  @2.01 Dp3",
 },
 
 // "15A5":
@@ -489,9 +492,9 @@ var tracklist = {
 
 "15A7":
 {
-	altID: "15_Super_Stylin",
 	title: "Super Stylin'", artist: "Warak", channel: XROSS, bpm: "146",
-	Prime2: "@1.04 S7 S9 S11 S17 D9 D12 D17.ampass",
+	altID: "15_Super_Stylin",
+	Prime2: "@1.04 S7 S9 S11 S17 D9 D12 D17.ampass  @2.01 Dp4",
 },
 
 "15A8":
@@ -503,7 +506,7 @@ var tracklist = {
 "15A9":
 {
 	title: "Keep On!", artist: "AmamoriP", channel: XROSS, bpm: "185",
-	Prime2: "@1.10 S6 S12 S15 D12 D17  S18 S21 D20 D22",
+	Prime2: "@1.10 S6 S12 S15 D12 D17  S18 S21 D20 D22  @2.01 Dp3",
 },
 
 "15B0":
@@ -518,15 +521,21 @@ var tracklist = {
 	Prime2: "S7 S12 S16 S18.ampass D9 D18 D20.ampass  @1.06 Dp6  @2.00 S20",
 },
 
-// "15B2":
+"15B2":
+{
+	title: "Infinity", artist: "Lunatic Sounds", channel: XROSS, bpm: "175",
+	altID: "15_Infinity",
+	Prime2: "@2.00 S10 S15 D10 CoOp(x2) S18 S21 D19 D24",
+},
+
 // "15B3":
 // "15B4":
 
 "15B5":
 {
-	altID: "15_Bedlam",
 	title: "Bedlam", artist: "SANY-ON", channel: XROSS, bpm: "183",
-	Prime2: "@1.07 S8 S15 S18 D13 D20 S22 D24",
+	altID: "15_Bedlam",
+	Prime2: "@1.07 S8 S15 S18 D13 D20 S22 D24  @2.01 Dp4",
 },
 
 // "15B6":
@@ -539,16 +548,16 @@ var tracklist = {
 
 "15B8":
 {
-	altID: "15_Redline",
 	title: "Redline", artist: "Archefluxx", channel: XROSS, bpm: "170",
-	Prime2: "@1.04 S5 S10 S16 D13 D20 S18 D19",
+	altID: "15_Redline",
+	Prime2: "@1.04 S5 S10 S16 D13 D20 S18 D19  @2.01 Dp5",
 },
 
 "15B9":
 {
-	altID: "15B8+_Kill_Them",
 	title: "Kill Them!", artist: "Archefluxx", channel: WORLD, bpm: "170",
-	Prime2: "@1.09 S5 S10 S15 D9 D19 S18.ampass",
+	altID: "15B8+_Kill_Them",
+	Prime2: "@1.09 S5 S10 S15 D9 D19 S18.ampass  @2.01 Dp4",
 },
 
 // "15C1":
@@ -557,16 +566,16 @@ var tracklist = {
 
 "15C4":
 {
-	altID: "15_Seize_My_Day",
 	title: "Seize My Day", artist: "Rainbowdragoneyes", channel: WORLD, bpm: "160",
-	Prime2: "@1.05 S2 S6 S10 S14 S18 D7 D12 D19 D22.ampass",
+	altID: "15_Seize_My_Day",
+	Prime2: "@1.05 S2 S6 S10 S14 S18 D7 D12 D19 D22.ampass  @2.01 Dp4",
 },
 
 "15C5":
 {
-	altID: "15C4+_Fallen_Angel",
 	title: "Fallen Angel", artist: "DM Ashura", channel: WORLD, bpm: "157",
-	Prime2: "@1.08 S6 S10 S17 D10 D15 D21 D20.ampass",
+	altID: "15C4+_Fallen_Angel",
+	Prime2: "@1.08 S6 S10 S17 D10 D15 D21 D20.ampass  @2.01 Dp3",
 },
 
 "15D0":
@@ -580,8 +589,8 @@ var tracklist = {
 
 "15D3":
 {
-	altID: "15_Leather",
 	title: "Leather", artist: "Doin", channel: ORIGINAL, bpm: "200", duration: REMIX,
+	altID: "15_Leather",
 	Prime2: "@1.07 S18 S21 D22 S24 D26",
 },
 
@@ -605,15 +614,15 @@ var tracklist = {
 
 "15E3":
 {
-	altID: "15_Up_Down_FULL",
 	title: "Up & Down  [FULL]", artist: "EXID", channel: KPOP, bpm: "112",
+	altID: "15_Up_Down_FULL",
 	Prime2: "@1.05 S8 S18 D19",
 },
 
 "15E4":
 {
-	altID: "15_Acquaintance_FULL",
 	title: "Acquaintance  [FULL]", artist: "Outsider", channel: KPOP, bpm: "130",
+	altID: "15_Acquaintance_FULL",
 	Prime2: "@1.06 S20 D22",
 },
 
@@ -625,8 +634,8 @@ var tracklist = {
 
 "15E6":
 {
-	altID: "15_Hush_FULL",
 	title: "HUSH  [FULL]", artist: "Yassi Pressman & Nadine Lustre", channel: WORLD, bpm: "82", region: PHILIPPINES,
+	altID: "15_Hush_FULL",
 	Prime2: "@1.03 S15 D16",
 },
 
@@ -646,16 +655,30 @@ var tracklist = {
 
 "15F3":
 {
-	altID: "15_Prime2_Opening",
 	title: "PRIME2 Opening  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "145",
+	altID: "15_Prime2_Opening",
 	Prime2: "@1.04 S7 S12 S17 D18",
 },
 
 "15F4":
 {
-	altID: "15F3+_Shub_Niggurath_SHORT",
 	title: "Shub Niggurath  [SHORT]", artist: "Nato", channel: ORIGINAL, bpm: "220",
+	altID: "15F3+_Shub_Niggurath_SHORT",
 	Prime2: "@1.08 S18 S22 D23",
+},
+
+"15F5":
+{
+	title: "Hyperion  [SHORT]", artist: "M2U", channel: XROSS, bpm: "145",
+	altID: "15_Hyperion_SHORT",
+	Prime2: "@2.00 S15 S20 D21",
+},
+
+"15F6":
+{
+	title: "Kasou Shinja  [SHORT]", artist: "MAX", channel: XROSS, bpm: "170",
+	altID: "15_Kasou Shinja_SHORT",
+	Prime2: "@2.00 S20 D21",
 },
 
 // \14 - Prime
@@ -845,7 +868,7 @@ var tracklist = {
 "1427":
 {
 	title: "Annihilator Method", artist: "DM Ashura", channel: ORIGINAL, bpm: "192",
-	Prime2: "=",
+	Prime2: "=  @2.02 S23",
 	Prime: "@1.08 S7 S10 S15 D12  S19 D20  @1.15 D24",
 },
 
@@ -3882,8 +3905,8 @@ var tracklist = {
 
 "FE13B":
 {
-	altID: "E13B",
 	title: "Pumptris Quattro (8bit version)", artist: "Yahpp", bpm: "162",
+	altID: "E13B",
 	shortTitle: "Pumptris Quattro (8bit)",
 	Prime2: "=",
 	Prime: "= -D??(x3)",
@@ -6394,7 +6417,7 @@ var tracklist = {
 "302":
 {
 	title: "Naissance", artist: "BanYa", bpm: "136", fromMix: "OBG",
-	Prime2: "=",
+	Prime2: "=  @2.02 S16",
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "=  @1.51 S4 S8",

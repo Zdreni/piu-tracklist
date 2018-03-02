@@ -3248,7 +3248,7 @@ https://www.facebook.com/notes/pump-it-up/hotfix-2001/1981220521906193/
 (prime2_200.bin)
 
 
-We found a problem about 2.00.0 update and have fixed it urgently in this 2.00.1 
+We found a problem about 2.00.0 update and have fixed it urgently in this 2.00.1
 - D Gang, La Grand Bleu, You’re the best, A problem with these three songs disappearing has been fixed.
 - Twist of Fate (feat. Ruriling) S18, D20 Steps balance problem due to certain commands has been fixed.
 - Super capriccio sync has been fixed.
@@ -3257,3 +3257,127 @@ We found a problem about 2.00.0 update and have fixed it urgently in this 2.00.1
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Prime 2  2.01
+https://www.facebook.com/notes/pump-it-up/piu-2018-prime2-2010-update-notice/2046789472015964/
+(prime2_201.bin)
+
+
+1. New Songs
+1) Title :  PICK ME
+    Artist :  PRODUCE101
+    BPM : 128
+    Default step chart : S02, S04, S06, S14, D05, D16
+    S??(17), D??(18) (Unlocked step)
+2) Title :  Rave’til the earth’s end
+    Artist :  5argon
+    BPM : 160
+    Default step chart : S04, S07, S15, S17, D13, D18
+    S??(19), D??(20) (Unlocked step)
+3) Title :  The Festival of Ghost2 (Sneak)
+    Artist :  Brandy
+    BPM : 136
+    Default step chart : S11, S16, S18, D11, D17
+    S??(20), D??(20) (Card only step)
+
+2. Big update for Double performance step
+There is big scale of update for Double performance steps.
+We deeply appreciate for the people provided the steps for it.
+1) Start On Red DP03
+2) Time Attack <Blue> DP03
+3) Magical Vacation DP03
+4) Super Stylin’ DP04
+5) Keep On! DP03
+6) BEDLAM DP04
+7) Redline DP05
+8) Kill Them! DP04
+9) Seize My Day DP04
+10) Fallen Angel DP03
+11) Shub Niggurath DP03
+12) Kasou shinja DP03
+13) Overblow2 DP03
+14) Allegro furioso DP04
+15) Utsushiyo No Kaze feat. Kana DP05
+16) Hey U DP04
+17) Chase Me DP03
+18) Gotta Be You DP03
+19) SOBER DP03
+20) GOOD NIGHT DP03
+21) STEP DP02
+22) Nakakapagpabagabag DP04
+23) Heart Attack DP03
+24) Cross Time DP03
+25) HELIX DP05
+26) Hyperion DP04
+
+3. About UCS
+UCS page and systems will be opened together in the end of March, 2018.
+We will look forward to upgrading UCS as long as you wait.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Prime 2  2.02
+https://www.facebook.com/notes/pump-it-up/piu-2018-prime2-2020-update-notice/2051631154865129/
+(prime2_210.bin)
+
+
+1. New Songs
+ 1) Title :   Donatello
+     Artist :  Triplestar
+     BPM : 175
+     Default step chart :  S12, S17, S21, D18
+     D??(22) (Card only step)
+2) Title : Up & Up (Produced by AWAL)
+     Artist :  Skizzo
+     BPM : 150
+     Default step chart :  S03, S05, S08, S17, D09, D18
+ 3) Title :   Travel to Future
+     Artist :  Neutral Moon
+     BPM : 160
+     Default step chart :  S03, S07, S11, S17, D12, D18, D21
+     S??(19), D??(23) (Unlocked step)
+
+
+2. New Step Charts
+1) Title :  Naiassance
+    Artist : BanYa
+    BPM : 136
+    step chart :  S16
+2) Title :  Annihilator Method
+    Artist : DM Ashura
+    BPM : 190
+    step chart : S23
+3) Title : Moon Light Dance
+    Artist : TatshMusicCircle
+    BPM : 182
+    step chart :  CO-OP02
+
+
+3. Quest zone
+Quest “Chapter7” is updated.
+
+
+
+4. UCS Update Notice
+In the last 2.01.0 update,  UCS function was temporarily updated only for the system except  UCS homepage.
+As we have mentioned, UCS homepage will be reopended at the end of March and  it will be used via AM.PASS card.
+Before upgrading, UCS can not be used with AM.PASS card and can be temporarily inserted into USB and UCS can be used by accessing USB via access code.
+Please use USB for UCS function for a while if you wan to use it now.
+We will do our best to use UCS with AM.PASS card.
+Thank you.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Чеклист для добавления нового патча (для патчноутов формата Prime 2):
+	- занести patch notes в patch.txt
+	- добавить патч в список патчей в tracklist.js
+	- проверить набор чартов по видео, заменить сложности ?? на реальные
+	- добавить в треклист новые треки
+	- не забыть указать channel (поискать на вики https://en.wikipedia.org/wiki/List_of_Pump_It_Up_songs)
+	- дополнить таблицу анлоков
+..- дополнить док по квестзоне
+..- найти sorting order
+- скачать баннеры для всех чартов
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
