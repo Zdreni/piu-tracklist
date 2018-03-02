@@ -74,6 +74,7 @@ var tracklist = {
 "15_The_Festival_of_Ghost2":
 {
 	title: "The Festival of Ghost2 (Sneak)", artist: "Brandy", channel: XROSS, bpm: "136",
+	shortTitle: "The Festival of Ghost2",
 	sortingID: "1594+_100", // after Cross Time 1594
 	// altID: "",
 	Prime2: "@2.01 S11 S16 S18 D11 D17  S20.ampass D20.ampass",
@@ -88,9 +89,10 @@ var tracklist = {
 	Prime2: "@2.02 S12 S17 S21 D18  D22.ampass",
 },
 
-"15_Up_&_Up":
+"15_Up_n_Up":
 {
 	title: "Up & Up (Produced by AWAL)", artist: "Skizzo", channel: ORIGINAL, bpm: "150",
+	title: "Up & Up",
 	sortingID: "1537+_100", // after HTTP 1537
 	// altID: "",
 	Prime2: "@2.02 S3 S5 S8 S17 D9 D18",
@@ -131,6 +133,7 @@ var tracklist = {
 "1507":
 {
 	title: "God Mode feat. skizzo", artist: "Nato", channel: ORIGINAL, bpm: "152",
+	shortTitle: "God Mode",
 	Prime2: "S5 S8 S13 S18 S20.ampass D9 D17 D21.ampass  @1.06 Dp4",
 },
 
@@ -211,6 +214,7 @@ var tracklist = {
 "1530":
 {
 	title: "Utsushiyo No Kaze feat. Kana", artist: "void", channel: ORIGINAL, bpm: "152",
+	shortTitle: "Utsushiyo No Kaze",
 	altID: "15_Utsushiyo_No_Kaze",
 	Prime2: "@1.05 S7 S11 S16 D11 D19 S20.ampass D18.ampass  @2.01 Dp5",
 },
@@ -840,6 +844,7 @@ var tracklist = {
 "1423":
 {
 	title: "Blaze emotion (Band version)", artist: "Yahpp", bpm: "170",
+	shortTitle: "Blaze emotion\n(Band version)",
 	Prime2: "=  @1.08 Dp3",
 	Prime: "@1.17 S2 S8 S17 D4 D18",
 },
@@ -1031,6 +1036,7 @@ var tracklist = {
 "1451":
 {
 	title: "Ineffective Boss Without Power", artist: "Norazo", channel: KPOP, bpm: "170",
+	shortTitle: "Ineffective Boss\nWithout Power",
 	Prime2: "=",
 	Prime: "@1.01 S4 S6 S8 S18 D5 D19 CoOp(x3)",
 },
@@ -1575,6 +1581,7 @@ var tracklist = {
 "1308":
 {
 	title: "Hypnosis (SynthWulf Mix)", artist: "BanYa & SynthWulf", channel: ORIGINAL, bpm: "175",
+	shortTitle: "Hypnosis\n(SynthWulf Mix)",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S8 S11 S17 S21 D13 D15  @1.01 D20",
