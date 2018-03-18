@@ -62,47 +62,42 @@ var tracklist = {
 },
 
 
-"15_Rave_til_the_earth_end":
+"1540":
 {
 	title: "Rave'til the earth's end", artist: "5argon", channel: ORIGINAL, bpm: "160",
-	sortingID: "1537+_300", // after Travel to Future 1537+_200, before Bang Bang Bang 1544
-	// altID: "",
+	altID: "15_Rave_til_the_earth_end",
 	Prime2: "@2.01 S4 S7 S15 S17 D13 D18  S19 D20",
 },
 
 
-"15_The_Festival_of_Ghost2":
+"1595":
 {
 	title: "The Festival of Ghost2 (Sneak)", artist: "Brandy", channel: XROSS, bpm: "136",
 	shortTitle: "The Festival of Ghost2",
-	sortingID: "1594+_100", // after Cross Time 1594
-	// altID: "",
+	altID: "15_The_Festival_of_Ghost2",
 	Prime2: "@2.01 S11 S16 S18 D11 D17  S20.ampass D20.ampass",
 },
 
 
-"15_Donatello":
+"15C0":
 {
 	title: "Donatello", artist: "Triplestar", channel: XROSS, bpm: "175",
-	sortingID: "15B9+_100", // after Kill Them! 15B9
-	// altID: "",
+	altID: "15_Donatello",
 	Prime2: "@2.02 S12 S17 S21 D18  D22.ampass",
 },
 
-"15_Up_n_Up":
+"1538":
 {
 	title: "Up & Up (Produced by AWAL)", artist: "Skizzo", channel: ORIGINAL, bpm: "150",
 	title: "Up & Up",
-	sortingID: "1537+_100", // after HTTP 1537
-	// altID: "",
+	altID: "15_Up_n_Up",
 	Prime2: "@2.02 S3 S5 S8 S17 D9 D18",
 },
 
-"15_Travel_to_Future":
+"1539":
 {
 	title: "Travel to Future", artist: "Neutral Moon", channel: ORIGINAL, bpm: "160",
-	sortingID: "1537+_200", // after Up & Up 1537+_100
-	// altID: "",
+	altID: "15_Travel_to_Future",
 	Prime2: "@2.02 S3 S7 S11 S17 D12 D18 D21  S19 D23",
 },
 
