@@ -359,8 +359,16 @@ On( "Prime2" )
 // 2.01
 	Lock( "Pick Me @ 1561", "S17, D18", PIUGAME )
 	Lock( "Rave'til the earth's end", "S19, D20", PIUGAME )
-// 2.01
-	Lock( "Travel to Future", "S19, D23", PIUGAME )
+// 2.02
+ 	Lock( "Travel to Future", "S19, D23", PIUGAME )
+ 	Lock( "Naissance", "S16", PIUGAME )
+ 	Lock( "Annihilator Method", "S23", PIUGAME )
+// 2.03
+ 	Lock( "Silver Beat feat. ChisaUezono", "D18", PIUGAME )
+ 	Lock( "Tritium", "S20, D19, D22", PIUGAME )
+ 	Lock( "Passing Rider", "S20", PIUGAME )
+ 	Lock( "Awakening", "S19, D20", PIUGAME )
+ 	Lock( "Gothique Resonance", "S20", PIUGAME )
 
 //delete tempUnlockPatchIndex;
 //delete tempCurrentMix;

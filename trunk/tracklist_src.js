@@ -52,54 +52,44 @@ var tracklist = {
 	sortingID: "", // altID: "",
 	Prime2: "@2.",
 },
-
 */
 
-"1561":
+"15_Tritium":
 {
-	title: "Pick Me", artist: "Produce 101 Season 2", channel: KPOP, bpm: "128",
-	Prime2: "@2.01 S2 S4 S6 S14 D5 D16  S17 D18",
+	title: "Tritium", artist: "Memme", channel: ORIGINAL, bpm: "180",
+	sortingID: "1503+_100",  // between Hellfire 1503 and God Mode 1507  // altID: "",
+	Prime2: "@2.03 S8 S12 S17 D10 D14 S20 D19 D22",
 },
 
-
-"1540":
+"15_Silver_Beat":
 {
-	title: "Rave'til the earth's end", artist: "5argon", channel: ORIGINAL, bpm: "160",
-	altID: "15_Rave_til_the_earth_end",
-	Prime2: "@2.01 S4 S7 S15 S17 D13 D18  S19 D20",
+	title: "Silver Beat feat. ChisaUezono", artist: "Tatsh", channel: ORIGINAL, bpm: "153",
+	shortTitle: "Silver Beat",
+	sortingID: "1509+_100",  // between Further 1509 and Bring the Beat 1512  // altID: "",
+	Prime2: "@2.03 S4 S7 S12 S16 S18.ampass D7 D12 D18",
 },
 
-
-"1595":
+"15_Passing_Rider":
 {
-	title: "The Festival of Ghost2 (Sneak)", artist: "Brandy", channel: XROSS, bpm: "136",
-	shortTitle: "The Festival of Ghost2",
-	altID: "15_The_Festival_of_Ghost2",
-	Prime2: "@2.01 S11 S16 S18 D11 D17  S20.ampass D20.ampass",
+	title: "Passing Rider", artist: "mzet:-P", channel: ORIGINAL, bpm: "175",
+	sortingID: "1518+_100",  // between Overblow2 1518 and Arcana Force 1525  // altID: "",
+	Prime2: "@2.03 S8 S12 S16 S20 D10 D20.ampass",
 },
 
-
-"15C0":
+"15_Awakening":
 {
-	title: "Donatello", artist: "Triplestar", channel: XROSS, bpm: "175",
-	altID: "15_Donatello",
-	Prime2: "@2.02 S12 S17 S21 D18  D22.ampass",
+	title: "Awakening", artist: "typeMARS", channel: ORIGINAL, bpm: "150",
+	sortingID: "1540+_100",  // between Rave Til 1540 and Bang Bang Bang 1544 // altID: "",
+	Prime2: "@2.03 S7 S10 S14 S16 D9 D13 D17 S19 D20",
 },
 
-"1538":
+"15_Gothique_Resonance":
 {
-	title: "Up & Up (Produced by AWAL)", artist: "Skizzo", channel: ORIGINAL, bpm: "150",
-	title: "Up & Up",
-	altID: "15_Up_n_Up",
-	Prime2: "@2.02 S3 S5 S8 S17 D9 D18",
+	title: "Gothique Resonance", artist: "P4Koo", channel: XROSS, bpm: "174",
+	sortingID: "15B2+_100",  // between Infinity 15B2 and Bedlam 15B5  // altID: "",
+	Prime2: "@2.03 S7 S11 S18 S20 D12 D20.ampass",
 },
 
-"1539":
-{
-	title: "Travel to Future", artist: "Neutral Moon", channel: ORIGINAL, bpm: "160",
-	altID: "15_Travel_to_Future",
-	Prime2: "@2.02 S3 S7 S11 S17 D12 D18 D21  S19 D23",
-},
 
 // \15 - Prime 2
 
@@ -142,7 +132,7 @@ var tracklist = {
 "1509":
 {
 	title: "Further", artist: "Doin", channel: ORIGINAL, bpm: "194",
-	Prime2: "S10 S18 S22 S24.ampass D14 D22 D25.ampass  @1.06 Dp3",
+	Prime2: "S10 S18 S22 S24.ampass D14 D22 D25.ampass  @1.06 Dp3  @2.03 D17",
 },
 
 // "1510":
@@ -160,7 +150,7 @@ var tracklist = {
 "1516":
 {
 	title: "Sarabande", artist: "MAX", channel: ORIGINAL, bpm: "157",
-	Prime2: "S2 S4 S7 S16 S18.ampass D11 D18 D20.ampass  @1.06 Dp4",
+	Prime2: "S2 S4 S7 S16 S18.ampass D11 D18 D20.ampass  @1.06 Dp4  @2.03 D24",
 },
 
 "1517":
@@ -242,9 +232,28 @@ var tracklist = {
 	Prime2: "@2.00 S2 S4 S7 S14 D10 D12 S17 S21 D19 D23",
 },
 
-// "1538":
-// "1539":
-// "1540":
+"1538":
+{
+	title: "Up & Up (Produced by AWAL)", artist: "Skizzo", channel: ORIGINAL, bpm: "150",
+	title: "Up & Up",
+	altID: "15_Up_n_Up",
+	Prime2: "@2.02 S3 S5 S8 S17 D9 D18  @2.03 D20",
+},
+
+"1539":
+{
+	title: "Travel to Future", artist: "Neutral Moon", channel: ORIGINAL, bpm: "160",
+	altID: "15_Travel_to_Future",
+	Prime2: "@2.02 S3 S7 S11 S17 D12 D18 D21  S19 D23",
+},
+
+"1540":
+{
+	title: "Rave'til the earth's end", artist: "5argon", channel: ORIGINAL, bpm: "160",
+	altID: "15_Rave_til_the_earth_end",
+	Prime2: "@2.01 S4 S7 S15 S17 D13 D18  S19 D20",
+},
+
 // "1541":
 // "1542":
 // "1543":
@@ -351,7 +360,11 @@ var tracklist = {
 	Prime2: "@2.00 S2 S3 S5 S9 S15 D5 D12 D18.ampass",
 },
 
-// "1561":
+"1561":
+{
+	title: "Pick Me", artist: "Produce 101 Season 2", channel: KPOP, bpm: "128",
+	Prime2: "@2.01 S2 S4 S6 S14 D5 D16  S17 D18",
+},
 
 "1562":
 {
@@ -431,7 +444,7 @@ var tracklist = {
 {
 	title: "V3", artist: "Beautiful Day", channel: XROSS, bpm: "160",
 	altID: "15_V3",
-	Prime2: "@2.00 S6 S9 S14 D9 S17 D18 D24",
+	Prime2: "@2.00 S6 S9 S14 D9 S17 D18 D24  @2.03 D21",
 },
 
 "1594":
@@ -441,7 +454,14 @@ var tracklist = {
 	Prime2: "@1.10 S3 S7 S11 S15 S18.ampass D11 D17 D20.ampass  @2.01 Dp3",
 },
 
-// "1595":
+"1595":
+{
+	title: "The Festival of Ghost2 (Sneak)", artist: "Brandy", channel: XROSS, bpm: "136",
+	shortTitle: "The Festival of Ghost2",
+	altID: "15_The_Festival_of_Ghost2",
+	Prime2: "@2.01 S11 S16 S18 D11 D17  S20.ampass D20.ampass",
+},
+
 // "1596":
 
 "1597":
@@ -557,6 +577,13 @@ var tracklist = {
 	title: "Kill Them!", artist: "Archefluxx", channel: WORLD, bpm: "170",
 	altID: "15B8+_Kill_Them",
 	Prime2: "@1.09 S5 S10 S15 D9 D19 S18.ampass  @2.01 Dp4",
+},
+
+"15C0":
+{
+	title: "Donatello", artist: "Triplestar", channel: XROSS, bpm: "175",
+	altID: "15_Donatello",
+	Prime2: "@2.02 S12 S17 S21 D18  D22.ampass",
 },
 
 // "15C1":
@@ -1095,7 +1122,7 @@ var tracklist = {
 "1461":
 {
 	title: "Feel My Happiness", artist: "3R2", channel: WORLD, bpm: "175",
-	Prime2: "=  @1.08 Dp2",
+	Prime2: "=  @1.08 Dp2  @2.03 D21",
 	Prime: "@1.19 S3 S10 S17 D6 D18",
 },
 
