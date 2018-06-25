@@ -3263,16 +3263,19 @@ https://www.facebook.com/notes/pump-it-up/piu-2018-prime2-2010-update-notice/204
 
 
 1. New Songs
+
 1) Title :  PICK ME
     Artist :  PRODUCE101
     BPM : 128
     Default step chart : S02, S04, S06, S14, D05, D16
     S??(17), D??(18) (Unlocked step)
+
 2) Title :  Rave’til the earth’s end
     Artist :  5argon
     BPM : 160
     Default step chart : S04, S07, S15, S17, D13, D18
     S??(19), D??(20) (Unlocked step)
+
 3) Title :  The Festival of Ghost2 (Sneak)
     Artist :  Brandy
     BPM : 136
@@ -3322,16 +3325,19 @@ https://www.facebook.com/notes/pump-it-up/piu-2018-prime2-2020-update-notice/205
 
 
 1. New Songs
- 1) Title :   Donatello
+
+1) Title :   Donatello
      Artist :  Triplestar
      BPM : 175
      Default step chart :  S12, S17, S21, D18
      D??(22) (Card only step)
+
 2) Title : Up & Up (Produced by AWAL)
      Artist :  Skizzo
      BPM : 150
      Default step chart :  S03, S05, S08, S17, D09, D18
- 3) Title :   Travel to Future
+
+3) Title :   Travel to Future
      Artist :  Neutral Moon
      BPM : 160
      Default step chart :  S03, S07, S11, S17, D12, D18, D21
@@ -3339,14 +3345,17 @@ https://www.facebook.com/notes/pump-it-up/piu-2018-prime2-2020-update-notice/205
 
 
 2. New Step Charts
+
 1) Title :  Naissance
     Artist : BanYa
     BPM : 136
     step chart :  S16 (Unlocked step)
+
 2) Title :  Annihilator Method
     Artist : DM Ashura
     BPM : 190
     step chart : S23 (Unlocked step)
+
 3) Title : Moon Light Dance
     Artist : TatshMusicCircle
     BPM : 182
@@ -3375,28 +3384,33 @@ https://www.facebook.com/notes/pump-it-up/piu-2018-prime2-2030-update-notice/212
 
 
 1. New Songs
+
 1) Title : SilverBeat feat. ChisaUezono
 	Artist : Tatsh
 	BPM : 153
 	Step chart : S4, S7, S12, S16, D7, D12
 	D??(18) (Unlocked step)
 	S??(18) (Card only step)
+
 2) Title : Tritium
 	Artist :  Memme
 	BPM : 180
 	Step chart :  S8, S12, S17, D10, D14
 	S??(20), D??(19), D??(22) (Unlocked step)
+
 3) Title : Passing Rider
 	Artist : mzet:-P
 	BPM : 175
 	Step chart : S8, S12, S16, D10
 	S??(20) (Unlocked step)
 	D??(20) (Card only step)
+
 4) Title : Awakening
 	Artist : typeMARS
 	BPM : 150
 	Step chart : S7, S10, S14, S16, D9, D13, D17
 	S??(19), D??(20) (Unlocked step)
+
 5) Title : Gothique Resonance
 	Artist : P4Koo
 	BPM : 174
@@ -3405,22 +3419,27 @@ https://www.facebook.com/notes/pump-it-up/piu-2018-prime2-2030-update-notice/212
 	D??(20) (Card only step)
 
 2. New Step Charts
+
 1) Title : Further
 	Artist : Doin
 	BPM : 200
 	Step chart : D17
+
 2) Title : Up & Up
 	Artist : Skizzo
 	BPM : 150
 	Step chart : D20
+
 3) Title : V3
 	Artist : Beautiful Day
 	BPM : 160
 	Step chart : D21
+
 4) Title : Feel My Happiness
 	Artist : 3R2
 	BPM : 175
 	Step chart : D21
+
 5) Title : Sarabande
 	Artist : MAX
 	BPM : 160
@@ -3432,15 +3451,137 @@ Quest “Chapter8” is updated.
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+Prime 2  2.03.1
+https://www.facebook.com/notes/pump-it-up/piu-2018-prime2-v2031-update-notice/2136280839733493/
+(prime2_230.bin)
+
+
+Hello everyone.
+We found bugs and v2.03.0 and have fixed it urgently in this v2.03.1
+
+1. v2.03.0 update information added
+2. Fixed a bug of some Questzone step charts clear conditions
+
+We are very sorry for this inconvenience.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Prime 2  2.03.2
+(prime2_231.bin)
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Prime 2  2.04
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=321&sca=UPDATE
+(prime2_232.bin)
+
+1. New Songs
+
+1) Title : Cross Over
+Artist : HyuN
+BPM : 200
+Step chart : S7, S11, S15, D14
+S??(18), S??(22), D??(19), D??(23) (Unlocked step)
+
+2) Title : Walts of Doge
+Artist : Cashe
+BPM : 125
+Step chart : S8, S11, S14, S17, D12, D18
+S??(19), D??(20) (Unlocked step)
+D??(Co-Op x2) (Card only step)
+
+3) Title : Black Dragon
+Artist : Memme
+BPM : 162
+Step chart : S5, S8, S11, S17, D11, D17
+S??(20), D??(19) (Unlocked step)
+
+4) Title : A Site De La Rue
+Artist : STREME REVERIE
+BPM : 186
+Step chart : S8, S11, S17, D12
+S??(20), D??(20), D??(24) (Unlocked step)
+
+5) Title : Gargoyle Full Song
+Artist : Sanxion7
+BPM : 150
+Step chart : S20, S21, D22
+S??(23), D??(25) (Unlocked step)
+D??(Co-Op x2) (Card only step)
+
+
+2. New Step Charts
+
+1) Title: Sarabande
+Artist : MAX
+BPM : 157
+Step chart: S12
+
+2) Title : The People didn't know
+Artist : Banya Production
+BPM : 134
+Step chart : S12
+
+3) Title : Blazing
+Artist : Banya
+BPM : 158
+Step chart : S19
+
+4) Title : Imprinting
+Artist : sakuzyo
+BPM : 175
+Step chart : D16
+
+5) Title : Start On RED
+Artist : Nato
+BPM : 160
+Step chart: D18
+
+6) Title : Redline
+Artist : Archefluxx
+BPM : 170
+Step chart : D21
+
+7) Title : Anguished Unmaking
+Artist : void
+BPM : 170
+Step chart : D22
+
+8) Title : Removable Disk0
+Artist : Doin
+BPM : 130
+Step chart : CO-OP02
+
+9) Title : Banya Hiphop Remix
+Artist : Banya
+BPM : 99
+Step chart : D20
+
+10) Title : Paradoxx
+Artist : Nato & MAX
+BPM : 220
+Step chart : D25
+
+
+3. Quest zone
+
+Quest “Chapter9” is updated.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Чеклист для добавления нового патча (для патчноутов формата Prime 2):
-	- занести patch notes в patch.txt
-	- добавить патч в список патчей в tracklist.js
-	- проверить набор чартов по видео, заменить сложности ?? на реальные
-	- добавить в треклист новые треки
-	- не забыть указать channel (поискать на вики https://en.wikipedia.org/wiki/List_of_Pump_It_Up_songs)
-	- найти sorting order
-	- скачать баннеры для всех чартов
+- занести patch notes в patch.txt
+- добавить патч в список патчей в tracklist.js
+- проверить набор чартов по видео, заменить сложности ?? на реальные
+- добавить в треклист новые треки
+- не забыть указать channel (поискать на вики https://en.wikipedia.org/wiki/List_of_Pump_It_Up_songs)
+- найти sorting order
+- скачать баннеры для всех чартов
 - дополнить таблицу анлоков
 - дополнить док по квестзоне
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
