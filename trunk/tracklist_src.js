@@ -54,40 +54,39 @@ var tracklist = {
 },
 */
 
-"15_Tritium":
+"15_Cross_Over":
 {
-	title: "Tritium", artist: "Memme", channel: ORIGINAL, bpm: "180",
-	sortingID: "1503+_100",  // between Hellfire 1503 and God Mode 1507  // altID: "",
-	Prime2: "@2.03 S8 S12 S17 D10 D14 S20 D19 D22",
+	title: "Cross Over", artist: "HyuN", channel: ORIGINAL, bpm: "200",
+	sortingID: "15xx", // altID: "",
+	Prime2: "@2.04 S7 S11 S15 D14 S18 S22 D19 D23",
 },
 
-"15_Silver_Beat":
+"15_Waltz_of_Doge":
 {
-	title: "Silver Beat feat. ChisaUezono", artist: "Tatsh", channel: ORIGINAL, bpm: "153",
-	shortTitle: "Silver Beat",
-	sortingID: "1509+_100",  // between Further 1509 and Bring the Beat 1512  // altID: "",
-	Prime2: "@2.03 S4 S7 S12 S16 S18.ampass D7 D12 D18",
+	title: "Waltz of Doge", artist: "Cashew", channel: ORIGINAL, bpm: "125",
+	sortingID: "15xx", // altID: "",
+	Prime2: "@2.04 S8 S11 S14 S17 D12 D18 S19 D20 CoOp(x2).ampass",
 },
 
-"15_Passing_Rider":
+"15_Black_Dragon":
 {
-	title: "Passing Rider", artist: "mzet:-P", channel: ORIGINAL, bpm: "175",
-	sortingID: "1518+_100",  // between Overblow2 1518 and Arcana Force 1525  // altID: "",
-	Prime2: "@2.03 S8 S12 S16 S20 D10 D20.ampass",
+	title: "Black Dragon", artist: "Memme", channel: XROSS, bpm: "162",
+	sortingID: "15xx", // altID: "",
+	Prime2: "@2.04 S5 S8 S11 S17 D11 D17 S20 D19",
 },
 
-"15_Awakening":
+"15_A_Site_De_La_Rue":
 {
-	title: "Awakening", artist: "typeMARS", channel: ORIGINAL, bpm: "150",
-	sortingID: "1540+_100",  // between Rave Til 1540 and Bang Bang Bang 1544 // altID: "",
-	Prime2: "@2.03 S7 S10 S14 S16 D9 D13 D17 S19 D20",
+	title: "A Site De La Rue", artist: "STREME REVERIE", channel: XROSS, bpm: "186",
+	sortingID: "15xx", // altID: "",
+	Prime2: "@2.04 S8 S11 S17 D12 S20 D20 D24",
 },
 
-"15_Gothique_Resonance":
+"15_Gargoyle_Full":
 {
-	title: "Gothique Resonance", artist: "P4Koo", channel: XROSS, bpm: "174",
-	sortingID: "15B2+_100",  // between Infinity 15B2 and Bedlam 15B5  // altID: "",
-	Prime2: "@2.03 S7 S11 S18 S20 D12 D20.ampass",
+	title: "Gargoyle  [FULL]", artist: "Sanxion7", channel: WORLD, bpm: "150",
+	sortingID: "15xx", // altID: "",
+	Prime2: "@2.04 S20 S21 D22 S23 D25 CoOp(x2).ampass",
 },
 
 
@@ -111,7 +110,13 @@ var tracklist = {
 	Prime2: "S7 S11 S15 S18.ampass D9 D19.ampass D23  @1.06 Dp4",
 },
 
-// "1504":
+"1504":
+{
+	title: "Tritium", artist: "Memme", channel: ORIGINAL, bpm: "180",
+	altID: "15_Tritium",
+	Prime2: "@2.03 S8 S12 S17 D10 D14 S20 D19 D22",
+},
+
 // "1505":
 // "1506":
 
@@ -136,13 +141,21 @@ var tracklist = {
 },
 
 // "1510":
-// "1511":
+
+"1511":
+{
+	title: "Silver Beat feat. ChisaUezono", artist: "Tatsh", channel: ORIGINAL, bpm: "153",
+	shortTitle: "Silver Beat",
+	altID: "15_Silver_Beat",
+	Prime2: "@2.03 S4 S7 S12 S16 S18.ampass D7 D12 D18",
+},
 
 "1512":
 {
 	title: "Bring Back the Beat", artist: "Lunatic Sounds", channel: ORIGINAL, bpm: "160",
 	Prime2: "S7 S12 S17 D8 D19.ampass  @1.06 Dp5  @1.07 S19.ampass",
 },
+
 // "1513":
 // "1514":
 // "1515":
@@ -150,7 +163,7 @@ var tracklist = {
 "1516":
 {
 	title: "Sarabande", artist: "MAX", channel: ORIGINAL, bpm: "157",
-	Prime2: "S2 S4 S7 S16 S18.ampass D11 D18 D20.ampass  @1.06 Dp4  @2.03 D24",
+	Prime2: "S2 S4 S7 S16 S18.ampass D11 D18 D20.ampass  @1.06 Dp4  @2.03 D24  @2.04 S12",
 },
 
 "1517":
@@ -171,7 +184,13 @@ var tracklist = {
 // "1521":
 // "1522":
 // "1523":
-// "1524":
+
+"1524":
+{
+	title: "Passing Rider", artist: "mzet:-P", channel: ORIGINAL, bpm: "175",
+	altID: "15_Passing_Rider",
+	Prime2: "@2.03 S8 S12 S16 S20 D10 D20.ampass",
+},
 
 "1525":
 {
@@ -193,7 +212,7 @@ var tracklist = {
 {
 	title: "Anguished Unmaking", artist: "void", channel: ORIGINAL, bpm: "170",
 	altID: "15_Anguished_Unmaking",
-	Prime2: "@2.00 S3 S5 S8 S15 D9 S17 D18",
+	Prime2: "@2.00 S3 S5 S8 S15 D9 S17 D18  @2.04 D22",
 },
 
 "1530":
@@ -254,7 +273,13 @@ var tracklist = {
 	Prime2: "@2.01 S4 S7 S15 S17 D13 D18  S19 D20",
 },
 
-// "1541":
+"1541":
+{
+	title: "Awakening", artist: "typeMARS", channel: ORIGINAL, bpm: "150",
+	altID: "15_Awakening",
+	Prime2: "@2.03 S7 S10 S14 S16 D9 D13 D17 S19 D20",
+},
+
 // "1542":
 // "1543":
 
@@ -485,7 +510,7 @@ var tracklist = {
 {
 	title: "Start On Red", artist: "Nato", channel: XROSS, bpm: "160",
 	altID: "15_Start_On_Red",
-	Prime2: "@1.05 S4 S8 S11 S15 D12 S19 D20  @2.01 Dp3",
+	Prime2: "@1.05 S4 S8 S11 S15 D12 S19 D20  @2.01 Dp3  @2.04 D18",
 },
 
 "15A3":
@@ -547,7 +572,13 @@ var tracklist = {
 	Prime2: "@2.00 S10 S15 D10 CoOp(x2) S18 S21 D19 D24",
 },
 
-// "15B3":
+"15B3":
+{
+	title: "Gothique Resonance", artist: "P4Koo", channel: XROSS, bpm: "174",
+	altID: "15_Gothique_Resonance",
+	Prime2: "@2.03 S7 S11 S18 S20 D12 D20.ampass",
+},
+
 // "15B4":
 
 "15B5":
@@ -569,7 +600,7 @@ var tracklist = {
 {
 	title: "Redline", artist: "Archefluxx", channel: XROSS, bpm: "170",
 	altID: "15_Redline",
-	Prime2: "@1.04 S5 S10 S16 D13 D20 S18 D19  @2.01 Dp5",
+	Prime2: "@1.04 S5 S10 S16 D13 D20 S18 D19  @2.01 Dp5  @2.04 D21",
 },
 
 "15B9":
@@ -831,7 +862,7 @@ var tracklist = {
 "1418":
 {
 	title: "Removable Disk0", artist: "Doin", channel: ORIGINAL, bpm: "130",
-	Prime2: "=  @1.08 Dp3",
+	Prime2: "=  @1.08 Dp3  @2.04 CoOp(x2)",
 	Prime: "@1.18 S3 S6 S15 D5 D16",
 },
 
@@ -1232,7 +1263,7 @@ var tracklist = {
 "1477":
 {
 	title: "Imprinting", artist: "Sakuzyo", channel: JMUSIC, bpm: "175",
-	Prime2: "=",
+	Prime2: "=  @2.04 D16",
 	Prime: "@1.10 S4 S7 S11 D12  S17 S20 D20  @1.15 D24",
 },
 
@@ -1413,7 +1444,7 @@ var tracklist = {
 "14A2":
 {
 	title: "Paradoxx", artist: "Slam & NATO", channel: ORIGINAL, bpm: "220", duration: REMIX,
-	Prime2: "=",
+	Prime2: "=  @2.04 D25",
 	Prime: "@1.18 S21 S23 S26  @1.19 D28",
 },
 
@@ -3428,7 +3459,7 @@ var tracklist = {
 "F22":
 {
 	title: "The People Didn't Know", artist: "BanYa Production", bpm: "134",
-	Prime2: "=",
+	Prime2: "=  @2.04 S12",
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -5324,7 +5355,7 @@ var tracklist = {
 "B56":
 {
 	title: "BanYa Hip-Hop Remix", artist: "BanYa", bpm: "99", duration: REMIX,
-	Prime2: "=",
+	Prime2: "=  @2.04 D20",
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -5405,7 +5436,7 @@ var tracklist = {
 "A04":
 {
 	title: "Blazing", artist: "BanYa", bpm: "158",
-	Prime2: "=",
+	Prime2: "=  @2.04 S19",
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "=  @1.51 S9",

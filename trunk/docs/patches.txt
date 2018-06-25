@@ -3244,6 +3244,7 @@ Some graphics have been changed for PRIME2 2018.
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Prime 2  2.00.1
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=305&sca=UPDATE
 https://www.facebook.com/notes/pump-it-up/hotfix-2001/1981220521906193/
 (prime2_200.bin)
 
@@ -3258,6 +3259,7 @@ We found a problem about 2.00.0 update and have fixed it urgently in this 2.00.1
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Prime 2  2.01
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=307&sca=UPDATE
 https://www.facebook.com/notes/pump-it-up/piu-2018-prime2-2010-update-notice/2046789472015964/
 (prime2_201.bin)
 
@@ -3320,6 +3322,7 @@ We will look forward to upgrading UCS as long as you wait.
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Prime 2  2.02
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=308&sca=UPDATE
 https://www.facebook.com/notes/pump-it-up/piu-2018-prime2-2020-update-notice/2051631154865129/
 (prime2_210.bin)
 
@@ -3379,6 +3382,7 @@ Thank you.
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Prime 2  2.03
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=317&sca=UPDATE
 https://www.facebook.com/notes/pump-it-up/piu-2018-prime2-2030-update-notice/2123409111020666/
 (prime2_220.bin)
 
@@ -3452,6 +3456,7 @@ Quest “Chapter8” is updated.
 
 
 Prime 2  2.03.1
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=318&sca=UPDATE
 https://www.facebook.com/notes/pump-it-up/piu-2018-prime2-v2031-update-notice/2136280839733493/
 (prime2_230.bin)
 
@@ -3475,6 +3480,7 @@ Prime 2  2.03.2
 
 Prime 2  2.04
 http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=321&sca=UPDATE
+https://www.facebook.com/notes/pump-it-up/piu-2018-prime2-v2040-update-notice/2188131517881758/
 (prime2_232.bin)
 
 1. New Songs
@@ -3485,12 +3491,12 @@ BPM : 200
 Step chart : S7, S11, S15, D14
 S??(18), S??(22), D??(19), D??(23) (Unlocked step)
 
-2) Title : Walts of Doge
-Artist : Cashe
+2) Title : Waltz of Doge
+Artist : Cashew
 BPM : 125
 Step chart : S8, S11, S14, S17, D12, D18
 S??(19), D??(20) (Unlocked step)
-D??(Co-Op x2) (Card only step)
+D??(CoOp x2) (Card only step)
 
 3) Title : Black Dragon
 Artist : Memme
@@ -3509,7 +3515,7 @@ Artist : Sanxion7
 BPM : 150
 Step chart : S20, S21, D22
 S??(23), D??(25) (Unlocked step)
-D??(Co-Op x2) (Card only step)
+D??(CoOp x2) (Card only step)
 
 
 2. New Step Charts

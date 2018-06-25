@@ -369,6 +369,12 @@ On( "Prime2" )
  	Lock( "Passing Rider", "S20", PIUGAME )
  	Lock( "Awakening", "S19, D20", PIUGAME )
  	Lock( "Gothique Resonance", "S20", PIUGAME )
+// 2.03
+ 	Lock( "Cross Over", "S18, S22, D19, D23", PIUGAME )
+ 	Lock( "Waltz of Doge", "S19, D20", PIUGAME )
+ 	Lock( "Black Dragon", "S20, D19", PIUGAME )
+ 	Lock( "A Site De La Rue", "S20, D20, D24", PIUGAME )
+ 	Lock( "Gargoyle  [FULL]", "S23, D25", PIUGAME )
 
 //delete tempUnlockPatchIndex;
 //delete tempCurrentMix;
