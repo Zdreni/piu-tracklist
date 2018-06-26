@@ -57,35 +57,35 @@ var tracklist = {
 "15_Cross_Over":
 {
 	title: "Cross Over", artist: "HyuN", channel: ORIGINAL, bpm: "200",
-	sortingID: "15xx", // altID: "",
+	sortingID: "1504_100+", // between Tritium 1504 and God Mode 1507  // altID: "",
 	Prime2: "@2.04 S7 S11 S15 D14 S18 S22 D19 D23",
 },
 
 "15_Waltz_of_Doge":
 {
-	title: "Waltz of Doge", artist: "Cashew", channel: ORIGINAL, bpm: "125",
-	sortingID: "15xx", // altID: "",
+	title: "Waltz of Doge", artist: "Cashew", channel: ORIGINAL, bpm: "250",
+	sortingID: "1541_100+", // between Awakening 1541  and Bang Bang Bang 1544  // altID: "",
 	Prime2: "@2.04 S8 S11 S14 S17 D12 D18 S19 D20 CoOp(x2).ampass",
 },
 
 "15_Black_Dragon":
 {
 	title: "Black Dragon", artist: "Memme", channel: XROSS, bpm: "162",
-	sortingID: "15xx", // altID: "",
+	sortingID: "1598_100+", // between Hyperion 1598 and Start on Red 15A2  // altID: "",
 	Prime2: "@2.04 S5 S8 S11 S17 D11 D17 S20 D19",
 },
 
 "15_A_Site_De_La_Rue":
 {
 	title: "A Site De La Rue", artist: "STREME REVERIE", channel: XROSS, bpm: "186",
-	sortingID: "15xx", // altID: "",
+	sortingID: "15B6", // between Bedlam 15B5 and Clue 15B7  // altID: "",
 	Prime2: "@2.04 S8 S11 S17 D12 S20 D20 D24",
 },
 
-"15_Gargoyle_Full":
+"15_Gargoyle_Full":  // this ID should be kept for a while, because 15E5 was assigned to Chase Me FULL by mistake some time ago
 {
 	title: "Gargoyle  [FULL]", artist: "Sanxion7", channel: WORLD, bpm: "150",
-	sortingID: "15xx", // altID: "",
+	sortingID: "15E5", // between Acquaintance FULL 15E4 and Chase Me FULL 15E7, not a Hush FULL 15E6  // altID: "",
 	Prime2: "@2.04 S20 S21 D22 S23 D25 CoOp(x2).ampass",
 },
 
@@ -683,17 +683,18 @@ var tracklist = {
 	Prime2: "@1.06 S20 D22",
 },
 
-"15E5":
-{
-	title: "Chase Me  [FULL]", artist: "Dreamcatcher", channel: KPOP, bpm: "200",
-	Prime2: "@1.09 S19 D25",
-},
-
 "15E6":
 {
 	title: "HUSH  [FULL]", artist: "Yassi Pressman & Nadine Lustre", channel: WORLD, bpm: "82", region: PHILIPPINES,
 	altID: "15_Hush_FULL",
 	Prime2: "@1.03 S15 D16",
+},
+
+"15E7":
+{
+	title: "Chase Me  [FULL]", artist: "Dreamcatcher", channel: KPOP, bpm: "200",
+	altID: "15E5",
+	Prime2: "@1.09 S19 D25",
 },
 
 "15F0":

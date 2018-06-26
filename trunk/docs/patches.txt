@@ -3493,7 +3493,7 @@ S??(18), S??(22), D??(19), D??(23) (Unlocked step)
 
 2) Title : Waltz of Doge
 Artist : Cashew
-BPM : 125
+BPM : 250
 Step chart : S8, S11, S14, S17, D12, D18
 S??(19), D??(20) (Unlocked step)
 D??(CoOp x2) (Card only step)
