@@ -369,12 +369,18 @@ On( "Prime2" )
  	Lock( "Passing Rider", "S20", PIUGAME )
  	Lock( "Awakening", "S19, D20", PIUGAME )
  	Lock( "Gothique Resonance", "S20", PIUGAME )
-// 2.03
+// 2.04
  	Lock( "Cross Over", "S18, S22, D19, D23", PIUGAME )
  	Lock( "Waltz of Doge", "S19, D20", PIUGAME )
  	Lock( "Black Dragon", "S20, D19", PIUGAME )
  	Lock( "A Site De La Rue", "S20, D20, D24", PIUGAME )
  	Lock( "Gargoyle  [FULL]", "S23, D25", PIUGAME )
+// 2.05
+ 	Lock( "Break Out", "S19, D18, D22", PIUGAME )
+ 	Lock( "The Quick Brown Fox Jumps Over The Lazy Dog", "S20, S23, D24", PIUGAME )
+ 	Lock( "Visual Dream II (In Fiction)", "S18, D19", PIUGAME )
+ 	Lock( "BSPower Explosion", "S20, S22, D20, D23", PIUGAME )
+ 	Lock( "ESCAPE", "S21, S24, D22", PIUGAME )
 
 //delete tempUnlockPatchIndex;
 //delete tempCurrentMix;

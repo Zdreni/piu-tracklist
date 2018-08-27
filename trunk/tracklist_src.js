@@ -52,26 +52,72 @@ var tracklist = {
 	sortingID: "", // altID: "",
 	Prime2: "@2.",
 },
+
 */
+
+"15_Break_Out":
+{
+	title: "Break Out", artist: "Lunatic Sounds", channel: ORIGINAL, bpm: "175",
+	sortingID: "1513 ?", // altID: "",
+	Prime2: "@2.05 S4 S8 S12 S16 D12 S19 D18 D22",
+},
+
+"15_The_Quick_Brown_Fox":
+{
+	title: "The Quick Brown Fox Jumps Over The Lazy Dog", artist: "Doin", channel: ORIGINAL, bpm: "200",
+	shortTitle: "The Quick Brown Fox",
+	sortingID: "1510 ?", // altID: "",
+	Prime2: "@2.05 S10 S17 D14 S20 S23 D24",
+},
+
+"15_Visual_Dream_II":
+{
+	title: "Visual Dream II (In Fiction)", artist: "Aragon", channel: XROSS, bpm: "170",
+	shortTitle: "Visual Dream II",
+	sortingID: "15A5 ?", // altID: "",
+	Prime2: "@2.05 S5 S8 S16 D10 S18 D19",
+},
+
+"15_BSPower_Explosion":
+{
+	title: "BSPower Explosion", artist: "Memme", channel: XROSS, bpm: "180",
+	sortingID: "15A1 ?", // altID: "",
+	Prime2: "@2.05 S8 S11 S17 D13 S20 S22 D20 D23",
+},
+
+"15_ESCAPE":
+{
+	title: "ESCAPE", artist: "D_AAN", channel: ORIGINAL, bpm: "220",
+	sortingID: "1542 ?", // altID: "",
+	Prime2: "@2.05 S15 S18 D19 S21 S24 D22",
+},
+
+"15_Shub_Sothoth":
+{
+	title: "Shub Sothoth", artist: "Nato & EXC", channel: ORIGINAL, bpm: "220",
+	//sortingID: "", // altID: "",
+	Prime2: "@2.05 S25 D27",
+},
+
 
 "15_Cross_Over":
 {
 	title: "Cross Over", artist: "HyuN", channel: ORIGINAL, bpm: "200",
-	sortingID: "1504_100+", // between Tritium 1504 and God Mode 1507  // altID: "",
+	sortingID: "1505 ?", // between Tritium 1504 and God Mode 1507  // altID: "",
 	Prime2: "@2.04 S7 S11 S15 D14 S18 S22 D19 D23",
 },
 
 "15_Waltz_of_Doge":
 {
 	title: "Waltz of Doge", artist: "Cashew", channel: ORIGINAL, bpm: "250",
-	sortingID: "1541_100+", // between Awakening 1541  and Bang Bang Bang 1544  // altID: "",
+	sortingID: "1543 ?", // between Awakening 1541  and Bang Bang Bang 1544  // altID: "",
 	Prime2: "@2.04 S8 S11 S14 S17 D12 D18 S19 D20 CoOp(x2).ampass",
 },
 
 "15_Black_Dragon":
 {
 	title: "Black Dragon", artist: "Memme", channel: XROSS, bpm: "162",
-	sortingID: "1598_100+", // between Hyperion 1598 and Start on Red 15A2  // altID: "",
+	sortingID: "15A0 ?", // between Hyperion 1598 and Start on Red 15A2  // altID: "",
 	Prime2: "@2.04 S5 S8 S11 S17 D11 D17 S20 D19",
 },
 
@@ -163,7 +209,7 @@ var tracklist = {
 "1516":
 {
 	title: "Sarabande", artist: "MAX", channel: ORIGINAL, bpm: "157",
-	Prime2: "S2 S4 S7 S16 S18.ampass D11 D18 D20.ampass  @1.06 Dp4  @2.03 D24  @2.04 S12",
+	Prime2: "S2 S4 S7 S16 S18.ampass D11 D18 D20.ampass  @1.06 Dp4  @2.03 D24  @2.04 S12  @2.05 S20",
 },
 
 "1517":
@@ -632,7 +678,7 @@ var tracklist = {
 {
 	title: "Fallen Angel", artist: "DM Ashura", channel: WORLD, bpm: "157",
 	altID: "15C4+_Fallen_Angel",
-	Prime2: "@1.08 S6 S10 S17 D10 D15 D21 D20.ampass  @2.01 Dp3",
+	Prime2: "@1.08 S6 S10 S17 D10 D15 D21 D20.ampass  @2.01 Dp3  @2.05 S19",
 },
 
 "15D0":
@@ -1893,7 +1939,7 @@ var tracklist = {
 "1390":
 {
 	title: "Mental Rider", artist: "SQUAR", channel: ORIGINAL, bpm: "120 ~ 140",
-	Prime2: "=",
+	Prime2: "=  @2.05 D22",
 	Prime: "=",
 	Fiesta2: "@1.50 S12 S16 S21 D13 D19 D23",
 },
@@ -3372,7 +3418,7 @@ var tracklist = {
 "F13":
 {
 	title: "Panuelito Rojo", artist: "Big Metra", channel: WORLD, bpm: "98",
-	Prime2: "=",
+	Prime2: "=  @2.05 S17",
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -4348,7 +4394,7 @@ var tracklist = {
 "D02":
 {
 	title: "Arch of Darkness", artist: "Yahpp", bpm: "136",
-	Prime2: "=",
+	Prime2: "=  @2.05 D20",
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "S4.nl S8.hd S14.cz D7.fs D18.nm  S16.acz  @1.51 S2 S5",
@@ -5940,8 +5986,8 @@ var tracklist = {
 
 "820":
 {
-	title: "Beat of the War", artist: "BanYa", bpm: "202", fromMix: "Premiere3",
-	Prime2: "=",
+	title: "Beat of the War", artist: "BanYa", bpm: "190 ~ 140 ~ 202", fromMix: "Premiere3",
+	Prime2: "=  @2.05 S18 S21 D23",
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "=  @1.51 S3 S9",
@@ -6688,7 +6734,7 @@ var tracklist = {
 "212":
 {
 	title: "Com'Back", artist: "Sechs Kies", channel: KPOP, bpm: "158", fromMix: "2nd",
-	Prime2: "=",
+	Prime2: "=  @2.05 CoOp(x2)",
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "= -D8  @1.51 S8",
