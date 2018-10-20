@@ -717,12 +717,7 @@ function ApplyPatch( tracklist, estimations )
 		var chartLevelText = estimation_Match[ 3 ];
 
 		var track = FindTrack( tracklist, trackTitle );
-		console.assert( track );
-
 		var shared = FindChartSharedNew( track, chartTag, chartLevelText );
-		if( ! shared )
-			console.log( "Can't find " + track.title + " " + chartTag + "-" + chartLevelText );
-		console.assert( shared );
 
 		var votes = estimations[ chartDescr ];
 		if( Object.keys( votes ).length > 0 )
@@ -746,4 +741,7 @@ function ApplyPatch( tracklist, estimations )
 }
 
 
-ApplyPatch( tracklist, tracklistVotes );
+function ApplyLevelEstimations()
+{
+	ApplyPatch( tracklist, tracklistVotes );
+}

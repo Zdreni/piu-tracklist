@@ -80,6 +80,19 @@
 -->
 
 <script>
+try
+{
+	PreprocessTracklist();
+	ApplyBPMs();
+	ApplyUnlocks();
+	ApplyLevelEstimations();
+	//ApplyTags();
+}
+catch( exc )
+{
+	console.error( exc );
+}
+
 AddRadioButtons( {
 	legend: "Mix:",  id: "Mix",
 	items: [

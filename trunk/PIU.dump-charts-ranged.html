@@ -19,6 +19,20 @@
 
 <code>
 <script>
+try
+{
+	PreprocessTracklist();
+	ApplyBPMs();
+	ApplyUnlocks();
+	ApplyLevelEstimations();
+	//ApplyTags();
+}
+catch( exc )
+{
+	console.error( exc );
+}
+
+
 function  TrackIsAllowedByMix( track )
 {
 	return true

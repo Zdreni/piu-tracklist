@@ -34,6 +34,20 @@ div.pick-result {
 
 List: 
 <code><script>
+try
+{
+	PreprocessTracklist();
+	ApplyBPMs();
+	ApplyUnlocks();
+	//ApplyLevelEstimations();
+	//ApplyTags();
+}
+catch( exc )
+{
+	console.error( exc );
+}
+
+
 document.write("<select id='set' onchange='OnSelectSet( this )'>\n");
 
 for( var setKey in sets)

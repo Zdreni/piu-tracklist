@@ -81,27 +81,12 @@ function SetChartBPM( descr )
 	var chartDescr = descr.chart.substr( i + 2 );
 
 	var track = FindTrack( tracklist, trackName );
-	if( ! track )
-	{
-		console.log( "Can't find track '" + track  + "'" );
-		console.assert( track );
-	}
-
 	var chart = FindChart( track, chartDescr );
-	if( ! chart )
-	{
-		console.log( "Can't find chart '" + descr.chart + "'" );
-		console.assert( chart );
-	}
-
 	var mixesRange = GetMixesRange( descr.mixes );
 
 	var charts = FindChartsWithIndexInMixesRange( track, chart.shared.index, mixesRange[ 0 ], mixesRange[ 1 ] );
 	if( charts.length === 0 )
-	{
-		console.log( "Can't find " + descr.chart + " in range [" + mixesOrder[ mixesRange[ 0 ] ] + ".." + mixesOrder[ mixesRange[ 1 ] ] + "]" );
-		console.assert( charts.length > 0 );
-	}
+		throw "Can't find " + descr.chart + " in range [" + mixesOrder[ mixesRange[ 0 ] ] + ".." + mixesOrder[ mixesRange[ 1 ] ] + "]";
 
 	for( var chart of charts )
 	{
@@ -119,8 +104,11 @@ function SetChartBPM( descr )
 }
 
 
-for( var item of separateBPMs )
-	SetChartBPM( item );
+function ApplyBPMs()
+{
+	for( var item of separateBPMs )
+		SetChartBPM( item );
+}
 
 /*
 

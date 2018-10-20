@@ -210,21 +210,18 @@ function FindTrack( tracklist, title )
 			return Normalized( item.title ) === Normalized( title )  &&  ( ! ID  ||  key == ID );
 		} );
 	if( result.length === 0 )
-	{
-		window.alert("Can't found track '" + title + "'" );
-	}
+		throw "Can't found track '" + title + "'";
 	else if( result.length > 1 )
-	{
-		window.alert("Several tracks with name '" + title + "' found, specify '" + title + " @ <id>' to find required one");
-	}
-	console.assert( result.length === 1 );
+		throw "Several tracks with name '" + title + "' found, specify '" + title + " @ <id>' to find required one";
 	return result[ 0 ];
 }
 
 
 function FindChartSharedNew( track, chartTag, chartlevelText )
 {
-	console.assert( ["S", "Sp", "D", "Dp"].indexOf( chartTag ) >= 0 );
+	if( ["S", "Sp", "D", "Dp"].indexOf( chartTag ) < 0 )
+		throw "Unknown chartTag '" + chartTag + "'";
+
 	for( var mixID of mixesOrder )
 	{
 		if( mixes[ mixID ].style === "new"  &&  track[ mixID ] )
@@ -237,6 +234,8 @@ function FindChartSharedNew( track, chartTag, chartlevelText )
 			}
 		}
 	}
+
+	throw "Can't find " + track.title + " " + chartTag + "-" + chartLevelText;
 }
 
 
@@ -280,7 +279,7 @@ function FindChart( track, chartDescr )
 		{
 			var chart = _.findWhere( track[ mixID ], { tag: chartTag, } );
 			if( ! chart )
-				console.log( "Can't find chart '" + chartDescr + "' in track '" + track.title + "'" );
+				throw "Can't find chart '" + chartDescr + "' in track '" + track.title + "'";
 			return chart;
 		}
 
@@ -293,8 +292,6 @@ function FindChart( track, chartDescr )
 					return chart;
 			}
 		}
-
-		console.log( "Can't find " + track.title + " " + chartDescr );
 	}
 	else
 	{
@@ -311,7 +308,7 @@ function FindChart( track, chartDescr )
 		{
 			var chart = _.findWhere( track[ mixID ], { tag: chartTag, levelText: chartlevelText, } );
 			if( ! chart )
-				console.log( "Can't find chart '" + chartDescr + "' in track '" + track.title + "'" );
+				throw "Can't find chart '" + chartDescr + "' in track '" + track.title + "'";
 			return chart;
 		}
 
@@ -324,12 +321,9 @@ function FindChart( track, chartDescr )
 					return chart;
 			}
 		}
-
-		console.log( "Can't find " + track.title + " " + chartDescr );
 	}
 
-	console.assert( chart );
-	return chart;
+	throw "Can't find " + track.title + " " + chartDescr;
 }
 
 
@@ -421,7 +415,7 @@ var chartFilter = {
 			if( chart.fromPatchIndex  &&  chartFilter.patchIndex < chart.fromPatchIndex )
 				return;
 
-			item.isUnlocked = ! chart.unlockDescr  ||  chart.unlockPatchIndex;
+			//item.isUnlocked = ! chart.unlockDescr  ||  chart.unlockPatchIndex;
 
 			for( var mixID of chartFilter.excludeMixIDs )
 			{

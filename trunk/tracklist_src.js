@@ -55,79 +55,6 @@ var tracklist = {
 
 */
 
-"15_Break_Out":
-{
-	title: "Break Out", artist: "Lunatic Sounds", channel: ORIGINAL, bpm: "175",
-	sortingID: "1513 ?", // altID: "",
-	Prime2: "@2.05 S4 S8 S12 S16 D12 S19 D18 D22",
-},
-
-"15_The_Quick_Brown_Fox":
-{
-	title: "The Quick Brown Fox Jumps Over The Lazy Dog", artist: "Doin", channel: ORIGINAL, bpm: "200",
-	shortTitle: "The Quick Brown Fox",
-	sortingID: "1510 ?", // altID: "",
-	Prime2: "@2.05 S10 S17 D14 S20 S23 D24",
-},
-
-"15_Visual_Dream_II":
-{
-	title: "Visual Dream II (In Fiction)", artist: "Aragon", channel: XROSS, bpm: "170",
-	shortTitle: "Visual Dream II",
-	sortingID: "15A5 ?", // altID: "",
-	Prime2: "@2.05 S5 S8 S16 D10 S18 D19",
-},
-
-"15_BSPower_Explosion":
-{
-	title: "BSPower Explosion", artist: "Memme", channel: XROSS, bpm: "180",
-	sortingID: "15A1 ?", // altID: "",
-	Prime2: "@2.05 S8 S11 S17 D13 S20 S22 D20 D23",
-},
-
-"15_ESCAPE":
-{
-	title: "ESCAPE", artist: "D_AAN", channel: ORIGINAL, bpm: "220",
-	sortingID: "1542 ?", // altID: "",
-	Prime2: "@2.05 S15 S18 D19 S21 S24 D22",
-},
-
-"15_Shub_Sothoth":
-{
-	title: "Shub Sothoth", artist: "Nato & EXC", channel: ORIGINAL, bpm: "220",
-	//sortingID: "", // altID: "",
-	Prime2: "@2.05 S25 D27",
-},
-
-
-"15_Cross_Over":
-{
-	title: "Cross Over", artist: "HyuN", channel: ORIGINAL, bpm: "200",
-	sortingID: "1505 ?", // between Tritium 1504 and God Mode 1507  // altID: "",
-	Prime2: "@2.04 S7 S11 S15 D14 S18 S22 D19 D23",
-},
-
-"15_Waltz_of_Doge":
-{
-	title: "Waltz of Doge", artist: "Cashew", channel: ORIGINAL, bpm: "250",
-	sortingID: "1543 ?", // between Awakening 1541  and Bang Bang Bang 1544  // altID: "",
-	Prime2: "@2.04 S8 S11 S14 S17 D12 D18 S19 D20 CoOp(x2).ampass",
-},
-
-"15_Black_Dragon":
-{
-	title: "Black Dragon", artist: "Memme", channel: XROSS, bpm: "162",
-	sortingID: "15A0 ?", // between Hyperion 1598 and Start on Red 15A2  // altID: "",
-	Prime2: "@2.04 S5 S8 S11 S17 D11 D17 S20 D19",
-},
-
-"15_A_Site_De_La_Rue":
-{
-	title: "A Site De La Rue", artist: "STREME REVERIE", channel: XROSS, bpm: "186",
-	sortingID: "15B6", // between Bedlam 15B5 and Clue 15B7  // altID: "",
-	Prime2: "@2.04 S8 S11 S17 D12 S20 D20 D24",
-},
-
 "15_Gargoyle_Full":  // this ID should be kept for a while, because 15E5 was assigned to Chase Me FULL by mistake some time ago
 {
 	title: "Gargoyle  [FULL]", artist: "Sanxion7", channel: WORLD, bpm: "150",
@@ -163,7 +90,13 @@ var tracklist = {
 	Prime2: "@2.03 S8 S12 S17 D10 D14 S20 D19 D22",
 },
 
-// "1505":
+"1505":
+{
+	title: "Cross Over", artist: "HyuN", channel: ORIGINAL, bpm: "200",
+	altID: "15_Cross_Over",
+	Prime2: "@2.04 S7 S11 S15 D14 S18 S22 D19 D23",
+},
+
 // "1506":
 
 "1507":
@@ -186,7 +119,13 @@ var tracklist = {
 	Prime2: "S10 S18 S22 S24.ampass D14 D22 D25.ampass  @1.06 Dp3  @2.03 D17",
 },
 
-// "1510":
+"1510":
+{
+	title: "The Quick Brown Fox Jumps Over The Lazy Dog", artist: "Doin", channel: ORIGINAL, bpm: "200",
+	shortTitle: "The Quick Brown Fox",
+	altID: "15_The_Quick_Brown_Fox",
+	Prime2: "@2.05 S10 S17 D14 S20 S23 D24",
+},
 
 "1511":
 {
@@ -202,7 +141,13 @@ var tracklist = {
 	Prime2: "S7 S12 S17 D8 D19.ampass  @1.06 Dp5  @1.07 S19.ampass",
 },
 
-// "1513":
+"1513":
+{
+	title: "Break Out", artist: "Lunatic Sounds", channel: ORIGINAL, bpm: "175",
+	altID: "15_Break_Out",
+	Prime2: "@2.05 S4 S8 S12 S16 D12 S19 D18 D22",
+},
+
 // "1514":
 // "1515":
 
@@ -326,8 +271,19 @@ var tracklist = {
 	Prime2: "@2.03 S7 S10 S14 S16 D9 D13 D17 S19 D20",
 },
 
-// "1542":
-// "1543":
+"1542":
+{
+	title: "ESCAPE", artist: "D_AAN", channel: ORIGINAL, bpm: "220",
+	altID: "15_ESCAPE",
+	Prime2: "@2.05 S15 S18 D19 S21 S24 D22",
+},
+
+"1543":
+{
+	title: "Waltz of Doge", artist: "Cashew", channel: ORIGINAL, bpm: "250",
+	altID: "15_Waltz_of_Doge",
+	Prime2: "@2.04 S8 S11 S14 S17 D12 D18 S19 D20 CoOp(x2).ampass",
+},
 
 "1544":
 {
@@ -549,8 +505,19 @@ var tracklist = {
 	Prime2: "@1.03 S5 S9 S14 D11 D18 S18.ampass D20.ampass  @2.01 Dp4",
 },
 
-// "15A0":
-// "15A1":
+"15A0":
+{
+	title: "Black Dragon", artist: "Memme", channel: XROSS, bpm: "162",
+	altID: "15_Black_Dragon",
+	Prime2: "@2.04 S5 S8 S11 S17 D11 D17 S20 D19",
+},
+
+"15A1":
+{
+	title: "BSPower Explosion", artist: "Memme", channel: XROSS, bpm: "180",
+	altID: "15_BSPower_Explosion",
+	Prime2: "@2.05 S8 S11 S17 D13 S20 S22 D20 D23",
+},
 
 "15A2":
 {
@@ -572,7 +539,13 @@ var tracklist = {
 	Prime2: "@1.06 S6 S11 S16 D7 D13 S19.ampass D18.ampass  @2.01 Dp3",
 },
 
-// "15A5":
+"15A5":
+{
+	title: "Visual Dream II (In Fiction)", artist: "Aragon", channel: XROSS, bpm: "170",
+	shortTitle: "Visual Dream II",
+	altID: "15_Visual_Dream_II",
+	Prime2: "@2.05 S5 S8 S16 D10 S18 D19",
+},
 
 "15A6":
 {
@@ -634,7 +607,12 @@ var tracklist = {
 	Prime2: "@1.07 S8 S15 S18 D13 D20 S22 D24  @2.01 Dp4",
 },
 
-// "15B6":
+"15B6":
+{
+	title: "A Site De La Rue", artist: "STREME REVERIE", channel: XROSS, bpm: "186",
+	altID: "15_A_Site_De_La_Rue",
+	Prime2: "@2.04 S8 S11 S17 D12 S20 D20 D24",
+},
 
 "15B7":
 {
@@ -688,7 +666,13 @@ var tracklist = {
 },
 
 // "15D1":
-// "15D2":
+
+"15D2":
+{
+	title: "Shub Sothoth", artist: "Nato & EXC", channel: ORIGINAL, bpm: "220",
+	altID: "15_Shub_Sothoth",
+	Prime2: "@2.05 S25 D27",
+},
 
 "15D3":
 {
@@ -6893,7 +6877,9 @@ function ParseChartLevel( chart, chartText )
 	{
 		chart.levelText = levelSubst_Match[ 1 ];
 		chart.levelNum = Number( levelSubst_Match[ 2 ] );
-		console.assert( ! isNaN( chart.levelNum ) );
+		if( isNaN( chart.levelNum ) )
+			throw "Can't parse chart level of '" + chartText + "'";
+		//	//throw( new Error().stack );
 		return;
 	}
 
@@ -6909,14 +6895,17 @@ function ParseChartLevel( chart, chartText )
 		if( ! chart.shared.players )
 		{
 			chart.shared.players = Number( couple_Match[ 2 ] );
-			console.assert( ! isNaN( chart.shared.players ) );
+			//console.assert( ! isNaN( chart.shared.players ) );
+			if( isNaN( chart.shared.players ) )
+				throw "Can't parse couple number of players for " + chartText;
 		}
 		else
 			console.assert( chart.shared.players === Number( couple_Match[ 2 ] ) );
 		return;
 	}
 
-	console.assert( ! chartText.match( /(\d+)\s*\((.+)\)/ ) );
+	if( chartText.match( /(\d+)\s*\((.+)\)/ ) )
+		throw "Error in parsing " + chartText;
 
 	chart.levelText = chartText;
 	chart.levelNum = Number( chartText );
@@ -6980,8 +6969,8 @@ function PreprocessOldStyleStation( track, inCharts, zone, tags, oldSlotSharedCh
 		var chartType = chart.shared.players  ?  COUPLE  :  OldTagTypes[ i ];
 		if( ! chart.shared.type )
 			chart.shared.type = chartType;
-		else
-			console.assert( chart.shared.type == chartType );
+		else if( chart.shared.type !== chartType )
+			throw track.name + " chart " + chart.text + " type inconsistent with previous mixes";
 
 		chart.zone = zone;
 		result.push( chart );
@@ -7024,12 +7013,13 @@ function ParseNewStyleChart( track, chartText, sharedIndex )
 			var chartType = ( chart.shared.players  ?  COUPLE  :  ( prefix[0] === "S"  ?  SINGLE  :  DOUBLE ) );
 			if( ! chart.shared.type )
 				chart.shared.type = chartType;
-			else
-				console.assert( chart.shared.type === chartType );
+			else if( chart.shared.type !== chartType )
+				throw track.name + " chart " + chartText + " type inconsistent with previous mixes";
+				//console.assert( chart.shared.type === chartType );
 
 			return chart;
 		}
-	alert( "Unknown chart tag '" + chartText + "'" );
+	throw "Unknown chart tag '" + chartText + "'";
 }
 
 
@@ -7062,9 +7052,6 @@ function PreprocessNewStyleChart( track, result, chartDescr, mixID, patchIndex )
 		}
 
 		prevChart = FindChart( track, token );
-		if( ! prevChart )
-			alert( "Unknown prev chart '" + track.title + "  " + token + "'" );
-		console.assert( prevChart );
 		sharedIndex = prevChart.shared.index;
 	}
 
@@ -7081,8 +7068,10 @@ function PreprocessNewStyleChart( track, result, chartDescr, mixID, patchIndex )
 	if( chartIsUcs )
 		chart.isUCS = true;
 
-	if( chart && prevChart )
-		console.assert( ( prevChart.type === SINGLE ) === ( chart.type === SINGLE ) );
+	//if( chart && prevChart )
+	//	console.assert( ( prevChart.type === SINGLE ) === ( chart.type === SINGLE ) );
+	if( chart  &&  prevChart  &&  prevChart.type !== chart.type )
+		throw track.name + " chart " + chart.text + " type is not compatible with " + prevChart.text;
 
 	result.push( chart );
 
@@ -7097,11 +7086,7 @@ function RemoveNewStyleChart( track, mixID, chartText )
 {
 	var index = _.findIndex( track[ mixID ], function( item ) { return item.text === chartText; } );
 	if( index < 0)
-	{
-		console.log( "Can't find " + track.title + " " + chartText + " on " + mixID );
-		console.assert( index >= 0 );
-		return;
-	}
+		throw "Can't find " + track.title + " " + chartText + " on " + mixID;
 	track[ mixID ].splice( index, 1 );
 }
 
@@ -7137,11 +7122,7 @@ function ParsePatchIndex( mixID, patchName )
 {
 	var patchIndex = mixes[ mixID ].patches.indexOf( patchName );
 	if( patchIndex < 0 )
-	{
-		console.log( "ERROR: No patch " + patchName + " for " + mixID );
-		alert( "No patch " + patchName + " for " + mixID );
-		console.assert( false );
-	}
+		throw  "No patch " + patchName + " for " + mixID;
 	return patchIndex;
 }
 
@@ -7183,10 +7164,7 @@ function PreprocessNewStyleStringCharts( track, mixID )
 		}
 		else
 		{
-			var message = "Unrecognized '" + track.title + "' chart token :'" + token + "'";
-			console.log( "ERROR: " + message );
-			alert( message );
-			console.assert( false );
+			throw "Unrecognized '" + track.title + "' chart token :'" + token + "'";
 		}
 	}
 }
@@ -7238,7 +7216,7 @@ function PreprocessTrack( track )
 		track.duration = GuessDurationFromTitle( track.title );
 
 	if( ! track.artist )
-		console.error( "'" + track.title + "' has no artist specified." );
+		throw "'" + track.title + "' has no artist specified.";
 
 	if( ! track.channel )
 		track.channel = knownArtists[ track.artist ];
@@ -7246,10 +7224,10 @@ function PreprocessTrack( track )
 		console.warn( "'" + track.title + "' artist '" + track.artist + "' channel is already defined as '" + track.channel + "'" );
 
 	if( [ ORIGINAL, WORLD, KPOP, JMUSIC, XROSS ].indexOf( track.channel ) < 0 )
-		console.error( "'" + track.title + "' has no channel specified.")
+		throw "'" + track.title + "' has no channel specified.";
 
 	if( ! track.bpm )
-		console.error( "'" + track.title + "' has no bpm specified." );
+		throw "'" + track.title + "' has no bpm specified.";
 
 	track.chartsCount = 0;
 
@@ -7271,7 +7249,9 @@ function PreprocessTracklist()
 }
 
 
-PreprocessTracklist();
+//PreprocessTracklist();
+
+
 
 /*
 function PostprocessTracklist()
