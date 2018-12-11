@@ -7251,6 +7251,7 @@ function PreprocessTracklist()
 
 //PreprocessTracklist();
 
+initFuncs.push( PreprocessTracklist );
 
 
 /*

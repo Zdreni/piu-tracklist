@@ -82,11 +82,14 @@
 <script>
 try
 {
+	initTracklist();
+/*
 	PreprocessTracklist();
 	ApplyBPMs();
 	ApplyUnlocks();
 	ApplyLevelEstimations();
 	//ApplyTags();
+*/
 }
 catch( exc )
 {
@@ -96,8 +99,10 @@ catch( exc )
 AddRadioButtons( {
 	legend: "Mix:",  id: "Mix",
 	items: [
-		{ title: "Exceed"   }, { title: "Exceed2"  }, { title: "Zero"     }, { title: "NX"       }, { title: "NX2"      }, { title: "NXA"      },
-		{ title: "Fiesta"   }, { title: "FiestaEX" }, { title: "Fiesta2"  }, { title: "Prime"    }, { title: "Prime2"    },
+		{ title: "Exceed"   }, { title: "Exceed2"  }, { title: "Zero"     },
+		{ title: "NX"       }, { title: "NX2"      }, { title: "NXA"      },
+		{ title: "Fiesta"   }, { title: "FiestaEX" }, { title: "Fiesta2"  },
+		{ title: "Prime"    }, { title: "Prime2"   },
 	],
 
 	onSelect: function( item )
@@ -105,6 +110,7 @@ AddRadioButtons( {
 		$("#ChartType").show();
 		$("#ChartZone").toggle( mixes[ item.title ].style === "old" );
 		$("#TrackDuration").toggle( mixes[ item.title ].style === "new" );
+		$("#NotContent").toggle( mixes[ item.title ].style === "new" );
 
 		chartFilter.mixID = item.title;
 		var mixPatches = mixes[ chartFilter.mixID ].patches;
@@ -118,8 +124,10 @@ AddRadioButtons( {
 AddRadioButtons( {
 	legend: "Exclude mixes:",  id: "NotMix",
 	items: [
-		{ title: "Exceed"   }, { title: "Exceed2"  }, { title: "Zero"     }, { title: "NX"       }, { title: "NX2"      }, { title: "NXA"      },
-		{ title: "Fiesta"   }, { title: "FiestaEX" }, { title: "Fiesta2"  }, { title: "Prime"    }, { title: "Prime2"    },
+		{ title: "Exceed"   }, { title: "Exceed2"  }, { title: "Zero"     },
+		{ title: "NX"       }, { title: "NX2"      }, { title: "NXA"      },
+		{ title: "Fiesta"   }, { title: "FiestaEX" }, { title: "Fiesta2"  },
+		{ title: "Prime"    }, { title: "Prime2"    },
 	],
 	type: "checkbox",
 
@@ -147,6 +155,7 @@ AddRadioButtons( {
 	onSelect: function( item )
 	{
 		chartFilter.type = item.setType;
+
 		UpdateList();
 	}
 } );
@@ -167,6 +176,7 @@ AddRadioButtons( {
 	{
 		chartFilter.old.zone = item.setZone;
 		chartFilter.old.duration = item.setDuration;
+
 		UpdateList();
 	}
 } );
@@ -185,6 +195,24 @@ AddRadioButtons( {
 	onSelect: function( item )
 	{
 		chartFilter.new.duration = item.setDuration;
+
+		UpdateList();
+	}
+} );
+
+
+AddRadioButtons( {
+	hidden: true,  inline: true,
+	legend: "Exclude content:",  id: "NotContent",
+	items: [
+		{ title: "Common" }, { title: "Ampass" }, { title: "Unlock" }, { title: "Regional" }
+	],
+	type: "checkbox",
+
+	onToggle: function( item, checked )
+	{
+		chartFilter.excludeContent[item.title] = checked;
+
 		UpdateList();
 	}
 } );

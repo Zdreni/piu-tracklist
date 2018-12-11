@@ -385,3 +385,5 @@ function ApplyUnlocks()
 	//delete tempUnlockPatchIndex;
 	//delete tempCurrentMix;
 }
+
+initFuncs.push( ApplyUnlocks );

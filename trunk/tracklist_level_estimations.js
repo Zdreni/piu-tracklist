@@ -745,3 +745,5 @@ function ApplyLevelEstimations()
 {
 	ApplyPatch( tracklist, tracklistVotes );
 }
+
+initFuncs.push( ApplyLevelEstimations );

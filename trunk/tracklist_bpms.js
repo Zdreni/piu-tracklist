@@ -110,6 +110,9 @@ function ApplyBPMs()
 		SetChartBPM( item );
 }
 
+
+initFuncs.push( ApplyBPMs );
+
 /*
 
 

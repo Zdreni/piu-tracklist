@@ -115,11 +115,14 @@ errors = []
 
 try
 {
+	initTracklist();
+/*
 	PreprocessTracklist();
 	ApplyBPMs();
 	ApplyUnlocks();
 	ApplyLevelEstimations();
 	//ApplyTags();
+*/
 
 	for( var trackID in tracklist )
 		ConvertInnerDataToOutput( tracklist[ trackID ] );

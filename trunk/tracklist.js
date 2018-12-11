@@ -358,6 +358,7 @@ var chartFilter = {
 	levelMax: 26,
 
 	excludeMixIDs: [],
+	excludeContent: {},
 
 	useLevelEstimations: false,
 
@@ -405,6 +406,15 @@ var chartFilter = {
 				}
 
 				if( ! realLevelMatches  &&  ! levelMatches )
+					return;
+
+				if( chart.isAmpass  &&  chartFilter.excludeContent["Ampass"] )
+					return;
+
+				if( chart.unlockDescr  &&  chartFilter.excludeContent["Unlock"] )
+					return;
+
+				if( ! chart.isAmpass  &&  ! chart.unlockDescr  &&  chartFilter.excludeContent["Common"] )
 					return;
 			}
 
@@ -501,4 +511,11 @@ var chartFilter = {
 	}
 }
 
+var initFuncs = []
+
+function initTracklist()
+{
+	for( var f of initFuncs )
+		f();
+}
 //chartFilter.ReadSettings();
