@@ -132,9 +132,11 @@ var mixes =
 	'Prime2':   { style: "new",
 	              patches: ["1.00", "1.01", "1.02", "1.03", "1.04", "1.05", "1.06", "1.07", "1.08", "1.09", "1.10",
 	                        "2.00", "2.01", "2.02", "2.03", "2.04", "2.05"] },
+	'XX':       { style: "new",
+	              patches: ["1.00"] },
 };
 
-var mixesOrder = [ "Exceed", "Exceed2", "Zero", "NX", "NX2", "NXA", "Fiesta", "FiestaEX", "Fiesta2", "Prime", "Prime2" ];
+var mixesOrder = [ "Exceed", "Exceed2", "Zero", "NX", "NX2", "NXA", "Fiesta", "FiestaEX", "Fiesta2", "Prime", "Prime2", "XX" ];
 var firstNewMixIndex = mixesOrder.indexOf( "Fiesta" );
 var oldMixesReverseOrder = mixesOrder.slice(0, firstNewMixIndex ).reverse();  // NXA..Exceed
 var newMixesOrder = mixesOrder.slice( firstNewMixIndex );  // Fiesta..Prime
