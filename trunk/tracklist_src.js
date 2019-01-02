@@ -47,8 +47,9 @@ var tracklist = {
 "16_Kitty_Cat":
 {
 	title: "Kitty Cat", artist: "Coconut", channel: WORLD, bpm: "128",
-	sortingID: "", // altID: "",
-	//XX__: "= S: 01/03/05/14 D: 06/15 Co-op x2",
+	sortingID: "1209__1", // between Ladybug 1209 and Hardkore of the North 1212
+	// altID: "",
+	//XX: "S1 S3 S5 S14 D6 D15 CoOp(x2)",
 },
 
 /*
@@ -249,6 +250,7 @@ var tracklist = {
 	title: "Gargoyle  [FULL]", artist: "Sanxion7", channel: WORLD, bpm: "150",
 	sortingID: "15E5", // between Acquaintance FULL 15E4 and Chase Me FULL 15E7, not a Hush FULL 15E6  // altID: "",
 	//XX__: "= S: 20/21/23 D: 22/25 Co-op x2",
+	//XX: "=",
 	Prime2: "@2.04 S20 S21 D22 S23 D25 CoOp(x2).ampass",
 },
 
@@ -311,7 +313,8 @@ var tracklist = {
 	title: "The Quick Brown Fox Jumps Over The Lazy Dog", artist: "Doin", channel: ORIGINAL, bpm: "200",
 	shortTitle: "The Quick Brown Fox",
 	altID: "15_The_Quick_Brown_Fox",
-	//XX__: "= S: 10/16/19/23 D: 15/24",
+	//XX__: "= S10 S16 S19 S23  D15 D24",
+	//XX: "= S16.17 S19.20 D15.14",
 	Prime2: "@2.05 S10 S17 D14 S20 S23 D24",
 },
 
@@ -320,14 +323,16 @@ var tracklist = {
 	title: "Silver Beat feat. ChisaUezono", artist: "Tatsh", channel: ORIGINAL, bpm: "153",
 	shortTitle: "Silver Beat",
 	altID: "15_Silver_Beat",
-	//XX__: "= S: 04/07/12/16/18 D: 07/12/18",
+	//XX__: "= S4 S7 S12 S16 S18  D7 D12 D18",
+	//XX: "=",
 	Prime2: "@2.03 S4 S7 S12 S16 S18.ampass D7 D12 D18",
 },
 
 "1512":
 {
 	title: "Bring Back the Beat", artist: "Lunatic Sounds", channel: ORIGINAL, bpm: "160",
-	//XX__: "= S: 07/12/17/19 D: 08/19 DP: 05",
+	//XX__: "= S7 S12 S17 S19  D8 D19  Dp5",
+	//XX: "=",
 	Prime2: "S7 S12 S17 D8 D19.ampass  @1.06 Dp5  @1.07 S19.ampass",
 },
 
@@ -1946,7 +1951,8 @@ var tracklist = {
 "1301":
 {
 	title: "Pop the Track", artist: "J-Mi & Midi-D & Ft. Hanna Stockzell", channel: WORLD, bpm: "160",
-	//XX__: "= S: 02/07/09/16/18 D: 09/18/20 Co-op x2",
+	//XX__: "= S2 S7 S9 S16 S18  D9 D18 D20  Co-op x2",
+	//XX: "= S18.19",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S2 S7 S9 S16 D9 D18 Dp??(x2)  @1.40 S19  @1.60 D20",
@@ -1962,7 +1968,8 @@ var tracklist = {
 "1303":
 {
 	title: "Passacaglia", artist: "SynthWulf", channel: WORLD, bpm: "175",
-	//XX__: "= S: 04/07/10/17/19 D: 13/18/22/23",
+	//XX__: "= S4 S7 S11 S17 S19  D13 D18 D22 D23",
+	//XX: "= S11.10 S17.16 S19.20 D13.12 D18.17 D23.24",
 	Prime2: "=",
 	Prime: "= -S19",
 	Fiesta2: "S4 S7 S10 S16 D12 D17 D22  @1.01 S20  @1.50 S19  @1.60 D24",
@@ -1971,7 +1978,8 @@ var tracklist = {
 "1304":
 {
 	title: "Baroque Virus", artist: "Zircon", channel: WORLD, bpm: "135",
-	//XX__: "= S: 05/09/17 D: 11/18/20",
+	//XX__: "= S5 S9 S17  D11 D18 D20",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S5 S9 S17  D11 D18  @1.60 D20",
@@ -1980,7 +1988,8 @@ var tracklist = {
 "1305":
 {
 	title: "Elise", artist: "DM Ashura", channel: ORIGINAL, bpm: "162",
-	//XX__: "= S: 04/07/10/16/18/21 D: 12/17/23 Co-op x2",
+	//XX__: "= S4 S7 S10 S16 S18 S21  D12 D17 D23  Co-op x2",
+	//XX: "= S16.17 S18.19 S21.22 D12.13 D17.16",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S4 S7 S10 S17 S19 D13 D16 Dp??(x2)  @1.40 S22 D23",
@@ -1990,7 +1999,8 @@ var tracklist = {
 {
 	title: "Ignis Fatuus (DM Ashura Mix)", artist: "BanYa & DM Ashura", channel: ORIGINAL, bpm: "220",
 	shortTitle: "Ignis Fatuus",
-	//XX__: "= S: 10/15/19/22 D: 17/18/23/25 Co-op x2",
+	//XX__: "= S10 S15 S19 S22  D17 D18 D23 D25  Co-op x2",
+	//XX: "= S10.9 S22.23 D17.15 D18.19 -D17",
 	Prime2: "=",
 	Prime: "= -D24 -D26",
 	Fiesta2: "S9 S15 S19 S23 D15 D17 D19 D23 D25 Dp??(x2)  @1.50 D24 D26",
@@ -2000,7 +2010,8 @@ var tracklist = {
 {
 	title: "Love is a Danger Zone (Cranky Mix)", artist: "BanYa & Cranky", channel: ORIGINAL, bpm: "155",
 	shortTitle: "Love is a Danger Zone  (Cranky)",
-	//XX__: "= S: 06/13/17/20/21 D: 11/16/23/24 Co-op x2",
+	//XX__: "= S6 S13 S17 S20 S21  D11 D16 D20 D23  Co-op x2",
+	//XX: "= S13.12 S17.18 S21.22 D11.8 D23.24",
 	Prime2: "=",
 	Prime: "= -S19",
 	Fiesta2: "S6 S12 S20 D8 D16 Dp??(x2)  @1.01 D24  @1.40 S18  @1.50 S19  @1.60 S22 D20",
@@ -2010,7 +2021,8 @@ var tracklist = {
 {
 	title: "Hypnosis (SynthWulf Mix)", artist: "BanYa & SynthWulf", channel: ORIGINAL, bpm: "175",
 	shortTitle: "Hypnosis\n(SynthWulf Mix)",
-	//XX__: "= S: 11/13/17/20 D: 14/15/19",
+	//XX__: "= S11 S13 S17 S20  D14 D15 D19",
+	//XX: "= S11.8 S13.11 S20.21 D14.13 D19.20",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S8 S11 S17 S21 D13 D15  @1.01 D20",
@@ -2019,7 +2031,8 @@ var tracklist = {
 "1309":
 {
 	title: "Flew Far Faster", artist: "Doin", channel: ORIGINAL, bpm: "200",
-	//XX__: "= S: 11/18/22 D: 13/22/24 Co-op x3",
+	//XX__: "= S11 S18 S22  D13 D22 D24  Co-op x3",
+	//XX: "= S11.10 S18.17 S22.23 D13.12",
 	Prime2: "=",
 	Prime: "=  @1.14 D24",
 	Fiesta2: "S10 S17 S23 D22 Dp??(x3)  @1.01 D12",
@@ -2028,7 +2041,8 @@ var tracklist = {
 "1310":
 {
 	title: "Unique", artist: "SHK", channel: ORIGINAL, bpm: "145",
-	//XX__: "= S: 03/06/10/14/16 D: 12/16/18",
+	//XX__: "= S3 S6 S10 S14 S16  D12 D16 D18",
+	//XX: "= S14.15 S16.17 D18.19",
 	Prime2: "=",
 	Prime: "= -S16",
 	Fiesta2: "S3 S6 S10 S17 D12 D19  @1.40 S15 D16  @1.50 S16",
@@ -2037,7 +2051,8 @@ var tracklist = {
 "1311":
 {
 	title: "Accident", artist: "MAX", channel: ORIGINAL, bpm: "183",
-	//XX__: "= S: 04/07/11/18 D: 11/20",
+	//XX__: "= S4 S7 S11 S18  D11 D20",
+	//XX: "= S11.10 S18.19",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S4 S7 S10 S19 D11 D20",
@@ -2046,7 +2061,8 @@ var tracklist = {
 "1312":
 {
 	title: "D", artist: "MAX", channel: ORIGINAL, bpm: "180",
-	//XX__: "= S: 04/07/10/18 D: 12/18/20",
+	//XX__: "= S4 S7 S10 S18  D12 D18 D20",
+	//XX: "= S10.9 D12.11 D20.19",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S4 S7 S9 S18 D11 D19  @1.40 D18",
@@ -2055,7 +2071,8 @@ var tracklist = {
 "1313":
 {
 	title: "U Got Me Rocking", artist: "MAX", channel: ORIGINAL, bpm: "128",
-	//XX__: "= S: 03/06/08/17/18 D: 04/17 DP: 03",
+	//XX__: "= S3 S6 S8 S17 S18  D4 D17  Dp3",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S3 S6 S8 S17 D4 D17 Dp3  @1.01 S18",
@@ -2065,7 +2082,8 @@ var tracklist = {
 {
 	title: "Lucid (PIU Edit)", artist: "Yak Won", channel: ORIGINAL, bpm: "40 ~ 190",
 	shortTitle: "Lucid",
-	//XX__: "= S: 04/07/11/16/19 D: 11/20/23 Co-op x2",
+	//XX__: "= S4 S7 S11 S16 S19  D11 D20 D23  Co-op x2",
+	//XX: "= S11.10 S19.20",
 	Prime2: "=",
 	Prime: "=  @1.12 S16.ucs",
 	Fiesta2: "S4 S7 S10 S20 D11 D20 Dp??(x2)  @1.60 D23",
@@ -2242,7 +2260,8 @@ var tracklist = {
 "1338":
 {
 	title: "Log-In", artist: "SHK", channel: ORIGINAL, bpm: "140",
-	//XX__: "= S: 04/07/10/18/20 D: 10/19",
+	//XX__: "= S4 S7 S10 S18 S20  D10 D19",
+	//XX: "= S20.21 D19.20",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "@1.40 S4 S7 S10 S18 S21 D10 D20",
@@ -2251,7 +2270,8 @@ var tracklist = {
 "1339":
 {
 	title: "Windmill", artist: "Yak Won", channel: ORIGINAL, bpm: "246",
-	//XX__: "= S: 08/13/17/21 D: 14/18/23",
+	//XX__: "= S8 S13 S17 S21  D14 D18 D23",
+	//XX: "= D23.24",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "@1.40 S8 S13 S17 S21 D14 D18 D24",
@@ -2260,7 +2280,8 @@ var tracklist = {
 "1340":
 {
 	title: "Follow Me", artist: "SHK", channel: ORIGINAL, bpm: "155",
-	//XX__: "= S: 04/06/09/14/17 D: 09/17 Co-op x2",
+	//XX__: "= S4 S6 S9 S14 S17  D9 D17  Co-op x2",
+	//XX: "= D17.18",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "@1.60 S4 S6 S9 S14 S17 D9 D18 Dp??(x2)",
@@ -2269,7 +2290,8 @@ var tracklist = {
 "1341":
 {
 	title: "Yeo Rae A", artist: "S.I.D-Sound", channel: ORIGINAL, bpm: "90",
-	//XX__: "= S: 01/03/05/08/13 D: 07/10",
+	//XX__: "= S1 S3 S5 S8 S13  D7 D10",
+	//XX: "= D7.5 D10.12",
 	Prime2: "=",
 	Prime: "=  @1.06 S8",
 	Fiesta2: "@1.60 S1 S3 S5 S13 D5 D12",
@@ -2278,7 +2300,8 @@ var tracklist = {
 "1390":
 {
 	title: "Mental Rider", artist: "SQUAR", channel: ORIGINAL, bpm: "120 ~ 140",
-	//XX__: "= S: 13/16/21 D: 13/19/22/24",
+	//XX__: "= S13 S16 S21  D13 D19 D22 D24",
+	//XX: "= S13.12 D24.23",
 	Prime2: "=  @2.05 D22",
 	Prime: "=",
 	Fiesta2: "@1.50 S12 S16 S21 D13 D19 D23",
@@ -2301,7 +2324,8 @@ var tracklist = {
 "13A2":
 {
 	title: "Infinity RMX", artist: "SynthWulf & MAX", channel: ORIGINAL, bpm: "175", duration: REMIX,
-	//XX__: "= S: 20 D: 19",
+	//XX__: "= S20  D19",
+	//XX: "= D19.20",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S20 D20",
@@ -2310,7 +2334,8 @@ var tracklist = {
 "13A3":
 {
 	title: "What Are You Doin'?", artist: "Doin & MAX", channel: ORIGINAL, bpm: "200", duration: REMIX,
-	//XX__: "= S: 18 D: 23",
+	//XX__: "= S18 D23",
+	//XX: "= S18.19 D23.24",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S19 D24",
@@ -2365,7 +2390,8 @@ var tracklist = {
 "13E0":
 {
 	title: "Pop the Track  [SHORT]", artist: "J-Mi & Midi-D & Ft. Hanna Stockzell", channel: WORLD, bpm: "160",
-	//XX__: "= S: 18 D: 16",
+	//XX__: "= S18  D16",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S18 D16",
@@ -2374,7 +2400,8 @@ var tracklist = {
 "13E1":
 {
 	title: "Passacaglia  [SHORT]", artist: "SynthWulf", channel: WORLD, bpm: "175",
-	//XX__: "= S: 17 D: 18",
+	//XX__: "= S17  D18",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S17 D18",
@@ -2384,7 +2411,8 @@ var tracklist = {
 {
 	title: "Ignis Fatuus (DM Ashura Mix)  [SHORT]", artist: "DM Ashura", channel: ORIGINAL, bpm: "220",
 	shortTitle: "Ignis Fatuus",
-	//XX__: "= S: 21 D: 21",
+	//XX__: "= S21 D21",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S21 D21",
@@ -2393,7 +2421,8 @@ var tracklist = {
 "13E3":
 {
 	title: "Flew Far Faster  [SHORT]", artist: "Doin", channel: ORIGINAL, bpm: "200",
-	//XX__: "= S: 18 D: 21",
+	//XX__: "= S18 D21",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S18 D21",
@@ -2402,7 +2431,8 @@ var tracklist = {
 "13E4":
 {
 	title: "Unique  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "145",
-	//XX__: "= S: 18 D: 16",
+	//XX__: "= S18 D16",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S18 D16",
@@ -2411,7 +2441,8 @@ var tracklist = {
 "13E5":
 {
 	title: "U Got Me Rocking  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "128",
-	//XX__: "= S: 17 D: 17",
+	//XX__: "= S17 D17",
+	//XX__: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S17 D17",
@@ -2423,7 +2454,8 @@ var tracklist = {
 "1201":
 {
 	title: "Monolith", artist: "Affinity", channel: WORLD, bpm: "196",
-	//XX__: "= S: 03/05/09/15 D: 14/17/22",
+	//XX__: "= S3 S5 S9 S15  D14 D17 D22",
+	//XX: "= S15.16 D14.13 D17.18 D22.23",
 	Prime2: "=  @1.10 D23",
 	Prime: "=",
 	Fiesta2: "S3 S5 S9  @1.50 D13   @1.60 S16 D18",
@@ -2456,7 +2488,8 @@ var tracklist = {
 "1209":
 {
 	title: "Ladybug", artist: "Coconut", channel: WORLD, bpm: "133",
-	//XX__: "= S: 01/03/05/13 D: 13 Co-op x2",
+	//XX__: "= S1 S3 S5 S13  D13  Co-op x2",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S1 S3 S5  @1.50 S13 D13 Dp??(x2)",
@@ -2465,7 +2498,8 @@ var tracklist = {
 "1212":
 {
 	title: "Hardkore of the North", artist: "Diclonius Kid", channel: WORLD, bpm: "190",
-	//XX__: "= S: 04/07/11/21 D: 15/22",
+	//XX__: "= S4 S7 S11 S21  D15 D22",
+	//XX: "= D15.16 D22.23",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S4 S7 S11  @1.50 S21 D16  @1.60 D23",
@@ -2482,7 +2516,8 @@ var tracklist = {
 "1219":
 {
 	title: "Tribe Attacker", artist: "Hi-G", channel: WORLD, bpm: "150",
-	//XX__: "= S: 03/06/09/17 D: 10/17 Co-op x4",
+	//XX__: "= S3 S6 S9 S17  D10 D17  Co-op x4",
+	//XX: "= S17.16 D17.15",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S3 S6 S9  @1.50 S16 D10 D15 Dp??(x4)",
@@ -2524,7 +2559,8 @@ var tracklist = {
 {
 	sortingID: "1300__1",  // before any of 13xx charts
 	title: "Dream to Nightmare", artist: "Nightmare", channel: WORLD, bpm: "178",
-	//XX__: "= S: 19/21 D: 22/23",
+	//XX__: "= S19 S21  D22 D23",
+	//XX: "= -S22 D23.24",
 	Prime2: "=",
 	Prime: "= -S23  @1.19 S22",
 	Fiesta2: "@1.30 S19 S21 S23 D22 D24",
@@ -2541,7 +2577,8 @@ var tracklist = {
 "1235":
 {
 	title: "Utopia", artist: "Smiley", channel: WORLD, bpm: "166",
-	//XX__: "= S: 04/07/09/17 D: 09/18",
+	//XX__: "= S4 S7 S9 S17  D9 D18",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S4 S7 S9 S17 D9 D18",
@@ -2550,7 +2587,8 @@ var tracklist = {
 "1236":
 {
 	title: "Xuxa", artist: "Smiley", channel: WORLD, bpm: "160",
-	//XX__: "= S: 03/05/09/14 D: 12/18 Co-op x2",
+	//XX__: "= S3 S5 S9 S14  D12 D17 Co-op x2",
+	//XX: "= D17.18",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "@1.20 S3 S5 S9 S14 D12 D18 Dp??(x2)",
@@ -2569,7 +2607,8 @@ var tracklist = {
 {
 	sortingID: "1300__2",  // before any of 13xx charts, after DtN
 	title: "VVV", artist: "Zig Zag", channel: WORLD, bpm: "310",
-	//XX__: "= S: 18/23 D: 17/19",
+	//XX__: "= S18 S23  D17 D19",
+	//XX: "= D17.16",
 	Prime2: "=",
 	Prime: "= -D24",
 	Fiesta2: "@1.50 S18 S23 D16 D19 D24",
@@ -2578,7 +2617,8 @@ var tracklist = {
 "1241":
 {
 	title: "Star Command", artist: "Zircon", channel: WORLD, bpm: "155",
-	//XX__: "= S: 03/05/12/15/19 D: 15/21/23",
+	//XX__: "= S3 S5 S12 S15 S19  D15 D21 D23",
+	//XX: "= D15.14",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S3 S5 S12  @1.50 S15 S19 D14 D21  @1.60 D23",
@@ -2590,7 +2630,8 @@ var tracklist = {
 "1101":
 {
 	title: "Cleaner", artist: "Doin", channel: ORIGINAL, bpm: "203",
-	//XX__: "= S: 04/07/12/17/21/23 D: 20/25/26",
+	//XX__: "= S4 S7 S12 S17 S21 S23  D20 D25 D26",
+	//XX: "= S17.18 S21.22 D25.24",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -2600,7 +2641,8 @@ var tracklist = {
 "1102":
 {
 	title: "Interference", artist: "Doin", channel: ORIGINAL, bpm: "180.4",
-	//XX__: "= S: 11/18 D: 12/18/22 SP: 02 DP: 03",
+	//XX__: "= S11 S18  D12 D18 D22  Sp2  Dp3",
+	//XX: "= D18.19 D22.21",
 	Prime2: "=",
 	Prime: "=  @1.05 D21",
 	Fiesta2: "=",
@@ -2610,7 +2652,8 @@ var tracklist = {
 "1103":
 {
 	title: "Reality", artist: "SHK", channel: ORIGINAL, bpm: "135",
-	//XX__: "= S: 03/06/08/15/17 D: 04/15 SP: 04 DP: 02",
+	//XX__: "= S3 S6 S8 S15 S17  D4 D15  Sp4  Dp2",
+	//XX: "= S15.14",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -2620,7 +2663,8 @@ var tracklist = {
 "1104":
 {
 	title: "Take Out", artist: "SHK", channel: ORIGINAL, bpm: "170",
-	//XX__: "= S: 04/07/11/17/20 D: 13/19/22/23 Co-op x 3",
+	//XX__: "= S4 S7 S11 S17 S20  D13 D19 D22 D23  Co-op x3",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -2630,7 +2674,8 @@ var tracklist = {
 "1105":
 {
 	title: "Butterfly", artist: "MAX & Rorychesell (SID-SOUND)", channel: ORIGINAL, bpm: "128",
-	//XX__: "= S: 03/06/08/13/16 D: 07/17 SP: 02 DP: 03",
+	//XX__: "= S3 S6 S8 S13 S16  D7 D17  Sp2  Dp3",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -2640,7 +2685,8 @@ var tracklist = {
 "1106":
 {
 	title: "Overblow", artist: "MAX", channel: ORIGINAL, bpm: "155",
-	//XX__: "= S: 04//7/10/16/18/20 D: 12/18/19 SP: 03 DP: 03 Co-op x 2",
+	//XX__: "= S4 S7 S10 S16 S18 S20  D12 D18 D19  Sp3  Dp3  Co-op x2",
+	//XX: "= D19.20 Sp3.2",
 	Prime2: "=",
 	Prime: "=  @1.11 Dp??(x2)",
 	Fiesta2: "=",
@@ -2650,7 +2696,8 @@ var tracklist = {
 "1107":
 {
 	title: "We Got 2 Know", artist: "MAX", channel: ORIGINAL, bpm: "128",
-	//XX__: "= S: 01/05/08/17/20 D: 04/18 SP: 02 DP: 03 Co-op x  3 ",
+	//XX__: "= S1 S5 S8 S17 S20  D4 D18  Sp2  Dp3  Co-op x3",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -2749,7 +2796,8 @@ var tracklist = {
 "1120":
 {
 	title: "What Happened", artist: "Throwdown", channel: WORLD, bpm: "130",
-	//XX__: "= S: 03/07/12/17/21 D: 20/23",
+	//XX__: "= S3 S7 S12 S17 S21  D20 D23",
+	//XX: "= S21.20",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -2759,7 +2807,8 @@ var tracklist = {
 "1121":
 {
 	title: "Gargoyle", artist: "Sanxion7", channel: WORLD, bpm: "150",
-	//XX__: "= S: 04/07/09/18/22 D: 12/20/23  SP: 02",
+	//XX__: "= S4 S7 S9 S18 S22  D12 D20 D23  Sp2",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=  @1.60 S22",
@@ -2769,7 +2818,8 @@ var tracklist = {
 "1122":
 {
 	title: "Allegro Con Fuoco", artist: "DM Ashura", channel: WORLD, bpm: "156",
-	//XX__: "= S: 04/07/10/17/22 D: 09/18/23 SP: 01  DP: 06",
+	//XX__: "= S4 S7 S10 S17 S22  D9 D18 D23  Sp1  Dp6",
+	//XX: "= S10.11",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=  @1.60 S22",
@@ -2779,7 +2829,8 @@ var tracklist = {
 "1123":
 {
 	title: "Hungarian Dance V", artist: "BanYa Production", bpm: "145",
-	//XX__: "= S: 04/06/08/17/18 D: 09/17 SP: 02 ",
+	//XX__: "= S4 S6 S8 S17 S18  D9 D17  Sp2",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -2789,7 +2840,8 @@ var tracklist = {
 "1124":
 {
 	title: "The Devil", artist: "BanYa Production", bpm: "130 ~ 240",
-	//XX__: "= S: 04/06/09/12/19 D: 14/20 Co-op x 2 ",
+	//XX__: "= S4 S6 S9 S12 S19  D14 D20  Co-op x2",
+	//XX: "= S19.20 D14.13 D20.21",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -2799,7 +2851,8 @@ var tracklist = {
 "1125":
 {
 	title: "X-Rave", artist: "DM Ashura", channel: WORLD, bpm: "147",
-	//XX__: "= S: 03/06/09/17 D: 11/20 SP: 02 DP: 06",
+	//XX__: "= S3 S6 S9 S17  D11 D20  Sp2  Dp6",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -2809,7 +2862,8 @@ var tracklist = {
 "1126":
 {
 	title: "Native", artist: "SHK", channel: ORIGINAL, bpm: "135",
-	//XX__: "= S: 03/05/09/17/20 D: 10/18 SP: 02 DP: 03 ",
+	//XX__: "= S3 S5 S9 S17 S20  D10 D18  Sp2  Dp3",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -2819,7 +2873,8 @@ var tracklist = {
 "1127":
 {
 	title: "Smells Like a Chocolate", artist: "Vospi", channel: WORLD, bpm: "175.9",
-	//XX__: "= S: 04/06/09/16 D: 12/17 SP: 01 DP: 03",
+	//XX__: "= S4 S6 S9 S16  D12 D17  Sp1  Dp3",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -2829,7 +2884,8 @@ var tracklist = {
 "1128":
 {
 	title: "Necromancy", artist: "Zircon", channel: WORLD, bpm: "173",
-	//XX__: "= S: 04/07/10/18/20 D: 14/19/23 SP: 02 DP: 03",
+	//XX__: "= S4 S7 S10 S18 S20  D14 D19 D23  Sp2  Dp3",
+	//XX: "= D14.13 D23.24",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -2853,7 +2909,8 @@ var tracklist = {
 "1131":
 {
 	title: "Vacuum Cleaner", artist: "Doin", channel: ORIGINAL, bpm: "222.22", duration: REMIX,
-	//XX__: "= S: 15/20/25 D: 20/27 ",
+	//XX__: "= S15 S20 S25  D20 D27",
+	//XX: "= ",
 	Prime2: "=",
 	Prime: "=  @1.19 D20",
 	Fiesta2: "=",
@@ -2863,7 +2920,8 @@ var tracklist = {
 "1132":
 {
 	title: "Everybody Got 2 Know", artist: "MAX", channel: ORIGINAL, bpm: "128", duration: REMIX,
-	//XX__: "= S: 19 D: 18 ",
+	//XX__: "= S19  D18",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "= -S??",
 	Fiesta2: "=",
@@ -2873,7 +2931,8 @@ var tracklist = {
 "1135":
 {
 	title: "Interference  [FULL]", artist: "Doin", channel: ORIGINAL, bpm: "180",
-	//XX__: "= S: 18 D: 15/18",
+	//XX__: "= S18  D15 D18",
+	//XX__: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -2943,7 +3002,8 @@ var tracklist = {
 "1145":
 {
 	title: "Trotpris  [SHORT]", artist: "Doin", channel: ORIGINAL, bpm: "156.118",
-	//XX__: "= S: 14 D: 14",
+	//XX__: "= S14  D14",
+	//XX: "= D14.15",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -2953,7 +3013,8 @@ var tracklist = {
 "1146":
 {
 	title: "Cleaner  [SHORT]", artist: "Doin", channel: ORIGINAL, bpm: "203",
-	//XX__: "= S: 21 D: 22",
+	//XX__: "= S21  D22",
+	//XX: "= D22.20",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -2963,7 +3024,8 @@ var tracklist = {
 "1147":
 {
 	title: "Take Out  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "170",
-	//XX__: "= S: 18 D: 19",
+	//XX__: "= S18  D19",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -2973,7 +3035,8 @@ var tracklist = {
 "1148":
 {
 	title: "Overblow  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "155",
-	//XX__: "= S: 18 D: 17",
+	//XX__: "= S18  D17",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -2983,7 +3046,8 @@ var tracklist = {
 "1149":
 {
 	title: "X-Rave  [SHORT]", artist: "DM Ashura", channel: WORLD, bpm: "147",
-	//XX__: "= S: 16 D: 18",
+	//XX__: "= S16  D18",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -2993,7 +3057,8 @@ var tracklist = {
 "1152":
 {
 	title: "Pavane", artist: "V.A.", channel: ORIGINAL, bpm: "160",
-	//XX__: "= S: 03/06/10/17 D: 17/22 SP: 02 ",
+	//XX__: "= S3 S6 S10 S17  D17 D22  Sp2",
+	//XX: "= D17.16",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3003,7 +3068,8 @@ var tracklist = {
 "1153":
 {
 	title: "Pine Nut", artist: "Doin", channel: ORIGINAL, bpm: "200",
-	//XX__: "= S: 13/20 D: 16",
+	//XX__: "= S13 S20  D16",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3013,7 +3079,8 @@ var tracklist = {
 "1154":
 {
 	title: "ASDF", artist: "Doin", channel: ORIGINAL, bpm: "170",
-	//XX__: "= S: 09/17 D: 10/17 ",
+	//XX__: "= S9 S17  D10 D17",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3032,7 +3099,8 @@ var tracklist = {
 "1160":
 {
 	title: "Jonathan's Dream", artist: "MAX & Seorryang (SID-SOUND)", channel: ORIGINAL, bpm: "140",
-	//XX__: "= S: 08/16 D: 10/15",
+	//XX__: "= S8 S16  D10 D15",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "= -D18",
 	Fiesta2: "=  @1.50 D18",
@@ -3045,7 +3113,8 @@ var tracklist = {
 "1001":
 {
 	title: "X-Tree", artist: "Yahpp", bpm: "190",
-	//XX__: "= S: 02/07/12/20 D:15/19/22 SP: 02 DP: 03",
+	//XX__: "= S2 S7 S12 S20  D15 D19 D22  Sp2  Dp3",
+	//XX: "= S2.3 D15.14 D19.18",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3056,7 +3125,8 @@ var tracklist = {
 "1002":
 {
 	title: "Sorceress Elise", artist: "Yahpp", bpm: "158",
-	//XX__: "= S: 04/06/08/10/17/18/21/23 D: 8/17/24 Co-op x 2",
+	//XX__: "= S4 S6 S8 S10 S17 S18 S21 S23  D8 D17 D24  Co-op x2",
+	//XX: "= S17.15",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3067,7 +3137,8 @@ var tracklist = {
 "1003":
 {
 	title: "Betrayer -Act. 2-", artist: "msgoon", channel: ORIGINAL, bpm: "92",
-	//XX__: "= S: 04/6/10 D: 15 SP: 03 DP: 03",
+	//XX__: "= S4 S6 S10  D15  Sp3  Dp3",
+	//XX: "=",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=  @1.51 D15",
@@ -3109,7 +3180,8 @@ var tracklist = {
 "1008":
 {
 	title: "U Got 2 Know", artist: "MAX", channel: ORIGINAL, bpm: "127",
-	//XX__: "= S: 02/07/08/17/19/20 D: 18 SP: 02 DP: 04",
+	//XX__: "= S2 S7 S8 S17 S19 S20  D18  Sp2  Dp4",
+	//XX: "= S19.18 S20.19",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3153,7 +3225,8 @@ var tracklist = {
 "1013":
 {
 	title: "Destination", artist: "SHK", channel: ORIGINAL, bpm: "150",
-	//XX__: "= S: 04/07/12/17/19/20 D: 14/20 DP: 05",
+	//XX__: "= S4 S7 S12 S17 S19 S20  D14 D20  Dp5",
+	XX: "= S12.11 S17.16 S19.18 S20.19 D14.13",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3188,7 +3261,8 @@ var tracklist = {
 "1017":
 {
 	title: "Vacuum", artist: "Doin", channel: ORIGINAL, bpm: "200",
-	//XX__: "= S: 19/21/23 D: 21/25 DP: 03 ",
+	//XX__: "= S19 S21 S23  D21 D25  Dp3",
+	//XX: "= D21.22",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=  @1.60 S19",
@@ -3225,7 +3299,8 @@ var tracklist = {
 "1021":
 {
 	title: "Do It -Reggae Style-", artist: "BanYa Production", bpm: "96",
-	//XX__: "= S: 13 D: 15 SP: 04 DP: 05",
+	//XX__: "= S13  D15  Sp4  Dp5",
+	//XX: "=",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -3235,7 +3310,8 @@ var tracklist = {
 "1022":
 {
 	title: "Xenesis", artist: "BanYa Production", bpm: "152",
-	//XX__: "= S: 04/07/10/18 D: 12/15/18 SP: 01",
+	//XX__: "= S4 S7 S10 S18  D12 D15 D18  Sp1",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3246,7 +3322,8 @@ var tracklist = {
 "1023":
 {
 	title: "Arirang", artist: "BanYa Production", bpm: "160",
-	//XX__: "= S: 11/19/22 D: 12/21 DP: 02",
+	//XX__: "= S11 S19 S22  D12 D21  Dp2",
+	//XX: "= S11.9 S19.18 D12.10 D21.20",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3257,7 +3334,8 @@ var tracklist = {
 "1024":
 {
 	title: "Tek -Club Copenhagen-", artist: "BanYa Production", bpm: "132",
-	//XX__: "= S: 03/05/16/17 D: 17 SP: 05 DP: 04",
+	//XX__: "= S3 S5 S16 S17  D17  Sp5  Dp4",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3268,7 +3346,8 @@ var tracklist = {
 "1025":
 {
 	title: "Hello William", artist: "BanYa Production", bpm: "170",
-	//XX__: "= S: 04/06/09/17/19 D: 09/20",
+	//XX__: "= S4 S6 S9 S17 S19  D9 D20",
+	//XX__: "= D20.21",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3280,7 +3359,8 @@ var tracklist = {
 {
 	title: "Turkey March -Minimal Tunes-", artist: "BanYa Production", bpm: "130",
 	shortTitle: "Turkey March -Minimal-",
-	//XX__: "= S: 03/06/10/17 D: 11/18 DP: 01 ",
+	//XX__: "= S3 S6 S10 S17  D11 D18  Dp1",
+	//XX: "= S10.8 D11.10",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3291,7 +3371,8 @@ var tracklist = {
 "1027":
 {
 	title: "Get Up (and Go)", artist: "BanYa Production", bpm: "164",
-	//XX__: "= S: 04/07/10/17 D: 11/19 DP: 03",
+	//XX__: "= S4 S7 S10 S17  D11 D19  Dp3",
+	//XX: "= D19.20",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3302,7 +3383,8 @@ var tracklist = {
 "1028":
 {
 	title: "Phantom -Intermezzo-", artist: "BanYa Production", bpm: "140",
-	//XX__: "= S: 03/07/12/15/19/22 D: 17/19/21 DP: 03",
+	//XX__: "= S3 S7 S12 S15 S19 S22  D17 D19 D21  Dp3",
+	//XX: "= S22.21 D17.15 D21.20",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3313,7 +3395,8 @@ var tracklist = {
 "1029":
 {
 	title: "Mission Possible -Blowback-", artist: "BanYa Production", bpm: "128",
-	//XX__: "= S: 19 D: 18 SP: 03 DP: 05",
+	//XX__: "= S19  D18  Sp3  Dp5",
+	//XX: "= S19.18 D18.17",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -3323,7 +3406,8 @@ var tracklist = {
 "1030":
 {
 	title: "Pumping Jumping", artist: "BanYa Production", bpm: "116",
-	//XX__: "= S: 01/04/05/13/15/17/19 D: 6/17 SP: 04 DP: 05/06",
+	//XX__: "= S1 S4 S5 S13 S15 S17 S19  D6 D17  Sp4  Dp5 Dp6",
+	//XX: "= S4.3",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "= S19",
@@ -3333,7 +3417,8 @@ var tracklist = {
 "1031":
 {
 	title: "B.P Classic Remix", artist: "BanYa Production", bpm: "164", duration: REMIX,
-	//XX__: "= S: 12/18 D: 14/19",
+	//XX__: "= S12 S18  D14 D19",
+	//XX: "= D14.13",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3352,7 +3437,8 @@ var tracklist = {
 "1033":
 {
 	title: "PaPa Helloizing", artist: "BanYa Production", bpm: "145 ~ 158", duration: REMIX,
-	//XX__: "= S: 08/19",
+	//XX__: "= S8 S19",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3363,7 +3449,8 @@ var tracklist = {
 "1034":
 {
 	title: "B.P Classic Remix 2", artist: "BanYa Production", bpm: "180", duration: REMIX,
-	//XX__: "= S: 11/18",
+	//XX__: "= S11 S18",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3394,7 +3481,8 @@ var tracklist = {
 "1037":
 {
 	title: "Set Up Me2 Mix", artist: "BanYa Production", bpm: "122", duration: REMIX,
-	//XX__: "= S: 17",
+	//XX__: "= S17",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3414,7 +3502,8 @@ var tracklist = {
 "1039":
 {
 	title: "msgoon RMX pt. 6", artist: "msgoon", channel: ORIGINAL, bpm: "150", duration: REMIX,
-	//XX__: "= S: 21 D: 20",
+	//XX__: "= S21  D20",
+	//XX: "= S21.20 D20.19",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3494,7 +3583,8 @@ var tracklist = {
 "1048":
 {
 	title: "Final Audition 2  [SHORT]", artist: "BanYa", bpm: "130",
-	//XX__: "= S: 17 D: 18",
+	//XX__: "= S17  D18",
+	//XX: "= S17.16 D18.17",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3505,7 +3595,8 @@ var tracklist = {
 "1049":
 {
 	title: "Final Audition 3 U.F  [SHORT]", artist: "BanYa", bpm: "130.5",
-	//XX__: "= S: 18 D: 16",
+	//XX__: "= S18  D16",
+	//XX: "= S18.17",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3516,7 +3607,8 @@ var tracklist = {
 "1050":
 {
 	title: "Final Audition episode 2-X  [SHORT]", artist: "Yahpp", bpm: "170",
-	//XX__: "= S: 20 D: 20",
+	//XX__: "= S20  D20",
+	//XX: "= D20.19",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3524,21 +3616,11 @@ var tracklist = {
 	Fiesta: "D19",
 },
 
-"1061":
-{
-	title: "K.O.A : Alice in Wonderworld  [SHORT]", artist: "BanYa Production", bpm: "156",
-	//XX__: "= S: 08/16 D: 18",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "= D18",
-	Fiesta: "S8 S16",
-},
-
 "1051":
 {
 	title: "Love is a Danger Zone  [SHORT]", artist: "BanYa", bpm: "140",
-	//XX__: "= S: 13/20 D: 17",
+	//XX__: "= S13 S20  D17",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3549,7 +3631,8 @@ var tracklist = {
 "1052":
 {
 	title: "Love is a Danger Zone 2  [SHORT]", artist: "BanYa", bpm: "162",
-	//XX__: "= S: 08/19 D: 22",
+	//XX__: "= S8 S19  D22",
+	//XX: "= D22.21",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3560,7 +3643,8 @@ var tracklist = {
 "1053":
 {
 	title: "Extravaganza  [SHORT]", artist: "BanYa", bpm: "195",
-	//XX__: "= S: 15 D: 15/22 SP: 15",
+	//XX__: "= S15  D15 D22  SP15",
+	//XX: "= S15.14 D15.14 D22.21",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3571,7 +3655,8 @@ var tracklist = {
 "1054":
 {
 	title: "Chicken Wing  [SHORT]", artist: "BanYa", bpm: "200",
-	//XX__: "= S: 20 D: 14",
+	//XX__: "= S20  D14",
+	//XX: "= D14.13",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3582,7 +3667,8 @@ var tracklist = {
 "1055":
 {
 	title: "Winter  [SHORT]", artist: "BanYa", bpm: "168",
-	//XX__: "= S: 06/09/16 D: 10/17",
+	//XX__: "= S6 S9 S16  D10 D17",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3593,7 +3679,8 @@ var tracklist = {
 "1056":
 {
 	title: "Solitary 2  [SHORT]", artist: "BanYa", bpm: "136",
-	//XX__: "= S: 18 D: 17",
+	//XX__: "= S18  D17",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3604,7 +3691,8 @@ var tracklist = {
 "1057":
 {
 	title: "Moonlight  [SHORT]", artist: "BanYa", bpm: "180",
-	//XX__: "= S: 15/19 D: 20",
+	//XX__: "= S15 S19  D20",
+	//XX: "= S15.16 S19.18",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3615,7 +3703,8 @@ var tracklist = {
 "1058":
 {
 	title: "Witch Doctor  [SHORT]", artist: "BanYa", bpm: "195",
-	//XX__: "= S: 14/20 D: 17",
+	//XX__: "= S14 S20  D17",
+	//XX: "= D17.16",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3626,7 +3715,8 @@ var tracklist = {
 "1059":
 {
 	title: "Exceed 2 Opening", artist: "BanYa Production", bpm: "178", duration: SHORT, fromMix: "Fiesta",
-	//XX__: "= S: 15 D: 18",
+	//XX__: "= S15  D18",
+	//XX: "= D18.19",
 	Prime2: "=",
 	Prime: "= -D??(x9)",
 	Fiesta2: "=",
@@ -3638,7 +3728,8 @@ var tracklist = {
 "1060":
 {
 	title: "NX Opening", artist: "Yahpp", bpm: "133", duration: SHORT,
-	//XX__: "= S: 16 D: 17 ",
+	//XX__: "= S16  D17",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3646,10 +3737,23 @@ var tracklist = {
 	Fiesta: "S16 D17",
 },
 
+"1061":
+{
+	title: "K.O.A : Alice in Wonderworld  [SHORT]", artist: "BanYa Production", bpm: "156",
+	//XX__: "= S8 S16  D18",
+	//XX: "=",
+	Prime2: "=",
+	Prime: "=",
+	Fiesta2: "=",
+	FiestaEX: "= D18",
+	Fiesta: "S8 S16",
+},
+
 "1062":
 {
 	title: "Bemera  [SHORT]", artist: "Yahpp", bpm: "210",
-	//XX__: "= S: 14/21/23 D:19",
+	//XX__: "= S14 S21 S23  D19",
+	//XX: "= S14.13",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3661,7 +3765,8 @@ var tracklist = {
 {
 	title: "Pumptris (8Bit ver.)  [SHORT]", artist: "Yahpp", bpm: "162",
 	shortTitle: "Pumptris (8Bit)",
-	//XX__: "= S: 08/16 D: 22",
+	//XX__: "= S8 S16  D22",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3672,7 +3777,8 @@ var tracklist = {
 "1064":
 {
 	title: "Destination  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "150",
-	//XX__: "= S: 09/15 D: 19/20",
+	//XX__: "= S9 S15  D19 D20",
+	//XX: "= D19.18",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3694,7 +3800,8 @@ var tracklist = {
 "1094":
 {
 	title: "Tepris", artist: "Doin", channel: ORIGINAL, bpm: "145",
-	//XX__: "= S: 2/4/7/17 D: 09/19 Co-op x 2",
+	//XX__: "= S2 S4 S7 S17  D9 D19  Co-op x2",
+	//XX: "= S17.16 D19.18",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -3705,7 +3812,8 @@ var tracklist = {
 "1095":
 {
 	title: "Napalm", artist: "Doin", channel: ORIGINAL, bpm: "185",
-	//XX__: "= S: 14/19/21 D: 15/22",
+	//XX__: "= S14 S19 S21  D15 D22",
+	//XX: "= S14.13 S21.22 D15.14 D22.23",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6257,12 +6365,13 @@ var tracklist = {
 "911":
 {
 	title: "Chicken Wing", artist: "BanYa", bpm: "200", fromMix: "Extra",
-	//XX__: "= S: 04/06/09/11/17/20/21 D: 13/17/22",
+	//XX__: "= S4 S6 S9 S11 S17 S20 S21  D13 D17 D22",
+	//XX: "= S11.10 S20.19 D13.11 D22.23",
 	Prime2: "= -S22",
 	Prime: "=  @1.17 S21.ucs S22.ucs D23.ucs",
 	Fiesta2: "=  @1.60 S17",
 	FiestaEX: "=  @1.51 S4 S6 S9 D17",
-	Fiesta: "S10.cz D11.nm  S19",
+	Fiesta: "S10.cz D11.nm  S19.new",
 	Exceed2: ["", "", "10", "", "11"],
 	Exceed: ["", "", "10", "6", ""],
 },
@@ -6270,7 +6379,8 @@ var tracklist = {
 "913":
 {
 	title: "Can Can", artist: "F2 Systems", channel: ORIGINAL, bpm: "197", fromMix: "Extra",
-	//XX__: "= S: 16 D: 17",
+	//XX__: "= S16 S__  D17 D__",
+	//XX: "= S16.12 D17.14 S__ D__",
 	Exceed2: ["", "", "12", "", "14"],
 	Exceed: ["", "", "12", "", "15"],
 },
@@ -6336,7 +6446,8 @@ var tracklist = {
 "802":
 {
 	title: "Bee", artist: "BanYa", bpm: "160", fromMix: "Premiere3",
-	//XX__: "= S: 04/7/10/12/16/19 D: 12/20/22/24",
+	//XX__: "= S4 S7 S10 S12 S16 S19  D12 D20 D22 D24",
+	//XX: "= S12.11 S16.15 D12.11 D20.19 D22.21 D24.23",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6383,7 +6494,8 @@ var tracklist = {
 "807":
 {
 	title: "D Gang", artist: "BanYa", bpm: "150", fromMix: "Premiere3",
-	//XX__: "= S: 04/06/11/18 D: 07/15/17",
+	//XX__: "= S4 S6 S11 S18  D7 D15 D17",
+	//XX: "= S11.9",
 	Prime2: "=  @2.00 D17",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -6417,7 +6529,8 @@ var tracklist = {
 "811":
 {
 	title: "Hello", artist: "BanYa", bpm: "140", fromMix: "Premiere3",
-	//XX__: "= S: 07/16 D: 09/18",
+	//XX__: "= S7 S16  D9 D18",
+	//XX: "= D18.16",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -6487,7 +6600,8 @@ var tracklist = {
 "820":
 {
 	title: "Beat of the War", artist: "BanYa", bpm: "190 ~ 140 ~ 202", fromMix: "Premiere3",
-	//XX__: "= S: 03/05/09/11/16/18/21 D: 13/19/23",
+	//XX__: "= S3 S5 S9 S11 S16 S18 S21  D13 D19 D23",
+	//XX: "= S11.9 S16.15 D13.12",
 	Prime2: "=  @2.05 S18 S21 D23",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6520,7 +6634,8 @@ var tracklist = {
 "826":
 {
 	title: "Come to Me", artist: "BanYa", bpm: "100 ~ 107", fromMix: "Premiere3",
-	//XX__: "= S: 04/06/11/13/17 D: 13/14 SP: 03 DP: 06",
+	//XX__: "= S4 S6 S11 S13 S17  D13 D14  Sp3  Dp6",
+	//XX: "= S13.12 S17.15",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6540,7 +6655,8 @@ var tracklist = {
 "701":
 {
 	title: "Dr. M", artist: "BanYa", bpm: "145", fromMix: "Rebirth",
-	//XX__: "= S: 03/06/08/12/16 D: 11/18",
+	//XX__: "= S3 S6 S8 S9 S12 S16  D11 D18",
+	//XX: "= S6.?? S8.?? D18.16",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6557,7 +6673,8 @@ var tracklist = {
 "702":
 {
 	title: "Emperor", artist: "BanYa", bpm: "150", fromMix: "Rebirth",
-	//XX__: "= S: 02/05/08/12/16 D: 17 SP: 03 DP: 03",
+	//XX__: "= S2 S5 S8 S12 S16  D17  Sp3  Dp3",
+	//XX: "= S12.11",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6568,7 +6685,8 @@ var tracklist = {
 "703":
 {
 	title: "Get Your Groove On", artist: "BanYa", bpm: "96", fromMix: "Rebirth",
-	//XX__: "= S: 04/06/12 D: 09/22",
+	//XX__: "= S4 S6 S12  D9 D22",
+	//XX: "= S12.13 D22.21",
 	Prime2: "=  @1.10 D21",
 	Fiesta2: "=",
 	FiestaEX: "S4 S6 S13 D9",  //? nl hd cz fs
@@ -6579,7 +6697,8 @@ var tracklist = {
 "704":
 {
 	title: "Love is a Danger Zone", artist: "BanYa", bpm: "140", fromMix: "Rebirth",
-	//XX__: "= S: 03/07/10/17/19 D: 06/17/21 Co-op x2",
+	//XX__: "= S3 S7 S10 S17 S19  D6 D17 D21  Co-op x2",
+	//XX: "= S17.15 D17.15 D21.20",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6596,7 +6715,8 @@ var tracklist = {
 "705":
 {
 	title: "Maria", artist: "BanYa", bpm: "136", fromMix: "Rebirth",
-	//XX__: "= S: 06/11/15/18 D: 15/20",
+	//XX__: "= S6 S11 S15 S18  D15 D20",
+	//XX: "= D20.19",
 	Prime2: "=  @1.09 D19",
 	Prime: "=  @1.12 S18.ucs",
 	Fiesta2: "=",
@@ -6609,7 +6729,8 @@ var tracklist = {
 "706":
 {
 	title: "Mission Possible", artist: "BanYa", bpm: "124", fromMix: "Rebirth",
-	//XX__: "= S: 05/07/13/19 D: 08",
+	//XX__: "= S5 S7 S13 S19  D8",
+	//XX: "=",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "S5 S7 S13 D8  @1.20 S19",
@@ -6618,7 +6739,8 @@ var tracklist = {
 "707":
 {
 	title: "My Way", artist: "BanYa", bpm: "118", fromMix: "Rebirth",
-	//XX__: "= S: 03/05/08/14 D: 15/18 SP: 02 DP: 04/06",
+	//XX__: "= S3 S5 S8 S14  D15 D18  Sp2  Dp4 Dp6",
+	//XX: "= S14.12",
 	Prime2: "=  @1.09 D18",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6631,7 +6753,8 @@ var tracklist = {
 "708":
 {
 	title: "Point Break", artist: "BanYa", bpm: "92", fromMix: "Rebirth",
-	//XX__: "= S: 06 D: 14 SP: 03 DP: 06",
+	//XX__: "= S6  D14  Sp3  Dp6",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6647,7 +6770,8 @@ var tracklist = {
 "709":
 {
 	title: "Street Show Down", artist: "BanYa", bpm: "124", fromMix: "Rebirth",
-	//XX__: "= S: 07/15 D: 13 SP: 04 DP: 06",
+	//XX__: "= S7 S15  D13  Sp4  Dp6",
+	//XX: "=",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -6660,7 +6784,8 @@ var tracklist = {
 "710":
 {
 	title: "Top City", artist: "BanYa", bpm: "110.72", fromMix: "Rebirth",
-	//XX__: "= S: 04/06/12 D: 07",
+	//XX__: "= S4 S6 S12  D7",
+	//XX: "=",
 	Prime2: "= -D12",
 	Fiesta2: "=",
 	FiestaEX: "S4 S6 S12 D7 D12",
@@ -6669,7 +6794,8 @@ var tracklist = {
 "711":
 {
 	title: "Winter", artist: "BanYa", bpm: "168", fromMix: "Rebirth",
-	//XX__: "= S: 04/07/10/16/19 D: 12/17/20",
+	//XX__: "= S4 S7 S10 S16 S19  D12 D17 D20",
+	//XX: "= S7.6 S10.8 S16.15 D12.11 D20.19",
 	Prime2: "=  @1.07 S19",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6686,7 +6812,8 @@ var tracklist = {
 "712":
 {
 	title: "Will o' the Wisp", artist: "BanYa", bpm: "210", fromMix: "Rebirth",
-	//XX__: "= S: 02/05/11/14/19 D: 13/14/20/21",
+	//XX__: "= S2 S5 S11 S14 S19  D13 D14 D20 D21",
+	//XX: "= S2.3 S11.10 S14.13  D13.?? D14.?? D20.19",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6703,7 +6830,8 @@ var tracklist = {
 "713":
 {
 	title: "Till the End of Time", artist: "BanYa", bpm: "140", fromMix: "Rebirth",
-	//XX__: "= S: 02/04/09/13/17 D: 08/13/16 DP: 03",
+	//XX__: "= S2 S4 S9 S13 S17  D8 D13 D16  Dp3",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=  @1.17 S13.ucs S17.ucs D8.ucs D13.ucs D16.ucs",
 	Fiesta2: "=",
@@ -6714,7 +6842,8 @@ var tracklist = {
 "714":
 {
 	title: "Oy Oy Oy", artist: "BanYa", bpm: "148", fromMix: "Rebirth",
-	//XX__: "= S: 04/06/08/13 D: 13 SP: 02 DP: 03",
+	//XX__: "= S4 S6 S8 S13  D13  Sp2  Dp3",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6727,7 +6856,8 @@ var tracklist = {
 "715":
 {
 	title: "We Will Meet Again", artist: "BanYa", bpm: "118", fromMix: "Rebirth",
-	//XX__: "= S: 04/08/13/14 D: 08",
+	//XX__: "= S4 S8 S13 S14  D8",
+	//XX: "= S4.3",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "S3 S8 S13 D8  @1.30 S14",
@@ -6736,7 +6866,8 @@ var tracklist = {
 "716":
 {
 	title: "Miss's Story", artist: "BanYa", bpm: "111", fromMix: "Rebirth",
-	//XX__: "= S: 05/19 D: 19 SP: 03 DP: 05",
+	//XX__: "= S5 S19  D19  Sp3  Dp5",
+	//XX: "= S19.18",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -6747,7 +6878,8 @@ var tracklist = {
 "717":
 {
 	title: "Set Me Up", artist: "BanYa", bpm: "120", fromMix: "Rebirth",
-	//XX__: "= S: 02/04/06/09/13 SP: 04 DP: 04/07",
+	//XX__: "= S2 S4 S6 S9 S13  Sp4  Dp4 Dp7",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6758,7 +6890,8 @@ var tracklist = {
 "718":
 {
 	title: "Dance With Me", artist: "BanYa", bpm: "122", fromMix: "Rebirth",
-	//XX__: "= S: 02/04/06/12/14 D: 15 SP: 04 DP: 04/06",
+	//XX__: "= S2 S4 S6 S12 S14  D15  Sp4  Dp4 Dp6",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6791,7 +6924,8 @@ var tracklist = {
 "735":
 {
 	title: "Vook", artist: "BanYa", bpm: "184", fromMix: "Rebirth",
-	//XX__: "= S: 04/07/09/15/17/20 D: 13/19/20",
+	//XX__: "= S4 S7 S9 S15 S17 S20  D13 D19 D20",
+	//XX: "= D13.12 D19.?? D20.??",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6808,7 +6942,8 @@ var tracklist = {
 "736":
 {
 	title: "Csikos Post", artist: "BanYa", bpm: "180", fromMix: "Rebirth",
-	//XX__: "= S: 04/07/08/11/13 D: 08/16/22",
+	//XX__: "= S4 S7 S8 S11 S13  D8 D16 D22",
+	//XX: "= S4.3 S8.?? S11.?? D22.21",
 	Prime2: "=",
 	Prime: "=  @1.12 D21.ucs",
 	Fiesta2: "=",
@@ -6829,6 +6964,7 @@ var tracklist = {
 "501":
 {
 	title: "Pump Jump", artist: "BanYa", bpm: "106", fromMix: "Perfect",
+	//XX__: "= S4 S15  D17  Sp2  Dp4",
 	//XX: "=",
 	Prime2: "=",
 	Fiesta2: "=",
@@ -6840,6 +6976,7 @@ var tracklist = {
 "502":
 {
 	title: "N", artist: "BanYa", bpm: "106", fromMix: "Perfect",
+	//XX__: "= S5 S16  D16  Sp2  Dp5",
 	//XX: "=",
 	Prime2: "=",
 	Fiesta2: "=",
@@ -6854,6 +6991,7 @@ var tracklist = {
 "503":
 {
 	title: "Rolling Christmas", artist: "BanYa", bpm: "142", fromMix: "Perfect",
+	//XX__: "= S3 S5 S8 S12  D5 D13 D16  Co-Op x2",
 	//XX: "= S12.S13 D16.D17",
 	Prime2: "=",
 	Prime: "=  @1.11 Dp??(x2)  @1.12 D17.ucs",
@@ -6869,6 +7007,7 @@ var tracklist = {
 "504":
 {
 	title: "All I Want For X-mas", artist: "BanYa", bpm: "130", fromMix: "Perfect",
+	//XX__: "= S3 S6 S9  D7",
 	//XX: "= S9.S11",
 	Prime2: "=",
 	Prime: "=",
@@ -6881,7 +7020,8 @@ var tracklist = {
 "505":
 {
 	title: "Beethoven Virus", artist: "BanYa", bpm: "162", fromMix: "Perfect",
-	//XX__: "S: 04/06/07/11/16/17 D: 11/18/21 DP: 03",
+	//XX__: "= S4 S6 S7 S11 S16 S17  D11 D18 D21  Dp3",
+	//XX: "= S6.7 S7.8 S11.13 D11.Dp11 D21.21",
 	Prime2: "=",
 	Prime: "= -Dp11",
 	Fiesta2: "=",
@@ -6915,7 +7055,8 @@ var tracklist = {
 "516":
 {
 	title: "Slam", artist: "Novasonic", bpm: "132", fromMix: "Perfect",
-	//XX: "= S18.S17 S19.S18 D21.D20",
+	//XX__: "= S3 S6 S9 S18 S19  D6 D21 D23",
+	//XX: "= S18.17 S19.18 D21.20",
 	Prime2: "=  @1.04 D23",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6941,7 +7082,8 @@ var tracklist = {
 "401":
 {
 	title: "Oh! Rosa", artist: "BanYa", bpm: "148", fromMix: "OBG_SE",
-	//XX__: "S: 08/13  D: 07 Co-op x2",
+	//XX__: "= S8 S13  D7  Co-op x2",
+	//XX: "= S8.7",
 	Prime2: "=  @1.04 CoOp(x2)",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -6953,7 +7095,8 @@ var tracklist = {
 "402":
 {
 	title: "First Love", artist: "BanYa", bpm: "104", fromMix: "OBG_SE",
-	//XX__: "S: 04/10 D: 14 SP: 01 DP: 04",
+	//XX__: "= S4 S10  D14  Sp1  Dp4",
+	//XX: "= S10.9",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -6965,7 +7108,8 @@ var tracklist = {
 "403":
 {
 	title: "Betrayer", artist: "BanYa", bpm: "92", fromMix: "OBG_SE",
-	//XX__: "S: 01/05/08/13/16 D: 11/13/17 SP: 02",
+	//XX__: "= S1 S5 S8 S13 S16  D11 D13 D17  Sp2",
+	//XX: "= D11.8",
 	Prime2: "=",
 	Prime: "@1.11 = S16 D17",
 	Fiesta2: "=",
@@ -6977,7 +7121,8 @@ var tracklist = {
 "404":
 {
 	title: "Solitary", artist: "BanYa", bpm: "136", fromMix: "OBG_SE",
-	//XX__: "S: 02/04/06/08/09/17/18 D: 10/16 SP: 03 DP: 05",
+	//XX__: "= S2 S4 S6 S8 S9 S17 S18  D10 D16  Sp3  Dp5",
+	//XX: "= S17.16 S18.17 D10.7",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6994,7 +7139,8 @@ var tracklist = {
 "405":
 {
 	title: "Mr. Larpus", artist: "BanYa", bpm: "190", fromMix: "OBG_SE",
-	//XX__: "S: 03/05/12/14/20/22 D: 16/17/23",
+	//XX__: "= S3 S5 S12 S14 S20 S22  D16 D17 D23",
+	//XX: "= S12.11 D16.14",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7041,7 +7187,8 @@ var tracklist = {
 "301":
 {
 	title: "Final Audition 2", artist: "BanYa", bpm: "130", fromMix: "OBG",
-	//XX__: "S: 04/07/09/10/17 D: 11/18/20 DP: 03",
+	//XX__: "= S4 S7 S9 S10 S17  D11 D18 D20  Dp3",
+	//XX: "= S9.8 S17.16 D11.8 D18.17 D20.19",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7058,7 +7205,8 @@ var tracklist = {
 "302":
 {
 	title: "Naissance", artist: "BanYa", bpm: "136", fromMix: "OBG",
-	//XX__: "S: 04/07/08/10/16/20 D: 07/15",
+	//XX__: "= S4 S7 S8 S10 S16 S20  D7 D15",
+	//XX: "=",
 	Prime2: "=  @2.02 S16",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7075,7 +7223,8 @@ var tracklist = {
 "303":
 {
 	title: "Turkey March", artist: "BanYa", bpm: "150", fromMix: "OBG",
-	//XX__: "S: 03/07/12/16/18 D: 9/17/20 Co-op x2",
+	//XX__: "= S3 S7 S12 S16 S18  D9 D17 D20  Co-op x2",
+	//XX: "= S16.15 D20.19",
 	Prime2: "=",
 	Prime: "=  @1.12 S18.ucs D17.ucs Dp??(x2).ucs",
 	Fiesta2: "=",
@@ -7092,7 +7241,8 @@ var tracklist = {
 "304":
 {
 	title: "With My Lover", artist: "BanYa", bpm: "124", fromMix: "OBG",
-	//XX__: "S: 05/12 D: 14",
+	//XX__: "= S5 S12  D14",
+	//XX: "= S5.hd S12.cz D14.nm",
 	NX: ["3", "", "10", "", "11"],
 	Zero: ["3", "", "10", "", "11"],
 },
@@ -7100,13 +7250,15 @@ var tracklist = {
 "305":
 {
 	title: "An Interesting View", artist: "BanYa", bpm: "160", fromMix: "OBG",
-	//XX__: "S: 06/13",
+	//XX__: "= S6 S13",
+	//XX: "S6 S13",
 },
 
 "306":
 {
 	title: "Nightmare", artist: "BanYa", bpm: "120", fromMix: "OBG",
-	//XX__: "S: 02/04 D:13 DP: 05",
+	//XX__: "= S2 S4  D13  Dp5",
+	//XX: "= S2.1",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=  @1.30 D13",
@@ -7118,7 +7270,8 @@ var tracklist = {
 "307":
 {
 	title: "Close Your Eyes", artist: "BanYa", bpm: "105", fromMix: "OBG",
-	//XX__: "S: 04 SP: 02 DP: 03",
+	//XX__: "= S4  Sp2  Dp3",
+	//XX: "=",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -7128,7 +7281,8 @@ var tracklist = {
 "308":
 {
 	title: "Free Style", artist: "BanYa", bpm: "99", fromMix: "OBG",
-	//XX__: "S: 13 D: 15 SP: 01 DP: 03",
+	//XX__: "= S13  D15  Sp1  Dp3",
+	//XX: "=",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=  @1.51 S13",
@@ -7139,7 +7293,8 @@ var tracklist = {
 "309":
 {
 	title: "Midnight Blue", artist: "BanYa", bpm: "80", fromMix: "OBG",
-	//XX__: "S: 11 D: 12 SP: 04 DP: 05 ",
+	//XX__: "= S11  D12  Sp4  Dp5",
+	//XX: "= S11.12 D12.13",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7150,7 +7305,8 @@ var tracklist = {
 "310":
 {
 	title: "She Likes Pizza", artist: "BanYa", bpm: "230", fromMix: "OBG",
-	//XX__: "S: 08/09/21 D: 09/16/23",
+	//XX__: "= S8 S9 S21  D9 D16 D23",
+	//XX: "=",
 	Prime2: "=  @1.05 S21 D23",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -7166,7 +7322,8 @@ var tracklist = {
 "311":
 {
 	title: "Pumping Up", artist: "BanYa", bpm: "135", fromMix: "OBG",
-	//XX__: "S: 04/12 D: 15",
+	//XX__: "= S4 S12  D15",
+	//XX: "=",
 	Prime2: "=  @1.06 D15",
 	Fiesta2: "=",
 	FiestaEX: "=  @1.30 S12",
@@ -7242,7 +7399,8 @@ var tracklist = {
 "204":
 {
 	title: "Final Audition", artist: "BanYa", bpm: "130", fromMix: "2nd",
-	//XX__: "S: 02/06/07/09/17/18 D: 15/18 DP: 03",
+	//XX__: "= S2 S6 S7 S9 S17 S18  D15 D18  Dp3",
+	//XX: "= S18.15 D18.17",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7259,7 +7417,8 @@ var tracklist = {
 "205":
 {
 	title: "Extravaganza", artist: "BanYa", bpm: "195", fromMix: "2nd",
-	//XX__: "S: 04/08/10/12/17/21 D: 13/18/20",
+	//XX__: "= S4 S8 S10 S12 S17 S21  D13 D18 D20",
+	//XX__: "= S8.7 S10.9 S12.11 S17.16 D13.12 D18.17 D20.19",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7314,7 +7473,8 @@ var tracklist = {
 "224":
 {
 	title: "Techno Repeatorment", artist: "BanYa", bpm: "150", duration: REMIX, fromMix: "2nd",
-	//XX__: "S: 07/19 D: 08",
+	//XX__: "= S7 S19  D8",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7396,7 +7556,8 @@ var tracklist = {
 "112":
 {
 	title: "Another Truth", artist: "Novasonic", bpm: "136", fromMix: "1st",
-	//XX__: "= S16.S15 D7.D6 D: /17/18/21",
+	//XX__: "= S3 S5 S8 S16  D7 D17 D18 D21",
+	//XX: "= S16.15 D7.6 D17.16 D18.17 D21.22",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7618,6 +7779,13 @@ function PreprocessNewStyleChart( track, result, chartDescr, mixID, patchIndex )
 		{
 			chartIsUcs = true;
 			continue;
+		}
+
+		if( ! isNaN( token ) )  // to find S23 in re-estimation S22.23
+		{
+			var levelMatches = chartText.match( /(.*?)(\d+)$/ );
+			if( levelMatches )
+				token = levelMatches[ 1 ] + token;
 		}
 
 		prevChart = FindChart( track, token );
