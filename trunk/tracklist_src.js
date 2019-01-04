@@ -1124,7 +1124,7 @@ var tracklist = {
 	//XX__: "S4 S7 S11 S16 S18  D12 D20  Dp4  Co-op x2",
 	//XX: "=",
 	Prime2: "=",
-	Prime: "S4 S7 S11 S16 S18 D12 D20  @1.01 CoOp(x2)  @1.15 Dp4.ucs",
+	Prime: "S4 S7 S11 S16 S18 D12 D20  @1.01 CoOp(x2)  @1.15 Dp4",
 },
 
 "1402":
@@ -1151,7 +1151,7 @@ var tracklist = {
 	//XX__: "S4 S8 S14  D10 D15  Dp2",
 	//XX: "= S14.15 D15.16",
 	Prime2: "=",
-	Prime: "@1.13 S4 S8 S15 D10 D16  @1.15 Dp2.ucs",
+	Prime: "@1.13 S4 S8 S15 D10 D16  @1.15 Dp2",
 },
 
 "1405":
@@ -1160,7 +1160,7 @@ var tracklist = {
 	//XX__: "S9 S16 S17 S21 S23  D18 D24 D25  Dp5  Co-op x3",
 	//XX: "= S17.18 D18.17 D24.23",
 	Prime2: "=  @1.03 S16.ucs.ampass",
-	Prime: "S9 S18 S21 S23 D23 D25  @1.01 CoOp(x3)  @1.15 Dp5.ucs  @1.19 D17",
+	Prime: "S9 S18 S21 S23 D23 D25  @1.01 CoOp(x3)  @1.15 Dp5  @1.19 D17",
 },
 
 "1406":
@@ -1169,7 +1169,7 @@ var tracklist = {
 	//XX__: "S4 S7 S10 S18  D12 D20  Dp4",
 	//XX: "= ",
 	Prime2: "=",
-	Prime: "@1.08 S4 S7 S10 D12  S18 D20  @1.15 Dp4.ucs",
+	Prime: "@1.08 S4 S7 S10 D12  S18 D20  @1.15 Dp4",
 },
 
 "1407":
@@ -1178,7 +1178,7 @@ var tracklist = {
 	//XX__: "S4 S7 S10 S16 S18  D10 D16 D19  Dp3",
 	//XX: "= D16.17 D19.20",
 	Prime2: "=",
-	Prime: "S4 S7 S10 S16 S18 D10 D20  @1.15 Dp3.ucs  @1.19 D17.ucs",
+	Prime: "S4 S7 S10 S16 S18 D10 D20  @1.15 Dp3  @1.19 D17.ucs",
 },
 
 "1408":
@@ -1187,7 +1187,7 @@ var tracklist = {
 	//XX__: "S4 S6 S9 S16 S19 S22  D11 D19 D20 D25  Dp3  Co-op x3",
 	//XX: "= S19.18 D11.10 D19.18 D20.19 D25.24",
 	Prime2: "=  @1.03 S16.ucs.ampass D18.ucs.ampass  @2.00 CoOp(x3)",
-	Prime: "@1.04 S4 S6 S9 S18 D10 D19 D24  @1.13 S22  @1.15 Dp3.ucs",
+	Prime: "@1.04 S4 S6 S9 S18 D10 D19 D24  @1.13 S22  @1.15 Dp3",
 },
 
 "1409":
@@ -1205,7 +1205,7 @@ var tracklist = {
 	//XX__: "S4 S7 S11 S16 S19  D9 D18 D23  Dp4",
 	//XX: "= D18.19",
 	Prime2: "=",
-	Prime: "S4 S7 S11 S16 S19 D9 D19 D23  @1.15 Dp4.ucs",
+	Prime: "S4 S7 S11 S16 S19 D9 D19 D23  @1.15 Dp4",
 },
 
 "1411":
@@ -1214,7 +1214,7 @@ var tracklist = {
 	//XX__: "S4 S6 S9 S17 S18  D5 D18  Dp4",
 	//XX: "=",
 	Prime2: "=",
-	Prime: "@1.05 S4 S9 S17 S18 D5 D18  @1.06 S6  @1.15 Dp4.ucs",
+	Prime: "@1.05 S4 S9 S17 S18 D5 D18  @1.06 S6  @1.15 Dp4",
 },
 
 "1412":
@@ -1223,7 +1223,7 @@ var tracklist = {
 	//XX__: "S4 S7 S10 S16 S18  D12 D19  Dp3",
 	//XX: "= S10.11 D12.13",
 	Prime2: "=",
-	Prime: "@1.07 S4 S7 S11 S16 S18 D13 D19  @1.15 Dp3.ucs",
+	Prime: "@1.07 S4 S7 S11 S16 S18 D13 D19  @1.15 Dp3",
 },
 
 "1413":
@@ -1232,7 +1232,7 @@ var tracklist = {
 	//XX__: "S3 S5 S10 S15 S17  D8 D16 D18  Dp3",
 	//XX: "=",
 	Prime2: "=",
-	Prime: "S3 S5 S10 S15 D8 D16  @1.07 S17 D18  @1.15 Dp3.ucs",
+	Prime: "S3 S5 S10 S15 D8 D16  @1.07 S17 D18  @1.15 Dp3",
 },
 
 "1414":
@@ -1265,7 +1265,8 @@ var tracklist = {
 "1417":
 {
 	title: "Leakage Voltage", artist: "Doin", channel: ORIGINAL, bpm: "180",
-	//XX__: "= S10 S15 S17 S21  D12 D18 D22  Dp3",
+	//XX__: "S10 S15 S17 S21  D12 D18 D22  Dp3",
+	//XX: "= S21.20 D18.19",
 	Prime2: "= -D20  @1.08 Dp3",
 	Prime: "S10 S15 S17 D12 D19  @1.12 S20.ucs D20.ucs D22.ucs",
 },
@@ -1273,7 +1274,8 @@ var tracklist = {
 "1418":
 {
 	title: "Removable Disk0", artist: "Doin", channel: ORIGINAL, bpm: "130",
-	//XX__: "= S3 S6 S15  D5 D16  Dp3  Co-op x2",
+	//XX__: "S3 S6 S15  D5 D16  Dp3  Co-op x2",
+	//XX: "=",
 	Prime2: "=  @1.08 Dp3  @2.04 CoOp(x2)",
 	Prime: "@1.18 S3 S6 S15 D5 D16",
 },
@@ -1281,23 +1283,26 @@ var tracklist = {
 "1419":
 {
 	title: "Super Fantasy", artist: "SHK", channel: ORIGINAL, bpm: "145",
-	//XX__: "= S4 S7 S10 S14 S16 S19  D11 D18 D22  Dp2  Co-op x2",
+	//XX__: "S4 S7 S10 S14 S16 S19  D11 D18 D22  Dp2  Co-op x2",
+	//XX: "= D22.21",
 	Prime2: "= -D16",
-	Prime: "S4 S7 S10 S16 S19 D11 D21 CoOp(x2)  @1.14 S14.ucs D16.ucs  @1.19 D18",
+	Prime: "S4 S7 S10 S16 S19 D11 D21 CoOp(x2)  @1.14 S14.ucs D16.ucs  @1.15 Dp2  @1.19 D18",
 },
 
 "1420":
 {
 	title: "Violet Perfume", artist: "SHK", channel: ORIGINAL, bpm: "140",
-	//XX__: "= S4 S6 S8 S13 S17  D10 D14 D18  Dp4",
+	//XX__: "S4 S6 S8 S13 S17  D10 D14 D18  Dp4",
+	//XX: "= S13.14 D14.15 D18.19",
 	Prime2: "=",
-	Prime: "@1.12 S4 S6 S8 S14 S17 D10 D15 D19",
+	Prime: "@1.12 S4 S6 S8 S14 S17 D10 D15 D19  @1.15 Dp4",
 },
 
 "1421":
 {
 	title: "Red Swan", artist: "Yahpp", bpm: "172",
-	//XX__: "= S4 S6 S9 S18  D12 D20 D22  Dp4 Dp20  Co-op x2",
+	//XX__: "S4 S6 S9 S18  D12 D20 D22  Dp4 Dp20  Co-op x2",
+	//XX: "= S9.8 D22.21",
 	Prime2: "=",
 	Prime: "S4 S6 S8 S18 D12 D20 D21  @1.02 CoOp(x2)  @1.12 Dp4.ucs Dp20.ucs",
 },
@@ -1305,7 +1310,8 @@ var tracklist = {
 "1422":
 {
 	title: "Hyacinth", artist: "Yahpp", bpm: "192",
-	//XX__: "= S9 S13 S18 S22  D12 D19 D24  Dp4",
+	//XX__: "S9 S13 S18 S22  D12 D19 D24  Dp4",
+	//XX: "= S22.21 D24.23",
 	Prime2: "=  @1.08 Dp4",
 	Prime: "@1.10 S9 S13 D12  S18 S21 D19 D23",
 },
@@ -1314,7 +1320,8 @@ var tracklist = {
 {
 	title: "Blaze emotion (Band version)", artist: "Yahpp", bpm: "170",
 	shortTitle: "Blaze emotion\n(Band version)",
-	//XX__: "= S2 S8 S17  D4 D18  Dp3",
+	//XX__: "S2 S8 S17  D4 D18  Dp3",
+	//XX: "=",
 	Prime2: "=  @1.08 Dp3",
 	Prime: "@1.17 S2 S8 S17 D4 D18",
 },
@@ -1322,39 +1329,44 @@ var tracklist = {
 "1424":
 {
 	title: "1950", artist: "Slam", channel: ORIGINAL, bpm: "200",
-	//XX__: "= S16 S20 S23 S25  D22 D25 D27  Dp3",
+	//XX__: "S16 S20 S23 S25  D22 D25 D27  Dp3",
+	//XX: "= S16.17 D22.21",
 	Prime2: "= -S16",
-	Prime: "@1.07 S23 D25  S25 D27  @1.12 S20  @1.19 S16.ucs S17.ucs D21.ucs",
+	Prime: "@1.07 S23 D25  S25 D27  @1.12 S20  @1.15 Dp3  @1.19 S16.ucs S17.ucs D21.ucs",
 },
 
 "1425":
 {
 	title: "Sugar Conspiracy Theory", artist: "MAX", channel: ORIGINAL, bpm: "170",
-	//XX__: "= S1 S3 S6 S10 S14 S18 S19  D7 D11 D16 D20  Dp5  Co-op x2",
+	//XX__: "S1 S3 S6 S10 S14 S18 S19  D7 D11 D16 D20  Dp5  Co-op x2",
+	//XX: "= S14.15 D16.17",
 	Prime2: "=  @2.00 CoOp(x2)",
-	Prime: "@1.06 S1 S3 S6 S10 S15 S18 S19 D7 D11 D17 D20",
+	Prime: "@1.06 S1 S3 S6 S10 S15 S18 S19 D7 D11 D17 D20  @1.15 Dp5",
 },
 
 "1426":
 {
 	title: "Allegro Piu Mosso", artist: "DM Ashura", channel: ORIGINAL, bpm: "160",
-	//XX__: "= S4 S6 S10 S17 S19  D12 D19  Dp4",
+	//XX__: S4 S6 S10 S17 S19  D12 D19  Dp4",
+	//XX: "= S10.11 S17.16 D12.13",
 	Prime2: "=",
-	Prime: "S4 S6 S11 S16 D13 D19  @1.09 S19",
+	Prime: "S4 S6 S11 S16 D13 D19  @1.09 S19  @1.15 Dp4",
 },
 
 "1427":
 {
 	title: "Annihilator Method", artist: "DM Ashura", channel: ORIGINAL, bpm: "192",
-	//XX__: "= S7 S10 S15 S19 S23  D13 D20 D24  Dp4",
+	//XX__: "S7 S10 S15 S19 S23  D13 D20 D24  Dp4",
+	//XX: "= D13.12",
 	Prime2: "=  @2.02 S23",
-	Prime: "@1.08 S7 S10 S15 D12  S19 D20  @1.15 D24",
+	Prime: "@1.08 S7 S10 S15 D12  S19 D20  @1.15 Dp4 D24",
 },
 
 "1428":
 {
 	title: "Move That Body!", artist: "DM Ashura", channel: ORIGINAL, bpm: "145",
-	//XX__: "= S3 S5 S8 S12 S17 S20  D10 D18  Dp3",
+	//XX__: "S3 S5 S8 S12 S17 S20  D10 D18  Dp3",
+	//XX: "=",
 	Prime2: "=",
 	Prime: "@1.06 S3 S5 S8 S12 S17 S20 D10 D18  @1.11 Dp3",
 },
@@ -1362,25 +1374,28 @@ var tracklist = {
 "1429":
 {
 	title: "Rock the House", artist: "Matduke", channel: WORLD, bpm: "175",
-	//XX__: "= S7 S10 S16  D11 D13 D18 D22  Dp3",
+	//XX__: "S7 S10 S16  D11 D13 D18 D22  Dp3",
+	//XX: "= S16.17 D11.10",
 	Prime2: "= -S16",
-	Prime: "S7 S10 S17 D10 D18 D22  @1.14 S16.ucs D13.ucs",
+	Prime: "S7 S10 S17 D10 D18 D22  @1.14 S16.ucs D13.ucs  @1.15 Dp3",
 },
 
 "1430":
 {
 	title: "Scorpion King", artist: "r300k", channel: ORIGINAL, bpm: "113",
-	//XX__: "= S3 S5 S8 S15 S19  D10 D16 D20  Dp3",
+	//XX__: "S3 S5 S8 S15 S19  D10 D16 D20  Dp3",
+	//XX: "=",
 	Prime2: "=",
-	Prime: "@1.12 S3 S5 S8 S15 D10 D16  S19 D20",
+	Prime: "@1.12 S3 S5 S8 S15 D10 D16  S19 D20  @1.15 Dp3",
 },
 
 "1431":
 {
 	title: "Point Zero One", artist: "SynthWulf", channel: ORIGINAL, bpm: "170",
-	//XX__: "= S9 S16 S20  D11 D17 D22  Dp4",
+	//XX__: "S9 S16 S20  D11 D17 D22  Dp4",
+	//XX: "=",
 	Prime2: "=",
-	Prime: "@1.13 S9 S16 D11 D17  S20 D22",
+	Prime: "@1.13 S9 S16 D11 D17  S20 D22  @1.15 Dp4",
 },
 
 // "1432":
@@ -1388,7 +1403,8 @@ var tracklist = {
 "1433":
 {
 	title: "Red Snow", artist: "Cashew", channel: ORIGINAL, bpm: "170",
-	//XX__: "= S7 S11 S16 S19  D13 D18 D21  Dp4  Co-op x2",
+	//XX__: "S7 S11 S16 S19  D13 D18 D21  Dp4  Co-op x2",
+	//XX: "= D13.12 D21.20",
 	Prime2: "=  @1.05 CoOp(x2)  @1.07 D18.ucs  @1.08 Dp4",
 	Prime: "@1.15 S11 S16 D12  S19 D20  @1.21 S7",
 },
@@ -1396,7 +1412,8 @@ var tracklist = {
 "1434":
 {
 	title: "Campanella", artist: "Cashew", channel: ORIGINAL, bpm: "140",
-	//XX__: "= S6 S10 S16  D10 D16  Dp5",
+	//XX__: "S6 S10 S16  D10 D16  Dp5",
+	//XX: "= S10.9",
 	Prime2: "=  @1.08 Dp5",
 	Prime: "@1.19 S6 S9 S16 D10 D16",
 },
@@ -1404,7 +1421,8 @@ var tracklist = {
 "1435":
 {
 	title: "You again my love", artist: "CYO Style & Henohenomoheji", channel: ORIGINAL, bpm: "137",
-	//XX__: "= S1 S3 S6 S14  D6 D15  Dp4",
+	//XX__: "S1 S3 S6 S14  D6 D15  Dp4",
+	//XX: "= D15.14",
 	Prime2: "=  @1.08 Dp4",
 	Prime: "@1.21 S1 S3 S6 S14 D6 D14",
 },
@@ -1412,9 +1430,10 @@ var tracklist = {
 "1436":
 {
 	title: "Robot Battle", artist: "CYO Style", channel: ORIGINAL, bpm: "198",
-	//XX__: "= S9 S13 S18 S22  D13 D19 D24  Dp5",
+	//XX__: "S9 S13 S18 S22  D13 D19 D24  Dp5",
+	//XX: "= S22.21 D13.12 D24.23",
 	Prime2: "=",
-	Prime: "S8 S12 S21 D12 D23  @1.17 S18.ucs D19.ucs",
+	Prime: "S8 S12 S21 D12 D23  @1.15 Dp5  @1.17 S18.ucs D19.ucs",
 },
 
 "1437":
@@ -1428,35 +1447,35 @@ var tracklist = {
 {
 	title: "On and On", artist: "VIXX", channel: KPOP, bpm: "119",
 	Prime2: "=",
-	Prime: "@1.02 S2 S4 S6 S15 D5 D15",
+	Prime: "@1.02 S2 S4 S6 S15 D5 D15  @1.15 Dp5",
 },
 
 "1439":
 {
 	title: "Elvis", artist: "AOA", channel: KPOP, bpm: "135",
 	Prime2: "=",
-	Prime: "S2 S4 S7 S15 D5 D16  @1.11 S17",
+	Prime: "S2 S4 S7 S15 D5 D16  @1.11 S17  @1.15 Dp3",
 },
 
 "1440":
 {
 	title: "Very Good", artist: "Block B", channel: KPOP, bpm: "136",
 	Prime2: "=",
-	Prime: "@1.04 S3 S6 S9 S15 D5 D15",
+	Prime: "@1.04 S3 S6 S9 S15 D5 D15  @1.15 Dp4",
 },
 
 "1441":
 {
 	title: "I'm Sorry", artist: "CNBLUE", channel: KPOP, bpm: "131",
 	Prime2: "=",
-	Prime: "S4 S6 S9 S16 D8 D17",
+	Prime: "S4 S6 S9 S16 D8 D17  @1.15 Dp3",
 },
 
 "1442":
 {
 	title: "Pandora", artist: "Kara", bpm: "140",
 	Prime2: "=",
-	Prime: "S2 S4 S7 S16 D6 D16",
+	Prime: "S2 S4 S7 S16 D6 D16  @1.15 Dp4",
 },
 
 "1443":
@@ -1470,35 +1489,35 @@ var tracklist = {
 {
 	title: "Hate, Don't Hate!", artist: "Dal shabet", channel: KPOP, bpm: "123",
 	Prime2: "=",
-	Prime: "S2 S4 S6 S15 D6 D16",
+	Prime: "S2 S4 S6 S15 D6 D16  @1.15 Dp2",
 },
 
 "1445":
 {
 	title: "Supermagic", artist: "Supreme Team", channel: KPOP, bpm: "112",
 	Prime2: "=",
-	Prime: "S2 S4 S6 S14 D5 D15",
+	Prime: "S2 S4 S6 S14 D5 D15  @1.15 Dp4",
 },
 
 "1446":
 {
 	title: "Sugar Free", artist: "T-ara", channel: KPOP, bpm: "128",
 	Prime2: "=  @1.09 D18",
-	Prime: "S4 S6 S8 S15 D5 D16  @1.11 S17",
+	Prime: "S4 S6 S8 S15 D5 D16  @1.11 S17  @1.15 Dp3",
 },
 
 "1447":
 {
 	title: "Her", artist: "Block B", channel: KPOP, bpm: "162",
 	Prime2: "=",
-	Prime: "S4 S6 S9 S16 D7 D17  @1.02 CoOp(x2)",
+	Prime: "S4 S6 S9 S16 D7 D17  @1.02 CoOp(x2)  @1.15 Dp3",
 },
 
 "1448":
 {
 	title: "NoNoNo", artist: "Apink", channel: KPOP, bpm: "106",
 	Prime2: "=",
-	Prime: "S2 S3 S5 S14 D5 D14 Sp15 Dp15  @1.02 CoOp(x2)",
+	Prime: "S2 S3 S5 S14 D5 D14 Sp15 Dp15  @1.02 CoOp(x2)  @1.15 Dp4",
 },
 
 "1449":
@@ -1520,22 +1539,23 @@ var tracklist = {
 	title: "Ineffective Boss Without Power", artist: "Norazo", channel: KPOP, bpm: "170",
 	shortTitle: "Ineffective Boss\nWithout Power",
 	Prime2: "=",
-	Prime: "@1.01 S4 S6 S8 S18 D5 D19 CoOp(x3)",
+	Prime: "@1.01 S4 S6 S8 S18 D5 D19 CoOp(x3)  @1.15 Dp3",
 },
 
 "1452":
 {
 	title: "One", artist: "Epik High", bpm: "135",
 	Prime2: "=",
-	Prime: "S1 S3 S5 S15 D5 D16",
+	Prime: "S1 S3 S5 S15 D5 D16  @1.15 Dp3",
 },
 
 "1453":
 {
 	title: "The Revolution", artist: "Max & Doom", channel: WORLD, bpm: "160",
-	//XX__: "= S7 S11 S17 S19  D12 D19 D22  Dp3",
-	Prime2: "= -S21 -D22 -D24 D22.D23",
-	Prime: "@1.09 S7 S11 S17 S19 D12 D19  @1.11 S21.ucs D22.ucs D23.ucs D24.ucs",
+	//XX__: "S7 S11 S17 S19  D12 D19 D22  Dp3",
+	//XX: "=",
+	Prime2: "= -S21 -D22 -D24 D22.23",
+	Prime: "@1.09 S7 S11 S17 S19 D12 D19  @1.11 S21.ucs D22.ucs D23.ucs D24.ucs  @1.15 Dp3",
 	// yes, D23 on P1 became D22 on P2
 	// D22 on Prime - https://www.youtube.com/watch?v=XCwJO8n5O7Y
 	// D23 on Prime - https://www.youtube.com/watch?v=SZBvBn_ea4k
@@ -1545,9 +1565,10 @@ var tracklist = {
 "1454":
 {
 	title: "Selfishness", artist: "S.I.D-Sound", channel: WORLD, bpm: "160",
-	//XX__: "= S3 S6 S11 S17  D12 D18 D20  Dp3",
+	//XX__: "S3 S6 S11 S17  D12 D18 D20  Dp3",
+	//XX: "= D20.21",
 	Prime2: "=  @1.09 D21",
-	Prime: "@1.03 S3 S6 S11 S17 D12 D18",
+	Prime: "@1.03 S3 S6 S11 S17 D12 D18  @1.15 Dp3",
 },
 
 // "1455":
@@ -1566,7 +1587,7 @@ var tracklist = {
 	title: "Dolly Kiss", artist: "S.I.D-Sound", channel: WORLD, bpm: "149",
 	//XX__: "= S3 S6 S14 S17  D6 D15  Dp3",
 	Prime2: "=",
-	Prime: "@1.07 S3 S6 S14 D6 D15  @1.19 S17",
+	Prime: "@1.07 S3 S6 S14 D6 D15  @1.15 Dp3  @1.19 S17",
 },
 
 "1459":
@@ -1574,7 +1595,7 @@ var tracklist = {
 	title: "Matador", artist: "Cranky", channel: WORLD, bpm: "168",
 	//XX__: "= S4 S7 S10 S18 S21  D7 D16 D19 D22  Dp3",
 	Prime2: "=",
-	Prime: "S4 S7 S10 S18 D7 D19  @1.12 S21.ucs D16.ucs D21.ucs",
+	Prime: "S4 S7 S10 S18 D7 D19  @1.12 S21.ucs D16.ucs D21.ucs  @1.15 Dp3",
 },
 
 "1460":
@@ -1582,7 +1603,7 @@ var tracklist = {
 	title: "Milky Way Galaxy", artist: "3R2", channel: WORLD, bpm: "175",
 	//XX__: "= S6 S11 S18  D11 D18  Dp2",
 	Prime2: "=",
-	Prime: "@1.03 S6 S11 S17 D11 D18",
+	Prime: "@1.03 S6 S11 S17 D11 D18  @1.15 Dp2",
 },
 
 "1461":
@@ -1598,7 +1619,7 @@ var tracklist = {
 	title: "Ragnarok", artist: "SynthWulf", channel: WORLD, bpm: "170",
 	//XX__: "= S7 S11 S16 S18 S20  D9 D13 D17  Dp3",
 	Prime2: "=",
-	Prime: "S7 S11 S16 S18 D9 D13 D17  @1.13 S20",
+	Prime: "S7 S11 S16 S18 D9 D13 D17  @1.13 S20  @1.15 Dp3",
 },
 
 "1463":
@@ -1606,7 +1627,7 @@ var tracklist = {
 	title: "Achluoias", artist: "D_AAN", channel: WORLD, bpm: "200",
 	//XX__: "= S9 S15 S17 S22 S24  D13 D16 D24 D26  Dp3",
 	Prime2: "=",
-	Prime: "@1.02 S8 S15 S18 S22 D12 D16 D24  @1.03 S24  @1.16 D26",
+	Prime: "@1.02 S8 S15 S18 S22 D12 D16 D24  @1.03 S24  @1.15 Dp3  @1.16 D26",
 },
 
 "1464":
@@ -1614,7 +1635,7 @@ var tracklist = {
 	title: "Karyawisata", artist: "Vesuvia x REDSHiFT", channel: WORLD, bpm: "173",
 	//XX__: "= S4 S7 S10 S15 S16 S20  D7 D16  Dp4",
 	Prime2: "= -D19",
-	Prime: "S4 S7 S10 S17 S20 D7 D16  @1.14 S15.ucs D19.ucs",
+	Prime: "S4 S7 S10 S17 S20 D7 D16  @1.14 S15.ucs D19.ucs  @1.15 Dp4",
 },
 
 "1465":
@@ -1622,7 +1643,7 @@ var tracklist = {
 	title: "video out c", artist: "Vospi", channel: WORLD, bpm: "198",
 	//XX__: "= S10 S14 S17 S22  D15 D23  Dp4",
 	Prime2: "=",
-	Prime: "@1.11 S9 S14 D14  S17 S22 D23",
+	Prime: "@1.11 S9 S14 D14  S17 S22 D23  @1.15 Dp4",
 },
 
 // "1466":
@@ -1670,7 +1691,7 @@ var tracklist = {
 	title: "Stardust Overdrive", artist: "typeMARS", channel: WORLD, bpm: "175",
 	//XX__: "= S4 S9 S16 S18  D5 D13 D16 D19 D23  Dp3",
 	Prime2: "=",
-	Prime: "@1.09 S4 S9 S16 S18 D5 D13 D16 D19  @1.16 D24",
+	Prime: "@1.09 S4 S9 S16 S18 D5 D13 D16 D19  @1.15 Dp3  @1.16 D24",
 },
 
 "1473":
@@ -1678,7 +1699,7 @@ var tracklist = {
 	title: "Reminiscence", artist: "MAX", bpm: "155", channel: ORIGINAL,
 	//XX__: "= S3 S6 S10 S15 S18  D10 D17 D19  Dp3  Co-op x2",
 	Prime2: "=  @1.10 S15 D17",
-	Prime: "@1.10 S3 S6 S10 D10 CoOp(x2)  S17 D18",
+	Prime: "@1.10 S3 S6 S10 D10 CoOp(x2)  S17 D18  @1.15 Dp3",
 },
 
 "1474":
@@ -1694,7 +1715,7 @@ var tracklist = {
 	title: "Amai Yuuwaku Dangerous", artist: "Bakusute Sotokanda Icchome", channel: JMUSIC, bpm: "125",
 	//XX__: "= S1 S3 S6 S11 S14  D5 D10 D15  Dp3",
 	Prime2: "=",
-	Prime: "@1.11 S1 S3 S6 S11 S15 D5 D10 D16",
+	Prime: "@1.11 S1 S3 S6 S11 S15 D5 D10 D16  @1.15 Dp3",
 },
 
 "1476":
@@ -1702,7 +1723,7 @@ var tracklist = {
 	title: "Yoropiku Pikuyoro!", artist: "Bakasute Sotokanda Icchome", channel: JMUSIC, bpm: "198",
 	//XX__: "= S3 S5 S9 S15  D5 D16  Sp3  Dp4",
 	Prime2: "=",
-	Prime: "@1.10 S3 S5 S9 S15 D5 D16 Sp3",
+	Prime: "@1.10 S3 S5 S9 S15 D5 D16 Sp3  @1.15 Dp4",
 },
 
 "1477":
@@ -1710,7 +1731,7 @@ var tracklist = {
 	title: "Imprinting", artist: "Sakuzyo", channel: JMUSIC, bpm: "175",
 	//XX__: "= S4 S7 S11 S17 S21  D13 D16 D21 D24  Dp4",
 	Prime2: "=  @2.04 D16",
-	Prime: "@1.10 S4 S7 S11 D12  S17 S20 D20  @1.15 D24",
+	Prime: "@1.10 S4 S7 S11 D12  S17 S20 D20  @1.15 Dp4 D24",
 },
 
 "1478":
@@ -1744,7 +1765,7 @@ var tracklist = {
 	shortTitle: "Bad Apple",
 	//XX__: "= S1 S3 S5 S9 S13 S15 S17 S19  D10 D18 D20  Dp2",
 	Prime2: "=",
-	Prime: "@1.09 S1 S5 S9 S13 D10  S17 S19 D18 D21  @1.17 S3  @1.21 S15",
+	Prime: "@1.09 S1 S5 S9 S13 D10  S17 S19 D18 D21  @1.15 Dp2  @1.17 S3  @1.21 S15",
 },
 
 "1482":
@@ -1769,7 +1790,7 @@ var tracklist = {
 	//fullTitle: "Four Seasons of Loneliness ver B feat. Sariyajin",
 	//XX__: "= S1 S4 S6 S10 S14 S17 S20  D10 D15 D18 D22  Dp2  Co-op x2",
 	Prime2: "=",
-	Prime: "@1.09 S1 S4 S6 S10 S14 D10 D14 CoOp(x2)  S17 S20 D18 D21",
+	Prime: "@1.09 S1 S4 S6 S10 S14 D10 D14 CoOp(x2)  S17 S20 D18 D21  @1.15 Dp2",
 },
 
 "1485":
@@ -1793,7 +1814,7 @@ var tracklist = {
 	title: "Trashy Innocence", artist: "LastNote", channel: JMUSIC, bpm: "230",
 	//XX__: "= S1 S3 S5 S10 S15 S20  D11 D16 D24  Dp4  Co-op x2",
 	Prime2: "=",
-	Prime: "@1.14 S1 S5 S10 S14  D10 D15  CoOp(x2)  S20 D24  @1.17 S3",
+	Prime: "@1.14 S1 S5 S10 S14  D10 D15  CoOp(x2)  S20 D24  @1.15 Dp4  @1.17 S3",
 },
 
 "1488":
@@ -1833,7 +1854,7 @@ var tracklist = {
 	title: "Queen of the Red", artist: "ETIA", channel: JMUSIC, bpm: "188",
 	//XX__: "= S4 S7 S11 S15 S18  D12 D16 D19  Dp3",
 	Prime2: "=",
-	Prime: "@1.12 S4 S7 S11 S15 D12 D16 S18 D19",
+	Prime: "@1.12 S4 S7 S11 S15 D12 D16 S18 D19  @1.15 Dp3",
 },
 
 "1493":
@@ -1850,7 +1871,7 @@ var tracklist = {
 	shortTitle: "Just Hold On",
 	//XX__: "= S4 S7 S10 S16 S21  D12 D18 D22 D25  Dp2",
 	Prime2: "=",
-	Prime: "@1.14 S4 S7 S10 S16 D12 D18  S21 D22 D25",
+	Prime: "@1.14 S4 S7 S10 S16 D12 D18  S21 D22 D25  @1.15 Dp2",
 },
 
 "1495":
@@ -1882,7 +1903,7 @@ var tracklist = {
 	title: "Hypercube", artist: "MAX", channel: ORIGINAL, bpm: "145",
 	//XX__: "= S6 S10 S15 S17  D10 D15 D19  Dp4",
 	Prime2: "=",
-	Prime: "@1.12 S6 S10 S15 S17 D10 D16 D20",
+	Prime: "@1.12 S6 S10 S15 S17 D10 D16 D20  @1.15 Dp4",
 },
 
 "1499":
@@ -7724,7 +7745,7 @@ function GetPreviousMixID( nextMixID )
 }
 
 
-function ParseChartLevel( chart, chartText )
+function ParseChartLevel( track, chart, chartText )
 {
 	// check for "instant level substitution" here
 	// it is used not for a players re-estimation, but for official estimation, in case when number is not visible on arcade
@@ -7735,7 +7756,7 @@ function ParseChartLevel( chart, chartText )
 		chart.levelText = levelSubst_Match[ 1 ];
 		chart.levelNum = Number( levelSubst_Match[ 2 ] );
 		if( isNaN( chart.levelNum ) )
-			throw "Can't parse chart level of '" + chartText + "'";
+			throw "Can't parse chart level of " + track.title + "  '" + chartText + "'";
 		//	//throw( new Error().stack );
 		return;
 	}
@@ -7754,7 +7775,7 @@ function ParseChartLevel( chart, chartText )
 			chart.shared.players = Number( couple_Match[ 2 ] );
 			//console.assert( ! isNaN( chart.shared.players ) );
 			if( isNaN( chart.shared.players ) )
-				throw "Can't parse couple number of players for " + chartText;
+				throw "Can't parse couple number of players for " + track.title + "  '" + chartText + "'";
 		}
 		else
 			console.assert( chart.shared.players === Number( couple_Match[ 2 ] ) );
@@ -7762,10 +7783,12 @@ function ParseChartLevel( chart, chartText )
 	}
 
 	if( chartText.match( /(\d+)\s*\((.+)\)/ ) )
-		throw "Error in parsing " + chartText;
+		throw "Error in parsing " + track.title + "  '" + chartText + "'";
 
 	chart.levelText = chartText;
 	chart.levelNum = Number( chartText );
+	if( chartText !== "??"  &&  chartText !== "15/16"  &&  String( chart.levelNum ) !== chartText )
+		throw "Error in parsing " + track.title + "  level '" + chartText + "'";
 	//console.assert( ! isNaN( chart.levelNum ) );  -  if level is '??', we will get NaN here and this is ok
 }
 
@@ -7807,7 +7830,7 @@ function PreprocessOldStyleStation( track, inCharts, zone, tags, oldSlotSharedCh
 		if( ! oldSlotSharedCharts[ chart.tag ] )
 			oldSlotSharedCharts[ chart.tag ] = GetSharedChart( track, ++track.chartsCount );
 		chart.shared = oldSlotSharedCharts[ chart.tag ];
-		ParseChartLevel( chart, inCharts[ i ] );
+		ParseChartLevel( track, chart, inCharts[ i ] );
 
 		var levelIsOfficial =  ! isNaN( chart.levelNum )  &&  String( chart.levelNum ) == chart.levelText
 		var coupleDetected =  ! isNaN( chart.shared.players )  &&  chart.shared.players >= 2
@@ -7864,7 +7887,7 @@ function ParseNewStyleChart( track, chartText, sharedIndex )
 		{
 			var chart = {};
 			chart.shared = GetSharedChart( track, sharedIndex > 0  ?  sharedIndex  :  ++track.chartsCount );
-			ParseChartLevel( chart, chartText.substring( prefix.length ) );
+			ParseChartLevel( track, chart, chartText.substring( prefix.length ) );
 			chart.text = chartText;
 			chart.tag = prefix;
 			var chartType = ( chart.shared.players  ?  COUPLE  :  ( prefix[0] === "S"  ?  SINGLE  :  DOUBLE ) );

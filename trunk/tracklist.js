@@ -325,7 +325,7 @@ function FindChart( track, chartDescr )
 		}
 	}
 
-	throw "Can't find " + track.title + " " + chartDescr;
+	throw "Can't find " + track.title + " '" + chartDescr + "'";
 }
 
 
