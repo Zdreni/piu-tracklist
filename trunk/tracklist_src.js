@@ -97,7 +97,7 @@ var tracklist = {
 
 "16_Desaparecer":
 {
-	title: "Desaparecer", artist: "Applesoda vs Max", channel: , bpm: "",
+	title: "Desaparecer", artist: "Applesoda vs Max", channel: , bpm: "", duration: REMIX,
 	sortingID: "", // altID: "",
 	XX: "S??.lock S??.lock D??.lock",
 },
@@ -2780,8 +2780,8 @@ var tracklist = {
 
 "1228":
 {
-	sortingID: "1300__1",  // before any of 13xx charts
 	title: "Dream to Nightmare", artist: "Nightmare", channel: WORLD, bpm: "178",
+	sortingID: "1300__1",  // before any of 13xx charts
 	//XX__: "S19 S21  D22 D23",
 	//XX: "= -S22 D23.24",
 	Prime2: "=",
@@ -2828,8 +2828,8 @@ var tracklist = {
 
 "1240":
 {
-	sortingID: "1300__2",  // before any of 13xx charts, after DtN
 	title: "VVV", artist: "Zig Zag", channel: WORLD, bpm: "310",
+	sortingID: "1300__2",  // before any of 13xx charts, after DtN
 	//XX__: "S18 S23  D17 D19",
 	//XX: "= D17.16",
 	Prime2: "=",
@@ -7540,12 +7540,14 @@ var tracklist = {
 	Zero: ["3", "", "10", "", "11"],
 },
 
+/*
 "305":
 {
 	title: "An Interesting View", artist: "BanYa", bpm: "160", fromMix: "OBG",
 	//XX__: "S6 S13",
 	//XX: "S6 S13",
 },
+*/
 
 "306":
 {
