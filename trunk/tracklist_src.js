@@ -4216,7 +4216,7 @@ var tracklist = {
 	title: "Pump Breakers", artist: "Tico", channel: WORLD, bpm: "120",
 	Fiesta2: "=",
 	FiestaEX: "=",
-	Fiesta: "Sp2.nl S5.nl S17.cz Dp4.fs  D15",  // после NXA убрали удвоение BPM - считать другим чартом
+	Fiesta: "Sp2.nl S5.nl S17.cz Dp4.fs  D15",  //??? после NXA убрали удвоение BPM - считать другим чартом
 	NXA: ["2", "5", "17", "4", "15"],
 },
 
@@ -4899,7 +4899,7 @@ var tracklist = {
 	//XX: "= S7.9 S20.18",
 	Prime2: "=",
 	Fiesta2: "=",
-	FiestaEX: "S3.nl S9 S13.cz D10 D13.nm  S18.acz D19.anm",  //? hd fs
+	FiestaEX: "S3.nl S9.hd S13.cz D10.fs D13.nm  S18.acz D19.anm",
 	NX2: ["3", "7", "12", "7", "13"], NX2_: ["", "", "17", "", "20"],
 },
 
