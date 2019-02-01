@@ -462,7 +462,7 @@ var tracklist = {
 	title: "Allegro Furioso", artist: "DM Ashura", channel: ORIGINAL, bpm: "176",
 	altID: "15_Allegro_Furioso",
 	//XX__: "S5 S10 S14 S17 S20  D15 D20  Dp4",
-	//XX: "= S14.13 D15.14",
+	XX: "= S14.13 D15.14",
 	Prime2: "@1.04 S5 S10 S13 S17 D14 S20 D20  @2.01 Dp4",
 },
 
@@ -968,7 +968,7 @@ var tracklist = {
 	title: "A Site De La Rue", artist: "STREME REVERIE", channel: XROSS, bpm: "186",
 	altID: "15_A_Site_De_La_Rue",
 	//XX__: "S8 S11 S16 S19  D12 D19 D24",
-	//XX: "= S16.17 S19.20 D19.20",
+	XX: "= S16.17 S19.20 D19.20",
 	Prime2: "@2.04 S8 S11 S17 D12 S20 D20 D24",
 },
 
@@ -1375,7 +1375,7 @@ var tracklist = {
 {
 	title: "1950", artist: "Slam", channel: ORIGINAL, bpm: "200",
 	//XX__: "S16 S20 S23 S25  D22 D25 D27  Dp3",
-	//XX: "= S16.17 D22.21",
+	XX: "= S16.17 D22.21",
 	Prime2: "= -S16",
 	Prime: "@1.07 S23 D25  S25 D27  @1.12 S20  @1.15 Dp3  @1.19 S16.ucs S17.ucs D21.ucs",
 },
@@ -1393,7 +1393,7 @@ var tracklist = {
 {
 	title: "Allegro Piu Mosso", artist: "DM Ashura", channel: ORIGINAL, bpm: "160",
 	//XX__: S4 S6 S10 S17 S19  D12 D19  Dp4",
-	//XX: "= S10.11 S17.16 D12.13",
+	XX: "= S10.11 S17.16 D12.13",
 	Prime2: "=",
 	Prime: "S4 S6 S11 S16 D13 D19  @1.09 S19  @1.15 Dp4",
 },
@@ -1677,7 +1677,7 @@ var tracklist = {
 {
 	title: "Achluoias", artist: "D_AAN", channel: WORLD, bpm: "200",
 	//XX__: "S9 S15 S17 S22 S24  D13 D16 D24 D26  Dp3",
-	//XX: "= S9.8 S17.18 D13.12",
+	XX: "= S9.8 S17.18 D13.12",
 	Prime2: "=",
 	Prime: "@1.02 S8 S15 S18 S22 D12 D16 D24  @1.03 S24  @1.15 Dp3  @1.16 D26",
 },
@@ -1864,7 +1864,7 @@ var tracklist = {
 {
 	title: "Ai, Yurete", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "152", fromMix: "Prime",
 	//XX__: "S1 S3 S6 S9 S13 S16  D8 D15 D18  Dp4",
-	//XX: "=",
+	XX: "=",
 	Prime2: "S1 S3 S6 S9 S13 S16  D8 D15 D18  @1.08 Dp4",
 	// from PrimeJE
 },
@@ -2275,7 +2275,7 @@ var tracklist = {
 {
 	title: "Accident", artist: "MAX", channel: ORIGINAL, bpm: "183",
 	//XX__: "S4 S7 S11 S18  D11 D20",
-	//XX: "= S11.10 S18.19",
+	XX: "= S11.10 S18.19",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S4 S7 S10 S19 D11 D20",
@@ -3042,7 +3042,7 @@ var tracklist = {
 {
 	title: "Allegro Con Fuoco", artist: "DM Ashura", channel: WORLD, bpm: "156",
 	//XX__: "S4 S7 S10 S17 S22  D9 D18 D23  Sp1  Dp6",
-	//XX: "= S10.11",
+	XX: "= S10.11",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=  @1.60 S22",
@@ -4800,7 +4800,7 @@ var tracklist = {
 {
 	title: "Pumptris Quattro", artist: "Yahpp", bpm: "153",
 	//XX__: "S3 S7 S12 S18 S19  D15 D20 D22  Sp10  Dp2",
-	//XX: "= S18.17.???_changed_holds D15.13",
+	//XX: "= S18.17 D15.13",  // S18 - степы в начале холдов, считать новым чартом
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5317,7 +5317,7 @@ var tracklist = {
 {
 	title: "2006 Love Song", artist: "BanYa Production", bpm: "96",
 	//XX__: "S3 S9 S12 S15  D13 Dp5",
-	//XX: "= S9.10",
+	XX: "= S9.10",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "S3.nl S10.hd S12.cz  Dp5.fs D13.nm  @1.30 S15.new",
@@ -6189,7 +6189,7 @@ var tracklist = {
 {
 	title: "Banya Classic Remix", artist: "BanYa", bpm: "162 ~ 170", duration: REMIX,
 	//XX__: "S13 S19  D14 D20",
-	//XX: "= S13.???_7 D14.11",
+	//XX: "= S13.7 D14.11",
 	Prime2: "=",
 	Prime: "= D11.Dp11",  // просто сменили тип:
 		// https://www.youtube.com/watch?v=7oNcvphJdk4 на P2
@@ -6420,7 +6420,7 @@ var tracklist = {
 {
 	title: "Get Up!", artist: "BanYa", bpm: "180",
 	//XX__: "S4 S8 S15  D12 D18",
-	//XX: "= S15.13 D12.9 D18.???_17_or_18",
+	XX: "= S15.13 D12.9 -D17",  // D18.???_17_or_18
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=  @1.51 D17.nm",
@@ -6672,7 +6672,7 @@ var tracklist = {
 {
 	title: "Can Can", artist: "F2 Systems", channel: ORIGINAL, bpm: "197", fromMix: "Extra",
 	//XX__: "S16 S20.lock D17 D22.lock",
-	//XX: "= S16.cz D17.nm S20.lock__??? D22.lock__???",
+	XX: "= S16.cz D17.nm S20.lock D22.lock",
 	Exceed2: ["", "", "12", "", "14"],
 	Exceed: ["", "", "12", "", "15"],
 },
@@ -7301,7 +7301,7 @@ var tracklist = {
 {
 	title: "All I Want For X-mas", artist: "BanYa", bpm: "130", fromMix: "Perfect",
 	//XX__: "S3 S6 S9  D7",
-	//XX: "= S9.S11",
+	XX: "= S9.S11",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
