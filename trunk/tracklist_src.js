@@ -1025,7 +1025,7 @@ var tracklist = {
 	title: "Fallen Angel", artist: "DM Ashura", channel: WORLD, bpm: "157",
 	altID: "15C4+_Fallen_Angel",
 	//XX__: "S6 S10 S17 S19  D10 D15 D20  Dp3",
-	//XX: "=",
+	XX: "= -D20 D20.21",  // report by Haru
 	Prime2: "@1.08 S6 S10 S17 D10 D15 D21 D20.ampass  @2.01 Dp3  @2.05 S19",
 },
 
