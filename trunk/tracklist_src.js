@@ -42,7 +42,7 @@ ID треков берутся из
 	http://www.ph-online.net/cgi-bin/ib3/ikonboard.cgi?act=ST;f=18;t=13117
 */
 
-var tracklist = {
+var readableTracklist = {
 
 // unsorted
 
@@ -7875,6 +7875,7 @@ var tracklist = {
 
 };
 
+let tracklist = JSON.parse(JSON.stringify(readableTracklist))
 
 /* unused:
 {
@@ -7882,6 +7883,18 @@ var tracklist = {
 	title: "Mr. Fire Fighter & Beat of the War 2", duration: REMIX,
 },
 */
+
+// On NX, both 15 and 16 were marked as one 'skull' mark. So the only way to determine level precisely
+// is to pass it with predictable score and calculate level bonus multiplier manually.
+var NX_GLITCH_LEVEL = "15/16"
+
+// On NX, there were charts unavailable to play in normal mode, one needs a hack to pley them.
+// So they had no official level, no easy access and should not be treated as common charts.
+var NX_SPECIAL_ZONE_HIDDEN = "(@)"
+
+// Some charts were marked as "?? DANGER", so they have no official estimation
+var NO_OFFICIAL_ESTIMATION = "??"
+
 
 
 function GetPreviousMixID( nextMixID )
@@ -7904,7 +7917,6 @@ function ParseChartLevel( track, chart, chartText )
 		chart.levelNum = Number( levelSubst_Match[ 2 ] );
 		if( isNaN( chart.levelNum ) )
 			throw "Can't parse chart level of " + track.title + "  '" + chartText + "'";
-		//	//throw( new Error().stack );
 		return;
 	}
 
@@ -7920,7 +7932,6 @@ function ParseChartLevel( track, chart, chartText )
 		if( ! chart.shared.players )
 		{
 			chart.shared.players = Number( couple_Match[ 2 ] );
-			//console.assert( ! isNaN( chart.shared.players ) );
 			if( isNaN( chart.shared.players ) )
 				throw "Can't parse couple number of players for " + track.title + "  '" + chartText + "'";
 		}
@@ -7934,9 +7945,8 @@ function ParseChartLevel( track, chart, chartText )
 
 	chart.levelText = chartText;
 	chart.levelNum = Number( chartText );
-	if( chartText !== "??"  &&  chartText !== "15/16"  &&  String( chart.levelNum ) !== chartText )
+	if( chartText !== NO_OFFICIAL_ESTIMATION  &&  chartText !== NX_GLITCH_LEVEL  &&  String( chart.levelNum ) !== chartText )
 		throw "Error in parsing " + track.title + "  level '" + chartText + "'";
-	//console.assert( ! isNaN( chart.levelNum ) );  -  if level is '??', we will get NaN here and this is ok
 }
 
 
@@ -7949,16 +7959,6 @@ function GetSharedChart( track, idx )
 	return track.charts[ idx ];
 }
 
-// On NX, both 15 and 16 were marked as one 'skull' mark. So the only way to determine level precisely
-// is to pass it with predictable score and calculate level bonus multiplier manually.
-var NX_GLITCH_LEVEL = "15/16"
-
-// On NX, there were charts unavailable to play in normal mode, one needs a hack to pley them.
-// So they had no official level, no easy access and should not be treated as common charts.
-var NX_SPECIAL_ZONE_HIDDEN = "(@)"
-
-// Some charts were marked as "?? DANGER", so they have no official estimation
-var NO_OFFICIAL_ESTIMATION = "??"
 
 function PreprocessOldStyleStation( track, inCharts, zone, tags, oldSlotSharedCharts )
 {
@@ -8223,10 +8223,6 @@ function PreprocessOldStyleListCharts( track, mixID, oldSlotSharedCharts )
 	var specialCharts = track[ mixID + "_" ];
 	if( arcadeCharts  ||  specialCharts )
 	{
-		// for check:
-		// track[ mixID + "_A" ] = arcadeCharts;
-		// track[ mixID + "_S" ] = specialCharts;
-
 		if( track.duration !== REMIX  &&  track.duration !== FULL )
 			track[ mixID ] = PreprocessOldStyleStation( track, arcadeCharts, ARCADE, OldArcadeTags, oldSlotSharedCharts )
 		                     .concat(

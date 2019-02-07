@@ -73,7 +73,7 @@ function AddCheckTracklist( result, srcLines, srcConfig )
 			var mixCol = srcConfig[ mixID ];
 			if( mixCol )
 			{
-				var mixTag = ( isSpecial  ?  mixID + "_S"  :  mixID + "_A" );
+				var mixTag = ( isSpecial  ?  mixID + "_"  :  mixID );
 				var charts = line.slice( mixCol, mixCol + 5 );
 				if( JSON.stringify( charts ) != JSON.stringify( ["", "", "", "", ""] ) )
 					track[ mixTag ] = charts;
@@ -106,6 +106,31 @@ function FindTrackIfAny( tracklist, title, artist )
 	return result[ 0 ];
 }
 
+function ProcessedSrcMixCharts( charts )
+{
+	if( ! charts )
+		return charts;
+
+	charts = JSON.parse( JSON.stringify( charts ) );
+	for( var i = 0;  i < charts.length;  ++i )
+	{
+		//charts[ i ] = charts[ i ].replace( "(x2)", "" ).replace( "(x3)", "" );
+		var coopRegex = /(.*)(\(x\d\))/;
+		var coopFound = charts[ i ].match( coopRegex );
+		if( coopFound )
+			charts[ i ] = coopFound[ 1 ];
+
+
+		var estimRegex = /(.*)(\(\d+\))/;
+		var estimFound = charts[ i ] .match( estimRegex );
+		if( estimFound )
+			charts[ i ] = estimFound[ 1 ];
+
+		//charts[ i ] = charts[ i ].replace( coopRegex, )
+	}
+	return charts;
+}
+
 
 function CheckTracklist( tracklist, checkTracklist, config )
 {
@@ -121,10 +146,10 @@ function CheckTracklist( tracklist, checkTracklist, config )
 				if( ! config[ mixID ] )
 					continue;
 
-				if( checkTrack[ mixID + "_A" ] )
-					console.log( "- - " + mixID + ": " + JSON.stringify( checkTrack[ mixID + "_A" ] ) + "," );
-				if( checkTrack[ mixID + "_S" ] )
-					console.log( "- - " + mixID + "_: " + JSON.stringify( checkTrack[ mixID + "_S" ] ) + "," );
+				if( checkTrack[ mixID ] )
+					console.log( "- - " + mixID + ": " + JSON.stringify( checkTrack[ mixID ] ) + "," );
+				if( checkTrack[ mixID + "_" ] )
+					console.log( "- - " + mixID + "_: " + JSON.stringify( checkTrack[ mixID + "_" ] ) + "," );
 			}
 			continue;
 		}
@@ -134,27 +159,25 @@ function CheckTracklist( tracklist, checkTracklist, config )
 			if( ! config[ mixID ] )
 				continue;
 
-			var srcTag = mixID + "_A";
+			var srcTag = mixID;
 			var checkTag = srcTag;
 
-			if( JSON.stringify( checkTrack[ checkTag ] ) != JSON.stringify( track[ srcTag ] ) )
+			if( JSON.stringify( checkTrack[ checkTag ] ) != JSON.stringify( ProcessedSrcMixCharts( track[ srcTag ] ) ) )
 			{
 				console.log( "'" + checkTrack.title + "'  differs from check list:" );
 				console.log( "- -  list is  " + srcTag + ": " + JSON.stringify( track[ srcTag ] ) + "," );
 				console.log( "- - check is  " + checkTag + ": " + JSON.stringify( checkTrack[ checkTag ] ) + "," );
 			}
-			delete track[ srcTag ];
 
-			srcTag = mixID + "_S";
+			srcTag = mixID + "_";
 			checkTag = srcTag;
 
-			if( JSON.stringify( checkTrack[ checkTag ] ) != JSON.stringify( track[ srcTag ] ) )
+			if( JSON.stringify( checkTrack[ checkTag ] ) != JSON.stringify( ProcessedSrcMixCharts( track[ srcTag ] ) ) )
 			{
 				console.log( "'" + checkTrack.title + "'  differs from check list:" );
 				console.log( "- -  list is  " + srcTag + ": " + JSON.stringify( track[ srcTag ] ) + "," );
 				console.log( "- - check is  " + checkTag + ": " + JSON.stringify( checkTrack[ checkTag ] ) + "," );
 			}
-			delete track[ srcTag ];
 		}
 	}
 }
@@ -163,5 +186,5 @@ function CheckTracklist( tracklist, checkTracklist, config )
 function Check( srcList, config )
 {
 	var checkTracklist = CreateCheckTracklist( srcList, config );
-	CheckTracklist( tracklist, checkTracklist, config );
+	CheckTracklist( readableTracklist, checkTracklist, config );
 }
