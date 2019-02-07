@@ -767,7 +767,8 @@ var readableTracklist = {
 
 "1584":
 {
-	title: "HUSH", artist: "Yassi Pressman & Nadine Lustre", channel: WORLD, bpm: "82", region: PHILIPPINES,
+	title: "HUSH", artist: "Yassi Pressman & Nadine Lustre", channel: WORLD, bpm: "82",
+	regions: { "Prime2": PHILIPPINES, "XX": "" },
 	altID: "15_Hush",
 	//XX__: "S3 S5 S8 S14  D6 D15",
 	//XX: "=",
@@ -8279,6 +8280,21 @@ function PreprocessTrack( track )
 		else
 			PreprocessOldStyleListCharts( track, mixID, oldSlotSharedCharts );
 	}
+
+	if( track.region )
+	{
+		track.regions = {};
+		track.regions[ GetTrackFirstMix( track ) ] = track.region;
+		delete track.region;
+	}
+
+	if( track.regions )
+	{
+		for( var k in track.regions )
+			if( ! mixes[ k ] )
+				throw "Region mix '" + k + "' not found.";
+	}
+
 }
 
 
