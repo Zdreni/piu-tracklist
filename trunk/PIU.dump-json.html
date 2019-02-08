@@ -33,6 +33,7 @@ function JStrNoQuotes( obj )
 }
 
 
+// converts dictionary to array through lambda, which produce array item from both key and value
 function DictToArr( dict, func )
 {
 	return Object.keys( dict ).map( function ( key ) {  return func( key, dict[ key ] );  } );
@@ -110,19 +111,11 @@ function ConvertInnerDataToOutput( track )
 }
 
 
-result = ""
 errors = []
 
 try
 {
 	initTracklist();
-/*
-	PreprocessTracklist();
-	ApplyBPMs();
-	ApplyUnlocks();
-	ApplyLevelEstimations();
-	//ApplyTags();
-*/
 
 	for( var trackID in tracklist )
 		ConvertInnerDataToOutput( tracklist[ trackID ] );
@@ -134,84 +127,141 @@ catch( exc )
 }
 
 
-var nextTrack = false;
-for( var trackID in tracklist )
+function SPACE( n )
 {
-	try
-	{
-		if( nextTrack )
-			result += ",<br><br>";
-		else
-			nextTrack = true;
-
-		var track = tracklist[ trackID ];
-
-		var mixesTemp = {};
-		for( var mixID of mixesOrder )
-		{
-			mixesTemp[ mixID ] = track[ mixID ];
-			delete track[ mixID ];
-		}
-
-		if( ! track.charts )
-			continue;
-
-		var charts = track.charts;
-		delete track.charts;
-		for( var chartIndex in charts )
-		{
-			var shared = charts[ chartIndex ];
-			delete shared.index;
-			delete shared.type;
-			if( Object.keys(shared).length === 0 )
-				delete charts[ chartIndex ];
-		}
-
-		result += JStr( trackID ) + ": {<br>&nbsp;" + JStrNoQuotes( track ) + ",<br>";
-
-		if( Object.keys( charts ).length > 0 )
-		{
-			var chartsArr = DictToArr( charts, function ( key, val ) {  return "&nbsp;&nbsp;" + JStr( key ) + ": " + JStr( val );  } );
-			result += "\t&nbsp;\"charts\": {<br>" + chartsArr.join( ",<br>" ) + "<br>&nbsp;},<br>";
-		}
-
-		var nextMix = false;
-		for( var mixID of mixesOrder )
-		{
-			var mixCharts = mixesTemp[ mixID ];
-			if( mixCharts )
-			{
-				if( nextMix )
-					result += ",<br>";
-				else
-					nextMix = true;
-				result += "\t&nbsp;" + JStr( mixID ) + ": {<br>";
-
-				var mixChartsArr = DictToArr( mixCharts, function ( key, val ) {  return "&nbsp;&nbsp;" + JStr( key ) + ": " + JStr( val );  } );
-				result += mixChartsArr.join( ",<br>" );
-
-				result += "<br>&nbsp;}";
-			}
-		}
-		result += "<br>}";
-	}
-	catch( exc )
-	{
-		errors.push( exc );
-		console.log( "Catched ", exc );
-	}
+	return "&nbsp;&nbsp;".repeat( n );
 }
+
+var _S = SPACE( 1 )
+var __S = SPACE( 2 )
+var ___S = SPACE( 3 )
+
+
+function DumpMixPatches()
+{
+	var result = "";
+
+	var nextMix = false;
+	for( var k in mixes )
+	{
+		var v = mixes[ k ];
+		if( v.style === "new" )
+		{
+			if( nextMix )
+				result += ",<br>";
+			else
+				nextMix = true;
+
+			result += _S + JStr( k ) + ": " + JSON.stringify( v["patches"], null, 1 );
+		}
+		//DictToArr( mixes, function ( key, val ) {  return _S + JStr( key ) + ": " + JStr( val );  } );
+	}
+
+	return result;
+}
+
+
+function DumpTracklist()
+{
+	var result = "";
+	var nextTrack = false;
+	for( var trackID in tracklist )
+	{
+		try
+		{
+			if( nextTrack )
+				result += ",<br><br>";
+			else
+				nextTrack = true;
+
+			var track = tracklist[ trackID ];
+
+			var trackMixes = {};
+			for( var mixID of mixesOrder )
+			{
+				trackMixes[ mixID ] = track[ mixID ];
+				delete track[ mixID ];
+			}
+
+			if( ! track.charts )
+				continue;
+
+			var trackCharts = track.charts;
+			delete track.charts;
+			for( var chartIndex in trackCharts )
+			{
+				var shared = trackCharts[ chartIndex ];
+				delete shared.index;
+				delete shared.type;
+				if( Object.keys(shared).length === 0 )
+					delete trackCharts[ chartIndex ];
+			}
+
+			var changes = track.changes;
+			delete track.changes;
+
+			result += _S + JStr( trackID ) + ": {<br>";
+			result += __S + JStrNoQuotes( track ) + ",<br>";
+
+			if( changes  &&  Object.keys( changes ).length > 0 )
+			{
+				result += __S + "\"changes\": " + JSON.stringify( changes, null, 1 ) + "<br>";
+			}
+
+			if( Object.keys( trackCharts ).length > 0 )
+			{
+				var chartsArr = DictToArr( trackCharts, function ( key, val ) {  return ___S + JStr( key ) + ": " + JStr( val );  } );
+				result += __S + "\"charts\": {<br>"
+				result += chartsArr.join( ",<br>" ) + "<br>";
+				result += __S + "},<br>";
+			}
+
+			var nextMix = false;
+			for( var mixID of mixesOrder )
+			{
+				var mixCharts = trackMixes[ mixID ];
+				if( mixCharts )
+				{
+					if( nextMix )
+						result += ",<br>";
+					else
+						nextMix = true;
+					result += __S + JStr( mixID ) + ": {<br>";
+
+					var mixChartsArr = DictToArr( mixCharts, function ( key, val ) {  return ___S + JStr( key ) + ": " + JStr( val );  } );
+					result += mixChartsArr.join( ",<br>" );
+					result += "<br>" + __S + "}";
+				}
+			}
+			result += "<br>" + _S + "}";
+		}
+		catch( exc )
+		{
+			errors.push( exc );
+			console.log( "Catched ", exc );
+		}
+	}
+	return result;
+}
+
+var result = "{<br><br>";
+result += "\"patches\": {<br><br>";
+result += DumpMixPatches();
+result += "<br><br>},";
+result += "<br><br><br>";
+result += "\"tracklist\": {<br><br>";
+result += DumpTracklist();
+result += "<br><br>}";
+result += "<br><br>}";
 
 if( errors.length > 0 )
 {
 	for( var e of errors )
-	document.write( e + "<br>" );	
+		document.write( e + "<br>" );
 }
 else
 {
-	document.write("{<br><br>");
 	document.write( result );
-	document.write("<br><br>}");
 }
 </script>
 </code>

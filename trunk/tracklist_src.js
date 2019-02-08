@@ -768,7 +768,10 @@ var readableTracklist = {
 "1584":
 {
 	title: "HUSH", artist: "Yassi Pressman & Nadine Lustre", channel: WORLD, bpm: "82",
-	regions: { "Prime2": PHILIPPINES, "XX": "" },
+	region: PHILIPPINES,
+	changes: {
+		XX: { region: "" }
+	},
 	altID: "15_Hush",
 	//XX__: "S3 S5 S8 S14  D6 D15",
 	//XX: "=",
@@ -1094,6 +1097,9 @@ var readableTracklist = {
 {
 	title: "HUSH  [FULL]", artist: "Yassi Pressman & Nadine Lustre", channel: WORLD, bpm: "82", region: PHILIPPINES,
 	altID: "15_Hush_FULL",
+	changes: {
+		XX: { region: "" }
+	},
 	//XX__: "S15  D16",
 	//XX: "=",
 	Prime2: "@1.03 S15 D16",
@@ -1955,17 +1961,27 @@ var readableTracklist = {
 "1495":
 {
 	title: "Unlock", artist: "Daichi Miura (Cover)", channel: JMUSIC, bpm: "128",
-	region: JAPAN,
-	Prime2: "S2 S3 S5 S7 S11 S14  D3 D9 D15",  //? all charts are AM.Pass exclusive. Added in P2 1.00, removed in 1.01
 	// from PrimeJE
+	region: JAPAN,
+	changes:
+	{
+		"Prime2@1.00": { region: "" },
+		"Prime2@1.01": { region: JAPAN },
+	},
+	Prime2: "S2 S3 S5 S7 S11 S14  D3 D9 D15",  //? all charts are AM.Pass exclusive. Added in P2 1.00, removed in 1.01
 },
 
 "1496":
 {
 	title: "Heavy Rotation", artist: "AKB48 (Cover)", channel: JMUSIC, bpm: "178",
-	region: JAPAN,
-	Prime2: "S2 S4 S5 S9 S16 S18  D6 D16 D19  CoOp(x2)",  //? all charts are AM.Pass exclusive. Added in P2 1.00, removed in 1.01
 	// from PrimeJE
+	region: JAPAN,
+	changes:
+	{
+		"Prime2@1.00": { region: "" },
+		"Prime2@1.01": { region: JAPAN },
+	},
+	Prime2: "S2 S4 S5 S9 S16 S18  D6 D16 D19  CoOp(x2)",  //? all charts are AM.Pass exclusive. Added in P2 1.00, removed in 1.01
 },
 
 "1497":
@@ -2164,9 +2180,14 @@ var readableTracklist = {
 "14F0":
 {
 	title: "Heavy Rotation  [SHORT]", artist: "AKB48 (Cover)", channel: JMUSIC, bpm: "178",
+	// from PrimeJE
 	region: JAPAN,
+	changes:
+	{
+		"Prime2@1.00": { region: "" },
+		"Prime2@1.01": { region: JAPAN },
+	},
 	Prime2: "S10 S15 S18  D9 D16 D20",  //? all charts are AM.Pass exclusive. Added in P2 1.00, removed in 1.01
-	// PrimeJE
 },
 
 
@@ -7876,7 +7897,7 @@ var readableTracklist = {
 
 };
 
-let tracklist = JSON.parse(JSON.stringify(readableTracklist))
+let tracklist = JSON.parse( JSON.stringify( readableTracklist ) );
 
 /* unused:
 {
@@ -8251,6 +8272,26 @@ function GuessDurationFromTitle( title )
 }
 
 
+function ValidatedMixAndVersion( k )
+{
+	var arr = k.split( "@" );
+	if( arr.length > 2 )
+		throw "Mix-patch format '" + k + "' is invalid";
+
+	var mix = mixes[ arr[ 0 ] ];
+	if( ! mix )
+		throw "Mix '" + arr[ 0 ] + "' can't be found";
+
+	if( arr.length == 1 )
+		return arr[ 0 ] + "@" + mix.patches[ 0 ];
+
+	if( mix.patches.indexOf( arr[ 1 ] ) < 0 )
+		throw "Mix '" + arr[ 0 ] + "' patch '" + arr[ 1 ] + "' can't be found";
+
+	return k;
+}
+
+
 function PreprocessTrack( track )
 {
 	if( ! track.duration )
@@ -8281,20 +8322,14 @@ function PreprocessTrack( track )
 			PreprocessOldStyleListCharts( track, mixID, oldSlotSharedCharts );
 	}
 
-	if( track.region )
-	{
-		track.regions = {};
-		track.regions[ GetTrackFirstMix( track ) ] = track.region;
-		delete track.region;
-	}
 
-	if( track.regions )
+	if( track.changes )
 	{
-		for( var k in track.regions )
-			if( ! mixes[ k ] )
-				throw "Region mix '" + k + "' not found.";
+		var changes = {}
+		for( var k in track.changes )
+			changes[ ValidatedMixAndVersion( k ) ] = track.changes[ k ];
+		track.changes = changes;
 	}
-
 }
 
 
