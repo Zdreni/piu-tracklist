@@ -10,14 +10,14 @@ http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=86&page=3
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Fiesta  1.03:
-<prev url>
+http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=86&page=3 (same URL)
 
 - Extend range of available USB
 - added up double step in Basic mode (Except china version)
 
 
 Fiesta  1.04:
-<prev url>
+http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=86&page=3 (same URL)
 
 - Change commend method of speed choice in Basic mode (79795)
 - Add up speed 1X & 4X in basic mode
