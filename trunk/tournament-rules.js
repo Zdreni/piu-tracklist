@@ -91,23 +91,24 @@ function shuffled(array)
 	return array;
 }
 
-var lowerLevel = 16;
-var upperLevel = 20;
+var lowerLevel = 21;
+var upperLevel = 22;
 
-var showUCS = false;
-var showUnlocks = false;
+//var showUCS = false;
+//var showUnlocks = false;
 
 var tournamentRange = {
 	duration: "Standard",
-	showUCS: false,
-	showUnlocks: false,
-	mixID: "FiestaEX",  // mix we will use to play
-	trackAppearedMixesIDs: [ /*"Fiesta2", "Prime"*/ ],  // mixes, on which allowed _tracks_ were appeared
+	showUCS: true,
+	showUnlocks: true,
+	showReestimatedCharts: false,  // to show charts which had different level on some mixes
+	mixID: "XX",  // mix we will use to play
+	trackAppearedMixesIDs: [ "Prime", "Prime2" ],  // mixes, on which allowed _tracks_ were appeared
 	excludeTracks: [
-		"Log-In", // offsync
-		"Nobody", // lot of stops
-		"Move That Body!", // tournament
-		"Super Fantasy", // tournament
+		//"Log-In", // offsync
+		//"Nobody", // lot of stops
+		//"Move That Body!", // tournament
+		//"Super Fantasy", // tournament
 	]
 }
 
@@ -137,6 +138,10 @@ var S18 = { __proto__: singles, level: 18 };
 var S19 = { __proto__: singles, level: 19 };
 var S20 = { __proto__: singles, level: 20 };
 var S21 = { __proto__: singles, level: 21 };
+var S22 = { __proto__: singles, level: 22 };
+var S23 = { __proto__: singles, level: 23 };
+var S24 = { __proto__: singles, level: 24 };
+var S25 = { __proto__: singles, level: 25 };
 
 var D13 = { __proto__: doubles, level: 13 };
 var D14 = { __proto__: doubles, level: 14 };
@@ -147,6 +152,10 @@ var D18 = { __proto__: doubles, level: 18 };
 var D19 = { __proto__: doubles, level: 19 };
 var D20 = { __proto__: doubles, level: 20 };
 var D21 = { __proto__: doubles, level: 21 };
+var D22 = { __proto__: doubles, level: 22 };
+var D23 = { __proto__: doubles, level: 23 };
+var D24 = { __proto__: doubles, level: 24 };
+var D25 = { __proto__: doubles, level: 25 };
 
 var R15 = { __proto__: any, level: 15 };
 var R16 = { __proto__: any, level: 16 };

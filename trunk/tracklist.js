@@ -241,6 +241,21 @@ function FindChartSharedNew( track, chartTag, chartlevelText )
 }
 
 
+function FindChartWithIndexInMix( track, chartIndex, mixID )
+{
+	console.assert( mixesOrder.indexOf( mixID ) >= 0 );
+
+	var chartsInMix = track[ mixID ];
+	if( chartsInMix )
+	{
+		for( var chart of chartsInMix )
+			if( chart.shared.index === chartIndex )
+				return chart;
+	}
+	return null;
+}
+
+
 // range treated as [ mixIndexFrom..mixIndexTo ), not including the <mixIndexTo> mix
 function FindChartsWithIndexInMixesRange( track, chartIndex, mixIndexFrom, mixIndexTo )
 {

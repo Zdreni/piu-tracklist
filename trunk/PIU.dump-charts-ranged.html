@@ -21,13 +21,6 @@
 <script>
 try
 {
-/*
-	PreprocessTracklist();
-	ApplyBPMs();
-	ApplyUnlocks();
-	ApplyLevelEstimations();
-	//ApplyTags();
-*/
 	initTracklist();
 }
 catch( exc )
@@ -36,16 +29,30 @@ catch( exc )
 }
 
 
-function  TrackIsAllowedByMix( track )
+function TrackIsAllowedByMix( track )
 {
-	return true
+	return( tournamentRange.trackAppearedMixesIDs.indexOf( GetTrackFirstMix( track ) ) >= 0 );
+}
+
+function ChartIsAllowedByMix( track, chart )
+{
+	if( tournamentRange.showReestimatedCharts )
+		return true;
+
+	for( var mix of tournamentRange.trackAppearedMixesIDs )
+	{
+		var chartToCheck= FindChartWithIndexInMix( track, chart.shared.index, mix );
+		if( chartToCheck  &&  chartToCheck.levelNum !== chart.levelNum )
+			return false;
+	}
+	return true;
 }
 
 
 var levels = {};
 for( var level = lowerLevel;  level <= upperLevel;  ++level)
 {
-	levels[ "S" + level ] =	 [];
+	levels[ "S" + level ] =	[];
 	levels[ "D" + level ] = [];
 }
 
@@ -56,24 +63,24 @@ for( var trackID in tracklist )
 	if( ! TrackIsAllowedByMix( track ) )
 		continue;
 
-	if( track.duration != "Standard" )
+	if( track.duration !== STANDARD )
 		continue;
 
-	var mixCharts = track[ mixID ];
+	var mixCharts = track[ tournamentRange.mixID ];
 	if( ! mixCharts )
 		continue;
 
-	track[ mixID ] = {};
+	track[ tournamentRange.mixID ] = {};
 	for( var chart of mixCharts )
 	{
-		if( ! ChartIsAllowedByMix( chart ) )
+		if( ! ChartIsAllowedByMix( track, chart ) )
 			continue;
 
 		var chartIsUnlock = chart.unlockDescr  &&  ! chart.unlockPatchIndex;
-		if( chartIsUnlock  &&  ! showUnlocks)
+		if( chartIsUnlock  &&  ! tournamentRange.showUnlocks )
 			continue;
 
-		if( chart.isUCS  &&  ! showUCS )
+		if( chart.isUCS  &&  ! tournamentRange.showUCS )
 			continue;
 
 		var tag = chart.text;
