@@ -2197,7 +2197,7 @@ var readableTracklist = {
 {
 	title: "Pop the Track", artist: "J-Mi & Midi-D & Ft. Hanna Stockzell", channel: WORLD, bpm: "160",
 	//XX__: "S2 S7 S9 S16 S18  D9 D18 D20  Co-op x2",
-	//XX: "= S18.19",
+	XX: "= S18.19",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S2 S7 S9 S16 D9 D18 Dp??(x2)  @1.40 S19  @1.60 D20",
@@ -2214,7 +2214,7 @@ var readableTracklist = {
 {
 	title: "Passacaglia", artist: "SynthWulf", channel: WORLD, bpm: "175",
 	//XX__: "S4 S7 S11 S17 S19  D13 D18 D22 D23",
-	//XX: "= S11.10 S17.16 S19.20 D13.12 D18.17 D23.24",
+	XX: "= S11.10 S17.16 S19.20 D13.12 D18.17 D23.24",
 	Prime2: "=",
 	Prime: "= -S19",
 	Fiesta2: "S4 S7 S10 S16 D12 D17 D22  @1.01 S20  @1.50 S19  @1.60 D24",
@@ -2224,7 +2224,7 @@ var readableTracklist = {
 {
 	title: "Baroque Virus", artist: "Zircon", channel: WORLD, bpm: "135",
 	//XX__: "S5 S9 S17  D11 D18 D20",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S5 S9 S17  D11 D18  @1.60 D20",
@@ -2234,7 +2234,7 @@ var readableTracklist = {
 {
 	title: "Elise", artist: "DM Ashura", channel: ORIGINAL, bpm: "162",
 	//XX__: "S4 S7 S10 S16 S18 S21  D12 D17 D23  Co-op x2",
-	//XX: "= S16.17 S18.19 S21.22 D12.13 D17.16",
+	XX: "= S16.17 S18.19 S21.22 D12.13 D17.16",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S4 S7 S10 S17 S19 D13 D16 Dp??(x2)  @1.40 S22 D23",
@@ -2245,7 +2245,7 @@ var readableTracklist = {
 	title: "Ignis Fatuus (DM Ashura Mix)", artist: "BanYa & DM Ashura", channel: ORIGINAL, bpm: "220",
 	shortTitle: "Ignis Fatuus",
 	//XX__: "S10 S15 S19 S22  D17 D18 D23 D25  Co-op x2",
-	//XX: "= S10.9 S22.23 D17.15 D18.19 -D17",
+	XX: "= S10.9 S22.23 D17.15 D18.19 -D17",
 	Prime2: "=",
 	Prime: "= -D24 -D26",
 	Fiesta2: "S9 S15 S19 S23 D15 D17 D19 D23 D25 Dp??(x2)  @1.50 D24 D26",
@@ -2256,7 +2256,7 @@ var readableTracklist = {
 	title: "Love is a Danger Zone (Cranky Mix)", artist: "BanYa & Cranky", channel: ORIGINAL, bpm: "155",
 	shortTitle: "Love is a Danger Zone  (Cranky)",
 	//XX__: "S6 S13 S17 S20 S21  D11 D16 D20 D23  Co-op x2",
-	//XX: "= S13.12 S17.18 S21.22 D11.8 D23.24",
+	XX: "= S13.12 S17.18 S21.22 D11.8 D23.24",
 	Prime2: "=",
 	Prime: "= -S19",
 	Fiesta2: "S6 S12 S20 D8 D16 Dp??(x2)  @1.01 D24  @1.40 S18  @1.50 S19  @1.60 S22 D20",
@@ -2267,7 +2267,7 @@ var readableTracklist = {
 	title: "Hypnosis (SynthWulf Mix)", artist: "BanYa & SynthWulf", channel: ORIGINAL, bpm: "175",
 	shortTitle: "Hypnosis\n(SynthWulf Mix)",
 	//XX__: "S11 S13 S17 S20  D14 D15 D19",
-	//XX: "= S11.8 S13.11 S20.21 D14.13 D19.20",
+	XX: "= S11.8 S13.11 S20.21 D14.13 D19.20",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S8 S11 S17 S21 D13 D15  @1.01 D20",
@@ -2277,7 +2277,7 @@ var readableTracklist = {
 {
 	title: "Flew Far Faster", artist: "Doin", channel: ORIGINAL, bpm: "200",
 	//XX__: "S11 S18 S22  D13 D22 D24  Co-op x3",
-	//XX: "= S11.10 S18.17 S22.23 D13.12",
+	XX: "= S11.10 S18.17 S22.23 D13.12",
 	Prime2: "=",
 	Prime: "=  @1.14 D24",
 	Fiesta2: "S10 S17 S23 D22 Dp??(x3)  @1.01 D12",
@@ -2287,7 +2287,7 @@ var readableTracklist = {
 {
 	title: "Unique", artist: "SHK", channel: ORIGINAL, bpm: "145",
 	//XX__: "S3 S6 S10 S14 S16  D12 D16 D18",
-	//XX: "= S14.15 S16.17 D18.19",
+	XX: "= S14.15 S16.17 D18.19",
 	Prime2: "=",
 	Prime: "= -S16",
 	Fiesta2: "S3 S6 S10 S17 D12 D19  @1.40 S15 D16  @1.50 S16",
@@ -2307,7 +2307,7 @@ var readableTracklist = {
 {
 	title: "D", artist: "MAX", channel: ORIGINAL, bpm: "180",
 	//XX__: "S4 S7 S10 S18  D12 D18 D20",
-	//XX: "= S10.9 D12.11 D20.19",
+	XX: "= S10.9 D12.11 D20.19",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S4 S7 S9 S18 D11 D19  @1.40 D18",
@@ -2317,7 +2317,7 @@ var readableTracklist = {
 {
 	title: "U Got Me Rocking", artist: "MAX", channel: ORIGINAL, bpm: "128",
 	//XX__: "S3 S6 S8 S17 S18  D4 D17  Dp3",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S3 S6 S8 S17 D4 D17 Dp3  @1.01 S18",
@@ -2328,7 +2328,7 @@ var readableTracklist = {
 	title: "Lucid (PIU Edit)", artist: "Yak Won", channel: ORIGINAL, bpm: "40 ~ 190",
 	shortTitle: "Lucid",
 	//XX__: "S4 S7 S11 S16 S19  D11 D20 D23  Co-op x2",
-	//XX: "= S11.10 S19.20",
+	XX: "= S11.10 S19.20",
 	Prime2: "=",
 	Prime: "=  @1.12 S16.ucs",
 	Fiesta2: "S4 S7 S10 S20 D11 D20 Dp??(x2)  @1.60 D23",
@@ -2506,7 +2506,7 @@ var readableTracklist = {
 {
 	title: "Log-In", artist: "SHK", channel: ORIGINAL, bpm: "140",
 	//XX__: "S4 S7 S10 S18 S20  D10 D19",
-	//XX: "= S20.21 D19.20",
+	XX: "= S20.21 D19.20",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "@1.40 S4 S7 S10 S18 S21 D10 D20",
@@ -2516,7 +2516,7 @@ var readableTracklist = {
 {
 	title: "Windmill", artist: "Yak Won", channel: ORIGINAL, bpm: "246",
 	//XX__: "S8 S13 S17 S21  D14 D18 D23",
-	//XX: "= D23.24",
+	XX: "= D23.24",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "@1.40 S8 S13 S17 S21 D14 D18 D24",
@@ -2526,7 +2526,7 @@ var readableTracklist = {
 {
 	title: "Follow Me", artist: "SHK", channel: ORIGINAL, bpm: "155",
 	//XX__: "S4 S6 S9 S14 S17  D9 D17  Co-op x2",
-	//XX: "= D17.18",
+	XX: "= D17.18",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "@1.60 S4 S6 S9 S14 S17 D9 D18 Dp??(x2)",
@@ -2536,7 +2536,7 @@ var readableTracklist = {
 {
 	title: "Yeo Rae A", artist: "S.I.D-Sound", channel: ORIGINAL, bpm: "90",
 	//XX__: "S1 S3 S5 S8 S13  D7 D10",
-	//XX: "= D7.5 D10.12",
+	XX: "= D7.5 D10.12",
 	Prime2: "=",
 	Prime: "=  @1.06 S8",
 	Fiesta2: "@1.60 S1 S3 S5 S13 D5 D12",
@@ -2546,7 +2546,7 @@ var readableTracklist = {
 {
 	title: "Mental Rider", artist: "SQUAR", channel: ORIGINAL, bpm: "120 ~ 140",
 	//XX__: "S13 S16 S21  D13 D19 D22 D24",
-	//XX: "= S13.12 D24.23",
+	XX: "= S13.12 D24.23",
 	Prime2: "=  @2.05 D22",
 	Prime: "=",
 	Fiesta2: "@1.50 S12 S16 S21 D13 D19 D23",
@@ -2570,7 +2570,7 @@ var readableTracklist = {
 {
 	title: "Infinity RMX", artist: "SynthWulf & MAX", channel: ORIGINAL, bpm: "175", duration: REMIX,
 	//XX__: "S20  D19",
-	//XX: "= D19.20",
+	XX: "= D19.20",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S20 D20",
@@ -2580,7 +2580,7 @@ var readableTracklist = {
 {
 	title: "What Are You Doin'?", artist: "Doin & MAX", channel: ORIGINAL, bpm: "200", duration: REMIX,
 	//XX__: "S18 D23",
-	//XX: "= S18.19 D23.24",
+	XX: "= S18.19 D23.24",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S19 D24",
@@ -2636,7 +2636,7 @@ var readableTracklist = {
 {
 	title: "Pop the Track  [SHORT]", artist: "J-Mi & Midi-D & Ft. Hanna Stockzell", channel: WORLD, bpm: "160",
 	//XX__: "S18  D16",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S18 D16",
@@ -2646,7 +2646,7 @@ var readableTracklist = {
 {
 	title: "Passacaglia  [SHORT]", artist: "SynthWulf", channel: WORLD, bpm: "175",
 	//XX__: "S17  D18",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S17 D18",
@@ -2657,7 +2657,7 @@ var readableTracklist = {
 	title: "Ignis Fatuus (DM Ashura Mix)  [SHORT]", artist: "DM Ashura", channel: ORIGINAL, bpm: "220",
 	shortTitle: "Ignis Fatuus",
 	//XX__: "S21 D21",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S21 D21",
@@ -2667,7 +2667,7 @@ var readableTracklist = {
 {
 	title: "Flew Far Faster  [SHORT]", artist: "Doin", channel: ORIGINAL, bpm: "200",
 	//XX__: "S18 D21",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S18 D21",
@@ -2677,7 +2677,7 @@ var readableTracklist = {
 {
 	title: "Unique  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "145",
 	//XX__: "S18 D16",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S18 D16",
@@ -2687,7 +2687,7 @@ var readableTracklist = {
 {
 	title: "U Got Me Rocking  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "128",
 	//XX__: "S17 D17",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S17 D17",
@@ -2700,7 +2700,7 @@ var readableTracklist = {
 {
 	title: "Monolith", artist: "Affinity", channel: WORLD, bpm: "196",
 	//XX__: "S3 S5 S9 S15  D14 D17 D22",
-	//XX: "= S15.16 D14.13 D17.18 D22.23",
+	XX: "= S15.16 D14.13 D17.18 D22.23",
 	Prime2: "=  @1.10 D23",
 	Prime: "=",
 	Fiesta2: "S3 S5 S9  @1.50 D13   @1.60 S16 D18",
@@ -2734,7 +2734,7 @@ var readableTracklist = {
 {
 	title: "Ladybug", artist: "Coconut", channel: WORLD, bpm: "133",
 	//XX__: "S1 S3 S5 S13  D13  Co-op x2",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S1 S3 S5  @1.50 S13 D13 Dp??(x2)",
@@ -2744,7 +2744,7 @@ var readableTracklist = {
 {
 	title: "Hardkore of the North", artist: "Diclonius Kid", channel: WORLD, bpm: "190",
 	//XX__: "S4 S7 S11 S21  D15 D22",
-	//XX: "= D15.16 D22.23",
+	XX: "= D15.16 D22.23",  //??? D22.updated?
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S4 S7 S11  @1.50 S21 D16  @1.60 D23",
@@ -2762,7 +2762,7 @@ var readableTracklist = {
 {
 	title: "Tribe Attacker", artist: "Hi-G", channel: WORLD, bpm: "150",
 	//XX__: "S3 S6 S9 S17  D10 D17  Co-op x4",
-	//XX: "= S17.16 D17.15",
+	XX: "= S17.16 D17.15",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S3 S6 S9  @1.50 S16 D10 D15 Dp??(x4)",
@@ -2805,7 +2805,7 @@ var readableTracklist = {
 	title: "Dream to Nightmare", artist: "Nightmare", channel: WORLD, bpm: "178",
 	sortingID: "1300__1",  // before any of 13xx charts
 	//XX__: "S19 S21  D22 D23",
-	//XX: "= -S22 D23.24",
+	XX: "= -S22 D23.24",
 	Prime2: "=",
 	Prime: "= -S23  @1.19 S22",
 	Fiesta2: "@1.30 S19 S21 S23 D22 D24",
@@ -2823,7 +2823,7 @@ var readableTracklist = {
 {
 	title: "Utopia", artist: "Smiley", channel: WORLD, bpm: "166",
 	//XX__: "S4 S7 S9 S17  D9 D18",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S4 S7 S9 S17 D9 D18",
@@ -2833,7 +2833,7 @@ var readableTracklist = {
 {
 	title: "Xuxa", artist: "Smiley", channel: WORLD, bpm: "160",
 	//XX__: "S3 S5 S9 S14  D12 D17 Co-op x2",
-	//XX: "= D17.18",
+	XX: "= D17.18",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "@1.20 S3 S5 S9 S14 D12 D18 Dp??(x2)",
@@ -2853,7 +2853,7 @@ var readableTracklist = {
 	title: "VVV", artist: "Zig Zag", channel: WORLD, bpm: "310",
 	sortingID: "1300__2",  // before any of 13xx charts, after DtN
 	//XX__: "S18 S23  D17 D19",
-	//XX: "= D17.16",
+	XX: "= D17.16",
 	Prime2: "=",
 	Prime: "= -D24",
 	Fiesta2: "@1.50 S18 S23 D16 D19 D24",
@@ -2863,7 +2863,7 @@ var readableTracklist = {
 {
 	title: "Star Command", artist: "Zircon", channel: WORLD, bpm: "155",
 	//XX__: "S3 S5 S12 S15 S19  D15 D21 D23",
-	//XX: "= D15.14",
+	XX: "= D15.14",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S3 S5 S12  @1.50 S15 S19 D14 D21  @1.60 D23",
