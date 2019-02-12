@@ -560,7 +560,7 @@ function ApplyUnlocks()
 		Lock( "Club Night", "D12", "at least D12 A on Loki" )
 		Lock( "Club Night", "D18", "???" )
 		Lock( "Club Night", "D21", "Advanced Lv. 3 Title?" )
-		Lock( "Club Night", "CoOp(x2)", "Unlock all Club Night charts?	no exact informations on co-op	Play count 600?" )
+		Lock( "Club Night", "CoOp(x2)", "get CoOp Intermediate title" )  // according to Seth Sanches at https://www.facebook.com/groups/1475683766036553/permalink/2303998833205038/
 		Lock( "Black Swan", "S12", "AM.Pass level 10" )
 		Lock( "Black Swan", "S14", "AM.Pass level 12" )
 		Lock( "Black Swan", "S16", "AM.Pass level 14" )
