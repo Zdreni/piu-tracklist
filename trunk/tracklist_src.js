@@ -296,6 +296,7 @@ var readableTracklist = {
 	sortingID: "15E5", // between Acquaintance FULL 15E4 and Chase Me FULL 15E7, not a Hush FULL 15E6  // altID: "",
 	//XX__: "S20 S21 S23  D22 D25  Co-op x2",
 	XX: "= S20.21 S21.20",
+	// S20-XX & S21-XX - https://www.youtube.com/watch?v=IWbkQJcDkN4
 	Prime2: "@2.04 S20 S21 D22 S23 D25 CoOp(x2).ampass",
 },
 
@@ -5251,6 +5252,7 @@ var readableTracklist = {
 	title: "Chimera", artist: "Yahpp", bpm: "210",
 	//XX__: "S4 S9 S12 S18 S19 S23  D16 D26  Co-op x2",
 	XX: "= S9.7 S12.11 S19.16 D26.25",  //??? S19.updated
+	// S19-XX - https://www.youtube.com/watch?v=ieMFtCNbSac
 	Prime2: "=",
 	Prime: "= -D??(x3)",
 	Fiesta2: "=",
@@ -5660,7 +5662,7 @@ var readableTracklist = {
 {
 	title: "Beat of the War 2", artist: "BanYa", bpm: "190",
 	//XX__: "S4 S5 S6 S10 S16 S21  D14 D20",
-	//XX: "= S21.new D14.12 D20.19",
+	XX: "= S21.new D14.12 D20.19",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5676,7 +5678,7 @@ var readableTracklist = {
 {
 	title: "Moonlight", artist: "BanYa", bpm: "180",
 	//XX__: "S4 S8 S10 S18 S19  D11 D20 D21",
-	//XX: "= S8.7",
+	XX: "= S8.7",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5692,7 +5694,7 @@ var readableTracklist = {
 {
 	title: "Witch Doctor", artist: "BanYa", bpm: "195",
 	//XX__: "S4 S6 S10 S17 S19 S21  D19 D22 D23",
-	//XX: "= S17.16 D22.23 D23.22",
+	XX: "= S17.16 D22.23 D23.22",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5708,7 +5710,7 @@ var readableTracklist = {
 {
 	title: "Love is a Danger Zone 2", artist: "BanYa", bpm: "162",
 	//XX__: "S4 S7 S9 S15 S22  D17 D23",
-	//XX: "= S22.21",
+	XX: "= S22.21",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5724,12 +5726,14 @@ var readableTracklist = {
 {
 	title: "Phantom", artist: "BanYa", bpm: "136",
 	//XX__: "S2 S7 S12 S18 S19  D13 D19 D20  Dp7",
-	//XX: "= S18.17 S19.18 D13.12",
+	XX: "= S18.17 S19.18 D13.12 D19.20 D20.19",  //??? D19.updated
+	// D19-XX - https://www.youtube.com/watch?v=zJDLZy7r-lE
+	// D19-P2 - https://www.youtube.com/watch?v=UF_tkEWx4L4
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "=  @1.51 S2 S7",
-	Fiesta: "S12.hd S18.cz Dp7.fs D19.nm  S17.acz D12.afs D20.anm",
+	Fiesta: "S12.hd S18.cz Dp7.fs D91.nm  S17.acz D12.afs D20.anm",
 	NXA: ["", "12", "18", "7", "19"], NXA_: ["", "", "18", "11", "20"],
 	NX2: ["", "10", "18", "7", "19"], NX2_: ["", "", "19", "", "20"],
 	NX: ["", "10", "18", "7", "19"], NX_: ["", "", "", "", "18"],
@@ -5740,7 +5744,7 @@ var readableTracklist = {
 {
 	title: "Papa Gonzales", artist: "BanYa", bpm: "145",
 	//XX__: "S4 S6 S8 S16  D7 D18",
-	//XX: "= S16.14",
+	XX: "= S16.14",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5898,7 +5902,7 @@ var readableTracklist = {
 	title: "Love is a Danger Zone (try to B.P.M.)", artist: "BanYa", bpm: "140 ~ 169", duration: REMIX,
 	shortTitle: "Love is a Danger Zone (B.P.M.)",
 	//XX__: "S15 S21  D16 D23",
-	//XX: "= S15.12 S21.20 D16.14",
+	XX: "= S15.12 S21.20 D16.14",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5937,7 +5941,7 @@ var readableTracklist = {
 	shortTitle: "Love is a Danger Zone 2 (D&G)",
 	sortingID: " C41__1",  // after C41 - LIADZ Try To BPM
 	//XX__: "S16 S17  Co-op x2",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "= -D??(x2)",
 	Fiesta2: "=",
@@ -6105,7 +6109,7 @@ var readableTracklist = {
 {
 	title: "J Bong", artist: "BanYa", bpm: "140",
 	//XX__: "S3 S5 S7 S8 S15  D17  Dp5",
-	//XX: "= S15.13",
+	XX: "= S15.13",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6120,7 +6124,8 @@ var readableTracklist = {
 {
 	title: "Hi-Bi", artist: "BanYa", bpm: "145",
 	//XX__: "S3 S5 S8 S16 S19  D8 D19 D20",
-	//XX: "= S16.15 S19.18 D19.18",
+	XX: "= S16.15 S19.18 D19.18",  //??? D20.updated - simplified hold
+	// D20-XX - https://www.youtube.com/watch?v=nR61F0n4dio
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6137,7 +6142,7 @@ var readableTracklist = {
 {
 	title: "Solitary 2", artist: "BanYa", bpm: "136",
 	//XX__: "S4 S8 S9 S17  D19 D21  Sp3  Dp6",
-	//XX: "= S8.6 S9.8 D19.18",
+	XX: "= S8.6 S9.8 D19.18",
 	Prime2: "=  @2.00 D21",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6154,7 +6159,7 @@ var readableTracklist = {
 {
 	title: "Canon-D", artist: "BanYa", bpm: "160",
 	//XX__: "S3 S7 S10 S17 S20 S21  D12 D17 D23  Co-op x2",
-	//XX: "= S10.9 D12.10 D23.22",
+	XX: "= S10.9 D12.10 D23.22",
 	Prime2: "= -S18 -D18",
 	Prime: "=  @1.11 S17.ucs S18.ucs D17.ucs D18.ucs  @1.14 Dp??(x2)",
 	Fiesta2: "=",
@@ -6196,9 +6201,9 @@ var readableTracklist = {
 
 "B28":
 {  //? B58
-	title: "Treme Vook of the War", artist: "BanYa", bpm: "140 - 202", duration: REMIX,
+	title: "Tream Vook of the War", artist: "BanYa", bpm: "140 - 202", duration: REMIX,
 	//XX__: "S13 S19  D15 D22",
-	//XX: "= S13.11 D15.13",
+	XX: "= S13.11 D15.13",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6215,7 +6220,7 @@ var readableTracklist = {
 {
 	title: "Banya Classic Remix", artist: "BanYa", bpm: "162 ~ 170", duration: REMIX,
 	//XX__: "S13 S19  D14 D20",
-	//XX: "= S13.7 D14.11",
+	XX: "= S13.7 D14.11",
 	Prime2: "=",
 	Prime: "= D11.Dp11",  // просто сменили тип:
 		// https://www.youtube.com/watch?v=7oNcvphJdk4 на P2
@@ -6303,9 +6308,9 @@ var readableTracklist = {
 
 "B56":
 {
-	title: "BanYa Hip-Hop Remix", artist: "BanYa", bpm: "99", duration: REMIX,
+	title: "BanYa HipHop Remix", artist: "BanYa", bpm: "99", duration: REMIX,
 	//XX__: "S6 S7  D20  Dp6",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=  @2.04 D20",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6322,7 +6327,7 @@ var readableTracklist = {
 {
 	title: "Canon-D  [FULL]", artist: "BanYa", bpm: "160",
 	//XX__: "S14 S17  D23 D24",
-	//XX: "= S14.S11 S17.16",
+	XX: "= S14.S11 S17.16",
 	Prime2: "=",
 	Prime: "=  @1.19 D24",
 	Fiesta2: "=",
@@ -6342,7 +6347,7 @@ var readableTracklist = {
 {
 	title: "Final Audition 3 U.F", artist: "BanYa", bpm: "130",
 	//XX__: "S2 S5 S8 S9 S16 S17  D17 D19  Sp3  Dp5",
-	//XX: "= S8.6 S16.14",
+	XX: "= S8.6 S16.14",
 	Prime2: "=",
 	Prime: "=  @1.19 S17",
 	Fiesta2: "=",
@@ -6360,7 +6365,7 @@ var readableTracklist = {
 {
 	title: "Naissance 2", artist: "BanYa", bpm: "129",
 	//XX__: "S9 S13  D15 D20  Sp3  Dp5",
-	//XX: "= S9.6 D20.19",
+	XX: "= S9.6 D20.19",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6378,7 +6383,7 @@ var readableTracklist = {
 {
 	title: "Monkey Fingers", artist: "BanYa", bpm: "186",
 	//XX__: "S4 S5 S9 S15  D17  Sp5",
-	//XX: "= S4.3 S9.8",
+	XX: "= S4.3 S9.8",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6396,7 +6401,7 @@ var readableTracklist = {
 {
 	title: "Blazing", artist: "BanYa", bpm: "158",
 	//XX__: "S4 S6 S9 S17 S19  D20",
-	//XX: "= S4.3 S17.15 D20.19",
+	XX: "= S4.3 S17.15 D20.19",
 	Prime2: "=  @2.04 S19",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6412,7 +6417,7 @@ var readableTracklist = {
 {
 	title: "Pump Me Amadeus", artist: "BanYa", bpm: "170",
 	//XX__: "S3 S6 S11 S18  D12 D19 D21",
-	//XX: "= S6.5 S11.9 S18.17 D12.10 D19.18 D21.19",
+	XX: "= S6.5 S11.9 S18.17 D12.10 D19.18 D21.19",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6428,7 +6433,7 @@ var readableTracklist = {
 {
 	title: "X-Treme", artist: "BanYa", bpm: "162",
 	//XX__: "S4 S7 S10 S15 S18  D13 D20",
-	//XX: "= S10.9 S15.14 D20.19",
+	XX: "= S10.9 S15.14 D20.19",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6684,7 +6689,7 @@ var readableTracklist = {
 {
 	title: "Chicken Wing", artist: "BanYa", bpm: "200", fromMix: "Extra",
 	//XX__: "S4 S6 S9 S11 S17 S20 S21  D13 D17 D22",
-	//XX: "= S11.10 S20.19 D13.11 D22.23",
+	XX: "= S11.10 S20.19 D13.11 D22.23",
 	Prime2: "= -S22",
 	Prime: "=  @1.17 S21.ucs S22.ucs D23.ucs",
 	Fiesta2: "=  @1.60 S17",
@@ -6738,7 +6743,7 @@ var readableTracklist = {
 	title: "Final Audition episode 1", artist: "BanYa", bpm: "189", fromMix: "Extra",
 	shortTitle: "Final Audition ep. 1",
 	//XX__: "S4 S7 S8 S13 S16 S20  D13 D22 D23",
-	//XX: "= S16.15 S20.19 D13.11 D22.21",
+	XX: "= S16.15 S20.19 D13.11 D22.21",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6766,7 +6771,7 @@ var readableTracklist = {
 {
 	title: "Bee", artist: "BanYa", bpm: "160", fromMix: "Premiere3",
 	//XX__: "S4 S7 S10 S12 S16 S19  D12 D20 D22 D24",
-	//XX: "= S12.11 S16.15 D12.11 D20.19 D22.21 D24.23",
+	XX: "= S12.11 S16.15 D12.11 D20.19 D22.21 D24.23",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6814,7 +6819,7 @@ var readableTracklist = {
 {
 	title: "D Gang", artist: "BanYa", bpm: "150", fromMix: "Premiere3",
 	//XX__: "S4 S6 S11 S18  D7 D15 D17",
-	//XX: "= S11.9",
+	XX: "= S11.9",
 	Prime2: "=  @2.00 D17",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -6849,7 +6854,7 @@ var readableTracklist = {
 {
 	title: "Hello", artist: "BanYa", bpm: "140", fromMix: "Premiere3",
 	//XX__: "S7 S16  D9 D18",
-	//XX: "= D18.16",
+	XX: "= D18.16",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -6920,7 +6925,7 @@ var readableTracklist = {
 {
 	title: "Beat of the War", artist: "BanYa", bpm: "190 ~ 140 ~ 202", fromMix: "Premiere3",
 	//XX__: "S3 S5 S9 S11 S16 S18 S21  D13 D19 D23",
-	//XX: "= S11.10 S16.15 D13.12",
+	XX: "= S11.10 S16.15 D13.12",
 	Prime2: "=  @2.05 S18 S21 D23",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6954,7 +6959,7 @@ var readableTracklist = {
 {
 	title: "Come to Me", artist: "BanYa", bpm: "100 ~ 107", fromMix: "Premiere3",
 	//XX__: "S4 S6 S11 S13 S17  D13 D14  Sp3  Dp6",
-	//XX: "= S13.12 S17.15",
+	XX: "= S13.12 S17.15",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6975,7 +6980,7 @@ var readableTracklist = {
 {
 	title: "Dr. M", artist: "BanYa", bpm: "145", fromMix: "Rebirth",
 	//XX__: "S3 S6 S8 S9 S12 S16  D11 D18",
-	//XX: "= S6.??? S8.7 D18.16",
+	XX: "= S6 S8.7 D18.16",  //??? S6.??? - proof S6 S8
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6993,7 +6998,7 @@ var readableTracklist = {
 {
 	title: "Emperor", artist: "BanYa", bpm: "150", fromMix: "Rebirth",
 	//XX__: "S2 S5 S8 S12 S16  D17  Sp3  Dp3",
-	//XX: "= S12.11",
+	XX: "= S12.11",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7005,7 +7010,7 @@ var readableTracklist = {
 {
 	title: "Get Your Groove On", artist: "BanYa", bpm: "96", fromMix: "Rebirth",
 	//XX__: "S4 S6 S12  D9 D22",
-	//XX: "= S12.13 D22.21",
+	XX: "= S12.13 D22.21",
 	Prime2: "=  @1.10 D21",
 	Fiesta2: "=",
 	FiestaEX: "S4 S6 S13 D9",  //? nl hd cz fs
@@ -7017,7 +7022,7 @@ var readableTracklist = {
 {
 	title: "Love is a Danger Zone", artist: "BanYa", bpm: "140", fromMix: "Rebirth",
 	//XX__: "S3 S7 S10 S17 S19  D6 D17 D21  Co-op x2",
-	//XX: "= S17.15 D17.15 D21.20",
+	XX: "= S17.15 D17.15 D21.20",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7035,7 +7040,7 @@ var readableTracklist = {
 {
 	title: "Maria", artist: "BanYa", bpm: "136", fromMix: "Rebirth",
 	//XX__: "S6 S11 S15 S18  D15 D20",
-	//XX: "= D20.19",
+	XX: "= D20.19",
 	Prime2: "=  @1.09 D19",
 	Prime: "=  @1.12 S18.ucs",
 	Fiesta2: "=",
@@ -7049,7 +7054,7 @@ var readableTracklist = {
 {
 	title: "Mission Possible", artist: "BanYa", bpm: "124", fromMix: "Rebirth",
 	//XX__: "S5 S7 S13 S19  D8",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "S5 S7 S13 D8  @1.20 S19",
@@ -7059,7 +7064,7 @@ var readableTracklist = {
 {
 	title: "My Way", artist: "BanYa", bpm: "118", fromMix: "Rebirth",
 	//XX__: "S3 S5 S8 S14  D15 D18  Sp2  Dp4 Dp6",
-	//XX: "= S14.12",
+	XX: "= S14.12",
 	Prime2: "=  @1.09 D18",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7073,7 +7078,7 @@ var readableTracklist = {
 {
 	title: "Point Break", artist: "BanYa", bpm: "92", fromMix: "Rebirth",
 	//XX__: "S6  D14  Sp3  Dp6",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7090,7 +7095,7 @@ var readableTracklist = {
 {
 	title: "Street Show Down", artist: "BanYa", bpm: "124", fromMix: "Rebirth",
 	//XX__: "S7 S15  D13  Sp4  Dp6",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -7104,7 +7109,7 @@ var readableTracklist = {
 {
 	title: "Top City", artist: "BanYa", bpm: "110.72", fromMix: "Rebirth",
 	//XX__: "S4 S6 S12  D7",
-	//XX: "=",
+	XX: "=",
 	Prime2: "= -D12",
 	Fiesta2: "=",
 	FiestaEX: "S4 S6 S12 D7 D12",
@@ -7114,7 +7119,7 @@ var readableTracklist = {
 {
 	title: "Winter", artist: "BanYa", bpm: "168", fromMix: "Rebirth",
 	//XX__: "S4 S7 S10 S16 S19  D12 D17 D20",
-	//XX: "= S7.6 S10.8 S16.15 D12.11 D20.19",
+	XX: "= S7.6 S10.8 S16.15 D12.11 D20.19",
 	Prime2: "=  @1.07 S19",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7132,7 +7137,7 @@ var readableTracklist = {
 {
 	title: "Will o' the Wisp", artist: "BanYa", bpm: "210", fromMix: "Rebirth",
 	//XX__: "S2 S5 S11 S14 S19  D13 D14 D20 D21",
-	//XX: "= S2.3 S11.10 S14.13 D13.10 D14.13 D20.19",
+	XX: "= S2.3 S11.10 S14.13 D13.10 D14.13 D20.19",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7150,7 +7155,7 @@ var readableTracklist = {
 {
 	title: "Till the End of Time", artist: "BanYa", bpm: "140", fromMix: "Rebirth",
 	//XX__: "S2 S4 S9 S13 S17  D8 D13 D16  Dp3",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "=  @1.17 S13.ucs S17.ucs D8.ucs D13.ucs D16.ucs",
 	Fiesta2: "=",
@@ -7162,7 +7167,7 @@ var readableTracklist = {
 {
 	title: "Oy Oy Oy", artist: "BanYa", bpm: "148", fromMix: "Rebirth",
 	//XX__: "S4 S6 S8 S13  D13  Sp2  Dp3",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7176,7 +7181,7 @@ var readableTracklist = {
 {
 	title: "We Will Meet Again", artist: "BanYa", bpm: "118", fromMix: "Rebirth",
 	//XX__: "S4 S8 S13 S14  D8",
-	//XX: "= S4.3",
+	XX: "= S4.3 S13.14 S14.13",  //??? proof
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "S3 S8 S13 D8  @1.30 S14",
@@ -7186,7 +7191,7 @@ var readableTracklist = {
 {
 	title: "Miss's Story", artist: "BanYa", bpm: "111", fromMix: "Rebirth",
 	//XX__: "S5 S19  D19  Sp3  Dp5",
-	//XX: "= S19.18",
+	XX: "= S19.18",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -7198,7 +7203,7 @@ var readableTracklist = {
 {
 	title: "Set Me Up", artist: "BanYa", bpm: "120", fromMix: "Rebirth",
 	//XX__: "S2 S4 S6 S9 S13  Sp4  Dp4 Dp7",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7210,7 +7215,7 @@ var readableTracklist = {
 {
 	title: "Dance With Me", artist: "BanYa", bpm: "122", fromMix: "Rebirth",
 	//XX__: "S2 S4 S6 S12 S14  D15  Sp4  Dp4 Dp6",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7244,7 +7249,7 @@ var readableTracklist = {
 {
 	title: "Vook", artist: "BanYa", bpm: "184", fromMix: "Rebirth",
 	//XX__: "S4 S7 S9 S15 S17 S20  D13 D19 D20",
-	//XX: "= D13.12 D19.???_17_18_19 D20.???_17_18_19",
+	XX: "= D13.12 -D17 D19.18 D20.19",  //??? proof
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7262,7 +7267,7 @@ var readableTracklist = {
 {
 	title: "Csikos Post", artist: "BanYa", bpm: "180", fromMix: "Rebirth",
 	//XX__: "S4 S7 S8 S11 S13  D8 D16 D22",
-	//XX: "= S4.3 S8.???_7 S11.???_10 D22.21",
+	XX: "= S4.3 S7 S8.7 S11.10 D22.21",  //??? S7 S8 proof
 	Prime2: "=",
 	Prime: "=  @1.12 D21.ucs",
 	Fiesta2: "=",
@@ -7284,7 +7289,7 @@ var readableTracklist = {
 {
 	title: "Pump Jump", artist: "BanYa", bpm: "106", fromMix: "Perfect",
 	//XX__: "S4 S15  D17  Sp2  Dp4",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -7296,7 +7301,7 @@ var readableTracklist = {
 {
 	title: "N", artist: "BanYa", bpm: "106", fromMix: "Perfect",
 	//XX__: "S5 S16  D16  Sp2  Dp5",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=  @1.51 D16",
@@ -7311,7 +7316,7 @@ var readableTracklist = {
 {
 	title: "Rolling Christmas", artist: "BanYa", bpm: "142", fromMix: "Perfect",
 	//XX__: "S3 S5 S8 S12  D5 D13 D16  Co-Op x2",
-	//XX: "= S12.S13 D16.D17",
+	XX: "= S12.S13 D16.D17",
 	Prime2: "=",
 	Prime: "=  @1.11 Dp??(x2)  @1.12 D17.ucs",
 	Fiesta2: "=",
@@ -7340,7 +7345,7 @@ var readableTracklist = {
 {
 	title: "Beethoven Virus", artist: "BanYa", bpm: "162", fromMix: "Perfect",
 	//XX__: "S4 S6 S7 S11 S16 S17  D11 D18 D21  Dp3",
-	//XX: "= S6.7 S7.8 S11.13 D11.8 D21.20",
+	XX: "= S6.8 S11.13 D11.8 D21.20",  //??? proof S6.updated S7
 	Prime2: "=",
 	Prime: "= -Dp11",
 	Fiesta2: "=",
@@ -7375,7 +7380,7 @@ var readableTracklist = {
 {
 	title: "Slam", artist: "Novasonic", bpm: "132", fromMix: "Perfect",
 	//XX__: "S3 S6 S9 S18 S19  D6 D21 D23",
-	//XX: "= S18.17 S19.18 D21.20",
+	XX: "= S18.17 S19.18 D21.20",
 	Prime2: "=  @1.04 D23",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7402,7 +7407,7 @@ var readableTracklist = {
 {
 	title: "Oh! Rosa", artist: "BanYa", bpm: "148", fromMix: "OBG_SE",
 	//XX__: "S8 S13  D7  Co-op x2",
-	//XX: "= S8.7",
+	XX: "= S8.7",
 	Prime2: "=  @1.04 CoOp(x2)",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -7415,7 +7420,7 @@ var readableTracklist = {
 {
 	title: "First Love", artist: "BanYa", bpm: "104", fromMix: "OBG_SE",
 	//XX__: "S4 S10  D14  Sp1  Dp4",
-	//XX: "= S10.9",
+	XX: "= S10.9",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -7428,7 +7433,7 @@ var readableTracklist = {
 {
 	title: "Betrayer", artist: "BanYa", bpm: "92", fromMix: "OBG_SE",
 	//XX__: "S1 S5 S8 S13 S16  D11 D13 D17  Sp2",
-	//XX: "= D11.8",
+	XX: "= D11.8",
 	Prime2: "=",
 	Prime: "@1.11 = S16 D17",
 	Fiesta2: "=",
@@ -7441,7 +7446,7 @@ var readableTracklist = {
 {
 	title: "Solitary", artist: "BanYa", bpm: "136", fromMix: "OBG_SE",
 	//XX__: "S2 S4 S6 S8 S9 S17 S18  D10 D16  Sp3  Dp5",
-	//XX: "= S17.16 S18.17 D10.7",
+	XX: "= S17.16 S18.17 D10.7",  //??? proof S17 S18
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7459,7 +7464,7 @@ var readableTracklist = {
 {
 	title: "Mr. Larpus", artist: "BanYa", bpm: "190", fromMix: "OBG_SE",
 	//XX__: "S3 S5 S12 S14 S20 S22  D16 D17 D23",
-	//XX: "= S12.11 D16.14",
+	XX: "= S12.11 D16.14",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7507,7 +7512,7 @@ var readableTracklist = {
 {
 	title: "Final Audition 2", artist: "BanYa", bpm: "130", fromMix: "OBG",
 	//XX__: "S4 S7 S9 S10 S17  D11 D18 D20  Dp3",
-	//XX: "= S9.8 S17.16 D11.8 D18.17 D20.19",
+	XX: "= S9.8 S17.16 D11.8 D18.17 D20.19",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7525,7 +7530,7 @@ var readableTracklist = {
 {
 	title: "Naissance", artist: "BanYa", bpm: "136", fromMix: "OBG",
 	//XX__: "S4 S7 S8 S10 S16 S20  D7 D15",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=  @2.02 S16",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7543,7 +7548,7 @@ var readableTracklist = {
 {
 	title: "Turkey March", artist: "BanYa", bpm: "150", fromMix: "OBG",
 	//XX__: "S3 S7 S12 S16 S18  D9 D17 D20  Co-op x2",
-	//XX: "= S16.15 D20.19",
+	XX: "= S16.15 D20.19",
 	Prime2: "=",
 	Prime: "=  @1.12 S18.ucs D17.ucs Dp??(x2).ucs",
 	Fiesta2: "=",
@@ -7577,7 +7582,7 @@ var readableTracklist = {
 {
 	title: "Nightmare", artist: "BanYa", bpm: "120", fromMix: "OBG",
 	//XX__: "S2 S4  D13  Dp5",
-	//XX: "= S2.1",
+	XX: "= S2.1",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=  @1.30 D13",
@@ -7590,7 +7595,7 @@ var readableTracklist = {
 {
 	title: "Close Your Eyes", artist: "BanYa", bpm: "105", fromMix: "OBG",
 	//XX__: "S4  Sp2  Dp3",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -7601,7 +7606,7 @@ var readableTracklist = {
 {
 	title: "Free Style", artist: "BanYa", bpm: "99", fromMix: "OBG",
 	//XX__: "S13  D15  Sp1  Dp3",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=  @1.51 S13",
@@ -7613,7 +7618,7 @@ var readableTracklist = {
 {
 	title: "Midnight Blue", artist: "BanYa", bpm: "80", fromMix: "OBG",
 	//XX__: "S11  D12  Sp4  Dp5",
-	//XX: "= S11.12 D12.13",
+	XX: "= S11.12 D12.13",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7625,7 +7630,7 @@ var readableTracklist = {
 {
 	title: "She Likes Pizza", artist: "BanYa", bpm: "230", fromMix: "OBG",
 	//XX__: "S8 S9 S21  D9 D16 D23",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=  @1.05 S21 D23",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -7642,7 +7647,7 @@ var readableTracklist = {
 {
 	title: "Pumping Up", artist: "BanYa", bpm: "135", fromMix: "OBG",
 	//XX__: "S4 S12  D15",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=  @1.06 D15",
 	Fiesta2: "=",
 	FiestaEX: "=  @1.30 S12",
@@ -7719,7 +7724,7 @@ var readableTracklist = {
 {
 	title: "Final Audition", artist: "BanYa", bpm: "130", fromMix: "2nd",
 	//XX__: "S2 S6 S7 S9 S17 S18  D15 D18  Dp3",
-	//XX: "= S18.15 D18.17",
+	XX: "= S18.15 D18.17",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7737,7 +7742,7 @@ var readableTracklist = {
 {
 	title: "Extravaganza", artist: "BanYa", bpm: "195", fromMix: "2nd",
 	//XX__: "S4 S8 S10 S12 S17 S21  D13 D18 D20",
-	//XX: "= S8.7 S10.9 S12.11 S17.16 D13.12 D18.17 D20.19",
+	XX: "= S8.7 S10.9 S12.11 S17.16 D13.12 D18.17 D20.19",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7791,9 +7796,9 @@ var readableTracklist = {
 
 "224":
 {
-	title: "Techno Repeatorment", artist: "BanYa", bpm: "150", duration: REMIX, fromMix: "2nd",
-	//XX__: "S7 S19  D8",
-	//XX: "=",
+	title: "Repeatorment Remix", artist: "BanYa", bpm: "150", duration: REMIX, fromMix: "2nd",
+	//XX__: "S7 S18  D8",
+	XX: "= S18.19",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7876,7 +7881,7 @@ var readableTracklist = {
 {
 	title: "Another Truth", artist: "Novasonic", bpm: "136", fromMix: "1st",
 	//XX__: "S3 S5 S8 S16  D7 D17 D18 D21",
-	//XX: "= S16.15 D7.6 D17.16 D18.17 D21.22",
+	XX: "= S16.15 D7.6 D17.16 D18.17 D21.22",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
