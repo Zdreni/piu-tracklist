@@ -4084,7 +4084,7 @@ var readableTracklist = {
 {
 	title: "Blaze Emotion", artist: "Yahpp", bpm: "170",
 	//XX__: "S2 S3 S6 S7 S9 S16 S17  D10 D17 D18",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -4097,7 +4097,7 @@ var readableTracklist = {
 {
 	title: "Cannon X.1", artist: "Yahpp", bpm: "185",
 	//XX__: "S3 S7 S12 S20 S21  D14 D22",
-	//XX: "= S12.10 D14.13",
+	XX: "= S12.10 D14.13",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -4110,7 +4110,7 @@ var readableTracklist = {
 {
 	title: "Chopsticks Challenge", artist: "Yahpp", bpm: "128",
 	//XX__: "S6 S17  D3 D16  Sp1",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -4292,7 +4292,7 @@ var readableTracklist = {
 {
 	title: "The People Didn't Know", artist: "BanYa Production", bpm: "134",
 	//XX__: "S3 S5 S12 S15  D7 D17",
-	//XX: "=",
+	XX: "= S3.2",
 	Prime2: "=  @2.04 S12",
 	Prime: "=",
 	Fiesta2: "=",
@@ -4305,7 +4305,7 @@ var readableTracklist = {
 {
 	title: "DJ Otada", artist: "BanYa Production", bpm: "180",
 	//XX__: "S4 S6 S8 S19  D14 D22",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -4318,7 +4318,7 @@ var readableTracklist = {
 {
 	title: "K.O.A. -Alice in Wonderworld-", artist: "BanYa Production", bpm: "156",
 	//XX__: "S2 S3 S5 S8 S17  D10 D18",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -4331,7 +4331,7 @@ var readableTracklist = {
 {
 	title: "My Dreams", artist: "BanYa Production", bpm: "136",
 	//XX__: "S4 S10 S18 S19  D18  Dp5",
-	//XX: "= S18.17 S19.18",
+	XX: "= S18.17 S19.18",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -4344,7 +4344,7 @@ var readableTracklist = {
 {
 	title: "Toccata", artist: "BanYa Production", bpm: "104",
 	//XX__: "S4 S7 S10 S17  D14 D17  Sp3  Dp6",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -4379,7 +4379,7 @@ var readableTracklist = {
 	title: "Final Audition episode 2-X", artist: "Yahpp", bpm: "170",
 	shortTitle: "Final Audition ep. 2-X",
 	//XX__: "S3 S5 S8 S17 S23  D21 D24  Dp2",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -4402,7 +4402,7 @@ var readableTracklist = {
 	title: "The People Didn't Know Pumping Up", artist: "BanYa Production", bpm: "134", duration: REMIX,
 	shortTitle: "The People Didn't Know\nPumping Up",
 	//XX__: "S7  D4 D18",
-	//XX: "= D18.17",
+	XX: "= D18.17",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -4423,7 +4423,7 @@ var readableTracklist = {
 {
 	title: "Caprice of DJ Otada", artist: "BanYa Production", bpm: "180", duration: REMIX,
 	//XX__: "S11 S20  D22 D25",
-	//XX: "= S20.19",
+	XX: "= S20.19",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -4436,7 +4436,7 @@ var readableTracklist = {
 {
 	title: "Dr. KOA", artist: "BanYa Production", bpm: "156", duration: REMIX,
 	//XX__: "S10 S18  D20",
-	//XX: "= S10.8",
+	XX: "= S10.8",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -4511,7 +4511,7 @@ var readableTracklist = {
 {
 	title: "Turkey Virus", artist: "BanYa Production", bpm: "150-162", duration: REMIX,
 	//XX__: "S8 S15  D11",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -4549,7 +4549,7 @@ var readableTracklist = {
 {
 	title: "Chopsticks Challenge  [FULL]", artist: "Yahpp", bpm: "128",
 	//XX__: "S15  D19",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -4700,7 +4700,7 @@ var readableTracklist = {
 {
 	title: "Solitary 1.5", artist: "Yahpp", bpm: "136",
 	//XX__: "S7 S16 D18 Sp4 Dp6",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -4714,7 +4714,7 @@ var readableTracklist = {
 {
 	title: "Beat the Ghost", artist: "BanYa Production", bpm: "124",
 	//XX__: "S3 S9 S18 S20  D7 D20",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -4727,7 +4727,7 @@ var readableTracklist = {
 {
 	title: "Caprice of Otada", artist: "BanYa Production", bpm: "160",
 	//XX__: "S4 S6 S8 S17 S19  D10 D18 D21",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=  @1.10 S19",
 	Prime: "=",
 	Fiesta2: "=  @1.50 D21.anm",
@@ -4741,7 +4741,7 @@ var readableTracklist = {
 {
 	title: "Money", artist: "BanYa Production", bpm: "130",
 	//XX__: "S9 S14  D10 D16  Sp4",
-	//XX: "= S9.10 D10.12",
+	XX: "= S9.10 D10.12",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "Sp4.nl S10.hd S14.cz D12.fs D16.nm",
@@ -4752,7 +4752,7 @@ var readableTracklist = {
 {
 	title: "Monkey Fingers 2", artist: "BanYa Production", bpm: "180",
 	//XX__: "S4 S8 S17  D7 D19",
-	//XX: "= S4.6 S8.10 D7.9",
+	XX: "= S4.6 S8.10 D7.9",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -4809,7 +4809,7 @@ var readableTracklist = {
 {
 	title: "Faster Z", artist: "Yahpp", bpm: "162",
 	//XX__: "S4 S7 S11 S12 S16 S19 S20  D14 D21 D23",
-	//XX: "= S7.6 S11.8 D21.20",
+	XX: "= S7.6 S11.8 D21.20",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -4823,7 +4823,7 @@ var readableTracklist = {
 {
 	title: "Pumptris Quattro", artist: "Yahpp", bpm: "153",
 	//XX__: "S3 S7 S12 S18 S19  D15 D20 D22  Sp10  Dp2",
-	//XX: "= S18.17 D15.13",  // S18 - степы в начале холдов, считать новым чартом
+	XX: "= S18.17 D15.13",  // updated S18 - степы в начале холдов, считать новым чартом
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -4835,11 +4835,11 @@ var readableTracklist = {
 
 "FE13B":
 {
-	title: "Pumptris Quattro (8bit version)", artist: "Yahpp", bpm: "162",
+	title: "Pumptris (8bit ver.)", artist: "Yahpp", bpm: "162",
 	altID: "E13B",
-	shortTitle: "Pumptris Quattro (8bit)",
+	shortTitle: "Pumptris (8bit)",
 	//XX__: "S3 S5 S8 S16 S17  Sp15  Co-op x2",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "= -D??(x3)",
 	Fiesta2: "=",
@@ -4919,7 +4919,7 @@ var readableTracklist = {
 {
 	title: "Guitar Man", artist: "BanYa Production", bpm: "120",
 	//XX__: "S3 S7 S13 S20  D10 D13 D19",
-	//XX: "= S7.9 S20.18",
+	XX: "= S7.9 S20.18",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "S3.nl S9.hd S13.cz D10.fs D13.nm  S18.acz D19.anm",
@@ -4930,7 +4930,7 @@ var readableTracklist = {
 {
 	title: "Higgledy Piggledy", artist: "BanYa Production", bpm: "150",
 	//XX__: "S2 S6 S9 S14 S16  D8 D15  Sp1",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=  @1.51 S16",
@@ -4944,7 +4944,7 @@ var readableTracklist = {
 {
 	title: "Jam o' Beat", artist: "BanYa Production", bpm: "120",
 	//XX__: "S7 S15  D15  Sp2  Dp6",
-	//XX: "= S15.14 D15.14",
+	XX: "= S15.14 D15.14",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -5021,7 +5021,7 @@ var readableTracklist = {
 {
 	title: "BanYa-P Guitar Remix", artist: "BanYa Production", bpm: "120", duration: REMIX,
 	//XX__: "S22  D24",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5041,7 +5041,7 @@ var readableTracklist = {
 {
 	title: "Money Fingers", artist: "BanYa Production", bpm: "170", duration: REMIX,
 	//XX__: "S8 S17  D9 D17",
-	//XX: "= S17.16",
+	XX: "= S17.16",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -5203,7 +5203,7 @@ var readableTracklist = {
 	title: "FAE1 & Chicken Wing Remix (NX2 ver.)", artist: "BanYa", bpm: "200", duration: REMIX, fromMix: "Extra",
 	shortTitle: "Extra BanYa Remix",
 	//XX__: "S11 S21  D14",
-	//XX: "= S11.8 D14.13",
+	XX: "= S11.8 D14.13",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5220,7 +5220,9 @@ var readableTracklist = {
 {
 	title: "Witch Doctor #1", artist: "Yahpp", bpm: "122",
 	//XX__: "S2 S5 S8 S9 S16 S17 S19  D17 D20 D21  Sp3  Dp7",
-	//XX: "= S16.15 S17.16 S19.18 D20.19 D21.20",
+	XX: "= S16.15 S17.16 S19.18 D21.19",
+	// D21-XX - https://www.youtube.com/watch?v=Wj_1xUDGHa0
+	// D19-Fiesta - https://www.youtube.com/watch?v=5m6r65QmAjg
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5234,7 +5236,7 @@ var readableTracklist = {
 {
 	title: "Arch of Darkness", artist: "Yahpp", bpm: "136",
 	//XX__: "S2 S4 S5 S8 S15 S17  D7 D18 D20",
-	//XX: "= S15.14 S17.16",
+	XX: "= S15.14 S17.16",
 	Prime2: "=  @2.05 D20",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5248,7 +5250,7 @@ var readableTracklist = {
 {
 	title: "Chimera", artist: "Yahpp", bpm: "210",
 	//XX__: "S4 S9 S12 S18 S19 S23  D16 D26  Co-op x2",
-	//XX: "= S9.7 S12.11 S19.16 D26.25",
+	XX: "= S9.7 S12.11 S19.16 D26.25",  //??? S19.updated
 	Prime2: "=",
 	Prime: "= -D??(x3)",
 	Fiesta2: "=",
@@ -5352,7 +5354,7 @@ var readableTracklist = {
 	title: "Do You Know That -Old School-", artist: "BanYa Production", bpm: "120",
 	shortTitle: "Do You Know That\n-Old School-",
 	//XX__: "S4 S6 S15  D19  Dp8",
-	//XX: "= S15.14 D19.18",
+	XX: "= S15.14 D19.18",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5365,7 +5367,7 @@ var readableTracklist = {
 {
 	title: "Gun Rock", artist: "BanYa Production", bpm: "104",
 	//XX__: "S5 S9 S17 S20  D9 D18 D24",
-	//XX: "= S9.11 S20.18 D9.11 D18 D24.22",
+	XX: "= S9.11 S20.18 D9.11 D18 D24.22",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5378,7 +5380,7 @@ var readableTracklist = {
 {
 	title: "Bullfighter's Song", artist: "BanYa Production", bpm: "168",
 	//XX__: "S4 S5 S9 S16  D9 D18 D21",
-	//XX: "= S9.8 D18.17",
+	XX: "= S9.8 D18.17",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5392,7 +5394,7 @@ var readableTracklist = {
 {
 	title: "Ugly Dee", artist: "BanYa Production", bpm: "92",
 	//XX__: "S3 S5 S9  D15 D18",
-	//XX: "= D15.11 D18.15",
+	XX: "= D15.11 D18.15",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5484,7 +5486,8 @@ var readableTracklist = {
 	title: "Final Audition episode 2-1", artist: "Yahpp", bpm: "170",
 	shortTitle: "Final Audition ep. 2-1",
 	//XX__: "S3 S4 S8 S18 S21 S22  D12 D22 D23",
-	//XX: "= S8.7 S21.20 S22.21 D12.9 D22.21 D23.22",
+	XX: "= S8.7 S22.20 D12.9 D22.21 D23.22",  //??? S22.updated
+	// S22-XX - https://www.youtube.com/watch?v=Rbcztfs6jx4
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5506,7 +5509,7 @@ var readableTracklist = {
 	title: "Final Audition episode 2-2", artist: "Yahpp", bpm: "200",
 	shortTitle: "Final Audition ep. 2-2",
 	//XX__: "S8 S17 S18 S21 S22  D19 D23 D24",
-	//XX: "= S8.7 S17.16 S18.17 D19.18",
+	XX: "= S8.7 S17.16 S18.17 D19.18",  //??? S18.updated
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5551,7 +5554,7 @@ var readableTracklist = {
 {
 	title: "Wi-Ex-Doc-Va", artist: "Yahpp", bpm: "195", duration: REMIX,
 	//XX__: "S15 S21  D16 D24",
-	//XX: "= D16.15 D24.23",
+	XX: "= D16.15 D24.23",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5566,7 +5569,7 @@ var readableTracklist = {
 {
 	title: "Bemera", artist: "Yahpp", bpm: "210", duration: REMIX,
 	//XX__: "S17 S24  D18 D26",
-	//XX: "= S17.16",
+	XX: "= S17.16",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5617,7 +5620,7 @@ var readableTracklist = {
 {
 	title: "Love is a Danger Zone 2  [FULL]", artist: "Yahpp", bpm: "100 ~ 162",
 	//XX__: "S19  D21",
-	//XX: "=",
+	XX: "=",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5632,7 +5635,7 @@ var readableTracklist = {
 {
 	title: "Beat of the War 2  [FULL]", artist: "Yahpp", bpm: "120 ~ 190",
 	//XX__: "S20  D21",
-	//XX: "= S20.19  D21.20",
+	XX: "= S20.19 D21.20",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
