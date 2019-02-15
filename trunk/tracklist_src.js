@@ -5733,7 +5733,7 @@ var readableTracklist = {
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "=  @1.51 S2 S7",
-	Fiesta: "S12.hd S18.cz Dp7.fs D91.nm  S17.acz D12.afs D20.anm",
+	Fiesta: "S12.hd S18.cz Dp7.fs D19.nm  S17.acz D12.afs D20.anm",
 	NXA: ["", "12", "18", "7", "19"], NXA_: ["", "", "18", "11", "20"],
 	NX2: ["", "10", "18", "7", "19"], NX2_: ["", "", "19", "", "20"],
 	NX: ["", "10", "18", "7", "19"], NX_: ["", "", "", "", "18"],
