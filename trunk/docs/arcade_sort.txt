@@ -1,0 +1,270 @@
+﻿Проблемы сортировки:
+
+В канале Fiesta 2 одноименного микса:
+
+world	1228	Dream to Nightmare
+world	1240	VVV
+
+world	1301	Pop the Track
+world	1302	Electric
+world 	1303	Passacaglia
+world	1304	Baroque Virus
+orig	1305	Elise
+orig	1306	Ignis Fatuus
+orig	1307	LIADZ Cranky
+orig	1308	Hypnosis Synthwulf
+orig	1309	Flew Far Faster
+orig	1310	Unique
+orig	1311	Accident
+orig	1312	D
+orig	1313	U got me rocking
+orig	1314	Lucid
+
+1315	Nobody
+1316	Bad Girl Good Girl
+1317	Step
+1318	I’m the best
+1319	Can’t Nobody
+1320	Shanghai Romance
+1321	Fantastic Baby
+1322	Lie
+1323	Heartbreaker
+1324	Hands Up
+1325	Be Mine
+1326	Crayon
+1327	Mackerel
+1328	Two Guys
+1329	Danza Kuduro
+1330	Rabiosa
+1331	Lovumba
+1332	One Two Three Go
+1333	No Lloran
+1334	Sik Asik
+1335	Online
+1336	Dam
+1337	Sugar Eyes
+
+1338	Log-In
+1339	Windmill
+1340	Follow Me
+1341	Yeo Rae A
+1390	Mental Rider
+
+13E0	Pop the Track  short
+13E1	Passacaglia  short
+13E2	Ignis Fatuus  short
+13E3	FFF  short
+13E4	Unique  short
+13E5	U Got Me Rocking  short
+
+1201	Monolith
+1202	Y2Z
+1206	Rockhill
+1208	Switchback
+1209	Ladybug
+1212	Hardkore of the North
+1218	Ripping It Up
+1219	Tribe Attacker
+1221	Virtual Emotion
+1222	Take Me Back
+1225	Re-Rave
+1226	Heel and Toe
+1230	Rainspark
+1235	Utopia
+1236	Xuxa
+1237	Be Alive
+1241	Star Command
+
+
+Как должно быть в Prime2 канале Fiesta 2:
+#21	13E5	u got me rocking short
+
+#22	world	1228	Dream to Nightmare
+#23	world	1240	VVV
+
+#24	world	1301	Pop the Track
+#25	world	1303	Passacaglia
+#26	world	1304	Baroque Virus
+#27	world	1334	Sik Asik
+#28	world	1335	Online
+#29	world	1336	Dam
+#30	world	1337	Sugar Eyes
+#31	world	13E0	Pop the Track short
+#32	world	13E1	Passacaglia short
+
+#33	1201	Monolith
+#34	1202	Y2Z
+#35	1206	Rockhill
+#36	1208	Switchback
+#37	1209	Ladybug
+#38	1212	Hardkore of the North
+#39	1218	Ripping It Up
+#40	1219	Tribe Attacker
+#41	1221	Virtual Emotion
+#42	1222	Take Me Back
+#43	1225	Re-Rave
+#44	1226	Heel and Toe
+#45	1230	Rainspark
+#46	1235	Utopia
+#47	1236	Xuxa
+#48	1237	Be Alive
+#49	1241	Star Command
+
+
+
+
+
+Fiesta
+В Fiesta в kpop нет лонгов, а в миксах есть
+New Tunes – проверить, есть ли лонги
+
+Random for WPF
+
+K-Pop
+World Music
+Original tunes
+
+Full songs
+Remix
+Short cut
+
+Music Train
+
+1st-2nd-OBG
+OBG.SE-Perfect-Extra
+Rebirth-Prex3-Premiere3
+Exceed-Exceed2-Zero
+NX-NX2
+NXA
+Fiesta
+
+Fiesta EX – https://www.youtube.com/watch?v=Ywwua-bj_5g
+Fiesta EX 1.51 – https://www.youtube.com/watch?v=mgVvpuABw9Y
+	All Tunes
+
+ Random for WPF
+
+Full Songs
+	Remix
+	Short Cut
+
+	Music Train
+
+1st-2nd-OBG
+OBG.SE-Perfect-Extra
+Rebirth-Prex3-Premiere3
+Exceed-Exceed2-Zero
+NX-NX2
+NXA
+Fiesta
+	Fiesta EX
+
+
+Fiesta 2 – https://www.youtube.com/watch?v=moaAFQ4K4vM
+Fiesta 2 каналы – https://www.youtube.com/watch?v=C3GAyND9vYI
+Fiesta 2 battle-каналы – https://www.youtube.com/watch?v=EFRwS8DucX4
+	All tunes
+	Random
+
+Original Tunes
+	K-Pop
+	World Music
+
+	Full Songs
+	Remix
+	Short Cut
+
+	Music Train
+	Quest World – Skill Up! Zone
+	Quest World – Mission Zone
+
+	1st-2nd-OBG
+OBG.SE-Perfect-Extra
+Rebirth-Prex3-Premiere3
+Exceed-Exceed2-Zero
+NX-NX2
+NXA
+Fiesta
+	Fiesta EX
+	Fiesta 2
+
+Prime группы – https://www.youtube.com/watch?v=WdP9WmM0WRc
+Prime 1.15 списки по миксам – https://www.youtube.com/watch?v=eg-wN0SlvVw
+Prime 1.18 группы – https://www.youtube.com/watch?v=ioGDnIi88hg
+All Tunes, каналы, левела - лонгов нет.
+	All Tunes
+	Random
+	Original Tunes
+K-Pop
+World Music
+[ J-Music добавился с 1.12, и треки туда переместились ]
+
+Full Songs
+Remix
+Short Cut
+
+	Music Train
+	Quest Zone
+
+? UCS
+
+1st-2nd-OBG-OBG.SE-Perfect
+Extra-Premiere3-Rebirth-Prex3
+Exceed-Exceed2-Zero
+NX-NX2-NXA
+Fiesta
+FiestaEX
+Fiesta 2
+Prime
+
+<левела 1..24>
+
+Co-Op Play
+Favorites
+[ Random for WPF добавился с 1.14, и удалён в 1.19 ]
+
+
+Prime2 группы – https://www.youtube.com/watch?v=3OTMivwkDcQ
+Prime2 1.00 – https://www.youtube.com/watch?v=Ga_GI6j-z6M
+Prime2 1.01 по миксам – https://www.youtube.com/watch?v=vtgI4D9k0tE
+	? Difficulty Zone – только аркадные?
+Лонгов нет в All tunes, левелах и жанрах.
+	World of PIU  (каналы):
+		All Tunes
+		Original
+		K-Pop
+		World Music
+		J-Music
+		Xross
+	Extra Zone:
+	Short cut
+	Remix
+	Full Song
+	Co-Op Play
+Fun Zone:
+	Random Train
+	Random
+Series  (миксы):
+	1st-2nd-OBG-OBG.SE-Perfect
+Extra-Premiere3-Rebirth-Prex3
+Exceed-Exceed2-Zero
+NX-NX2-NXA
+Fiesta-FiestaEX
+Fiesta 2
+Prime
+Prime 2
+Difficulty Zone Single
+Difficulty Zone Double
+
+Сортировка такая – по категории, потом по ID (исключая кусок с F2-чартами)
+Категория равна каналу для старых чартов и New Tunes – для новых
+
+Аркадные чарты – миксы, каналы, левела.
+Лонги – миксы, фулл/ремикс/шорт.
+
+All Tunes – там только аркадные
+
+Миксы у всех разные
+
+
+XX треклист - https://www.youtube.com/watch?v=e2a0W6D34wE

@@ -7976,6 +7976,8 @@ function ParseChartLevel( track, chart, chartText )
 	chart.levelNum = Number( chartText );
 	if( chartText !== NO_OFFICIAL_ESTIMATION  &&  chartText !== NX_GLITCH_LEVEL  &&  String( chart.levelNum ) !== chartText )
 		throw "Error in parsing " + track.title + "  level '" + chartText + "'";
+	if( chart.levelNum < 1  ||  chart.levelNum > 30 )
+		throw "Error in parsing " + track.title + "  level '" + chartText + "'";
 }
 
 
