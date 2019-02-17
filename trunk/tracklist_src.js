@@ -8189,6 +8189,8 @@ function CopyCharts( track, mixID, fromMixID, patchIndex )
 			chart.fromPatchIndex = patchIndex;
 		else
 			delete chart.fromPatchIndex;
+		delete chart.isAmpass;
+		delete chart.isUCS;
 	}
 }
 
