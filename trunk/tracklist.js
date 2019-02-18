@@ -207,9 +207,13 @@ function FindTrack( tracklist, title )
 	var ID = arr[ 1 ];
 
 	//var result = _.where( tracklist, { title: trackTitle } );
+	var normTitle = Normalized( title );
 	var result = _.filter( tracklist, function( item, key )
 		{
-			return Normalized( item.title ) === Normalized( title )  &&  ( ! ID  ||  key == ID );
+			// this match not working well for [FULL] tracks, 'cause their title is identical to arcade title
+			//var titleMatch = Normalized( item.title ) === normTitle  ||  ( item.shortTitle  &&  Normalized( item.shortTitle ) === normTitle );
+			var titleMatch = Normalized( item.title ) === normTitle;
+			return titleMatch  &&  ( ! ID  ||  key == ID );
 		} );
 	if( result.length === 0 )
 		throw "Can't found track '" + title + "'";
