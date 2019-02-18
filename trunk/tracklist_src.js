@@ -1049,7 +1049,8 @@ var readableTracklist = {
 	title: "Shub Sothoth", artist: "Nato & EXC", channel: ORIGINAL, bpm: "220", duration: REMIX,
 	altID: "15_Shub_Sothoth",
 	//XX__: "S25  D27",
-	XX: "=",
+	XX: "=",  //??? D27.updated
+	// D27-XX - https://www.youtube.com/watch?v=O5xatKUFxbY
 	Prime2: "@2.05 S25 D27",
 },
 
@@ -1058,7 +1059,9 @@ var readableTracklist = {
 	title: "Leather", artist: "Doin", channel: ORIGINAL, bpm: "200", duration: REMIX,
 	altID: "15_Leather",
 	//XX__: "S18 S21 S24  D22 D26",
-	XX: "=",
+	XX: "=",  //??? S24.updated D26.updated
+	// S24-XX - https://www.youtube.com/watch?v=62pnZ8a-aHw
+	// D26-XX - https://www.youtube.com/watch?v=uSUHgPaEbXo
 	Prime2: "@1.07 S18 S21 D22 S24 D26",
 },
 
@@ -1383,7 +1386,10 @@ var readableTracklist = {
 {
 	title: "1950", artist: "Slam", channel: ORIGINAL, bpm: "200",
 	//XX__: "S16 S20 S23 S25  D22 D25 D27  Dp3",
-	XX: "= S16.17 D22.21",
+	XX: "= S16.17 D22.21",  //??? S25.updated D27.updated
+	// S25-XX - https://www.youtube.com/watch?v=G0on3vr0qfk
+	// S25 XX vs P2 - https://www.youtube.com/watch?v=6GJuzGCR1aE
+	// D27-XX - https://www.youtube.com/watch?v=h0C-o-7LWl4
 	Prime2: "= -S16",
 	Prime: "@1.07 S23 D25  S25 D27  @1.12 S20  @1.15 Dp3  @1.19 S16.ucs S17.ucs D21.ucs",
 },
@@ -2745,7 +2751,9 @@ var readableTracklist = {
 {
 	title: "Hardkore of the North", artist: "Diclonius Kid", channel: WORLD, bpm: "190",
 	//XX__: "S4 S7 S11 S21  D15 D22",
-	XX: "= D15.16 D22.23",  //??? D22.updated?
+	XX: "= D15.16 D22.23",  //??? D22.updated
+	// D22-XX - https://www.youtube.com/watch?v=gPUJICScJeI
+	// D23-P2 vs D22-XX - https://www.youtube.com/watch?v=mbsveAMw7sk
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S4 S7 S11  @1.50 S21 D16  @1.60 D23",
@@ -3466,7 +3474,7 @@ var readableTracklist = {
 	Fiesta2: "=",
 	FiestaEX: "= -S4",
 	Fiesta: "S3 S4 S6 S11 S14 D7 D14 Sp4 Dp5",
-	// Fiesta S4 gone after 1.10
+	//??? Fiesta S4 gone after 1.10
 },
 
 "1013":
@@ -4824,7 +4832,8 @@ var readableTracklist = {
 {
 	title: "Pumptris Quattro", artist: "Yahpp", bpm: "153",
 	//XX__: "S3 S7 S12 S18 S19  D15 D20 D22  Sp10  Dp2",
-	XX: "= S18.17 D15.13",  // updated S18 - степы в начале холдов, считать новым чартом
+	XX: "= S18.17 D15.13",  // S18.updated - степы в начале холдов, считать новым чартом
+	// S18-XX - https://www.youtube.com/watch?v=jQMIZhG0sqA
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5251,7 +5260,7 @@ var readableTracklist = {
 {
 	title: "Chimera", artist: "Yahpp", bpm: "210",
 	//XX__: "S4 S9 S12 S18 S19 S23  D16 D26  Co-op x2",
-	XX: "= S9.7 S12.11 S19.16 D26.25",  //??? S19.updated
+	XX: "= S9.7 S12.11 S19.16 D26.25",  //??? S19.updated (something with ending?)
 	// S19-XX - https://www.youtube.com/watch?v=ieMFtCNbSac
 	Prime2: "=",
 	Prime: "= -D??(x3)",
@@ -5457,6 +5466,7 @@ var readableTracklist = {
 "D25":
 {
 	title: "Bust Back", artist: "DVS", channel: WORLD, bpm: "94",
+	//??? NX2:
 	NX: ["3", "6", "12", "5", "13"],
 },
 
@@ -5512,6 +5522,7 @@ var readableTracklist = {
 	shortTitle: "Final Audition ep. 2-2",
 	//XX__: "S8 S17 S18 S21 S22  D19 D23 D24",
 	XX: "= S8.7 S17.16 S18.17 D19.18",  //??? S18.updated
+	// S18-XX - https://www.youtube.com/watch?v=Y3y2gjcy4d8
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6124,7 +6135,7 @@ var readableTracklist = {
 {
 	title: "Hi-Bi", artist: "BanYa", bpm: "145",
 	//XX__: "S3 S5 S8 S16 S19  D8 D19 D20",
-	XX: "= S16.15 S19.18 D19.18",  //??? D20.updated - simplified hold
+	XX: "= S16.15 S19.18 D19.18",  //??? D20.updated - simplified 10-buttons hold (to 6-buttons)
 	// D20-XX - https://www.youtube.com/watch?v=nR61F0n4dio
 	Prime2: "=",
 	Prime: "=",
@@ -7566,7 +7577,8 @@ var readableTracklist = {
 {
 	title: "With My Lover", artist: "BanYa", bpm: "124", fromMix: "OBG",
 	//XX__: "S5 S12  D14",
-	XX: "= S5.nl S12.cz D14.nm",  //??? S12 updated?
+	XX: "= S5.nl S12.cz D14.nm",  //??? S12.updated
+	// S12-XX - https://www.youtube.com/watch?v=EHtChc2BGM0
 	NX: ["3", "", "10", "", "11"],
 	Zero: ["3", "", "10", "", "11"],
 },
@@ -7575,7 +7587,8 @@ var readableTracklist = {
 {
 	title: "An Interesting View", artist: "BanYa", bpm: "160", fromMix: "OBG",
 	//XX__: "S6 S13",
-	XX: "S6 S13",
+	XX: "S6 S13",  //??? S13.updated
+	// S13-XX - https://www.youtube.com/watch?v=3VqEZxOfSdo
 },
 
 "306":
