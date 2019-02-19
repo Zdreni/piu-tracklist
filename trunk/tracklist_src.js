@@ -260,7 +260,7 @@ var readableTracklist = {
 
 "16_Black_Swan":
 {
-	title: "Black Swan", artist: "Zircon", channel: XROSS, bpm: "175",
+	title: "Black Swan", artist: "Zeron", channel: XROSS, bpm: "175",
 	sortingID: "1628", // altID: "",
 	XX: "S12.lock S14.lock S16.lock S19.lock D15.lock D22.lock",
 },
