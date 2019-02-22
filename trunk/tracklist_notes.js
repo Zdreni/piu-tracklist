@@ -42,20 +42,22 @@ function AddNotes()
 	// nobody какой-то там - стопы
 	// fire 2ne1 - mimimi таппинг
 
-	// final audition acz - футсвичи длинные
+	N( "Final Audition", "aCZ", "footswitches" )
 
-	// Nakakapagpabagabag, 86 - 
 	N( "Nakakapagpabagabag", ["S18", "D19"], "holds with steps, stumble charts, needs 6.5x or av999" )
 	N( "86", ["S16", "S20", "D18", "D21"], "holds with steps, stumble charts, needs 6.5x or av999" )
-	// Shub Niggurath D17 - twists on center
+
+	N( "Shub Niggurath", "D17", "twist on central quad" )
+
 	// Hey U - jumps
-	// Feel My Happines D21 - brackets
+	N( "Feel My Happiness", "D21", "lots of brackets" )
 	// Karyawisata S20 - slowdown
 	// Moonlight S21 - slowdown
 	// De La Rue  D24 - blinking holds
 	// Vanish - Vanish
 	// Hardkore of the North  S21 - twists on the holds with slowdown
-	// VVV - whole chart is slow except of simply ending, needs av~900
+
+	N( "VVV", ["S18", "S23", "D16", "D19", "D24"], "Whole chart is slow except of simple ending, use 3-3.5x or av900+" )
 
 	N( "Destination  [SHORT]", "D18", "crab legs" ) //D20 - ебошащий стрим
 	N( "Pumptris (8Bit ver.)  [SHORT]", "D22", "crab legs" )
