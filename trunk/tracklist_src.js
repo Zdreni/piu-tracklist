@@ -5378,7 +5378,7 @@ var readableTracklist = {
 {
 	title: "Gun Rock", artist: "BanYa Production", bpm: "104",
 	//XX__: "S5 S9 S17 S20  D9 D18 D24",
-	XX: "= S9.11 S20.18 D9.11 D18 D24.22",
+	XX: "= S9.11 S20.18 D9.11 D24.22",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
