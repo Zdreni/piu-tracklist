@@ -29,14 +29,14 @@ var separateBPMs =
 
 	{    chart: "Mission Possible -Blowback-  S18", bpm: "122, ends 160" },
 
-	{                       chart: "Gargoyle  S18", bpm: "150, ends 195" },
+	// notes: {                       chart: "Gargoyle  S18", bpm: "150, ends 195" },
 	{             chart: "We Will Meet Again  S14", bpm: "118..177" },
 	{                      chart: "Yeo rae a  S13", ratio: "0.5" },
 
 	{                   chart: "Star Command  S12", ratio: "1.25" },
 
-	{ chart: "Twist of Fate (feat. Ruriling)  S18", bpm: "141..28" },
-	{ chart: "Twist of Fate (feat. Ruriling)  D20", bpm: "141..28" },
+	// notes: { chart: "Twist of Fate (feat. Ruriling)  S18", bpm: "141..28" },
+	// notes: { chart: "Twist of Fate (feat. Ruriling)  D20", bpm: "141..28" },
 ];
 
 
