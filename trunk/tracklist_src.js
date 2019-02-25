@@ -1406,7 +1406,7 @@ var readableTracklist = {
 "1426":
 {
 	title: "Allegro Piu Mosso", artist: "DM Ashura", channel: ORIGINAL, bpm: "160",
-	//XX__: S4 S6 S10 S17 S19  D12 D19  Dp4",
+	//XX__: "S4 S6 S10 S17 S19  D12 D19  Dp4",
 	XX: "= S10.11 S17.16 D12.13",
 	Prime2: "=",
 	Prime: "S4 S6 S11 S16 D13 D19  @1.09 S19  @1.15 Dp4",
@@ -2586,7 +2586,7 @@ var readableTracklist = {
 "13A3":
 {
 	title: "What Are You Doin'?", artist: "Doin & MAX", channel: ORIGINAL, bpm: "200", duration: REMIX,
-	//XX__: "S18 D23",
+	//XX__: "S18  D23",
 	XX: "= S18.19 D23.24",
 	Prime2: "=",
 	Prime: "=",
@@ -2663,7 +2663,7 @@ var readableTracklist = {
 {
 	title: "Ignis Fatuus (DM Ashura Mix)  [SHORT]", artist: "DM Ashura", channel: ORIGINAL, bpm: "220",
 	shortTitle: "Ignis Fatuus",
-	//XX__: "S21 D21",
+	//XX__: "S21  D21",
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -2673,7 +2673,7 @@ var readableTracklist = {
 "13E3":
 {
 	title: "Flew Far Faster  [SHORT]", artist: "Doin", channel: ORIGINAL, bpm: "200",
-	//XX__: "S18 D21",
+	//XX__: "S18  D21",
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -2683,7 +2683,7 @@ var readableTracklist = {
 "13E4":
 {
 	title: "Unique  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "145",
-	//XX__: "S18 D16",
+	//XX__: "S18  D16",
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -2693,7 +2693,7 @@ var readableTracklist = {
 "13E5":
 {
 	title: "U Got Me Rocking  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "128",
-	//XX__: "S17 D17",
+	//XX__: "S17  D17",
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -5531,7 +5531,7 @@ var readableTracklist = {
 	NXA: ["7", "16", "22", "18", "24"], NXA_: ["", "16", "21", "18", "23"],
 	NX2: ["7", "16", "22", "18", "24"], NX2_: ["", "16", "21", "18", "25"],
 	NX: ["7", "15/16", "21", "18", "??(24)"], NX_: ["", "", "21", "18", "??"],
-	notes: ["arcade unlock on NX, play 2-1 200 times"],
+	//??? notes: ["arcade unlock on NX, play 2-1 200 times"],
 },
 
 "D31":
@@ -8363,8 +8363,6 @@ function PreprocessTracklist()
 		PreprocessTrack( tracklist[ trackID ] );
 }
 
-
-//PreprocessTracklist();
 
 initFuncs.push( PreprocessTracklist );
 
