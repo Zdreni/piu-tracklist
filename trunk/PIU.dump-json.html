@@ -146,15 +146,15 @@ function DumpMixPatches()
 	for( var k in mixes )
 	{
 		var v = mixes[ k ];
-		if( v.style === "new" )
-		{
-			if( nextMix )
-				result += ",<br>";
-			else
-				nextMix = true;
+		if( ! v["patches"] )
+			continue;
 
-			result += _S + JStr( k ) + ": " + JSON.stringify( v["patches"], null, 1 );
-		}
+		if( nextMix )
+			result += ",<br>";
+		else
+			nextMix = true;
+
+		result += _S + JStr( k ) + ": " + JSON.stringify( v["patches"], null, 1 );
 		//DictToArr( mixes, function ( key, val ) {  return _S + JStr( key ) + ": " + JStr( val );  } );
 	}
 

@@ -136,6 +136,14 @@ var mixes =
 	              patches: ["1.00"] },
 };
 
+/*
+for( var k in mixes )
+{
+	if( ! mixes[ k ].patches )
+		mixes[ k ].patches = ["1.00"];
+}
+*/
+
 var mixesOrder = [ "Exceed", "Exceed2", "Zero", "NX", "NX2", "NXA", "Fiesta", "FiestaEX", "Fiesta2", "Prime", "Prime2", "XX" ];
 var firstNewMixIndex = mixesOrder.indexOf( "Fiesta" );
 var oldMixesReverseOrder = mixesOrder.slice(0, firstNewMixIndex ).reverse();  // NXA..Exceed
