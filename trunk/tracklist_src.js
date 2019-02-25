@@ -5239,7 +5239,7 @@ var readableTracklist = {
 	FiestaEX: "Sp3.nl S9.hd S15.cz Dp7.fs D20.nm  S16.ahd-NX2 S18.acz-NX2 D17.afs-NX2 D19.anm-NX2   @1.51 S2 S5 S8",
 	NXA: ["3", "7", "14", "5", "19"], NXA_: ["", "7", "18", "7", "20"],
 	NX2: ["3", "7", "14", "5", "19"], NX2_: ["", "18", "20", "19", "21"],
-	NX: ["3", "7", "14", "5", "19"], NX_: ["", "17", "18", "20", ""],
+	NX: ["3", "7", "14", "5", "19"], NX_: ["", "17", "18", "20", ""],  //??? another added at NX 1.08
 },
 
 "D02":
@@ -6500,6 +6500,7 @@ var readableTracklist = {
 "A10":
 {
 	title: "Valenti", artist: "BoA", channel: KPOP, bpm: "104",
+	//??? NX: removed at 1.08
 	Zero: ["2", "4", "9", "4", "11"],
 	Exceed2: ["2", "4", "9", "4", "11"],
 	Exceed: ["2", "4", "12", "5", "13"],
@@ -7772,7 +7773,7 @@ var readableTracklist = {
 "208":
 {
 	title: "Fighting Spirits", artist: "H.O.T.", channel: KPOP, bpm: "98", fromMix: "2nd",
-	NX: ["2", "", "", "5", ""], NX_: ["", "", "13", "", "15/16"], // только до версии 1.08
+	NX: ["2", "", "", "5", ""], NX_: ["", "", "13", "", "15/16"], //??? NX: removed at 1.08
 	Zero: ["2", "", "", "5", ""],
 	Exceed2: ["2", "", "", "5", ""],
 	Exceed: ["3", "", "", "5", ""],
