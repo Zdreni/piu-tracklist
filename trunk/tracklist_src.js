@@ -996,7 +996,7 @@ var readableTracklist = {
 
 "15B9":
 {
-	title: "Kill Them!", artist: "Archefluxx", channel: WORLD, bpm: "170",
+	title: "Kill Them!", artist: "Archefluxx", channel: XROSS, bpm: "170",
 	altID: "15B8+_Kill_Them",
 	//XX__: "S5 S10 S15 S18  D9 D19  Dp4",
 	XX: "=",
