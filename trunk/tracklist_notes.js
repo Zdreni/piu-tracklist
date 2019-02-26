@@ -22,10 +22,16 @@ var HAS_SOME_STOPS = "Some parts of chart are tricky stops.";
 
 function AddNotes()
 {
+	N( "Loki", ["S16", "S19", "S21", "D19"], "Excessive stumbling parts of chart.")
+	N( "Loki", "S21", "Series of long footswitches.")
+
 	N( "Love Scenario", "S17", BUILT_WITH_STOPS )
 	N( "Uprock", "CZ", BUILT_WITH_STOPS )
 	N( "Everybody Got 2 Know", "S19", BUILT_WITH_STOPS )
-	N( "Come to Me @ 826", "S17", BUILT_WITH_STOPS )
+
+	N( "Come to Me @ 826", "S13.XX", "Ends with five-steps jump." )
+	N( "Come to Me @ 826", "S17.XX", BUILT_WITH_STOPS )
+	N( "Come to Me @ 826", "S17.XX", "Ends with five-steps jump." )
 
 	N( "Tek -Club Copenhagen-", ["S16", "S17"], HAS_SOME_STOPS )
 	N( "Bad Apple!! feat. Nomico", "S15", HAS_SOME_STOPS )
