@@ -48,7 +48,7 @@ var readableTracklist = {
 
 "16_Kitty_Cat":
 {
-	title: "Kitty Cat", artist: "Coconut", channel: WORLD, bpm: "128",
+	title: "Kitty Cat", artist: "Coconut", channel: WORLD, bpm: "128", fromMix: "Fiesta2",
 	sortingID: "1209__1", // between Ladybug 1209 and Hardkore of the North 1212
 	// altID: "",
 	XX: "S1 S3 S5 S14 D6 D15 CoOp(x2)",
@@ -753,7 +753,7 @@ var readableTracklist = {
 
 "1578":
 {
-	title: "Heart Attack", artist: "DJ Counterforce", channel: WORLD, bpm: "148",
+	title: "Heart Attack", artist: "DJ Counterforce", channel: ORIGINAL, bpm: "148",
 	altID: "1576+_250_Heart_Attack",
 	//XX__: "S7 S11 S16 S18  D9 D18 D20  Dp3",
 	XX: "=",
