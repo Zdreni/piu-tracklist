@@ -91,8 +91,8 @@ function shuffled(array)
 	return array;
 }
 
-var lowerLevel = 21;
-var upperLevel = 22;
+var lowerLevel = 18;
+var upperLevel = 28;
 
 //var showUCS = false;
 //var showUnlocks = false;

@@ -41,7 +41,7 @@ function ChartIsAllowedByMix( track, chart )
 
 	for( var mix of tournamentRange.trackAppearedMixesIDs )
 	{
-		var chartToCheck= FindChartWithIndexInMix( track, chart.shared.index, mix );
+		var chartToCheck = FindChartWithIndexInMix( track, chart.shared.index, mix );
 		if( chartToCheck  &&  chartToCheck.levelNum !== chart.levelNum )
 			return false;
 	}
