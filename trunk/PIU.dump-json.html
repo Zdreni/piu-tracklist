@@ -98,6 +98,8 @@ function RemoveObviousFields( track, mixID, chart )
 		delete chart.unlockPatchIndex;
 	}
 
+	delete chart.isLocked;	
+
 	track[ mixID ][ chartIndex ] = chart;
 }
 
