@@ -1102,7 +1102,7 @@ var readableTracklist = {
 	title: "HUSH  [FULL]", artist: "Yassi Pressman & Nadine Lustre", channel: WORLD, bpm: "82", region: PHILIPPINES,
 	altID: "15_Hush_FULL",
 	changes: {
-		XX: { region: "" }
+		"XX": { region: "" }
 	},
 	//XX__: "S15  D16",
 	XX: "=",
@@ -3485,7 +3485,7 @@ var readableTracklist = {
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
-	FiestaEX: "= S19  @1.10 Dp5",  // S19 - pumbi unlock
+	FiestaEX: "= S19  @1.10 Dp5",  //??? S19 - pumbi unlock
 	Fiesta: "S11 S18 D13 D20  @1.05 S16  @1.10 S4 S7",
 },
 
@@ -6992,7 +6992,7 @@ var readableTracklist = {
 {
 	title: "Dr. M", artist: "BanYa", bpm: "145", fromMix: "Rebirth",
 	//XX__: "S3 S6 S8 S9 S12 S16  D11 D18",
-	XX: "= S6 S8.7 D18.16",  //??? S6.??? - proof S6 S8
+	XX: "= S6 S8.7 D18.16",  // S6.???
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7279,7 +7279,7 @@ var readableTracklist = {
 {
 	title: "Csikos Post", artist: "BanYa", bpm: "180", fromMix: "Rebirth",
 	//XX__: "S4 S7 S8 S11 S13  D8 D16 D22",
-	XX: "= S4.3 S7 S8.7 S11.10 D22.21",  //??? S7 S8 proof
+	XX: "= S4.3 S7 S8.7 S11.10 D22.21",  // S7.???
 	Prime2: "=",
 	Prime: "=  @1.12 D21.ucs",
 	Fiesta2: "=",
@@ -8162,10 +8162,19 @@ function PreprocessNewStyleChart( track, result, chartDescr, mixID, patchIndex )
 	if( chart  &&  prevChart  &&  prevChart.type !== chart.type )
 		throw track.name + " chart " + chart.text + " type is not compatible with " + prevChart.text;
 
-	result.push( chart );
-
 	if( patchIndex > 0 )
 		chart.fromPatchIndex = patchIndex;
+
+
+	var chartIndexToReplace = -1;
+	if( prevChart )
+		chartIndexToReplace = _.findIndex( result, function( item ) { return item.shared.index === prevChart.shared.index; } );
+
+	if( chartIndexToReplace >= 0 )
+		result[ chartIndexToReplace ] = chart;
+	else
+		result.push( chart );
+
 
 	return chart;
 }
@@ -8347,6 +8356,12 @@ function PreprocessTrack( track )
 			PreprocessOldStyleListCharts( track, mixID, oldSlotSharedCharts );
 	}
 
+
+	var mixRegions = [];
+	if( mixes[ GetTrackFirstMix( track ) ] )
+		mixRegions = mixes[ GetTrackFirstMix( track ) ].regions;
+	if( track.region  &&  ( ! mixRegions  || mixRegions.indexOf( track.region ) < 0 ) )
+		throw "Unavailable region '" + track.region + "' for '" + track.title + "' in mix '" + track.fromMixID + "'.";
 
 	if( track.changes )
 	{

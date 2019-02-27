@@ -138,7 +138,7 @@ var __S = SPACE( 2 )
 var ___S = SPACE( 3 )
 
 
-function DumpMixPatches()
+function DumpMixes()
 {
 	var result = "";
 
@@ -146,15 +146,20 @@ function DumpMixPatches()
 	for( var k in mixes )
 	{
 		var v = mixes[ k ];
-		if( ! v["patches"] )
-			continue;
+		if( ! v.patches )
+			v.patches = ["1.0"];
+		//	continue;
 
 		if( nextMix )
 			result += ",<br>";
 		else
 			nextMix = true;
 
-		result += _S + JStr( k ) + ": " + JSON.stringify( v["patches"], null, 1 );
+		result += _S + JStr( k ) + ": {<br>";
+		if( v.regions )
+			result += __S + "regions: " + JSON.stringify( v.regions, null, 1 ) + ",<br>";
+		result += __S + "versions: " + JSON.stringify( v.patches, null, 1 ) + "<br>";
+		result += _S + "}";
 		//DictToArr( mixes, function ( key, val ) {  return _S + JStr( key ) + ": " + JStr( val );  } );
 	}
 
@@ -246,8 +251,8 @@ function DumpTracklist()
 }
 
 var result = "{<br><br>";
-result += "\"patches\": {<br><br>";
-result += DumpMixPatches();
+result += "\"mixes\": {<br><br>";
+result += DumpMixes();
 result += "<br><br>},";
 result += "<br><br><br>";
 result += "\"tracklist\": {<br><br>";
