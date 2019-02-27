@@ -86,6 +86,18 @@ function RemoveObviousFields( track, mixID, chart )
 	if( Object.keys( chart ).length === 1 )  // if we can parse all chart details from text description,
 		chart = chart.text;                  //   save text instead of dict
 
+	if( chart.fromPatchIndex )
+	{
+		chart.fromVer = mixes[ mixID ].patches[ chart.fromPatchIndex ];
+		delete chart.fromPatchIndex;
+	}
+
+	if( chart.unlockPatchIndex )
+	{
+		chart.unlockVer = mixes[ mixID ].patches[ chart.unlockPatchIndex ];
+		delete chart.unlockPatchIndex;
+	}
+
 	track[ mixID ][ chartIndex ] = chart;
 }
 
