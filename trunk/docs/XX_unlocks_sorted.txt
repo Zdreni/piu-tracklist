@@ -1,0 +1,121 @@
+10:
+		Lock( "Good Bye", "S10", "at least S10 A on Boomerang" )
+12:
+		Lock( "Club Night", "D12", "at least D12 A on Loki" )
+				Lock( "Loki", "S12", "AM.Pass level 40 / G-Plex Field Test participant reward" )
+		Lock( "Obelisque", "S15", "at least S10 S" )
+		Lock( "Poseidon", "S14", "at least S10 S" )
+		Lock( "Obliteration", "D15", "at least D10 S" )
+13:
+		Lock( "BBoom BBoom", "S15", "at least S13 A" )
+		Lock( "Boomerang", "S14", "at least S13 A" )
+		Lock( "Obelisque", "D15", "at least D11 S" )
+		Lock( "Boomerang", "D16", "D7 SSS" )
+14:
+		Lock( "Obliteration", "S17", "at least S14 A" )
+		Lock( "Love Scenario", "D14", "at least S14 A" )
+		Lock( "Very Nice!", "S17", "at least S14 A" )
+		Lock( "Very Nice!", "D15", "at least S14 A" )
+		Lock( "Vanish", "S17", "at least S12 S" )
+		Lock( "Good Bye", "D16", "at least D10 SS" )
+15:
+		Lock( "Nekkoya(Pick Me)", "S17", "at least S15 A" )
+		Lock( "Boomerang", "S17", "at least S15 A" )
+		Lock( "I'm so Sick", "S17", "at least S15 A" )
+		Lock( "Fly High", "S18", "at least S15 A" )
+		Lock( "I Want U", "D17", "at least D13 S" )
+16:
+		Lock( "I Want U", "S19", "at least S16 A" )
+		Lock( "Club Night", "S18", "at least S16 A" )
+		Lock( "Nyarlathotep", "S18", "at least S16 A" )
+		Lock( "I'm so Sick", "D18", "at least D16 A" )
+		Lock( "Fly High", "D19", "at least D16 A" )
+		Lock( "Good Bye", "S17", "at least S14 S" )
+		Lock( "Love Scenario", "S17", "at least S14 S" )
+		Lock( "Vanish", "D18", "at least D12 SS" )
+		Lock( "Club Night", "D18", "at least D12 SS" )
+17:
+		Lock( "Good Bye", "D18", "at least S17 A" )
+		Lock( "Le Grand Rouge", "S20", "at least S17 A" )
+		Lock( "Obelisque", "S17", "at least S15 S" )
+		Lock( "Obliteration", "D19", "at least D15 S" )
+		Lock( "Very Nice!", "D18", "at least D15 S" )
+		Lock( "Obelisque", "D17", "at least D15 S" )
+		Lock( "BBoom BBoom", "D18", "at least S on S15 & D15" )
+		Lock( "Wedding Crashers", "D19", "at least D13 SS" )
+		Lock( "%X (Percent X)", "D19", "at least D13 SS" )
+		Lock( "Macaron Day", "D18", "at least D13 SS" )
+18:
+		Lock( "Wedding Crashers", "S21", "at least S18 A" )
+19:
+		Lock( "Le Grand Rouge", "D22", "at least D19 A" )
+		Lock( "Boomerang", "D20", "at least S on S17 & D16" )
+		Lock( "I'm so Sick", "D20", "at least S on S15, D16, S17, and D18" )
+		Lock( "Black Swan", "D22", "at least D15 SS" )
+20:
+		Lock( "Club Night", "S22", "at least S18 S" )
+		Lock( "Poseidon", "D22", "at least D16 SS" )
+
+
+Lvl:
+		Lock( "Black Swan", "S12", "AM.Pass level 10" )
+		Lock( "Black Swan", "S14", "AM.Pass level 12" )
+		Lock( "Black Swan", "S16", "AM.Pass level 14" )
+		Lock( "Black Swan", "S19", "AM.Pass level 16" )
+		Lock( "Black Swan", "D15", "AM.Pass level 18" )
+		Lock( "Imagination", "S12", "AM.Pass level 20" )
+		Lock( "Imagination", "S15", "AM.Pass level 22" )
+		Lock( "Imagination", "S19", "AM.Pass level 24" )
+		Lock( "Imagination", "D16", "AM.Pass level 26" )
+		Lock( "Imagination", "D21", "AM.Pass level 28" )
+		Lock( "Kimchi Fingers", "S14", "AM.Pass level 30 / Prime 2 Global Top 1000 rank reward" )
+		Lock( "Kimchi Fingers", "S17", "AM.Pass level 32 / Prime 2 Global Top 1000 rank reward" )
+		Lock( "Kimchi Fingers", "S20", "AM.Pass level 34 / Prime 2 Global Top 1000 rank reward" )
+		Lock( "Kimchi Fingers", "D16", "AM.Pass level 36 / Prime 2 Global Top 1000 rank reward" )
+		Lock( "Kimchi Fingers", "D21", "AM.Pass level 38 / Prime 2 Global Top 1000 rank reward" )
+		Lock( "Can Can", "D22", "AM.Pass level 40" )
+		Lock( "Loki", "S12", "AM.Pass level 40 / G-Plex Field Test participant reward" )
+		Lock( "Loki", "S16", "AM.Pass level 42 / G-Plex Field Test participant reward" )
+		Lock( "Loki", "S19", "AM.Pass level 44 / G-Plex Field Test participant reward" )
+		Lock( "Loki", "D12", "AM.Pass level 46 / G-Plex Field Test participant reward" )
+		Lock( "Loki", "D19", "AM.Pass level 48 / G-Plex Field Test participant reward" )
+		Lock( "Skeptic", "S12", "AM.Pass level 50" )
+		Lock( "Skeptic", "S18", "AM.Pass level 55" )
+		Lock( "Skeptic", "S22", "AM.Pass level 60" )
+		Lock( "Skeptic", "S24", "AM.Pass level 65" )
+		Lock( "Skeptic", "D14", "AM.Pass level 70" )
+		Lock( "Skeptic", "D22", "AM.Pass level 75" )
+		Lock( "Skeptic", "D25", "AM.Pass level 80" )
+		Lock( "Desaparecer", "S20", "AM.Pass level 100" )
+		Lock( "Desaparecer", "S22", "AM.Pass level 100" )
+		Lock( "Desaparecer", "D23", "AM.Pass level 100" )
+
+
+Title:
+		Lock( "Nyarlathotep  [short]", "D24", "Expert Lv. 1 Title" )
+		Lock( "Nyarlathotep", "D25", "Expert Lv. 2 Title" )
+		Lock( "Dement ~After Legend~", "D26", "Expert Lv. 3 Title" )
+
+		Lock( "Club Night", "D21", "Advanced Lv. 3 Title?" )
+		Lock( "I Want U", "D21", "Advanced Lv. 4 Title?" )
+		Lock( "Wedding Crashers", "D22", "Advanced Lv. 5 Title" )
+		Lock( "Vanish", "D22", "Advanced Lv. 6 Title?" )
+		Lock( "Nyarlathotep", "S23", "Advanced Lv. 8 Title" )
+		Lock( "Dement ~After Legend~", "S23", "Advanced Lv. 10 Title" )
+
+
+Passes:
+		Lock( "Nyarlathotep", "D20", "Stage pass 30 times on S20 charts" )
+		Lock( "Can Can", "S20", "Stage pass 30 times on D20 charts" )
+		Lock( "Nyarlathotep", "D23", "Stage pass 30 times on S23/D23 charts" )
+
+
+Misc:
+		Lock( "Loki", "S21", "Clear 8 Mission Zone quests" )
+		Lock( "86", "S12, S16, S20, D18, D21", "Acquire SSS 86 times, same charts allowed" )
+
+
+Unknown:
+		Lock( "Boomerang", "CoOp(x2)", "Play co-op charts 60 times?" )
+		Lock( "Wedding Crashers", "CoOp(x3)", "Play co-op charts 30 times" )
+		Lock( "Club Night", "CoOp(x2)", "get CoOp Intermediate title" )  // according to Seth Sanches at https://www.facebook.com/groups/1475683766036553/permalink/2303998833205038/
