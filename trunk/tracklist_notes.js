@@ -22,44 +22,45 @@ var HAS_SOME_STOPS = "Some parts of chart are tricky stops.";
 
 function AddNotes()
 {
-	N( "Loki", ["S16", "S19", "S21", "D19"], "Excessive stumbling parts of chart.")
+	N( "Loki", ["S16", "S19", "S21", "D19"], "Excessive partial gimmicks.")
 	N( "Loki", "S21", "Series of long footswitches.")
 
 	N( "Love Scenario", "S17", BUILT_WITH_STOPS )
 	N( "Uprock", "CZ", BUILT_WITH_STOPS )
 	N( "Everybody Got 2 Know", "S19", BUILT_WITH_STOPS )
 
-	N( "Come to Me @ 826", "S13.XX", "Ends with five-steps jump." )
+	N( "Come to Me @ 826", "S13.XX", "Ends with all arrows jump." )
 	N( "Come to Me @ 826", "S17.XX", BUILT_WITH_STOPS )
-	N( "Come to Me @ 826", "S17.XX", "Ends with five-steps jump." )
+	N( "Come to Me @ 826", "S17.XX", "Ends with all arrows jump." )
 
 	N( "Tek -Club Copenhagen-", ["S16", "S17"], HAS_SOME_STOPS )
 	N( "Bad Apple!! feat. Nomico", "S15", HAS_SOME_STOPS )
 	N( "Miss's Story", "S18", "Small part with tricky stops." )
 
-	N( "Gun Rock", "CZ", "Excessive triples stream at the end." )
+	N( "Gun Rock", "CZ", "Excessive triple jumps stream at the end." )
 	N( "Naissance", "aCZ", "Series of jumps hammering." )
 
-	N( "Ugly Dee", ["aFS", "aNM"], "Triple and quad holds all the chart." )
+	N( "Ugly Dee", ["aFS", "aNM"], "Triple and quad holds throughout the chart." )
 
 	N( "Nobody", ["S15", "D17"], HAS_SOME_STOPS )
 
 	// fire 2ne1 - mimimi таппинг
 
-	N( "Join the Party", "CZ", "Chart consists of central hold with steps." )
-	N( "Dance Vibrations", ["aCZ", "aNM"], "Chart consists of central hold with steps." )
+	N( "Join the Party", "CZ", "Consists of central hold with steps around it." )
+	N( "Dance Vibrations", ["aCZ", "aNM"], "Consists of central hold with steps around it." )
 
 	N( "Final Audition", "aCZ", "Series of long footswitches." )
 
-	N( "Nakakapagpabagabag", ["S18", "D19"], "Tricky holds with steps." )
-	N( "Nakakapagpabagabag", ["S18", "D19"], "Stumbling charts, needs 6.5x or av999." )
-	N( "86", ["S16", "S20", "D18", "D21"], "Tricky holds with steps." )
-	N( "86", ["S16", "S20", "D18", "D21"], "Stumbling charts, needs 6.5x or av999." )
+	N( "Nakakapagpabagabag", ["S18", "D19"], "Confusing holds with steps." )
+	N( "Nakakapagpabagabag", ["S18", "D19"], "Gimmicky, need 6.5x or av999." )
+	N( "86", ["S16", "S20", "D18", "D21"], "Confusing holds with steps." )
+	N( "86", ["S16", "S20", "D18", "D21"], "Gimmicky, need 6.5x or av999." )
 
-	N( "Shub Niggurath", "D17", "Twists on central quad." )
+	N( "Shub Niggurath", "D17", "Central quad twists." )
 
-	N( "Gargoyle", "S18", "At the end arrows stretch up to ~195 bpm" )
+	N( "Gargoyle", "S18", "Arrows stretch up to ~195 bpm at the end." )
 
+	N( "Nyarlathotep", ["S21", "D20"], "Unexpected blinking holds" )
 	// Hey U - jumps
 	N( "Feel My Happiness", "D21", "Lots of brackets." )
 	// Karyawisata S20 - slowdown
@@ -68,7 +69,7 @@ function AddNotes()
 	// Vanish - Vanish
 	// Hardkore of the North  S21 - twists on the holds with slowdown
 
-	N( "VVV", ["S18", "S23", "D16", "D19", "D24"], "Whole chart is slow except of simple ending, use 3-3.5x or av900+." )
+	N( "VVV", ["S18", "S23", "D16", "D19", "D24"], "Whole chart is slow, except of simple ending. Use 3-3.5x or av900+." )
 
 	N( "Destination  [SHORT]", "D18", "crab legs" ) //D20 - ебошащий стрим
 	N( "Pumptris (8Bit ver.)  [SHORT]", "D22", "crab legs" )
