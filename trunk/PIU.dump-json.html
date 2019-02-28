@@ -98,7 +98,7 @@ function RemoveObviousFields( track, mixID, chart )
 		delete chart.unlockPatchIndex;
 	}
 
-	delete chart.isLocked;	
+	delete chart.isLocked;
 
 	track[ mixID ][ chartIndex ] = chart;
 }
@@ -171,8 +171,8 @@ function DumpMixes()
 
 		result += _S + JStr( k ) + ": {<br>";
 		if( v.regions )
-			result += __S + "regions: " + JSON.stringify( v.regions, null, 1 ) + ",<br>";
-		result += __S + "versions: " + JSON.stringify( v.patches, null, 1 ) + "<br>";
+			result += __S + "\"regions\": " + JSON.stringify( v.regions, null, 1 ) + ",<br>";
+		result += __S + "\"versions\": " + JSON.stringify( v.patches, null, 1 ) + "<br>";
 		result += _S + "}";
 		//DictToArr( mixes, function ( key, val ) {  return _S + JStr( key ) + ": " + JStr( val );  } );
 	}
