@@ -65,282 +65,286 @@ var readableTracklist = {
 */
 
 
+
+
+// \16 - XX
+
 "16_The_Little_Prince":
 {
 	title: "The Little Prince (Prod. Godic)", artist: "HAON, PULLIK", channel: KPOP, bpm: "115",
-	sortingID: "", // altID: "",
-	XX: "@1.01 S4 S7 S9 S13 S16 D11 D14 D19 S??.lock D??.lock",
-},
-
-"16_Boong_Boong":
-{
-	title: "Boong Boong (Feat. Sik-K) (Prod. GroovyRoom)", artist: "HAON", channel: KPOP, bpm: "136",
-	sortingID: "", // altID: "",
-	XX: "@1.01 S1 S3 S5 S9 S11 S18 D16 S??.lock D??.lock D??.lock",
+	shortTitle: "The Little Prince",
+	sortingID: "1601", // altID: "",
+	XX: "@1.01 S4 S7 S9 S13 S16 S18.lock D11 D14 D16.lock D19",
 },
 
 "16_Timing":
 {
 	title: "Timing", artist: "HIGHTEEN", channel: KPOP, bpm: "164",
-	sortingID: "", // altID: "",
-	XX: "@1.01 S2 S4 S7 S15 D11 D16 S??.lock D??.lock",
+	sortingID: "1602", // altID: "",
+	XX: "@1.01 S2 S4 S7 S15 S17.lock D11 D16 D18.lock",
 },
-
-"16_Ice_of_Death":
-{
-	title: "Ice of Death", artist: "Fiverwater", channel: ORIGINAL, bpm: "172",
-	sortingID: "", // altID: "",
-	XX: "@1.01 S7 S10 S17 D11 D17 CoOp(x2) S??.lock D??.lock",
-},
-
-"16_Xeroize":
-{
-	title: "Xeroize", artist: "FE", channel: XROSS, bpm: "200",
-	sortingID: "", // altID: "",
-	XX: "@1.01 S12 S17 D18 S??.lock S??.lock D??.lock D??.lock",
-},
-
-"16_Nihilism":
-{
-	title: "Nihilism - Another Ver.-", artist: "Nato", channel: WORLD, bpm: "190",
-	sortingID: "", // altID: "",
-	XX: "@1.01 S8.lock S15.lock S18.lock D17.lock S??.lock D??.lock D??.lock",
-},
-
-"16_86_FULL":
-{
-	title: "8 6  [FULL]", artist: "DASU", channel: WORLD, bpm: "167",
-	sortingID: "", // altID: "",
-	XX: "@1.01 S??.lock S??.lock D??.lock",
-},
-
-"16_XX_Opening_SHORT":
-{
-	title: "XX Opening", artist: "MAX", channel: ORIGINAL, bpm: "175", duration: SHORT,
-	sortingID: "", // altID: "",
-	XX: "@1.01 S3 S6 S11 S16 D12 D17",
-},
-
-
-// \16 - XX
 
 "16_Fly_High":
 {
 	title: "Fly High", artist: "Dreamcatcher", channel: KPOP, bpm: "154",
-	sortingID: "1601", // altID: "",
+	sortingID: "1603", // altID: "",
 	XX: "S1 S3 S5 S9 S15 S18.lock D10 D16.lock D19.lock Dp3",
 },
 
 "16_Hann_Alone":
 {
 	title: "Hann (Alone)", artist: "(G)I-DLE", channel: KPOP, bpm: "105",
-	sortingID: "1602", // altID: "",
-	XX: "S1 S3 S5 S8 S16.lock D17 CoOp(x2)",
+	sortingID: "1604", // altID: "",
+	XX: "S1 S3 S5 S8 S16.lock D17 CoOp(x2)  @1.01 Dp4",
 },
 
 "16_Nekkoya_Pick_Me":
 {
 	title: "Nekkoya (Pick Me)", artist: "PRODUCE48", channel: KPOP, bpm: "128",
-	sortingID: "1603", // altID: "",
-	XX: "S2 S4 S6 S9 S15 S17.lock D15.lock D18",
+	sortingID: "1605", // altID: "",
+	XX: "S2 S4 S6 S9 S15 S17.lock D15.lock D18  @1.01 Dp3",
 },
 
 "16_I'm_So_Sick":
 {
 	title: "I'm So Sick", artist: "APink", channel: KPOP, bpm: "124",
-	sortingID: "1604", // altID: "",
-	XX: "S2 S4 S6 S9 S15 S17.lock D9 D16 D18.lock D20.lock",
+	sortingID: "1606", // altID: "",
+	XX: "S2 S4 S6 S9 S15 S17.lock D9 D16 D18.lock D20.lock  @1.01 Dp3",
 },
 
 "16_Boomerang":
 {
 	title: "Boomerang", artist: "Wanna One", channel: KPOP, bpm: "100",
-	sortingID: "1605", // altID: "",
-	XX: "S2 S4 S6 S10 S14.lock S17.lock D7 D16.lock D20.lock CoOp(x2).lock",
+	sortingID: "1607", // altID: "",
+	XX: "S2 S4 S6 S10 S14.lock S17.lock D7 D16.lock D20.lock CoOp(x2).lock  @1.01 Dp3",
 },
 
 "16_BBoom_BBoom":
 {
 	title: "BBoom BBoom", artist: "MOMOLAND", channel: KPOP, bpm: "126",
-	sortingID: "1606", // altID: "",
-	XX: "S1 S4 S6 S9 S13 S15.lock D8 D15 D18.lock",
+	sortingID: "1608", // altID: "",
+	XX: "S1 S4 S6 S9 S13 S15.lock D8 D15 D18.lock  @1.01 CoOp(x2) Dp2",
 },
 
 "16_Love Scenario":
 {
 	title: "Love Scenario", artist: "iKon", channel: KPOP, bpm: "118",
-	sortingID: "1607", // altID: "",
-	XX: "S1 S3 S6 S8 S14 S17.lock D3 D14.lock",
+	sortingID: "1609", // altID: "",
+	XX: "S1 S3 S6 S8 S14 S17.lock D3 D14.lock  @1.01 Dp4",
 },
 
 "16_Very_Nice":
 {
 	title: "Very Nice", artist: "Seventeen", channel: KPOP, bpm: "122",
-	sortingID: "1608", // altID: "",
-	XX: "S2 S4 S6 S9 S14.lock S17.lock D6 D15.lock D18.lock CoOp(x2)",
+	sortingID: "1610", // altID: "",
+	XX: "S2 S4 S6 S9 S14.lock S17.lock D6 D15.lock D18.lock CoOp(x2)  @1.01 Dp4",
 },
 
 "16_Good_Bye":
 {
 	title: "Good Bye", artist: "Hong Jin-Young", channel: KPOP, bpm: "139",
-	sortingID: "1609", // altID: "",
-	XX: "S2 S4 S6 S10.lock S14.lock S17.lock D10 D16.lock D18.lock",
+	sortingID: "1611", // altID: "",
+	XX: "S2 S4 S6 S10.lock S14.lock S17.lock D10 D16.lock D18.lock  @1.01 Dp3",
+},
+
+"16_Boong_Boong":
+{
+	title: "Boong Boong (Feat. Sik-K) (Prod. GroovyRoom)", artist: "HAON", channel: KPOP, bpm: "136",
+	shortTitle: "Boong Boong",
+	sortingID: "1612", // altID: "",
+	XX: "@1.01 S1 S3 S5 S9 S11 S16.lock S18 D??.lock D16 D19.lock",
 },
 
 "16_BBoom_BBoom_FULL":
 {
 	title: "BBoom BBoom  [FULL]", artist: "MOMOLAND", channel: KPOP, bpm: "126",
-	sortingID: "1610", // altID: "",
+	sortingID: "1613", // altID: "",
 	XX: "S17 D18",
 },
 
 "16_Wedding_Crashers":
 {
 	title: "Wedding Crashers", artist: "SHK", channel: ORIGINAL, bpm: "165",
-	sortingID: "1611", // altID: "",
-	XX: "S4 S6 S10 S16 S18.lock S21.lock D7 D13 D19.lock D22.lock CoOp(x3).lock",
+	sortingID: "1614", // altID: "",
+	XX: "S4 S6 S10 S16 S18.lock S21.lock D7 D13 D19.lock D22.lock CoOp(x3).lock  @1.01 Dp4",
 },
 
 "16_Obliteration":
 {
 	title: "Obliteration", artist: "ATAS", channel: ORIGINAL, bpm: "150",
-	sortingID: "1612", // altID: "",
-	XX: "S7 S14 S17.lock D10 D15.lock D19.lock",
+	sortingID: "1615", // altID: "",
+	XX: "S7 S14 S17.lock D10 D15.lock D19.lock  @1.01 Dp5",
 },
 
 "16_I_Want_U":
 {
 	title: "I Want U", artist: "MAX", channel: ORIGINAL, bpm: "156",
-	sortingID: "1613", // altID: "",
-	XX: "S3 S7 S11 S16 S19.lock D6 D13 D17.lock D21.lock",
+	sortingID: "1616", // altID: "",
+	XX: "S3 S7 S11 S16 S19.lock D6 D13 D17.lock D21.lock  @1.01 Dp5",
 },
 
 "16_Nyarlathotep":
 {
 	title: "Nyarlathotep", artist: "Nato", channel: ORIGINAL, bpm: "200",
-	sortingID: "1614", // altID: "",
-	XX: "S12 S16 S18.lock S21 S23.lock D16 D20.lock D23.lock D25.lock",
+	sortingID: "1617", // altID: "",
+	XX: "S12 S16 S18.lock S21 S23.lock D16 D20.lock D23.lock D25.lock  @1.01 Dp4",
 },
 
 "16_Skeptic":
 {
 	title: "Skeptic", artist: "Doin", channel: ORIGINAL, bpm: "200",
-	sortingID: "1615", // altID: "",
-	XX: "S12.lock S18.lock S22.lock S24.lock D14.lock D22.lock D25.lock",
+	sortingID: "1618", // altID: "",
+	XX: "S12.lock S18.lock S22.lock S24.lock D14.lock D22.lock D25.lock  @1.01 Dp4",
 },
 
 "16_Percent_X":
 {
 	title: "%X (Percent X)", artist: "Pory", channel: ORIGINAL, bpm: "150",
-	sortingID: "1616", // altID: "",
-	XX: "S3 S6 S10 S17 S19 D9 D13 D19.lock",
+	sortingID: "1619", // altID: "",
+	XX: "S3 S6 S10 S17 S19 D9 D13 D19.lock  @1.01 Dp4",
 },
 
 "16_Le_Grand_Rouge":
 {
 	title: "Le Grand Rouge", artist: "KIEN", channel: ORIGINAL, bpm: "166",
-	sortingID: "1617", // altID: "",
-	XX: "S8 S13 S17 S20.lock D19 D22.lock",
+	sortingID: "1620", // altID: "",
+	XX: "S8 S13 S17 S20.lock D19 D22.lock  @1.01 Dp5",
 },
 
 "16_Macaron_Day":
 {
 	title: "Macaron Day", artist: "HyuN", channel: ORIGINAL, bpm: "173",
-	sortingID: "1618", // altID: "",
-	XX: "S12 S17 D13 D18.lock",
+	sortingID: "1621", // altID: "",
+	XX: "S12 S17 D13 D18.lock  @1.01 Dp3",
+},
+
+"16_Ice_of_Death":
+{
+	title: "Ice of Death", artist: "Fiverwater", channel: ORIGINAL, bpm: "172",
+	sortingID: "1622", // altID: "",
+	XX: "@1.01 S7 S10 S17 S20.lock D11 D17 CoOp(x2) D??.lock",
 },
 
 "16_Poseidon":
 {
 	title: "Poseidon", artist: "Quree", channel: ORIGINAL, bpm: "160",
-	sortingID: "1619", // altID: "",
-	XX: "S3 S6 S10 S14.lock S20 D8 D16 D22.lock",
+	sortingID: "1623", // altID: "",
+	XX: "S3 S6 S10 S14.lock S20 D8 D16 D22.lock  @1.01 Dp2",
 },
 
 "16_Vanish":
 {
 	title: "Vanish", artist: "Applesoda", channel: ORIGINAL, bpm: "174",
-	sortingID: "1620", // altID: "",
-	XX: "S6 S12 S17.lock S20 D9 D12 D18.lock D22.lock",
+	sortingID: "1624", // altID: "",
+	XX: "S6 S12 S17.lock S20 D9 D12 D18.lock D22.lock  @1.01 Dp4",
 },
 
 "16_Kimchi_Fingers":
 {
 	title: "Kimchi Fingers", artist: "Garlic Squad", channel: ORIGINAL, bpm: "190",
-	sortingID: "1621", // altID: "",
-	XX: "S14.lock S17.lock S20.lock D16.lock D21.lock",
+	sortingID: "1625", // altID: "",
+	XX: "S14.lock S17.lock S20.lock D16.lock D21.lock  @1.01 Dp4",
 },
 
 "16_Desaparecer":
 {
 	title: "Desaparecer", artist: "Applesoda vs Max", channel: ORIGINAL, bpm: "174", duration: REMIX,
-	sortingID: "1622", // altID: "",
+	sortingID: "1626", // altID: "",
 	XX: "S20.lock S22.lock D23.lock",
+},
+
+"16_XX_Opening":
+{
+	title: "XX Opening", artist: "MAX", channel: ORIGINAL, bpm: "175", duration: SHORT,
+	sortingID: "1627", // altID: "",
+	XX: "@1.01 S3 S6 S11 S16 D12 D17",
 },
 
 "16_Nyarlathotep_SHORT":
 {
 	title: "Nyarlathotep  [SHORT]", artist: "Nato", channel: ORIGINAL, bpm: "200",
-	sortingID: "1623", // altID: "",
+	sortingID: "1628", // altID: "",
 	XX: "S22 D24.lock",
 },
 
 "16_Wedding_Crashers_SHORT":
 {
 	title: "Wedding Crashers  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "165",
-	sortingID: "1624", // altID: "",
+	sortingID: "1629", // altID: "",
 	XX: "S18 D20",
 },
 
 "16_Club_Night":
 {
 	title: "Club Night", artist: "Matduke", channel: WORLD, bpm: "170",
-	sortingID: "1625", // altID: "",
-	XX: "S8 S16 S18.lock S22.lock D12.lock D18.lock D21.lock CoOp(x2).lock",
+	sortingID: "1630", // altID: "",
+	XX: "S8 S16 S18.lock S22.lock D12.lock D18.lock D21.lock CoOp(x2).lock  @1.01 Dp5",
+},
+
+"16_Nihilism":
+{
+	title: "Nihilism - Another Ver.-", artist: "Nato", channel: WORLD, bpm: "190",
+	shortTitle: "Nihilism",
+	sortingID: "1631", // altID: "",
+	XX: "@1.01 S8 S15 S18 S21.lock D17 D19.lock D23.lock",
 },
 
 "16_86":
 {
-	title: "86", artist: "Dasu", channel: WORLD, bpm: "167",
-	sortingID: "1626", // altID: "",
-	XX: "S12.lock S16.lock S20.lock D18.lock D21.lock",
+	title: "8 6", artist: "Dasu", channel: WORLD, bpm: "167",
+	sortingID: "1632", // altID: "",
+	XX: "S12.lock S16.lock S20.lock D18.lock D21.lock  @1.01 Dp3",
+},
+
+"16_86_FULL":
+{
+	title: "8 6  [FULL]", artist: "DASU", channel: WORLD, bpm: "167",
+	sortingID: "1633", // altID: "",
+	XX: "@1.01 S16.lock S21.lock D23.lock",
 },
 
 "16_Imagination":
 {
 	title: "Imagination", artist: "SHK", channel: XROSS, bpm: "180",
-	sortingID: "1627", // altID: "",
-	XX: "S12.lock S15.lock S19.lock D16.lock D21.lock",
+	sortingID: "1634", // altID: "",
+	XX: "S12.lock S15.lock S19.lock D16.lock D21.lock  @1.01 Dp5",
 },
 
 "16_Black_Swan":
 {
 	title: "Black Swan", artist: "Zeron", channel: XROSS, bpm: "175",
-	sortingID: "1628", // altID: "",
-	XX: "S12.lock S14.lock S16.lock S19.lock D15.lock D22.lock",
+	sortingID: "1635", // altID: "",
+	XX: "S12.lock S14.lock S16.lock S19.lock D15.lock D22.lock  @1.01 Dp4",
 },
 
 "16_Obelisque":
 {
 	title: "Obelisque", artist: "ESTi x M2U", channel: XROSS, bpm: "130",
-	sortingID: "1629", // altID: "",
-	XX: "S2 S4 S7 S10 S15.lock S17.lock D11 D15.lock D17.lock CoOp(x2)",
+	sortingID: "1636", // altID: "",
+	XX: "S2 S4 S7 S10 S15.lock S17.lock D11 D15.lock D17.lock CoOp(x2)  @1.01 Dp3",
+},
+
+"16_Xeroize":
+{
+	title: "Xeroize", artist: "FE", channel: XROSS, bpm: "200",
+	sortingID: "1637", // altID: "",
+	XX: "@1.01 S12 S17 S21.lock S24.lock D18 D22.lock D??.lock",
 },
 
 "16_Loki":
 {
 	title: "Loki", artist: "Lotze", channel: XROSS, bpm: "140",
-	sortingID: "1630", // altID: "",
-	XX: "S12.lock S16.lock S19.lock S21.lock D12.lock D19.lock",
+	sortingID: "1638", // altID: "",
+	XX: "S12.lock S16.lock S19.lock S21.lock D12.lock D19.lock  @1.01 Dp3",
 },
 
 "16_Dement_After_Legend":
 {
 	title: "Dement ~After Legend~", artist: "Lunatic Sounds", channel: XROSS, bpm: "210",
-	sortingID: "1631", // altID: "",
-	XX: "S23.?lock D26.?lock",
+	shortTitle: "Dement",
+	sortingID: "1639", // altID: "",
+	XX: "S23.?lock D26.?lock  @1.01 Dp2",
 },
-//*/
 
 
 // \15 - Prime 2
@@ -5824,7 +5828,7 @@ var readableTracklist = {
 {
 	title: "Jump", artist: "BanYa", bpm: "96",
 	//XX__: "S4 S7 S13",
-	XX: "S4.nl S7.hd S13.cz",
+	XX: "S4.nl S7.hd S13.cz  @1.01 D18.lock",
 	Zero: ["3", "7", "9", "", ""],
 },
 

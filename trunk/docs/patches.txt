@@ -3665,12 +3665,32 @@ https://www.facebook.com/notes/pump-it-up/piu-2018-prime2-v2050-update-notice/23
 Quest “Chapter 10” is updated.
 
 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Prime XX 1.00.1
+(piu_xx_000.bin)
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Prime XX 1.00.2
+(piu_xx_001.bin)
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Prime XX 1.00.3
+(piu_xx_002.bin)
+
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Prime XX  1.01
 
 https://www.facebook.com/notes/pump-it-up/piu-xx-v1010-update-notice/2599673560060883/
-(prime2_240.bin)
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=333
+(piu_xx_003.bin)
 
 
 1. New Songs
@@ -3680,14 +3700,14 @@ https://www.facebook.com/notes/pump-it-up/piu-xx-v1010-update-notice/25996735600
     BPM : 115
     Category : K-POP
     Step charts : S4, S7, S9, S13, S16, D11, D14, D19
-                           S??, D?? (Unlocked step)
+                           S??(18), D??(16) (Unlocked step)
 
 2) Title : Boong Boong (Feat. Sik-K) (Prod. GroovyRoom)]
      Artist : HAON
      BPM : 136
      Category : K-POP
      Step charts : S1, S3, S5, S9, S11, S18, D16
-                            S??, D??, D?? (Unlocked step)
+                            S??(16), D??, D??(19) (Unlocked step)
 
 3) Title : Timing
     Artist : HIGHTEEN
@@ -3696,32 +3716,32 @@ https://www.facebook.com/notes/pump-it-up/piu-xx-v1010-update-notice/25996735600
     Step charts : S2, S4, S7, S15, D11, D16
                             S??, D?? (Unlocked step)
 
-4) Title : Ice of Death)
+4) Title : Ice of Death
      Artist : Fiverwater
      BPM : 172
      Category : Original
      Step charts : S7, S10, S17, D11, D17, CO-OP
-                             S??, D?? (Unlocked step)
+                             S??(20), D?? (Unlocked step)
 
 5) Title : Xeroize
      Artist : FE
      BPM : 200
      Category : Xross
      Step charts : S12, S17, D18
-                            S??, S??, D??, D?? (Unlocked step)
+                            S??(21), S??(24), D??(22), D?? (Unlocked step)
 
 6) Title : Nihilism - Another Ver.-
      Artist : Nato
      BPM : 190
     Category : World Music
     Step charts : S8, S15, S18, D17
-                            S??, D??, D?? (Unlocked step)
+                            S??(21), D??(19), D??(23) (Unlocked step)
 
 7) Title : 8 6 - FULL SONG -
      Artist : DASU
      BPM : 167
      Category : World Music
-     Step charts : S??, S??, D?? (Unlocked step)
+     Step charts : S??(16), S??(21), D??(23) (Unlocked step)
 
 8) Title : XX OPENING - SHORT CUT -
      Artist : MAX
@@ -3731,31 +3751,43 @@ https://www.facebook.com/notes/pump-it-up/piu-xx-v1010-update-notice/25996735600
 
 
 2. New Step Charts
+
 1) Title:  Jump
     Step chart:  D?? (Unlocked step)
+
 2) Title: BBoom BBoom
       Step chart:  CO-OP
+
 3) Title: BLACK SWAN
       Step chart:  DP4
+
 4) Title: CLUB NIGHT
       Step chart:  DP5
+
 5) Title: Dement ~After Legend~
       Step chart:  DP2
+
 6) Title: I WANT U
      Step chart:  DP5
+
 7) Title:  I'M SO SICK
       Step chart:  DP3
+
 8) Title: IMAGINATION
      Step chart:  DP5
+
 9) Title: KIMCHI FINGERS
       Step chart:  DP4
+
 10) Title:  LE GRAND ROUGE
       Step chart:  DP5
+
 11) Title:  LOVE SCENARIO
       Step chart:  DP4
 
 12) Title:  MACARON DAY
        Step chart:  DP3
+
 13) Title :  POSEIDON
        Step chart:  DP2
 
@@ -3773,49 +3805,73 @@ https://www.facebook.com/notes/pump-it-up/piu-xx-v1010-update-notice/25996735600
 
 18) Title : Nyarlathotep
         Step chart:  DP4
+
 19) Title : %X (Percent X)
        Step chart:  DP4
+
 20) Title : HANN (Alone)
        Step chart:  DP4
+
 21) Title : NEKKOYA
        Step chart:  DP3
+
 22) Title : BOOMERANG
        Step chart:  DP3
+
 23) Title : BBoom BBoom
         Step chart:  DP2
+
 24) Title : VERY NICE
        Step chart: DP4
+
 25) Title : GOOD BYE
        Step chart:  DP3
+
 26) Title : 86
        Step chart: DP3
+
 27) Title : Obelisque
        Step chart: DP3
+
 28) Title : Loki
        Step chart: DP3
 
+
 3. Mission zone update
+
 1) Title :  Fallen Angel
     Step chart:  D14
+
 2) Title : Beethoven Virus
      Step chart:  S16
+
 3) Title : Heart Attack
      Step chart:  S17
+
 4) Title : Will-O-The-Wisp
      Step chart:  D18
+
 5) Title : Like Me
       Step chart:  D19
+
 6) Title : Last Rebirth
      Step chart:  S20
+
 7) Title : Obliteration
      Step chart:  D21
+
 8) Title : The People didn't know
       Step chart:  D22
+
 9) Title : Ignis Fatuus(DM Ashura Mix)
       Step chart:  S23
+
 10) Title : Dream To Nightmare
       Step chart:  D25
+
+
 4. Online Matching System update
+
 You can now match up game play with players all over the world!
 
 

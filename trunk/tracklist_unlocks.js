@@ -509,91 +509,118 @@ function ApplyUnlocks()
 	//delete tempUnlockPatchIndex;
 	//delete tempCurrentMix;
 	On( "XX" )
+	// 1.00
 		Lock( "BBoom BBoom", "S15", "at least S13 A" )
 		Lock( "BBoom BBoom", "D18", "at least S on S15 & D15" )
+
 		Lock( "Nekkoya(Pick Me)", "S17", "at least S15 A" )
+
 		Lock( "Boomerang", "S14", "at least S13 A" )
 		Lock( "Boomerang", "S17", "at least S15 A" )
 		Lock( "Boomerang", "D16", "D7 SSS" )
 		Lock( "Boomerang", "D20", "at least S on S17 & D16" )
 		Lock( "Boomerang", "CoOp(x2)", "Play co-op charts 60 times?" )
+
 		Lock( "I'm so Sick", "S17", "at least S15 A" )
 		Lock( "I'm so Sick", "D18", "at least D16 A" )
 		Lock( "I'm so Sick", "D20", "at least S on S15, D16, S17, and D18" )
+
 		Lock( "Good Bye", "S10", "at least S10 A on Boomerang" )
-		Lock( "Good Bye", "S14", "AM.Pass Login?" )
+		Lock( "Good Bye", "S14", "AM.Pass Login" )
 		Lock( "Good Bye", "S17", "at least S14 S" )
 		Lock( "Good Bye", "D16", "at least D10 SS" )
 		Lock( "Good Bye", "D18", "at least S17 A" )
+
 		Lock( "Love Scenario", "D14", "at least S14 A" )
 		Lock( "Love Scenario", "S17", "at least S14 S" )
+
 		Lock( "Very Nice!", "S14", "AM.Pass Login?" )
 		Lock( "Very Nice!", "S17", "at least S14 A" )
 		Lock( "Very Nice!", "D15", "at least S14 A" )
 		Lock( "Very Nice!", "D18", "at least D15 S" )
+
 		Lock( "Fly High", "S18", "at least S15 A" )
 		Lock( "Fly High", "D19", "at least D16 A" )
-		Lock( "Hann(Alone)", "S16", "AM.Pass Login?" )
-		Lock( "Wedding Crashers", "S18", "AM.Pass Login?" )
+
+		Lock( "Hann(Alone)", "S16", "AM.Pass Login" )
+
+		Lock( "Wedding Crashers", "S18", "AM.Pass Login" )
 		Lock( "Wedding Crashers", "S21", "at least S18 A" )
 		Lock( "Wedding Crashers", "D19", "at least D13 SS" )
 		Lock( "Wedding Crashers", "D22", "Stage pass 30 times on S22 charts" )
 		Lock( "Wedding Crashers", "CoOp(x3)", "Play co-op charts 30 times" )
+
 		Lock( "Obelisque", "S15", "at least S10 S" )
-		Lock( "Obelisque", "S17", "at least S15 S" )
+		Lock( "Obelisque", "S17", "at least S15 A" )
 		Lock( "Obelisque", "D15", "at least D11 S" )
-		Lock( "Obelisque", "D17", "at least D15 S" )
+		Lock( "Obelisque", "D17", "at least D15 A" )
+
 		Lock( "%X (Percent X)", "D19", "at least D13 SS" )
+
 		Lock( "Vanish", "S17", "at least S12 S" )
 		Lock( "Vanish", "D18", "at least D12 SS" )
-		Lock( "Vanish", "D22", "Advanced Lv. 6 Title?" )
+		Lock( "Vanish", "D22", "Advanced Lv. 6 Title" )
+
 		Lock( "Macaron Day", "D18", "at least D13 SS" )
+
 		Lock( "Poseidon", "S14", "at least S10 S" )
 		Lock( "Poseidon", "D22", "at least D16 SS" )
+
 		Lock( "I Want U", "S19", "at least S16 A" )
 		Lock( "I Want U", "D17", "at least D13 S" )
-		Lock( "I Want U", "D21", "Advanced Lv. 4 Title?" )
+		Lock( "I Want U", "D21", "Advanced Lv. 4 Title" )
+
 		Lock( "Le Grand Rouge", "S20", "at least S17 A" )
 		Lock( "Le Grand Rouge", "D22", "at least D19 A" )
+
 		Lock( "Club Night", "S18", "at least S16 A" )
 		Lock( "Club Night", "S22", "at least S18 S" )
 		Lock( "Club Night", "D12", "at least D12 A on Loki" )
 		Lock( "Club Night", "D18", "at least D12 SS" )
 		Lock( "Club Night", "D21", "Advanced Lv. 3 Title?" )
 		Lock( "Club Night", "CoOp(x2)", "get CoOp Intermediate title" )  // according to Seth Sanches at https://www.facebook.com/groups/1475683766036553/permalink/2303998833205038/
+
 		Lock( "Black Swan", "S12", "AM.Pass level 10" )
 		Lock( "Black Swan", "S14", "AM.Pass level 12" )
 		Lock( "Black Swan", "S16", "AM.Pass level 14" )
 		Lock( "Black Swan", "S19", "AM.Pass level 16" )
 		Lock( "Black Swan", "D15", "AM.Pass level 18" )
 		Lock( "Black Swan", "D22", "at least D15 SS" )
+
 		Lock( "Imagination", "S12", "AM.Pass level 20" )
 		Lock( "Imagination", "S15", "AM.Pass level 22" )
 		Lock( "Imagination", "S19", "AM.Pass level 24" )
 		Lock( "Imagination", "D16", "AM.Pass level 26" )
 		Lock( "Imagination", "D21", "AM.Pass level 28" )
+
 		Lock( "Kimchi Fingers", "S14", "AM.Pass level 30 / Prime 2 Global Top 1000 rank reward" )
 		Lock( "Kimchi Fingers", "S17", "AM.Pass level 32 / Prime 2 Global Top 1000 rank reward" )
 		Lock( "Kimchi Fingers", "S20", "AM.Pass level 34 / Prime 2 Global Top 1000 rank reward" )
 		Lock( "Kimchi Fingers", "D16", "AM.Pass level 36 / Prime 2 Global Top 1000 rank reward" )
 		Lock( "Kimchi Fingers", "D21", "AM.Pass level 38 / Prime 2 Global Top 1000 rank reward" )
+
 		Lock( "Loki", "S12", "AM.Pass level 40 / G-Plex Field Test participant reward" )
 		Lock( "Loki", "S16", "AM.Pass level 42 / G-Plex Field Test participant reward" )
 		Lock( "Loki", "S19", "AM.Pass level 44 / G-Plex Field Test participant reward" )
 		Lock( "Loki", "D12", "AM.Pass level 46 / G-Plex Field Test participant reward" )
 		Lock( "Loki", "D19", "AM.Pass level 48 / G-Plex Field Test participant reward" )
 		Lock( "Loki", "S21", "Clear 8 Mission Zone quests" )
+
 		Lock( "Nyarlathotep", "S18", "at least S16 A" )
 		Lock( "Nyarlathotep", "S23", "Advanced Lv. 8 Title" )
 		Lock( "Nyarlathotep", "D20", "Stage pass 30 times on S20 charts" )
 		Lock( "Nyarlathotep", "D23", "Stage pass 30 times on S23/D23 charts" )
 		Lock( "Nyarlathotep", "D25", "Expert Lv. 2 Title" )
+
 		Lock( "Nyarlathotep  [short]", "D24", "Expert Lv. 1 Title" )
-		Lock( "Can Can", "S20", "Stage pass 30 times on D20 charts" )
+
+		Lock( "Can Can", "S20", "Advanced Lv. 2 Title" )
 		Lock( "Can Can", "D22", "AM.Pass level 40" )
+
 		Lock( "Obliteration", "S17", "at least S14 A" )
 		Lock( "Obliteration", "D15", "at least D10 S" )
 		Lock( "Obliteration", "D19", "at least D15 S" )
+
 		Lock( "Skeptic", "S12", "AM.Pass level 50" )
 		Lock( "Skeptic", "S18", "AM.Pass level 55" )
 		Lock( "Skeptic", "S22", "AM.Pass level 60" )
@@ -601,12 +628,44 @@ function ApplyUnlocks()
 		Lock( "Skeptic", "D14", "AM.Pass level 70" )
 		Lock( "Skeptic", "D22", "AM.Pass level 75" )
 		Lock( "Skeptic", "D25", "AM.Pass level 80" )
+
 		Lock( "Dement ~After Legend~", "S23", "Advanced Lv. 10 Title" )
 		Lock( "Dement ~After Legend~", "D26", "Expert Lv. 3 Title" )
+
 		Lock( "Desaparecer", "S20", "AM.Pass level 100" )
 		Lock( "Desaparecer", "S22", "AM.Pass level 100" )
 		Lock( "Desaparecer", "D23", "AM.Pass level 100" )
+
 		Lock( "86", "S12, S16, S20, D18, D21", "Acquire SSS 86 times, same charts allowed" )
+
+	// 1.01
+		Lock( "Boong Boong (Feat. Sik-K) (Prod. GroovyRoom)", "S16", "at least A on Little Prince S16" )
+		Lock( "Boong Boong (Feat. Sik-K) (Prod. GroovyRoom)", "D??", "???" )
+		Lock( "Boong Boong (Feat. Sik-K) (Prod. GroovyRoom)", "D19", "at least A on Little Prince D19" )
+
+		Lock( "The Little Prince (Prod. Godic)", "S18", "at least A on Boong Boong S18" )
+		Lock( "The Little Prince (Prod. Godic)", "D16", "at least A on Boong Boong D16" )
+
+		Lock( "Timing", "S17", "at least S15 S" )
+		Lock( "Timing", "D18", "at least D16 S" )
+
+		Lock( "Ice of Death", "S20", "at least S17 S?" )
+		//Lock( "Ice of Death", "D??", "???" )
+
+		Lock( "Xeroize", "S21", "???" )
+		Lock( "Xeroize", "S24", "???" )
+		Lock( "Xeroize", "D22", "???" )
+		//Lock( "Xeroize", "D??", "???" )
+
+		Lock( "Nihilism -Another Ver.-", "S21", "???" )
+		Lock( "Nihilism -Another Ver.-", "D19", "???" )
+		Lock( "Nihilism -Another Ver.-", "D23", "???" )
+
+		Lock( "8 6  [FULL]", "S16", "Stage pass 86 S16 and D16?" )
+		Lock( "8 6  [FULL]", "S21", "Stage pass 86 S20?" )
+		Lock( "8 6  [FULL]", "D23", "Stage pass 86 D21?" )
+
+		Lock( "Jump", "D18", "Clear 16 mission zone quests" )
 }
 
 initFuncs.push( ApplyUnlocks );
