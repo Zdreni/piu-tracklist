@@ -60,14 +60,69 @@ var readableTracklist = {
 {
 	title: "", artist: "", channel: , bpm: "",
 	sortingID: "", // altID: "",
-	XX: "",
+	XX: "@1.01 ",
 },
-
 */
 
-// \16 - XX
 
-//*
+"16_The_Little_Prince":
+{
+	title: "The Little Prince (Prod. Godic)", artist: "HAON, PULLIK", channel: KPOP, bpm: "115",
+	sortingID: "", // altID: "",
+	XX: "@1.01 S4 S7 S9 S13 S16 D11 D14 D19 S??.lock D??.lock",
+},
+
+"16_Boong_Boong":
+{
+	title: "Boong Boong (Feat. Sik-K) (Prod. GroovyRoom)", artist: "HAON", channel: KPOP, bpm: "136",
+	sortingID: "", // altID: "",
+	XX: "@1.01 S1 S3 S5 S9 S11 S18 D16 S??.lock D??.lock D??.lock",
+},
+
+"16_Timing":
+{
+	title: "Timing", artist: "HIGHTEEN", channel: KPOP, bpm: "164",
+	sortingID: "", // altID: "",
+	XX: "@1.01 S2 S4 S7 S15 D11 D16 S??.lock D??.lock",
+},
+
+"16_Ice_of_Death":
+{
+	title: "Ice of Death", artist: "Fiverwater", channel: ORIGINAL, bpm: "172",
+	sortingID: "", // altID: "",
+	XX: "@1.01 S7 S10 S17 D11 D17 CoOp(x2) S??.lock D??.lock",
+},
+
+"16_Xeroize":
+{
+	title: "Xeroize", artist: "FE", channel: XROSS, bpm: "200",
+	sortingID: "", // altID: "",
+	XX: "@1.01 S12 S17 D18 S??.lock S??.lock D??.lock D??.lock",
+},
+
+"16_Nihilism":
+{
+	title: "Nihilism - Another Ver.-", artist: "Nato", channel: WORLD, bpm: "190",
+	sortingID: "", // altID: "",
+	XX: "@1.01 S8.lock S15.lock S18.lock D17.lock S??.lock D??.lock D??.lock",
+},
+
+"16_86_FULL":
+{
+	title: "8 6  [FULL]", artist: "DASU", channel: WORLD, bpm: "167",
+	sortingID: "", // altID: "",
+	XX: "@1.01 S??.lock S??.lock D??.lock",
+},
+
+"16_XX_Opening_SHORT":
+{
+	title: "XX Opening", artist: "MAX", channel: ORIGINAL, bpm: "175", duration: SHORT,
+	sortingID: "", // altID: "",
+	XX: "@1.01 S3 S6 S11 S16 D12 D17",
+},
+
+
+// \16 - XX
 
 "16_Fly_High":
 {
