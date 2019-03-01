@@ -152,7 +152,7 @@ var readableTracklist = {
 	title: "Boong Boong (Feat. Sik-K) (Prod. GroovyRoom)", artist: "HAON", channel: KPOP, bpm: "136",
 	shortTitle: "Boong Boong",
 	sortingID: "1612", // altID: "",
-	XX: "@1.01 S1 S3 S5 S9 S11 S16.lock S18 D??.lock D16 D19.lock",
+	XX: "@1.01 S1 S3 S5 S9 S11 S16.lock S18 D12.lock D16 D19.lock",
 },
 
 "16_BBoom_BBoom_FULL":
@@ -222,7 +222,7 @@ var readableTracklist = {
 {
 	title: "Ice of Death", artist: "Fiverwater", channel: ORIGINAL, bpm: "172",
 	sortingID: "1622", // altID: "",
-	XX: "@1.01 S7 S10 S17 S20.lock D11 D17 CoOp(x2) D??.lock",
+	XX: "@1.01 S7 S10 S17 S20.lock D11 D17 D21.lock CoOp(x2)",
 },
 
 "16_Poseidon":
@@ -253,25 +253,25 @@ var readableTracklist = {
 	XX: "S20.lock S22.lock D23.lock",
 },
 
-"16_XX_Opening":
-{
-	title: "XX Opening", artist: "MAX", channel: ORIGINAL, bpm: "175", duration: SHORT,
-	sortingID: "1627", // altID: "",
-	XX: "@1.01 S3 S6 S11 S16 D12 D17",
-},
-
 "16_Nyarlathotep_SHORT":
 {
 	title: "Nyarlathotep  [SHORT]", artist: "Nato", channel: ORIGINAL, bpm: "200",
-	sortingID: "1628", // altID: "",
+	sortingID: "1627", // altID: "",
 	XX: "S22 D24.lock",
 },
 
 "16_Wedding_Crashers_SHORT":
 {
 	title: "Wedding Crashers  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "165",
-	sortingID: "1629", // altID: "",
+	sortingID: "1628", // altID: "",
 	XX: "S18 D20",
+},
+
+"16_XX_Opening":
+{
+	title: "XX Opening", artist: "MAX", channel: ORIGINAL, bpm: "175", duration: SHORT,
+	sortingID: "1629", // altID: "",
+	XX: "@1.01 S3 S6 S11 S16 D12 D17",
 },
 
 "16_Club_Night":
@@ -281,19 +281,19 @@ var readableTracklist = {
 	XX: "S8 S16 S18.lock S22.lock D12.lock D18.lock D21.lock CoOp(x2).lock  @1.01 Dp5",
 },
 
+"16_86":
+{
+	title: "8 6", artist: "Dasu", channel: WORLD, bpm: "167",
+	sortingID: "1631", // altID: "",
+	XX: "S12.lock S16.lock S20.lock D18.lock D21.lock  @1.01 Dp3",
+},
+
 "16_Nihilism":
 {
 	title: "Nihilism - Another Ver.-", artist: "Nato", channel: WORLD, bpm: "190",
 	shortTitle: "Nihilism",
-	sortingID: "1631", // altID: "",
-	XX: "@1.01 S8 S15 S18 S21.lock D17 D19.lock D23.lock",
-},
-
-"16_86":
-{
-	title: "8 6", artist: "Dasu", channel: WORLD, bpm: "167",
 	sortingID: "1632", // altID: "",
-	XX: "S12.lock S16.lock S20.lock D18.lock D21.lock  @1.01 Dp3",
+	XX: "@1.01 S8 S15 S18 S21.lock D17 D19.lock D23.lock",
 },
 
 "16_86_FULL":

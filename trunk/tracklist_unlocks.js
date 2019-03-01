@@ -640,30 +640,30 @@ function ApplyUnlocks()
 
 	// 1.01
 		Lock( "Boong Boong (Feat. Sik-K) (Prod. GroovyRoom)", "S16", "at least A on Little Prince S16" )
-		Lock( "Boong Boong (Feat. Sik-K) (Prod. GroovyRoom)", "D??", "???" )
+		Lock( "Boong Boong (Feat. Sik-K) (Prod. GroovyRoom)", "D12", "at least SS on Little Prince D11" )
 		Lock( "Boong Boong (Feat. Sik-K) (Prod. GroovyRoom)", "D19", "at least A on Little Prince D19" )
 
 		Lock( "The Little Prince (Prod. Godic)", "S18", "at least A on Boong Boong S18" )
 		Lock( "The Little Prince (Prod. Godic)", "D16", "at least A on Boong Boong D16" )
 
-		Lock( "Timing", "S17", "at least S15 S" )
-		Lock( "Timing", "D18", "at least D16 S" )
+		Lock( "Timing", "S17", "at least S15 A" )
+		Lock( "Timing", "D18", "at least D16 A" )
 
-		Lock( "Ice of Death", "S20", "at least S17 S?" )
-		//Lock( "Ice of Death", "D??", "???" )
+		Lock( "Ice of Death", "S20", "at least S17 A" )
+		Lock( "Ice of Death", "D21", "at least D17 S" )
 
 		Lock( "Xeroize", "S21", "???" )
-		Lock( "Xeroize", "S24", "???" )
-		Lock( "Xeroize", "D22", "???" )
+		Lock( "Xeroize", "S24", "? play with someone who unlocked the song (or play random)" )
+		Lock( "Xeroize", "D22", "Advanced Lv. 7 Title" )
 		//Lock( "Xeroize", "D??", "???" )
 
 		Lock( "Nihilism -Another Ver.-", "S21", "???" )
 		Lock( "Nihilism -Another Ver.-", "D19", "???" )
 		Lock( "Nihilism -Another Ver.-", "D23", "???" )
 
-		Lock( "8 6  [FULL]", "S16", "Stage pass 86 S16 and D16?" )
-		Lock( "8 6  [FULL]", "S21", "Stage pass 86 S20?" )
-		Lock( "8 6  [FULL]", "D23", "Stage pass 86 D21?" )
+		Lock( "8 6  [FULL]", "S16", "Stage pass 86 S16 & Nakakapagpabagabag S15" )
+		Lock( "8 6  [FULL]", "S21", "Stage pass 86 S20 & Nakakapagpabagabag S19" )
+		Lock( "8 6  [FULL]", "D23", "Stage pass 86 D21 & Nakakapagpabagabag D20" )
 
 		Lock( "Jump", "D18", "Clear 16 mission zone quests" )
 }
