@@ -62,7 +62,7 @@ function AddNotes()
 
 	N( "Gargoyle", "S18", "Arrows stretch up to ~195 bpm at the end." )
 
-	N( "Nyarlathotep", ["S21", "D20"], "Unexpected blinking holds" )
+	N( "Nyarlathotep", ["S18", "S21", "D20"], "Unexpected blinking holds" )
 	// Hey U - jumps
 	N( "Feel My Happiness", "D21", "Lots of brackets." )
 	// Karyawisata S20 - slowdown
