@@ -1224,7 +1224,7 @@ var readableTracklist = {
 
 "15F6":
 {
-	title: "Kasou Shinja  [SHORT]", artist: "MAX", channel: XROSS, bpm: "170",
+	title: "Kasou Shinja  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "170",
 	altID: "15_Kasou Shinja_SHORT",
 	//XX__: "S20  D21",
 	XX: "=",
