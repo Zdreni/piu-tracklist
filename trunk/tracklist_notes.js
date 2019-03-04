@@ -22,6 +22,8 @@ var HAS_SOME_STOPS = "Some parts of chart are tricky stops.";
 
 function AddNotes()
 {
+	N( "Witch Doctor  [SHORT]", "S20", "Arrows accelerate a bit at the end." )
+
 	N( "Loki", ["S16", "S19", "S21", "D19"], "Excessive partial gimmicks.")
 	N( "Loki", "S21", "Series of long footswitches.")
 
