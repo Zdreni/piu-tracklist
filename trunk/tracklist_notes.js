@@ -55,8 +55,10 @@ function AddNotes()
 
 	N( "Nakakapagpabagabag", ["S18", "D19"], "Confusing holds with steps." )
 	N( "Nakakapagpabagabag", ["S18", "D19"], "Gimmicky, need 6.5x or av999." )
-	N( "86", ["S16", "S20", "D18", "D21"], "Confusing holds with steps." )
-	N( "86", ["S16", "S20", "D18", "D21"], "Gimmicky, need 6.5x or av999." )
+	N( "8 6", ["S16", "S20", "D18", "D21"], "Confusing holds with steps." )
+	N( "8 6", ["S16", "S20", "D18", "D21"], "Gimmicky, need 6.5x or av999." )
+	N( "8 6  [FULL]", ["S16", "S21", "D23"], "Confusing holds with steps." )
+	N( "8 6  [FULL]", ["S21", "D23"], "Gimmicky, need 6.5x or av999." )
 
 	N( "Shub Niggurath", "D17", "Central quad twists." )
 
@@ -73,8 +75,8 @@ function AddNotes()
 
 	N( "VVV", ["S18", "S23", "D16", "D19", "D24"], "Whole chart is slow, except of simple ending. Use 3-3.5x or av900+." )
 
-	N( "Destination  [SHORT]", "D18", "crab legs" ) //D20 - ебошащий стрим
-	N( "Pumptris (8Bit ver.)  [SHORT]", "D22", "crab legs" )
+	//N( "Destination  [SHORT]", "D18", "crab legs" ) //D20 - ебошащий стрим
+	//N( "Pumptris (8Bit ver.)  [SHORT]", "D22", "crab legs" )
 
 	N( "Twist of Fate (feat. Ruriling)", ["S18", "D20"], "Main part has EXTREME slowdown." )
 	//N( "The Festival of Ghost2 (Sneak)", [], "Lot of gimmicks" )
