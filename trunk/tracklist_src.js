@@ -328,7 +328,7 @@ var readableTracklist = {
 {
 	title: "Xeroize", artist: "FE", channel: XROSS, bpm: "200",
 	sortingID: "1637", // altID: "",
-	XX: "@1.01 S12 S17 S21.lock S24.lock D18 D22.lock D??.lock",
+	XX: "@1.01 S12 S17 S21.lock S24.lock D18 D22.lock D25.lock",
 },
 
 "16_Loki":
