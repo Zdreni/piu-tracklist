@@ -1549,7 +1549,7 @@ var readableTracklist = {
 {
 	title: "Robot Battle", artist: "CYO Style", channel: ORIGINAL, bpm: "198",
 	//XX__: "S9 S13 S18 S22  D13 D19 D24  Dp5",
-	XX: "= S13.12 S22.21 D13.12 D24.23",
+	XX: "= S9.8 S13.12 S22.21 D13.12 D24.23",
 	Prime2: "=",
 	Prime: "S8 S12 S21 D12 D23  @1.15 Dp5  @1.17 S18.ucs D19.ucs",
 },

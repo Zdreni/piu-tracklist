@@ -35,7 +35,7 @@ var checkXX = {
 "16_Loki": "S12 S16 S19 S21 D12 D19",
 "16_Dement_After_Legend": "S23 D26",
 
-"15_Gargoyle_Full": "S20 S21 S23  D22 D25  Co-op x2",
+"15_Gargoyle_Full": "S20 S21 S23  D22 D25  CoOp(x2)",
 "1501": "S3 S5 S8 S13 S15  D7 D14 D16 D18  Dp3",
 "1502": "S4 S7 S11 S16 S19  D11 D19",
 "1503": "S7 S11 S15 S18  D9 D19 D23  Dp4",
@@ -49,7 +49,7 @@ var checkXX = {
 "1512": "S7 S12 S17 S19  D8 D19  Dp5",
 "1513": "S4 S8 S12 S16 S19  D12 D18 D20",
 "1516": "S2 S4 S7 S12 S16 S19 S20  D11 D18 D21 D24  Dp4",
-"1517": "S4 S7 S9 S16 S18 S20  D12 D19 D23  Dp3  Co-op x2",
+"1517": "S4 S7 S9 S16 S18 S20  D12 D19 D23  Dp3  CoOp(x2)",
 "1518": "S5 S9 S15 S18  D7 D14 D19  Dp3",
 "1524": "S8 S12 S16 S19  D10 D20",
 "1525": "S4 S9 S16 S20  D10 D17 D20  Dp2",
@@ -64,17 +64,17 @@ var checkXX = {
 "1540": "S4 S7 S15 S17 S19  D13 D18 D20",
 "1541": "S7 S10 S14 S16 S19  D9 D13 D17 D20",
 "1542": "S15 S18 S21 S24  D19 D22",
-"1543": "S8 S11 S14 S17 S19  D12 D18 D20  Co-op x2",
-"1547": "S3 S5 S9 S15 S17 S20  D11 D18 D23  Dp3  Co-Op x2",
+"1543": "S8 S11 S14 S17 S19  D12 D18 D20  CoOp(x2)",
+"1547": "S3 S5 S9 S15 S17 S20  D11 D18 D23  Dp3  CoOp(x2)",
 "1554": "S3 S5 S9 S17 S20 S23  D5 D19 D22 D24  Dp3",
 "1559": "S2 S4 S6 S9 S13 S16  D6 D14 D16 D19",
 "1560": "S2 S3 S5 S9 S14  D5 D12 D18",
 "1561": "S2 S4 S6 S15 S17  D5 D16 D18",
 "1562": "S2 S4 S7 S13 S15  D7 D16",
-"1564": "S3 S7 S11 S14 S17  D4 D15 D19  Dp4  Co-op x2",
+"1564": "S3 S7 S11 S14 S17  D4 D15 D19  Dp4  CoOp(x2)",
 "1575": "S7 S13 S17  D12 D18 D20  Dp2",
 "1576": "S5 S13 S16  D9 D18  Dp5",
-"1577": "S10 S15 S19  D16 D20  Dp4  Co-op x2",
+"1577": "S10 S15 S19  D16 D20  Dp4  CoOp(x2)",
 "1578": "S7 S11 S16 S18  D9 D18 D20  Dp3",
 "1584": "S3 S5 S8 S14  D6 D15",
 "1593": "S6 S9 S14 S17  D9 D18 D21 D24",
@@ -88,13 +88,13 @@ var checkXX = {
 "15A3": "S8 S15 S18  D10 D16 D20  Dp3",
 "15A4": "S6 S11 S16 S18  D7 D13 D18  Dp3",
 "15A5": "S5 S8 S16 S18  D10 D19",
-"15A6": "S3 S6 S11 S14 S17 S19  D7 D17 D21  Dp3  Co-op x2",
+"15A6": "S3 S6 S11 S14 S17 S19  D7 D17 D21  Dp3  CoOp(x2)",
 "15A7": "S7 S9 S11 S17  D9 D12 D17  Dp4",
-"15A8": "S3 S5 S8 S14  D9 D15  Dp4  Co-op x2",
+"15A8": "S3 S5 S8 S14  D9 D15  Dp4  CoOp(x2)",
 "15A9": "S6 S12 S15 S18 S21  D12 D17 D20 D21  Dp3",
-"15B0": "S4 S6 S11 S14 S17 S19  D8 D18 D22  Dp3  Co-op x2",
+"15B0": "S4 S6 S11 S14 S17 S19  D8 D18 D22  Dp3  CoOp(x2)",
 "15B1": "S7 S12 S16 S18 S20  D9 D18 D20  Dp6",
-"15B2": "S10 S15 S18 S21  D10 D19 D23  Co-op x2",
+"15B2": "S10 S15 S18 S21  D10 D19 D23  CoOp(x2)",
 "15B3": "S7 S11 S18 S20  D12 D21",
 "15B5": "S8 S15 S18 S22  D13 D20 D24  Dp4",
 "15B6": "S8 S11 S16 S19  D12 D19 D24",
@@ -116,14 +116,14 @@ var checkXX = {
 "15F5": "S16 S20  D21",
 "15F6": "S20  D21",
 
-"1401": "S4 S7 S11 S16 S18  D12 D20  Dp4  Co-op x2",
+"1401": "S4 S7 S11 S16 S18  D12 D20  Dp4  CoOp(x2)",
 "1402": "S7 S10 S14 S18  D12 D15 D19  Dp4",
-"1403": "S3 S7 S9 S17  D12 D19  Dp3  Co-op x2",
+"1403": "S3 S7 S9 S17  D12 D19  Dp3  CoOp(x2)",
 "1404": "S4 S8 S14  D10 D15  Dp2",
-"1405": "S9 S16 S17 S21 S23  D18 D24 D25  Dp5  Co-op x3",
+"1405": "S9 S16 S17 S21 S23  D18 D24 D25  Dp5  CoOp(x3)",
 "1406": "S4 S7 S10 S18  D12 D20  Dp4",
 "1407": "S4 S7 S10 S16 S18  D10 D16 D19  Dp3",
-"1408": "S4 S6 S9 S16 S19 S22  D11 D19 D20 D25  Dp3  Co-op x3",
+"1408": "S4 S6 S9 S16 S19 S22  D11 D19 D20 D25  Dp3  CoOp(x3)",
 "1409": "S7 S12 S17 S19  D12 D20  Dp3",
 "1410": "S4 S7 S11 S16 S19  D9 D18 D23  Dp4",
 "1411": "S4 S6 S9 S17 S18  D5 D18  Dp4",
@@ -133,21 +133,21 @@ var checkXX = {
 "1415": "S4 S7 S10 S19  D11 D20  Dp3",
 "1416": "S7 S11 S18  D12 D20  Dp4",
 "1417": "S10 S15 S17 S21  D12 D18 D22  Dp3",
-"1418": "S3 S6 S15  D5 D16  Dp3  Co-op x2",
-"1419": "S4 S7 S10 S14 S16 S19  D11 D18 D22  Dp2  Co-op x2",
+"1418": "S3 S6 S15  D5 D16  Dp3  CoOp(x2)",
+"1419": "S4 S7 S10 S14 S16 S19  D11 D18 D22  Dp2  CoOp(x2)",
 "1420": "S4 S6 S8 S13 S17  D10 D14 D18  Dp4",
-"1421": "S4 S7 S9 S18  D12 D20 D22  Dp4 Dp20  Co-op x2",
+"1421": "S4 S7 S9 S18  D12 D20 D22  Dp4 Dp20  CoOp(x2)",
 "1422": "S9 S13 S18 S22  D12 D19 D24  Dp4",
 "1423": "S2 S8 S17  D4 D18  Dp3",
 "1424": "S16 S20 S23 S25  D22 D25 D27  Dp3",
-"1425": "S1 S3 S6 S10 S14 S18 S19  D7 D11 D16 D20  Dp5  Co-op x2",
+"1425": "S1 S3 S6 S10 S14 S18 S19  D7 D11 D16 D20  Dp5  CoOp(x2)",
 "1426": "S4 S6 S10 S17 S19  D12 D19  Dp4",
 "1427": "S7 S10 S15 S19 S23  D13 D20 D24  Dp4",
 "1428": "S3 S5 S8 S12 S17 S20  D10 D18  Dp3",
 "1429": "S7 S10 S16  D11 D13 D18 D22  Dp3",
 "1430": "S3 S5 S8 S15 S19  D10 D16 D20  Dp3",
 "1431": "S9 S16 S20  D11 D17 D22  Dp4",
-"1433": "S7 S11 S16 S19  D13 D18 D21  Dp4  Co-op x2",
+"1433": "S7 S11 S16 S19  D13 D18 D21  Dp4  CoOp(x2)",
 "1434": "S6 S10 S16  D10 D16  Dp5",
 "1435": "S1 S3 S6 S14  D6 D15  Dp4",
 "1436": "S9 S13 S18 S22  D13 D19 D24  Dp5",
@@ -163,8 +163,8 @@ var checkXX = {
 "1464": "S4 S7 S10 S15 S16 S20  D7 D16  Dp4",
 "1465": "S10 S14 S17 S22  D15 D23  Dp4",
 "1472": "S4 S9 S16 S18  D5 D13 D16 D19 D23  Dp3",
-"1473": "S3 S6 S10 S15 S18  D10 D17 D19  Dp3  Co-op x2",
-"1474": "S3 S6 S10 S15 S17 S18  D9 D16 D18  Dp5  Co-op x2",
+"1473": "S3 S6 S10 S15 S18  D10 D17 D19  Dp3  CoOp(x2)",
+"1474": "S3 S6 S10 S15 S17 S18  D9 D16 D18  Dp5  CoOp(x2)",
 "1475": "S1 S3 S6 S11 S14  D5 D10 D15  Dp3",
 "1476": "S3 S5 S9 S15  D5 D16  Sp3  Dp4",
 "1477": "S4 S7 S11 S17 S21  D13 D16 D21 D24  Dp4",
@@ -173,27 +173,27 @@ var checkXX = {
 "1480": "S4 S7 S11 S16 S19  D8 D17 D19  Dp5",
 "1481": "S1 S3 S5 S9 S13 S15 S17 S19  D10 D18 D20  Dp2",
 "1482": "S4 S7 S12 S18 S21  D11 D18 D23  Dp5",
-"1483": "S3 S8 S12 S15 S18  D11 D16 D20  Dp4  Co-op x2",
-"1484": "S1 S4 S6 S10 S14 S17 S20  D10 D15 D18 D22  Dp2  Co-op x2",
+"1483": "S3 S8 S12 S15 S18  D11 D16 D20  Dp4  CoOp(x2)",
+"1484": "S1 S4 S6 S10 S14 S17 S20  D10 D15 D18 D22  Dp2  CoOp(x2)",
 "1485": "S1 S3 S6 S9 S13 S16  D8 D15 D18  Dp4",
-"1486": "S1 S3 S5 S9 S13 S16 S18  D8 D14 D19  Dp3  Co-op x2",
-"1487": "S1 S3 S5 S10 S15 S20  D11 D16 D24  Dp4  Co-op x2",
-"1488": "S3 S6 S12 S17 S19  D4 D13 D18 D20  Dp4  Co-op x3",
+"1486": "S1 S3 S5 S9 S13 S16 S18  D8 D14 D19  Dp3  CoOp(x2)",
+"1487": "S1 S3 S5 S10 S15 S20  D11 D16 D24  Dp4  CoOp(x2)",
+"1488": "S3 S6 S12 S17 S19  D4 D13 D18 D20  Dp4  CoOp(x3)",
 "1489": "S3 S6 S10 S15 S19  D10 D16 D21  Dp5",
 "1490": "S4 S7 S11 S16 S18 S21  D12 D16 D18 D20  Dp3",
-"1491": "S2 S4 S6 S10 S13 S17 S19  D11 D18 D23  Dp4  Co-op x3",
+"1491": "S2 S4 S6 S10 S13 S17 S19  D11 D18 D23  Dp4  CoOp(x3)",
 "1492": "S4 S7 S11 S15 S18  D12 D16 D19  Dp3",
 "1493": "S2 S4 S7 S11 S16 S18  D10 D18",
 "1494": "S4 S7 S10 S16 S21  D12 D18 D22 D25  Dp2",
 "1497": "S7 S14 S16  D5 D12 D17",
 "1498": "S6 S10 S15 S17  D10 D15 D19  Dp4",
-"1499": "S6 S10 S14 S18  D11 D19  Dp2  Co-op x2",
+"1499": "S6 S10 S14 S18  D11 D19  Dp2  CoOp(x2)",
 "14A0": "S18 S21  D20",
 "14A1": "S20 S23  D25",
 "14A2": "S21 S23 S26  D25 D28",
 "14C3": "S17 S18  D19",
 "14C5": "S14 S19  D15 D19",
-"14C6": "S10 S14 S17  D11 D18 D22  Co-op x4",
+"14C6": "S10 S14 S17  D11 D18 D22  CoOp(x4)",
 "14C7": "S18 S22  D19 D24",
 "14E0": "S19  D17",
 "14E1": "S13 S18 S21  D16 D21",
@@ -201,25 +201,25 @@ var checkXX = {
 "14E3": "S17  D18",
 "14E4": "S15 S18  D20",
 "14E5": "S17  D18",
-"14E6": "S15  D15  Co-op x5",
+"14E6": "S15  D15  CoOp(x5)",
 "14E7": "S16  D17",
 
-"1301": "S2 S7 S9 S16 S18  D9 D18 D20  Co-op x2",
+"1301": "S2 S7 S9 S16 S18  D9 D18 D20  CoOp(x2)",
 "1303": "S4 S7 S11 S17 S19  D13 D18 D22 D23",
 "1304": "S5 S9 S17  D11 D18 D20",
-"1305": "S4 S7 S10 S16 S18 S21  D12 D17 D23  Co-op x2",
-"1306": "S10 S15 S19 S22  D17 D18 D23 D25  Co-op x2",
-"1307": "S6 S13 S17 S20 S21  D11 D16 D20 D23  Co-op x2",
+"1305": "S4 S7 S10 S16 S18 S21  D12 D17 D23  CoOp(x2)",
+"1306": "S10 S15 S19 S22  D17 D18 D23 D25  CoOp(x2)",
+"1307": "S6 S13 S17 S20 S21  D11 D16 D20 D23  CoOp(x2)",
 "1308": "S11 S13 S17 S20  D14 D15 D19",
-"1309": "S11 S18 S22  D13 D22 D24  Co-op x3",
+"1309": "S11 S18 S22  D13 D22 D24  CoOp(x3)",
 "1310": "S3 S6 S10 S14 S16  D12 D16 D18",
 "1311": "S4 S7 S11 S18  D11 D20",
 "1312": "S4 S7 S10 S18  D12 D18 D20",
 "1313": "S3 S6 S8 S17 S18  D4 D17  Dp3",
-"1314": "S4 S7 S11 S16 S19  D11 D20 D23  Co-op x2",
+"1314": "S4 S7 S11 S16 S19  D11 D20 D23  CoOp(x2)",
 "1338": "S4 S7 S10 S18 S20  D10 D19",
 "1339": "S8 S13 S17 S21  D14 D18 D23",
-"1340": "S4 S6 S9 S14 S17  D9 D17  Co-op x2",
+"1340": "S4 S6 S9 S14 S17  D9 D17  CoOp(x2)",
 "1341": "S1 S3 S5 S8 S13  D7 D10",
 "1390": "S13 S16 S21  D13 D19 D22 D24",
 "13A2": "S20  D19",
@@ -232,27 +232,27 @@ var checkXX = {
 "13E5": "S17  D17",
 
 "1201": "S3 S5 S9 S15  D14 D17 D22",
-"1209": "S1 S3 S5 S13  D13  Co-op x2",
+"1209": "S1 S3 S5 S13  D13  CoOp(x2)",
 "1212": "S4 S7 S11 S21  D15 D22",
-"1219": "S3 S6 S9 S17  D10 D17  Co-op x4",
+"1219": "S3 S6 S9 S17  D10 D17  CoOp(x4)",
 "1228": "S19 S21  D22 D23",
 "1235": "S4 S7 S9 S17  D9 D18",
-"1236": "S3 S5 S9 S14  D12 D17 Co-op x2",
+"1236": "S3 S5 S9 S14  D12 D17 CoOp(x2)",
 "1240": "S18 S23  D17 D19",
 "1241": "S3 S5 S12 S15 S19  D15 D21 D23",
 
 "1101": "S4 S7 S12 S17 S21 S23  D20 D25 D26",
 "1102": "S11 S18  D12 D18 D22  Sp2  Dp3",
 "1103": "S3 S6 S8 S15 S17  D4 D15  Sp4  Dp2",
-"1104": "S4 S7 S11 S17 S20  D13 D19 D22 D23  Co-op x3",
+"1104": "S4 S7 S11 S17 S20  D13 D19 D22 D23  CoOp(x3)",
 "1105": "S3 S6 S8 S13 S16  D7 D17  Sp2  Dp3",
-"1106": "S4 S7 S10 S16 S18 S20  D12 D18 D19  Sp2  Dp3  Co-op x2",
-"1107": "S1 S5 S8 S17 S20  D4 D18  Sp2  Dp3  Co-op x3",
+"1106": "S4 S7 S10 S16 S18 S20  D12 D18 D19  Sp2  Dp3  CoOp(x2)",
+"1107": "S1 S5 S8 S17 S20  D4 D18  Sp2  Dp3  CoOp(x3)",
 "1120": "S3 S7 S12 S17 S21  D20 D23",
 "1121": "S4 S7 S9 S18 S22  D12 D20 D23  Sp2",
 "1122": "S4 S7 S10 S17 S22  D9 D18 D23  Sp1  Dp6",
 "1123": "S4 S6 S8 S17 S18  D9 D17  Sp2",
-"1124": "S4 S6 S9 S12 S19  D14 D20  Co-op x2",
+"1124": "S4 S6 S9 S12 S19  D14 D20  CoOp(x2)",
 "1125": "S3 S6 S9 S17  D11 D20  Sp2  Dp6",
 "1126": "S3 S5 S9 S17 S20  D10 D18  Sp2  Dp3",
 "1127": "S4 S6 S9 S16  D12 D17  Sp1  Dp3",
@@ -271,7 +271,7 @@ var checkXX = {
 "1160": "S8 S16  D10 D15",
 
 "1001": "S2 S7 S12 S20  D15 D19 D22  Sp2  Dp3",
-"1002": "S4 S6 S8 S10 S17 S18 S21 S23  D8 D17 D24  Co-op x2",
+"1002": "S4 S6 S8 S10 S17 S18 S21 S23  D8 D17 D24  CoOp(x2)",
 "1003": "S4 S6 S10  D15  Sp3  Dp3",
 "1008": "S2 S7 S8 S17 S19 S20  D18  Sp2  Dp4",
 "1013": "S4 S7 S12 S17 S19 S20  D14 D20  Dp5",
@@ -308,7 +308,7 @@ var checkXX = {
 "1062": "S14 S21 S23  D19",
 "1063": "S8 S16  D22",
 "1064": "S9 S15  D19 D20",
-"1094": "S2 S4 S7 S17  D9 D19  Co-op x2",
+"1094": "S2 S4 S7 S17  D9 D19  CoOp(x2)",
 "1095": "S14 S19 S21  D15 D22",
 
 "F01": "S2 S3 S6 S7 S9 S16 S17  D10 D17 D18",
@@ -334,7 +334,7 @@ var checkXX = {
 "E05": "S4 S8 S17  D7 D19",
 "E12": "S4 S7 S11 S12 S16 S19 S20  D14 D21 D23",
 "E13": "S3 S7 S12 S18 S19  D15 D20 D22  Sp10  Dp2",
-"FE13B": "S3 S5 S8 S16 S17  Sp15  Co-op x2",
+"FE13B": "S3 S5 S8 S16 S17  Sp15  CoOp(x2)",
 "E23": "S3 S7 S13 S20  D10 D13 D19",
 "E24": "S2 S6 S9 S14 S16  D8 D15  Sp1",
 "E25": "S7 S15  D15  Sp2  Dp6",
@@ -344,7 +344,7 @@ var checkXX = {
 
 "D01": "S2 S5 S8 S9 S16 S17 S19  D17 D20 D21  Sp3  Dp7",
 "D02": "S2 S4 S5 S8 S15 S17  D7 D18 D20",
-"D03": "S4 S9 S12 S18 S19 S23  D16 D26  Co-op x2",
+"D03": "S4 S9 S12 S18 S19 S23  D16 D26  CoOp(x2)",
 "D14": "S3 S9 S12 S15  D13 Dp5",
 "D15": "S4 S6 S15  D19  Dp8",
 "D16": "S5 S9 S17 S20  D9 D18 D24",
@@ -366,12 +366,12 @@ var checkXX = {
 "C06": "S4 S6 S8 S16  D7 D18",
 "C07": "S4 S7 S13",
 "C41": "S15 S21  D16 D23",
-"C1C04": "S16 S17  Co-op x2",
+"C1C04": "S16 S17  CoOp(x2)",
 
 "B16": "S3 S5 S7 S8 S15  D17  Dp5",
 "B17": "S3 S5 S8 S16 S19  D8 D19 D20",
 "B18": "S4 S8 S9 S17  D19 D21  Sp3  Dp6",
-"B19": "S3 S7 S10 S17 S20 S21  D12 D17 D23  Co-op x2",
+"B19": "S3 S7 S10 S17 S20 S21  D12 D17 D23  CoOp(x2)",
 "B28": "S13 S19  D15 D22",
 "B29": "S13 S19  D14 D20",
 "B56": "S6 S7  D20  Dp6",
@@ -398,7 +398,7 @@ var checkXX = {
 "701": "S3 S6 S8 S9 S12 S16  D11 D18",
 "702": "S2 S5 S8 S12 S16  D17  Sp3  Dp3",
 "703": "S4 S6 S12  D9 D22",
-"704": "S3 S7 S10 S17 S19  D6 D17 D21  Co-op x2",
+"704": "S3 S7 S10 S17 S19  D6 D17 D21  CoOp(x2)",
 "705": "S6 S11 S15 S18  D15 D20",
 "706": "S5 S7 S13 S19  D8",
 "707": "S3 S5 S8 S14  D15 D18  Sp2  Dp4 Dp6",
@@ -418,12 +418,12 @@ var checkXX = {
 
 "501": "S4 S15  D17  Sp2  Dp4",
 "502": "S5 S16  D16  Sp2  Dp5",
-"503": "S3 S5 S8 S12  D5 D13 D16  Co-Op x2",
+"503": "S3 S5 S8 S12  D5 D13 D16  CoOp(x2)",
 "504": "S3 S6 S9  D7",
 "505": "S4 S6 S7 S11 S16 S17  D11 D18 D21  Dp3",
 "516": "S3 S6 S9 S18 S19  D6 D21 D23",
 
-"401": "S8 S13  D7  Co-op x2",
+"401": "S8 S13  D7  CoOp(x2)",
 "402": "S4 S10  D14  Sp1  Dp4",
 "403": "S1 S5 S8 S13 S16  D11 D13 D17  Sp2",
 "404": "S2 S4 S6 S8 S9 S17 S18  D10 D16  Sp3  Dp5",
@@ -431,7 +431,7 @@ var checkXX = {
 
 "301": "S4 S7 S9 S10 S17  D11 D18 D20  Dp3",
 "302": "S4 S7 S8 S10 S16 S20  D7 D15",
-"303": "S3 S7 S12 S16 S18  D9 D17 D20  Co-op x2",
+"303": "S3 S7 S12 S16 S18  D9 D17 D20  CoOp(x2)",
 "304": "S5 S12  D14",
 "305": "S6 S13",
 "306": "S2 S4  D13  Dp5",
@@ -449,9 +449,67 @@ var checkXX = {
 };
 
 
-function checkXXTracklist()
+function GetTracklistChartTexts( id )
 {
+	if( ! tracklist[ id ].XX )
+		return [];
+
+	return tracklist[ id ].XX.filter( ch => ! ch.fromPatchIndex ).map( ch => ch.text.replace( "Dp??", "CoOp" ) ).sort();
+/*
+	var result = [];
+	for( var chart in tracklist[ id ].XX )
+		result.push( chart.text );
+	return result;
+*/
 }
 
 
-initFuncs.push( CheckXXTracklist );
+function GetCheckChartTexts( id )
+{
+	if( ! checkXX[ id ])
+		return [];
+
+	return checkXX[ id ].split( ' ' ).filter( ch => ch !== "" ).sort();
+}
+
+
+function CheckXXInitialTracklist()
+{
+	var exceptions = [];
+	for( var trackID in tracklist )
+	{
+		try
+		{
+/*
+			var keyInCheck = Object.keys( checkXX ).indexOf( trackID ) >= 0;
+			var keyInTracklist = Object.keys( tracklist[ trackID ] ).indexOf( "XX" ) >= 0;
+			if( keyInCheck &&  ! keyInTracklist )
+*/
+			var src = GetTracklistChartTexts( trackID );
+			var dst = GetCheckChartTexts( trackID );
+			let difference = src.filter( x => ! dst.includes( x ) )
+				.concat( dst.filter( x => ! src.includes( x ) ) );
+
+			if( difference.length > 0 )
+				throw "XX check:  content mismatch for '" + trackID + "':  difference = " + difference;
+			// if xx has no charts in that track - verify testmap hasn't charts with this ID
+			// otherwise:
+				// get testmap item by ID
+				// split charts
+				// sort by names
+				// get XX chart texts for track
+				// sort by names
+				// compare two arrays
+		}
+		catch( exc )
+		{
+			exceptions.push( exc );
+		}
+	}
+
+	if( exceptions.length > 0 )
+		throw exceptions.join( '<br>\n' );
+}
+
+
+initFuncs.push( CheckXXInitialTracklist );
