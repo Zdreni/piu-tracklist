@@ -449,27 +449,28 @@ var checkXX = {
 };
 
 
-function GetTracklistChartTexts( id )
+function GetTracklistChartTexts( trackID )
 {
-	if( ! tracklist[ id ].XX )
+	if( ! tracklist[ trackID ].XX )
 		return [];
 
-	return tracklist[ id ].XX.filter( ch => ! ch.fromPatchIndex ).map( ch => ch.text.replace( "Dp??", "CoOp" ) ).sort();
-/*
-	var result = [];
-	for( var chart in tracklist[ id ].XX )
-		result.push( chart.text );
-	return result;
-*/
+	return tracklist[ trackID ].XX.filter( ch => ! ch.fromPatchIndex ).map( ch => ch.text.replace( "Dp??", "CoOp" ) ).sort();
 }
 
 
-function GetCheckChartTexts( id )
+function GetCheckChartTexts( trackID )
 {
-	if( ! checkXX[ id ])
+	if( ! checkXX[ trackID ])
 		return [];
 
-	return checkXX[ id ].split( ' ' ).filter( ch => ch !== "" ).sort();
+	return checkXX[ trackID ].split( ' ' ).filter( ch => ch !== "" ).sort();
+}
+
+function GetCheckChartsDifference( trackID )
+{
+	var src = GetTracklistChartTexts( trackID );
+	var dst = GetCheckChartTexts( trackID );
+	return src.filter( x => ! dst.includes( x ) ).concat( dst.filter( x => ! src.includes( x ) ) );
 }
 
 
@@ -480,26 +481,9 @@ function CheckXXInitialTracklist()
 	{
 		try
 		{
-/*
-			var keyInCheck = Object.keys( checkXX ).indexOf( trackID ) >= 0;
-			var keyInTracklist = Object.keys( tracklist[ trackID ] ).indexOf( "XX" ) >= 0;
-			if( keyInCheck &&  ! keyInTracklist )
-*/
-			var src = GetTracklistChartTexts( trackID );
-			var dst = GetCheckChartTexts( trackID );
-			let difference = src.filter( x => ! dst.includes( x ) )
-				.concat( dst.filter( x => ! src.includes( x ) ) );
-
+			let difference = GetCheckChartsDifference( trackID )
 			if( difference.length > 0 )
 				throw "XX check:  content mismatch for '" + trackID + "':  difference = " + difference;
-			// if xx has no charts in that track - verify testmap hasn't charts with this ID
-			// otherwise:
-				// get testmap item by ID
-				// split charts
-				// sort by names
-				// get XX chart texts for track
-				// sort by names
-				// compare two arrays
 		}
 		catch( exc )
 		{
