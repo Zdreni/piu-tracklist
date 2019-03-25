@@ -236,7 +236,7 @@ function FindTrack( tracklist, title )
 }
 
 
-function FindChartSharedNew( track, chartTag, chartlevelText )
+function FindChartSharedNew( track, chartTag, chartLevelText )
 {
 	if( ["S", "Sp", "D", "Dp"].indexOf( chartTag ) < 0 )
 		throw "Unknown chartTag '" + chartTag + "'";
@@ -245,7 +245,7 @@ function FindChartSharedNew( track, chartTag, chartlevelText )
 	{
 		if( mixes[ mixID ].style === "new"  &&  track[ mixID ] )
 		{
-			var chart = _.findWhere( track[ mixID ], { tag: chartTag, levelText: chartlevelText, } );
+			var chart = _.findWhere( track[ mixID ], { tag: chartTag, levelText: chartLevelText, } );
 			if( chart )
 			{
 				console.assert( chart.shared );
