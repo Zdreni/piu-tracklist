@@ -325,7 +325,7 @@ function ApplyUnlocks()
 	}
 
 
-	On( "Prime2" )
+	On( "Prime2", "..@2.05.1" )
 	// 1.04
 		//Lock( "Good Night", "S20, S23, D22, D24", PIUGAME )
 			Prime2_Lock( "Good Night", "S20", "1,800", "S17", "S" )
