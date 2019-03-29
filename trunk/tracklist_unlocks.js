@@ -655,7 +655,7 @@ function ApplyUnlocks()
 		Lock( "Xeroize", "S21", "randomize it or play with someone" )
 		Lock( "Xeroize", "S24", "randomize it or play with someone" )
 		Lock( "Xeroize", "D22", "Advanced Lv. 7 Title" )
-		Lock( "Xeroize", "D25", "???" )
+		Lock( "Xeroize", "D25", "randomize it" )
 
 		Lock( "Nihilism -Another Ver.-", "S21", "at least Love is a Danger Zone 2 Another S16 A" )
 		Lock( "Nihilism -Another Ver.-", "D19", "at least Love is a Danger Zone 2 Another S17 A" )
