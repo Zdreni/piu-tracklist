@@ -2635,6 +2635,9 @@ var readableTracklist = {
 "13A2":
 {
 	title: "Infinity RMX", artist: "SynthWulf & MAX", channel: ORIGINAL, bpm: "175", duration: REMIX,
+	changes: {
+		"XX": { channel: WORLD }
+	},
 	//XX__: "S20  D19",
 	XX: "= D19.20",
 	Prime2: "=",
