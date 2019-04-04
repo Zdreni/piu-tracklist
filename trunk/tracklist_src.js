@@ -830,7 +830,7 @@ var readableTracklist = {
 	title: "HUSH", artist: "Yassi Pressman & Nadine Lustre", channel: WORLD, bpm: "82",
 	region: PHILIPPINES,
 	changes: {
-		XX: { region: "" }
+		"XX": { region: "" }
 	},
 	altID: "15_Hush",
 	//XX__: "S3 S5 S8 S14  D6 D15",
@@ -3561,7 +3561,11 @@ var readableTracklist = {
 
 "1015":
 {
-	title: "Fire", artist: "2NE1", bpm: "126",
+	title: "Fire", artist: "2NE1", bpm: "126", banner: "1015-Fiesta",
+	changes:
+	{
+		"Fiesta2": { banner: "1015" },
+	},
 	Fiesta2: "=",
 	FiestaEX: "=  @1.51 D14",
 	Fiesta: "S3 S5 S8 S15 D4 D11 Sp3 Dp4  @1.05 S16",
@@ -3875,7 +3879,11 @@ var readableTracklist = {
 
 "1045":
 {
-	title: "Fire  [FULL]", artist: "2NE1", bpm: "126",
+	title: "Fire  [FULL]", artist: "2NE1", bpm: "126", banner: "1045-Fiesta",
+	changes:
+	{
+		"Fiesta2": { banner: "1045" },
+	},
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S14",
