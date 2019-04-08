@@ -15,6 +15,8 @@ function N( trackName, chartDescrs, note )
 	}
 }
 
+var W = N
+var CR = N
 
 var BUILT_WITH_STOPS = "Whole chart is tricky stops.";
 var HAS_SOME_STOPS = "Some parts of chart are tricky stops.";
@@ -22,65 +24,70 @@ var HAS_SOME_STOPS = "Some parts of chart are tricky stops.";
 
 function AddNotes()
 {
-	N( "A Site De La Rue", ["S17", "S20", "D20", "D24"], "Arrows are blinking sometimes." )
+	W( "Bboom Bboom  [FULL]", "S17", "Some series of jumps are compressed to one step (on repeated voice samples).")
+	W( "Bboom Bboom  [FULL]", "D18", "Arrows are jumping up sometimes.")
 
-	N( "Witch Doctor  [SHORT]", "S20", "Arrows accelerate a bit at the end." )
+	W( "A Site De La Rue", ["S17", "S20", "D20", "D24"], "Arrows are blinking sometimes." )
 
-	N( "Loki", ["S16", "S19", "S21", "D19"], "Excessive partial gimmicks.")
-	N( "Loki", "S21", "Series of long footswitches.")
+	W( "Cleaner  [SHORT]", "S21", "Random triple jump at the end, twice.")
 
-	N( "Love Scenario", "S17", BUILT_WITH_STOPS )
-	N( "Uprock", "CZ", BUILT_WITH_STOPS )
-	N( "Everybody Got 2 Know", "S19", BUILT_WITH_STOPS )
+	W( "Witch Doctor  [SHORT]", "S20", "Arrows accelerate a bit at the end." )
 
-	N( "Come to Me @ 826", "S13.XX", "Ends with all arrows jump." )
-	N( "Come to Me @ 826", "S17.XX", BUILT_WITH_STOPS )
-	N( "Come to Me @ 826", "S17.XX", "Ends with all arrows jump." )
+	CR( "Loki", ["S16", "S19", "S21", "D19"], "Excessive partial gimmicks.")
+	CR( "Loki", "S21", "Series of long footswitches.")
 
-	N( "Tek -Club Copenhagen-", ["S16", "S17"], HAS_SOME_STOPS )
-	N( "Bad Apple!! feat. Nomico", "S15", HAS_SOME_STOPS )
-	N( "Miss's Story", "S18", "Small part with tricky stops." )
+	CR( "Love Scenario", "S17", BUILT_WITH_STOPS )
+	CR( "Uprock", "CZ", BUILT_WITH_STOPS )
+	CR( "Everybody Got 2 Know", "S19", BUILT_WITH_STOPS )
 
-	N( "Gun Rock", "CZ", "Excessive triple jumps stream at the end." )
-	N( "Naissance", "aCZ", "Series of jumps hammering." )
+	W( "Come to Me @ 826", "S13.XX", "Ends with all arrows jump." )
+	CR( "Come to Me @ 826", "S17.XX", BUILT_WITH_STOPS )
+	W( "Come to Me @ 826", "S17.XX", "Ends with all arrows jump." )
 
-	N( "Ugly Dee", ["aFS", "aNM"], "Triple and quad holds throughout the chart." )
+	W( "Tek -Club Copenhagen-", ["S16", "S17"], HAS_SOME_STOPS )
+	W( "Bad Apple!! feat. Nomico", "S15", HAS_SOME_STOPS )
+	W( "Miss's Story", "S18", "Small part with tricky stops." )
 
-	N( "Nobody", ["S15", "D17"], HAS_SOME_STOPS )
+	W( "Gun Rock", "CZ", "Excessive triple jumps stream at the end." )
+	W( "Naissance", "aCZ", "Series of jumps hammering." )
+
+	CR( "Ugly Dee", ["aFS", "aNM"], "Triple and quad holds throughout the chart." )
+
+	W( "Nobody", ["S15", "D17"], HAS_SOME_STOPS )
 
 	// fire 2ne1 - mimimi таппинг
 
-	N( "Join the Party", "CZ", "Consists of central hold with steps around it." )
-	N( "Dance Vibrations", ["aCZ", "aNM"], "Consists of central hold with steps around it." )
+	W( "Join the Party", "CZ", "Consists of central hold with steps around it." )
+	W( "Dance Vibrations", ["aCZ", "aNM"], "Consists of central hold with steps around it." )
 
-	N( "Final Audition", "aCZ", "Series of long footswitches." )
+	CR( "Final Audition", "aCZ", "Series of long footswitches." )
 
-	N( "Nakakapagpabagabag", ["S18", "D19"], "Confusing holds with steps." )
-	N( "Nakakapagpabagabag", ["S18", "D19"], "Gimmicky, need 6.5x or av999." )
-	N( "8 6", ["S16", "S20", "D18", "D21"], "Confusing holds with steps." )
-	N( "8 6", ["S16", "S20", "D18", "D21"], "Gimmicky, need 6.5x or av999." )
-	N( "8 6  [FULL]", ["S16", "S21", "D23"], "Confusing holds with steps." )
-	N( "8 6  [FULL]", ["S21", "D23"], "Gimmicky, need 6.5x or av999." )
+	CR( "Nakakapagpabagabag", ["S18", "D19"], "Confusing holds with steps." )
+	CR( "Nakakapagpabagabag", ["S18", "D19"], "Gimmicky, need 6.5x or av999." )
+	CR( "8 6", ["S16", "S20", "D18", "D21"], "Confusing holds with steps." )
+	CR( "8 6", ["S16", "S20", "D18", "D21"], "Gimmicky, need 6.5x or av999." )
+	CR( "8 6  [FULL]", ["S16", "S21", "D23"], "Confusing holds with steps." )
+	CR( "8 6  [FULL]", ["S21", "D23"], "Gimmicky, need 6.5x or av999." )
 
-	N( "Shub Niggurath", "D17", "Central quad twists." )
+	W( "Shub Niggurath", "D17", "Central quad twists." )
 
-	N( "Gargoyle", "S18", "Arrows stretch up to ~195 bpm at the end." )
+	W( "Gargoyle", "S18", "Arrows stretch up to ~195 bpm at the end." )
 
-	N( "Nyarlathotep", ["S18", "S21", "D20"], "Unexpected blinking holds" )
+	W( "Nyarlathotep", ["S18", "S21", "D20"], "Unexpected blinking holds" )
 	// Hey U - jumps
-	N( "Feel My Happiness", "D21", "Lots of brackets." )
+	W( "Feel My Happiness", "D21", "Lots of brackets." )
 	// Karyawisata S20 - slowdown
 	// Moonlight S21 - slowdown
 	// De La Rue  D24 - blinking holds
 	// Vanish - Vanish
 	// Hardkore of the North  S21 - twists on the holds with slowdown
 
-	N( "VVV", ["S18", "S23", "D16", "D19", "D24"], "Whole chart is slow, except of simple ending. Use 3-3.5x or av900+." )
+	CR( "VVV", ["S18", "S23", "D16", "D19", "D24"], "Whole chart is slow, except of simple ending. Use 3-3.5x or av900+." )
 
 	//N( "Destination  [SHORT]", "D18", "crab legs" ) //D20 - ебошащий стрим
 	//N( "Pumptris (8Bit ver.)  [SHORT]", "D22", "crab legs" )
 
-	N( "Twist of Fate (feat. Ruriling)", ["S18", "D20"], "Main part has EXTREME slowdown." )
+	CR( "Twist of Fate (feat. Ruriling)", ["S18", "D20"], "Main part has EXTREME slowdown." )
 	//N( "The Festival of Ghost2 (Sneak)", [], "Lot of gimmicks" )
 }
 
