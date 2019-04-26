@@ -62,9 +62,57 @@ var readableTracklist = {
 	sortingID: "", // altID: "",
 	XX: "@1.01 ",
 },
+
 */
 
+"16_1949":
+{
+	title: "1949", artist: "SLAM", channel: ORIGINAL, bpm: "220",
+	sortingID: "", // altID: "",
+	XX: "@1.02 S16 D21 D28 S21.lock S23.lock",
+},
 
+"16_Gashina":
+{
+	title: "Gashina", artist: "SUNMI", channel: KPOP, bpm: "94",
+	sortingID: "", // altID: "",
+	XX: "@1.02 S2 S4 S6 S10 S14 D15 Dp2 CoOp(x2) S18.lock D19.lock",
+},
+
+"16_Time_for_the_Moon_Night":
+{
+	title: "Time for the Moon Night", artist: "GFRIEND", channel: KPOP, bpm: "170",
+	sortingID: "", // altID: "",
+	XX: "@1.02 S3 S5 S8 S16 D11 D18 S18.lock D21.lock",
+},
+
+"16_You_and_I":
+{
+	title: "You and I", artist: "Dreamcatcher", channel: KPOP, bpm: "194",
+	sortingID: "", // altID: "",
+	XX: "@1.02 S1 S4 S7 S13 S17 D14 D17 S21.lock D20.lock D25.lock",
+},
+
+"16_Rage_of_Fire":
+{
+	title: "Rage of Fire", artist: "MAX", channel: XROSS, bpm: "155",
+	sortingID: "", // altID: "",
+	XX: "@1.02 S7 S11 S16 D10 D17 CoOp(x2) S18.lock D19.lock",
+},
+
+"16_Meteo5cience":
+{
+	title: "Meteo5cience", artist: "Paul Bazooka", channel: ORIGINAL, bpm: "140", duration: REMIX,
+	sortingID: "", // altID: "",
+	XX: "@1.02 S18 D19 S21.lock D22.lock",
+},
+
+"16_Allegro_Con_Fuoco_FULL":
+{
+	title: "Allegro Con Fuoco  [FULL]", artist: "DM Ashura", channel: WORLD, bpm: "156",
+	sortingID: "", // altID: "",
+	XX: "@1.02 S23.lock D25.lock",
+},
 
 
 // \16 - XX
@@ -1399,7 +1447,7 @@ var readableTracklist = {
 {
 	title: "Super Fantasy", artist: "SHK", channel: ORIGINAL, bpm: "145",
 	//XX__: "S4 S7 S10 S14 S16 S19  D11 D18 D22  Dp2  Co-op x2",
-	XX: "= D22.21",
+	XX: "= D22.21  @1.02 S20.lock",
 	Prime2: "= -D16",
 	Prime: "S4 S7 S10 S16 S19 D11 D21 CoOp(x2)  @1.14 S14.ucs D16.ucs  @1.15 Dp2  @1.19 D18",
 },
@@ -3717,7 +3765,7 @@ var readableTracklist = {
 {
 	title: "Mission Possible -Blowback-", artist: "BanYa Production", bpm: "128",
 	//XX__: "S19  D18  Sp3  Dp5",
-	XX: "= S19.18 D18.17",
+	XX: "= S19.18 D18.17  @1.02 D21.new",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -7177,7 +7225,7 @@ var readableTracklist = {
 {
 	title: "Street Show Down", artist: "BanYa", bpm: "124", fromMix: "Rebirth",
 	//XX__: "S7 S15  D13  Sp4  Dp6",
-	XX: "=",
+	XX: "=  @1.02 D18.new",
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -7648,7 +7696,7 @@ var readableTracklist = {
 {
 	title: "With My Lover", artist: "BanYa", bpm: "124", fromMix: "OBG",
 	//XX__: "S5 S12  D14",
-	XX: "= S5.nl S12.cz D14.nm",  //??? S12.updated
+	XX: "= S5.nl S12.cz D14.nm  @1.02 D19.new",  //??? S12.updated
 	// S12-XX - https://www.youtube.com/watch?v=EHtChc2BGM0
 	NX: ["3", "", "10", "", "11"],
 	Zero: ["3", "", "10", "", "11"],
@@ -8414,6 +8462,9 @@ function PreprocessTrack( track )
 
 	if( ! track.bpm )
 		throw "'" + track.title + "' has no bpm specified.";
+
+	if( track.sortingID === "" )
+		delete track.sortingID;
 
 	track.chartsCount = 0;
 

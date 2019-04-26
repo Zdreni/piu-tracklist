@@ -666,6 +666,25 @@ function ApplyUnlocks()
 		Lock( "8 6  [FULL]", "D23", "Stage pass 86 D21 & Nakakapagpabagabag D20" )
 
 		Lock( "Jump", "D18", "Clear 16 mission zone quests" )
+
+	// 1.02
+		Lock( "Time for the moon night", "S18", "At least A sb on S16" )
+		Lock( "Time for the moon night", "D21", "At least A sb on D18" )
+		Lock( "Gashina", "S18", "At least S on S14" )
+		Lock( "Gashina", "D19", "At least A sb on S18 and S on D15" )
+		Lock( "Rage of fire", "S18", "At least A sb on S16" )
+		Lock( "Rage of fire", "D19", "At least A sb on D17" )
+		Lock( "You and I", "S21", "At least A sb on Chase Me S20 + Good Night S20 + Fly High S18" )
+		Lock( "You and I", "D20", "At least A sb on Chase Me D18 + Good Night D19 + Fly High D19" )
+		Lock( "You and I", "D25", "At least A sb on Chase Me D23 + Good Night D22 + Good Night D24" )
+		Lock( "1949", "S21", "At least A sb on S16 and 1950 S20" )
+		Lock( "1949", "S23", "At least A sb on 1950 S23, then random it in Singles S23 folder" )
+		Lock( "Meteo5cience", "S21", "At least A sb on Mad5cience S20 + Meteorize S17 + Meteo5cience S18" )
+		Lock( "Meteo5cience", "D22", "At least A sb on Mad5cience D16 + Meteorize D18 + Meteo5cience D19" )
+		Lock( "Allegro con Fuoco [FULL]", "S23", "At least A sb on Con Fuoco S22 + Piu Mosso S19 + Furioso S20" )
+		Lock( "Allegro con Fuoco [FULL]", "D25", "At least A sb on Con Fuoco D23 + Piu Mosso D19 + Furioso D20" )
+		Lock( "Super Fantasy", "S20", "Clear 24 mission zone quests" )
+
 }
 
 initFuncs.push( ApplyUnlocks );
