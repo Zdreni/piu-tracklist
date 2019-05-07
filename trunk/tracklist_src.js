@@ -3421,6 +3421,10 @@ var readableTracklist = {
 "1152":
 {
 	title: "Pavane", artist: "V.A.", channel: ORIGINAL, bpm: "160",
+	changes:
+	{
+		"XX": { banner: "1152-XX" },
+	},
 	//XX__: "S3 S6 S10 S17  D17 D22  Sp2",
 	XX: "= D17.16",
 	Prime2: "=",
@@ -3443,6 +3447,10 @@ var readableTracklist = {
 "1154":
 {
 	title: "ASDF", artist: "Doin", channel: ORIGINAL, bpm: "170",
+	changes:
+	{
+		"XX": { banner: "1154-XX" },
+	},
 	//XX__: "S9 S17  D10 D17",
 	XX: "=",
 	Prime2: "=",
@@ -4964,6 +4972,10 @@ var readableTracklist = {
 "FE13B":
 {
 	title: "Pumptris (8bit ver.)", artist: "Yahpp", bpm: "162",
+	changes:
+	{
+		"XX": { banner: "FE13B-XX" },
+	},
 	altID: "E13B",
 	shortTitle: "Pumptris (8bit)",
 	//XX__: "S3 S5 S8 S16 S17  Sp15  Co-op x2",
