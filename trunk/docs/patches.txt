@@ -4016,6 +4016,17 @@ Fixed a bug of v1.02.0 that occurred when one heart left.
 
 -----------------------------------------------------------------------------------------------------------------------
 
+Prime XX  1.02.2
+
+https://www.facebook.com/piugame/posts/2731504283544476
+(piu_xx_021.bin)
+
+This is "1949 Song and BGA modification" and "Meteo5cience song information change" patch of PIU XX after v1.02.0.
+
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
 
 
 Чеклист для добавления нового патча (для патчноутов формата Prime 2):
