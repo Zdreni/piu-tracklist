@@ -4040,28 +4040,28 @@ https://drive.google.com/file/d/1Zj_jk6gGepx2_747ZJYY2r1FWVonaD9p/view
 	BPM : 124
 	Category : K-POP
 	Step charts : S1, S3, S5, S8, S14, D7, D15
-		S??, D?? (Unlocked step)
+		S??(16), D??(17) (Unlocked step)
 
 2) Title : Can-can ~Orpheus in The Party Mix~
 	Artist : Sr. Lan Belmont
 	BPM : 195
 	Category : Original
 	Step charts : S8, S13, S16, S19, D12, D15, D18
-		S??, D?? (Unlocked step)
+		S??(22), D??(23) (Unlocked step)
 
 3) Title : Papasito feat. KuTiNA
 	Artist : Yakikaze & Cashew
 	BPM : 128
 	Category : Original
 	Step charts : S6, S13, S15, S16, D11, D14, D16, D18, CO-OP
-		S??, D?? (Unlocked step)
+		S??(20), D??(21) (Unlocked step)
 
 4) Title : Fires of Destiny
 	Artist : Jehezukiel
 	BPM : 155
 	Category : Original
 	Step charts : S6, S10, S16, S18, D11, D18
-		S??, D?? (Unlocked step)
+		S??(20), D??(22) (Unlocked step)
 
 5) Title : The End of the World ft. Skizzo
 	Artist : MonstDeath
@@ -4074,14 +4074,14 @@ https://drive.google.com/file/d/1Zj_jk6gGepx2_747ZJYY2r1FWVonaD9p/view
 	BPM : 137
 	Category : Original
 	Step charts : S3, S6, S8, S13, S16, D5, D11, D14, D17, CO-OP
-		S??, D?? (Unlocked step)
+		S??(18), D??(20) (Unlocked step)
 
 7) Title : Conflict
 	Artist : Siromaru + Cranky
 	BPM : 160
 	Category : World Music
 	Step charts : S6, S11, S17, S19, D13, D21
-		S??, D?? (Unlocked step)
+		S??(22), D??(24) (Unlocked step)
 
 8) Title : Gashina - FULL SONG –
 	Artist : SUNMI
@@ -4096,16 +4096,18 @@ https://drive.google.com/file/d/1Zj_jk6gGepx2_747ZJYY2r1FWVonaD9p/view
 	Step charts : S11, S14, S18, S21, D14, D21
 
 
+
 2. New Step Charts
 
 1) Title : Reminiscence
 	Step charts : DP23
 
 2) Title : Higgledy Piggledy
-	Step charts : D?? (Unlocked step)
+	Step charts : D??(20) (Unlocked step)
 
 3) Title : Monolith
-	Step charts : S?? (Unlocked step)
+	Step charts : S??(21) (Unlocked step)
+
 
 
 3. Mission zone update
