@@ -64,75 +64,73 @@ var readableTracklist = {
 
 
 1.03:
+*/
 
 "16_Starry_Night":
 {
-	title: "Starry Night", artist: "Mamamoo", channel: KPOP, bpm: "",
+	title: "Starry Night", artist: "Mamamoo", channel: KPOP, bpm: "124",
 	sortingID: "", // altID: "",
-	XX: "@1.03 ",
+	XX: "@1.03 S1 S3 S5 S8 S14 D7 D15 S16.lock D17.lock",
 },
 
 "16_Forgotten_Vampire":
 {
-	title: "Forgotten Vampire", artist: "WyvernP", channel: ORIGINAL, bpm: "",
+	title: "Forgotten Vampire", artist: "WyvernP", channel: ORIGINAL, bpm: "137",
 	sortingID: "", // altID: "",
-	XX: "@1.03 ",
+	XX: "@1.03 S3 S6 S8 S13 S16 D5 D11 D14 D17 CoOp(x2) S18.lock D20.lock",
 },
 
 "16_The_End_of_the_World":
 {
-	title: "The End of the World (ft. Skizzo)", artist: "Monstdeath", channel: ORIGINAL, bpm: "",
+	title: "The End of the World (ft. Skizzo)", artist: "Monstdeath", channel: ORIGINAL, bpm: "150",
 	shortTitle: "The End of the World",
-	shortTitle: "The Little Prince",
 	sortingID: "", // altID: "",
-	XX: "@1.03 ",
+	XX: "@1.03 S3 S5 S8 S17 D8 D17",
 },
 
 "16_Fires_of_Destiny":
 {
-	title: "Fires of Destiny", artist: "Jehezukiel", channel: ORIGINAL, bpm: "",
+	title: "Fires of Destiny", artist: "Jehezukiel", channel: ORIGINAL, bpm: "155",
 	sortingID: "", // altID: "",
-	XX: "@1.03 ",
+	XX: "@1.03 S6 S10 S16 S18 D11 D18 S20.lock D22.lock",
 },
 
 "16_Papasito":
 {
-	title: "Papasito (ft. KuTiNA)", artist: "Yakukaze & Cashew", channel: ORIGINAL, bpm: "",
+	title: "Papasito (ft. KuTiNA)", artist: "Yakukaze & Cashew", channel: ORIGINAL, bpm: "128",
 	shortTitle: "Papasito",
 	sortingID: "", // altID: "",
-	XX: "@1.03 ",
+	XX: "@1.03 S6 S13 S15 S16 D11 D14 D16 D18 CoOp(x2) S20.lock D21.lock",
 },
 
 "16_Can_Can_Orpheus":
 {
-	title: "Can-Can ~Orpheus in the Party Mix~", artist: "Sr. Lan Belmont", channel: ORIGINAL, bpm: "",
-	shortTitle: "Can-Can ~Orpheus~"
+	title: "Can-Can ~Orpheus in the Party Mix~", artist: "Sr. Lan Belmont", channel: ORIGINAL, bpm: "195",
+	shortTitle: "Can-Can ~Orpheus~",
 	sortingID: "", // altID: "",
-	XX: "@1.03 ",
+	XX: "@1.03 S8 S13 S16 S19 D12 D15 D18 S22.lock D23.lock",
 },
 
 "16_Poseidon_SHORT":
 {
-	title: "Poseidon  [SHORT]", artist: "Quree", channel: ORIGINAL, bpm: "", duration: SHORT,
+	title: "Poseidon  [SHORT]", artist: "Quree", channel: ORIGINAL, bpm: "160", duration: SHORT,
 	sortingID: "", // altID: "",
-	XX: "@1.03 ",
+	XX: "@1.03 S11 S14 S18 S21 D14 D21",
 },
 
 "16_Gashina_FULL":
 {
-	title: "Gashina  [FULL]", artist: "Sunmi", channel: KPOP, bpm: "", duration: FULL,
+	title: "Gashina  [FULL]", artist: "Sunmi", channel: KPOP, bpm: "94", duration: FULL,
 	sortingID: "", // altID: "",
-	XX: "@1.03 ",
+	XX: "@1.03 S15 S20 D21",
 },
 
 "16_Conflict":
 {
-	title: "Conflict", artist: "Siromaru+Cranky", channel: WORLD, bpm: "",
+	title: "Conflict", artist: "Siromaru + Cranky", channel: WORLD, bpm: "160",
 	sortingID: "", // altID: "",
-	XX: "@1.03 ",
+	XX: "@1.03 S6 S11 S17 S19 D13 D21 S22.lock D24.lock",
 },
-
-*/
 
 
 // \16 - XX
@@ -1943,7 +1941,7 @@ var readableTracklist = {
 {
 	title: "Reminiscence", artist: "MAX", bpm: "155", channel: ORIGINAL,
 	//XX__: "S3 S6 S10 S15 S18  D10 D17 D19  Dp3  Co-op x2",
-	XX: "= S18`17 D19`18",
+	XX: "= S18`17 D19`18  @1.03 Dp23",
 	Prime2: "=  @1.10 S15 D17",
 	Prime: "@1.10 S3 S6 S10 D10 CoOp(x2)  S17 D18  @1.15 Dp3",
 },
@@ -2886,7 +2884,7 @@ var readableTracklist = {
 {
 	title: "Monolith", artist: "Affinity", channel: WORLD, bpm: "196",
 	//XX__: "S3 S5 S9 S15  D14 D17 D22",
-	XX: "= S15`16 D14`13 D17`18 D22`23",
+	XX: "= S15`16 D14`13 D17`18 D22`23  @1.03 S21.lock",
 	Prime2: "=  @1.10 D23",
 	Prime: "=",
 	Fiesta2: "S3 S5 S9  @1.50 D13   @1.60 S16 D18",
@@ -5139,7 +5137,7 @@ var readableTracklist = {
 {
 	title: "Higgledy Piggledy", artist: "BanYa Production", bpm: "150",
 	//XX__: "S2 S6 S9 S14 S16  D8 D15  Sp1",
-	XX: "=",
+	XX: "=  @1.03 D20.lock",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=  @1.51 S16",
