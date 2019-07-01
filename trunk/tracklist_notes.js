@@ -89,6 +89,8 @@ function AddNotes()
 
 	CR( "Twist of Fate (feat. Ruriling)", ["S18", "D20"], "Main part has EXTREME slowdown." )
 	//N( "The Festival of Ghost2 (Sneak)", [], "Lot of gimmicks" )
+
+	CR( "Jump", ["D18"], "Lots of sudden jumps, lower your AV significantly")
 }
 
 

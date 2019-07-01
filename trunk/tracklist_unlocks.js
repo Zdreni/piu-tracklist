@@ -703,8 +703,8 @@ function ApplyUnlocks()
 
 		Lock( "Starry Night", "S16, D17", "at least SSS on S1" )
 
-		Lock( "Conflict", "S22", "at least SS on S19" )
-		Lock( "Conflict", "D24", "at least SS on D21" )
+		Lock( "Conflict", "S22", "at least S on S17 and S19" )
+		Lock( "Conflict", "D24", "at least S on D21" )
 
 		Lock( "Higgledy Piggledy", "D20", "Clear 32 mission zone quests" )
 }
