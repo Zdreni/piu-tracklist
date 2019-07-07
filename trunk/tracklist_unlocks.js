@@ -692,21 +692,26 @@ function ApplyUnlocks()
 
 		Lock( "Super Fantasy", "S20", "Clear 24 mission zone quests" )
 
-	// 1.02
-		Lock( "Papasito (ft. KuTiNA)", "S20", "at least S on S15, at least A on S16" )
-		Lock( "Papasito (ft. KuTiNA)", "D21", "at least S on D16, at least A on D18" )
+	// 1.03
+		Lock( "Starry Night", "S16, D17", "at least SSS on S1" )
 
-		Lock( "Forgotten Vampire", "S18", "at least S on S13, at least A on S16" )
-		Lock( "Forgotten Vampire", "D20", "at least S on D14, at least A on D17" )
-
+		Lock( "Can-Can ~Orpheus in the Party Mix~", "S22", "at least S on Can Can radzetsky S16" )
 		Lock( "Can-Can ~Orpheus in the Party Mix~", "D23", "at least S on Can Can radzetsky D17" )
 
-		Lock( "Starry Night", "S16, D17", "at least SSS on S1" )
+		Lock( "Papasito (ft. KuTiNA)", "S20", "at least S on S15 and A on S16" )
+		Lock( "Papasito (ft. KuTiNA)", "D21", "at least S on D16 and A on D18" )
+
+		Lock( "Fires of Destiny", "S20", "at least S on S16 and A on S18" )
+		Lock( "Fires of Destiny", "D22", "at least S on D11 and A on D18" )
+
+		Lock( "Forgotten Vampire", "S18", "at least S on S13 and A on S16" )
+		Lock( "Forgotten Vampire", "D20", "at least S on D14 and A on D17" )
 
 		Lock( "Conflict", "S22", "at least S on S17 and S19" )
 		Lock( "Conflict", "D24", "at least S on D21" )
 
 		Lock( "Higgledy Piggledy", "D20", "Clear 32 mission zone quests" )
+		Lock( "Monolith", "S21", "Clear 40 mission zone quests" )
 }
 
 initFuncs.push( ApplyUnlocks );
