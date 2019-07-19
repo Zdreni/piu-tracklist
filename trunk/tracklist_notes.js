@@ -1,6 +1,6 @@
 "use strict";
 
-function N( trackName, chartDescrs, note )
+function Note( trackName, chartDescrs, kind, noteText )
 {
 	if( ! Array.isArray( chartDescrs ) )
 		chartDescrs = [ chartDescrs ];
@@ -11,12 +11,24 @@ function N( trackName, chartDescrs, note )
 		var chart = FindChart( track, chartDescr );
 		if( ! chart.shared.notes )
 			chart.shared.notes = [];
+
+		var note = {};
+		note[ kind ] = noteText;
 		chart.shared.notes.push( note );
 	}
 }
 
-var W = N
-var CR = N
+
+function W( trackName, chartDescrs, noteText )
+{
+	Note( trackName, chartDescrs, "warn", noteText )
+}
+
+
+function CR( trackName, chartDescrs, noteText )
+{
+	Note( trackName, chartDescrs, "crit", noteText )
+}
 
 var BUILT_WITH_STOPS = "Whole chart is tricky stops.";
 var HAS_SOME_STOPS = "Some parts of chart are tricky stops.";
