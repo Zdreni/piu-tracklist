@@ -1,27 +1,10 @@
-<!DOCTYPE html>
-<html>
-	<script src="include/underscore/underscore-min.js"></script>
-</head>
+"use strict";
 
-<script src="tracklist.js"></script>
-<script src="tracklist_src.js"></script>
 
-<script src="check.js"></script>
-<script src="check_Exceed2_Zero.js"></script>
-<script src="check_NX.js"></script>
-<script src="check_NX2_NXA.js"></script>
-<script src="check_XX.js"></script>
+// forDB = false means it's dump for Step It Up with reduced number of fields
+// forDB = true means it's dump for simple python script, so structure is more verbose and straightforward
 
-<script src="tracklist_bpms.js"></script>
-<script src="tracklist_unlocks.js"></script>
-<script src="tracklist_level_estimations.js"></script>
-<script src="tracklist_tags.js"></script>
-<script src="tracklist_notes.js"></script>
-<!-- <script src="verify_bpms.js"></script> -->
-<!-- -->
 
-<code>
-<script>
 function JStr( obj )
 {
 	return JSON.stringify( obj, null, 1 ).replace( "<", "&lt;" ).replace( ">", "&gt;" )
@@ -42,7 +25,7 @@ function DictToArr( dict, func )
 }
 
 
-function RemoveObviousFields( track, mixID, chart )
+function CopyChartWithRemovedObviousFieldsForApp( track, mixID, chart )
 {
 	if( String( chart.levelNum ) === chart.levelText )
 		delete chart.levelNum;
@@ -105,29 +88,61 @@ function RemoveObviousFields( track, mixID, chart )
 }
 
 
+function CopyChartWithRemovedObviousFieldsForDB( track, mixID, chart )
+{
+	var chartIndex = chart.shared.index;
+	delete chart.shared;
+	delete chart.fromMixID;
+	delete chart.isLocked;
+
+	if( isNaN( chart.levelNum )  ||  chart.levelNum === null )
+		delete chart.levelNum;
+
+	track[ mixID ][ chartIndex ] = chart;
+}
+
+
 function ConvertInnerDataToOutput( track )
 {
-	for( var mixID of mixesOrder )
+	if( shortenData )
 	{
-		delete track.chartsCount;
+		for( var mixID of mixesOrder )
+		{
+			delete track.chartsCount;
 
-		var mixCharts = track[ mixID ];
-		if( ! mixCharts )
-			continue;
+			var mixCharts = track[ mixID ];
+			if( ! mixCharts )
+				continue;
 
-		track[ mixID ] = {};
-		for( var chart of mixCharts )
-			RemoveObviousFields( track, mixID, chart );
+			track[ mixID ] = {};
+			for( var chart of mixCharts )
+				CopyChartWithRemovedObviousFieldsForApp( track, mixID, chart );
+		}
+
+		if( track.duration == "Standard" )
+			delete track.duration;
 	}
+	else
+	{
+		for( var mixID of mixesOrder )
+		{
+			delete track.chartsCount;
 
-	if( track.duration == "Standard" )
-		delete track.duration;
+			var mixCharts = track[ mixID ];
+			if( ! mixCharts )
+				continue;
+
+			track[ mixID ] = {};
+			for( var chart of mixCharts )
+				CopyChartWithRemovedObviousFieldsForDB( track, mixID, chart );
+		}
+	}
 
 	track.title = track.title.replace( "  ", "&nbsp;&nbsp;" );
 }
 
 
-errors = []
+var errors = [];
 
 try
 {
@@ -214,7 +229,7 @@ function DumpTracklist()
 				var shared = trackCharts[ chartIndex ];
 				delete shared.index;
 				delete shared.type;
-				if( Object.keys(shared).length === 0 )
+				if( shortenData  &&  Object.keys(shared).length === 0 )
 					delete trackCharts[ chartIndex ];
 			}
 
@@ -265,6 +280,7 @@ function DumpTracklist()
 	return result;
 }
 
+
 var result = "{<br><br>";
 result += "\"mixes\": {<br><br>";
 result += DumpMixes();
@@ -284,7 +300,3 @@ else
 {
 	document.write( result );
 }
-</script>
-</code>
-</body>
-</html>
