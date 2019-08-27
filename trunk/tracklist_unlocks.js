@@ -38,12 +38,12 @@ function ReadPatchIndex( tillPatch )
 		return;
 
 	if( ! tillPatch.startsWith( '..@' ) )
-		throw "Invalid tillPatch '" + tillPatch + "'";
+		throw new Error( "Invalid tillPatch '" + tillPatch + "'" );
 
 	var patch = tillPatch.substring( 3 );
 	patchIndex = mixes[ currentMixID ].patches.indexOf( patch );
 	if( patchIndex < 0 )
-		throw "Invalid patch " + patch;
+		throw new Error( "Invalid patch " + patch );
 
 	return patchIndex;
 }
@@ -59,13 +59,13 @@ function On( mixID, tillPatch )
 function FindChartForLock( track, mixID, chartText )
 {
 	if( ! track[ mixID ] )
-		throw "No '" + mixID + "' data for '" + track.title + "'";
+		throw new Error( "No '" + mixID + "' data for '" + track.title + "'" );
 
 	for( var chart of track[ mixID ] )
 		if( chart.text === chartText )
 			return chart;
 
-	throw "Can't find " + track.title + "  " + chartText;
+	throw new Error( "Can't find " + track.title + "  " + chartText );
 }
 
 function Lock( trackTitle, charts, description, tillPatch )
@@ -81,7 +81,7 @@ function Lock( trackTitle, charts, description, tillPatch )
 	{
 		var chart = FindChartForLock( track, currentMixID, chartText );
 		if( chart.unlockDescr )
-			throw "Duplicate unlock description for " + track.title + "  " + chartText;
+			throw new Error( "Duplicate unlock description for " + track.title + "  " + chartText );
 		chart.unlockDescr = description;
 
 		if( tillPatch )
@@ -317,7 +317,7 @@ function ApplyUnlocks()
 	function Prime2_Lock( trackTitle, chart, ppAmount, chartToPass, gradeToPass )
 	{
 		if( chartToPass[ 0 ] !== chart[ 0 ]  &&  trackTitle !== "Pumping Up" )
-			throw "Invalid unlock for " + trackTitle + "  " + chart
+			throw new Error( "Invalid unlock for " + trackTitle + "  " + chart );
 
 		var orHigher = ( gradeToPass === "SS"  ?  ""  :  " or higher" )
 		var descr = "Pass " + chartToPass + " on " + gradeToPass + orHigher + ", pay " + ppAmount + " PP"

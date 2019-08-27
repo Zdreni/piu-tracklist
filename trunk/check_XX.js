@@ -483,7 +483,7 @@ function CheckXXInitialTracklist()
 		{
 			let difference = GetCheckChartsDifference( trackID )
 			if( difference.length > 0 )
-				throw "XX check:  content mismatch for '" + trackID + "':  difference = " + difference;
+				throw new Error( "XX check:  content mismatch for '" + trackID + "':  difference = " + difference );
 		}
 		catch( exc )
 		{
@@ -492,7 +492,7 @@ function CheckXXInitialTracklist()
 	}
 
 	if( exceptions.length > 0 )
-		throw exceptions.join( '<br>\n' );
+		throw new Error( exceptions.join( '<br>\n' ) );
 }
 
 

@@ -189,6 +189,7 @@ var readableTracklist = {
 "16_Gashina_FULL":
 {
 	title: "Gashina  [FULL]", artist: "Sunmi", channel: KPOP, bpm: "94", duration: FULL,
+	arcadeName: "Gashina - FULL SONG -",
 	arcadeID: "16E3",
 	XX: "@1.03 S15 S20 D21",
 },
@@ -296,6 +297,7 @@ var readableTracklist = {
 {
 	title: "Papasito (ft. KuTiNA)", artist: "Yakukaze & Cashew", channel: ORIGINAL, bpm: "128",
 	shortTitle: "Papasito",
+	arcadeName: "Papasito (feat. KuTiNA)",
 	arcadeID: "16A1",
 	XX: "@1.03 S6 S13 S15 S16 D11 D14 D16 D18 CoOp(x2) S20.lock D21.lock",
 },
@@ -311,6 +313,7 @@ var readableTracklist = {
 {
 	title: "The End of the World (ft. Skizzo)", artist: "Monstdeath", channel: ORIGINAL, bpm: "150",
 	shortTitle: "The End of the World",
+	arcadeName: "The End of the World ft. Skizzo",
 	arcadeID: "16A3",
 	XX: "@1.03 S3 S5 S8 S17 D8 D17",
 },
@@ -332,6 +335,7 @@ var readableTracklist = {
 "16_Meteo5cience":
 {
 	title: "Meteo5cience", artist: "Paul Bazooka", channel: ORIGINAL, bpm: "140", duration: REMIX,
+	arcadeName: "MeteoScience (GADGET mix)",
 	arcadeID: "16D3",
 	XX: "@1.02 S18 D19 S21.lock D22.lock",
 },
@@ -346,6 +350,7 @@ var readableTracklist = {
 "16_Wedding_Crashers_SHORT":
 {
 	title: "Wedding Crashers  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "165",
+	arcadeName: "Wedding Crashers - SHORT CUT",
 	arcadeID: "16F1",
 	XX: "S18 D20",
 },
@@ -353,6 +358,7 @@ var readableTracklist = {
 "16_XX_Opening":
 {
 	title: "XX Opening", artist: "MAX", channel: ORIGINAL, bpm: "175", duration: SHORT,
+	arcadeName: "XX Opening - SHORT CUT -",
 	arcadeID: "16F3",
 	XX: "@1.01 S3 S6 S11 S16 D12 D17",
 },
@@ -403,6 +409,7 @@ var readableTracklist = {
 "16_86_FULL":
 {
 	title: "8 6  [FULL]", artist: "DASU", channel: WORLD, bpm: "167",
+	arcadeName: "86- FULL SONG -",
 	arcadeID: "16F7",
 	XX: "@1.01 S16.lock S21.lock D23.lock",
 },
@@ -506,6 +513,7 @@ var readableTracklist = {
 "1505":
 {
 	title: "Cross Over", artist: "HyuN", channel: ORIGINAL, bpm: "200",
+	arcadeName: "CROSS OVER feat. LyuU",
 	altID: "15_Cross_Over",
 	//XX__: "S7 S11 S15 S18 S22  D15 D19 D23",
 	XX: "= D15`14",
@@ -696,7 +704,8 @@ var readableTracklist = {
 "1538":
 {
 	title: "Up & Up (Produced by AWAL)", artist: "Skizzo", channel: ORIGINAL, bpm: "150",
-	title: "Up & Up",
+	shortTitle: "Up & Up",
+	arcadeName: "Up & Up (Produced by AWAL)",
 	altID: "15_Up_n_Up",
 	//XX__: "S3 S5 S8 S17  D9 D18 D20",
 	XX: "=",
@@ -861,6 +870,7 @@ var readableTracklist = {
 "1561":
 {
 	title: "Pick Me", artist: "Produce 101 Season 2", channel: KPOP, bpm: "128",
+	arcadeName: "PICK ME",
 	//XX__: "S2 S4 S6 S15 S17  D5 D16 D18",
 	XX: "= S15`14",
 	Prime2: "@2.01 S2 S4 S6 S14 D5 D16  S17 D18",
@@ -1054,6 +1064,7 @@ var readableTracklist = {
 {
 	title: "Visual Dream II (In Fiction)", artist: "Aragon", channel: XROSS, bpm: "170",
 	shortTitle: "Visual Dream II",
+	arcadeName: "Visual Dream2 (In Fiction)",
 	altID: "15_Visual_Dream_II",
 	//XX__: "S5 S8 S16 S18  D10 D19",
 	XX: "=",
@@ -1291,6 +1302,7 @@ var readableTracklist = {
 "15F0":
 {
 	title: "Sarabande  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "157",
+	arcadeName: "Sarabande - SHORT CUT",
 	//XX__: "S9 S17 S19  D18",
 	XX: "= S17`16 S19`18 D18`17",
 	Prime2: "S9 S16 S18 D17",
@@ -1299,6 +1311,7 @@ var readableTracklist = {
 "15F1":
 {
 	title: "Death Moon  [SHORT]", artist: "SHK", channel: XROSS, bpm: "160",
+	arcadeName: "Death Moon - SHORT CUT",
 	//XX__: "S9 S16 S19 S22  D18 D23",
 	XX: "= S16`15 D18`17 D23`22",
 	Prime2: "S9 S15 S19 D17 D22  @1.07 S22",
@@ -1309,6 +1322,7 @@ var readableTracklist = {
 "15F3":
 {
 	title: "PRIME2 Opening  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "145",
+	arcadeName: "PRIME2 Opening - SHORT CUT",
 	altID: "15_Prime2_Opening",
 	//XX__: "S7 S12 S17  D18",
 	XX: "=",
@@ -1336,6 +1350,7 @@ var readableTracklist = {
 "15F6":
 {
 	title: "Kasou Shinja  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "170",
+	arcadeName: "Kasou Shinja - SHORT CUT",
 	altID: "15_Kasou Shinja_SHORT",
 	//XX__: "S20  D21",
 	XX: "=",
@@ -1464,6 +1479,7 @@ var readableTracklist = {
 "1414":
 {
 	title: "Mad5cience", artist: "Paul Bazooka", channel: ORIGINAL, bpm: "130",
+	arcadeNameMaxEditDistance: 1, // 'Mad5Science'
 	//XX__: "S5 S15 S20  D7 D16  Dp5",
 	XX: "= S15`16",
 	Prime2: "=  @1.08 Dp5",
@@ -1982,6 +1998,7 @@ var readableTracklist = {
 {
 	title: "Sudden Romance (PIU Edit)", artist: "void", channel: JMUSIC, bpm: "152", fromMix: "Prime",
 	shortTitle: "Sudden Romance",
+	arcadeName: "Sudden Romance [PIU Edit]",
 	//XX__: "S4 S6 S9 S14 S19  D8 D15 D19  Dp4",
 	XX: "= D15`14",
 	Prime2: "S4 S6 S9 S14 S19  D8 D14 D19  @1.08 Dp4",
@@ -2019,6 +2036,7 @@ var readableTracklist = {
 "1482":
 {
 	title: "Creed -1st Desire-", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "163",
+	arcadeName: "Creed - 1st Desire -",
 	//XX__: "S4 S7 S12 S18 S21  D11 D18 D23  Dp5",
 	XX: "=",
 	Prime2: "=",
@@ -2038,6 +2056,7 @@ var readableTracklist = {
 {
 	title: "Four Seasons of Loneliness", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "178",
 	//fullTitle: "Four Seasons of Loneliness ver B feat. Sariyajin",
+	arcadeName: "FOUR SEASONS OF LONELINESS ver B feat. Sariyajin", arcadeNameMaxEditDistance: 2,  // 'beta' vs 'B'
 	//XX__: "S1 S4 S6 S10 S14 S17 S20  D10 D15 D18 D22  Dp2  Co-op x2",
 	XX: "= D15`14 D22`21",
 	Prime2: "=",
@@ -2047,6 +2066,7 @@ var readableTracklist = {
 "1485":
 {
 	title: "Ai, Yurete", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "152", fromMix: "Prime",
+	arcadeName: "Ai, Yurete...",
 	//XX__: "S1 S3 S6 S9 S13 S16  D8 D15 D18  Dp4",
 	XX: "=",
 	Prime2: "S1 S3 S6 S9 S13 S16  D8 D15 D18  @1.08 Dp4",
@@ -2074,6 +2094,7 @@ var readableTracklist = {
 "1488":
 {
 	title: "Ren'ai Yuusha", artist: "LastNote", channel: JMUSIC, bpm: "190",
+	arcadeName: "Renai Yuusha",
 	//XX__: "S3 S6 S12 S17 S19  D4 D13 D18 D20  Dp4  Co-op x3",
 	XX: "=",
 	Prime2: "=  @1.08 Dp4",
@@ -2101,6 +2122,7 @@ var readableTracklist = {
 "1491":
 {
 	title: "Bad &infin; End &infin; Night", artist: "HitoshizukuP X yama&#9651", channel: JMUSIC, bpm: "204",
+	arcadeName: "Bad ~ End ~ Night", arcadeNameMaxEditDistance: 4,  // &infin; recognition, two characters per each
 	//XX__: "S2 S4 S6 S10 S13 S17 S19  D11 D18 D23  Dp4  Co-op x3",
 	XX: "=",
 	Prime2: "=",
@@ -2119,6 +2141,7 @@ var readableTracklist = {
 "1493":
 {
 	title: "Idealized Romance", artist: "void", channel: JMUSIC, bpm: "140",
+	arcadeNameMaxEditDistance: 1,  //tdealized
 	//XX__: "S2 S4 S7 S11 S16 S18  D10 D18",
 	XX: "=",
 	Prime2: "=",
@@ -2256,6 +2279,7 @@ var readableTracklist = {
 {
 	title: "Four Seasons of Loneliness ver B feat. Sariyajin  [FULL]", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "178",
 	shortTitle: "Four Seasons of Loneliness",
+	arcadeName: "FOUR SEASONS OF LONELINESS ver feat. Sariyajin - FULL SONG",
 	//XX__: "S14 S19  D15 D19",
 	XX: "= D15`14",
 	Prime2: "=",
@@ -2302,6 +2326,7 @@ var readableTracklist = {
 "14E2":
 {
 	title: "Silhouette Effect  [SHORT]", artist: "Nato", channel: ORIGINAL, bpm: "167",
+	arcadeName: "Silhouette Effect - SHORT CUT",
 	//XX__: "S18  D17",
 	XX: "=",
 	Prime2: "=",
@@ -2311,6 +2336,7 @@ var readableTracklist = {
 "14E3":
 {
 	title: "Selfishness  [SHORT]", artist: "S.I.D-Sound", channel: WORLD, bpm: "160",
+	arcadeName: "Selfishness - SHORT CUT",
 	//XX__: "S17  D18",
 	XX: "=",
 	Prime2: "=",
@@ -2320,6 +2346,7 @@ var readableTracklist = {
 "14E4":
 {
 	title: "Rock the House  [SHORT]", artist: "Matduke", channel: WORLD, bpm: "175",
+	arcadeName: "Rock the house - SHORT CUT",
 	// it was ORIGINAL at Prime2 1.01 (and maybe in Prime, but that was left annoticed because it was New Tunes). In P2 1.07 it is WORLD
 	//XX__: "S15 S18  D20",
 	XX: "=",
@@ -2330,6 +2357,7 @@ var readableTracklist = {
 "14E5":
 {
 	title: "Move That Body!  [SHORT]", artist: "DM Ashura", channel: ORIGINAL, bpm: "145",
+	arcadeName: "Move That Body! - SHORT CUT",
 	//XX__: "S17  D18",
 	XX: "= S17`16",
 	Prime2: "=",
@@ -2339,6 +2367,7 @@ var readableTracklist = {
 "14E6":
 {
 	title: "Prime Opening", artist: "MAX", channel: ORIGINAL, bpm: "128", duration: SHORT,
+	arcadeName: "PRIME Opening - SHORT CUT",
 	//XX__: "S15  D15  Co-op x5",
 	XX: "=",
 	Prime2: "=",
@@ -2348,6 +2377,7 @@ var readableTracklist = {
 "14E7":
 {
 	title: "Stardust Overdrive  [SHORT]", artist: "typeMARS", channel: WORLD, bpm: "175",
+	arcadeName: "Stardust Overdrive - SHORT CUT",
 	//XX__: "S16  D17",
 	XX: "=",
 	Prime2: "=",
@@ -2443,6 +2473,7 @@ var readableTracklist = {
 {
 	title: "Hypnosis (SynthWulf Mix)", artist: "BanYa & SynthWulf", channel: ORIGINAL, bpm: "175",
 	shortTitle: "Hypnosis\n(SynthWulf Mix)",
+	arcadeName: "Hypnosis(SynthWulf Mix)",
 	//XX__: "S11 S13 S17 S20  D14 D15 D19",
 	XX: "= S11`8 S13`11 S20`21 D14`13 D19`20",
 	Prime2: "=",
@@ -2453,6 +2484,7 @@ var readableTracklist = {
 "1309":
 {
 	title: "Flew Far Faster", artist: "Doin", channel: ORIGINAL, bpm: "200",
+	arcadeName: "FFF",
 	//XX__: "S11 S18 S22  D13 D22 D24  Co-op x3",
 	XX: "= S11`10 S18`17 S22`23 D13`12",
 	Prime2: "=",
@@ -2682,6 +2714,7 @@ var readableTracklist = {
 "1338":
 {
 	title: "Log-In", artist: "SHK", channel: ORIGINAL, bpm: "140",
+	arcadeName: "Log In",
 	//XX__: "S4 S7 S10 S18 S20  D10 D19",
 	XX: "= S20`21 D19`20",
 	Prime2: "=",
@@ -2759,6 +2792,7 @@ var readableTracklist = {
 "13A3":
 {
 	title: "What Are You Doin'?", artist: "Doin & MAX", channel: ORIGINAL, bpm: "200", duration: REMIX,
+	arcadeName: "What Are You Doin?",
 	//XX__: "S18  D23",
 	XX: "= S18`19 D23`24",
 	Prime2: "=",
@@ -2825,6 +2859,7 @@ var readableTracklist = {
 "13E1":
 {
 	title: "Passacaglia  [SHORT]", artist: "SynthWulf", channel: WORLD, bpm: "175",
+	arcadeName: "Passacaglia - SHORT CUT",
 	//XX__: "S17  D18",
 	XX: "=",
 	Prime2: "=",
@@ -2846,6 +2881,7 @@ var readableTracklist = {
 "13E3":
 {
 	title: "Flew Far Faster  [SHORT]", artist: "Doin", channel: ORIGINAL, bpm: "200",
+	arcadeName: "FFF - SHORT CUT",
 	//XX__: "S18  D21",
 	XX: "=",
 	Prime2: "=",
@@ -2866,6 +2902,7 @@ var readableTracklist = {
 "13E5":
 {
 	title: "U Got Me Rocking  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "128",
+	arcadeName: "U Got Me Rocking - SHORT CUT",
 	//XX__: "S17  D17",
 	XX: "=",
 	Prime2: "=",
@@ -3429,6 +3466,7 @@ var readableTracklist = {
 "1145":
 {
 	title: "Trotpris  [SHORT]", artist: "Doin", channel: ORIGINAL, bpm: "156.118",
+	arcadeName: "Trotpris - SHORT CUT",
 	//XX__: "S14  D14",
 	XX: "= D14`15",
 	Prime2: "=",
@@ -3548,6 +3586,7 @@ var readableTracklist = {
 "1001":
 {
 	title: "X-Tree", artist: "Yahpp", bpm: "190",
+	arcadeName: "XTREE",
 	//XX__: "S2 S7 S12 S20  D15 D19 D22  Sp2  Dp3",
 	XX: "= S2`3 D15`14 D19`18",
 	Prime2: "=",
@@ -4063,6 +4102,7 @@ var readableTracklist = {
 "1051":
 {
 	title: "Love is a Danger Zone  [SHORT]", artist: "BanYa", bpm: "140",
+	arcadeName: "Love is a Danger Zone - SHORT CUT",
 	//XX__: "S13 S20  D17",
 	XX: "=",
 	Prime2: "=",
@@ -4075,6 +4115,7 @@ var readableTracklist = {
 "1052":
 {
 	title: "Love is a Danger Zone 2  [SHORT]", artist: "BanYa", bpm: "162",
+	arcadeName: "Love is a Danger Zone pt.2 - SHORT CUT",
 	//XX__: "S8 S19  D22",
 	XX: "= D22`21",
 	Prime2: "=",
@@ -4099,6 +4140,7 @@ var readableTracklist = {
 "1054":
 {
 	title: "Chicken Wing  [SHORT]", artist: "BanYa", bpm: "200",
+	arcadeName: "CHICKEN WING - SHORT CUT",
 	//XX__: "S20  D14",
 	XX: "= D14`13",
 	Prime2: "=",
@@ -4111,6 +4153,7 @@ var readableTracklist = {
 "1055":
 {
 	title: "Winter  [SHORT]", artist: "BanYa", bpm: "168",
+	arcadeName: "Winter - SHORT CUT",
 	//XX__: "S6 S9 S16  D10 D17",
 	XX: "=",
 	Prime2: "=",
@@ -4135,6 +4178,7 @@ var readableTracklist = {
 "1057":
 {
 	title: "Moonlight  [SHORT]", artist: "BanYa", bpm: "180",
+	arcadeName: "Moonlight - SHORT CUT",
 	//XX__: "S15 S19  D20",
 	XX: "= S15`16 S19`18",
 	Prime2: "=",
@@ -4184,6 +4228,7 @@ var readableTracklist = {
 "1061":
 {
 	title: "K.O.A : Alice in Wonderworld  [SHORT]", artist: "BanYa Production", bpm: "156",
+	arcadeName: "K.O.A: Alice In Wonderworld - SHORT CUT",
 	//XX__: "S8 S16  D18",
 	XX: "=",
 	Prime2: "=",
@@ -4221,6 +4266,7 @@ var readableTracklist = {
 "1064":
 {
 	title: "Destination  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "150",
+	arcadeName: "Destination - SHORT CUT",
 	//XX__: "S9 S15  D19 D20",
 	XX: "= D19`18",
 	Prime2: "=",
@@ -4515,6 +4561,7 @@ var readableTracklist = {
 "F24":
 {
 	title: "K.O.A. -Alice in Wonderworld-", artist: "BanYa Production", bpm: "156",
+	arcadeName: "K.O.A: Alice In Wonderworld",
 	//XX__: "S2 S3 S5 S8 S17  D10 D18",
 	XX: "=",
 	Prime2: "=",
@@ -4576,6 +4623,7 @@ var readableTracklist = {
 {
 	title: "Final Audition episode 2-X", artist: "Yahpp", bpm: "170",
 	shortTitle: "Final Audition ep. 2-X",
+	arcadeName: "Final Audition Ep. 2-X",
 	//XX__: "S3 S5 S8 S17 S23  D21 D24  Dp2",
 	XX: "=",
 	Prime2: "=",
@@ -5041,6 +5089,7 @@ var readableTracklist = {
 	},
 	altID: "E13B",
 	shortTitle: "Pumptris (8bit)",
+	arcadeName: "Pumptris 8Bit ver.",
 	//XX__: "S3 S5 S8 S16 S17  Sp15  Co-op x2",
 	XX: "=",
 	Prime2: "=",
@@ -5690,6 +5739,7 @@ var readableTracklist = {
 {
 	title: "Final Audition episode 2-1", artist: "Yahpp", bpm: "170",
 	shortTitle: "Final Audition ep. 2-1",
+	arcadeName: "Final Audition Ep. 2-1",
 	//XX__: "S3 S4 S8 S18 S21 S22  D12 D22 D23",
 	XX: "= S8`7 S22`20 D12`9 D22`21 D23`22",  //??? S22.updated
 	// S22-XX - https://www.youtube.com/watch?v=Rbcztfs6jx4
@@ -5913,6 +5963,7 @@ var readableTracklist = {
 "C04":
 {
 	title: "Love is a Danger Zone 2", artist: "BanYa", bpm: "162",
+	arcadeName: "Love is a Danger Zone pt. 2",
 	//XX__: "S4 S7 S9 S15 S22  D17 D23",
 	XX: "= S22`21",
 	Prime2: "=",
@@ -6143,6 +6194,7 @@ var readableTracklist = {
 {
 	title: "Love is a Danger Zone 2 (D&G Ver.)", artist: "BanYa", bpm: "162",
 	shortTitle: "Love is a Danger Zone 2 (D&G)",
+	arcadeName: "Love is a Danger Zone pt.2 another",
 	sortingID: " C41__1",  // after C41 - LIADZ Try To BPM
 	//XX__: "S16 S17  Co-op x2",
 	XX: "=",
@@ -6327,6 +6379,7 @@ var readableTracklist = {
 "B17":
 {
 	title: "Hi-Bi", artist: "BanYa", bpm: "145",
+	arcadeName: "Hi Bi",
 	//XX__: "S3 S5 S8 S16 S19  D8 D19 D20",
 	XX: "= S16`15 S19`18 D19`18",  //??? D20.updated - simplified 10-buttons hold (to 6-buttons)
 	// D20-XX - https://www.youtube.com/watch?v=nR61F0n4dio
@@ -6362,6 +6415,7 @@ var readableTracklist = {
 "B19":
 {
 	title: "Canon-D", artist: "BanYa", bpm: "160",
+	arcadeName: "Canon D",
 	//XX__: "S3 S7 S10 S17 S20 S21  D12 D17 D23  Co-op x2",
 	XX: "= S10`9 D12`10 D23`22",
 	Prime2: "= -S18 -D18",
@@ -6406,6 +6460,7 @@ var readableTracklist = {
 "B28":
 {  //? B58
 	title: "Tream Vook of the War", artist: "BanYa", bpm: "140 - 202", duration: REMIX,
+	arcadeName: "Tream Vook of the war REMIX",
 	//XX__: "S13 S19  D15 D22",
 	XX: "= S13`11 D15`13",
 	Prime2: "=",
@@ -6550,6 +6605,7 @@ var readableTracklist = {
 "A01":
 {
 	title: "Final Audition 3 U.F", artist: "BanYa", bpm: "130",
+	arcadeName: "Final Audition 3",
 	//XX__: "S2 S5 S8 S9 S16 S17  D17 D19  Sp3  Dp5",
 	XX: "= S8`6 S16`14",
 	Prime2: "=",
@@ -6636,6 +6692,7 @@ var readableTracklist = {
 "A06":
 {
 	title: "X-Treme", artist: "BanYa", bpm: "162",
+	arcadeName: "X-Tream",
 	//XX__: "S4 S7 S10 S15 S18  D13 D20",
 	XX: "= S10`9 S15`14 D20`19",
 	Prime2: "=",
@@ -6907,6 +6964,7 @@ var readableTracklist = {
 "913":
 {
 	title: "Can Can", artist: "F2 Systems", channel: ORIGINAL, bpm: "197", fromMix: "Extra",
+	arcadeName: "Radetzky Can Can",
 	//XX__: "S16 S20.lock D17 D22.lock",
 	XX: "= S16`cz D17`nm S20.lock D22.lock",
 	Exceed2: ["", "", "12", "", "14"],
@@ -6947,6 +7005,7 @@ var readableTracklist = {
 {
 	title: "Final Audition episode 1", artist: "BanYa", bpm: "189", fromMix: "Extra",
 	shortTitle: "Final Audition ep. 1",
+	arcadeName: "Final Audition Ep. 1",
 	//XX__: "S4 S7 S8 S13 S16 S20  D13 D22 D23",
 	XX: "= S16`15 S20`19 D13`11 D22`21",
 	Prime2: "=",
@@ -7341,6 +7400,7 @@ var readableTracklist = {
 "712":
 {
 	title: "Will o' the Wisp", artist: "BanYa", bpm: "210", fromMix: "Rebirth",
+	arcadeName: "Will-O-The-Wisp",
 	//XX__: "S2 S5 S11 S14 S19  D13 D14 D20 D21",
 	XX: "= S2`3 S11`10 S14`13 D13`10 D14`13 D20`19",
 	Prime2: "=",
@@ -7395,6 +7455,7 @@ var readableTracklist = {
 "716":
 {
 	title: "Miss's Story", artist: "BanYa", bpm: "111", fromMix: "Rebirth",
+	arcadeName: "Miss S' Story",
 	//XX__: "S5 S19  D19  Sp3  Dp5",
 	XX: "= S19`18",
 	Prime2: "=",
@@ -7611,6 +7672,7 @@ var readableTracklist = {
 "401":
 {
 	title: "Oh! Rosa", artist: "BanYa", bpm: "148", fromMix: "OBG_SE",
+	arcadeName: "Oh! Rosa!",
 	//XX__: "S8 S13  D7  Co-op x2",
 	XX: "= S8`7",
 	Prime2: "=  @1.04 CoOp(x2)",
@@ -8152,7 +8214,7 @@ function ParseChartLevel( track, chart, chartText )
 		chart.levelText = levelSubst_Match[ 1 ];
 		chart.levelNum = Number( levelSubst_Match[ 2 ] );
 		if( isNaN( chart.levelNum ) )
-			throw "Can't parse chart level of " + track.title + "  '" + chartText + "'";
+			throw new Error( "Can't parse chart level of " + track.title + "  '" + chartText + "'" );
 		return;
 	}
 
@@ -8169,7 +8231,7 @@ function ParseChartLevel( track, chart, chartText )
 		{
 			chart.shared.players = Number( couple_Match[ 2 ] );
 			if( isNaN( chart.shared.players ) )
-				throw "Can't parse couple number of players for " + track.title + "  '" + chartText + "'";
+				throw new Error( "Can't parse couple number of players for " + track.title + "  '" + chartText + "'" );
 		}
 		else
 			console.assert( chart.shared.players === Number( couple_Match[ 2 ] ) );
@@ -8177,14 +8239,14 @@ function ParseChartLevel( track, chart, chartText )
 	}
 
 	if( chartText.match( /(\d+)\s*\((.+)\)/ ) )
-		throw "Error in parsing " + track.title + "  '" + chartText + "'";
+		throw new Error( "Error in parsing " + track.title + "  '" + chartText + "'" );
 
 	chart.levelText = chartText;
 	chart.levelNum = Number( chartText );
 	if( chartText !== NO_OFFICIAL_ESTIMATION  &&  chartText !== NX_GLITCH_LEVEL  &&  String( chart.levelNum ) !== chartText )
-		throw "Error in parsing " + track.title + "  level '" + chartText + "'";
+		throw new Error( "Error in parsing " + track.title + "  level '" + chartText + "'" );
 	if( chart.levelNum < 1  ||  chart.levelNum > 30 )
-		throw "Error in parsing " + track.title + "  level '" + chartText + "'";
+		throw new Error( "Error in parsing " + track.title + "  level '" + chartText + "'" );
 }
 
 
@@ -8235,7 +8297,7 @@ function PreprocessOldStyleStation( track, inCharts, zone, tags, oldSlotSharedCh
 		if( ! chart.shared.type )
 			chart.shared.type = chartType;
 		else if( chart.shared.type !== chartType )
-			throw track.name + " chart " + chart.text + " type inconsistent with previous mixes";
+			throw new Error( track.name + " chart " + chart.text + " type inconsistent with previous mixes" );
 
 		chart.zone = zone;
 		result.push( chart );
@@ -8279,12 +8341,12 @@ function ParseNewStyleChart( track, chartText, sharedIndex )
 			if( ! chart.shared.type )
 				chart.shared.type = chartType;
 			else if( chart.shared.type !== chartType )
-				throw track.name + " chart " + chartText + " type inconsistent with previous mixes";
+				throw new Error( track.name + " chart " + chartText + " type inconsistent with previous mixes" );
 				//console.assert( chart.shared.type === chartType );
 
 			return chart;
 		}
-	throw "Unknown chart tag '" + chartText + "'";
+	throw new Error( "Unknown chart tag '" + chartText + "'" );
 }
 
 
@@ -8321,7 +8383,7 @@ function PreprocessNewStyleChart( track, result, chartDescr, mixID, patchIndex )
 	if( prevChart )
 	{
 		if( prevChart.type !== chart.type )
-			throw track.name + " chart " + chart.text + " type is not compatible with " + prevChart.text;
+			throw new Error( track.name + " chart " + chart.text + " type is not compatible with " + prevChart.text );
 		chart.fromMixID = prevChart.fromMixID;
 	}
 	else
@@ -8340,7 +8402,7 @@ function PreprocessNewStyleChart( track, result, chartDescr, mixID, patchIndex )
 		else if( token === "ucs" )
 			chart.isUCS = true;
 		else
-			throw "Unknown token '" + token + "' for " + track.title + "  " + chartText;
+			throw new Error( "Unknown token '" + token + "' for " + track.title + "  " + chartText );
 
 
 	var chartIndexToReplace = -1;
@@ -8361,7 +8423,7 @@ function RemoveNewStyleChart( track, mixID, chartText )
 {
 	var index = _.findIndex( track[ mixID ], function( item ) { return item.text === chartText; } );
 	if( index < 0)
-		throw "Can't find " + track.title + " " + chartText + " on " + mixID;
+		throw new Error( "Can't find " + track.title + " " + chartText + " on " + mixID );
 	track[ mixID ].splice( index, 1 );
 }
 
@@ -8399,7 +8461,7 @@ function ParsePatchIndex( mixID, patchName )
 {
 	var patchIndex = mixes[ mixID ].patches.indexOf( patchName );
 	if( patchIndex < 0 )
-		throw  "No patch " + patchName + " for " + mixID;
+		throw new Error( "No patch " + patchName + " for " + mixID );
 	return patchIndex;
 }
 
@@ -8441,7 +8503,7 @@ function PreprocessNewStyleStringCharts( track, mixID )
 		}
 		else
 		{
-			throw "Unrecognized '" + track.title + "' chart token :'" + token + "'";
+			throw new Error( "Unrecognized '" + track.title + "' chart token :'" + token + "'" );
 		}
 	}
 }
@@ -8487,17 +8549,17 @@ function ValidatedMixAndVersion( k )
 {
 	var arr = k.split( "@" );
 	if( arr.length > 2 )
-		throw "Mix-patch format '" + k + "' is invalid";
+		throw new Error( "Mix-patch format '" + k + "' is invalid" );
 
 	var mix = mixes[ arr[ 0 ] ];
 	if( ! mix )
-		throw "Mix '" + arr[ 0 ] + "' can't be found";
+		throw new Error( "Mix '" + arr[ 0 ] + "' can't be found" );
 
 	if( arr.length == 1 )
 		return arr[ 0 ] + "@" + mix.patches[ 0 ];
 
 	if( mix.patches.indexOf( arr[ 1 ] ) < 0 )
-		throw "Mix '" + arr[ 0 ] + "' patch '" + arr[ 1 ] + "' can't be found";
+		throw new Error( "Mix '" + arr[ 0 ] + "' patch '" + arr[ 1 ] + "' can't be found" );
 
 	return k;
 }
@@ -8509,7 +8571,7 @@ function PreprocessTrack( track )
 		track.duration = GuessDurationFromTitle( track.title );
 
 	if( ! track.artist )
-		throw "'" + track.title + "' has no artist specified.";
+		throw new Error( "'" + track.title + "' has no artist specified." );
 
 	if( ! track.channel )
 		track.channel = knownArtists[ track.artist ];
@@ -8517,10 +8579,10 @@ function PreprocessTrack( track )
 		console.warn( "'" + track.title + "' artist '" + track.artist + "' channel is already defined as '" + track.channel + "'" );
 
 	if( [ ORIGINAL, WORLD, KPOP, JMUSIC, XROSS ].indexOf( track.channel ) < 0 )
-		throw "'" + track.title + "' has no channel specified.";
+		throw new Error( "'" + track.title + "' has no channel specified." );
 
 	if( ! track.bpm )
-		throw "'" + track.title + "' has no bpm specified.";
+		throw new Error( "'" + track.title + "' has no bpm specified." );
 
 	if( track.sortingID === "" )
 		delete track.sortingID;
@@ -8541,7 +8603,7 @@ function PreprocessTrack( track )
 	if( mixes[ GetTrackFirstMix( track ) ] )
 		mixRegions = mixes[ GetTrackFirstMix( track ) ].regions;
 	if( track.region  &&  ( ! mixRegions  || mixRegions.indexOf( track.region ) < 0 ) )
-		throw "Unavailable region '" + track.region + "' for '" + track.title + "' in mix '" + track.fromMixID + "'.";
+		throw new Error( "Unavailable region '" + track.region + "' for '" + track.title + "' in mix '" + track.fromMixID + "'." );
 
 	if( track.changes )
 	{

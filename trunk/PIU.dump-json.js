@@ -1,8 +1,8 @@
 "use strict";
 
 
-// forDB = false means it's dump for Step It Up with reduced number of fields
-// forDB = true means it's dump for simple python script, so structure is more verbose and straightforward
+// 'shortenData == true' means it's dump for Step It Up with reduced number of fields
+// 'shortenData == false' means it's dump for simple python script, so structure is more verbose and straightforward
 
 
 function JStr( obj )
@@ -121,6 +121,9 @@ function ConvertInnerDataToOutput( track )
 
 		if( track.duration == "Standard" )
 			delete track.duration;
+
+		delete track.arcadeName;
+		delete track.arcadeNameMaxEditDistance;
 	}
 	else
 	{
@@ -136,9 +139,16 @@ function ConvertInnerDataToOutput( track )
 			for( var chart of mixCharts )
 				CopyChartWithRemovedObviousFieldsForDB( track, mixID, chart );
 		}
+
+		if( ! track.arcadeName )
+			track.arcadeName = track.title.replace("  [SHORT]", " - SHORT CUT -").replace("  [FULL]", " - FULL SONG");
+		if( ! track.arcadeNameMaxEditDistance )
+			track.arcadeNameMaxEditDistance = 0;
+		if( ! track.shortTitle )
+			track.shortTitle = track.title;
 	}
 
-	track.title = track.title.replace( "  ", "&nbsp;&nbsp;" );
+	track.title = track.title.replace( "  ", "&nbsp;&nbsp;" ).replace( "<", "&lt;" ).replace( ">", "&gt" );
 }
 
 
@@ -153,7 +163,7 @@ try
 }
 catch( exc )
 {
-	errors.push( exc );
+	errors.push( exc + ":<br>" + exc.stack.replace( "at", "<br>&nbsp;at" ) );
 	console.error( exc );
 }
 
@@ -273,7 +283,7 @@ function DumpTracklist()
 		}
 		catch( exc )
 		{
-			errors.push( exc );
+			errors.push( exc + ":<br>" + exc.stack.replace( "at", "<br>&nbsp;at" ) );
 			console.log( "Catched ", exc );
 		}
 	}

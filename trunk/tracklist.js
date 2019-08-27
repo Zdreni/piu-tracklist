@@ -231,13 +231,21 @@ function FindTrack( tracklist, title )
 		{
 			// this match not working well for [FULL] tracks, 'cause their title is identical to arcade title
 			//var titleMatch = Normalized( item.title ) === normTitle  ||  ( item.shortTitle  &&  Normalized( item.shortTitle ) === normTitle );
-			var titleMatch = Normalized( item.title ) === normTitle;
-			return titleMatch  &&  ( ! ID  ||  key == ID );
+			if( ID )
+			{
+				var titleMatch = Normalized( item.title ) === normTitle  ||  ( item.shortTitle  &&  Normalized( item.shortTitle ) === normTitle );
+				return titleMatch  &&  key == ID;
+			}
+			else
+			{
+				var titleMatch = Normalized( item.title ) === normTitle;
+				return titleMatch;
+			}
 		} );
 	if( result.length === 0 )
-		throw "Can't found track '" + title + "'";
+		throw new Error( "Can't find track '" + title + "'" );
 	else if( result.length > 1 )
-		throw "Several tracks with name '" + title + "' found, specify '" + title + " @ <id>' to find required one";
+		throw new Error( "Several tracks with name '" + title + "' found, specify '" + title + " @ <id>' to find required one" );
 	return result[ 0 ];
 }
 
@@ -245,7 +253,7 @@ function FindTrack( tracklist, title )
 function FindChartSharedNew( track, chartTag, chartLevelText )
 {
 	if( ["S", "Sp", "D", "Dp"].indexOf( chartTag ) < 0 )
-		throw "Unknown chartTag '" + chartTag + "'";
+		throw new Error( "Unknown chartTag '" + chartTag + "'" );
 
 	for( var mixID of mixesOrder )
 	{
@@ -260,7 +268,7 @@ function FindChartSharedNew( track, chartTag, chartLevelText )
 		}
 	}
 
-	throw "Can't find " + track.title + " " + chartTag + "-" + chartLevelText;
+	throw new Error( "Can't find " + track.title + " " + chartTag + "-" + chartLevelText );
 }
 
 
@@ -319,7 +327,7 @@ function FindChart( track, chartDescr )
 		{
 			var chart = _.findWhere( track[ mixID ], { tag: chartTag, } );
 			if( ! chart )
-				throw "Can't find chart '" + chartDescr + "' in track '" + track.title + "'";
+				throw new Error( "Can't find chart '" + chartDescr + "' in track '" + track.title + "'" );
 			return chart;
 		}
 
@@ -348,7 +356,7 @@ function FindChart( track, chartDescr )
 		{
 			var chart = _.findWhere( track[ mixID ], { tag: chartTag, levelText: chartlevelText, } );
 			if( ! chart )
-				throw "Can't find chart '" + chartDescr + "' in track '" + track.title + "'";
+				throw new Error( "Can't find chart '" + chartDescr + "' in track '" + track.title + "'" );
 			return chart;
 		}
 
@@ -363,7 +371,7 @@ function FindChart( track, chartDescr )
 		}
 	}
 
-	throw "Can't find " + track.title + " '" + chartDescr + "'";
+	throw new Error( "Can't find " + track.title + " '" + chartDescr + "'" );
 }
 
 
