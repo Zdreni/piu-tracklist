@@ -4203,6 +4203,7 @@ var readableTracklist = {
 "1059":
 {
 	title: "Exceed 2 Opening", artist: "BanYa Production", bpm: "178", duration: SHORT, fromMix: "Fiesta",
+	arcadeName: "Exceed2 Opening - SHORT CUT",
 	//XX__: "S15  D18",
 	XX: "= D18`19",
 	Prime2: "=",
@@ -5763,6 +5764,7 @@ var readableTracklist = {
 {
 	title: "Final Audition episode 2-2", artist: "Yahpp", bpm: "200",
 	shortTitle: "Final Audition ep. 2-2",
+	arcadeName: "Final Audition Ep. 2-2",
 	//XX__: "S8 S17 S18 S21 S22  D19 D23 D24",
 	XX: "= S8`7 S17`16 S18`17 D19`18",  //??? S18.updated
 	// S18-XX - https://www.youtube.com/watch?v=Y3y2gjcy4d8
