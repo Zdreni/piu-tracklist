@@ -1,23 +1,26 @@
-------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 Fiesta  1.02:
-http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=86&page=3
+http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=86&page=3 (same URL for 1.02 - 1.04)
 
 - Amended some error of Ver1.01
 
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 Fiesta  1.03:
-http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=86&page=3 (same URL)
+http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=86&page=3 (same URL for 1.02 - 1.04)
 
 - Extend range of available USB
 - added up double step in Basic mode (Except china version)
 
 
+
+-----------------------------------------------------------------------------------------------------------------------
+
 Fiesta  1.04:
-http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=86&page=3 (same URL)
+http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=86&page=3 (same URL for 1.02 - 1.04)
 
 - Change commend method of speed choice in Basic mode (79795)
 - Add up speed 1X & 4X in basic mode
@@ -29,7 +32,7 @@ http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=86&page=3 (same UR
 
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 Fiesta  1.05:
 http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=87&page=2
@@ -51,7 +54,7 @@ Phantom [Intermezzo] - BanYa / single 15
 
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 Fiesta  1.06:
 http://www.ph-online.net/cgi-bin/ib3/ikonboard.cgi?act=ST;f=18;t=10943
@@ -79,17 +82,18 @@ Newly added Music Train contents:
 
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 Fiesta  1.07:
 http://www.ph-online.net/cgi-bin/ib3/ikonboard.cgi?act=ST;f=27;t=11044
 
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 Fiesta  1.10:
 http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=88&page=2
+
 
 NEW SONGS:
 
@@ -181,7 +185,7 @@ Now, it is able to access Co-op mission zone from and to Arcade freely.
 
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 Fiesta  1.20:
 http://www.ph-online.net/cgi-bin/ib3/ikonboard.cgi?act=ST;f=18;t=11184
@@ -198,7 +202,7 @@ Several bugs and problems, such as USB level icon problem, Music train EXP probl
 
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 Fiesta EX  1.10:
 http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=93&page=2
@@ -224,7 +228,7 @@ Now, players can enjoy the game in more stable environment !
 
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 Fiesta EX  1.20:
 http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=101&page=2
@@ -261,7 +265,7 @@ Several bugs have been corrected.
 
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 Fiesta EX  1.30:
 http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=107&page=2
@@ -309,7 +313,7 @@ http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=107&page=2
 
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 Fiesta EX  1.40:
 http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=110&page=2
@@ -326,7 +330,7 @@ X Treme – BanYa / Single 18
 
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 Fiesta EX  1.50:
 It has come to our attention that a song featured in the Fiesta EX 1.50 update does not have a correct license agreement. There was a miscommunication in the licensing process with "Deadbeat Boyfriend" by "Lucky Princess" and it must be removed.
@@ -335,7 +339,7 @@ We apologize to Disko Warp records and any of their affiliates for the confusion
 
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 Fiesta EX  1.51:
 https://www.facebook.com/notes/449963461698581/
@@ -476,7 +480,7 @@ Now, players can enjoy the game in much more stable environment!
 
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 Fiesta 2  1.01:
 https://www.facebook.com/notes/pump-it-up/fiesta-2s-first-official-updatev101-information/542797842415142
@@ -501,7 +505,7 @@ Now, players can enjoy the game in more stable environment!
 
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 Fiesta 2  1.02:
 https://www.facebook.com/notes/pump-it-up/fiesta-2s-2nd-official-updatev102-information/543390499022543
@@ -512,7 +516,7 @@ Under non-USB condition, once a player enters Full Mode, calls out Command Windo
 
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 Fiesta 2  1.10:
 https://www.facebook.com/notes/pump-it-up/fiesta-2s-3rd-official-updatev110-information/600743876620538
@@ -528,7 +532,7 @@ Including Arcade score calculation problem in Result, Mission clear count error,
 
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 Fiesta 2  1.20:
 https://www.facebook.com/notes/pump-it-up/fiesta-2s-4th-official-updatev120-information-pump-it-up/643401039021488
@@ -541,7 +545,7 @@ https://www.facebook.com/notes/pump-it-up/fiesta-2s-4th-official-updatev120-info
 
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 Fiesta 2  1.30:
 https://www.facebook.com/notes/pump-it-up/fiesta-2s-5th-official-updatev130-information-pump-it-up/698249043536687
@@ -552,7 +556,7 @@ https://www.facebook.com/notes/pump-it-up/fiesta-2s-5th-official-updatev130-info
 
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 Fiesta 2  1.40:
 http://www.ph-online.net/cgi-bin/ib3/ikonboard.cgi?act=ST;f=18;t=12784
@@ -560,23 +564,22 @@ https://www.facebook.com/notes/pump-it-up/fiesta-2s-6th-official-updatev140-info
 
 
 SHK - Log-In
-S4 | S7 | S10 | S18 | S21 | D10 | D20
+	S4 | S7 | S10 | S18 | S21 | D10 | D20
 
 Yak Won - Windmill
-S8 | S13 | S17 | S21 | D14 | D18 | D24
+	S8 | S13 | S17 | S21 | D14 | D18 | D24
 
 New Steps
-Pop The Track S19
-LIADZ Cranky Mix S18
-D D18
-Virtual Emotion D18
-Unique S15, D16
-Elise S22, D23
+	Pop The Track S19
+	LIADZ Cranky Mix S18
+	D D18
+	Virtual Emotion D18
+	Unique S15, D16
+	Elise S22, D23
 
 
 
-
-------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 Fiesta 2  1.50:
 https://www.facebook.com/notes/pump-it-up/fiesta-2s-7th-official-updatev150-information-pump-it-up/835278706500386
@@ -629,7 +632,7 @@ https://www.facebook.com/notes/pump-it-up/fiesta-2s-7th-official-updatev150-info
 
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 Fiesta 2  1.51:
 https://www.facebook.com/notes/pump-it-up/fiesta-2s-8th-official-updatev151-information-pump-it-up/853291654699091
@@ -639,7 +642,7 @@ https://www.facebook.com/notes/pump-it-up/fiesta-2s-8th-official-updatev151-info
 
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 Fiesta 2  1.60:
 https://www.facebook.com/notes/pump-it-up/fiesta-2s-9th-official-updatev160-information-pump-it-up/909231745771748
@@ -684,7 +687,8 @@ https://www.facebook.com/notes/pump-it-up/fiesta-2s-9th-official-updatev160-info
 4. Trivial bugs fixed
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Fiesta 2  1.61:
 https://www.facebook.com/notes/pump-it-up/fiesta-2s-10th-official-updatev161-information-pump-it-up/931017686926487
@@ -696,7 +700,7 @@ https://www.facebook.com/notes/pump-it-up/fiesta-2s-10th-official-updatev161-inf
 
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime  1.01:
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1010-update-information/1008001449228110
@@ -763,7 +767,8 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1010-update-information
 6.  Trivial bugs fixed
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime  1.02:
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1020-update-information/1025983457429909
@@ -816,7 +821,8 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1020-update-information
 4.  Trivial bugs fixed
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime  1.03:
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1030-update-information/1045108392184082
@@ -870,7 +876,8 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1030-update-information
   2) Avata  : 26 Avatars added
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime  1.04:
 https://www.facebook.com/piugame/posts/1067527343275520
@@ -911,7 +918,8 @@ Step chart : S12, S17, S19, S21
 4. bugs fixed
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime  1.05:
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1050-update-information/1083852074976380
@@ -967,7 +975,8 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1050-update-information
 5. Bugs fixed!
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime  1.06:
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1060-update-information/1102556116439309
@@ -1034,7 +1043,8 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1060-update-information
 5. Bugs fixed!
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime  1.07:
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1070-update-information/1121502457878008
@@ -1134,7 +1144,8 @@ Bugfix.
 Thanks!!
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime  1.08:
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1080-update-information/1138596482835272
@@ -1194,7 +1205,8 @@ WEB pages of UCS will be opened in 28, August, too.
 Please refer to the UCS WEB page for the details.
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime  1.09
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1090-update-information/1158163230878597
@@ -1265,14 +1277,17 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1090-update-information
   5) Canon D
       Step chart : S09, S20, D22, D24
 
+
 4. Unlocked Step charts
  1) Sugar Conspiracy Theory : S15, S18, S19, D17, D20 -released
  2) Move That Body! : S17, S20, D18 - released!
 
+
 5. Bugs fix.
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime  1.10
 https://www.facebook.com/notes/1175368725824714/
@@ -1355,7 +1370,8 @@ https://www.facebook.com/notes/1175368725824714/
 Thanks!!
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime  1.11
 https://www.facebook.com/notes/1189158797779040/
@@ -1462,7 +1478,8 @@ https://www.facebook.com/notes/1189158797779040/
 * Step charts are unlocked only below level 19
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime  1.12
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1120-update-information/1209014152460171
@@ -1626,7 +1643,8 @@ The songs listed below are moved to J-MUSIC Channel.
   (Extra PP will be added automatically in an hour.)
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime  1.13
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1130-update-information/1230466223648297
@@ -1701,7 +1719,8 @@ Arcade location name is now indicated in game result screen
 6. Minor bugs fixed.
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime  1.14
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1140-update-information/1249949081700011
@@ -1797,7 +1816,8 @@ Quest “Chapter14” is updated.
 Thank you.
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime 1.15
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1150-update-information/1281991668495752
@@ -1895,7 +1915,8 @@ Quest “Chapter15” is updated.
     - VJ judgement bug in Shortcut, Remix and Fullsong was fixed.
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime  1.16
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1160-update-information/1303524496342469
@@ -1987,7 +2008,8 @@ It is now available to play for 2 players in Rank mode of event mode
 7.  Minor bugs fixed.
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime  1.17
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1170-update-information/1323575054337413
@@ -2077,7 +2099,8 @@ Step chart : S16, D10, D15, D22
 All locked step charts are unlocked in EVENT mode and will be available until 1.18.0 update
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime  1.17.1
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1180-update-delay-notice/1347936445234607
@@ -2090,7 +2113,8 @@ In order to update 1.18.0, download 1.17.1 update file to USB from official webs
 If 1.17.1 update is successfully done, 1.18.0 update by online is available.
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime  1.18
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1180-update-information/1348601531834765
@@ -2141,7 +2165,8 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1180-update-information
         Step chart : S19
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime  1.19
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1190-update-information/1369478283080423
@@ -2282,7 +2307,8 @@ Quest “Chapter19” is updated.
 - RANDOM FOR WPF 2016 channel is deleted.
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime  1.20
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1200-update-information/1395918663769718
@@ -2300,7 +2326,6 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1200-update-information
         Artist :  ETIA.
         BPM : 136
         Default step chart :  S01, S04, S09, S15, S18, D10, D16, D19
-
 
 
 
@@ -2324,6 +2349,7 @@ Quest “Chapter20” is updated.
         Step chart :  D18, D23, D24, D27
 
 
+
 3. Unlocked Step Charts
 
 1)	Song :  Amphitryon
@@ -2331,11 +2357,11 @@ Quest “Chapter20” is updated.
 
 
 
-
 4. Minor bugs fixed
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime  1.21
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1210-update-information/1431142530247331
@@ -2407,7 +2433,8 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1210-update-information
  See you next PRIME
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime  1.22
 http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=293
@@ -2425,7 +2452,8 @@ PUMP IT UP 2015 PRIME online service is end.
 Thank you.
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime 2  1.01.0:
 https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1010-update-notice/1571313309563585
@@ -2467,7 +2495,8 @@ https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1010-update-notice/157
 - We apologize for any caused inconveniences.
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime 2  1.02.0:
 https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1020-update-notice/1657768780918037
@@ -2501,7 +2530,8 @@ https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1020-update-notice/165
 - Minor bug fixing
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime 2  1.02.1:
 https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1021-update-notice/1665491240145791/
@@ -2515,7 +2545,8 @@ Update is as follow.
 - fixed problem that some machines reboot when it enters system information.
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime 2  1.03:
 https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1030-update-notice/1665490500145865/
@@ -2596,7 +2627,8 @@ Following contents are updated.
 - You can check the info of registered rivals in rival UI at the bottom of step select screen after you login to the game.
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime 2  1.04:
 https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1040-update-notice/1732628556765392/
@@ -2661,7 +2693,8 @@ https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1040-update-notice/173
 - Minor bug fixing
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime 2  1.05:
 https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1050-update-notice/1754622061232708/
@@ -2749,7 +2782,8 @@ June 30th PUMP IT UP 2015 PRIME online service is end.
 - Minor bug fixing
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime 2  1.05.1:
 https://www.facebook.com/notes/pump-it-up/hotfix-1051/1760300200664894/
@@ -2761,7 +2795,8 @@ We found a problem and 1.05.0 and have fixed it urgently in this 1.05.1
 - Bug : fixed a bug the leftmost step chart is played forcibly  when Arcade song is played after Questzone play.
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime 2  1.06
 https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1060-update-notice/1803260489702198/
@@ -2850,7 +2885,8 @@ Webcam function dedicated to LX cabinet is added.
      Website uploading function is on developing and will be updated later.
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime 2  1.07
 https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1070-update-notice/1811354622226118/
@@ -2931,7 +2967,8 @@ Quest “Chapter3” is updated.
         Step chart :  S11, S16, S21, D24
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime 2  1.08
 https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1080-update-notice/1863703416991238/
@@ -2991,7 +3028,8 @@ We deeply appreciate for the people provided the steps for it.
 3. Minor Bug Fixing
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime 2  1.09
 https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1090-update-notice/1871047812923465/
@@ -3052,7 +3090,8 @@ Quest “Chapter4” is updated.
     Step chart :   S08, S15, D17, D25
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime 2  1.10
 https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1100-update-notice/1938909692803943/
@@ -3117,7 +3156,8 @@ Quest “Chapter5” is updated.
 4. Minor bug fixing
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime 2  2.00
 https://www.facebook.com/notes/pump-it-up/piu-prime2-2018-2000-update-notice/1976605012367744/
@@ -3241,7 +3281,8 @@ New avatars can be found on the avatar menu of the PIU official hompage (www.piu
 Some graphics have been changed for PRIME2 2018.
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime 2  2.00.1
 http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=305&sca=UPDATE
@@ -3256,7 +3297,8 @@ We found a problem about 2.00.0 update and have fixed it urgently in this 2.00.1
 - Some quest zone steps clear condition problems has been fixed.
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime 2  2.01
 http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=307&sca=UPDATE
@@ -3319,7 +3361,8 @@ UCS page and systems will be opened together in the end of March, 2018.
 We will look forward to upgrading UCS as long as you wait.
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime 2  2.02
 http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=308&sca=UPDATE
@@ -3379,7 +3422,8 @@ We will do our best to use UCS with AM.PASS card.
 Thank you.
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime 2  2.03
 http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=317&sca=UPDATE
@@ -3452,8 +3496,9 @@ https://www.facebook.com/notes/pump-it-up/piu-2018-prime2-2030-update-notice/212
 3. Quest zone
 Quest “Chapter8” is updated.
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
 
+
+-----------------------------------------------------------------------------------------------------------------------
 
 Prime 2  2.03.1
 http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=318&sca=UPDATE
@@ -3470,10 +3515,12 @@ We found bugs and v2.03.0 and have fixed it urgently in this v2.03.1
 We are very sorry for this inconvenience.
 
 
+
 -----------------------------------------------------------------------------------------------------------------------
 
 Prime 2  2.03.2
 (prime2_231.bin)
+
 
 
 -----------------------------------------------------------------------------------------------------------------------
@@ -3576,6 +3623,7 @@ Step chart : D25
 Quest “Chapter9” is updated.
 
 
+
 -----------------------------------------------------------------------------------------------------------------------
 
 Prime 2  2.05
@@ -3665,6 +3713,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2018-prime2-v2050-update-notice/23
 Quest “Chapter 10” is updated.
 
 
+
 -----------------------------------------------------------------------------------------------------------------------
 
 Prime 2  2.05.1
@@ -3685,16 +3734,19 @@ Prime XX 1.00.1
 (piu_xx_000.bin)
 
 
+
 -----------------------------------------------------------------------------------------------------------------------
 
 Prime XX 1.00.2
 (piu_xx_001.bin)
 
 
+
 -----------------------------------------------------------------------------------------------------------------------
 
 Prime XX 1.00.3
 (piu_xx_002.bin)
+
 
 
 -----------------------------------------------------------------------------------------------------------------------
@@ -3888,6 +3940,7 @@ http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=333
 You can now match up game play with players all over the world!
 
 
+
 -----------------------------------------------------------------------------------------------------------------------
 
 Prime XX  1.02 (1.02.1)
@@ -4014,6 +4067,7 @@ http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=345
 Fixed a bug of v1.02.0 that occurred when one heart left.
 
 
+
 -----------------------------------------------------------------------------------------------------------------------
 
 Prime XX  1.02.2
@@ -4022,6 +4076,7 @@ https://www.facebook.com/piugame/posts/2731504283544476
 (piu_xx_021.bin)
 
 This is "1949 Song and BGA modification" and "Meteo5cience song information change" patch of PIU XX after v1.02.0.
+
 
 
 -----------------------------------------------------------------------------------------------------------------------
@@ -4143,8 +4198,280 @@ https://drive.google.com/file/d/1Zj_jk6gGepx2_747ZJYY2r1FWVonaD9p/view
 	Step charts : D25
 
 
+
 -----------------------------------------------------------------------------------------------------------------------
 
+Prime XX  1.03.1
+
+(piu_xx_030.bin)
+
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Prime XX  1.04
+
+https://www.facebook.com/piugame/posts/2934237346604501
+https://drive.google.com/file/d/19-X9bnv34Qlr9GiywRkbBjpYIK96TX6v/view
+(piu_xx_031.bin)
+
+
+1. New Songs
+
+1) Title : Black Cat
+	Artist : Turbo
+	BPM : 130.866
+	Category : K-POP
+	Step charts : S2, S4, S6, S9, S14, D7, D16
+	S17, D18 (Unlocked step)
+
+2) Title : King of Sales
+	Artist : Norazo
+	BPM : 150
+	Category : K-POP
+	Step charts : S3, S5, S8, S14, S18, D9, D19, CO-OP
+	S21, D23 (Unlocked step)
+
+3) Title : HEART RABBIT COASTER
+	Artist : Nato
+	BPM : 200
+	Category : Original
+	Step charts : S11, S14, S17, D13, D18
+	S21, S23, D22, D25 (Unlocked step)
+
+4) Title : Tantanmen
+	Artist : Memme
+	BPM : 185
+	Category : Original
+	Step charts : S4, S7, S11, S14, S17, D13, D20
+	S20, D23 (Unlocked step)
+
+5) Title : F(R)IEND
+	Artist : D_AAN
+	BPM : 200
+	Category : Original
+	Step charts : S10, S15, S19, D12, D17
+	S21, S23, D21, D25 (Unlocked step)
+
+6) Title : Rising Star
+	Artist : M2U
+	BPM : 140
+	Category : XROSS/O2JAM
+	Step charts : S6, S10, S15, D11, D17, CO-OP
+	S17, D19 (Unlocked step)
+
+7) Title : Starry Night – FULL SONG –
+	Artist : MAMAMOO
+	BPM : 124
+	Category : K-POP
+	Step charts : S12, S17, D18
+
+8) Title : Dignity
+	Artist : Crash
+	BPM : 195
+	Category : K-POP
+	Step charts : S3, S5, S14, S17, S20, S22, D17, D19, D24
+	D26 (Unlocked step)
+
+9) Title : Dignity – FULL SONG –
+	Artist : Crash
+	BPM : 195
+	Category : K-POP
+	Step charts : S15, S19, D18, D22
+
+
+
+2. New Step Charts
+
+1) Title : Papasito (feat. KuTiNA)
+	Step charts : D19, DP3
+
+2) Title : Desaparecer
+	Step charts : S18, D19
+
+3) Title : Jonathan's Dream
+	Step charts : S18, D19
+
+4) Title : Conflict
+	Step charts : S15 , CO-OP
+
+5) Title : Campanella
+	Step charts : CO-OP
+
+6) Title : I'm so sick
+	Step charts : CO-OP
+
+7) Title : Boong Boong (Feat. Sik-K) (Prod. GroovyRoom)
+	Step charts : CO-OP, DP5
+
+8) Title : GOOD BYE
+	Step charts : D21 (Unlocked step)
+
+9) Title : 1949
+	Step charts : D26 (Unlocked step)
+
+10) Title : Super Capriccio
+	Step charts : DP4
+
+11) Title : Tritium
+	Step charts : DP4
+
+12) Title : Cross Over
+	Step charts : DP4
+
+13) Title : Silver Beat
+	Step charts : DP3
+
+14) Title : Passing Rider
+	Step charts : DP3
+
+15) Title : Anguished Unmaking
+	Step charts : DP3
+
+16) Title : Twist of Fate (feat. Ruriling)
+	Step charts : DP4
+
+17) Title : HTTP
+	Step charts : DP4
+
+18) Title : Up & Up (Produced by AWAL)
+	Step charts : DP5
+
+19) Title : Travel to Future
+	Step charts : DP3
+
+20)Title : Rave’til the earth’s end
+	Step charts : DP3
+
+21) Title : Awakening
+	Step charts : DP2
+
+22) Title : Escape
+	Step charts : DP4
+
+23) Title : Waltz of Doge
+	Step charts : DP3
+
+24) Title : Energetic
+	Step charts : DP3
+
+25) Title : Beautiful
+	Step charts : DP3
+
+26) Title : Pick Me (Nayana)
+	Step charts : DP3
+
+27) Title : Really Really
+	Step charts : DP3
+
+28) Title : Hush
+	Step charts : DP4
+
+29) Title : V3
+	Step charts : DP2
+
+30)Title : The Festival of The Ghost 2
+	Step charts : DP5
+
+31) Title : Black Dragon
+	Step charts : DP4
+
+32) Title : BS Power Explosion
+	Step charts : DP5
+
+33) Title : Visual Dream II (In Fiction)
+	Step charts : DP3
+
+34) Title : Infinity
+	Step charts : DP4
+
+35) Title : Gothique Resonance
+	Step charts : DP4
+
+36) Title : Donatello
+	Step charts : DP4
+
+37) Title : Ice of Death
+	Step charts : DP3
+
+38) Title : The Little Prince
+	Step charts : DP5
+
+39) Title : Timing
+	Step charts : DP4
+
+40) Title : Time for the Moon Night
+	Step charts : DP4
+
+41) Title : You And I
+	Step charts : DP3
+
+42) Title : Rage of Fire
+	Step charts : DP3
+
+43) Title : Nihilism -Another Ver.-
+	Step charts : DP4
+
+
+
+3. Mission zone update
+
+1) Title : Pumptris 8Bit ver.
+	Step charts : S10
+
+2) Title : LOVE SCENARIO
+	Step charts : D14
+
+3) Title : HANN (Alone)
+	Step charts : D15
+
+4) Title : 8 6
+	Step charts : S16
+
+5) Title : %X (Percent X)
+	Step charts : S17
+
+6) Title : X-Tream
+	Step charts : D17
+
+7) Title : Meteorize
+	Step charts : D18
+
+8) Title : Time Attack <BLUE>
+	Step charts : D19
+
+9) Title : ASDF
+	Step charts : D19
+
+10)Title : Another Truth
+	Step charts : D20
+
+11) Title : Up & Up (Produced by AWAL)
+	Step charts : D20
+
+12)Title : I'm so sick
+	Step charts : S21
+
+13)Title : BBoom BBoom
+	Step charts : S22
+
+14)Title : BOOMERANG
+	Step charts : D23
+
+15) Title : Ignis Fatuus(DM Ashura Mix)
+	Step charts : D27
+
+
+
+4. More updates
+
+- Forgotten Vampire D20 – Step chart was modified.
+
+- Moon Light Dance CO-OP – A bug of Step chart was fixed.
+
+
+
+-----------------------------------------------------------------------------------------------------------------------
 
 
 Чеклист для добавления нового патча (для патчноутов формата Prime 2):
@@ -4152,10 +4479,11 @@ https://drive.google.com/file/d/1Zj_jk6gGepx2_747ZJYY2r1FWVonaD9p/view
  - добавить патч в список патчей в tracklist.js
  - проверить набор чартов по видео, заменить сложности ?? на реальные
  - добавить в треклист новые треки
-- не забыть указать channel (поискать на вики https://en.wikipedia.org/wiki/List_of_Pump_It_Up_songs)
-- найти sorting order
+ - не забыть указать channel (поискать на вики https://en.wikipedia.org/wiki/List_of_Pump_It_Up_songs)
+ - найти sorting order
+ - проверить кол-во человек для коопа
  - скачать баннеры для всех чартов и указать им настройки импорта в Unity3D
  - дополнить таблицу анлоков
-- дополнить док по квестзоне
+ - дополнить док по квестзоне
 
 
