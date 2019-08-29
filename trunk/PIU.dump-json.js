@@ -82,7 +82,12 @@ function CopyChartWithRemovedObviousFieldsForApp( track, mixID, chart )
 		delete chart.unlockPatchIndex;
 	}
 
-	delete chart.isLocked;
+	if( chart.isLocked )
+	{
+		if( ! chart.unlockDescr )
+			throw new Error( "No unlock condition specified for " + track.title + " " + chart.text );
+		delete chart.isLocked;
+	}
 
 	track[ mixID ][ chartIndex ] = chart;
 }
@@ -93,7 +98,13 @@ function CopyChartWithRemovedObviousFieldsForDB( track, mixID, chart )
 	var chartIndex = chart.shared.index;
 	delete chart.shared;
 	delete chart.fromMixID;
-	delete chart.isLocked;
+
+	if( chart.isLocked )
+	{
+		if( ! chart.unlockDescr )
+			throw new Error( "No unlock condition specified for " + track.title + " " + chart.text );
+		delete chart.isLocked;
+	}
 
 	if( isNaN( chart.levelNum )  ||  chart.levelNum === null )
 		delete chart.levelNum;
@@ -163,7 +174,7 @@ try
 }
 catch( exc )
 {
-	errors.push( exc + ":<br>" + exc.stack.replace( "at", "<br>&nbsp;at" ) );
+	errors.push( exc + ":<br>" + exc.stack.replace( " at", "<br>&nbsp;at" ) );
 	console.error( exc );
 }
 
@@ -283,7 +294,7 @@ function DumpTracklist()
 		}
 		catch( exc )
 		{
-			errors.push( exc + ":<br>" + exc.stack.replace( "at", "<br>&nbsp;at" ) );
+			errors.push( exc + ":<br>" + exc.stack.replace( " at", "<br>&nbsp;at" ) );
 			console.log( "Catched ", exc );
 		}
 	}
