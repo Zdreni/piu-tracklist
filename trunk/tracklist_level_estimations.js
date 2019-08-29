@@ -157,11 +157,13 @@ var tracklistVotes = {
 	"Destination  S-19": {
 		Dino: 20,
 	},
+/*
 	"Dignity  D-13": {
 		Dino: 16,
 		Grumd: 16,
 		Mindless: 16,
 	},
+*/
 	"Dignity  D-18": {
 		Dino: 19,
 		Mindless: 19,

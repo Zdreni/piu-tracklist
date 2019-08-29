@@ -184,7 +184,7 @@ var mixes =
 	                        "2.00", "2.01", "2.02", "2.03", "2.04", "2.05", "2.05.1"] },
 
 	'XX':       { style: "new",
-	              patches: ["1.00", "1.01", "1.02", "1.03"] },
+	              patches: ["1.00", "1.01", "1.02", "1.03", "1.04"] },
 };
 
 /*
@@ -221,26 +221,26 @@ function Normalized( title )
 
 function FindTrack( tracklist, title )
 {
+	var track = tracklist[ title ];
+	if( track )
+		return track;
+
 	var arr = title.split( " @ " );
-	title = arr[ 0 ];
+	var normTitle = Normalized( arr[ 0 ] );
 	var ID = arr[ 1 ];
+	if( ID )
+	{
+		track = tracklist[ ID ];
+		if( track  &&  ( Normalized( track.title ) === normTitle  ||  ( track.shortTitle  &&  Normalized( track.shortTitle ) === normTitle ) ) )
+			return track;
+	}
 
 	//var result = _.where( tracklist, { title: trackTitle } );
-	var normTitle = Normalized( title );
 	var result = _.filter( tracklist, function( item, key )
 		{
 			// this match not working well for [FULL] tracks, 'cause their title is identical to arcade title
 			//var titleMatch = Normalized( item.title ) === normTitle  ||  ( item.shortTitle  &&  Normalized( item.shortTitle ) === normTitle );
-			if( ID )
-			{
-				var titleMatch = Normalized( item.title ) === normTitle  ||  ( item.shortTitle  &&  Normalized( item.shortTitle ) === normTitle );
-				return titleMatch  &&  key == ID;
-			}
-			else
-			{
-				var titleMatch = Normalized( item.title ) === normTitle;
-				return titleMatch;
-			}
+			return Normalized( item.title ) === normTitle;
 		} );
 	if( result.length === 0 )
 		throw new Error( "Can't find track '" + title + "'" );

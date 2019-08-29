@@ -59,13 +59,13 @@ function On( mixID, tillPatch )
 function FindChartForLock( track, mixID, chartText )
 {
 	if( ! track[ mixID ] )
-		throw new Error( "No '" + mixID + "' data for '" + track.title + "'" );
+		throw new Error( "No '" + mixID + "' data for track '" + track.title + "' in mix '" + mixID + "'" );
 
 	for( var chart of track[ mixID ] )
 		if( chart.text === chartText )
 			return chart;
 
-	throw new Error( "Can't find " + track.title + "  " + chartText );
+	throw new Error( "Can't find chart '" + track.title + "  " + chartText + "'" );
 }
 
 function Lock( trackTitle, charts, description, tillPatch )
@@ -80,6 +80,8 @@ function Lock( trackTitle, charts, description, tillPatch )
 	for( var chartText of chartSplits )
 	{
 		var chart = FindChartForLock( track, currentMixID, chartText );
+		//if( ! chart.isLocked )
+		//	throw new Error( "Chart " + track.title + "  " + chartText + " isn't supposed to be locked" );
 		if( chart.unlockDescr )
 			throw new Error( "Duplicate unlock description for " + track.title + "  " + chartText );
 		chart.unlockDescr = description;
@@ -513,7 +515,7 @@ function ApplyUnlocks()
 		Lock( "BBoom BBoom", "S15", "at least S13 A" )
 		Lock( "BBoom BBoom", "D18", "at least S on S15 & D15" )
 
-		Lock( "Nekkoya(Pick Me)", "S17", "at least S15 A" )
+		Lock( "16_Nekkoya_Pick_Me", "S17", "at least S15 A" )
 
 		Lock( "Boomerang", "S14", "AM.Pass Login" )
 		Lock( "Boomerang", "S17", "at least S14 A" )
@@ -539,8 +541,8 @@ function ApplyUnlocks()
 		Lock( "Very Nice!", "D15", "at least S14 A" )
 		Lock( "Very Nice!", "D18", "at least D15 S" )
 
-		Lock( "Fly High", "S18", "at least S15 A" )
-		Lock( "Fly High", "D19", "at least D16 A" )
+		Lock( "16_Fly_High", "S18", "at least S15 A" )
+		Lock( "16_Fly_High", "D19", "at least D16 A" )
 
 		Lock( "Hann(Alone)", "S16", "AM.Pass Login" )
 
@@ -712,6 +714,35 @@ function ApplyUnlocks()
 
 		Lock( "Higgledy Piggledy", "D20", "Clear 32 mission zone quests" )
 		Lock( "Monolith", "S21", "Clear 40 mission zone quests" )
+
+	// 1.04
+		Lock( "16_Black_Cat", "S17", "???" )
+		Lock( "16_Black_Cat", "D18", "???" )
+
+		Lock( "16_Good_Bye", "D21", "Clear 48 mission zone quests" )
+
+		Lock( "16_King_of_Sales", "S21", "at least S on S18" )
+		Lock( "16_King_of_Sales", "D23", "at least S on D19" )
+
+		Lock( "16_1949", "D26", "clear Ignis D27 mission" )
+
+		Lock( "16_Heart_Rabbit_Coaster", "S21", "???" )
+		Lock( "16_Heart_Rabbit_Coaster", "S23", "???" )
+		Lock( "16_Heart_Rabbit_Coaster", "D22", "at least S on D13, D18" )
+		Lock( "16_Heart_Rabbit_Coaster", "D25", "at least A on D22" )
+
+		Lock( "16_Tantanmen", "S20", "at least S on S17" )
+		Lock( "16_Tantanmen", "D23", "???" )
+
+		Lock( "16_F_R_IEND", "S21", "at least S on S10, S14, S17" )
+		Lock( "16_F_R_IEND", "S23", "???" )
+		Lock( "16_F_R_IEND", "D21", "???" )
+		Lock( "16_F_R_IEND", "D25", "???" )
+
+		Lock( "16_Rising_Star", "S17", "???" )
+		Lock( "16_Rising_Star", "D19", "at least A on D17" )
+
+		Lock( "Dignity", "D26", "???" )
 }
 
 initFuncs.push( ApplyUnlocks );
