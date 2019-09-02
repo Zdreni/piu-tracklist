@@ -663,9 +663,9 @@ function ApplyUnlocks()
 		Lock( "Nihilism -Another Ver.-", "D19", "at least Love is a Danger Zone 2 Another S17 A" )
 		Lock( "Nihilism -Another Ver.-", "D23", "at least LIADZ 2 Another S16/S17 S" )
 
-		Lock( "8 6  [FULL]", "S16", "Stage pass 86 S16 & Nakakapagpabagabag S15" )
-		Lock( "8 6  [FULL]", "S21", "Stage pass 86 S20 & Nakakapagpabagabag S19" )
-		Lock( "8 6  [FULL]", "D23", "Stage pass 86 D21 & Nakakapagpabagabag D20" )
+		Lock( "8 6  [FULL]", "S16", "stage pass 86 S16 & Nakakapagpabagabag S15" )
+		Lock( "8 6  [FULL]", "S21", "stage pass 86 S20 & Nakakapagpabagabag S19" )
+		Lock( "8 6  [FULL]", "D23", "stage pass 86 D21 & Nakakapagpabagabag D20" )
 
 		Lock( "Jump", "D18", "Clear 16 mission zone quests" )
 
@@ -692,7 +692,7 @@ function ApplyUnlocks()
 		Lock( "Allegro con Fuoco [FULL]", "S23", "at least A+ on Con Fuoco S22 + Piu Mosso S19 + Furioso S20" )
 		Lock( "Allegro con Fuoco [FULL]", "D25", "at least A+ on Con Fuoco D23 + Piu Mosso D19 + Furioso D20" )
 
-		Lock( "Super Fantasy", "S20", "Clear 24 mission zone quests" )
+		Lock( "Super Fantasy", "S20", "clear 24 mission zone quests" )
 
 	// 1.03
 		Lock( "Starry Night", "S16, D17", "at least SSS on S1" )
@@ -712,37 +712,37 @@ function ApplyUnlocks()
 		Lock( "Conflict", "S22", "at least S on S17 and S19" )
 		Lock( "Conflict", "D24", "at least S on D21" )
 
-		Lock( "Higgledy Piggledy", "D20", "Clear 32 mission zone quests" )
-		Lock( "Monolith", "S21", "Clear 40 mission zone quests" )
+		Lock( "Higgledy Piggledy", "D20", "clear 32 mission zone quests" )
+		Lock( "Monolith", "S21", "clear 40 mission zone quests" )
 
 	// 1.04
-		Lock( "16_Black_Cat", "S17", "???" )
-		Lock( "16_Black_Cat", "D18", "???" )
+		Lock( "16_Black_Cat", "S17", "at least A sb on S14" )
+		Lock( "16_Black_Cat", "D18", "at least A sb on D16" )
 
-		Lock( "16_Good_Bye", "D21", "Clear 48 mission zone quests" )
+		Lock( "16_Good_Bye", "D21", "clear 48 mission zone quests" )
 
 		Lock( "16_King_of_Sales", "S21", "at least S on S18" )
-		Lock( "16_King_of_Sales", "D23", "at least S on D19" )
+		Lock( "16_King_of_Sales", "D23", "at least SS on D19" )
 
 		Lock( "16_1949", "D26", "clear Ignis D27 mission" )
 
-		Lock( "16_Heart_Rabbit_Coaster", "S21", "???" )
-		Lock( "16_Heart_Rabbit_Coaster", "S23", "???" )
+		Lock( "16_Heart_Rabbit_Coaster", "S21", "at least A on S11, S14 and S17" )
+		Lock( "16_Heart_Rabbit_Coaster", "S23", "at least S on S11, S14, S17 and A+ on S21" )
 		Lock( "16_Heart_Rabbit_Coaster", "D22", "at least S on D13, D18" )
-		Lock( "16_Heart_Rabbit_Coaster", "D25", "at least A on D22" )
+		Lock( "16_Heart_Rabbit_Coaster", "D25", "at least S on D13, D18 and A+ on D22" )
 
 		Lock( "16_Tantanmen", "S20", "at least S on S17" )
-		Lock( "16_Tantanmen", "D23", "???" )
+		Lock( "16_Tantanmen", "D23", "at least S on D20" )
 
-		Lock( "16_F_R_IEND", "S21", "at least S on S10, S14, S17" )
-		Lock( "16_F_R_IEND", "S23", "???" )
-		Lock( "16_F_R_IEND", "D21", "???" )
-		Lock( "16_F_R_IEND", "D25", "???" )
+		Lock( "16_F_R_IEND", "S21", "at least S on S10, S15 and S19" )
+		Lock( "16_F_R_IEND", "S23", "at least S on S10, S15, S19 and A+ on S21" )
+		Lock( "16_F_R_IEND", "D21", "at least S on D12 and D17" )
+		Lock( "16_F_R_IEND", "D25", "at least S on D12, D17 and D21" )
 
-		Lock( "16_Rising_Star", "S17", "???" )
-		Lock( "16_Rising_Star", "D19", "at least A on D17" )
+		Lock( "16_Rising_Star", "S17", "at least A+ on S15" )
+		Lock( "16_Rising_Star", "D19", "at least A+ on D17" )
 
-		Lock( "Dignity", "D26", "???" )
+		Lock( "Dignity", "D26", "at least S on S14, S17, S20, D17, D19 and A+ on S22, D24" )
 }
 
 initFuncs.push( ApplyUnlocks );
