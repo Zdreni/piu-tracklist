@@ -2504,7 +2504,7 @@ var readableTracklist = {
 	title: "Ignis Fatuus (DM Ashura Mix)", artist: "BanYa & DM Ashura", channel: ORIGINAL, bpm: "220",
 	shortTitle: "Ignis Fatuus",
 	//XX__: "S10 S15 S19 S22  D17 D18 D23 D25  Co-op x2",
-	XX: "= S10`9 S22`23 D17`15 D18`19 -D17",
+	XX: "= S10`9 S22`23 -D17 D17`15 D18`19",
 	Prime2: "=",
 	Prime: "= -D24 -D26",
 	Fiesta2: "S9 S15 S19 S23 D15 D17 D19 D23 D25 Dp??(x2)  @1.50 D24 D26",
