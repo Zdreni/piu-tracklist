@@ -742,7 +742,7 @@ function ApplyUnlocks()
 		Lock( "16_Rising_Star", "S17", "at least A+ on S15" )
 		Lock( "16_Rising_Star", "D19", "at least A+ on D17" )
 
-		Lock( "Dignity", "D26", "at least S on S14, S17, S20, D17, D19 and A+ on S22, D24" )
+		Lock( "Dignity", "D26", "at least 5mln score on D24" )
 }
 
 initFuncs.push( ApplyUnlocks );
