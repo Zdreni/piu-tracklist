@@ -8480,7 +8480,9 @@ function RemoveNewStyleChart( track, mixID, chartText )
 {
 	var index = _.findIndex( track[ mixID ], function( item ) { return item.text === chartText; } );
 	if( index < 0)
-		throw new Error( "Can't find " + track.title + " " + chartText + " on " + mixID );
+		throw new Error( "Can't find '" + track.title + "'' " + chartText + " chart @ " + mixID );
+	if( index != _.findLastIndex( track[ mixID ], function( item ) { return item.text === chartText; } ) )
+		throw new Error( "Several '" + track.title + "'' " + chartText + " charts @ " + mixID );
 	track[ mixID ].splice( index, 1 );
 }
 
@@ -8562,6 +8564,14 @@ function PreprocessNewStyleStringCharts( track, mixID )
 		{
 			throw new Error( "Unrecognized '" + track.title + "' chart token :'" + token + "'" );
 		}
+	}
+
+	var chartLabels = new Set();
+	for( var chart of track[ mixID ] )
+	{
+		if( chartLabels.has( chart.text ) )
+			throw new Error( "Duplicate chart '" + chart.text + "' in track '" + track.title + "' @ " + mixID );
+		chartLabels.add( chart.text );
 	}
 }
 
