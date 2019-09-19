@@ -4249,7 +4249,7 @@ https://drive.google.com/file/d/19-X9bnv34Qlr9GiywRkbBjpYIK96TX6v/view
 5) Title : F(R)IEND
 	Artist : D_AAN
 	BPM : 200
-	Category : Original
+	Category : Original (nope: World)
 	Step charts : S10, S15, S19, D12, D17
 	S21, S23, D21, D25 (Unlocked step)
 
