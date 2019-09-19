@@ -49,8 +49,7 @@ var readableTracklist = {
 "16_Kitty_Cat":
 {
 	title: "Kitty Cat", artist: "Coconut", channel: WORLD, bpm: "128", fromMix: "Fiesta2",
-	sortingID: "1209__1", // between Ladybug 1209 and Hardkore of the North 1212
-	// altID: "",
+	arcadeID: "1210",
 	XX: "S1 S3 S5 S14 D6 D15 CoOp(x2)",
 },
 
@@ -65,15 +64,111 @@ var readableTracklist = {
 
 // \16 - XX
 
-"16_Starry_Night_FULL":
+"16_Wedding_Crashers":
 {
-	title: "Starry Night   [FULL]", artist: "MAMAMOO", channel: KPOP, bpm: "124",
-	arcadeName: "Starry Night – FULL SONG –",
-	sortingID: "", // arcadeID: "",
-	XX: "@1.04 S12 S17 D18",
+	title: "Wedding Crashers", artist: "SHK", channel: ORIGINAL, bpm: "165",
+	arcadeID: "1601",
+	XX: "S4 S6 S10 S16 S18.lock S21.lock D7 D13 D19.lock D22.lock CoOp(x3).lock  @1.01 Dp4",
 },
 
+"16_Obliteration":
+{
+	title: "Obliteration", artist: "ATAS", channel: ORIGINAL, bpm: "150",
+	arcadeID: "1603",
+	XX: "S7 S14 S17.lock D10 D15.lock D19.lock  @1.01 Dp5",
+},
 
+"16_1949":
+{
+	title: "1949", artist: "SLAM", channel: ORIGINAL, bpm: "220",
+	arcadeID: "1605",
+	XX: "@1.02 S16 D21 D28 S21.lock S23.lock  @1.04 D26.lock",
+},
+
+"16_I_Want_U":
+{
+	title: "I Want U", artist: "MAX", channel: ORIGINAL, bpm: "156",
+	arcadeID: "1608",
+	XX: "S3 S7 S11 S16 S19.lock D6 D13 D17.lock D21.lock  @1.01 Dp5",
+},
+
+"16_Nyarlathotep":
+{
+	title: "Nyarlathotep", artist: "Nato", channel: ORIGINAL, bpm: "200",
+	arcadeID: "1615",
+	XX: "S12 S16 S18.lock S21 S23.lock D16 D20.lock D23.lock D25.lock  @1.01 Dp4",
+},
+
+"16_Heart_Rabbit_Coaster":
+{
+	title: "Heart Rabbit Coaster", artist: "Nato", channel: ORIGINAL, bpm: "200",
+	arcadeName: "HEART RABBIT COASTER",
+	arcadeID: "1616",
+	XX: "@1.04 S11 S14 S17 D13 D18 S21.lock S23.lock D22.lock D25.lock",
+},
+
+"16_Skeptic":
+{
+	title: "Skeptic", artist: "Doin", channel: ORIGINAL, bpm: "200",
+	arcadeID: "1618",
+	XX: "S12.lock S18.lock S22.lock S24.lock D14.lock D22.lock D25.lock  @1.01 Dp4",
+},
+
+"16_Percent_X":
+{
+	title: "%X (Percent X)", artist: "Pory", channel: ORIGINAL, bpm: "150",
+	arcadeID: "1620",
+	XX: "S3 S6 S10 S17 S19 D9 D13 D19.lock  @1.01 Dp4",
+},
+
+"16_Le_Grand_Rouge":
+{
+	title: "Le Grand Rouge", artist: "KIEN", channel: ORIGINAL, bpm: "166",
+	arcadeID: "1622",
+	XX: "S8 S13 S17 S20.lock D19 D22.lock  @1.01 Dp5",
+},
+
+"16_Macaron_Day":
+{
+	title: "Macaron Day", artist: "HyuN", channel: ORIGINAL, bpm: "173",
+	arcadeID: "1624",
+	XX: "S12 S17 D13 D18.lock  @1.01 Dp3",
+},
+
+"16_Ice_of_Death":
+{
+	title: "Ice of Death", artist: "Fiverwater", channel: ORIGINAL, bpm: "172",
+	arcadeID: "1625",
+	XX: "@1.01 S7 S10 S17 S20.lock D11 D17 D21.lock CoOp(x2)  @1.04 Dp3",
+},
+
+"16_Poseidon":
+{
+	title: "Poseidon", artist: "Quree", channel: ORIGINAL, bpm: "160",
+	arcadeID: "1626",
+	XX: "S3 S6 S10 S14.lock S20 D8 D16 D22.lock  @1.01 Dp2",
+},
+
+"16_Vanish":
+{
+	title: "Vanish", artist: "Applesoda", channel: ORIGINAL, bpm: "174",
+	arcadeID: "1628",
+	XX: "S6 S12 S17.lock S20 D9 D12 D18.lock D22.lock  @1.01 Dp4",
+},
+
+"16_Kimchi_Fingers":
+{
+	title: "Kimchi Fingers", artist: "Garlic Squad", channel: ORIGINAL, bpm: "190",
+	arcadeID: "1630",
+	XX: "S14.lock S17.lock S20.lock D16.lock D21.lock  @1.01 Dp4",
+},
+
+"16_Tantanmen":
+{
+	title: "Tantanmen", artist: "Memme", channel: ORIGINAL, bpm: "185",
+	arcadeID: "1635",
+	XX: "@1.04 S4 S7 S11 S14 S17 D13 D20 S20.lock D23.lock",
+},
 
 "16_The_Little_Prince":
 {
@@ -100,7 +195,7 @@ var readableTracklist = {
 "16_Black_Cat":
 {
 	title: "Black Cat", artist: "Turbo", channel: KPOP, bpm: "130.866",
-	sortingID: "1646", // arcadeID: "",
+	arcadeID: "1646",
 	XX: "@1.04 S2 S4 S6 S9 S14 D7 D16 S17.lock D18.lock",
 },
 
@@ -191,7 +286,7 @@ var readableTracklist = {
 "16_King_of_Sales":
 {
 	title: "King of Sales", artist: "Norazo", channel: KPOP, bpm: "150",
-	sortingID: "1665??", // arcadeID: "",
+	arcadeID: "1665",
 	XX: "@1.04 S3 S5 S8 S14 S18 D9 D19 CoOp(x2) S21.lock D23.lock",
 },
 
@@ -203,125 +298,97 @@ var readableTracklist = {
 	XX: "@1.01 S1 S3 S5 S9 S11 S16.lock S18 D12.lock D16 D19.lock  @1.04 CoOp(x2) Dp5",
 },
 
-"16_BBoom_BBoom_FULL":
+"16_Club_Night":
 {
-	title: "BBoom BBoom  [FULL]", artist: "MOMOLAND", channel: KPOP, bpm: "126",
-	arcadeID: "16E0",
-	XX: "S17 D18",
+	title: "Club Night", artist: "Matduke", channel: WORLD, bpm: "170",
+	arcadeID: "1668",
+	XX: "S8 S16 S18.lock S22.lock D12.lock D18.lock D21.lock CoOp(x2).lock  @1.01 Dp5",
 },
 
-"16_Gashina_FULL":
+"16_86":
 {
-	title: "Gashina  [FULL]", artist: "Sunmi", channel: KPOP, bpm: "94", duration: FULL,
-	arcadeName: "Gashina - FULL SONG -",
-	arcadeID: "16E3",
-	XX: "@1.03 S15 S20 D21",
+	title: "8 6", artist: "Dasu", channel: WORLD, bpm: "167",
+	arcadeID: "1670",
+	XX: "S12.lock S16.lock S20.lock D18.lock D21.lock  @1.01 Dp3",
 },
 
-"16_Wedding_Crashers":
+"16_F_R_IEND":
 {
-	title: "Wedding Crashers", artist: "SHK", channel: ORIGINAL, bpm: "165",
-	arcadeID: "1601",
-	XX: "S4 S6 S10 S16 S18.lock S21.lock D7 D13 D19.lock D22.lock CoOp(x3).lock  @1.01 Dp4",
+	title: "F(R)IEND", artist: "D_AAN", channel: WORLD, bpm: "200",
+	arcadeID: "1675",
+	XX: "@1.04 S10 S15 S19 D12 D17 S21.lock S23.lock D21.lock D25.lock",
 },
 
-"16_Obliteration":
+"16_Conflict":
 {
-	title: "Obliteration", artist: "ATAS", channel: ORIGINAL, bpm: "150",
-	arcadeID: "1603",
-	XX: "S7 S14 S17.lock D10 D15.lock D19.lock  @1.01 Dp5",
+	title: "Conflict", artist: "Siromaru + Cranky", channel: WORLD, bpm: "160",
+	arcadeID: "1676",
+	XX: "@1.03 S6 S11 S17 S19 D13 D21 S22.lock D24.lock  @1.04 S15 CoOp(x2)",
 },
 
-"16_1949":
+"16_Imagination":
 {
-	title: "1949", artist: "SLAM", channel: ORIGINAL, bpm: "220",
-	arcadeID: "1605",
-	XX: "@1.02 S16 D21 D28 S21.lock S23.lock  @1.04 D26.lock",
+	title: "Imagination", artist: "SHK", channel: XROSS, bpm: "180",
+	arcadeID: "1678",
+	XX: "S12.lock S15.lock S19.lock D16.lock D21.lock  @1.01 Dp5",
 },
 
-"16_I_Want_U":
+"16_Black_Swan":
 {
-	title: "I Want U", artist: "MAX", channel: ORIGINAL, bpm: "156",
-	arcadeID: "1608",
-	XX: "S3 S7 S11 S16 S19.lock D6 D13 D17.lock D21.lock  @1.01 Dp5",
+	title: "Black Swan", artist: "Zeron", channel: XROSS, bpm: "175",
+	arcadeID: "1679",
+	XX: "S12.lock S14.lock S16.lock S19.lock D15.lock D22.lock  @1.01 Dp4",
 },
 
-"16_Nyarlathotep":
+"16_Obelisque":
 {
-	title: "Nyarlathotep", artist: "Nato", channel: ORIGINAL, bpm: "200",
-	arcadeID: "1615",
-	XX: "S12 S16 S18.lock S21 S23.lock D16 D20.lock D23.lock D25.lock  @1.01 Dp4",
+	title: "Obelisque", artist: "ESTi x M2U", channel: XROSS, bpm: "130",
+	arcadeID: "1680",
+	XX: "S2 S4 S7 S10 S15.lock S17.lock D11 D15.lock D17.lock CoOp(x2)  @1.01 Dp3",
 },
 
-"16_Heart_Rabbit_Coaster":
+"16_Rage_of_Fire":
 {
-	title: "Heart Rabbit Coaster", artist: "Nato", channel: ORIGINAL, bpm: "200",
-	arcadeName: "HEART RABBIT COASTER",
-	sortingID: "1616??", // arcadeID: "",
-	XX: "@1.04 S11 S14 S17 D13 D18 S21.lock S23.lock D22.lock D25.lock",
+	title: "Rage of Fire", artist: "MAX", channel: XROSS, bpm: "155",
+	arcadeID: "1681",
+	XX: "@1.02 S7 S11 S16 D10 D17 CoOp(x2) S18.lock D19.lock  @1.04 Dp3",
 },
 
-"16_Skeptic":
+"16_Xeroize":
 {
-	title: "Skeptic", artist: "Doin", channel: ORIGINAL, bpm: "200",
-	arcadeID: "1618",
-	XX: "S12.lock S18.lock S22.lock S24.lock D14.lock D22.lock D25.lock  @1.01 Dp4",
+	title: "Xeroize", artist: "FE", channel: XROSS, bpm: "200",
+	arcadeID: "1685",
+	XX: "@1.01 S12 S17 S21.lock S24.lock D18 D22.lock D25.lock",
 },
 
-"16_Percent_X":
+"16_Rising_Star":
 {
-	title: "%X (Percent X)", artist: "Pory", channel: ORIGINAL, bpm: "150",
-	arcadeID: "1620",
-	XX: "S3 S6 S10 S17 S19 D9 D13 D19.lock  @1.01 Dp4",
+	title: "Rising Star", artist: "M2U", channel: XROSS, bpm: "140",
+	arcadeID: "1686",
+	XX: "@1.04 S6 S10 S15 D11 D17 CoOp(x2) S17.lock D19.lock",
 },
 
-"16_Le_Grand_Rouge":
+"16_Loki":
 {
-	title: "Le Grand Rouge", artist: "KIEN", channel: ORIGINAL, bpm: "166",
-	arcadeID: "1622",
-	XX: "S8 S13 S17 S20.lock D19 D22.lock  @1.01 Dp5",
+	title: "Loki", artist: "Lotze", channel: XROSS, bpm: "140",
+	arcadeID: "1690",
+	XX: "S12.lock S16.lock S19.lock S21.lock D12.lock D19.lock  @1.01 Dp3",
 },
 
-"16_Macaron_Day":
+"16_Dement_After_Legend":
 {
-	title: "Macaron Day", artist: "HyuN", channel: ORIGINAL, bpm: "173",
-	arcadeID: "1624",
-	XX: "S12 S17 D13 D18.lock  @1.01 Dp3",
+	title: "Dement ~After Legend~", artist: "Lunatic Sounds", channel: XROSS, bpm: "210",
+	shortTitle: "Dement",
+	arcadeID: "1691",
+	XX: "S23.lock D26.lock  @1.01 Dp2",
 },
 
-"16_Ice_of_Death":
+"16_Nihilism":
 {
-	title: "Ice of Death", artist: "Fiverwater", channel: ORIGINAL, bpm: "172",
-	arcadeID: "1625",
-	XX: "@1.01 S7 S10 S17 S20.lock D11 D17 D21.lock CoOp(x2)  @1.04 Dp3",
-},
-
-"16_Poseidon":
-{
-	title: "Poseidon", artist: "Quree", channel: ORIGINAL, bpm: "160",
-	arcadeID: "1626",
-	XX: "S3 S6 S10 S14.lock S20 D8 D16 D22.lock  @1.01 Dp2",
-},
-
-"16_Vanish":
-{
-	title: "Vanish", artist: "Applesoda", channel: ORIGINAL, bpm: "174",
-	arcadeID: "1628",
-	XX: "S6 S12 S17.lock S20 D9 D12 D18.lock D22.lock  @1.01 Dp4",
-},
-
-"16_Kimchi_Fingers":
-{
-	title: "Kimchi Fingers", artist: "Garlic Squad", channel: ORIGINAL, bpm: "190",
-	arcadeID: "1630",
-	XX: "S14.lock S17.lock S20.lock D16.lock D21.lock  @1.01 Dp4",
-},
-
-"16_Tantanmen":
-{
-	title: "Tantanmen", artist: "Memme", channel: ORIGINAL, bpm: "185",
-	sortingID: "1631??", // arcadeID: "",
-	XX: "@1.04 S4 S7 S11 S14 S17 D13 D20 S20.lock D23.lock",
+	title: "Nihilism - Another Ver.-", artist: "Nato", channel: WORLD, bpm: "190",
+	shortTitle: "Nihilism",
+	arcadeID: "1694",
+	XX: "@1.01 S8 S15 S18 S21.lock D17 D19.lock D23.lock  @1.04 Dp4",
 },
 
 "16_Can_Can_Orpheus":
@@ -379,6 +446,36 @@ var readableTracklist = {
 	XX: "@1.02 S18 D19 S21.lock D22.lock",
 },
 
+"16_Allegro_Con_Fuoco_FULL":
+{
+	title: "Allegro Con Fuoco  [FULL]", artist: "DM Ashura", channel: WORLD, bpm: "156",
+	arcadeID: "16C5",
+	XX: "@1.02 S23.lock D25.lock",
+},
+
+"16_BBoom_BBoom_FULL":
+{
+	title: "BBoom BBoom  [FULL]", artist: "MOMOLAND", channel: KPOP, bpm: "126",
+	arcadeID: "16E0",
+	XX: "S17 D18",
+},
+
+"16_Gashina_FULL":
+{
+	title: "Gashina  [FULL]", artist: "Sunmi", channel: KPOP, bpm: "94", duration: FULL,
+	arcadeName: "Gashina - FULL SONG -",
+	arcadeID: "16E3",
+	XX: "@1.03 S15 S20 D21",
+},
+
+"16_Starry_Night_FULL":
+{
+	title: "Starry Night   [FULL]", artist: "MAMAMOO", channel: KPOP, bpm: "124",
+	arcadeName: "Starry Night – FULL SONG –",
+	arcadeID: "16E4",
+	XX: "@1.04 S12 S17 D18",
+},
+
 "16_Nyarlathotep_SHORT":
 {
 	title: "Nyarlathotep  [SHORT]", artist: "Nato", channel: ORIGINAL, bpm: "200",
@@ -409,112 +506,12 @@ var readableTracklist = {
 	XX: "@1.03 S11 S14 S18 S21 D14 D21",
 },
 
-"16_Club_Night":
-{
-	title: "Club Night", artist: "Matduke", channel: WORLD, bpm: "170",
-	arcadeID: "1668",
-	XX: "S8 S16 S18.lock S22.lock D12.lock D18.lock D21.lock CoOp(x2).lock  @1.01 Dp5",
-},
-
-"16_86":
-{
-	title: "8 6", artist: "Dasu", channel: WORLD, bpm: "167",
-	arcadeID: "1670",
-	XX: "S12.lock S16.lock S20.lock D18.lock D21.lock  @1.01 Dp3",
-},
-
-"16_F_R_IEND":
-{
-	title: "F(R)IEND", artist: "D_AAN", channel: ORIGINAL, bpm: "200",
-	sortingID: "1671??", // arcadeID: "",
-	XX: "@1.04 S10 S15 S19 D12 D17 S21.lock S23.lock D21.lock D25.lock",
-},
-
-"16_Conflict":
-{
-	title: "Conflict", artist: "Siromaru + Cranky", channel: WORLD, bpm: "160",
-	arcadeID: "1676",
-	XX: "@1.03 S6 S11 S17 S19 D13 D21 S22.lock D24.lock  @1.04 S15 CoOp(x2)",
-},
-
-"16_Nihilism":
-{
-	title: "Nihilism - Another Ver.-", artist: "Nato", channel: WORLD, bpm: "190",
-	shortTitle: "Nihilism",
-	arcadeID: "1694",
-	XX: "@1.01 S8 S15 S18 S21.lock D17 D19.lock D23.lock  @1.04 Dp4",
-},
-
-"16_Allegro_Con_Fuoco_FULL":
-{
-	title: "Allegro Con Fuoco  [FULL]", artist: "DM Ashura", channel: WORLD, bpm: "156",
-	arcadeID: "16C5",
-	XX: "@1.02 S23.lock D25.lock",
-},
-
 "16_86_FULL":
 {
 	title: "8 6  [FULL]", artist: "DASU", channel: WORLD, bpm: "167",
 	arcadeName: "86- FULL SONG -",
 	arcadeID: "16F7",
 	XX: "@1.01 S16.lock S21.lock D23.lock",
-},
-
-"16_Imagination":
-{
-	title: "Imagination", artist: "SHK", channel: XROSS, bpm: "180",
-	arcadeID: "1678",
-	XX: "S12.lock S15.lock S19.lock D16.lock D21.lock  @1.01 Dp5",
-},
-
-"16_Black_Swan":
-{
-	title: "Black Swan", artist: "Zeron", channel: XROSS, bpm: "175",
-	arcadeID: "1679",
-	XX: "S12.lock S14.lock S16.lock S19.lock D15.lock D22.lock  @1.01 Dp4",
-},
-
-"16_Obelisque":
-{
-	title: "Obelisque", artist: "ESTi x M2U", channel: XROSS, bpm: "130",
-	arcadeID: "1680",
-	XX: "S2 S4 S7 S10 S15.lock S17.lock D11 D15.lock D17.lock CoOp(x2)  @1.01 Dp3",
-},
-
-"16_Rage_of_Fire":
-{
-	title: "Rage of Fire", artist: "MAX", channel: XROSS, bpm: "155",
-	arcadeID: "1681",
-	XX: "@1.02 S7 S11 S16 D10 D17 CoOp(x2) S18.lock D19.lock  @1.04 Dp3",
-},
-
-"16_Xeroize":
-{
-	title: "Xeroize", artist: "FE", channel: XROSS, bpm: "200",
-	arcadeID: "1685",
-	XX: "@1.01 S12 S17 S21.lock S24.lock D18 D22.lock D25.lock",
-},
-
-"16_Rising_Star":
-{
-	title: "Rising Star", artist: "M2U", channel: XROSS, bpm: "140",
-	sortingID: "1686??", // arcadeID: "",
-	XX: "@1.04 S6 S10 S15 D11 D17 CoOp(x2) S17.lock D19.lock",
-},
-
-"16_Loki":
-{
-	title: "Loki", artist: "Lotze", channel: XROSS, bpm: "140",
-	arcadeID: "1690",
-	XX: "S12.lock S16.lock S19.lock S21.lock D12.lock D19.lock  @1.01 Dp3",
-},
-
-"16_Dement_After_Legend":
-{
-	title: "Dement ~After Legend~", artist: "Lunatic Sounds", channel: XROSS, bpm: "210",
-	shortTitle: "Dement",
-	arcadeID: "1691",
-	XX: "S23.?lock D26.?lock  @1.01 Dp2",
 },
 
 
