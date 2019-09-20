@@ -4612,6 +4612,7 @@ var readableTracklist = {
 {
 	title: "K.O.A. -Alice in Wonderworld-", artist: "BanYa Production", bpm: "156",
 	arcadeName: "K.O.A: Alice In Wonderworld",
+	arcadeNameMaxEditDistance: 1, // 'K.0O.A: Alice In Wonderworld'
 	//XX__: "S2 S3 S5 S8 S17  D10 D18",
 	XX: "=",
 	Prime2: "=",
@@ -5245,6 +5246,7 @@ var readableTracklist = {
 "E25":
 {
 	title: "Jam o' Beat", artist: "BanYa Production", bpm: "120",
+	arcadeName: "Jam O Beat",
 	//XX__: "S7 S15  D15  Sp2  Dp6",
 	XX: "= S15`14 D15`14",
 	Prime2: "=",
