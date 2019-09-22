@@ -315,6 +315,7 @@ var readableTracklist = {
 "16_F_R_IEND":
 {
 	title: "F(R)IEND", artist: "D_AAN", channel: WORLD, bpm: "200",
+	arcadeNameMaxEditDistance: 2, // 'F(RJIEND', 'FR( END'
 	arcadeID: "1675",
 	XX: "@1.04 S10 S15 S19 D12 D17 S21.lock S23.lock D21.lock D25.lock",
 },
@@ -471,7 +472,7 @@ var readableTracklist = {
 "16_Starry_Night_FULL":
 {
 	title: "Starry Night   [FULL]", artist: "MAMAMOO", channel: KPOP, bpm: "124",
-	arcadeName: "Starry Night – FULL SONG –",
+	arcadeName: "Starry Night - FULL SONG -",
 	arcadeID: "16E4",
 	XX: "@1.04 S12 S17 D18",
 },
@@ -2357,6 +2358,7 @@ var readableTracklist = {
 "14E0":
 {
 	title: "Super Fantasy  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "145",
+	arcadeName: "Super Fantasy - SHORT CUT",
 	//XX__: "S19  D17",
 	XX: "=",
 	Prime2: "=",
@@ -4215,6 +4217,7 @@ var readableTracklist = {
 "1056":
 {
 	title: "Solitary 2  [SHORT]", artist: "BanYa", bpm: "136",
+	arcadeName: "Solitary 2 - SHORT CUT",
 	//XX__: "S18  D17",
 	XX: "=",
 	Prime2: "=",
@@ -4266,6 +4269,7 @@ var readableTracklist = {
 "1060":
 {
 	title: "NX Opening", artist: "Yahpp", bpm: "133", duration: SHORT,
+	arcadeName: "NX Opening - SHORT CUT",
 	//XX__: "S16  D17",
 	XX: "=",
 	Prime2: "=",
@@ -5658,6 +5662,7 @@ var readableTracklist = {
 {
 	title: "Do You Know That -Old School-", artist: "BanYa Production", bpm: "120",
 	shortTitle: "Do You Know That\n-Old School-",
+	arcadeName: "Do U Know That-Old School",
 	//XX__: "S4 S6 S15  D19  Dp8",
 	XX: "= S15`14 D19`18",
 	Prime2: "=",
