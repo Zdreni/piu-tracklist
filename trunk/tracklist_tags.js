@@ -663,4 +663,52 @@ function ApplyTagsForEPF2019()
 }
 
 
-initFuncs.push( ApplyTagsForEPF2019 );
+function ApplyTagsForIPF2019()
+{
+	var male =
+	[
+		"1949  S-21",
+		"F(R)IEND  S-21",
+		"Heart Rabbit Coaster  S-21",
+		"King of Sales  S-21",
+		"Loki  S-21",
+		"Nihilism - Another Ver.-  S-21",
+		"Nyarlathotep  S-21",
+		"Wedding Crashers  S-21",
+		"Xeroize  S-21",
+		"You and I  S-21",
+
+		"Can-Can ~Orpheus in the Party Mix~  S-22",
+		"Club Night  S-22",
+		"Conflict  S-22",
+		"Skeptic  S-22",
+
+		"1949  S-23",
+		"Dement ~After Legend~  S-23",
+		"F(R)IEND  S-23",
+		"Heart Rabbit Coaster  S-23",
+		"Nyarlathotep  S-23",
+
+		"Skeptic  S-24",
+		"Xeroize  S-24",
+
+		"Conflict  D-24",
+
+		"F(R)IEND  D-25",
+		"Heart Rabbit Coaster  D-25",
+		"Nyarlathotep  D-25",
+		"Skeptic  D-25",
+		"Xeroize  D-25",
+		"You and I  D-25",
+
+		"1949  D-26",
+		"Dement ~After Legend~  D-26",
+
+		"1949  D-28",
+	]
+
+	Tag( "IPF-2019.male", male );
+}
+
+
+initFuncs.push( ApplyTagsForIPF2019 );
