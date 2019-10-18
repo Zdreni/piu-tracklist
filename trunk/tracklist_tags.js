@@ -43,9 +43,9 @@ function Tag( tag, fullChartDescr )
 }
 
 
-function ApplyTags()
+/*
+function ApplyTagsForIPF2016()
 {
-	/*
 	Tag( "IPF-2016",
 		[
 			"Passacaglia  S-20",
@@ -86,7 +86,11 @@ function ApplyTags()
 			"Yog-Sothoth  D-25",
 			//"1950  D-25",
 		] );
-	*/
+}
+*/
+
+function ApplyTags()
+{
 /*
 	Tag( "Drills",
 		[
@@ -104,9 +108,9 @@ function ApplyTags()
 		[
 			"Bad Apple!! feat. Nomico  S-15",
 			"Everybody Got 2 Know  S-19",
-			"NoNoNo  Sp-15",
-			"NoNoNo  Dp-15",
-			"Red Swan  Dp-20",
+			"NoNoNo  S-p-15",
+			"NoNoNo  D-p-15",
+			"Red Swan  D-p-20",
 			"Uprock  S-17",
 		] )
 
@@ -241,7 +245,10 @@ function ApplyTags()
 			"Pumptris (8Bit ver.)  [SHORT]  D-22",
 		])
 */
+}
 
+function ApplyTagsForWPT2019()
+{
 	var S19 =
 	[
 		"Allegro Piu Mosso  S-19",
@@ -527,4 +534,133 @@ function ApplyTags()
 }
 
 
-initFuncs.push( ApplyTags );
+function ApplyTagsForEPF2019()
+{
+	var common =
+	[
+		"Arcana Force  D-17",
+		"Awakening  D-17",
+		"Black Dragon  D-17",
+		"Cross Time  D-17",
+		"Death Moon  D-17",
+		"Further  D-17",
+		"God Mode feat. skizzo  D-17",
+		"Keep On!  D-17",
+		"Super Stylin'  D-17",
+		"The Festival of Ghost2 (Sneak)  D-17",
+		"Twist of Fate (feat. Ruriling)  D-17",
+
+		"Bedlam  S-18",
+		"Clue  S-18",
+		"Cross Over  S-18",
+		"Cross Time  S-18",
+		"Escape  S-18",
+		"Further  S-18",
+		"God Mode feat. skizzo  S-18",
+		"Gothique Resonance  S-18",
+		"Heart Attack  S-18",
+		"Helix  S-18",
+		"Hellfire  S-18",
+		"Hyperion  S-18",
+		"Infinity  S-18",
+		"Kasou Shinja  S-18",
+		"Keep On!  S-18",
+		"Kill Them!  S-18",
+		"Le Grand Bleu  S-18",
+		"Magical Vacation  S-18",
+		"Overblow2  S-18",
+		"Redline  S-18",
+		"Seize My Day  S-18",
+		"Silver Beat feat. ChisaUezono  S-18",
+		"The Festival of Ghost2 (Sneak)  S-18",
+		"Time Attack <Blue>   S-18",
+		"Visual Dream II (In Fiction)  S-18",
+
+		"Anguished Unmaking  D-18",
+		"Asterios -ReEntry-  D-18",
+		"Beautiful  D-18",
+		"Break Out  D-18",
+		"Chase Me  D-18",
+		"Clue  D-18",
+		"Donatello  D-18",
+		"Heart Attack  D-18",
+		"Hyperion  D-18",
+		"Just Kiddin  D-18",
+		"Last Rebirth  D-18",
+		"Le Grand Bleu  D-18",
+		"Magical Vacation  D-18",
+		"Pick Me @ 1561  D-18",
+		"Rave'til the earth's end  D-18",
+		"Sarabande  D-18",
+		"Shub Niggurath  D-18",
+		"Silver Beat feat. ChisaUezono  D-18",
+		"Start On Red  D-18",
+		"Step @ 1575  D-18",
+		"Travel to Future  D-18",
+		"Up & Up (Produced by AWAL)  D-18",
+		"Utsushiyo No Kaze feat. Kana  D-18",
+		"V3  D-18",
+		"Waltz of Doge  D-18",
+
+		"A Site De La Rue  S-19",
+		"Asterios -ReEntry-  S-19",
+		"Awakening  S-19",
+		"BSPower Explosion  S-19",
+		"Break Out  S-19",
+		"Bring Back the Beat  S-19",
+		"Death Moon  S-19",
+		"Fallen Angel  S-19",
+		"Helix  S-19",
+		"Nakakapagpabagabag  S-19",
+		"Passing Rider  S-19",
+		"Rave'til the earth's end  S-19",
+		"Sarabande  S-19",
+		"Shub Niggurath  S-19",
+		"Start On Red  S-19",
+		"Super Capriccio  S-19",
+		"The Quick Brown Fox Jumps Over The Lazy Dog  S-19",
+		"Travel to Future  S-19",
+		"Twist of Fate (feat. Ruriling)  S-19",
+		"Waltz of Doge  S-19",
+
+		"A Site De La Rue  D-19",
+		"Black Dragon  D-19",
+		"Bring Back the Beat  D-19",
+		"Cross Over  D-19",
+		"Energetic  D-19",
+		"Escape  D-19",
+		"Good Night  D-19",
+		"HTTP  D-19",
+		"Helix  D-19",
+		"Hellfire  D-19",
+		"Infinity  D-19",
+		"Kasou Shinja  D-19",
+		"Kill Them!  D-19",
+		"Moon Light Dance  D-19",
+		"Overblow2  D-19",
+		"Redline  D-19",
+		"Seize My Day  D-19",
+		"Super Capriccio  D-19",
+		"Tritium  D-19",
+		"Visual Dream II (In Fiction)  D-19",
+
+		"Allegro Furioso  S-20",
+		"Arcana Force  S-20",
+		"Black Dragon  S-20",
+		"Chase Me  S-20",
+		"God Mode feat. skizzo  S-20",
+		"Good Night  S-20",
+		"Gothique Resonance  S-20",
+		"Kasou Shinja  S-20",
+		"Le Grand Bleu  S-20",
+		"Sarabande  S-20",
+		"The Festival of Ghost2 (Sneak)  S-20",
+		"Tritium  S-20",
+		"Utsushiyo No Kaze feat. Kana  S-20",
+	];
+
+	Tag( "EPF-2019", common );
+}
+
+
+initFuncs.push( ApplyTagsForEPF2019 );

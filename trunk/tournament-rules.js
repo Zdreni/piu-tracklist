@@ -91,8 +91,8 @@ function shuffled(array)
 	return array;
 }
 
-var lowerLevel = 18;
-var upperLevel = 28;
+var lowerLevel = 17;
+var upperLevel = 20;
 
 //var showUCS = false;
 //var showUnlocks = false;
@@ -101,9 +101,9 @@ var tournamentRange = {
 	duration: "Standard",
 	showUCS: true,
 	showUnlocks: true,
-	showReestimatedCharts: false,  // to show charts which had different level on some mixes
+	showReestimatedCharts: true,  // to show charts which had different level on some mixes
 	mixID: "XX",  // mix we will use to play
-	trackAppearedMixesIDs: [ "Prime", "Prime2" ],  // mixes, on which allowed _tracks_ were appeared
+	trackAppearedMixesIDs: [ "Prime2" ],  // mixes, on which allowed _tracks_ were appeared
 	excludeTracks: [
 		//"Log-In", // offsync
 		//"Nobody", // lot of stops
