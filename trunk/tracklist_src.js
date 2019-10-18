@@ -1382,6 +1382,7 @@ var readableTracklist = {
 "15F4":
 {
 	title: "Shub Niggurath  [SHORT]", artist: "Nato", channel: ORIGINAL, bpm: "220",
+	arcadeName: "Shub Niggurath - SHORT CUT",
 	altID: "15F3+_Shub_Niggurath_SHORT",
 	//XX__: "S18 S21  D23",
 	XX: "= S21`22",
@@ -3551,6 +3552,7 @@ var readableTracklist = {
 "1148":
 {
 	title: "Overblow  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "155",
+	arcadeName: "Overblow - SHORT CUT",
 	//XX__: "S18  D17",
 	XX: "=",
 	Prime2: "=",
@@ -3562,6 +3564,7 @@ var readableTracklist = {
 "1149":
 {
 	title: "X-Rave  [SHORT]", artist: "DM Ashura", channel: WORLD, bpm: "147",
+	arcadeName: "X-Rave - SHORT CUT",
 	//XX__: "S16  D18",
 	XX: "=",
 	Prime2: "=",
@@ -4141,6 +4144,7 @@ var readableTracklist = {
 "1050":
 {
 	title: "Final Audition episode 2-X  [SHORT]", artist: "Yahpp", bpm: "170",
+	arcadeName: "Final Audition EP. 2-X - SHORT CUT",
 	//XX__: "S20  D20",
 	XX: "= D20`19",
 	Prime2: "=",
@@ -4308,6 +4312,7 @@ var readableTracklist = {
 {
 	title: "Pumptris (8Bit ver.)  [SHORT]", artist: "Yahpp", bpm: "162",
 	shortTitle: "Pumptris (8Bit)",
+	arcadeName: "Pumptris 8Bit ver. - SHORT CUT",
 	//XX__: "S8 S16  D22",
 	XX: "=",
 	Prime2: "=",
@@ -6214,6 +6219,7 @@ var readableTracklist = {
 {
 	title: "Love is a Danger Zone (try to B.P.M.)", artist: "BanYa", bpm: "140 ~ 169", duration: REMIX,
 	shortTitle: "Love is a Danger Zone (B.P.M.)",
+	arcadeName: "Love is a danger zone 2 (try to B.P.M.)",
 	//XX__: "S15 S21  D16 D23",
 	XX: "= S15`12 S21`20 D16`14",
 	Prime2: "=",
@@ -6578,7 +6584,7 @@ var readableTracklist = {
 "B51":
 {
 	title: "Dignity  [FULL]", artist: "Crash", channel: KPOP, bpm: "195",
-	arcadeName: "Dignity – FULL SONG –",
+	arcadeName: "DIGNITY FULL - FULL SONG", //"Dignity – FULL SONG –" - in tracklist
 	XX: "@1.04 = S15`13 D18`16",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6645,6 +6651,7 @@ var readableTracklist = {
 "B57":
 {
 	title: "Canon-D  [FULL]", artist: "BanYa", bpm: "160",
+	arcadeName: "Canon D - FULL SONG",
 	//XX__: "S14 S17  D23 D24",
 	XX: "= S14`S11 S17`16",
 	Prime2: "=",
