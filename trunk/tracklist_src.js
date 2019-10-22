@@ -480,6 +480,7 @@ var readableTracklist = {
 "16_Nyarlathotep_SHORT":
 {
 	title: "Nyarlathotep  [SHORT]", artist: "Nato", channel: ORIGINAL, bpm: "200",
+	arcadeName: "Nyarlathotep - SHORT CUT",
 	arcadeID: "16F0",
 	XX: "S22 D24.lock",
 },
