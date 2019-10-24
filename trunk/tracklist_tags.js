@@ -705,9 +705,59 @@ function ApplyTagsForIPF2019()
 		"Dement ~After Legend~  D-26",
 
 		"1949  D-28",
-	]
-
+	];
 	Tag( "IPF-2019.male", male );
+
+	var female = [
+		"%X (Percent X)  S-19",
+		"Black Swan  S-19",
+		"Can-Can ~Orpheus in the Party Mix~  S-19",
+		"Conflict  S-19",
+		"F(R)IEND  S-19",
+		"I Want U  S-19",
+		"Imagination  S-19",
+		"Loki  S-19",
+
+		"8 6  S-20",
+		"Fires of Destiny  S-20",
+		"Ice of Death  S-20",
+		"Kimchi Fingers  S-20",
+		"Le Grand Rouge  S-20",
+		"Papasito (ft. KuTiNA)  S-20",
+		"Poseidon  S-20",
+		"Tantanmen  S-20",
+		"Vanish  S-20",
+
+		"1949  D-21",
+		"8 6  D-21",
+		"Club Night  D-21",
+		"Conflict  D-21",
+		"F(R)IEND  D-21",
+		"Good Bye  D-21",
+		"I Want U  D-21",
+		"Ice of Death  D-21",
+		"Imagination  D-21",
+		"Kimchi Fingers  D-21",
+		"Papasito (ft. KuTiNA)  D-21",
+		"Time for the Moon Night  D-21",
+
+		"Black Swan  D-22",
+		"Fires of Destiny  D-22",
+		"Heart Rabbit Coaster  D-22",
+		"Le Grand Rouge  D-22",
+		"Poseidon  D-22",
+		"Skeptic  D-22",
+		"Vanish  D-22",
+		"Wedding Crashers  D-22",
+		"Xeroize  D-22",
+
+		"Can-Can ~Orpheus in the Party Mix~  D-23",
+		"King of Sales  D-23",
+		"Nihilism - Another Ver.-  D-23",
+		"Nyarlathotep  D-23",
+		"Tantanmen  D-23",
+	];
+	Tag( "IPF-2019.female", female );
 }
 
 
