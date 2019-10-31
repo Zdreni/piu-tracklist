@@ -4473,6 +4473,128 @@ https://drive.google.com/file/d/19-X9bnv34Qlr9GiywRkbBjpYIK96TX6v/view
 
 -----------------------------------------------------------------------------------------------------------------------
 
+Prime XX  1.05
+
+https://www.facebook.com/piugame/photos/a.439723339389260/3070959802932254/
+https://drive.google.com/file/d/1flyk-QY2PUhFSz6CbXeyDqX_HKKjkl3g/view
+(piu_xx_031.bin)
+
+
+1. New Songs
+
+1) Title : Full Moon
+	Artist : Dreamcatcher
+	BPM : 190
+	Category : K-POP
+	Step charts : S2, S4, S6, S16, D14, D20, CO-OP(2)
+	S20, S22, D24 (Unlocked step)
+
+2) Title : CARMEN BUS
+	Artist : StaticSphere & FUGU SUISAN
+	BPM : 170
+	Category : Original
+	Step charts : S12, S16, D13
+	S18, S21, D20, D22 (Unlocked step)
+
+3) Title : Tales of Pumpnia
+	Artist : Applesoda
+	BPM : 200
+	Category : Original
+	Step charts : S9, S12, S16, D13, D17, CO-OP(2)
+	S19, D20 (Unlocked step)
+
+4) Title : Orbit Stabilizer
+	Artist : DM Ashura
+	BPM : 155
+	Category : Original
+	Step charts : S6, S13, S16, D18
+	S19, S21, D21, D23 (Unlocked step)
+
+5) Title : CROSS SOUL
+	Artist : HyuN feat. Syepias
+	BPM : 200
+	Category : World Music
+	Step charts : S8, S17, D12, D18
+	S20, S22, D20, D24 (Unlocked step)
+
+6) Title : Phalanx "RS2018 edit"
+	Artist : Cranky
+	BPM : 145
+	Category : World Music
+	Step charts : S11, S15, S17, S19, S22, D13, D18, D21
+
+7) Title : Prime Time
+	Artist : Cashew
+	BPM : 190
+	Category : World Music
+	Step charts : S15, D23, DP24
+	S21, S23, D26 (Unlocked step)
+
+8) Title : Can-can ~Orpheus in The Party Mix~ - SHORT CUT -
+	Artist : Sr. Lan Belmont
+	BPM : 195
+	Category : Original
+	Step charts : D13
+	D15, D17, D19, D21, D23, D25 (Unlocked step)
+
+
+
+2. New Step Charts
+
+1) Title : Fly high
+	Step charts : S20, D21
+
+2) Title : The End of the World ft. Skizzo
+	Step charts : S20, D21
+
+3) Title : Ai, Yurete...
+	Step charts : D20
+
+
+
+3. Mission zone update
+
+1) Title : Solitary 1.5
+	Step charts : D10
+
+2) Title : V3
+	Step charts : D12
+
+3) Title : PICK ME
+	Step charts : D16
+
+4) Title : Hyacinth
+	Step charts : D17
+
+5) Title : Moment Day
+	Step charts : S18
+
+6) Title : Latino Virus
+	Step charts : S19
+
+7) Title : Break It Down
+	Step charts : D21
+
+8) Title : Pumptris Quattro
+	Step charts : D22
+
+9) Title : FFF
+	Step charts : S22
+
+10)Title : INFINITY
+	Step charts : D24
+
+
+
+4. More updates
+- 1949 D28 – Step chart was modified.
+- Tantanmen D23 – Step chart was modified.
+- Black Swan D22 – Step chart was modified.
+
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
 
 Чеклист для добавления нового патча (для патчноутов формата Prime 2):
  - занести patch notes в patch.txt
