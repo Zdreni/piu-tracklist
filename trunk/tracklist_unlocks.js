@@ -743,6 +743,40 @@ function ApplyUnlocks()
 		Lock( "16_Rising_Star", "D19", "at least A+ on D17" )
 
 		Lock( "Dignity", "D26", "at least 5mln score on D24" )
+
+	// 1.04
+		Lock( "Carmen Bus", "S18", "At least A sb on S16" )
+		Lock( "Carmen Bus", "S21", "At least S on S18" )
+		Lock( "Carmen Bus", "D20", "At least SS on D13" )
+		Lock( "Carmen Bus", "D22", "At least A on D20" )
+
+		Lock( "Tales of Pumpnia", "S19", "At least S on S16" )
+		Lock( "Tales of Pumpnia", "D20", "At least S on D17" )
+
+		Lock( "Orbit Stabilizer", "S19", "At least S on S16" )
+		Lock( "Orbit Stabilizer", "S21", "At least A on S19" )
+		Lock( "Orbit Stabilizer", "D21", "At least S on D18" )
+		Lock( "Orbit Stabilizer", "D23", "At least A sb on D21" )
+
+		Lock( "Cross Soul", "S20", "At least A sb on Cross Soul S17 and Cross Over S18" )
+		Lock( "Cross Soul", "S22", "At least A sb on Cross Soul S20 and Cross Over S22" )
+		Lock( "Cross Soul", "D20", "At least A sb on Cross Soul D18 and Cross Over D19" )
+		Lock( "Cross Soul", "D24", "At least A sb on Cross Soul D20 and Cross Over D23" )
+
+		Lock( "Full Moon", "S20", "At least S on S16" )
+		Lock( "Full Moon", "S22", "At least A sb on S20" )
+		Lock( "Full Moon", "D24", "At least S on D20" )
+
+		Lock( "Prime Time", "S21", "At least SS on S15" )
+		Lock( "Prime Time", "S23", "At least A on S21" )
+		Lock( "Prime Time", "D26", "At least 15(14?)kk score on DP24 and atl least A sb" )
+
+		Lock( "Can-Can ~Orpheus in the party mix~  [SHORT]", "D15", "At least A sb on D13" )
+		Lock( "Can-Can ~Orpheus in the party mix~  [SHORT]", "D17", "At least A sb on D15" )
+		Lock( "Can-Can ~Orpheus in the party mix~  [SHORT]", "D19", "At least A sb on D17" )
+		Lock( "Can-Can ~Orpheus in the party mix~  [SHORT]", "D21", "At least A sb on D19" )
+		Lock( "Can-Can ~Orpheus in the party mix~  [SHORT]", "D23", "At least A sb on D21" )
+		Lock( "Can-Can ~Orpheus in the party mix~  [SHORT]", "D25", "At least S on D23" )
 }
 
 initFuncs.push( ApplyUnlocks );

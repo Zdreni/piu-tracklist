@@ -53,14 +53,66 @@ var readableTracklist = {
 	XX: "S1 S3 S5 S14 D6 D15 CoOp(x2)",
 },
 
-/*
-"16_":
+
+"16_Full_Moon":
 {
-	title: "", artist: "", channel: , bpm: "", duration: ,
-	sortingID: "", // arcadeID: "",
-	XX: "@1.04 ",
+	title: "Full Moon", artist: "Dreamcatcher", channel: KPOP, bpm: "190",
+	sortingID: "1643", // arcadeID: "",  // between Little Prince (1642) and Timing (1644)
+	XX: "@1.05 S2 S4 S6 S16 D14 D20 CoOp(x2) S20.lock S22.lock D24.lock",
 },
-*/
+
+"16_Carmen_Bus":
+{
+	title: "Carmen Bus", artist: "StaticSphere & FUGU SUISAN", channel: ORIGINAL, bpm: "170",
+	arcadeName: "CARMEN BUS",
+	sortingID: "1623", // arcadeID: "",  // between Le Grand Rouge (1622) and Macaron Day (1624)
+	XX: "@1.05 S12 S16 D13 S18.lock S21.lock D20.lock D22.lock",
+},
+
+"16_Tales_of_Pumpnia":
+{
+	title: "Tales of Pumpnia", artist: "Applesoda", channel: ORIGINAL, bpm: "200",
+	sortingID: "1629", // arcadeID: "",  // between Vanish (1628) and Kimchi Fingers (1630)
+	XX: "@1.05 S9 S12 S16 D13 D17 CoOp(x2) S19.lock D20.lock",
+},
+
+"16_Orbit_Stabilizer":
+{
+	title: "Orbit Stabilizer", artist: "DM Ashura", channel: ORIGINAL, bpm: "155",
+	sortingID: "1630__1", // arcadeID: "",  // between Kimchi Fingers (1630) and Tantanmen (1635)
+	XX: "@1.05 S6 S13 S16 D18 S19.lock S21.lock D21.lock D23.lock",
+},
+
+"16_Cross_Soul":
+{
+	title: "Cross Soul", artist: "HyuN feat. Syepias", channel: WORLD, bpm: "200",
+	arcadeName: "CROSS SOUL",
+	sortingID: "1670__1", // arcadeID: "",  // between 8 6 (1670) and F(r)iend (1675)
+	XX: "@1.05 S8 S17 D12 D18 S20.lock S22.lock D20.lock D24.lock",
+},
+
+"16_Phalanx_RS2018":
+{
+	title: "Phalanx \"RS2018 edit\"", artist: "Cranky", channel: WORLD, bpm: "145",
+	sortingID: "1694__1", // arcadeID: "",  // between Nihilism (1694, WORLD) and (1678, XROSS)
+	XX: "@1.05 S11 S15 S17 S19 S22 D13 D18 D21",
+},
+
+"16_Prime_Time":
+{
+	title: "Prime Time", artist: "Cashew", channel: WORLD, bpm: "190", duration: REMIX,
+	sortingID: "224__1", // arcadeID: "",  // between Repeatorment (224) и Infinity RMX (13A2)
+	XX: "@1.05 S15 D23 Dp24 S21.lock S23.lock D26.lock",
+},
+
+"16_Can_Can_Orpheus_SHORT":
+{
+	title: "Can-Can ~Orpheus in the Party Mix~  [SHORT]", artist: "Sr. Lan Belmont", channel: ORIGINAL, bpm: "195",
+	shortTitle: "Can-Can ~Orpheus~",
+	arcadeName: "Can-can ~Orpheus in The Party Mix~ - SHORT CUT -",
+	sortingID: "16F2", // arcadeID: "",  // between Wedding Crashers SHORT (16F1) and XX Opening SHORT (16F3)
+	XX: "@1.05 D13 D15.lock D17.lock D19.lock D21.lock D23.lock D25.lock",
+},
 
 // \16 - XX
 
@@ -82,7 +134,7 @@ var readableTracklist = {
 {
 	title: "1949", artist: "SLAM", channel: ORIGINAL, bpm: "220",
 	arcadeID: "1605",
-	XX: "@1.02 S16 D21 D28 S21.lock S23.lock  @1.04 D26.lock",
+	XX: "@1.02 S16 D21 D28 S21.lock S23.lock  @1.04 D26.lock",  // @1.05 D28 changed
 },
 
 "16_I_Want_U":
@@ -167,7 +219,7 @@ var readableTracklist = {
 {
 	title: "Tantanmen", artist: "Memme", channel: ORIGINAL, bpm: "185",
 	arcadeID: "1635",
-	XX: "@1.04 S4 S7 S11 S14 S17 D13 D20 S20.lock D23.lock",
+	XX: "@1.04 S4 S7 S11 S14 S17 D13 D20 S20.lock D23.lock",  // @1.05 D23 changed
 },
 
 "16_The_Little_Prince":
@@ -189,7 +241,7 @@ var readableTracklist = {
 {
 	title: "Fly High", artist: "Dreamcatcher", channel: KPOP, bpm: "154",
 	arcadeID: "1645",
-	XX: "S1 S3 S5 S9 S15 S18.lock D10 D16.ampass D19.lock Dp3",
+	XX: "S1 S3 S5 S9 S15 S18.lock D10 D16.ampass D19.lock Dp3  @1.05 S20 D21",
 },
 
 "16_Black_Cat":
@@ -338,7 +390,7 @@ var readableTracklist = {
 {
 	title: "Black Swan", artist: "Zeron", channel: XROSS, bpm: "175",
 	arcadeID: "1679",
-	XX: "S12.lock S14.lock S16.lock S19.lock D15.lock D22.lock  @1.01 Dp4",
+	XX: "S12.lock S14.lock S16.lock S19.lock D15.lock D22.lock  @1.01 Dp4",  // @1.05 D22 changed
 },
 
 "16_Obelisque":
@@ -422,7 +474,7 @@ var readableTracklist = {
 	shortTitle: "The End of the World",
 	arcadeName: "The End of the World ft. Skizzo",
 	arcadeID: "16A3",
-	XX: "@1.03 S3 S5 S8 S17 D8 D17",
+	XX: "@1.03 S3 S5 S8 S17 D8 D17  @1.05 S20 D21",
 },
 
 "16_Forgotten_Vampire":
@@ -2120,7 +2172,7 @@ var readableTracklist = {
 	title: "Ai, Yurete", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "152", fromMix: "Prime",
 	arcadeName: "Ai, Yurete...",
 	//XX__: "S1 S3 S6 S9 S13 S16  D8 D15 D18  Dp4",
-	XX: "=",
+	XX: "=  @1.05 D20",
 	Prime2: "S1 S3 S6 S9 S13 S16  D8 D15 D18  @1.08 Dp4",
 	// from PrimeJE
 },
