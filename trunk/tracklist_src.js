@@ -83,6 +83,15 @@ var readableTracklist = {
 	XX: "@1.05 S6 S13 S16 D18 S19.lock S21.lock D21.lock D23.lock",
 },
 
+"16_Can_Can_Orpheus_SHORT":
+{
+	title: "Can-Can ~Orpheus in the Party Mix~  [SHORT]", artist: "Sr. Lan Belmont", channel: ORIGINAL, bpm: "195",
+	shortTitle: "Can-Can ~Orpheus~",
+	arcadeName: "Can-can ~Orpheus in The Party Mix~ - SHORT CUT -",
+	sortingID: "16F2", // arcadeID: "",  // between Wedding Crashers SHORT (16F1) and XX Opening SHORT (16F3)
+	XX: "@1.05 D13 D15.lock D17.lock D19.lock D21.lock D23.lock D25.lock",
+},
+
 "16_Cross_Soul":
 {
 	title: "Cross Soul", artist: "HyuN feat. Syepias", channel: WORLD, bpm: "200",
@@ -94,24 +103,15 @@ var readableTracklist = {
 "16_Phalanx_RS2018":
 {
 	title: "Phalanx \"RS2018 edit\"", artist: "Cranky", channel: WORLD, bpm: "145",
-	sortingID: "1694__1", // arcadeID: "",  // between Nihilism (1694, WORLD) and (1678, XROSS)
+	sortingID: "1694__1", // arcadeID: "",  // between Nihilism (1694) and Allegro con Fuoco  FULL (16C5)
 	XX: "@1.05 S11 S15 S17 S19 S22 D13 D18 D21",
 },
 
 "16_Prime_Time":
 {
 	title: "Prime Time", artist: "Cashew", channel: WORLD, bpm: "190", duration: REMIX,
-	sortingID: "224__1", // arcadeID: "",  // between Repeatorment (224) и Infinity RMX (13A2)
+	sortingID: "16C5__1", // arcadeID: "",  // between Allegro con Fuoco  FULL (16C5) и 8 6  FULL (16F7)
 	XX: "@1.05 S15 D23 Dp24 S21.lock S23.lock D26.lock",
-},
-
-"16_Can_Can_Orpheus_SHORT":
-{
-	title: "Can-Can ~Orpheus in the Party Mix~  [SHORT]", artist: "Sr. Lan Belmont", channel: ORIGINAL, bpm: "195",
-	shortTitle: "Can-Can ~Orpheus~",
-	arcadeName: "Can-can ~Orpheus in The Party Mix~ - SHORT CUT -",
-	sortingID: "16F2", // arcadeID: "",  // between Wedding Crashers SHORT (16F1) and XX Opening SHORT (16F3)
-	XX: "@1.05 D13 D15.lock D17.lock D19.lock D21.lock D23.lock D25.lock",
 },
 
 // \16 - XX
@@ -2422,6 +2422,7 @@ var readableTracklist = {
 "14E1":
 {
 	title: "Yog-Sothoth  [SHORT]", artist: "Nato", channel: ORIGINAL, bpm: "200",
+	arcadeName: "Yog-Sothoth - SHORT CUT",
 	//XX__: "S13 S18 S21  D16 D21",
 	XX: "=",
 	Prime2: "=",
@@ -2997,6 +2998,7 @@ var readableTracklist = {
 "13E4":
 {
 	title: "Unique  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "145",
+	arcadeName: "Unique - SHORT CUT",
 	//XX__: "S18  D16",
 	XX: "=",
 	Prime2: "=",
@@ -4300,6 +4302,7 @@ var readableTracklist = {
 "1058":
 {
 	title: "Witch Doctor  [SHORT]", artist: "BanYa", bpm: "195",
+	arcadeName: "Witch Doctor - SHORT CUT",
 	//XX__: "S14 S20  D17",
 	XX: "= D17`16",
 	Prime2: "=",
