@@ -3887,6 +3887,7 @@ var readableTracklist = {
 "1021":
 {
 	title: "Do It -Reggae Style-", artist: "BanYa Production", bpm: "96",
+	arcadeName: "Do It reggae Style",
 	//XX__: "S13  D15  Sp4  Dp5",
 	XX: "=",
 	Prime2: "=",

@@ -109,6 +109,12 @@ function CopyChartWithRemovedObviousFieldsForDB( track, mixID, chart )
 	if( isNaN( chart.levelNum )  ||  chart.levelNum === null )
 		delete chart.levelNum;
 
+	if( chart.tag == "CoOp" )
+	{
+		chart.levelNum = 0;
+		chart.text = chart.text.replace( "CoOp(x", "COOP" ).replace( ")", "" );
+	}
+
 	track[ mixID ][ chartIndex ] = chart;
 }
 
