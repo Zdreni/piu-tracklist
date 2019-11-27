@@ -2976,6 +2976,7 @@ var readableTracklist = {
 "13E2":
 {
 	title: "Ignis Fatuus (DM Ashura Mix)  [SHORT]", artist: "DM Ashura", channel: ORIGINAL, bpm: "220",
+	arcadeName: "Ignis Fatuus(DM Ashura Mix) - SHORT CUT",
 	shortTitle: "Ignis Fatuus",
 	//XX__: "S21  D21",
 	XX: "=",
@@ -3596,6 +3597,7 @@ var readableTracklist = {
 "1147":
 {
 	title: "Take Out  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "170",
+	arcadeName: "Take Out - SHORT CUT",
 	//XX__: "S18  D19",
 	XX: "=",
 	Prime2: "=",
@@ -6641,7 +6643,9 @@ var readableTracklist = {
 "B51":
 {
 	title: "Dignity  [FULL]", artist: "Crash", channel: KPOP, bpm: "195",
-	arcadeName: "DIGNITY FULL - FULL SONG", //"Dignity – FULL SONG –" - in tracklist
+	//for S-19 at 19.09.28 it was: arcadeName: "DIGNITY FULL - FULL SONG",
+	//in track selection it was: "Dignity – FULL SONG –"
+	arcadeName: "Dignity - FULL SONG -",
 	XX: "@1.04 = S15`13 D18`16",
 	Prime: "=",
 	Fiesta2: "=",
