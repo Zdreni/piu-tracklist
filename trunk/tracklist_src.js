@@ -1445,6 +1445,7 @@ var readableTracklist = {
 "15F5":
 {
 	title: "Hyperion  [SHORT]", artist: "M2U", channel: XROSS, bpm: "145",
+	arcadeName: "Hyperion - SHORT CUT",
 	altID: "15_Hyperion_SHORT",
 	//XX__: "S16 S20  D21",
 	XX: "= S16`15",
@@ -4241,6 +4242,7 @@ var readableTracklist = {
 "1053":
 {
 	title: "Extravaganza  [SHORT]", artist: "BanYa", bpm: "195",
+	arcadeName: "Extravaganza - SHORT CUT",
 	//XX__: "S15  D15 D22  Sp15",
 	XX: "= S15`14 D15`14 D22`21",
 	Prime2: "=",
@@ -4358,6 +4360,7 @@ var readableTracklist = {
 "1062":
 {
 	title: "Bemera  [SHORT]", artist: "Yahpp", bpm: "210",
+	arcadeName: "Bemera - SHORT CUT",
 	//XX__: "S14 S21 S23  D19",
 	XX: "= S14`13",
 	Prime2: "=",
@@ -5573,6 +5576,7 @@ var readableTracklist = {
 "E928":
 {
 	title: "FAE1 & Chicken Wing Remix (NX2 ver.)", artist: "BanYa", bpm: "200", duration: REMIX, fromMix: "Extra",
+	arcadeName: "EXTRA BanYa Remix",
 	shortTitle: "Extra BanYa Remix",
 	//XX__: "S11 S21  D14",
 	XX: "= S11`8 D14`13",
