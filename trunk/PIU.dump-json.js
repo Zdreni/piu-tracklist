@@ -1,10 +1,6 @@
 "use strict";
 
 
-// 'shortenData == true' means it's dump for Step It Up with reduced number of fields
-// 'shortenData == false' means it's dump for simple python script, so structure is more verbose and straightforward
-
-
 function JStr( obj )
 {
 	return JSON.stringify( obj, null, 1 ).replace( "<", "&lt;" ).replace( ">", "&gt;" )
@@ -119,7 +115,7 @@ function CopyChartWithRemovedObviousFieldsForDB( track, mixID, chart )
 }
 
 
-function ConvertInnerDataToOutput( track )
+function ConvertInnerDataToOutput( track, shortenData )
 {
 	if( shortenData )
 	{
@@ -169,22 +165,6 @@ function ConvertInnerDataToOutput( track )
 }
 
 
-var errors = [];
-
-try
-{
-	initTracklist();
-
-	for( var trackID in tracklist )
-		ConvertInnerDataToOutput( tracklist[ trackID ] );
-}
-catch( exc )
-{
-	errors.push( exc + ":<br>" + exc.stack.replace( " at", "<br>&nbsp;at" ) );
-	console.error( exc );
-}
-
-
 function SPACE( n )
 {
 	return "&nbsp;&nbsp;".repeat( n );
@@ -224,7 +204,7 @@ function DumpMixes()
 }
 
 
-function DumpTracklist()
+function DumpTracklist( shortenData )
 {
 	var result = "";
 	var nextTrack = false;
@@ -308,22 +288,73 @@ function DumpTracklist()
 }
 
 
-var result = "{<br><br>";
-result += "\"mixes\": {<br><br>";
-result += DumpMixes();
-result += "<br><br>},";
-result += "<br><br><br>";
-result += "\"tracklist\": {<br><br>";
-result += DumpTracklist();
-result += "<br><br>}";
-result += "<br><br>}";
+// 'shortenData == true' means it's dump for Step It Up with reduced number of fields
+// 'shortenData == false' means it's dump for simple python script, so structure is more verbose and straightforward
+function DumpAll( shortenData, consoleOutput )
+{
+	var errors = [];
 
-if( errors.length > 0 )
-{
-	for( var e of errors )
-		document.write( e + "<br>" );
+	try
+	{
+		initTracklist();
+
+		for( var trackID in tracklist )
+			ConvertInnerDataToOutput( tracklist[ trackID ], shortenData );
+	}
+	catch( exc )
+	{
+		errors.push( exc + ":<br>" + exc.stack.replace( " at", "<br>&nbsp;at" ) );
+		console.error( exc );
+	}
+
+	var result = "{<br><br>";
+	result += "\"mixes\": {<br><br>";
+	result += DumpMixes();
+	result += "<br><br>},";
+	result += "<br><br><br>";
+	result += "\"tracklist\": {<br><br>";
+	result += DumpTracklist( shortenData );
+	result += "<br><br>}";
+	result += "<br><br>}";
+
+	if( errors.length > 0 )
+	{
+		if( consoleOutput )
+	        	for( var e of errors )
+				console.log( e + "<br>" );
+		else
+	        	for( var e of errors )
+				document.write( e + "<br>" );
+	}
+	else
+	{
+		if( consoleOutput )
+			console.log( result.replace(/\n/g, " ").replace(/<br>/g, "\n").replace(/&nbsp;/g, " ").replace(/,  /g, ", ").replace(/{  /g, "{ ") );
+		else
+			document.write( result );
+	}
 }
-else
+
+
+function DumpHtmlForBackend()
 {
-	document.write( result );
+	DumpAll( false, false );
+}
+
+
+function DumpPlainTextForBackend()
+{
+	DumpAll( false, true );
+}
+
+
+function DumpHtmlForStepItUp()
+{
+	DumpAll( true, false );
+}
+
+
+function DumpPlainTextForStepItUp()
+{
+	DumpAll( true, true );
 }
