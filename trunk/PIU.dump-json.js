@@ -161,7 +161,7 @@ function ConvertInnerDataToOutput( track, shortenData )
 			track.shortTitle = track.title;
 	}
 
-	track.title = track.title.replace( "  ", "&nbsp;&nbsp;" ).replace( "<", "&lt;" ).replace( ">", "&gt" );
+	track.title = track.title.replace( "  ", "&nbsp;&nbsp;" ).replace( "<", "&lt;" ).replace( ">", "&gt;" );
 }
 
 
@@ -329,7 +329,7 @@ function DumpAll( shortenData, consoleOutput )
 	else
 	{
 		if( consoleOutput )
-			console.log( result.replace(/\n/g, " ").replace(/<br>/g, "\n").replace(/&nbsp;/g, " ").replace(/,  /g, ", ").replace(/{  /g, "{ ") );
+			console.log( result.replace(/\n/g, " ").replace(/<br>/g, "\n").replace(/&nbsp;/g, " ").replace(/,  /g, ", ").replace(/{  /g, "{ ").replace(/&lt;/g, "<").replace(/&gt;/g, ">") );
 		else
 			document.write( result );
 	}
