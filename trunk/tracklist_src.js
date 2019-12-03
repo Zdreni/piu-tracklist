@@ -2513,7 +2513,7 @@ var readableTracklist = {
 	//XX__: "S2 S7 S9 S16 S18  D9 D18 D20  Co-op x2",
 	XX: "= S18`19",
 	Prime2: "=",
-	Prime: "=",
+	Prime: "= CoOp(x2)`Dp??(x2)",
 	Fiesta2: "S2 S7 S9 S16 D9 D18 Dp??(x2)  @1.40 S19  @1.60 D20",
 },
 
@@ -2550,7 +2550,7 @@ var readableTracklist = {
 	//XX__: "S4 S7 S10 S16 S18 S21  D12 D17 D23  Co-op x2",
 	XX: "= S16`17 S18`19 S21`22 D12`13 D17`16",
 	Prime2: "=",
-	Prime: "=",
+	Prime: "= CoOp(x2)`Dp??(x2)",
 	Fiesta2: "S4 S7 S10 S17 S19 D13 D16 Dp??(x2)  @1.40 S22 D23",
 },
 
@@ -2561,7 +2561,7 @@ var readableTracklist = {
 	//XX__: "S10 S15 S19 S22  D17 D18 D23 D25  Co-op x2",
 	XX: "= S10`9 S22`23 -D17 D17`15 D18`19",
 	Prime2: "=",
-	Prime: "= -D24 -D26",
+	Prime: "= CoOp(x2)`Dp??(x2) -D24 -D26",
 	Fiesta2: "S9 S15 S19 S23 D15 D17 D19 D23 D25 Dp??(x2)  @1.50 D24 D26",
 },
 
@@ -2572,7 +2572,7 @@ var readableTracklist = {
 	//XX__: "S6 S13 S17 S20 S21  D11 D16 D20 D23  Co-op x2",
 	XX: "= S13`12 S17`18 S21`22 D11`8 D23`24",
 	Prime2: "=",
-	Prime: "= -S19",
+	Prime: "= CoOp(x2)`Dp??(x2) -S19",
 	Fiesta2: "S6 S12 S20 D8 D16 Dp??(x2)  @1.01 D24  @1.40 S18  @1.50 S19  @1.60 S22 D20",
 },
 
@@ -2595,7 +2595,7 @@ var readableTracklist = {
 	//XX__: "S11 S18 S22  D13 D22 D24  Co-op x3",
 	XX: "= S11`10 S18`17 S22`23 D13`12",
 	Prime2: "=",
-	Prime: "=  @1.14 D24",
+	Prime: "= CoOp(x3)`Dp??(x3)  @1.14 D24",
 	Fiesta2: "S10 S17 S23 D22 Dp??(x3)  @1.01 D12",
 },
 
@@ -2646,7 +2646,7 @@ var readableTracklist = {
 	//XX__: "S4 S7 S11 S16 S19  D11 D20 D23  Co-op x2",
 	XX: "= S11`10 S19`20",
 	Prime2: "=",
-	Prime: "=  @1.12 S16.ucs",
+	Prime: "= CoOp(x2)`Dp??(x2)  @1.12 S16.ucs",
 	Fiesta2: "S4 S7 S10 S20 D11 D20 Dp??(x2)  @1.60 D23",
 },
 
@@ -2737,7 +2737,7 @@ var readableTracklist = {
 "1327":
 {
 	title: "Mackerel", artist: "Norazo", channel: KPOP, bpm: "150",
-	Prime: "=",
+	Prime: "= CoOp(x2)`Dp??(x2)",
 	Fiesta2: "S4 S6 S8 S16 D5 D15 Sp2 Dp4 Dp??(x2)",
 },
 
@@ -2845,7 +2845,7 @@ var readableTracklist = {
 	//XX__: "S4 S6 S9 S14 S17  D9 D17  Co-op x2",
 	XX: "= D17`18",
 	Prime2: "=",
-	Prime: "=",
+	Prime: "= CoOp(x2)`Dp??(x2)",
 	Fiesta2: "@1.60 S4 S6 S9 S14 S17 D9 D18 Dp??(x2)",
 },
 
@@ -3062,7 +3062,7 @@ var readableTracklist = {
 	//XX__: "S1 S3 S5 S13  D13  Co-op x2",
 	XX: "=",
 	Prime2: "=",
-	Prime: "=",
+	Prime: "= CoOp(x2)`Dp??(x2)",
 	Fiesta2: "S1 S3 S5  @1.50 S13 D13 Dp??(x2)",
 },
 
@@ -3092,7 +3092,7 @@ var readableTracklist = {
 	//XX__: "S3 S6 S9 S17  D10 D17  Co-op x4",
 	XX: "= S17`16 D17`15",
 	Prime2: "=",
-	Prime: "=",
+	Prime: "= CoOp(x4)`Dp??(x4)",
 	Fiesta2: "S3 S6 S9  @1.50 S16 D10 D15 Dp??(x4)",
 },
 
@@ -3100,7 +3100,7 @@ var readableTracklist = {
 {
 	title: "Virtual Emotion", artist: "Inspector K", channel: WORLD, bpm: "180",
 	Prime2: "=",
-	Prime: "=",
+	Prime: "= CoOp(x2)`Dp??(x2)",
 	Fiesta2: "S3 S7 S11  @1.40 D18  @1.50 S17 Dp??(x2)",
 },
 
@@ -3124,7 +3124,7 @@ var readableTracklist = {
 {
 	title: "Heel and Toe", artist: "KURi-ZiLL", channel: WORLD, bpm: "185",
 	Prime2: "=",
-	Prime: "=",
+	Prime: "= CoOp(x2)`Dp??(x2)",
 	Fiesta2: "S2 S7 S9  @1.50 D11 Dp??(x2)  @1.60 S17",
 },
 
@@ -3163,7 +3163,7 @@ var readableTracklist = {
 	//XX__: "S3 S5 S9 S14  D12 D17 Co-op x2",
 	XX: "= D17`18",
 	Prime2: "=",
-	Prime: "=",
+	Prime: "= CoOp(x2)`Dp??(x2)",
 	Fiesta2: "@1.20 S3 S5 S9 S14 D12 D18 Dp??(x2)",
 },
 
@@ -3172,7 +3172,7 @@ var readableTracklist = {
 	title: "Be Alive (Raaban Inc. Mix)", artist: "Stian K", channel: WORLD, bpm: "142",
 	shortTitle: "Be Alive",
 	Prime2: "=",
-	Prime: "=",
+	Prime: "= CoOp(x2)`Dp??(x2)",
 	Fiesta2: "S2 S5 S8  @1.50 D10 Dp??(x2)  @1.60 S15 S17 D16",
 },
 
@@ -3240,7 +3240,7 @@ var readableTracklist = {
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
-	Fiesta2: "=",
+	Fiesta2: "= CoOp(x3)`Dp??(x3)",
 	FiestaEX: "S4 S7 S11 S17 D13 D19 D22 Dp??(x3)  @1.20 S20  @1.30 D23",
 },
 
@@ -3261,7 +3261,7 @@ var readableTracklist = {
 	//XX__: "S4 S7 S10 S16 S18 S20  D12 D18 D19  Sp2  Dp3  Co-op x2",
 	XX: "= D19`20",
 	Prime2: "=",
-	Prime: "=  @1.11 Dp??(x2)",
+	Prime: "=  @1.11 CoOp(x2)",
 	Fiesta2: "=",
 	FiestaEX: "S4 S7 S10 S18 D12 D20 Sp2  @1.20 S16 S20 D18 Dp3",
 },
@@ -3273,7 +3273,7 @@ var readableTracklist = {
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
-	Fiesta2: "=",
+	Fiesta2: "= CoOp(x3)`Dp??(x3)",
 	FiestaEX: "S5 S8 S17 S20 D4 D18 Sp2 Dp3  @1.30 Dp??(x3)  @1.51 S1",
 },
 
@@ -3322,7 +3322,7 @@ var readableTracklist = {
 "1114":
 {
 	title: "Superman", artist: "Norazo", channel: KPOP, bpm: "150",
-	Prime: "=",
+	Prime: "= CoOp(x2)`Dp??(x2)",
 	Fiesta2: "=",
 	FiestaEX: "S4 S6 S8 S14 D9 D15 Dp4 Dp??(x2)  @1.10 S16  @1.20 Sp1  @1.30 D23",
 },
@@ -3416,7 +3416,7 @@ var readableTracklist = {
 	//XX__: "S4 S6 S9 S12 S19  D14 D20  Co-op x2",
 	XX: "= S19`20 D14`13 D20`21",
 	Prime2: "=",
-	Prime: "=",
+	Prime: "= CoOp(x2)`Dp??(x2)",
 	Fiesta2: "=",
 	FiestaEX: "S6 S9 S12 S20 D13 D21 Dp??(x2)  @1.51 S4",
 },
@@ -3714,7 +3714,7 @@ var readableTracklist = {
 	//XX__: "S4 S6 S8 S10 S17 S18 S21 S23  D8 D17 D24  Co-op x2",
 	XX: "= S17`15",
 	Prime2: "=",
-	Prime: "=",
+	Prime: "= CoOp(x2)`Dp??(x2)",
 	Fiesta2: "=",
 	FiestaEX: "=  @1.20 S15 S21",
 	Fiesta: "S4 S6 S8 S10 S18 S23 D8 D17 D24 Dp??(x2)",
@@ -4414,7 +4414,7 @@ var readableTracklist = {
 	//XX__: "S2 S4 S7 S17  D9 D19  Co-op x2",
 	XX: "= S17`16 D19`18",
 	Prime2: "=",
-	Prime: "=",
+	Prime: "= CoOp(x2)`Dp??(x2)",
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "@1.10 S2 S7 S16 Dp??(x2) S4 D9 D18",
@@ -5215,7 +5215,7 @@ var readableTracklist = {
 	//XX__: "S3 S5 S8 S16 S17  Sp15  Co-op x2",
 	XX: "=",
 	Prime2: "=",
-	Prime: "= -D??(x3)",
+	Prime: "= CoOp(x2)`Dp??(x2) -D??(x3)",
 	Fiesta2: "=",
 	FiestaEX: "=  @1.51 S3 S5 S8",
 	Fiesta: "S16 S17 D??(x3) Sp15 Dp??(x2)",  //?
@@ -5629,7 +5629,7 @@ var readableTracklist = {
 	XX: "= S9`7 S12`11 S19`16 D26`25",  //??? S19.updated (something with ending?)
 	// S19-XX - https://www.youtube.com/watch?v=ieMFtCNbSac
 	Prime2: "=",
-	Prime: "= -D??(x3)",
+	Prime: "= CoOp(x2)`Dp??(x2) -D??(x3)",
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S7`nl S16`hd S23`cz D25`nm  D16`afs Dp??(x2).new  S4.new S11.new S18.new D??(x3)`anm",
@@ -6326,7 +6326,7 @@ var readableTracklist = {
 	//XX__: "S16 S17  Co-op x2",
 	XX: "=",
 	Prime2: "=",
-	Prime: "= -D??(x2)",
+	Prime: "= CoOp(x2)`Dp??(x2) -D??(x2)",
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S16`ahd S17`acz D??(x2)`afs Dp??(x2)`anm",  //? afs anm проверить
@@ -6546,7 +6546,7 @@ var readableTracklist = {
 	//XX__: "S3 S7 S10 S17 S20 S21  D12 D17 D23  Co-op x2",
 	XX: "= S10`9 D12`10 D23`22",
 	Prime2: "= -S18 -D18",
-	Prime: "=  @1.11 S17.ucs S18.ucs D17.ucs D18.ucs  @1.14 Dp??(x2)",
+	Prime: "=  @1.11 S17.ucs S18.ucs D17.ucs D18.ucs  @1.14 CoOp(x2)",
 	Fiesta2: "=",
 	FiestaEX: "=  @1.51 S9",
 	Fiesta: "S3`nl S7`hd S20`cz D10`fs D22`nm  S21`acz",
@@ -7421,7 +7421,7 @@ var readableTracklist = {
 	//XX__: "S3 S7 S10 S17 S19  D6 D17 D21  Co-op x2",
 	XX: "= S17`15 D17`15 D21`20",
 	Prime2: "=",
-	Prime: "=",
+	Prime: "= CoOp(x2)`Dp??(x2)",
 	Fiesta2: "=",
 	FiestaEX: "=  @1.51 S10",
 	Fiesta: "S3`nl S7`hd S19`cz D6`fs D20`nm  S15`acz D15`afs Dp??(x2)`anm",
@@ -7717,7 +7717,7 @@ var readableTracklist = {
 	//XX__: "S3 S5 S8 S12  D5 D13 D16  Co-Op x2",
 	XX: "= S12`13 D16`17",
 	Prime2: "=",
-	Prime: "=  @1.11 Dp??(x2)  @1.12 D17.ucs",
+	Prime: "=  @1.11 CoOp(x2)  @1.12 D17.ucs",
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "D5`fs D13`nm  S3.new S5.new S8.new S13.new",
@@ -7950,7 +7950,7 @@ var readableTracklist = {
 	//XX__: "S3 S7 S12 S16 S18  D9 D17 D20  Co-op x2",
 	XX: "= S16`15 D20`19",
 	Prime2: "=",
-	Prime: "=  @1.12 S18.ucs D17.ucs Dp??(x2).ucs",
+	Prime: "=  @1.12 S18.ucs D17.ucs CoOp(x2).ucs",
 	Fiesta2: "=",
 	FiestaEX: "=  @1.51 S3",
 	Fiesta: "S7`hd S12`cz D9`fs D19`nm  S15`ahd",

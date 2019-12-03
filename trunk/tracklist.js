@@ -325,7 +325,7 @@ function FindChart( track, chartDescr )
 
 		if( mixID != "" )
 		{
-			var chart = _.findWhere( track[ mixID ], { tag: chartTag, } );
+			var chart = _.findWhere( track[ mixID ], { tag: chartTag } );
 			if( ! chart )
 				throw new Error( "Can't find chart '" + chartDescr + "' in track '" + track.title + "'" );
 			return chart;
@@ -343,20 +343,22 @@ function FindChart( track, chartDescr )
 	}
 	else
 	{
-		var result = localChartDescr.match( /(\D+)(\d+)/ );
+		var result = localChartDescr.match( /(\D+)(\d+)$/ );
+		var chartSearchPattern = { text: localChartDescr }
 		var chartTag = localChartDescr;
 		var chartlevelText = 0;
 		if( result )
 		{
 			chartTag = result[ 1 ];
 			chartlevelText = result[ 2 ];
+			chartPattern = { tag: chartTag, levelText: chartlevelText }
 		}
 
 		if( mixID != "" )
 		{
-			var chart = _.findWhere( track[ mixID ], { tag: chartTag, levelText: chartlevelText, } );
+			var chart = _.findWhere( track[ mixID ], chartSearchPattern );
 			if( ! chart )
-				throw new Error( "Can't find chart '" + chartDescr + "' in track '" + track.title + "'" );
+				throw new Error( "Can't find chart '" + chartDescr + "' in track '" + track.title + "' [" + mixID + "]" );
 			return chart;
 		}
 
@@ -364,7 +366,7 @@ function FindChart( track, chartDescr )
 		{
 			if( track[ newMixID ] )
 			{
-				var chart = _.findWhere( track[ newMixID ], { tag: chartTag, levelText: chartlevelText, } );
+				var chart = _.findWhere( track[ newMixID ], chartSearchPattern );
 				if( chart )
 					return chart;
 			}
