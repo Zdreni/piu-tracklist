@@ -4179,6 +4179,7 @@ var readableTracklist = {
 "1048":
 {
 	title: "Final Audition 2  [SHORT]", artist: "BanYa", bpm: "130",
+	arcadeName: "Final Audition 2 - SHORT CUT",
 	//XX__: "S17  D18",
 	XX: "= S17`16 D18`17",
 	Prime2: "=",
@@ -4191,6 +4192,7 @@ var readableTracklist = {
 "1049":
 {
 	title: "Final Audition 3 U.F  [SHORT]", artist: "BanYa", bpm: "130.5",
+	arcadeName: "Final Audition 3 - SHORT CUT",
 	//XX__: "S18  D16",
 	XX: "= S18`17",
 	Prime2: "=",
