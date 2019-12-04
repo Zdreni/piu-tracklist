@@ -2404,6 +2404,7 @@ var readableTracklist = {
 "14C7":
 {
 	title: "Creed -1st Desire-  [FULL]", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "163",
+	arcadeName: "Creed - 1st Desire - [FULL SONG]",
 	//XX__: "S18 S22  D19 D24",
 	XX: "= S22`23",
 	Prime2: "=",
