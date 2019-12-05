@@ -3588,6 +3588,7 @@ var readableTracklist = {
 "1146":
 {
 	title: "Cleaner  [SHORT]", artist: "Doin", channel: ORIGINAL, bpm: "203",
+	arcadeName: "Cleaner - SHORT CUT",
 	//XX__: "S21  D22",
 	XX: "= D22`20",
 	Prime2: "=",
