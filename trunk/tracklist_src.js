@@ -5578,7 +5578,8 @@ var readableTracklist = {
 
 "E928":
 {
-	title: "FAE1 & Chicken Wing Remix (NX2 ver.)", artist: "BanYa", bpm: "200", duration: REMIX, fromMix: "Extra",
+	title: "Extra BanYa Remix", artist: "BanYa", bpm: "200", duration: REMIX, fromMix: "Extra",
+	// old title: "FAEp1 & Chicken Wing Remix (NX2 ver.)", 
 	arcadeName: "EXTRA BanYa Remix",
 	shortTitle: "Extra BanYa Remix",
 	//XX__: "S11 S21  D14",
