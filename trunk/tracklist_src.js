@@ -5970,6 +5970,7 @@ var readableTracklist = {
 "D36":
 {
 	title: "BanYa-P Classic Mix", artist: "BanYa Production", bpm: "92~180", duration: REMIX,
+	arcadeName: "Banya-P Classic Remix",
 	//XX__: "S15 S21  D16 D22",
 	XX: "S15`hd S21`cz  D16`fs D22`nm",
 	NX2_: ["", "14", "19", "15", "20"],
