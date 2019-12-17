@@ -67,7 +67,7 @@ function AddNotes()
 
 	W( "Nobody", ["S15", "D17"], HAS_SOME_STOPS )
 
-	W( "Mackerel", ["S8", "S16"], HAS_SOME_STOPS )
+	W( "Mackerel", ["S8", "S16", "D15"], HAS_SOME_STOPS )
 
 	// fire 2ne1 - mimimi таппинг
 
