@@ -351,7 +351,7 @@ function FindChart( track, chartDescr )
 		{
 			chartTag = result[ 1 ];
 			chartlevelText = result[ 2 ];
-			chartPattern = { tag: chartTag, levelText: chartlevelText }
+			chartSearchPattern = { tag: chartTag, levelText: chartlevelText }
 		}
 
 		if( mixID != "" )
