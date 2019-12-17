@@ -52,9 +52,9 @@ function AddNotes()
 	CR( "Uprock", "CZ", BUILT_WITH_STOPS )
 	CR( "Everybody Got 2 Know", "S19", BUILT_WITH_STOPS )
 
-	W( "Come to Me @ 826", "S13.XX", "Ends with all arrows jump." )
-	CR( "Come to Me @ 826", "S17.XX", BUILT_WITH_STOPS )
-	W( "Come to Me @ 826", "S17.XX", "Ends with all arrows jump." )
+	W( "Come to Me @ 826", "S13-XX", "Ends with all arrows jump." )
+	CR( "Come to Me @ 826", "S17-XX", BUILT_WITH_STOPS )
+	W( "Come to Me @ 826", "S17-XX", "Ends with all arrows jump." )
 
 	W( "Tek -Club Copenhagen-", ["S16", "S17"], HAS_SOME_STOPS )
 	W( "Bad Apple!! feat. Nomico", "S15", HAS_SOME_STOPS )
@@ -66,6 +66,8 @@ function AddNotes()
 	CR( "Ugly Dee", ["aFS", "aNM"], "Triple and quad holds throughout the chart." )
 
 	W( "Nobody", ["S15", "D17"], HAS_SOME_STOPS )
+
+	W( "Mackerel", ["S8", "S16"], HAS_SOME_STOPS )
 
 	// fire 2ne1 - mimimi таппинг
 
@@ -102,7 +104,9 @@ function AddNotes()
 	CR( "Twist of Fate (feat. Ruriling)", ["S18", "D20"], "Main part has EXTREME slowdown." )
 	//N( "The Festival of Ghost2 (Sneak)", [], "Lot of gimmicks" )
 
-	CR( "Jump", ["D18"], "Lots of sudden jumps, lower your AV significantly")
+	CR( "Jump", "D18", "Lots of sudden jumps, lower your AV significantly" )
+
+	CR( "Prime Time", "Dp24", "You may switch between easy, medium and hard parts by pressing cold, skipping or pressing heat noteskin correspondingly" )
 }
 
 
