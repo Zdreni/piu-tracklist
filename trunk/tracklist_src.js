@@ -79,7 +79,7 @@ var readableTracklist = {
 "16_Orbit_Stabilizer":
 {
 	title: "Orbit Stabilizer", artist: "DM Ashura", channel: ORIGINAL, bpm: "155",
-	sortingID: "1630__1", // arcadeID: "",  // between Kimchi Fingers (1630) and Tantanmen (1635)
+	sortingID: "1631", // arcadeID: "",  // between Kimchi Fingers (1630) and Tantanmen (1635)
 	XX: "@1.05 S6 S13 S16 D18 S19.lock S21.lock D21.lock D23.lock",
 },
 
@@ -96,7 +96,7 @@ var readableTracklist = {
 {
 	title: "Cross Soul", artist: "HyuN feat. Syepias", channel: WORLD, bpm: "200",
 	arcadeName: "CROSS SOUL",
-	sortingID: "1670__1", // arcadeID: "",  // between 8 6 (1670) and F(r)iend (1675)
+	sortingID: "1671", // arcadeID: "",  // between 8 6 (1670) and F(r)iend (1675)
 	XX: "@1.05 S8 S17 D12 D18 S20.lock S22.lock D20.lock D24.lock",
 },
 
@@ -217,7 +217,7 @@ var readableTracklist = {
 
 "16_Tantanmen":
 {
-	title: "Tantanmen", artist: "Memme", channel: ORIGINAL, bpm: "185",
+	title: "TanTanMen", artist: "Memme", channel: ORIGINAL, bpm: "185",
 	arcadeID: "1635",
 	XX: "@1.04 S4 S7 S11 S14 S17 D13 D20 S20.lock D23.lock",  // @1.05 D23 changed
 },
@@ -2957,6 +2957,7 @@ var readableTracklist = {
 "13E0":
 {
 	title: "Pop the Track  [SHORT]", artist: "J-Mi & Midi-D & Ft. Hanna Stockzell", channel: WORLD, bpm: "160",
+	arcadeName: "Pop The Track - SHORT CUT",
 	//XX__: "S18  D16",
 	XX: "=",
 	Prime2: "=",
@@ -7989,6 +7990,7 @@ var readableTracklist = {
 "306":
 {
 	title: "Nightmare", artist: "BanYa", bpm: "120", fromMix: "OBG",
+	arcadeName: "A Nightmare",
 	//XX__: "S2 S4  D13  Dp5",
 	XX: "= S2`1",
 	Prime2: "=",
