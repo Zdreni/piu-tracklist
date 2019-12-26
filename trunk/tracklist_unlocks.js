@@ -744,7 +744,7 @@ function ApplyUnlocks()
 
 		Lock( "Dignity", "D26", "at least 5mln score on D24" )
 
-	// 1.04
+	// 1.05
 		Lock( "Carmen Bus", "S18", "At least A sb on S16" )
 		Lock( "Carmen Bus", "S21", "At least S on S18" )
 		Lock( "Carmen Bus", "D20", "At least SS on D13" )
@@ -777,6 +777,48 @@ function ApplyUnlocks()
 		Lock( "Can-Can ~Orpheus in the party mix~  [SHORT]", "D21", "At least A sb on D19" )
 		Lock( "Can-Can ~Orpheus in the party mix~  [SHORT]", "D23", "At least A sb on D21" )
 		Lock( "Can-Can ~Orpheus in the party mix~  [SHORT]", "D25", "At least S on D23" )
+
+	// 2.00
+		Lock( "16_Hit", "S16", "At least A sb on S14" )
+		Lock( "16_Hit", "S19", "At least A sb on S16" )
+		Lock( "16_Hit", "D18", "At least A sb on D16" )
+		Lock( "16_Hit", "D21", "At least A sb on D18" )
+
+		Lock( "16_Adios", "S17", "At least S on S13 and A sb on S15" )
+		Lock( "16_Adios", "D20", "At least S on S15 and A sb on D18" )
+
+		Lock( "16_Bungee_Fall_in_Love", "S17", "At least S on S14?" )
+		Lock( "16_Bungee_Fall_in_Love", "D18", "At least S on D15?" )
+
+		Lock( "16_Rooftop", "S16", "At least A on S13?" )
+		Lock( "16_Rooftop", "D18", "At least A on D15?" )
+		Lock( "16_Rooftop", "D20", "At least S on S16 and D18" )
+
+		Lock( "16_Wicked_Legend", "S19", "At least S on S10 and S on S15" )
+		Lock( "16_Wicked_Legend", "D21", "At least S on D12 and S on D18" )
+
+		Lock( "16_Janus", "S20", "At least S on S17" )
+		Lock( "16_Janus", "D22", "At least S on D19" )
+
+		Lock( "16_Lepton_Strike", "S19", "At least SS on S10 and S on S16?" )
+		Lock( "16_Lepton_Strike", "S22", "At least S on 19" )
+		Lock( "16_Lepton_Strike", "D21", "At least SS on D11 and D17?" )
+		Lock( "16_Lepton_Strike", "D23", "At least S on D21" )
+
+		Lock( "16_After_a_thousand_years", "S20", "At least A sb on S18" )
+		Lock( "16_After_a_thousand_years", "D21", "At least SSS on D14?" )
+
+		Lock( "16_Your_Mind", "S21", "At least SS on S14 and SS on S17" )
+		Lock( "16_Your_Mind", "D23", "At least SS on D10 and SS on D18" )
+
+		Lock( "16_Uranium", "S19", "At least A sb on on S16 and Tritium S17" )
+		Lock( "16_Uranium", "S22", "At least A sb on on S19 and Tritium S21" )
+		Lock( "16_Uranium", "D20", "At least A sb on on D17 and Tritium D19" )
+		Lock( "16_Uranium", "D24", "At least S on D20 and Tritium D21" )
+
+		Lock( "My Dreams", "D22", "At least SS on D18" )
+
+		Lock( "Jump", "S16", "At least SS on S13" )
 }
 
 initFuncs.push( ApplyUnlocks );
