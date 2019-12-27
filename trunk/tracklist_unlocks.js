@@ -782,10 +782,10 @@ function ApplyUnlocks()
 		Lock( "16_Hit", "S16", "At least A sb on S14" )
 		Lock( "16_Hit", "S19", "At least A sb on S16" )
 		Lock( "16_Hit", "D18", "At least A sb on D16" )
-		Lock( "16_Hit", "D21", "At least A sb on D18" )
+		Lock( "16_Hit", "D21", "At least S on D18" )
 
 		Lock( "16_Adios", "S17", "At least S on S13 and A sb on S15" )
-		Lock( "16_Adios", "D20", "At least S on S15 and A sb on D18" )
+		Lock( "16_Adios", "D20", "At least S on D15 and A sb on D18" )
 
 		Lock( "16_Bungee_Fall_in_Love", "S17", "At least S on S14?" )
 		Lock( "16_Bungee_Fall_in_Love", "D18", "At least S on D15?" )
@@ -802,11 +802,11 @@ function ApplyUnlocks()
 
 		Lock( "16_Lepton_Strike", "S19", "At least SS on S10 and S on S16?" )
 		Lock( "16_Lepton_Strike", "S22", "At least S on 19" )
-		Lock( "16_Lepton_Strike", "D21", "At least SS on D11 and D17?" )
+		Lock( "16_Lepton_Strike", "D21", "At least SS on D11 and S on D17" )
 		Lock( "16_Lepton_Strike", "D23", "At least S on D21" )
 
 		Lock( "16_After_a_thousand_years", "S20", "At least A sb on S18" )
-		Lock( "16_After_a_thousand_years", "D21", "At least SSS on D14?" )
+		Lock( "16_After_a_thousand_years", "D21", "At least SS on D14" )
 
 		Lock( "16_Your_Mind", "S21", "At least SS on S14 and SS on S17" )
 		Lock( "16_Your_Mind", "D23", "At least SS on D10 and SS on D18" )
@@ -816,7 +816,7 @@ function ApplyUnlocks()
 		Lock( "16_Uranium", "D20", "At least A sb on on D17 and Tritium D19" )
 		Lock( "16_Uranium", "D24", "At least S on D20 and Tritium D21" )
 
-		Lock( "My Dreams", "D22", "At least SS on D18" )
+		Lock( "My Dreams", "D22", "At least S on D18" )
 
 		Lock( "Jump", "S16", "At least SS on S13" )
 }
