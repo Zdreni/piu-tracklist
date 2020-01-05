@@ -597,6 +597,7 @@ var readableTracklist = {
 "16_Allegro_Con_Fuoco_FULL":
 {
 	title: "Allegro Con Fuoco  [FULL]", artist: "DM Ashura", channel: WORLD, bpm: "156",
+	arcadeName: "Allegro Con Fuoco - FULL SONG -",
 	arcadeID: "16C5",
 	XX: "@1.02 S23.lock D25.lock",
 },
