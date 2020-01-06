@@ -2480,7 +2480,7 @@ var readableTracklist = {
 {
 	title: "Four Seasons of Loneliness ver B feat. Sariyajin  [FULL]", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "178",
 	shortTitle: "Four Seasons of Loneliness",
-	arcadeName: "FOUR SEASONS OF LONELINESS ver feat. Sariyajin - FULL SONG",
+	arcadeName: "FOUR SEASONS OF LONELINESS verB feat. Sariyajin - FULL SONG", arcadeNameMaxEditDistance: 2,  // 'beta' vs 'B'
 	//XX__: "S14 S19  D15 D19",
 	XX: "= D15`14",
 	Prime2: "=",
