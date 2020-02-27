@@ -819,6 +819,30 @@ function ApplyUnlocks()
 		Lock( "My Dreams", "D22", "At least S on D18" )
 
 		Lock( "Jump", "S16", "At least S on S13" )
+
+	// 2.01
+		Lock( "16_Snapping", "S17", "???" )
+		Lock( "16_Snapping", "S19", "???" )
+		Lock( "16_Snapping", "D18", "???" )
+
+		Lock( "16_Switronic", "S18", "???" )
+		Lock( "16_Switronic", "D19", "???" )
+
+		Lock( "16_Transacaglia_in_G_minor", "S19", "???" )
+		Lock( "16_Transacaglia_in_G_minor", "D21", "???" )
+
+		Lock( "16_Indestructible", "S22", "???" )
+		Lock( "16_Indestructible", "D21", "???" )
+		Lock( "16_Indestructible", "D22", "???" )
+
+		Lock( "16_Cycling", "S20", "???" )
+		Lock( "16_Cycling", "D21", "???" )
+
+		Lock( "Will O The Wisp", "D25", "???" )
+
+		Lock( "Pine Nut", "D22", "???" )
+
+		Lock( "Hellfire", "S22", "???" )
 }
 
 initFuncs.push( ApplyUnlocks );

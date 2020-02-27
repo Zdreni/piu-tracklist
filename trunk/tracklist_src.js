@@ -46,14 +46,58 @@ var readableTracklist = {
 
 // unsorted
 
-/*
-"16_":
+"16_Snapping":
 {
-	title: "", artist: "", channel: , bpm: "", duration: ,
+	title: "Snapping", artist: "CHUNG HA", channel: KPOP, bpm: "105",
 	sortingID: "", // arcadeID: "",
-	XX: "@2.00 ",
+	XX: "@2.01 S2 S3 S5 S15 D6 D16 S17.lock S19.lock D18.lock",
 },
-*/
+
+"16_Switronic":
+{
+	title: "Switronic", artist: "SHK", channel: ORIGINAL, bpm: "120~170",
+	sortingID: "", // arcadeID: "",
+	XX: "@2.01 S3 S5 S8 S11 S15 D10 D16 CoOp(x2) S18.lock D19.lock",
+},
+
+"16_Transacaglia_in_G_minor":
+{
+	title: "Transacaglia in G-minor", artist: "ATAS", channel: ORIGINAL, bpm: "158",
+	sortingID: "", // arcadeID: "",
+	XX: "@2.01 S3 S6 S11 S16 D7 D13 D18 S19.lock D21.lock",
+},
+
+"16_Indestructible":
+{
+	title: "Indestructible", artist: "Matduke", channel: WORLD, bpm: "174",
+	sortingID: "", // arcadeID: "",
+	XX: "@2.01 S8 S13 S19 D14 D20 CoOp(x2) S22.lock D21.lock D22.lock",
+},
+
+"16_Cycling":
+{
+	title: "Cycling!", artist: "Yamajet", channel: XROSS, bpm: "220",
+	sortingID: "", // arcadeID: "",
+	XX: "@2.01 S3 S7 S10 S16 D11 D16 S20.lock D21.lock",
+},
+
+"16_Very_Nice_FULL":
+{
+	title: "Very Nice  [FULL]", artist: "SEVENTEEN", channel: KPOP, bpm: "122",
+	arcadeName: "VERY NICE - FULL SONG -",
+	sortingID: "", // arcadeID: "",
+	XX: "@2.01 S11 S19 D20",
+},
+
+"16_Switronic_SHORT":
+{
+	title: "Switronic  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "120",
+	sortingID: "", // arcadeID: "",
+	arcadeName: "Switronic - SHORT CUT -",
+	XX: "@2.01 S3 S6 S10 S14 S18 D5 D12 D18",
+},
+
+
 
 "16_Hit":
 {
@@ -222,7 +266,7 @@ var readableTracklist = {
 {
 	title: "Obliteration", artist: "ATAS", channel: ORIGINAL, bpm: "150",
 	arcadeID: "1603",
-	XX: "S7 S14 S17.lock D10 D15.lock D19.lock  @1.01 Dp5",
+	XX: "S7 S14 S17.lock D10 D15.lock D19.lock  @1.01 Dp5  @2.01 S11",
 },
 
 "16_1949":
@@ -251,7 +295,7 @@ var readableTracklist = {
 	title: "Heart Rabbit Coaster", artist: "Nato", channel: ORIGINAL, bpm: "200",
 	arcadeName: "HEART RABBIT COASTER",
 	arcadeID: "1616",
-	XX: "@1.04 S11 S14 S17 D13 D18 S21.lock S23.lock D22.lock D25.lock  @2.00 Dp5",
+	XX: "@1.04 S11 S14 S17 D13 D18 S21.lock S23.lock D22.lock D25.lock  @2.00 Dp5  @2.01 CoOp(x4)",
 },
 
 "16_Skeptic":
@@ -697,7 +741,7 @@ var readableTracklist = {
 {
 	title: "Hellfire", artist: "Memme", channel: ORIGINAL, bpm: "170",
 	//XX__: "S7 S11 S15 S18  D9 D19 D23  Dp4",
-	XX: "=",
+	XX: "=  @2.01 S22.lock",
 	Prime2: "S7 S11 S15 S18.ampass D9 D19.ampass D23  @1.06 Dp4",
 },
 
@@ -716,7 +760,7 @@ var readableTracklist = {
 	arcadeName: "CROSS OVER feat. LyuU",
 	altID: "15_Cross_Over",
 	//XX__: "S7 S11 S15 S18 S22  D15 D19 D23",
-	XX: "= D15`14  @1.04 Dp4",
+	XX: "= D15`14  @1.04 Dp4  @2.01 CoOp(x2)",
 	Prime2: "@2.04 S7 S11 S15 D14 S18 S22 D19 D23",
 },
 
@@ -935,7 +979,7 @@ var readableTracklist = {
 	title: "Awakening", artist: "typeMARS", channel: ORIGINAL, bpm: "150",
 	altID: "15_Awakening",
 	//XX__: "S7 S10 S14 S16 S19  D9 D13 D17 D20",
-	XX: "=  @1.04 Dp2",
+	XX: "=  @1.04 Dp2  @2.01 CoOp(x2)",
 	Prime2: "@2.03 S7 S10 S14 S16 D9 D13 D17 S19 D20",
 },
 
@@ -1344,7 +1388,7 @@ var readableTracklist = {
 	title: "Bedlam", artist: "SANY-ON", channel: XROSS, bpm: "183",
 	altID: "15_Bedlam",
 	//XX__: "S8 S15 S18 S22  D13 D20 D24  Dp4",
-	XX: "=",
+	XX: "=  @2.01 CoOp(x2)",
 	Prime2: "@1.07 S8 S15 S18 D13 D20 S22 D24  @2.01 Dp4",
 },
 
@@ -1361,7 +1405,7 @@ var readableTracklist = {
 {
 	title: "Clue", artist: "Transin", channel: XROSS, bpm: "140",
 	//XX__: "S4 S8 S12 S16 S18  D10 D18 D20  Dp4",
-	XX: "=",
+	XX: "=  @2.01 D22",
 	Prime2: "@1.01 S4 S8 S12 S16 D10 D18  S18.ampass D20.ampass  @1.06 Dp4",
 },
 
@@ -2950,7 +2994,7 @@ var readableTracklist = {
 {
 	title: "Yeo Rae A", artist: "S.I.D-Sound", channel: ORIGINAL, bpm: "90",
 	//XX__: "S1 S3 S5 S8 S13  D7 D10",
-	XX: "= D7`5 D10`12",
+	XX: "= D7`5 D10`12  @2.01 CoOp(x5)",
 	Prime2: "=",
 	Prime: "=  @1.06 S8",
 	Fiesta2: "@1.60 S1 S3 S5 S13 D5 D12",
@@ -3749,7 +3793,7 @@ var readableTracklist = {
 {
 	title: "Pine Nut", artist: "Doin", channel: ORIGINAL, bpm: "200",
 	//XX__: "S13 S20  D16",
-	XX: "=",
+	XX: "=  @2.01 D22.lock",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7638,7 +7682,7 @@ var readableTracklist = {
 	title: "Will o' the Wisp", artist: "BanYa", bpm: "210", fromMix: "Rebirth",
 	arcadeName: "Will-O-The-Wisp",
 	//XX__: "S2 S5 S11 S14 S19  D13 D14 D20 D21",
-	XX: "= S2`3 S11`10 S14`13 D13`10 D14`13 D20`19",
+	XX: "= S2`3 S11`10 S14`13 D13`10 D14`13 D20`19  @2.01 D25.lock",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7705,7 +7749,7 @@ var readableTracklist = {
 {
 	title: "Set Me Up", artist: "BanYa", bpm: "120", fromMix: "Rebirth",
 	//XX__: "S2 S4 S6 S9 S13  Sp4  Dp4 Dp7",
-	XX: "=",
+	XX: "=  @2.01 D16",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7847,7 +7891,7 @@ var readableTracklist = {
 {
 	title: "Beethoven Virus", artist: "BanYa", bpm: "162", fromMix: "Perfect",
 	//XX__: "S4 S6 S7 S11 S16 S17  D11 D18 D21  Dp3",
-	XX: "= S6`8 S11`13 D11`8 D21`20",  //??? proof S6.updated S7
+	XX: "= S6`8 S11`13 D11`8 D21`20  @2.01  CoOp(x2)",  //??? proof S6.updated S7
 	Prime2: "=",
 	Prime: "= -Dp11",
 	Fiesta2: "=",
