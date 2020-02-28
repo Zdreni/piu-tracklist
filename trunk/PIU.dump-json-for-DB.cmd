@@ -1,1 +1,2 @@
-@python PIU.dump-json-for-DB.py | node > ../../piu-top/admin/Tracklist.json.txt
+@python PIU.dump-json-for-DB.py | node > ../../piu-top-GD/Tracklist.json.txt
+@start ../../piu-top-GD/Tracklist.json.txt
