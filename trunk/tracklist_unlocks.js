@@ -821,28 +821,30 @@ function ApplyUnlocks()
 		Lock( "Jump", "S16", "At least S on S13" )
 
 	// 2.01
-		Lock( "16_Snapping", "S17", "???" )
-		Lock( "16_Snapping", "S19", "???" )
-		Lock( "16_Snapping", "D18", "???" )
+		Lock( "16_Snapping", "S17", "At least A sb on S15" )
+		Lock( "16_Snapping", "S19", "At least S on S15 and S17" )
+		Lock( "16_Snapping", "D18", "At least A on D16" )
 
-		Lock( "16_Switronic", "S18", "???" )
-		Lock( "16_Switronic", "D19", "???" )
+		Lock( "16_Switronic", "S18", "At least S+ on S15" )
+		Lock( "16_Switronic", "D19", "At least S on D16" )
 
-		Lock( "16_Transacaglia_in_G_minor", "S19", "???" )
-		Lock( "16_Transacaglia_in_G_minor", "D21", "???" )
+		Lock( "16_Transacaglia_in_G_minor", "S19", "At least A on S16 and Passacaglia S17" )
+		Lock( "16_Transacaglia_in_G_minor", "D21", "At least A+ on D18 and Passacaglia D18" )
 
-		Lock( "16_Indestructible", "S22", "???" )
-		Lock( "16_Indestructible", "D21", "???" )
-		Lock( "16_Indestructible", "D22", "???" )
+		Lock( "16_Indestructible", "S22", "At least S on S19" )
+		Lock( "16_Indestructible", "D21", "At least A+ on D20" )
+		Lock( "16_Indestructible", "D22", "At least A+ on D21 and S22" )
 
-		Lock( "16_Cycling", "S20", "???" )
-		Lock( "16_Cycling", "D21", "???" )
+		Lock( "16_Cycling", "S20", "At least S on S16" )
+		Lock( "16_Cycling", "D21", "At least SS on D16" )
 
-		Lock( "Will O The Wisp", "D25", "???" )
+		Lock( "Will O The Wisp", "D25", "At least S and score 4,900+k on D21" )
 
-		Lock( "Pine Nut", "D22", "???" )
+		Lock( "Pine Nut", "D22", "At least SS on D16" )
 
-		Lock( "Hellfire", "S22", "???" )
+		Lock( "Hellfire", "S22", "At least S on S18" )
+
+		Lock( "16_After_a_thousand_years", "D23", "At least A+ and score 5,500+k on D21" )
 }
 
 initFuncs.push( ApplyUnlocks );

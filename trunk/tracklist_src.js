@@ -222,7 +222,7 @@ var readableTracklist = {
 {
 	title: "Ice of Death", artist: "Fiverwater", channel: ORIGINAL, bpm: "172",
 	arcadeID: "1625",
-	XX: "@1.01 S7 S10 S17 S20.lock D11 D17 D21.lock CoOp(x2)  @1.04 Dp3",
+	XX: "@1.01 S7 S10 S17 S20.lock D11 D17 D21.lock CoOp(x2)  @1.04 Dp3  @2.01 S3",
 },
 
 "16_Poseidon":
@@ -271,7 +271,7 @@ var readableTracklist = {
 {
 	title: "TanTanMen", artist: "Memme", channel: ORIGINAL, bpm: "185",
 	arcadeID: "1635",
-	XX: "@1.04 S4 S7 S11 S14 S17 D13 D20 S20.lock D23.lock",  // @1.05 D23 changed
+	XX: "@1.04 S4 S7 S11 S14 S17 D13 D20 S20.lock D23.lock  @2.01 CoOp(x3)",  // @1.05 D23 changed
 },
 
 "16_The_Little_Prince":
@@ -463,7 +463,7 @@ var readableTracklist = {
 {
 	title: "After a thousand years", artist: "TOTO", channel: WORLD, bpm: "180",
 	arcadeID: "1673",
-	XX: "@2.00 S4 S7 S12 S18 D14 S20.lock D21.lock",
+	XX: "@2.00 S4 S7 S12 S18 D14 S20.lock D21.lock  @2.01 D23.lock",
 },
 
 "16_Lala":
@@ -579,7 +579,7 @@ var readableTracklist = {
 	title: "Can-Can ~Orpheus in the Party Mix~", artist: "Sr. Lan Belmont", channel: ORIGINAL, bpm: "195",
 	shortTitle: "Can-Can ~Orpheus~",
 	arcadeID: "16A0",
-	XX: "@1.03 S8 S13 S16 S19 D12 D15 D18 S22.lock D23.lock",
+	XX: "@1.03 S8 S13 S16 S19 D12 D15 D18 S22.lock D23.lock  @2.01 CoOp(x2)",
 },
 
 "16_Papasito":
@@ -595,7 +595,7 @@ var readableTracklist = {
 {
 	title: "Fires of Destiny", artist: "Jehezukiel", channel: ORIGINAL, bpm: "155",
 	arcadeID: "16A2",
-	XX: "@1.03 S6 S10 S16 S18 D11 D18 S20.lock D22.lock",
+	XX: "@1.03 S6 S10 S16 S18 D11 D18 S20.lock D22.lock  @2.01 CoOp(x2)",
 },
 
 "16_The_End_of_the_World":
