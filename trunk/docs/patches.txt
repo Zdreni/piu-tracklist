@@ -4859,24 +4859,24 @@ http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=365
 
 2. New Step Charts
 
-	Num   Title                              Step charts
-	1     Beethoven Virus                    CO-OP(2)
-	2     Will O The Wisp                    D25 (Unlocked Step)
-	3     Set Me Up                          D16
-	4     Pine Nut                           D22 (Unlocked Step)
-	5     Yeo Rae A                          CO-OP(5)
-	6     Hellfire                           S22 (Unlocked Step)
-	7     Cross Over feat. LyuU              CO-OP(2)
-	8     Awakening                          CO-OP(2)
-	9     BEDLAM                             CO-OP(2)
-	10    Clue                               D22
-	11    Obliteration                       S11
-	12    HEART RABBIT COASTER               CO-OP(4)
-	13    Ice of Death                       S3
-	14    Tantanmen                          CO-OP(3)
-	15    After a thousand years             D23 (Unlocked Step)
-	16    Can-can ~Orpheus in the Party Mix~ CO-OP(2)
-	17    Fires of Destiny                   CO-OP(2)
+	Num   Title                               Step charts
+	 1    Beethoven Virus                     CO-OP(2)
+	 2    Will O The Wisp                     D25 (Unlocked Step)
+	 3    Set Me Up                           D16
+	 4    Pine Nut                            D22 (Unlocked Step)
+	 5    Yeo Rae A                           CO-OP(5)
+	 6    Hellfire                            S22 (Unlocked Step)
+	 7    Cross Over feat. LyuU               CO-OP(2)
+	 8    Awakening                           CO-OP(2)
+	 9    BEDLAM                              CO-OP(2)
+	10    Clue                                D22
+	11    Obliteration                        S11
+	12    HEART RABBIT COASTER                CO-OP(4)
+	13    Ice of Death                        S3
+	14    Tantanmen                           CO-OP(3)
+	15    After a thousand years              D23 (Unlocked Step)
+	16    Can-can ~Orpheus in the Party Mix~  CO-OP(2)
+	17    Fires of Destiny                    CO-OP(2)
 
 
 3. Mission zone update
@@ -4914,6 +4914,136 @@ http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=365
 	- Lala D7 – Step chart was modified.
 	- Obelisque CO-OP(2) – Step chart was modified.
 	- Forgotten Vampire S8 – Step chart was modified.
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Prime XX  2.02
+
+https://www.facebook.com/piugame/photos/a.439723339389260/3491564137538483/
+https://drive.google.com/file/d/1ITa_v3zER16bYwnPtgpgTglS8JT_T4PO/view
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=367
+(piu_xx_201.bin)
+
+
+1. New Songs
+
+1) Title : Bon Bon Chocolat
+	Artist : EVERGLOW
+	BPM : 140
+	Category : K-POP
+	Step charts : S1, S3, S6, S8, S14, D10, D15
+	S16, D18 (Unlocked step)
+
+2) Title : District 1
+	Artist : MAX
+	BPM : 158
+	Category : Original
+	Step charts : S10, S15, D12, D17, CO-OP(3)
+	S19, D21 (Unlocked step)
+
+3) Title : Adrenaline Blaster
+	Artist : QWertism
+	BPM : 150
+	Category : Original
+	Step charts : S3, S5, S8, S14, S18, D12, D18
+	S21, D22 (Unlocked step)
+
+4) Title : Danger & Danger
+	Artist : Cranky
+	BPM : 155
+	Category : World Music
+	Step charts : S8, S12, S16, D10, D15, D18
+	S19, D21 (Unlocked step)
+
+5) Title : POINT ZERO 2
+	Artist : SYNTHWULF
+	BPM : 170
+	Category : World Music
+	Step charts : S11, S16, S19, D15, D20
+	S21, D22 (Unlocked step)
+
+6) Title : Dual Racing <RED vs BLUE>
+	Artist : Nato & r300k
+	BPM : 165
+	Category : XROSS/O2JAM
+	Step charts : S7, S11, S16, S18, D13, D20, CO-OP(2)
+	S20, D22 (Unlocked step)
+
+7) Title : Fire Noodle Challenge
+	Artist : Memme
+	BPM : 185
+	Category : Original
+	Step charts : S15, S20, D21
+	S23, D25 (Unlocked step)
+
+8) Title : I’m so sick - FULL SONG -
+	Artist : APink
+	BPM : 124
+	Category : K-POP
+	Step charts : S11, S18, D20
+
+9) Title : Time for the moon night - FULL SONG -
+	Artist : GFRIEND
+	BPM : 170
+	Category : K-POP
+	Step charts : S14, S18, D20
+	S21, D24 (Unlocked step)
+
+
+2. New Step Charts
+
+	Num  Title                                        Step charts
+	 1   Csikos Post                                  CO-OP(2)
+	 2   Point Break                                  S3, S9, S13, D9
+	 3   Silhouette Effect                            CO-OP(2)
+	 4   Super Capriccio                              D23(Unlocked Step)
+	 5   The Quick Brown Fox Jumps Over The Lazy Dog  D22
+	 6   ESCAPE                                       D26(Unlocked Step)
+	 7   BSPower Explosion                            CO-OP(2)
+	 8   Time for the moon night                      CO-OP(2)
+	 9   Indestructible                               S17, DP5
+	10   Imagination                                  S17
+	11   Allegro Con Fuoco - FULL SONG -              S18, D21
+	12   Switronic                                    DP4
+	13   Transacaglia in G-minor                      DP3
+	14   JANUS                                        DP3
+	15   Lepton Strike                                DP4
+	16   Wicked Legend                                DP4
+	17   Tantanmen                                    DP4
+	18   Snapping                                     DP2
+	19   Adios                                        DP3
+	20   HIT                                          DP4
+	21   Rooftop                                      DP3
+	22   BUNGEE (Fall in Love)                        DP4
+	23   King of Sales                                DP4
+	24   Lala                                         DP3
+	25   Conflict                                     DP4
+	26   Cycling!                                     DP3
+	27   Uranium                                      DP4
+	28   Your Mind                                    DP4
+
+
+3. Mission zone update
+
+	Num  Title                       Step charts
+	 1   Hellfire                    D15
+	 2   GOOD BYE                    S16
+	 3   Vacuum                      S17
+	 4   Bee                         S18
+	 5   BSPower Explosion           D20
+	 6   Pump Me Amadeus             S20
+	 7   Final Audition Episode 2-2  S21
+	 8   THE REVOLUTION              D22
+	 9   Death Moon                  D23
+	10   Further                     D26
+
+
+4. Additions
+
+	- Awakening CO-OP(2) – L/R skin marking error has been modified.
+	- Indestructible S22 – Step chart was modified.
+ 
 
 -----------------------------------------------------------------------------------------------------------------------
 
