@@ -51,9 +51,81 @@ var readableTracklist = {
 	title: "", artist: "", channel: , bpm: "", duration: ,
 	sortingID: "",  // between  () and  ()
 	// arcadeID: "",
-	XX: "@2.02 ",
+	// arcadeName: "",
+	XX: "@2.03 ",
 },
 */
+
+
+"16_Gotta_Go":
+{
+	title: "Gotta Go", artist: "CHUNG HA", channel: KPOP, bpm: "102",
+	sortingID: "1666",  // between 16_King_of_Sales (1665) and 16_Boong_Boong (1667)
+	// arcadeID: "",
+	XX: "@2.03 S2 S4 S6 S9 S15 D6 D16 S17.lock D18.lock",
+},
+
+"16_Iolite_Sky":
+{
+	title: "Iolite Sky", artist: "Doin", channel: ORIGINAL, bpm: "90",
+	sortingID: "1619",  // between 16_Skeptic (1618) and 16_Percent_X (1620)
+	// arcadeID: "",
+	// arcadeName: "",
+	XX: "@2.03 S7 S10 S16 D11 D17 S20.lock S22.lock D24.lock",
+},
+
+"16_La_Cinquantaine":
+{
+	title: "La Cinquantaine", artist: "Pory", channel: ORIGINAL, bpm: "164",
+	sortingID: "1621",  // between 16_Percent_X (1620) and 16_Le_Grand_Rouge (1622)
+	// arcadeID: "",
+	// arcadeName: "",
+	XX: "@2.03 S6 S10 S16 D12 D16 S19.lock S22.lock D20.lock D24.lock",
+},
+
+"16_Broken_Karma":
+{
+	title: "Broken Karma (PIU Edit)", artist: "Quree", channel: WORLD, bpm: "180",
+	sortingID: "1672",  // between 16_Cross_Soul (1671) and 16_After_a_thousand_years (1673)
+	// arcadeID: "",
+	// arcadeName: "",
+	XX: "@2.03 S10 S16 S19 D13 D20 S21.lock D23.lock",
+},
+
+"16_Cutie_Song":
+{
+	title: "Cutie Song", artist: "Memme", channel: XROSS, bpm: "174",
+	sortingID: "1686__1",  // between 16_Rising_Star (1686) and 16_Loki (1690)
+	// arcadeID: "",
+	XX: "@2.03 S4 S8 S11 S15 D13 D17 CoOp(x3) S19.lock D21.lock",
+},
+
+"16_Nekkoya_Pick_Me_FULL":
+{
+	title: "Nekkoya (Pick Me)  [FULL]", artist: "PRODUCE48", channel: KPOP, bpm: "128", duration: FULL,
+	sortingID: "16D8__1",  // between 16_Hann_Alone_FULL (16D8) and 16_BBoom_BBoom_FULL (16E0)
+	// arcadeID: "",
+	arcadeName: "NEKKOYA(PICK ME) - FULL SONG -",
+	XX: "@2.03 S12 S19 D20",
+},
+
+"16_Good_Bye_FULL":
+{
+	title: "Good Bye  [FULL]", artist: "Hong Jin-Young", channel: KPOP, bpm: "139", duration: FULL,
+	sortingID: "16E7__1",  // between 16_Very_Nice_FULL (16E7) and 16_Wedding_Crashers (1601)
+	// arcadeID: "",
+	arcadeName: "GOOD BYE - FULL SONG -",
+	XX: "@2.03 S17 S19 D18 D21",
+},
+
+"16_I_Want_U_SHORT":
+{
+	title: "I Want U  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "156", duration: SHORT,
+	sortingID: "16F4",  // between 16_XX_Opening (16F3) and 16_Poseidon_SHORT (16F5)
+	// arcadeID: "",
+	arcadeName: "I Want U – SHORT CUT -",
+	XX: "@2.03 S4 S7 S11 S19 D13 D21",
+},
 
 
 "16_Bon_Bon_Chocolat":
@@ -77,7 +149,7 @@ var readableTracklist = {
 	title: "Adrenaline Blaster", artist: "QWertism", channel: ORIGINAL, bpm: "150",
 	sortingID: "1627 ",  // between 16_Poseidon (1626) and 16_Vanish (1628)
 	// arcadeID: "",
-	XX: "@2.02 S3 S5 S8 S14 S18 D12 D18 S21.lock D22.lock",
+	XX: "@2.02 S3 S5 S8 S14 S18 D12 D18 S21.lock D22.lock  @2.03  CoOp(x2)",
 },
 
 "16_Danger_n_Danger":
@@ -284,7 +356,7 @@ var readableTracklist = {
 {
 	title: "Macaron Day", artist: "HyuN", channel: ORIGINAL, bpm: "173",
 	arcadeID: "1624",
-	XX: "S12 S17 D13 D18.lock  @1.01 Dp3",
+	XX: "S12 S17 D13 D18.lock  @1.01 Dp3  @2.03  CoOp(x2)",
 },
 
 "16_Ice_of_Death":
@@ -305,7 +377,7 @@ var readableTracklist = {
 {
 	title: "Vanish", artist: "Applesoda", channel: ORIGINAL, bpm: "174",
 	arcadeID: "1628",
-	XX: "S6 S12 S17.lock S20 D9 D12 D18.lock D22.lock  @1.01 Dp4",
+	XX: "S6 S12 S17.lock S20 D9 D12 D18.lock D22.lock  @1.01 Dp4  @2.03  CoOp(x2)",
 },
 
 "16_Tales_of_Pumpnia":
@@ -319,7 +391,7 @@ var readableTracklist = {
 {
 	title: "Kimchi Fingers", artist: "Garlic Squad", channel: ORIGINAL, bpm: "190",
 	arcadeID: "1630",
-	XX: "S14.lock S17.lock S20.lock D16.lock D21.lock  @1.01 Dp4",
+	XX: "S14.lock S17.lock S20.lock D16.lock D21.lock  @1.01 Dp4  @2.03  CoOp(x2)",
 },
 
 "16_Orbit_Stabilizer":
@@ -513,19 +585,19 @@ var readableTracklist = {
 	XX: "S8 S16 S18.lock S22.lock D12.lock D18.lock D21.lock CoOp(x2).lock  @1.01 Dp5",
 },
 
+"16_86":
+{
+	title: "8 6", artist: "Dasu", channel: WORLD, bpm: "167",
+	arcadeID: "1670",
+	XX: "S12.lock S16.lock S20.lock D18.lock D21.lock  @1.01 Dp3",
+},
+
 "16_Cross_Soul":
 {
 	title: "Cross Soul", artist: "HyuN feat. Syepias", channel: WORLD, bpm: "200",
 	arcadeName: "CROSS SOUL",
 	arcadeID: "1671",
 	XX: "@1.05 S8 S17 D12 D18 S20.lock S22.lock D20.lock D24.lock  @2.00 Dp4",
-},
-
-"16_86":
-{
-	title: "8 6", artist: "Dasu", channel: WORLD, bpm: "167",
-	arcadeID: "1670",
-	XX: "S12.lock S16.lock S20.lock D18.lock D21.lock  @1.01 Dp3",
 },
 
 "16_After_a_thousand_years":
@@ -596,7 +668,7 @@ var readableTracklist = {
 {
 	title: "Xeroize", artist: "FE", channel: XROSS, bpm: "200",
 	arcadeID: "1685",
-	XX: "@1.01 S12 S17 S21.lock S24.lock D18 D22.lock D25.lock  @2.00 Dp5",
+	XX: "@1.01 S12 S17 S21.lock S24.lock D18 D22.lock D25.lock  @2.00 Dp5  @2.03  CoOp(x3)",
 },
 
 "16_Rising_Star":
@@ -1016,7 +1088,7 @@ var readableTracklist = {
 	shortTitle: "Twist of Fate",
 	altID: "15_Twist_of_Fate",
 	//XX__: "S4 S6 S10 S16 S19  D10 D17 D21",
-	XX: "= S19`18 D21`20  @1.04 Dp4",
+	XX: "= S19`18 D21`20  @1.04 Dp4  @2.03  CoOp(x2)",
 	Prime2: "@2.00 S4 S6 S10 S16 D10 D17 S18 D20",
 },
 
@@ -1025,7 +1097,7 @@ var readableTracklist = {
 	title: "HTTP", artist: "Quree", channel: ORIGINAL, bpm: "147",
 	altID: "15_HTTP",
 	//XX__: "S2 S4 S7 S14 S17 S21  D10 D12 D19 D23",
-	XX: "=  @1.04 Dp4",
+	XX: "=  @1.04 Dp4  @2.03  CoOp(x2)",
 	Prime2: "@2.00 S2 S4 S7 S14 D10 D12 S17 S21 D19 D23",
 },
 
@@ -1072,7 +1144,7 @@ var readableTracklist = {
 	title: "Escape", artist: "D_AAN", channel: ORIGINAL, bpm: "220",
 	altID: "15_ESCAPE",
 	//XX__: "S15 S18 S21 S24  D19 D22",
-	XX: "=  @1.04 Dp4  @2.02 D26.lock",
+	XX: "=  @1.04 Dp4  @2.02 D26.lock",  // TODO: D26 modified on 2.03
 	Prime2: "@2.05 S15 S18 D19 S21 S24 D22",
 },
 
@@ -1357,7 +1429,7 @@ var readableTracklist = {
 	title: "BSPower Explosion", artist: "Memme", channel: XROSS, bpm: "180",
 	altID: "15_BSPower_Explosion",
 	//XX__: "S8 S11 S16 S19 S21  D13 D20 D23",
-	XX: "= S16`17 S19`20 S21`22  @1.04 Dp5  @2.02 CoOp(x2)",
+	XX: "= S16`17 S19`20 S21`22  @1.04 Dp5  @2.02 CoOp(x2)",  // TODO: CoOp(x2) modified on 2.03
 	Prime2: "@2.05 S8 S11 S17 D13 S20 S22 D20 D23",
 },
 
@@ -1383,7 +1455,7 @@ var readableTracklist = {
 	title: "Magical Vacation", artist: "S.I.D-Sound", channel: XROSS, bpm: "154",
 	altID: "15_Magical_Vacation",
 	//XX__: "S6 S11 S16 S18  D7 D13 D18  Dp3",
-	XX: "= S18`19",
+	XX: "= S18`19  @2.03  CoOp(x2)",
 	Prime2: "@1.06 S6 S11 S16 D7 D13 S19.ampass D18.ampass  @2.01 Dp3",
 },
 
@@ -2357,7 +2429,7 @@ var readableTracklist = {
 	title: "Bad Apple!! feat. Nomico", artist: "Masayoshi Minoshima", channel: JMUSIC, bpm: "138",
 	shortTitle: "Bad Apple",
 	//XX__: "S1 S3 S5 S9 S13 S15 S17 S19  D10 D18 D20  Dp2",
-	XX: "= D20`21",
+	XX: "= D20`21  @2.03  CoOp(x2)",
 	Prime2: "=",
 	Prime: "@1.09 S1 S5 S9 S13 D10  S17 S19 D18 D21  @1.15 Dp2  @1.17 S3  @1.21 S15",
 },
@@ -3088,7 +3160,7 @@ var readableTracklist = {
 {
 	title: "Mental Rider", artist: "SQUAR", channel: ORIGINAL, bpm: "120 ~ 140",
 	//XX__: "S13 S16 S21  D13 D19 D22 D24",
-	XX: "= S13`12 D24`23",
+	XX: "= S13`12 D24`23  @2.03  CoOp(x4)",
 	Prime2: "=  @2.05 D22",
 	Prime: "=",
 	Fiesta2: "@1.50 S12 S16 S21 D13 D19 D23",
@@ -5856,7 +5928,7 @@ var readableTracklist = {
 {
 	title: "Chimera", artist: "Yahpp", bpm: "210",
 	//XX__: "S4 S9 S12 S18 S19 S23  D16 D26  Co-op x2",
-	XX: "= S9`7 S12`11 S19`16 D26`25",  //??? S19.updated (something with ending?)
+	XX: "= S9`7 S12`11 S19`16 D26`25  @2.03  D22",  //??? S19.updated (something with ending?)
 	// S19-XX - https://www.youtube.com/watch?v=ieMFtCNbSac
 	Prime2: "=",
 	Prime: "= CoOp(x2)`Dp??(x2) -D??(x3)",
@@ -5988,7 +6060,7 @@ var readableTracklist = {
 {
 	title: "Bullfighter's Song", artist: "BanYa Production", bpm: "168",
 	//XX__: "S4 S5 S9 S16  D9 D18 D21",
-	XX: "= S9`8 D18`17",
+	XX: "= S9`8 D18`17  @2.03  S14",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",

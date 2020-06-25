@@ -873,6 +873,25 @@ function ApplyUnlocks()
 
 		Lock( "Super Capriccio", "D23", "At least SS on D19" )
 		Lock( "Escape", "D26", "At least 8,000k on S24 and S on D22" )
+
+	// 2.03
+		Lock( "16_Gotta_Go", "S17", "At least A+ on S15" )
+		Lock( "16_Gotta_Go", "D18", "At least A+ on D16" )
+
+		Lock( "16_Iolite_Sky", "S20", "At least S on S16" )
+		Lock( "16_Iolite_Sky", "S22", "At least A+ on s20" )
+		Lock( "16_Iolite_Sky", "D24", "At least SS on D17" )
+
+		Lock( "16_La_Cinquantaine", "S19", "At least S on S16" )
+		Lock( "16_La_Cinquantaine", "S22", "At least S on S16 and S20" )
+		Lock( "16_La_Cinquantaine", "D20", "At least S on D16" )
+		Lock( "16_La_Cinquantaine", "D24", "At least S on D16 and D20" )
+
+		Lock( "16_Broken_Karma", "S21", "At least A+ on S19" )
+		Lock( "16_Broken_Karma", "D23", "At least S on D20" )
+
+		Lock( "16_Cutie_Song", "S19", "At least S on S15" )
+		Lock( "16_Cutie_Song", "D21", "At least S on D17" )
 }
 
 initFuncs.push( ApplyUnlocks );
