@@ -123,7 +123,7 @@ var readableTracklist = {
 	title: "I Want U  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "156", duration: SHORT,
 	sortingID: "16F4",  // between 16_XX_Opening (16F3) and 16_Poseidon_SHORT (16F5)
 	// arcadeID: "",
-	arcadeName: "I Want U – SHORT CUT -",
+	arcadeName: "I Want U - SHORT CUT -",
 	XX: "@2.03 S4 S7 S11 S19 D13 D21",
 },
 
