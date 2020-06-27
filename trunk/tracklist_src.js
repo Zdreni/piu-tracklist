@@ -1525,7 +1525,7 @@ var readableTracklist = {
 	altID: "15_Infinity",
 	//XX__: "S10 S15 S18 S21  D10 D19 D23  Co-op x2",
 	XX: "= D23`24  @1.04 Dp4",
-	Prime2: "@2.00 S10 S15 D10 CoOp(x2) S18 S21 D19 D24",
+	Prime2: "@2.00 S10 S15 D10 CoOp(x3) S18 S21 D19 D24",
 },
 
 "15B3":
