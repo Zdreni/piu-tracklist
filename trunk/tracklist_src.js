@@ -726,6 +726,7 @@ var readableTracklist = {
 "16_Papasito":
 {
 	title: "Papasito (ft. KuTiNA)", artist: "Yakukaze & Cashew", channel: ORIGINAL, bpm: "128",
+	arcadeNameMaxEditDistance: 1, // 'Papasito (feat. KUTiINA)'
 	shortTitle: "Papasito",
 	arcadeName: "Papasito (feat. KuTiNA)",
 	arcadeID: "16A1",
@@ -765,6 +766,7 @@ var readableTracklist = {
 "16_Meteo5cience":
 {
 	title: "Meteo5cience", artist: "Paul Bazooka", channel: ORIGINAL, bpm: "140", duration: REMIX,
+	arcadeNameMaxEditDistance: 1, // 'Meteo5Science (GADGET mix)'
 	arcadeName: "MeteoScience (GADGET mix)",
 	arcadeID: "16D3",
 	XX: "@1.02 S18 D19 S21.lock D22.lock",
