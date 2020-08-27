@@ -533,8 +533,8 @@ function ApplyUnlocks()
 		Lock( "16_Good_Bye", "D16", "at least D10 SS" )
 		Lock( "16_Good_Bye", "D18", "at least S17 A" )
 
-		Lock( "16_Love Scenario", "D14", "at least S14 A" )
-		Lock( "16_Love Scenario", "S17", "at least S14 S" )
+		Lock( "16_Love_Scenario", "D14", "at least S14 A" )
+		Lock( "16_Love_Scenario", "S17", "at least S14 S" )
 
 		Lock( "16_Very_Nice", "S14", "AM.Pass Login" )
 		Lock( "16_Very_Nice", "S17", "at least S14 A" )
@@ -892,6 +892,39 @@ function ApplyUnlocks()
 
 		Lock( "16_Cutie_Song", "S19", "At least S on S15" )
 		Lock( "16_Cutie_Song", "D21", "At least S on D17" )
+
+	// 2.04
+		Lock( "16_Jogging", "S18", "???" )
+		Lock( "16_Jogging", "D18", "???" )
+		Lock( "16_Jogging", "D22", "???" )
+
+		Lock( "16_Destrucimate", "S22", "???" )
+		Lock( "16_Destrucimate", "D24", "???" )
+
+		Lock( "16_Clematis_Rapsodia", "S22", "???" )
+		Lock( "16_Clematis_Rapsodia", "D24", "???" )
+
+		Lock( "16_Stardream", "S21", "???" )
+		Lock( "16_Stardream", "D22", "???" )
+
+		Lock( "16_Over_The_Horizon", "S20", "???" )
+		Lock( "16_Over_The_Horizon", "D21", "???" )
+
+		Lock( "16_Houseplan", "S17", "???" )
+		Lock( "16_Houseplan", "D18", "???" )
+
+		Lock( "16_Headless_Chicken", "S21", "???" )
+		Lock( "16_Headless_Chicken", "D21", "???" )
+
+		Lock( "16_Baroque_Virus_FULL", "S21", "???" )
+		Lock( "16_Baroque_Virus_FULL", "D23", "???" )
+
+		Lock( "16_Errorcode_0", "S25", "???" )
+		Lock( "16_Errorcode_0", "D27", "???" )
+
+		Lock( "16_Love_Scenario", "D19", "???" )
+
+		Lock( "16_Dement_After_Legend", "D24", "???" )
 }
 
 initFuncs.push( ApplyUnlocks );

@@ -52,9 +52,90 @@ var readableTracklist = {
 	sortingID: "",  // between  () and  ()
 	// arcadeID: "",
 	// arcadeName: "",
-	XX: "@2.03 ",
+	XX: "@2.04 ",
 },
 */
+
+"16_Jogging":
+{
+	title: "Jogging", artist: "LUCY", channel: KPOP, bpm: "138",
+	sortingID: "1641",  // first, before 16_The_Little_Prince (1642)
+	// arcadeID: "",
+	// arcadeName: "",
+	XX: "@2.04 S3 S5 S9 S16 D7 D16 S18.lock D18.lock D22.lock",
+},
+
+"16_Destrucimate":
+{
+	title: "DESTRUCIMATE", artist: "KURORAK", channel: ORIGINAL, bpm: "193",
+	sortingID: "1632",  // between 16_Orbit_Stabilizer (1631) and 16_Clematis_Rapsodia (1633)
+	// arcadeID: "",
+	// arcadeName: "",
+	XX: "@2.04 S8 S12 S16 S19 D15 D19 S22.lock D24.lock",
+},
+
+"16_Clematis_Rapsodia":
+{
+	title: "Clematis Rapsodia", artist: "Jehezukiel", channel: ORIGINAL, bpm: "260",
+	sortingID: "1633",  // between 16_Destrucimate (1632) and 16_Wicked_Legend (1634)
+	// arcadeID: "",
+	// arcadeName: "",
+	XX: "@2.04 S11 S15 S18 D12 D16 D19 CoOp(x3) S22.lock D24.lock",
+},
+
+"16_Stardream":
+{
+	title: "Stardream", artist: "Cashew", channel: ORIGINAL, bpm: "160",
+	sortingID: "1636",  // between 16_Tantanmen (1635) and 16_Can_Can_Orpheus (16A0)
+	// arcadeID: "",
+	arcadeName: "Stardream (feat. Romelon)",
+	XX: "@2.04 S6 S10 S15 S18 D11 D15 D19 CoOp(x2) S21.lock D22.lock",
+},
+
+"16_Over_The_Horizon":
+{
+	title: "Over The Horizon", artist: "Yamajet", channel: XROSS, bpm: "190",
+	sortingID: "",  // between 16_Headless_Chicken (1686_2) and 16_Loki (1690)
+	// arcadeID: "",
+	// arcadeName: "",
+	XX: "@2.04 S11 S15 S17 D14 S20.lock D21.lock",
+},
+
+"16_Houseplan":
+{
+	title: "Houseplan", artist: "Houseplan", channel: XROSS, bpm: "128",
+	sortingID: "1691__1",  // after 16_Dement_After_Legend (1691)
+	// arcadeID: "",
+	// arcadeName: "",
+	XX: "@2.04 S3 S6 S9 S15 D8 D16 S17.lock D18.lock",
+},
+
+"16_Headless_Chicken":
+{
+	title: "Headless Chicken", artist: "r300k", channel: XROSS, bpm: "90.5",
+	sortingID: "1686__2",  // between 16_Cutie_Song (1686__1) and 16_Over_the_Horizon ()
+	// arcadeID: "",
+	// arcadeName: "",
+	XX: "@2.04 S5 S10 S15 S19 D12 D17 CoOp(x2) S21.lock D21.lock",
+},
+
+"16_Baroque_Virus_FULL":
+{
+	title: "Baroque Virus  [FULL]", artist: "Zircon", channel: WORLD, bpm: "135", duration: FULL,
+	sortingID: "16F7__1",  // after 16_86_FULL (16F7)
+	// arcadeID: "",
+	arcadeName: "Baroque Virus - FULL SONG -",
+	XX: "@2.04 S16 S19 D20 S21.lock D23.lock",
+},
+
+"16_Errorcode_0":
+{
+	title: "ERRORCODE: 0", artist: "DOIN && SUNNY", channel: ORIGINAL, bpm: "200.1", duration: REMIX,
+	sortingID: "16D0__1",  // between 16_Desaparecer (16D0) and 16_Meteo5cience (16D3)
+	// arcadeID: "",
+	// arcadeName: "",
+	XX: "@2.04 S19 S23 D24 S25.lock D27.lock",
+},
 
 
 "16_Gotta_Go":
@@ -62,7 +143,7 @@ var readableTracklist = {
 	title: "Gotta Go", artist: "CHUNG HA", channel: KPOP, bpm: "102",
 	sortingID: "1666",  // between 16_King_of_Sales (1665) and 16_Boong_Boong (1667)
 	// arcadeID: "",
-	XX: "@2.03 S2 S4 S6 S9 S15 D6 D16 S17.lock D18.lock",
+	XX: "@2.03 S2 S4 S6 S9 S15 D6 D16 S17.lock D18.lock  @2.04 Dp3",
 },
 
 "16_Iolite_Sky":
@@ -71,7 +152,7 @@ var readableTracklist = {
 	sortingID: "1619",  // between 16_Skeptic (1618) and 16_Percent_X (1620)
 	// arcadeID: "",
 	// arcadeName: "",
-	XX: "@2.03 S7 S10 S16 D11 D17 S20.lock S22.lock D24.lock",
+	XX: "@2.03 S7 S10 S16 D11 D17 S20.lock S22.lock D24.lock  @2.04 Dp3",
 },
 
 "16_La_Cinquantaine":
@@ -80,7 +161,7 @@ var readableTracklist = {
 	sortingID: "1621",  // between 16_Percent_X (1620) and 16_Le_Grand_Rouge (1622)
 	// arcadeID: "",
 	// arcadeName: "",
-	XX: "@2.03 S6 S10 S16 D12 D16 S19.lock S22.lock D20.lock D24.lock",
+	XX: "@2.03 S6 S10 S16 D12 D16 S19.lock S22.lock D20.lock D24.lock  @2.04 Dp2",
 },
 
 "16_Broken_Karma":
@@ -89,15 +170,15 @@ var readableTracklist = {
 	sortingID: "1672",  // between 16_Cross_Soul (1671) and 16_After_a_thousand_years (1673)
 	// arcadeID: "",
 	// arcadeName: "",
-	XX: "@2.03 S10 S16 S19 D13 D20 S21.lock D23.lock",
+	XX: "@2.03 S10 S16 S19 D13 D20 S21.lock D23.lock  @2.04 Dp2",
 },
 
 "16_Cutie_Song":
 {
 	title: "Cutie Song", artist: "Memme", channel: XROSS, bpm: "174",
-	sortingID: "1686__1",  // between 16_Rising_Star (1686) and 16_Loki (1690)
+	sortingID: "1686__1",  // between 16_Rising_Star (1686) and 16_Headless_Chicken (1686__1)
 	// arcadeID: "",
-	XX: "@2.03 S4 S8 S11 S15 D13 D17 CoOp(x3) S19.lock D21.lock",
+	XX: "@2.03 S4 S8 S11 S15 D13 D17 CoOp(x3) S19.lock D21.lock  @2.04 Dp3",
 },
 
 "16_Nekkoya_Pick_Me_FULL":
@@ -127,13 +208,12 @@ var readableTracklist = {
 	XX: "@2.03 S4 S7 S11 S19 D13 D21",
 },
 
-
 "16_Bon_Bon_Chocolat":
 {
 	title: "Bon Bon Chocolat", artist: "EVERGLOW", channel: KPOP, bpm: "140",
 	sortingID: "1661",  // between 16_Time_for_the_Moon_Night (1660) and 16_Very_Nice (1662)
 	// arcadeID: "",
-	XX: "@2.02 S1 S3 S6 S8 S14 D10 D15 S16.lock D18.lock",
+	XX: "@2.02 S1 S3 S6 S8 S14 D10 D15 S16.lock D18.lock  @2.04 Dp3",
 },
 
 "16_District_1":
@@ -141,7 +221,7 @@ var readableTracklist = {
 	title: "District 1", artist: "MAX", channel: ORIGINAL, bpm: "158",
 	sortingID: "1608__1",  // between 16_I_Want_U (1608) and 16_Nyarlathotep (1615)
 	// arcadeID: "",
-	XX: "@2.02 S10 S15 D12 D17 CoOp(x3) S19.lock D21.lock",
+	XX: "@2.02 S10 S15 D12 D17 CoOp(x3) S19.lock D21.lock  @2.04 Dp4",
 },
 
 "16_Adrenaline_Blaster":
@@ -149,7 +229,7 @@ var readableTracklist = {
 	title: "Adrenaline Blaster", artist: "QWertism", channel: ORIGINAL, bpm: "150",
 	sortingID: "1627 ",  // between 16_Poseidon (1626) and 16_Vanish (1628)
 	// arcadeID: "",
-	XX: "@2.02 S3 S5 S8 S14 S18 D12 D18 S21.lock D22.lock  @2.03  CoOp(x2)",
+	XX: "@2.02 S3 S5 S8 S14 S18 D12 D18 S21.lock D22.lock  @2.03  CoOp(x2)  @2.04 Dp4",
 },
 
 "16_Danger_n_Danger":
@@ -157,7 +237,7 @@ var readableTracklist = {
 	title: "Danger & Danger", artist: "Cranky", channel: WORLD, bpm: "155",
 	sortingID: "1676__1",  // between 16_Conflict (1676) and 16_Nihilism (1694)
 	// arcadeID: "",
-	XX: "@2.02 S8 S12 S16 D10 D15 D18 S19.lock D21.lock",
+	XX: "@2.02 S8 S12 S16 D10 D15 D18 S19.lock D21.lock  @2.04 Dp3",
 },
 
 "16_Point_Zero_2":
@@ -165,7 +245,7 @@ var readableTracklist = {
 	title: "Point Zero 2", artist: "SYNTHWULF", channel: WORLD, bpm: "170",
 	sortingID: "1695__1",  // between 16_Phalanx_RS2018 (1695) and 16_Allegro_Con_Fuoco_FULL (16C5)
 	// arcadeID: "",
-	XX: "@2.02 S11 S16 S19 D15 D20 S21.lock D22.lock",
+	XX: "@2.02 S11 S16 S19 D15 D20 S21.lock D22.lock  @2.04 Dp3",
 },
 
 "16_Dual_Racing_RED_vs_BLUE":
@@ -173,7 +253,7 @@ var readableTracklist = {
 	title: "Dual Racing <RED vs BLUE>", artist: "Nato & r300k", channel: XROSS, bpm: "165",
 	sortingID: "1682",  // between 16_Rage_of_Fire (1681) and 16_Cycling (1683)
 	// arcadeID: "",
-	XX: "@2.02 S7 S11 S16 S18 D13 D20 CoOp(x2) S20.lock D22.lock",
+	XX: "@2.02 S7 S11 S16 S18 D13 D20 CoOp(x2) S20.lock D22.lock  @2.04 Dp4",
 },
 
 "16_Fire_Noodle_Challenge":
@@ -441,7 +521,7 @@ var readableTracklist = {
 {
 	title: "Fly High", artist: "Dreamcatcher", channel: KPOP, bpm: "154",
 	arcadeID: "1645",
-	XX: "S1 S3 S5 S9 S15 S18.lock D10 D16.ampass D19.lock Dp3  @1.05 S20 D21",
+	XX: "S1 S3 S5 S9 S15 S18.lock D10 D16.ampass D19.lock Dp3  @1.05 S20 D21  @2.04 CoOp(x2)",
 },
 
 "16_Black_Cat":
@@ -525,14 +605,15 @@ var readableTracklist = {
 {
 	title: "Starry Night", artist: "Mamamoo", channel: KPOP, bpm: "124",
 	arcadeID: "1658",
-	XX: "@1.03 S1 S3 S5 S8 S14 D7 D15 S16.lock D17.lock",
+	XX: "@1.03 S1 S3 S5 S8 S14 D7 D15 S16.lock D17.lock  @2.04 Dp2",
 },
 
-"16_Love Scenario":
+"16_Love_Scenario":
 {
 	title: "Love Scenario", artist: "iKon", channel: KPOP, bpm: "118",
 	arcadeID: "1659",
-	XX: "S1 S3 S6 S8 S14 S17.lock D3 D14.lock  @1.01 Dp4",
+	altID: "16_Love Scenario",
+	XX: "S1 S3 S6 S8 S14 S17.lock D3 D14.lock  @1.01 Dp4  @2.04 D19.lock",
 },
 
 "16_Time_for_the_Moon_Night":
@@ -604,7 +685,7 @@ var readableTracklist = {
 {
 	title: "After a thousand years", artist: "TOTO", channel: WORLD, bpm: "180",
 	arcadeID: "1673",
-	XX: "@2.00 S4 S7 S12 S18 D14 S20.lock D21.lock  @2.01 D23.lock",
+	XX: "@2.00 S4 S7 S12 S18 D14 S20.lock D21.lock  @2.01 D23.lock  @2.04 Dp4",
 },
 
 "16_Lala":
@@ -690,7 +771,7 @@ var readableTracklist = {
 	title: "Dement ~After Legend~", artist: "Lunatic Sounds", channel: XROSS, bpm: "210",
 	shortTitle: "Dement",
 	arcadeID: "1691",
-	XX: "S23.lock D26.lock  @1.01 Dp2",
+	XX: "S23.lock D26.lock  @1.01 Dp2  @2.04 S15 S18 S21 D21 D24.lock",
 },
 
 "16_Your_Mind":
@@ -5879,7 +5960,7 @@ var readableTracklist = {
 "E928":
 {
 	title: "Extra BanYa Remix", artist: "BanYa", bpm: "200", duration: REMIX, fromMix: "Extra",
-	// old title: "FAEp1 & Chicken Wing Remix (NX2 ver.)", 
+	// old title: "FAEp1 & Chicken Wing Remix (NX2 ver.)",
 	arcadeName: "EXTRA BanYa Remix",
 	shortTitle: "Extra BanYa Remix",
 	//XX__: "S11 S21  D14",

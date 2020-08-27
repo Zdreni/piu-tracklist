@@ -5043,7 +5043,7 @@ http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=367
 
 	- Awakening CO-OP(2) – L/R skin marking error has been modified.
 	- Indestructible S22 – Step chart was modified.
- 
+
 
 -----------------------------------------------------------------------------------------------------------------------
 
@@ -5164,6 +5164,195 @@ http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=369
 	- BSPower Explosion CO-OP(2) – Step chart was modified.
 	- ESCAPE D26 – Step chart was modified.
 	- Can-can ~Orpheus in the Party Mix~ CO-OP(2) – A bug of Step chart was fixed.
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Prime XX  2.03.1
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=370
+(piu_xx_203.bin)
+
+
+Some bugs were found in the PUMP IT UP XX v2.03.0 update.
+The modification patch progressed to version v2.03.1. Please refer to the below for the correction.
+
+1. Twist of Fate feat. Ruriling CO-OP(2) - Bug fix without step.
+2. VANISH CO-OP(2) - fixed the problem with the steps.
+3. Iolite Sky D24 - Minor Bug Modification.
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Prime XX  2.04
+
+https://www.facebook.com/piugame/posts/3857199874308239 (kor)
+
+https://drive.google.com/file/d/1BVSvFdN46gHZI1giAmaY1yp9vIv82M4W/view
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=374
+(piu_xx_231.bin)
+
+
+1. New Songs
+
+1) Title : Jogging
+	Artist : LUCY
+	BPM : 138
+	Category : K-POP
+	Step charts : S3, S5, S9, S16, D7, D16
+	S18, D18, D22 (Unlocked step)
+
+2) Title : DESTRUCIMATE
+	Artist : KURORAK
+	BPM : 193
+	Category : Original
+	Step charts : S8, S12, S16, S19, D15, D19
+	S22, D24 (Unlocked step)
+
+3) Title : Clematis Rapsodia
+	Artist : Jehezukiel
+	BPM : 260
+	Category : Original
+	Step charts : S11, S15, S18, D12, D16, D19, CO-OP(3)
+	S22, D24 (Unlocked step)
+
+4) Title : Stardream (feat. Romelon)
+	Artist : Cashew
+	BPM : 160
+	Category : Original
+	Step charts : S6, S10, S15, S18, D11, D15, D19, CO-OP(2)
+	S21, D22 (Unlocked step)
+
+5) Title : Headless Chicken
+	Artist : r300k
+	BPM : 90.5
+	Category : XROSS/O2JAM
+	Step charts : S5, S10, S15, S19, D12, D17, CO-OP(2)
+	S21, D21 (Unlocked step)
+
+6) Title : Over the Horizon
+	Artist : Yamajet
+	BPM : 190
+	Category : XROSS/O2JAM
+	Step charts : S11, S15, S17, D14
+	S20, D21 (Unlocked step)
+
+7) Title : Houseplan
+	Artist : Houseplan
+	BPM : 128
+	Category : XROSS/EZ2AC
+	Step charts : S3, S6, S9, S15, D8, D16
+	S17, D18 (Unlocked step)
+
+8) Title : Baroque Virus - FULL SONG -
+	Artist : Zircon
+	BPM : 135
+	Category : World Music
+	Step charts : S16, S19, D20
+	S21, D23 (Unlocked step)
+
+9) Title : ERRORCODE: 0
+	Artist : DOIN && SUNNY
+	BPM : 200.1
+	Category : Original
+	Step charts : S19, S23, D24
+	S25, D27 (Unlocked step)
+
+
+2. New Step Charts
+
+	Num Title                       Step charts
+	 1   District 1                 DP4
+	 2   Iolite Sky                 DP3
+	 3   La Cinquantaine            DP2
+	 4   Adrenaline Blaster         DP4
+	 5   Fly High                   CO-OP(2)
+	 6   Starry Night               DP2
+	 7   LOVE SCENARIO              D19(Unlocked Step)
+	 8   Bon Bon Chocolat           DP3
+	 9   Gotta Go                   DP3
+	10   Broken Karma(PIU Edit)     DP2
+	11   After a thousand years     DP4
+	12   Danger & Danger            DP3
+	13   Dual Racing <RED vs BLUE>  DP4
+	14   Cutie Song                 DP3
+	15   Dement ~After Legend~      S15, S18, S21, D21, D24 (Unlocked Step[D24 Only])
+	16   POINT ZERO 2               DP3
+
+
+3. Mission zone update
+
+	Num Title                     Step charts
+	 1  Bad Apple!! feat. Nomico  S15
+	 2  Arcana Force              D16
+	 3  Keep On!                  D16
+	 4  GOOD BYE                  S17
+	 5  A Site De La Rue          D17
+	 6  NEKKOYA (PICK ME)         D18
+	 7  Timing                    D19
+	 8  Headless Chicken          S19
+	 9  The People didn’t know    D20
+	10  Requiem                   S20
+	11  Allegro Piu Mosso         S20
+	12  Emperor                   S20
+	13  VERY NICE                 S21
+	14  Destination               S21
+	15  Switronic                 D21
+	16  Awakening                 D21
+	17  Loki                      D22
+	18  INFINITY                  D22
+	19  Like Me                   D25
+	20  Skeptic                   D28
+
+
+
+4. Add U.C.S. Songs
+	Now you can make U.C.S. steps with the songs on the list..
+	And you can also download samples of songs revived in PRIME2 from the sample
+	download window.
+	- With My Lover
+	- An Interesting View
+	- Radetzky Can Can
+	- Jump
+	- Like Me
+	- Switronic
+	- Transacaglia in G-minor
+	- Cycling!
+	- District 1
+	- Adrenaline Blaster
+	- Dual Racing <RED vs BLUE>
+	- Iolite Sky
+	- La Cinquantaine
+	- Cutie Song
+	- DESTRUCIMATE
+	- Clematis Rapsodia
+	- Stardream (feat. Romelon)
+	- Headless Chicken
+	- Over the Horizon
+	- Houseplan
+
+
+5. New Avatars Added
+	14 New Avatars have been added to the item shop.
+	- Freedom of the Dead
+	- Gargoyle
+	- Christos T Elias
+	- Lyra D. Ferson
+	- Amami Sakoto
+	- Synt. H. Wulf
+	- Malaventurados
+	- Jeanne
+	- Wonder & World
+	- Princess Choco & Candy Girl
+	- ABT-1
+	- Alien Pig
+	- CanCan Rangers
+	- Violet Perfume
+
+
+6. Additions
+	- Twist of Fate (feat. Ruriling) CO-OP(2) – Step chart was modified.
+	- Adrenaline Blaster CO-OP(2) – Step chart was modified.
+
 
 
 -----------------------------------------------------------------------------------------------------------------------
