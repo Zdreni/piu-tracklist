@@ -894,37 +894,37 @@ function ApplyUnlocks()
 		Lock( "16_Cutie_Song", "D21", "At least S on D17" )
 
 	// 2.04
-		Lock( "16_Jogging", "S18", "???" )
-		Lock( "16_Jogging", "D18", "???" )
-		Lock( "16_Jogging", "D22", "???" )
+		Lock( "16_Jogging", "S18", "At least A+ on S16" )
+		Lock( "16_Jogging", "D18", "At least A+ on D16" )
+		Lock( "16_Jogging", "D22", "At least S on D18" )
 
-		Lock( "16_Destrucimate", "S22", "???" )
-		Lock( "16_Destrucimate", "D24", "???" )
+		Lock( "16_Destrucimate", "S22", "At least S on S19" )
+		Lock( "16_Destrucimate", "D24", "At least S on D19" )
 
-		Lock( "16_Clematis_Rapsodia", "S22", "???" )
-		Lock( "16_Clematis_Rapsodia", "D24", "???" )
+		Lock( "16_Clematis_Rapsodia", "S22", "At least A+ on S18, Twist of Fate S19 and Fires of Destiny S20" )
+		Lock( "16_Clematis_Rapsodia", "D24", "At least S on D19, A+ on Twist of Fate D20 and Fires of Destiny D21" )
 
-		Lock( "16_Stardream", "S21", "???" )
-		Lock( "16_Stardream", "D22", "???" )
+		Lock( "16_Stardream", "S21", "At least A+ on S15 and S18" )
+		Lock( "16_Stardream", "D22", "At least A+ on D15 and D19" )
 
-		Lock( "16_Over_The_Horizon", "S20", "???" )
-		Lock( "16_Over_The_Horizon", "D21", "???" )
+		Lock( "16_Over_the_Horizon", "S20", "At least S on S17" )
+		Lock( "16_Over_the_Horizon", "D21", "At least SSS on D14" )
 
-		Lock( "16_Houseplan", "S17", "???" )
-		Lock( "16_Houseplan", "D18", "???" )
+		Lock( "16_Houseplan", "S17", "At least A+ on S15" )
+		Lock( "16_Houseplan", "D18", "At least A+ on D16" )
 
-		Lock( "16_Headless_Chicken", "S21", "???" )
-		Lock( "16_Headless_Chicken", "D21", "???" )
+		Lock( "16_Headless_Chicken", "S21", "At least A+ on S19" )
+		Lock( "16_Headless_Chicken", "D21", "At least SS on D17" )
 
-		Lock( "16_Baroque_Virus_FULL", "S21", "???" )
-		Lock( "16_Baroque_Virus_FULL", "D23", "???" )
+		Lock( "16_Baroque_Virus_FULL", "S21", "At least A+ on S19" )
+		Lock( "16_Baroque_Virus_FULL", "D23", "At least A+ on S21 and D20" )
 
-		Lock( "16_Errorcode_0", "S25", "???" )
-		Lock( "16_Errorcode_0", "D27", "???" )
+		Lock( "16_Errorcode_0", "S25", "At least A+ and score 11,000,000+ on S23, and at least A+ on Vacuum Cleaner S25" )
+		Lock( "16_Errorcode_0", "D27", "At least A+ and score 14,000,000+ on D24, and at least A+ on Vacuum Cleaner D27" )
 
-		Lock( "16_Love_Scenario", "D19", "???" )
+		Lock( "16_Love_Scenario", "D19", "?At least S on S17 and SS on D14?" )
 
-		Lock( "16_Dement_After_Legend", "D24", "???" )
+		Lock( "16_Dement_After_Legend", "D24", "At least S on D21" )
 }
 
 initFuncs.push( ApplyUnlocks );

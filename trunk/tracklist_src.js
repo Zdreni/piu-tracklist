@@ -92,7 +92,7 @@ var readableTracklist = {
 	XX: "@2.04 S6 S10 S15 S18 D11 D15 D19 CoOp(x2) S21.lock D22.lock",
 },
 
-"16_Over_The_Horizon":
+"16_Over_the_Horizon":
 {
 	title: "Over The Horizon", artist: "Yamajet", channel: XROSS, bpm: "190",
 	sortingID: "",  // between 16_Headless_Chicken (1686_2) and 16_Loki (1690)
