@@ -95,7 +95,7 @@ var readableTracklist = {
 "16_Over_the_Horizon":
 {
 	title: "Over The Horizon", artist: "Yamajet", channel: XROSS, bpm: "190",
-	sortingID: "",  // between 16_Headless_Chicken (1686_2) and 16_Loki (1690)
+	sortingID: "1686__3",  // between 16_Headless_Chicken (1686_2) and 16_Loki (1690)
 	// arcadeID: "",
 	// arcadeName: "",
 	XX: "@2.04 S11 S15 S17 D14 S20.lock D21.lock",
@@ -113,7 +113,7 @@ var readableTracklist = {
 "16_Headless_Chicken":
 {
 	title: "Headless Chicken", artist: "r300k", channel: XROSS, bpm: "90.5",
-	sortingID: "1686__2",  // between 16_Cutie_Song (1686__1) and 16_Over_the_Horizon ()
+	sortingID: "1686__2",  // between 16_Cutie_Song (1686__1) and 16_Over_the_Horizon (1686__3)
 	// arcadeID: "",
 	// arcadeName: "",
 	XX: "@2.04 S5 S10 S15 S19 D12 D17 CoOp(x2) S21.lock D21.lock",
