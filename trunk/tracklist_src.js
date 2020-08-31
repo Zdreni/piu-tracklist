@@ -80,7 +80,7 @@ var readableTracklist = {
 	sortingID: "1633",  // between 16_Destrucimate (1632) and 16_Wicked_Legend (1634)
 	// arcadeID: "",
 	// arcadeName: "",
-	XX: "@2.04 S11 S15 S18 D12 D16 D19 CoOp(x3) S22.lock D24.lock",
+	XX: "@2.04 S11 S15 S18 D12 D16 D19 CoOp(x3) S22.lock D23.lock",
 },
 
 "16_Stardream":

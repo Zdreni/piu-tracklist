@@ -902,7 +902,7 @@ function ApplyUnlocks()
 		Lock( "16_Destrucimate", "D24", "At least S on D19" )
 
 		Lock( "16_Clematis_Rapsodia", "S22", "At least A+ on S18, Twist of Fate S19 and Fires of Destiny S20" )
-		Lock( "16_Clematis_Rapsodia", "D24", "At least S on D19, A+ on Twist of Fate D20 and Fires of Destiny D21" )
+		Lock( "16_Clematis_Rapsodia", "D23", "At least S on D19, A+ on Twist of Fate D20 and Fires of Destiny D21" )
 
 		Lock( "16_Stardream", "S21", "At least A+ on S15 and S18" )
 		Lock( "16_Stardream", "D22", "At least A+ on D15 and D19" )
