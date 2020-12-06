@@ -377,6 +377,7 @@ var readableTracklist = {
 "16_I_Want_U":
 {
 	title: "I Want U", artist: "MAX", channel: ORIGINAL, bpm: "156",
+	arcadeNameMaxEditDistance: 1, // '(Want U'
 	arcadeID: "1608",
 	XX: "S3 S7 S11 S16 S19.lock D6 D13 D17.lock D21.lock  @1.01 Dp5",
 },
@@ -1606,6 +1607,7 @@ var readableTracklist = {
 {
 	title: "Infinity", artist: "Lunatic Sounds", channel: XROSS, bpm: "175",
 	altID: "15_Infinity",
+	arcadeNameMaxEditDistance: 1, // '(INFINITY'
 	//XX__: "S10 S15 S18 S21  D10 D19 D23  Co-op x2",
 	XX: "= D23`24  @1.04 Dp4",
 	Prime2: "@2.00 S10 S15 D10 CoOp(x3) S18 S21 D19 D24",
@@ -2521,6 +2523,7 @@ var readableTracklist = {
 {
 	title: "Creed -1st Desire-", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "163",
 	arcadeName: "Creed - 1st Desire -",
+	arcadeNameMaxEditDistance: 1, // 'Creed - Ist Desire -'
 	//XX__: "S4 S7 S12 S18 S21  D11 D18 D23  Dp5",
 	XX: "=",
 	Prime2: "=",
@@ -4732,6 +4735,7 @@ var readableTracklist = {
 {
 	title: "K.O.A : Alice in Wonderworld  [SHORT]", artist: "BanYa Production", bpm: "156",
 	arcadeName: "K.O.A: Alice In Wonderworld - SHORT CUT",
+	arcadeNameMaxEditDistance: 1, // 'K.0O.A: Alice In Wonderworld - SHORT CUT'
 	//XX__: "S8 S16  D18",
 	XX: "=",
 	Prime2: "=",
@@ -5574,6 +5578,7 @@ var readableTracklist = {
 "E13":
 {
 	title: "Pumptris Quattro", artist: "Yahpp", bpm: "153",
+	arcadeNameMaxEditDistance: 1, // 'Pumpitris Quattro'
 	//XX__: "S3 S7 S12 S18 S19  D15 D20 D22  Sp10  Dp2",
 	XX: "= S18`17 D15`13",  // S18.updated - степы в начале холдов, считать новым чартом
 	// S18-XX - https://www.youtube.com/watch?v=jQMIZhG0sqA
