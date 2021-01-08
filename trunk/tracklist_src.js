@@ -52,15 +52,64 @@ var readableTracklist = {
 	sortingID: "",  // between  () and  ()
 	// arcadeID: "",
 	// arcadeName: "",
-	XX: "@2.04 ",
+	XX: "@2.05 ",
 },
 */
+
+/*
+"16_Brain_Power":
+{
+	title: "Brain Power", artist: "Noma", channel: WORLD, bpm: "170~173",
+	sortingID: "1696__1",  // between 16_Point_Zero_2 (1696) and 16_Life_is_Piano (1696__2)
+	// arcadeID: "",
+	// arcadeName: "",
+	//XX: "@2.05 S?? S?? S?? S?? S?? S?? S?? D?? D?? D?? D??",
+},
+*/
+
+"16_Life_is_Piano":
+{
+	title: "Life is Piano", artist: "Junk", channel: WORLD, bpm: "133",
+	sortingID: "1696__2",  // between 16_Brain_Power (1696__1) and 16_Allegro_con_Fuoco_FULL (16C5)
+	arcadeNameMaxEditDistance: 1, // 'Life is PANO'
+	// arcadeID: "",
+	// arcadeName: "",
+	XX: "@2.05 S2 S4 S7 S10 S16 D11 D18 S19.lock D21.lock",
+},
+
+"16_The_Reverie":
+{
+	title: "The Reverie", artist: "uma", channel: ORIGINAL, bpm: "150",
+	sortingID: "16A4__1",  // between 16_Forgotten_Vampire (16A4) and 16_Desaparecer (16D0)
+	// arcadeID: "",
+	// arcadeName: "",
+	XX: "@2.05 S3 S5 S8 S11 S15 S17 D12 D18 S19.lock S21.lock D21.lock",
+},
+
+"16_God_Mode_2_0":
+{
+	title: "God Mode 2.0 feat. Skizzo", artist: "Nato", channel: ORIGINAL, bpm: "155",
+	shortTitle: "God Mode 2.0",
+	sortingID: "1667__1",  // between 16_Switronic_SHORT (16F6) and 16_Club_Night (1668)
+	// arcadeID: "",
+	// arcadeName: "",
+	XX: "@2.05 S8 S13 S18 D13 D18 D20 S21.lock D22.lock",
+},
+
+"16_Full_Moon_FULL":
+{
+	title: "Full Moon  [FULL]", artist: "Dreamcatcher", channel: KPOP, bpm: "190", duration: FULL,
+	sortingID: "16D7",  // between 16_Boong_Boong (1667) and 16_Hann_Alone_FULL (16D8)
+	// arcadeID: "",
+	arcadeName: "Full Moon - FULL SONG -",
+	XX: "@2.05 S20 S22.lock D24.lock",
+},
+
 
 "16_Jogging":
 {
 	title: "Jogging", artist: "LUCY", channel: KPOP, bpm: "138",
-	sortingID: "1641",  // first, before 16_The_Little_Prince (1642)
-	// arcadeID: "",
+	arcadeID: "1641",
 	// arcadeName: "",
 	XX: "@2.04 S3 S5 S9 S16 D7 D16 S18.lock D18.lock D22.lock",
 },
@@ -68,8 +117,7 @@ var readableTracklist = {
 "16_Destrucimate":
 {
 	title: "DESTRUCIMATE", artist: "KURORAK", channel: ORIGINAL, bpm: "193",
-	sortingID: "1632",  // between 16_Orbit_Stabilizer (1631) and 16_Clematis_Rapsodia (1633)
-	// arcadeID: "",
+	arcadeID: "1632",
 	// arcadeName: "",
 	XX: "@2.04 S8 S12 S16 S19 D15 D19 S22.lock D24.lock",
 },
@@ -77,8 +125,7 @@ var readableTracklist = {
 "16_Clematis_Rapsodia":
 {
 	title: "Clematis Rapsodia", artist: "Jehezukiel", channel: ORIGINAL, bpm: "260",
-	sortingID: "1633",  // between 16_Destrucimate (1632) and 16_Wicked_Legend (1634)
-	// arcadeID: "",
+	arcadeID: "1633",
 	// arcadeName: "",
 	XX: "@2.04 S11 S15 S18 D12 D16 D19 CoOp(x3) S22.lock D23.lock",
 },
@@ -86,17 +133,15 @@ var readableTracklist = {
 "16_Stardream":
 {
 	title: "Stardream", artist: "Cashew", channel: ORIGINAL, bpm: "160",
-	sortingID: "1636",  // between 16_Tantanmen (1635) and 16_Can_Can_Orpheus (16A0)
-	// arcadeID: "",
+	arcadeID: "1636",
 	arcadeName: "Stardream (feat. Romelon)",
-	XX: "@2.04 S6 S10 S15 S18 D11 D15 D19 CoOp(x2) S21.lock D22.lock",
+	XX: "@2.04 S6 S10 S15 S18 D11 D15 D19 CoOp(x2) S21.lock D22.lock  @2.05 S1 S3",
 },
 
 "16_Over_the_Horizon":
 {
 	title: "Over The Horizon", artist: "Yamajet", channel: XROSS, bpm: "190",
-	sortingID: "1686__3",  // between 16_Headless_Chicken (1686_2) and 16_Loki (1690)
-	// arcadeID: "",
+	arcadeID: "1689",
 	// arcadeName: "",
 	XX: "@2.04 S11 S15 S17 D14 S20.lock D21.lock",
 },
@@ -104,8 +149,7 @@ var readableTracklist = {
 "16_Houseplan":
 {
 	title: "Houseplan", artist: "Houseplan", channel: XROSS, bpm: "128",
-	sortingID: "1691__1",  // after 16_Dement_After_Legend (1691)
-	// arcadeID: "",
+	arcadeID: "1692",
 	// arcadeName: "",
 	XX: "@2.04 S3 S6 S9 S15 D8 D16 S17.lock D18.lock",
 },
@@ -113,8 +157,7 @@ var readableTracklist = {
 "16_Headless_Chicken":
 {
 	title: "Headless Chicken", artist: "r300k", channel: XROSS, bpm: "90.5",
-	sortingID: "1686__2",  // between 16_Cutie_Song (1686__1) and 16_Over_the_Horizon (1686__3)
-	// arcadeID: "",
+	arcadeID: "1688",
 	// arcadeName: "",
 	XX: "@2.04 S5 S10 S15 S19 D12 D17 CoOp(x2) S21.lock D21.lock",
 },
@@ -122,8 +165,7 @@ var readableTracklist = {
 "16_Baroque_Virus_FULL":
 {
 	title: "Baroque Virus  [FULL]", artist: "Zircon", channel: WORLD, bpm: "135", duration: FULL,
-	sortingID: "16F7__1",  // after 16_86_FULL (16F7)
-	// arcadeID: "",
+	arcadeID: "16F9",
 	arcadeName: "Baroque Virus - FULL SONG -",
 	XX: "@2.04 S16 S19 D20 S21.lock D23.lock",
 },
@@ -131,8 +173,7 @@ var readableTracklist = {
 "16_Errorcode_0":
 {
 	title: "ERRORCODE: 0", artist: "DOIN && SUNNY", channel: ORIGINAL, bpm: "200.1", duration: REMIX,
-	sortingID: "16D0__1",  // between 16_Desaparecer (16D0) and 16_Meteo5cience (16D3)
-	// arcadeID: "",
+	arcadeID: "16D1",
 	// arcadeName: "",
 	XX: "@2.04 S19 S23 D24 S25.lock D27.lock",
 },
@@ -141,25 +182,22 @@ var readableTracklist = {
 "16_Gotta_Go":
 {
 	title: "Gotta Go", artist: "CHUNG HA", channel: KPOP, bpm: "102",
-	sortingID: "1666",  // between 16_King_of_Sales (1665) and 16_Boong_Boong (1667)
-	// arcadeID: "",
-	XX: "@2.03 S2 S4 S6 S9 S15 D6 D16 S17.lock D18.lock  @2.04 Dp3",
+	arcadeID: "1666",
+	XX: "@2.03 S2 S4 S6 S9 S15 D6 D16 S17.lock D18.lock  @2.04 Dp3  @2.05 D20.lock",
 },
 
 "16_Iolite_Sky":
 {
 	title: "Iolite Sky", artist: "Doin", channel: ORIGINAL, bpm: "90",
-	sortingID: "1619",  // between 16_Skeptic (1618) and 16_Percent_X (1620)
-	// arcadeID: "",
+	arcadeID: "1619",
 	// arcadeName: "",
-	XX: "@2.03 S7 S10 S16 D11 D17 S20.lock S22.lock D24.lock  @2.04 Dp3",
+	XX: "@2.03 S7 S10 S16 D11 D17 S20.lock S22.lock D24.lock  @2.04 Dp3  @2.05 D21",
 },
 
 "16_La_Cinquantaine":
 {
 	title: "La Cinquantaine", artist: "Pory", channel: ORIGINAL, bpm: "164",
-	sortingID: "1621",  // between 16_Percent_X (1620) and 16_Le_Grand_Rouge (1622)
-	// arcadeID: "",
+	arcadeID: "1621",
 	// arcadeName: "",
 	XX: "@2.03 S6 S10 S16 D12 D16 S19.lock S22.lock D20.lock D24.lock  @2.04 Dp2",
 },
@@ -167,8 +205,7 @@ var readableTracklist = {
 "16_Broken_Karma":
 {
 	title: "Broken Karma (PIU Edit)", artist: "Quree", channel: WORLD, bpm: "180",
-	sortingID: "1672",  // between 16_Cross_Soul (1671) and 16_After_a_thousand_years (1673)
-	// arcadeID: "",
+	arcadeID: "1672",
 	// arcadeName: "",
 	XX: "@2.03 S10 S16 S19 D13 D20 S21.lock D23.lock  @2.04 Dp2",
 },
@@ -176,16 +213,14 @@ var readableTracklist = {
 "16_Cutie_Song":
 {
 	title: "Cutie Song", artist: "Memme", channel: XROSS, bpm: "174",
-	sortingID: "1686__1",  // between 16_Rising_Star (1686) and 16_Headless_Chicken (1686__1)
-	// arcadeID: "",
+	arcadeID: "1687",
 	XX: "@2.03 S4 S8 S11 S15 D13 D17 CoOp(x3) S19.lock D21.lock  @2.04 Dp3",
 },
 
 "16_Nekkoya_Pick_Me_FULL":
 {
 	title: "Nekkoya (Pick Me)  [FULL]", artist: "PRODUCE48", channel: KPOP, bpm: "128", duration: FULL,
-	sortingID: "16D8__1",  // between 16_Hann_Alone_FULL (16D8) and 16_BBoom_BBoom_FULL (16E0)
-	// arcadeID: "",
+	arcadeID: "16D9",
 	arcadeName: "NEKKOYA(PICK ME) - FULL SONG -",
 	XX: "@2.03 S12 S19 D20",
 },
@@ -193,8 +228,7 @@ var readableTracklist = {
 "16_Good_Bye_FULL":
 {
 	title: "Good Bye  [FULL]", artist: "Hong Jin-Young", channel: KPOP, bpm: "139", duration: FULL,
-	sortingID: "16E7__1",  // between 16_Very_Nice_FULL (16E7) and 16_Wedding_Crashers (1601)
-	// arcadeID: "",
+	arcadeID: "16E8",
 	arcadeName: "GOOD BYE - FULL SONG -",
 	XX: "@2.03 S17 S19 D18 D21",
 },
@@ -202,8 +236,7 @@ var readableTracklist = {
 "16_I_Want_U_SHORT":
 {
 	title: "I Want U  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "156", duration: SHORT,
-	sortingID: "16F4",  // between 16_XX_Opening (16F3) and 16_Poseidon_SHORT (16F5)
-	// arcadeID: "",
+	arcadeID: "16F4",
 	arcadeName: "I Want U - SHORT CUT -",
 	XX: "@2.03 S4 S7 S11 S19 D13 D21",
 },
@@ -211,64 +244,56 @@ var readableTracklist = {
 "16_Bon_Bon_Chocolat":
 {
 	title: "Bon Bon Chocolat", artist: "EVERGLOW", channel: KPOP, bpm: "140",
-	sortingID: "1661",  // between 16_Time_for_the_Moon_Night (1660) and 16_Very_Nice (1662)
-	// arcadeID: "",
+	arcadeID: "1661",
 	XX: "@2.02 S1 S3 S6 S8 S14 D10 D15 S16.lock D18.lock  @2.04 Dp3",
 },
 
 "16_District_1":
 {
 	title: "District 1", artist: "MAX", channel: ORIGINAL, bpm: "158",
-	sortingID: "1608__1",  // between 16_I_Want_U (1608) and 16_Nyarlathotep (1615)
-	// arcadeID: "",
-	XX: "@2.02 S10 S15 D12 D17 CoOp(x3) S19.lock D21.lock  @2.04 Dp4",
+	arcadeID: "1609",
+	XX: "@2.02 S10 S15 D12 D17 CoOp(x3) S19.lock D21.lock  @2.04 Dp4  @2.05 S6",
 },
 
 "16_Adrenaline_Blaster":
 {
 	title: "Adrenaline Blaster", artist: "QWertism", channel: ORIGINAL, bpm: "150",
-	sortingID: "1627 ",  // between 16_Poseidon (1626) and 16_Vanish (1628)
-	// arcadeID: "",
+	arcadeID: "1627",
 	XX: "@2.02 S3 S5 S8 S14 S18 D12 D18 S21.lock D22.lock  @2.03  CoOp(x2)  @2.04 Dp4",
 },
 
 "16_Danger_n_Danger":
 {
 	title: "Danger & Danger", artist: "Cranky", channel: WORLD, bpm: "155",
-	sortingID: "1676__1",  // between 16_Conflict (1676) and 16_Nihilism (1694)
-	// arcadeID: "",
+	arcadeID: "1677",
 	XX: "@2.02 S8 S12 S16 D10 D15 D18 S19.lock D21.lock  @2.04 Dp3",
 },
 
 "16_Point_Zero_2":
 {
 	title: "Point Zero 2", artist: "SYNTHWULF", channel: WORLD, bpm: "170",
-	sortingID: "1695__1",  // between 16_Phalanx_RS2018 (1695) and 16_Allegro_Con_Fuoco_FULL (16C5)
-	// arcadeID: "",
+	arcadeID: "1696",
 	XX: "@2.02 S11 S16 S19 D15 D20 S21.lock D22.lock  @2.04 Dp3",
 },
 
 "16_Dual_Racing_RED_vs_BLUE":
 {
 	title: "Dual Racing <RED vs BLUE>", artist: "Nato & r300k", channel: XROSS, bpm: "165",
-	sortingID: "1682",  // between 16_Rage_of_Fire (1681) and 16_Cycling (1683)
-	// arcadeID: "",
+	arcadeID: "1682",
 	XX: "@2.02 S7 S11 S16 S18 D13 D20 CoOp(x2) S20.lock D22.lock  @2.04 Dp4",
 },
 
 "16_Fire_Noodle_Challenge":
 {
 	title: "Fire Noodle Challenge", artist: "Memme", channel: ORIGINAL, bpm: "185", duration: REMIX,
-	sortingID: "16D3__1",  // between 16_Meteo5cience (16D3) and 16_Nyarlathotep_SHORT (16F0)
-	// arcadeID: "",
+	arcadeID: "16D5",
 	XX: "@2.02 S15 S20 D21 S23.lock D25.lock",
 },
 
 "16_I'm_So_Sick_FULL":
 {
 	title: "I'm So Sick  [FULL]", artist: "APink", channel: KPOP, bpm: "124",
-	sortingID: "16E0__1",  // between 16_BBoom_BBoom_FULL (16E0) and 16_Gashina_FULL (16E3)
-	// arcadeID: "",
+	arcadeID: "16E1",
 	arcadeName: "I'm so sick - FULL SONG -",
 	XX: "@2.02 S11 S18 D20",
 },
@@ -276,8 +301,7 @@ var readableTracklist = {
 "16_Time_for_the_Moon_Night_FULL":
 {
 	title: "Time for the Moon Night  [FULL]", artist: "GFRIEND", channel: KPOP, bpm: "170",
-	sortingID: "16E4__1",  // between 16_Starry_Night_FULL (16E4) and 16_Very_Nice_FULL (16E7)
-	// arcadeID: "",
+	arcadeID: "16E6",
 	arcadeName: "Time for the moon night - FULL SONG -",
 	XX: "@2.02 S14 S18 D20 S21.lock D24.lock",
 },
@@ -437,7 +461,7 @@ var readableTracklist = {
 {
 	title: "Macaron Day", artist: "HyuN", channel: ORIGINAL, bpm: "173",
 	arcadeID: "1624",
-	XX: "S12 S17 D13 D18.lock  @1.01 Dp3  @2.03  CoOp(x2)",
+	XX: "S12 S17 D13 D18.lock  @1.01 Dp3  @2.03  CoOp(x2)  @2.05 S4 S7",
 },
 
 "16_Ice_of_Death":
@@ -507,7 +531,7 @@ var readableTracklist = {
 "16_Full_Moon":
 {
 	title: "Full Moon", artist: "Dreamcatcher", channel: KPOP, bpm: "190",
-	sortingID: "1643", // arcadeID: "",  // between Little Prince (1642) and Timing (1644)
+	arcadeID: "1643",
 	XX: "@1.05 S2 S4 S6 S16 D14 D20 CoOp(x2) S20.lock S22.lock D24.lock  @2.00 Dp3",
 },
 
@@ -550,6 +574,7 @@ var readableTracklist = {
 {
 	title: "I'm So Sick", artist: "APink", channel: KPOP, bpm: "124",
 	arcadeID: "1650",
+	arcadeNameMaxEditDistance: 1, // '('m so sick'
 	XX: "S2 S4 S6 S9 S15 S17.lock D9 D16 D18.lock D20.lock  @1.01 Dp3  @1.04 CoOp(x2)",
 },
 
@@ -1076,7 +1101,7 @@ var readableTracklist = {
 {
 	title: "Sarabande", artist: "MAX", channel: ORIGINAL, bpm: "157",
 	//XX__: "S2 S4 S7 S12 S16 S19 S20  D11 D18 D21 D24  Dp4",
-	XX: "= S19`18 D21`20",
+	XX: "= S19`18 D21`20  @2.05 CoOp(x2)",
 	Prime2: "S2 S4 S7 S16 S18.ampass D11 D18 D20.ampass  @1.06 Dp4  @2.03 D24  @2.04 S12  @2.05 S20",
 },
 
@@ -1159,7 +1184,7 @@ var readableTracklist = {
 	title: "Hey U", artist: "Mazo", channel: ORIGINAL, bpm: "162",
 	altID: "15_Hey_U",
 	//XX__: "S5 S10 S15  D10 D16  Dp4",
-	XX: "=",
+	XX: "=  @2.05 S3",
 	Prime2: "@1.07 S5 S10 S15 D10 D16  @2.01 Dp4",
 },
 
@@ -1655,7 +1680,7 @@ var readableTracklist = {
 	title: "Redline", artist: "Archefluxx", channel: XROSS, bpm: "170",
 	altID: "15_Redline",
 	//XX__: "S5 S10 S16 S18  D15 D19 D20 D22  Dp5",
-	XX: "= D15`13 D22`21",
+	XX: "= D15`13 D22`21  @2.05 CoOp(x3)",
 	Prime2: "@1.04 S5 S10 S16 D13 D20 S18 D19  @2.01 Dp5  @2.04 D21",
 },
 
@@ -1985,7 +2010,7 @@ var readableTracklist = {
 {
 	title: "Amphitryon", artist: "Gentle Stick", channel: ORIGINAL, bpm: "155",
 	//XX__: "S7 S11 S18  D12 D20  Dp4",
-	XX: "= S7`6",
+	XX: "= S7`6  @2.05 S4",
 	Prime2: "=  @1.08 Dp4",
 	Prime: "@1.17 S6 S11 D12  S18 D20",
 },
@@ -2003,7 +2028,7 @@ var readableTracklist = {
 {
 	title: "Removable Disk0", artist: "Doin", channel: ORIGINAL, bpm: "130",
 	//XX__: "S3 S6 S15  D5 D16  Dp3  Co-op x2",
-	XX: "=",
+	XX: "=  @2.05 S9",
 	Prime2: "=  @1.08 Dp3  @2.04 CoOp(x2)",
 	Prime: "@1.18 S3 S6 S15 D5 D16",
 },
@@ -2021,7 +2046,7 @@ var readableTracklist = {
 {
 	title: "Violet Perfume", artist: "SHK", channel: ORIGINAL, bpm: "140",
 	//XX__: "S4 S6 S8 S13 S17  D10 D14 D18  Dp4",
-	XX: "= S13`14 D14`15 D18`19",
+	XX: "= S13`14 D14`15 D18`19  @2.05 CoOp(x2)",
 	Prime2: "=",
 	Prime: "@1.12 S4 S6 S8 S14 S17 D10 D15 D19  @1.15 Dp4",
 },
@@ -2039,7 +2064,7 @@ var readableTracklist = {
 {
 	title: "Hyacinth", artist: "Yahpp", bpm: "192",
 	//XX__: "S9 S13 S18 S22  D12 D19 D24  Dp4",
-	XX: "= S22`21 D24`23",
+	XX: "= S22`21 D24`23  @2.05 S5",
 	Prime2: "=  @1.08 Dp4",
 	Prime: "@1.10 S9 S13 D12  S18 S21 D19 D23",
 },
@@ -2144,7 +2169,7 @@ var readableTracklist = {
 {
 	title: "Campanella", artist: "Cashew", channel: ORIGINAL, bpm: "140",
 	//XX__: "S6 S10 S16  D10 D16  Dp5",
-	XX: "= S10`9  @1.04 CoOp(x2)",
+	XX: "= S10`9  @1.04 CoOp(x2)  @2.05 S4",
 	Prime2: "=  @1.08 Dp5",
 	Prime: "@1.19 S6 S9 S16 D10 D16",
 },
@@ -2372,7 +2397,7 @@ var readableTracklist = {
 {
 	title: "Karyawisata", artist: "Vesuvia x REDSHiFT", channel: WORLD, bpm: "173",
 	//XX__: "S4 S7 S10 S15 S16 S20  D7 D16  Dp4",
-	XX: "= S16`17",
+	XX: "= S16`17  @2.05 D22.lock",
 	Prime2: "= -D19",
 	Prime: "S4 S7 S10 S17 S20 D7 D16  @1.14 S15.ucs D19.ucs  @1.15 Dp4",
 },
@@ -2564,7 +2589,7 @@ var readableTracklist = {
 {
 	title: "Setsuna Trip", artist: "LastNote", channel: JMUSIC, bpm: "145",
 	//XX__: "S1 S3 S5 S9 S13 S16 S18  D8 D14 D19  Dp3  Co-op x2",
-	XX: "=",
+	XX: "=  @2.05 D23.lock",
 	Prime2: "=",
 	Prime: "@1.12 S1 S5 S9 S13 S16 Dp3  D8 D14  CoOp(x2)  S18 D19  @1.17 S3",
 },
@@ -2573,7 +2598,7 @@ var readableTracklist = {
 {
 	title: "Trashy Innocence", artist: "LastNote", channel: JMUSIC, bpm: "230",
 	//XX__: "S1 S3 S5 S10 S15 S20  D11 D16 D24  Dp4  Co-op x2",
-	XX: "= S15`14 D11`10 D16`15",
+	XX: "= S15`14 D11`10 D16`15  @2.05 S23.lock",
 	Prime2: "=",
 	Prime: "@1.14 S1 S5 S10 S14  D10 D15  CoOp(x2)  S20 D24  @1.15 Dp4  @1.17 S3",
 },
@@ -2675,7 +2700,7 @@ var readableTracklist = {
 {
 	title: "Break It Down", artist: "MAZO", channel: ORIGINAL, bpm: "176",
 	//XX__: "S7 S14 S16  D5 D12 D17",
-	XX: "=",
+	XX: "=  @2.05 D21.lock",
 	Prime2: "=",
 	Prime: "@1.15 S7 S14 S16 D5 D12 D17",
 },
@@ -2894,7 +2919,7 @@ var readableTracklist = {
 {
 	title: "Pop the Track", artist: "J-Mi & Midi-D & Ft. Hanna Stockzell", channel: WORLD, bpm: "160",
 	//XX__: "S2 S7 S9 S16 S18  D9 D18 D20  Co-op x2",
-	XX: "= S18`19",
+	XX: "= S18`19  @2.05 S4",
 	Prime2: "=",
 	Prime: "= CoOp(x2)`Dp??(x2)",
 	Fiesta2: "S2 S7 S9 S16 D9 D18 Dp??(x2)  @1.40 S19  @1.60 D20",
@@ -4070,7 +4095,7 @@ var readableTracklist = {
 {
 	title: "Jonathan's Dream", artist: "MAX & Seorryang (SID-SOUND)", channel: ORIGINAL, bpm: "140",
 	//XX__: "S8 S16  D10 D15",
-	XX: "=  @1.04 S18 D19",
+	XX: "=  @1.04 S18 D19  @2.05 S4 S6",
 	Prime2: "=",
 	Prime: "= -D18",
 	Fiesta2: "=  @1.50 D18",
@@ -5693,7 +5718,7 @@ var readableTracklist = {
 {
 	title: "Higgledy Piggledy", artist: "BanYa Production", bpm: "150",
 	//XX__: "S2 S6 S9 S14 S16  D8 D15  Sp1",
-	XX: "=  @1.03 D20.lock",
+	XX: "=  @1.03 D20.lock  @2.05 S19",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=  @1.51 S16",
@@ -6025,7 +6050,7 @@ var readableTracklist = {
 	Fiesta: "S7`nl S16`hd S23`cz D25`nm  D16`afs Dp??(x2).new  S4.new S11.new S18.new D??(x3)`anm",
 	NXA: ["7", "16", "23", "21", "??(25)"], NXA_: ["", "16", "19", "16", "??(x3)"],
 	NX2: ["8", "17", "23", "20", "??(25)"], NX2_: ["", "13", "20", "15", "??(x3)"],
-	NX: ["8", "15/16", "22", "20", "??(25)"], NX_: ["", "13", "", "15/16", "??(x3)"],
+	NX: ["8", "16", "22", "20", "??(25)"], NX_: ["", "13", "", "15", "??(x3)"],
 },
 
 "D04":
@@ -6042,7 +6067,7 @@ var readableTracklist = {
 	FiestaEX: "=",
 	Fiesta: "Sp3`nl S14`cz Dp4`fs D16`nm  S1.new S3.new S6.new",
 	NX2: ["3", "5", "14", "4", "16"],
-	NX: ["3", "5", "14", "4", "15/16"],
+	NX: ["3", "5", "14", "4", "16"],
 },
 
 "D06":
@@ -6155,7 +6180,7 @@ var readableTracklist = {
 	FiestaEX: "=  @1.51 S4",
 	Fiesta: "S5`nl S8`hd S16`cz D9`fs D21`nm  @1.10 D17.new",
 	NX2: ["4", "8", "16", "6", "20"],
-	NX: ["4", "8", "15/16", "6", "20"],
+	NX: ["4", "8", "16", "6", "20"],
 },
 
 "D18":
@@ -6289,7 +6314,7 @@ var readableTracklist = {
 	Fiesta: "S7`nl S16`hd S22`cz D24`nm  S17`ahd S21`acz D18`afs D23`anm",
 	NXA: ["7", "16", "22", "18", "24"], NXA_: ["", "16", "21", "18", "23"],
 	NX2: ["7", "16", "22", "18", "24"], NX2_: ["", "16", "21", "18", "25"],
-	NX: ["7", "15/16", "21", "18", "??(24)"], NX_: ["", "", "21", "18", "??"],
+	NX: ["7", "16", "21", "18", "??(24)"], NX_: ["", "", "21", "18", "??"],
 	//??? notes: ["arcade unlock on NX, play 2-1 200 times"],
 },
 
@@ -7490,7 +7515,7 @@ var readableTracklist = {
 	title: "Can Can", artist: "F2 Systems", channel: ORIGINAL, bpm: "197", fromMix: "Extra",
 	arcadeName: "Radetzky Can Can",
 	//XX__: "S16 S20.lock D17 D22.lock",
-	XX: "= S16`cz D17`nm S20.lock D22.lock",
+	XX: "= S16`cz D17`nm S20.lock D22.lock  @2.05 S8 S13",
 	Exceed2: ["", "", "12", "", "14"],
 	Exceed: ["", "", "12", "", "15"],
 },
@@ -8106,7 +8131,7 @@ var readableTracklist = {
 {
 	title: "Rolling Christmas", artist: "BanYa", bpm: "142", fromMix: "Perfect",
 	//XX__: "S3 S5 S8 S12  D5 D13 D16  Co-Op x2",
-	XX: "= S12`13 D16`17",
+	XX: "= S12`13 D16`17  @2.05 D22.lock",
 	Prime2: "=",
 	Prime: "=  @1.11 CoOp(x2)  @1.12 D17.ucs",
 	Fiesta2: "=",

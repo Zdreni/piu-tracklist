@@ -510,8 +510,12 @@ function ApplyUnlocks()
 
 	//delete tempUnlockPatchIndex;
 	//delete tempCurrentMix;
+
 	On( "XX" )
+
+
 	// 1.00
+
 		Lock( "16_BBoom_BBoom", "S15", "at least S13 A" )
 		Lock( "16_BBoom_BBoom", "D18", "at least S on S15 & D15" )
 
@@ -640,7 +644,9 @@ function ApplyUnlocks()
 
 		Lock( "16_86", "S12, S16, S20, D18, D21", "Acquire SSS 86 times, same charts allowed" )
 
+
 	// 1.01
+
 		Lock( "16_Boong_Boong", "S16", "at least A on Little Prince S16" )
 		Lock( "16_Boong_Boong", "D12", "at least SS on Little Prince D11" )
 		Lock( "16_Boong_Boong", "D19", "at least A on Little Prince D19" )
@@ -669,7 +675,9 @@ function ApplyUnlocks()
 
 		Lock( "Jump", "D18", "Clear 16 mission zone quests" )
 
+
 	// 1.02
+
 		Lock( "16_Time_for_the_Moon_Night", "S18", "at least A+ on S16" )
 		Lock( "16_Time_for_the_Moon_Night", "D21", "at least A+ on D18" )
 
@@ -694,7 +702,9 @@ function ApplyUnlocks()
 
 		Lock( "Super Fantasy", "S20", "clear 24 mission zone quests" )
 
+
 	// 1.03
+
 		Lock( "16_Starry_Night", "S16, D17", "at least SSS on S1" )
 
 		Lock( "16_Can_Can_Orpheus", "S22", "at least S on Can Can radzetsky S16" )
@@ -715,7 +725,9 @@ function ApplyUnlocks()
 		Lock( "Higgledy Piggledy", "D20", "clear 32 mission zone quests" )
 		Lock( "Monolith", "S21", "clear 40 mission zone quests" )
 
+
 	// 1.04
+
 		Lock( "16_Black_Cat", "S17", "at least A sb on S14" )
 		Lock( "16_Black_Cat", "D18", "at least A sb on D16" )
 
@@ -744,7 +756,9 @@ function ApplyUnlocks()
 
 		Lock( "Dignity", "D26", "at least 5mln score on D24" )
 
+
 	// 1.05
+
 		Lock( "16_Carmen_Bus", "S18", "At least A sb on S16" )
 		Lock( "16_Carmen_Bus", "S21", "At least S on S18" )
 		Lock( "16_Carmen_Bus", "D20", "At least SS on D13" )
@@ -778,7 +792,9 @@ function ApplyUnlocks()
 		Lock( "16_Can_Can_Orpheus_SHORT", "D23", "At least A sb on D21" )
 		Lock( "16_Can_Can_Orpheus_SHORT", "D25", "At least S on D23" )
 
+
 	// 2.00
+
 		Lock( "16_Hit", "S16", "At least A+ on S14" )
 		Lock( "16_Hit", "S19", "At least A+ on S16" )
 		Lock( "16_Hit", "D18", "At least A+ on D16" )
@@ -820,7 +836,9 @@ function ApplyUnlocks()
 
 		Lock( "Jump", "S16", "At least S on S13" )
 
+
 	// 2.01
+
 		Lock( "16_Snapping", "S17", "At least A sb on S15" )
 		Lock( "16_Snapping", "S19", "At least S on S15 and S17" )
 		Lock( "16_Snapping", "D18", "At least A on D16" )
@@ -846,7 +864,9 @@ function ApplyUnlocks()
 
 		Lock( "16_After_a_thousand_years", "D23", "At least A+ and score 5,500+k on D21" )
 
+
 	// 2.02
+
 		Lock( "16_Bon_Bon_Chocolat", "S16", "At least A on S14" )
 		Lock( "16_Bon_Bon_Chocolat", "D18", "At least S on D15" )
 
@@ -874,7 +894,9 @@ function ApplyUnlocks()
 		Lock( "Super Capriccio", "D23", "At least SS on D19" )
 		Lock( "Escape", "D26", "At least 8,000k on S24 and S on D22" )
 
+
 	// 2.03
+
 		Lock( "16_Gotta_Go", "S17", "At least A+ on S15" )
 		Lock( "16_Gotta_Go", "D18", "At least A+ on D16" )
 
@@ -893,12 +915,14 @@ function ApplyUnlocks()
 		Lock( "16_Cutie_Song", "S19", "At least S on S15" )
 		Lock( "16_Cutie_Song", "D21", "At least S on D17" )
 
+
 	// 2.04
+
 		Lock( "16_Jogging", "S18", "At least A+ on S16" )
 		Lock( "16_Jogging", "D18", "At least A+ on D16" )
 		Lock( "16_Jogging", "D22", "At least S on D18" )
 
-		Lock( "16_Destrucimate", "S22", "At least S on S19" )
+		Lock( "16_Destrucimate", "S22", "At least SS on S19" )
 		Lock( "16_Destrucimate", "D24", "At least S on D19" )
 
 		Lock( "16_Clematis_Rapsodia", "S22", "At least A+ on S18, Twist of Fate S19 and Fires of Destiny S20" )
@@ -925,6 +949,37 @@ function ApplyUnlocks()
 		Lock( "16_Love_Scenario", "D19", "?At least S on S17 and SS on D14?" )
 
 		Lock( "16_Dement_After_Legend", "D24", "At least S on D21" )
+
+
+	// 2.05
+
+		//Lock( "16_Brain_Power", "<all charts>", "Brain Power unlock event. Machine wide. Get stage passes to fill the progress bar." )
+
+		Lock( "16_Life_is_Piano", "S19", "At least S on S16" )
+		Lock( "16_Life_is_Piano", "D21", "At least S on D19" )
+
+		Lock( "16_The_Reverie", "S19", "At least A+ on S17" )
+		Lock( "16_The_Reverie", "S21", "At least A+ on S19" )
+		Lock( "16_The_Reverie", "D21", "At least S on D18" )
+
+		Lock( "16_God_Mode_2_0", "S21", "At least A+ on God Mode S20" )
+		Lock( "16_God_Mode_2_0", "D22", "At least A+ on God Mode D21" )
+
+		Lock( "16_Full_Moon_FULL", "S22", "At least A+ on Full Moon S22" )
+		Lock( "16_Full_Moon_FULL", "D24", "At least A+ on Full Moon D24" )
+
+		Lock( "Rolling Christmas", "D22", "At least SS on D16" )
+
+		Lock( "16_Gotta_Go", "D20", "At least S on D16?" )
+
+		Lock( "Karyawisata", "D22", "At least SS on D16" )
+
+		Lock( "Setsuna Trip", "D23", "At least SS on D19" )
+
+		Lock( "Trashy Innocence", "S23", "At least S on S20" )
+
+		Lock( "Break It Down", "D21", "At least S on D17?" )
+
 }
 
 initFuncs.push( ApplyUnlocks );

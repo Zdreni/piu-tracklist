@@ -5357,6 +5357,128 @@ http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=374
 
 -----------------------------------------------------------------------------------------------------------------------
 
+Prime XX  2.05
+
+https://www.facebook.com/piugame/posts/4262387477122808
+
+https://drive.google.com/file/d/1il69aWQcc5vzfyrT8dfC-cZeMeAt5dec/view
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=379
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=378
+(piu_xx_241.bin)
+
+
+1. 2021 New Year's Event
+We have prepared 2021 New Year's event. You can participate in v2.05.0
+and later versions.
+
+	Event.1 New Year Login Event!
+		- Event period: January 7th (Thursday) 15:00 to February 28th (Sun) 23:59
+		- Event content: 'Youyuu Sumire' avatar and 10,000 PP for access during the event period.
+		* When logging in to AM.PASS account
+
+	Event.2 'Brain Power' Unlock Event
+		- Event period: January 7th (Thursday) 15:00 to December 31st (Friday) 23:59
+		- Event content:
+			* Unlock BRAIN POWER song according to play records by machine
+	        * When the gauge bar for the event is fully filled, the BRAIN POWER is immediately unlocked.
+
+	Event.3 Add COLLECTOR Title
+		- Event period: January 7th (Thursday) 15:00 to December 31st (Friday) 23:59
+		- Event content: COLLECTOR (LV.1 to 5) according to the number of titles and avatars held.
+
+
+
+2. New Songs
+
+1) Title : BRAIN POWER
+	Artist : NOMA
+	BPM : 170~173
+	Category : World Music
+	Step charts : S??, S??, S??, S??, S??, S??, S??, D??, D??, D??, D??
+	- This song is a special unlocking song. If the condition is met, allsteps will be unlocked at once.
+
+2) Title : Life is PIANO
+	Artist : Junk
+	BPM : 133
+	Category : World Music
+	Step charts : S02, S04, S07, S10, S16, D11, D18
+	S19, D21(Unlocked step)
+
+3) Title : The Reverie
+	Artist : uma
+	BPM : 150
+	Category : Original
+	Step charts : S3, S5, S8, S11, S15, S17, D12, D18
+	S19, S21, D21 (Unlocked step)
+
+4) Title : God Mode 2.0 feat. Skizzo
+	Artist : Nato
+	BPM : 155
+	Category : Original
+	Step charts : S08, S13, S18, D13, D18, D20
+	S21, D22(Unlocked step)
+
+5) Title : Full Moon - FULL SONG -
+	Artist : Dreamcatcher
+	BPM : 190
+	Category : K-POP
+	Step charts : S20
+	S22, D24(Unlocked step)
+
+
+3. New Step Charts
+
+	Num Title                      Step charts
+	 1  Rolling Christmas          D22 (Unlocked Step)
+	 2  Radetzky Can Can           S8, S13
+	 3  Jonathan’s Dream           S4, S6
+	 4  Pop The Track              S4
+	 5  Amphitryon                 S4
+	 6  Removable Disk0            S9
+	 7  Violet Perfume             CO-OP(2)
+	 8  Hyacinth                   S5
+	 9  Campanella                 S4
+	10  Karyawisata                D22 (Unlocked Step)
+	11  Setsuna Trip               D23 (Unlocked Step)
+	12  Trashy Innocence           S23 (Unlocked Step)
+	13  Break It Down              D21 (Unlocked Step)
+	14  Sarabande                  CO-OP(2)
+	15  Hey U                      S3
+	16  Redline                    CO-OP(3)
+	17  District 1                 S6
+	18  Iolite Sky                 D21
+	19  Macaron Day                S4, S7
+	20  Stardream (feat. Romelon)  S1, S3
+	21  Gotta Go                   D20 (Unlocked Step)
+	22  Higgledy Piggledy          S19
+
+
+4. New Avatars Added
+
+	13 New Avatars have been added to the item shop.
+	- Music Warrior
+	- Tritium
+	- Rae A
+	- Phou
+	- Mental Cube
+	- King Scorpion
+	- Takalook
+	- Alice
+	- Dasom
+	- Century of Limitation
+	- Little Lamb
+	- Denis
+	- Matsuri
+
+
+5. Additions
+
+	- Moment Day CO-OP(2) – Speed Issue has been modified.
+	- Some missing Step Artist marks have been added.
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
 
 Чеклист для добавления нового патча (для патчноутов формата Prime 2):
  - занести patch notes в patch.txt
