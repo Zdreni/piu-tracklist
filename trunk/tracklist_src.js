@@ -56,16 +56,14 @@ var readableTracklist = {
 },
 */
 
-/*
 "16_Brain_Power":
 {
 	title: "Brain Power", artist: "Noma", channel: WORLD, bpm: "170~173",
 	sortingID: "1696__1",  // between 16_Point_Zero_2 (1696) and 16_Life_is_Piano (1696__2)
 	// arcadeID: "",
 	// arcadeName: "",
-	//XX: "@2.05 S?? S?? S?? S?? S?? S?? S?? D?? D?? D?? D??",
+	XX: "@2.05 S3.lock S5.lock S8.lock S11.lock S16.lock S18.lock S22.lock D8.lock D14.lock D20.lock D24.lock",
 },
-*/
 
 "16_Life_is_Piano":
 {

@@ -953,7 +953,7 @@ function ApplyUnlocks()
 
 	// 2.05
 
-		//Lock( "16_Brain_Power", "<all charts>", "Brain Power unlock event. Machine wide. Get stage passes to fill the progress bar." )
+		Lock( "16_Brain_Power", "S3, S5, S8, S11, S16, S18, S22, D8, D14, D20, D24", "Unlock event, machine-wide. Get stage passes to fill the progress bar." )
 
 		Lock( "16_Life_is_Piano", "S19", "At least S on S16" )
 		Lock( "16_Life_is_Piano", "D21", "At least S on D19" )

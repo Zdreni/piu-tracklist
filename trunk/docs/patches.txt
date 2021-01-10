@@ -5394,7 +5394,7 @@ and later versions.
 	Artist : NOMA
 	BPM : 170~173
 	Category : World Music
-	Step charts : S??, S??, S??, S??, S??, S??, S??, D??, D??, D??, D??
+	Step charts : S03, S05, S08, S11, S16, S18, S22, D08, D14, D20, D24
 	- This song is a special unlocking song. If the condition is met, allsteps will be unlocked at once.
 
 2) Title : Life is PIANO
