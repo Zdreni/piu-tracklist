@@ -88,7 +88,7 @@ var readableTracklist = {
 {
 	title: "God Mode 2.0 feat. Skizzo", artist: "Nato", channel: ORIGINAL, bpm: "155",
 	shortTitle: "God Mode 2.0",
-	sortingID: "1667__1",  // between 16_Switronic_SHORT (16F6) and 16_Club_Night (1668)
+	sortingID: "16F6__1",  // between 16_Switronic_SHORT (16F6) and 16_Club_Night (1668)
 	// arcadeID: "",
 	// arcadeName: "",
 	XX: "@2.05 S8 S13 S18 D13 D18 D20 S21.lock D22.lock",
@@ -140,6 +140,7 @@ var readableTracklist = {
 {
 	title: "Over The Horizon", artist: "Yamajet", channel: XROSS, bpm: "190",
 	arcadeID: "1689",
+	arcadeNameMaxEditDistance: 1, // 'Qver The Horizon'
 	// arcadeName: "",
 	XX: "@2.04 S11 S15 S17 D14 S20.lock D21.lock",
 },
@@ -293,6 +294,7 @@ var readableTracklist = {
 	title: "I'm So Sick  [FULL]", artist: "APink", channel: KPOP, bpm: "124",
 	arcadeID: "16E1",
 	arcadeName: "I'm so sick - FULL SONG -",
+	arcadeNameMaxEditDistance: 1, // 'Im so sick'
 	XX: "@2.02 S11 S18 D20",
 },
 
@@ -572,7 +574,7 @@ var readableTracklist = {
 {
 	title: "I'm So Sick", artist: "APink", channel: KPOP, bpm: "124",
 	arcadeID: "1650",
-	arcadeNameMaxEditDistance: 1, // '('m so sick'
+	arcadeNameMaxEditDistance: 1, // 'Im so sick'
 	XX: "S2 S4 S6 S9 S15 S17.lock D9 D16 D18.lock D20.lock  @1.01 Dp3  @1.04 CoOp(x2)",
 },
 
@@ -842,7 +844,7 @@ var readableTracklist = {
 {
 	title: "Fires of Destiny", artist: "Jehezukiel", channel: ORIGINAL, bpm: "155",
 	arcadeID: "16A2",
-	XX: "@1.03 S6 S10 S16 S18 D11 D18 S20.lock D22.lock  @2.01 CoOp(x2)",
+	XX: "@1.03 S6 S10 S16 S18 D11 D18 S20.lock D22.lock  @2.00 Dp3  @2.01 CoOp(x2)",
 },
 
 "16_The_End_of_the_World":
@@ -851,14 +853,14 @@ var readableTracklist = {
 	shortTitle: "The End of the World",
 	arcadeName: "The End of the World ft. Skizzo",
 	arcadeID: "16A3",
-	XX: "@1.03 S3 S5 S8 S17 D8 D17  @1.05 S20 D21",
+	XX: "@1.03 S3 S5 S8 S17 D8 D17  @1.05 S20 D21  @2.00 Dp3",
 },
 
 "16_Forgotten_Vampire":
 {
 	title: "Forgotten Vampire", artist: "WyvernP", channel: ORIGINAL, bpm: "137",
 	arcadeID: "16A4",
-	XX: "@1.03 S3 S6 S8 S13 S16 D5 D11 D14 D17 CoOp(x2) S18.lock D20.lock",
+	XX: "@1.03 S3 S6 S8 S13 S16 D5 D11 D14 D17 CoOp(x2) S18.lock D20.lock  @2.00 Dp4",
 },
 
 "16_Desaparecer":
@@ -5716,7 +5718,7 @@ var readableTracklist = {
 {
 	title: "Higgledy Piggledy", artist: "BanYa Production", bpm: "150",
 	//XX__: "S2 S6 S9 S14 S16  D8 D15  Sp1",
-	XX: "=  @1.03 D20.lock  @2.05 S19",
+	XX: "=  @1.03 D20.lock  @2.05 S19`acz",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=  @1.51 S16",
@@ -8411,6 +8413,7 @@ var readableTracklist = {
 "307":
 {
 	title: "Close Your Eyes", artist: "BanYa", bpm: "105", fromMix: "OBG",
+	arcadeName: "Close Your Eye",
 	//XX__: "S4  Sp2  Dp3",
 	XX: "=",
 	Prime2: "=",

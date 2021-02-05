@@ -956,10 +956,10 @@ function ApplyUnlocks()
 		Lock( "16_Brain_Power", "S3, S5, S8, S11, S16, S18, S22, D8, D14, D20, D24", "Unlock event, machine-wide. Get stage passes to fill the progress bar." )
 
 		Lock( "16_Life_is_Piano", "S19", "At least S on S16" )
-		Lock( "16_Life_is_Piano", "D21", "At least S on D19" )
+		Lock( "16_Life_is_Piano", "D21", "At least S on D18" )
 
 		Lock( "16_The_Reverie", "S19", "At least A+ on S17" )
-		Lock( "16_The_Reverie", "S21", "At least A+ on S19" )
+		Lock( "16_The_Reverie", "S21", "At least S on S17 and S19" )
 		Lock( "16_The_Reverie", "D21", "At least S on D18" )
 
 		Lock( "16_God_Mode_2_0", "S21", "At least A+ on God Mode S20" )
@@ -970,7 +970,7 @@ function ApplyUnlocks()
 
 		Lock( "Rolling Christmas", "D22", "At least SS on D16" )
 
-		Lock( "16_Gotta_Go", "D20", "At least S on D16?" )
+		Lock( "16_Gotta_Go", "D20", "At least S on S17 and D18" )
 
 		Lock( "Karyawisata", "D22", "At least SS on D16" )
 
@@ -978,7 +978,7 @@ function ApplyUnlocks()
 
 		Lock( "Trashy Innocence", "S23", "At least S on S20" )
 
-		Lock( "Break It Down", "D21", "At least S on D17?" )
+		Lock( "Break It Down", "D21", "Pass Break it Down D21 mission" )
 
 }
 

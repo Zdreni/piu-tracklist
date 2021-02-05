@@ -48,7 +48,8 @@ function AddNotes()
 	CR( "Loki", ["S16", "S19", "S21", "D19"], "Excessive partial gimmicks.")
 	CR( "Loki", "S21", "Series of long footswitches.")
 
-	CR( "Love Scenario", "S17", BUILT_WITH_STOPS )
+	CR( "Break It Down", "D21", HAS_SOME_STOPS )
+	CR( "Love Scenario", ["S17", "D19"], BUILT_WITH_STOPS )
 	CR( "Uprock", "CZ", BUILT_WITH_STOPS )
 	CR( "Everybody Got 2 Know", "S19", BUILT_WITH_STOPS )
 
