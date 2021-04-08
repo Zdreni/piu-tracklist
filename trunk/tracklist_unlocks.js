@@ -980,6 +980,45 @@ function ApplyUnlocks()
 
 		Lock( "Break It Down", "D21", "Pass Break it Down D21 mission" )
 
+
+	// 2.06
+		//Lock( "16_Crossing_Delta", "", "???" )
+
+		Lock( "16_Harmagedon", "S22", "???" )
+		Lock( "16_Harmagedon", "D24", "???" )
+
+		Lock( "16_Slapstick_Parfait", "S19", "???" )
+		Lock( "16_Slapstick_Parfait", "D21", "???" )
+
+		Lock( "16_Paved_Garden", "S19", "???" )
+		Lock( "16_Paved_Garden", "S22", "???" )
+		Lock( "16_Paved_Garden", "D21", "???" )
+		Lock( "16_Paved_Garden", "D24", "???" )
+
+		Lock( "16_Pop_Sequence", "S21", "???" )
+		Lock( "16_Pop_Sequence", "D23", "???" )
+
+		Lock( "13_Night_Duty", "S19", "A on S17" )
+		Lock( "13_Night_Duty", "D20", "???" )
+
+		Lock( "Top City", "S20", "???" )
+
+		Lock( "Hungarian Dance V", "D21", "???" )
+
+		Lock( "Hypnosis (SynthWulf Mix)", "D22", "???" )
+
+		Lock( "Vanish", "D24", "A on D22" )
+
+		Lock( "Club Night", "D23", "A on D21" )
+/*
+		Lock( "", "", "???" )
+		Lock( "", "", "???" )
+		Lock( "", "", "???" )
+		Lock( "", "", "???" )
+		Lock( "", "", "???" )
+		Lock( "", "", "???" )
+		Lock( "", "", "???" )
+*/
 }
 
 initFuncs.push( ApplyUnlocks );
