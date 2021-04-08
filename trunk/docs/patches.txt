@@ -2,6 +2,7 @@
 
 Fiesta  1.02:
 http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=86&page=3 (same URL for 1.02 - 1.04)
+(fiesta01.bin)
 
 - Amended some error of Ver1.01
 
@@ -11,6 +12,7 @@ http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=86&page=3 (same UR
 
 Fiesta  1.03:
 http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=86&page=3 (same URL for 1.02 - 1.04)
+(fiesta02.bin)
 
 - Extend range of available USB
 - added up double step in Basic mode (Except china version)
@@ -21,6 +23,7 @@ http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=86&page=3 (same UR
 
 Fiesta  1.04:
 http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=86&page=3 (same URL for 1.02 - 1.04)
+(fiesta03.bin)
 
 - Change commend method of speed choice in Basic mode (79795)
 - Add up speed 1X & 4X in basic mode
@@ -36,6 +39,7 @@ http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=86&page=3 (same UR
 
 Fiesta  1.05:
 http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=87&page=2
+(fiesta04.bin)
 
 - Help function in BASIC MODE is updated.
 - New STEPS in FULL MODE are added.
@@ -58,6 +62,7 @@ Phantom [Intermezzo] - BanYa / single 15
 
 Fiesta  1.06:
 http://www.ph-online.net/cgi-bin/ib3/ikonboard.cgi?act=ST;f=18;t=10943
+(fiesta05.bin)
 
 - Bugs in mission zone of V1.05 are revised.
 - New STEPS (total 13 modes) in ShortCut Mode are added !
@@ -86,6 +91,7 @@ Newly added Music Train contents:
 
 Fiesta  1.07:
 http://www.ph-online.net/cgi-bin/ib3/ikonboard.cgi?act=ST;f=27;t=11044
+(fiesta06.bin)
 
 
 
@@ -93,6 +99,7 @@ http://www.ph-online.net/cgi-bin/ib3/ikonboard.cgi?act=ST;f=27;t=11044
 
 Fiesta  1.10:
 http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=88&page=2
+(fiesta07.bin)
 
 
 NEW SONGS:
@@ -189,6 +196,7 @@ Now, it is able to access Co-op mission zone from and to Arcade freely.
 
 Fiesta  1.20:
 http://www.ph-online.net/cgi-bin/ib3/ikonboard.cgi?act=ST;f=18;t=11184
+(fiesta10.bin)
 
 1. Newly added BGAs !
 Among the songs updated in FIESTA 1.10, BGAs of several songs have been added !
@@ -206,6 +214,7 @@ Several bugs and problems, such as USB level icon problem, Music train EXP probl
 
 Fiesta EX  1.10:
 http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=93&page=2
+(fiestaex00.bin)
 
 1. New Song !
 1.Rave Until The Night Is Over - DM Ashura
@@ -232,6 +241,7 @@ Now, players can enjoy the game in more stable environment !
 
 Fiesta EX  1.20:
 http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=101&page=2
+(fiestaex10.bin)
 
 1. New Songs !
 1. Necromancy - Zircon
@@ -269,6 +279,7 @@ Several bugs have been corrected.
 
 Fiesta EX  1.30:
 http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=107&page=2
+(fiestaex20.bin)
 
 1. New Songs !
 1.X-Rave – DM Ashura
@@ -317,6 +328,7 @@ http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=107&page=2
 
 Fiesta EX  1.40:
 http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=110&page=2
+(fiestaex30.bin)
 
 1. New Songs !
 Interference(Full song) – Doin
@@ -332,7 +344,34 @@ X Treme – BanYa / Single 18
 
 -----------------------------------------------------------------------------------------------------------------------
 
+Fiesta EX  1.41:
+
+(fiestaex40.bin)
+
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Fiesta EX  1.42:
+
+(fiestaex41.bin)
+
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Fiesta EX  1.43:
+
+(fiestaex42.bin)
+
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
 Fiesta EX  1.50:
+
+(fiestaex43.bin)
+
 It has come to our attention that a song featured in the Fiesta EX 1.50 update does not have a correct license agreement. There was a miscommunication in the licensing process with "Deadbeat Boyfriend" by "Lucky Princess" and it must be removed.
 We will be releasing Fiesta EX Update 1.51 to correct this issue. Upon upgrading to 1.51, players will be able to add 2 more UCS files making a maximum of 5 UCS files per USB.
 We apologize to Disko Warp records and any of their affiliates for the confusion.There are rumors of stolen songs, but this is false. Every song in the 1.50 patch has either an executed or pending license agreement.
@@ -343,6 +382,7 @@ We apologize to Disko Warp records and any of their affiliates for the confusion
 
 Fiesta EX  1.51:
 https://www.facebook.com/notes/449963461698581/
+(fiestaex50.bin)
 
 1. UCS(User Custom Step) !
 A. By using this function, you can make and play your own step charts to the maximum 5 charts!
@@ -485,6 +525,7 @@ Now, players can enjoy the game in much more stable environment!
 Fiesta 2  1.01:
 https://www.facebook.com/notes/pump-it-up/fiesta-2s-first-official-updatev101-information/542797842415142
 http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=119&page=2
+(fiesta2_00.bin)
 
 1. Newly added Step charts !
 
@@ -510,6 +551,7 @@ Now, players can enjoy the game in more stable environment!
 Fiesta 2  1.02:
 https://www.facebook.com/notes/pump-it-up/fiesta-2s-2nd-official-updatev102-information/543390499022543
 http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=120&page=1
+(fiesta2_01.bin)
 
 ★ Updated contents list in FIESTA 2 1.02 ver ★
 Under non-USB condition, once a player enters Full Mode, calls out Command Window and selects Command category, the game was discontinued, but now this bug has been fixed.
@@ -522,6 +564,7 @@ Fiesta 2  1.10:
 https://www.facebook.com/notes/pump-it-up/fiesta-2s-3rd-official-updatev110-information/600743876620538
 https://www.facebook.com/piugame/photos/a.439723339389260.113802.172482646113332/598248030203456/?type=1
 http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=121&page=1
+(fiesta2_02.bin)
 
 1. Newly added songs
 A. Crayon – G-Dragon (Basic & Full Mode)
@@ -923,14 +966,15 @@ Step chart : S12, S17, S19, S21
 
 Prime  1.05:
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1050-update-information/1083852074976380
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=110
 (prime_04.bin)
 
 1. NEW Songs
+
  1) Song : Venus
      Artist : Shinwha
      BPM : 126
      Default step chart : S2, S3, S5, S14, D6, D14
-
 
  2) Song : You got me crazy
      Artist : MAX
@@ -938,10 +982,12 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1050-update-information
      Default step chart : S4, S9,  D5
      Unlock step chart : S?, S?, D?
 
+
 2. New unlock step charts
     Song : Interference
     Artist : Doin
     Unlock step chart : D?
+
 
 3. Quest zone
     Quest “Chapter5” is updated.
@@ -971,6 +1017,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1050-update-information
   2) Custom Music Train
       Players can make their own "Music train" and it is available up to 3 slots.
       (It is available from "My page" on http://www.piugame.com and can be played in the "Music train Channel" of the game.)
+
 
 5. Bugs fixed!
 
@@ -1049,6 +1096,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1060-update-information
 Prime  1.07:
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1070-update-information/1121502457878008
 http://www.ph-online.net/cgi-bin/ib3/ikonboard.cgi?act=ST;f=18;t=12986
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=120
 (prime_06.bin)
 
 New songs
@@ -1149,9 +1197,11 @@ Thanks!!
 
 Prime  1.08:
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1080-update-information/1138596482835272
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=131
 (prime_07.bin)
 
 1. NEW Song
+
  1) Song : Silhouette Effect
      Artist : Nato
      BPM : 167
@@ -1176,6 +1226,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1080-update-information
      Artist : Banya
      Unlock Step chart : S?, D?
 
+
 3. Quest zone
     Quest “Chapter8” is updated.
 
@@ -1194,9 +1245,11 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1080-update-information
   5) Utopia
       Step chart : S9, S17, D18, D22
 
+
 4. Unlocked Step charts
  1) You got me crazy : S17, S18, D18 - released!
  2) Interference : D21 - released!
+
 
 5. UCS(User Custom Step)!
 Finally, you can use UCS in PIU 2015 PRIME!
@@ -1210,7 +1263,10 @@ Please refer to the UCS WEB page for the details.
 
 Prime  1.09
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1090-update-information/1158163230878597
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=157
 (prime_08.bin)
+
+1. NEW Song
 
  1) Song :Bad Apple!! feat. Nomico
      Artist :Masayoshi Minoshima
@@ -1291,6 +1347,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1090-update-information
 
 Prime  1.10
 https://www.facebook.com/notes/1175368725824714/
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=166
 (prime_09.bin)
 
 1. NEW Song
@@ -1375,6 +1432,7 @@ Thanks!!
 
 Prime  1.11
 https://www.facebook.com/notes/1189158797779040/
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=177
 (prime_10.bin, prime_11.bin)
 
 1. NEW Song
@@ -1483,6 +1541,7 @@ https://www.facebook.com/notes/1189158797779040/
 
 Prime  1.12
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1120-update-information/1209014152460171
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=188
 (prime_111.bin)
 
 1. New Songs
@@ -1648,6 +1707,7 @@ The songs listed below are moved to J-MUSIC Channel.
 
 Prime  1.13
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1130-update-information/1230466223648297
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=205
 (prime_12.bin)
 
 1. New Songs
@@ -1724,29 +1784,35 @@ Arcade location name is now indicated in game result screen
 
 Prime  1.14
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1140-update-information/1249949081700011
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=217
 (prime_13.bin)
 
 1. New Songs
+
 1) Song :  Trashy Innocence
     Artist :  LastNote
     BPM : 230
     Default step chart :  S01, S05, S10, S14, D10, D15, CO-OP x2
     Unlock step chart : S??, D??
+
 2) Song :  Renai Yuusha
      Artist :  LastNote
      BPM : 190
      Default step chart :  S03, S06, S12, S17, D04, D13, D18, CO-OP x3
      Unlock step chart : S??, D??
+
 3) Song :  Just Hold on (To All Fighters)
      Artist : Void
      BPM : 170
      Default step chart :  S04, S07, S10, S16, D12, D18
      Unlock step chart : S??, D??, D??
+
 4) Song :  Enhance Reality
      Artist :  Matduke
      BPM : 170
      Default step chart :  S09, S14, D11
      Unlock step chart : S??, D??
+
 5) Song :  [Full Song] Pandora
      Artist :  KARA
      BPM : 140
@@ -1782,18 +1848,24 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1140-update-information
 
 
 3. Quest zone
+
 Quest “Chapter14” is updated.
+
 1) Song : J Bong
     Step chart :  S07, S08, S13, S18
+
 2) Song : Final Audition3
      Step chart : S06, S09, S14, S18
+
 3)  Song :  Chopsticks Callenge
       Step chart :  S06, S17, D16, D19
 
 4) Song :   Com’Back
      Step chart :   S08, S15, D16, D20
+
 5) Song :  Tepris
      Step chart :  S07, S16, D18, D22
+
 
 4. Unlocked Step charts
 
@@ -1802,6 +1874,7 @@ Quest “Chapter14” is updated.
 
 2) Song :  video out c
      Step chart : S17 - released!
+
 
 5. New Features
 
@@ -1812,8 +1885,9 @@ Quest “Chapter14” is updated.
     - Robot Battle
 
 * New added U.C.S songs will be used for next U.C.S contest and new contest notice will be announced in detail.
+
+
 6. Minor bugs fixed.
-Thank you.
 
 
 
@@ -1821,6 +1895,7 @@ Thank you.
 
 Prime 1.15
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1150-update-information/1281991668495752
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=235
 (prime_14.bin)
 
 
@@ -1920,47 +1995,48 @@ Quest “Chapter15” is updated.
 
 Prime  1.16
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1160-update-information/1303524496342469
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=247
 (prime_15.bin)
 
 
 1. New Songs
 
 1) Song :  Moment Day
-Artist :  MAX
-BPM : 158
-Default step chart :   S03, S06, S10, S15, S17, D09, D16, CO-OP x2
-Unlock step chart : S??, D??
+	Artist :  MAX
+	BPM : 158
+	Default step chart :   S03, S06, S10, S15, S17, D09, D16, CO-OP x2
+	Unlock step chart : S??, D??
 
 2) Song :  Houkago Stride
- Artist :   Last Note.
- BPM : 225
-Default step chart :   S03, S06, S10, S15, D10, D16
-Unlock step chart : S??, D??
+	Artist :   Last Note.
+	BPM : 225
+	Default step chart :   S03, S06, S10, S15, D10, D16
+	Unlock step chart : S??, D??
 
 3) Song :   Idealized Romance
- Artist :  void
-BPM : 140
-Default step chart :   S02, S04, S07, S11, S16, D10
-Unlock step chart : S??, D??
+	Artist :  void
+	BPM : 140
+	Default step chart :   S02, S04, S07, S11, S16, D10
+	Unlock step chart : S??, D??
 
 4) Song :   Force of Ra
-Artist :   Memme
-BPM : 180
-Default step chart :   S07, S12, S17, D12
-Unlock step chart : S??, D??
+	Artist :   Memme
+	BPM : 180
+	Default step chart :   S07, S12, S17, D12
+	Unlock step chart : S??, D??
 
 
- 2. New unlock step charts
+2. New unlock step charts
 
 1) Song :   Achluoias
-Artist : D_AAN
-BPM : 200
-Step chart : D26
+	Artist : D_AAN
+	BPM : 200
+	Step chart : D26
 
 2) Song :   Stardust Overdrive
-Artist : typeMARS
-BPM : 175
-Step chart : D24
+	Artist : typeMARS
+	BPM : 175
+	Step chart : D24
 
 
 3. Quest zone
@@ -1968,41 +2044,41 @@ Step chart : D24
 Quest “Chapter15” is updated.
 
 1) Song :   Hello William
-Step chart :   S09, S17, D09, D18
+	Step chart :   S09, S17, D09, D18
 
 2) Song :   Bullfighter's Song
-Step chart :  S05, S08, S16, S19
+	Step chart :  S05, S08, S16, S19
 
 3)  Song :    Ladybug
-Step chart :   S05, S13, D13, D19
+	Step chart :   S05, S13, D13, D19
 
 4) Song :    Moonlight
-Step chart :   D11, D20, D21, D22
+	Step chart :   D11, D20, D21, D22
 
 5) Song :   FFF
-Step chart :   S17, S23, D22, D26
+	Step chart :   S17, S23, D22, D26
 
 
 4. Unlocked Step charts
 
 1) Song :    Creed -1st Desire-
-Step chart :  S18, D18  - released!
+	Step chart :  S18, D18  - released!
 
 
 5. New U.C.S songs are added!
 
-- Nemesis
-- Chinese restaurant
-- Hestia
-- You Got Me Crazy
-- 1950
+	- Nemesis
+	- Chinese restaurant
+	- Hestia
+	- You Got Me Crazy
+	- 1950
 
- * New added U.C.S songs will be used for next U.C.S contest and new contest notice will be announced in detail
+	 * New added U.C.S songs will be used for next U.C.S contest and new contest notice will be announced in detail
 
 
 6. New features
-It is now available to play for 2 players in Rank mode of event mode
 
+	It is now available to play for 2 players in Rank mode of event mode
 
 
 7.  Minor bugs fixed.
@@ -2013,85 +2089,86 @@ It is now available to play for 2 players in Rank mode of event mode
 
 Prime  1.17
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1170-update-information/1323575054337413
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=254
 (prime_16.bin)
 
 1. New Songs
 
 1)	Song : Amphitryon
-Artist : Gentle Stick
-BPM : 155
-Default step chart :  S06, S11, D12
-Unlock step chart : S??, D??
+	Artist : Gentle Stick
+	BPM : 155
+	Default step chart :  S06, S11, D12
+	Unlock step chart : S??, D??
 
 2)	Song : Blaze emotion (Band version)
-Artist : Yahpp
-BPM : 170
-Default step chart : S02, S08, S17, D04, D18
+	Artist : Yahpp
+	BPM : 170
+	Default step chart : S02, S08, S17, D04, D18
 
 
 2. New step charts
 
 1)	Song : Bad Apple!! feat. Nomico
-Artist : Masayoshi Minoshima
-BPM : 138
-Step chart  : S03
+	Artist : Masayoshi Minoshima
+	BPM : 138
+	Step chart  : S03
 
 2)	Song : Setsuna Trip
-Artist : Last Note.
-BPM : 145
-Step chart : S03
+	Artist : Last Note.
+	BPM : 145
+	Step chart : S03
 
 3)	Song : Trashy Innocence
-Artist : Last Note.
-BPM : 230
-Step chart : S03
+	Artist : Last Note.
+	BPM : 230
+	Step chart : S03
 
 4)	Song : Bad ∞ End ∞ Night
-Artist : HitoshizukuP X yama△
-BPM : 204
-Step chart : S04
+	Artist : HitoshizukuP X yama△
+	BPM : 204
+	Step chart : S04
 
 5)	Song : Till the end of time
-Artist : BanYa
-BPM : 140
-Step chart : S13(UCS), S17(UCS), D08(UCS), D13(UCS), D16(UCS)
+	Artist : BanYa
+	BPM : 140
+	Step chart : S13(UCS), S17(UCS), D08(UCS), D13(UCS), D16(UCS)
 
 6)	Song : Chicken Wing
-Artist : BanYa
-BPM : 200
-Step chart : S21(UCS), S22(UCS), D23(UCS)
+	Artist : BanYa
+	BPM : 200
+	Step chart : S21(UCS), S22(UCS), D23(UCS)
 
 7)	Song : Robot Battle
-Artist : CYO Style
-BPM : 198
-Step chart : S18(UCS), D19(UCS)
+	Artist : CYO Style
+	BPM : 198
+	Step chart : S18(UCS), D19(UCS)
 
 
 3.	 Unlocked Step charts
 
 1)	Song : Renai Yuusha
-Step chart : S19 , D20 -  released!
+	Step chart : S19 , D20 -  released!
 
 2)	Song : Enhance Reality
-Step chart : S19 , D20 - released!
+	Step chart : S19 , D20 - released!
 
 
 4.	 Quest zone
 
 1)	Song : Destination
-Step chart : S11, S16, D13, D18
+	Step chart : S11, S16, D13, D18
 
 2)	Song : Phantom
-Step chart : S12, S17, S18, S19
+	Step chart : S12, S17, S18, S19
 
 3)	Song : Selfishness
-Step chart : S11, S17, D18, D21
+	Step chart : S11, S17, D18, D21
 
 4)	Song : Love is a danger zone pt.2
-Step chart : S07, S15, D17, D21
+	Step chart : S07, S15, D17, D21
 
 5)	Song : Tribe Attacker
-Step chart : S16, D10, D15, D22
+	Step chart : S16, D10, D15, D22
 
 
 5. New Features
@@ -2118,6 +2195,7 @@ If 1.17.1 update is successfully done, 1.18.0 update by online is available.
 
 Prime  1.18
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1180-update-information/1348601531834765
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=269
 (prime_171.bin)
 
 
@@ -2170,6 +2248,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1180-update-information
 
 Prime  1.19
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1190-update-information/1369478283080423
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=281
 (prime_18.bin)
 
 
@@ -2312,6 +2391,7 @@ Quest “Chapter19” is updated.
 
 Prime  1.20
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1200-update-information/1395918663769718
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=283
 (prime_19.bin)
 
 
@@ -2365,6 +2445,7 @@ Quest “Chapter20” is updated.
 
 Prime  1.21
 https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1210-update-information/1431142530247331
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=284
 (prime_20.bin)
 
 
@@ -2457,6 +2538,7 @@ Thank you.
 
 Prime 2  1.01.0:
 https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1010-update-notice/1571313309563585
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=288
 (prime2_000.bin)
 
 1.	New Songs
@@ -2500,6 +2582,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1010-update-notice/157
 
 Prime 2  1.02.0:
 https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1020-update-notice/1657768780918037
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=289
 (prime2_010.bin)
 
 1.	New Songs
@@ -2550,6 +2633,7 @@ Update is as follow.
 
 Prime 2  1.03:
 https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1030-update-notice/1665490500145865/
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=290
 (prime2_021.bin)
 
 1.	New Songs
@@ -2632,6 +2716,7 @@ Following contents are updated.
 
 Prime 2  1.04:
 https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1040-update-notice/1732628556765392/
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=291
 (prime2_030.bin)
 
 1.	New Songs
@@ -2698,6 +2783,7 @@ https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1040-update-notice/173
 
 Prime 2  1.05:
 https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1050-update-notice/1754622061232708/
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=292
 (prime2_040.bin)
 
 
@@ -2787,6 +2873,7 @@ June 30th PUMP IT UP 2015 PRIME online service is end.
 
 Prime 2  1.05.1:
 https://www.facebook.com/notes/pump-it-up/hotfix-1051/1760300200664894/
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=293
 (prime2_050.bin)
 
 
@@ -2800,6 +2887,7 @@ We found a problem and 1.05.0 and have fixed it urgently in this 1.05.1
 
 Prime 2  1.06
 https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1060-update-notice/1803260489702198/
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=294
 (prime2_051.bin)
 
 
@@ -2890,6 +2978,7 @@ Webcam function dedicated to LX cabinet is added.
 
 Prime 2  1.07
 https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1070-update-notice/1811354622226118/
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=296
 (prime2_060.bin)
 
 
@@ -2972,20 +3061,24 @@ Quest “Chapter3” is updated.
 
 Prime 2  1.08
 https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1080-update-notice/1863703416991238/
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=298
 (prime2_070.bin)
 
 
 1. New Songs
+
 1) Song : Gotta Be You
     Artist : 2NE1
     BPM : 130
     Default step chart :  S03, S05, S08, S15, D06, D16
     S??(17), D??(18) (Unlocked step)
+
 2) Song :  Fallen Angel
     Artist : DM Ashura
     BPM : 157
     Default step chart :  S06, S10, S17, D10, D15, D21
     D??(20) (Card only step)
+
 3) Song :  [SHORT CUT] Shub Niggurath
     Artist : Nato
     BPM : 220
@@ -3033,6 +3126,7 @@ We deeply appreciate for the people provided the steps for it.
 
 Prime 2  1.09
 https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1090-update-notice/1871047812923465/
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=299
 (prime2_080.bin)
 
 
@@ -3043,29 +3137,36 @@ https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1090-update-notice/187
     BPM : 119
     Default step chart : S08, S15, D10, D16
     S??(18), D??(20) (Unlocked step)
+
 2) Title : Kill Them!
     Artist : Archefluxx
     BPM : 170
     Default step chart : S05, S10, S15, D09, D19
     S??(18) (Card only step)
+
 3) Title : [FULL SONG] Chase Me
     Artist : Dreamcatcher
     BPM : 200
     Default step chart : S19, D25
 
+
 2. New Step Charts
+
 1) Title : Maria
     Artist : BanYa
     BPM : 136
     step chart : D19
+
 2) Title : My Way
     Artist : BanYa
     BPM : 118
     step chart : D18
+
 3) Title : Sugar Free
     Artist : T-ara
     BPM : 128
     step chart : D18
+
 4) Title : Selfishness
     Artist : SID-SOUND
     BPM : 160
@@ -3073,19 +3174,27 @@ https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1090-update-notice/187
 
 
 3. Quest zone
+
 Quest “Chapter4” is updated.
+
 1) Song :   Last Rebirth
     Step chart :   S08, S13, S15, S17
+
 2) Song :   Sarabande
      Step chart :   S07, S16, S18, S19
+
 3) Song :    Katkoi
     Step chart :   S14, S18, D19, D21
+
 4) Song :   Final Audition 3
     Step chart :  S17, D17, D19, D22
+
 5) Song :   Mad5cience
     Step chart :  S05, S16, D16, D22
+
 6) Song :   The Revolution
     Step chart :   S19, S22, D22, D24
+
 7) Song :   Monkey Fingers
     Step chart :   S08, S15, D17, D25
 
@@ -3095,6 +3204,7 @@ Quest “Chapter4” is updated.
 
 Prime 2  1.10
 https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1100-update-notice/1938909692803943/
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=302
 (prime2_090.bin)
 
 
@@ -3105,50 +3215,65 @@ https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1100-update-notice/193
     BPM : 148
     Default step chart : S07, S11, S16, D09, D18
     S??(18), D??(20) (Unlocked step)
+
 2) Title :  Nakakapagpabagabag
      Artist :  Dasu feat. Kagamine Len
      BPM : 145
      Default step chart : S10, S14, S18, D15, CO-OP02
      D??(19) (Card only step)
+
 3) Title : Cross Time
     Artist : Brandy
     BPM : 160
     Default step chart : S03, S07, S11, S15, D11, D17
     S??(18), D??(20) (Card only step)
+
 4) Title :  Keep On!
      Artist : AmamoriP
      BPM : 185
      Default step chart : S06, S12, S15, D12, D17
      S??(18), S??(21), D??(20), D??(22) (Unlocked step)
 
+
 2. New Step Charts
+
 1) Title :   Get your groove on
      Artist :   BanYa
      BPM : 96
      step chart : D??(21) (Unlocked step)
+
 2) Title :  Caprice of Otada
     Artist :  Banya Production
     BPM : 160
     step chart : S??(19) (Unlocked step)
+
 3) Title :  Monolith
      Artist :   Affinity
      BPM : 196
      step chart : D??(23) (Unlocked step)
+
 4) Title : Reminiscence
     Artist : MAX
     BPM : 155
     step chart : S??(15), D??(17) (Unlocked step,  6th U.C.S Contest Winner’s chart)
 
+
 3. Quest zone
+
 Quest “Chapter5” is updated.
+
 1) Song : Final Audition2
     Step chart : S08, S10, S16, S17
+
 2) Song : Up&Down
     Step chart :  S15, D15, D16, D17
+
 3) Song : Naiassance2
     Step chart : S06, S13, S19, S21
+
 4) Song : Kasou shinja
     Step chart : S18, S20, D19, D21
+
 5) Song : Ignition starts
     Step chart : S15, S18, D17, D24
 
@@ -3162,6 +3287,7 @@ Quest “Chapter5” is updated.
 Prime 2  2.00
 https://www.facebook.com/notes/pump-it-up/piu-prime2-2018-2000-update-notice/1976605012367744/
 	(also https://www.facebook.com/PIU2018Prime2/posts/1623705891026078)
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=304
 (prime2_100.bin, prime2_101.bin and prime2_102.bin)
 
 
@@ -3730,28 +3856,28 @@ After the update, the Internet connection is not possible, and Prime 2 server wi
 
 -----------------------------------------------------------------------------------------------------------------------
 
-Prime XX 1.00.1
+XX 1.00.1
 (piu_xx_000.bin)
 
 
 
 -----------------------------------------------------------------------------------------------------------------------
 
-Prime XX 1.00.2
+XX 1.00.2
 (piu_xx_001.bin)
 
 
 
 -----------------------------------------------------------------------------------------------------------------------
 
-Prime XX 1.00.3
+XX 1.00.3
 (piu_xx_002.bin)
 
 
 
 -----------------------------------------------------------------------------------------------------------------------
 
-Prime XX  1.01
+XX  1.01
 
 https://www.facebook.com/notes/pump-it-up/piu-xx-v1010-update-notice/2599673560060883/
 http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=333
@@ -3943,7 +4069,26 @@ You can now match up game play with players all over the world!
 
 -----------------------------------------------------------------------------------------------------------------------
 
-Prime XX  1.02 (1.02.1)
+XX  1.01.1
+
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=341
+(piu_xx_010.bin)
+
+
+We release a patch for some bug fixes since the update of PIU XX v1.01.0.
+After updating the version is v1.01.1.
+
+- Fixed a bug that two ignis fatuus D17 are shown.
+- Fixed a bug that returned to initial screen when online matching play.
+- Fixed a bug that Xeroize D25 cannot be unlocked.
+- Fixed a bug that login failed due to duplicate login after 2 players play.
+- Fixed a bug that two combos appear in online matching.
+- Fixed a bug that step selection is not possible in Online matching due to network instability.
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+XX  1.02 (1.02.1)
 
 https://drive.google.com/file/d/10BUU5lJNzNkeMStTY0W26fgr8NfETQPG/view
 http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=345
@@ -4070,7 +4215,7 @@ Fixed a bug of v1.02.0 that occurred when one heart left.
 
 -----------------------------------------------------------------------------------------------------------------------
 
-Prime XX  1.02.2
+XX  1.02.2
 
 https://www.facebook.com/piugame/posts/2731504283544476
 (piu_xx_021.bin)
@@ -4081,7 +4226,7 @@ This is "1949 Song and BGA modification" and "Meteo5cience song information chan
 
 -----------------------------------------------------------------------------------------------------------------------
 
-Prime XX  1.03
+XX  1.03
 
 https://www.facebook.com/172482646113332/posts/2811976405497263/
 https://drive.google.com/file/d/1Zj_jk6gGepx2_747ZJYY2r1FWVonaD9p/view
@@ -4202,7 +4347,7 @@ http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=348
 
 -----------------------------------------------------------------------------------------------------------------------
 
-Prime XX  1.03.1
+XX  1.03.1
 
 http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=348
 (piu_xx_030.bin)
@@ -4211,7 +4356,7 @@ http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=348
 
 -----------------------------------------------------------------------------------------------------------------------
 
-Prime XX  1.04
+XX  1.04
 
 https://www.facebook.com/piugame/posts/2934237346604501
 https://drive.google.com/file/d/19-X9bnv34Qlr9GiywRkbBjpYIK96TX6v/view
@@ -4476,7 +4621,7 @@ http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=353
 
 -----------------------------------------------------------------------------------------------------------------------
 
-Prime XX  1.05
+XX  1.05
 
 https://www.facebook.com/piugame/photos/a.439723339389260/3070959802932254/
 https://drive.google.com/file/d/1flyk-QY2PUhFSz6CbXeyDqX_HKKjkl3g/view
@@ -4599,7 +4744,7 @@ http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=359
 
 -----------------------------------------------------------------------------------------------------------------------
 
-Prime XX  2.00
+XX  2.00
 
 https://www.facebook.com/piugame/photos/a.439723339389260/3207779775916922/
 https://drive.google.com/file/d/1wdTxj6Spn8J65b3O5YAfOzFRT9zuc_Zl/view
@@ -4799,7 +4944,7 @@ Thanks you.
 
 -----------------------------------------------------------------------------------------------------------------------
 
-Prime XX  2.01
+XX  2.01
 
 https://www.facebook.com/piugame/photos/a.439723339389260/3354902807871284/
 https://drive.google.com/file/d/1CmN4B9LV1WXJKa_mEupDTErrEKfzYGF_/view
@@ -4918,7 +5063,7 @@ http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=365
 
 -----------------------------------------------------------------------------------------------------------------------
 
-Prime XX  2.02
+XX  2.02
 
 https://www.facebook.com/piugame/photos/a.439723339389260/3491564137538483/
 https://drive.google.com/file/d/1ITa_v3zER16bYwnPtgpgTglS8JT_T4PO/view
@@ -5047,7 +5192,7 @@ http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=367
 
 -----------------------------------------------------------------------------------------------------------------------
 
-Prime XX  2.03
+XX  2.03
 
 https://www.facebook.com/piugame/photos/a.439723339389260/3663522020342693/
 https://drive.google.com/file/d/1-1cbSzam8lZ931OSeaWTpfCWvbZEcybG/view
@@ -5168,7 +5313,7 @@ http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=369
 
 -----------------------------------------------------------------------------------------------------------------------
 
-Prime XX  2.03.1
+XX  2.03.1
 http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=370
 (piu_xx_203.bin)
 
@@ -5183,7 +5328,7 @@ The modification patch progressed to version v2.03.1. Please refer to the below 
 
 -----------------------------------------------------------------------------------------------------------------------
 
-Prime XX  2.04
+XX  2.04
 
 https://www.facebook.com/piugame/posts/3857199874308239 (kor)
 
@@ -5357,7 +5502,14 @@ http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=374
 
 -----------------------------------------------------------------------------------------------------------------------
 
-Prime XX  2.05
+XX  2.04.1
+
+(piu_xx_240.bin)
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+XX  2.05
 
 https://www.facebook.com/piugame/posts/4262387477122808
 
@@ -5475,6 +5627,115 @@ and later versions.
 
 	- Moment Day CO-OP(2) – Speed Issue has been modified.
 	- Some missing Step Artist marks have been added.
+
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+XX  2.05.1
+
+https://drive.google.com/file/d/1ZKSazZQ2ek_kmjYHvfiYbSIJGBj4wBFW/view
+
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=380
+(piu_xx_250.bin)
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+XX  2.06
+
+https://www.facebook.com/piugame/posts/4537774609584092
+
+https://drive.google.com/file/d/1OtJoFTVytG52n_eKZkGdGr3bY96UwFCK/view
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=386
+(piu_xx_251.bin)
+
+
+1. New Songs
+
+1) Title : Crossing Delta
+	Artist : t+pazolite+Ginkiha+Hommarju
+	BPM : 180
+	Category : World Music
+	Step charts : S??, S??, S??, S??, D??, D??, D??, D??, DP??
+	This song is a event unlocking song. If the condition is met, all steps will be unlocked at once.
+
+2) Title : Harmagedon
+	Artist : HyuN vs lixound
+	BPM : 194
+	Category : Original
+	Step charts : S4, S6, S10, S16, S19, D13, D21
+	S22, D24 (Unlocked step)
+
+3) Title : Slapstick Parfait
+	Artist : t+pazolite
+	BPM : 160
+	Category : World Music
+	Step charts : S3, S7, S10, S16, D12, D18
+	S19, D21 (Unlocked step)
+
+4) Title : Paved Garden
+	Artist : Ginkiha
+	BPM : 187
+	Category : World Music
+	Step charts : S8, S12, S16, D13, D17
+	S19, S22, D21, D24 (Unlocked step)
+
+5) Title : Pop Sequence
+	Artist : Hommarju
+	BPM : 110
+	Category : World Music
+	Step charts : S5, S7, S11, S15, D12, D19, SP18, DP22
+	S21, D23 (Unlocked step)
+
+6) Title : Night Duty (Revival Song)
+	Artist : A.V.
+	BPM : 140
+	Category : Original
+	Step charts : S3, S6, S9, S14, S17, D8, D15
+	S19, D20 (Unlocked step)
+
+
+2. New Step Charts
+
+	Num Title                           Step charts
+	 1  Rolling Christmas               S17
+	 2  Emperor                         CO-OP(2)
+	 3  Top City                        S20 (Unlocked Step), D20 (Card Only Step)
+	 4  Dance With Me                   D18
+	 5  Hungarian Dance V               D21 (Unlocked Step)
+	 6  Hypnosis(SynthWulf Mix)         D22 (Unlocked Step)
+	 7  Chinese Restaurant              CO-OP(3)
+	 8  Creed -1st Desire-              S15
+	 9  Vulcan                          S18
+	10  VANISH                          D24 (Unlocked Step)
+	11  YOU AND I                       CO-OP(2)
+	12  Club Night                      D23 (Unlocked Step)
+	13  Wedding Crashers - SHORT CUT -  S4, S7, S11, S15, D6, D13
+
+
+3. New Avatars Added
+
+	13 New Avatars have been added to the item shop.
+	- Mikazuki
+	- Meteor
+	- Mode G
+	- Hellfire
+	- Ailee
+	- Native Magic
+	- Hannah
+	- Matsuri(HEY)
+	- Aya
+	- Pumcaddy
+	- Melissa
+	- Jonathan
+	- Escape
+
+
+4. Additions
+
+	- Setsuna Trip D23 –– Step chart was modified.
+
 
 
 -----------------------------------------------------------------------------------------------------------------------
