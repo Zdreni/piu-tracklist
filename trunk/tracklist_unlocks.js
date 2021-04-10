@@ -984,32 +984,32 @@ function ApplyUnlocks()
 	// 2.06
 		//Lock( "16_Crossing_Delta", "", "???" )
 
-		Lock( "16_Harmagedon", "S22", "???" )
+		Lock( "16_Harmagedon", "S22", "S on S19" )
 		Lock( "16_Harmagedon", "D24", "???" )
 
-		Lock( "16_Slapstick_Parfait", "S19", "???" )
-		Lock( "16_Slapstick_Parfait", "D21", "???" )
+		Lock( "16_Slapstick_Parfait", "S19", "S on S16" )
+		Lock( "16_Slapstick_Parfait", "D21", "S on D18" )
 
-		Lock( "16_Paved_Garden", "S19", "???" )
-		Lock( "16_Paved_Garden", "S22", "???" )
-		Lock( "16_Paved_Garden", "D21", "???" )
+		Lock( "16_Paved_Garden", "S19", "S on S16" )
+		Lock( "16_Paved_Garden", "S22", "S on S19" )
+		Lock( "16_Paved_Garden", "D21", "S on D17" )
 		Lock( "16_Paved_Garden", "D24", "???" )
 
-		Lock( "16_Pop_Sequence", "S21", "???" )
-		Lock( "16_Pop_Sequence", "D23", "???" )
+		Lock( "16_Pop_Sequence", "S21", "S15 A + Sp18 A" )
+		Lock( "16_Pop_Sequence", "D23", "D19 A + Dp22 A" )
 
-		Lock( "13_Night_Duty", "S19", "A on S17" )
-		Lock( "13_Night_Duty", "D20", "???" )
+		Lock( "16_Night_Duty", "S19", "A+ on S17" )
+		Lock( "16_Night_Duty", "D20", "SS on D15" )
 
-		Lock( "Top City", "S20", "???" )
+		Lock( "Top City", "S20", "SSS on S12" )
 
-		Lock( "Hungarian Dance V", "D21", "???" )
+		Lock( "Hungarian Dance V", "D21", "SS on D17" )
 
 		Lock( "Hypnosis (SynthWulf Mix)", "D22", "???" )
 
-		Lock( "Vanish", "D24", "A on D22" )
+		Lock( "Vanish", "D24", "6000k score on D22 ?" )
 
-		Lock( "Club Night", "D23", "A on D21" )
+		Lock( "Club Night", "D23", "5900k score on S21 ?" )
 /*
 		Lock( "", "", "???" )
 		Lock( "", "", "???" )

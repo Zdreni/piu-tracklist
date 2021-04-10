@@ -59,7 +59,7 @@ var readableTracklist = {
 "16_Crossing_Delta":
 {
 	title: "Crossing Delta", artist: "t+pazolite+Ginkiha+Hommarju", channel: WORLD, bpm: "180",
-	sortingID: "16F6__5",  // 90/125 XX, between 16_Pop_Sequence (16F6__4, 89/125 XX) and 16_Club_Night (1668)
+	sortingID: "1667__5",  // 90/125 XX, between 16_Pop_Sequence (1667__4, 89/125 XX) and 16_Club_Night (1668)
 	// arcadeID: "",
 	// arcadeName: "",
 	//XX: "@2.06 S?? S?? S?? S?? D?? D?? D?? D?? Dp??",
@@ -77,7 +77,7 @@ var readableTracklist = {
 "16_Slapstick_Parfait":
 {
 	title: "Slapstick Parfait", artist: "t+pazolite", channel: WORLD, bpm: "160",
-	sortingID: "16F6__2",  // 87/125 XX, between 16_God_Mode_2_0 (16F6__1) and 16_Paved_Garden (16F6__3, 88/125 XX)
+	sortingID: "1667__2",  // 87/125 XX, between 16_God_Mode_2_0 (1667__1) and 16_Paved_Garden (16F6__3, 88/125 XX)
 	// arcadeID: "",
 	// arcadeName: "",
 	XX: "@2.06 S3 S7 S10 S16 D12 D18 S19.lock D21.lock",
@@ -86,7 +86,7 @@ var readableTracklist = {
 "16_Paved_Garden":
 {
 	title: "Paved Garden", artist: "Ginkiha", channel: WORLD, bpm: "187",
-	sortingID: "16F6__3",  // 88/125 XX, between 16_Slapstick_Parfait (16F6__2, 87/125 XX) and 16_Pop_Sequence (16F6__4, 89/125 XX)
+	sortingID: "1667__3",  // 88/125 XX, between 16_Slapstick_Parfait (1667__2, 87/125 XX) and 16_Pop_Sequence (1667__4, 89/125 XX)
 	// arcadeID: "",
 	// arcadeName: "",
 	XX: "@2.06 S8 S12 S16 D13 D17 S19.lock S22.lock D21.lock D24.lock",
@@ -95,16 +95,17 @@ var readableTracklist = {
 "16_Pop_Sequence":
 {
 	title: "Pop Sequence", artist: "Hommarju", channel: WORLD, bpm: "110",
-	sortingID: "16F6__4",  // 89/125 XX, between 16_Paved_Garden (16F6__3, 88/125 XX) and 16_Crossing_Delta (16F6__5, 90/125 XX)
+	sortingID: "1667__4",  // 89/125 XX, between 16_Paved_Garden (1667__3, 88/125 XX) and 16_Crossing_Delta (1667__5, 90/125 XX)
 	// arcadeID: "",
 	// arcadeName: "",
 	XX: "@2.06 S5 S7 S11 S15 D12 D19 Sp18 Dp22 S21.lock D23.lock",
 },
 
-"13_Night_Duty":
+"16_Night_Duty":
 {
-	title: "Night Duty", artist: "A.V.", channel: ORIGINAL, bpm: "140",
-	sortingID: "1148__1",  // 38/105 Fiesta 2, between Native (1126) / overblow shortcut (1148) and pavane (1152), 
+	title: "Night Duty", artist: "A.V.", channel: ORIGINAL, bpm: "140", fromMix: "Fiesta2",
+	sortingID: "1148__1",  // 38/105 Fiesta 2, between Native (1126) / overblow shortcut (1148) and pavane (1152),
+	altID: "13_Night_Duty",
 	// arcadeID: "",
 	// arcadeName: "",
 	XX: "@2.06 S3 S6 S9 S14 S17 D8 D15 S19.lock D20.lock",
