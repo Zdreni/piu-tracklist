@@ -103,7 +103,7 @@ var readableTracklist = {
 
 "16_Night_Duty":
 {
-	title: "Night Duty", artist: "A.V.", channel: ORIGINAL, bpm: "140", fromMix: "Fiesta2",
+	title: "Night Duty", artist: "A.V.", channel: ORIGINAL, bpm: "140", fromMix: "FiestaEX",
 	sortingID: "1148__1",  // 38/105 Fiesta 2, between Native (1126) / overblow shortcut (1148) and pavane (1152),
 	altID: "13_Night_Duty",
 	// arcadeID: "",
