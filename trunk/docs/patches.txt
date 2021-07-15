@@ -5740,6 +5740,103 @@ http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=386
 
 -----------------------------------------------------------------------------------------------------------------------
 
+XX  2.07
+
+https://www.facebook.com/piugame/posts/
+
+https://drive.google.com/file/d/1PmKc1Fb8y-5wUowl-yvzJq-M317YcvGZ/view
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=389
+(piu_xx_251.bin)
+
+
+1. New Songs
+
+1) Title : Repentance
+	Artist : Abel
+	BPM : 240
+	Category : Original
+	Step charts : S6, S10, S16, D12, D17
+	S19, S22, D20, D23, D26(Unlocked step)
+
+2) Title : Sugar Plum
+	Artist : Mr. Weq
+	BPM : 170
+	Category : Original
+	Step charts : S4, S7, S11, S15, D11, D16, CO-OP(2)
+	S18, D20(Unlocked step)
+
+3) Title : Telling Fortune Flower
+	Artist : Koharu feat. Renyata
+	BPM : 200
+	Category : Original
+	Step charts : S10, S13, S17, S19, D13, D20
+	S21, S23, D23, D26(Unlocked step)
+
+4) Title : GLORIA
+	Artist : Croire
+	BPM : 245
+	Category : World Music
+	Step charts : S10, S14, S17, D16, D18
+	S20, S23, D21, D24 (Unlocked step)
+
+5) Title : Kokugen Kairou Labyrinth
+	Artist : A:llhα (ANE + 2riA)
+	BPM : 215
+	Category : World Music
+	Step charts : S9, S12, S15, S17, D18
+	S20, S23, D22, D26(Unlocked step)
+
+6) Title : Papasito (feat. KuTiNA) - FULL SONG -
+	Artist : Yakikaze & Cashew
+	BPM : 128
+	Category : Original
+	Step charts : S12, S19, D14, D21
+	S22, D23(Unlocked step)
+
+
+2. New Step Charts
+
+	Num Title                   Step charts
+	  1 Another Truth           CO-OP(2)
+	  2 Repeatorment Remix      D22
+	  3 Free Style              S5, S9
+	  4 Pumping Up              S9
+	  5 Mr. Larpus              D22
+	  6 Street Show Down        S11
+	  7 Get Up                  S21 / D23 (Unlocked Step)
+	  8 Papa Gonzales           S22 / D23 (Unlocked Step)
+	  9 Ugly Dee                S17
+	 10 Chopsticks Challenge    S12
+	 11 The People didn’t know  CO-OP(2)
+	 12 Hardkore of the North   S18
+	 13 Red Snow                D23 (Unlocked Step)
+	 14 Yoropiku Pikuyoro!      CO-OP(2)
+	 15 Allegro Furioso         CO-OP(3)
+	 16 Cross Time              D22
+	 17 Super Stylin’           D21 (Unlocked Step)
+	 18 1949                    S26 (Unlocked Step)
+	 19 Starry Night            CO-OP(2)
+	 20 Indestructible          D25 (Unlocked Step)
+	 21 Danger & Danger         D23 (Unlocked Step)
+	 22 Over The Horizon        D18
+	 23 Phalanx “RS2018 Edit”   D22
+	 24 Prime Time              D21
+
+3. Add U.C.S. Songs
+
+	Now you can make U.C.S. steps with the songs on the list.
+	- The Reverie
+	- God Mode 2.0 feat. Skizzo
+	- Harmagedon
+	- Sugar Plum
+	- Telling Fortune Flower
+	- Repentance
+	- Night Duty
+
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
 
 Чеклист для добавления нового патча (для патчноутов формата Prime 2):
  - занести patch notes в patch.txt

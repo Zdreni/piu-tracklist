@@ -982,43 +982,87 @@ function ApplyUnlocks()
 
 
 	// 2.06
-		//Lock( "16_Crossing_Delta", "", "???" )
+		Lock( "16_Crossing_Delta", "S10", "Global unlock event" )
+		Lock( "16_Crossing_Delta", "S12", "Global unlock event" )
+		Lock( "16_Crossing_Delta", "S16", "Global unlock event" )
+		Lock( "16_Crossing_Delta", "S20", "Global unlock event" )
+		Lock( "16_Crossing_Delta", "D13", "Global unlock event" )
+		Lock( "16_Crossing_Delta", "D17", "Global unlock event" )
+		Lock( "16_Crossing_Delta", "D21", "Global unlock event" )
+		Lock( "16_Crossing_Delta", "D23", "Global unlock event" )
+		Lock( "16_Crossing_Delta", "CoOp(x2)", "Global unlock event" )
 
-		Lock( "16_Harmagedon", "S22", "S on S19" )
-		Lock( "16_Harmagedon", "D24", "???" )
+		Lock( "16_Harmagedon", "S22", "At least S on S19" )
+		Lock( "16_Harmagedon", "D24", "At least S on D21" )
 
-		Lock( "16_Slapstick_Parfait", "S19", "S on S16" )
-		Lock( "16_Slapstick_Parfait", "D21", "S on D18" )
+		Lock( "16_Slapstick_Parfait", "S19", "At least S on S16" )
+		Lock( "16_Slapstick_Parfait", "D21", "At least S on D18" )
 
-		Lock( "16_Paved_Garden", "S19", "S on S16" )
-		Lock( "16_Paved_Garden", "S22", "S on S19" )
-		Lock( "16_Paved_Garden", "D21", "S on D17" )
-		Lock( "16_Paved_Garden", "D24", "???" )
+		Lock( "16_Paved_Garden", "S19", "At least S on S16" )
+		Lock( "16_Paved_Garden", "S22", "At least S on S19" )
+		Lock( "16_Paved_Garden", "D21", "At least SS on D17" )
+		Lock( "16_Paved_Garden", "D24", "At least S on D21" )
 
-		Lock( "16_Pop_Sequence", "S21", "S15 A + Sp18 A" )
-		Lock( "16_Pop_Sequence", "D23", "D19 A + Dp22 A" )
+		Lock( "16_Pop_Sequence", "S21", "At least S15 A + Sp18 A" )
+		Lock( "16_Pop_Sequence", "D23", "At least D19 A + Dp22 A" )
 
-		Lock( "16_Night_Duty", "S19", "A+ on S17" )
-		Lock( "16_Night_Duty", "D20", "SS on D15" )
+		Lock( "16_Night_Duty", "S19", "At least A+ on S17" )
+		Lock( "16_Night_Duty", "D20", "At least SS on D15" )
 
 		Lock( "Top City", "S20", "SSS on S12" )
 
-		Lock( "Hungarian Dance V", "D21", "SS on D17" )
+		Lock( "Hungarian Dance V", "D21", "At least SS on D17" )
 
-		Lock( "Hypnosis (SynthWulf Mix)", "D22", "???" )
+		Lock( "Hypnosis (SynthWulf Mix)", "D22", "At least S on D19" )
 
-		Lock( "Vanish", "D24", "6000k score on D22 ?" )
+		Lock( "Vanish", "D24", "At least 6,000k score on D22" )
 
-		Lock( "Club Night", "D23", "5900k score on S21 ?" )
-/*
-		Lock( "", "", "???" )
-		Lock( "", "", "???" )
-		Lock( "", "", "???" )
-		Lock( "", "", "???" )
-		Lock( "", "", "???" )
-		Lock( "", "", "???" )
-		Lock( "", "", "???" )
-*/
+		Lock( "Club Night", "D23", "At least 5,800k score on S21" )
+
+
+	// 2.07
+		Lock( "16_Repentance", "S19", "S on S16" )
+		Lock( "16_Repentance", "S22", "S on S19" )
+		Lock( "16_Repentance", "D20", "S on D17" )
+		Lock( "16_Repentance", "D23", "S on D20" )
+		Lock( "16_Repentance", "D26", "S on D23" )
+
+		Lock( "16_Sugar_Plum", "S18", "S on S15" )
+		Lock( "16_Sugar_Plum", "D20", "S on D16" )
+
+		Lock( "16_Telling_Fortune_Flower", "S21", "A on S19" )
+		Lock( "16_Telling_Fortune_Flower", "S23", "A on S21 with a min score (supposedly 5.5 mil)" )
+		Lock( "16_Telling_Fortune_Flower", "D23", "S on D20" )
+		Lock( "16_Telling_Fortune_Flower", "D26", "S on D23" )
+
+		Lock( "16_Gloria", "S20", "A on S17" )
+		Lock( "16_Gloria", "S23", "S on S17 + A on S20" )
+		Lock( "16_Gloria", "D21", "A on D18" )
+		Lock( "16_Gloria", "D24", "S on D18 + A on D21" )
+
+		Lock( "16_Kokugen_Kairou_Labyrinth", "S20", "S on S17" )
+		Lock( "16_Kokugen_Kairou_Labyrinth", "S23", "S on S20" )
+		Lock( "16_Kokugen_Kairou_Labyrinth", "D22", "S on D18" )
+		Lock( "16_Kokugen_Kairou_Labyrinth", "D26", "S on D22" )
+
+		Lock( "16_Papasito_FULL", "S22", "A on arcade ver. S20" )
+		Lock( "16_Papasito_FULL", "D23", "A on arcade ver. D21" )
+
+		Lock( "Get Up!", "S21", "SS on S15" )
+		Lock( "Get Up!", "D23", "SS on D18" )
+
+		Lock( "Papa Gonzales", "S22", "SS on S16" )
+		Lock( "Papa Gonzales", "D23", "SS on D18" )
+
+		Lock( "Red Snow", "D23", "A on D21 with a score min (around 5.1 mil)" )
+
+		Lock( "Super Stylin'", "D21", "???" )
+
+		Lock( "1949", "S26", " encounter in Random/play with friend (can 51 miss combo) + play 1950 S25" )
+
+		Lock( "16_Indestructible", "D25", "???" )
+
+		Lock( "16_Danger_n_Danger", "D23", "???" )
 }
 
 initFuncs.push( ApplyUnlocks );
