@@ -1056,13 +1056,13 @@ function ApplyUnlocks()
 
 		Lock( "Red Snow", "D23", "A on D21 with a score min (around 5.1 mil)" )
 
-		Lock( "Super Stylin'", "D21", "???" )
+		Lock( "Super Stylin'", "D21", "S on D17" )
 
 		Lock( "1949", "S26", " encounter in Random/play with friend (can 51 miss combo) + play 1950 S25" )
 
-		Lock( "16_Indestructible", "D25", "???" )
+		Lock( "16_Indestructible", "D25", "S on D21 + S on D22" )
 
-		Lock( "16_Danger_n_Danger", "D23", "???" )
+		Lock( "16_Danger_n_Danger", "D23", "A on D21" )
 }
 
 initFuncs.push( ApplyUnlocks );
