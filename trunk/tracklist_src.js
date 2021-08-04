@@ -40,6 +40,8 @@ ID треков берутся из
 	https://en.wikipedia.org/wiki/List_of_Pump_It_Up_songs
 	https://en.wikipedia.org/wiki/Pump_It_Up_(video_game_series)
 	http://www.ph-online.net/cgi-bin/ib3/ikonboard.cgi?act=ST;f=18;t=13117
+
+NX2-треклист со спешл-зоной - https://www.youtube.com/watch?v=fUjjee_1GmU
 */
 
 var readableTracklist = {
@@ -5699,7 +5701,7 @@ var readableTracklist = {
 	FiestaEX: "= S6  @1.30 D23",
 	Fiesta: "S4`nl S12`hd S19`cz D14`fs D20`nm  S8`anl S16`ahd S20`acz",
 	NXA: ["4", "12", "19", "14", "20"], NXA_: ["8", "16", "19", "18", "22"],
-	NX2: ["4", "11", "20", "15", "??(24)"], NX2_: ["", "15", "19", "19", "20"],
+	NX2: ["4", "11", "20", "15", "??(24)"], NX2_: ["", "15", "19", "19", "21"],
 },
 
 "E13":
@@ -5919,7 +5921,7 @@ var readableTracklist = {
 	FiestaEX: "=",
 	Fiesta: "S22`cz D24`nm",
 	NXA_: ["", "", "22", "", "24"],
-	NX2_: ["", "", "25", "", "25"],
+	NX2_: ["", "", "??", "", "??"],
 },
 
 "E51":
@@ -6415,7 +6417,7 @@ var readableTracklist = {
 	FiestaEX: "=",
 	Fiesta: "S7`nl S16`hd S22`cz D24`nm  S17`ahd S21`acz D18`afs D23`anm",
 	NXA: ["7", "16", "22", "18", "24"], NXA_: ["", "16", "21", "18", "23"],
-	NX2: ["7", "16", "22", "18", "24"], NX2_: ["", "16", "21", "18", "25"],
+	NX2: ["7", "16", "22", "18", "24"], NX2_: ["", "16", "21", "18", "??"],
 	NX: ["7", "16", "21", "18", "??(24)"], NX_: ["", "", "21", "18", "??"],
 	//??? notes: ["arcade unlock on NX, play 2-1 200 times"],
 },
@@ -6460,7 +6462,7 @@ var readableTracklist = {
 	FiestaEX: "=",
 	Fiesta: "S15`hd S21`cz D15`fs D23`nm",
 	NXA_: ["", "15", "21", "15", "23"],
-	NX2_: ["", "16", "21", "19", "25"],
+	NX2_: ["", "16", "21", "19", "??"],
 	NX_: ["", "15/16", "21", "17", "23"],
 },
 
@@ -6475,7 +6477,7 @@ var readableTracklist = {
 	FiestaEX: "=",
 	Fiesta: "S16`hd S24`cz D18`fs D26`nm",
 	NXA_: ["", "16", "24", "18", "25"],
-	NX2_: ["", "15", "24", "18", "25"],
+	NX2_: ["", "15", "24", "18", "??"],
 	NX_: ["", "14", "22", "18", "??"],
 },
 
@@ -8386,7 +8388,7 @@ var readableTracklist = {
 	FiestaEX: "=  @1.51 S3",
 	Fiesta: "S5`nl S11`hd S14`cz S22`acz D14`fs D17`nm D23`afs  S20.new",  //? что за D25, он вроде только на фиесте ex есть
 	NXA: ["5", "11", "14", "14", "17"], NXA_: ["", "", "22", "23", "25"],
-	NX2: ["4", "11", "14", "14", "17"], NX2_: ["", "", "21", "23", "25"],
+	NX2: ["4", "11", "14", "14", "17"], NX2_: ["", "", "21", "23", "??"],
 	NX: ["4", "11", "14", "14", "17"], NX_: ["", "", "21", "21", "23"],
 	Zero: ["4", "9", "13", "10", "18"], Zero_: ["", "", "", "", "??"],
 	Exceed2: ["4", "9", "13", "10", "18"],
