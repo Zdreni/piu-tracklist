@@ -440,7 +440,7 @@ var readableTracklist = {
 {
 	title: "Cycling!", artist: "Yamajet", channel: XROSS, bpm: "220",
 	arcadeID: "1683",
-	XX: "@2.01 S3 S7 S10 S16 D11 D16 S20.lock D21.lock  @2.02 Dp3",
+	XX: "@2.01 S3 S7 S10 S16 D11 D16 S20.lock D21.lock  @2.02 Dp4",
 },
 
 "16_Very_Nice_FULL":
