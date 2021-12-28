@@ -358,3 +358,65 @@ function DumpPlainTextForStepItUp()
 {
 	DumpAll( true, true );
 }
+
+
+function CheckBannerRename( bannersPath, files, altID, trackID )
+{
+	for (ext of ["png", "jpg"])
+	{
+		if (files.includes(`${altID}.${ext}`))
+		{
+			var oldName = `${bannersPath}\\${altID}.${ext}`;
+			var newName = `${bannersPath}\\${trackID}.${ext}`;
+			console.log(`Renaming ${oldName} -> ${newName}`);
+			fs.renameSync(oldName, newName);
+
+			oldName = `${bannersPath}\\${altID}.${ext}.meta`;
+			newName = `${bannersPath}\\${trackID}.${ext}.meta`;
+			console.log(`Renaming ${oldName} -> ${newName}`);
+			fs.renameSync(oldName, newName);
+			return true;
+		}
+	}
+	return false;
+}
+
+function CheckBannerName( bannersPath, files, trackID, track )
+{
+	if( files.includes(trackID + ".png") || files.includes(trackID + ".jpg") )
+		return;
+
+	if( track.arcadeID  &&  CheckBannerRename( bannersPath, files, track.arcadeID, trackID ) )
+		return;
+
+	if( track.altID)
+		for( altID of track.altID )
+			if( CheckBannerRename( bannersPath, files, altID, trackID ))
+				return;
+
+	console.log(`[-]  Can't find banner for ${ trackID }`);
+}
+
+
+function RenameBannersToActualID(bannersPath)
+{
+	console.log(`Renaming banners at ${bannersPath}...`);
+
+	files = fs.readdirSync(bannersPath)
+	console.log(`${files.length} files found`);
+	//console.log(`${files[140]}`);
+	//console.log(files.includes("10__Wanna__FULL" + ".jpg"));
+
+	try
+	{
+		initTracklist();
+
+		for( var trackID in tracklist )
+			CheckBannerName( bannersPath, files, trackID, tracklist[ trackID ] );
+	}
+	catch( exc )
+	{
+		//errors.push( exc + ":<br>" + exc.stack.replace( " at", "<br>&nbsp;at" ) );
+		console.error( exc );
+	}
+}
