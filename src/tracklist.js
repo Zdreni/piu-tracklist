@@ -220,23 +220,13 @@ function Normalized( title )
 }
 
 
-function FindTrack( tracklist, title )
+function FindTrack( tracklist, idOrTitle )
 {
-	var track = tracklist[ title ];
+	var track = tracklist[ idOrTitle ];
 	if( track )
 		return track;
 
-	var arr = title.split( " @ " );
-	var normTitle = Normalized( arr[ 0 ] );
-	var ID = arr[ 1 ];
-	if( ID )
-	{
-		track = tracklist[ ID ];
-		if( track  &&  ( Normalized( track.title ) === normTitle  ||  ( track.shortTitle  &&  Normalized( track.shortTitle ) === normTitle ) ) )
-			return track;
-	}
-
-	//var result = _.where( tracklist, { title: trackTitle } );
+	var normTitle = Normalized( idOrTitle );
 	var result = _.filter( tracklist, function( item, key )
 		{
 			// this match not working well for [FULL] tracks, 'cause their title is identical to arcade title
@@ -244,9 +234,9 @@ function FindTrack( tracklist, title )
 			return Normalized( item.title ) === normTitle;
 		} );
 	if( result.length === 0 )
-		throw new Error( "Can't find track '" + title + "'" );
+		throw new Error( "Can't find track '" + idOrTitle + "'" );
 	else if( result.length > 1 )
-		throw new Error( "Several tracks with name '" + title + "' found, specify '" + title + " @ <id>' to find required one" );
+		throw new Error( "Several tracks with name '" + idOrTitle + "' found, specify <id> to find specific one" );
 	return result[ 0 ];
 }
 
@@ -374,7 +364,7 @@ function FindChart( track, chartDescr )
 		}
 	}
 
-	throw new Error( "Can't find " + track.title + " '" + chartDescr + "'" );
+	throw new Error( "Can't find " + track.title + " / " + track.arcadeID + " chart '" + chartDescr + "'" );
 }
 
 

@@ -53,461 +53,580 @@ var readableTracklist = {
 	title: "", artist: "", channel: , bpm: "", duration: ,
 	sortingID: "",  // between  () and  ()
 	// arcadeID: "",
+	pumpoutID: "",
+
 	// arcadeName: "",
 	XX: "@2.07 ",
 },
 */
 
 
-"16_Repentance":
+"16__Repentance":
 {
 	title: "Repentance", artist: "Abel", channel: ORIGINAL, bpm: "240",
-	sortingID: "16A4__2",  // between 16_Harmagedon (16A4__1) and 16_The_Reverie (16A7)
-	// arcadeID: "",
-	// arcadeName: "",
+	altID: "16_Repentance",
+	arcadeID: "16A6",
+	pumpoutID: 884,
+
 	XX: "@2.07 S6 S10 S16 D12 D17 S19.lock S22.lock D20.lock D23.lock D26.lock",
 },
 
 
-"16_Sugar_Plum":
+"16__Sugar_Plum":
 {
 	title: "Sugar Plum", artist: "Mr. Weq", channel: ORIGINAL, bpm: "170",
-	sortingID: "1609__1",  // between 16_District_1 (1609) and 16_Telling_Fortune_Flower (1609__2)
-	// arcadeID: "",
-	// arcadeName: "",
+	altID: "16_Sugar_Plum",
+	arcadeID: "1613",
+	pumpoutID: 885,
+
 	XX: "@2.07 S4 S7 S11 S15 D11 D16 CoOp(x2) S18.lock D20.lock",
 },
 
 
-"16_Telling_Fortune_Flower":
+"16__Telling_Fortune_Flower":
 {
 	title: "Telling Fortune Flower", artist: "Koharu feat. Renyata", channel: ORIGINAL, bpm: "200",
-	sortingID: "1609__2",  // between 16_Sugar_Plum (1609__1) and 16_Nyarlathotep (1615)
-	// arcadeID: "",
-	// arcadeName: "",
+	altID: "16_Telling_Fortune_Flower",
+	arcadeID: "1614",
+	pumpoutID: 886,
+
 	XX: "@2.07 S10 S13 S17 S19 D13 D20 S21.lock S23.lock D23.lock D26.lock",
 },
 
 
-"16_Gloria":
+"16__Gloria":
 {
 	title: "Gloria", artist: "Croire", channel: WORLD, bpm: "245",
-	sortingID: "1698__1",  // between 16_Life_is_Piano (1698) and 16_Allegro_Con_Fuoco_FULL (16C5)
-	// arcadeID: "",
-	// arcadeName: "",
+	altID: "16_Gloria",
+	arcadeID: "1699",
+	pumpoutID: 887,
+
 	XX: "@2.07 S10 S14 S17 D16 D18 S20.lock S23.lock D21.lock D24.lock",
 },
 
 
-"16_Kokugen_Kairou_Labyrinth":
+"16__Kokugen_Kairou_Labyrinth":
 {
 	title: "Kokugen Kairou Labyrinth", artist: "A:llha (ANE + 2riA)", channel: WORLD, bpm: "215",
+	altID: "16_Kokugen_Kairou_Labyrinth",
+	arcadeID: "1718",
 	sortingID: "16F9__1",  // between 16_Gloria (1698__1) / 16_Baroque_Virus_FULL (16F9) and 16_Imagination (1678)
-	// arcadeID: "",
-	// arcadeName: "",
+	pumpoutID: 888,
+
 	XX: "@2.07 S9 S12 S15 S17 D18 S20.lock S23.lock D22.lock D26.lock",
 },
 
 
-"16_Papasito_FULL":
+"16__Papasito__FULL":
 {
 	title: "Papasito  [FULL]", artist: "Yakikaze & Cashew", channel: ORIGINAL, bpm: "128",
-	sortingID: "16A7__1",  // between 16_The_Reverie (16A7) and 16_Desaparecer (16D0)
-	// arcadeID: "",
 	arcadeName: "Papasito (feat. KuTiNA) - FULL SONG -",
+	altID: "16_Papasito_FULL",
+	arcadeID: "16C9",
+	pumpoutID: 889,
+
 	XX: "@2.07 S12 S19 D14 D21 S22.lock D23.lock",
 },
 
 
-"16_Crossing_Delta":
+"16__Crossing_Delta":
 {
 	title: "Crossing Delta", artist: "t+pazolite+Ginkiha+Hommarju", channel: WORLD, bpm: "180",
-	sortingID: "1667__5",  // 90/125 XX, between 16_Pop_Sequence (1667__4, 89/125 XX) and 16_Club_Night (1668)
-	// arcadeID: "",
-	// arcadeName: "",
+	altID: "16_Crossing_Delta",
+	arcadeID: "1640",
+	pumpoutID: 879,
+
 	XX: "@2.06 S10.lock S12.lock S16.lock S20.lock D13.lock D17.lock D21.lock D23.lock CoOp(x2).lock",
 },
 
-"16_Harmagedon":
+
+"16__Harmagedon":
 {
 	title: "Harmagedon", artist: "HyuN vs lixound", channel: ORIGINAL, bpm: "194",
-	sortingID: "16A4__1",  // between 16_Forgotten_Vampire (16A4) and 16_Repentance (16A4__2)
-	// arcadeID: "",
-	// arcadeName: "",
+	altID: "16_Harmagedon",
+	arcadeID: "16A5",
+	pumpoutID: 880,
+
 	XX: "@2.06 S4 S6 S10 S16 S19 D13 D21 S22.lock D24.lock",
 },
 
 
-"16_Slapstick_Parfait":
+"16__Slapstick_Parfait":
 {
 	title: "Slapstick Parfait", artist: "t+pazolite", channel: WORLD, bpm: "160",
-	sortingID: "1667__2",  // 87/125 XX, between 16_God_Mode_2_0 (1667__1) and 16_Paved_Garden (16F6__3, 88/125 XX)
-	// arcadeID: "",
-	// arcadeName: "",
+	altID: "16_Slapstick_Parfait",
+	arcadeID: "1637",
+	pumpoutID: 881,
+
 	XX: "@2.06 S3 S7 S10 S16 D12 D18 S19.lock D21.lock",
 },
 
 
-"16_Paved_Garden":
+"16__Paved_Garden":
 {
 	title: "Paved Garden", artist: "Ginkiha", channel: WORLD, bpm: "187",
-	sortingID: "1667__3",  // 88/125 XX, between 16_Slapstick_Parfait (1667__2, 87/125 XX) and 16_Pop_Sequence (1667__4, 89/125 XX)
-	// arcadeID: "",
-	// arcadeName: "",
+	altID: "16_Paved_Garden",
+	arcadeID: "1638",
+	pumpoutID: 890,
+
 	XX: "@2.06 S8 S12 S16 D13 D17 S19.lock S22.lock D21.lock D24.lock",
 },
 
 
-"16_Pop_Sequence":
+"16__Pop_Sequence":
 {
 	title: "Pop Sequence", artist: "Hommarju", channel: WORLD, bpm: "110",
-	sortingID: "1667__4",  // 89/125 XX, between 16_Paved_Garden (1667__3, 88/125 XX) and 16_Crossing_Delta (1667__5, 90/125 XX)
-	// arcadeID: "",
-	// arcadeName: "",
+	altID: "16_Pop_Sequence",
+	arcadeID: "1639",
+	pumpoutID: 891,
+
 	XX: "@2.06 S5 S7 S11 S15 D12 D19 Sp18 Dp22 S21.lock D23.lock",
 },
 
 
-"16_Night_Duty":
+"16__Night_Duty":
 {
 	title: "Night Duty", artist: "A.V.", channel: ORIGINAL, bpm: "140", fromMix: "FiestaEX",
-	sortingID: "1148__1",  // 38/105 Fiesta 2, between Native (1126) / overblow shortcut (1148) and pavane (1152),
-	altID: "13_Night_Duty",
-	// arcadeID: "",
-	// arcadeName: "",
+	altID: ["13_Night_Duty", "16_Night_Duty"],
+	sortingID: "1148__1",  // 38/105 Fiesta Ex, between Native (1126) / overblow shortcut (1148) and pavane (1152),
+	arcadeID: "1151",
+	pumpoutID: 696,
+
 	XX: "@2.06 S3 S6 S9 S14 S17 D8 D15 S19.lock D20.lock",
 },
 
 
-"16_Brain_Power":
+"16__Brain_Power":
 {
 	title: "Brain Power", artist: "Noma", channel: WORLD, bpm: "170~173",
+	altID: "16_Brain_Power",
 	arcadeID: "1697",
-	// arcadeName: "",
+	pumpoutID: 872,
+
 	XX: "@2.05 S3.lock S5.lock S8.lock S11.lock S16.lock S18.lock S22.lock D8.lock D14.lock D20.lock D24.lock",
 },
 
 
-"16_Life_is_Piano":
+"16__Life_is_Piano":
 {
 	title: "Life is Piano", artist: "Junk", channel: WORLD, bpm: "133",
 	arcadeNameMaxEditDistance: 1, // 'Life is PANO'
+	altID: "16_Life_is_Piano",
 	arcadeID: "1698",
-	// arcadeName: "",
+	pumpoutID: 875,
+
 	XX: "@2.05 S2 S4 S7 S10 S16 D11 D18 S19.lock D21.lock",
 },
 
 
-"16_God_Mode_2_0":
+"16__God_Mode_2_0":
 {
 	title: "God Mode 2.0 feat. Skizzo", artist: "Nato", channel: ORIGINAL, bpm: "155",
 	shortTitle: "God Mode 2.0",
-	sortingID: "16F6__1",  // between 16_Switronic_SHORT (16F6) and 16_Club_Night (1668)
-	// arcadeID: "1702" ?,
-	// arcadeName: "",
+	altID: "16_God_Mode_2_0",
+	arcadeID: "1702",
+	sortingID: "16F6__1",  // between 16_Switronic_SHORT (16F6.orig) and 16_Club_Night (1668.world)
+	pumpoutID: 874,
+
 	XX: "@2.05 S8 S13 S18 D13 D18 D20 S21.lock D22.lock",
 },
 
 
-"16_Full_Moon_FULL":
+"16__Full_Moon__FULL":
 {
 	title: "Full Moon  [FULL]", artist: "Dreamcatcher", channel: KPOP, bpm: "190", duration: FULL,
-	arcadeID: "16D7",
 	arcadeName: "Full Moon - FULL SONG -",
+	altID: "16_Full_Moon_FULL",
+	arcadeID: "16D7",
+	pumpoutID: 873,
+
 	XX: "@2.05 S20 S22.lock D24.lock",
 },
 
 
-"16_Jogging":
+"16__Jogging":
 {
 	title: "Jogging", artist: "LUCY", channel: KPOP, bpm: "138",
+	altID: "16_Jogging",
 	arcadeID: "1641",
-	// arcadeName: "",
+	pumpoutID: 844,
+
 	XX: "@2.04 S3 S5 S9 S16 D7 D16 S18.lock D18.lock D22.lock",
 },
 
 
-"16_Destrucimate":
+"16__Destrucimate":
 {
 	title: "DESTRUCIMATE", artist: "KURORAK", channel: ORIGINAL, bpm: "193",
+	altID: "16_Destrucimate",
 	arcadeID: "1632",
-	// arcadeName: "",
+	pumpoutID: 845,
+
 	XX: "@2.04 S8 S12 S16 S19 D15 D19 S22.lock D24.lock",
 },
 
 
-"16_Clematis_Rapsodia":
+"16__Clematis_Rapsodia":
 {
 	title: "Clematis Rapsodia", artist: "Jehezukiel", channel: ORIGINAL, bpm: "260",
+	altID: "16_Clematis_Rapsodia",
 	arcadeID: "1633",
-	// arcadeName: "",
+	pumpoutID: 846,
+
 	XX: "@2.04 S11 S15 S18 D12 D16 D19 CoOp(x3) S22.lock D23.lock",
 },
 
 
-"16_Stardream":
+"16__Stardream":
 {
 	title: "Stardream", artist: "Cashew", channel: ORIGINAL, bpm: "160",
-	arcadeID: "1636",
 	arcadeName: "Stardream (feat. Romelon)",
+	altID: "16_Stardream",
+	arcadeID: "1636",
+	pumpoutID: 847,
+
 	XX: "@2.04 S6 S10 S15 S18 D11 D15 D19 CoOp(x2) S21.lock D22.lock  @2.05 S1 S3",
 },
 
 
-"16_Over_the_Horizon":
+"16__Over_the_Horizon":
 {
 	title: "Over The Horizon", artist: "Yamajet", channel: XROSS, bpm: "190",
-	arcadeID: "1689",
 	arcadeNameMaxEditDistance: 1, // 'Qver The Horizon'
-	// arcadeName: "",
+	altID: "16_Over_the_Horizon",
+	arcadeID: "1689",
+	pumpoutID: 849,
+
 	XX: "@2.04 S11 S15 S17 D14 S20.lock D21.lock  @2.07 D18",
 },
 
 
-"16_Houseplan":
+"16__Houseplan":
 {
 	title: "Houseplan", artist: "Houseplan", channel: XROSS, bpm: "128",
+	altID: "16_Houseplan",
 	arcadeID: "1692",
-	// arcadeName: "",
+	pumpoutID: 850,
+
 	XX: "@2.04 S3 S6 S9 S15 D8 D16 S17.lock D18.lock",
 },
 
 
-"16_Headless_Chicken":
+"16__Headless_Chicken":
 {
 	title: "Headless Chicken", artist: "r300k", channel: XROSS, bpm: "90.5",
+	altID: "16_Headless_Chicken",
 	arcadeID: "1688",
+	pumpoutID: 848,
 	// arcadeName: "",
+
 	XX: "@2.04 S5 S10 S15 S19 D12 D17 CoOp(x2) S21.lock D21.lock",
 },
 
 
-"16_Baroque_Virus_FULL":
+"16__Baroque_Virus__FULL":
 {
 	title: "Baroque Virus  [FULL]", artist: "Zircon", channel: WORLD, bpm: "135", duration: FULL,
-	arcadeID: "16F9",
 	arcadeName: "Baroque Virus - FULL SONG -",
+	altID: "16_Baroque_Virus_FULL",
+	arcadeID: "16F9",
+	pumpoutID: 851,
+
 	XX: "@2.04 S16 S19 D20 S21.lock D23.lock",
 },
 
 
-"16_Errorcode_0":
+"16__Errorcode_0":
 {
 	title: "ERRORCODE: 0", artist: "DOIN && SUNNY", channel: ORIGINAL, bpm: "200.1", duration: REMIX,
+	altID: "16_Errorcode_0",
 	arcadeID: "16D1",
+	pumpoutID: 852,
 	// arcadeName: "",
+
 	XX: "@2.04 S19 S23 D24 S25.lock D27.lock",
 },
 
 
-"16_Gotta_Go":
+"16__Gotta_Go":
 {
 	title: "Gotta Go", artist: "CHUNG HA", channel: KPOP, bpm: "102",
+	altID: "16_Gotta_Go",
 	arcadeID: "1666",
+	pumpoutID: 836,
+
 	XX: "@2.03 S2 S4 S6 S9 S15 D6 D16 S17.lock D18.lock  @2.04 Dp3  @2.05 D20.lock",
 },
 
 
-"16_Iolite_Sky":
+"16__Iolite_Sky":
 {
 	title: "Iolite Sky", artist: "Doin", channel: ORIGINAL, bpm: "90",
+	altID: "16_Iolite_Sky",
 	arcadeID: "1619",
-	// arcadeName: "",
+	pumpoutID: 837,
+
 	XX: "@2.03 S7 S10 S16 D11 D17 S20.lock S22.lock D24.lock  @2.04 Dp3  @2.05 D21",
 },
 
 
-"16_La_Cinquantaine":
+"16__La_Cinquantaine":
 {
 	title: "La Cinquantaine", artist: "Pory", channel: ORIGINAL, bpm: "164",
+	altID: "16_La_Cinquantaine",
 	arcadeID: "1621",
-	// arcadeName: "",
+	pumpoutID: 838,
+
 	XX: "@2.03 S6 S10 S16 D12 D16 S19.lock S22.lock D20.lock D24.lock  @2.04 Dp2",
 },
 
 
-"16_Broken_Karma":
+"16__Broken_Karma":
 {
 	title: "Broken Karma (PIU Edit)", artist: "Quree", channel: WORLD, bpm: "180",
+	altID: "16_Broken_Karma",
 	arcadeID: "1672",
-	// arcadeName: "",
+	pumpoutID: 839,
+
 	XX: "@2.03 S10 S16 S19 D13 D20 S21.lock D23.lock  @2.04 Dp2",
 },
 
 
-"16_Cutie_Song":
+"16__Cutie_Song":
 {
 	title: "Cutie Song", artist: "Memme", channel: XROSS, bpm: "174",
+	altID: "16_Cutie_Song",
 	arcadeID: "1687",
+	pumpoutID: 840,
+
 	XX: "@2.03 S4 S8 S11 S15 D13 D17 CoOp(x3) S19.lock D21.lock  @2.04 Dp3",
 },
 
 
-"16_Nekkoya_Pick_Me_FULL":
+"16__Nekkoya_Pick_Me__FULL":
 {
 	title: "Nekkoya (Pick Me)  [FULL]", artist: "PRODUCE48", channel: KPOP, bpm: "128", duration: FULL,
-	arcadeID: "16D9",
 	arcadeName: "NEKKOYA(PICK ME) - FULL SONG -",
+	altID: "16_Nekkoya_Pick_Me_FULL",
+	arcadeID: "16D9",
+	pumpoutID: 842,
+
 	XX: "@2.03 S12 S19 D20",
 },
 
 
-"16_Good_Bye_FULL":
+"16__Good_Bye__FULL":
 {
 	title: "Good Bye  [FULL]", artist: "Hong Jin-Young", channel: KPOP, bpm: "139", duration: FULL,
-	arcadeID: "16E8",
 	arcadeName: "GOOD BYE - FULL SONG -",
+	altID: "16_Good_Bye_FULL",
+	arcadeID: "16E8",
+	pumpoutID: 841,
+
 	XX: "@2.03 S17 S19 D18 D21",
 },
 
 
-"16_I_Want_U_SHORT":
+"16__I_Want_U__SHORT":
 {
 	title: "I Want U  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "156", duration: SHORT,
-	arcadeID: "16F4",
 	arcadeName: "I Want U - SHORT CUT -",
+	altID: "16_I_Want_U_SHORT",
+	arcadeID: "16F4",
+	pumpoutID: 843,
+
 	XX: "@2.03 S4 S7 S11 S19 D13 D21",
 },
 
 
-"16_Bon_Bon_Chocolat":
+"16__Bon_Bon_Chocolat":
 {
 	title: "Bon Bon Chocolat", artist: "EVERGLOW", channel: KPOP, bpm: "140",
+	altID: "16_Bon_Bon_Chocolat",
 	arcadeID: "1661",
+	pumpoutID: 827,
+
 	XX: "@2.02 S1 S3 S6 S8 S14 D10 D15 S16.lock D18.lock  @2.04 Dp3",
 },
 
 
-"16_District_1":
+"16__District_1":
 {
 	title: "District 1", artist: "MAX", channel: ORIGINAL, bpm: "158",
+	altID: "16_District_1",
 	arcadeID: "1609",
+	pumpoutID: 829,
+
 	XX: "@2.02 S10 S15 D12 D17 CoOp(x3) S19.lock D21.lock  @2.04 Dp4  @2.05 S6",
 },
 
 
-"16_Adrenaline_Blaster":
+"16__Adrenaline_Blaster":
 {
 	title: "Adrenaline Blaster", artist: "QWertism", channel: ORIGINAL, bpm: "150",
+	altID: "16_Adrenaline_Blaster",
 	arcadeID: "1627",
+	pumpoutID: 830,
+
 	XX: "@2.02 S3 S5 S8 S14 S18 D12 D18 S21.lock D22.lock  @2.03  CoOp(x2)  @2.04 Dp4",
 },
 
 
-"16_Danger_n_Danger":
+"16__Danger_n_Danger":
 {
 	title: "Danger & Danger", artist: "Cranky", channel: WORLD, bpm: "155",
+	altID: "16_Danger_n_Danger",
 	arcadeID: "1677",
+	pumpoutID: 831,
+
 	XX: "@2.02 S8 S12 S16 D10 D15 D18 S19.lock D21.lock  @2.04 Dp3  @2.07 D23.lock",
 },
 
 
-"16_Point_Zero_2":
+"16__Point_Zero_2":
 {
 	title: "Point Zero 2", artist: "SYNTHWULF", channel: WORLD, bpm: "170",
+	altID: "16_Point_Zero_2",
 	arcadeID: "1696",
+	pumpoutID: 832,
+
 	XX: "@2.02 S11 S16 S19 D15 D20 S21.lock D22.lock  @2.04 Dp3",
 },
 
 
-"16_Dual_Racing_RED_vs_BLUE":
+"16__Dual_Racing_RED_vs_BLUE":
 {
 	title: "Dual Racing <RED vs BLUE>", artist: "Nato & r300k", channel: XROSS, bpm: "165",
+	altID: "16_Dual_Racing_RED_vs_BLUE",
 	arcadeID: "1682",
+	pumpoutID: 833,
+
 	XX: "@2.02 S7 S11 S16 S18 D13 D20 CoOp(x2) S20.lock D22.lock  @2.04 Dp4",
 },
 
 
-"16_Fire_Noodle_Challenge":
+"16__Fire_Noodle_Challenge":
 {
 	title: "Fire Noodle Challenge", artist: "Memme", channel: ORIGINAL, bpm: "185", duration: REMIX,
+	altID: "16_Fire_Noodle_Challenge",
 	arcadeID: "16D5",
+	pumpoutID: 834,
+
 	XX: "@2.02 S15 S20 D21 S23.lock D25.lock",
 },
 
 
-"16_I'm_So_Sick_FULL":
+"16__Im_So_Sick__FULL":
 {
 	title: "I'm So Sick  [FULL]", artist: "APink", channel: KPOP, bpm: "124",
-	arcadeID: "16E1",
 	arcadeName: "I'm so sick - FULL SONG -",
 	arcadeNameMaxEditDistance: 1, // 'Im so sick'
+	altID: ["16_I'm_So_Sick_FULL", "16_I_m_So_Sick_FULL"],
+	arcadeID: "16E1",
+	pumpoutID: 828,
+
 	XX: "@2.02 S11 S18 D20",
 },
 
 
-"16_Time_for_the_Moon_Night_FULL":
+"16__Time_for_the_Moon_Night__FULL":
 {
 	title: "Time for the Moon Night  [FULL]", artist: "GFRIEND", channel: KPOP, bpm: "170",
-	arcadeID: "16E6",
 	arcadeName: "Time for the moon night - FULL SONG -",
+	altID: "16_Time_for_the_Moon_Night_FULL",
+	arcadeID: "16E6",
+	pumpoutID: 835,
+
 	XX: "@2.02 S14 S18 D20 S21.lock D24.lock",
 },
 
 
-"16_Snapping":
+"16__Snapping":
 {
 	title: "Snapping", artist: "CHUNG HA", channel: KPOP, bpm: "105",
+	altID: "16_Snapping",
 	arcadeID: "1648",
+	pumpoutID: 820,
+
 	XX: "@2.01 S2 S3 S5 S15 D6 D16 S17.lock S19.lock D18.lock  @2.02 Dp2",
 },
 
 
-"16_Switronic":
+"16__Switronic":
 {
 	title: "Switronic", artist: "SHK", channel: ORIGINAL, bpm: "120~170",
+	altID: "16_Switronic",
 	arcadeID: "1602",
+	pumpoutID: 821,
+
 	XX: "@2.01 S3 S5 S8 S11 S15 D10 D16 CoOp(x2) S18.lock D19.lock  @2.02 Dp4",
 },
 
 
-"16_Transacaglia_in_G_minor":
+"16__Transacaglia_in_G_minor":
 {
 	title: "Transacaglia in G-minor", artist: "ATAS", channel: ORIGINAL, bpm: "158",
+	altID: "16_Transacaglia_in_G_minor",
 	arcadeID: "1604",
+	pumpoutID: 823,
+
 	XX: "@2.01 S3 S6 S11 S16 D7 D13 D18 S19.lock D21.lock  @2.02 Dp3",
 },
 
 
-"16_Indestructible":
+"16__Indestructible":
 {
 	title: "Indestructible", artist: "Matduke", channel: WORLD, bpm: "174",
+	altID: "16_Indestructible",
 	arcadeID: "1669",
+	pumpoutID: 824,
+
 	XX: "@2.01 S8 S13 S19 D14 D20 CoOp(x2) S22.lock D21.lock D22.lock  @2.02 S17 Dp5  @2.07 D25.lock",  // @2.02 S22 changed
 },
 
 
-"16_Cycling":
+"16__Cycling":
 {
 	title: "Cycling!", artist: "Yamajet", channel: XROSS, bpm: "220",
+	altID: "16_Cycling",
 	arcadeID: "1683",
+	pumpoutID: 826,
+
 	XX: "@2.01 S3 S7 S10 S16 D11 D16 S20.lock D21.lock  @2.02 Dp4",
 },
 
 
-"16_Very_Nice_FULL":
+"16__Very_Nice__FULL":
 {
 	title: "Very Nice  [FULL]", artist: "SEVENTEEN", channel: KPOP, bpm: "122",
 	arcadeName: "VERY NICE - FULL SONG -",
+	altID: "16_Very_Nice_FULL",
 	arcadeID: "16E7",
+	pumpoutID: 825,
+
 	XX: "@2.01 S11 S19 D20",
 },
 
 
-"16_Switronic_SHORT":
+"16__Switronic__SHORT":
 {
 	title: "Switronic  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "120",
-	arcadeID: "16F6",
 	arcadeName: "Switronic - SHORT CUT -",
+	altID: "16_Switronic_SHORT",
+	arcadeID: "16F6",
+	pumpoutID: 822,
+
 	XX: "@2.01 S3 S6 S10 S14 S18 D5 D12 D18",
 },
 
 
-
-"16_Kitty_Cat":
+"16__Kitty_Cat":
 {
 	title: "Kitty Cat", artist: "Coconut", channel: WORLD, bpm: "128", fromMix: "Fiesta2",
+	altID: "16_Kitty_Cat",
 	arcadeID: "1210",
+	pumpoutID: 547,
+
 	XX: "S1 S3 S5 S14 D6 D15 CoOp(x2)",
 },
 
@@ -516,696 +635,943 @@ var readableTracklist = {
 // \16 - XX
 
 
-"16_Wedding_Crashers":
+"16__Wedding_Crashers":
 {
 	title: "Wedding Crashers", artist: "SHK", channel: ORIGINAL, bpm: "165",
+	altID: "16_Wedding_Crashers",
 	arcadeID: "1601",
+	pumpoutID: 733,
+
 	XX: "S4 S6 S10 S16 S18.lock S21.lock D7 D13 D19.lock D22.lock CoOp(x3).lock  @1.01 Dp4",
 },
 
 
-"16_Obliteration":
+"16__Obliteration":
 {
 	title: "Obliteration", artist: "ATAS", channel: ORIGINAL, bpm: "150",
+	altID: "16_Obliteration",
 	arcadeID: "1603",
+	pumpoutID: 734,
+
 	XX: "S7 S14 S17.lock D10 D15.lock D19.lock  @1.01 Dp5  @2.01 S11",
 },
 
 
-"16_1949":
+"16__1949":
 {
 	title: "1949", artist: "Slam", channel: ORIGINAL, bpm: "220",
+	altID: "16_1949",
 	arcadeID: "1605",
+	pumpoutID: 777,
+
 	XX: "@1.02 S16 D21 D28 S21.lock S23.lock  @1.04 D26.lock  @2.00 Dp4  @2.07 S26.lock",  // @1.05 D28 changed
 },
 
 
-"16_Janus":
+"16__Janus":
 {
 	title: "Janus", artist: "Max", channel: ORIGINAL, bpm: "174",
+	altID: "16_Janus",
 	arcadeID: "1607",
+	pumpoutID: 817,
+
 	XX: "@2.00 S8 S12 S17 D14 D19 CoOp(x2) S20.lock D22.lock  @2.02 Dp3",
 },
 
 
-"16_I_Want_U":
+"16__I_Want_U":
 {
 	title: "I Want U", artist: "MAX", channel: ORIGINAL, bpm: "156",
 	arcadeNameMaxEditDistance: 1, // '(Want U'
+	altID: "16_I_Want_U",
 	arcadeID: "1608",
+	pumpoutID: 735,
+
 	XX: "S3 S7 S11 S16 S19.lock D6 D13 D17.lock D21.lock  @1.01 Dp5",
 },
 
 
-"16_Nyarlathotep":
+"16__Nyarlathotep":
 {
 	title: "Nyarlathotep", artist: "Nato", channel: ORIGINAL, bpm: "200",
+	altID: "16_Nyarlathotep",
 	arcadeID: "1615",
+	pumpoutID: 736,
+
 	XX: "S12 S16 S18.lock S21 S23.lock D16 D20.lock D23.lock D25.lock  @1.01 Dp4",
 },
 
 
-"16_Heart_Rabbit_Coaster":
+"16__Heart_Rabbit_Coaster":
 {
 	title: "Heart Rabbit Coaster", artist: "Nato", channel: ORIGINAL, bpm: "200",
 	arcadeName: "HEART RABBIT COASTER",
+	altID: "16_Heart_Rabbit_Coaster",
 	arcadeID: "1616",
+	pumpoutID: 799,
+
 	XX: "@1.04 S11 S14 S17 D13 D18 S21.lock S23.lock D22.lock D25.lock  @2.00 Dp5  @2.01 CoOp(x4)",
 },
 
 
-"16_Lepton_Strike":
+"16__Lepton_Strike":
 {
 	title: "Lepton Strike", artist: "Nato", channel: ORIGINAL, bpm: "183",
+	altID: "16_Lepton_Strike",
 	arcadeID: "1617",
+	pumpoutID: 818,
+
 	XX: "@2.00 S10 S16 D11 D17 S19.lock S22.lock D21.lock D23.lock  @2.02 Dp4",
 },
 
 
-"16_Skeptic":
+"16__Skeptic":
 {
 	title: "Skeptic", artist: "Doin", channel: ORIGINAL, bpm: "200",
+	altID: "16_Skeptic",
 	arcadeID: "1618",
+	pumpoutID: 737,
+
 	XX: "S12.lock S18.lock S22.lock S24.lock D14.lock D22.lock D25.lock  @1.01 Dp4",
 },
 
 
-"16_Percent_X":
+"16__Percent_X":
 {
 	title: "%X (Percent X)", artist: "Pory", channel: ORIGINAL, bpm: "150",
+	altID: "16_Percent_X",
 	arcadeID: "1620",
+	pumpoutID: 738,
+
 	XX: "S3 S6 S10 S17 S19 D9 D13 D19.lock  @1.01 Dp4",
 },
 
 
-"16_Le_Grand_Rouge":
+"16__Le_Grand_Rouge":
 {
 	title: "Le Grand Rouge", artist: "KIEN", channel: ORIGINAL, bpm: "166",
+	altID: "16_Le_Grand_Rouge",
 	arcadeID: "1622",
+	pumpoutID: 739,
+
 	XX: "S8 S13 S17 S20.lock D19 D22.lock  @1.01 Dp5",
 },
 
 
-"16_Carmen_Bus":
+"16__Carmen_Bus":
 {
 	title: "Carmen Bus", artist: "StaticSphere & FUGU SUISAN", channel: ORIGINAL, bpm: "170",
 	arcadeName: "CARMEN BUS",
+	altID: "16_Carmen_Bus",
 	arcadeID: "1623",
+	pumpoutID: 803,
+
 	XX: "@1.05 S12 S16 D13 S18.lock S21.lock D20.lock D22.lock  @2.00 Dp4",
 },
 
 
-"16_Macaron_Day":
+"16__Macaron_Day":
 {
 	title: "Macaron Day", artist: "HyuN", channel: ORIGINAL, bpm: "173",
+	altID: "16_Macaron_Day",
 	arcadeID: "1624",
+	pumpoutID: 740,
+
 	XX: "S12 S17 D13 D18.lock  @1.01 Dp3  @2.03  CoOp(x2)  @2.05 S4 S7",
 },
 
 
-"16_Ice_of_Death":
+"16__Ice_of_Death":
 {
 	title: "Ice of Death", artist: "Fiverwater", channel: ORIGINAL, bpm: "172",
+	altID: "16_Ice_of_Death",
 	arcadeID: "1625",
+	pumpoutID: 771,
+
 	XX: "@1.01 S7 S10 S17 S20.lock D11 D17 D21.lock CoOp(x2)  @1.04 Dp3  @2.01 S3",
 },
 
 
-"16_Poseidon":
+"16__Poseidon":
 {
 	title: "Poseidon", artist: "Quree", channel: ORIGINAL, bpm: "160",
+	altID: "16_Poseidon",
 	arcadeID: "1626",
+	pumpoutID: 741,
+
 	XX: "S3 S6 S10 S14.lock S20 D8 D16 D22.lock  @1.01 Dp2  @2.00 CoOp(x2)",
 },
 
 
-"16_Vanish":
+"16__Vanish":
 {
 	title: "Vanish", artist: "Applesoda", channel: ORIGINAL, bpm: "174",
+	altID: "16_Vanish",
 	arcadeID: "1628",
+	pumpoutID: 742,
+
 	XX: "S6 S12 S17.lock S20 D9 D12 D18.lock D22.lock  @1.01 Dp4  @2.03  CoOp(x2)  @2.06 D24.lock",
 },
 
 
-"16_Tales_of_Pumpnia":
+"16__Tales_of_Pumpnia":
 {
 	title: "Tales of Pumpnia", artist: "Applesoda", channel: ORIGINAL, bpm: "200",
+	altID: "16_Tales_of_Pumpnia",
 	arcadeID: "1629",
+	pumpoutID: 805,
+
 	XX: "@1.05 S9 S12 S16 D13 D17 CoOp(x2) S19.lock D20.lock  @2.00 Dp3",
 },
 
 
-"16_Kimchi_Fingers":
+"16__Kimchi_Fingers":
 {
 	title: "Kimchi Fingers", artist: "Garlic Squad", channel: ORIGINAL, bpm: "190",
+	altID: "16_Kimchi_Fingers",
 	arcadeID: "1630",
+	pumpoutID: 743,
+
 	XX: "S14.lock S17.lock S20.lock D16.lock D21.lock  @1.01 Dp4  @2.03  CoOp(x2)",
 },
 
 
-"16_Orbit_Stabilizer":
+"16__Orbit_Stabilizer":
 {
 	title: "Orbit Stabilizer", artist: "DM Ashura", channel: ORIGINAL, bpm: "155",
+	altID: "16_Orbit_Stabilizer",
 	arcadeID: "1631",
+	pumpoutID: 802,
+
 	XX: "@1.05 S6 S13 S16 D18 S19.lock S21.lock D21.lock D23.lock  @2.00 Dp3",
 },
 
 
-"16_Wicked_Legend":
+"16__Wicked_Legend":
 {
 	title: "Wicked Legend", artist: "D_AAN", channel: ORIGINAL, bpm: "150",
+	altID: "16_Wicked_Legend",
 	arcadeID: "1634",
+	pumpoutID: 811,
+
 	XX: "@2.00 S10 S15 D12 D18 S19.lock D21.lock  @2.02 Dp4",
 },
 
 
-"16_Tantanmen":
+"16__Tantanmen":
 {
 	title: "TanTanMen", artist: "Memme", channel: ORIGINAL, bpm: "185",
+	altID: "16_Tantanmen",
 	arcadeID: "1635",
+	pumpoutID: 796,
+
 	XX: "@1.04 S4 S7 S11 S14 S17 D13 D20 S20.lock D23.lock  @2.01 CoOp(x3)  @2.02 Dp4",  // @1.05 D23 changed
 },
 
 
-"16_The_Little_Prince":
+"16__The_Little_Prince":
 {
 	title: "The Little Prince (Prod. Godic)", artist: "HAON, PULLIK", channel: KPOP, bpm: "115",
 	shortTitle: "The Little Prince",
+	altID: "16_The_Little_Prince",
 	arcadeID: "1642",
+	pumpoutID: 768,
+
 	XX: "@1.01 S4 S7 S9 S13 S16 S18.lock D11 D14 D16.lock D19  @1.04 Dp5",
 },
 
 
-"16_Full_Moon":
+"16__Full_Moon":
 {
 	title: "Full Moon", artist: "Dreamcatcher", channel: KPOP, bpm: "190",
+	altID: "16_Full_Moon",
 	arcadeID: "1643",
+	pumpoutID: 800,
+
 	XX: "@1.05 S2 S4 S6 S16 D14 D20 CoOp(x2) S20.lock S22.lock D24.lock  @2.00 Dp3",
 },
 
 
-"16_Timing":
+"16__Timing":
 {
 	title: "Timing", artist: "HIGHTEEN", channel: KPOP, bpm: "164",
+	altID: "16_Timing",
 	arcadeID: "1644",
+	pumpoutID: 770,
+
 	XX: "@1.01 S2 S4 S7 S15 S17.lock D11 D16 D18.lock  @1.04 Dp4",
 },
 
 
-"16_Fly_High":
+"16__Fly_High":
 {
 	title: "Fly High", artist: "Dreamcatcher", channel: KPOP, bpm: "154",
+	altID: "16_Fly_High",
 	arcadeID: "1645",
+	pumpoutID: 730,
+
 	XX: "S1 S3 S5 S9 S15 S18.lock D10 D16.ampass D19.lock Dp3  @1.05 S20 D21  @2.04 CoOp(x2)",
 },
 
 
-"16_Black_Cat":
+"16__Black_Cat":
 {
 	title: "Black Cat", artist: "Turbo", channel: KPOP, bpm: "130.866",
+	altID: "16_Black_Cat",
 	arcadeID: "1646",
+	pumpoutID: 792,
+
 	XX: "@1.04 S2 S4 S6 S9 S14 D7 D16 S17.lock D18.lock  @2.00 Dp5",
 },
 
 
-"16_Hann_Alone":
+"16__Hann_Alone":
 {
 	title: "Hann (Alone)", artist: "(G)I-DLE", channel: KPOP, bpm: "105",
+	altID: "16_Hann_Alone",
 	arcadeID: "1647",
+	pumpoutID: 731,
+
 	XX: "S1 S3 S5 S8 S16.lock D17 CoOp(x2)  @1.01 Dp4",
 },
 
 
-"16_Nekkoya_Pick_Me":
+"16__Nekkoya_Pick_Me":
 {
 	title: "Nekkoya (Pick Me)", artist: "PRODUCE48", channel: KPOP, bpm: "128",
+	altID: "16_Nekkoya_Pick_Me",
 	arcadeID: "1649",
+	pumpoutID: 732,
+
 	XX: "S2 S4 S6 S9 S15 S17.lock D15.ampass D18  @1.01 Dp3",
 },
 
 
-"16_I'm_So_Sick":
+"16__Im_So_Sick":
 {
 	title: "I'm So Sick", artist: "APink", channel: KPOP, bpm: "124",
+	altID: "16_I'm_So_Sick",
 	arcadeID: "1650",
+	pumpoutID: 747,
+
 	arcadeNameMaxEditDistance: 1, // 'Im so sick'
 	XX: "S2 S4 S6 S9 S15 S17.lock D9 D16 D18.lock D20.lock  @1.01 Dp3  @1.04 CoOp(x2)",
 },
 
 
-"16_Boomerang":
+"16__Boomerang":
 {
 	title: "Boomerang", artist: "Wanna One", channel: KPOP, bpm: "100",
+	altID: "16_Boomerang",
 	arcadeID: "1651",
+	pumpoutID: 748,
+
 	XX: "S2 S4 S6 S10 S14.lock S17.lock D7 D16.lock D20.lock CoOp(x2).lock  @1.01 Dp3",
 },
 
 
-"16_Gashina":
+"16__Gashina":
 {
 	title: "Gashina", artist: "SUNMI", channel: KPOP, bpm: "94",
+	altID: "16_Gashina",
 	arcadeID: "1652",
+	pumpoutID: 778,
+
 	XX: "@1.02 S2 S4 S6 S10 S14 D15 Dp2 CoOp(x2) S18.lock D19.lock",
 },
 
 
-"16_Adios":
+"16__Adios":
 {
 	title: "Adios", artist: "Everglow", channel: KPOP, bpm: "128",
+	altID: "16_Adios",
 	arcadeID: "1653",
+	pumpoutID: 813,
+
 	XX: "@2.00 S3 S6 S10 S13 S15 D10 D15 D18 S17.lock D20.lock  @2.02 Dp3",
 },
 
 
-"16_Hit":
+"16__Hit":
 {
 	title: "HIT", artist: "Seventeen", channel: KPOP, bpm: "130",
+	altID: "16_Hit",
 	arcadeID: "1654",
+	pumpoutID: 816,
+
 	XX: "@2.00 S1 S3 S5 S9 S14 D7 D11 D16 S16.lock S19.lock D18.lock D21.lock  @2.02 Dp4",
 },
 
 
-"16_BBoom_BBoom":
+"16__BBoom_BBoom":
 {
 	title: "BBoom BBoom", artist: "MOMOLAND", channel: KPOP, bpm: "126",
+	altID: "16_BBoom_BBoom",
 	arcadeID: "1655",
+	pumpoutID: 749,
+
 	XX: "S1 S4 S6 S9 S13 S15.lock D8 D15 D18.lock  @1.01 CoOp(x2) Dp2",
 },
 
 
-"16_Rooftop":
+"16__Rooftop":
 {
 	title: "Rooftop", artist: "N.Flying", channel: KPOP, bpm: "97",
+	altID: "16_Rooftop",
 	arcadeID: "1656",
+	pumpoutID: 812,
+
 	XX: "@2.00 S2 S4 S6 S9 S13 D7 D15 CoOp(x2) S16.lock D18.lock D20.lock  @2.02 Dp3",
 },
 
 
-"16_Bungee_Fall_in_Love":
+"16__Bungee_Fall_in_Love":
 {
 	title: "Bungee (Fall in Love)", artist: "Oh My Girl", channel: KPOP, bpm: "128",
+	altID: "16_Bungee_Fall_in_Love",
 	arcadeID: "1657",
+	pumpoutID: 815,
+
 	XX: "@2.00 S2 S4 S7 S11 S14 D11 D15 CoOp(x2) S17.lock D18.lock  @2.02 Dp4",
 },
 
 
-"16_Starry_Night":
+"16__Starry_Night":
 {
 	title: "Starry Night", artist: "Mamamoo", channel: KPOP, bpm: "124",
+	altID: "16_Starry_Night",
 	arcadeID: "1658",
+	pumpoutID: 783,
+
 	XX: "@1.03 S1 S3 S5 S8 S14 D7 D15 S16.lock D17.lock  @2.04 Dp2  @2.07 CoOp(x2)",
 },
 
 
-"16_Love_Scenario":
+"16__Love_Scenario":
 {
 	title: "Love Scenario", artist: "iKon", channel: KPOP, bpm: "118",
+	altID: ["16_Love_Scenario", "16_Love Scenario"],
 	arcadeID: "1659",
-	altID: "16_Love Scenario",
+	pumpoutID: 750,
+
 	XX: "S1 S3 S6 S8 S14 S17.lock D3 D14.lock  @1.01 Dp4  @2.04 D19.lock",
 },
 
 
-"16_Time_for_the_Moon_Night":
+"16__Time_for_the_Moon_Night":
 {
 	title: "Time for the Moon Night", artist: "GFRIEND", channel: KPOP, bpm: "170",
+	altID: "16_Time_for_the_Moon_Night",
 	arcadeID: "1660",
+	pumpoutID: 776,
+
 	XX: "@1.02 S3 S5 S8 S16 D11 D18 S18.lock D21.lock  @1.04 Dp4  @2.02 CoOp(x2)",
 },
 
 
-"16_Very_Nice":
+"16__Very_Nice":
 {
 	title: "Very Nice", artist: "Seventeen", channel: KPOP, bpm: "122",
+	altID: "16_Very_Nice",
 	arcadeID: "1662",
+	pumpoutID: 751,
+
 	XX: "S2 S4 S6 S9 S14.lock S17.lock D6 D15.lock D18.lock CoOp(x2)  @1.01 Dp4",
 },
 
 
-"16_Good_Bye":
+"16__Good_Bye":
 {
 	title: "Good Bye", artist: "Hong Jin-Young", channel: KPOP, bpm: "139",
+	altID: "16_Good_Bye",
 	arcadeID: "1663",
+	pumpoutID: 752,
+
 	XX: "S2 S4 S6 S10.lock S14.lock S17.lock D10 D16.lock D18.lock  @1.01 Dp3  @1.04 D21.lock  @2.00 CoOp(x2)",
 },
 
 
-"16_You_and_I":
+"16__You_and_I":
 {
 	title: "You and I", artist: "Dreamcatcher", channel: KPOP, bpm: "194",
+	altID: "16_You_and_I",
 	arcadeID: "1664",
+	pumpoutID: 779,
+
 	XX: "@1.02 S1 S4 S7 S13 S17 D14 D17 S21.lock D20.lock D25.lock  @1.04 Dp3  @2.06 CoOp(x2)",
 },
 
 
-"16_King_of_Sales":
+"16__King_of_Sales":
 {
 	title: "King of Sales", artist: "Norazo", channel: KPOP, bpm: "150",
+	altID: "16_King_of_Sales",
 	arcadeID: "1665",
+	pumpoutID: 793,
+
 	XX: "@1.04 S3 S5 S8 S14 S18 D9 D19 CoOp(x2) S21.lock D23.lock  @2.02 Dp4",
 },
 
 
-"16_Boong_Boong":
+"16__Boong_Boong":
 {
 	title: "Boong Boong (Feat. Sik-K) (Prod. GroovyRoom)", artist: "HAON", channel: KPOP, bpm: "136",
 	shortTitle: "Boong Boong",
+	altID: "16_Boong_Boong",
 	arcadeID: "1667",
+	pumpoutID: 769,
+
 	XX: "@1.01 S1 S3 S5 S9 S11 S16.lock S18 D12.lock D16 D19.lock  @1.04 CoOp(x2) Dp5",
 },
 
 
-"16_Club_Night":
+"16__Club_Night":
 {
 	title: "Club Night", artist: "Matduke", channel: WORLD, bpm: "170",
+	altID: "16_Club_Night",
 	arcadeID: "1668",
+	pumpoutID: 753,
+
 	XX: "S8 S16 S18.lock S22.lock D12.lock D18.lock D21.lock CoOp(x2).lock  @1.01 Dp5  @2.06 D23.lock",
 },
 
 
-"16_86":
+"16__8_6":
 {
 	title: "8 6", artist: "Dasu", channel: WORLD, bpm: "167",
+	altID: "16_86",
 	arcadeID: "1670",
+	pumpoutID: 754,
+
 	XX: "S12.lock S16.lock S20.lock D18.lock D21.lock  @1.01 Dp3",
 },
 
 
-"16_Cross_Soul":
+"16__Cross_Soul":
 {
 	title: "Cross Soul", artist: "HyuN feat. Syepias", channel: WORLD, bpm: "200",
 	arcadeName: "CROSS SOUL",
+	altID: "16_Cross_Soul",
 	arcadeID: "1671",
+	pumpoutID: 806,
+
 	XX: "@1.05 S8 S17 D12 D18 S20.lock S22.lock D20.lock D24.lock  @2.00 Dp4",
 },
 
 
-"16_After_a_thousand_years":
+"16__After_a_Thousand_Years":
 {
 	title: "After a thousand years", artist: "TOTO", channel: WORLD, bpm: "180",
+	altID: "16_After_a_thousand_years",
 	arcadeID: "1673",
+	pumpoutID: 814,
+
 	XX: "@2.00 S4 S7 S12 S18 D14 S20.lock D21.lock  @2.01 D23.lock  @2.04 Dp4",
 },
 
 
-"16_Lala":
+"16__Lala":
 {
 	title: "Lala", artist: "Yassi Pressman", channel: WORLD, bpm: "126",
+	altID: "16_Lala",
 	arcadeID: "1674",
+	pumpoutID: 808,
+
 	XX: "@2.00 S1 S3 S5 S8 S15 D7 D16  @2.02 Dp3",
 },
 
 
-"16_F_R_IEND":
+"16__F_r_iend":
 {
 	title: "F(R)IEND", artist: "D_AAN", channel: WORLD, bpm: "200",
 	arcadeNameMaxEditDistance: 2, // 'F(RJIEND', 'FR( END'
+	altID: "16_F_R_IEND",
 	arcadeID: "1675",
+	pumpoutID: 798,
+
 	XX: "@1.04 S10 S15 S19 D12 D17 S21.lock S23.lock D21.lock D25.lock  @2.00 Dp4",
 },
 
 
-"16_Conflict":
+"16__Conflict":
 {
 	title: "Conflict", artist: "Siromaru + Cranky", channel: WORLD, bpm: "160",
+	altID: "16_Conflict",
 	arcadeID: "1676",
+	pumpoutID: 784,
+
 	XX: "@1.03 S6 S11 S17 S19 D13 D21 S22.lock D24.lock  @1.04 S15 CoOp(x2)  @2.02 Dp4",
 },
 
 
-"16_Imagination":
+"16__Imagination":
 {
 	title: "Imagination", artist: "SHK", channel: XROSS, bpm: "180",
+	altID: "16_Imagination",
 	arcadeID: "1678",
+	pumpoutID: 755,
+
 	XX: "S12.lock S15.lock S19.lock D16.lock D21.lock  @1.01 Dp5  @2.02 S17",
 },
 
 
-"16_Black_Swan":
+"16__Black_Swan":
 {
 	title: "Black Swan", artist: "Zeron", channel: XROSS, bpm: "175",
+	altID: "16_Black_Swan",
 	arcadeID: "1679",
+	pumpoutID: 756,
+
 	XX: "S12.lock S14.lock S16.lock S19.lock D15.lock D22.lock  @1.01 Dp4",  // @1.05 D22 changed
 },
 
 
-"16_Obelisque":
+"16__Obelisque":
 {
 	title: "Obelisque", artist: "ESTi x M2U", channel: XROSS, bpm: "130",
+	altID: "16_Obelisque",
 	arcadeID: "1680",
+	pumpoutID: 757,
+
 	XX: "S2 S4 S7 S10 S15.lock S17.lock D11 D15.lock D17.lock CoOp(x2)  @1.01 Dp3",
 },
 
 
-"16_Rage_of_Fire":
+"16__Rage_of_Fire":
 {
 	title: "Rage of Fire", artist: "MAX", channel: XROSS, bpm: "155",
+	altID: "16_Rage_of_Fire",
 	arcadeID: "1681",
+	pumpoutID: 782,
+
 	XX: "@1.02 S7 S11 S16 D10 D17 CoOp(x2) S18.lock D19.lock  @1.04 Dp3",
 },
 
 
-"16_Uranium":
+"16__Uranium":
 {
 	title: "Uranium", artist: "Memme", channel: XROSS, bpm: "170",
+	altID: "16_Uranium",
 	arcadeID: "1684",
+	pumpoutID: 819,
+
 	XX: "@2.00 S9 S16 D11 D17 S19.lock S22.lock D20.lock D24.lock  @2.02 Dp4",
 },
 
 
-"16_Xeroize":
+"16__Xeroize":
 {
 	title: "Xeroize", artist: "FE", channel: XROSS, bpm: "200",
+	altID: "16_Xeroize",
 	arcadeID: "1685",
+	pumpoutID: 772,
+
 	XX: "@1.01 S12 S17 S21.lock S24.lock D18 D22.lock D25.lock  @2.00 Dp5  @2.03  CoOp(x3)",
 },
 
 
-"16_Rising_Star":
+"16__Rising_Star":
 {
 	title: "Rising Star", artist: "M2U", channel: XROSS, bpm: "140",
+	altID: "16_Rising_Star",
 	arcadeID: "1686",
+	pumpoutID: 795,
+
 	XX: "@1.04 S6 S10 S15 D11 D17 CoOp(x2) S17.lock D19.lock  @2.00 Dp3",
 },
 
 
-"16_Loki":
+"16__Loki":
 {
 	title: "Loki", artist: "Lotze", channel: XROSS, bpm: "140",
+	altID: "16_Loki",
 	arcadeID: "1690",
+	pumpoutID: 758,
+
 	XX: "S12.lock S16.lock S19.lock S21.lock D12.lock D19.lock  @1.01 Dp3  @2.00 CoOp(x2)",
 },
 
 
-"16_Dement_After_Legend":
+"16__Dement_After_Legend":
 {
 	title: "Dement ~After Legend~", artist: "Lunatic Sounds", channel: XROSS, bpm: "210",
 	shortTitle: "Dement",
+	altID: "16_Dement_After_Legend",
 	arcadeID: "1691",
+	pumpoutID: 759,
+
 	XX: "S23.lock D26.lock  @1.01 Dp2  @2.04 S15 S18 S21 D21 D24.lock",
 },
 
 
-"16_Your_Mind":
+"16__Your_Mind":
 {
 	title: "Your Mind", artist: "Roy Mikelate", channel: XROSS, bpm: "180",
+	altID: "16_Your_Mind",
 	arcadeID: "1693",
+	pumpoutID: 810,
+
 	XX: "@2.00 S9 S14 S17 D10 D18 S21.lock D23.lock  @2.02 Dp4",
 },
 
 
-"16_Nihilism":
+"16__Nihilism_Another_Ver":
 {
 	title: "Nihilism - Another Ver.-", artist: "Nato", channel: WORLD, bpm: "190",
 	shortTitle: "Nihilism",
+	altID: "16_Nihilism",
 	arcadeID: "1694",
+	pumpoutID: 773,
+
 	XX: "@1.01 S8 S15 S18 S21.lock D17 D19.lock D23.lock  @1.04 Dp4",
 },
 
 
-"16_Phalanx_RS2018":
+"16__Phalanx_RS2018":
 {
 	title: "Phalanx \"RS2018 edit\"", artist: "Cranky", channel: WORLD, bpm: "145",
+	altID: "16_Phalanx_RS2018",
 	arcadeID: "1695",
+	pumpoutID: 801,
+
 	XX: "@1.05 S11 S15 S17 S19 S22 D13 D18 D21  @2.00 Dp3  @2.07 D22",
 },
 
 
-"16_Can_Can_Orpheus":
+"16__Can_Can_Orpheus":
 {
 	title: "Can-Can ~Orpheus in the Party Mix~", artist: "Sr. Lan Belmont", channel: ORIGINAL, bpm: "195",
 	shortTitle: "Can-Can ~Orpheus~",
+	altID: "16_Can_Can_Orpheus",
 	arcadeID: "16A0",
+	pumpoutID: 785,
+
 	XX: "@1.03 S8 S13 S16 S19 D12 D15 D18 S22.lock D23.lock  @2.01 CoOp(x2)",
 },
 
 
-"16_Papasito":
+"16__Papasito":
 {
 	title: "Papasito (ft. KuTiNA)", artist: "Yakukaze & Cashew", channel: ORIGINAL, bpm: "128",
-	arcadeNameMaxEditDistance: 1, // 'Papasito (feat. KUTiINA)'
 	shortTitle: "Papasito",
 	arcadeName: "Papasito (feat. KuTiNA)",
+	arcadeNameMaxEditDistance: 1, // 'Papasito (feat. KUTiINA)'
+	altID: "16_Papasito",
 	arcadeID: "16A1",
+	pumpoutID: 786,
+
 	XX: "@1.03 S6 S13 S15 S16 D11 D14 D16 D18 CoOp(x2) S20.lock D21.lock  @1.04 D19 Dp3",
 },
 
 
-"16_Fires_of_Destiny":
+"16__Fires_of_Destiny":
 {
 	title: "Fires of Destiny", artist: "Jehezukiel", channel: ORIGINAL, bpm: "155",
+	altID: "16_Fires_of_Destiny",
 	arcadeID: "16A2",
+	pumpoutID: 787,
+
 	XX: "@1.03 S6 S10 S16 S18 D11 D18 S20.lock D22.lock  @2.00 Dp3  @2.01 CoOp(x2)",
 },
 
 
-"16_The_End_of_the_World":
+"16__The_End_of_the_World":
 {
 	title: "The End of the World (ft. Skizzo)", artist: "Monstdeath", channel: ORIGINAL, bpm: "150",
 	shortTitle: "The End of the World",
 	arcadeName: "The End of the World ft. Skizzo",
+	altID: "16_The_End_of_the_World",
 	arcadeID: "16A3",
+	pumpoutID: 788,
+
 	XX: "@1.03 S3 S5 S8 S17 D8 D17  @1.05 S20 D21  @2.00 Dp3",
 },
 
 
-"16_Forgotten_Vampire":
+"16__Forgotten_Vampire":
 {
 	title: "Forgotten Vampire", artist: "WyvernP", channel: ORIGINAL, bpm: "137",
+	altID: "16_Forgotten_Vampire",
 	arcadeID: "16A4",
+	pumpoutID: 789,
+
 	XX: "@1.03 S3 S6 S8 S13 S16 D5 D11 D14 D17 CoOp(x2) S18.lock D20.lock  @2.00 Dp4",
 },
 
 
-"16_The_Reverie":
+"16__The_Reverie":
 {
 	title: "The Reverie", artist: "uma", channel: ORIGINAL, bpm: "150",
+	altID: "16_The_Reverie",
 	arcadeID: "16A7",
-	// arcadeName: "",
+	pumpoutID: 876,
+
 	XX: "@2.05 S3 S5 S8 S11 S15 S17 D12 D18 S19.lock S21.lock D21.lock",
 },
 
 
-"16_Desaparecer":
+"16__Desaparecer":
 {
 	title: "Desaparecer", artist: "Applesoda vs Max", channel: ORIGINAL, bpm: "174", duration: REMIX,
+	altID: "16_Desaparecer",
 	arcadeID: "16D0",
+	pumpoutID: 744,
+
 	XX: "S20.lock S22.lock D23.lock  @1.04 S18 D19",
 },
 
 
-"16_Meteo5cience":
+"16__Meteo5cience":
 {
 	title: "Meteo5cience", artist: "Paul Bazooka", channel: ORIGINAL, bpm: "140", duration: REMIX,
-	arcadeNameMaxEditDistance: 1, // 'Meteo5Science (GADGET mix)'
 	arcadeName: "MeteoScience (GADGET mix)",
+	arcadeNameMaxEditDistance: 1, // 'Meteo5Science (GADGET mix)'
+	altID: "16_Meteo5cience",
 	arcadeID: "16D3",
+	pumpoutID: 781,
+
 	XX: "@1.02 S18 D19 S21.lock D22.lock",
 },
 
 
-"16_Prime_Time":
+"16__Prime_Time":
 {
 	title: "Prime Time", artist: "Cashew", channel: WORLD, bpm: "190", duration: REMIX,
+	altID: "16_Prime_Time",
 	arcadeID: "16D4",
+	pumpoutID: 807,
+
 	XX: "@1.05 S15 D23 Dp24 S21.lock S23.lock D26.lock  @2.07 D21",
 },
 
 
-"16_Allegro_Con_Fuoco_FULL":
+"16__Allegro_Con_Fuoco__FULL":
 {
 	title: "Allegro Con Fuoco  [FULL]", artist: "DM Ashura", channel: WORLD, bpm: "156",
 	arcadeName: "Allegro Con Fuoco - FULL SONG -",
+	altID: "16_Allegro_Con_Fuoco_FULL",
 	arcadeID: "16C5",
+	pumpoutID: 780,
+
 	XX: "@1.02 S23.lock D25.lock  @2.02 S18 D21",
 },
 
 
-"16_Hann_Alone_FULL":
+"16__Hann_Alone__FULL":
 {
 	title: "Hann (Alone)  [FULL]", artist: "(G)I-DLE", channel: KPOP, bpm: "105",
 	arcadeName: "HANN (Alone) - FULL SONG -",
+	altID: "16_Hann_Alone_FULL",
 	arcadeID: "16D8",
+	pumpoutID: 809,
+
 	XX: "@2.00 S14 S18 D19",
 },
 
 
-"16_BBoom_BBoom_FULL":
+"16__BBoom_BBoom__FULL":
 {
 	title: "BBoom BBoom  [FULL]", artist: "MOMOLAND", channel: KPOP, bpm: "126",
+	altID: "16_BBoom_BBoom_FULL",
 	arcadeID: "16E0",
+	pumpoutID: 760,
+
 	XX: "S17 D18",
 },
 
 
-"16_Gashina_FULL":
+"16__Gashina__FULL":
 {
 	title: "Gashina  [FULL]", artist: "Sunmi", channel: KPOP, bpm: "94", duration: FULL,
 	arcadeName: "Gashina - FULL SONG -",
+	altID: "16_Gashina_FULL",
 	arcadeID: "16E3",
+	pumpoutID: 790,
+
 	XX: "@1.03 S15 S20 D21",
 },
 
 
-"16_Starry_Night_FULL":
+"16__Starry_Night__FULL":
 {
 	title: "Starry Night   [FULL]", artist: "MAMAMOO", channel: KPOP, bpm: "124",
 	arcadeName: "Starry Night - FULL SONG -",
+	altID: "16_Starry_Night_FULL",
 	arcadeID: "16E4",
+	pumpoutID: 794,
+
 	XX: "@1.04 S12 S17 D18",
 },
 
 
-"16_Nyarlathotep_SHORT":
+"16__Nyarlathotep__SHORT":
 {
 	title: "Nyarlathotep  [SHORT]", artist: "Nato", channel: ORIGINAL, bpm: "200",
 	arcadeName: "Nyarlathotep - SHORT CUT",
+	altID: "16_Nyarlathotep_SHORT",
 	arcadeID: "16F0",
+	pumpoutID: 745,
+
 	XX: "S22 D24.lock",
 },
 
 
-"16_Wedding_Crashers_SHORT":
+"16__Wedding_Crashers__SHORT":
 {
 	title: "Wedding Crashers  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "165",
 	arcadeName: "Wedding Crashers - SHORT CUT",
+	altID: "16_Wedding_Crashers_SHORT",
 	arcadeID: "16F1",
+	pumpoutID: 746,
+
 	XX: "S18 D20  @2.06 S4 S7 S11 S15 D6 D13",
 },
 
 
-"16_Can_Can_Orpheus_SHORT":
+"16__Can_Can_Orpheus__SHORT":
 {
 	title: "Can-Can ~Orpheus in the Party Mix~  [SHORT]", artist: "Sr. Lan Belmont", channel: ORIGINAL, bpm: "195",
 	shortTitle: "Can-Can ~Orpheus~",
 	arcadeName: "Can-can ~Orpheus in The Party Mix~ - SHORT CUT -",
+	altID: "16_Can_Can_Orpheus_SHORT",
 	arcadeID: "16F2",
+	pumpoutID: 804,
+
 	XX: "@1.05 D13 D15.lock D17.lock D19.lock D21.lock D23.lock D25.lock  @2.00 Dp3",
 },
 
 
-"16_XX_Opening":
+"16__XX_Opening__SHORT":
 {
 	title: "XX Opening", artist: "MAX", channel: ORIGINAL, bpm: "175", duration: SHORT,
 	arcadeName: "XX Opening - SHORT CUT -",
+	altID: "16_XX_Opening",
 	arcadeID: "16F3",
+	pumpoutID: 775,
+
 	XX: "@1.01 S3 S6 S11 S16 D12 D17",
 },
 
 
-"16_Poseidon_SHORT":
+"16__Poseidon__SHORT":
 {
 	title: "Poseidon  [SHORT]", artist: "Quree", channel: ORIGINAL, bpm: "160", duration: SHORT,
+	altID: "16_Poseidon_SHORT",
 	arcadeID: "16F5",
+	pumpoutID: 791,
+
 	XX: "@1.03 S11 S14 S18 S21 D14 D21",
 },
 
 
-"16_86_FULL":
+"16__8_6__FULL":
 {
 	title: "8 6  [FULL]", artist: "DASU", channel: WORLD, bpm: "167",
 	arcadeName: "86- FULL SONG -",
+	altID: "16_86_FULL",
 	arcadeID: "16F7",
+	pumpoutID: 774,
+
 	XX: "@1.01 S16.lock S21.lock D23.lock",
 },
 
@@ -1214,507 +1580,615 @@ var readableTracklist = {
 // \15 - Prime 2
 
 
-"15_Gargoyle_Full":  // this ID should be kept for a while, because 15E5 was assigned to Chase Me FULL by mistake some time ago
+"15__Gargoyle__FULL":
 {
 	title: "Gargoyle  [FULL]", artist: "Sanxion7", channel: WORLD, bpm: "150",
-	sortingID: "15E5", // between Acquaintance FULL 15E4 and Chase Me FULL 15E7, not a Hush FULL 15E6  // altID: "",
+	altID: "15_Gargoyle_Full",
+	arcadeID: "15E5",
+	pumpoutID: 596,
+
 	XX: "= S20`21 S21`20",
-	// S20-XX & S21-XX - https://www.youtube.com/watch?v=IWbkQJcDkN4
+		// S20-XX & S21-XX - https://www.youtube.com/watch?v=IWbkQJcDkN4
 	Prime2: "@2.04 S20 S21 D22 S23 D25 CoOp(x2).ampass",
 },
 
 
-"1501":
+"15__Last_Rebirth":
 {
 	title: "Last Rebirth", artist: "SHK", channel: ORIGINAL, bpm: "120",
+	arcadeID: "1501",
+	pumpoutID: 516,
+
 	XX: "=",
 	Prime2: "S3 S5 S8 S13 S15.ampass D7 D14 D16.ampass  Dp3  @1.05 D18.ampass",
 },
 
 
-"1502":
+"15__Super_Capriccio":
 {
 	title: "Super Capriccio", artist: "SHK", channel: ORIGINAL, bpm: "150",
+	arcadeID: "1502",
+	pumpoutID: 657,
+
 	XX: "= S19`18 D19`18  @1.04 Dp4  @2.02 D23.lock",
 	Prime2: "@2.00 S4 S7 S11 S16 D11 S18 D18",
 },
 
 
-"1503":
+"15__Hellfire":
 {
 	title: "Hellfire", artist: "Memme", channel: ORIGINAL, bpm: "170",
+	arcadeID: "1503",
+	pumpoutID: 517,
+
 	XX: "=  @2.01 S22.lock",
 	Prime2: "S7 S11 S15 S18.ampass D9 D19.ampass D23  @1.06 Dp4",
 },
 
 
-"1504":
+"15__Tritium":
 {
 	title: "Tritium", artist: "Memme", channel: ORIGINAL, bpm: "180",
 	altID: "15_Tritium",
+	arcadeID: "1504",
+	pumpoutID: 675,
+
 	XX: "= D21`22  @1.04 Dp4",
 	Prime2: "@2.03 S8 S12 S17 D10 D14 S20 D19 D22",
 },
 
 
-"1505":
+"15__Cross_Over":
 {
 	title: "Cross Over", artist: "HyuN", channel: ORIGINAL, bpm: "200",
 	arcadeName: "CROSS OVER feat. LyuU",
 	altID: "15_Cross_Over",
+	arcadeID: "1505",
+	pumpoutID: 681,
+
 	XX: "= D15`14  @1.04 Dp4  @2.01 CoOp(x2)",
 	Prime2: "@2.04 S7 S11 S15 D14 S18 S22 D19 D23",
 },
 
 
-// "1506":
-
-
-"1507":
+"15__God_Mode":
 {
 	title: "God Mode feat. skizzo", artist: "Nato", channel: ORIGINAL, bpm: "152",
 	shortTitle: "God Mode",
+	arcadeID: "1507",
+	pumpoutID: 518,
+
 	XX: "=",
 	Prime2: "S5 S8 S13 S18 S20.ampass D9 D17 D21.ampass  @1.06 Dp4",
 },
 
 
-"1508":
+"15__Shub_Niggurath":
 {
 	title: "Shub Niggurath", artist: "Nato", channel: ORIGINAL, bpm: "220",
 	altID: "15_Shub_Niggurath",
+	arcadeID: "1508",
+	pumpoutID: 641,
+
 	XX: "= S12`11 D18`17",
 	Prime2: "@1.06 S11 S15 S19 D17 S21 S24 D23 D26  @2.01 Dp3",
 },
 
 
-"1509":
+"15__Further":
 {
 	title: "Further", artist: "Doin", channel: ORIGINAL, bpm: "194",
+	arcadeID: "1509",
+	pumpoutID: 519,
+
 	XX: "=  @2.00 S15",
 	Prime2: "S10 S18 S22 S24.ampass D14 D22 D25.ampass  @1.06 Dp3  @2.03 D17",
 },
 
 
-"1510":
+"15__The_Quick_Brown_Fox":
 {
 	title: "The Quick Brown Fox Jumps Over The Lazy Dog", artist: "Doin", channel: ORIGINAL, bpm: "200",
 	shortTitle: "The Quick Brown Fox",
 	altID: "15_The_Quick_Brown_Fox",
+	arcadeID: "1510",
+	pumpoutID: 686,
+
 	XX: "= S16`17 S19`20 D15`14  @2.02 D22",
 	Prime2: "@2.05 S10 S17 D14 S20 S23 D24",
 },
 
 
-"1511":
+"15__Silver_Beat":
 {
 	title: "Silver Beat feat. ChisaUezono", artist: "Tatsh", channel: ORIGINAL, bpm: "153",
 	shortTitle: "Silver Beat",
 	altID: "15_Silver_Beat",
+	arcadeID: "1511",
+	pumpoutID: 676,
+
 	XX: "=  @1.04 Dp3",
 	Prime2: "@2.03 S4 S7 S12 S16 S18.ampass D7 D12 D18",
 },
 
 
-"1512":
+"15__Bring_Back_the_Beat":
 {
 	title: "Bring Back the Beat", artist: "Lunatic Sounds", channel: ORIGINAL, bpm: "160",
+	arcadeID: "1512",
+	pumpoutID: 520,
+
 	XX: "=",
 	Prime2: "S7 S12 S17 D8 D19.ampass  @1.06 Dp5  @1.07 S19.ampass",
 },
 
 
-"1513":
+"15__Break_Out":
 {
 	title: "Break Out", artist: "Lunatic Sounds", channel: ORIGINAL, bpm: "175",
 	altID: "15_Break_Out",
+	arcadeID: "1513",
+	pumpoutID: 685,
+
 	XX: "= D20`22",
 	Prime2: "@2.05 S4 S8 S12 S16 D12 S19 D18 D22",
 },
 
 
-// "1514":
-// "1515":
-
-
-"1516":
+"15__Sarabande":
 {
 	title: "Sarabande", artist: "MAX", channel: ORIGINAL, bpm: "157",
+	arcadeID: "1516",
+	pumpoutID: 521,
+
 	XX: "= S19`18 D21`20  @2.05 CoOp(x2)",
 	Prime2: "S2 S4 S7 S16 S18.ampass D11 D18 D20.ampass  @1.06 Dp4  @2.03 D24  @2.04 S12  @2.05 S20",
 },
 
 
-"1517":
+"15__Kasou_Shinja":
 {
 	title: "Kasou Shinja", artist: "MAX", channel: ORIGINAL, bpm: "170",
+	arcadeID: "1517",
+	pumpoutID: 624,
+
 	XX: "=",
 	Prime2: "@1.02 S4 S7 S9 S16 S18 S20.ampass D12 D19 D23.ampass  @1.06 CoOp(x2).ampass  @2.01 Dp3",
 },
 
 
-"1518":
+"15__Overblow2":
 {
 	title: "Overblow2", artist: "Max", channel: ORIGINAL, bpm: "155",
 	altID: "15_Overblow2",
+	arcadeID: "1518",
+	pumpoutID: 644,
+
 	XX: "=",
 	Prime2: "@1.07 S5 S9 S15 D7 D14 S18.ampass D19.ampass  @2.01 Dp3",
 },
 
 
-// "1519":
-// "1520":
-// "1521":
-// "1522":
-// "1523":
-
-
-"1524":
+"15__Passing_Rider":
 {
 	title: "Passing Rider", artist: "mzet:-P", channel: ORIGINAL, bpm: "175",
 	altID: "15_Passing_Rider",
+	arcadeID: "1524",
+	pumpoutID: 679,
+
 	XX: "= S19`20  @1.04 Dp3",
 	Prime2: "@2.03 S8 S12 S16 S20 D10 D20.ampass",
 },
 
 
-"1525":
+"15__Arcana_Force":
 {
 	title: "Arcana Force", artist: "mzet:-P", channel: ORIGINAL, bpm: "175",
+	arcadeID: "1525",
+	pumpoutID: 514,
+
 	XX: "=",
 	Prime2: "S4 S9 S16 S20.ampass D10 D17 D20.ampass  @1.06 Dp2",
 },
 
 
-"1526":
+"15__Allegro_Furioso":
 {
 	title: "Allegro Furioso", artist: "DM Ashura", channel: ORIGINAL, bpm: "176",
 	altID: "15_Allegro_Furioso",
+	arcadeID: "1526",
+	pumpoutID: 632,
+
 	XX: "= S14`13 D15`14  @2.07 CoOp(x3)",
 	Prime2: "@1.04 S5 S10 S13 S17 D14 S20 D20  @2.01 Dp4",
 },
 
 
-// "1527":
-// "1528":
-
-
-"1529":
+"15__Anguished_Unmaking":
 {
 	title: "Anguished Unmaking", artist: "void", channel: ORIGINAL, bpm: "170",
 	altID: "15_Anguished_Unmaking",
+	arcadeID: "1529",
+	pumpoutID: 658,
+
 	XX: "=  @1.04 Dp3",
 	Prime2: "@2.00 S3 S5 S8 S15 D9 S17 D18  @2.04 D22",
 },
 
 
-"1530":
+"15__Utsushiyo_No_Kaze":
 {
 	title: "Utsushiyo No Kaze feat. Kana", artist: "void", channel: ORIGINAL, bpm: "152",
 	shortTitle: "Utsushiyo No Kaze",
 	altID: "15_Utsushiyo_No_Kaze",
+	arcadeID: "1530",
+	pumpoutID: 636,
+
 	XX: "= S17`16 D20`19",
 	Prime2: "@1.05 S7 S11 S16 D11 D19 S20.ampass D18.ampass  @2.01 Dp5",
 },
 
 
-// "1531":
-// "1532":
-
-
-"1533":
+"15__Hey_U":
 {
 	title: "Hey U", artist: "Mazo", channel: ORIGINAL, bpm: "162",
 	altID: "15_Hey_U",
+	arcadeID: "1533",
+	pumpoutID: 645,
+
 	XX: "=  @2.05 S3",
 	Prime2: "@1.07 S5 S10 S15 D10 D16  @2.01 Dp4",
 },
 
 
-// "1534":
-// "1535":
-
-
-"1536":
+"15__Twist_of_Fate":
 {
 	title: "Twist of Fate (feat. Ruriling)", artist: "Jehezukiel", channel: ORIGINAL, bpm: "141",
 	shortTitle: "Twist of Fate",
 	altID: "15_Twist_of_Fate",
+	arcadeID: "1536",
+	pumpoutID: 659,
+
 	XX: "= S19`18 D21`20  @1.04 Dp4  @2.03  CoOp(x2)",
 	Prime2: "@2.00 S4 S6 S10 S16 D10 D17 S18 D20",
 },
 
 
-"1537":
+"15__HTTP":
 {
 	title: "HTTP", artist: "Quree", channel: ORIGINAL, bpm: "147",
 	altID: "15_HTTP",
+	arcadeID: "1537",
+	pumpoutID: 660,
+
 	XX: "=  @1.04 Dp4  @2.03  CoOp(x2)",
 	Prime2: "@2.00 S2 S4 S7 S14 D10 D12 S17 S21 D19 D23",
 },
 
 
-"1538":
+"15__Up_n_Up":
 {
 	title: "Up & Up (Produced by AWAL)", artist: "Skizzo", channel: ORIGINAL, bpm: "150",
 	shortTitle: "Up & Up",
 	arcadeName: "Up & Up (Produced by AWAL)",
 	altID: "15_Up_n_Up",
+	arcadeID: "1538",
+	pumpoutID: 672,
+
 	XX: "=  @1.04 Dp5",
 	Prime2: "@2.02 S3 S5 S8 S17 D9 D18  @2.03 D20",
 },
 
 
-"1539":
+"15__Travel_to_Future":
 {
 	title: "Travel to Future", artist: "Neutral Moon", channel: ORIGINAL, bpm: "160",
 	altID: "15_Travel_to_Future",
+	arcadeID: "1539",
+	pumpoutID: 673,
+
 	XX: "=  @1.04 Dp3",
 	Prime2: "@2.02 S3 S7 S11 S17 D12 D18 D21  S19 D23",
 },
 
 
-"1540":
+"15__Rave_til_the_Earth_End":
 {
-	title: "Rave'til the earth's end", artist: "5argon", channel: ORIGINAL, bpm: "160",
+	title: "Rave'til the Earth's End", artist: "5argon", channel: ORIGINAL, bpm: "160",
 	altID: "15_Rave_til_the_earth_end",
+	arcadeID: "1540",
+	pumpoutID: 669,
+
 	XX: "=  @1.04 Dp3",
 	Prime2: "@2.01 S4 S7 S15 S17 D13 D18  S19 D20",
 },
 
 
-"1541":
+"15__Awakening":
 {
 	title: "Awakening", artist: "typeMARS", channel: ORIGINAL, bpm: "150",
 	altID: "15_Awakening",
+	arcadeID: "1541",
+	pumpoutID: 678,
+
 	XX: "=  @1.04 Dp2  @2.01 CoOp(x2)",
 	Prime2: "@2.03 S7 S10 S14 S16 D9 D13 D17 S19 D20",
 },
 
 
-"1542":
+"15__Escape":
 {
 	title: "Escape", artist: "D_AAN", channel: ORIGINAL, bpm: "220",
 	altID: "15_ESCAPE",
+	arcadeID: "1542",
+	pumpoutID: 689,
+
 	XX: "=  @1.04 Dp4  @2.02 D26.lock",  // TODO: D26 modified on 2.03
 	Prime2: "@2.05 S15 S18 D19 S21 S24 D22",
 },
 
 
-"1543":
+"15__Waltz_of_Doge":
 {
 	title: "Waltz of Doge", artist: "Cashew", channel: ORIGINAL, bpm: "250",
 	altID: "15_Waltz_of_Doge",
+	arcadeID: "1543",
+	pumpoutID: 682,
+
 	XX: "=  @1.04 Dp3",
 	Prime2: "@2.04 S8 S11 S14 S17 D12 D18 S19 D20 CoOp(x2).ampass",
 },
 
 
-"1544":
+"15__Bang_Bang_Bang":
 {
 	title: "Bang Bang Bang", artist: "Big Bang", bpm: "135",
+	arcadeID: "1544",
+	pumpoutID: 522,
+
 	Prime2: "S1 S3 S5 S10 S15 D6 D16 D20.ampass Sp3  @1.06 Dp3",
 },
 
 
-"1545":
+"15__Me_Gustas_Tu":
 {
 	title: "Me Gustas Tu", artist: "Gfriend", channel: KPOP, bpm: "106",
+	arcadeID: "1545",
+	pumpoutID: 523,
+
 	Prime2: "S2 S4 S6 S13 S15.ampass D6 D14 D16 D19.ampass Dp4",
 },
 
 
-"1546":
+"15__Rhythm_Ta":
 {
 	title: "Rhythm Ta", artist: "iKon", channel: KPOP, bpm: "82",
+	arcadeID: "1546",
+	pumpoutID: 524,
+
 	Prime2: "S2 S4 S7 S10 S15 D5 D11 D17.ampass  @1.06 Dp4",
 },
 
 
-"1547":
+"15__Chase_Me":
 {
 	title: "Chase Me", artist: "Dreamcatcher", channel: KPOP, bpm: "200",
+	arcadeID: "1547",
+	pumpoutID: 623,
+
 	XX: "= S17`18 S20`21 D18`19",
 	Prime2: "@1.02 S3 S5 S9 S15 S18 D11 D19 S21.ampass D23.ampass CoOp(x2)  @2.01 Dp3",
 },
 
 
-"1548":
+"15__Pick_Me":
 {
 	title: "Pick Me", artist: "Produce 101", channel: KPOP, bpm: "128",
+	arcadeID: "1548",
+	pumpoutID: 525,
+
 	Prime2: "S1 S3 S5 S8 S13 S15.ampass D6 D10 D16 Dp3 CoOp(x2).ampass  @1.06 D20.ampass",
 },
 
 
-"1549":
+"15__Jackpot":
 {
 	title: "Jackpot", artist: "Block B", channel: KPOP, bpm: "130",
+	arcadeID: "1549",
+	pumpoutID: 526,
+
 	Prime2: "S1 S3 S6 S9 S15 D6 D15  @1.06 Dp3",
 },
 
 
-"1550":
+"15__Gotta_Be_You":
 {
 	title: "Gotta Be You", artist: "2NE1", bpm: "130",
+	arcadeID: "1550",
+	pumpoutID: 648,
+
 	Prime2: "@1.08 S3 S5 S8 S15 D6 D16 S17 D18  @2.01 Dp3",
 },
 
 
-"1551":
+"15__Boombayah":
 {
 	title: "Boombayah", artist: "Black Pink", channel: KPOP, bpm: "125",
+	arcadeID: "1551",
+	pumpoutID: 527,
+
 	Prime2: "S2 S4 S6 S9 S13 S16.ampass D7 D15 D17.ampass CoOp(x2)  @1.06 Dp3",
 },
 
 
-"1552":
+"15__Sober":
 {
 	title: "Sober", artist: "Big Bang", bpm: "130",
 	altID: "15_Sober",
+	arcadeID: "1552",
+	pumpoutID: 640,
+
 	Prime2: "@1.06 S2 S4 S7 S13 D3 D14 S17.ampass D17.ampass CoOp(x2).ampass  @2.01 Dp3",
 },
 
 
-"1553":
+"15__Up_n_Down":
 {
 	title: "Up & Down", artist: "EXID", channel: KPOP, bpm: "112",
+	arcadeID: "1553",
+	pumpoutID: 528,
+
 	Prime2: "S2 S4 S7 S9 S15 S17.ampass D5 D15 CoOp(x2).ampass  @1.06 Dp5",
 },
 
 
-"1554":
+"15__Good_Night":
 {
 	title: "Good Night", artist: "Dreamcatcher", channel: KPOP, bpm: "196",
 	altID: "15_Good_Night",
+	arcadeID: "1554",
+	pumpoutID: 631,
+
 	XX: "=",
 	Prime2: "@1.04 S3 S5 S9 S17 D5 D19 S20 S23 D22 D24  @2.01 Dp3",
 },
 
 
-"1555":
+"15__Youre_the_Best":
 {
 	title: "You're the Best", artist: "Mamamoo", channel: KPOP, bpm: "122",
+	arcadeID: "1555",
+	pumpoutID: 529,
+
 	Prime2: "S2 S4 S6 S10 S15 D7 D10 D16.ampass  @1.06 Dp2  @2.00 CoOp(x2)",
 },
 
 
-"1556":
+"15__Number_Nine":
 {
 	title: "Number Nine", artist: "T-ara", channel: KPOP, bpm: "128",
+	arcadeID: "1556",
+	pumpoutID: 530,
+
 	Prime2: "S3 S5 S8 S11 S13 S15.ampass D8 D15 D17.ampass  @1.06 Dp4",
 },
 
 
-"1557":
+"15__Acquaintance":
 {
 	title: "Acquaintance", artist: "Outsider", channel: KPOP, bpm: "130",
+	arcadeID: "1557",
+	pumpoutID: 513,
+
 	Prime2: "S3 S7 S9 S17 S20.ampass D7 D18 D21.ampass CoOp(x2)  @1.06 Dp4",
 },
 
 
-// "1558":
-
-
-"1559":
+"15__Energetic":
 {
 	title: "Energetic", artist: "Wanna One", channel: KPOP, bpm: "125",
 	altID: "15_Energetic",
+	arcadeID: "1559",
+	pumpoutID: 661,
+
 	XX: "=  @1.04 Dp3",
 	Prime2: "@2.00 S2 S4 S6 S9 S13 D6 D14 S16 D16 D19",
 },
 
 
-"1560":
+"15__Beautiful":
 {
 	title: "Beautiful", artist: "Wanna One", channel: KPOP, bpm: "80",
 	altID: "15_Beautiful",
+	arcadeID: "1560",
+	pumpoutID: 662,
+
 	XX: "= S14`15  @1.04 Dp3",
 	Prime2: "@2.00 S2 S3 S5 S9 S15 D5 D12 D18.ampass",
 },
 
 
-"1561":
+"15__Pick_Me_season_2":
 {
 	title: "Pick Me", artist: "Produce 101 Season 2", channel: KPOP, bpm: "128",
+	arcadeID: "1561",
+	pumpoutID: 668,
+
 	XX: "= S15`14  @1.04 Dp3",
 	Prime2: "@2.01 S2 S4 S6 S14 D5 D16  S17 D18",
 },
 
 
-"1562":
+"15__Really_Really":
 {
 	title: "Really Really", artist: "Winner", channel: KPOP, bpm: "103",
 	altID: "15_Really_Really",
+	arcadeID: "1562",
+	pumpoutID: 663,
+
 	XX: "= S7`6  @1.04 Dp3",
 	Prime2: "@2.00 S2 S4 S6 S13 D7 S15 D16",
 },
 
 
-// "1563":
-
-
-"1564":
+"15__Moon_Light_Dance":
 {
 	title: "Moon Light Dance", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "182",
+	arcadeID: "1564",
+	pumpoutID: 531,
+
 	XX: "=",
 	Prime2: "S3 S7 S11 S14 S17.ampass D4 D15 D19.ampass  @1.06 Dp4  @2.02 CoOp(x2)",
 },
 
 
-// "1565":
-// "1566":
-// "1567":
-// "1568":
-// "1569":
-// "1570":
-// "1571":
-// "1572":
-// "1573":
-// "1574":
-
-
-"1575":
+"15__Step":
 {
 	title: "Step", artist: "S.I.D-Sound", channel: WORLD, bpm: "156",
+	arcadeID: "1575",
+	pumpoutID: 625,
+
 	XX: "=",
 	Prime2: "@1.02 S7 S13 S17 D12 D18 D20.ampass  @2.01 Dp2",
 },
 
 
-"1576":
+"15__Just_Kiddin":
 {
 	title: "Just Kiddin", artist: "Vospi", channel: WORLD, bpm: "125",
+	arcadeID: "1576",
+	pumpoutID: 621,
+
 	XX: "=",
 	Prime2: "@1.01 S5 S13 S16 D9  D18.ampass  @1.06 Dp5",
 },
 
 
-"1577":
+"15__Nakakapagpabagabag":
 {
 	title: "Nakakapagpabagabag", artist: "Dasu feat. Kagamine Len", channel: WORLD, bpm: "145",
 	altID: "1576+_200_Nakakapagpabagabag",
+	arcadeID: "1577",
+	pumpoutID: 654,
+
 	XX: "= S15`14 S19`18 D16`15 D20`19",
 	Prime2: "@1.10 S10 S14 S18 D15 D19.ampass CoOp(x2)  @2.01 Dp4",
 },
 
 
-"1578":
+"15__Heart_Attack":
 {
 	title: "Heart Attack", artist: "DJ Counterforce", channel: ORIGINAL, bpm: "148",
 	altID: "1576+_250_Heart_Attack",
+	arcadeID: "1578",
+	pumpoutID: 653,
+
 	XX: "=",
 	Prime2: "@1.10 S7 S11 S16 D9 D18  S18 D20  @2.01 Dp3",
 },
 
 
-// "1579":
-// "1580":
-// "1581":
-// "1582":
-// "1583":
-
-
-"1584":
+"15__Hush":
 {
 	title: "HUSH", artist: "Yassi Pressman & Nadine Lustre", channel: WORLD, bpm: "82",
 	region: PHILIPPINES,
@@ -1722,345 +2196,434 @@ var readableTracklist = {
 		"XX": { region: "" }
 	},
 	altID: "15_Hush",
+	arcadeID: "1584",
+	pumpoutID: 629,
+
 	XX: "=  @1.04 Dp4",
 	Prime2: "@1.03 S3 S5 S8 S14 D6 D15",
 },
 
 
-// "1585":
-// "1586":
-// "1587":
-// "1588":
-// "1589":
-// "1590":
-// "1591":
-// "1592":
-
-
-"1593":
+"15__V3":
 {
 	title: "V3", artist: "Beautiful Day", channel: XROSS, bpm: "160",
 	altID: "15_V3",
+	arcadeID: "1593",
+	pumpoutID: 664,
+
 	XX: "=  @1.04 Dp2",
 	Prime2: "@2.00 S6 S9 S14 D9 S17 D18 D24  @2.03 D21",
 },
 
 
-"1594":
+"15__Cross_Time":
 {
 	title: "Cross Time", artist: "Brandy", channel: XROSS, bpm: "160",
 	altID: "1576+_300_Cross_Time",
+	arcadeID: "1594",
+	pumpoutID: 655,
+
 	XX: "= S12`11 S16`15  @2.07 D22",
 	Prime2: "@1.10 S3 S7 S11 S15 S18.ampass D11 D17 D20.ampass  @2.01 Dp3",
 },
 
 
-"1595":
+"15__The_Festival_of_Ghost2":
 {
 	title: "The Festival of Ghost2 (Sneak)", artist: "Brandy", channel: XROSS, bpm: "136",
 	shortTitle: "The Festival of Ghost2",
 	altID: "15_The_Festival_of_Ghost2",
+	arcadeID: "1595",
+	pumpoutID: 670,
+
 	XX: "=  @1.04 Dp5",
 	Prime2: "@2.01 S11 S16 S18 D11 D17  S20.ampass D20.ampass",
 },
 
 
-// "1596":
-
-
-"1597":
+"15__Helix":
 {
 	title: "Helix", artist: "ESTi", channel: XROSS, bpm: "175",
 	altID: "15_Helix",
+	arcadeID: "1597",
+	pumpoutID: 627,
+
 	XX: "=",
 	Prime2: "@1.03 S5 S7 S11 S16 S18 D11 D15 S19.ampass D19.ampass  @2.01 Dp5",
 },
 
 
-"1598":
+"15__Hyperion":
 {
 	title: "Hyperion", artist: "M2U", channel: XROSS, bpm: "145",
 	altID: "15_Hyperion",
+	arcadeID: "1598",
+	pumpoutID: 628,
+
 	XX: "=",
 	Prime2: "@1.03 S5 S9 S14 D11 D18 S18.ampass D20.ampass  @2.01 Dp4",
 },
 
 
-"15A0":
+"15__Black_Dragon":
 {
 	title: "Black Dragon", artist: "Memme", channel: XROSS, bpm: "162",
 	altID: "15_Black_Dragon",
+	arcadeID: "15A0",
+	pumpoutID: 683,
+
 	XX: "=  @1.04 Dp4",
 	Prime2: "@2.04 S5 S8 S11 S17 D11 D17 S20 D19",
 },
 
 
-"15A1":
+"15__BSPower_Explosion":
 {
 	title: "BSPower Explosion", artist: "Memme", channel: XROSS, bpm: "180",
 	altID: "15_BSPower_Explosion",
+	arcadeID: "15A1",
+	pumpoutID: 688,
+
 	XX: "= S16`17 S19`20 S21`22  @1.04 Dp5  @2.02 CoOp(x2)",  // TODO: CoOp(x2) modified on 2.03
 	Prime2: "@2.05 S8 S11 S17 D13 S20 S22 D20 D23",
 },
 
 
-"15A2":
+"15__Start_On_Red":
 {
 	title: "Start On Red", artist: "Nato", channel: XROSS, bpm: "160",
 	altID: "15_Start_On_Red",
+	arcadeID: "15A2",
+	pumpoutID: 637,
+
 	XX: "=",
 	Prime2: "@1.05 S4 S8 S11 S15 D12 S19 D20  @2.01 Dp3  @2.04 D18",
 },
 
 
-"15A3":
+"15__Time_Attack_Blue":
 {
 	title: "Time Attack <Blue>", artist: "r300k", channel: XROSS, bpm: "119",
+	arcadeID: "15A3",
+	pumpoutID: 650,
+
 	XX: "=",
 	Prime2: "@1.09 S8 S15 D10 D16 S18 D20  @2.01 Dp3",
 },
 
 
-"15A4":
+"15__Magical_Vacation":
 {
 	title: "Magical Vacation", artist: "S.I.D-Sound", channel: XROSS, bpm: "154",
+	arcadeID: "15A4",
+	pumpoutID: 642,
+
 	altID: "15_Magical_Vacation",
 	XX: "= S18`19  @2.03  CoOp(x2)",
 	Prime2: "@1.06 S6 S11 S16 D7 D13 S19.ampass D18.ampass  @2.01 Dp3",
 },
 
 
-"15A5":
+"15__Visual_Dream_II":
 {
 	title: "Visual Dream II (In Fiction)", artist: "Aragon", channel: XROSS, bpm: "170",
 	shortTitle: "Visual Dream II",
 	arcadeName: "Visual Dream2 (In Fiction)",
 	altID: "15_Visual_Dream_II",
+	arcadeID: "15A5",
+	pumpoutID: 687,
+
 	XX: "=  @1.04 Dp3",
 	Prime2: "@2.05 S5 S8 S16 D10 S18 D19",
 },
 
 
-"15A6":
+"15__Death_Moon":
 {
 	title: "Death Moon", artist: "SHK", channel: XROSS, bpm: "160",
+	arcadeID: "15A6",
+	pumpoutID: 532,
+
 	XX: "= S11`10",
 	Prime2: "S3 S6 S10 S14 S17 S19.ampass D7 D17 D21.ampass CoOp(x2)  @1.06 Dp3",
 },
 
 
-"15A7":
+"15__Super_Stylin":
 {
 	title: "Super Stylin'", artist: "Warak", channel: XROSS, bpm: "146",
 	altID: "15_Super_Stylin",
+	arcadeID: "15A7",
+	pumpoutID: 633,
+
 	XX: "=  @2.07 D21.lock",
 	Prime2: "@1.04 S7 S9 S11 S17 D9 D12 D17.ampass  @2.01 Dp4",
 },
 
 
-"15A8":
+"15__Christmas_Memories":
 {
 	title: "Christmas Memories", artist: "Beautiful Day remixed by Warak", channel: XROSS, bpm: "170",
+	arcadeID: "15A8",
+	pumpoutID: 533,
+
 	XX: "= ",
 	Prime2: "S3 S5 S8 S14 D9 D15 CoOp(x2)  @1.06 Dp4",
 },
 
 
-"15A9":
+"15__Keep_On":
 {
 	title: "Keep On!", artist: "AmamoriP", channel: XROSS, bpm: "185",
+	arcadeID: "15A9",
+	pumpoutID: 656,
+
 	XX: "= D21`22",
 	Prime2: "@1.10 S6 S12 S15 D12 D17  S18 S21 D20 D22  @2.01 Dp3",
 },
 
 
-"15B0":
+"15__Asterios_ReEntry":
 {
 	title: "Asterios -ReEntry-", artist: "ATAS (NaSch)", channel: XROSS, bpm: "148",
+	arcadeID: "15B0",
+	pumpoutID: 515,
+
 	XX: "= D22`21",
 	Prime2: "S4 S6 S11 S14 S17 S19.ampass D8 D18 D21.ampass CoOp(x2).ampass  @1.06 Dp3",
 },
 
 
-"15B1":
+"15__Le_Grand_Bleu":
 {
 	title: "Le Grand Bleu", artist: "KIEN", channel: XROSS, bpm: "165",
+	arcadeID: "15B1",
+	pumpoutID: 534,
+
 	XX: "=",
 	Prime2: "S7 S12 S16 S18.ampass D9 D18 D20.ampass  @1.06 Dp6  @2.00 S20",
 },
 
 
-"15B2":
+"15__Infinity":
 {
 	title: "Infinity", artist: "Lunatic Sounds", channel: XROSS, bpm: "175",
-	altID: "15_Infinity",
 	arcadeNameMaxEditDistance: 1, // '(INFINITY'
+	altID: "15_Infinity",
+	arcadeID: "15B2",
+	pumpoutID: 665,
+
 	XX: "= D23`24  @1.04 Dp4",
 	Prime2: "@2.00 S10 S15 D10 CoOp(x3) S18 S21 D19 D24",
 },
 
 
-"15B3":
+"15__Gothique_Resonance":
 {
 	title: "Gothique Resonance", artist: "P4Koo", channel: XROSS, bpm: "174",
 	altID: "15_Gothique_Resonance",
+	arcadeID: "15B3",
+	pumpoutID: 677,
+
 	XX: "= D21`20  @1.04 Dp4",
 	Prime2: "@2.03 S7 S11 S18 S20 D12 D20.ampass",
 },
 
 
-// "15B4":
-
-
-"15B5":
+"15__Bedlam":
 {
 	title: "Bedlam", artist: "SANY-ON", channel: XROSS, bpm: "183",
 	altID: "15_Bedlam",
+	arcadeID: "15B5",
+	pumpoutID: 646,
+
 	XX: "=  @2.01 CoOp(x2)",
 	Prime2: "@1.07 S8 S15 S18 D13 D20 S22 D24  @2.01 Dp4",
 },
 
 
-"15B6":
+"15__A_Site_De_La_Rue":
 {
 	title: "A Site De La Rue", artist: "STREME REVERIE", channel: XROSS, bpm: "186",
 	altID: "15_A_Site_De_La_Rue",
+	arcadeID: "15B6",
+	pumpoutID: 684,
+
 	XX: "= S16`17 S19`20 D19`20",
 	Prime2: "@2.04 S8 S11 S17 D12 S20 D20 D24",
 },
 
 
-"15B7":
+"15__Clue":
 {
 	title: "Clue", artist: "Transin", channel: XROSS, bpm: "140",
+	arcadeID: "15B7",
+	pumpoutID: 620,
+
 	XX: "=  @2.01 D22",
 	Prime2: "@1.01 S4 S8 S12 S16 D10 D18  S18.ampass D20.ampass  @1.06 Dp4",
 },
 
 
-"15B8":
+"15__Redline":
 {
 	title: "Redline", artist: "Archefluxx", channel: XROSS, bpm: "170",
 	altID: "15_Redline",
+	arcadeID: "15B8",
+	pumpoutID: 634,
+
 	XX: "= D15`13 D22`21  @2.05 CoOp(x3)",
 	Prime2: "@1.04 S5 S10 S16 D13 D20 S18 D19  @2.01 Dp5  @2.04 D21",
 },
 
 
-"15B9":
+"15__Kill_Them":
 {
 	title: "Kill Them!", artist: "Archefluxx", channel: XROSS, bpm: "170",
 	altID: "15B8+_Kill_Them",
+	arcadeID: "15B9",
+	pumpoutID: 651,
+
 	XX: "=",
 	Prime2: "@1.09 S5 S10 S15 D9 D19 S18.ampass  @2.01 Dp4",
 },
 
 
-"15C0":
+"15__Donatello":
 {
 	title: "Donatello", artist: "Triplestar", channel: XROSS, bpm: "175",
 	altID: "15_Donatello",
+	arcadeID: "15C0",
+	pumpoutID: 671,
+
 	XX: "= S13`12  @1.04 Dp4",
 	Prime2: "@2.02 S12 S17 S21 D18  D22.ampass",
 },
 
 
-// "15C1":
-// "15C2":
-// "15C3":
-
-
-"15C4":
+"15__Seize_My_Day":
 {
 	title: "Seize My Day", artist: "Rainbowdragoneyes", channel: WORLD, bpm: "160",
 	altID: "15_Seize_My_Day",
+	arcadeID: "15C4",
+	pumpoutID: 638,
+
 	XX: "=",
 	Prime2: "@1.05 S2 S6 S10 S14 S18 D7 D12 D19 D22.ampass  @2.01 Dp4",
 },
 
 
-"15C5":
+"15__Fallen_Angel":
 {
 	title: "Fallen Angel", artist: "DM Ashura", channel: WORLD, bpm: "157",
 	altID: "15C4+_Fallen_Angel",
+	arcadeID: "15C5",
+	pumpoutID: 494,
+
 	XX: "= -D20 D20`21",  // report by Haru
 	Prime2: "@1.08 S6 S10 S17 D10 D15 D21 D20.ampass  @2.01 Dp3  @2.05 S19",
 },
 
 
-"15D0":
+"15__Vulcan":
 {
 	title: "Vulcan", artist: "Memme", channel: ORIGINAL, bpm: "175", duration: REMIX,
+	arcadeID: "15D0",
+	pumpoutID: 535,
+
 	XX: "=  @2.06 S18",
 	Prime2: "S22 D24",
 },
 
 
-// "15D1":
-
-
-"15D2":
+"15__Shub_Sothoth":
 {
 	title: "Shub Sothoth", artist: "Nato & EXC", channel: ORIGINAL, bpm: "220", duration: REMIX,
 	altID: "15_Shub_Sothoth",
-	XX: "=",  //??? D27.updated
-	// D27-XX - https://www.youtube.com/watch?v=O5xatKUFxbY
+	arcadeID: "15D2",
+	pumpoutID: 690,
+
+	XX: "=",
+		//??? D27.updated
+		// D27-XX - https://www.youtube.com/watch?v=O5xatKUFxbY
 	Prime2: "@2.05 S25 D27",
 },
 
 
-"15D3":
+"15__Leather":
 {
 	title: "Leather", artist: "Doin", channel: ORIGINAL, bpm: "200", duration: REMIX,
 	altID: "15_Leather",
-	XX: "=",  //??? S24.updated D26.updated
-	// S24-XX - https://www.youtube.com/watch?v=62pnZ8a-aHw
-	// D26-XX - https://www.youtube.com/watch?v=uSUHgPaEbXo
+	arcadeID: "15D3",
+	pumpoutID: 647,
+
+	XX: "=",
+		//??? S24.updated D26.updated
+		// S24-XX - https://www.youtube.com/watch?v=62pnZ8a-aHw
+		// D26-XX - https://www.youtube.com/watch?v=uSUHgPaEbXo
 	Prime2: "@1.07 S18 S21 D22 S24 D26",
 },
 
 
-"15E0":
+"15__Me_Gustas_Tu__FULL":
 {
 	title: "Me Gustas Tu  [FULL]", artist: "GFriend", channel: KPOP, bpm: "106",
+	arcadeID: "15E0",
+	pumpoutID: 622,
+
 	Prime2: "@1.01 S16 D17",
 },
 
 
-"15E1":
+"15__Bang_Bang_Bang__FULL":
 {
 	title: "Bang Bang Bang  [FULL]", artist: "Big Bang", bpm: "135",
+	arcadeID: "15E1",
+	pumpoutID: 536,
+
 	Prime2: "S6 S18 D20",
 },
 
 
-"15E2":
+"15__Boombayah__FULL":
 {
 	title: "Boombayah  [FULL]", artist: "Black Pink", channel: KPOP, bpm: "125",
+	arcadeID: "15E2",
+	pumpoutID: 626,
+
 	Prime2: "@1.02 S10 S17 D18",
 },
 
 
-"15E3":
+"15__Up_n_Down__FULL":
 {
 	title: "Up & Down  [FULL]", artist: "EXID", channel: KPOP, bpm: "112",
 	altID: "15_Up_Down_FULL",
+	arcadeID: "15E3",
+	pumpoutID: 639,
+
 	Prime2: "@1.05 S8 S18 D19",
 },
 
 
-"15E4":
+"15__Acquaintance__FULL":
 {
 	title: "Acquaintance  [FULL]", artist: "Outsider", channel: KPOP, bpm: "130",
 	altID: "15_Acquaintance_FULL",
+	arcadeID: "15E4",
+	pumpoutID: 643,
+
 	Prime2: "@1.06 S20 D22",
 },
 
 
-"15E6":
+"15__Hush__FULL":
 {
 	title: "HUSH  [FULL]", artist: "Yassi Pressman & Nadine Lustre", channel: WORLD, bpm: "82", region: PHILIPPINES,
 	altID: "15_Hush_FULL",
+	arcadeID: "15E6",
+	pumpoutID: 630,
+
 	changes: {
 		"XX": { region: "" }
 	},
@@ -2069,71 +2632,89 @@ var readableTracklist = {
 },
 
 
-"15E7":
+"15__Chase_Me__FULL":
 {
 	title: "Chase Me  [FULL]", artist: "Dreamcatcher", channel: KPOP, bpm: "200",
 	altID: "15E5",
+	arcadeID: "15E7",
+	pumpoutID: 652,
+
 	XX: "=",
 	Prime2: "@1.09 S19 D25",
 },
 
 
-"15F0":
+"15__Sarabande__SHORT":
 {
 	title: "Sarabande  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "157",
 	arcadeName: "Sarabande - SHORT CUT",
+	arcadeID: "15F0",
+	pumpoutID: 537,
+
 	XX: "= S17`16 S19`18 D18`17",
 	Prime2: "S9 S16 S18 D17",
 },
 
 
-"15F1":
+"15__Death_Moon__SHORT":
 {
 	title: "Death Moon  [SHORT]", artist: "SHK", channel: XROSS, bpm: "160",
 	arcadeName: "Death Moon - SHORT CUT",
+	arcadeID: "15F1",
+	pumpoutID: 538,
+
 	XX: "= S16`15 D18`17 D23`22",
 	Prime2: "S9 S15 S19 D17 D22  @1.07 S22",
 },
 
 
-// "15F2":
-
-
-"15F3":
+"15__Prime2_Opening__SHORT":
 {
 	title: "PRIME2 Opening  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "145",
 	arcadeName: "PRIME2 Opening - SHORT CUT",
 	altID: "15_Prime2_Opening",
+	arcadeID: "15F3",
+	pumpoutID: 635,
+
 	XX: "=",
 	Prime2: "@1.04 S7 S12 S17 D18",
 },
 
 
-"15F4":
+"15__Shub_Niggurath__SHORT":
 {
 	title: "Shub Niggurath  [SHORT]", artist: "Nato", channel: ORIGINAL, bpm: "220",
 	arcadeName: "Shub Niggurath - SHORT CUT",
 	altID: "15F3+_Shub_Niggurath_SHORT",
+	arcadeID: "15F4",
+	pumpoutID: 649,
+
 	XX: "= S21`22",
 	Prime2: "@1.08 S18 S22 D23",
 },
 
 
-"15F5":
+"15__Hyperion__SHORT":
 {
 	title: "Hyperion  [SHORT]", artist: "M2U", channel: XROSS, bpm: "145",
 	arcadeName: "Hyperion - SHORT CUT",
 	altID: "15_Hyperion_SHORT",
+	arcadeID: "15F5",
+	pumpoutID: 666,
+
 	XX: "= S16`15",
 	Prime2: "@2.00 S15 S20 D21",
 },
 
 
-"15F6":
+"15__Kasou_Shinja__SHORT":
 {
 	title: "Kasou Shinja  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "170",
 	arcadeName: "Kasou Shinja - SHORT CUT",
 	altID: "15_Kasou Shinja_SHORT",
+	arcadeID: "15F6",
+	pumpoutID: 667,
+
 	XX: "=",
 	Prime2: "@2.00 S20 D21",
 },
@@ -2143,218 +2724,289 @@ var readableTracklist = {
 // \14 - Prime
 
 
-"1401":
+"14__Nemesis":
 {
 	title: "Nemesis", artist: "M2U", channel: ORIGINAL, bpm: "160",
+	arcadeID: "1401",
+	pumpoutID: 281,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "S4 S7 S11 S16 S18 D12 D20  @1.01 CoOp(x2)  @1.15 Dp4",
 },
 
 
-"1402":
+"14__Katkoi":
 {
 	title: "Katkoi", artist: "M2U", channel: ORIGINAL, bpm: "180",
+	arcadeID: "1402",
+	pumpoutID: 348,
+
 	XX: "=",
 	Prime2: "=  @1.08 Dp4",
 	Prime: "@1.07 S7 S10 S14 S18 D12 D15 D19",
 },
 
 
-"1403":
+"14__Latino_Virus":
 {
 	title: "Latino Virus", artist: "Warak", channel: ORIGINAL, bpm: "170",
+	arcadeID: "1403",
+	pumpoutID: 282,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "S3 S7 S9 S17 D12 D19 CoOp(x2)  @1.12 Dp3.ucs",
 },
 
 
-"1404":
+"14__Elysium":
 {
 	title: "Elysium", artist: "Warak", channel: ORIGINAL, bpm: "128",
+	arcadeID: "1404",
+	pumpoutID: 476,
+
 	XX: "= S14`15 D15`16",
 	Prime2: "=",
 	Prime: "@1.13 S4 S8 S15 D10 D16  @1.15 Dp2",
 },
 
 
-"1405":
+"14__Yog_Sothoth":
 {
 	title: "Yog-Sothoth", artist: "Nato", channel: ORIGINAL, bpm: "200",
+	arcadeID: "1405",
+	pumpoutID: 283,
+
 	XX: "= S17`18 D18`17 D24`23",
 	Prime2: "=  @1.03 S16.ucs.ampass",
 	Prime: "S9 S18 S21 S23 D23 D25  @1.01 CoOp(x3)  @1.15 Dp5  @1.19 D17",
 },
 
 
-"1406":
+"14__Silhouette_Effect":
 {
 	title: "Silhouette Effect", artist: "Nato", channel: ORIGINAL, bpm: "167",
+	arcadeID: "1406",
+	pumpoutID: 352,
+
 	XX: "=  @2.02 CoOp(x2)",
 	Prime2: "=",
 	Prime: "@1.08 S4 S7 S10 D12  S18 D20  @1.15 Dp4",
 },
 
 
-"1407":
+"14__Chinese_Restaurant":
 {
 	title: "Chinese Restaurant", artist: "Memme", channel: ORIGINAL, bpm: "175",
+	arcadeID: "1407",
+	pumpoutID: 284,
+
 	XX: "= D16`17 D19`20  @2.06 CoOp(x3)",
 	Prime2: "=",
 	Prime: "S4 S7 S10 S16 S18 D10 D20  @1.15 Dp3  @1.19 D17.ucs",
 },
 
 
-"1408":
+"14__Avalanche":
 {
 	title: "Avalanche", artist: "Memme", channel: ORIGINAL, bpm: "175",
+	arcadeID: "1408",
+	pumpoutID: 327,
+
 	XX: "= S19`18 D11`10 D19`18 D20`19 D25`24",
 	Prime2: "=  @1.03 S16.ucs.ampass D18.ucs.ampass  @2.00 CoOp(x3)",
 	Prime: "@1.04 S4 S6 S9 S18 D10 D19 D24  @1.13 S22  @1.15 Dp3",
 },
 
 
-"1409":
+"14__Force_of_Ra":
 {
 	title: "Force of Ra", artist: "Memme", channel: ORIGINAL, bpm: "180",
+	arcadeID: "1409",
+	pumpoutID: 502,
+
 	XX: "=",
 	Prime2: "=  @1.08 Dp3",
 	Prime: "@1.16 S7 S12 S17 D12  S19 D20",
 },
 
 
-"1410":
+"14__Requiem":
 {
 	title: "Requiem", artist: "MAX", channel: ORIGINAL, bpm: "160",
+	arcadeID: "1410",
+	pumpoutID: 285,
+
 	XX: "= D18`19",
 	Prime2: "=",
 	Prime: "S4 S7 S11 S16 S19 D9 D19 D23  @1.15 Dp4",
 },
 
 
-"1411":
+"14__You_Got_Me_Crazy":
 {
 	title: "You Got Me Crazy", artist: "MAX", channel: ORIGINAL, bpm: "128",
+	arcadeID: "1411",
+	pumpoutID: 330,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "@1.05 S4 S9 S17 S18 D5 D18  @1.06 S6  @1.15 Dp4",
 },
 
 
-"1412":
+"14__B2":
 {
 	title: "B2", artist: "MAX", channel: ORIGINAL, bpm: "158",
+	arcadeID: "1412",
+	pumpoutID: 349,
+
 	XX: "= S10`11 D12`13",
 	Prime2: "=",
 	Prime: "@1.07 S4 S7 S11 S16 S18 D13 D19  @1.15 Dp3",
 },
 
 
-"1413":
+"14__Meteorize":
 {
 	title: "Meteorize", artist: "Paul Bazooka", channel: ORIGINAL, bpm: "136",
+	arcadeID: "1413",
+	pumpoutID: 286,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "S3 S5 S10 S15 D8 D16  @1.07 S17 D18  @1.15 Dp3",
 },
 
 
-"1414":
+"14__Mad5cience":
 {
 	title: "Mad5cience", artist: "Paul Bazooka", channel: ORIGINAL, bpm: "130",
 	arcadeNameMaxEditDistance: 1, // 'Mad5Science'
+	arcadeID: "1414",
+	pumpoutID: 481,
+
 	XX: "= S15`16",
 	Prime2: "=  @1.08 Dp5",
 	Prime: "@1.15 S5 S16 D7 D16  S20",
 },
 
 
-"1415":
+"14__Hestia":
 {
 	title: "Hestia", artist: "Gentle Stick", channel: ORIGINAL, bpm: "150",
+	arcadeID: "1415",
+	pumpoutID: 6,
 	XX: "= S19`18",
 	Prime2: "= -S17 -D18  @1.08 Dp3",
 	Prime: "@1.01 S4 S7 S10 S18 D11 D20  @1.19 S17.ucs D18.ucs",
 },
 
 
-"1416":
+"14__Amphitryon":
 {
 	title: "Amphitryon", artist: "Gentle Stick", channel: ORIGINAL, bpm: "155",
+	arcadeID: "1416",
+	pumpoutID: 504,
+
 	XX: "= S7`6  @2.05 S4",
 	Prime2: "=  @1.08 Dp4",
 	Prime: "@1.17 S6 S11 D12  S18 D20",
 },
 
 
-"1417":
+"14__Leakage_Voltage":
 {
 	title: "Leakage Voltage", artist: "Doin", channel: ORIGINAL, bpm: "180",
+	arcadeID: "1417",
+	pumpoutID: 287,
+
 	XX: "= S21`20 D18`19",
 	Prime2: "= -D20  @1.08 Dp3",
 	Prime: "S10 S15 S17 D12 D19  @1.12 S20.ucs D20.ucs D22.ucs",
 },
 
 
-"1418":
+"14__Removable_Disk0":
 {
 	title: "Removable Disk0", artist: "Doin", channel: ORIGINAL, bpm: "130",
+	arcadeID: "1418",
+	pumpoutID: 507,
+
 	XX: "=  @2.05 S9",
 	Prime2: "=  @1.08 Dp3  @2.04 CoOp(x2)",
 	Prime: "@1.18 S3 S6 S15 D5 D16",
 },
 
 
-"1419":
+"14__Super_Fantasy":
 {
 	title: "Super Fantasy", artist: "SHK", channel: ORIGINAL, bpm: "145",
+	arcadeID: "1419",
+	pumpoutID: 288,
+
 	XX: "= D22`21  @1.02 S20.lock",
 	Prime2: "= -D16",
 	Prime: "S4 S7 S10 S16 S19 D11 D21 CoOp(x2)  @1.14 S14.ucs D16.ucs  @1.15 Dp2  @1.19 D18",
 },
 
 
-"1420":
+"14__Violet_Perfume":
 {
 	title: "Violet Perfume", artist: "SHK", channel: ORIGINAL, bpm: "140",
+	arcadeID: "1420",
+	pumpoutID: 469,
+
 	XX: "= S13`14 D14`15 D18`19  @2.05 CoOp(x2)",
 	Prime2: "=",
 	Prime: "@1.12 S4 S6 S8 S14 S17 D10 D15 D19  @1.15 Dp4",
 },
 
 
-"1421":
+"14__Red_Swan":
 {
 	title: "Red Swan", artist: "Yahpp", bpm: "172",
+	arcadeID: "1421",
+	pumpoutID: 289,
+
 	XX: "= S7`6 S9`8 D22`21",
 	Prime2: "=",
 	Prime: "S4 S6 S8 S18 D12 D20 D21  @1.02 CoOp(x2)  @1.12 Dp4.ucs Dp20.ucs",
 },
 
 
-"1422":
+"14__Hyacinth":
 {
 	title: "Hyacinth", artist: "Yahpp", bpm: "192",
+	arcadeID: "1422",
+	pumpoutID: 462,
+
 	XX: "= S22`21 D24`23  @2.05 S5",
 	Prime2: "=  @1.08 Dp4",
 	Prime: "@1.10 S9 S13 D12  S18 S21 D19 D23",
 },
 
 
-"1423":
+"14__Blaze_Emotion_Band_version":
 {
 	title: "Blaze emotion (Band version)", artist: "Yahpp", bpm: "170",
 	shortTitle: "Blaze emotion\n(Band version)",
+	arcadeID: "1423",
+	pumpoutID: 505,
+
 	XX: "=",
 	Prime2: "=  @1.08 Dp3",
 	Prime: "@1.17 S2 S8 S17 D4 D18",
 },
 
 
-"1424":
+"14__1950":
 {
 	title: "1950", artist: "Slam", channel: ORIGINAL, bpm: "200",
+	arcadeID: "1424",
+	pumpoutID: 350,
+
 	XX: "= S16`17 D22`21",  //??? S25.updated D27.updated
 	// S25-XX - https://www.youtube.com/watch?v=G0on3vr0qfk
 	// S25 XX vs P2 - https://www.youtube.com/watch?v=6GJuzGCR1aE
@@ -2364,612 +3016,803 @@ var readableTracklist = {
 },
 
 
-"1425":
+"14__Sugar_Conspiracy_Theory":
 {
 	title: "Sugar Conspiracy Theory", artist: "MAX", channel: ORIGINAL, bpm: "170",
+	arcadeID: "1425",
+	pumpoutID: 339,
+
 	XX: "= S14`15 D16`17",
 	Prime2: "=  @2.00 CoOp(x2)",
 	Prime: "@1.06 S1 S3 S6 S10 S15 S18 S19 D7 D11 D17 D20  @1.15 Dp5",
 },
 
 
-"1426":
+"14__Allegro_Piu_Mosso":
 {
 	title: "Allegro Piu Mosso", artist: "DM Ashura", channel: ORIGINAL, bpm: "160",
+	arcadeID: "1426",
+	pumpoutID: 290,
+
 	XX: "= S10`11 S17`16 D12`13",
 	Prime2: "=",
 	Prime: "S4 S6 S11 S16 D13 D19  @1.09 S19  @1.15 Dp4",
 },
 
 
-"1427":
+"14__Annihilator_Method":
 {
 	title: "Annihilator Method", artist: "DM Ashura", channel: ORIGINAL, bpm: "192",
+	arcadeID: "1427",
+	pumpoutID: 353,
+
 	XX: "= D13`12",
 	Prime2: "=  @2.02 S23",
 	Prime: "@1.08 S7 S10 S15 D12  S19 D20  @1.15 Dp4 D24",
 },
 
 
-"1428":
+"14__Move_That_Body":
 {
 	title: "Move That Body!", artist: "DM Ashura", channel: ORIGINAL, bpm: "145",
+	arcadeID: "1428",
+	pumpoutID: 340,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "@1.06 S3 S5 S8 S12 S17 S20 D10 D18  @1.11 Dp3",
 },
 
 
-"1429":
+"14__Rock_the_House":
 {
 	title: "Rock the House", artist: "Matduke", channel: WORLD, bpm: "175",
+	arcadeID: "1429",
+	pumpoutID: 291,
+
 	XX: "= S16`17 D11`10",
 	Prime2: "= -S16",
 	Prime: "S7 S10 S17 D10 D18 D22  @1.14 S16.ucs D13.ucs  @1.15 Dp3",
 },
 
 
-"1430":
+"14__Scorpion_King":
 {
 	title: "Scorpion King", artist: "r300k", channel: ORIGINAL, bpm: "113",
+	arcadeID: "1430",
+	pumpoutID: 472,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "@1.12 S3 S5 S8 S15 D10 D16  S19 D20  @1.15 Dp3",
 },
 
 
-"1431":
+"14__Point_Zero_One":
 {
 	title: "Point Zero One", artist: "SynthWulf", channel: ORIGINAL, bpm: "170",
+	arcadeID: "1431",
+	pumpoutID: 475,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "@1.13 S9 S16 D11 D17  S20 D22  @1.15 Dp4",
 },
 
 
-// "1432":
-
-
-"1433":
+"14__Red_Snow":
 {
 	title: "Red Snow", artist: "Cashew", channel: ORIGINAL, bpm: "170",
+	arcadeID: "1433",
+	pumpoutID: 482,
+
 	XX: "= D13`12 D21`20  @2.07 D23.lock",
 	Prime2: "=  @1.05 CoOp(x2)  @1.07 D18.ucs  @1.08 Dp4",
 	Prime: "@1.15 S11 S16 D12  S19 D20  @1.21 S7",
 },
 
 
-"1434":
+"14__Campanella":
 {
 	title: "Campanella", artist: "Cashew", channel: ORIGINAL, bpm: "140",
+	arcadeID: "1434",
+	pumpoutID: 509,
+
 	XX: "= S10`9  @1.04 CoOp(x2)  @2.05 S4",
 	Prime2: "=  @1.08 Dp5",
 	Prime: "@1.19 S6 S9 S16 D10 D16",
 },
 
 
-"1435":
+"14__You_again_my_love":
 {
 	title: "You again my love", artist: "CYO Style & Henohenomoheji", channel: ORIGINAL, bpm: "137",
+	arcadeID: "1435",
+	pumpoutID: 512,
+
 	XX: "= D15`14  @2.00 CoOp(x2)",
 	Prime2: "=  @1.08 Dp4",
 	Prime: "@1.21 S1 S3 S6 S14 D6 D14",
 },
 
 
-"1436":
+"14__Robot_Battle":
 {
 	title: "Robot Battle", artist: "CYO Style", channel: ORIGINAL, bpm: "198",
+	arcadeID: "1436",
+	pumpoutID: 292,
+
 	XX: "= S9`8 S13`12 S22`21 D13`12 D24`23",
 	Prime2: "=",
 	Prime: "S8 S12 S21 D12 D23  @1.15 Dp5  @1.17 S18.ucs D19.ucs",
 },
 
 
-"1437":
+"14__Bar_Bar_Bar":
 {
 	title: "Bar Bar Bar", artist: "Crayon Pop", channel: KPOP, bpm: "134",
+	arcadeID: "1437",
+	pumpoutID: 293,
+
 	Prime2: "=  @1.08 Dp3",
 	Prime: "S3 S5 S8 S14  D4 D11 D15  CoOp(x3)",
 },
 
 
-"1438":
+"14__On_and_On":
 {
 	title: "On and On", artist: "VIXX", channel: KPOP, bpm: "119",
+	arcadeID: "1438",
+	pumpoutID: 321,
+
 	Prime2: "=",
 	Prime: "@1.02 S2 S4 S6 S15 D5 D15  @1.15 Dp5",
 },
 
 
-"1439":
+"14__Elvis":
 {
 	title: "Elvis", artist: "AOA", channel: KPOP, bpm: "135",
+	arcadeID: "1439",
+	pumpoutID: 294,
+
 	Prime2: "=",
 	Prime: "S2 S4 S7 S15 D5 D16  @1.11 S17  @1.15 Dp3",
 },
 
 
-"1440":
+"14__Very_Good":
 {
 	title: "Very Good", artist: "Block B", channel: KPOP, bpm: "136",
+	arcadeID: "1440",
+	pumpoutID: 328,
+
 	Prime2: "=",
 	Prime: "@1.04 S3 S6 S9 S15 D5 D15  @1.15 Dp4",
 },
 
 
-"1441":
+"14__Im_Sorry":
 {
 	title: "I'm Sorry", artist: "CNBLUE", channel: KPOP, bpm: "131",
+	arcadeID: "1441",
+	pumpoutID: 295,
+
 	Prime2: "=",
 	Prime: "S4 S6 S9 S16 D8 D17  @1.15 Dp3",
 },
 
 
-"1442":
+"14__Pandora":
 {
 	title: "Pandora", artist: "Kara", bpm: "140",
+	arcadeID: "1442",
+	pumpoutID: 296,
+
 	Prime2: "=",
 	Prime: "S2 S4 S7 S16 D6 D16  @1.15 Dp4",
 },
 
 
-"1443":
+"14__Venus":
 {
 	title: "Venus", artist: "Shinwa", channel: KPOP, bpm: "126",
+	arcadeID: "1443",
+	pumpoutID: 331,
+
 	Prime2: "=",
 	Prime: "@1.05 S2 S3 S5 S14 D6 D14  @1.11 Dp3",
 },
 
 
-"1444":
+"14__Hate_Dont_Hate":
 {
 	title: "Hate, Don't Hate!", artist: "Dal shabet", channel: KPOP, bpm: "123",
+	arcadeID: "1444",
+	pumpoutID: 297,
+
 	Prime2: "=",
 	Prime: "S2 S4 S6 S15 D6 D16  @1.15 Dp2",
 },
 
 
-"1445":
+"14__Supermagic":
 {
 	title: "Supermagic", artist: "Supreme Team", channel: KPOP, bpm: "112",
+	arcadeID: "1445",
+	pumpoutID: 298,
+
 	Prime2: "=",
 	Prime: "S2 S4 S6 S14 D5 D15  @1.15 Dp4",
 },
 
 
-"1446":
+"14__Sugar_Free":
 {
 	title: "Sugar Free", artist: "T-ara", channel: KPOP, bpm: "128",
+	arcadeID: "1446",
+	pumpoutID: 299,
+
 	Prime2: "=  @1.09 D18",
 	Prime: "S4 S6 S8 S15 D5 D16  @1.11 S17  @1.15 Dp3",
 },
 
 
-"1447":
+"14__Her":
 {
 	title: "Her", artist: "Block B", channel: KPOP, bpm: "162",
+	arcadeID: "1447",
+	pumpoutID: 300,
+
 	Prime2: "=",
 	Prime: "S4 S6 S9 S16 D7 D17  @1.02 CoOp(x2)  @1.15 Dp3",
 },
 
 
-"1448":
+"14__NoNoNo":
 {
 	title: "NoNoNo", artist: "Apink", channel: KPOP, bpm: "106",
+	arcadeID: "1448",
+	pumpoutID: 301,
+
 	Prime2: "=",
 	Prime: "S2 S3 S5 S14 D5 D14 Sp15 Dp15  @1.02 CoOp(x2)  @1.15 Dp4",
 },
 
 
-"1449":
+"14__Loner":
 {
 	title: "Loner", artist: "Outsider", channel: KPOP, bpm: "125",
+	arcadeID: "1449",
+	pumpoutID: 302,
+
 	Prime2: "=  @1.08 Dp4",
 	Prime: "S3 S5 S8 S15 S19 D6 D17 D22",
 },
 
 
-"1450":
+"14__Flying_Duck":
 {
 	title: "Flying Duck", artist: "Cherry Filter", channel: KPOP, bpm: "158",
+	arcadeID: "1450",
+	pumpoutID: 303,
+
 	Prime2: "=  @1.08 Dp4",
 	Prime: "S3 S7 S10 S16 D11 D18",
 },
 
 
-"1451":
+"14__Ineffective_Boss_Without_Power":
 {
 	title: "Ineffective Boss Without Power", artist: "Norazo", channel: KPOP, bpm: "170",
 	shortTitle: "Ineffective Boss\nWithout Power",
+	arcadeID: "1451",
+	pumpoutID: 304,
+
 	Prime2: "=",
 	Prime: "@1.01 S4 S6 S8 S18 D5 D19 CoOp(x3)  @1.15 Dp3",
 },
 
 
-"1452":
+"14__One":
 {
 	title: "One", artist: "Epik High", bpm: "135",
+	arcadeID: "1452",
+	pumpoutID: 305,
+
 	Prime2: "=",
 	Prime: "S1 S3 S5 S15 D5 D16  @1.15 Dp3",
 },
 
 
-"1453":
+"14__The_Revolution":
 {
 	title: "The Revolution", artist: "Max & Doom", channel: WORLD, bpm: "160",
+	arcadeID: "1453",
+	pumpoutID: 453,
+
 	XX: "=",
 	Prime2: "= -S21 -D22 -D24 D22`23",
+		// yes, D23 on P1 became D22 on P2
+		// D22 on Prime - https://www.youtube.com/watch?v=XCwJO8n5O7Y
+		// D23 on Prime - https://www.youtube.com/watch?v=SZBvBn_ea4k
+		// D22 on Prime2 - https://www.youtube.com/watch?v=pu7knXy5YXc
 	Prime: "@1.09 S7 S11 S17 S19 D12 D19  @1.11 S21.ucs D22.ucs D23.ucs D24.ucs  @1.15 Dp3",
-	// yes, D23 on P1 became D22 on P2
-	// D22 on Prime - https://www.youtube.com/watch?v=XCwJO8n5O7Y
-	// D23 on Prime - https://www.youtube.com/watch?v=SZBvBn_ea4k
-	// D22 on Prime2 - https://www.youtube.com/watch?v=pu7knXy5YXc
 },
 
 
-"1454":
+"14__Selfishness":
 {
 	title: "Selfishness", artist: "S.I.D-Sound", channel: WORLD, bpm: "160",
+	arcadeID: "1454",
+	pumpoutID: 325,
+
 	XX: "= D20`21",
 	Prime2: "=  @1.09 D21",
 	Prime: "@1.03 S3 S6 S11 S17 D12 D18  @1.15 Dp3",
 },
 
 
-// "1455":
-// "1456":
-
-
-"1457":
+"14__Cosmical_Rhythm":
 {
 	title: "Cosmical Rhythm", artist: "S.I.D-Sound", channel: WORLD, bpm: "128",
+	arcadeID: "1457",
+	pumpoutID: 306,
+
 	XX: "= S14`15 D15`16",
 	Prime2: "= -S16",
 	Prime: "S3 S6 S8 S15 D10 D16  @1.12 S16.ucs D18.ucs  @1.15 Dp2",
 },
 
 
-"1458":
+"14__Dolly_Kiss":
 {
 	title: "Dolly Kiss", artist: "S.I.D-Sound", channel: WORLD, bpm: "149",
+	arcadeID: "1458",
+	pumpoutID: 351,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "@1.07 S3 S6 S14 D6 D15  @1.15 Dp3  @1.19 S17",
 },
 
 
-"1459":
+"14__Matador":
 {
 	title: "Matador", artist: "Cranky", channel: WORLD, bpm: "168",
+	arcadeID: "1459",
+	pumpoutID: 307,
+
 	XX: "= D22`21",
 	Prime2: "=",
 	Prime: "S4 S7 S10 S18 D7 D19  @1.12 S21.ucs D16.ucs D21.ucs  @1.15 Dp3",
 },
 
 
-"1460":
+"14__Milky_Way_Galaxy":
 {
 	title: "Milky Way Galaxy", artist: "3R2", channel: WORLD, bpm: "175",
+	arcadeID: "1460",
+	pumpoutID: 324,
+
 	XX: "= S18`17",
 	Prime2: "=",
 	Prime: "@1.03 S6 S11 S17 D11 D18  @1.15 Dp2",
 },
 
 
-"1461":
+"14__Feel_My_Happiness":
 {
 	title: "Feel My Happiness", artist: "3R2", channel: WORLD, bpm: "175",
+	arcadeID: "1461",
+	pumpoutID: 508,
+
 	XX: "=",
 	Prime2: "=  @1.08 Dp2  @2.03 D21",
 	Prime: "@1.19 S3 S10 S17 D6 D18",
 },
 
 
-"1462":
+"14__Ragnarok":
 {
 	title: "Ragnarok", artist: "SynthWulf", channel: WORLD, bpm: "170",
+	arcadeID: "1462",
+	pumpoutID: 308,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "S7 S11 S16 S18 D9 D13 D17  @1.13 S20  @1.15 Dp3",
 },
 
 
-"1463":
+"14__Achluoias":
 {
 	title: "Achluoias", artist: "D_AAN", channel: WORLD, bpm: "200",
+	arcadeID: "1463",
+	pumpoutID: 322,
+
 	XX: "= S9`8 S17`18 D13`12",
 	Prime2: "=",
 	Prime: "@1.02 S8 S15 S18 S22 D12 D16 D24  @1.03 S24  @1.15 Dp3  @1.16 D26",
 },
 
 
-"1464":
+"14__Karyawisata":
 {
 	title: "Karyawisata", artist: "Vesuvia x REDSHiFT", channel: WORLD, bpm: "173",
+	arcadeID: "1464",
+	pumpoutID: 309,
+
 	XX: "= S16`17  @2.05 D22.lock",
 	Prime2: "= -D19",
 	Prime: "S4 S7 S10 S17 S20 D7 D16  @1.14 S15.ucs D19.ucs  @1.15 Dp4",
 },
 
 
-"1465":
+"14__video_out_c":
 {
 	title: "video out c", artist: "Vospi", channel: WORLD, bpm: "198",
+	arcadeID: "1465",
+	pumpoutID: 467,
+
 	XX: "= S10`9 D15`14",
 	Prime2: "=",
 	Prime: "@1.11 S9 S14 D14  S17 S22 D23  @1.15 Dp4",
 },
 
 
-// "1466":
-
-
-"1467":
+"14__Limbo":
 {
 	title: "Limbo", artist: "Daddy Yankee", channel: WORLD, bpm: "125",
 	region: LATIN,
+	arcadeID: "1467",
+	pumpoutID: 318,
+
 	Prime2: "=",
 	Prime: "S2 S4 S6 S15 D5 D15",
 },
 
 
-"1468":
+"14__Melodia":
 {
 	title: "Melodia", artist: "Lylloo feat. Egas", channel: WORLD, bpm: "135",
 	region: LATIN,
+	arcadeID: "1468",
+	pumpoutID: 319,
+
 	Prime2: "=",
 	Prime: "S2 S4 S6 S14 D4 D15",
 },
 
 
-"1469":
+"14__Que_Viva_La_Vida":
 {
 	title: "Que Viva La Vida", artist: "Wisin Ft. Michel Telo", channel: WORLD, bpm: "130",
 	region: LATIN,
+	arcadeID: "1469",
+	pumpoutID: 320,
+
 	Prime2: "=",
 	Prime: "S2 S4 S6 S16 D7 D16",
 },
 
 
-"1470":
+"14__Across_the_Ocean":
 {
 	title: "Across the ocean", artist: "Zircon", channel: WORLD, bpm: "130",
+	arcadeID: "1470",
+	pumpoutID: 510,
+
 	Prime2: "=  @1.08 Dp2",
 	Prime: "@1.20 S3 S6 S9 S15 D11 D16",
 },
 
 
-"1471":
+"14__Enhanced_Reality":
 {
 	title: "Enhanced Reality", artist: "Matduke", channel: WORLD, bpm: "170",
+	arcadeID: "1471",
+	pumpoutID: 479,
+
 	Prime2: "=  @1.04 S16 D18  @1.08 Dp5",
 	Prime: "@1.14 S9 S14 D11  S19 D20",
 },
 
 
-"1472":
+"14__Stardust_Overdrive":
 {
 	title: "Stardust Overdrive", artist: "typeMARS", channel: WORLD, bpm: "175",
+	arcadeID: "1472",
+	pumpoutID: 454,
+
 	XX: "= D23`24",
 	Prime2: "=",
 	Prime: "@1.09 S4 S9 S16 S18 D5 D13 D16 D19  @1.15 Dp3  @1.16 D24",
 },
 
 
-"1473":
+"14__Reminiscence":
 {
 	title: "Reminiscence", artist: "MAX", bpm: "155", channel: ORIGINAL,
+	arcadeID: "1473",
+	pumpoutID: 463,
+
 	XX: "= S18`17 D19`18  @1.03 Dp23",
 	Prime2: "=  @1.10 S15 D17",
 	Prime: "@1.10 S3 S6 S10 D10 CoOp(x2)  S17 D18  @1.15 Dp3",
 },
 
 
-"1474":
+"14__Moment_Day":
 {
 	title: "Moment Day", artist: "MAX", channel: ORIGINAL, bpm: "158",
+	arcadeID: "1474",
+	pumpoutID: 501,
+
 	XX: "= D18`19",
 	Prime2: "=  @1.08 Dp5",
 	Prime: "@1.16 S3 S6 S10 S15 S17 D9 D16 CoOp(x2)  S18 D19",
 },
 
 
-"1475":
+"14__Amai_Yuuwaku_Dangerous":
 {
 	title: "Amai Yuuwaku Dangerous", artist: "Bakusute Sotokanda Icchome", channel: JMUSIC, bpm: "125",
+	arcadeID: "1475",
+	pumpoutID: 461,
+
 	XX: "= S14`15 D15`16",
 	Prime2: "=",
 	Prime: "@1.11 S1 S3 S6 S11 S15 D5 D10 D16  @1.15 Dp3",
 },
 
 
-"1476":
+"14__Yoropiku_Pikuyoro":
 {
 	title: "Yoropiku Pikuyoro!", artist: "Bakasute Sotokanda Icchome", channel: JMUSIC, bpm: "198",
+	arcadeID: "1476",
+	pumpoutID: 465,
+
 	XX: "=  @2.07 CoOp(x2)",
 	Prime2: "=",
 	Prime: "@1.10 S3 S5 S9 S15 D5 D16 Sp3  @1.15 Dp4",
 },
 
 
-"1477":
+"14__Imprinting":
 {
 	title: "Imprinting", artist: "Sakuzyo", channel: JMUSIC, bpm: "175",
+	arcadeID: "1477",
+	pumpoutID: 346,
+
 	XX: "= S21`20 D13`12 D21`20",
 	Prime2: "=  @2.04 D16",
 	Prime: "@1.10 S4 S7 S11 D12  S17 S20 D20  @1.15 Dp4 D24",
 },
 
 
-"1478":
+"14__Sudden_Romance":
 {
 	title: "Sudden Romance (PIU Edit)", artist: "void", channel: JMUSIC, bpm: "152", fromMix: "Prime",
 	shortTitle: "Sudden Romance",
 	arcadeName: "Sudden Romance [PIU Edit]",
+	arcadeID: "1478",
+	pumpoutID: 345,
+
 	XX: "= D15`14",
 	Prime2: "S4 S6 S9 S14 S19  D8 D14 D19  @1.08 Dp4",
 	// from PrimeJE
 },
 
 
-"1479":
+"14__Mitotsudaira":
 {
 	title: "Mitotsudaira", artist: "ETIA.", channel: JMUSIC, bpm: "136",
+	arcadeID: "1479",
+	pumpoutID: 344,
+
 	XX: "=",
 	Prime2: "=  @1.08 Dp4",
 	Prime: "@1.20 S1 S4 S9 S15 S18 D10 D16 D19",
 },
 
 
-"1480":
+"14__Smile_Diary":
 {
 	title: "Smile Diary", artist: "you", channel: JMUSIC, bpm: "175",
+	arcadeID: "1480",
+	pumpoutID: 343,
+
 	XX: "= D19`20",
 	Prime2: "=  @1.08 Dp5",
 	Prime: "@1.19 S4 S7 S11 S16 D8 D17  S19 D20",
 },
 
 
-"1481":
+"14__Bad_Apple":
 {
 	title: "Bad Apple!! feat. Nomico", artist: "Masayoshi Minoshima", channel: JMUSIC, bpm: "138",
 	shortTitle: "Bad Apple",
+	arcadeID: "1481",
+	pumpoutID: 342,
+
 	XX: "= D20`21  @2.03  CoOp(x2)",
 	Prime2: "=",
 	Prime: "@1.09 S1 S5 S9 S13 D10  S17 S19 D18 D21  @1.15 Dp2  @1.17 S3  @1.21 S15",
 },
 
 
-"1482":
+"14__Creed_1st_Desire":
 {
 	title: "Creed -1st Desire-", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "163",
 	arcadeName: "Creed - 1st Desire -",
 	arcadeNameMaxEditDistance: 1, // 'Creed - Ist Desire -'
+	arcadeID: "1482",
+	pumpoutID: 347,
+
 	XX: "=  @2.06 S15",
 	Prime2: "=",
 	Prime: "@1.13 S4 S7 S12 D11 Dp5  S18 S21 D18 D23",
 },
 
 
-"1483":
+"14__Sora_no_Shirabe":
 {
 	title: "Sora no Shirabe", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "172",
+	arcadeID: "1483",
+	pumpoutID: 355,
+
 	XX: "=",
 	Prime2: "=  @1.08 Dp4",
 	Prime: "@1.18 S3 S8 S12 S15 D11 D16 CoOp(x2)  S18 D20",
 },
 
 
-"1484":
+"14__Four_Seasons_of_Loneliness":
 {
 	title: "Four Seasons of Loneliness", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "178",
 	//fullTitle: "Four Seasons of Loneliness ver B feat. Sariyajin",
 	arcadeName: "FOUR SEASONS OF LONELINESS ver B feat. Sariyajin", arcadeNameMaxEditDistance: 2,  // 'beta' vs 'B'
+	arcadeID: "1484",
+	pumpoutID: 451,
+
 	XX: "= D15`14 D22`21",
 	Prime2: "=",
 	Prime: "@1.09 S1 S4 S6 S10 S14 D10 D14 CoOp(x2)  S17 S20 D18 D21  @1.15 Dp2",
 },
 
 
-"1485":
+"14__Ai_Yurete":
 {
 	title: "Ai, Yurete", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "152", fromMix: "Prime",
 	arcadeName: "Ai, Yurete...",
+	arcadeID: "1485",
+	pumpoutID: 452,
+
 	XX: "=  @1.05 D20",
 	Prime2: "S1 S3 S6 S9 S13 S16  D8 D15 D18  @1.08 Dp4",
 	// from PrimeJE
 },
 
 
-"1486":
+"14__Setsuna_Trip":
 {
 	title: "Setsuna Trip", artist: "LastNote", channel: JMUSIC, bpm: "145",
+	arcadeID: "1486",
+	pumpoutID: 449,
+
 	XX: "=  @2.05 D23.lock",
 	Prime2: "=",
 	Prime: "@1.12 S1 S5 S9 S13 S16 Dp3  D8 D14  CoOp(x2)  S18 D19  @1.17 S3",
 },
 
 
-"1487":
+"14__Trashy_Innocence":
 {
 	title: "Trashy Innocence", artist: "LastNote", channel: JMUSIC, bpm: "230",
+	arcadeID: "1487",
+	pumpoutID: 450,
+
 	XX: "= S15`14 D11`10 D16`15  @2.05 S23.lock",
 	Prime2: "=",
 	Prime: "@1.14 S1 S5 S10 S14  D10 D15  CoOp(x2)  S20 D24  @1.15 Dp4  @1.17 S3",
 },
 
 
-"1488":
+"14__Renai_Yuusha":
 {
 	title: "Ren'ai Yuusha", artist: "LastNote", channel: JMUSIC, bpm: "190",
 	arcadeName: "Renai Yuusha",
+	arcadeID: "1488",
+	pumpoutID: 459,
+
 	XX: "=",
 	Prime2: "=  @1.08 Dp4",
 	Prime: "@1.14 S3 S6 S12 S17 D4 D13 D18 CoOp(x3)  S19 D20",
 },
 
 
-"1489":
+"14__Houkago_Stride":
 {
 	title: "Houkago Stride", artist: "Last Note", channel: JMUSIC, bpm: "225",
+	arcadeID: "1489",
+	pumpoutID: 460,
+
 	XX: "=",
 	Prime2: "=  @1.08 Dp5",
 	Prime: "@1.16 S3 S6 S10 S15 D10 D16  S19 D21",
 },
 
 
-"1490":
+"14__Prime":
 {
 	title: "Prime", artist: "Tatsh", channel: JMUSIC, bpm: "165",
+	arcadeID: "1490",
+	pumpoutID: 458,
+
 	XX: "= S21`20",
 	Prime2: "=  @1.08 Dp3",
 	Prime: "@1.15 S4 S7 S11 S16 S18 D12 D16 D18  S20 D20",
 },
 
 
-"1491":
+"14__Bad_End_Night":
 {
 	title: "Bad &infin; End &infin; Night", artist: "HitoshizukuP X yama&#9651", channel: JMUSIC, bpm: "204",
 	arcadeName: "Bad ~ End ~ Night", arcadeNameMaxEditDistance: 4,  // &infin; recognition, two characters per each
+	arcadeID: "1491",
+	pumpoutID: 466,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "@1.11 S2 S6 S10 S13 D11 Dp4 CoOp(x3)  S17 S19 D18 D23  @1.17 S4",
 },
 
 
-"1492":
+"14__Queen_of_the_Red":
 {
 	title: "Queen of the Red", artist: "ETIA", channel: JMUSIC, bpm: "188",
+	arcadeID: "1492",
+	pumpoutID: 471,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "@1.12 S4 S7 S11 S15 D12 D16 S18 D19  @1.15 Dp3",
 },
 
 
-"1493":
+"14__Idealized_Romance":
 {
 	title: "Idealized Romance", artist: "void", channel: JMUSIC, bpm: "140",
 	arcadeNameMaxEditDistance: 1,  //tdealized
+	arcadeID: "1493",
+	pumpoutID: 474,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "@1.16 S2 S4 S7 S11 S16 D10  S18 D18",
 },
 
 
-"1494":
+"14__Just_Hold_On":
 {
 	title: "Just Hold On (To All Fighters)", artist: "Void", channel: JMUSIC, bpm: "170",
 	shortTitle: "Just Hold On",
+	arcadeID: "1494",
+	pumpoutID: 478,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "@1.14 S4 S7 S10 S16 D12 D18  S21 D22 D25  @1.15 Dp2",
 },
 
 
-"1495":
+"14__Unlock":
 {
 	title: "Unlock", artist: "Daichi Miura (Cover)", channel: JMUSIC, bpm: "128",
+	arcadeID: "1495",
+	pumpoutID: 485,
+
 	region: JAPAN,
 	changes:
 	{
@@ -2981,9 +3824,12 @@ var readableTracklist = {
 },
 
 
-"1496":
+"14__Heavy_Rotation":
 {
 	title: "Heavy Rotation", artist: "AKB48 (Cover)", channel: JMUSIC, bpm: "178",
+	arcadeID: "1496",
+	pumpoutID: 484,
+
 	region: JAPAN,
 	changes:
 	{
@@ -2995,216 +3841,285 @@ var readableTracklist = {
 },
 
 
-"1497":
+"14__Break_It_Down":
 {
 	title: "Break It Down", artist: "MAZO", channel: ORIGINAL, bpm: "176",
+	arcadeID: "1497",
+	pumpoutID: 483,
+
 	XX: "=  @2.05 D21.lock",
 	Prime2: "=",
 	Prime: "@1.15 S7 S14 S16 D5 D12 D17",
 },
 
 
-"1498":
+"14__Hypercube":
 {
 	title: "Hypercube", artist: "MAX", channel: ORIGINAL, bpm: "145",
+	arcadeID: "1498",
+	pumpoutID: 470,
+
 	XX: "= D15`16 D19`20",
 	Prime2: "=",
 	Prime: "@1.12 S6 S10 S15 S17 D10 D16 D20  @1.15 Dp4",
 },
 
 
-"1499":
+"14__Like_Me":
 {
 	title: "Like Me", artist: "SHK", channel: ORIGINAL, bpm: "155",
+	arcadeID: "1499",
+	pumpoutID: 511,
+
 	XX: "= S18`17 D19`18",
 	Prime2: "=  @1.08 Dp2",
 	Prime: "@1.21 S6 S10 S14 S17 D11 D18 CoOp(x2)",
 },
 
 
-"14A0":
+"14__Beethoven_Influenza":
 {
 	title: "Beethoven Influenza", artist: "BanYa & Warak", channel: ORIGINAL, bpm: "170", duration: REMIX,
+	arcadeID: "14A0",
+	pumpoutID: 310,
+
 	XX: "= D20`21",
 	Prime2: "=",
 	Prime: "S18 S21 D21",
 },
 
 
-"14A1":
+"14__Avalanquiem":
 {
 	title: "Avalanquiem", artist: "MAX & Memme", channel: ORIGINAL, bpm: "175", duration: REMIX,
+	arcadeID: "14A1",
+	pumpoutID: 329,
+
 	XX: "= S20`19",
 	Prime2: "=",
 	Prime: "@1.04 S23 D25  @1.10 S19",
 },
 
 
-"14A2":
+"14__Paradoxx":
 {
 	title: "Paradoxx", artist: "Slam & NATO", channel: ORIGINAL, bpm: "220", duration: REMIX,
+	arcadeID: "14A2",
+	pumpoutID: 506,
+
 	XX: "=",
 	Prime2: "=  @2.04 D25",
 	Prime: "@1.18 S21 S23 S26  @1.19 D28",
 },
 
 
-"14C0":
+"14__Bar_Bar_Bar__FULL":
 {
 	title: "Bar Bar Bar  [FULL]", artist: "Crayon Pop", channel: KPOP, bpm: "134",
+	arcadeID: "14C0",
+	pumpoutID: 311,
+
 	Prime2: "=",
 	Prime: "S16 D15",
 },
 
 
-"14C1":
+"14__Sugar_Free__FULL":
 {
 	title: "Sugar Free  [FULL]", artist: "T-ara", channel: KPOP, bpm: "128",
+	arcadeID: "14C1",
+	pumpoutID: 312,
+
 	Prime2: "=",
 	Prime: "@1.01 S15 D15",
 },
 
 
-"14C2":
+"14__NoNoNo__FULL":
 {
 	title: "NoNoNo  [FULL]", artist: "Apink", channel: KPOP, bpm: "106",
+	arcadeID: "14C2",
+	pumpoutID: 473,
+
 	Prime2: "=",
 	Prime: "@1.12 S14 S15 D16",
 },
 
 
-"14C3":
+"14__Move_That_Body__FULL":
 {
 	title: "Move That Body!  [FULL]", artist: "DM Ashura feat. Skizzo & Hanna", channel: ORIGINAL, bpm: "145",
+	arcadeID: "14C3",
+	pumpoutID: 468,
+
 	XX: "=",
 	Prime2: "= -D20",
 	Prime: "@1.11 S17.ucs S18.ucs D19.ucs D20.ucs",
 },
 
 
-"14C4":
+"14__Pandora__FULL":
 {
 	title: "Pandora  [FULL]", artist: "Kara", bpm: "140",
+	arcadeID: "14C4",
+	pumpoutID: 480,
+
 	Prime2: "=",
 	Prime: "@1.14 S17 D18",
 },
 
 
-"14C5":
+"14__Four_Seasons_of_Loneliness__FULL":
 {
 	title: "Four Seasons of Loneliness ver B feat. Sariyajin  [FULL]", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "178",
 	shortTitle: "Four Seasons of Loneliness",
 	arcadeName: "FOUR SEASONS OF LONELINESS verB feat. Sariyajin - FULL SONG", arcadeNameMaxEditDistance: 2,  // 'beta' vs 'B'
+	arcadeID: "14C5",
+	pumpoutID: 455,
+
 	XX: "= D15`14",
 	Prime2: "=",
 	Prime: "@1.09 S14 S19 D14 D19",
 },
 
 
-"14C6":
+"14__Bad_Apple__FULL":
 {
 	title: "Bad Apple!! feat. Nomico  [FULL]", artist: "Masayoshi Minoshima", channel: JMUSIC, bpm: "138",
 	shortTitle: "Bad Apple",
+	arcadeID: "14C6",
+	pumpoutID: 456,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "@1.09 S10 S14 S17 D11 D18 D22 CoOp(x4)",
 },
 
 
-"14C7":
+"14__Creed_1st_Desire__FULL":
 {
 	title: "Creed -1st Desire-  [FULL]", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "163",
 	arcadeName: "Creed - 1st Desire - [FULL SONG]",
+	arcadeID: "14C7",
+	pumpoutID: 477,
+
 	XX: "= S22`23",
 	Prime2: "=",
 	Prime: "@1.13 S18 S23 D19 D24",
 },
 
 
-"14E0":
+"14__Super_Fantasy__SHORT":
 {
 	title: "Super Fantasy  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "145",
 	arcadeName: "Super Fantasy - SHORT CUT",
+	arcadeID: "14E0",
+	pumpoutID: 464,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "@1.10 S19 D17",
 },
 
 
-"14E1":
+"14__Yog_Sothoth__SHORT":
 {
 	title: "Yog-Sothoth  [SHORT]", artist: "Nato", channel: ORIGINAL, bpm: "200",
 	arcadeName: "Yog-Sothoth - SHORT CUT",
+	arcadeID: "14E1",
+	pumpoutID: 313,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "S13 S18 S21 D16 D21",
 },
 
 
-"14E2":
+"14__Silhouette_Effect__SHORT":
 {
 	title: "Silhouette Effect  [SHORT]", artist: "Nato", channel: ORIGINAL, bpm: "167",
 	arcadeName: "Silhouette Effect - SHORT CUT",
+	arcadeID: "14E2",
+	pumpoutID: 354,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "@1.08 S18 D17",
 },
 
 
-"14E3":
+"14__Selfishness__SHORT":
 {
 	title: "Selfishness  [SHORT]", artist: "S.I.D-Sound", channel: WORLD, bpm: "160",
 	arcadeName: "Selfishness - SHORT CUT",
+	arcadeID: "14E3",
+	pumpoutID: 326,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "@1.03 S17 D18",
 },
 
 
-"14E4":
+"14__Rock_the_House__SHORT":
 {
 	title: "Rock the House  [SHORT]", artist: "Matduke", channel: WORLD, bpm: "175",
 	arcadeName: "Rock the house - SHORT CUT",
 	// it was ORIGINAL at Prime2 1.01 (and maybe in Prime, but that was left annoticed because it was New Tunes). In P2 1.07 it is WORLD
+	arcadeID: "14E4",
+	pumpoutID: 314,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "S15 S18 D20",
 },
 
 
-"14E5":
+"14__Move_That_Body__SHORT":
 {
 	title: "Move That Body!  [SHORT]", artist: "DM Ashura", channel: ORIGINAL, bpm: "145",
 	arcadeName: "Move That Body! - SHORT CUT",
+	arcadeID: "14E5",
+	pumpoutID: 341,
+
 	XX: "= S17`16",
 	Prime2: "=",
 	Prime: "@1.06 S16 D18",
 },
 
 
-"14E6":
+"14__Prime_Opening__SHORT":
 {
 	title: "Prime Opening", artist: "MAX", channel: ORIGINAL, bpm: "128", duration: SHORT,
 	arcadeName: "PRIME Opening - SHORT CUT",
+	arcadeID: "14E6",
+	pumpoutID: 323,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "@1.02 S15 D15 CoOp(x5)",
 },
 
 
-"14E7":
+"14__Stardust_Overdrive__SHORT":
 {
 	title: "Stardust Overdrive  [SHORT]", artist: "typeMARS", channel: WORLD, bpm: "175",
 	arcadeName: "Stardust Overdrive - SHORT CUT",
+	arcadeID: "14E7",
+	pumpoutID: 457,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "@1.09 S16 D17",
 },
 
 
-"14F0":
+"14__Heavy_Rotation__SHORT":
 {
 	title: "Heavy Rotation  [SHORT]", artist: "AKB48 (Cover)", channel: JMUSIC, bpm: "178",
+	arcadeID: "14F0",
+	pumpoutID: 503,
+
 	region: JAPAN,
 	changes:
 	{
@@ -3220,9 +4135,12 @@ var readableTracklist = {
 // \13 - Fiesta 2
 
 
-"1301":
+"13__Pop_the_Track":
 {
 	title: "Pop the Track", artist: "J-Mi & Midi-D & Ft. Hanna Stockzell", channel: WORLD, bpm: "160",
+	arcadeID: "1301",
+	pumpoutID: 210,
+
 	XX: "= S18`19  @2.05 S4",
 	Prime2: "=",
 	Prime: "= CoOp(x2)`Dp??(x2)",
@@ -3230,17 +4148,23 @@ var readableTracklist = {
 },
 
 
-"1302":
+"13__Electric":
 {
 	title: "Electric", artist: "The DNC", channel: WORLD, bpm: "120",
+	arcadeID: "1302",
+	pumpoutID: 211,
+
 	Prime: "=  @1.15 S17",
 	Fiesta2: "S2 S4 S6 S14 D4 D16",
 },
 
 
-"1303":
+"13__Passacaglia":
 {
 	title: "Passacaglia", artist: "SynthWulf", channel: WORLD, bpm: "175",
+	arcadeID: "1303",
+	pumpoutID: 212,
+
 	XX: "= S11`10 S17`16 S19`20 D13`12 D18`17 D23`24",
 	Prime2: "=",
 	Prime: "= -S19",
@@ -3248,9 +4172,12 @@ var readableTracklist = {
 },
 
 
-"1304":
+"13__Baroque_Virus":
 {
 	title: "Baroque Virus", artist: "Zircon", channel: WORLD, bpm: "135",
+	arcadeID: "1304",
+	pumpoutID: 213,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -3258,9 +4185,12 @@ var readableTracklist = {
 },
 
 
-"1305":
+"13__Elise":
 {
 	title: "Elise", artist: "DM Ashura", channel: ORIGINAL, bpm: "162",
+	arcadeID: "1305",
+	pumpoutID: 214,
+
 	XX: "= S16`17 S18`19 S21`22 D12`13 D17`16",
 	Prime2: "=",
 	Prime: "= CoOp(x2)`Dp??(x2)",
@@ -3268,10 +4198,13 @@ var readableTracklist = {
 },
 
 
-"1306":
+"13__Ignis_Fatuus":
 {
 	title: "Ignis Fatuus (DM Ashura Mix)", artist: "BanYa & DM Ashura", channel: ORIGINAL, bpm: "220",
 	shortTitle: "Ignis Fatuus",
+	arcadeID: "1306",
+	pumpoutID: 215,
+
 	XX: "= S10`9 S22`23 -D17 D17`15 D18`19",
 	Prime2: "=",
 	Prime: "= CoOp(x2)`Dp??(x2) -D24 -D26",
@@ -3279,10 +4212,13 @@ var readableTracklist = {
 },
 
 
-"1307":
+"13__Love_is_a_Danger_Zone_Cranky_Mix":
 {
 	title: "Love is a Danger Zone (Cranky Mix)", artist: "BanYa & Cranky", channel: ORIGINAL, bpm: "155",
 	shortTitle: "Love is a Danger Zone  (Cranky)",
+	arcadeID: "1307",
+	pumpoutID: 216,
+
 	XX: "= S13`12 S17`18 S21`22 D11`8 D23`24",
 	Prime2: "=",
 	Prime: "= CoOp(x2)`Dp??(x2) -S19",
@@ -3290,11 +4226,14 @@ var readableTracklist = {
 },
 
 
-"1308":
+"13__Hypnosis_SynthWulf_Mix":
 {
 	title: "Hypnosis (SynthWulf Mix)", artist: "BanYa & SynthWulf", channel: ORIGINAL, bpm: "175",
 	shortTitle: "Hypnosis\n(SynthWulf Mix)",
 	arcadeName: "Hypnosis(SynthWulf Mix)",
+	arcadeID: "1308",
+	pumpoutID: 217,
+
 	XX: "= S11`8 S13`11 S20`21 D14`13 D19`20  @2.06 D22.lock",
 	Prime2: "=",
 	Prime: "=",
@@ -3302,10 +4241,13 @@ var readableTracklist = {
 },
 
 
-"1309":
+"13__Flew_Far_Faster":
 {
 	title: "Flew Far Faster", artist: "Doin", channel: ORIGINAL, bpm: "200",
 	arcadeName: "FFF",
+	arcadeID: "1309",
+	pumpoutID: 218,
+
 	XX: "= S11`10 S18`17 S22`23 D13`12",
 	Prime2: "=",
 	Prime: "= CoOp(x3)`Dp??(x3)  @1.14 D24",
@@ -3313,9 +4255,12 @@ var readableTracklist = {
 },
 
 
-"1310":
+"13__Unique":
 {
 	title: "Unique", artist: "SHK", channel: ORIGINAL, bpm: "145",
+	arcadeID: "1310",
+	pumpoutID: 219,
+
 	XX: "= S14`15 S16`17 D18`19",
 	Prime2: "=",
 	Prime: "= -S16",
@@ -3323,9 +4268,12 @@ var readableTracklist = {
 },
 
 
-"1311":
+"13__Accident":
 {
 	title: "Accident", artist: "MAX", channel: ORIGINAL, bpm: "183",
+	arcadeID: "1311",
+	pumpoutID: 220,
+
 	XX: "= S11`10 S18`19",
 	Prime2: "=",
 	Prime: "=",
@@ -3333,9 +4281,12 @@ var readableTracklist = {
 },
 
 
-"1312":
+"13__D":
 {
 	title: "D", artist: "MAX", channel: ORIGINAL, bpm: "180",
+	arcadeID: "1312",
+	pumpoutID: 221,
+
 	XX: "= S10`9 D12`11 D20`19",
 	Prime2: "=",
 	Prime: "=",
@@ -3343,9 +4294,12 @@ var readableTracklist = {
 },
 
 
-"1313":
+"13__U_Got_Me_Rocking":
 {
 	title: "U Got Me Rocking", artist: "MAX", channel: ORIGINAL, bpm: "128",
+	arcadeID: "1313",
+	pumpoutID: 222,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -3353,10 +4307,13 @@ var readableTracklist = {
 },
 
 
-"1314":
+"13__Lucid":
 {
 	title: "Lucid (PIU Edit)", artist: "Yak Won", channel: ORIGINAL, bpm: "40 ~ 190",
 	shortTitle: "Lucid",
+	arcadeID: "1314",
+	pumpoutID: 223,
+
 	XX: "= S11`10 S19`20",
 	Prime2: "=",
 	Prime: "= CoOp(x2)`Dp??(x2)  @1.12 S16.ucs",
@@ -3364,201 +4321,273 @@ var readableTracklist = {
 },
 
 
-"1315":
+"13__Nobody":
 {
 	title: "Nobody", artist: "Wonder Girls", channel: KPOP, bpm: "131",
+	arcadeID: "1315",
+	pumpoutID: 224,
+
 	Prime: "=",
 	Fiesta2: "S2 S4 S6 S15 D8 D17 Sp3 Dp4",
 },
 
 
-"1316":
+"13__Bad_Girl_Good_Girl":
 {
 	title: "Bad Girl Good Girl", artist: "Miss A", channel: KPOP, bpm: "136",
+	arcadeID: "1316",
+	pumpoutID: 225,
+
 	Prime: "=",
 	Fiesta2: "S1 S3 S5 S14  D4 D13  Sp2 Dp3",
 },
 
 
-"1317":
+"13__Step":
 {
 	title: "Step", artist: "KARA", channel: KPOP, bpm: "123",
+	arcadeID: "1317",
+	pumpoutID: 226,
+
 	Prime: "= -D16",
 	Fiesta2: "S2 S4 S7 S15 D5 D15 Sp2 Dp4  @1.50 D16",
 },
 
 
-"1318":
+"13__Im_the_Best":
 {
 	title: "I'm the Best", artist: "2NE1", bpm: "128",
+	arcadeID: "1318",
+	pumpoutID: 227,
+
 	Prime: "=",
 	Fiesta2: "S2 S4 S6 S15 D5 D13 Sp3 Dp4",
 },
 
 
-"1319":
+"13__Cant_Nobody":
 {
 	title: "Can't Nobody", artist: "2NE1", bpm: "130",
+	arcadeID: "1319",
+	pumpoutID: 228,
+
 	Prime: "= -S17",
 	Fiesta2: "S2 S4 S6 S15 D5 D16 Sp3 Dp5  @1.50 S17",
 },
 
 
-"1320":
+"13__Shanghai_Romance":
 {
 	title: "Shanghai Romance", artist: "Orange Caramel", channel: KPOP, bpm: "149",
+	arcadeID: "1320",
+	pumpoutID: 229,
+
 	Prime: "= -S18 -D17",
 	Fiesta2: "S4 S7 S9 S14 D5 D13 Sp2 Dp4  @1.01 S16  @1.50 S18 D17",
 },
 
 
-"1321":
+"13__Fantastic_Baby":
 {
 	title: "Fantastic Baby", artist: "Big Bang", bpm: "130",
+	arcadeID: "1321",
+	pumpoutID: 230,
+
 	Prime: "=",
 	Fiesta2: "S3 S5 S8 S14 D5 D17 Sp1 Dp5",
 },
 
 
-"1322":
+"13__Lie":
 {
 	title: "Lie", artist: "Big Bang", bpm: "125",
+	arcadeID: "1322",
+	pumpoutID: 231,
+
 	Prime: "=",
 	Fiesta2: "S2 S4 S6 S15 D5 D15 Sp2 Dp5",
 },
 
 
-"1323":
+"13__Heart_Breaker":
 {
 	title: "Heart Breaker", artist: "G-Dragon", channel: KPOP, bpm: "135",
+	arcadeID: "1323",
+	pumpoutID: 232,
+
 	Prime: "= -D18",
 	Fiesta2: "S1 S3 S5 S15 D4 D16 Sp3 Dp6  @1.50 D18",
 },
 
 
-"1324":
+"13__Hands_Up":
 {
 	title: "Hands Up (East 4A Mix)", artist: "2PM", channel: KPOP, bpm: "130",
 	shortTitle: "Hands Up",
+	arcadeID: "1324",
+	pumpoutID: 356,
+
 	Fiesta2: "S3 S5 S8 S15 D5 D15 Sp3 Dp4",
 },
 
 
-"1325":
+"13__Be_Mine":
 {
 	title: "Be Mine", artist: "Infinite", channel: KPOP, bpm: "130",
+	arcadeID: "1325",
+	pumpoutID: 233,
+
 	Prime: "=",
 	Fiesta2: "S2 S4 S7 S15  D5 D15  Sp3 Dp5",
 },
 
 
-"1326":
+"13__Crayon":
 {
 	title: "Crayon", artist: "G-Dragon", channel: KPOP, bpm: "132",
+	arcadeID: "1326",
+	pumpoutID: 234,
+
 	Prime: "=",
 	Fiesta2: "@1.10 S4 S6 S8 S17 D5 D17",
 },
 
 
-"1327":
+"13__Mackerel":
 {
 	title: "Mackerel", artist: "Norazo", channel: KPOP, bpm: "150",
+	arcadeID: "1327",
+	pumpoutID: 235,
+
 	Prime: "= CoOp(x2)`Dp??(x2)",
 	Fiesta2: "S4 S6 S8 S16 D5 D15 Sp2 Dp4 Dp??(x2)",
 },
 
 
-"1328":
+"13__Two_Guys":
 {
 	title: "Two Guys", artist: "Bae Chi Gi", channel: KPOP, bpm: "128",
+	arcadeID: "1328",
+	pumpoutID: 236,
+
 	Prime: "= -D18",
 	Fiesta2: "S4 S7 S9 S15 D5 D16 Sp3 Dp6  @1.50 D18",
 },
 
 
-"1329":
+"13__Danza_Kuduro":
 {
 	title: "Danza Kuduro", artist: "Don Omar & Ft. Lucenzo", channel: WORLD, bpm: "130",
 	region: LATIN,
+	arcadeID: "1329",
+	pumpoutID: 316,
+
 	Prime: "=",
 	Fiesta2: "S4 S7 S9 S15 D10 D16",
 },
 
 
-"1330":
+"13__Rabiosa":
 {
 	title: "Rabiosa", artist: "Shakira & Ft. Pitbull", channel: WORLD, bpm: "133",
 	region: LATIN,
+	arcadeID: "1330",
+	pumpoutID: 315,
+
 	Prime: "=",
 	Fiesta2: "S2 S4 S7 S14 D5 D16",
 },
 
 
-"1331":
+"13__Lovumba":
 {
 	title: "Lovumba", artist: "Daddy Yankee", channel: WORLD, bpm: "121",
 	region: LATIN,
+	arcadeID: "1331",
+	pumpoutID: 317,
+
 	Prime: "= -D19",
 	Fiesta2: "S2 S5 S8 S14 D5 D16  @1.50 D19",
 },
 
 
-"1332":
+"13__One_Two_Three_Go":
 {
 	title: "One Two Three Go!", artist: "Belanova", channel: WORLD, bpm: "150",
+	arcadeID: "1332",
+	pumpoutID: 237,
+
 	Prime: "=",
 	Fiesta2: "S3 S6 S8 S13 D7 D14",
 },
 
 
-"1333":
+"13__Los_Malaventurados_No_Lloran":
 {
 	title: "Los Malaventurados No Lloran", artist: "PXNDX", bpm: "172",
+	arcadeID: "1333",
+	pumpoutID: 238,
+
 	Prime: "=",
 	Fiesta2: "S4 S7 S9 S16 D12 D18",
 },
 
 
-"1334":
+"13__Sik_Asik":
 {
 	title: "Sik Asik", artist: "Ayu Ting Ting", channel: WORLD, bpm: "147",
+	arcadeID: "1334",
+	pumpoutID: 239,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S3 S5 S8 S13 D4  @1.01 D14",
 },
 
 
-"1335":
+"13__Online":
 {
 	title: "Online", artist: "Saykoji", channel: WORLD, bpm: "118",
+	arcadeID: "1335",
+	pumpoutID: 240,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S1 S4 S6 S15 D4  @1.01 D15",
 },
 
 
-"1336":
+"13__Dam":
 {
 	title: "Dam", artist: "Ben Chalatit", channel: WORLD, bpm: "141",
+	arcadeID: "1336",
+	pumpoutID: 241,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S1 S3 S5 S8 D4 D9",
 },
 
 
-"1337":
+"13__Sugar_Eyes":
 {
 	title: "Sugar Eyes", artist: "Sugar Eyes", channel: WORLD, bpm: "122",
+	arcadeID: "1337",
+	pumpoutID: 242,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S1 S3 S6 S8 S10 D4 D9  @1.60 S13",
 },
 
 
-"1338":
+"13__Log_In":
 {
 	title: "Log-In", artist: "SHK", channel: ORIGINAL, bpm: "140",
 	arcadeName: "Log In",
+	arcadeID: "1338",
+	pumpoutID: 243,
+
 	XX: "= S20`21 D19`20",
 	Prime2: "=",
 	Prime: "=",
@@ -3566,9 +4595,12 @@ var readableTracklist = {
 },
 
 
-"1339":
+"13__Windmill":
 {
 	title: "Windmill", artist: "Yak Won", channel: ORIGINAL, bpm: "246",
+	arcadeID: "1339",
+	pumpoutID: 244,
+
 	XX: "= D23`24  @2.00 CoOp(x2)",
 	Prime2: "=",
 	Prime: "=",
@@ -3576,9 +4608,12 @@ var readableTracklist = {
 },
 
 
-"1340":
+"13__Follow_Me":
 {
 	title: "Follow Me", artist: "SHK", channel: ORIGINAL, bpm: "155",
+	arcadeID: "1340",
+	pumpoutID: 245,
+
 	XX: "= D17`18",
 	Prime2: "=",
 	Prime: "= CoOp(x2)`Dp??(x2)",
@@ -3586,9 +4621,12 @@ var readableTracklist = {
 },
 
 
-"1341":
+"13__Yeo_Rae_A":
 {
 	title: "Yeo Rae A", artist: "S.I.D-Sound", channel: ORIGINAL, bpm: "90",
+	arcadeID: "1341",
+	pumpoutID: 246,
+
 	XX: "= D7`5 D10`12  @2.01 CoOp(x5)",
 	Prime2: "=",
 	Prime: "=  @1.06 S8",
@@ -3596,9 +4634,12 @@ var readableTracklist = {
 },
 
 
-"1390":
+"13__Mental_Rider":
 {
 	title: "Mental Rider", artist: "SQUAR", channel: ORIGINAL, bpm: "120 ~ 140",
+	arcadeID: "1390",
+	pumpoutID: 247,
+
 	XX: "= S13`12 D24`23  @2.03  CoOp(x4)",
 	Prime2: "=  @2.05 D22",
 	Prime: "=",
@@ -3606,28 +4647,37 @@ var readableTracklist = {
 },
 
 
-"13A0":
+"13__BIG_to_the_BANG":
 {
 	title: "BIG to the BANG", artist: "Big Bang & MAX", channel: KPOP, bpm: "135", duration: REMIX,
+	arcadeID: "13A0",
+	pumpoutID: 248,
+
 	Prime: "=",
 	Fiesta2: "S17 D17",
 },
 
 
-"13A1":
+"13__Super_Mackerel":
 {
 	title: "Super Mackerel", artist: "Norazo & MAX", channel: KPOP, bpm: "150", duration: REMIX,
+	arcadeID: "13A1",
+	pumpoutID: 249,
+
 	Prime: "=",
 	Fiesta2: "S16 D18",
 },
 
 
-"13A2":
+"13__Infinity_RMX":
 {
 	title: "Infinity RMX", artist: "SynthWulf & MAX", channel: ORIGINAL, bpm: "175", duration: REMIX,
 	changes: {
 		"XX": { channel: WORLD }
 	},
+	arcadeID: "13A2",
+	pumpoutID: 250,
+
 	XX: "= D19`20",
 	Prime2: "=",
 	Prime: "=",
@@ -3635,10 +4685,13 @@ var readableTracklist = {
 },
 
 
-"13A3":
+"13__What_Are_You_Doin":
 {
 	title: "What Are You Doin'?", artist: "Doin & MAX", channel: ORIGINAL, bpm: "200", duration: REMIX,
 	arcadeName: "What Are You Doin?",
+	arcadeID: "13A3",
+	pumpoutID: 251,
+
 	XX: "= S18`19 D23`24",
 	Prime2: "=",
 	Prime: "=",
@@ -3646,49 +4699,67 @@ var readableTracklist = {
 },
 
 
-"13C0":
+"13__Step__FULL":
 {
 	title: "Step  [FULL]", artist: "KARA", channel: KPOP, bpm: "123",
+	arcadeID: "13C0",
+	pumpoutID: 252,
+
 	Prime: "=",
 	Fiesta2: "S15 D17",
 },
 
 
-"13C1":
+"13__Im_the_Best__FULL":
 {
 	title: "I'm the Best  [FULL]", artist: "2NE1", bpm: "128",
+	arcadeID: "13C1",
+	pumpoutID: 253,
+
 	Prime: "=",
 	Fiesta2: "S18 D14",
 },
 
 
-"13C2":
+"13__Shanghai_Romance__FULL":
 {
 	title: "Shanghai Romance  [FULL]", artist: "Orange Caramel", channel: KPOP, bpm: "149",
+	arcadeID: "13C2",
+	pumpoutID: 254,
+
 	Prime: "=",
 	Fiesta2: "S17 D16",
 },
 
 
-"13C3":
+"13__Fantastic_Baby__FULL":
 {
 	title: "Fantastic Baby  [FULL]", artist: "Big Bang", bpm: "130",
+	arcadeID: "13C3",
+	pumpoutID: 255,
+
 	Prime: "=",
 	Fiesta2: "S17 D15",
 },
 
 
-"13C4":
+"13__Cant_Nobody__FULL":
 {
 	title: "Can't Nobody  [FULL]", artist: "2NE1", bpm: "130",
+	arcadeID: "13C4",
+	pumpoutID: 256,
+
 	Prime: "=",
 	Fiesta2: "@1.60 S15 D16",
 },
 
 
-"13C5":
+"13__Heart_Breaker__FULL":
 {
 	title: "Heart Breaker  [FULL]", artist: "G-Dragon", channel: KPOP, bpm: "135",
+	arcadeID: "13C5",
+	pumpoutID: 257,
+
 	Prime: "=",
 	Fiesta2: "@1.60 S16 D16",
 },
@@ -3698,10 +4769,14 @@ var readableTracklist = {
 // 13C7: Crayon full  cancelled
 // 13C8: Danza Kuduro full  cancelled
 
-"13E0":
+
+"13__Pop_The_Track__SHORT":
 {
 	title: "Pop the Track  [SHORT]", artist: "J-Mi & Midi-D & Ft. Hanna Stockzell", channel: WORLD, bpm: "160",
 	arcadeName: "Pop The Track - SHORT CUT",
+	arcadeID: "13E0",
+	pumpoutID: 258,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -3709,10 +4784,13 @@ var readableTracklist = {
 },
 
 
-"13E1":
+"13__Passacaglia__SHORT":
 {
 	title: "Passacaglia  [SHORT]", artist: "SynthWulf", channel: WORLD, bpm: "175",
 	arcadeName: "Passacaglia - SHORT CUT",
+	arcadeID: "13E1",
+	pumpoutID: 259,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -3720,11 +4798,14 @@ var readableTracklist = {
 },
 
 
-"13E2":
+"13__Ignis_Fatuus__SHORT":
 {
 	title: "Ignis Fatuus (DM Ashura Mix)  [SHORT]", artist: "DM Ashura", channel: ORIGINAL, bpm: "220",
 	arcadeName: "Ignis Fatuus(DM Ashura Mix) - SHORT CUT",
-	shortTitle: "Ignis Fatuus",
+	shortTitle: "Ignis Fatuus  [SHORT]",
+	arcadeID: "13E2",
+	pumpoutID: 260,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -3732,10 +4813,13 @@ var readableTracklist = {
 },
 
 
-"13E3":
+"13__Flew_Far_Faster__SHORT":
 {
 	title: "Flew Far Faster  [SHORT]", artist: "Doin", channel: ORIGINAL, bpm: "200",
 	arcadeName: "FFF - SHORT CUT",
+	arcadeID: "13E3",
+	pumpoutID: 261,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -3743,10 +4827,13 @@ var readableTracklist = {
 },
 
 
-"13E4":
+"12__Unique__SHORT":
 {
 	title: "Unique  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "145",
 	arcadeName: "Unique - SHORT CUT",
+	arcadeID: "13E4",
+	pumpoutID: 262,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -3754,10 +4841,13 @@ var readableTracklist = {
 },
 
 
-"13E5":
+"12__U_Got_Me_Rocking__SHORT":
 {
 	title: "U Got Me Rocking  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "128",
 	arcadeName: "U Got Me Rocking - SHORT CUT",
+	arcadeID: "13E5",
+	pumpoutID: 263,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -3769,9 +4859,12 @@ var readableTracklist = {
 // \12 - crossovers from Pro 2
 
 
-"1201":
+"12__Monolith":
 {
 	title: "Monolith", artist: "Affinity", channel: WORLD, bpm: "196",
+	arcadeID: "1201",
+	pumpoutID: 264,
+
 	XX: "= S15`16 D14`13 D17`18 D22`23  @1.03 S21.lock",
 	Prime2: "=  @1.10 D23",
 	Prime: "=",
@@ -3779,36 +4872,48 @@ var readableTracklist = {
 },
 
 
-"1202":
+"12__Y2Z":
 {
 	title: "Y2Z", artist: "Affinity", channel: WORLD, bpm: "162",
+	arcadeID: "1202",
+	pumpoutID: 265,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "@1.30 S3 S6 S9 S16 D9 D17",
 },
 
 
-"1206":
+"12__Rockhill":
 {
 	title: "Rockhill", artist: "Beltaine", channel: WORLD, bpm: "140",
+	arcadeID: "1206",
+	pumpoutID: 266,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "@1.10 S3 S6 S11 S16 D12 D18",
 },
 
 
-"1208":
+"12__Switchback":
 {
 	title: "Switchback", artist: "Celldweller", channel: WORLD, bpm: "112",
+	arcadeID: "1208",
+	pumpoutID: 267,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S3 S5 S9  @1.50 S15 S18 D10 D16 D18",
 },
 
 
-"1209":
+"12__Ladybug":
 {
 	title: "Ladybug", artist: "Coconut", channel: WORLD, bpm: "133",
+	arcadeID: "1209",
+	pumpoutID: 268,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "= CoOp(x2)`Dp??(x2)",
@@ -3816,30 +4921,40 @@ var readableTracklist = {
 },
 
 
-"1212":
+"12__Hardkore_of_the_North":
 {
 	title: "Hardkore of the North", artist: "Diclonius Kid", channel: WORLD, bpm: "190",
-	XX: "= D15`16 D22`23  @2.07 S18",  //??? D22.updated
-	// D22-XX - https://www.youtube.com/watch?v=gPUJICScJeI
-	// D23-P2 vs D22-XX - https://www.youtube.com/watch?v=mbsveAMw7sk
+	arcadeID: "1212",
+	pumpoutID: 269,
+
+	XX: "= D15`16 D22`23  @2.07 S18",
+		//??? D22.updated
+		// D22-XX - https://www.youtube.com/watch?v=gPUJICScJeI
+		// D23-P2 vs D22-XX - https://www.youtube.com/watch?v=mbsveAMw7sk
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S4 S7 S11  @1.50 S21 D16  @1.60 D23",
 },
 
 
-"1218":
+"12__Rippin_It_Up":
 {
 	title: "Rippin' It Up", artist: "Future Funk Squad", channel: WORLD, bpm: "128",
+	arcadeID: "1218",
+	pumpoutID: 270,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S2 S5 S9  @1.50 S16 D4 D18",
 },
 
 
-"1219":
+"12__Tribe_Attacker":
 {
 	title: "Tribe Attacker", artist: "Hi-G", channel: WORLD, bpm: "150",
+	arcadeID: "1219",
+	pumpoutID: 271,
+
 	XX: "= S17`16 D17`15",
 	Prime2: "=",
 	Prime: "= CoOp(x4)`Dp??(x4)",
@@ -3847,46 +4962,64 @@ var readableTracklist = {
 },
 
 
-"1221":
+"12__Virtual_Emotion":
 {
 	title: "Virtual Emotion", artist: "Inspector K", channel: WORLD, bpm: "180",
+	arcadeID: "1221",
+	pumpoutID: 272,
+
 	Prime2: "=",
 	Prime: "= CoOp(x2)`Dp??(x2)",
 	Fiesta2: "S3 S7 S11  @1.40 D18  @1.50 S17 Dp??(x2)",
 },
 
 
-"1222":
+"12__Take_Me_Back":
 {
 	title: "Take Me Back", artist: "KaW", channel: WORLD, bpm: "172",
+	arcadeID: "1222",
+	pumpoutID: 273,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "@1.20 S3 S7 S9 S17 D10 D16",
 },
 
 
-"1225":
+"12__Re_RAVE":
 {
 	title: "Re:RAVE", artist: "KURi-ZiLL", channel: WORLD, bpm: "146",
+	arcadeID: "1225",
+	pumpoutID: 274,
+
 	Prime2: "=",
 	Prime: "= -S16",
 	Fiesta2: "@1.50 S2 S6 S11 S16 S17 D12 D18",
 },
 
 
-"1226":
+"12__Heel_and_Toe":
 {
 	title: "Heel and Toe", artist: "KURi-ZiLL", channel: WORLD, bpm: "185",
+	arcadeID: "1226",
+	pumpoutID: 275,
+
 	Prime2: "=",
 	Prime: "= CoOp(x2)`Dp??(x2)",
 	Fiesta2: "S2 S7 S9  @1.50 D11 Dp??(x2)  @1.60 S17",
 },
 
 
-"1228":
+// 1227 - Deadbeat Boyfriend, pumpout 858
+
+
+"12__Dream_to_Nightmare":
 {
 	title: "Dream to Nightmare", artist: "Nightmare", channel: WORLD, bpm: "178",
 	sortingID: "1300__1",  // before any of 13xx charts
+	arcadeID: "1228",
+	pumpoutID: 208,
+
 	XX: "= -S22 D23`24",
 	Prime2: "=",
 	Prime: "= -S23  @1.19 S22",
@@ -3894,18 +5027,24 @@ var readableTracklist = {
 },
 
 
-"1230":
+"12__Rainspark":
 {
 	title: "Rainspark", artist: "Sanxion7", channel: WORLD, bpm: "125",
+	arcadeID: "1230",
+	pumpoutID: 276,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "S2 S5 S9  @1.50 S15 D5 D17",
 },
 
 
-"1235":
+"12__Utopia":
 {
 	title: "Utopia", artist: "Smiley", channel: WORLD, bpm: "166",
+	arcadeID: "1235",
+	pumpoutID: 277,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -3913,9 +5052,12 @@ var readableTracklist = {
 },
 
 
-"1236":
+"12__Xuxa":
 {
 	title: "Xuxa", artist: "Smiley", channel: WORLD, bpm: "160",
+	arcadeID: "1236",
+	pumpoutID: 278,
+
 	XX: "= D17`18",
 	Prime2: "=",
 	Prime: "= CoOp(x2)`Dp??(x2)",
@@ -3923,20 +5065,26 @@ var readableTracklist = {
 },
 
 
-"1237":
+"12__Be_Alive":
 {
 	title: "Be Alive (Raaban Inc. Mix)", artist: "Stian K", channel: WORLD, bpm: "142",
 	shortTitle: "Be Alive",
+	arcadeID: "1237",
+	pumpoutID: 279,
+
 	Prime2: "=",
 	Prime: "= CoOp(x2)`Dp??(x2)",
 	Fiesta2: "S2 S5 S8  @1.50 D10 Dp??(x2)  @1.60 S15 S17 D16",
 },
 
 
-"1240":
+"12__VVV":
 {
 	title: "VVV", artist: "Zig Zag", channel: WORLD, bpm: "310",
-	sortingID: "1300__2",  // before any of 13xx charts, after DtN
+	sortingID: "1300__2",  // before any of 13xx charts, after Dream to Nightmare (1228)
+	arcadeID: "1240",
+	pumpoutID: 209,
+
 	XX: "= D17`16",
 	Prime2: "=",
 	Prime: "= -D24",
@@ -3944,9 +5092,12 @@ var readableTracklist = {
 },
 
 
-"1241":
+"12__Star_Command":
 {
 	title: "Star Command", artist: "Zircon", channel: WORLD, bpm: "155",
+	arcadeID: "1241",
+	pumpoutID: 280,
+
 	XX: "= D15`14",
 	Prime2: "=",
 	Prime: "=",
@@ -3958,9 +5109,12 @@ var readableTracklist = {
 // \11 - Fiesta EX
 
 
-"1101":
+"11__Cleaner":
 {
 	title: "Cleaner", artist: "Doin", channel: ORIGINAL, bpm: "203",
+	arcadeID: "1101",
+	pumpoutID: 172,
+
 	XX: "= S17`18 S21`22 D25`24",
 	Prime2: "=",
 	Prime: "=",
@@ -3969,9 +5123,12 @@ var readableTracklist = {
 },
 
 
-"1102":
+"11__Interference":
 {
 	title: "Interference", artist: "Doin", channel: ORIGINAL, bpm: "180.4",
+	arcadeID: "1102",
+	pumpoutID: 173,
+
 	XX: "= D18`19 D22`21",
 	Prime2: "=",
 	Prime: "=  @1.05 D21",
@@ -3980,9 +5137,12 @@ var readableTracklist = {
 },
 
 
-"1103":
+"11__Reality":
 {
 	title: "Reality", artist: "SHK", channel: ORIGINAL, bpm: "135",
+	arcadeID: "1103",
+	pumpoutID: 174,
+
 	XX: "= S15`14",
 	Prime2: "=",
 	Prime: "=",
@@ -3991,9 +5151,12 @@ var readableTracklist = {
 },
 
 
-"1104":
+"11__Take_Out":
 {
 	title: "Take Out", artist: "SHK", channel: ORIGINAL, bpm: "170",
+	arcadeID: "1104",
+	pumpoutID: 175,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -4002,9 +5165,12 @@ var readableTracklist = {
 },
 
 
-"1105":
+"11__Butterfly":
 {
 	title: "Butterfly", artist: "MAX & Rorychesell (SID-SOUND)", channel: ORIGINAL, bpm: "128",
+	arcadeID: "1105",
+	pumpoutID: 176,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -4013,9 +5179,12 @@ var readableTracklist = {
 },
 
 
-"1106":
+"11__Overblow":
 {
 	title: "Overblow", artist: "MAX", channel: ORIGINAL, bpm: "155",
+	arcadeID: "1106",
+	pumpoutID: 177,
+
 	XX: "= D19`20",
 	Prime2: "=",
 	Prime: "=  @1.11 CoOp(x2)",
@@ -4024,9 +5193,12 @@ var readableTracklist = {
 },
 
 
-"1107":
+"11__We_Got_2_Know":
 {
 	title: "We Got 2 Know", artist: "MAX", channel: ORIGINAL, bpm: "128",
+	arcadeID: "1107",
+	pumpoutID: 178,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -4035,100 +5207,135 @@ var readableTracklist = {
 },
 
 
-"1108":
+"11__Magic":
 {
 	title: "Magic", artist: "Secret", channel: KPOP, bpm: "107",
+	arcadeID: "1108",
+	pumpoutID: 362,
+
 	Fiesta2: "=",
 	FiestaEX: "S1 S4 S8 S13 D3 D14 Sp3 Dp4",
 },
 
 
-"1109":
+"11__Hot_Issue":
 {
 	title: "Hot Issue", artist: "4Minute", channel: KPOP, bpm: "128",
+	arcadeID: "1109",
+	pumpoutID: 358,
+
 	Fiesta2: "=  @1.50 D26",
 	FiestaEX: "S3 S7 S10 D5 D13 Sp4 Dp5  @1.30 S16 D15",
 },
 
 
-"1110":
+"11__Magic_Girl":
 {
 	title: "Magic Girl", artist: "Orange Caramel", channel: KPOP, bpm: "136",
+	arcadeID: "1110",
+	pumpoutID: 363,
+
 	Fiesta2: "=",
 	FiestaEX: "S4 S7 S11 D5 D13 D21 Sp3 Dp4  @1.10 S15  @1.30 D16",
 },
 
 
-"1111":
+"11__Ring_Ding_Dong":
 {
 	title: "Ring Ding Dong", artist: "SHINee", channel: KPOP, bpm: "125",
+	arcadeID: "1111",
+	pumpoutID: 856,
 	Fiesta2: "=",
 	FiestaEX: "S3 S5 S8 S15 D5 D17 Sp3 Dp4",
 },
 
 
-"1112":
+"11__Shock":
 {
 	title: "Shock", artist: "BEAST", channel: KPOP, bpm: "135",
+	arcadeID: "1112",
+	pumpoutID: 366,
+
 	Fiesta2: "=",
 	FiestaEX: "S3 S5 S14 D4 D15 Dp5  @1.10 S16  @1.51 S8",
 },
 
 
-"1113":
+"11__Last_Farewell":
 {
 	title: "Last Farewell", artist: "Big Bang", bpm: "135",
+	arcadeID: "1113",
+	pumpoutID: 361,
+
 	Fiesta2: "=",
 	FiestaEX: "S2 S5 S13 S17 D6 D14 Sp3 Dp5  @1.51 S8",
 },
 
 
-"1114":
+"11__Superman":
 {
 	title: "Superman", artist: "Norazo", channel: KPOP, bpm: "150",
+	arcadeID: "1114",
+	pumpoutID: 193,
+
 	Prime: "= CoOp(x2)`Dp??(x2)",
 	Fiesta2: "=",
 	FiestaEX: "S4 S6 S8 S14 D9 D15 Dp4 Dp??(x2)  @1.10 S16  @1.20 Sp1  @1.30 D23",
 },
 
 
-"1115":
+"11__Energy":
 {
 	title: "Energy", artist: "Mighty Mouth", channel: KPOP, bpm: "155",
+	arcadeID: "1115",
+	pumpoutID: 357,
+
 	Fiesta2: "=",
 	FiestaEX: "S4 S8 S13 S15 D9 D14 Sp4 Dp5",
 },
 
 
-"1116":
+"11__Mother":
 {
 	title: "Mother", artist: "1TYM", channel: KPOP, bpm: "96",
+	arcadeID: "1116",
+	pumpoutID: 365,
+
 	Fiesta2: "=",
 	FiestaEX: "S1 S4 S7 S13 D5 D14 Sp2 Dp3",
 },
 
 
-"1117":
+"11__No_3":
 {
 	title: "No. 3", artist: "Bae Chi Gi", channel: KPOP, bpm: "128",
+	arcadeID: "1117",
+	pumpoutID: 194,
+
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "S4 S7 S16 D5 D16 Dp4  @1.51 S9",
 },
 
 
-"1118":
+"11__Like_a_Man":
 {
 	title: "Like a Man", artist: "Outsider", channel: KPOP, bpm: "180",
+	arcadeID: "1118",
+	pumpoutID: 195,
+
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "S6 S8 S18 D10 D18  @1.20 Dp3  @1.51 S4",
 },
 
 
-"1119":
+"11__Crashday":
 {
 	title: "Crashday", artist: "Crash", channel: KPOP, bpm: "220",
+	arcadeID: "1119",
+	pumpoutID: 196,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -4136,9 +5343,12 @@ var readableTracklist = {
 },
 
 
-"1120":
+"11__What_Happened":
 {
 	title: "What Happened", artist: "Throwdown", channel: WORLD, bpm: "130",
+	arcadeID: "1120",
+	pumpoutID: 200,
+
 	XX: "= S21`20",
 	Prime2: "=",
 	Prime: "=",
@@ -4147,9 +5357,12 @@ var readableTracklist = {
 },
 
 
-"1121":
+"11__Gargoyle":
 {
 	title: "Gargoyle", artist: "Sanxion7", channel: WORLD, bpm: "150",
+	arcadeID: "1121",
+	pumpoutID: 201,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -4158,9 +5371,12 @@ var readableTracklist = {
 },
 
 
-"1122":
+"11__Allegro_Con_Fuoco":
 {
 	title: "Allegro Con Fuoco", artist: "DM Ashura", channel: WORLD, bpm: "156",
+	arcadeID: "1122",
+	pumpoutID: 202,
+
 	XX: "= S10`11",
 	Prime2: "=",
 	Prime: "=",
@@ -4169,9 +5385,12 @@ var readableTracklist = {
 },
 
 
-"1123":
+"11__Hungarian_Dance_V":
 {
 	title: "Hungarian Dance V", artist: "BanYa Production", bpm: "145",
+	arcadeID: "1123",
+	pumpoutID: 179,
+
 	XX: "=  @2.06 D21.lock",
 	Prime2: "=",
 	Prime: "=",
@@ -4180,9 +5399,12 @@ var readableTracklist = {
 },
 
 
-"1124":
+"11__The_Devil":
 {
 	title: "The Devil", artist: "BanYa Production", bpm: "130 ~ 240",
+	arcadeID: "1124",
+	pumpoutID: 180,
+
 	XX: "= S19`20 D14`13 D20`21",
 	Prime2: "=",
 	Prime: "= CoOp(x2)`Dp??(x2)",
@@ -4191,9 +5413,12 @@ var readableTracklist = {
 },
 
 
-"1125":
+"11__X_Rave":
 {
 	title: "X-Rave", artist: "DM Ashura", channel: WORLD, bpm: "147",
+	arcadeID: "1125",
+	pumpoutID: 203,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -4202,9 +5427,12 @@ var readableTracklist = {
 },
 
 
-"1126":
+"11__Native":
 {
 	title: "Native", artist: "SHK", channel: ORIGINAL, bpm: "135",
+	arcadeID: "1126",
+	pumpoutID: 181,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -4213,9 +5441,12 @@ var readableTracklist = {
 },
 
 
-"1127":
+"11__Smells_Like_a_Chocolate":
 {
 	title: "Smells Like a Chocolate", artist: "Vospi", channel: WORLD, bpm: "175.9",
+	arcadeID: "1127",
+	pumpoutID: 204,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -4224,9 +5455,12 @@ var readableTracklist = {
 },
 
 
-"1128":
+"11__Necromancy":
 {
 	title: "Necromancy", artist: "Zircon", channel: WORLD, bpm: "173",
+	arcadeID: "1128",
+	pumpoutID: 205,
+
 	XX: "= D14`13 D23`24",
 	Prime2: "=",
 	Prime: "=",
@@ -4235,25 +5469,33 @@ var readableTracklist = {
 },
 
 
-"1129":
+"11__KPop_Girl_Group_RMX":
 {
 	title: "K-Pop Girl Group RMX", artist: "Secret & Orange Caramel & 4Minute & 2NE1", channel: KPOP, bpm: "128", duration: REMIX,
+	arcadeID: "1129",
+	pumpoutID: 360,
+
 	Fiesta2: "=",
 	FiestaEX: "S14 D15",
 },
 
 
-"1130":
+"11__KPOP_Boy_Group_RMX":
 {
 	title: "K-POP Boy Group RMX", artist: "BEAST & Big Bang & SHINee", channel: KPOP, bpm: "125 - 135", duration: REMIX,
+	arcadeID: "1130",
+	pumpoutID: 871,
 	Fiesta2: "=",
 	FiestaEX: "@1.30 D17",
 },
 
 
-"1131":
+"11__Vacuum_Cleaner":
 {
 	title: "Vacuum Cleaner", artist: "Doin", channel: ORIGINAL, bpm: "222.22", duration: REMIX,
+	arcadeID: "1131",
+	pumpoutID: 182,
+
 	XX: "= ",
 	Prime2: "=",
 	Prime: "=  @1.19 D20",
@@ -4262,9 +5504,12 @@ var readableTracklist = {
 },
 
 
-"1132":
+"11__Everybody_Got_2_Know":
 {
 	title: "Everybody Got 2 Know", artist: "MAX", channel: ORIGINAL, bpm: "128", duration: REMIX,
+	arcadeID: "1132",
+	pumpoutID: 183,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "= -S??",
@@ -4273,9 +5518,12 @@ var readableTracklist = {
 },
 
 
-"1135":
+"11__Interference__FULL":
 {
 	title: "Interference  [FULL]", artist: "Doin", channel: ORIGINAL, bpm: "180",
+	arcadeID: "1135",
+	pumpoutID: 184,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -4284,59 +5532,78 @@ var readableTracklist = {
 },
 
 
-"1136":
+"11__Magic_Girl__FULL":
 {
 	title: "Magic Girl  [FULL]", artist: "Orange Caramel", channel: KPOP, bpm: "136",
+	arcadeID: "1136",
+	pumpoutID: 364,
+
 	Fiesta2: "=",
 	FiestaEX: "S12",
 },
 
 
-"1137":
+"11__Ring_Ding_Dong__FULL":
 {
 	title: "Ring Ding Dong  [FULL]", artist: "SHINee", channel: KPOP, bpm: "125",
+	arcadeID: "1137",
+	pumpoutID: 857,
 	Fiesta2: "=",
 	FiestaEX: "@1.30 S16 D17",
 },
 
 
-"1138":
+"11__Shock__FULL":
 {
 	title: "Shock  [FULL]", artist: "BEAST", channel: KPOP, bpm: "135",
+	arcadeID: "1138",
+	pumpoutID: 367,
+
 	Fiesta2: "=",
 	FiestaEX: "S17 D15",
 },
 
 
-"1139":
+"11__Energy__FULL":
 {
 	title: "Energy  [FULL]", artist: "Mighty Mouth", channel: KPOP, bpm: "155",
+	arcadeID: "1139",
+	pumpoutID: 855,
 	Fiesta2: "=",
 	FiestaEX: "S15",
 },
 
 
-"1140":
+"11__Like_a_Man__FULL":
 {
 	title: "Like a Man  [FULL]", artist: "Outsider", channel: KPOP, bpm: "180",
+	arcadeID: "1140",
+	pumpoutID: 197,
+
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "S19 D19",
 },
 
 
-"1141":
+"11__No_3__FULL":
 {
 	title: "No. 3  [FULL]", artist: "Bae Chi Gi", channel: KPOP, bpm: "128",
+	arcadeID: "1141",
+	pumpoutID: 198,
+
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "S17 D18",
 },
 
 
-"1142":
+"11__Crashday__FULL":
 {
 	title: "Crashday  [FULL]", artist: "Crash", channel: KPOP, bpm: "220",
+	arcadeID: "1142",
+	pumpoutID: 199,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -4344,18 +5611,24 @@ var readableTracklist = {
 },
 
 
-"1143":
+"11__Hot_Issue__FULL":
 {
 	title: "Hot Issue  [FULL]", artist: "4Minute", channel: KPOP, bpm: "128",
+	arcadeID: "1143",
+	pumpoutID: 359,
+
 	Fiesta2: "=",
 	FiestaEX: "@1.30 S9 S14 D16",
 },
 
 
-"1145":
+"11__Trotpris__SHORT":
 {
 	title: "Trotpris  [SHORT]", artist: "Doin", channel: ORIGINAL, bpm: "156.118",
 	arcadeName: "Trotpris - SHORT CUT",
+	arcadeID: "1145",
+	pumpoutID: 185,
+
 	XX: "= D14`15",
 	Prime2: "=",
 	Prime: "=",
@@ -4364,10 +5637,13 @@ var readableTracklist = {
 },
 
 
-"1146":
+"11__Cleaner__SHORT":
 {
 	title: "Cleaner  [SHORT]", artist: "Doin", channel: ORIGINAL, bpm: "203",
 	arcadeName: "Cleaner - SHORT CUT",
+	arcadeID: "1146",
+	pumpoutID: 186,
+
 	XX: "= D22`20",
 	Prime2: "=",
 	Prime: "=",
@@ -4376,10 +5652,13 @@ var readableTracklist = {
 },
 
 
-"1147":
+"11__Take_Out__SHORT":
 {
 	title: "Take Out  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "170",
 	arcadeName: "Take Out - SHORT CUT",
+	arcadeID: "1147",
+	pumpoutID: 187,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -4388,10 +5667,13 @@ var readableTracklist = {
 },
 
 
-"1148":
+"11__Overblow__SHORT":
 {
 	title: "Overblow  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "155",
 	arcadeName: "Overblow - SHORT CUT",
+	arcadeID: "1148",
+	pumpoutID: 188,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -4400,10 +5682,13 @@ var readableTracklist = {
 },
 
 
-"1149":
+"11__X_Rave__SHORT":
 {
 	title: "X-Rave  [SHORT]", artist: "DM Ashura", channel: WORLD, bpm: "147",
 	arcadeName: "X-Rave - SHORT CUT",
+	arcadeID: "1149",
+	pumpoutID: 206,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -4412,13 +5697,16 @@ var readableTracklist = {
 },
 
 
-"1152":
+"11__Pavane":
 {
 	title: "Pavane", artist: "V.A.", channel: ORIGINAL, bpm: "160",
 	changes:
 	{
-		"XX": { banner: "1152-XX" },
+		"XX": { banner: "11__Pavane__XX" },
 	},
+	arcadeID: "1152",
+	pumpoutID: 189,
+
 	XX: "= D17`16",
 	Prime2: "=",
 	Prime: "=",
@@ -4427,9 +5715,12 @@ var readableTracklist = {
 },
 
 
-"1153":
+"11__Pine_Nut":
 {
 	title: "Pine Nut", artist: "Doin", channel: ORIGINAL, bpm: "200",
+	arcadeID: "1153",
+	pumpoutID: 190,
+
 	XX: "=  @2.01 D22.lock",
 	Prime2: "=",
 	Prime: "=",
@@ -4438,13 +5729,16 @@ var readableTracklist = {
 },
 
 
-"1154":
+"11__ASDF":
 {
 	title: "ASDF", artist: "Doin", channel: ORIGINAL, bpm: "170",
 	changes:
 	{
-		"XX": { banner: "1154-XX" },
+		"XX": { banner: "11__ASDF__XX" },
 	},
+	arcadeID: "1154",
+	pumpoutID: 191,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -4453,9 +5747,12 @@ var readableTracklist = {
 },
 
 
-"1159":
+"11__Rave_Until_The_Night_Is_Over":
 {
 	title: "Rave Until The Night Is Over", artist: "DM Ashura feat. MC Jay & Veronica", channel: WORLD, bpm: "144",
+	arcadeID: "1159",
+	pumpoutID: 207,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -4463,9 +5760,12 @@ var readableTracklist = {
 },
 
 
-"1160":
+"11__Jonathans_Dream":
 {
 	title: "Jonathan's Dream", artist: "MAX & Seorryang (SID-SOUND)", channel: ORIGINAL, bpm: "140",
+	arcadeID: "1160",
+	pumpoutID: 192,
+
 	XX: "=  @1.04 S18 D19  @2.05 S4 S6",
 	Prime2: "=",
 	Prime: "= -D18",
@@ -4478,10 +5778,13 @@ var readableTracklist = {
 // \10 - Fiesta
 
 
-"1001":
+"10__X_Tree":
 {
 	title: "X-Tree", artist: "Yahpp", bpm: "190",
 	arcadeName: "XTREE",
+	arcadeID: "1001",
+	pumpoutID: 129,
+
 	XX: "= S2`3 D15`14 D19`18",
 	Prime2: "=",
 	Prime: "=",
@@ -4491,9 +5794,12 @@ var readableTracklist = {
 },
 
 
-"1002":
+"10__Sorceress_Elise":
 {
 	title: "Sorceress Elise", artist: "Yahpp", bpm: "158",
+	arcadeID: "1002",
+	pumpoutID: 130,
+
 	XX: "= S17`15",
 	Prime2: "=",
 	Prime: "= CoOp(x2)`Dp??(x2)",
@@ -4503,9 +5809,12 @@ var readableTracklist = {
 },
 
 
-"1003":
+"10__Betrayer_Act_2":
 {
 	title: "Betrayer -Act. 2-", artist: "msgoon", channel: ORIGINAL, bpm: "92",
+	arcadeID: "1003",
+	pumpoutID: 369,
+
 	XX: "=",
 	Prime2: "=",
 	Fiesta2: "=",
@@ -4514,47 +5823,62 @@ var readableTracklist = {
 },
 
 
-"1004":
+"10__Good_Life":
 {
 	title: "Good Life", artist: "Drunken Tiger", channel: KPOP, bpm: "98.2",
+	arcadeID: "1004",
+	pumpoutID: 377,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S2 S4 S15 D5 D16 Sp2 Dp3",
 },
 
 
-"1005":
+"10__Big_Beat":
 {
 	title: "Big Beat", artist: "NOW", channel: KPOP, bpm: "104",
+	arcadeID: "1005",
+	pumpoutID: 370,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S5 S13 S15  D6 D14  Sp3 Dp5",
 },
 
 
-"1006":
+"10__Exciting":
 {
 	title: "Exciting", artist: "Dynamic Duo", channel: KPOP, bpm: "104",
+	arcadeID: "1006",
+	pumpoutID: 374,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S2 S3 S14 D14 Sp5",
 },
 
 
-"1007":
+"10__By_Chance":
 {
 	title: "By Chance", artist: "Baby V.O.X.", channel: KPOP, bpm: "127",
+	arcadeID: "1007",
+	pumpoutID: 371,
+
 	Fiesta2: "=",
 	FiestaEX: "=  @1.51 S5",
 	Fiesta: "S2 S4 S15 D6 D16 Sp2 Dp4",
 },
 
 
-"1008":
+"10__U_Got_2_Know":
 {
 	title: "U Got 2 Know", artist: "MAX", channel: ORIGINAL, bpm: "127",
-	// S18->20 - https://www.youtube.com/watch?v=JYmZxSbKafo (XX), https://www.youtube.com/watch?v=V9sikisXVts
+	arcadeID: "1008",
+	pumpoutID: 131,
+
 	XX: "= S20`18",
+		// S18->20 - https://www.youtube.com/watch?v=JYmZxSbKafo (XX), https://www.youtube.com/watch?v=V9sikisXVts
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -4563,36 +5887,48 @@ var readableTracklist = {
 },
 
 
-"1009":
+"10__To_the_Sky":
 {
 	title: "To the Sky", artist: "Lexy", channel: KPOP, bpm: "130",
+	arcadeID: "1009",
+	pumpoutID: 389,
+
 	Fiesta2: "=",
 	FiestaEX: "= S15",
 	Fiesta: "S1 S3 S5 S12 D6 D16 Sp3 Dp6",
 },
 
 
-"1010":
+"10__The_Angel_Who_Lost_Wings":
 {
 	title: "The Angel Who Lost Wings", artist: "Roo'ra", channel: KPOP, bpm: "135",
+	arcadeID: "1010",
+	pumpoutID: 388,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S1 S4 S6 S13 D6 D16 Sp2 Dp3",
 },
 
 
-"1011":
+"10__Innocent":
 {
 	title: "Innocent", artist: "Koyote", channel: KPOP, bpm: "137",
+	arcadeID: "1011",
+	pumpoutID: 379,
+
 	Fiesta2: "=",
 	FiestaEX: "= S14",  // pumbi unlock
 	Fiesta: "S3 S5 S11 D6 D15",
 },
 
 
-"1012":
+"10__Enjoy_Enjoy":
 {
 	title: "Enjoy! Enjoy!", artist: "Mudagang", channel: KPOP, bpm: "138",
+	arcadeID: "1012",
+	pumpoutID: 373,
+
 	Fiesta2: "=",
 	FiestaEX: "= -S4",
 	Fiesta: "S3 S4 S6 S11 S14 D7 D14 Sp4 Dp5",
@@ -4600,9 +5936,12 @@ var readableTracklist = {
 },
 
 
-"1013":
+"10__Destination":
 {
 	title: "Destination", artist: "SHK", channel: ORIGINAL, bpm: "150",
+	arcadeID: "1013",
+	pumpoutID: 132,
+
 	XX: "= S12`11 S17`16 S19`18 S20`19 D14`13",
 	Prime2: "=",
 	Prime: "=",
@@ -4612,40 +5951,51 @@ var readableTracklist = {
 },
 
 
-"1014":
+"10__Twist_King":
 {
 	title: "Twist King", artist: "Turbo", channel: KPOP, bpm: "156",
+	arcadeID: "1014",
+	pumpoutID: 853,
 	Fiesta2: "=",
 	FiestaEX: "=  @1.51 S10",
 	Fiesta: "S4 S6 S14 D7 D15 Sp4",
 },
 
 
-"1015":
+"10__Fire":
 {
-	title: "Fire", artist: "2NE1", bpm: "126", banner: "1015-Fiesta",
+	title: "Fire", artist: "2NE1", bpm: "126", banner: "10__Fire__Fiesta",
 	changes:
 	{
-		"Fiesta2": { banner: "1015" },
+		"Fiesta2": { banner: "10__Fire" },
 	},
+	arcadeID: "1015",
+	pumpoutID: 375,
+
 	Fiesta2: "=",
 	FiestaEX: "=  @1.51 D14",
 	Fiesta: "S3 S5 S8 S15 D4 D11 Sp3 Dp4  @1.05 S16",
 },
 
 
-"1016":
+"10__Wanna":
 {
 	title: "Wanna", artist: "Kara", bpm: "161",
+	arcadeID: "1016",
+	pumpoutID: 390,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S2 S4 S9 S16 D3 D12 Sp2 Dp5  @1.05 D17",
 },
 
 
-"1017":
+"10__Vacuum":
 {
 	title: "Vacuum", artist: "Doin", channel: ORIGINAL, bpm: "200",
+	arcadeID: "1017",
+	pumpoutID: 133,
+
 	XX: "= D21`22",
 	Prime2: "=",
 	Prime: "=",
@@ -4655,9 +6005,12 @@ var readableTracklist = {
 },
 
 
-"1018":
+"10__Narcisista_Por_Excelencia":
 {
 	title: "Narcisista Por Excelencia", artist: "PXNDX", bpm: "164",
+	arcadeID: "1018",
+	pumpoutID: 168,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -4666,28 +6019,37 @@ var readableTracklist = {
 },
 
 
-"1019":
+"10__No_Rhyme_No_Reason":
 {
 	title: "No Rhyme No Reason", artist: "LTJ X-Perience", channel: WORLD, bpm: "110",
+	arcadeID: "1019",
+	pumpoutID: 384,
+
 	Fiesta2: "=",
 	FiestaEX: "=  @1.51 S8",
 	Fiesta: "S2 S5 S15 Sp2  @1.05 D20",
 },
 
 
-"1020":
+"10__80s_Pop":
 {
 	title: "80's Pop", artist: "Energy Presents", channel: WORLD, bpm: "128",
+	arcadeID: "1020",
+	pumpoutID: 368,
+
 	Fiesta2: "=",
 	FiestaEX: "=  @1.51 S8",
 	Fiesta: "S2 S5 S12 D6 D17 Sp3 Dp4  @1.05 S16",
 },
 
 
-"1021":
+"10__Do_It_Reggae_Style":
 {
 	title: "Do It -Reggae Style-", artist: "BanYa Production", bpm: "96",
 	arcadeName: "Do It reggae Style",
+	arcadeID: "1021",
+	pumpoutID: 372,
+
 	XX: "=",
 	Prime2: "=",
 	Fiesta2: "=",
@@ -4696,9 +6058,12 @@ var readableTracklist = {
 },
 
 
-"1022":
+"10__Xenesis":
 {
 	title: "Xenesis", artist: "BanYa Production", bpm: "152",
+	arcadeID: "1022",
+	pumpoutID: 134,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -4708,9 +6073,12 @@ var readableTracklist = {
 },
 
 
-"1023":
+"10__Arirang":
 {
 	title: "Arirang", artist: "BanYa Production", bpm: "160",
+	arcadeID: "1023",
+	pumpoutID: 135,
+
 	XX: "= S11`9 S19`18 D12`10 D21`20",
 	Prime2: "=",
 	Prime: "=",
@@ -4720,9 +6088,12 @@ var readableTracklist = {
 },
 
 
-"1024":
+"10__Tek_Club_Copenhagen":
 {
 	title: "Tek -Club Copenhagen-", artist: "BanYa Production", bpm: "132",
+	arcadeID: "1024",
+	pumpoutID: 136,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -4732,9 +6103,12 @@ var readableTracklist = {
 },
 
 
-"1025":
+"10__Hello_William":
 {
 	title: "Hello William", artist: "BanYa Production", bpm: "170",
+	arcadeID: "1025",
+	pumpoutID: 137,
+
 	XX: "= D20`21",
 	Prime2: "=",
 	Prime: "=",
@@ -4744,10 +6118,13 @@ var readableTracklist = {
 },
 
 
-"1026":
+"10__Turkey_March_Minimal_Tunes":
 {
 	title: "Turkey March -Minimal Tunes-", artist: "BanYa Production", bpm: "130",
 	shortTitle: "Turkey March -Minimal-",
+	arcadeID: "1026",
+	pumpoutID: 138,
+
 	XX: "= S10`8 D11`10",
 	Prime2: "=",
 	Prime: "=",
@@ -4757,9 +6134,12 @@ var readableTracklist = {
 },
 
 
-"1027":
+"10__Get_Up_and_Go":
 {
 	title: "Get Up (and Go)", artist: "BanYa Production", bpm: "164",
+	arcadeID: "1027",
+	pumpoutID: 139,
+
 	XX: "= D19`20",
 	Prime2: "=",
 	Prime: "=",
@@ -4769,9 +6149,12 @@ var readableTracklist = {
 },
 
 
-"1028":
+"10__Phantom_Intermezzo":
 {
 	title: "Phantom -Intermezzo-", artist: "BanYa Production", bpm: "140",
+	arcadeID: "1028",
+	pumpoutID: 140,
+
 	XX: "= S22`21 D17`15 D21`20",
 	Prime2: "=",
 	Prime: "=",
@@ -4781,9 +6164,12 @@ var readableTracklist = {
 },
 
 
-"1029":
+"10__Mission_Possible_Blowback":
 {
 	title: "Mission Possible -Blowback-", artist: "BanYa Production", bpm: "128",
+	arcadeID: "1029",
+	pumpoutID: 381,
+
 	XX: "= S19`18 D18`17  @1.02 D21.new",
 	Prime2: "=",
 	Fiesta2: "=",
@@ -4792,9 +6178,12 @@ var readableTracklist = {
 },
 
 
-"1030":
+"10__Pumping_Jumping":
 {
 	title: "Pumping Jumping", artist: "BanYa Production", bpm: "116",
+	arcadeID: "1030",
+	pumpoutID: 387,
+
 	XX: "= S4`3",
 	Prime2: "=",
 	Fiesta2: "=",
@@ -4803,9 +6192,12 @@ var readableTracklist = {
 },
 
 
-"1031":
+"10__B_P_Classic_Remix":
 {
 	title: "B.P Classic Remix", artist: "BanYa Production", bpm: "164", duration: REMIX,
+	arcadeID: "1031",
+	pumpoutID: 141,
+
 	XX: "= D14`13",
 	Prime2: "=",
 	Prime: "=",
@@ -4815,18 +6207,24 @@ var readableTracklist = {
 },
 
 
-"1032":
+"10__KPop_Mix_Old_n_New":
 {
 	title: "K-Pop Mix (Old & New)", artist: "BanYa Production", bpm: "138", duration: REMIX,
+	arcadeID: "1032",
+	pumpoutID: 380,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S7 S13",
 },
 
 
-"1033":
+"10__PaPa_Helloizing":
 {
 	title: "PaPa Helloizing", artist: "BanYa Production", bpm: "145 ~ 158", duration: REMIX,
+	arcadeID: "1033",
+	pumpoutID: 142,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -4836,9 +6234,12 @@ var readableTracklist = {
 },
 
 
-"1034":
+"10__B_P_Classic_Remix_2":
 {
 	title: "B.P Classic Remix 2", artist: "BanYa Production", bpm: "180", duration: REMIX,
+	arcadeID: "1034",
+	pumpoutID: 143,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -4848,9 +6249,12 @@ var readableTracklist = {
 },
 
 
-"1035":
+"10__Hard_Core_Rock_Mix":
 {
 	title: "Hard Core Rock Mix", artist: "BanYa Production", bpm: "196", duration: REMIX,
+	arcadeID: "1035",
+	pumpoutID: 144,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -4859,10 +6263,13 @@ var readableTracklist = {
 },
 
 
-"1036":
+"10__Pro_Pop_Mix":
 {
 	title: "Pro Pop Mix (new remix)", artist: "BanYa Production", bpm: "151", duration: REMIX,
-	shortTitle: "Pro Pop Mix (new)",
+	shortTitle: "Pro Pop Mix",
+	arcadeID: "1036",
+	pumpoutID: 385,
+
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -4870,9 +6277,12 @@ var readableTracklist = {
 },
 
 
-"1037":
+"10__Set_Up_Me2_Mix":
 {
 	title: "Set Up Me2 Mix", artist: "BanYa Production", bpm: "122", duration: REMIX,
+	arcadeID: "1037",
+	pumpoutID: 145,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -4882,9 +6292,12 @@ var readableTracklist = {
 },
 
 
-"1038":
+"10__msgoon_RMX_pt_5":
 {
 	title: "msgoon RMX pt. 5", artist: "msgoon", channel: ORIGINAL, duration: REMIX, bpm: "102.8",
+	arcadeID: "1038",
+	pumpoutID: 382,
+
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -4892,9 +6305,12 @@ var readableTracklist = {
 },
 
 
-"1039":
+"10__msgoon_RMX_pt_6":
 {
 	title: "msgoon RMX pt. 6", artist: "msgoon", channel: ORIGINAL, bpm: "150", duration: REMIX,
+	arcadeID: "1039",
+	pumpoutID: 146,
+
 	XX: "= S21`20 D20`19",
 	Prime2: "=",
 	Prime: "=",
@@ -4904,27 +6320,36 @@ var readableTracklist = {
 },
 
 
-"1040":
+"10__msgoon_RMX_pt_7":
 {
 	title: "msgoon RMX pt. 7", artist: "msgoon", channel: ORIGINAL, duration: REMIX, bpm: "130",
+	arcadeID: "1040",
+	pumpoutID: 383,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S17 Dp4",
 },
 
 
-"1041":
+"10__History_We_Are_The_Zest":
 {
 	title: "History: We Are The Zest", artist: "msgoon", channel: ORIGINAL, bpm: "112.5", duration: REMIX,
+	arcadeID: "1041",
+	pumpoutID: 378,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "Sp6 Dp5",
 },
 
 
-"1042":
+"10__Deja_Vu__FULL":
 {
 	title: "Deja Vu  [FULL]", artist: "SOM2", channel: KPOP, bpm: "115",
+	arcadeID: "1042",
+	pumpoutID: 166,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -4933,9 +6358,12 @@ var readableTracklist = {
 },
 
 
-"1043":
+"10__Narcisista_Por_Excelencia__FULL":
 {
 	title: "Narcisista Por Excelencia  [FULL]", artist: "PXNDX", bpm: "164",
+	arcadeID: "1043",
+	pumpoutID: 169,
+
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -4943,9 +6371,12 @@ var readableTracklist = {
 },
 
 
-"1044":
+"10__Dawn_of_the_Apocalypse__FULL":
 {
 	title: "Dawn of the Apocalypse  [FULL]", artist: "Vassline", channel: KPOP, bpm: "100 ~ 210",
+	arcadeID: "1044",
+	pumpoutID: 167,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -4954,12 +6385,15 @@ var readableTracklist = {
 },
 
 
-"1045":
+"10__Fire__FULL":
 {
-	title: "Fire  [FULL]", artist: "2NE1", bpm: "126", banner: "1045-Fiesta",
+	title: "Fire  [FULL]", artist: "2NE1", bpm: "126", banner: "10__Fire__FULL__Fiesta",
+	arcadeID: "1045",
+	pumpoutID: 376,
+
 	changes:
 	{
-		"Fiesta2": { banner: "1045" },
+		"Fiesta2": { banner: "10__Fire__FULL" },
 	},
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -4967,28 +6401,37 @@ var readableTracklist = {
 },
 
 
-"1046":
+"10__Wanna__FULL":
 {
 	title: "Wanna  [FULL]", artist: "Kara", bpm: "161",
+	arcadeID: "1046",
+	pumpoutID: 391,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S16",
 },
 
 
-"1047":
+"10__Pump_It_Up_With_You":
 {
 	title: "Pump It Up With You", artist: "msgoon", channel: ORIGINAL, bpm: "105-135", duration: REMIX,
+	arcadeID: "1047",
+	pumpoutID: 386,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S17 D17",
 },
 
 
-"1048":
+"10__Final_Audition_2__SHORT":
 {
 	title: "Final Audition 2  [SHORT]", artist: "BanYa", bpm: "130",
 	arcadeName: "Final Audition 2 - SHORT CUT",
+	arcadeID: "1048",
+	pumpoutID: 147,
+
 	XX: "= S17`16 D18`17",
 	Prime2: "=",
 	Prime: "=",
@@ -4998,10 +6441,13 @@ var readableTracklist = {
 },
 
 
-"1049":
+"10__Final_Audition_3_U_F__SHORT":
 {
 	title: "Final Audition 3 U.F  [SHORT]", artist: "BanYa", bpm: "130.5",
 	arcadeName: "Final Audition 3 - SHORT CUT",
+	arcadeID: "1049",
+	pumpoutID: 148,
+
 	XX: "= S18`17",
 	Prime2: "=",
 	Prime: "=",
@@ -5011,10 +6457,13 @@ var readableTracklist = {
 },
 
 
-"1050":
+"10__Final_Audition_ep_2_X__SHORT":
 {
 	title: "Final Audition episode 2-X  [SHORT]", artist: "Yahpp", bpm: "170",
 	arcadeName: "Final Audition EP. 2-X - SHORT CUT",
+	arcadeID: "1050",
+	pumpoutID: 149,
+
 	XX: "= D20`19",
 	Prime2: "=",
 	Prime: "=",
@@ -5024,10 +6473,13 @@ var readableTracklist = {
 },
 
 
-"1051":
+"10__Love_is_a_Danger_Zone__SHORT":
 {
 	title: "Love is a Danger Zone  [SHORT]", artist: "BanYa", bpm: "140",
 	arcadeName: "Love is a Danger Zone - SHORT CUT",
+	arcadeID: "1051",
+	pumpoutID: 150,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -5037,10 +6489,13 @@ var readableTracklist = {
 },
 
 
-"1052":
+"10__Love_is_a_Danger_Zone_2__SHORT":
 {
 	title: "Love is a Danger Zone 2  [SHORT]", artist: "BanYa", bpm: "162",
 	arcadeName: "Love is a Danger Zone pt.2 - SHORT CUT",
+	arcadeID: "1052",
+	pumpoutID: 151,
+
 	XX: "= D22`21",
 	Prime2: "=",
 	Prime: "=",
@@ -5050,10 +6505,13 @@ var readableTracklist = {
 },
 
 
-"1053":
+"10__Extravaganza__SHORT":
 {
 	title: "Extravaganza  [SHORT]", artist: "BanYa", bpm: "195",
 	arcadeName: "Extravaganza - SHORT CUT",
+	arcadeID: "1053",
+	pumpoutID: 152,
+
 	XX: "= S15`14 D15`14 D22`21",
 	Prime2: "=",
 	Prime: "=",
@@ -5063,10 +6521,13 @@ var readableTracklist = {
 },
 
 
-"1054":
+"10__Chicken_Wing__SHORT":
 {
 	title: "Chicken Wing  [SHORT]", artist: "BanYa", bpm: "200",
 	arcadeName: "CHICKEN WING - SHORT CUT",
+	arcadeID: "1054",
+	pumpoutID: 153,
+
 	XX: "= D14`13",
 	Prime2: "=",
 	Prime: "=",
@@ -5076,10 +6537,13 @@ var readableTracklist = {
 },
 
 
-"1055":
+"10__Winter__SHORT":
 {
 	title: "Winter  [SHORT]", artist: "BanYa", bpm: "168",
 	arcadeName: "Winter - SHORT CUT",
+	arcadeID: "1055",
+	pumpoutID: 154,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -5089,10 +6553,13 @@ var readableTracklist = {
 },
 
 
-"1056":
+"10__Solitary_2__SHORT":
 {
 	title: "Solitary 2  [SHORT]", artist: "BanYa", bpm: "136",
 	arcadeName: "Solitary 2 - SHORT CUT",
+	arcadeID: "1056",
+	pumpoutID: 155,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -5102,10 +6569,13 @@ var readableTracklist = {
 },
 
 
-"1057":
+"10__Moonlight__SHORT":
 {
 	title: "Moonlight  [SHORT]", artist: "BanYa", bpm: "180",
 	arcadeName: "Moonlight - SHORT CUT",
+	arcadeID: "1057",
+	pumpoutID: 156,
+
 	XX: "= S15`16 S19`18",
 	Prime2: "=",
 	Prime: "=",
@@ -5115,10 +6585,13 @@ var readableTracklist = {
 },
 
 
-"1058":
+"10__Witch_Doctor__SHORT":
 {
 	title: "Witch Doctor  [SHORT]", artist: "BanYa", bpm: "195",
 	arcadeName: "Witch Doctor - SHORT CUT",
+	arcadeID: "1058",
+	pumpoutID: 157,
+
 	XX: "= D17`16",
 	Prime2: "=",
 	Prime: "=",
@@ -5128,10 +6601,13 @@ var readableTracklist = {
 },
 
 
-"1059":
+"10__Exceed2_Opening__SHORT":
 {
 	title: "Exceed 2 Opening", artist: "BanYa Production", bpm: "178", duration: SHORT, fromMix: "Fiesta",
 	arcadeName: "Exceed2 Opening - SHORT CUT",
+	arcadeID: "1059",
+	pumpoutID: 158,
+
 	XX: "= D18`19",
 	Prime2: "=",
 	Prime: "= -D??(x9)",
@@ -5142,10 +6618,13 @@ var readableTracklist = {
 },
 
 
-"1060":
+"10__NX_Opening__SHORT":
 {
 	title: "NX Opening", artist: "Yahpp", bpm: "133", duration: SHORT,
 	arcadeName: "NX Opening - SHORT CUT",
+	arcadeID: "1060",
+	pumpoutID: 159,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -5155,11 +6634,14 @@ var readableTracklist = {
 },
 
 
-"1061":
+"10__K_O_A_Alice_In_Wonderworld__SHORT":
 {
 	title: "K.O.A : Alice in Wonderworld  [SHORT]", artist: "BanYa Production", bpm: "156",
 	arcadeName: "K.O.A: Alice In Wonderworld - SHORT CUT",
 	arcadeNameMaxEditDistance: 1, // 'K.0O.A: Alice In Wonderworld - SHORT CUT'
+	arcadeID: "1061",
+	pumpoutID: 160,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -5169,10 +6651,13 @@ var readableTracklist = {
 },
 
 
-"1062":
+"10__Bemera__SHORT":
 {
 	title: "Bemera  [SHORT]", artist: "Yahpp", bpm: "210",
 	arcadeName: "Bemera - SHORT CUT",
+	arcadeID: "1062",
+	pumpoutID: 161,
+
 	XX: "= S14`13",
 	Prime2: "=",
 	Prime: "=",
@@ -5182,11 +6667,14 @@ var readableTracklist = {
 },
 
 
-"1063":
+"10__Pumptris_8bit__SHORT":
 {
 	title: "Pumptris (8Bit ver.)  [SHORT]", artist: "Yahpp", bpm: "162",
 	shortTitle: "Pumptris (8Bit)",
 	arcadeName: "Pumptris 8Bit ver. - SHORT CUT",
+	arcadeID: "1063",
+	pumpoutID: 162,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -5196,10 +6684,13 @@ var readableTracklist = {
 },
 
 
-"1064":
+"10__Destination__SHORT":
 {
 	title: "Destination  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "150",
 	arcadeName: "Destination - SHORT CUT",
+	arcadeID: "1064",
+	pumpoutID: 163,
+
 	XX: "= D19`18",
 	Prime2: "=",
 	Prime: "=",
@@ -5209,10 +6700,13 @@ var readableTracklist = {
 },
 
 
-"1065":
+"10__Procedimientos_Para_Llegar__SHORT":
 {
 	title: "Procedimientos Para Llegar a un Comun Acuerdo  [SHORT]", artist: "PXNDX", bpm: "160",
 	shortTitle: "Procedimientos Para Llegar\na un Comun Acuerdo",
+	arcadeID: "1065",
+	pumpoutID: 170,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5221,9 +6715,18 @@ var readableTracklist = {
 },
 
 
-"1094":
+// 1070 - B.P.M. Collection 3(Pumpts), pumpout 862
+// 1085 - B.P.M. Collection 2(Solitaries), pumpout 861
+// 1087 - B.P.M. Collection 1(Auditions), pumpout 860
+// 1093 - B.P.M. Collection 4(etc.Mix), pumpout 863
+
+
+"10__Tepris":
 {
 	title: "Tepris", artist: "Doin", channel: ORIGINAL, bpm: "145",
+	arcadeID: "1094",
+	pumpoutID: 164,
+
 	XX: "= S17`16 D19`18",
 	Prime2: "=",
 	Prime: "= CoOp(x2)`Dp??(x2)",
@@ -5233,9 +6736,12 @@ var readableTracklist = {
 },
 
 
-"1095":
+"10__Napalm":
 {
 	title: "Napalm", artist: "Doin", channel: ORIGINAL, bpm: "185",
+	arcadeID: "1095",
+	pumpoutID: 165,
+
 	XX: "= S14`13 S21`22 D15`14 D22`23",
 	Prime2: "=",
 	Prime: "=",
@@ -5245,9 +6751,12 @@ var readableTracklist = {
 },
 
 
-"1096":
+"10__Dieciseis":
 {
 	title: "Dieciseis", artist: "Nina Pilots", channel: WORLD, bpm: "143",
+	arcadeID: "1096",
+	pumpoutID: 171,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5260,9 +6769,12 @@ var readableTracklist = {
 // \F - NXA
 
 
-"F01":
+"0F__Blaze_Emotion":
 {
 	title: "Blaze Emotion", artist: "Yahpp", bpm: "170",
+	arcadeID: "F01",
+	pumpoutID: 78,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -5273,9 +6785,12 @@ var readableTracklist = {
 },
 
 
-"F02":
+"0F__Cannon_X_1":
 {
 	title: "Cannon X.1", artist: "Yahpp", bpm: "185",
+	arcadeID: "F02",
+	pumpoutID: 79,
+
 	XX: "= S12`10 D14`13",
 	Prime2: "=",
 	Prime: "=",
@@ -5286,9 +6801,12 @@ var readableTracklist = {
 },
 
 
-"F03":
+"0F__Chopsticks_Challenge":
 {
 	title: "Chopsticks Challenge", artist: "Yahpp", bpm: "128",
+	arcadeID: "F03",
+	pumpoutID: 80,
+
 	XX: "=  @2.07 S12",
 	Prime2: "=",
 	Prime: "=",
@@ -5299,9 +6817,12 @@ var readableTracklist = {
 },
 
 
-"F04":
+"0F__La_La_La":
 {
 	title: "La La La", artist: "Big Bang", bpm: "102",
+	arcadeID: "F04",
+	pumpoutID: 409,
+
 	Fiesta2: "=",
 	FiestaEX: "=  @1.51 S1",
 	Fiesta: "Sp2`nl S5`hd S10`cz Dp5`fs D13`nm  @1.10 S3",
@@ -5309,9 +6830,12 @@ var readableTracklist = {
 },
 
 
-"F05":
+"0F__Adios":
 {
 	title: "Adios", artist: "Eun Ji Won", bpm: "123",
+	arcadeID: "F05",
+	pumpoutID: 394,
+
 	Fiesta2: "=",
 	FiestaEX: "=  @1.51 S1",
 	Fiesta: "Sp2`nl S6`hd S14`cz Dp4`fs D16`nm  @1.10 S3",
@@ -5319,9 +6843,12 @@ var readableTracklist = {
 },
 
 
-"F06":
+"0F__Slightly":
 {
 	title: "Slightly", artist: "45rpm", channel: KPOP, bpm: "120",
+	arcadeID: "F06",
+	pumpoutID: 419,
+
 	Fiesta2: "=",
 	FiestaEX: "=  @1.30 D14",
 	Fiesta: "Sp1`nl S4`hd S14`cz Dp5`fs D12`nm",
@@ -5329,9 +6856,12 @@ var readableTracklist = {
 },
 
 
-"F07":
+"0F__Im_Your_Girl":
 {
 	title: "I'm Your Girl", artist: "S.E.S", channel: KPOP, bpm: "102",
+	arcadeID: "F07",
+	pumpoutID: 869,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "Sp2`nl S5`hd S12`cz Dp6`fs D10`nm  S1.new S3.new",
@@ -5339,9 +6869,12 @@ var readableTracklist = {
 },
 
 
-"F08":
+"0F__Only_You":
 {
 	title: "Only You", artist: "Namolla Family", channel: KPOP, bpm: "108",
+	arcadeID: "F08",
+	pumpoutID: 868,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S3`nl S6`hd S12`cz D3`fs D13`nm",
@@ -5349,9 +6882,12 @@ var readableTracklist = {
 },
 
 
-"F09":
+"0F__Chocolate":
 {
 	title: "Chocolate", artist: "Banana Girl", channel: KPOP, bpm: "130",
+	arcadeID: "F09",
+	pumpoutID: 866,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "Sp2`nl S5`hd S9`cz Dp3`fs D9`nm  S6`ahd S13`acz D15`anm",
@@ -5359,9 +6895,12 @@ var readableTracklist = {
 },
 
 
-"F10":
+"0F__Forward":
 {
 	title: "Forward", artist: "DJ Missill", channel: KPOP, bpm: "97",
+	arcadeID: "F10",
+	pumpoutID: 402,
+
 	Fiesta2: "=",
 	FiestaEX: "=  @1.51 S2",
 	Fiesta: "Sp2`nl S5`hd S13`cz Dp5`fs D13`nm  @1.10 S4",
@@ -5369,9 +6908,12 @@ var readableTracklist = {
 },
 
 
-"F11":
+"0F__Uprock":
 {
 	title: "Uprock", artist: "Sam-I-Am", channel: WORLD, bpm: "120",
+	arcadeID: "F11",
+	pumpoutID: 422,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "Sp2`nl S5`hd S17`cz Dp4`fs D14`nm",
@@ -5379,9 +6921,12 @@ var readableTracklist = {
 },
 
 
-"F12":
+"0F__Crazy":
 {
 	title: "Crazy", artist: "Gyfted", channel: KPOP, bpm: "108",
+	arcadeID: "F12",
+	pumpoutID: 397,
+
 	Fiesta2: "=",
 	FiestaEX: "=  @1.30 Dp3  @1.51 S2 S4 S8",
 	Fiesta: "Sp2`nl S5`hd S15`cz Dp6`fs D19`nm",
@@ -5389,9 +6934,12 @@ var readableTracklist = {
 },
 
 
-"F13":
+"0F__Panuelito_Rojo":
 {
 	title: "Panuelito Rojo", artist: "Big Metra", channel: WORLD, bpm: "98",
+	arcadeID: "F13",
+	pumpoutID: 117,
+
 	Prime2: "=  @2.05 S17",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5401,10 +6949,13 @@ var readableTracklist = {
 },
 
 
-"F14":
+"0F__Procedimientos_Para_Llegar":
 {
 	title: "Procedimientos Para Llegar a un Comun Acuerdo", artist: "PXNDX", bpm: "160",
 	shortTitle: "Procedimientos Para Llegar\na un Comun Acuerdo",
+	arcadeID: "F14",
+	pumpoutID: 118,
+
 	Prime2: "=",
 	Prime: "=  @1.19 S18 D19",
 	Fiesta2: "=",
@@ -5414,9 +6965,12 @@ var readableTracklist = {
 },
 
 
-"F15":
+"0F__Digan_Lo_Que_Digan":
 {
 	title: "Digan Lo Que Digan", artist: "Nina Pilots", channel: WORLD, bpm: "162",
+	arcadeID: "F15",
+	pumpoutID: 119,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5426,9 +6980,12 @@ var readableTracklist = {
 },
 
 
-"F16":
+"0F__Pump_Breakers":
 {
 	title: "Pump Breakers", artist: "Tico", channel: WORLD, bpm: "120",
+	arcadeID: "F16",
+	pumpoutID: 418,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "Sp2`nl S5`nl S17`cz Dp4`fs  D15",  //??? после NXA убрали удвоение BPM - считать другим чартом
@@ -5436,9 +6993,12 @@ var readableTracklist = {
 },
 
 
-"F17":
+"0F__Change_Myself":
 {
 	title: "Change Myself", artist: "Wang Lee Hom", channel: WORLD, bpm: "104",
+	arcadeID: "F17",
+	pumpoutID: 395,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "Sp1`nl S5`hd S10`cz Dp5`fs D9`nm  S1.new S4.new",
@@ -5446,9 +7006,11 @@ var readableTracklist = {
 },
 
 
-"F18":
+"0F__Come_On":
 {
 	title: "Come On!", artist: "Lee Jeong Hyun", channel: WORLD, bpm: "141",
+	arcadeID: "F18",
+	pumpoutID: 870,
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S2`nl S5`hd S12`cz Dp4`fs D9`nm  S4",
@@ -5456,9 +7018,11 @@ var readableTracklist = {
 },
 
 
-"F19":
+"0F__Bad_Character":
 {
 	title: "Bad Character", artist: "Jang Na Ra", channel: WORLD, bpm: "100",
+	arcadeID: "F19",
+	pumpoutID: 864,
 	Fiesta2: "=",
 	FiestaEX: "= -S5",
 	Fiesta: "Sp1`nl S5`hd S10`cz  Dp3`fs D11`nm  S3.new S6.new",
@@ -5466,9 +7030,11 @@ var readableTracklist = {
 },
 
 
-"F20":
+"0F__U":
 {
 	title: "U", artist: "Super Junior M", channel: KPOP, bpm: "115",
+	arcadeID: "F20",
+	pumpoutID: 867,
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "Sp2`nl S6`hd S14`cz Dp5`fs D13`nm  S1.new Sp1.new S4.new",
@@ -5476,9 +7042,12 @@ var readableTracklist = {
 },
 
 
-"F21":
+"0F__Breakin_Love":
 {
 	title: "Breakin' Love", artist: "Yoo Seung Jun", channel: WORLD, bpm: "102",
+	arcadeID: "F21",
+	pumpoutID: 865,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "Sp2`nl S6`hd S12`cz  Dp4`fs D14`nm",
@@ -5486,9 +7055,12 @@ var readableTracklist = {
 },
 
 
-"F22":
+"0F__The_People_Didnt_Know":
 {
 	title: "The People Didn't Know", artist: "BanYa Production", bpm: "134",
+	arcadeID: "F22",
+	pumpoutID: 81,
+
 	XX: "= S3`2  @2.07 CoOp(x2)",
 	Prime2: "=  @2.04 S12",
 	Prime: "=",
@@ -5499,9 +7071,12 @@ var readableTracklist = {
 },
 
 
-"F23":
+"0F__DJ_Otada":
 {
 	title: "DJ Otada", artist: "BanYa Production", bpm: "180",
+	arcadeID: "F23",
+	pumpoutID: 82,
+
 	XX: "=  @2.00 S17 D20",
 	Prime2: "=",
 	Prime: "=",
@@ -5512,11 +7087,14 @@ var readableTracklist = {
 },
 
 
-"F24":
+"0F__K_O_A_Alice_in_Wonderworld":
 {
 	title: "K.O.A. -Alice in Wonderworld-", artist: "BanYa Production", bpm: "156",
 	arcadeName: "K.O.A: Alice In Wonderworld",
 	arcadeNameMaxEditDistance: 1, // 'K.0O.A: Alice In Wonderworld'
+	arcadeID: "F24",
+	pumpoutID: 83,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -5527,9 +7105,12 @@ var readableTracklist = {
 },
 
 
-"F25":
+"0F__My_Dreams":
 {
 	title: "My Dreams", artist: "BanYa Production", bpm: "136",
+	arcadeID: "F25",
+	pumpoutID: 84,
+
 	XX: "= S18`17 S19`18  @2.00 D22.lock",
 	Prime2: "=",
 	Prime: "=",
@@ -5540,9 +7121,12 @@ var readableTracklist = {
 },
 
 
-"F26":
+"0F__Toccata":
 {
 	title: "Toccata", artist: "BanYa Production", bpm: "104",
+	arcadeID: "F26",
+	pumpoutID: 85,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -5553,9 +7137,12 @@ var readableTracklist = {
 },
 
 
-"F27":
+"0F__Do_It":
 {
 	title: "Do It!", artist: "House Rulez", channel: KPOP, bpm: "129",
+	arcadeID: "F27",
+	pumpoutID: 398,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "Sp2`nl S6`hd S15`cz Dp4`fs D18`nm",
@@ -5563,9 +7150,12 @@ var readableTracklist = {
 },
 
 
-"F28":
+"0F__Dawn_of_the_Apocalypse":
 {
 	title: "Dawn of the Apocalypse", artist: "Vassline", channel: KPOP, bpm: "160-190",
+	arcadeID: "F28",
+	pumpoutID: 113,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5576,11 +7166,14 @@ var readableTracklist = {
 },
 
 
-"F29":
+"0F__Final_Audition_ep_2_X":
 {
 	title: "Final Audition episode 2-X", artist: "Yahpp", bpm: "170",
 	shortTitle: "Final Audition ep. 2-X",
 	arcadeName: "Final Audition Ep. 2-X",
+	arcadeID: "F29",
+	pumpoutID: 86,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -5591,9 +7184,12 @@ var readableTracklist = {
 },
 
 
-"F30":
+"0F__45rpm_Eun_Ji_Won_Remix":
 {
 	title: "45rpm & Eun Ji Won Remix", artist: "45RPM / Eun Ji Won", channel: KPOP, bpm: "123", duration: REMIX,
+	arcadeID: "F30",
+	pumpoutID: 393,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S11`cz Dp5`fs D14`nm",
@@ -5601,10 +7197,13 @@ var readableTracklist = {
 },
 
 
-"F31":
+"0F__The_People_Didnt_Know_Pumping_Up":
 {
 	title: "The People Didn't Know Pumping Up", artist: "BanYa Production", bpm: "134", duration: REMIX,
 	shortTitle: "The People Didn't Know\nPumping Up",
+	arcadeID: "F31",
+	pumpoutID: 87,
+
 	XX: "= D18`17",
 	Prime2: "=",
 	Prime: "=",
@@ -5615,17 +7214,23 @@ var readableTracklist = {
 },
 
 
-"F32":
+"0F__Ugly_Duck_Toccata":
 {
 	title: "Ugly Duck Toccata", artist: "BanYa Production", bpm: "104", duration: REMIX,
+	arcadeID: "F32",
+	pumpoutID: 766,
+
 	XX: "S17`cz D18`nm",
 	NXA_: ["", "12", "15", "", "16"],
 },
 
 
-"F33":
+"0F__Caprice_of_DJ_Otada":
 {
 	title: "Caprice of DJ Otada", artist: "BanYa Production", bpm: "180", duration: REMIX,
+	arcadeID: "F33",
+	pumpoutID: 88,
+
 	XX: "= S20`19",
 	Prime2: "=",
 	Prime: "=",
@@ -5636,9 +7241,12 @@ var readableTracklist = {
 },
 
 
-"F34":
+"0F__Dr_KOA":
 {
 	title: "Dr. KOA", artist: "BanYa Production", bpm: "156", duration: REMIX,
+	arcadeID: "F34",
+	pumpoutID: 89,
+
 	XX: "= S10`8",
 	Prime2: "=",
 	Prime: "=",
@@ -5649,23 +7257,32 @@ var readableTracklist = {
 },
 
 
-"F35":
+"0F__Jam_O_Beat_Sharp_No_4":
 {
 	title: "Jam O Beat # No. 4", artist: "BanYa Production / HEaDTriP", channel: ORIGINAL, bpm: "121", duration: REMIX,
+	arcadeID: "F35",
+	pumpoutID: 609,
+
 	NXA_: ["", "", "16", "6", "16"],
 },
 
 
-"F36":
+"0F__YG_Remix":
 {
 	title: "YG Remix", artist: "Big Bang / Perry", channel: KPOP, bpm: "102", duration: REMIX,
+	arcadeID: "F36",
+	pumpoutID: "",
+
 	NXA_: ["", "5", "", "6", "15"],
 },
 
 
-"F37":
+"0F__Nina_PXNDX_Mix":
 {
 	title: "Nina PXNDX Mix", artist: "Nina Pilots / PXNDX", channel: WORLD, bpm: "160", duration: REMIX,
+	arcadeID: "F37",
+	pumpoutID: 120,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5675,9 +7292,12 @@ var readableTracklist = {
 },
 
 
-"F38":
+"0F__Big_Metra_Remix":
 {
 	title: "Big Metra Remix", artist: "Big metra", channel: WORLD, bpm: "105", duration: REMIX,
+	arcadeID: "F38",
+	pumpoutID: 121,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5687,16 +7307,22 @@ var readableTracklist = {
 },
 
 
-"F39":
+"0F__NXA_Hip_Hop_Mix":
 {
 	title: "NXA Hip-Hop Mix", artist: "DJ Missill / Gyfted", channel: WORLD, bpm: "108", duration: REMIX,
+	arcadeID: "F39",
+	pumpoutID: "",
+
 	NXA_: ["", "6", "13", "4", ""],
 },
 
 
-"F40":
+"0F__Novasonic_Mix_ver_3":
 {
 	title: "Novasonic Mix ver. 3", artist: "Novasonic", bpm: "136", duration: REMIX,
+	arcadeID: "F40",
+	pumpoutID: 415,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S6`hd S17`cz D19`nm",
@@ -5704,24 +7330,33 @@ var readableTracklist = {
 },
 
 
-"F41":
+"0F__Mr_Fire_Fighter_Falls_in_Love_With_Me":
 {
 	title: "Mr. Fire Fighter Falls in Love With Me", artist: "Spooky Banana / No Brain", channel: KPOP, bpm: "158", duration: REMIX,
 	shortTitle: "Mr. Fire Fighter\nFalls in Love With Me",
+	arcadeID: "F41",
+	pumpoutID: "",
+
 	NXA_: ["", "8", "15", "9", ""],
 },
 
 
-"F42":
+"0F__J_Knows_That_Old_Bong":
 {
 	title: "J Knows That Old Bong", artist: "BanYa Production", bpm: "130", duration: REMIX,
+	arcadeID: "F42",
+	pumpoutID: "",
+
 	NXA_: ["", "8", "17", "", "18"],
 },
 
 
-"F43":
+"0F__Turkey_Virus":
 {
 	title: "Turkey Virus", artist: "BanYa Production", bpm: "150-162", duration: REMIX,
+	arcadeID: "F43",
+	pumpoutID: 421,
+
 	XX: "=",
 	Prime2: "=",
 	Fiesta2: "=",
@@ -5731,9 +7366,12 @@ var readableTracklist = {
 },
 
 
-"F44":
+"0F__msgoon_RMX_pt_1":
 {
 	title: "msgoon RMX pt. 1", artist: "msgoon", channel: ORIGINAL, bpm: "120", duration: REMIX,
+	arcadeID: "F44",
+	pumpoutID: 414,
+
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -5742,16 +7380,22 @@ var readableTracklist = {
 },
 
 
-"F45":
+"0F__msgoon_RMX_pt_2":
 {
 	title: "msgoon RMX pt. 2", artist: "msgoon", channel: KPOP, bpm: "105", duration: REMIX,
+	arcadeID: "F45",
+	pumpoutID: "",
+
 	NXA_: ["", "5", "16", "5", ""],
 },
 
 
-"F46":
+"0F__msgoon_RMX_pt_3":
 {
 	title: "msgoon RMX pt. 3", artist: "msgoon", channel: ORIGINAL, bpm: "168", duration: REMIX,
+	arcadeID: "F46",
+	pumpoutID: 413,
+
 	Prime2: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -5760,9 +7404,12 @@ var readableTracklist = {
 },
 
 
-"F50":
+"0F__Chopsticks_Challenge__FULL":
 {
 	title: "Chopsticks Challenge  [FULL]", artist: "Yahpp", bpm: "128",
+	arcadeID: "F50",
+	pumpoutID: 90,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -5773,9 +7420,12 @@ var readableTracklist = {
 },
 
 
-"F51":
+"0F__La_La_La__FULL":
 {
 	title: "La La La  [FULL]", artist: "Big Bang", bpm: "102",
+	arcadeID: "F51",
+	pumpoutID: 410,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S4`hd S14`cz",
@@ -5783,16 +7433,21 @@ var readableTracklist = {
 },
 
 
-"F52":
+"0F__Adios__FULL":
 {
 	title: "Adios  [FULL]", artist: "Eun Ji Won", bpm: "123",
+	arcadeID: "F52",
+	pumpoutID: 878,
 	NXA_: ["", "4", "15", "4", ""],
 },
 
 
-"F53":
+"0F__Panuelito_Rojo__FULL":
 {
 	title: "Panuelito Rojo  [FULL]", artist: "Big Metra", channel: WORLD, bpm: "98",
+	arcadeID: "F53",
+	pumpoutID: 122,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5802,10 +7457,13 @@ var readableTracklist = {
 },
 
 
-"F54":
+"0F__Procedimientos_Para_Llegar__FULL":
 {
 	title: "Procedimientos Para Llegar a un Comun Acuerdo  [FULL]", artist: "PXNDX", bpm: "160",
 	shortTitle: "Procedimientos Para Llegar\na un Comun Acuerdo",
+	arcadeID: "F54",
+	pumpoutID: 123,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5815,9 +7473,12 @@ var readableTracklist = {
 },
 
 
-"F55":
+"0F__Forward__FULL":
 {
 	title: "Forward  [FULL]", artist: "DJ Missill", channel: KPOP, bpm: "97",
+	arcadeID: "F55",
+	pumpoutID: 403,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S4`hd S15`cz D5`fs",
@@ -5825,9 +7486,12 @@ var readableTracklist = {
 },
 
 
-"F56":
+"0F__Slightly__FULL":
 {
 	title: "Slightly  [FULL]", artist: "45rpm ft. msgoon", channel: KPOP, bpm: "120",
+	arcadeID: "F56",
+	pumpoutID: 420,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S5`hd S17`cz",
@@ -5835,23 +7499,32 @@ var readableTracklist = {
 },
 
 
-"F58":
+"0F__Chocolate__FULL":
 {
 	title: "Chocolate  [FULL]", artist: "Banana Girl", channel: KPOP, bpm: "130",
+	arcadeID: "F58",
+	pumpoutID: "",
+
 	NXA_: ["", "6", "15", "8", ""],
 },
 
 
-"F63":
+"0F__Change_Myself__FULL":
 {
 	title: "Change Myself  [FULL]", artist: "Wang Lee Hom", channel: WORLD, bpm: "104.5",
+	arcadeID: "F63",
+	pumpoutID: "",
+
 	NXA_: ["", "3", "14", "3", ""],
 },
 
 
-"F65":
+"0F__Beat_Sharp_No_4__FULL":
 {
 	title: "Beat # No.4  [FULL]", artist: "HEaDTriP", channel: KPOP, bpm: "121",
+	arcadeID: "F65",
+	pumpoutID: 114,
+
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -5860,16 +7533,22 @@ var readableTracklist = {
 },
 
 
-"F57":
+"0F__Come_On__FULL":
 {
 	title: "Come On!  [FULL]", artist: "Lee Jeong Hyun", channel: WORLD, bpm: "140",
+	arcadeID: "F57",
+	pumpoutID: "",
+
 	NXA_: ["", "6", "", "6", ""],
 },
 
 
-"F59":
+"0F__Digan_Lo_Que_Digan__FULL":
 {
 	title: "Digan Lo Que Digan  [FULL]", artist: "Nina Pilots", channel: WORLD, bpm: "162",
+	arcadeID: "F59",
+	pumpoutID: 124,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5879,9 +7558,12 @@ var readableTracklist = {
 },
 
 
-"F60":
+"0F__Trato_De_No_Trabarme__FULL":
 {
 	title: "Trato De No Trabarme  [FULL]", artist: "Big metra", channel: WORLD, bpm: "105",
+	arcadeID: "F60",
+	pumpoutID: 125,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -5891,23 +7573,32 @@ var readableTracklist = {
 },
 
 
-"F61":
+"0F__Crazy__FULL":
 {
 	title: "Crazy  [FULL]", artist: "Gyfted", channel: KPOP, bpm: "108",
+	arcadeID: "F61",
+	pumpoutID: 592,
+
 	NXA_: ["", "3", "13", "3", ""],
 },
 
 
-"F62":
+"0F__U__FULL":
 {
 	title: "U  [FULL]", artist: "Super Junior M", channel: KPOP, bpm: "115",
+	arcadeID: "F62",
+	pumpoutID: "",
+
 	NXA_: ["", "3", "15", "3", ""],
 },
 
 
-"F64":
+"0F__Enter_the_Dragon__FULL":
 {
 	title: "Enter the Dragon  [FULL]", artist: "JTL", channel: KPOP, bpm: "110",
+	arcadeID: "F64",
+	pumpoutID: 399,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S17`cz Dp3`fs D18`nm",
@@ -5915,9 +7606,11 @@ var readableTracklist = {
 },
 
 
-"F80":
+"0F__In_Your_Fantasy":
 {
 	title: "In Your Fantasy", artist: "Taiji Boys", bpm: "130", fromMix: "NXA",
+	arcadeID: "F80",
+	pumpoutID: 854,
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "@1.10 S2 S4 S6 S14 D7 D16 Dp3",
@@ -5928,9 +7621,12 @@ var readableTracklist = {
 // \E - NX2
 
 
-"E01":
+"0E__Solitary_1_5":
 {
 	title: "Solitary 1.5", artist: "Yahpp", bpm: "136",
+	arcadeID: "E01",
+	pumpoutID: 92,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -5942,9 +7638,12 @@ var readableTracklist = {
 },
 
 
-"E02":
+"0E__Beat_the_Ghost":
 {
 	title: "Beat the Ghost", artist: "BanYa Production", bpm: "124",
+	arcadeID: "E02",
+	pumpoutID: 93,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -5955,9 +7654,12 @@ var readableTracklist = {
 },
 
 
-"E03":
+"0E__Caprice_of_Otada":
 {
 	title: "Caprice of Otada", artist: "BanYa Production", bpm: "160",
+	arcadeID: "E03",
+	pumpoutID: 94,
+
 	XX: "=",
 	Prime2: "=  @1.10 S19",
 	Prime: "=",
@@ -5969,9 +7671,12 @@ var readableTracklist = {
 },
 
 
-"E04":
+"0E__Money":
 {
 	title: "Money", artist: "BanYa Production", bpm: "130",
+	arcadeID: "E04",
+	pumpoutID: 411,
+
 	XX: "= S9`10 D10`12",
 	Prime2: "=",
 	Fiesta2: "=",
@@ -5980,9 +7685,12 @@ var readableTracklist = {
 },
 
 
-"E05":
+"0E__Monkey_Fingers_2":
 {
 	title: "Monkey Fingers 2", artist: "BanYa Production", bpm: "180",
+	arcadeID: "E05",
+	pumpoutID: 95,
+
 	XX: "= S4`6 S8`10 D7`9",
 	Prime2: "=",
 	Prime: "=",
@@ -5992,17 +7700,23 @@ var readableTracklist = {
 },
 
 
-"E06":
+"0E__Nice_to_Meet_You":
 {
 	title: "Nice to Meet You", artist: "Bae Chi Gi", channel: KPOP, bpm: "117",
+	arcadeID: "E06",
+	pumpoutID: "",
+
 	NXA: ["2", "5", "14", "5", "14"],
 	NX2: ["2", "5", "14", "5", "14"],
 },
 
 
-"E07":
+"0E__Very_Old_Couples":
 {
 	title: "Very Old Couples", artist: "015B", channel: KPOP, bpm: "121",
+	arcadeID: "E07",
+	pumpoutID: 423,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "Sp2`nl S6`hd S13`cz Dp6`fs D15`nm",
@@ -6011,41 +7725,56 @@ var readableTracklist = {
 },
 
 
-"E08":
+"0E__Get_My_Phone_Call":
 {
 	title: "Get My Phone Call", artist: "Mina", channel: KPOP, bpm: "108",
+	arcadeID: "E08",
+	pumpoutID: "",
+
 	NXA: ["1", "5", "13", "5", "14"],
 	NX2: ["1", "5", "13", "5", "14"],
 },
 
 
-"E09":
+"0E__Shiny_Day":
 {
 	title: "Shiny Day", artist: "Joanne", channel: KPOP, bpm: "106",
+	arcadeID: "E09",
+	pumpoutID: "",
+
 	NXA: ["3", "5", "13", "4", "14"],
 	NX2: ["3", "5", "13", "4", "14"],
 },
 
 
-"E10":
+"0E__A_U_Ready":
 {
 	title: "A.U. Ready?", artist: "Gil Gun", channel: KPOP, bpm: "94",
+	arcadeID: "E10",
+	pumpoutID: "",
+
 	NXA: ["1", "5", "10", "5", "12"], NXA_: ["", "", "", "13", "16"],
 	NX2: ["2", "5", "10", "5", "12"], NX2_: ["", "", "", "12", "15"],
 },
 
 
-"E11":
+"0E__V_I_P":
 {
 	title: "V.I.P.", artist: "Bada", channel: KPOP, bpm: "112",
+	arcadeID: "E11",
+	pumpoutID: "",
+
 	NXA: ["3", "5", "11", "5", "15"],
 	NX2: ["3", "5", "11", "5", "13"],
 },
 
 
-"E12":
+"0E__Faster_Z":
 {
 	title: "Faster Z", artist: "Yahpp", bpm: "162",
+	arcadeID: "E12",
+	pumpoutID: 96,
+
 	XX: "= S7`6 S11`8 D21`20",
 	Prime2: "=",
 	Prime: "=",
@@ -6057,10 +7786,13 @@ var readableTracklist = {
 },
 
 
-"E13":
+"0E__Pumptris_Quattro":
 {
 	title: "Pumptris Quattro", artist: "Yahpp", bpm: "153",
 	arcadeNameMaxEditDistance: 1, // 'Pumpitris Quattro'
+	arcadeID: "E13",
+	pumpoutID: 97,
+
 	XX: "= S18`17 D15`13",  // S18.updated - степы в начале холдов, считать новым чартом
 	// S18-XX - https://www.youtube.com/watch?v=jQMIZhG0sqA
 	Prime2: "=",
@@ -6073,16 +7805,19 @@ var readableTracklist = {
 },
 
 
-"FE13B":
+"0E__Pumptris_8bit":
 {
 	title: "Pumptris (8bit ver.)", artist: "Yahpp", bpm: "162",
 	changes:
 	{
-		"XX": { banner: "FE13B-XX" },
+		"XX": { banner: "0E__Pumptris_8bit__XX" },
 	},
 	altID: "E13B",
 	shortTitle: "Pumptris (8bit)",
 	arcadeName: "Pumptris 8Bit ver.",
+	arcadeID: "FE13B",
+	pumpoutID: 91,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "= CoOp(x2)`Dp??(x2) -D??(x3)",
@@ -6093,57 +7828,78 @@ var readableTracklist = {
 },
 
 
-"E14":
+"0E__Its_My_Business":
 {
 	title: "It's My Business", artist: "Taiji Boys", bpm: "200",
+	arcadeID: "E14",
+	pumpoutID: "",
+
 	NXA: ["3", "11", "20", "13", "21"], NXA_: ["", "", "14", "", "17"],
 	NX2: ["3", "10", "20", "13", "21"], NX2_: ["", "", "10", "", "14"],
 },
 
 
-"E15":
+"0E__You_Fell_in_Me":
 {
 	title: "You Fell in Me", artist: "No Brain", channel: KPOP, bpm: "152",
+	arcadeID: "E15",
+	pumpoutID: "",
+
 	NXA: ["2", "6", "16", "8", "16"], NXA_: ["", "", "16", "", "17"],
 	NX2: ["2", "6", "17", "8", "16"], NX2_: ["", "", "16", "", "18"],
 },
 
 
-"E16":
+"0E__Maelstrom":
 {
 	title: "Maelstrom", artist: "Pia", channel: KPOP, bpm: "102",
+	arcadeID: "E16",
+	pumpoutID: "",
+
 	NXA: ["2", "5", "16", "5", "19"],
 	NX2: ["3", "5", "16", "5", "18"],
 },
 
 
-"E17":
+"0E__Astral_Song":
 {
 	title: "Astral Song", artist: "Crying Nut", bpm: "~190",
+	arcadeID: "E17",
+	pumpoutID: "",
+
 	NXA: ["3", "7", "15", "8", "17"],
 	NX2: ["4", "9", "15", "9", "17"],
 },
 
 
-"E18":
+"0E__No_Despair":
 {
 	title: "No Despair", artist: "Hot Potato", channel: KPOP, bpm: "160",
+	arcadeID: "E18",
+	pumpoutID: "",
+
 	NXA: ["2", "6", "19", "8", "21"],
 	NX2: ["1", "6", "18", "8", "20"],
 },
 
 
-"E19":
+"0E__Compunction":
 {
 	title: "Compunction", artist: "May", channel: KPOP, bpm: "133",
+	arcadeID: "E19",
+	pumpoutID: "",
+
 	NXA: ["2", "6", "16", "4", "17"],
 	NX2: ["2", "6", "16", "4", "17"],
 },
 
 
-"E20":
+"0E__Beat_Sharp_No_4":
 {
 	title: "Beat # No.4", artist: "HeaDTriP", channel: KPOP, bpm: "121",
+	arcadeID: "E20",
+	pumpoutID: 115,
+
 	Prime: "=  @1.19 D18",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -6153,25 +7909,34 @@ var readableTracklist = {
 },
 
 
-"E21":
+"0E__Come_Back_Home":
 {
 	title: "Come Back Home", artist: "Taiji Boys", bpm: "93",
+	arcadeID: "E21",
+	pumpoutID: "",
+
 	NXA: ["1", "4", "", "4", ""],
 	NX2: ["1", "4", "", "4", ""],
 },
 
 
-"E22":
+"0E__Feel_the_Soul":
 {
 	title: "Feel the Soul", artist: "Seo Taiji", bpm: "93.54",
+	arcadeID: "E22",
+	pumpoutID: "",
+
 	NXA: ["2", "7", "17", "4", "18"],
 	NX2: ["3", "9", "18", "4", "20"],
 },
 
 
-"E23":
+"0E__Guitar_Man":
 {
 	title: "Guitar Man", artist: "BanYa Production", bpm: "120",
+	arcadeID: "E23",
+	pumpoutID: 405,
+
 	XX: "= S7`9 S20`18",
 	Prime2: "=",
 	Fiesta2: "=",
@@ -6180,9 +7945,12 @@ var readableTracklist = {
 },
 
 
-"E24":
+"0E__Higgledy_Piggledy":
 {
 	title: "Higgledy Piggledy", artist: "BanYa Production", bpm: "150",
+	arcadeID: "E24",
+	pumpoutID: 98,
+
 	XX: "=  @1.03 D20.lock  @2.05 S19`acz",
 	Prime2: "=",
 	Prime: "=",
@@ -6194,10 +7962,13 @@ var readableTracklist = {
 },
 
 
-"E25":
+"0E__Jam_o_Beat":
 {
 	title: "Jam o' Beat", artist: "BanYa Production", bpm: "120",
 	arcadeName: "Jam O Beat",
+	arcadeID: "E25",
+	pumpoutID: 408,
+
 	XX: "= S15`14 D15`14",
 	Prime2: "=",
 	Fiesta2: "=",
@@ -6208,9 +7979,12 @@ var readableTracklist = {
 },
 
 
-"E26":
+"0E__Chopstix":
 {
 	title: "Chopstix", artist: "Sonic Dimension", channel: WORLD, bpm: "134",
+	arcadeID: "E26",
+	pumpoutID: 396,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "Sp2`nl S5`hd S13`cz Dp2`fs D15`nm",
@@ -6219,9 +7993,12 @@ var readableTracklist = {
 },
 
 
-"E27":
+"0E__Dance_All_Night":
 {
 	title: "Dance All Night", artist: "Oscillator X", channel: WORLD, bpm: "140",
+	arcadeID: "E27",
+	pumpoutID: 126,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6232,9 +8009,12 @@ var readableTracklist = {
 },
 
 
-"E28":
+"0E__Dance_Vibrations":
 {
 	title: "Dance Vibrations", artist: "Elpis", channel: WORLD, bpm: "130",
+	arcadeID: "E28",
+	pumpoutID: 127,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6245,9 +8025,12 @@ var readableTracklist = {
 },
 
 
-"E29":
+"0E__Energizer":
 {
 	title: "Energizer", artist: "ZiGZaG", channel: WORLD, bpm: "151",
+	arcadeID: "E29",
+	pumpoutID: 128,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -6258,9 +8041,12 @@ var readableTracklist = {
 },
 
 
-"E30":
+"0E__Groovin_Motion":
 {
 	title: "Groovin' Motion", artist: "Sonic Dimension", channel: WORLD, bpm: "130",
+	arcadeID: "E30",
+	pumpoutID: 404,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "Sp3`nl S6`hd S9`cz Dp6`fs D11`nm",
@@ -6269,18 +8055,24 @@ var readableTracklist = {
 },
 
 
-"E31":
+"0E__Tell_Me":
 {
-	title: "Tell Me", artist: "Wonder Girls", channel: KPOP, bpm: "127",
+	title: "", artist: "Wonder Girls", channel: KPOP, bpm: "127",
+	arcadeID: "E31",
+	pumpoutID: "",
+
 	NXA: ["1", "5", "12", "5", "14"],
 	NX2: ["2", "5", "14", "5", "16"],
 	// Korean only on NX2
 },
 
 
-"E50":
+"0E__BanYa_P_Guitar_Remix":
 {
 	title: "BanYa-P Guitar Remix", artist: "BanYa Production", bpm: "120", duration: REMIX,
+	arcadeID: "E50",
+	pumpoutID: 99,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -6292,16 +8084,22 @@ var readableTracklist = {
 },
 
 
-"E51":
+"0E__Guitar_Man__FULL":
 {
 	title: "Guitar Man  [FULL]", artist: "BanYa Production", bpm: "120", duration: REMIX,
+	arcadeID: "E51",
+	pumpoutID: 597,
+
 	NX2_: ["", "8", "", "9", ""],
 },
 
 
-"E52":
+"0E__Money_Fingers":
 {
 	title: "Money Fingers", artist: "BanYa Production", bpm: "170", duration: REMIX,
+	arcadeID: "E52",
+	pumpoutID: 412,
+
 	XX: "= S17`16",
 	Prime2: "=",
 	Fiesta2: "=",
@@ -6311,106 +8109,148 @@ var readableTracklist = {
 },
 
 
-"E53":
+"0E__Monkey_Fingers__FULL":
 {
 	title: "Monkey Fingers  [FULL]", artist: "BanYa Production", bpm: "186", duration: REMIX,
+	arcadeID: "E53",
+	pumpoutID: 599,
+
 	NXA_: ["", "8", "16", "9", "17"],
 	NX2_: ["5", "9", "17", "7", "19"],
 },
 
 
-"E54":
+"0E__NX2_KPop_Remix_1":
 {
 	title: "NX2 K-Pop Remix 1", artist: "U;Nee/Duke/Lee Hyun Do", channel: KPOP, bpm: "136", duration: REMIX,
+	arcadeID: "E54",
+	pumpoutID: "",
+
 	NXA_: ["", "6", "13", "7", "16"],
 	NX2_: ["", "8", "15", "9", "16"],
 },
 
 
-"E55":
+"0E__NX2_KHipHop_Remix":
 {
 	title: "NX2 K-Hip Hop Remix", artist: "Eun Ji Won/Dynamic Duo", channel: KPOP, bpm: "110", duration: REMIX,
+	arcadeID: "E55",
+	pumpoutID: "",
+
 	NX2_: ["", "7", "14", "", "15"],
 },
 
 
-"E56":
+"0E__Astral_Song__FULL":
 {
 	title: "Astral Song  [FULL]", artist: "Crying Nut", bpm: "??? (~190)", duration: REMIX,
+	arcadeID: "E56",
+	pumpoutID: "",
+
 	NX2_: ["", "8", "", "", ""],
 },
 
 
-"E57":
+"0E__NX2_KPop_Remix_2":
 {
 	title: "NX2 K-Pop Remix 2", artist: "Mina/Bae Chi Gi", channel: KPOP, bpm: "117", duration: REMIX,
+	arcadeID: "E57",
+	pumpoutID: "",
+
 	NXA_: ["", "5", "", "", "15"],
 	NX2_: ["", "7", "", "", "14"],
 },
 
 
-"E58":
+"0E__No_Despair__FULL":
 {
 	title: "No Despair  [FULL]", artist: "Hot Potato", channel: KPOP, bpm: "160", duration: REMIX,  // REMIX indeed
+	arcadeID: "E58",
+	pumpoutID: "",
+
 	NX2_: ["", "7", "18", "", "20"],
 },
 
 
-"E59":
+"0E__NX2_KPop_Remix_3":
 {
 	title: "NX2 K-Pop Remix 3", artist: "Lee Hyun Do / Som 2", channel: KPOP, bpm: "112", duration: REMIX,
+	arcadeID: "E59",
+	pumpoutID: "",
+
 	NX2_: ["", "7", "13", "", "13"],
 },
 
 
-"E60":
+"0E__NX2_Diva_Remix":
 {
 	title: "NX2 Diva Remix", artist: "Joanne / Bada", channel: KPOP, bpm: "120", duration: REMIX,
+	arcadeID: "E60",
+	pumpoutID: "",
+
 	NXA_: ["", "4", "9", "5", ""],
 	NX2_: ["", "4", "12", "5", ""],
 },
 
 
-"E70":
+"0E__Its_My_Business__FULL":
 {
 	title: "It's My Business  [FULL]", artist: "Taiji Boys", bpm: "200",
+	arcadeID: "E70",
+	pumpoutID: "",
+
 	NX2_: ["", "8", "19", "", "20"],
 },
 
 
-"E71":
+"0E__Very_Old_Couples__FULL":
 {
 	title: "Very Old Couples  [FULL]", artist: "015B", channel: KPOP, bpm: "121",
+	arcadeID: "E71",
+	pumpoutID: "",
+
 	NX2_: ["", "6", "14", "", ""],
 },
 
 
-"E72":
+"0E__Come_Back_Home__FULL":
 {
 	title: "Come Back Home  [FULL]", artist: "Taiji Boys", bpm: "93",
+	arcadeID: "E72",
+	pumpoutID: "",
+
 	NXA_: ["1", "3", "", "4", ""],
 	NX2_: ["1", "4", "", "4", ""],
 },
 
 
-"E73":
+"0E__Feel_the_Soul__FULL":
 {
 	title: "Feel the Soul  [FULL]", artist: "Seo Taiji", bpm: "187.08",
+	arcadeID: "E73",
+	pumpoutID: "",
+
 	NX2_: ["", "", "18", "", ""],
 },
 
 
-"E74":
+"0E__V_I_P__FULL":
 {
 	title: "V.I.P  [FULL]", artist: "Bada", channel: KPOP, bpm: "112",
+	arcadeID: "E74",
+	pumpoutID: "",
+
 	NXA_: ["1", "4", "", "4", ""],
 	NX2_: ["2", "6", "", "6", ""],
 },
 
 
-"E76":
+"0E__Fly__FULL":
 {
 	title: "Fly  [FULL]", artist: "Epik High", bpm: "128",
+	arcadeID: "E76",
+	pumpoutID: 401,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S10`hd S15`cz D17`nm  D16",
@@ -6418,76 +8258,103 @@ var readableTracklist = {
 },
 
 
-"E77":
+"0E__Tell_Me__FULL":
 {
 	title: "Tell Me  [FULL]", artist: "Wonder Girls", channel: KPOP, bpm: "127",
+	arcadeID: "E77",
+	pumpoutID: "",
+
 	NXA_: ["", "2", "", "3", ""],
 	NX2_: ["", "5", "", "5", ""],
 },
 
 
-"E92":
+"0E__Fist_of_Fury":
 {
 	title: "Fist of Fury", artist: "Luo Zi Xiang", channel: WORLD, bpm: "92",
 	region: CHINESE,
+	arcadeID: "E92",
+	pumpoutID: "",
+
 	NX2: ["1", "6", "11", "4", "15"],
 },
 
 
-"E93":
+"0E__Long_Live_the_Chinese":
 {
 	title: "Long Live the Chinese", artist: "Wang Lee Hom", channel: WORLD, bpm: "140",
 	region: CHINESE,
+	arcadeID: "E93",
+	pumpoutID: "",
+
 	NX2: ["2", "6", "10", "4", "15"],
 },
 
 
-"E94":
+"0E__Fire":
 {
 	title: "Fire", artist: "Karen Mok", channel: WORLD, bpm: "125",
 	region: CHINESE,
+	arcadeID: "E94",
+	pumpoutID: "",
+
 	NX2: ["2", "6", "11", "3", "14"],
 },
 
 
-"E95":
+"0E__Wild_Game":
 {
 	title: "Wild Game", artist: "Jolin Tsai", channel: WORLD, bpm: "139",
 	region: CHINESE,
+	arcadeID: "E95",
+	pumpoutID: "",
+
 	NX2: ["3", "6", "13", "4", "15"],
 },
 
 
-"E96":
+"0E__One_Last_Chance":
 {
 	title: "One Last Chance", artist: "ENERGY", channel: WORLD, bpm: "100",
 	region: CHINESE,
+	arcadeID: "E96",
+	pumpoutID: "",
+
 	NX2: ["1", "4", "11", "3", "10"],
 },
 
 
-"E97":
+"0E__Mechanical_Doll":
 {
 	title: "Mechanical Doll", artist: "Luo Zi Xiang", channel: WORLD, bpm: "106",
 	region: CHINESE,
+	arcadeID: "E97",
+	pumpoutID: "",
+
 	NX2: ["4", "4", "10", "4", "11"],
 },
 
 
-"E99":
+"0E__Take_It_Off":
 {
 	title: "Take It Off", artist: "Alex", channel: WORLD, bpm: "132",
 	region: CHINESE,
+	arcadeID: "E99",
+	pumpoutID: "",
+
 	NX2: ["3", "6", "10", "4", "17"],
 },
 
 
-"E928":
+"0E__Extra_BanYa_Remix":
 {
 	title: "Extra BanYa Remix", artist: "BanYa", bpm: "200", duration: REMIX, fromMix: "Extra",
 	// old title: "FAEp1 & Chicken Wing Remix (NX2 ver.)",
 	arcadeName: "EXTRA BanYa Remix",
 	shortTitle: "Extra BanYa Remix",
+	arcadeID: "E928",
+	pumpoutID: 44,
+
 	XX: "= S11`8 D14`13",
 	Prime2: "=",
 	Prime: "=",
@@ -6503,9 +8370,12 @@ var readableTracklist = {
 // \D - NX
 
 
-"D01":
+"0D__Witch_Doctor_1":
 {
 	title: "Witch Doctor #1", artist: "Yahpp", bpm: "122",
+	arcadeID: "D01",
+	pumpoutID: 100,
+
 	XX: "= S16`15 S17`16 S19`18 D21`19",
 	// D21-XX - https://www.youtube.com/watch?v=Wj_1xUDGHa0
 	// D19-Fiesta - https://www.youtube.com/watch?v=5m6r65QmAjg
@@ -6519,9 +8389,12 @@ var readableTracklist = {
 },
 
 
-"D02":
+"0D__Arch_of_Darkness":
 {
 	title: "Arch of Darkness", artist: "Yahpp", bpm: "136",
+	arcadeID: "D02",
+	pumpoutID: 101,
+
 	XX: "= S15`14 S17`16",
 	Prime2: "=  @2.05 D20",
 	Prime: "=",
@@ -6533,9 +8406,12 @@ var readableTracklist = {
 },
 
 
-"D03":
+"0D__Chimera":
 {
 	title: "Chimera", artist: "Yahpp", bpm: "210",
+	arcadeID: "D03",
+	pumpoutID: 102,
+
 	XX: "= S9`7 S12`11 S19`16 D26`25  @2.03  D22",  //??? S19.updated (something with ending?)
 	// S19-XX - https://www.youtube.com/watch?v=ieMFtCNbSac
 	Prime2: "=",
@@ -6549,17 +8425,23 @@ var readableTracklist = {
 },
 
 
-"D04":
+"0D__Go_Back":
 {
 	title: "Go Back", artist: "Dynamic Duo", channel: KPOP, bpm: "112",
+	arcadeID: "D04",
+	pumpoutID: "",
+
 	NX2: ["1", "4", "9", "4", "10"],
 	NX: ["*0.5", "*2", "*4", "*2", "*5"],
 },
 
 
-"D05":
+"0D__Fly":
 {
 	title: "Fly", artist: "Epik High", bpm: "128",
+	arcadeID: "D05",
+	pumpoutID: 400,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "Sp3`nl S14`cz Dp4`fs D16`nm  S1.new S3.new S6.new",
@@ -6568,9 +8450,12 @@ var readableTracklist = {
 },
 
 
-"D06":
+"0D__One_Night":
 {
 	title: "One Night", artist: "DJ DOC", channel: KPOP, bpm: "132",
+	arcadeID: "D06",
+	pumpoutID: 417,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "Sp2`nl S5`hd S13`cz Dp4`fs D14`nm",
@@ -6580,65 +8465,88 @@ var readableTracklist = {
 },
 
 
-"D07":
+"0D__U_Inside_My_Dim_Memory":
 {
 	title: "U Inside My Dim Memory", artist: "Hyun Jin Young vs. Yahpp", channel: KPOP, bpm: "118",
+	arcadeID: "D07",
+	pumpoutID: "",
+
 	NX2: ["3", "6", "14", "4", "18"],
 	NX: ["*1.5", "*3", "*7", "*2", "@3"], NX_: ["", "", "", "*2.5", ""],
 },
 
 
-"D08":
+"0D__Free":
 {
 	title: "Free!", artist: "Jiny", channel: KPOP, bpm: "175",
+	arcadeID: "D08",
+	pumpoutID: "",
+
 	NX2: ["4", "7", "15", "8", "18"], NX2_: ["", "", "", "5", ""],
 	NX: ["*2", "*3.5", "@1", "*4", "@3"],
 },
 
 
-"D09":
+"0D__Lovely":
 {
 	title: "Lovely", artist: "Kim Jong Kook", channel: KPOP, bpm: "188",
+	arcadeID: "D09",
+	pumpoutID: "",
+
 	NX2: ["4", "5", "12", "4", "13"],
 	NX: ["*2", "*2.5", "*6", "*2", "*6.5"],
 },
 
 
-"D10":
+"0D__Terminal_Depository":
 {
 	title: "Terminal Depository", artist: "Ururbu Project", channel: KPOP, bpm: "138",
+	arcadeID: "D10",
+	pumpoutID: "",
+
 	NX2: ["3", "6", "13", "5", "16"],
 	NX: ["*1.5", "*3", "*6.5", "*2.5", "@1"],
 },
 
 
-"D11":
+"0D__For_You":
 {
 	title: "For You", artist: "N.EX.T", channel: KPOP, bpm: "160",
+	arcadeID: "D11",
+	pumpoutID: 883,
 	NX2: ["1", "5", "14", "5", "20"], NX2_: ["", "", "", "13", ""],
 	NX: ["*0.5", "*2.5", "*7", "*2.5", "@5"], NX_: ["", "", "", "*7", ""],
 },
 
 
-"D12":
+"0D__Snow_Dream":
 {
 	title: "Snow Dream", artist: "Apple Jam", channel: KPOP, bpm: "170",
+	arcadeID: "D12",
+	pumpoutID: "",
+
 	NX2: ["3", "5", "13", "7", "13"], NX2_: ["", "", "", "6", ""],
 	NX: ["*1.5", "*2.5", "*6.5", "*3.5", "*6.5"],
 },
 
 
-"D13":
+"0D__Handsome_Character_That_Pass":
 {
 	title: "Handsome Character That Pass", artist: "May", channel: KPOP, bpm: "125",
+	arcadeID: "D13",
+	pumpoutID: "",
+
 	NX2: ["2", "4", "18", "3", "15"], NX2_: ["", "", "13", "", "14"],
 	NX: ["*1", "*2", "@3", "*1.5", "@1"],
 },
 
 
-"D14":
+"0D__2006_Love_Song":
 {
 	title: "2006 Love Song", artist: "BanYa Production", bpm: "96",
+	arcadeID: "D14",
+	pumpoutID: 392,
+
 	XX: "= S9`10",
 	Prime2: "=",
 	Fiesta2: "=",
@@ -6647,11 +8555,14 @@ var readableTracklist = {
 },
 
 
-"D15":
+"0D__Do_U_Know_That_Old_School":
 {
 	title: "Do You Know That -Old School-", artist: "BanYa Production", bpm: "120",
 	shortTitle: "Do You Know That\n-Old School-",
 	arcadeName: "Do U Know That-Old School",
+	arcadeID: "D15",
+	pumpoutID: 103,
+
 	XX: "= S15`14 D19`18",
 	Prime2: "=",
 	Prime: "=",
@@ -6662,9 +8573,12 @@ var readableTracklist = {
 },
 
 
-"D16":
+"0D__Gun_Rock":
 {
 	title: "Gun Rock", artist: "BanYa Production", bpm: "104",
+	arcadeID: "D16",
+	pumpoutID: 104,
+
 	XX: "= S9`11 S20`18 D9`11 D24`22",
 	Prime2: "=",
 	Prime: "=",
@@ -6675,9 +8589,12 @@ var readableTracklist = {
 },
 
 
-"D17":
+"0D__Bullfighters_Song":
 {
 	title: "Bullfighter's Song", artist: "BanYa Production", bpm: "168",
+	arcadeID: "D17",
+	pumpoutID: 105,
+
 	XX: "= S9`8 D18`17  @2.03  S14",
 	Prime2: "=",
 	Prime: "=",
@@ -6689,9 +8606,12 @@ var readableTracklist = {
 },
 
 
-"D18":
+"0D__Ugly_Dee":
 {
 	title: "Ugly Dee", artist: "BanYa Production", bpm: "92",
+	arcadeID: "D18",
+	pumpoutID: 106,
+
 	XX: "= D15`11 D18`15  @2.07 S17",
 	Prime2: "=",
 	Prime: "=",
@@ -6704,42 +8624,57 @@ var readableTracklist = {
 },
 
 
-"D19":
+"0D__Hyun_Jin_Young_Go":
 {
 	title: "Hyun Jin Young Go Jin Young Go", artist: "Hyun Jin Young", channel: KPOP, bpm: "150",
 	shortTitle: "Hyun Jin Young Go",
+	arcadeID: "D19",
+	pumpoutID: "",
+
 	NX2: ["3", "6", "19", "6", "20"],
 	NX: ["*1.5", "*3", "@4", "*3", "@4"],
 },
 
 
-"D20":
+"0D__My_Brother_is_Street_Singer":
 {
 	title: "My Brother is Street Singer", artist: "Park Hyang Lim vs. Yahpp", channel: KPOP, bpm: "129",
+	arcadeID: "D20",
+	pumpoutID: "",
+
 	NX2: ["2", "5", "11", "3", "13"],
 	NX: ["*1", "*2.5", "*5.5", "*1.5", "*6.5"],
 },
 
 
-"D21":
+"0D__So":
 {
 	title: "So", artist: "Typhoon", channel: KPOP, bpm: "138",
+	arcadeID: "D21",
+	pumpoutID: "",
+
 	NX2: ["1", "6", "12", "2", "12"], NX2_: ["12", "13", "15", "14", "16"],
 	NX: ["*0.5", "*3", "*6", "*1", "*6"],
 },
 
 
-"D22":
+"0D__Hold_the_Line":
 {
 	title: "Hold the Line", artist: "Cho PD & B.E.G.", channel: KPOP, bpm: "126",
+	arcadeID: "D22",
+	pumpoutID: "",
+
 	NX2: ["2", "4", "12", "4", "14"],
 	NX: ["*1", "*2", "*6", "*2", "*7"],
 },
 
 
-"D23":
+"0D__Hybs":
 {
 	title: "Hybs", artist: "DJ Dookie", channel: WORLD, bpm: "102",
+	arcadeID: "D23",
+	pumpoutID: 407,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "Sp2`nl S4`hd S11`cz Dp4`fs D13`nm",
@@ -6749,25 +8684,33 @@ var readableTracklist = {
 },
 
 
-"D24":
+"0D__Throw_em_Up":
 {
 	title: "Throw 'em Up", artist: "Andrew Kim", channel: WORLD, bpm: "100",
+	arcadeID: "D24",
+	pumpoutID: "",
+
 	NX2: ["2", "5", "14", "5", "15"],
 	NX: ["*1", "*2.5", "*7", "*2.5", "@1"],
 },
 
 
-"D25":
+"0D__Bust_Back":
 {
 	title: "Bust Back", artist: "DVS", channel: WORLD, bpm: "94",
+	arcadeID: "D25",
+	pumpoutID: 882,
 	//??? NX2:
 	NX: ["*1.5", "*3", "*6", "*2.5", "*6.5"],
 },
 
 
-"D26":
+"0D__Haley":
 {
 	title: "Haley", artist: "Sam-I-Am", channel: WORLD, bpm: "112",
+	arcadeID: "D26",
+	pumpoutID: 406,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "Sp2`nl S4`hd S9`cz Dp4`fs D11`nm",
@@ -6777,10 +8720,13 @@ var readableTracklist = {
 },
 
 
-"D27":
+"0D__We_Goin_Fly":
 {
 	title: "We Goin' Fly -remix-", artist: "Gyfted", channel: WORLD, bpm: "112",
 	shortTitle: "We Goin' Fly",
+	arcadeID: "D27",
+	pumpoutID: 424,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "Sp3`nl S5`hd S15`cz Dp6`fs D19`nm",
@@ -6790,11 +8736,14 @@ var readableTracklist = {
 },
 
 
-"D28":
+"0D__Final_Audition_ep_2_1":
 {
 	title: "Final Audition episode 2-1", artist: "Yahpp", bpm: "170",
 	shortTitle: "Final Audition ep. 2-1",
 	arcadeName: "Final Audition Ep. 2-1",
+	arcadeID: "D28",
+	pumpoutID: 107,
+
 	XX: "= S8`7 S22`20 D12`9 D22`21 D23`22",  //??? S22.updated
 	// S22-XX - https://www.youtube.com/watch?v=Rbcztfs6jx4
 	Prime2: "=",
@@ -6808,18 +8757,24 @@ var readableTracklist = {
 },
 
 
-"D29":
+"0D__Fire":
 {
 	title: "Fire", artist: "Yahpp", bpm: "133",
+	arcadeID: "D29",
+	pumpoutID: "",
+
 	NX2_: ["", "12", "15", "13", "15"],
 },
 
 
-"D30":
+"0D__Final_Audition_ep_2_2":
 {
 	title: "Final Audition episode 2-2", artist: "Yahpp", bpm: "200",
 	shortTitle: "Final Audition ep. 2-2",
 	arcadeName: "Final Audition Ep. 2-2",
+	arcadeID: "D30",
+	pumpoutID: 108,
+
 	XX: "= S8`7 S17`16 S18`17 D19`18",  //??? S18.updated
 	// S18-XX - https://www.youtube.com/watch?v=Y3y2gjcy4d8
 	Prime2: "=",
@@ -6834,9 +8789,12 @@ var readableTracklist = {
 },
 
 
-"D31":
+"0D__KPop_Dance_Remix":
 {
 	title: "K-Pop Dance Remix", artist: "DJ DOC/Epik High", channel: KPOP, bpm: "132", duration: REMIX,
+	arcadeID: "D31",
+	pumpoutID: 416,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S8`hd S14`cz D9`fs D16`nm",
@@ -6845,9 +8803,12 @@ var readableTracklist = {
 },
 
 
-"D32":
+"0D__Groove_Party":
 {
 	title: "Groove Party", artist: "Clon/Tashannie", channel: KPOP, bpm: "105-110", duration: REMIX,
+	arcadeID: "D32",
+	pumpoutID: 116,
+
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -6858,17 +8819,23 @@ var readableTracklist = {
 },
 
 
-"D33":
+"0D__Pop_House_Mix":
 {
 	title: "Pop House Mix", artist: "Kristeen/Scoop/Fresno", channel: WORLD, bpm: "128-130.5", duration: REMIX,
+	arcadeID: "D33",
+	pumpoutID: "",
+
 	NX2_: ["", "8", "15", "", "16"],
 	NX_: ["", "*4", "*7", "", "@1"],
 },
 
 
-"D34":
+"0D__Wi_Ex_Doc_Va":
 {
 	title: "Wi-Ex-Doc-Va", artist: "Yahpp", bpm: "195", duration: REMIX,
+	arcadeID: "D34",
+	pumpoutID: 109,
+
 	XX: "= D16`15 D24`23",
 	Prime2: "=",
 	Prime: "=",
@@ -6881,9 +8848,12 @@ var readableTracklist = {
 },
 
 
-"D35":
+"0D__Bemera":
 {
 	title: "Bemera", artist: "Yahpp", bpm: "210", duration: REMIX,
+	arcadeID: "D35",
+	pumpoutID: 110,
+
 	XX: "= S17`16",
 	Prime2: "=",
 	Prime: "=",
@@ -6896,50 +8866,68 @@ var readableTracklist = {
 },
 
 
-"D36":
+"0D__Banya_P_Classic_Remix":
 {
 	title: "BanYa-P Classic Mix", artist: "BanYa Production", bpm: "92~180", duration: REMIX,
 	arcadeName: "Banya-P Classic Remix",
+	arcadeID: "D36",
+	pumpoutID: 767,
+
 	XX: "S15`hd S21`cz  D16`fs D22`nm",
 	NX2_: ["", "14", "19", "15", "20"],
 	NX_: ["", "*5.5", "@4", "*6.5", "@5"],
 },
 
 
-"D37":
+"0D__Chicago_Club_Mix":
 {
 	title: "Chicago Club Mix", artist: "Haley/DVS/Gyfted", channel: WORLD, bpm: "112", duration: REMIX,
+	arcadeID: "D37",
+	pumpoutID: "",
+
 	NX_: ["", "*5", "@1", "*5.5", "@2"],
 },
 
 
-"D38":
+"0D__U_Inside_My_Dim_Memory__FULL":
 {
 	title: "U Inside My Dim Memory  [FULL]", artist: "Hyun Jin Young vs. Yahpp", channel: KPOP, bpm: "118",
+	arcadeID: "D38",
+	pumpoutID: "",
+
 	NX2_: ["", "9", "15", "10", "19"],
 	NX_: ["", "*4", "*7", "*4.5", "@1"],
 },
 
 
-"D39":
+"0D__Fire__FULL":
 {
 	title: "Fire  [FULL]", artist: "Yahpp", bpm: "136",
+	arcadeID: "D39",
+	pumpoutID: "",
+
 	NX2_: ["", "", "19", "", "20"],
 	NX_: ["", "", "@3", "(-)", "@5"],
 },
 
 
-"D40":
+"0D__Lovely__FULL":
 {
 	title: "Lovely  [FULL]", artist: "Kim Jong Kook", channel: KPOP, bpm: "188",
+	arcadeID: "D40",
+	pumpoutID: "",
+
 	NX2_: ["", "6", "", "7", ""],
 	NX_: ["", "*2.5", "(-)", "*3", "(-)"],
 },
 
 
-"D41":
+"0D__Love_is_a_Danger_Zone_2__FULL":
 {
 	title: "Love is a Danger Zone 2  [FULL]", artist: "Yahpp", bpm: "100 ~ 162",
+	arcadeID: "D41",
+	pumpoutID: 111,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -6952,9 +8940,12 @@ var readableTracklist = {
 },
 
 
-"D42":
+"0D__Beat_of_the_War_2__FULL":
 {
 	title: "Beat of the War 2  [FULL]", artist: "Yahpp", bpm: "120 ~ 190",
+	arcadeID: "D42",
+	pumpoutID: 112,
+
 	XX: "= S20`19 D21`20",
 	Prime2: "=",
 	Prime: "=",
@@ -6967,9 +8958,12 @@ var readableTracklist = {
 },
 
 
-"D43":
+"0D__Hold_the_Line__FULL":
 {
 	title: "Hold the Line  [FULL]", artist: "Cho PD & B.E.G.", channel: KPOP, bpm: "126",
+	arcadeID: "D43",
+	pumpoutID: "",
+
 	NX2_: ["", "7", "16", "8", "18"],
 	NX_: ["", "*3.5", "@1", "*4", "@3"],
 },
@@ -6979,9 +8973,12 @@ var readableTracklist = {
 // \C - Zero
 
 
-"C01":
+"0C__Beat_of_the_War_2":
 {
 	title: "Beat of the War 2", artist: "BanYa", bpm: "190",
+	arcadeID: "C01",
+	pumpoutID: 47,
+
 	XX: "= S21.new D14`12 D20`19",
 	Prime2: "=",
 	Prime: "=",
@@ -6995,9 +8992,12 @@ var readableTracklist = {
 },
 
 
-"C02":
+"0C__Moonlight":
 {
 	title: "Moonlight", artist: "BanYa", bpm: "180",
+	arcadeID: "C02",
+	pumpoutID: 48,
+
 	XX: "= S8`7",
 	Prime2: "=",
 	Prime: "=",
@@ -7011,9 +9011,12 @@ var readableTracklist = {
 },
 
 
-"C03":
+"0C__Witch_Doctor":
 {
 	title: "Witch Doctor", artist: "BanYa", bpm: "195",
+	arcadeID: "C03",
+	pumpoutID: 49,
+
 	XX: "= S17`16 D22`23 D23`22",
 	Prime2: "=",
 	Prime: "=",
@@ -7027,10 +9030,13 @@ var readableTracklist = {
 },
 
 
-"C04":
+"0C__Love_is_a_Danger_Zone_2":
 {
 	title: "Love is a Danger Zone 2", artist: "BanYa", bpm: "162",
 	arcadeName: "Love is a Danger Zone pt. 2",
+	arcadeID: "C04",
+	pumpoutID: 50,
+
 	XX: "= S22`21",
 	Prime2: "=",
 	Prime: "=",
@@ -7044,9 +9050,12 @@ var readableTracklist = {
 },
 
 
-"C05":
+"0C__Phantom":
 {
 	title: "Phantom", artist: "BanYa", bpm: "136",
+	arcadeID: "C05",
+	pumpoutID: 51,
+
 	XX: "= S18`17 S19`18 D13`12 D19`20 D20`19",  //??? D19.updated
 	// D19-XX - https://www.youtube.com/watch?v=zJDLZy7r-lE
 	// D19-P2 - https://www.youtube.com/watch?v=UF_tkEWx4L4
@@ -7062,9 +9071,12 @@ var readableTracklist = {
 },
 
 
-"C06":
+"0C__Papa_Gonzales":
 {
 	title: "Papa Gonzales", artist: "BanYa", bpm: "145",
+	arcadeID: "C06",
+	pumpoutID: 52,
+
 	XX: "= S16`14  @2.07 S22.lock D23.lock",
 	Prime2: "=",
 	Prime: "=",
@@ -7076,26 +9088,35 @@ var readableTracklist = {
 },
 
 
-"C07":
+"0C__Jump":
 {
 	title: "Jump", artist: "BanYa", bpm: "96",
+	arcadeID: "C07",
+	pumpoutID: 764,
+
 	XX: "S4`nl S7`hd S13`cz  @1.01 D18.lock  @2.00 S16.lock",
 	Zero: ["3", "7", "9", "", ""],
 },
 
 
-"C08":
+"0C__Emergency":
 {
 	title: "Emergency", artist: "Drunken Tiger", channel: KPOP, bpm: "110",
+	arcadeID: "C08",
+	pumpoutID: "",
+
 	NX2: ["2", "5", "12", "5", "14"],
 	NX: ["*1", "*2.5", "*6", "*2.5", "*7"],
 	Zero: ["3", "4", "12", "6", "15"],
 },
 
 
-"C09":
+"0C__My_Friend":
 {
 	title: "My Friend", artist: "Cho PD", channel: KPOP, bpm: "127",
+	arcadeID: "C09",
+	pumpoutID: 428,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "Sp3`nl S12`cz Dp5`fs D14`nm  Dp6`afs  S1.new S3.new S6.new",
@@ -7105,43 +9126,58 @@ var readableTracklist = {
 },
 
 
-"C10":
+"0C__Wuthering_Heights":
 {
 	title: "Wuthering Heights", artist: "Eugene", channel: KPOP, bpm: "138",
+	arcadeID: "C10",
+	pumpoutID: "",
+
 	NX2: ["2", "4", "", "3", ""],
 	NX: ["*1", "*2", "", "*1.5", ""],
 	Zero: ["2", "4", "", "3", ""],
 },
 
 
-"C11":
+"0C__Do_It_Yourself":
 {
 	title: "Do It Yourself", artist: "Lazy Bone", channel: KPOP, bpm: "106",
+	arcadeID: "C11",
+	pumpoutID: "",
+
 	NX2: ["", "6", "13", "7", "14"], NX2_: ["", "", "", "", "17"],
 	NX: ["", "*3", "*6.5", "*3.5", "*7"], NX_: ["", "", "", "", "@2"],
 	Zero: ["", "6", "13", "7", "14"], Zero_: ["", "", "", "", "??"],
 },
 
 
-"C12":
+"0C__Whats_Going_On":
 {
 	title: "What's Going On?", artist: "Turtles", channel: KPOP, bpm: "130",
+	arcadeID: "C12",
+	pumpoutID: "",
+
 	NX2: ["3", "3", "7", "5", "8"],
 	NX: ["*1.5", "*1.5", "*3.5", "*2.5", "*4"],
 	Zero: ["3", "2", "7", "5", "9"],
 },
 
 
-"C13":
+"0C__All_Famy":
 {
 	title: "All Famy", artist: "Eun Ji Won", bpm: "94",
+	arcadeID: "C13",
+	pumpoutID: "",
+
 	Zero: ["2", "3", "", "4", ""],
 },
 
 
-"C14":
+"0C__Chung_Hwa_Ban_Jeom":
 {
 	title: "Chung Hwa Ban Jeom", artist: "Louis", channel: KPOP, bpm: "150",
+	arcadeID: "C14",
+	pumpoutID: 70,
+
 	Prime2: "=",
 	Prime: "=  @1.06 S4 S9",
 	Fiesta2: "=",
@@ -7152,9 +9188,12 @@ var readableTracklist = {
 },
 
 
-"C15":
+"0C__Mr_Fire_Fighter":
 {
 	title: "Mr. Fire Fighter", artist: "Spooky Banana", channel: KPOP, bpm: "158",
+	arcadeID: "C15",
+	pumpoutID: 427,
+
 	Fiesta2: "=",
 	FiestaEX: "= -S2",
 	Fiesta: "S2`nl S7`hd S13`cz D8`fs D15`nm  S4.new",
@@ -7165,27 +9204,36 @@ var readableTracklist = {
 },
 
 
-"C16":
+"0C__Footprints":
 {
 	title: "Footprints", artist: "T.O", channel: KPOP, bpm: "135",
+	arcadeID: "C16",
+	pumpoutID: "",
+
 	NX2: ["", "5", "11", "5", "11"],
 	NX: ["", "*2.5", "*5.5", "*2.5", "*5.5"],
 	Zero: ["", "5", "12", "5", "13"],
 },
 
 
-"C17":
+"0C__Oh_My":
 {
 	title: "Oh My!", artist: "Jang Yoon Jung", channel: KPOP, bpm: "112",
+	arcadeID: "C17",
+	pumpoutID: "",
+
 	NX2: ["2", "4", "10", "4", "11"],
 	NX: ["*1", "*2", "*5", "*2", "*5.5"],
 	Zero: ["3", "4", "9", "5", "10"],
 },
 
 
-"C18":
+"0C__Enter_the_Dragon":
 {
 	title: "Enter the Dragon", artist: "JTL", channel: KPOP, bpm: "110",
+	arcadeID: "C18",
+	pumpoutID: 425,
+
 	Fiesta2: "=",
 	FiestaEX: "=  @1.51 S8",
 	Fiesta: "Sp2`nl S5`hd S14`cz Dp5`fs D17`nm  S1.new S4.new",
@@ -7196,9 +9244,12 @@ var readableTracklist = {
 },
 
 
-"C19":
+"0C__Storm":
 {
 	title: "Storm", artist: "Perry", channel: KPOP, bpm: "96",
+	arcadeID: "C19",
+	pumpoutID: 430,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S5 S12 D13 Sp3 Dp4",
@@ -7209,36 +9260,48 @@ var readableTracklist = {
 },
 
 
-"C20":
+"0C__Turn_Around":
 {
 	title: "Turn Around", artist: "Mina", channel: KPOP, bpm: "113",
+	arcadeID: "C20",
+	pumpoutID: "",
+
 	NX2: ["2", "4", "13", "5", "14"],
 	NX: ["*1", "*2", "*6.5", "*2.5", "*7"],
 	Zero: ["3", "5", "11", "5", "14"],
 },
 
 
-"C21":
+"0C__I_Love_You_Baby":
 {
 	title: "I Love You Baby", artist: "Pandera", channel: WORLD, bpm: "100",
+	arcadeID: "C21",
+	pumpoutID: "",
+
 	NX: ["*1.5", "*2.5", "*5.5", "*2.5", "*6.5"],
 	Zero: ["3", "5", "12", "5", "15"],
 },
 
 
-"C22":
+"0C__Up_Up":
 {
 	title: "Up Up", artist: "Cachy Huang", channel: WORLD, bpm: "135",
+	arcadeID: "C22",
+	pumpoutID: "",
+
 	NX: ["*1.5", "*2", "*5", "*2", "*5.5"],
 	Zero: ["3", "4", "9", "4", "10"],
 },
 
 
-"C41":
+"0C__Love_is_a_Danger_Zone_try_to_B_P_M":
 {
 	title: "Love is a Danger Zone (try to B.P.M.)", artist: "BanYa", bpm: "140 ~ 169", duration: REMIX,
 	shortTitle: "Love is a Danger Zone (B.P.M.)",
 	arcadeName: "Love is a danger zone 2 (try to B.P.M.)",
+	arcadeID: "C41",
+	pumpoutID: 53,
+
 	XX: "= S15`12 S21`20 D16`14",
 	Prime2: "=",
 	Prime: "=",
@@ -7252,44 +9315,58 @@ var readableTracklist = {
 },
 
 
-"C42":
+"0C__K_Hip_Hop_Mix_Vol_1":
 {
 	title: "K-Hip Hop Mix Vol. 1", artist: "Perry/Drunken Tiger/JTL/Eun Ji Won", channel: KPOP, bpm: "110", duration: REMIX,
+	arcadeID: "C42",
+	pumpoutID: "",
+
 	NX2_: ["", "8", "14", "7", ""],
 	NX_: ["", "*4", "*7", "*3.5", ""],  // title: "Zero K-Hip Hop Mix"
 	Zero_: ["", "7", "13", "6", ""],
 },
 
 
-"C43":
+"0C__Zero_K_House_Mix_Vol_1":
 {
 	title: "Zero K-House Mix Vol. 1", artist: "Turtles/Cho PD/Harisu/Jang Yoon Jung", channel: KPOP, bpm: "136", duration: REMIX,
+	arcadeID: "C43",
+	pumpoutID: "",
+
 	NX_: ["", "*3.5", "*6.5", "*3", ""],
 	Zero_: ["", "6", "12", "5", ""],
 },
 
 
-"C44":
+"0C__Ignition_Starts_Hypnosis_Extravaganza_Remix":
 {
 	title: "Ignition Starts/Hypnosis/Extravaganza Remix", artist: "BanYa", bpm: "146/180/195", duration: REMIX,
+	arcadeID: "C44",
+	pumpoutID: "",
+
 	Zero_: ["", "??", "??", "??", ""],
 },
 
 
-"C1C04":
+"0C__Love_is_a_Danger_Zone_2_DnG":
 {
 	title: "Love is a Danger Zone 2 (D&G Ver.)", artist: "BanYa", bpm: "162",
 	shortTitle: "Love is a Danger Zone 2 (D&G)",
 	arcadeName: "Love is a Danger Zone pt.2 another",
-	sortingID: " C41__1",  // after C41 - LIADZ Try To BPM
+	altID: "DC04",
+	arcadeID: "C1C04",
+	sortingID: "C41__1",  // after LIADZ Try To BPM (C41)
+	pumpoutID: 54,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "= CoOp(x2)`Dp??(x2) -D??(x2)",
 	Fiesta2: "=",
 	FiestaEX: "=",
-	Fiesta: "S16`ahd S17`acz D??(x2)`afs Dp??(x2)`anm",  //? afs anm проверить
+	Fiesta: "S16`ahd S17`acz D??(x2)`afs Dp??(x2)`anm",
+		//? afs anm проверить
 	NXA_: ["", "16", "17", "??(x2)", "??(x2)"],
-	// Dp - капл, D - ahd+acz
+		// Dp - капл, D - ahd+acz
 	NX2_: ["", "16", "18", "", "??(x2)"],
 	NX_: ["", "@1", "@3", "", "??(x2)"],
 	Zero_: ["", "??", "??", "", "??(x2)"],
@@ -7300,9 +9377,12 @@ var readableTracklist = {
 // \B - Exceed 2
 
 
-"B01":
+"0B__Greenhorn":
 {
 	title: "Greenhorn", artist: "Lexy", channel: KPOP, bpm: "109",
+	arcadeID: "B01",
+	pumpoutID: "",
+
 	NXA: ["2", "4", "13", "5", "13"],
 	NX2: ["2", "4", "13", "5", "15"],
 	NX: ["*1", "*2", "*6.5", "*2.5", "@1"],
@@ -7311,9 +9391,12 @@ var readableTracklist = {
 },
 
 
-"B02":
+"0B__Hot":
 {
 	title: "Hot", artist: "1Tym", channel: KPOP, bpm: "98",
+	arcadeID: "B02",
+	pumpoutID: 71,
+
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -7326,26 +9409,35 @@ var readableTracklist = {
 },
 
 
-"B03":
+"0B__Pray":
 {
 	title: "Pray", artist: "Som2", channel: KPOP, bpm: "122",
+	arcadeID: "B03",
+	pumpoutID: "",
+
 	NX2: ["2", "4", "9", "4", "11"],
 	NX: ["*1", "*2", "*4.5", "*2", "*5.5"],
 	Exceed2: ["2", "5", "8", "4", "11"],
 },
 
 
-"B04":
+"0B__Go_Away":
 {
 	title: "Go Away", artist: "B.M.K.", channel: KPOP, bpm: "132",
+	arcadeID: "B04",
+	pumpoutID: "",
+
 	Zero: ["2", "6", "11", "5", "15"],
 	Exceed2: ["2", "6", "11", "5", "15"],
 },
 
 
-"B05":
+"0B__Drunken_in_Melody":
 {
 	title: "Drunken in Melody", artist: "Eun Ji Won", bpm: "94",
+	arcadeID: "B05",
+	pumpoutID: "",
+
 	NXA: ["3", "5", "", "5", ""],
 	NX2: ["2", "5", "", "5", ""],
 	NX: ["*1", "*2.5", "", "*2.5", ""],
@@ -7354,9 +9446,12 @@ var readableTracklist = {
 },
 
 
-"B06":
+"0B__Deja_Vu":
 {
 	title: "Deja Vu", artist: "SOM2", channel: KPOP, bpm: "115",
+	arcadeID: "B06",
+	pumpoutID: 72,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7370,17 +9465,23 @@ var readableTracklist = {
 },
 
 
-"B07":
+"0B__U":
 {
 	title: "U", artist: "Ju Dain", channel: KPOP, bpm: "111",
+	arcadeID: "B07",
+	pumpoutID: "",
+
 	Zero: ["3", "6", "11", "6", "14"],
 	Exceed2: ["3", "6", "11", "6", "14"],
 },
 
 
-"B08":
+"0B__Sajahu":
 {
 	title: "Sajahu", artist: "Lee Hyun Do", channel: KPOP, bpm: "127",
+	arcadeID: "B08",
+	pumpoutID: 73,
+
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -7393,9 +9494,12 @@ var readableTracklist = {
 },
 
 
-"B09":
+"0B__Typhoon":
 {
 	title: "Typhoon", artist: "Lee Hyun Do", channel: KPOP, bpm: "112",
+	arcadeID: "B09",
+	pumpoutID: "",
+
 	NX2: ["2", "5", "10", "5", "13"],
 	NX: ["*1", "*2.5", "*5", "*2.5", "*6.5"],
 	Zero: ["3", "6", "11", "6", "14"],
@@ -7403,35 +9507,47 @@ var readableTracklist = {
 },
 
 
-"B10":
+"0B__Eternity":
 {
 	title: "Eternity", artist: "Uhm Jung Hwa", channel: KPOP, bpm: "120",
+	arcadeID: "B10",
+	pumpoutID: "",
+
 	Zero: ["1", "5", "9", "5", "12"],
 	Exceed2: ["1", "5", "9", "5", "12"],
 },
 
 
-"B11":
+"0B__Foxy_Lady":
 {
 	title: "Foxy Lady", artist: "Harisu", channel: KPOP, bpm: "130",
+	arcadeID: "B11",
+	pumpoutID: "",
+
 	NX: ["*1.5", "*2.5", "*6", "*2.5", "*6.5"],
 	Zero: ["3", "6", "13", "5", "15"],
 	Exceed2: ["3", "6", "13", "5", "15"],
 },
 
 
-"B12":
+"0B__Too_Late":
 {
 	title: "Too Late", artist: "Shyne", channel: KPOP, bpm: "97",
+	arcadeID: "B12",
+	pumpoutID: "",
+
 	NX: ["*1.5", "*2", "", "*2.5", ""],
 	Zero: ["3", "5", "", "5", ""],
 	Exceed2: ["2", "5", "11", "5", "12"],
 },
 
 
-"B13":
+"0B__Ill_Give_You_All_My_Love":
 {
 	title: "I'll Give You All My Love", artist: "Wax", channel: KPOP, bpm: "164",
+	arcadeID: "B13",
+	pumpoutID: 74,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7445,27 +9561,36 @@ var readableTracklist = {
 },
 
 
-"B14":
+"0B__Huu_Yah_Yeah":
 {
 	title: "Huu Yah Yeah", artist: "Y-Me", channel: KPOP, bpm: "110",
+	arcadeID: "B14",
+	pumpoutID: "",
+
 	NX: ["*1.5", "*3", "*6.5", "*3", "*6.5"],
 	Zero: ["3", "6", "12", "7", "14"],
 	Exceed2: ["3", "6", "12", "7", "14"],
 },
 
 
-"B15":
+"0B__We_Dont_Stop":
 {
 	title: "We Don't Stop", artist: "Asoto Union", channel: KPOP, bpm: "100",
+	arcadeID: "B15",
+	pumpoutID: "",
+
 	NX: ["*1", "*2.5", "*5", "*2", "*5.5"],
 	Zero: ["3", "6", "9", "5", "10"],
 	Exceed2: ["3", "6", "9", "5", "10"],
 },
 
 
-"B16":
+"0B__J_Bong":
 {
 	title: "J Bong", artist: "BanYa", bpm: "140",
+	arcadeID: "B16",
+	pumpoutID: 55,
+
 	XX: "= S15`13",
 	Prime2: "=",
 	Prime: "=",
@@ -7478,12 +9603,16 @@ var readableTracklist = {
 },
 
 
-"B17":
+"0B__Hi_Bi":
 {
 	title: "Hi-Bi", artist: "BanYa", bpm: "145",
 	arcadeName: "Hi Bi",
-	XX: "= S16`15 S19`18 D19`18",  //??? D20.updated - simplified 10-buttons hold (to 6-buttons)
-	// D20-XX - https://www.youtube.com/watch?v=nR61F0n4dio
+	arcadeID: "B17",
+	pumpoutID: 56,
+
+	XX: "= S16`15 S19`18 D19`18",
+		//??? D20.updated - simplified 10-buttons hold (to 6-buttons)
+		// D20-XX - https://www.youtube.com/watch?v=nR61F0n4dio
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7497,9 +9626,12 @@ var readableTracklist = {
 },
 
 
-"B18":
+"0B__Solitary_2":
 {
 	title: "Solitary 2", artist: "BanYa", bpm: "136",
+	arcadeID: "B18",
+	pumpoutID: 57,
+
 	XX: "= S8`6 S9`8 D19`18",
 	Prime2: "=  @2.00 D21",
 	Prime: "=",
@@ -7514,10 +9646,13 @@ var readableTracklist = {
 },
 
 
-"B19":
+"0B__Canon_D":
 {
 	title: "Canon-D", artist: "BanYa", bpm: "160",
 	arcadeName: "Canon D",
+	arcadeID: "B19",
+	pumpoutID: 58,
+
 	XX: "= S10`9 D12`10 D23`22",
 	Prime2: "= -S18 -D18",
 	Prime: "=  @1.11 S17.ucs S18.ucs D17.ucs D18.ucs  @1.14 CoOp(x2)",
@@ -7532,9 +9667,12 @@ var readableTracklist = {
 },
 
 
-"B20":
+"0B__Le_Code_De_Bonne_Conduite":
 {
 	title: "Le Code De Bonne Conduite", artist: "Manresa", channel: WORLD, bpm: "171",
+	arcadeID: "B20",
+	pumpoutID: "",
+
 	NX2: ["4", "5", "12", "8", "15"],
 	NX: ["*2", "*2.5", "*6", "*4", "@1"],
 	Zero: ["4", "7", "10", "8", "15"],
@@ -7542,9 +9680,12 @@ var readableTracklist = {
 },
 
 
-"B26":
+"0B__Novarash":
 {
 	title: "Novarash", artist: "Novasonic/Crash", bpm: "118", channel: KPOP, duration: REMIX,
+	arcadeID: "B26",
+	pumpoutID: 429,
+
 	Fiesta2: "=",
 	FiestaEX: "S11`hd S17`cz D12`fs",
 	NX2_: ["", "8", "16", "10", ""],
@@ -7554,18 +9695,24 @@ var readableTracklist = {
 },
 
 
-"B27":
+"0B__Lexy_n_1TYM_Remix":
 {
 	title: "Lexy & 1TYM Remix", artist: "Lexy/1TYM", channel: KPOP, bpm: "123", duration: REMIX,
+	arcadeID: "B27",
+	pumpoutID: "",
+
 	Exceed2_: ["", "7", "11", "8", ""],
 	Zero_: ["", "7", "11", "8", ""],
 },
 
 
-"B28":
-{  //? B58
+"0B__Tream_Vook_of_the_War":
+{
 	title: "Tream Vook of the War", artist: "BanYa", bpm: "140 - 202", duration: REMIX,
 	arcadeName: "Tream Vook of the war REMIX",
+	arcadeID: "B28",  //? B58
+	pumpoutID: 59,
+
 	XX: "= S13`11 D15`13",
 	Prime2: "=",
 	Prime: "=",
@@ -7580,9 +9727,11 @@ var readableTracklist = {
 },
 
 
-"B29":
+"0B__Banya_Classic_Remix":
 {
 	title: "Banya Classic Remix", artist: "BanYa", bpm: "162 ~ 170", duration: REMIX,
+	arcadeID: "B29",
+	pumpoutID: 60,
 	XX: "= S13`7 D14`11",
 	Prime2: "=",
 	Prime: "= D11`Dp11",  // просто сменили тип:
@@ -7598,9 +9747,12 @@ var readableTracklist = {
 },
 
 
-"B30":
+"0B__Deux_Remix":
 {
 	title: "Deux Remix", artist: "Deux", channel: KPOP, bpm: "119.5", duration: REMIX,
+	arcadeID: "B30",
+	pumpoutID: "",
+
 	NX2_: ["", "7", "14", "8", ""],
 	NX_: ["", "*3.5", "*7", "*3.5", ""],
 	Zero_: ["", "6", "15", "7", ""],
@@ -7608,29 +9760,38 @@ var readableTracklist = {
 },
 
 
-"B31":
+"0B__Divas_Remix":
 {
 	title: "Diva's Remix", artist: "BoA*/Shyne/Y*Me", channel: KPOP, bpm: "110", duration: REMIX,
+	arcadeID: "B31",
+	pumpoutID: "",
+
 	NX_: ["", "*4", "*5.5", "*4.5", ""],
 	Zero_: ["", "7", "11", "8", ""],
 	Exceed2_: ["", "7", "11", "8", ""],
 },
 
 
-"B50":
+"0B__World_Remix":
 {
 	title: "World Remix", artist: "Mozquito / Down Low / B.M.K. / Uhm Jung Hwa", channel: WORLD, bpm: "128", duration: REMIX,
+	arcadeID: "B50",
+	pumpoutID: "",
+
 	Exceed2_: ["", "5", "9", "6", ""],
 	Zero_: ["", "5", "9", "6", ""],
 },
 
 
-"B51":
+"0B__Dignity__FULL":
 {
 	title: "Dignity  [FULL]", artist: "Crash", channel: KPOP, bpm: "195",
 	//for S-19 at 19.09.28 it was: arcadeName: "DIGNITY FULL - FULL SONG",
 	//in track selection it was: "Dignity – FULL SONG –"
 	arcadeName: "Dignity - FULL SONG -",
+	arcadeID: "B51",
+	pumpoutID: 75,
+
 	XX: "@1.04 = S15`13 D18`16",
 	Prime: "=",
 	Fiesta2: "=",
@@ -7644,17 +9805,23 @@ var readableTracklist = {
 },
 
 
-"B52":
+"0B__Novasonic_Remix":
 {
 	title: "Novasonic Remix", artist: "Novasonic", bpm: "136", duration: REMIX,
+	arcadeID: "B52",
+	pumpoutID: "",
+
 	Exceed2_: ["", "7", "11", "9", ""],
 	Zero_: ["", "7", "11", "9", ""],
 },
 
 
-"B53":
+"0B__Turbo_Remix":
 {
 	title: "Turbo Remix", artist: "Turbo", channel: KPOP, bpm: "147.7", duration: REMIX,
+	arcadeID: "B53",
+	pumpoutID: "",
+
 	NX2_: ["", "9", "12", "10", ""],
 	NX_: ["", "*4.5", "*5.5", "*5.5", ""],
 	Zero_: ["", "8", "14", "10", ""],
@@ -7662,9 +9829,11 @@ var readableTracklist = {
 },
 
 
-"B54":
+"0B__2nd_Hidden_Remix":
 {
 	title: "2nd Hidden Remix", artist: "Clon/Sechskies", channel: KPOP, bpm: "140", duration: REMIX,
+	arcadeID: "B54", altID: "DB54",
+	pumpoutID: 877,
 	NX2_: ["", "10", "11", "13", "16"],
 	NX_: ["", "*5", "*5.5", "*6", "@2"],
 	Zero_: ["", "9", "10", "12", "??"],
@@ -7672,9 +9841,12 @@ var readableTracklist = {
 },
 
 
-"B55":
+"0B__Drunken_Family_Remix":
 {
 	title: "Drunken Family Remix", artist: "Drunken Tiger/Honey Family", channel: KPOP, bpm: "95", duration: REMIX,
+	arcadeID: "B55",
+	pumpoutID: "",
+
 	NX2_: ["", "6", "7", "6", ""],
 	NX_: ["", "*3", "*3.5", "*3", ""],
 	Zero_: ["", "5", "6", "5", ""],
@@ -7682,9 +9854,12 @@ var readableTracklist = {
 },
 
 
-"B56":
+"0B__BanYa_HipHop_Remix":
 {
 	title: "BanYa HipHop Remix", artist: "BanYa", bpm: "99", duration: REMIX,
+	arcadeID: "B56",
+	pumpoutID: 61,
+
 	XX: "=",
 	Prime2: "=  @2.04 D20",
 	Prime: "=",
@@ -7699,10 +9874,13 @@ var readableTracklist = {
 },
 
 
-"B57":
+"0B__Canon_D__FULL":
 {
 	title: "Canon-D  [FULL]", artist: "BanYa", bpm: "160",
 	arcadeName: "Canon D - FULL SONG",
+	arcadeID: "B57",
+	pumpoutID: 62,
+
 	XX: "= S14`S11 S17`16",
 	Prime2: "=",
 	Prime: "=  @1.19 D24",
@@ -7721,10 +9899,13 @@ var readableTracklist = {
 // \A - Exceed
 
 
-"A01":
+"0A__Final_Audition_3_U_F":
 {
 	title: "Final Audition 3 U.F", artist: "BanYa", bpm: "130",
 	arcadeName: "Final Audition 3",
+	arcadeID: "A01",
+	pumpoutID: 63,
+
 	XX: "= S8`6 S16`14",
 	Prime2: "=",
 	Prime: "=  @1.19 S17",
@@ -7740,9 +9921,12 @@ var readableTracklist = {
 },
 
 
-"A02":
+"0A__Naissance_2":
 {
 	title: "Naissance 2", artist: "BanYa", bpm: "129",
+	arcadeID: "A02",
+	pumpoutID: 64,
+
 	XX: "= S9`6 D20`19",
 	Prime2: "=",
 	Prime: "=",
@@ -7758,9 +9942,12 @@ var readableTracklist = {
 },
 
 
-"A03":
+"0A__Monkey_Fingers":
 {
 	title: "Monkey Fingers", artist: "BanYa", bpm: "186",
+	arcadeID: "A03",
+	pumpoutID: 65,
+
 	XX: "= S4`3 S9`8",
 	Prime2: "=",
 	Prime: "=",
@@ -7776,9 +9963,12 @@ var readableTracklist = {
 },
 
 
-"A04":
+"0A__Blazing":
 {
 	title: "Blazing", artist: "BanYa", bpm: "158",
+	arcadeID: "A04",
+	pumpoutID: 66,
+
 	XX: "= S4`3 S17`15 D20`19",
 	Prime2: "=  @2.04 S19",
 	Prime: "=",
@@ -7792,9 +9982,12 @@ var readableTracklist = {
 },
 
 
-"A05":
+"0A__Pump_Me_Amadeus":
 {
 	title: "Pump Me Amadeus", artist: "BanYa", bpm: "170",
+	arcadeID: "A05",
+	pumpoutID: 67,
+
 	XX: "= S6`5 S11`9 S18`17 D12`10 D19`18 D21`19",
 	Prime2: "=",
 	Prime: "=",
@@ -7808,10 +10001,13 @@ var readableTracklist = {
 },
 
 
-"A06":
+"0A__X_Treme":
 {
 	title: "X-Treme", artist: "BanYa", bpm: "162",
 	arcadeName: "X-Tream",
+	arcadeID: "A06",
+	pumpoutID: 68,
+
 	XX: "= S10`9 S15`14 D20`19",
 	Prime2: "=",
 	Prime: "=",
@@ -7827,9 +10023,12 @@ var readableTracklist = {
 },
 
 
-"A07":
+"0A__Get_Up":
 {
 	title: "Get Up!", artist: "BanYa", bpm: "180",
+	arcadeID: "A07",
+	pumpoutID: 69,
+
 	XX: "= S15`13 D12`9 -D17  @2.07 S21.lock D23.lock",  // D18.???_17_or_18
 	Prime2: "=",
 	Prime: "=",
@@ -7842,9 +10041,12 @@ var readableTracklist = {
 },
 
 
-"A08":
+"0A__Dignity":
 {
 	title: "Dignity", artist: "Crash", channel: KPOP, bpm: "195",
+	arcadeID: "A08",
+	pumpoutID: 76,
+
 	XX: "@1.04 = S14`12 S17`16 D17`13 D19`18 D24`23 D26.lock",
 	Prime: "=",
 	Fiesta2: "=  @1.60 S22",
@@ -7859,9 +10061,12 @@ var readableTracklist = {
 },
 
 
-"A09":
+"0A__Shake_That_Bootie":
 {
 	title: "Shake That Bootie", artist: "OneTwo", channel: KPOP, bpm: "145",
+	arcadeID: "A09",
+	pumpoutID: "",
+
 	NX: ["*1.5", "*3", "*7", "*3", "@1"],
 	Zero: ["3", "6", "13", "6", "16"],
 	Exceed2: ["3", "6", "13", "6", "16"],
@@ -7869,9 +10074,12 @@ var readableTracklist = {
 },
 
 
-"A10":
+"0A__Valenti":
 {
 	title: "Valenti", artist: "BoA", channel: KPOP, bpm: "104",
+	arcadeID: "A10",
+	pumpoutID: "",
+
 	NX: ["*1", "*2", "*5.5", "*2", "*6.5"], //??? NX: removed at 1.08
 	Zero: ["2", "4", "9", "4", "11"],
 	Exceed2: ["2", "4", "9", "4", "11"],
@@ -7879,9 +10087,12 @@ var readableTracklist = {
 },
 
 
-"A11":
+"0A__What_Do_You_Really_Want":
 {
 	title: "What Do You Really Want?", artist: "Crash", channel: KPOP, bpm: "110",
+	arcadeID: "A11",
+	pumpoutID: 77,
+
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "=",
@@ -7895,9 +10106,12 @@ var readableTracklist = {
 },
 
 
-"A12":
+"0A__Go":
 {
 	title: "Go", artist: "U:Nee", channel: KPOP, bpm: "138",
+	arcadeID: "A12",
+	pumpoutID: 426,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S3 S7 S12 D13 Dp3",
@@ -7910,17 +10124,23 @@ var readableTracklist = {
 },
 
 
-"A13":
+"0A__Flamenco":
 {
 	title: "Flamenco", artist: "Oliver", channel: KPOP, bpm: "105",
+	arcadeID: "A13",
+	pumpoutID: "",
+
 	Exceed2: ["2", "5", "9", "5", "11"],
 	Exceed: ["3", "5", "9", "5", "11"],
 },
 
 
-"A14":
+"0A__Kiss_Me":
 {
 	title: "Kiss Me", artist: "Debbie Scott", channel: WORLD, bpm: "126",
+	arcadeID: "A14",
+	pumpoutID: "",
+
 	NX: ["*0.5", "*2.5", "*6.5", "*3", "@1"], NX_: ["", "", "(-)", "", "@1"],
 	Zero: ["1", "5", "12", "5", "14"],
 	Exceed2: ["1", "5", "12", "5", "14"],
@@ -7928,9 +10148,12 @@ var readableTracklist = {
 },
 
 
-"A15":
+"0A__Essa_Maneira":
 {
 	title: "Essa Maneira", artist: "Kaoma", channel: WORLD, bpm: "150",
+	arcadeID: "A15",
+	pumpoutID: "",
+
 	NX2: ["3", "7", "13", "9", "14"],
 	NX: ["*1.5", "*3.5", "*6.5", "*4.5", "*7"],
 	Zero: ["2", "6", "12", "7", "13"],
@@ -7939,17 +10162,23 @@ var readableTracklist = {
 },
 
 
-"A16":
+"0A__Ba_Be_Loo_Be_Ra":
 {
 	title: "Ba Be Loo Be Ra", artist: "Kristeen", channel: WORLD, bpm: "126",
+	arcadeID: "A16",
+	pumpoutID: "",
+
 	Exceed2: ["1", "4", "9", "5", "13"],
 	Exceed: ["1", "4", "9", "5", "12"],
 },
 
 
-"A17":
+"0A__La_Cubanita":
 {
 	title: "La Cubanita", artist: "Los ninos de sara", channel: WORLD, bpm: "120",
+	arcadeID: "A17",
+	pumpoutID: "",
+
 	NX2: ["4", "9", "13", "10", "16"],
 	NX: ["*2", "*4.5", "*6.5", "*5", "@1"],
 	Zero: ["2", "6", "12", "7", "13"],
@@ -7958,9 +10187,12 @@ var readableTracklist = {
 },
 
 
-"A18":
+"0A__Shake_It_Up":
 {
 	title: "Shake It Up", artist: "Rod", channel: WORLD, bpm: "120",
+	arcadeID: "A18",
+	pumpoutID: "",
+
 	NX2: ["4", "9", "15", "3", "19"],
 	NX: ["*2", "*4.5", "@1", "*1.5", "@4"], NX_: ["", "", "@1", "", "@4"],
 	Zero: ["2", "7", "14", "7", "19"],
@@ -7969,9 +10201,12 @@ var readableTracklist = {
 },
 
 
-"A19":
+"0A__One_Love":
 {
 	title: "One Love", artist: "S'Max", channel: KPOP, bpm: "98",
+	arcadeID: "A19",
+	pumpoutID: "",
+
 	NX: ["*1", "*2.5", "*4.5", "*2", "*5"],
 	Zero: ["2", "5", "8", "4", "11"],
 	Exceed2: ["2", "5", "8", "4", "11"],
@@ -7979,9 +10214,12 @@ var readableTracklist = {
 },
 
 
-"A20":
+"0A__Power_of_Dream":
 {
 	title: "Power of Dream", artist: "Victoria", channel: WORLD, bpm: "122",
+	arcadeID: "A20",
+	pumpoutID: "",
+
 	NX2: ["1", "7", "14", "6", "15"],
 	NX: ["*0.5", "*3.5", "*7", "*3", "@1"],
 	Zero: ["1", "6", "14", "5", "15"],
@@ -7990,9 +10228,12 @@ var readableTracklist = {
 },
 
 
-"A21":
+"0A__Watch_Out":
 {
 	title: "Watch Out", artist: "Victoria", channel: WORLD, bpm: "106",
+	arcadeID: "A21",
+	pumpoutID: "",
+
 	NX2: ["3", "6", "10", "6", "12"],
 	NX: ["*1.5", "*3", "*5", "*3", "*6"],
 	Zero: ["2", "5", "11", "7", "12"],
@@ -8001,9 +10242,12 @@ var readableTracklist = {
 },
 
 
-"A22":
+"0A__Fiesta":
 {
 	title: "Fiesta", artist: "El Cuba", channel: WORLD, bpm: "140",
+	arcadeID: "A22",
+	pumpoutID: "",
+
 	NX: ["*2", "*3.5", "*5.5", "*3", "*6.5"],
 	Zero: ["2", "7", "8", "5", "10"],
 	Exceed2: ["2", "7", "8", "5", "10"],
@@ -8011,9 +10255,12 @@ var readableTracklist = {
 },
 
 
-"A23":
+"0A__Soca_Make_Yuh_Ram_Ram":
 {
 	title: "Soca Make Yuh Ram Ram", artist: "General Grant", channel: WORLD, bpm: "108",
+	arcadeID: "A23",
+	pumpoutID: "",
+
 	NX2: ["3", "5", "10", "5", "12"],
 	NX: ["*1.5", "*2.5", "*5", "*2.5", "*6"],
 	Zero: ["2", "5", "9", "6", "10"],
@@ -8022,17 +10269,23 @@ var readableTracklist = {
 },
 
 
-"A24":
+"0A__Born_to_be_Alive":
 {
 	title: "Born to be Alive", artist: "P. Hernandez & B. Thomas", channel: WORLD, bpm: "124",
+	arcadeID: "A24",
+	pumpoutID: "",
+
 	Exceed2: ["2", "5", "9", "5", "12"],
 	Exceed: ["2", "5", "11", "4", "12"],
 },
 
 
-"A25":
+"0A__Xibom_Bombom":
 {
 	title: "Xibom Bombom", artist: "Los del ritmo", channel: WORLD, bpm: "148",
+	arcadeID: "A25",
+	pumpoutID: "",
+
 	Exceed2: ["1", "5", "8", "5", "9"],
 	Exceed: ["3", "4", "8", "4", "10"],
 },
@@ -8042,9 +10295,12 @@ var readableTracklist = {
 // \9 - Extra
 
 
-"902":
+"09__Circus_Magic":
 {
 	title: "Circus Magic", artist: "Crying Nut", bpm: "141", fromMix: "Extra",
+	arcadeID: "902",
+	pumpoutID: "",
+
 	NX2: ["3", "8", "14", "9", ""],
 	NX: ["*1.5", "*4", "*7", "*4.5", ""], NX_: ["", "", "", "", "@1"],
 	Zero_: ["", "", "", "", "??"],
@@ -8053,9 +10309,12 @@ var readableTracklist = {
 },
 
 
-"906":
+"09__Starian":
 {
 	title: "Starian", artist: "Duke", channel: KPOP, bpm: "135", fromMix: "Extra",
+	arcadeID: "906",
+	pumpoutID: 45,
+
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "= S2",
@@ -8069,9 +10328,12 @@ var readableTracklist = {
 },
 
 
-"909":
+"09__Mistake":
 {
 	title: "Mistake", artist: "U'Two", channel: KPOP, bpm: "110", fromMix: "Extra",
+	arcadeID: "909",
+	pumpoutID: 46,
+
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "=  @1.30 S11",
@@ -8082,17 +10344,23 @@ var readableTracklist = {
 },
 
 
-"910":
+"09__The_Rap_act_3":
 {
 	title: "The Rap. act 3", artist: "Honey Family", channel: KPOP, bpm: "98", fromMix: "Extra",
+	arcadeID: "910",
+	pumpoutID: "",
+
 	Zero: ["3", "5", "12", "5", "13"],
 	Exceed2: ["3", "5", "12", "5", "13"],
 },
 
 
-"911":
+"09__Chicken_Wing":
 {
 	title: "Chicken Wing", artist: "BanYa", bpm: "200", fromMix: "Extra",
+	arcadeID: "911",
+	pumpoutID: 42,
+
 	XX: "= S11`10 S20`19 D13`11 D22`23",
 	Prime2: "= -S22",
 	Prime: "=  @1.17 S21.ucs S22.ucs D23.ucs",
@@ -8104,19 +10372,25 @@ var readableTracklist = {
 },
 
 
-"913":
+"09__Can_Can":
 {
 	title: "Can Can", artist: "F2 Systems", channel: ORIGINAL, bpm: "197", fromMix: "Extra",
 	arcadeName: "Radetzky Can Can",
+	arcadeID: "913",
+	pumpoutID: 763,
+
 	XX: "= S16`cz D17`nm S20.lock D22.lock  @2.05 S8 S13",
 	Exceed2: ["", "", "12", "", "14"],
 	Exceed: ["", "", "12", "", "15"],
 },
 
 
-"915":
+"09__Loner":
 {
 	title: "Loner", artist: "T.T.Ma", channel: KPOP, bpm: "155", fromMix: "Extra",
+	arcadeID: "915",
+	pumpoutID: "",
+
 	NX: ["", "*4", "*6.5", "*3", ""],
 	Zero: ["", "6", "10", "7", ""],
 	Exceed2: ["", "6", "10", "7", ""],
@@ -8124,35 +10398,47 @@ var readableTracklist = {
 },
 
 
-"916":
+"09__Monkey_Magic":
 {
 	title: "Monkey Magic", artist: "E-paksa", channel: KPOP, bpm: "151.9", fromMix: "Extra",
+	arcadeID: "916",
+	pumpoutID: "",
+
 	Exceed: ["3", "6", "10", "6", ""],
 },
 
 
-"919":
+"09__Lazenca_Save_Us":
 {
 	title: "Lazenca, Save Us", artist: "N.EX.T", channel: KPOP, bpm: "85", fromMix: "Extra",
+	arcadeID: "919",
+	pumpoutID: "",
+
 	NXA: ["3", "6", "", "5", ""],
 	NX2: ["2", "5", "", "5", ""],
 	NX: ["*1", "*2.5", "", "*2.5", ""],
 },
 
 
-"921":
+"09__Pierrot":
 {
 	title: "Pierrot", artist: "Lee Hyun Do", channel: KPOP, bpm: "100", fromMix: "Extra",
+	arcadeID: "921",
+	pumpoutID: "",
+
 	Exceed2: ["2", "5", "12", "5", "12"],
 	Exceed: ["2", "5", "11", "5", "12"],
 },
 
 
-"922":
+"09__Final_Audition_ep_1":
 {
 	title: "Final Audition episode 1", artist: "BanYa", bpm: "189", fromMix: "Extra",
 	shortTitle: "Final Audition ep. 1",
 	arcadeName: "Final Audition Ep. 1",
+	arcadeID: "922",
+	pumpoutID: 43,
+
 	XX: "= S16`15 S20`19 D13`11 D22`21",
 	Prime2: "=",
 	Prime: "=",
@@ -8172,17 +10458,23 @@ var readableTracklist = {
 // \8 - Premiere 3
 
 
-"801":
+"08__Bambole":
 {
 	title: "Bambole", artist: "Papa Gonzales", channel: WORLD, bpm: "128", fromMix: "Premiere3",
+	arcadeID: "801",
+	pumpoutID: "",
+
 	Exceed2: ["2", "9", "11", "6", "12"],
 	Exceed: ["1", "7", "12", "6", "13"],
 },
 
 
-"802":
+"08__Bee":
 {
 	title: "Bee", artist: "BanYa", bpm: "160", fromMix: "Premiere3",
+	arcadeID: "802",
+	pumpoutID: 25,
+
 	XX: "= S12`11 S16`15 D12`11 D20`19 D22`21 D24`23",
 	Prime2: "=",
 	Prime: "=",
@@ -8198,23 +10490,32 @@ var readableTracklist = {
 },
 
 
-"803":
+"08__Burning_Krypt":
 {
 	title: "Burning Krypt", artist: "B-Legit, 2Wice, & 4Tray", channel: WORLD, bpm: "96", fromMix: "Premiere3",
+	arcadeID: "803",
+	pumpoutID: "",
+
 	Exceed: ["2", "4", "9", "6", ""],
 },
 
 
-"804":
+"08__Can_You_Feel_Dis_or_Dat":
 {
 	title: "Can You Feel Dis or Dat", artist: "2Wice", channel: WORLD, bpm: "97", fromMix: "Premiere3",
+	arcadeID: "804",
+	pumpoutID: "",
+
 	Exceed: ["2", "4", "11", "6", ""],
 },
 
 
-"805":
+"08__Clap_Your_Hands":
 {
 	title: "Clap Your Hands", artist: "Scoop feat. Joyce Lyle", channel: WORLD, bpm: "127", fromMix: "Premiere3",
+	arcadeID: "805",
+	pumpoutID: "",
+
 	NX: ["*1.5", "*3", "*5", "*2.5", "*7"],
 	Zero: ["2", "5", "9", "5", "14"],
 	Exceed2: ["2", "5", "9", "5", "14"],
@@ -8222,9 +10523,12 @@ var readableTracklist = {
 },
 
 
-"806":
+"08__Conga":
 {
 	title: "Conga", artist: "Queen Latin", channel: WORLD, bpm: "124", fromMix: "Premiere3",
+	arcadeID: "806",
+	pumpoutID: "",
+
 	NX: ["*1.5", "*3", "*7", "*4", "@1"],
 	Zero: ["4", "5", "12", "7", "15"],
 	Exceed2: ["4", "5", "12", "7", "15"],
@@ -8232,9 +10536,12 @@ var readableTracklist = {
 },
 
 
-"807":
+"08__D_Gang":
 {
 	title: "D Gang", artist: "BanYa", bpm: "150", fromMix: "Premiere3",
+	arcadeID: "807",
+	pumpoutID: 431,
+
 	XX: "= S11`9",
 	Prime2: "=  @2.00 D17",
 	Fiesta2: "=",
@@ -8245,16 +10552,22 @@ var readableTracklist = {
 },
 
 
-"808":
+"08__DJ_Nightmare":
 {
 	title: "DJ Nightmare", artist: "Rodney O & Joe Cooley", channel: WORLD, bpm: "114", fromMix: "Premiere3",
+	arcadeID: "808",
+	pumpoutID: "",
+
 	Exceed: ["2", "4", "11", "5", ""],
 },
 
 
-"809":
+"08__Eres_Para_Mi":
 {
 	title: "Eres Para Mi", artist: "Mozquito", channel: WORLD, bpm: "128", fromMix: "Premiere3",
+	arcadeID: "809",
+	pumpoutID: "",
+
 	NX: ["*1", "*2.5", "*6.5", "*4", ""],
 	Zero: ["2", "5", "11", "7", ""], Zero_: ["", "", "", "??", ""], //? правда был эназер?
 	Exceed2: ["2", "5", "11", "7", ""],
@@ -8262,17 +10575,23 @@ var readableTracklist = {
 },
 
 
-"810":
+"08__Fiesta_Macarena_Pt_1":
 {
 	title: "Fiesta Macarena Pt. 1", artist: "DJ Paula", channel: WORLD, bpm: "131", fromMix: "Premiere3",
+	arcadeID: "810",
+	pumpoutID: "",
+
 	Exceed2: ["2", "5", "8", "6", ""],
 	Exceed: ["2", "4", "7", "6", ""],
 },
 
 
-"811":
+"08__Hello":
 {
 	title: "Hello", artist: "BanYa", bpm: "140", fromMix: "Premiere3",
+	arcadeID: "811",
+	pumpoutID: 434,
+
 	XX: "= D18`16",
 	Prime2: "=",
 	Fiesta2: "=",
@@ -8283,25 +10602,34 @@ var readableTracklist = {
 },
 
 
-"812":
+"08__On_Your_Side":
 {
 	title: "On Your Side", artist: "Kay Kent", channel: WORLD, bpm: "123", fromMix: "Premiere3",
+	arcadeID: "812",
+	pumpoutID: "",
+
 	Exceed2: ["1", "4", "7", "5", ""],
 	Exceed: ["1", "4", "8", "5", ""],
 },
 
 
-"813":
+"08__Everybody":
 {
 	title: "Everybody", artist: "Carlos T. Quila", channel: WORLD, bpm: "110", fromMix: "Premiere3",
+	arcadeID: "813",
+	pumpoutID: "",
+
 	Exceed2: ["1", "6", "8", "6", ""],
 	Exceed: ["1", "6", "8", "5", ""],
 },
 
 
-"814":
+"08__Join_the_Party":
 {
 	title: "Join The Party", artist: "Gans", channel: WORLD, bpm: "131", fromMix: "Premiere3",
+	arcadeID: "814",
+	pumpoutID: "",
+
 	NX: ["*1.5", "*3", "*6.5", "*2.5", "*7"], NX_: ["", "", "", "", "@3"],
 	Zero: ["2", "5", "11", "5", "13"], Zero_: ["", "", "", "", "??"],
 	Exceed2: ["2", "5", "11", "5", "13"],
@@ -8309,32 +10637,44 @@ var readableTracklist = {
 },
 
 
-"815":
+"08__Lay_It_Down":
 {
 	title: "Lay It Down", artist: "Fresno", channel: WORLD, bpm: "131", fromMix: "Premiere3",
+	arcadeID: "815",
+	pumpoutID: "",
+
 	Exceed2: ["3", "5", "8", "5", ""],
 	Exceed: ["3", "5", "8", "5", ""],
 },
 
 
-"816":
+"08__Let_the_Sunshine":
 {
 	title: "Let the Sunshine", artist: "Lisa Cool & The South Spirit", channel: WORLD, bpm: "128", fromMix: "Premiere3",
+	arcadeID: "816",
+	pumpoutID: "",
+
 	Exceed2: ["2", "4", "7", "4", ""],
 	Exceed: ["2", "4", "8", "3", ""],
 },
 
 
-"817":
+"08__Lovething":
 {
 	title: "Lovething", artist: "Down Low", channel: WORLD, bpm: "103", fromMix: "Premiere3",
+	arcadeID: "817",
+	pumpoutID: "",
+
 	Exceed: ["2", "5", "10", "4", "12"],
 },
 
 
-"818":
+"08__Mexi_Mexi":
 {
 	title: "Mexi Mexi", artist: "Mozquito", channel: WORLD, bpm: "138", fromMix: "Premiere3",
+	arcadeID: "818",
+	pumpoutID: "",
+
 	NX: ["*2", "*3.5", "*6", "*3.5", ""], NX_: ["", "", "", "", "@1"],
 	Zero: ["3", "6", "11", "5", ""], Zero_: ["", "", "", "", "??"],
 	Exceed2: ["3", "6", "11", "5", ""],
@@ -8342,16 +10682,22 @@ var readableTracklist = {
 },
 
 
-"819":
+"08__You_Dont_Wanna_Runup":
 {
 	title: "You Don't Wanna Runup", artist: "Rodney O & Joe Cooley", channel: WORLD, bpm: "107", fromMix: "Premiere3",
+	arcadeID: "819",
+	pumpoutID: "",
+
 	Exceed: ["3", "7", "13", "6", ""],
 },
 
 
-"820":
+"08__Beat_of_the_War":
 {
 	title: "Beat of the War", artist: "BanYa", bpm: "190 ~ 140 ~ 202", fromMix: "Premiere3",
+	arcadeID: "820",
+	pumpoutID: 26,
+
 	XX: "= S11`10 S16`15 D13`12",
 	Prime2: "=  @2.05 S18 S21 D23",
 	Prime: "=",
@@ -8366,9 +10712,12 @@ var readableTracklist = {
 },
 
 
-"821":
+"08__Empire_of_the_Sun":
 {
 	title: "Empire of the Sun", artist: "Novasonic", bpm: "118", fromMix: "Premiere3",
+	arcadeID: "821",
+	pumpoutID: 432,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "Sp1`nl S6`hd S11`cz Dp4`fs D13`nm",
@@ -8378,16 +10727,22 @@ var readableTracklist = {
 },
 
 
-"823":
+"08__Lets_Get_the_Party_Started":
 {
 	title: "Let's Get the Party Started", artist: "Pink", channel: WORLD, bpm: "128.9", fromMix: "Premiere3",
+	arcadeID: "823",
+	pumpoutID: "",
+
 	Exceed: ["2", "6", "15", "6", "20"],
 },
 
 
-"826":
+"08__Come_to_Me":
 {
 	title: "Come to Me", artist: "BanYa", bpm: "100 ~ 107", fromMix: "Premiere3",
+	arcadeID: "826",
+	pumpoutID: 27,
+
 	XX: "= S13`12 S17`15",
 	Prime2: "=",
 	Prime: "=",
@@ -8407,10 +10762,14 @@ var readableTracklist = {
 // \7 - Rebirth
 
 
-"701":
+"07__Dr_M":
 {
 	title: "Dr. M", artist: "BanYa", bpm: "145", fromMix: "Rebirth",
-	XX: "= S6 S8`7 D18`16",  // S6.???
+	arcadeID: "701",
+	pumpoutID: 28,
+
+	XX: "= S6 S8`7 D18`16",
+		// S6.???
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -8425,9 +10784,12 @@ var readableTracklist = {
 },
 
 
-"702":
+"07__Emperor":
 {
 	title: "Emperor", artist: "BanYa", bpm: "150", fromMix: "Rebirth",
+	arcadeID: "702",
+	pumpoutID: 29,
+
 	XX: "= S12`11  @2.06 CoOp(x2)",
 	Prime2: "=",
 	Prime: "=",
@@ -8437,9 +10799,12 @@ var readableTracklist = {
 },
 
 
-"703":
+"07__Get_Your_Groove_On":
 {
 	title: "Get Your Groove On", artist: "BanYa", bpm: "96", fromMix: "Rebirth",
+	arcadeID: "703",
+	pumpoutID: 433,
+
 	XX: "= S12`13 D22`21",
 	Prime2: "=  @1.10 D21",
 	Fiesta2: "=",
@@ -8449,9 +10814,12 @@ var readableTracklist = {
 },
 
 
-"704":
+"07__Love_is_a_Danger_Zone":
 {
 	title: "Love is a Danger Zone", artist: "BanYa", bpm: "140", fromMix: "Rebirth",
+	arcadeID: "704",
+	pumpoutID: 30,
+
 	XX: "= S17`15 D17`15 D21`20",
 	Prime2: "=",
 	Prime: "= CoOp(x2)`Dp??(x2)",
@@ -8467,9 +10835,12 @@ var readableTracklist = {
 },
 
 
-"705":
+"07__Maria":
 {
 	title: "Maria", artist: "BanYa", bpm: "136", fromMix: "Rebirth",
+	arcadeID: "705",
+	pumpoutID: 31,
+
 	XX: "= D20`19",
 	Prime2: "=  @1.09 D19",
 	Prime: "=  @1.12 S18.ucs",
@@ -8481,9 +10852,12 @@ var readableTracklist = {
 },
 
 
-"706":
+"07__Mission_Possible":
 {
 	title: "Mission Possible", artist: "BanYa", bpm: "124", fromMix: "Rebirth",
+	arcadeID: "706",
+	pumpoutID: 436,
+
 	XX: "=",
 	Prime2: "=",
 	Fiesta2: "=",
@@ -8491,9 +10865,12 @@ var readableTracklist = {
 },
 
 
-"707":
+"07__My_Way":
 {
 	title: "My Way", artist: "BanYa", bpm: "118", fromMix: "Rebirth",
+	arcadeID: "707",
+	pumpoutID: 32,
+
 	XX: "= S14`12",
 	Prime2: "=  @1.09 D18",
 	Prime: "=",
@@ -8505,9 +10882,12 @@ var readableTracklist = {
 },
 
 
-"708":
+"07__Point_Break":
 {
 	title: "Point Break", artist: "BanYa", bpm: "92", fromMix: "Rebirth",
+	arcadeID: "708",
+	pumpoutID: 33,
+
 	XX: "=  @2.02 S3 S9 S13 D9",
 	Prime2: "=",
 	Prime: "=",
@@ -8522,9 +10902,12 @@ var readableTracklist = {
 },
 
 
-"709":
+"07__Street_Show_Down":
 {
 	title: "Street Show Down", artist: "BanYa", bpm: "124", fromMix: "Rebirth",
+	arcadeID: "709",
+	pumpoutID: 437,
+
 	XX: "=  @1.02 D18.new  @2.07 S11",
 	Prime2: "=",
 	Fiesta2: "=",
@@ -8536,9 +10919,12 @@ var readableTracklist = {
 },
 
 
-"710":
+"07__Top_City":
 {
 	title: "Top City", artist: "BanYa", bpm: "110.72", fromMix: "Rebirth",
+	arcadeID: "710",
+	pumpoutID: 438,
+
 	XX: "=  @2.06 S20.lock D20.ampass",
 	Prime2: "= -D12",
 	Fiesta2: "=",
@@ -8546,9 +10932,12 @@ var readableTracklist = {
 },
 
 
-"711":
+"07__Winter":
 {
 	title: "Winter", artist: "BanYa", bpm: "168", fromMix: "Rebirth",
+	arcadeID: "711",
+	pumpoutID: 34,
+
 	XX: "= S7`6 S10`8 S16`15 D12`11 D20`19",
 	Prime2: "=  @1.07 S19",
 	Prime: "=",
@@ -8564,10 +10953,13 @@ var readableTracklist = {
 },
 
 
-"712":
+"07__Will_o_the_Wisp":
 {
 	title: "Will o' the Wisp", artist: "BanYa", bpm: "210", fromMix: "Rebirth",
 	arcadeName: "Will-O-The-Wisp",
+	arcadeID: "712",
+	pumpoutID: 35,
+
 	XX: "= S2`3 S11`10 S14`13 D13`10 D14`13 D20`19  @2.01 D25.lock",
 	Prime2: "=",
 	Prime: "=",
@@ -8583,9 +10975,12 @@ var readableTracklist = {
 },
 
 
-"713":
+"07__Till_the_End_of_Time":
 {
 	title: "Till the End of Time", artist: "BanYa", bpm: "140", fromMix: "Rebirth",
+	arcadeID: "713",
+	pumpoutID: 36,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=  @1.17 S13.ucs S17.ucs D8.ucs D13.ucs D16.ucs",
@@ -8595,9 +10990,12 @@ var readableTracklist = {
 },
 
 
-"714":
+"07__Oy_Oy_Oy":
 {
 	title: "Oy Oy Oy", artist: "BanYa", bpm: "148", fromMix: "Rebirth",
+	arcadeID: "714",
+	pumpoutID: 37,
+
 	XX: "=",
 	Prime2: "=",
 	Prime: "=",
@@ -8609,9 +11007,12 @@ var readableTracklist = {
 },
 
 
-"715":
+"07__We_Will_Meet_Again":
 {
 	title: "We Will Meet Again", artist: "BanYa", bpm: "118", fromMix: "Rebirth",
+	arcadeID: "715",
+	pumpoutID: 439,
+
 	XX: "= S4`3 S13`14 S14`13",  //??? proof
 	Prime2: "=",
 	Fiesta2: "=",
@@ -8619,10 +11020,13 @@ var readableTracklist = {
 },
 
 
-"716":
+"07__Miss_s_Story":
 {
 	title: "Miss's Story", artist: "BanYa", bpm: "111", fromMix: "Rebirth",
 	arcadeName: "Miss S' Story",
+	arcadeID: "716",
+	pumpoutID: 435,
+
 	XX: "= S19`18",
 	Prime2: "=",
 	Fiesta2: "=",
@@ -8632,9 +11036,12 @@ var readableTracklist = {
 },
 
 
-"717":
+"07__Set_Me_Up":
 {
 	title: "Set Me Up", artist: "BanYa", bpm: "120", fromMix: "Rebirth",
+	arcadeID: "717",
+	pumpoutID: 38,
+
 	XX: "=  @2.01 D16",
 	Prime2: "=",
 	Prime: "=",
@@ -8644,9 +11051,12 @@ var readableTracklist = {
 },
 
 
-"718":
+"07__Dance_With_Me":
 {
 	title: "Dance With Me", artist: "BanYa", bpm: "122", fromMix: "Rebirth",
+	arcadeID: "718",
+	pumpoutID: 39,
+
 	XX: "=  @2.06 D18",
 	Prime2: "=",
 	Prime: "=",
@@ -8656,34 +11066,46 @@ var readableTracklist = {
 },
 
 
-"719":
+"07__Go_Away":
 {
 	title: "Go Away!", artist: "To-Ya", channel: KPOP, bpm: "103", fromMix: "Rebirth",
+	arcadeID: "719",
+	pumpoutID: "",
+
 	Exceed2: ["2", "4", "9", "6", ""],
 	Exceed: ["1", "4", "9", "5", ""],
 },
 
 
-"721":
+"07__Gotta_Be_Kidding":
 {
 	title: "Gotta Be Kidding!", artist: "Hanul", channel: KPOP, bpm: "138", fromMix: "Rebirth",
+	arcadeID: "721",
+	pumpoutID: "",
+
 	Exceed2: ["1", "4", "13", "3", ""],
 	Exceed: ["1", "4", "11", "3", ""],
 },
 
 
-"730":
+"07__Perfect":
 {
 	title: "Perfect!", artist: "Diva", channel: KPOP, bpm: "132", fromMix: "Rebirth",
+	arcadeID: "730",
+	pumpoutID: "",
+
 	Zero: ["1", "5", "10", "4", "13"],
 	Exceed2: ["1", "5", "10", "4", "13"],
 	Exceed: ["1", "5", "10", "3", "13"],
 },
 
 
-"735":
+"07__Vook":
 {
 	title: "Vook", artist: "BanYa", bpm: "184", fromMix: "Rebirth",
+	arcadeID: "735",
+	pumpoutID: 40,
+
 	XX: "= D13`12 -D17 D19`18 D20`19",  //??? proof
 	Prime2: "=",
 	Prime: "=",
@@ -8699,9 +11121,12 @@ var readableTracklist = {
 },
 
 
-"736":
+"07__Csikos_Post":
 {
 	title: "Csikos Post", artist: "BanYa", bpm: "180", fromMix: "Rebirth",
+	arcadeID: "736",
+	pumpoutID: 41,
+
 	XX: "= S4`3 S7 S8`7 S11`10 D22`21  @2.02 CoOp(x2)",  // S7.???
 	Prime2: "=",
 	Prime: "=  @1.12 D21.ucs",
@@ -8723,9 +11148,12 @@ var readableTracklist = {
 // \5 - Perfect
 
 
-"501":
+"05__Pump_Jump":
 {
 	title: "Pump Jump", artist: "BanYa", bpm: "106", fromMix: "Perfect",
+	arcadeID: "501",
+	pumpoutID: 499,
+
 	XX: "=",
 	Prime2: "=",
 	Fiesta2: "=",
@@ -8735,9 +11163,12 @@ var readableTracklist = {
 },
 
 
-"502":
+"05__N":
 {
 	title: "N", artist: "BanYa", bpm: "106", fromMix: "Perfect",
+	arcadeID: "502",
+	pumpoutID: 446,
+
 	XX: "=",
 	Prime2: "=",
 	Fiesta2: "=",
@@ -8750,9 +11181,12 @@ var readableTracklist = {
 },
 
 
-"503":
+"05__Rolling_Christmas":
 {
 	title: "Rolling Christmas", artist: "BanYa", bpm: "142", fromMix: "Perfect",
+	arcadeID: "503",
+	pumpoutID: 2,
+
 	XX: "= S12`13 D16`17  @2.05 D22.lock  @2.06 S17",
 	Prime2: "=",
 	Prime: "=  @1.11 CoOp(x2)  @1.12 D17.ucs",
@@ -8766,9 +11200,12 @@ var readableTracklist = {
 },
 
 
-"504":
+"05__All_I_Want_For_Xmas":
 {
 	title: "All I Want For X-mas", artist: "BanYa", bpm: "130", fromMix: "Perfect",
+	arcadeID: "504",
+	pumpoutID: 1,
+
 	XX: "= S9`11",
 	Prime2: "=",
 	Prime: "=",
@@ -8779,9 +11216,12 @@ var readableTracklist = {
 },
 
 
-"505":
+"05__Beethoven_Virus":
 {
 	title: "Beethoven Virus", artist: "BanYa", bpm: "162", fromMix: "Perfect",
+	arcadeID: "505",
+	pumpoutID: 4,
+
 	XX: "= S6`8 S11`13 D11`8 D21`20  @2.01  CoOp(x2)",  //??? proof S6.updated S7
 	Prime2: "=",
 	Prime: "= -Dp11",
@@ -8797,9 +11237,12 @@ var readableTracklist = {
 },
 
 
-"507":
+"05__Come_Back_to_Me":
 {
 	title: "Come Back to Me", artist: "Deux", channel: KPOP, bpm: "116", fromMix: "Perfect",
+	arcadeID: "507",
+	pumpoutID: "",
+
 	NXA: ["2", "5", "11", "6", "13"],
 	NX2: ["2", "5", "11", "6", "13"],
 	NX: ["*1", "*2.5", "*5.5", "*3", "*6.5"],
@@ -8808,17 +11251,23 @@ var readableTracklist = {
 },
 
 
-"508":
+"05__As_I_Told_U":
 {
 	title: "As I Told U", artist: "Kim Sung Jae", channel: KPOP, bpm: "120", fromMix: "Perfect",
+	arcadeID: "508",
+	pumpoutID: "",
+
 	Exceed2: ["2", "5", "9", "5", "12"],
 	Exceed: ["2", "5", "10", "4", "10"],
 },
 
 
-"516":
+"05__Slam":
 {
 	title: "Slam", artist: "Novasonic", bpm: "132", fromMix: "Perfect",
+	arcadeID: "516",
+	pumpoutID: 17,
+
 	XX: "= S18`17 S19`18 D21`20",
 	Prime2: "=  @1.04 D23",
 	Prime: "=",
@@ -8834,9 +11283,12 @@ var readableTracklist = {
 },
 
 
-"517":
+"05__Space_Fantasy":
 {
 	title: "Space Fantasy", artist: "E-paksa", channel: KPOP, bpm: "186", fromMix: "Perfect",
+	arcadeID: "517",
+	pumpoutID: "",
+
 	Exceed: ["4", "6", "11", "6", ""],
 },
 
@@ -8845,10 +11297,13 @@ var readableTracklist = {
 // \4 - OBG SE
 
 
-"401":
+"04__Oh_Rosa":
 {
 	title: "Oh! Rosa", artist: "BanYa", bpm: "148", fromMix: "OBG_SE",
 	arcadeName: "Oh! Rosa!",
+	arcadeID: "401",
+	pumpoutID: 498,
+
 	XX: "= S8`7",
 	Prime2: "=  @1.04 CoOp(x2)",
 	Fiesta2: "=",
@@ -8859,9 +11314,12 @@ var readableTracklist = {
 },
 
 
-"402":
+"04__First_Love":
 {
 	title: "First Love", artist: "BanYa", bpm: "104", fromMix: "OBG_SE",
+	arcadeID: "402",
+	pumpoutID: 443,
+
 	XX: "= S10`9",
 	Prime2: "=",
 	Fiesta2: "=",
@@ -8872,9 +11330,12 @@ var readableTracklist = {
 },
 
 
-"403":
+"04__Betrayer":
 {
 	title: "Betrayer", artist: "BanYa", bpm: "92", fromMix: "OBG_SE",
+	arcadeID: "403",
+	pumpoutID: 441,
+
 	XX: "= D11`8",
 	Prime2: "=",
 	Prime: "@1.11 = S16 D17",
@@ -8885,10 +11346,14 @@ var readableTracklist = {
 },
 
 
-"404":
+"04__Solitary":
 {
 	title: "Solitary", artist: "BanYa", bpm: "136", fromMix: "OBG_SE",
-	XX: "= S17`16 S18`17 D10`7",  //??? proof S17 S18
+	arcadeID: "404",
+	pumpoutID: 5,
+
+	XX: "= S17`16 S18`17 D10`7",
+		//??? proof S17 S18
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -8903,9 +11368,12 @@ var readableTracklist = {
 },
 
 
-"405":
+"04__Mr_Larpus":
 {
 	title: "Mr. Larpus", artist: "BanYa", bpm: "190", fromMix: "OBG_SE",
+	arcadeID: "405",
+	pumpoutID: 7,
+
 	XX: "= S12`11 D16`14  @2.07 D22",
 	Prime2: "=",
 	Prime: "=",
@@ -8921,16 +11389,22 @@ var readableTracklist = {
 },
 
 
-"411":
+"04__A_Trap":
 {
 	title: "A-Trap", artist: "Baby V.O.X.", channel: KPOP, bpm: "125", fromMix: "OBG_SE",
+	arcadeID: "411",
+	pumpoutID: "",
+
 	Exceed2: ["1", "4", "12", "4", "13"],
 },
 
 
-"413":
+"04__Run":
 {
 	title: "Run!", artist: "Novasonic", bpm: "140", fromMix: "OBG_SE",
+	arcadeID: "413",
+	pumpoutID: 447,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S4`nl S8`hd S15`cz D8`fs D17`nm",
@@ -8941,9 +11415,12 @@ var readableTracklist = {
 },
 
 
-"414":
+"04__Run_to_You":
 {
 	title: "Run to You", artist: "DJ DOC", channel: KPOP, bpm: "132", fromMix: "OBG_SE",
+	arcadeID: "414",
+	pumpoutID: 18,
+
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "S4 S5 S10 D6  @1.20 S13 D14  @1.51 S2 S7",  //?
@@ -8955,9 +11432,12 @@ var readableTracklist = {
 // \3 - OBG
 
 
-"301":
+"03__Final_Audition_2":
 {
 	title: "Final Audition 2", artist: "BanYa", bpm: "130", fromMix: "OBG",
+	arcadeID: "301",
+	pumpoutID: 8,
+
 	XX: "= S9`8 S17`16 D11`8 D18`17 D20`19",
 	Prime2: "=",
 	Prime: "=",
@@ -8973,9 +11453,12 @@ var readableTracklist = {
 },
 
 
-"302":
+"03__Naissance":
 {
 	title: "Naissance", artist: "BanYa", bpm: "136", fromMix: "OBG",
+	arcadeID: "302",
+	pumpoutID: 9,
+
 	XX: "=",
 	Prime2: "=  @2.02 S16",
 	Prime: "=",
@@ -8991,9 +11474,12 @@ var readableTracklist = {
 },
 
 
-"303":
+"03__Turkey_March":
 {
 	title: "Turkey March", artist: "BanYa", bpm: "150", fromMix: "OBG",
+	arcadeID: "303",
+	pumpoutID: 10,
+
 	XX: "= S16`15 D20`19",
 	Prime2: "=",
 	Prime: "=  @1.12 S18.ucs D17.ucs CoOp(x2).ucs",
@@ -9009,28 +11495,39 @@ var readableTracklist = {
 },
 
 
-"304":
+"03__With_My_Lover":
 {
 	title: "With My Lover", artist: "BanYa", bpm: "124", fromMix: "OBG",
-	XX: "= S5`nl S12`cz D14`nm  @1.02 D19.new",  //??? S12.updated
-	// S12-XX - https://www.youtube.com/watch?v=EHtChc2BGM0
+	arcadeID: "304",
+	pumpoutID: 762,
+
+	XX: "= S5`nl S12`cz D14`nm  @1.02 D19.new",
+		//??? S12.updated
+		// S12-XX - https://www.youtube.com/watch?v=EHtChc2BGM0
 	NX: ["*1.5", "", "*5", "", "*5.5"],
 	Zero: ["3", "", "10", "", "11"],
 },
 
 
-"305":
+"03__An_Interesting_View":
 {
 	title: "An Interesting View", artist: "BanYa", bpm: "160", fromMix: "OBG",
-	XX: "S6 S13",  //??? S13.updated
-	// S13-XX - https://www.youtube.com/watch?v=3VqEZxOfSdo
+	arcadeID: "305",
+	pumpoutID: 761,
+
+	XX: "S6 S13",
+		//??? S13.updated
+		// S13-XX - https://www.youtube.com/watch?v=3VqEZxOfSdo
 },
 
 
-"306":
+"03__Nightmare":
 {
 	title: "Nightmare", artist: "BanYa", bpm: "120", fromMix: "OBG",
 	arcadeName: "A Nightmare",
+	arcadeID: "306",
+	pumpoutID: 440,
+
 	XX: "= S2`1",
 	Prime2: "=",
 	Fiesta2: "=",
@@ -9041,10 +11538,13 @@ var readableTracklist = {
 },
 
 
-"307":
+"03__Close_Your_Eyes":
 {
 	title: "Close Your Eyes", artist: "BanYa", bpm: "105", fromMix: "OBG",
 	arcadeName: "Close Your Eye",
+	arcadeID: "307",
+	pumpoutID: 442,
+
 	XX: "=",
 	Prime2: "=",
 	Fiesta2: "=",
@@ -9053,9 +11553,12 @@ var readableTracklist = {
 },
 
 
-"308":
+"03__Free_Style":
 {
 	title: "Free Style", artist: "BanYa", bpm: "99", fromMix: "OBG",
+	arcadeID: "308",
+	pumpoutID: 444,
+
 	XX: "=  @2.07 S5 S9",
 	Prime2: "=",
 	Fiesta2: "=",
@@ -9065,9 +11568,12 @@ var readableTracklist = {
 },
 
 
-"309":
+"03__Midnight_Blue":
 {
 	title: "Midnight Blue", artist: "BanYa", bpm: "80", fromMix: "OBG",
+	arcadeID: "309",
+	pumpoutID: 11,
+
 	XX: "= S11`12 D12`13",
 	Prime2: "=",
 	Prime: "=",
@@ -9077,9 +11583,12 @@ var readableTracklist = {
 },
 
 
-"310":
+"03__She_Likes_Pizza":
 {
 	title: "She Likes Pizza", artist: "BanYa", bpm: "230", fromMix: "OBG",
+	arcadeID: "310",
+	pumpoutID: 448,
+
 	XX: "=",
 	Prime2: "=  @1.05 S21 D23",
 	Fiesta2: "=",
@@ -9094,9 +11603,12 @@ var readableTracklist = {
 },
 
 
-"311":
+"03__Pumping_Up":
 {
 	title: "Pumping Up", artist: "BanYa", bpm: "135", fromMix: "OBG",
+	arcadeID: "311",
+	pumpoutID: 500,
+
 	XX: "=  @2.07 S9",
 	Prime2: "=  @1.06 D15",
 	Fiesta2: "=",
@@ -9108,9 +11620,12 @@ var readableTracklist = {
 },
 
 
-"312":
+"03__Dont_Bother_Me":
 {
 	title: "Don't Bother Me", artist: "Tashannie", channel: KPOP, bpm: "110", fromMix: "OBG",
+	arcadeID: "312",
+	pumpoutID: 19,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -9125,25 +11640,34 @@ var readableTracklist = {
 },
 
 
-"313":
+"03__Love_Song":
 {
 	title: "Love Song", artist: "Yu Seung Jun (Steve Yoo)", channel: KPOP, bpm: "118", fromMix: "OBG",
+	arcadeID: "313",
+	pumpoutID: "",
+
 	NX: ["*1", "*2", "*5", "*2", "*5.5"],
 	Zero: ["1", "4", "9", "4", "11"],
 	Exceed2: ["1", "4", "9", "4", "11"],
 },
 
 
-"315":
+"03__To_the_Top":
 {
 	title: "To the Top", artist: "6 Mill, Bionic Juno", channel: KPOP, bpm: "120", fromMix: "OBG",
+	arcadeID: "315",
+	pumpoutID: "",
+
 	Exceed2: ["1", "5", "", "", ""],
 },
 
 
-"318":
+"03__We_Are":
 {
 	title: "We Are", artist: "Deux", channel: KPOP, bpm: "116", fromMix: "OBG",
+	arcadeID: "318",
+	pumpoutID: 20,
+
 	Prime: "=",
 	Fiesta2: "=",
 	FiestaEX: "=  @1.30 Dp4  @1.51 S2",
@@ -9161,26 +11685,35 @@ var readableTracklist = {
 // \2 - 2nd
 
 
-"202":
+"02__Hate":
 {
 	title: "Hate", artist: "BanYa", bpm: "90", fromMix: "2nd",
+	arcadeID: "202",
+	pumpoutID: "",
+
 	Zero: ["1", "3", "", "4", ""],
 	Exceed2: ["1", "4", "", "3", ""],
 	Exceed: ["1", "4", "", "3", ""],
 },
 
 
-"203":
+"02__Koul":
 {
 	title: "Koul", artist: "BanYa", bpm: "102", fromMix: "2nd",
+	arcadeID: "203",
+	pumpoutID: "",
+
 	Exceed2: ["", "5", "10", "5", ""],
 	Exceed: ["", "5", "8", "4", ""],
 },
 
 
-"204":
+"02__Final_Audition":
 {
 	title: "Final Audition", artist: "BanYa", bpm: "130", fromMix: "2nd",
+	arcadeID: "204",
+	pumpoutID: 12,
+
 	XX: "= S18`15 D18`17",
 	Prime2: "=",
 	Prime: "=",
@@ -9196,9 +11729,12 @@ var readableTracklist = {
 },
 
 
-"205":
+"02__Extravaganza":
 {
 	title: "Extravaganza", artist: "BanYa", bpm: "195", fromMix: "2nd",
+	arcadeID: "205",
+	pumpoutID: 13,
+
 	XX: "= S8`7 S10`9 S12`11 S17`16 D13`12 D18`17 D20`19",
 	Prime2: "=",
 	Prime: "=",
@@ -9214,9 +11750,12 @@ var readableTracklist = {
 },
 
 
-"208":
+"02__Fighting_Spirits":
 {
 	title: "Fighting Spirits", artist: "H.O.T.", channel: KPOP, bpm: "98", fromMix: "2nd",
+	arcadeID: "208",
+	pumpoutID: "",
+
 	NX: ["*1.5", "", "", "*2.5", ""], NX_: ["", "", "*6.5", "", "@1"], //??? NX: removed at 1.08
 	Zero: ["2", "", "", "5", ""],
 	Exceed2: ["2", "", "", "5", ""],
@@ -9224,9 +11763,12 @@ var readableTracklist = {
 },
 
 
-"212":
+"02__Com_Back":
 {
 	title: "Com'Back", artist: "Sechs Kies", channel: KPOP, bpm: "158", fromMix: "2nd",
+	arcadeID: "212",
+	pumpoutID: 21,
+
 	Prime2: "=  @2.05 CoOp(x2)",
 	Prime: "=",
 	Fiesta2: "=",
@@ -9241,9 +11783,12 @@ var readableTracklist = {
 },
 
 
-"213":
+"02__Mobius_Strip":
 {
 	title: "Mobius Strip", artist: "Sechs Kies", channel: KPOP, bpm: "106", fromMix: "2nd",
+	arcadeID: "213",
+	pumpoutID: 22,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -9255,9 +11800,12 @@ var readableTracklist = {
 },
 
 
-"224":
+"02__Repeatorment_Remix":
 {
 	title: "Repeatorment Remix", artist: "BanYa", bpm: "150", duration: REMIX, fromMix: "2nd",
+	arcadeID: "224",
+	pumpoutID: 14,
+
 	XX: "= S18`19  @2.07 D22",
 	Prime2: "=",
 	Prime: "=",
@@ -9270,9 +11818,12 @@ var readableTracklist = {
 // \1 - 1st
 
 
-"101":
+"01__Ignition_Starts":
 {
 	title: "Ignition Starts", artist: "BanYa", bpm: "146", fromMix: "1st",
+	arcadeID: "101",
+	pumpoutID: 15,
+
 	Prime2: "=",
 	Prime: "@1.01 S8`hd S15`cz D10`fs  @1.19 S18 D17",
 	Exceed2: ["", "6", "12", "7", ""],
@@ -9280,9 +11831,12 @@ var readableTracklist = {
 },
 
 
-"102":
+"01__Hypnosis":
 {
 	title: "Hypnosis", artist: "BanYa", bpm: "180", fromMix: "1st",
+	arcadeID: "102",
+	pumpoutID: 16,
+
 	Prime2: "=",
 	Prime: "@1.01 S7`hd S15`cz D8`fs D15`nm  S18 D18",
 	Exceed2: ["", "6", "12", "7", "15"],
@@ -9290,9 +11844,12 @@ var readableTracklist = {
 },
 
 
-"103":
+"01__Forever_Love":
 {
 	title: "Forever Love", artist: "Fin.K.L", channel: KPOP, bpm: "138", fromMix: "1st",
+	arcadeID: "103",
+	pumpoutID: "",
+
 	NXA: ["1", "", "", "", "13"],
 	NX2: ["1", "", "", "", "13"],
 	NX: ["*0.5", "", "", "", "*6.5"],
@@ -9301,26 +11858,35 @@ var readableTracklist = {
 },
 
 
-"104":
+"01__Passion":
 {
 	title: "Passion", artist: "Yu Seung Jun (Steve Yoo)", channel: KPOP, bpm: "125", fromMix: "1st",
+	arcadeID: "104",
+	pumpoutID: "",
+
 	Exceed2: ["1", "5", "", "5", ""],
 	Exceed: ["2", "5", "", "4", ""],
 },
 
 
-"108":
+"01__Come_to_Me":
 {
 	title: "Come to Me", artist: "Clon", channel: KPOP, bpm: "137", fromMix: "1st",
+	arcadeID: "108",
+	pumpoutID: "",
+
 	Zero: ["2", "5", "9", "5", "12"],
 	Exceed2: ["2", "5", "9", "5", "12"],
 	Exceed: ["2", "5", "8", "4", ""],
 },
 
 
-"109":
+"01__Funky_Tonight":
 {
 	title: "Funky Tonight", artist: "Clon", channel: KPOP, bpm: "105", fromMix: "1st",
+	arcadeID: "109",
+	pumpoutID: 23,
+
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -9335,9 +11901,12 @@ var readableTracklist = {
 },
 
 
-"111":
+"01__Hatred":
 {
 	title: "Hatred", artist: "Novasonic", bpm: "136", fromMix: "1st",
+	arcadeID: "111",
+	pumpoutID: 445,
+
 	Fiesta2: "=",
 	FiestaEX: "=",
 	Fiesta: "S6 S13`cz D7 D16`nm Dp7",  //??? hd fs
@@ -9346,9 +11915,12 @@ var readableTracklist = {
 },
 
 
-"112":
+"01__Another_Truth":
 {
 	title: "Another Truth", artist: "Novasonic", bpm: "136", fromMix: "1st",
+	arcadeID: "112",
+	pumpoutID: 24,
+
 	XX: "= S16`15 D7`6 D17`16 D18`17 D21`22  @2.07 CoOp(x2)",
 	Prime2: "=",
 	Prime: "=",
@@ -9367,6 +11939,7 @@ var readableTracklist = {
 
 /*{
 	title: "Narcisista Por Excelencia  [SHORT]", artist: "PXNDX", bpm: "164",
+	pumpoutID: "",
 	Prime: "S17 D18",
 },*/
 
@@ -9542,8 +12115,7 @@ function ParseNewStyleChart( track, chartText, sharedIndex )
 			if( ! chart.shared.type )
 				chart.shared.type = chartType;
 			else if( chart.shared.type !== chartType )
-				throw new Error( track.name + " chart " + chartText + " type inconsistent with previous mixes" );
-				//console.assert( chart.shared.type === chartType );
+				throw new Error( `Track '${ track.name }' chart ${ chartText } type ${ chartType } is inconsistent with previous type ${ chart.shared.type }` );
 
 			return chart;
 		}
@@ -9551,7 +12123,7 @@ function ParseNewStyleChart( track, chartText, sharedIndex )
 }
 
 
-function PreprocessNewStyleChart( track, result, chartDescr, mixID, patchIndex )
+function PreprocessNewStyleChart( track, trackID, result, chartDescr, mixID, patchIndex )
 {
 	var descrTokens = chartDescr.split( "." );
 	var chartText = descrTokens[ 0 ];
@@ -9584,7 +12156,7 @@ function PreprocessNewStyleChart( track, result, chartDescr, mixID, patchIndex )
 	if( prevChart )
 	{
 		if( prevChart.type !== chart.type )
-			throw new Error( track.name + " chart " + chart.text + " type is not compatible with " + prevChart.text );
+			throw new Error( `Track ${ trackID } chart ${ chart.text } type is inconsistent with previous type ${ prevChart.text }` );
 		chart.fromMixID = prevChart.fromMixID;
 	}
 	else
@@ -9603,7 +12175,7 @@ function PreprocessNewStyleChart( track, result, chartDescr, mixID, patchIndex )
 		else if( token === "ucs" )
 			chart.isUCS = true;
 		else
-			throw new Error( "Unknown token '" + token + "' for " + track.title + "  " + chartText );
+			throw new Error( `Unknown token '${ token }' for track ${ trackID } chart ${ chartText }` );
 
 
 	var chartIndexToReplace = -1;
@@ -9664,12 +12236,12 @@ function ParsePatchIndex( mixID, patchName )
 {
 	var patchIndex = mixes[ mixID ].patches.indexOf( patchName );
 	if( patchIndex < 0 )
-		throw new Error( "No patch " + patchName + " for " + mixID );
+		throw new Error( `Invalid patch '${ patchName }' specified for mix '${ mixID }'` );
 	return patchIndex;
 }
 
 
-function PreprocessNewStyleStringCharts( track, mixID )
+function PreprocessNewStyleStringCharts( track, trackID, mixID )
 {
 	var chartsStr = track[ mixID ];
 	if( ! chartsStr )
@@ -9690,11 +12262,11 @@ function PreprocessNewStyleStringCharts( track, mixID )
 		}
 		else if( token[0] === '+' )
 		{
-			var chart = PreprocessNewStyleChart( track, track[ mixID ], token.substr( 1 ), mixID, patchIndex );
+			var chart = PreprocessNewStyleChart( track, trackID, track[ mixID ], token.substr( 1 ), mixID, patchIndex );
 		}
 		else if( token[0] === 'S'  ||  token[0] === 'D'  ||  token.substr(0, 4) === 'CoOp' )  // implicit '+' is considered
 		{
-			var chart = PreprocessNewStyleChart( track, track[ mixID ], token, mixID, patchIndex );
+			var chart = PreprocessNewStyleChart( track, trackID, track[ mixID ], token, mixID, patchIndex );
 		}
 		else if( token[0] === '-' )
 		{
@@ -9706,7 +12278,7 @@ function PreprocessNewStyleStringCharts( track, mixID )
 		}
 		else
 		{
-			throw new Error( "Unrecognized '" + track.title + "' chart token :'" + token + "'" );
+			throw new Error( `Unrecognized chart token '${ token }' in track '${ id }'` );
 		}
 	}
 
@@ -9714,7 +12286,7 @@ function PreprocessNewStyleStringCharts( track, mixID )
 	for( var chart of track[ mixID ] )
 	{
 		if( chartLabels.has( chart.text ) )
-			throw new Error( "Duplicate chart '" + chart.text + "' in track '" + track.title + "' @ " + mixID );
+			throw new Error( `Duplicate chart '${ chart.text }' in track '${ id }' on mix ${ mixID }` );
 		chartLabels.add( chart.text );
 	}
 }
@@ -9760,43 +12332,82 @@ function ValidatedMixAndVersion( k )
 {
 	var arr = k.split( "@" );
 	if( arr.length > 2 )
-		throw new Error( "Mix-patch format '" + k + "' is invalid" );
+		throw new Error( `Mix-patch format '${ k }' is invalid` );
 
 	var mix = mixes[ arr[ 0 ] ];
 	if( ! mix )
-		throw new Error( "Mix '" + arr[ 0 ] + "' can't be found" );
+		throw new Error( `Mix '${ arr[ 0 ] }' can't be found` );
 
 	if( arr.length == 1 )
 		return arr[ 0 ] + "@" + mix.patches[ 0 ];
 
 	if( mix.patches.indexOf( arr[ 1 ] ) < 0 )
-		throw new Error( "Mix '" + arr[ 0 ] + "' patch '" + arr[ 1 ] + "' can't be found" );
+		throw new Error( `Mix '${ arr[ 0 ] }' patch '${ arr[ 1 ] }' can't be found` );
 
 	return k;
 }
 
 
-function PreprocessTrack( track )
+var pumpoutMap = {}
+var arcadeMap = {}
+
+function PreprocessTrack( track, trackID )
 {
+	if( trackID.match(/[^a-zA-Z\d_]/g) )
+		throw new Error( `Track ID '${ trackID }' contains invalid characters` );
+
+	if( ! trackID.match(/^[\d][\dA-F]__/g) )
+		throw new Error( `Track ID '${ trackID }' has invalid format` );
+
+	for( cutType of ["FULL", "REMIX", "SHORT"] )
+		if( trackID.endsWith( cutType ) && ! trackID.endsWith( `__${ cutType }` ) )
+			throw new Error( `Track ID '${ trackID }' has invalid cut format` );
+
+
 	if( ! track.duration )
 		track.duration = GuessDurationFromTitle( track.title );
 
 	if( ! track.artist )
-		throw new Error( "'" + track.title + "' has no artist specified." );
+		throw new Error( `Track ${ trackID } has no artist specified` );
 
 	if( ! track.channel )
 		track.channel = knownArtists[ track.artist ];
 	else if( knownArtists[ track.artist ] === track.channel )
-		console.warn( "'" + track.title + "' artist '" + track.artist + "' channel is already defined as '" + track.channel + "'" );
+		console.warn( `Track ${ trackID } artist '${ track.artist }' channel is already defined as '${ track.channel }'` );
 
 	if( [ ORIGINAL, WORLD, KPOP, JMUSIC, XROSS ].indexOf( track.channel ) < 0 )
-		throw new Error( "'" + track.title + "' has no channel specified." );
+		throw new Error( `Track ${ trackID } has no channel specified` );
 
 	if( ! track.bpm )
-		throw new Error( "'" + track.title + "' has no bpm specified." );
+		throw new Error( `Track ${ trackID } has no bpm specified` );
 
 	if( track.sortingID === "" )
 		delete track.sortingID;
+
+	if( track.pumpoutID )
+	{
+		if( track.pumpoutID !== "" )
+		{
+			if( track.pumpoutID <= 0  ||  track.pumpoutID > 1000 )
+				throw new Error( `Invalid pumpout ID '${ track.pumpoutID }' in track ${ trackID }` );
+
+			if( pumpoutMap[ track.pumpoutID ] )
+				throw new Error( `Duplicate pumpout ID '${ track.pumpoutID }' in tracks ${ trackID } and ${ pumpoutMap[ track.pumpoutID ] }` );
+
+			pumpoutMap[ track.pumpoutID ] = trackID;
+		}
+		delete track.pumpoutID;
+	}
+
+	if( track.arcadeID )
+	{
+		if( arcadeMap[ track.arcadeID ] )
+			throw new Error( `Duplicate arcade ID '${ track.arcadeID }' in track ${ trackID }` );
+		arcadeMap[ track.arcadeID ] = true;
+	}
+
+	if( typeof track.altID === 'string' )
+		track.altID = [ track.altID ];
 
 	track.chartsCount = 0;
 
@@ -9804,7 +12415,7 @@ function PreprocessTrack( track )
 	for( var mixID of mixesOrder )
 	{
 		if( typeof track[ mixID ] === "string" )
-			PreprocessNewStyleStringCharts( track, mixID );
+			PreprocessNewStyleStringCharts( track, trackID, mixID );
 		else
 			PreprocessOldStyleListCharts( track, mixID, oldSlotSharedCharts );
 	}
@@ -9814,7 +12425,7 @@ function PreprocessTrack( track )
 	if( mixes[ GetTrackFirstMix( track ) ] )
 		mixRegions = mixes[ GetTrackFirstMix( track ) ].regions;
 	if( track.region  &&  ( ! mixRegions  || mixRegions.indexOf( track.region ) < 0 ) )
-		throw new Error( "Unavailable region '" + track.region + "' for '" + track.title + "' in mix '" + track.fromMixID + "'." );
+		throw new Error( `Unavailable region '${ track.region }' for track ${ trackID } in mix ${ track.fromMixID }.` );
 
 	if( track.changes )
 	{
@@ -9829,7 +12440,7 @@ function PreprocessTrack( track )
 function PreprocessTracklist()
 {
 	for( var trackID in tracklist )
-		PreprocessTrack( tracklist[ trackID ] );
+		PreprocessTrack( tracklist[ trackID ], trackID );
 }
 
 
