@@ -1,9 +1,14 @@
+import sys
+
+
 def include(f):
 	with open(f, 'r', encoding='utf-8') as file:
 		print(file.read())
 
 print("""
 var _ = require('underscore');
+
+var fs = require('fs');
 """)
 
 include("src/tracklist.js")
@@ -23,6 +28,9 @@ include("src/check.js")
 
 include("export/PIU.dump-json.js")
 
-print("""
-DumpPlainTextForBackend();
+
+outputPathString = sys.argv[1].replace("\\", "\\\\")
+
+print(f"""
+DumpPlainTextForBackend("{outputPathString}");
 """)

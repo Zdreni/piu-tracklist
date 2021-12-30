@@ -290,7 +290,7 @@ function DumpTracklist( shortenData )
 
 // 'shortenData == true' means it's dump for Step It Up with reduced number of fields
 // 'shortenData == false' means it's dump for simple python script, so structure is more verbose and straightforward
-function DumpAll( shortenData, consoleOutput )
+function DumpAll( shortenData, rawOutput, targetPath )
 {
 	var errors = [];
 
@@ -303,8 +303,13 @@ function DumpAll( shortenData, consoleOutput )
 	}
 	catch( exc )
 	{
-		errors.push( exc + ":<br>" + exc.stack.replace( " at", "<br>&nbsp;at" ) );
-		console.error( exc );
+		if( rawOutput )
+			errors.push( exc.stack );
+		else
+		{
+			errors.push( exc.stack.replace( " at", "<br>&nbsp;at" ) );
+			console.error( exc );
+		}
 	}
 
 	var result = "{<br><br>";
@@ -319,17 +324,22 @@ function DumpAll( shortenData, consoleOutput )
 
 	if( errors.length > 0 )
 	{
-		if( consoleOutput )
+		if( rawOutput )
 	        	for( var e of errors )
-				console.log( e + "<br>" );
+					console.log( e + "<br>" );
 		else
 	        	for( var e of errors )
-				document.write( e + "<br>" );
+					document.write( e + "<br>" );
+
+		process.exit(1);
 	}
 	else
 	{
-		if( consoleOutput )
-			console.log( result.replace(/\n/g, " ").replace(/<br>/g, "\n").replace(/&nbsp;/g, " ").replace(/,  /g, ", ").replace(/{  /g, "{ ").replace(/&lt;/g, "<").replace(/&gt;/g, ">") );
+		if( rawOutput )
+		{
+			result = result.replace(/\n/g, " ").replace(/<br>/g, "\n").replace(/&nbsp;/g, " ").replace(/,  /g, ", ").replace(/{  /g, "{ ").replace(/&lt;/g, "<").replace(/&gt;/g, ">");
+			fs.writeFileSync( targetPath, result );
+		}
 		else
 			document.write( result );
 	}
@@ -342,9 +352,9 @@ function DumpHtmlForBackend()
 }
 
 
-function DumpPlainTextForBackend()
+function DumpPlainTextForBackend( path )
 {
-	DumpAll( false, true );
+	DumpAll( false, true, path );
 }
 
 
@@ -354,9 +364,9 @@ function DumpHtmlForStepItUp()
 }
 
 
-function DumpPlainTextForStepItUp()
+function DumpPlainTextForStepItUp( path )
 {
-	DumpAll( true, true );
+	DumpAll( true, true, path );
 }
 
 
