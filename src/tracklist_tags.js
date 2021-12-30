@@ -761,4 +761,4 @@ function ApplyTagsForIPF2019()
 }
 
 
-initFuncs.push( ApplyTagsForIPF2019 );
+//initFuncs.push( ApplyTagsForIPF2019 );

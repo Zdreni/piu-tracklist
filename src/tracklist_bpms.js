@@ -2,38 +2,38 @@
 
 var separateBPMs =
 [
-	{                      chart: "Mexi Mexi  CZ", ratio: "2", mixes: "Exceed2" },
+	{                      chart: "08__Mexi_Mexi  CZ", ratio: "2", mixes: "Exceed2" },
 
-	{                       chart: "Gun Rock  NM", ratio: "2", mixes: "..FiestaEX" },
-	{                              chart: "N  CZ", ratio: "2", mixes: "..FiestaEX" },
-	{                    chart: "Naissance 2  aNM", bpm: "129 - 258" },
+	{                       chart: "0D__Gun_Rock  NM", ratio: "2", mixes: "..FiestaEX" },
+	{                              chart: "05__N  CZ", ratio: "2", mixes: "..FiestaEX" },
+	{                    chart: "0A__Naissance_2  aNM", bpm: "129 - 258" },
 
-	{                    chart: "Compunction  NM", bpm: "133 - 177" },
-	{                  chart: "Feel the Soul  HD", ratio: "2" },
-	{                  chart: "Feel the Soul  CZ", bpm: "94 - 141" },
-	{                  chart: "Feel the Soul  NM", bpm: "94 - 141" },
-	{   chart: "Handsome Character that Pass  CZ", bpm: "125 - 250" },
-	{                      chart: "Maelstrom  CZ", bpm: "102 - 204" },
-	{                      chart: "Maelstrom  NM", bpm: "102 - 204" },
+	{                    chart: "0E__Compunction  NM", bpm: "133 - 177" },
+	{                  chart: "0E__Feel_the_Soul  HD", ratio: "2" },
+	{                  chart: "0E__Feel_the_Soul  CZ", bpm: "94 - 141" },
+	{                  chart: "0E__Feel_the_Soul  NM", bpm: "94 - 141" },
+	{   chart: "0D__Handsome_Character_That_Pass  CZ", bpm: "125 - 250" },
+	{                      chart: "0E__Maelstrom  CZ", bpm: "102 - 204" },
+	{                      chart: "0E__Maelstrom  NM", bpm: "102 - 204" },
 
-	{                chart: "Big Metra Remix  CZ", ratio: "2", mixes: "..Prime2" },
-	{                chart: "Big Metra Remix  NM", ratio: "2", mixes: "FiestaEX..Prime2" },
-	{                        chart: "Forward  NM", ratio: "2", mixes: "..FiestaEX" },
-	{                 chart: "Panuelito Rojo  NM", ratio: "2", mixes: "..Prime2" },
-	{                  chart: "Pump Breakers  NM", bpm: "120 - 240", mixes: "NXA" },
-	{   chart: "Trato de no Trabarme  [FULL]  CZ", ratio: "2", mixes: "..Prime2" },
-	{   chart: "Trato de no Trabarme  [FULL]  NM", ratio: "2", mixes: "..Prime2" },
+	{                chart: "0F__Big_Metra_Remix  CZ", ratio: "2", mixes: "..Prime2" },
+	{                chart: "0F__Big_Metra_Remix  NM", ratio: "2", mixes: "FiestaEX..Prime2" },
+	{                        chart: "0F__Forward  NM", ratio: "2", mixes: "..FiestaEX" },
+	{                 chart: "0F__Panuelito_Rojo  NM", ratio: "2", mixes: "..Prime2" },
+	{                  chart: "0F__Pump_Breakers  NM", bpm: "120 - 240", mixes: "NXA" },
+	{     chart: "0F__Trato_De_No_Trabarme__FULL  CZ", ratio: "2", mixes: "..Prime2" },
+	{     chart: "0F__Trato_De_No_Trabarme__FULL  NM", ratio: "2", mixes: "..Prime2" },
 
-	{                      chart: "Good Life  S15", bpm: "98 - 49" },
-	{                      chart: "Good Life  D16", bpm: "98 - 147" },
+	{                      chart: "10__Good_Life  S15", bpm: "98 - 49" },
+	{                      chart: "10__Good_Life  D16", bpm: "98 - 147" },
 
-	{    chart: "Mission Possible -Blowback-  S18", bpm: "122, ends 160" },
+	{      chart: "10__Mission_Possible_Blowback  S18", bpm: "122, ends 160" },
 
 	// notes: {                       chart: "Gargoyle  S18", bpm: "150, ends 195" },
-	{             chart: "We Will Meet Again  S14", bpm: "118..177" },
-	{                      chart: "Yeo rae a  S13", ratio: "0.5" },
+	{             chart: "07__We_Will_Meet_Again  S14", bpm: "118..177" },
+	{                      chart: "13__Yeo_Rae_A  S13", ratio: "0.5" },
 
-	{                   chart: "Star Command  S12", ratio: "1.25" },
+	{                   chart: "12__Star_Command  S12", ratio: "1.25" },
 
 	// notes: { chart: "Twist of Fate (feat. Ruriling)  S18", bpm: "141..28" },
 	// notes: { chart: "Twist of Fate (feat. Ruriling)  D20", bpm: "141..28" },
@@ -116,7 +116,6 @@ initFuncs.push( ApplyBPMs );
 /*
 
 
-стар комманд s12 в районе 190
 twist king d15 медленнее
 некоторые dp3
 */

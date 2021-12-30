@@ -290,7 +290,7 @@ function DumpTracklist( shortenData )
 
 // 'shortenData == true' means it's dump for Step It Up with reduced number of fields
 // 'shortenData == false' means it's dump for simple python script, so structure is more verbose and straightforward
-function DumpAll( shortenData, consoleOutput )
+function DumpAll( shortenData, rawOutput, targetPath )
 {
 	var errors = [];
 
@@ -303,8 +303,13 @@ function DumpAll( shortenData, consoleOutput )
 	}
 	catch( exc )
 	{
-		errors.push( exc + ":<br>" + exc.stack.replace( " at", "<br>&nbsp;at" ) );
-		console.error( exc );
+		if( rawOutput )
+			errors.push( exc.stack );
+		else
+		{
+			errors.push( exc.stack.replace( " at", "<br>&nbsp;at" ) );
+			console.error( exc );
+		}
 	}
 
 	var result = "{<br><br>";
@@ -319,17 +324,22 @@ function DumpAll( shortenData, consoleOutput )
 
 	if( errors.length > 0 )
 	{
-		if( consoleOutput )
+		if( rawOutput )
 	        	for( var e of errors )
-				console.log( e + "<br>" );
+					console.log( e + "<br>" );
 		else
 	        	for( var e of errors )
-				document.write( e + "<br>" );
+					document.write( e + "<br>" );
+
+		process.exit(1);
 	}
 	else
 	{
-		if( consoleOutput )
-			console.log( result.replace(/\n/g, " ").replace(/<br>/g, "\n").replace(/&nbsp;/g, " ").replace(/,  /g, ", ").replace(/{  /g, "{ ").replace(/&lt;/g, "<").replace(/&gt;/g, ">") );
+		if( rawOutput )
+		{
+			result = result.replace(/\n/g, " ").replace(/<br>/g, "\n").replace(/&nbsp;/g, " ").replace(/,  /g, ", ").replace(/{  /g, "{ ").replace(/&lt;/g, "<").replace(/&gt;/g, ">");
+			fs.writeFileSync( targetPath, result );
+		}
 		else
 			document.write( result );
 	}
@@ -342,9 +352,9 @@ function DumpHtmlForBackend()
 }
 
 
-function DumpPlainTextForBackend()
+function DumpPlainTextForBackend( path )
 {
-	DumpAll( false, true );
+	DumpAll( false, true, path );
 }
 
 
@@ -354,7 +364,69 @@ function DumpHtmlForStepItUp()
 }
 
 
-function DumpPlainTextForStepItUp()
+function DumpPlainTextForStepItUp( path )
 {
-	DumpAll( true, true );
+	DumpAll( true, true, path );
+}
+
+
+function CheckBannerRename( bannersPath, files, altID, trackID )
+{
+	for (ext of ["png", "jpg"])
+	{
+		if (files.includes(`${altID}.${ext}`))
+		{
+			var oldName = `${bannersPath}\\${altID}.${ext}`;
+			var newName = `${bannersPath}\\${trackID}.${ext}`;
+			console.log(`Renaming ${oldName} -> ${newName}`);
+			fs.renameSync(oldName, newName);
+
+			oldName = `${bannersPath}\\${altID}.${ext}.meta`;
+			newName = `${bannersPath}\\${trackID}.${ext}.meta`;
+			console.log(`Renaming ${oldName} -> ${newName}`);
+			fs.renameSync(oldName, newName);
+			return true;
+		}
+	}
+	return false;
+}
+
+function CheckBannerName( bannersPath, files, trackID, track )
+{
+	if( files.includes(trackID + ".png") || files.includes(trackID + ".jpg") )
+		return;
+
+	if( track.arcadeID  &&  CheckBannerRename( bannersPath, files, track.arcadeID, trackID ) )
+		return;
+
+	if( track.altID)
+		for( altID of track.altID )
+			if( CheckBannerRename( bannersPath, files, altID, trackID ))
+				return;
+
+	console.log(`[-]  Can't find banner for ${ trackID }`);
+}
+
+
+function RenameBannersToActualID(bannersPath)
+{
+	console.log(`Renaming banners at ${bannersPath}...`);
+
+	files = fs.readdirSync(bannersPath)
+	console.log(`${files.length} files found`);
+	//console.log(`${files[140]}`);
+	//console.log(files.includes("10__Wanna__FULL" + ".jpg"));
+
+	try
+	{
+		initTracklist();
+
+		for( var trackID in tracklist )
+			CheckBannerName( bannersPath, files, trackID, tracklist[ trackID ] );
+	}
+	catch( exc )
+	{
+		//errors.push( exc + ":<br>" + exc.stack.replace( " at", "<br>&nbsp;at" ) );
+		console.error( exc );
+	}
 }
