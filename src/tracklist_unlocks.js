@@ -1112,8 +1112,8 @@ function ApplyUnlocks()
 		Lock( "16__Pop_Sequence", "S21", "At least S15 A + Sp18 A" )
 		Lock( "16__Pop_Sequence", "D23", "At least D19 A + Dp22 A" )
 
-		Lock( "16__Night_Duty", "S19", "At least A+ on S17" )
-		Lock( "16__Night_Duty", "D20", "At least SS on D15" )
+		Lock( "11__Night_Duty", "S19", "At least A+ on S17" )
+		Lock( "11__Night_Duty", "D20", "At least SS on D15" )
 
 		Lock( "07__Top_City", "S20", "SSS on S12" )
 
