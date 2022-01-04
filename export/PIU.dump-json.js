@@ -404,7 +404,7 @@ function CheckBannerName( bannersPath, files, trackID, track )
 			if( CheckBannerRename( bannersPath, files, altID, trackID ))
 				return;
 
-	console.log(`[-]  Can't find banner for ${ trackID }`);
+	//console.log(`[-]  Can't find banner for ${ trackID }`);
 }
 
 
@@ -414,8 +414,6 @@ function RenameBannersToActualID(bannersPath)
 
 	files = fs.readdirSync(bannersPath)
 	console.log(`${files.length} files found`);
-	//console.log(`${files[140]}`);
-	//console.log(files.includes("10__Wanna__FULL" + ".jpg"));
 
 	try
 	{
