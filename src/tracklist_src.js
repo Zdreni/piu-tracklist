@@ -48,7 +48,7 @@ var readableTracklist = {
 
 // unsorted
 /*
-"16_":
+"16__":
 {
 	title: "", artist: "", channel: , bpm: "", duration: ,
 	sortingID: "",  // between  () and  ()
@@ -56,9 +56,119 @@ var readableTracklist = {
 	pumpoutID: "",
 
 	// arcadeName: "",
-	XX: "@2.07 ",
+	XX: "@2.08 S4 S7 ",
 },
 */
+
+
+"16__Cygnus":
+{
+	title: "Cygnus", artist: "Nato", channel: , bpm: "188",
+	sortingID: "",  // between 16__The_Reverie (16A7) and 16__Tropicanic (...)
+	// arcadeID: "",
+	pumpoutID: "",
+
+	// arcadeName: "",
+	XX: "@2.08 S4 S7 S11 S17 S19 S22 D12 D18 D21 D24",
+},
+
+
+"16__Tropicanic":
+{
+	title: "Tropicanic", artist: "SHK", channel: , bpm: "145",
+	sortingID: "",  // between 16__Cygnus (...) and 16_God_Mode_2_0 (16F6__1)
+	// arcadeID: "",
+	pumpoutID: "",
+
+	// arcadeName: "",
+	XX: "@2.08 S2 S4 S7 S11 S16 S19 D6 D13 D18 D21",
+},
+
+
+"16__Mopemope":
+{
+	title: "Mopemope", artist: "LeaF", channel: , bpm: "100",
+	sortingID: "16F9__1",  // between 16__Gloria (1699) and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+
+	// arcadeName: "",
+	XX: "@2.08 S11 S15 S17 S20 S23 D16 D19 D23 D25 CoOp(x2)",
+},
+
+
+"16__Re_End_of_a_Dream":
+{
+	title: "Re: End of a Dream", artist: "uma vs. Morimori Atsushi", channel: , bpm: "212",
+	sortingID: "16F9__2",  // between 16__Mopemope (16F9__1) and 16__Cross_Ray (16F9__3)
+	// arcadeID: "",
+	pumpoutID: "",
+
+	// arcadeName: "",
+	XX: "@2.08 S12 S15 S19 S21 S23 D18 D22 D25",
+},
+
+
+"16__Cross_Ray":
+{
+	title: "Cross Ray", artist: "HyuN", channel: , bpm: "176",
+	sortingID: "16F9__3",  // between 16__Re_End_of_a_Dream (16F9__2) and 16__Ultimatum (16F9__4)
+	// arcadeID: "",
+	pumpoutID: "",
+
+	// arcadeName: "",
+	XX: "@2.08 S4 S7 S12 S16 S19 S22 D14 D20 D23",
+},
+
+
+"16__Ultimatum":
+{
+	title: "Ultimatum", artist: "Cosmograph", channel: , bpm: "202",
+	sortingID: "16F9__4",  // between 16__Cross_Ray (16F9__3) and 16__Kokugen_Kairou_Labyrinth (16F9__5)
+	// arcadeID: "",
+	pumpoutID: "",
+
+	// arcadeName: "",
+	XX: "@2.08 S17 S21 S23 S25 D25 D27",
+},
+
+
+"16__Paradoxx__SHORT":
+{
+	title: "Paradoxx  [SHORT]", artist: "SLAM & NATO", channel: , bpm: "220",
+	sortingID: "",  // between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+
+	arcadeName: "Paradoxx - SHORT CUT -",
+	XX: "@2.08 S21 S24 D26",
+},
+
+
+"16__Brown_Sky":
+{
+	title: "Brown Sky", artist: "Doin", channel: , bpm: "200", duration: REMIX,
+	sortingID: "",  // between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+
+	// arcadeName: "",
+	XX: "@2.08 S19 S21 S24 D21 D24 D26",
+},
+
+
+"16__":
+{
+	title: "", artist: "", channel: , bpm: "", duration: ,
+	sortingID: "",  // between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+
+	// arcadeName: "",
+	XX: "@2.08 ",
+},
+
+
 
 
 "16__Kokugen_Kairou_Labyrinth":
@@ -66,7 +176,7 @@ var readableTracklist = {
 	title: "Kokugen Kairou Labyrinth", artist: "A:llha (ANE + 2riA)", channel: WORLD, bpm: "215",
 	altID: "16_Kokugen_Kairou_Labyrinth",
 	arcadeID: "1718",
-	sortingID: "16F9__1",  // between 16_Gloria (1698__1) / 16_Baroque_Virus_FULL (16F9) and 16_Imagination (1678)
+	sortingID: "16F9__5",  // between 16__Ultimatum (16F9__5) / 16_Baroque_Virus_FULL (16F9) and 16_Imagination (1678)
 	pumpoutID: 888,
 
 	XX: "@2.07 S9 S12 S15 S17 D18 S20.lock S23.lock D22.lock D26.lock",
@@ -79,7 +189,7 @@ var readableTracklist = {
 	shortTitle: "God Mode 2.0",
 	altID: "16_God_Mode_2_0",
 	arcadeID: "1702",
-	sortingID: "16F6__1",  // between 16_Switronic_SHORT (16F6.orig) and 16_Club_Night (1668.world)
+	sortingID: "16F6__1",  // between 16__Switronic__SHORT (16F6.orig) and 16__Club_Night (1668.world)
 	pumpoutID: 874,
 
 	XX: "@2.05 S8 S13 S18 D13 D18 D20 S21.lock D22.lock",
