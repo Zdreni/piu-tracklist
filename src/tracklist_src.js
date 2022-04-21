@@ -54,8 +54,8 @@ var readableTracklist = {
 	sortingID: "",  // between  () and  ()
 	// arcadeID: "",
 	pumpoutID: "",
-
 	// arcadeName: "",
+
 	XX: "@2.08 S4 S7 ",
 },
 */
@@ -63,91 +63,86 @@ var readableTracklist = {
 
 "16__Cygnus":
 {
-	title: "Cygnus", artist: "Nato", channel: , bpm: "188",
-	sortingID: "",  // between 16__The_Reverie (16A7) and 16__Tropicanic (...)
+	title: "Cygnus", artist: "Nato", channel: ORIGINAL, bpm: "188",
+	sortingID: "16A7__1",  // between 16__The_Reverie (16A7) and 16__Tropicanic (16A7__2)
 	// arcadeID: "",
 	pumpoutID: "",
 
-	// arcadeName: "",
 	XX: "@2.08 S4 S7 S11 S17 S19 S22 D12 D18 D21 D24",
 },
 
 
 "16__Tropicanic":
 {
-	title: "Tropicanic", artist: "SHK", channel: , bpm: "145",
-	sortingID: "",  // between 16__Cygnus (...) and 16_God_Mode_2_0 (16F6__1)
+	title: "Tropicanic", artist: "SHK", channel: ORIGINAL, bpm: "145",
+	sortingID: "16A7__2",  // between 16__Cygnus (16A7__1) and 16_God_Mode_2_0 (16F6__1)
 	// arcadeID: "",
 	pumpoutID: "",
 
-	// arcadeName: "",
 	XX: "@2.08 S2 S4 S7 S11 S16 S19 D6 D13 D18 D21",
 },
 
 
 "16__Mopemope":
 {
-	title: "Mopemope", artist: "LeaF", channel: , bpm: "100",
+	title: "Mopemope", artist: "LeaF", channel: WORLD, bpm: "100",
 	sortingID: "16F9__1",  // between 16__Gloria (1699) and  ()
 	// arcadeID: "",
 	pumpoutID: "",
 
-	// arcadeName: "",
 	XX: "@2.08 S11 S15 S17 S20 S23 D16 D19 D23 D25 CoOp(x2)",
 },
 
 
 "16__Re_End_of_a_Dream":
 {
-	title: "Re: End of a Dream", artist: "uma vs. Morimori Atsushi", channel: , bpm: "212",
+	title: "Re: End of a Dream", artist: "uma vs. Morimori Atsushi", channel: WORLD, bpm: "212",
 	sortingID: "16F9__2",  // between 16__Mopemope (16F9__1) and 16__Cross_Ray (16F9__3)
 	// arcadeID: "",
 	pumpoutID: "",
 
-	// arcadeName: "",
 	XX: "@2.08 S12 S15 S19 S21 S23 D18 D22 D25",
 },
 
 
 "16__Cross_Ray":
 {
-	title: "Cross Ray", artist: "HyuN", channel: , bpm: "176",
+	title: "Cross Ray", artist: "HyuN", channel: WORLD, bpm: "176",
 	sortingID: "16F9__3",  // between 16__Re_End_of_a_Dream (16F9__2) and 16__Ultimatum (16F9__4)
 	// arcadeID: "",
 	pumpoutID: "",
+	arcadeName: "CROSS RAY - feat. 月下Lia",
 
-	// arcadeName: "",
 	XX: "@2.08 S4 S7 S12 S16 S19 S22 D14 D20 D23",
 },
 
 
 "16__Ultimatum":
 {
-	title: "Ultimatum", artist: "Cosmograph", channel: , bpm: "202",
+	title: "Ultimatum", artist: "Cosmograph", channel: WORLD, bpm: "202",
 	sortingID: "16F9__4",  // between 16__Cross_Ray (16F9__3) and 16__Kokugen_Kairou_Labyrinth (16F9__5)
 	// arcadeID: "",
 	pumpoutID: "",
 
-	// arcadeName: "",
 	XX: "@2.08 S17 S21 S23 S25 D25 D27",
 },
 
 
 "16__Paradoxx__SHORT":
 {
-	title: "Paradoxx  [SHORT]", artist: "SLAM & NATO", channel: , bpm: "220",
+	title: "Paradoxx  [SHORT]", artist: "SLAM & NATO", channel: ORIGINAL, bpm: "220",
 	sortingID: "",  // between  () and  ()
 	// arcadeID: "",
 	pumpoutID: "",
-
 	arcadeName: "Paradoxx - SHORT CUT -",
+
 	XX: "@2.08 S21 S24 D26",
 },
 
 
 "16__Brown_Sky":
 {
-	title: "Brown Sky", artist: "Doin", channel: , bpm: "200", duration: REMIX,
+	title: "Brown Sky", artist: "Doin", channel: ORIGINAL, bpm: "200", duration: REMIX,
 	sortingID: "",  // between  () and  ()
 	// arcadeID: "",
 	pumpoutID: "",
@@ -157,15 +152,15 @@ var readableTracklist = {
 },
 
 
-"16__":
+"16__Good_Night__FULL":
 {
-	title: "", artist: "", channel: , bpm: "", duration: ,
+	title: "Good Night  [FULL]", artist: "Dreamcatcher", channel: KPOP, bpm: "196",
 	sortingID: "",  // between  () and  ()
 	// arcadeID: "",
 	pumpoutID: "",
 
-	// arcadeName: "",
-	XX: "@2.08 ",
+	arcadeName: "GOOD NIGHT - FULL SONG -",
+	XX: "@2.08 S18 S21 S24 D26",
 },
 
 
@@ -218,7 +213,7 @@ var readableTracklist = {
 	arcadeID: "1602",
 	pumpoutID: 821,
 
-	XX: "@2.01 S3 S5 S8 S11 S15 D10 D16 CoOp(x2) S18.lock D19.lock  @2.02 Dp4",
+	XX: "@2.01 S3 S5 S8 S11 S15 D10 D16 CoOp(x2) S18.lock D19.lock  @2.02 Dp4  @2.08 D22",
 },
 
 
@@ -929,7 +924,7 @@ var readableTracklist = {
 	arcadeID: "1670",
 	pumpoutID: 754,
 
-	XX: "S12.lock S16.lock S20.lock D18.lock D21.lock  @1.01 Dp3",
+	XX: "S12.lock S16.lock S20.lock D18.lock D21.lock  @1.01 Dp3  @2.08 CoOp(x2)",
 },
 
 
@@ -1210,7 +1205,7 @@ var readableTracklist = {
 	arcadeID: "1695",
 	pumpoutID: 801,
 
-	XX: "@1.05 S11 S15 S17 S19 S22 D13 D18 D21  @2.00 Dp3  @2.07 D22",
+	XX: "@1.05 S11 S15 S17 S19 S22 D13 D18 D21  @2.00 Dp3  @2.07 D22  @2.08 D24",
 },
 
 
@@ -1232,7 +1227,7 @@ var readableTracklist = {
 	arcadeID: "1697",
 	pumpoutID: 872,
 
-	XX: "@2.05 S3.lock S5.lock S8.lock S11.lock S16.lock S18.lock S22.lock D8.lock D14.lock D20.lock D24.lock",
+	XX: "@2.05 S3.lock S5.lock S8.lock S11.lock S16.lock S18.lock S22.lock D8.lock D14.lock D20.lock D24.lock  @2.08 CoOp(x2)",
 },
 
 
@@ -1384,7 +1379,7 @@ var readableTracklist = {
 	arcadeID: "16D0",
 	pumpoutID: 744,
 
-	XX: "S20.lock S22.lock D23.lock  @1.04 S18 D19",
+	XX: "S20.lock S22.lock D23.lock  @1.04 S18 D19  @2.08 D25",
 },
 
 
@@ -3169,7 +3164,7 @@ var readableTracklist = {
 	arcadeID: "1430",
 	pumpoutID: 472,
 
-	XX: "=",
+	XX: "=  @2.08 D23",
 	Prime2: "=",
 	Prime: "@1.12 S3 S5 S8 S15 D10 D16  S19 D20  @1.15 Dp3",
 },
@@ -3458,7 +3453,7 @@ var readableTracklist = {
 	arcadeID: "1458",
 	pumpoutID: 351,
 
-	XX: "=",
+	XX: "=  @2.08 D21",
 	Prime2: "=",
 	Prime: "@1.07 S3 S6 S14 D6 D15  @1.15 Dp3  @1.19 S17",
 },
@@ -10213,7 +10208,7 @@ var readableTracklist = {
 	arcadeID: "A05",
 	pumpoutID: 67,
 
-	XX: "= S6`5 S11`9 S18`17 D12`10 D19`18 D21`19",
+	XX: "= S6`5 S11`9 S18`17 D12`10 D19`18 D21`19  @2.08 D23",
 	Prime2: "=",
 	Prime: "=",
 	Fiesta2: "=",
@@ -11537,7 +11532,7 @@ var readableTracklist = {
 	arcadeID: "505",
 	pumpoutID: 4,
 
-	XX: "= S6`8 S11`13 D11`8 D21`20  @2.01  CoOp(x2)",  //??? proof S6.updated S7
+	XX: "= S6`8 S11`13 D11`8 D21`20  @2.01 CoOp(x2)  @2.08 S21 D23",  //??? proof S6.updated S7
 	Prime2: "=",
 	Prime: "= -Dp11",
 	Fiesta2: "=",
