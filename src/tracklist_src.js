@@ -1262,7 +1262,7 @@ var readableTracklist = {
 	arcadeID: "16A0",
 	pumpoutID: 785,
 
-	XX: "@1.03 S8 S13 S16 S19 D12 D15 D18 S22.lock D23.lock  @2.01 CoOp(x2)",
+	XX: "@1.03 S8 S13 S16 S19 D12 D15 D18 S22.lock D23.lock  @2.00 Dp3  @2.01 CoOp(x2)",
 },
 
 
@@ -1583,7 +1583,7 @@ var readableTracklist = {
 	arcadeID: "16F2",
 	pumpoutID: 804,
 
-	XX: "@1.05 D13 D15.lock D17.lock D19.lock D21.lock D23.lock D25.lock  @2.00 Dp3",
+	XX: "@1.05 D13 D15.lock D17.lock D19.lock D21.lock D23.lock D25.lock",
 },
 
 
