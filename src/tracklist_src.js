@@ -64,9 +64,9 @@ var readableTracklist = {
 "16__Cygnus":
 {
 	title: "Cygnus", artist: "Nato", channel: ORIGINAL, bpm: "188",
-	sortingID: "16A7__1",  // between 16__The_Reverie (16A7) and 16__Tropicanic (16A7__2)
-	// arcadeID: "",
-	pumpoutID: "",
+	sortingID: "16A7__1",  // between 16__The_Reverie (16A7) and 16__Tropicanic (16A7__2/16B5)
+	// arcadeID: "16B4",
+	pumpoutID: 897,
 
 	XX: "@2.08 S4 S7 S11 S17 S19 S22 D12 D18 D21 D24",
 },
@@ -76,8 +76,8 @@ var readableTracklist = {
 {
 	title: "Tropicanic", artist: "SHK", channel: ORIGINAL, bpm: "145",
 	sortingID: "16A7__2",  // between 16__Cygnus (16A7__1) and 16_God_Mode_2_0 (16F6__1)
-	// arcadeID: "",
-	pumpoutID: "",
+	// arcadeID: "16B5",
+	pumpoutID: 898,
 
 	XX: "@2.08 S2 S4 S7 S11 S16 S19 D6 D13 D18 D21",
 },
@@ -86,9 +86,9 @@ var readableTracklist = {
 "16__Mopemope":
 {
 	title: "Mopemope", artist: "LeaF", channel: WORLD, bpm: "100",
-	sortingID: "16F9__1",  // between 16__Gloria (1699) and  ()
-	// arcadeID: "",
-	pumpoutID: "",
+	sortingID: "16F9__1",  // between 16__Gloria (1699) and 16__Re_End_of_a_Dream (16F9__2/16B2)
+	// arcadeID: "16B1",
+	pumpoutID: 894,
 
 	XX: "@2.08 S11 S15 S17 S20 S23 D16 D19 D23 D25 CoOp(x2)",
 },
@@ -97,9 +97,9 @@ var readableTracklist = {
 "16__Re_End_of_a_Dream":
 {
 	title: "Re: End of a Dream", artist: "uma vs. Morimori Atsushi", channel: WORLD, bpm: "212",
-	sortingID: "16F9__2",  // between 16__Mopemope (16F9__1) and 16__Cross_Ray (16F9__3)
-	// arcadeID: "",
-	pumpoutID: "",
+	sortingID: "16F9__2",  // between 16__Mopemope (16F9__1/16B1) and 16__Cross_Ray (16F9__3/16B3)
+	// arcadeID: "16B2",
+	pumpoutID: 895,
 
 	XX: "@2.08 S12 S15 S19 S21 S23 D18 D22 D25",
 },
@@ -108,9 +108,9 @@ var readableTracklist = {
 "16__Cross_Ray":
 {
 	title: "Cross Ray", artist: "HyuN", channel: WORLD, bpm: "176",
-	sortingID: "16F9__3",  // between 16__Re_End_of_a_Dream (16F9__2) and 16__Ultimatum (16F9__4)
-	// arcadeID: "",
-	pumpoutID: "",
+	sortingID: "16F9__3",  // between 16__Re_End_of_a_Dream (16F9__2/16B2) and 16__Ultimatum (16F9__4)
+	// arcadeID: "16B3",
+	pumpoutID: 896,
 	arcadeName: "CROSS RAY - feat. 月下Lia",
 
 	XX: "@2.08 S4 S7 S12 S16 S19 S22 D14 D20 D23",
@@ -121,8 +121,8 @@ var readableTracklist = {
 {
 	title: "Ultimatum", artist: "Cosmograph", channel: WORLD, bpm: "202",
 	sortingID: "16F9__4",  // between 16__Cross_Ray (16F9__3) and 16__Kokugen_Kairou_Labyrinth (16F9__5)
-	// arcadeID: "",
-	pumpoutID: "",
+	// arcadeID: "1705",
+	pumpoutID: 893,
 
 	XX: "@2.08 S17 S21 S23 S25 D25 D27",
 },
@@ -131,9 +131,9 @@ var readableTracklist = {
 "16__Paradoxx__SHORT":
 {
 	title: "Paradoxx  [SHORT]", artist: "SLAM & NATO", channel: ORIGINAL, bpm: "220",
-	sortingID: "",  // between  () and  ()
-	// arcadeID: "",
-	pumpoutID: "",
+	sortingID: "16B6",  // between  () and  ()
+	// arcadeID: "16B6",
+	pumpoutID: 899,
 	arcadeName: "Paradoxx - SHORT CUT -",
 
 	XX: "@2.08 S21 S24 D26",
@@ -143,9 +143,9 @@ var readableTracklist = {
 "16__Brown_Sky":
 {
 	title: "Brown Sky", artist: "Doin", channel: ORIGINAL, bpm: "200", duration: REMIX,
-	sortingID: "",  // between  () and  ()
-	// arcadeID: "",
-	pumpoutID: "",
+	sortingID: "16B7",  // between  () and  ()
+	// arcadeID: "16B7",
+	pumpoutID: 900,
 
 	// arcadeName: "",
 	XX: "@2.08 S19 S21 S24 D21 D24 D26",
@@ -155,9 +155,9 @@ var readableTracklist = {
 "16__Good_Night__FULL":
 {
 	title: "Good Night  [FULL]", artist: "Dreamcatcher", channel: KPOP, bpm: "196",
-	sortingID: "",  // between  () and  ()
-	// arcadeID: "",
-	pumpoutID: "",
+	sortingID: "16B8",  // between  () and  ()
+	// arcadeID: "16B8",
+	pumpoutID: 901,
 
 	arcadeName: "GOOD NIGHT - FULL SONG -",
 	XX: "@2.08 S18 S21 S24 D26",
@@ -8732,7 +8732,7 @@ var readableTracklist = {
 {
 	title: "Snow Dream", artist: "Apple Jam", channel: KPOP, bpm: "170",
 	arcadeID: "D12",
-	pumpoutID: "",
+	pumpoutID: 892,
 
 	NX2: ["3", "5", "13", "7", "13"], NX2_: ["", "", "", "6", ""],
 	NX: ["*1.5", "*2.5", "*6.5", "*3.5", "*6.5"],
