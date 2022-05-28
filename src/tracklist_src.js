@@ -111,7 +111,7 @@ var readableTracklist = {
 	sortingID: "16F9__3",  // between 16__Re_End_of_a_Dream (16F9__2/16B2) and 16__Ultimatum (16F9__4)
 	// arcadeID: "16B3",
 	pumpoutID: 896,
-	arcadeName: "CROSS RAY - feat. 月下Lia",
+	arcadeName: "CROSS RAY",
 
 	XX: "@2.08 S4 S7 S12 S16 S19 S22 D14 D20 D23",
 },
