@@ -64,8 +64,8 @@ var readableTracklist = {
 "16__Cygnus":
 {
 	title: "Cygnus", artist: "Nato", channel: ORIGINAL, bpm: "188",
-	sortingID: "16A7__1",  // between 16__The_Reverie (16A7) and 16__Tropicanic (16A7__2/16B5)
-	// arcadeID: "16B4",
+	// sortingID: "16A7__1",  // between 16__The_Reverie (16A7) and 16__Tropicanic (16A7__2/16B5)
+	arcadeID: "16B4",
 	pumpoutID: 897,
 
 	XX: "@2.08 S4 S7 S11 S17 S19 S22 D12 D18 D21 D24",
@@ -75,8 +75,8 @@ var readableTracklist = {
 "16__Tropicanic":
 {
 	title: "Tropicanic", artist: "SHK", channel: ORIGINAL, bpm: "145",
-	sortingID: "16A7__2",  // between 16__Cygnus (16A7__1) and 16_God_Mode_2_0 (16F6__1)
-	// arcadeID: "16B5",
+	// sortingID: "16A7__2",  // between 16__Cygnus (16A7__1) and 16_God_Mode_2_0 (16F6__1)
+	arcadeID: "16B5",
 	pumpoutID: 898,
 
 	XX: "@2.08 S2 S4 S7 S11 S16 S19 D6 D13 D18 D21",
@@ -86,19 +86,22 @@ var readableTracklist = {
 "16__Mopemope":
 {
 	title: "Mopemope", artist: "LeaF", channel: WORLD, bpm: "100",
-	sortingID: "16F9__1",  // between 16__Gloria (1699) and 16__Re_End_of_a_Dream (16F9__2/16B2)
-	// arcadeID: "16B1",
+	//sortingID: "1699__1",  // between 16__Gloria (WORLD/1699) and 16__Re_End_of_a_Dream (WORLD/1699__2/16B2)
+	arcadeID: "16B1",
 	pumpoutID: 894,
 
 	XX: "@2.08 S11 S15 S17 S20 S23 D16 D19 D23 D25 CoOp(x2)",
 },
 
 
+// Gloria, mope, end of dream, cross, allegro full,... Ultimatum
+
+
 "16__Re_End_of_a_Dream":
 {
 	title: "Re: End of a Dream", artist: "uma vs. Morimori Atsushi", channel: WORLD, bpm: "212",
-	sortingID: "16F9__2",  // between 16__Mopemope (16F9__1/16B1) and 16__Cross_Ray (16F9__3/16B3)
-	// arcadeID: "16B2",
+	// sortingID: "1699__2",  // between 16__Mopemope (WORLD/1699__1/16B1) and 16__Cross_Ray (WORLD/1699__3/16B3)
+	arcadeID: "16B2",
 	pumpoutID: 895,
 
 	XX: "@2.08 S12 S15 S19 S21 S23 D18 D22 D25",
@@ -108,8 +111,8 @@ var readableTracklist = {
 "16__Cross_Ray":
 {
 	title: "Cross Ray", artist: "HyuN", channel: WORLD, bpm: "176",
-	sortingID: "16F9__3",  // between 16__Re_End_of_a_Dream (16F9__2/16B2) and 16__Ultimatum (16F9__4)
-	// arcadeID: "16B3",
+	// sortingID: "1699__3",  // between 16__Re_End_of_a_Dream (WORLD/1699__2/16B2) and 16__Ultimatum (WORLD/1699__4)
+	arcadeID: "16B3",
 	pumpoutID: 896,
 	arcadeName: "CROSS RAY",
 
@@ -120,8 +123,9 @@ var readableTracklist = {
 "16__Ultimatum":
 {
 	title: "Ultimatum", artist: "Cosmograph", channel: WORLD, bpm: "202",
-	sortingID: "16F9__4",  // between 16__Cross_Ray (16F9__3) and 16__Kokugen_Kairou_Labyrinth (16F9__5)
-	// arcadeID: "1705",
+	// sortingID: "1699__4",  // between 16__Cross_Ray (WORLD/1699__3) and 16__Kokugen_Kairou_Labyrinth (WORLD/1699__5)
+	arcadeID: "1705",
+	sortingID: "16B3__1",  // between 16__Cross_Ray (WORLD/16B3) and 16__Kokugen_Kairou_Labyrinth (WORLD/16B3__2)
 	pumpoutID: 893,
 
 	XX: "@2.08 S17 S21 S23 S25 D25 D27",
@@ -171,7 +175,8 @@ var readableTracklist = {
 	title: "Kokugen Kairou Labyrinth", artist: "A:llha (ANE + 2riA)", channel: WORLD, bpm: "215",
 	altID: "16_Kokugen_Kairou_Labyrinth",
 	arcadeID: "1718",
-	sortingID: "16F9__5",  // between 16__Ultimatum (16F9__5) / 16_Baroque_Virus_FULL (16F9) and 16_Imagination (1678)
+	//sortingID: "1699__5",  // between 16__Ultimatum (1699__5) and 16_Imagination (1678)
+	sortingID: "16B3__2",  // between 16__Ultimatum (16B3__1) and 16_Imagination (1678)
 	pumpoutID: 888,
 
 	XX: "@2.07 S9 S12 S15 S17 D18 S20.lock S23.lock D22.lock D26.lock",
