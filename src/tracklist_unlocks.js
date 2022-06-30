@@ -618,7 +618,7 @@ function ApplyUnlocks()
 	//delete tempUnlockPatchIndex;
 	//delete tempCurrentMix;
 
-	On( "XX" )
+	On( "XX", "..@2.08" )
 	// 1.00
 
 		Lock( "16__BBoom_BBoom", "S15", "at least S13 A" )
