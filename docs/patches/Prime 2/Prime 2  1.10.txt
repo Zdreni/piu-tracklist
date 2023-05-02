@@ -1,0 +1,78 @@
+﻿Prime 2  1.10:
+
+https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1100-update-notice/1938909692803943/
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=302
+(prime2_090.bin)
+
+
+1. New Songs
+
+1) Title : Heart Attack
+    Artist : DJ Counterforce
+    BPM : 148
+    Default step chart : S07, S11, S16, D09, D18
+    S??(18), D??(20) (Unlocked step)
+
+2) Title :  Nakakapagpabagabag
+     Artist :  Dasu feat. Kagamine Len
+     BPM : 145
+     Default step chart : S10, S14, S18, D15, CO-OP02
+     D??(19) (Card only step)
+
+3) Title : Cross Time
+    Artist : Brandy
+    BPM : 160
+    Default step chart : S03, S07, S11, S15, D11, D17
+    S??(18), D??(20) (Card only step)
+
+4) Title :  Keep On!
+     Artist : AmamoriP
+     BPM : 185
+     Default step chart : S06, S12, S15, D12, D17
+     S??(18), S??(21), D??(20), D??(22) (Unlocked step)
+
+
+2. New Step Charts
+
+1) Title :   Get your groove on
+     Artist :   BanYa
+     BPM : 96
+     step chart : D??(21) (Unlocked step)
+
+2) Title :  Caprice of Otada
+    Artist :  Banya Production
+    BPM : 160
+    step chart : S??(19) (Unlocked step)
+
+3) Title :  Monolith
+     Artist :   Affinity
+     BPM : 196
+     step chart : D??(23) (Unlocked step)
+
+4) Title : Reminiscence
+    Artist : MAX
+    BPM : 155
+    step chart : S??(15), D??(17) (Unlocked step,  6th U.C.S Contest Winner’s chart)
+
+
+3. Quest zone
+
+Quest “Chapter5” is updated.
+
+1) Song : Final Audition2
+    Step chart : S08, S10, S16, S17
+
+2) Song : Up&Down
+    Step chart :  S15, D15, D16, D17
+
+3) Song : Naiassance2
+    Step chart : S06, S13, S19, S21
+
+4) Song : Kasou shinja
+    Step chart : S18, S20, D19, D21
+
+5) Song : Ignition starts
+    Step chart : S15, S18, D17, D24
+
+
+4. Minor bug fixing

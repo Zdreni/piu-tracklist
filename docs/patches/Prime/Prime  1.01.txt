@@ -1,0 +1,64 @@
+Prime  1.01:
+
+https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1010-update-information/1008001449228110
+(prime_00.bin, prime_01.bin)
+
+1. NEW Songs
+  1) Song : Hestia
+      Artist : Gentle Stick
+      BPM : 150
+      Step chart : S4, S7, S10, S18, D11, D20
+
+ 2) Song : Ineffective Boss Without Power
+     Artist  : NORAZO
+     BPM : 170
+     Step chart : S4, S6, S8, S18, D5, D19, DP??
+      * Both Basic and Full mode available
+
+ 3) Song : [Full song] Sugar Free
+     Artist : T-ara
+     BPM : 128
+     Step chart : S15 D15
+
+2. New step charts
+ 1) Nemesis : DP ??
+ 2) Yog-Sothoth : DP ??
+
+3. Revive songs
+ 1) Song : Ignition Starts
+     Artist : BanYa
+     BPM : 146.05
+     Step chart : S8, S15 , D10
+
+ 2) Song : Hypnosis
+     Artist : 반야 - BanYa
+     BPM : 180.2
+     Step chart : S7, S15, D8, D15
+
+4. Quest zone
+    Quest “Chapter1” is updated.
+
+  1) Rolling Christmas
+      Step chart : S5, S8, S13, S17
+
+  2) I'll Give You All My Love
+      Step chart : S7, S16, D18, D19
+
+  ) Turkey March
+      Step chart : S7, S12, S15, S21
+
+  4) Ragnarok
+     Step chart : S11, S16, S18, S22
+
+  5) Yog-Sothoth
+      Step chart : S9, S21, D25, D26
+
+5. Added functions & improvement
+
+  1) Top 3 score of Rank mode is activated.
+  2) World best score is activated.
+  3) Overall improvement in Graphic UI.
+  4) Exclusive songs of Latin version are deactivated in Rank mode.
+  5) AC, DC commands are activated.
+
+6.  Trivial bugs fixed

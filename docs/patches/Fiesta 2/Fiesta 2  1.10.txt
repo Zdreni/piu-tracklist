@@ -1,0 +1,13 @@
+﻿Fiesta 2  1.10:
+
+https://www.facebook.com/notes/pump-it-up/fiesta-2s-3rd-official-updatev110-information/600743876620538
+https://www.facebook.com/piugame/photos/a.439723339389260.113802.172482646113332/598248030203456/?type=1
+http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=121&page=1
+(fiesta2_02.bin)
+
+1. Newly added songs
+A. Crayon – G-Dragon (Basic & Full Mode)
+B. Rockhill – Beltaine (Full Mode)
+
+2. Bugfix
+Including Arcade score calculation problem in Result, Mission clear count error, and USB-concerning bugs, several problems have been solved.

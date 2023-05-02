@@ -1,0 +1,117 @@
+﻿XX  2.03:
+
+https://www.facebook.com/piugame/photos/a.439723339389260/3663522020342693/
+https://drive.google.com/file/d/1-1cbSzam8lZ931OSeaWTpfCWvbZEcybG/view
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=369
+(piu_xx_202.bin)
+
+
+1. New Songs
+
+1) Title : Gotta Go
+	Artist : CHUNG HA
+	BPM : 102
+	Category : K-POP
+	Step charts : S2, S4, S6, S9, S15, D6, D16
+	S17, D18 (Unlocked step)
+
+2) Title : Iolite Sky
+	Artist : Doin
+	BPM : 90
+	Category : Original
+	Step charts : S7, S10, S16, D11, D17
+	S20, S22, D24 (Unlocked step)
+
+3) Title : La Cinquantaine
+	Artist : Pory
+	BPM : 164
+	Category : Original
+	Step charts : S6, S10, S16, D12, D16
+	S19, S22, D20, D24 (Unlocked step)
+
+4) Title : Broken Karma(PIU Edit)
+	Artist : Quree
+	BPM : 180
+	Category : World Music
+	Step charts : S10, S16, S19, D13, D20
+	S21, D23 (Unlocked step)
+
+5) Title : Cutie Song
+	Artist : Memme
+	BPM : 174
+	Category : XROSS/O2JAM
+	Step charts : S4, S8, S11, S15, D13, D17, CO-OP(3)
+	S19, D21 (Unlocked step)
+
+6) Title : NEKKOYA(PICK ME) - FULL SONG -
+	Artist : PRODUCE48
+	BPM : 128
+	Category : K-POP
+	Step charts : S12, S19, D20
+
+7) Title : GOOD BYE - FULL SONG -
+	Artist : HONG JINYOUNG
+	BPM : 139
+	Category : K-POP
+	Step charts : S17, S19, D18, D21
+
+8) Title : I Want U – SHORT CUT -
+	Artist : MAX
+	BPM : 156
+	Category : Original
+	Step charts : S4, S7, S11, S19, D13, D21
+
+
+2. New Step Charts
+
+	Num  Title                         Step charts
+	 1   Chimera                       D22
+	 2   Bullfighter’s Song            S14
+	 3   Mental Rider                  CO-OP(4)
+	 4   Bad Apple!! feat. Nomico      CO-OP(2)
+	 5   Twist of Fate feat. Ruriling  CO-OP(2)
+	 6   HTTP                          CO-OP(2)
+	 7   Magical Vacation              CO-OP(2)
+	 8   Macaron Day                   CO-OP(2)
+	 9   Adrenaline Blaster            CO-OP(2)
+	10   VANISH                        CO-OP(2)
+	11   Kimchi Fingers                CO-OP(2)
+	12   Xeroize                       CO-OP(3)
+
+
+3. Mission zone update
+	Num  Title                          Step charts
+	 1   Start On RED                   D14
+	 2   Energetic                      D16
+	 3   BOOMERANG                      S17
+	 4   FFF                            D18
+	 5   The Festival of Ghost2(Sneak)  D19
+	 6   Twist of Fate feat. Ruriling   D20
+	 7   Papa Gonzales                  D21
+	 8   Turkey March                   D22
+	 9   Ugly Dee                       D23
+	10   Conflict                       D26
+
+
+4. New Avatars Added
+	15 New Avatars have been added to the item shop.
+	- MERKER
+	- Sarabande
+	- Onpiov
+	- The Crawling Chaos
+	- Stranger
+	- Aki & Erue
+	- Rio & Rou
+	- Unique Duo
+	- Devit
+	- Vermilion & Azure
+	- Miya
+	- Yeong Dong
+	- Human Faced Being
+	- The Grim Reaper
+
+
+5. Additions
+	- BSPower Explosion CO-OP(2) – Step chart was modified.
+	- ESCAPE D26 – Step chart was modified.
+	- Can-can ~Orpheus in the Party Mix~ CO-OP(2) – A bug of Step chart was fixed.

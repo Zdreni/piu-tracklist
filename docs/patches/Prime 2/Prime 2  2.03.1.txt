@@ -1,0 +1,14 @@
+﻿Prime 2  2.03.1:
+
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=318&sca=UPDATE
+https://www.facebook.com/notes/pump-it-up/piu-2018-prime2-v2031-update-notice/2136280839733493/
+(prime2_230.bin)
+
+
+Hello everyone.
+We found bugs and v2.03.0 and have fixed it urgently in this v2.03.1
+
+1. v2.03.0 update information added
+2. Fixed a bug of some Questzone step charts clear conditions
+
+We are very sorry for this inconvenience.

@@ -1,0 +1,60 @@
+﻿Prime 2  2.01:
+
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=307&sca=UPDATE
+https://www.facebook.com/notes/pump-it-up/piu-2018-prime2-2010-update-notice/2046789472015964/
+(prime2_201.bin)
+
+
+1. New Songs
+
+1) Title :  PICK ME
+    Artist :  PRODUCE101
+    BPM : 128
+    Default step chart : S02, S04, S06, S14, D05, D16
+    S??(17), D??(18) (Unlocked step)
+
+2) Title :  Rave’til the earth’s end
+    Artist :  5argon
+    BPM : 160
+    Default step chart : S04, S07, S15, S17, D13, D18
+    S??(19), D??(20) (Unlocked step)
+
+3) Title :  The Festival of Ghost2 (Sneak)
+    Artist :  Brandy
+    BPM : 136
+    Default step chart : S11, S16, S18, D11, D17
+    S??(20), D??(20) (Card only step)
+
+2. Big update for Double performance step
+There is big scale of update for Double performance steps.
+We deeply appreciate for the people provided the steps for it.
+1) Start On Red DP03
+2) Time Attack <Blue> DP03
+3) Magical Vacation DP03
+4) Super Stylin’ DP04
+5) Keep On! DP03
+6) BEDLAM DP04
+7) Redline DP05
+8) Kill Them! DP04
+9) Seize My Day DP04
+10) Fallen Angel DP03
+11) Shub Niggurath DP03
+12) Kasou shinja DP03
+13) Overblow2 DP03
+14) Allegro furioso DP04
+15) Utsushiyo No Kaze feat. Kana DP05
+16) Hey U DP04
+17) Chase Me DP03
+18) Gotta Be You DP03
+19) SOBER DP03
+20) GOOD NIGHT DP03
+21) STEP DP02
+22) Nakakapagpabagabag DP04
+23) Heart Attack DP03
+24) Cross Time DP03
+25) HELIX DP05
+26) Hyperion DP04
+
+3. About UCS
+UCS page and systems will be opened together in the end of March, 2018.
+We will look forward to upgrading UCS as long as you wait.

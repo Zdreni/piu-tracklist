@@ -1,0 +1,10 @@
+﻿Prime 2  1.05.1:
+
+https://www.facebook.com/notes/pump-it-up/hotfix-1051/1760300200664894/
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=293
+(prime2_050.bin)
+
+
+We found a problem and 1.05.0 and have fixed it urgently in this 1.05.1
+
+- Bug : fixed a bug the leftmost step chart is played forcibly  when Arcade song is played after Questzone play.

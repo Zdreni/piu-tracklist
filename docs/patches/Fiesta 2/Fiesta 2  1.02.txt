@@ -1,0 +1,8 @@
+﻿Fiesta 2  1.02:
+
+https://www.facebook.com/notes/pump-it-up/fiesta-2s-2nd-official-updatev102-information/543390499022543
+http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=120&page=1
+(fiesta2_01.bin)
+
+★ Updated contents list in FIESTA 2 1.02 ver ★
+Under non-USB condition, once a player enters Full Mode, calls out Command Window and selects Command category, the game was discontinued, but now this bug has been fixed.

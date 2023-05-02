@@ -1,0 +1,63 @@
+﻿Prime 2  1.04:
+
+https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1040-update-notice/1732628556765392/
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=291
+(prime2_030.bin)
+
+1.	New Songs
+
+1)	Song :  Good Night
+        Artist :  Dreamcatcher
+        BPM :  196
+        Default step chart :   S03, S05, S09, S17, D05, D19
+        S20, S23, D22, D24 (Unlocked step)
+
+2)	Song :  Allegro Furioso
+        Artist :  DM Ashura
+        BPM :  176
+        Default step chart :    S05, S10, S13, S17, D14
+        S20, D20 (Unlocked step)
+
+3)	Song :   Super Stylin’
+        Artist :   Warak
+        BPM :  146
+        Default step chart :    S07, S09, S11, S17, D09, D12
+        D?? (Card only step)
+
+4)	Song :   Redline
+        Artist :   Archefluxx
+        BPM :  170
+        Default step chart :  S05, S10, S16, D13, D20
+        S18, D19 (Unlocked step)
+
+5)	Song :  [SHORT CUT]  PRIME2 Opening
+        Artist :  MAX
+        BPM :  145
+        Default step chart :  S07, S12, S17, D18
+
+2.	New Step charts
+
+1)	Song :  Slam
+        Artist :  Novasonic
+        BPM :  132
+        step chart : D23
+
+2)	Song :  Enhance Reality
+        Artist :  Matduke
+        BPM :  175
+        step chart :  S16, D18 (6th U.C.S Contest Winner’s step, Unlocked step)
+
+3)	Song :   Oh! Rosa!
+        Artist :   BanYa
+        BPM :  148
+        Default step chart :  CO-OP02
+
+
+3. Item shop open
+ - Item shop page is opened in official website.
+ - You can buy unlock steps and avatar by PP on Item shop.
+ - Item shop is available to use only by login. Without login, unable to use Item shop.
+
+
+ 4.	Bug fixing
+- Minor bug fixing

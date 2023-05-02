@@ -1,0 +1,12 @@
+﻿XX  2.03.1:
+
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=370
+(piu_xx_203.bin)
+
+
+Some bugs were found in the PUMP IT UP XX v2.03.0 update.
+The modification patch progressed to version v2.03.1. Please refer to the below for the correction.
+
+1. Twist of Fate feat. Ruriling CO-OP(2) - Bug fix without step.
+2. VANISH CO-OP(2) - fixed the problem with the steps.
+3. Iolite Sky D24 - Minor Bug Modification.

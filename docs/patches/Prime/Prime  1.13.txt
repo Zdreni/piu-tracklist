@@ -1,0 +1,73 @@
+﻿Prime  1.13:
+
+https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1130-update-information/1230466223648297
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=205
+(prime_12.bin)
+
+1. New Songs
+
+1) Song :  Creed -1st Desire -
+    Artist :  TatshMusicCircle
+    BPM : 163
+    Default step chart : S04, S07, S12, D11, DP05
+    Unlock step chart : S??, S??, D??, D??
+
+2) Song : Point Zero One
+     Artist :  SynthWulf
+     BPM : 170
+     Default step chart : S09, S16, D11, D17
+     Unlock step chart : S??, D??
+
+3) Song : Elysium
+     Artist : Warak
+     BPM : 128
+     Default step chart : S04, S08, S15, D10, D16
+
+4) Song : (Full song) Creed -1st Desire-
+    Artist : TatshMusicCircle
+    BPM : 163
+    Default step chart : S18, S23, D19, D24
+
+
+2. New unlock step charts
+1) Song :  Avalanche- Memme
+     Step chart : S22 - released!
+
+2) Song : Ragnarok - SynthWulf
+     Step chart : S20 - released!
+
+
+3. Quest zone
+Quest “Chapter13” is updated.
+
+1) Song : All  I Want For Christmas
+    Step chart : S06, S11, D07, D18
+
+2) Song : Caprice of Otada
+     Step chart : S06, S08, S17, S19
+
+3) Song : Unique
+     Step chart : D12, D16, D19, D20
+
+4) Song : Chimera
+    Step chart : S11, S16, S18, S23
+
+5)  Song : Blazing
+     Step chart : S09, S15, D19, D23
+
+
+4. Unlocked Step charts
+
+1) Song :  Reminiscence
+    Step chart : S17, D18 - released!
+
+2) Song : Hyacinth
+     Step chart : S18, D19 - released!
+
+3) Song : Imprinting
+     Step chart : S17 - released!
+
+5. New features
+Arcade location name is now indicated in game result screen
+
+6. Minor bugs fixed.

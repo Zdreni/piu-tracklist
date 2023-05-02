@@ -1,0 +1,10 @@
+﻿Prime  1.17.1:
+
+https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1180-update-delay-notice/1347936445234607
+(prime_17.bin)
+
+This is the notice about 1.18.0 update schedule.
+
+We found some problem on 1.17.0 update and it causes to 1.18.0 update to not available update by online.
+In order to update 1.18.0, download 1.17.1 update file to USB from official website and manually update it first.
+If 1.17.1 update is successfully done, 1.18.0 update by online is available.

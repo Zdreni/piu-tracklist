@@ -1,0 +1,6 @@
+﻿XX  1.02.2:
+
+https://www.facebook.com/piugame/posts/2731504283544476
+(piu_xx_021.bin)
+
+This is "1949 Song and BGA modification" and "Meteo5cience song information change" patch of PIU XX after v1.02.0.

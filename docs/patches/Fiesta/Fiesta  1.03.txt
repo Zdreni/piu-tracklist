@@ -1,0 +1,7 @@
+Fiesta  1.03:
+
+http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=86&page=3 (same URL for 1.02 - 1.04)
+(fiesta02.bin)
+
+- Extend range of available USB
+- added up double step in Basic mode (Except china version)

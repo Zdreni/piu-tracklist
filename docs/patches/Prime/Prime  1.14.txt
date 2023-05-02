@@ -1,0 +1,107 @@
+﻿Prime  1.14:
+
+https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1140-update-information/1249949081700011
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=217
+(prime_13.bin)
+
+1. New Songs
+
+1) Song :  Trashy Innocence
+    Artist :  LastNote
+    BPM : 230
+    Default step chart :  S01, S05, S10, S14, D10, D15, CO-OP x2
+    Unlock step chart : S??, D??
+
+2) Song :  Renai Yuusha
+     Artist :  LastNote
+     BPM : 190
+     Default step chart :  S03, S06, S12, S17, D04, D13, D18, CO-OP x3
+     Unlock step chart : S??, D??
+
+3) Song :  Just Hold on (To All Fighters)
+     Artist : Void
+     BPM : 170
+     Default step chart :  S04, S07, S10, S16, D12, D18
+     Unlock step chart : S??, D??, D??
+
+4) Song :  Enhance Reality
+     Artist :  Matduke
+     BPM : 170
+     Default step chart :  S09, S14, D11
+     Unlock step chart : S??, D??
+
+5) Song :  [Full Song] Pandora
+     Artist :  KARA
+     BPM : 140
+     Default step chart :  S17, D18
+
+
+2. New step charts
+
+1) Song :  FFF
+    Artist :  Doin
+    BPM : 200
+    Step chart :  D24
+
+2) Song :  Canon D
+     Artist :  BanYa
+     BPM : 160
+     Step chart :  CO-OP x2
+
+3) Song :   Rock the house
+     Artist :   Matduke
+     BPM : 175
+     Step chart :  S16(UCS), D13(UCS)
+
+4) Song :   Super Fantasy
+      Artist :   SHK
+      BPM : 145
+      Step chart :  S14(UCS), D16(UCS)
+
+5) Song :    Karyawisata
+      Artist :    Vesuvia x REDSHiFT
+      BPM : 173
+      Step chart :  S15(UCS), D19(UCS)
+
+
+3. Quest zone
+
+Quest “Chapter14” is updated.
+
+1) Song : J Bong
+    Step chart :  S07, S08, S13, S18
+
+2) Song : Final Audition3
+     Step chart : S06, S09, S14, S18
+
+3)  Song :  Chopsticks Callenge
+      Step chart :  S06, S17, D16, D19
+
+4) Song :   Com’Back
+     Step chart :   S08, S15, D16, D20
+
+5) Song :  Tepris
+     Step chart :  S07, S16, D18, D22
+
+
+4. Unlocked Step charts
+
+1) Song :   Bad ∞ End ∞ Night
+    Step chart :  S17, S19, D18  - released!
+
+2) Song :  video out c
+     Step chart : S17 - released!
+
+
+5. New Features
+
+1) Random for WPF2016 was added!
+    - Random for WPF Channel is used for the speed category of WPF2016 and RANK mode rule such as VJ mode is enforced ,but stage brake setting follows the SETUP of the machine.
+
+2) U.C.S song is added!
+    - Robot Battle
+
+* New added U.C.S songs will be used for next U.C.S contest and new contest notice will be announced in detail.
+
+
+6. Minor bugs fixed.

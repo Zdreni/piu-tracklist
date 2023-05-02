@@ -1,0 +1,8 @@
+﻿Fiesta 2  1.61:
+
+https://www.facebook.com/notes/pump-it-up/fiesta-2s-10th-official-updatev161-information-pump-it-up/931017686926487
+
+- Corrected  Sync(Can't Nobody full song, Heart Breaker full song, Follow Me)
+- Recovered song (Procedimientos Para Llegar A Un Común Acuerdo)
+- Deleted fiesta2 1.60 hacked data
+- Added USB update function in only setup

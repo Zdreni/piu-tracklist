@@ -1,0 +1,162 @@
+﻿Prime  1.12:
+
+https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1120-update-information/1209014152460171
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=188
+(prime_111.bin)
+
+1. New Songs
+
+1) Song : Setsuna Trip
+   Artist : LastNote
+   BPM : 145
+   Default step chart : S01, S05, S09, S13, S16, D08, D14, CO-OP02
+   Unlock step chart : S??,D??
+
+2) Song : Queen Of The Red
+   Artist : ETIA.
+   BPM : 145
+   Default step chart : S04, S07, S11, S15, D12, D16
+   Unlock step chart : S??,D??
+
+3) Song : Scorpion King
+   Artist : r300k
+   BPM : 113
+   Default step chart : S03, S05, S08, S15, D10, D16
+   Unlock step chart : S??, D??
+
+4) Song : Violet Perfume
+   Artist : SHK
+   BPM : 140
+   Default step chart : S04, S06, S08, S14, S17, D10, D15
+   Unlock step chart : D??
+
+5) Song : HYPERCUBE
+    Artist : MAX
+    BPM : 145
+    Default step chart : S06, S10, S15, S17, D10, D16
+    Unlock step chart : D??
+
+6) Song : [Full Song] NoNoNo
+   Artist : Apink
+   BPM : 106
+   Default step chart : S14, S15, D16
+
+
+2. New step charts
+
+1) Song : 1950
+   Artist : SLAM
+   BPM : 200
+   Step chart : S20
+
+2) Song : Turkey March
+   Artist : Banya
+   BPM : 150
+   Step chart : S18(UCS), D17(UCS), CO-OPx02(UCS)
+
+3) Song : Maria
+   Artist : Banya
+   BPM : 136
+   Step chart : S18(UCS)
+
+4) Song : Csikos Post
+   Artist : Banya
+   BPM : 180
+   Step chart : D21(UCS)
+
+5) Song : Rolling Christmas
+   Artist : Banya
+   BPM : 142
+   Step chart : D17(UCS)
+
+6) Song : Lucid(PIU Edit)
+   Artist : Yak Won
+   BPM : 40~190
+   Step chart : S16(UCS)
+
+7) Song : Cosmical Rhythm
+   Artist : SID-SOUND
+   BPM : 128
+   Step chart : S16(UCS), D18(UCS)
+
+8) Song : Matador
+   Artist : Cranky
+   BPM : 168
+   Step chart : S21(UCS), D16(UCS), D21(UCS)
+
+9) Song : Latino Virus
+   Artist : Warak
+   BPM : 170
+   Step chart : DP03(UCS)
+
+10) Song : Leakage Voltage
+    Artist : Doin
+    BPM : 180
+    Step chart : S20(UCS), D20(UCS), D22(UCS)
+
+11) Song : Red Swan
+    Artist : Yahpp
+    BPM : 172
+    Step chart : DP04(UCS), DP20(UCS)
+
+
+3. Quest zone
+Quest “Chapter12” is updated.
+
+1) Song : We Got 2 Know
+   Step chart : S05, S08, S17, S18
+
+2) Song : X-TREME
+   Step chart : S09, S14, S18, S19
+
+3) Song : Native
+   Step chart : S09, S17, D18, D20
+
+4) Song : K.O.A : Alice In Wonderworld
+   Step chart : S08, S17, D18, D21
+
+5) Song : Vook
+   Step chart : D17, D18, D19, D23
+
+
+4. Unlocked Step charts
+1) Song : Bad Apple!! feat. Nomico
+   Step chart : S17, S19, D18 - released!
+
+2) Song : FOUR SEASONS OF LONELINESS ver β feat. Sariyajin
+   Step chart : S17, D18 - released!
+
+3) Song : THE REVOLUTION
+   Step chart : S19, D19 - released!
+
+4) Song : Stardust Overdrive
+   Step chart : S18, D19 - released!
+
+* Step charts are unlocked only below level 19
+
+
+5. J-Music channel is added.
+
+The songs listed below are moved to J-MUSIC Channel.
+
+- Bad Apple!! feat. Nomico
+- FOUR SEASONS OF LONELINESS ver β feat. Sariyajin
+- Imprinting
+- Yoropiku Pikuyoro!
+- Bad ∞ End ∞ Night
+- Amai Yuuwaku Dangerous
+
+
+6. New U.C.S songs are added!
+- Super Fantasy
+- Rock The House
+- Karyawisata
+
+* New added U.C.S songs will be used for next U.C.S contest and new contest notice will be announced in detail.
+
+
+7. Double PP event
+- 2016 New year event!
+- Event dates : 17:00, Dec. 30, 2015 ~ 17:00(GMT + 09:00),Jan.29, 2016
+- Play PIU and earn twice PP during event period.
+  (Extra PP will be added automatically in an hour.)

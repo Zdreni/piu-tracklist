@@ -1,0 +1,88 @@
+﻿Prime  1.17:
+
+https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1170-update-information/1323575054337413
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=254
+(prime_16.bin)
+
+1. New Songs
+
+1)	Song : Amphitryon
+	Artist : Gentle Stick
+	BPM : 155
+	Default step chart :  S06, S11, D12
+	Unlock step chart : S??, D??
+
+2)	Song : Blaze emotion (Band version)
+	Artist : Yahpp
+	BPM : 170
+	Default step chart : S02, S08, S17, D04, D18
+
+
+2. New step charts
+
+1)	Song : Bad Apple!! feat. Nomico
+	Artist : Masayoshi Minoshima
+	BPM : 138
+	Step chart  : S03
+
+2)	Song : Setsuna Trip
+	Artist : Last Note.
+	BPM : 145
+	Step chart : S03
+
+3)	Song : Trashy Innocence
+	Artist : Last Note.
+	BPM : 230
+	Step chart : S03
+
+4)	Song : Bad ∞ End ∞ Night
+	Artist : HitoshizukuP X yama△
+	BPM : 204
+	Step chart : S04
+
+5)	Song : Till the end of time
+	Artist : BanYa
+	BPM : 140
+	Step chart : S13(UCS), S17(UCS), D08(UCS), D13(UCS), D16(UCS)
+
+6)	Song : Chicken Wing
+	Artist : BanYa
+	BPM : 200
+	Step chart : S21(UCS), S22(UCS), D23(UCS)
+
+7)	Song : Robot Battle
+	Artist : CYO Style
+	BPM : 198
+	Step chart : S18(UCS), D19(UCS)
+
+
+3.	 Unlocked Step charts
+
+1)	Song : Renai Yuusha
+	Step chart : S19 , D20 -  released!
+
+2)	Song : Enhance Reality
+	Step chart : S19 , D20 - released!
+
+
+4.	 Quest zone
+
+1)	Song : Destination
+	Step chart : S11, S16, D13, D18
+
+2)	Song : Phantom
+	Step chart : S12, S17, S18, S19
+
+3)	Song : Selfishness
+	Step chart : S11, S17, D18, D21
+
+4)	Song : Love is a danger zone pt.2
+	Step chart : S07, S15, D17, D21
+
+5)	Song : Tribe Attacker
+	Step chart : S16, D10, D15, D22
+
+
+5. New Features
+
+All locked step charts are unlocked in EVENT mode and will be available until 1.18.0 update

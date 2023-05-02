@@ -1,0 +1,90 @@
+﻿Prime  1.16:
+
+https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1160-update-information/1303524496342469
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=247
+(prime_15.bin)
+
+
+1. New Songs
+
+1) Song :  Moment Day
+	Artist :  MAX
+	BPM : 158
+	Default step chart :   S03, S06, S10, S15, S17, D09, D16, CO-OP x2
+	Unlock step chart : S??, D??
+
+2) Song :  Houkago Stride
+	Artist :   Last Note.
+	BPM : 225
+	Default step chart :   S03, S06, S10, S15, D10, D16
+	Unlock step chart : S??, D??
+
+3) Song :   Idealized Romance
+	Artist :  void
+	BPM : 140
+	Default step chart :   S02, S04, S07, S11, S16, D10
+	Unlock step chart : S??, D??
+
+4) Song :   Force of Ra
+	Artist :   Memme
+	BPM : 180
+	Default step chart :   S07, S12, S17, D12
+	Unlock step chart : S??, D??
+
+
+2. New unlock step charts
+
+1) Song :   Achluoias
+	Artist : D_AAN
+	BPM : 200
+	Step chart : D26
+
+2) Song :   Stardust Overdrive
+	Artist : typeMARS
+	BPM : 175
+	Step chart : D24
+
+
+3. Quest zone
+
+Quest “Chapter15” is updated.
+
+1) Song :   Hello William
+	Step chart :   S09, S17, D09, D18
+
+2) Song :   Bullfighter's Song
+	Step chart :  S05, S08, S16, S19
+
+3)  Song :    Ladybug
+	Step chart :   S05, S13, D13, D19
+
+4) Song :    Moonlight
+	Step chart :   D11, D20, D21, D22
+
+5) Song :   FFF
+	Step chart :   S17, S23, D22, D26
+
+
+4. Unlocked Step charts
+
+1) Song :    Creed -1st Desire-
+	Step chart :  S18, D18  - released!
+
+
+5. New U.C.S songs are added!
+
+	- Nemesis
+	- Chinese restaurant
+	- Hestia
+	- You Got Me Crazy
+	- 1950
+
+	 * New added U.C.S songs will be used for next U.C.S contest and new contest notice will be announced in detail
+
+
+6. New features
+
+	It is now available to play for 2 players in Rank mode of event mode
+
+
+7.  Minor bugs fixed.

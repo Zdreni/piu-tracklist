@@ -1,0 +1,138 @@
+﻿Fiesta EX  1.51:
+
+https://www.facebook.com/notes/449963461698581/
+(fiestaex50.bin)
+
+1. UCS(User Custom Step) !
+A. By using this function, you can make and play your own step charts to the maximum 5 charts!
+B. Please refer to the UCS page for the details.
+
+2. New Songs for the Next PIU !
+A. We decided to contain 11 songs for the next PIU in Fiesta EX v1.51, and some of the step charts through PIU Step Making Contest can be chosen as formal step charts for the next PIU, but these songs are in Basic Mode only in Fiesta EX.
+
+B. Please refer to the PIU Step Making Contest event page for the details.
+
+//? Dino: какие сложности добавлять, базовые?
+C. The song list is as follows:
+Monolith – Affinity
+Switchback – Celldweller
+Ladybug – Coconut
+Hardkore of the North - Diclonius Kid
+Rippin' It Up - Future Funk Squad
+Tribe Attacker - Hi-G
+Virtual Emotion - Inspector K
+Heel and Toe - KURi-ZiLL
+Rainspark - Sanxion7
+Be Alive (Raaban Inc. Mix) - Stian K
+Star Command – Zircon
+
+3. Newly Added Songs List !
+
+Jonathan’s Dream – MAX&Seorryang (SID-SOUND)
+ASDF – Doin
+Pine Nut – Doin
+
+4. Newly Added Step Charts List !
+
+Cleaner - Doin [Single 4, 7, 12]
+Reality - SHK [Single 8]
+Butterfly - MAX & Rorychesell (SID-SOUND) [Single 8]
+We Got 2 Know - MAX [Single 1]
+Shock - BEAST [Single 8]
+Last Farewell - Big Bang [Single 8]
+No.3 - Bae Chi Gi [Single 9]
+Like A Man - Outsider [Single 4]
+Crashday - Crash [Single 4, 6, 11]
+What Happened - Throwdown [Single 3, 7, 12]
+Gargoyle - Sanxion7 [Single 4, 7]
+The Devil - Banya Production [Single 4]
+Native - SHK [Single 3, 5]
+Smells Like A Chocolate - Vospi [Single 4, 6]
+Necromancy - Zircon [Single 4, 7]
+Crashday Full Song - Crash [Double 22]
+Rave Until The Night Is Over - DM Ashura feat. MC Jay & Veronica [Single 2]
+XTREE - YAHPP [Single 3]
+Betrayer act.2 - msgoon [Double 15]
+By chance - Baby V.O.X [Single 5]
+U Got 2 Know - MAX [Single 2, 7, 8]
+Twist King - Turbo [Single 10]
+Fire - 2NE1 [Double 14]
+NARCISISTA POR EXCELENCIA - PXNDX [Single 3]
+No Rhyme No Reason - LTJ X-Perience [Single 8]
+80's pop - Energy presents [Single 8]
+Phantom -Intermezzo- - Banya Production [Single 3, 7]
+Blaze Emotion - YAHPP [Single 3, 6, 9]
+CannonX.1 - YAHPP [Single 7]
+La La La - Big Bang [Single 1]
+Adios - Ji Won Eun [Single 1]
+Forward - DJ Missill [Single 2]
+Crazy - Gyfted [Single 2, 4, 8]
+Digan Lo Que Digan - Nina Pilots [Single 4, 7, 9]
+DJ Otada - Banya Production [Single 6]
+K.O.A : Alice In Wonderworld - Banya Production [Single 2]
+Final Audition Ep. 2-X - YAHPP [Single 3, 5]
+Pumptris 8Bit ver. - YAHPP [Single 3, 5, 8]
+Caprice of Otada - Banya Production [Single 6]
+Higgledy Piggledy - Banya Production [Single 9]
+Dance Vibrations - Elpis [Single 4]
+Energizer - Zig Zag [Single 4, 7]
+Witch Doctor #1 - Yahpp [Single 2, 5, 8]
+Arch of Darkness - Yahpp [Single 2, 5]
+Bullfighter's Song - Banya Production [Single 4]
+Ugly Dee - Banya Production [Single 3, 5, 9]
+Beat of The War 2 - BanYa [Single 4, 6]
+Moonlight - BanYa [Single 4]
+Witch Doctor - BanYa [Single 4, 6, 10]
+Love is a Danger Zone pt. 2 - BanYa [Single 9]
+Phantom - BanYa [Single 2, 7]
+Papa Gonzales - BanYa [Single 4, 8]
+Enter The Dragon - JTL [Single 8]
+I'll Give You All My Love - Wax [Single 2]
+J Bong - BanYa [Single 3, 8]
+Hi Bi - BanYa [Single 5]
+Solitary 2 - BanYa [Single 4, 8]
+Canon D - BanYa [Single 9]
+Final Audition 3 - BanYa [Single 2, 5, 9]
+Blazing - BanYa [Single 9]
+Pump Me Amadeus - BanYa [Single 3]
+X Treme - BanYa [Single 4, 7]
+CHICKEN WING - BanYa [Single 4, 6, 9 / Double 17]
+Final Audition Ep. 1 - BanYa [Single 4, 7]
+Bee - BanYa [Single 7, 10]
+Beat of The War - BanYa [Single 3, 9]
+Come to Me - BanYa [Single 4]
+Dr. M - BanYa [Single 9]
+Emperor - BanYa [Single 2, 8]
+Love is a Danger Zone - BanYa [Single 10]
+My way - BanYa [Single 3, 8]
+Will o' The Wisp - BanYa [Single 3]
+Oy oy oy - BanYa [Single 4]
+Set me up - BanYa [Single 2, 4, 6]
+Dance with me - BanYa [Single 2, 4, 6]
+Vook - BanYa [Single 4, 7]
+N - BanYa [Double 16]
+Slam - Novasonic [Single 9]
+Betrayer - BanYa [Single 1, 13]
+Solitary - BanYa [Single 2, 4, 8]
+Mr. Larpus - BanYa [Single 3]
+Run to you - DJ DOC [Single 2, 7]
+Final Audition 2 - BanYa [Single 4, 7]
+Naissance - BanYa [Single 4, 8]
+Turkey March - BanYa [Single 3]
+Free Style - BanYa [Single 13]
+We Are - DEUX [Single 2]
+Final Audition - BanYa [Single 2, 6, 9]
+Extravaganza - BanYa [Single 4]
+Com'Back - Sechs Kies [Single 8]
+Mobius Strip - Sechs Kies [Single 2]
+Repeatorment Remix - BanYa [Single 19]
+Another Truth - Novasonic [Single 8]
+
+4. All of the PumBI Contents Unlocked !
+
+All the hidden contents in PumBI are unlocked, and now everyone can play all of them freely!
+
+5. Fixed bugs !
+
+Several bugs have been fixed.
+Now, players can enjoy the game in much more stable environment!

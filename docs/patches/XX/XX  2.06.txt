@@ -1,0 +1,93 @@
+﻿XX  2.06:
+
+https://www.facebook.com/piugame/posts/4537774609584092
+
+https://drive.google.com/file/d/1OtJoFTVytG52n_eKZkGdGr3bY96UwFCK/view
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=386
+(piu_xx_251.bin)
+
+
+1. New Songs
+
+1) Title : Crossing Delta
+	Artist : t+pazolite+Ginkiha+Hommarju
+	BPM : 180
+	Category : World Music
+	Step charts : S??, S??, S??, S??, D??, D??, D??, D??, DP??
+	This song is a event unlocking song. If the condition is met, all steps will be unlocked at once.
+
+2) Title : Harmagedon
+	Artist : HyuN vs lixound
+	BPM : 194
+	Category : Original
+	Step charts : S4, S6, S10, S16, S19, D13, D21
+	S22, D24 (Unlocked step)
+
+3) Title : Slapstick Parfait
+	Artist : t+pazolite
+	BPM : 160
+	Category : World Music
+	Step charts : S3, S7, S10, S16, D12, D18
+	S19, D21 (Unlocked step)
+
+4) Title : Paved Garden
+	Artist : Ginkiha
+	BPM : 187
+	Category : World Music
+	Step charts : S8, S12, S16, D13, D17
+	S19, S22, D21, D24 (Unlocked step)
+
+5) Title : Pop Sequence
+	Artist : Hommarju
+	BPM : 110
+	Category : World Music
+	Step charts : S5, S7, S11, S15, D12, D19, SP18, DP22
+	S21, D23 (Unlocked step)
+
+6) Title : Night Duty (Revival Song)
+	Artist : A.V.
+	BPM : 140
+	Category : Original
+	Step charts : S3, S6, S9, S14, S17, D8, D15
+	S19, D20 (Unlocked step)
+
+
+2. New Step Charts
+
+	Num Title                           Step charts
+	 1  Rolling Christmas               S17
+	 2  Emperor                         CO-OP(2)
+	 3  Top City                        S20 (Unlocked Step), D20 (Card Only Step)
+	 4  Dance With Me                   D18
+	 5  Hungarian Dance V               D21 (Unlocked Step)
+	 6  Hypnosis(SynthWulf Mix)         D22 (Unlocked Step)
+	 7  Chinese Restaurant              CO-OP(3)
+	 8  Creed -1st Desire-              S15
+	 9  Vulcan                          S18
+	10  VANISH                          D24 (Unlocked Step)
+	11  YOU AND I                       CO-OP(2)
+	12  Club Night                      D23 (Unlocked Step)
+	13  Wedding Crashers - SHORT CUT -  S4, S7, S11, S15, D6, D13
+
+
+3. New Avatars Added
+
+	13 New Avatars have been added to the item shop.
+	- Mikazuki
+	- Meteor
+	- Mode G
+	- Hellfire
+	- Ailee
+	- Native Magic
+	- Hannah
+	- Matsuri(HEY)
+	- Aya
+	- Pumcaddy
+	- Melissa
+	- Jonathan
+	- Escape
+
+
+4. Additions
+
+	- Setsuna Trip D23 –– Step chart was modified.

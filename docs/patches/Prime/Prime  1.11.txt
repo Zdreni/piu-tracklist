@@ -1,0 +1,105 @@
+﻿Prime  1.11:
+
+https://www.facebook.com/notes/1189158797779040/
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=177
+(prime_10.bin, prime_11.bin)
+
+1. NEW Song
+
+1) Song : Bad ∞ End ∞ Night
+    Artist : HitoshizukuP X yama△
+    BPM : 204
+    Default step chart : S02, S06, S10, S13, D11, DP04, CO-OP X3
+    Unlock step chart : S??, S??, D??, D??
+
+2) Song : Amai Yuuwaku Dangerous
+    Artist : Bakusute Sotokanda Icchome
+    BPM : 125
+    Default step chart : S01, S03, S06, S11, S15, D05, D10, D16
+
+3) Song : video out c
+    Artist : Vospi
+    BPM : 198
+    Default step chart : S09, S14, D14
+    Unlock step chart : S??, S??, D??
+
+4) Song : Betrayer
+    Artist : Banya
+    BPM : 92
+    Unlock step chart : S01, S05, S08, S13, S16, D08, D13, D17, SP02
+
+5) Song : [Full Song] Move That Body!
+    Artist : DM Ashura feat. Skizzo & Hanna
+    BPM : 145
+    Default step chart : S17(UCS), S18(UCS), D19(UCS), D20(UCS)
+
+
+2. New step charts
+1) Song : Overblow
+    Artist : MAX
+    BPM : 155
+    Step chart : CO-OP X2
+
+2) Song : Sugar Free
+    Artist : T-ara
+    BPM : 128
+    Step chart : S17
+
+3) Song : ELVIS
+    Artist : AOA
+    BPM : 135
+    Step chart : S17
+
+4) Song : Move That Body!
+    Artist : DM Ashura feat. Skizzo & Hanna
+    BPM : 145
+    Step chart : DP03
+
+5) Song : Venus
+    Artist : 신화
+    BPM : 126
+    Step chart : DP03
+
+6) Song : Rolling Christmas
+    Artist : Banya
+    BPM : 142
+    Step chart : CO-OP X2
+
+7) Song : Canon D
+    Artist : Banya
+    BPM : 160
+    Step chart : S17(UCS), S18(UCS), D17(UCS), D18(UCS)
+
+8) Song : The Revolution
+    Artist : MAX & DOOM
+    BPM : 160
+    Step chart : S21(UCS), D22(UCS), D23(UCS), D24(UCS)
+
+
+
+3. Quest zone
+    Quest “Chapter11” is updated.
+
+1) Song : Final Audition Episode 1
+    Step chart : S08, S13, D11, D17
+
+2) Song : I’m Sorry
+    Step chart : S09, S16, D17, D18
+
+3) Song :  D
+    Step chart : S11, S18, S19, S20
+
+4) Song : Reality
+  Step chart : D15, D18, D20, D21
+
+5) Song : Mr. Larpus
+    Step chart : D14, D17, D23, D25
+
+
+
+4. Unlocked Step charts
+  1) Song : Silhouette Effect
+      Step chart : S18 - released!
+  2) Song : Annihilator Method
+      Step chart : S19 - released!
+* Step charts are unlocked only below level 19

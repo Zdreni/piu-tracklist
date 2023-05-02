@@ -1,0 +1,61 @@
+﻿Prime 2  1.08:
+
+https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1080-update-notice/1863703416991238/
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=298
+(prime2_070.bin)
+
+
+1. New Songs
+
+1) Song : Gotta Be You
+    Artist : 2NE1
+    BPM : 130
+    Default step chart :  S03, S05, S08, S15, D06, D16
+    S??(17), D??(18) (Unlocked step)
+
+2) Song :  Fallen Angel
+    Artist : DM Ashura
+    BPM : 157
+    Default step chart :  S06, S10, S17, D10, D15, D21
+    D??(20) (Card only step)
+
+3) Song :  [SHORT CUT] Shub Niggurath
+    Artist : Nato
+    BPM : 220
+    Default step chart : S18, S22, D23
+
+
+2. Big update for Double performance step
+There is big scale of update for Double performance step of PRIME songs.
+We deeply appreciate for the people provided the steps for it.
+    1) Across The Ocean DP02
+    2) Ai Yurete… DP04
+    3) Bar Bar Bar DP03
+    4) Blaze Emotion (band ver.) DP03
+    5) Campanella DP05
+    6) Enhanced Reality DP05
+    7) Feel My Happiness DP02
+    8) Flying Duck DP04
+    9) Hestia DP03
+    10) Houkago Stride DP05
+    11) Hyacinth DP04
+    12) Katkoi DP04
+    13) Leakage Voltage DP03
+    14) Like Me DP02
+    15) Loner DP04
+    16) Mad5cience DP05
+    17) Mitotsudaira DP04
+    18) Moment Day DP05
+    19) PRIME DP03
+    20) Red Snow DP04
+    21) Removable Disk0 DP03
+    22) Renai Yuusha DP04
+    23) Smile Diary DP05
+    24) Sora No Shirabe DP04
+    25) Sudden Romance DP04
+    26) You Again My Love DP04
+    27) Force Of Ra DP03
+    28) Amphitryon DP04
+
+
+3. Minor Bug Fixing

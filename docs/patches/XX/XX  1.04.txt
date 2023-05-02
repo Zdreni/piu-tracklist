@@ -1,0 +1,260 @@
+﻿XX  1.04:
+
+https://www.facebook.com/piugame/posts/2934237346604501
+https://drive.google.com/file/d/19-X9bnv34Qlr9GiywRkbBjpYIK96TX6v/view
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=353
+(piu_xx_031.bin)
+
+
+1. New Songs
+
+1) Title : Black Cat
+	Artist : Turbo
+	BPM : 130.866
+	Category : K-POP
+	Step charts : S2, S4, S6, S9, S14, D7, D16
+	S17, D18 (Unlocked step)
+
+2) Title : King of Sales
+	Artist : Norazo
+	BPM : 150
+	Category : K-POP
+	Step charts : S3, S5, S8, S14, S18, D9, D19, CO-OP
+	S21, D23 (Unlocked step)
+
+3) Title : HEART RABBIT COASTER
+	Artist : Nato
+	BPM : 200
+	Category : Original
+	Step charts : S11, S14, S17, D13, D18
+	S21, S23, D22, D25 (Unlocked step)
+
+4) Title : Tantanmen
+	Artist : Memme
+	BPM : 185
+	Category : Original
+	Step charts : S4, S7, S11, S14, S17, D13, D20
+	S20, D23 (Unlocked step)
+
+5) Title : F(R)IEND
+	Artist : D_AAN
+	BPM : 200
+	Category : Original (nope: World)
+	Step charts : S10, S15, S19, D12, D17
+	S21, S23, D21, D25 (Unlocked step)
+
+6) Title : Rising Star
+	Artist : M2U
+	BPM : 140
+	Category : XROSS/O2JAM
+	Step charts : S6, S10, S15, D11, D17, CO-OP
+	S17, D19 (Unlocked step)
+
+7) Title : Starry Night – FULL SONG –
+	Artist : MAMAMOO
+	BPM : 124
+	Category : K-POP
+	Step charts : S12, S17, D18
+
+8) Title : Dignity
+	Artist : Crash
+	BPM : 195
+	Category : K-POP
+	Step charts : S3, S5, S14, S17, S20, S22, D17, D19, D24
+	D26 (Unlocked step)
+
+9) Title : Dignity – FULL SONG –
+	Artist : Crash
+	BPM : 195
+	Category : K-POP
+	Step charts : S15, S19, D18, D22
+
+
+
+2. New Step Charts
+
+1) Title : Papasito (feat. KuTiNA)
+	Step charts : D19, DP3
+
+2) Title : Desaparecer
+	Step charts : S18, D19
+
+3) Title : Jonathan's Dream
+	Step charts : S18, D19
+
+4) Title : Conflict
+	Step charts : S15 , CO-OP
+
+5) Title : Campanella
+	Step charts : CO-OP
+
+6) Title : I'm so sick
+	Step charts : CO-OP
+
+7) Title : Boong Boong (Feat. Sik-K) (Prod. GroovyRoom)
+	Step charts : CO-OP, DP5
+
+8) Title : GOOD BYE
+	Step charts : D21 (Unlocked step)
+
+9) Title : 1949
+	Step charts : D26 (Unlocked step)
+
+10) Title : Super Capriccio
+	Step charts : DP4
+
+11) Title : Tritium
+	Step charts : DP4
+
+12) Title : Cross Over
+	Step charts : DP4
+
+13) Title : Silver Beat
+	Step charts : DP3
+
+14) Title : Passing Rider
+	Step charts : DP3
+
+15) Title : Anguished Unmaking
+	Step charts : DP3
+
+16) Title : Twist of Fate (feat. Ruriling)
+	Step charts : DP4
+
+17) Title : HTTP
+	Step charts : DP4
+
+18) Title : Up & Up (Produced by AWAL)
+	Step charts : DP5
+
+19) Title : Travel to Future
+	Step charts : DP3
+
+20)Title : Rave’til the earth’s end
+	Step charts : DP3
+
+21) Title : Awakening
+	Step charts : DP2
+
+22) Title : Escape
+	Step charts : DP4
+
+23) Title : Waltz of Doge
+	Step charts : DP3
+
+24) Title : Energetic
+	Step charts : DP3
+
+25) Title : Beautiful
+	Step charts : DP3
+
+26) Title : Pick Me (Nayana)
+	Step charts : DP3
+
+27) Title : Really Really
+	Step charts : DP3
+
+28) Title : Hush
+	Step charts : DP4
+
+29) Title : V3
+	Step charts : DP2
+
+30)Title : The Festival of The Ghost 2
+	Step charts : DP5
+
+31) Title : Black Dragon
+	Step charts : DP4
+
+32) Title : BS Power Explosion
+	Step charts : DP5
+
+33) Title : Visual Dream II (In Fiction)
+	Step charts : DP3
+
+34) Title : Infinity
+	Step charts : DP4
+
+35) Title : Gothique Resonance
+	Step charts : DP4
+
+36) Title : Donatello
+	Step charts : DP4
+
+37) Title : Ice of Death
+	Step charts : DP3
+
+38) Title : The Little Prince
+	Step charts : DP5
+
+39) Title : Timing
+	Step charts : DP4
+
+40) Title : Time for the Moon Night
+	Step charts : DP4
+
+41) Title : You And I
+	Step charts : DP3
+
+42) Title : Rage of Fire
+	Step charts : DP3
+
+43) Title : Nihilism -Another Ver.-
+	Step charts : DP4
+
+
+
+3. Mission zone update
+
+1) Title : Pumptris 8Bit ver.
+	Step charts : S10
+
+2) Title : LOVE SCENARIO
+	Step charts : D14
+
+3) Title : HANN (Alone)
+	Step charts : D15
+
+4) Title : 8 6
+	Step charts : S16
+
+5) Title : %X (Percent X)
+	Step charts : S17
+
+6) Title : X-Tream
+	Step charts : D17
+
+7) Title : Meteorize
+	Step charts : D18
+
+8) Title : Time Attack <BLUE>
+	Step charts : D19
+
+9) Title : ASDF
+	Step charts : D19
+
+10)Title : Another Truth
+	Step charts : D20
+
+11) Title : Up & Up (Produced by AWAL)
+	Step charts : D20
+
+12)Title : I'm so sick
+	Step charts : S21
+
+13)Title : BBoom BBoom
+	Step charts : S22
+
+14)Title : BOOMERANG
+	Step charts : D23
+
+15) Title : Ignis Fatuus(DM Ashura Mix)
+	Step charts : D27
+
+
+
+4. More updates
+
+- Forgotten Vampire D20 – Step chart was modified.
+
+- Moon Light Dance CO-OP – A bug of Step chart was fixed.

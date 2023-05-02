@@ -1,0 +1,10 @@
+﻿Prime 2  2.05.1:
+
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=335
+(prime2_250.bin)
+
+
+This is the final patch for Pump it Up Prime2 (v2.05.1).
+It will allow offline play of Quests and locked step charts.
+
+After the update, the Internet connection is not possible, and Prime 2 server will be discontinued permanently on March 28(Korea standard time).

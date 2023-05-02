@@ -1,0 +1,115 @@
+﻿XX  2.01:
+
+https://www.facebook.com/piugame/photos/a.439723339389260/3354902807871284/
+https://drive.google.com/file/d/1CmN4B9LV1WXJKa_mEupDTErrEKfzYGF_/view
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=365
+(piu_xx_200.bin)
+
+
+1. New Songs
+
+1) Title : Snapping
+	Artist : CHUNG HA
+	BPM : 105
+	Category : K-POP
+	Step charts : S2, S3, S5, S15, D6, D16
+	S17, S19, D18 (Unlocked step)
+
+2) Title : Switronic
+	Artist : SHK
+	BPM : 120~170
+	Category : Original
+	Step charts : S3, S5, S8, S11, S15, D10, D16, CO-OP(2)
+	S18, D19 (Unlocked step)
+
+3) Title : Transacaglia in G-minor
+	Artist : ATAS
+	BPM : 158
+	Category : Original
+	Step charts : S3, S6, S11, S16, D7, D13, D18
+	S19, D21 (Unlocked step)
+
+4) Title : Indestructible
+	Artist : Matduke
+	BPM : 174
+	Category : World Music
+	Step charts : S8, S13, S19, D14, D20, CO-OP(2)
+	S22, D21, D22 (Unlocked step)
+
+5) Title : Cycling!
+	Artist : Yamajet
+	BPM : 220
+	Category : XROSS/O2JAM
+	Step charts : S3, S7, S10, S16, D11, D16
+	S20, D21 (Unlocked step)
+
+6) Title : VERY NICE - FULL SONG -
+	Artist : SEVENTEEN
+	BPM : 122
+	Category : K-POP
+	Step charts : S11, S19, D20
+
+7) Title : Switronic - SHORT CUT -
+	Artist : SHK
+	BPM : 120
+	Category : Original
+	Step charts : S3, S6, S10, S14, S18, D5, D12, D18
+
+
+2. New Step Charts
+
+	Num   Title                               Step charts
+	 1    Beethoven Virus                     CO-OP(2)
+	 2    Will O The Wisp                     D25 (Unlocked Step)
+	 3    Set Me Up                           D16
+	 4    Pine Nut                            D22 (Unlocked Step)
+	 5    Yeo Rae A                           CO-OP(5)
+	 6    Hellfire                            S22 (Unlocked Step)
+	 7    Cross Over feat. LyuU               CO-OP(2)
+	 8    Awakening                           CO-OP(2)
+	 9    BEDLAM                              CO-OP(2)
+	10    Clue                                D22
+	11    Obliteration                        S11
+	12    HEART RABBIT COASTER                CO-OP(4)
+	13    Ice of Death                        S3
+	14    Tantanmen                           CO-OP(3)
+	15    After a thousand years              D23 (Unlocked Step)
+	16    Can-can ~Orpheus in the Party Mix~  CO-OP(2)
+	17    Fires of Destiny                    CO-OP(2)
+
+
+3. Mission zone update
+
+	Num  Title           Step charts
+	1    Redline         D14
+	2    Red Snow        S17
+	3    Loki            S18
+	4    B2              S19
+	5    1950            S20
+	6    Gun Rock        D21
+	7    Waltz of Doge   D22
+	8    Sarabande       S22
+	9    Chase Me        D23
+	10   Poseidon        D25
+
+
+4. New Avatars Added
+
+	8 New Avatars have been added to the item shop.
+	- Hanna
+	- Mari
+	- Clotho
+	- Mingming
+	- Panpan
+	- Hero
+	- Fuyu
+	- Mir
+
+
+5. Additions
+
+	- Tribe Attacker CO-OP(4) – Step chart was modified.
+	- You Again My Love CO-OP(2) – Step chart was modified.
+	- Lala D7 – Step chart was modified.
+	- Obelisque CO-OP(2) – Step chart was modified.
+	- Forgotten Vampire S8 – Step chart was modified.

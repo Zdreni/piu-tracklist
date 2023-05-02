@@ -1,0 +1,38 @@
+﻿Prime  1.04:
+
+https://www.facebook.com/piugame/posts/1067527343275520
+(prime_03.bin)
+
+1. NEW Songs
+1) Song : Avalanche
+Artist : MEMME
+BPM : 175
+Default step chart : S4, S6, S9, D10
+
+2) Song : Very Good
+Artist : BLOCK B
+BPM : 136
+Default step chart : S3, S6, S9, S15, D5, D15
+
+3) Song : Avalanquiem (Remix)
+Artist : MAX & MEMME
+BPM : 175
+Default step chart : S23, D25
+
+2. New unlock step charts
+One song 3 step charts - Unlock condition(possible to buy from www.piugame.com)
+
+3. Quest zone
+Quest “Chapter4” is updated.
+1) Beethoven Virus
+Step chart : S7, S13, S16, S18
+2) Phantom-Intermezzo
+Step chart : S12, S15, D15, D18
+3) Red Swan
+Step chart : S4, S6, S8, S19
+4) Pumptris Quattro
+Step chart : S12, S17, S19, S21
+5) mental Rider
+Step chart : S12, S17, S19, S21
+
+4. bugs fixed

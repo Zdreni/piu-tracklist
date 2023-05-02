@@ -1,0 +1,80 @@
+﻿Prime  1.09:
+
+https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1090-update-information/1158163230878597
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=157
+(prime_08.bin)
+
+1. NEW Song
+
+ 1) Song :Bad Apple!! feat. Nomico
+     Artist :Masayoshi Minoshima
+     BPM :138
+     Default step chart :S01, S05, S09, S13, D10
+     Unlock step chart :S??, S??, D??, D??
+
+ 2) Song :FOUR SEASONS OF LONELINESS ver β feat. Sariyajin
+     Artist :TatshMusicCircle
+     BPM :178
+     Default step chart :S01, S04, S06, S10, S14, D10, D14, CO-OP02
+     Unlock step chart :S??, S??, D??, D??
+
+3)  Song :THE REVOLUTION
+     Artist :MAX & DOOM
+     BPM : 160
+     Default step chart :S07, S11, S17, D12
+     Unlock step chart : S??, D??
+
+4) Song: Stardust Overdrive
+    Artist : typeMARS
+    BPM : 175
+    Default step chart : S04, S09, S16, D05, D13, D16
+    Unlock step chart :  S??, D??
+
+5) Song : [Fullsong] Bad Apple!! feat. Nomico
+    Artist : Masayoshi Minoshima (Masayoshi Minoshima)
+    BPM : 138
+    Default step chart : S10, S14, S17, D11, D18, D22, CO-OP04
+
+6) Song : [Fullsong] FOUR SEASONS OF LONELINESS ver β feat. Sariyajin
+    Artist : TatshMusicCircle (TatshMusicCircle)
+    BPM : 178
+    Default step chart : S14, S19, D14, D19
+
+7) Song : [Shortcut] Stardust Overdrive
+    Artist : typeMARS
+    BPM : 175
+    Default step chart : S16, D17
+
+
+2. New unlock step charts
+
+1) Song :Allegro Piu Mosso
+     Artist : DM Ashura
+     Unlock Step chart : S??
+
+3. Quest zone
+    Quest “Chapter9” is updated.
+
+
+  1) Dance With Me
+      Step chart : S06, S14, D15, D17
+
+  2) Monkey Fingers
+      Step chart : S08, S15, D17, D18
+
+  3) Love is a Danger Zone
+      Step chart : S10, S15, S19, S20
+
+  4) Requiem
+      Step chart : S16, S19, D19, D21
+
+  5) Canon D
+      Step chart : S09, S20, D22, D24
+
+
+4. Unlocked Step charts
+ 1) Sugar Conspiracy Theory : S15, S18, S19, D17, D20 -released
+ 2) Move That Body! : S17, S20, D18 - released!
+
+
+5. Bugs fix.

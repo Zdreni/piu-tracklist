@@ -1,0 +1,12 @@
+﻿Prime 2  2.00.1:
+
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=305&sca=UPDATE
+https://www.facebook.com/notes/pump-it-up/hotfix-2001/1981220521906193/
+(prime2_200.bin)
+
+
+We found a problem about 2.00.0 update and have fixed it urgently in this 2.00.1
+- D Gang, La Grand Bleu, You’re the best, A problem with these three songs disappearing has been fixed.
+- Twist of Fate (feat. Ruriling) S18, D20 Steps balance problem due to certain commands has been fixed.
+- Super capriccio sync has been fixed.
+- Some quest zone steps clear condition problems has been fixed.

@@ -1,0 +1,71 @@
+﻿Prime 2  2.03:
+
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=317&sca=UPDATE
+https://www.facebook.com/notes/pump-it-up/piu-2018-prime2-2030-update-notice/2123409111020666/
+(prime2_220.bin)
+
+
+1. New Songs
+
+1) Title : SilverBeat feat. ChisaUezono
+	Artist : Tatsh
+	BPM : 153
+	Step chart : S4, S7, S12, S16, D7, D12
+	D??(18) (Unlocked step)
+	S??(18) (Card only step)
+
+2) Title : Tritium
+	Artist :  Memme
+	BPM : 180
+	Step chart :  S8, S12, S17, D10, D14
+	S??(20), D??(19), D??(22) (Unlocked step)
+
+3) Title : Passing Rider
+	Artist : mzet:-P
+	BPM : 175
+	Step chart : S8, S12, S16, D10
+	S??(20) (Unlocked step)
+	D??(20) (Card only step)
+
+4) Title : Awakening
+	Artist : typeMARS
+	BPM : 150
+	Step chart : S7, S10, S14, S16, D9, D13, D17
+	S??(19), D??(20) (Unlocked step)
+
+5) Title : Gothique Resonance
+	Artist : P4Koo
+	BPM : 174
+	Step chart : S7, S11, S18, D12
+	S??(20) (Unlocked step)
+	D??(20) (Card only step)
+
+2. New Step Charts
+
+1) Title : Further
+	Artist : Doin
+	BPM : 200
+	Step chart : D17
+
+2) Title : Up & Up
+	Artist : Skizzo
+	BPM : 150
+	Step chart : D20
+
+3) Title : V3
+	Artist : Beautiful Day
+	BPM : 160
+	Step chart : D21
+
+4) Title : Feel My Happiness
+	Artist : 3R2
+	BPM : 175
+	Step chart : D21
+
+5) Title : Sarabande
+	Artist : MAX
+	BPM : 160
+	Step chart : D24
+
+3. Quest zone
+Quest “Chapter8” is updated.
