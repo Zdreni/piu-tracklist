@@ -1,0 +1,64 @@
+﻿Prime  1.06:
+
+https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1060-update-information/1102556116439309
+(prime_05.bin)
+
+1. NEW Songs
+ 1) Song :Sugar Conspiracy Theory
+     Artist : Max
+     BPM : 170
+     Default step chart : S1, S3, S6, S10, D7, D11
+     Unlock step chart : S?, S? D?, D?
+
+ 2) Song : Move That Body!
+     Artist : DM Ashura feat. Skizzo & Hanna
+     BPM : 145
+     Default step chart : S3, S5, S8, S12, D10
+     Unlock step chart : S?, S?, D?
+
+3) Song : Move That Body!(Shortcut)
+     Artist : DM Ashura
+     BPM : 145
+     Default step chart : S16, D18
+
+
+2. New step charts
+
+1) Song :Yeo rae a
+     Artist : Sid-Sound
+     Step chart : S8
+
+ 2) Song : You got me crazy
+     Artist : MAX
+     Step chart : S6
+
+3) Song : Chung hwa ban jeom
+     Artist : Louis
+     Step chart : S4, S9
+
+
+3. Quest zone
+    Quest “Chapter6” is updated.
+
+  1) Till the end of time
+     Step chart : S2, S4, S9, S17
+
+  2) Sugar Free
+      Step chart : S8, S15, D16, D18
+
+  3) Maria
+      Step chart : S11, S15, D15, D19
+
+  4) Bee
+      Step chart : S11, S15, S19, S20
+
+  5) Allegro Con Fuoco
+      Step chart : S11, S17, S22, S23
+
+4. Unlocked Step charts
+
+ 1) Achluoias : S24 - released
+ 2) Milky Way Galaxy : S17, D18 - released
+ 3) Selfishness : S17, D18 - released
+
+5. Bugs fixed!

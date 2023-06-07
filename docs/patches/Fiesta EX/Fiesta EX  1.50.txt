@@ -1,0 +1,7 @@
+﻿Fiesta EX  1.50:
+
+(fiestaex43.bin)
+
+It has come to our attention that a song featured in the Fiesta EX 1.50 update does not have a correct license agreement. There was a miscommunication in the licensing process with "Deadbeat Boyfriend" by "Lucky Princess" and it must be removed.
+We will be releasing Fiesta EX Update 1.51 to correct this issue. Upon upgrading to 1.51, players will be able to add 2 more UCS files making a maximum of 5 UCS files per USB.
+We apologize to Disko Warp records and any of their affiliates for the confusion.There are rumors of stolen songs, but this is false. Every song in the 1.50 patch has either an executed or pending license agreement.

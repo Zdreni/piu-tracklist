@@ -1,0 +1,12 @@
+Fiesta  1.04:
+
+http://www.piugame.com/bbs/board.php?bo_table=ru_notice&wr_id=86&page=3 (same URL for 1.02 - 1.04)
+(fiesta03.bin)
+
+- Change commend method of speed choice in Basic mode (79795)
+- Add up speed 1X & 4X in basic mode
+- Co-op mode is possible to enjoy without USB
+- Add up mark “2X” in window commend for Mania mode.
+- USB identification process become 1 Step.
+- The gradel limitation is changed from Level5 to level10.
+- Now it’s possible to set sound volume

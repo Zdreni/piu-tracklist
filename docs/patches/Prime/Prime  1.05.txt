@@ -1,0 +1,57 @@
+﻿Prime  1.05:
+
+https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1050-update-information/1083852074976380
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=110
+(prime_04.bin)
+
+1. NEW Songs
+
+ 1) Song : Venus
+     Artist : Shinwha
+     BPM : 126
+     Default step chart : S2, S3, S5, S14, D6, D14
+
+ 2) Song : You got me crazy
+     Artist : MAX
+     BPM : 160
+     Default step chart : S4, S9,  D5
+     Unlock step chart : S?, S?, D?
+
+
+2. New unlock step charts
+    Song : Interference
+    Artist : Doin
+    Unlock step chart : D?
+
+
+3. Quest zone
+    Quest “Chapter5” is updated.
+
+  1) Hate, Don't hate!
+     Step chart : S4, S6, S15, S17
+
+  2) Oy Oy Oy
+      Step chart : S8, S13, D13, D17
+
+  3) Windmill
+      Step chart : S13, S17, D18, D19
+
+  4) Cleaner
+      Step chart : S12, S18, D20, D22
+
+  5) Elise
+      Step chart : D13, D16, D23, D24
+
+
+4. Favorite and Custom Music Train are available
+
+  1) Favorite
+      Players can put their favorite songs up to 20 songs.
+     (It is available from "My page" on http://www.piugame.com and can be played in the "Favorite Channel" of the game.)
+
+  2) Custom Music Train
+      Players can make their own "Music train" and it is available up to 3 slots.
+      (It is available from "My page" on http://www.piugame.com and can be played in the "Music train Channel" of the game.)
+
+
+5. Bugs fixed!

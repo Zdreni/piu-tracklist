@@ -1,0 +1,15 @@
+﻿XX  1.01.1:
+
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=341
+(piu_xx_010.bin)
+
+
+We release a patch for some bug fixes since the update of PIU XX v1.01.0.
+After updating the version is v1.01.1.
+
+- Fixed a bug that two ignis fatuus D17 are shown.
+- Fixed a bug that returned to initial screen when online matching play.
+- Fixed a bug that Xeroize D25 cannot be unlocked.
+- Fixed a bug that login failed due to duplicate login after 2 players play.
+- Fixed a bug that two combos appear in online matching.
+- Fixed a bug that step selection is not possible in Online matching due to network instability.

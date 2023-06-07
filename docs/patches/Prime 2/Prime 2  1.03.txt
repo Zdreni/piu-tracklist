@@ -1,0 +1,79 @@
+﻿Prime 2  1.03:
+
+https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1030-update-notice/1665490500145865/
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=290
+(prime2_021.bin)
+
+1.	New Songs
+
+1)	Song :  Helix
+        Artist :  ESTi
+        BPM :  175
+        Default step chart :   S05, S07, S11, S16, S18, D11, D15
+        S??(19), D??(19) (Card only step)
+
+2)	Song :   Hyperion
+        Artist :  M2U
+        BPM : 145
+        Default step chart :   S05, S09, S14, D11, D18
+        S??(18), D??(20) (Card only step)
+
+3)	Song :  HUSH  [Philippines only]
+        Artist :   Yassi Pressman & Nadine Lustre
+        BPM : 82
+        Default step chart :   S03, S05, S08, S14, D06, D15
+
+4)	Song :  (FULL SONG)  HUSH  [Philippines only]
+        Artist :  Yassi Pressman & Nadine Lustre
+        BPM : 82
+        Default step chart :  S15, D16
+
+
+2.	New Step charts
+
+1)	Song :  Yog Sothoth
+        Artist :  Nato
+        BPM : 200
+        Step chart :  S16 (6th U.C.S Contest Winner’s step, Card only step)
+
+2)	Song :  Avalanche
+        Artist :  Memme
+        BPM : 175
+        Step chart :  S16, D18 (6th U.C.S Contest Winner’s step, Card only step)
+
+
+3. Quest zone
+Quest “Chapter1” is updated.
+  1)   Song : Pick Me
+        Step chart : S03, S05, S08, S10
+  2)   Song : Red swan
+         Step chart : S04, S06, S08, S16
+  3)   Song : Tribe Attacker
+         Step chart : S09, D10, D15, D16
+  4)   Song : Rock the house
+         Step chart : D10, D13, D20, D22
+  5)   Song : Arirang
+         Step chart : S09, S18, S22, S23
+  6)   Song : Lucid
+         Step chart : S16, S20, D20, D22
+  7)   Song : Clue
+         Step chart : S12, S16, S18, S23
+
+
+4.	New contents
+Following contents are updated.
+
+1. Favorite
+- This is the content that user can set maximum 20 songs as favorite in the game play.
+- You can set Favorite (maximum 20 songs) at ‘My Info – Favorite’ menu from our official web site.
+- You can play your favorite songs at ‘Favorite’ channel after you login to the game.
+
+2. Custom Music Train
+- This is the content that user can make Music Train with the songs they want.
+- You can set slot, type and step of Custom Music Train at ‘My Info – Custom Music Train’ menu from our official web site. (maximum 3 slots)
+- You can play your Custom Music Train at ‘Music Train’ channel after you login to the game.
+
+3. Rival
+- This is the content that user can compare scores of registered rivals in game by each steps
+- You can register your rival at ‘My Info – Rival’ menu from our official web site. (maximum 3 ID)
+- You can check the info of registered rivals in rival UI at the bottom of step select screen after you login to the game.

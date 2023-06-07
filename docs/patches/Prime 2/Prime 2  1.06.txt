@@ -1,0 +1,87 @@
+﻿Prime 2  1.06:
+
+https://www.facebook.com/notes/pump-it-up/piu-2017-prime2-1060-update-notice/1803260489702198/
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=294
+(prime2_051.bin)
+
+
+1. New Songs
+
+1) Song : SOBER
+    Artist : BIGBANG
+    BPM : 130
+    Default step chart : S02, S04, S07, S13, D03, D14
+    S??(17), D??(17), DP??(CoOp(x2)) (Card only step)
+
+2) Song : Shub Niggurath
+    Artist : Nato
+    BPM : 220
+    Default step chart : S11, S15, S19, D17
+    S21, S24, D23, D26 (Unlocked step)
+
+3) Song : Magical Vacation
+    Artist : SID-SOUND
+    BPM : 154
+    Default step chart : S06, S11, S16, D07, D13
+    S??(19), D??(18) (Card only step)
+
+ 4) Song : [FULL SONG] Acquaintance
+    Artist : Outsider
+    BPM : 130
+    Default step chart : S20, D22
+
+2. New Step Charts
+
+1) Song : Pumping Up
+    Artist : BanYa
+    BPM : 135
+    step chart : D??(15) (Unlocked step)
+
+ 2) Song : PICK ME
+    Artist : PRODUCE 101
+    BPM : 128
+    step chart : D20 (Card only step)
+
+ 3) Song : Kasou Shinja
+    Artist : MAX
+    BPM : 170
+    step chart : CO-OP02 (Card only step)
+
+
+3. Big update for Double performance step
+There is big scale of update for Double performance step of PRIME 2 new songs.
+We deeply appreciate for the people provided the steps for it.
+
+	 1) Acquaintance DP04
+	 2) Arcana Force DP02
+	 3) Asterios - ReEntry – DP03
+	 4) BANG BANG BANG DP03
+	 5) BOOMBAYAH DP03
+	 6) Bring Back The Beat DP05
+	 7) Christmas Memories DP04
+	 8) Clue DP04
+	 9) Death Moon DP03
+	10) Further DP03
+	11) God Mode feat. skizzo DP04
+	12) Hellfire DP04
+	13) Jackpot DP03
+	14) Just Kiddin DP05
+	15) Le Grand Bleu DP06
+	16) Moonlight Dance DP04
+	17) NUMBER NINE DP04
+	18) RHYTHM TA DP04
+	19) Sarabande DP04
+	20) Up & Down DP05
+	21) You’re The Best DP02
+
+
+4. Webcam function added for LX cabinet
+Webcam function dedicated to LX cabinet is added.
+1) Webcam function is only for LX cabinet.
+2) There will be webcam shooting stage after the result screen of the first stage in every
+      credit. You may agree or disagree with taking a picture by controlling step or button.
+3) After the approval, webcam will take a picture of you.
+4) The picture will be uploaded to PIU website. (preparing)
+     If you are in login status, picture will be uploaded to 'My Gallery'.
+     If you are not in login status, it will be uploaded to 'Guest Gallery'.
+     Website uploading function is on developing and will be updated later.

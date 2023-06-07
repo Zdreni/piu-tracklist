@@ -1,0 +1,122 @@
+﻿Prime 2  2.00:
+
+https://www.facebook.com/notes/pump-it-up/piu-prime2-2018-2000-update-notice/1976605012367744/
+	(also https://www.facebook.com/PIU2018Prime2/posts/1623705891026078)
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=304
+(prime2_100.bin, prime2_101.bin and prime2_102.bin)
+
+
+
+1. New Songs
+
+1) Title :  Super Capriccio
+     Artist :  SHK
+     BPM : 150
+     Default step chart : S04, S07, S11, S16, D11
+     S??(18), D??(18) (Unlocked step)
+
+2) Title :  Anguished Unmaking
+     Artist :  void
+     BPM : 170
+     Default step chart : S03, S05, S08, S15, D09
+     S??(17), D??(18) (Unlocked step)
+
+3) Title :  Beautiful
+     Artist : Wanna One
+     BPM : 80
+     Default step chart :  S02, S03, S05, S09, S15, D05, D12
+     D??(18) (Card only step)
+
+4) Title :  Energetic
+     Artist :  Wanna One
+     BPM : 125
+     Default step chart :  S02, S04, S06, S09, S13, D06, D14
+     S??(16), D??(16), D??(19) (Unlocked step)
+
+5) Title : REALLY REALLY
+     Artist : WINNER
+     BPM : 103
+     Default step chart : S02, S04, S06, S13, D07
+     S??(15), D??(16) (Unlocked step)
+
+6) Title :  INFINITY
+     Artist :  Lunatic Sounds
+     BPM : 175
+     Default step chart :  S10, S15, D10, CO-OP02
+     S??(18), S??(21), D??(19), D??(24) (Unlocked step)
+
+7) Title : V3
+     Artist : Beautiful Day
+     BPM : 160
+     Default step chart : S06, S09, S14, D09
+     S??(17), D??(18), D??(24) (Unlocked step)
+
+8) Title :  Twist of Fate (feat. Ruriling)
+     Artist :  Jehezukiel
+     BPM : 141
+     Default step chart : S04, S06, S10, S16, D10, D17
+     S??(18), D??(20) (Unlocked step)
+
+9) Title : HTTP
+     Artist :  Quree
+     BPM : 147
+     Default step chart :  S02, S04, S07, S14, D10, D12
+     S??(17), S??(21), D??(19), D??(23) (Unlocked step)
+
+10) Title : [SHORT CUT] Hyperion
+     Artist :  M2U
+     BPM : 145
+     Default step chart :  S15, S20, D21
+
+11) Title : [SHORT CUT] Kasou Shinja
+     Artist : MAX
+     BPM : 170
+     Default step chart : S20, D21
+
+
+
+2. New Step Charts
+
+1) Title : D-Gang
+     Artist : BanYa
+     BPM : 150
+     step chart :  D17
+
+2) Title : Solitary 2
+     Artist : BanYa
+     BPM : 136
+     step chart : D21
+
+3) Title : La Grand Bleu
+     Artist : KIEN
+     BPM : 165
+     step chart : S20
+
+4) Title : Avalanche
+     Artist : Memme
+     BPM : 175
+     step chart : CO-OP03
+
+5) Title :  Sugar Conspiracy Theory
+     Artist : MAX
+     BPM : 170
+     step chart :  CO-OP02
+
+6) Title : You’re the best
+     Artist :  MAMAMOO
+     BPM : 122
+     step chart : CO-OP02
+
+
+
+3. Quest zone
+Quest “Chapter6” is updated.
+
+
+4. New Avatar
+New avatars have been added.
+New avatars can be found on the avatar menu of the PIU official hompage (www.piugame.com) item shop.
+
+
+5. Some graphic changes
+Some graphics have been changed for PRIME2 2018.

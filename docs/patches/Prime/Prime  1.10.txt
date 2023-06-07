@@ -1,0 +1,81 @@
+﻿Prime  1.10:
+
+https://www.facebook.com/notes/1175368725824714/
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=166
+(prime_09.bin)
+
+1. NEW Song
+
+  1)  Song : Reminicence
+       Artist : MAX
+       BPM : 155
+       Default step chart : S03, S06, S10, D10, CO-OP X2
+       Unlock step chart : S17, D18
+
+  2)  Song : Hyacinth
+       Artist : Yahpp
+       BPM : 192
+       Default step chart : S09, S13, D12
+       Unlock step chart : S18, S21, D19, D23
+
+  3) Song : Imprinting
+      Artist : Sakuzyo
+      BPM : 175
+      Default step chart : S04, S07, S11, D12
+      Unlock step chart : S17, S20, D20
+
+  4) Song : Yoropiku Pikuyoro!
+      Artist : Bakusute Sotokanda Icchome
+      BPM : 198
+      Step chart : S03, S05, S09, S15, D05, D16, SP03
+
+ 5) Song : [Shortcut] Super Fantasy
+     Artist : SHK
+     BPM : 145
+     Step chart : S19, D17
+
+
+2. New step charts
+    Song: [Remix] Avalanquiem
+    Artist : MAX & Memme
+    BPM : 175
+    Step chart : S19
+
+
+3. Quest zone
+    Quest “Chapter10” is updated.
+
+  1) Song : My Way
+      Step chart : S08, S12, D15, D18
+
+  2) Song : Do You Know That – Old School)
+      Step chart : S04, S14, D18, D19
+
+  3) Song : My Dreams
+      Step chart : S10, S17, S18, S19
+
+  4) Song : Sorceress Elise
+      Step chart : D19, D20, D22, D23
+
+  5) Song : Hypnosis(SynthWulf Mix)
+      Step chart : D13, D15, D20, D21
+
+
+4. Unlocked Step charts
+  1) Song : Katkoi
+      Step chart : S18, D19 - released!
+  2) Song : Dolly Kiss
+      Step chart : S14, D15 - released!
+  3) Song : B2
+      Step chart : S16, S18, D19 - released!
+
+
+
+5. New U.C.S songs are added!
+    - Latino Virus
+    - Leakage Voltage
+    - Red Swan
+    - Cosmical Rhythm
+    - MATADOR
+* New added U.C.S songs will be used for U.C.S contest and new contest notice will be announced soon.
+Thanks!!

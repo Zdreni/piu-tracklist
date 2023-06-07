@@ -1,0 +1,98 @@
+﻿Prime  1.07:
+
+https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1070-update-information/1121502457878008
+http://www.ph-online.net/cgi-bin/ib3/ikonboard.cgi?act=ST;f=18;t=12986
+http://www.piugame.com/bbs/board.php?bo_table=global_notice&wr_id=120
+(prime_06.bin)
+
+New songs
+* Katkoi - M2U BPM 180. Visualized by Felnya S07, S10, D12
+* B2 - MAX BPM 158. Visualized by YSJ S04, S07, S11, D13
+* 1950 - SLAM BPM 200. Visualized by YSJ S23, D25
+* Dolly KiSS - SID-Sound BPM 149. Visualized by Felnya S03, S06, D06
+
+New unlocks in www.piugame.com
+* Katkoi S14, S18, D15, D19
+* B2 S16, S18, D19
+* 1950 S25, D27
+* Dolly KiSS S14, D15
+* Meteorize S17, D18
+
+Quest Zone Chapter 7:
+1) Rainspark
+    Step chart : S5, S9, S15, S17
+
+ 2) Ignition Starts
+     Step chart : S8, S15, D10, D18
+
+ 3) Re-Rave
+     Step chart : S11, S17, D18, D19
+
+ 4) Naissance
+     Step chart : S10, S20, S23, D25
+
+ 5) Ignis Fatuus(DM Ashura Mix)
+     Step chart : D19, D23, D25, D26
+
+Stepcharts unlocked
+* Avalanche S18, D19, D24
+
+Bugfix.
+
+
+1. NEW Songs
+ 1) Song :Katkoi
+     Artist : M2U
+     BPM : 180
+     Default step chart : S7, S10, D12
+     Unlock step chart : S?, D?
+
+ 2) Song : B2
+     Artist : MAX
+     BPM : 158
+     Default step chart : S4, S7, S11, D13
+     Unlock step chart : S?, S?, D?
+
+3) Song : 1950
+    Artist : SLAM
+    BPM : 200
+    Default step chart : S23, D25
+    Unlock step chart : S?, D?
+
+4) Song : Dolly Kiss
+    Artist : SID-SOUND
+    BPM : 149
+    Default step chart : S3, S6, D6
+    Unlock step chart : S?, D?
+
+
+2. New unlock step charts
+
+1) Song : Meteorize
+     Artist : Paul Bazooka
+     Unlock Step chart : S?, D?
+
+3. Quest zone
+    Quest “Chapter7” is updated.
+
+  1) Rainspark
+     Step chart : S5, S9, S15, S17
+
+  2) Ignition Starts
+      Step chart : S8, S15, D10, D18
+
+  3) Re-Rave
+      Step chart : S11, S17, D18, D19
+
+  4) Naissance
+      Step chart : S10, S20, S23, D25
+
+  5) Ignis Fatuus(DM Ashura Mix)
+      Step chart : D19, D23, D25, D26
+
+4. Unlocked Step charts
+ 1) Avalanche : S18, D19, D24 - released!
+
+5. Bugs fixed!
+
+Thanks!!

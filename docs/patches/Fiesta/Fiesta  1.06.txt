@@ -1,0 +1,25 @@
+Fiesta  1.06:
+
+http://www.ph-online.net/cgi-bin/ib3/ikonboard.cgi?act=ST;f=18;t=10943
+(fiesta05.bin)
+
+- Bugs in mission zone of V1.05 are revised.
+- New STEPS (total 13 modes) in ShortCut Mode are added !
+- New contents (total 3 modes) in Music Train Mode are added !
+
+Newly added ShortCut steps:
+1. Love is a Danger Zone - BanYa / single 13
+2. Love is a Danger Zone pt.2 – BanYa / single 8
+3. Extravaganza - BanYa / double 14 and double 21
+4. Winter – BanYa / double 10
+5. Moonlight – BanYa / single 16
+6. Witch Doctor – BanYa / single 14
+7. EXCEED2 Opening – BanYa / double 19
+8. Bemera – Yahpp / single 13 and single 23
+9. Pumptris 8bit ver. – Yahpp / single 8
+10. Destination – SHK /single 9 and double 20
+
+Newly added Music Train contents:
+1. msgoon series
+2. Notorious Nightmares
+3. Shocking Shortcut D

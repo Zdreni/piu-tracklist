@@ -1,0 +1,50 @@
+﻿Prime  1.02:
+
+https://www.facebook.com/notes/pump-it-up/piu-2015-prime-1020-update-information/1025983457429909
+(prime_011.bin)
+
+1. NEW Songs
+ 1) Song : On and On
+     Artist : VIXX
+     BPM : 119
+     Step chart : S2, S4, S6, S15, D5, D15
+     ** Both Basic and Full mode available
+
+
+ 2) Song : Achluoias
+     Artist : D_AAN (D_AAN)
+     BPM : 200
+     Step chart : S8, S15, S18, S22, D12, D16, D24
+
+
+ 3) Song : PRIME Opening  (shortcut)
+     Artist : MAX
+     BPM : 128
+     Step chart : S15, D15, DP??
+
+
+2. New step charts
+ 1) Red Swan : DP??
+ 2) Her : DP ??
+ 3) NoNoNo : DP??
+
+3. Quest zone
+    Quest “Chapter2” is updated.
+
+  1) Passacaglia
+     Step chart : S7, S10, S16, S18
+
+  2) Dr. M
+      Step chart : S9, S12, S16, S19
+
+  3) Winter
+      Step chart : S6, S8, S15, S20
+
+  4) CHICKEN WING
+      Step chart : S10, S17, S19, S20
+
+  5) Super Fantasy
+      Step chart : S16, S19, D21, D22
+
+
+4.  Trivial bugs fixed

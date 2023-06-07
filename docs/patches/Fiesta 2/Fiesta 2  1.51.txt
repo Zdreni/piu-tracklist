@@ -1,0 +1,6 @@
+﻿Fiesta 2  1.51:
+
+https://www.facebook.com/notes/pump-it-up/fiesta-2s-8th-official-updatev151-information-pump-it-up/853291654699091
+
+1. Fixed USB-concerning bugs and "Wanna Train", "Mix Station" bug of Music Train
+2. Added "Higgledy Piggledy" S16, "Get up" D17

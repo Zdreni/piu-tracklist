@@ -1,0 +1,14 @@
+Fiesta  1.20:
+
+http://www.ph-online.net/cgi-bin/ib3/ikonboard.cgi?act=ST;f=18;t=11184
+(fiesta10.bin)
+
+1. Newly added BGAs !
+Among the songs updated in FIESTA 1.10, BGAs of several songs have been added !
+(The list is as follows: 1. Tepris, 2. Napalm, 3. Dieciseis, 4. Midnight Blue)
+
+2. New Music Train Course !
+Two new music train courses have been updated. Both of them consist of PIU’s many historic classic songs, and in addition to old classic songs, they include Hungarian Dance V and The Devil, which are BanYa’s new classic songs in FIESTA EX !
+
+3. Improved bugs and problems !
+Several bugs and problems, such as USB level icon problem, Music train EXP problem and more, are corrected !
