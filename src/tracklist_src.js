@@ -61,126 +61,7 @@ var readableTracklist = {
 */
 
 
-"16__Cygnus":
-{
-	title: "Cygnus", artist: "Nato", channel: ORIGINAL, bpm: "188",
-	// sortingID: "16A7__1",  // between 16__The_Reverie (16A7) and 16__Tropicanic (16A7__2/16B5)
-	arcadeID: "16B4",
-	pumpoutID: 897,
-
-	XX: "@2.08 S4 S7 S11 S17 S19 S22 D12 D18 D21 D24",
-},
-
-
-"16__Tropicanic":
-{
-	title: "Tropicanic", artist: "SHK", channel: ORIGINAL, bpm: "145",
-	// sortingID: "16A7__2",  // between 16__Cygnus (16A7__1) and 16_God_Mode_2_0 (16F6__1)
-	arcadeID: "16B5",
-	pumpoutID: 898,
-
-	XX: "@2.08 S2 S4 S7 S11 S16 S19 D6 D13 D18 D21",
-},
-
-
-"16__Mopemope":
-{
-	title: "Mopemope", artist: "LeaF", channel: WORLD, bpm: "100",
-	//sortingID: "1699__1",  // between 16__Gloria (WORLD/1699) and 16__Re_End_of_a_Dream (WORLD/1699__2/16B2)
-	arcadeID: "16B1",
-	pumpoutID: 894,
-
-	XX: "@2.08 S11 S15 S17 S20 S23 D16 D19 D23 D25 CoOp(x2)",
-},
-
-
-// Gloria, mope, end of dream, cross, allegro full,... Ultimatum
-
-
-"16__Re_End_of_a_Dream":
-{
-	title: "Re: End of a Dream", artist: "uma vs. Morimori Atsushi", channel: WORLD, bpm: "212",
-	// sortingID: "1699__2",  // between 16__Mopemope (WORLD/1699__1/16B1) and 16__Cross_Ray (WORLD/1699__3/16B3)
-	arcadeID: "16B2",
-	pumpoutID: 895,
-
-	XX: "@2.08 S12 S15 S19 S21 S23 D18 D22 D25",
-},
-
-
-"16__Cross_Ray":
-{
-	title: "Cross Ray", artist: "HyuN", channel: WORLD, bpm: "176",
-	// sortingID: "1699__3",  // between 16__Re_End_of_a_Dream (WORLD/1699__2/16B2) and 16__Ultimatum (WORLD/1699__4)
-	arcadeID: "16B3",
-	pumpoutID: 896,
-	arcadeName: "CROSS RAY",
-
-	XX: "@2.08 S4 S7 S12 S16 S19 S22 D14 D20 D23",
-},
-
-
-"16__Ultimatum":
-{
-	title: "Ultimatum", artist: "Cosmograph", channel: WORLD, bpm: "202",
-	// sortingID: "1699__4",  // between 16__Cross_Ray (WORLD/1699__3) and 16__Kokugen_Kairou_Labyrinth (WORLD/1699__5)
-	arcadeID: "1705",
-	sortingID: "16B3__1",  // between 16__Cross_Ray (WORLD/16B3) and 16__Kokugen_Kairou_Labyrinth (WORLD/16B3__2)
-	pumpoutID: 893,
-
-	XX: "@2.08 S17 S21 S23 S25 D25 D27",
-},
-
-
-"16__Paradoxx__SHORT":
-{
-	title: "Paradoxx  [SHORT]", artist: "SLAM & NATO", channel: ORIGINAL, bpm: "220",
-	sortingID: "16B6",  // between  () and  ()
-	// arcadeID: "16B6",
-	pumpoutID: 899,
-	arcadeName: "Paradoxx - SHORT CUT -",
-
-	XX: "@2.08 S21 S24 D26",
-},
-
-
-"16__Brown_Sky":
-{
-	title: "Brown Sky", artist: "Doin", channel: ORIGINAL, bpm: "200", duration: REMIX,
-	sortingID: "16B7",  // between  () and  ()
-	// arcadeID: "16B7",
-	pumpoutID: 900,
-
-	// arcadeName: "",
-	XX: "@2.08 S19 S21 S24 D21 D24 D26",
-},
-
-
-"16__Good_Night__FULL":
-{
-	title: "Good Night  [FULL]", artist: "Dreamcatcher", channel: KPOP, bpm: "196",
-	sortingID: "16B8",  // between  () and  ()
-	// arcadeID: "16B8",
-	pumpoutID: 901,
-
-	arcadeName: "GOOD NIGHT - FULL SONG -",
-	XX: "@2.08 S18 S21 S24 D26",
-},
-
-
-
-
-"16__Kokugen_Kairou_Labyrinth":
-{
-	title: "Kokugen Kairou Labyrinth", artist: "A:llha (ANE + 2riA)", channel: WORLD, bpm: "215",
-	altID: "16_Kokugen_Kairou_Labyrinth",
-	arcadeID: "1718",
-	//sortingID: "1699__5",  // between 16__Ultimatum (1699__5) and 16_Imagination (1678)
-	sortingID: "16B3__2",  // between 16__Ultimatum (16B3__1) and 16_Imagination (1678)
-	pumpoutID: 888,
-
-	XX: "@2.07 S9 S12 S15 S17 D18 S20.lock S23.lock D22.lock D26.lock",
-},
+// \16 - XX
 
 
 "16__God_Mode_2_0":
@@ -196,8 +77,29 @@ var readableTracklist = {
 },
 
 
+"16__Ultimatum":
+{
+	title: "Ultimatum", artist: "Cosmograph", channel: WORLD, bpm: "202",
+	// sortingID: "1699__4",  // between 16__Cross_Ray (WORLD/1699__3) and 16__Kokugen_Kairou_Labyrinth (WORLD/1699__5)
+	arcadeID: "1705",
+	sortingID: "16B3__1",  // between 16__Cross_Ray (WORLD/16B3) and 16__Kokugen_Kairou_Labyrinth (WORLD/16B3__2)
+	pumpoutID: 893,
 
-// \16 - XX
+	XX: "@2.08 S17 S21 S23 S25 D25 D27",
+},
+
+
+"16__Kokugen_Kairou_Labyrinth":
+{
+	title: "Kokugen Kairou Labyrinth", artist: "A:llha (ANE + 2riA)", channel: WORLD, bpm: "215",
+	altID: "16_Kokugen_Kairou_Labyrinth",
+	arcadeID: "1718",
+	//sortingID: "1699__5",  // between 16__Ultimatum (1699__5) and 16_Imagination (1678)
+	sortingID: "16B3__2",  // between 16__Ultimatum (16B3__1) and 16_Imagination (1678)
+	pumpoutID: 888,
+
+	XX: "@2.07 S9 S12 S15 S17 D18 S20.lock S23.lock D22.lock D26.lock",
+},
 
 
 "16__Wedding_Crashers":
@@ -1353,6 +1255,89 @@ var readableTracklist = {
 },
 
 
+"16__Mopemope":
+{
+	title: "Mopemope", artist: "LeaF", channel: WORLD, bpm: "100",
+	arcadeID: "16B1",
+	pumpoutID: 894,
+
+	XX: "@2.08 S11 S15 S17 S20 S23 D16 D19 D23 D25 CoOp(x2)",
+},
+
+
+"16__Re_End_of_a_Dream":
+{
+	title: "Re: End of a Dream", artist: "uma vs. Morimori Atsushi", channel: WORLD, bpm: "212",
+	arcadeID: "16B2",
+	pumpoutID: 895,
+
+	XX: "@2.08 S12 S15 S19 S21 S23 D18 D22 D25",
+},
+
+
+"16__Cross_Ray":
+{
+	title: "Cross Ray", artist: "HyuN", channel: WORLD, bpm: "176",
+	arcadeID: "16B3",
+	pumpoutID: 896,
+	arcadeName: "CROSS RAY",
+
+	XX: "@2.08 S4 S7 S12 S16 S19 S22 D14 D20 D23",
+},
+
+
+"16__Cygnus":
+{
+	title: "Cygnus", artist: "Nato", channel: ORIGINAL, bpm: "188",
+	arcadeID: "16B4",
+	pumpoutID: 897,
+
+	XX: "@2.08 S4 S7 S11 S17 S19 S22 D12 D18 D21 D24",
+},
+
+
+"16__Tropicanic":
+{
+	title: "Tropicanic", artist: "SHK", channel: ORIGINAL, bpm: "145",
+	arcadeID: "16B5",
+	pumpoutID: 898,
+
+	XX: "@2.08 S2 S4 S7 S11 S16 S19 D6 D13 D18 D21",
+},
+
+
+"16__Paradoxx__SHORT":
+{
+	title: "Paradoxx  [SHORT]", artist: "SLAM & NATO", channel: ORIGINAL, bpm: "220",
+	arcadeID: "16B6",
+	pumpoutID: 899,
+	arcadeName: "Paradoxx - SHORT CUT -",
+
+	XX: "@2.08 S21 S24 D26",
+},
+
+
+"16__Brown_Sky":
+{
+	title: "Brown Sky", artist: "Doin", channel: ORIGINAL, bpm: "200", duration: REMIX,
+	arcadeID: "16B7",
+	pumpoutID: 900,
+
+	XX: "@2.08 S19 S21 S24 D21 D24 D26",
+},
+
+
+"16__Good_Night__FULL":
+{
+	title: "Good Night  [FULL]", artist: "Dreamcatcher", channel: KPOP, bpm: "196",
+	arcadeID: "16B8",
+	pumpoutID: 901,
+
+	arcadeName: "GOOD NIGHT - FULL SONG -",
+	XX: "@2.08 S18 S21 S24 D26",
+},
+
+
 "16__Allegro_Con_Fuoco__FULL":
 {
 	title: "Allegro Con Fuoco  [FULL]", artist: "DM Ashura", channel: WORLD, bpm: "156",
@@ -1394,7 +1379,6 @@ var readableTracklist = {
 	altID: "16_Errorcode_0",
 	arcadeID: "16D1",
 	pumpoutID: 852,
-	// arcadeName: "",
 
 	XX: "@2.04 S19 S23 D24 S25.lock D27.lock",
 },
