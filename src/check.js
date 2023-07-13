@@ -188,3 +188,78 @@ function Check( srcList, config )
 	var checkTracklist = CreateCheckTracklist( srcList, config );
 	CheckTracklist( readableTracklist, checkTracklist, config );
 }
+
+
+function ExtractDigitsFromString( str )
+{
+	const digitRegex = /\d+/g; // Matches one or more digits
+	const digits = str.match(digitRegex);
+
+	if (digits === null)
+		return 0;
+
+	return digits.map( Number );
+}
+
+
+function SortCharts( a, b )
+{
+	const chartsSortOrder = ['S', 'D', 'C'];
+	const aOrder = chartsSortOrder.indexOf( a.charAt( 0 ) );
+	const bOrder = chartsSortOrder.indexOf( b.charAt( 0 ) );
+	if( aOrder != bOrder )
+		return aOrder - bOrder;
+	else
+		return ExtractDigitsFromString( a ) - ExtractDigitsFromString( b );
+}
+
+
+function GetTracklistChartTexts( mixName, trackID )
+{
+	if( ! tracklist[ trackID ][ mixName ] )
+		return [];
+
+	return tracklist[ trackID ][ mixName ].filter( ch => ! ch.fromPatchIndex ).map( ch => ch.text.replace( "Dp??", "CoOp" ) ).sort( SortCharts );
+}
+
+
+function GetCheckChartTexts( checkTable, trackID )
+{
+	if( ! checkTable[ trackID ] )
+		return [];
+
+	return checkTable[ trackID ].split( ' ' ).filter( ch => ch !== "" ).sort( SortCharts );
+}
+
+function GetNewMixChartsDifference( mixName, checkTable, trackID )
+{
+	var src = GetTracklistChartTexts( mixName, trackID );
+	var dst = GetCheckChartTexts( checkTable, trackID );
+	//return src.filter( x => ! dst.includes( x ) ).concat( dst.filter( x => ! src.includes( x ) ) );
+	var dstAdd = dst.filter( x => ! src.includes( x ) ).map( x => `+${x}` );
+	var srcSub = src.filter( x => ! dst.includes( x ) ).map( x => `-${x}` );
+	//return srcSub.concat( dstAdd ).join( ' ' );
+	return dstAdd.concat( srcSub );
+}
+
+
+function CheckInitialTracklistOfNewMix( mixName, checkTable )
+{
+	var exceptions = [];
+	for( var trackID in tracklist )
+	{
+		try
+		{
+			let difference = GetNewMixChartsDifference( mixName, checkTable, trackID )
+			if( difference.length > 0 )
+				throw new Error( mixName + " check:  content mismatch for '" + trackID + "':  difference = " + difference.join( ' ' ) );
+		}
+		catch( exc )
+		{
+			exceptions.push( exc );
+		}
+	}
+
+	if( exceptions.length > 0 )
+		throw new Error( exceptions.join( '<br>\n' ) );
+}
