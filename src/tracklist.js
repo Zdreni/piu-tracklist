@@ -125,16 +125,16 @@ var LATIN = "Latin";
 var PHILIPPINES = "Philippines";
 
 
-var OldArcadeTags     = ["NL", "HD", "CZ", "FS", "NM"];
-var OldArcadeTags_low = ["nl", "hd", "cz", "fs", "nm"];
+const OldArcadeTags     = ["NL", "HD", "CZ", "FS", "NM"];
+const OldArcadeTags_low = ["nl", "hd", "cz", "fs", "nm"];
 
-var OldSpecialTags     = ["aNL", "aHD", "aCZ", "aFS", "aNM"];
-var OldSpecialTags_low = ["anl", "ahd", "acz", "afs", "anm"];
+const OldSpecialTags     = ["aNL", "aHD", "aCZ", "aFS", "aNM"];
+const OldSpecialTags_low = ["anl", "ahd", "acz", "afs", "anm"];
 
-var OldTagTypes = [ SINGLE, SINGLE, SINGLE, DOUBLE, DOUBLE ];
+const OldTagTypes = [ SINGLE, SINGLE, SINGLE, DOUBLE, DOUBLE ];
 
-var NewTags = [ "Sp", "S", "Dp", "D", "CoOp" ];
-var NewTagTypes = [ SINGLE, SINGLE, DOUBLE, DOUBLE, COUPLE ];
+const NewTags = [ "Sp", "S", "Dp", "D", "CoOp" ];
+const NewTagTypes = [ SINGLE, SINGLE, DOUBLE, DOUBLE, COUPLE ];
 
 
 var mixes =
@@ -186,6 +186,9 @@ var mixes =
 	'XX':       { style: "new",
 	              patches: ["1.00", "1.01", "1.02", "1.03", "1.04", "1.05",
 	                        "2.00", "2.01", "2.02", "2.03", "2.04", "2.05", "2.06", "2.07", "2.08"] },
+
+	'Phoenix':  { style: "new",
+	              patches: ["1.00"] },
 };
 
 /*
@@ -196,10 +199,12 @@ for( var k in mixes )
 }
 */
 
-var mixesOrder = [ "Exceed", "Exceed2", "Zero", "NX", "NX2", "NXA", "Fiesta", "FiestaEX", "Fiesta2", "Prime", "Prime2", "XX" ];
-var firstNewMixIndex = mixesOrder.indexOf( "Fiesta" );
-var oldMixesReverseOrder = mixesOrder.slice(0, firstNewMixIndex ).reverse();  // NXA..Exceed
-var newMixesOrder = mixesOrder.slice( firstNewMixIndex );  // Fiesta..Prime
+const mixesOrder = [ "Exceed", "Exceed2", "Zero", "NX", "NX2", "NXA", "Fiesta", "FiestaEX", "Fiesta2", "Prime", "Prime2", "XX", "Phoenix" ];
+const lowCaseMixesOrder = mixesOrder.map( x => x.toLowerCase() );
+const firstNewMixIndex = mixesOrder.indexOf( "Fiesta" );
+const lastOldMixIndex = firstNewMixIndex - 1;
+//const oldMixesReverseOrder = mixesOrder.slice(0, firstNewMixIndex ).reverse();  // NXA..Exceed
+const newMixesOrder = mixesOrder.slice( firstNewMixIndex );  // Fiesta..Prime
 
 
 function Normalized( title )
@@ -301,70 +306,83 @@ function FindChartsWithIndexInMixesRange( track, chartIndex, mixIndexFrom, mixIn
 }
 
 
+function GetMixIndex( mixName )
+{
+	const mixIndex = lowCaseMixesOrder.indexOf( mixName.toLowerCase() );
+	if( mixIndex < 0 )
+		throw new Error( "Can't find mix '" + mixName + "'" );
+	return mixIndex;
+}
+
+
+function FindChartEx( track, chartDescr, chartPattern, fromMixName, toMixName )
+{
+	const fromMixID = GetMixIndex( fromMixName );
+	const toMixID = GetMixIndex( toMixName );
+	if( fromMixID > toMixID )
+		throw new Error( `Wrong mix range ${fromMixName} - ${toMixName}` );
+
+	for( var mixID = toMixID;  mixID >= fromMixID;  --mixID )
+	{
+		if( track[ mixesOrder[ mixID ] ] )
+		{
+			var chart = _.findWhere( track[ mixesOrder[ mixID ] ], chartPattern );
+			if( chart )
+				return chart;
+		}
+	}
+
+	//throw new Error( `Can't find ${track.id} '${chartDescr}' @ ${fromMixName}..${toMixName}` );
+	throw new Error( `Can't find ${track.id} '${JSON.stringify(chartPattern)}' @ ${fromMixName}..${toMixName}` );
+}
+
+
 function FindChart( track, chartDescr )
 {
 	var chartInfo = chartDescr.split( "-" );
 
-	var mixID = chartInfo.length > 1  ?  chartInfo[ 1 ]  :  "";
+	var chartSearchPattern = {};
+
+	var mixRange = ["", ""];
+
+	var mixName = chartInfo.length > 1  ?  chartInfo[ 1 ]  :  "";
+	if( mixName !== "" )
+		mixRange = [ mixName, mixName ];
+
 	var localChartDescr = chartInfo [ 0 ];
 
 	var arcadeTagIndex = OldArcadeTags_low.indexOf( localChartDescr.toLowerCase() );
 	var specialTagIndex = OldSpecialTags_low.indexOf( localChartDescr.toLowerCase() );
 	if( arcadeTagIndex >= 0  ||  specialTagIndex >= 0 )
 	{
-		var chartTag = ( arcadeTagIndex >= 0  ?  OldArcadeTags[ arcadeTagIndex ]  :  OldSpecialTags[ specialTagIndex ] );
+		const chartTag = ( arcadeTagIndex >= 0  ?  OldArcadeTags[ arcadeTagIndex ]  :  OldSpecialTags[ specialTagIndex ] );
+		chartSearchPattern = { tag: chartTag };
 
-		if( mixID != "" )
-		{
-			var chart = _.findWhere( track[ mixID ], { tag: chartTag } );
-			if( ! chart )
-				throw new Error( "Can't find chart '" + chartDescr + "' in track '" + track.title + "'" );
-			return chart;
-		}
-
-		for( var oldMixID of oldMixesReverseOrder )
-		{
-			if( track[ oldMixID ] )
-			{
-				var chart = _.findWhere( track[ oldMixID ], { tag: chartTag } );
-				if( chart )
-					return chart;
-			}
-		}
+		if ( mixName === "" )
+			mixRange = [ mixesOrder[ 0 ], mixesOrder[ lastOldMixIndex ] ];
 	}
 	else
 	{
 		var result = localChartDescr.match( /(\D+)(\d+)$/ );
-		var chartSearchPattern = { text: localChartDescr }
-		var chartTag = localChartDescr;
-		var chartlevelText = 0;
 		if( result )
-		{
-			chartTag = result[ 1 ];
-			chartlevelText = result[ 2 ];
-			chartSearchPattern = { tag: chartTag, levelText: chartlevelText }
-		}
+			chartSearchPattern = { tag: result[ 1 ], levelText: result[ 2 ] }
+		else
+			chartSearchPattern = { text: localChartDescr };
 
-		if( mixID != "" )
-		{
-			var chart = _.findWhere( track[ mixID ], chartSearchPattern );
-			if( ! chart )
-				throw new Error( "Can't find chart '" + chartDescr + "' in track '" + track.title + "' [" + mixID + "]" );
-			return chart;
-		}
-
-		for( var newMixID of newMixesOrder )
-		{
-			if( track[ newMixID ] )
-			{
-				var chart = _.findWhere( track[ newMixID ], chartSearchPattern );
-				if( chart )
-					return chart;
-			}
-		}
+		if( mixName === "" )
+			mixRange = [ mixesOrder[ firstNewMixIndex ], mixesOrder.at( -1 ) ];
 	}
 
-	throw new Error( "Can't find " + track.title + " / " + track.arcadeID + " chart '" + chartDescr + "'" );
+	try
+	{
+		return FindChartEx( track, localChartDescr, chartSearchPattern, mixRange[ 0 ], mixRange[ 1 ] );
+	}
+	catch (e)
+	{
+		throw new Error( `Can't find ${track.id} chart '${chartDescr}' because of ${e}` );
+	}
+
+	//throw new Error( "Can't find " + track.id + " chart '" + chartDescr + "'" );
 }
 
 

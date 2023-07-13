@@ -81,7 +81,7 @@ function CopyChartWithRemovedObviousFieldsForApp( track, mixID, chart )
 	if( chart.isLocked )
 	{
 		if( ! chart.unlockDescr )
-			throw new Error( "No unlock condition specified for " + track.title + " " + chart.text );
+			throw new Error( `No unlock condition specified for ${track.id} ${chart.text}` );
 		delete chart.isLocked;
 	}
 
@@ -98,7 +98,7 @@ function CopyChartWithRemovedObviousFieldsForDB( track, mixID, chart )
 	if( chart.isLocked )
 	{
 		if( ! chart.unlockDescr )
-			throw new Error( "No unlock condition specified for " + track.title + " " + chart.text );
+			throw new Error( `No unlock condition specified for ${track.id} ${chart.text}` );
 		delete chart.isLocked;
 	}
 
@@ -162,6 +162,7 @@ function ConvertInnerDataToOutput( track, shortenData )
 	}
 
 	track.title = track.title.replace( "  ", "&nbsp;&nbsp;" ).replace( "<", "&lt;" ).replace( ">", "&gt;" );
+	delete track.id;
 }
 
 
