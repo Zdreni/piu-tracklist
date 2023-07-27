@@ -143,6 +143,7 @@ function ConvertInnerDataToOutput( track, shortenData )
 		for( var mixID of mixesOrder )
 		{
 			delete track.chartsCount;
+			delete track.channel;
 
 			var mixCharts = track[ mixID ];
 			if( ! mixCharts )
@@ -347,21 +348,9 @@ function DumpAll( shortenData, rawOutput, targetPath )
 }
 
 
-function DumpHtmlForBackend()
-{
-	DumpAll( false, false );
-}
-
-
 function DumpPlainTextForBackend( path )
 {
 	DumpAll( false, true, path );
-}
-
-
-function DumpHtmlForStepItUp()
-{
-	DumpAll( true, false );
 }
 
 
