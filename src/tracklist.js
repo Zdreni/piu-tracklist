@@ -191,20 +191,13 @@ var mixes =
 	              patches: ["1.00"] },
 };
 
-/*
-for( var k in mixes )
-{
-	if( ! mixes[ k ].patches )
-		mixes[ k ].patches = ["1.00"];
-}
-*/
 
 const mixesOrder = [ "Exceed", "Exceed2", "Zero", "NX", "NX2", "NXA", "Fiesta", "FiestaEX", "Fiesta2", "Prime", "Prime2", "XX", "Phoenix" ];
 const lowCaseMixesOrder = mixesOrder.map( x => x.toLowerCase() );
 const firstNewMixIndex = mixesOrder.indexOf( "Fiesta" );
 const lastOldMixIndex = firstNewMixIndex - 1;
 //const oldMixesReverseOrder = mixesOrder.slice(0, firstNewMixIndex ).reverse();  // NXA..Exceed
-const newMixesOrder = mixesOrder.slice( firstNewMixIndex );  // Fiesta..Prime
+//const newMixesOrder = mixesOrder.slice( firstNewMixIndex );  // Fiesta..Prime
 
 
 function Normalized( title )
@@ -239,9 +232,9 @@ function FindTrack( tracklist, idOrTitle )
 			return Normalized( item.title ) === normTitle;
 		} );
 	if( result.length === 0 )
-		throw new Error( "Can't find track '" + idOrTitle + "'" );
+		throw new Error( `Can't find track '${idOrTitle}'` );
 	else if( result.length > 1 )
-		throw new Error( "Several tracks with name '" + idOrTitle + "' found, specify <id> to find specific one" );
+		throw new Error( `Several tracks with name '${idOrTitle}' found, specify <id> to find specific one` );
 	return result[ 0 ];
 }
 
@@ -249,7 +242,7 @@ function FindTrack( tracklist, idOrTitle )
 function FindChartSharedNew( track, chartTag, chartLevelText )
 {
 	if( ["S", "Sp", "D", "Dp"].indexOf( chartTag ) < 0 )
-		throw new Error( "Unknown chartTag '" + chartTag + "'" );
+		throw new Error( `Unknown chartTag ${chartTag}'` );
 
 	for( var mixID of mixesOrder )
 	{
@@ -264,7 +257,7 @@ function FindChartSharedNew( track, chartTag, chartLevelText )
 		}
 	}
 
-	throw new Error( "Can't find " + track.title + " " + chartTag + "-" + chartLevelText );
+	throw new Error( `Can't find ${track.id} ${chartTag}-${chartLevelText}` );
 }
 
 
@@ -310,7 +303,7 @@ function GetMixIndex( mixName )
 {
 	const mixIndex = lowCaseMixesOrder.indexOf( mixName.toLowerCase() );
 	if( mixIndex < 0 )
-		throw new Error( "Can't find mix '" + mixName + "'" );
+		throw new Error( `Can't find mix '${mixName}'` );
 	return mixIndex;
 }
 

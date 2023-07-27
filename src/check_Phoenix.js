@@ -4,6 +4,7 @@ var checkPhoenix = {
 
 // verified according to https://www.youtube.com/watch?v=kbqvvlw9ED4,
 // track order is sorted as in "all tunes"
+// also differences recorded by https://www.youtube.com/@NEVSISTER/videos
 
 
 // 1st ~ Zero:

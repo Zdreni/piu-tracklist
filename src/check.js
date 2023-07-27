@@ -1,7 +1,8 @@
 "use strict";
 
 
-var oldMixes = [ "Exceed", "Exceed2", "Zero", "NX", "NX2", "NXA" ];
+//var oldMixes = [ "Exceed", "Exceed2", "Zero", "NX", "NX2", "NXA" ];
+const oldMixes = mixesOrder.slice(0, firstNewMixIndex );  // NXA..Exceed
 
 
 /*
@@ -252,7 +253,7 @@ function CheckInitialTracklistOfNewMix( mixName, checkTable )
 		{
 			let difference = GetNewMixChartsDifference( mixName, checkTable, trackID )
 			if( difference.length > 0 )
-				throw new Error( mixName + " check:  content mismatch for '" + trackID + "':  difference = " + difference.join( ' ' ) );
+				throw new Error( `${mixName} check:  content mismatch for '${trackID}':  difference = ${difference.join( ' ' )}` );
 		}
 		catch( exc )
 		{
