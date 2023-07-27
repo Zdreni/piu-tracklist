@@ -1,0 +1,67 @@
+﻿https://www.facebook.com/story.php?story_fbid=783127713812658&id=100063463096112&sfnsn=mo
+https://piugame.com/phoenix_notice?wr_id=214
+
+
+We would like to notice the 1st official contents update of PIU PHOENIX v1.01.0 version.
+
+If the machine is connected with internet, update file will be downloaded automatically and the update will be processed when the machine is rebooted.
+(Downloading depends on Internet speed)
+
+※ Update v1.01.0 is possible after update v1.00.3.
+
+
+
+
+1. New Songs
+
+1) Title : Beautiful Liar
+Artist : MONSTA X
+BPM : 130
+Category : K-POP
+Step charts : S2, S4, S6, S13, S15, S17, D9, D16, D18
+
+
+
+2) Title : STORM
+Artist : KOYOTE
+BPM : 139
+Category : K-POP
+Step charts : S2, S4, S6, S9, S14, S17, D8, D16, D19
+
+
+
+3) Title : Airplane
+Artist : TYPHOON
+BPM : 120
+Category : K-POP
+Step charts : S1, S3, S5, S13, S15, S17, D8, D16, D18
+
+
+
+4) Title : GOODBOUNCE
+Artist : EBIMAYO
+BPM : 180
+Category : World music
+Step charts : S4, S7, S12, S16, S20, D13, D18, D21, CO-OP(x2)
+
+
+
+5) Title : BOOOM!!
+Artist : RiraN
+BPM : 160
+Category : Original
+Step charts : S7, S10, S15, S17, S20, D12, D16, D18, D22
+
+
+
+6) Title : KUGUTSU (Exclusive song for premium mode)
+Artist : onoken
+BPM : 220
+Category : Original
+Step charts : S18, S20, S23, S25, D21, D23, D25, D27
+
+
+
+2. More updates
+1) After LIKE : Corrects the wrong beat in the D17 step.
+2) Hypnosis(SynthWulf Mix) : The missing Gimmick effect of the D19 step is corrected.
