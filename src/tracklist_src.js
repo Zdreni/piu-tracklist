@@ -139,7 +139,7 @@ var readableTracklist = {
 
 "17__Vector":
 {
-	title: "VECTOR", artist: "Zekk", channel: "TODO", bpm: "178",
+	title: "VECTOR", artist: "Zekk", channel: ORIGINAL, bpm: "178",
 	sortingID: "",  // between  () and  ()
 	// arcadeID: "",
 	pumpoutID: "",
@@ -151,7 +151,7 @@ var readableTracklist = {
 
 "17__Versailles":
 {
-	title: "Versailles", artist: "Hyun & MIIM", channel: "TODO",bpm: "160-175",
+	title: "Versailles", artist: "Hyun & MIIM", channel: ORIGINAL, bpm: "160-175",
 	//sortingID: "",  // between  () and  ()
 	// arcadeID: "",
 	pumpoutID: "",
@@ -163,7 +163,7 @@ var readableTracklist = {
 
 "17__Showdown":
 {
-	title: "Showdown", artist: "litmus*", channel: "TODO",bpm: "130",
+	title: "Showdown", artist: "litmus*", channel: ORIGINAL, bpm: "130",
 	//sortingID: "",  // between  () and  ()
 	// arcadeID: "",
 	pumpoutID: "",
@@ -175,7 +175,7 @@ var readableTracklist = {
 
 "17__Euphorianic":
 {
-	title: "Euphorianic", artist: "SHK", channel: "TODO",bpm: "140",
+	title: "Euphorianic", artist: "SHK", channel: ORIGINAL, bpm: "140",
 	//sortingID: "",  // between  () and  ()
 	// arcadeID: "",
 	pumpoutID: "",
@@ -187,7 +187,7 @@ var readableTracklist = {
 
 "17__Jupin":
 {
-	title: "Jupin", artist: "Sobrem", channel: "TODO",bpm: "173",
+	title: "Jupin", artist: "Sobrem", channel: ORIGINAL, bpm: "173",
 	//sortingID: "",  // between  () and  ()
 	// arcadeID: "",
 	pumpoutID: "",
@@ -199,7 +199,7 @@ var readableTracklist = {
 
 "17__Etude_Op_10_4":
 {
-	title: "Etude Op 10-4", artist: "MAX", channel: "TODO",bpm: "176",
+	title: "Etude Op 10-4", artist: "MAX", channel: ORIGINAL, bpm: "176",
 	//sortingID: "",  // between  () and  ()
 	// arcadeID: "",
 	pumpoutID: "",
@@ -211,7 +211,7 @@ var readableTracklist = {
 
 "17__Goodtek":
 {
-	title: "GOODTEK", artist: "EBIMAYO", channel: "TODO",bpm: "190",
+	title: "GOODTEK", artist: "EBIMAYO", channel: WORLD, bpm: "190",
 	//sortingID: "",  // between  () and  ()
 	// arcadeID: "",
 	pumpoutID: "",
@@ -223,7 +223,7 @@ var readableTracklist = {
 
 "17__Co5m1c_R4ilr0ad":
 {
-	title: "CO5M1C R4ILR0AD", artist: "kanone", channel: "TODO",bpm: "155",
+	title: "CO5M1C R4ILR0AD", artist: "kanone", channel: WORLD, bpm: "155",
 	//sortingID: "",  // between  () and  ()
 	// arcadeID: "",
 	pumpoutID: "",
@@ -235,7 +235,7 @@ var readableTracklist = {
 
 "17__Energy_Synergy_Matrix":
 {
-	title: "Energy Synergy Matrix", artist: "Tanchiky", channel: "TODO",bpm: "160",
+	title: "Energy Synergy Matrix", artist: "Tanchiky", channel: WORLD, bpm: "160",
 	//sortingID: "",  // between  () and  ()
 	// arcadeID: "",
 	pumpoutID: "",
@@ -247,7 +247,7 @@ var readableTracklist = {
 
 "17__Milk":
 {
-	title: "MilK", artist: "Morimori Atsushi", channel: "TODO",bpm: "150",
+	title: "MilK", artist: "Morimori Atsushi", channel: WORLD, bpm: "150",
 	//sortingID: "",  // between  () and  ()
 	// arcadeID: "",
 	pumpoutID: "",
@@ -259,7 +259,7 @@ var readableTracklist = {
 
 "17__Acquire":
 {
-	title: "Acquire", artist: "ryhki", channel: "TODO",bpm: "155",
+	title: "Acquire", artist: "ryhki", channel: WORLD, bpm: "155",
 	//sortingID: "",  // between  () and  ()
 	// arcadeID: "",
 	pumpoutID: "",
@@ -271,7 +271,7 @@ var readableTracklist = {
 
 "17__Pneumonoultramicroscopicsilicovolcanoconiosis":
 {
-	title: "Pneumonoultramicroscopicsilicovolcanoconiosis", artist: "DASU", channel: "TODO",bpm: "156",
+	title: "Pneumonoultramicroscopicsilicovolcanoconiosis", artist: "DASU", channel: WORLD, bpm: "156",
 	shortTitle: "Pneumonoultramicroscopic...",
 	arcadeName: "Pneumonoultramicroscopicsilicovolcanoconiosis ft. Kagamine Len/GUMI",
 	//sortingID: "",  // between  () and  ()
@@ -285,7 +285,7 @@ var readableTracklist = {
 
 "17__Altale":
 {
-	title: "Altale", artist: "sakuzyo", channel: "TODO",bpm: "90",
+	title: "Altale", artist: "sakuzyo", channel: WORLD, bpm: "90",
 	//sortingID: "",  // between  () and  ()
 	// arcadeID: "",
 	pumpoutID: "",
@@ -297,7 +297,7 @@ var readableTracklist = {
 
 "17__Halcyon":
 {
-	title: "Halcyon", artist: "xi", channel: "TODO",bpm: "40-191",
+	title: "Halcyon", artist: "xi", channel: WORLD, bpm: "40-191",
 	//sortingID: "",  // between  () and  ()
 	// arcadeID: "",
 	pumpoutID: "",
@@ -3099,7 +3099,8 @@ var readableTracklist = {
 	arcadeID: "15E5",
 	pumpoutID: 596,
 
-	Phoenix: "= -S20",
+	Phoenix: "= -S21 S21`20",
+		// S21 was removed and S20 rerated to 21 - https://www.youtube.com/watch?v=uzPWCRkOQK8
 	XX: "= S20`21 S21`20",
 		// S20-XX & S21-XX - https://www.youtube.com/watch?v=IWbkQJcDkN4
 	Prime2: "@2.04 S20 S21 D22 S23 D25 CoOp(x2).ampass",
@@ -4788,6 +4789,7 @@ var readableTracklist = {
 	pumpoutID: 215,
 
 	Phoenix: "= S12`10 S16`15",
+		// Phoenix S22, slowdown removed - https://www.youtube.com/watch?v=mcAN_AhFB0I
 	XX: "= S10`9 S22`23 -D17 D17`15 D18`19",
 	Prime2: "=",
 	Prime: "= CoOp(x2)`Dp??(x2) -D24 -D26",
@@ -10827,6 +10829,7 @@ var readableTracklist = {
 	pumpoutID: 64,
 
 	Phoenix: "= S15`13 D16`15 -Sp3 -Dp5",
+		// Phoenix D20 speedup removed - https://www.youtube.com/watch?v=IMzEi3T-gYM
 	XX: "= S9`6 D20`19",
 	Prime2: "=",
 	Prime: "=",
