@@ -721,7 +721,7 @@ var readableTracklist = {
 	arcadeID: "1635",
 	pumpoutID: 796,
 
-	Phoenix: "= D24`23 -S17 -Dp4",
+	Phoenix: "= D24`23 -Dp4",
 	XX: "@1.04 S4 S7 S11 S14 S17 D13 D20 S20.lock D23.lock  @2.01 CoOp(x3)  @2.02 Dp4",  // @1.05 D23 changed
 },
 

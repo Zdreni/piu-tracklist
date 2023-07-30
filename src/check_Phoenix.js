@@ -444,7 +444,7 @@ var checkPhoenix = {
 "16__Destrucimate":  "S9 S12 S16 S19 S21  D14 D19 D23",
 "16__Clematis_Rapsodia":  "S11 S15 S18 S22  D13 D16 D19 D23  CoOp(x3)",
 "16__Wicked_Legend":  "S10 S16 S20  D12 D18 D21",
-"16__Tantanmen":  "S4 S7 S11 S14 S20  D13 D20 D24  CoOp(x3)",
+"16__Tantanmen":  "S4 S7 S11 S14 S17 S20  D13 D20 D24  CoOp(x3)",
 "16__Stardream":  "S1 S3 S6 S10 S15 S18 S21  D11 D16 D19 D22  CoOp(x2)",
 "16__Can_Can_Orpheus":  "S8 S13 S16 S19 S21  D12 D15 D18 D23  CoOp(x2)",
 "16__Papasito":  "S7 S13 S15 S16 S20  D11 D14 D16 D18 D19 D21  CoOp(x2)",
