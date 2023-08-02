@@ -56,13 +56,86 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "",
+	Phoenix: "@1.01  ",
 },
 */
 
 
 
 // \17 - Phoenix
+
+
+"17__Beautiful_Liar":
+{
+	title: "Beautiful Liar", artist: "MONSTA X", channel: KPOP, bpm: "130",
+	sortingID: "",  // between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	Phoenix: "@1.01 S2 S4 S6 S13 S15 S17 D9 D16 D18"
+},
+
+
+"17__Storm":
+{
+	title: "STORM", artist: "KOYOTE", channel: KPOP, bpm: "139",
+	sortingID: "",  // between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	Phoenix: "@1.01 S2 S4 S6 S9 S14 S17 D8 D16 D19",
+},
+
+
+
+"17__Airplane":
+{
+	title: "Airplane", artist: "TYPHOON", channel: KPOP, bpm: "120",
+	sortingID: "",  // between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	Phoenix: "@1.01 S1 S3 S5 S13 S15 S17 D8 D16 D18",
+},
+
+
+"17__Goodbounce":
+{
+	title: "GOODBOUNCE", artist: "EBIMAYO", channel: WORLD, bpm: "180",
+	sortingID: "",  // between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	Phoenix: "@1.01 S4 S7 S12 S16 S20 D13 D18 D21 CoOp(x2)",
+},
+
+
+"17__Booom":
+{
+	title: "BOOOM!!", artist: "RiraN", channel: ORIGINAL, bpm: "160",
+	sortingID: "",  // between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	Phoenix: "@1.01 S7 S10 S15 S17 S20 D12 D16 D18 D22",
+},
+
+
+"17__Kugutsu":
+{
+	title: "KUGUTSU", artist: "onoken", channel: ORIGINAL, bpm: "220",
+	sortingID: "",  // between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	Phoenix: "@1.01 S18 S20 S23 S25 D21 D23 D25 D27",
+},
 
 
 "17__Boca":
@@ -746,7 +819,7 @@ var readableTracklist = {
 	arcadeID: "1637",
 	pumpoutID: 881,
 
-	Phoenix: "= D13`D12",
+	Phoenix: "= D13`12",
 	XX: "@2.06 S3 S7 S10 S16 D12 D18 S19.lock D21.lock",
 },
 
@@ -1995,7 +2068,7 @@ var readableTracklist = {
 	arcadeID: "16F9",
 	pumpoutID: 851,
 
-	Phoenix: "= S15`16 S17`19",
+	Phoenix: "= S15`16 S18`19",
 	XX: "@2.04 S16 S19 D20 S21.lock D23.lock",
 },
 
@@ -2801,7 +2874,7 @@ var readableTracklist = {
 	arcadeID: "15A6",
 	pumpoutID: 532,
 
-	Phoenix: "= S12`S11 -Dp3",
+	Phoenix: "= S12`11 -Dp3",
 	XX: "= S11`10",
 	Prime2: "S3 S6 S10 S14 S17 S19.ampass D7 D17 D21.ampass CoOp(x2)  @1.06 Dp3",
 },

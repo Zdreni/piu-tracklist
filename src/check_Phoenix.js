@@ -496,7 +496,7 @@ var checkPhoenix = {
 "16__Allegro_Con_Fuoco__FULL":  "S18 S23  D21 D25",
 "16__Prime_Time":  "S15 S21 S23  D20 D23 D26",
 "16__8_6__FULL":  "S15 S21  D23",
-"16__Baroque_Virus__FULL":  "S15 S17 S21  D20 D23",
+"16__Baroque_Virus__FULL":  "S15 S18 S21  D20 D23",
 "16__Ultimatum":  "S17 S21 S23 S25  D25 D27",
 "16__Kokugen_Kairou_Labyrinth":  "S9 S13 S15 S17 S20 S23  D18 D22 D26",
 "16__Imagination":  "S12 S15 S18 S19  D16 D21",
