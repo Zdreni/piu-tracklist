@@ -330,7 +330,7 @@ function FindChartEx( track, chartDescr, chartPattern, fromMixName, toMixName )
 }
 
 
-function FindChart( track, chartDescr )
+function FindChart( track, chartDescr, beforeMixID )
 {
 	var chartInfo = chartDescr.split( "-" );
 
@@ -363,7 +363,7 @@ function FindChart( track, chartDescr )
 			chartSearchPattern = { text: localChartDescr };
 
 		if( mixName === "" )
-			mixRange = [ mixesOrder[ firstNewMixIndex ], mixesOrder.at( -1 ) ];
+			mixRange = [ mixesOrder[ firstNewMixIndex ], mixesOrder.at( mixesOrder.findIndex( m => m === beforeMixID ) - 1 ) ];
 	}
 
 	try

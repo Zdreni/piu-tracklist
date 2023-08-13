@@ -3200,7 +3200,6 @@ var readableTracklist = {
 "15__Chase_Me__FULL":
 {
 	title: "Chase Me  [FULL]", artist: "Dreamcatcher", channel: KPOP, bpm: "200",
-	altID: "15E5",
 	arcadeID: "15E7",
 	pumpoutID: 652,
 
@@ -13379,7 +13378,7 @@ function PreprocessNewStyleChart( track, trackID, result, chartDescr, mixID, pat
 				prevChartText = levelMatches[ 1 ] + prevChartText;
 		}
 
-		prevChart = FindChart( track, prevChartText );
+		prevChart = FindChart( track, prevChartText, mixID );
 		sharedIndex = prevChart.shared.index;
 	}
 
