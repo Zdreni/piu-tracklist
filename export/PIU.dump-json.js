@@ -111,6 +111,8 @@ function CopyChartWithRemovedObviousFieldsForDB( track, mixID, chart )
 		chart.text = chart.text.replace( "CoOp(x", "COOP" ).replace( ")", "" );
 	}
 
+	delete chart.tag;
+
 	track[ mixID ][ chartIndex ] = chart;
 }
 
