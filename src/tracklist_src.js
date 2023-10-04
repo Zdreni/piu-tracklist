@@ -56,7 +56,7 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "@1.01  ",
+	Phoenix: "@1.02  ",
 },
 */
 
@@ -65,10 +65,94 @@ var readableTracklist = {
 // \17 - Phoenix
 
 
+"17__Pirate":
+{
+	title: "Pirate", artist: "EVERGLOW", channel: KPOP, bpm: "130",
+	//sortingID: "",  // between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	Phoenix: "@1.02  S2 S4 S6 S9 S13 S17 D8 D15 D18",
+},
+
+
+"17__R_I_P":
+{
+	title: "R.I.P.", artist: "eicateve", channel: WORLD, bpm: "192",
+	//sortingID: "",  // between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	Phoenix: "@1.02  S12 S16 S19 S22 D16 D21 D24",
+},
+
+
+"17__Battle_No_1":
+{
+	title: "BATTLE NO.1", artist: "TANO*C Sound Team", channel: WORLD, bpm: "200",
+	//sortingID: "",  // between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	Phoenix: "@1.02  S9 S14 S17 S20 S22 D16 D22 D24",
+},
+
+
+"17__Ghroth":
+{
+	title: "Ghroth", artist: "nato", channel: ORIGINAL, bpm: "212",
+	//sortingID: "",  // between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	Phoenix: "@1.02  S13 S16 S19 S21 S23 D17 D20 D23 D25",
+},
+
+
+"17__Murdoch":
+{
+	title: "MURDOCH", artist: "WONDERTRAVELER Project", channel: ORIGINAL, bpm: "179",
+	//sortingID: "",  // between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	Phoenix: "@1.02  S11 S18 S20 S22 D14 D20 D22 D24",
+},
+
+
+"17__Lohxia":
+{
+	title: "Lohxia", artist: "The Musical Ghost", channel: ORIGINAL, bpm: "155",
+	//sortingID: "",  // between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	Phoenix: "@1.02  S7 S12 S16 S21 D14 D19 D22",
+},
+
+
+"17__Chaos_Again":
+{
+	title: "Chaos Again", artist: "NAOKI underground -Ω-", channel: ORIGINAL, bpm: "150~260",
+	//sortingID: "",  // between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	Phoenix: "@1.02  S15 S18 S20 S22 S24 D17 D22 D24 D26",
+},
+
+
 "17__Beautiful_Liar":
 {
 	title: "Beautiful Liar", artist: "MONSTA X", channel: KPOP, bpm: "130",
-	sortingID: "",  // between  () and  ()
+	//sortingID: "",  // between  () and  ()
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -80,7 +164,7 @@ var readableTracklist = {
 "17__Storm":
 {
 	title: "STORM", artist: "KOYOTE", channel: KPOP, bpm: "139",
-	sortingID: "",  // between  () and  ()
+	//sortingID: "",  // between  () and  ()
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -93,7 +177,7 @@ var readableTracklist = {
 "17__Airplane":
 {
 	title: "Airplane", artist: "TYPHOON", channel: KPOP, bpm: "120",
-	sortingID: "",  // between  () and  ()
+	//sortingID: "",  // between  () and  ()
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -105,7 +189,7 @@ var readableTracklist = {
 "17__Goodbounce":
 {
 	title: "GOODBOUNCE", artist: "EBIMAYO", channel: WORLD, bpm: "180",
-	sortingID: "",  // between  () and  ()
+	//sortingID: "",  // between  () and  ()
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -117,7 +201,7 @@ var readableTracklist = {
 "17__Booom":
 {
 	title: "BOOOM!!", artist: "RiraN", channel: ORIGINAL, bpm: "160",
-	sortingID: "",  // between  () and  ()
+	//sortingID: "",  // between  () and  ()
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -129,7 +213,7 @@ var readableTracklist = {
 "17__Kugutsu":
 {
 	title: "KUGUTSU", artist: "onoken", channel: ORIGINAL, bpm: "220",
-	sortingID: "",  // between  () and  ()
+	//sortingID: "",  // between  () and  ()
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -213,7 +297,7 @@ var readableTracklist = {
 "17__Vector":
 {
 	title: "VECTOR", artist: "Zekk", channel: ORIGINAL, bpm: "178",
-	sortingID: "",  // between  () and  ()
+	//sortingID: "",  // between  () and  ()
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -10572,7 +10656,7 @@ var readableTracklist = {
 	arcadeID: "B17",
 	pumpoutID: 56,
 
-	Phoenix: "= D11`8 D21`19 -S3",
+	Phoenix: "= D11`8 D20`19 D21`20 -S3",
 		// TODO.Phoenix: D11`8
 	XX: "= S16`15 S19`18 D19`18",
 		//??? D20.updated - simplified 10-buttons hold (to 6-buttons)
