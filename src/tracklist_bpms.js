@@ -82,7 +82,7 @@ function SetChartBPM( descr )
 
 	var track = FindTrack( tracklist, trackName );
 	var chart = FindChart( track, chartDescr );
-	var mixesRange = GetMixesRange( descr.mixes );
+	var mixesRange = GetMixesRange( descr.charts );
 
 	var charts = FindChartsWithIndexInMixesRange( track, chart.shared.index, mixesRange[ 0 ], mixesRange[ 1 ] );
 	if( charts.length === 0 )

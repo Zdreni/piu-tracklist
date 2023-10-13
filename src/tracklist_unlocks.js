@@ -58,10 +58,10 @@ function On( mixID, tillPatch )
 
 function FindChartForLock( track, mixID, chartText )
 {
-	if( ! track[ mixID ] )
+	if( ! track.charts[ mixID ] )
 		throw new Error( "No '" + mixID + "' data for track '" + track.title + "' in mix '" + mixID + "'" );
 
-	for( var chart of track[ mixID ] )
+	for( var chart of track.charts[ mixID ] )
 		if( chart.text === chartText )
 			return chart;
 

@@ -56,7 +56,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "@1.02  ",
+	charts: {
+		Phoenix: "@1.02  ",
+	},
 },
 */
 
@@ -73,7 +75,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "@1.02  S2 S4 S6 S9 S13 S17 D8 D15 D18",
+	charts: {
+		Phoenix: "@1.02  S2 S4 S6 S9 S13 S17 D8 D15 D18",
+	}
 },
 
 
@@ -85,7 +89,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "@1.02  S12 S16 S19 S22 D16 D21 D24",
+	charts: {
+		Phoenix: "@1.02  S12 S16 S19 S22 D16 D21 D24",
+	},
 },
 
 
@@ -97,7 +103,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "@1.02  S9 S14 S17 S20 S22 D16 D22 D24",
+	charts: {
+		Phoenix: "@1.02  S9 S14 S17 S20 S22 D16 D22 D24",
+	},
 },
 
 
@@ -109,7 +117,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "@1.02  S13 S16 S19 S21 S23 D17 D20 D23 D25",
+	charts: {
+		Phoenix: "@1.02  S13 S16 S19 S21 S23 D17 D20 D23 D25",
+	},
 },
 
 
@@ -121,7 +131,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "@1.02  S11 S18 S20 S22 D14 D20 D22 D24",
+	charts: {
+		Phoenix: "@1.02  S11 S18 S20 S22 D14 D20 D22 D24",
+	},
 },
 
 
@@ -133,7 +145,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "@1.02  S7 S12 S16 S21 D14 D19 D22",
+	charts: {
+		Phoenix: "@1.02  S7 S12 S16 S21 D14 D19 D22",
+	},
 },
 
 
@@ -145,7 +159,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "@1.02  S15 S18 S20 S22 S24 D17 D22 D24 D26",
+	charts: {
+		Phoenix: "@1.02  S15 S18 S20 S22 S24 D17 D22 D24 D26",
+	},
 },
 
 
@@ -157,7 +173,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "@1.01 S2 S4 S6 S13 S15 S17 D9 D16 D18"
+	charts: {
+		Phoenix: "@1.01 S2 S4 S6 S13 S15 S17 D9 D16 D18",
+	},
 },
 
 
@@ -169,7 +187,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "@1.01 S2 S4 S6 S9 S14 S17 D8 D16 D19",
+	charts: {
+		Phoenix: "@1.01 S2 S4 S6 S9 S14 S17 D8 D16 D19",
+	},
 },
 
 
@@ -182,7 +202,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "@1.01 S1 S3 S5 S13 S15 S17 D8 D16 D18",
+	charts: {
+		Phoenix: "@1.01 S1 S3 S5 S13 S15 S17 D8 D16 D18",
+	},
 },
 
 
@@ -194,7 +216,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "@1.01 S4 S7 S12 S16 S20 D13 D18 D21 CoOp(x2)",
+	charts: {
+		Phoenix: "@1.01 S4 S7 S12 S16 S20 D13 D18 D21 CoOp(x2)",
+	},
 },
 
 
@@ -206,7 +230,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "@1.01 S7 S10 S15 S17 S20 D12 D16 D18 D22",
+	charts: {
+		Phoenix: "@1.01 S7 S10 S15 S17 S20 D12 D16 D18 D22",
+	},
 },
 
 
@@ -218,7 +244,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "@1.01 S18 S20 S23 S25 D21 D23 D25 D27",
+	charts: {
+		Phoenix: "@1.01 S18 S20 S23 S25 D21 D23 D25 D27",
+	},
 },
 
 
@@ -230,7 +258,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "S3 S5 S9 S14 S17 S19 S21 D15 D19 D21 D23",
+	charts: {
+		Phoenix: "S3 S5 S9 S14 S17 S19 S21 D15 D19 D21 D23",
+	},
 },
 
 
@@ -242,7 +272,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "S2 S4 S6 S11 S14 S16 D8 D15 D17 CoOp(x2)",
+	charts: {
+		Phoenix: "S2 S4 S6 S11 S14 S16 D8 D15 D17 CoOp(x2)",
+	},
 },
 
 
@@ -254,7 +286,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "S2 S4 S6 S9 S14 S17 D7 D15 D18 CoOp(x2)",
+	charts: {
+		Phoenix: "S2 S4 S6 S9 S14 S17 D7 D15 D18 CoOp(x2)",
+	},
 },
 
 
@@ -266,7 +300,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "S1 S3 S5 S8 S15 S17 D6 D16 D18",
+	charts: {
+		Phoenix: "S1 S3 S5 S8 S15 S17 D6 D16 D18",
+	},
 },
 
 
@@ -278,7 +314,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "S2 S4 S6 S15 S18 S21 D16 D19 D23",
+	charts: {
+		Phoenix: "S2 S4 S6 S15 S18 S21 D16 D19 D23",
+	},
 },
 
 
@@ -290,7 +328,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "S1 S4 S6 S9 S13 S15 S18 D7 D15 D17 D20 CoOp(x2)",
+	charts: {
+		Phoenix: "S1 S4 S6 S9 S13 S15 S18 D7 D15 D17 D20 CoOp(x2)",
+	},
 },
 
 
@@ -302,7 +342,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "S8 S14 S18 S22 D15 D20 D24",
+	charts: {
+		Phoenix: "S8 S14 S18 S22 D15 D20 D24",
+	},
 },
 
 
@@ -314,7 +356,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "S7 S10 S16 S19 S20 D12 D20 D23",
+	charts: {
+		Phoenix: "S7 S10 S16 S19 S20 D12 D20 D23",
+	},
 },
 
 
@@ -326,7 +370,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "S6 S10 S14 S17 S20 D11 D16 D18 D22",
+	charts: {
+		Phoenix: "S6 S10 S14 S17 S20 D11 D16 D18 D22",
+	},
 },
 
 
@@ -338,7 +384,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "S3 S5 S8 S11 S16 S19 D10 D18 D21",
+	charts: {
+		Phoenix: "S3 S5 S8 S11 S16 S19 D10 D18 D21",
+	},
 },
 
 
@@ -350,7 +398,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "S12 S17 S19 S21 S23 D14 D18 D23 D25",
+	charts: {
+		Phoenix: "S12 S17 S19 S21 S23 D14 D18 D23 D25",
+	},
 },
 
 
@@ -362,7 +412,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "S4 S7 S11 S16 S22 D13 D17 D25",
+	charts: {
+		Phoenix: "S4 S7 S11 S16 S22 D13 D17 D25",
+	},
 },
 
 
@@ -374,7 +426,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "S8 S12 S16 S18 S21 D12 D16 D20 D24",
+	charts: {
+		Phoenix: "S8 S12 S16 S18 S21 D12 D16 D20 D24",
+	},
 },
 
 
@@ -386,7 +440,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "S10 S15 S18 S21 D13 D19 D22",
+	charts: {
+		Phoenix: "S10 S15 S18 S21 D13 D19 D22",
+	},
 },
 
 
@@ -398,7 +454,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "S7 S11 S16 S18 S20 D13 D19 D22",
+	charts: {
+		Phoenix: "S7 S11 S16 S18 S20 D13 D19 D22",
+	},
 },
 
 
@@ -410,7 +468,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "S7 S11 S15 S17 S20 D11 D16 D19 D22",
+	charts: {
+		Phoenix: "S7 S11 S15 S17 S20 D11 D16 D19 D22",
+	},
 },
 
 
@@ -422,7 +482,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "S7 S11 S15 S17 S20 D12 D16 D19 D23 CoOp(x3)",
+	charts: {
+		Phoenix: "S7 S11 S15 S17 S20 D12 D16 D19 D23 CoOp(x3)",
+	},
 },
 
 
@@ -436,7 +498,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "S12 S16 S19 D22",
+	charts: {
+		Phoenix: "S12 S16 S19 D22",
+	},
 },
 
 
@@ -448,7 +512,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "S2 S6 S9 S12 S15 S18 S21 D6 D16 D19 D23",
+	charts: {
+		Phoenix: "S2 S6 S9 S12 S15 S18 S21 D6 D16 D19 D23",
+	},
 },
 
 
@@ -460,7 +526,9 @@ var readableTracklist = {
 	pumpoutID: "",
 	// arcadeName: "",
 
-	Phoenix: "S12 S18 S20 S22 D12 D20 D24",
+	charts: {
+		Phoenix: "S12 S18 S20 S22 D12 D20 D24",
+	},
 },
 
 
@@ -477,8 +545,10 @@ var readableTracklist = {
 	sortingID: "16F6__1",  // between 16__Switronic__SHORT (16F6.orig) and 16__Club_Night (1668.world)
 	pumpoutID: 874,
 
-	Phoenix: "= S17`18",
-	XX: "@2.05 S8 S13 S18 D13 D18 D20 S21.lock D22.lock",
+	charts: {
+		Phoenix: "= S17`18",
+		XX: "@2.05 S8 S13 S18 D13 D18 D20 S21.lock D22.lock",
+	},
 },
 
 
@@ -489,8 +559,10 @@ var readableTracklist = {
 	sortingID: "16B3__1",  // between 16__Cross_Ray (WORLD/16B3) and 16__Kokugen_Kairou_Labyrinth (WORLD/16B3__2)
 	pumpoutID: 893,
 
-	Phoenix: "=",
-	XX: "@2.08 S17 S21 S23 S25 D25 D27",
+	charts: {
+		Phoenix: "=",
+		XX: "@2.08 S17 S21 S23 S25 D25 D27",
+	},
 },
 
 
@@ -503,8 +575,10 @@ var readableTracklist = {
 	sortingID: "16B3__2",  // between 16__Ultimatum (16B3__1) and 16_Imagination (1678)
 	pumpoutID: 888,
 
-	Phoenix: "= S13`12",
-	XX: "@2.07 S9 S12 S15 S17 D18 S20.lock S23.lock D22.lock D26.lock",
+	charts: {
+		Phoenix: "= S13`12",
+		XX: "@2.07 S9 S12 S15 S17 D18 S20.lock S23.lock D22.lock D26.lock",
+	},
 },
 
 
@@ -515,8 +589,10 @@ var readableTracklist = {
 	arcadeID: "1601",
 	pumpoutID: 733,
 
-	Phoenix: "= D23`22 -Dp4",
-	XX: "S4 S6 S10 S16 S18.lock S21.lock D7 D13 D19.lock D22.lock CoOp(x3).lock  @1.01 Dp4",
+	charts: {
+		Phoenix: "= D23`22 -Dp4",
+		XX: "S4 S6 S10 S16 S18.lock S21.lock D7 D13 D19.lock D22.lock CoOp(x3).lock  @1.01 Dp4",
+	},
 },
 
 
@@ -527,8 +603,10 @@ var readableTracklist = {
 	arcadeID: "1602",
 	pumpoutID: 821,
 
-	Phoenix: "= S17`18 D18`19 -Dp4",
-	XX: "@2.01 S3 S5 S8 S11 S15 D10 D16 CoOp(x2) S18.lock D19.lock  @2.02 Dp4  @2.08 D22",
+	charts: {
+		Phoenix: "= S17`18 D18`19 -Dp4",
+		XX: "@2.01 S3 S5 S8 S11 S15 D10 D16 CoOp(x2) S18.lock D19.lock  @2.02 Dp4  @2.08 D22",
+	},
 },
 
 
@@ -539,8 +617,10 @@ var readableTracklist = {
 	arcadeID: "1603",
 	pumpoutID: 734,
 
-	Phoenix: "= S10`11 S15`14 S18`17 D16`15 -Dp5",
-	XX: "S7 S14 S17.lock D10 D15.lock D19.lock  @1.01 Dp5  @2.01 S11",
+	charts: {
+		Phoenix: "= S10`11 S15`14 S18`17 D16`15 -Dp5",
+		XX: "S7 S14 S17.lock D10 D15.lock D19.lock  @1.01 Dp5  @2.01 S11",
+	},
 },
 
 
@@ -551,8 +631,10 @@ var readableTracklist = {
 	arcadeID: "1604",
 	pumpoutID: 823,
 
-	Phoenix: "= D20`21 -Dp3",
-	XX: "@2.01 S3 S6 S11 S16 D7 D13 D18 S19.lock D21.lock  @2.02 Dp3",
+	charts: {
+		Phoenix: "= D20`21 -Dp3",
+		XX: "@2.01 S3 S6 S11 S16 D7 D13 D18 S19.lock D21.lock  @2.02 Dp3",
+	},
 },
 
 
@@ -563,8 +645,11 @@ var readableTracklist = {
 	arcadeID: "1605",
 	pumpoutID: 777,
 
-	Phoenix: "= D22`21 -S26 -Dp4",
-	XX: "@1.02 S16 D21 D28 S21.lock S23.lock  @1.04 D26.lock  @2.00 Dp4  @2.07 S26.lock",  // @1.05 D28 changed
+	charts: {
+		Phoenix: "= D22`21 -S26 -Dp4",
+		XX: "@1.02 S16 D21 D28 S21.lock S23.lock  @1.04 D26.lock  @2.00 Dp4  @2.07 S26.lock",
+			// @1.05 D28 changed
+	},
 },
 
 
@@ -575,21 +660,24 @@ var readableTracklist = {
 	arcadeID: "1607",
 	pumpoutID: 817,
 
-	Phoenix: "= -Dp3",
-	XX: "@2.00 S8 S12 S17 D14 D19 CoOp(x2) S20.lock D22.lock  @2.02 Dp3",
+	charts: {
+		Phoenix: "= -Dp3",
+		XX: "@2.00 S8 S12 S17 D14 D19 CoOp(x2) S20.lock D22.lock  @2.02 Dp3",
+	},
 },
 
 
 "16__I_Want_U":
 {
 	title: "I Want U", artist: "MAX", channel: ORIGINAL, bpm: "156",
-	arcadeNameMaxEditDistance: 1, // '(Want U'
 	altID: "16_I_Want_U",
 	arcadeID: "1608",
 	pumpoutID: 735,
 
-	Phoenix: "= S12`11 S17`16 S20`19 D14`13 D18`17 D22`21 -Dp5",
-	XX: "S3 S7 S11 S16 S19.lock D6 D13 D17.lock D21.lock  @1.01 Dp5",
+	charts: {
+		Phoenix: "= S12`11 S17`16 S20`19 D14`13 D18`17 D22`21 -Dp5",
+		XX: "S3 S7 S11 S16 S19.lock D6 D13 D17.lock D21.lock  @1.01 Dp5",
+	},
 },
 
 
@@ -600,8 +688,10 @@ var readableTracklist = {
 	arcadeID: "1609",
 	pumpoutID: 829,
 
-	Phoenix: "= -Dp4",
-	XX: "@2.02 S10 S15 D12 D17 CoOp(x3) S19.lock D21.lock  @2.04 Dp4  @2.05 S6",
+	charts: {
+		Phoenix: "= -Dp4",
+		XX: "@2.02 S10 S15 D12 D17 CoOp(x3) S19.lock D21.lock  @2.04 Dp4  @2.05 S6",
+	},
 },
 
 
@@ -612,8 +702,10 @@ var readableTracklist = {
 	arcadeID: "1613",
 	pumpoutID: 885,
 
-	Phoenix: "= S19`18 D17`16",
-	XX: "@2.07 S4 S7 S11 S15 D11 D16 CoOp(x2) S18.lock D20.lock",
+	charts: {
+		Phoenix: "= S19`18 D17`16",
+		XX: "@2.07 S4 S7 S11 S15 D11 D16 CoOp(x2) S18.lock D20.lock",
+	},
 },
 
 
@@ -624,8 +716,10 @@ var readableTracklist = {
 	arcadeID: "1614",
 	pumpoutID: 886,
 
-	Phoenix: "=",
-	XX: "@2.07 S10 S13 S17 S19 D13 D20 S21.lock S23.lock D23.lock D26.lock",
+	charts: {
+		Phoenix: "=",
+		XX: "@2.07 S10 S13 S17 S19 D13 D20 S21.lock S23.lock D23.lock D26.lock",
+	},
 },
 
 
@@ -636,8 +730,10 @@ var readableTracklist = {
 	arcadeID: "1615",
 	pumpoutID: 736,
 
-	Phoenix: "= S13`12 S17`16 D17`16 -Dp4",
-	XX: "S12 S16 S18.lock S21 S23.lock D16 D20.lock D23.lock D25.lock  @1.01 Dp4",
+	charts: {
+		Phoenix: "= S13`12 S17`16 D17`16 -Dp4",
+		XX: "S12 S16 S18.lock S21 S23.lock D16 D20.lock D23.lock D25.lock  @1.01 Dp4",
+	},
 },
 
 
@@ -649,8 +745,10 @@ var readableTracklist = {
 	arcadeID: "1616",
 	pumpoutID: 799,
 
-	Phoenix: "= S10`11 -Dp5",
-	XX: "@1.04 S11 S14 S17 D13 D18 S21.lock S23.lock D22.lock D25.lock  @2.00 Dp5  @2.01 CoOp(x4)",
+	charts: {
+		Phoenix: "= S10`11 -Dp5",
+		XX: "@1.04 S11 S14 S17 D13 D18 S21.lock S23.lock D22.lock D25.lock  @2.00 Dp5  @2.01 CoOp(x4)",
+	},
 },
 
 
@@ -661,8 +759,10 @@ var readableTracklist = {
 	arcadeID: "1617",
 	pumpoutID: 818,
 
-	Phoenix: "= S21`22 -Dp4",
-	XX: "@2.00 S10 S16 D11 D17 S19.lock S22.lock D21.lock D23.lock  @2.02 Dp4",
+	charts: {
+		Phoenix: "= S21`22 -Dp4",
+		XX: "@2.00 S10 S16 D11 D17 S19.lock S22.lock D21.lock D23.lock  @2.02 Dp4",
+	},
 },
 
 
@@ -673,8 +773,10 @@ var readableTracklist = {
 	arcadeID: "1618",
 	pumpoutID: 737,
 
-	Phoenix: "= S19`18 -Dp4",
-	XX: "S12.lock S18.lock S22.lock S24.lock D14.lock D22.lock D25.lock  @1.01 Dp4",
+	charts: {
+		Phoenix: "= S19`18 -Dp4",
+		XX: "S12.lock S18.lock S22.lock S24.lock D14.lock D22.lock D25.lock  @1.01 Dp4",
+	},
 },
 
 
@@ -685,8 +787,10 @@ var readableTracklist = {
 	arcadeID: "1619",
 	pumpoutID: 837,
 
-	Phoenix: "= D18`17 -Dp3",
-	XX: "@2.03 S7 S10 S16 D11 D17 S20.lock S22.lock D24.lock  @2.04 Dp3  @2.05 D21",
+	charts: {
+		Phoenix: "= D18`17 -Dp3",
+		XX: "@2.03 S7 S10 S16 D11 D17 S20.lock S22.lock D24.lock  @2.04 Dp3  @2.05 D21",
+	},
 },
 
 
@@ -697,8 +801,10 @@ var readableTracklist = {
 	arcadeID: "1620",
 	pumpoutID: 738,
 
-	Phoenix: "= S18`17 S20`19 -Dp4",
-	XX: "S3 S6 S10 S17 S19 D9 D13 D19.lock  @1.01 Dp4",
+	charts: {
+		Phoenix: "= S18`17 S20`19 -Dp4",
+		XX: "S3 S6 S10 S17 S19 D9 D13 D19.lock  @1.01 Dp4",
+	},
 },
 
 
@@ -709,8 +815,10 @@ var readableTracklist = {
 	arcadeID: "1621",
 	pumpoutID: 838,
 
-	Phoenix: "= S5`6 S9`10 D13`12 D17`16 -S22 -Dp2 -D24",
-	XX: "@2.03 S6 S10 S16 D12 D16 S19.lock S22.lock D20.lock D24.lock  @2.04 Dp2",
+	charts: {
+		Phoenix: "= S5`6 S9`10 D13`12 D17`16 -S22 -Dp2 -D24",
+		XX: "@2.03 S6 S10 S16 D12 D16 S19.lock S22.lock D20.lock D24.lock  @2.04 Dp2",
+	},
 },
 
 
@@ -721,8 +829,10 @@ var readableTracklist = {
 	arcadeID: "1622",
 	pumpoutID: 739,
 
-	Phoenix: "= S18`17 -Dp5",
-	XX: "S8 S13 S17 S20.lock D19 D22.lock  @1.01 Dp5",
+	charts: {
+		Phoenix: "= S18`17 -Dp5",
+		XX: "S8 S13 S17 S20.lock D19 D22.lock  @1.01 Dp5",
+	},
 },
 
 
@@ -734,8 +844,10 @@ var readableTracklist = {
 	arcadeID: "1623",
 	pumpoutID: 803,
 
-	Phoenix: "= -Dp4",
-	XX: "@1.05 S12 S16 D13 S18.lock S21.lock D20.lock D22.lock  @2.00 Dp4",
+	charts: {
+		Phoenix: "= -Dp4",
+		XX: "@1.05 S12 S16 D13 S18.lock S21.lock D20.lock D22.lock  @2.00 Dp4",
+	},
 },
 
 
@@ -746,8 +858,10 @@ var readableTracklist = {
 	arcadeID: "1624",
 	pumpoutID: 740,
 
-	Phoenix: "= -Dp3",
-	XX: "S12 S17 D13 D18.lock  @1.01 Dp3  @2.03  CoOp(x2)  @2.05 S4 S7",
+	charts: {
+		Phoenix: "= -Dp3",
+		XX: "S12 S17 D13 D18.lock  @1.01 Dp3  @2.03  CoOp(x2)  @2.05 S4 S7",
+	},
 },
 
 
@@ -758,8 +872,10 @@ var readableTracklist = {
 	arcadeID: "1625",
 	pumpoutID: 771,
 
-	Phoenix: "= S11`10 D12`11 D20`21 -Dp3",
-	XX: "@1.01 S7 S10 S17 S20.lock D11 D17 D21.lock CoOp(x2)  @1.04 Dp3  @2.01 S3",
+	charts: {
+		Phoenix: "= S11`10 D12`11 D20`21 -Dp3",
+		XX: "@1.01 S7 S10 S17 S20.lock D11 D17 D21.lock CoOp(x2)  @1.04 Dp3  @2.01 S3",
+	},
 },
 
 
@@ -770,8 +886,10 @@ var readableTracklist = {
 	arcadeID: "1626",
 	pumpoutID: 741,
 
-	Phoenix: "= S15`14 S21`20 -Dp2",
-	XX: "S3 S6 S10 S14.lock S20 D8 D16 D22.lock  @1.01 Dp2  @2.00 CoOp(x2)",
+	charts: {
+		Phoenix: "= S15`14 S21`20 -Dp2",
+		XX: "S3 S6 S10 S14.lock S20 D8 D16 D22.lock  @1.01 Dp2  @2.00 CoOp(x2)",
+	},
 },
 
 
@@ -782,8 +900,10 @@ var readableTracklist = {
 	arcadeID: "1627",
 	pumpoutID: 830,
 
-	Phoenix: "= S15`14 D19`18 D23`22 -Dp4",
-	XX: "@2.02 S3 S5 S8 S14 S18 D12 D18 S21.lock D22.lock  @2.03  CoOp(x2)  @2.04 Dp4",
+	charts: {
+		Phoenix: "= S15`14 D19`18 D23`22 -Dp4",
+		XX: "@2.02 S3 S5 S8 S14 S18 D12 D18 S21.lock D22.lock  @2.03  CoOp(x2)  @2.04 Dp4",
+	},
 },
 
 
@@ -794,8 +914,10 @@ var readableTracklist = {
 	arcadeID: "1628",
 	pumpoutID: 742,
 
-	Phoenix: "= D10`9 D13`12 -Dp4",
-	XX: "S6 S12 S17.lock S20 D9 D12 D18.lock D22.lock  @1.01 Dp4  @2.03  CoOp(x2)  @2.06 D24.lock",
+	charts: {
+		Phoenix: "= D10`9 D13`12 -Dp4",
+		XX: "S6 S12 S17.lock S20 D9 D12 D18.lock D22.lock  @1.01 Dp4  @2.03  CoOp(x2)  @2.06 D24.lock",
+	},
 },
 
 
@@ -806,8 +928,10 @@ var readableTracklist = {
 	arcadeID: "1629",
 	pumpoutID: 805,
 
-	Phoenix: "= S17`16 S20`19 D14`13 D18`17 D21`20 -Dp3",
-	XX: "@1.05 S9 S12 S16 D13 D17 CoOp(x2) S19.lock D20.lock  @2.00 Dp3",
+	charts: {
+		Phoenix: "= S17`16 S20`19 D14`13 D18`17 D21`20 -Dp3",
+		XX: "@1.05 S9 S12 S16 D13 D17 CoOp(x2) S19.lock D20.lock  @2.00 Dp3",
+	},
 },
 
 
@@ -818,8 +942,10 @@ var readableTracklist = {
 	arcadeID: "1630",
 	pumpoutID: 743,
 
-	Phoenix: "= D17`16 -Dp4",
-	XX: "S14.lock S17.lock S20.lock D16.lock D21.lock  @1.01 Dp4  @2.03  CoOp(x2)",
+	charts: {
+		Phoenix: "= D17`16 -Dp4",
+		XX: "S14.lock S17.lock S20.lock D16.lock D21.lock  @1.01 Dp4  @2.03  CoOp(x2)",
+	},
 },
 
 
@@ -830,8 +956,10 @@ var readableTracklist = {
 	arcadeID: "1631",
 	pumpoutID: 802,
 
-	Phoenix: "= S4`6 -Dp3",
-	XX: "@1.05 S6 S13 S16 D18 S19.lock S21.lock D21.lock D23.lock  @2.00 Dp3",
+	charts: {
+		Phoenix: "= S4`6 -Dp3",
+		XX: "@1.05 S6 S13 S16 D18 S19.lock S21.lock D21.lock D23.lock  @2.00 Dp3",
+	},
 },
 
 
@@ -842,8 +970,10 @@ var readableTracklist = {
 	arcadeID: "1632",
 	pumpoutID: 845,
 
-	Phoenix: "= S9`8 S21`22 D14`15 D23`24",
-	XX: "@2.04 S8 S12 S16 S19 D15 D19 S22.lock D24.lock",
+	charts: {
+		Phoenix: "= S9`8 S21`22 D14`15 D23`24",
+		XX: "@2.04 S8 S12 S16 S19 D15 D19 S22.lock D24.lock",
+	},
 },
 
 
@@ -854,8 +984,10 @@ var readableTracklist = {
 	arcadeID: "1633",
 	pumpoutID: 846,
 
-	Phoenix: "= D13`12",
-	XX: "@2.04 S11 S15 S18 D12 D16 D19 CoOp(x3) S22.lock D23.lock",
+	charts: {
+		Phoenix: "= D13`12",
+		XX: "@2.04 S11 S15 S18 D12 D16 D19 CoOp(x3) S22.lock D23.lock",
+	},
 },
 
 
@@ -866,8 +998,10 @@ var readableTracklist = {
 	arcadeID: "1634",
 	pumpoutID: 811,
 
-	Phoenix: "= S16`15 S20`19 -Dp4",
-	XX: "@2.00 S10 S15 D12 D18 S19.lock D21.lock  @2.02 Dp4",
+	charts: {
+		Phoenix: "= S16`15 S20`19 -Dp4",
+		XX: "@2.00 S10 S15 D12 D18 S19.lock D21.lock  @2.02 Dp4",
+	},
 },
 
 
@@ -878,8 +1012,11 @@ var readableTracklist = {
 	arcadeID: "1635",
 	pumpoutID: 796,
 
-	Phoenix: "= D24`23 -Dp4",
-	XX: "@1.04 S4 S7 S11 S14 S17 D13 D20 S20.lock D23.lock  @2.01 CoOp(x3)  @2.02 Dp4",  // @1.05 D23 changed
+	charts: {
+		Phoenix: "= D24`23 -Dp4",
+		XX: "@1.04 S4 S7 S11 S14 S17 D13 D20 S20.lock D23.lock  @2.01 CoOp(x3)  @2.02 Dp4",
+			// @1.05 D23 changed
+	},
 },
 
 
@@ -891,8 +1028,10 @@ var readableTracklist = {
 	arcadeID: "1636",
 	pumpoutID: 847,
 
-	Phoenix: "= D16`15",
-	XX: "@2.04 S6 S10 S15 S18 D11 D15 D19 CoOp(x2) S21.lock D22.lock  @2.05 S1 S3",
+	charts: {
+		Phoenix: "= D16`15",
+		XX: "@2.04 S6 S10 S15 S18 D11 D15 D19 CoOp(x2) S21.lock D22.lock  @2.05 S1 S3",
+	},
 },
 
 
@@ -903,8 +1042,10 @@ var readableTracklist = {
 	arcadeID: "1637",
 	pumpoutID: 881,
 
-	Phoenix: "= D13`12",
-	XX: "@2.06 S3 S7 S10 S16 D12 D18 S19.lock D21.lock",
+	charts: {
+		Phoenix: "= D13`12",
+		XX: "@2.06 S3 S7 S10 S16 D12 D18 S19.lock D21.lock",
+	},
 },
 
 
@@ -915,8 +1056,10 @@ var readableTracklist = {
 	arcadeID: "1638",
 	pumpoutID: 890,
 
-	Phoenix: "= D14`13 D18`17",
-	XX: "@2.06 S8 S12 S16 D13 D17 S19.lock S22.lock D21.lock D24.lock",
+	charts: {
+		Phoenix: "= D14`13 D18`17",
+		XX: "@2.06 S8 S12 S16 D13 D17 S19.lock S22.lock D21.lock D24.lock",
+	},
 },
 
 
@@ -927,8 +1070,10 @@ var readableTracklist = {
 	arcadeID: "1639",
 	pumpoutID: 891,
 
-	Phoenix: "= D13`12 -Sp18 -Dp22",
-	XX: "@2.06 S5 S7 S11 S15 D12 D19 Sp18 Dp22 S21.lock D23.lock",
+	charts: {
+		Phoenix: "= D13`12 -Sp18 -Dp22",
+		XX: "@2.06 S5 S7 S11 S15 D12 D19 Sp18 Dp22 S21.lock D23.lock",
+	},
 },
 
 
@@ -939,8 +1084,10 @@ var readableTracklist = {
 	arcadeID: "1640",
 	pumpoutID: 879,
 
-	Phoenix: "= S13`12 S17`16 D14`13 D18`17",
-	XX: "@2.06 S10.lock S12.lock S16.lock S20.lock D13.lock D17.lock D21.lock D23.lock CoOp(x2).lock",
+	charts: {
+		Phoenix: "= S13`12 S17`16 D14`13 D18`17",
+		XX: "@2.06 S10.lock S12.lock S16.lock S20.lock D13.lock D17.lock D21.lock D23.lock CoOp(x2).lock",
+	},
 },
 
 
@@ -951,8 +1098,10 @@ var readableTracklist = {
 	arcadeID: "1641",
 	pumpoutID: 844,
 
-	Phoenix: "=",
-	XX: "@2.04 S3 S5 S9 S16 D7 D16 S18.lock D18.lock D22.lock",
+	charts: {
+		Phoenix: "=",
+		XX: "@2.04 S3 S5 S9 S16 D7 D16 S18.lock D18.lock D22.lock",
+	},
 },
 
 
@@ -964,7 +1113,9 @@ var readableTracklist = {
 	arcadeID: "1642",
 	pumpoutID: 768,
 
-	XX: "@1.01 S4 S7 S9 S13 S16 S18.lock D11 D14 D16.lock D19  @1.04 Dp5",
+	charts: {
+		XX: "@1.01 S4 S7 S9 S13 S16 S18.lock D11 D14 D16.lock D19  @1.04 Dp5",
+	},
 },
 
 
@@ -975,8 +1126,10 @@ var readableTracklist = {
 	arcadeID: "1643",
 	pumpoutID: 800,
 
-	Phoenix: "= -Dp3",
-	XX: "@1.05 S2 S4 S6 S16 D14 D20 CoOp(x2) S20.lock S22.lock D24.lock  @2.00 Dp3",
+	charts: {
+		Phoenix: "= -Dp3",
+		XX: "@1.05 S2 S4 S6 S16 D14 D20 CoOp(x2) S20.lock S22.lock D24.lock  @2.00 Dp3",
+	},
 },
 
 
@@ -987,8 +1140,10 @@ var readableTracklist = {
 	arcadeID: "1644",
 	pumpoutID: 770,
 
-	Phoenix: "= S18`17 D19`18 -Dp4",
-	XX: "@1.01 S2 S4 S7 S15 S17.lock D11 D16 D18.lock  @1.04 Dp4",
+	charts: {
+		Phoenix: "= S18`17 D19`18 -Dp4",
+		XX: "@1.01 S2 S4 S7 S15 S17.lock D11 D16 D18.lock  @1.04 Dp4",
+	},
 },
 
 
@@ -999,8 +1154,10 @@ var readableTracklist = {
 	arcadeID: "1645",
 	pumpoutID: 730,
 
-	Phoenix: "= -Dp3",
-	XX: "S1 S3 S5 S9 S15 S18.lock D10 D16.ampass D19.lock Dp3  @1.05 S20 D21  @2.04 CoOp(x2)",
+	charts: {
+		Phoenix: "= -Dp3",
+		XX: "S1 S3 S5 S9 S15 S18.lock D10 D16.ampass D19.lock Dp3  @1.05 S20 D21  @2.04 CoOp(x2)",
+	},
 },
 
 
@@ -1011,7 +1168,9 @@ var readableTracklist = {
 	arcadeID: "1646",
 	pumpoutID: 792,
 
-	XX: "@1.04 S2 S4 S6 S9 S14 D7 D16 S17.lock D18.lock  @2.00 Dp5",
+	charts: {
+		XX: "@1.04 S2 S4 S6 S9 S14 D7 D16 S17.lock D18.lock  @2.00 Dp5",
+	},
 },
 
 
@@ -1022,7 +1181,9 @@ var readableTracklist = {
 	arcadeID: "1647",
 	pumpoutID: 731,
 
-	XX: "S1 S3 S5 S8 S16.lock D17 CoOp(x2)  @1.01 Dp4",
+	charts: {
+		XX: "S1 S3 S5 S8 S16.lock D17 CoOp(x2)  @1.01 Dp4",
+	},
 },
 
 
@@ -1033,7 +1194,9 @@ var readableTracklist = {
 	arcadeID: "1648",
 	pumpoutID: 820,
 
-	XX: "@2.01 S2 S3 S5 S15 D6 D16 S17.lock S19.lock D18.lock  @2.02 Dp2",
+	charts: {
+		XX: "@2.01 S2 S3 S5 S15 D6 D16 S17.lock S19.lock D18.lock  @2.02 Dp2",
+	},
 },
 
 
@@ -1044,7 +1207,9 @@ var readableTracklist = {
 	arcadeID: "1649",
 	pumpoutID: 732,
 
-	XX: "S2 S4 S6 S9 S15 S17.lock D15.ampass D18  @1.01 Dp3",
+	charts: {
+		XX: "S2 S4 S6 S9 S15 S17.lock D15.ampass D18  @1.01 Dp3",
+	},
 },
 
 
@@ -1055,8 +1220,9 @@ var readableTracklist = {
 	arcadeID: "1650",
 	pumpoutID: 747,
 
-	arcadeNameMaxEditDistance: 1, // 'Im so sick'
-	XX: "S2 S4 S6 S9 S15 S17.lock D9 D16 D18.lock D20.lock  @1.01 Dp3  @1.04 CoOp(x2)",
+	charts: {
+		XX: "S2 S4 S6 S9 S15 S17.lock D9 D16 D18.lock D20.lock  @1.01 Dp3  @1.04 CoOp(x2)",
+	},
 },
 
 
@@ -1067,7 +1233,9 @@ var readableTracklist = {
 	arcadeID: "1651",
 	pumpoutID: 748,
 
-	XX: "S2 S4 S6 S10 S14.lock S17.lock D7 D16.lock D20.lock CoOp(x2).lock  @1.01 Dp3",
+	charts: {
+		XX: "S2 S4 S6 S10 S14.lock S17.lock D7 D16.lock D20.lock CoOp(x2).lock  @1.01 Dp3",
+	},
 },
 
 
@@ -1078,7 +1246,9 @@ var readableTracklist = {
 	arcadeID: "1652",
 	pumpoutID: 778,
 
-	XX: "@1.02 S2 S4 S6 S10 S14 D15 Dp2 CoOp(x2) S18.lock D19.lock",
+	charts: {
+		XX: "@1.02 S2 S4 S6 S10 S14 D15 Dp2 CoOp(x2) S18.lock D19.lock",
+	},
 },
 
 
@@ -1089,7 +1259,9 @@ var readableTracklist = {
 	arcadeID: "1653",
 	pumpoutID: 813,
 
-	XX: "@2.00 S3 S6 S10 S13 S15 D10 D15 D18 S17.lock D20.lock  @2.02 Dp3",
+	charts: {
+		XX: "@2.00 S3 S6 S10 S13 S15 D10 D15 D18 S17.lock D20.lock  @2.02 Dp3",
+	},
 },
 
 
@@ -1100,7 +1272,9 @@ var readableTracklist = {
 	arcadeID: "1654",
 	pumpoutID: 816,
 
-	XX: "@2.00 S1 S3 S5 S9 S14 D7 D11 D16 S16.lock S19.lock D18.lock D21.lock  @2.02 Dp4",
+	charts: {
+		XX: "@2.00 S1 S3 S5 S9 S14 D7 D11 D16 S16.lock S19.lock D18.lock D21.lock  @2.02 Dp4",
+	},
 },
 
 
@@ -1111,7 +1285,9 @@ var readableTracklist = {
 	arcadeID: "1655",
 	pumpoutID: 749,
 
-	XX: "S1 S4 S6 S9 S13 S15.lock D8 D15 D18.lock  @1.01 CoOp(x2) Dp2",
+	charts: {
+		XX: "S1 S4 S6 S9 S13 S15.lock D8 D15 D18.lock  @1.01 CoOp(x2) Dp2",
+	},
 },
 
 
@@ -1122,7 +1298,9 @@ var readableTracklist = {
 	arcadeID: "1656",
 	pumpoutID: 812,
 
-	XX: "@2.00 S2 S4 S6 S9 S13 D7 D15 CoOp(x2) S16.lock D18.lock D20.lock  @2.02 Dp3",
+	charts: {
+		XX: "@2.00 S2 S4 S6 S9 S13 D7 D15 CoOp(x2) S16.lock D18.lock D20.lock  @2.02 Dp3",
+	},
 },
 
 
@@ -1133,7 +1311,9 @@ var readableTracklist = {
 	arcadeID: "1657",
 	pumpoutID: 815,
 
-	XX: "@2.00 S2 S4 S7 S11 S14 D11 D15 CoOp(x2) S17.lock D18.lock  @2.02 Dp4",
+	charts: {
+		XX: "@2.00 S2 S4 S7 S11 S14 D11 D15 CoOp(x2) S17.lock D18.lock  @2.02 Dp4",
+	},
 },
 
 
@@ -1144,7 +1324,9 @@ var readableTracklist = {
 	arcadeID: "1658",
 	pumpoutID: 783,
 
-	XX: "@1.03 S1 S3 S5 S8 S14 D7 D15 S16.lock D17.lock  @2.04 Dp2  @2.07 CoOp(x2)",
+	charts: {
+		XX: "@1.03 S1 S3 S5 S8 S14 D7 D15 S16.lock D17.lock  @2.04 Dp2  @2.07 CoOp(x2)",
+	},
 },
 
 
@@ -1155,7 +1337,9 @@ var readableTracklist = {
 	arcadeID: "1659",
 	pumpoutID: 750,
 
-	XX: "S1 S3 S6 S8 S14 S17.lock D3 D14.lock  @1.01 Dp4  @2.04 D19.lock",
+	charts: {
+		XX: "S1 S3 S6 S8 S14 S17.lock D3 D14.lock  @1.01 Dp4  @2.04 D19.lock",
+	},
 },
 
 
@@ -1166,7 +1350,9 @@ var readableTracklist = {
 	arcadeID: "1660",
 	pumpoutID: 776,
 
-	XX: "@1.02 S3 S5 S8 S16 D11 D18 S18.lock D21.lock  @1.04 Dp4  @2.02 CoOp(x2)",
+	charts: {
+		XX: "@1.02 S3 S5 S8 S16 D11 D18 S18.lock D21.lock  @1.04 Dp4  @2.02 CoOp(x2)",
+	},
 },
 
 
@@ -1177,7 +1363,9 @@ var readableTracklist = {
 	arcadeID: "1661",
 	pumpoutID: 827,
 
-	XX: "@2.02 S1 S3 S6 S8 S14 D10 D15 S16.lock D18.lock  @2.04 Dp3",
+	charts: {
+		XX: "@2.02 S1 S3 S6 S8 S14 D10 D15 S16.lock D18.lock  @2.04 Dp3",
+	},
 },
 
 
@@ -1188,7 +1376,9 @@ var readableTracklist = {
 	arcadeID: "1662",
 	pumpoutID: 751,
 
-	XX: "S2 S4 S6 S9 S14.lock S17.lock D6 D15.lock D18.lock CoOp(x2)  @1.01 Dp4",
+	charts: {
+		XX: "S2 S4 S6 S9 S14.lock S17.lock D6 D15.lock D18.lock CoOp(x2)  @1.01 Dp4",
+	},
 },
 
 
@@ -1199,7 +1389,9 @@ var readableTracklist = {
 	arcadeID: "1663",
 	pumpoutID: 752,
 
-	XX: "S2 S4 S6 S10.lock S14.lock S17.lock D10 D16.lock D18.lock  @1.01 Dp3  @1.04 D21.lock  @2.00 CoOp(x2)",
+	charts: {
+		XX: "S2 S4 S6 S10.lock S14.lock S17.lock D10 D16.lock D18.lock  @1.01 Dp3  @1.04 D21.lock  @2.00 CoOp(x2)",
+	},
 },
 
 
@@ -1210,8 +1402,10 @@ var readableTracklist = {
 	arcadeID: "1664",
 	pumpoutID: 779,
 
-	Phoenix: "= S14`13 D24`25 -Dp3",
-	XX: "@1.02 S1 S4 S7 S13 S17 D14 D17 S21.lock D20.lock D25.lock  @1.04 Dp3  @2.06 CoOp(x2)",
+	charts: {
+		Phoenix: "= S14`13 D24`25 -Dp3",
+		XX: "@1.02 S1 S4 S7 S13 S17 D14 D17 S21.lock D20.lock D25.lock  @1.04 Dp3  @2.06 CoOp(x2)",
+	},
 },
 
 
@@ -1222,7 +1416,9 @@ var readableTracklist = {
 	arcadeID: "1665",
 	pumpoutID: 793,
 
-	XX: "@1.04 S3 S5 S8 S14 S18 D9 D19 CoOp(x2) S21.lock D23.lock  @2.02 Dp4",
+	charts: {
+		XX: "@1.04 S3 S5 S8 S14 S18 D9 D19 CoOp(x2) S21.lock D23.lock  @2.02 Dp4",
+	},
 },
 
 
@@ -1233,7 +1429,9 @@ var readableTracklist = {
 	arcadeID: "1666",
 	pumpoutID: 836,
 
-	XX: "@2.03 S2 S4 S6 S9 S15 D6 D16 S17.lock D18.lock  @2.04 Dp3  @2.05 D20.lock",
+	charts: {
+		XX: "@2.03 S2 S4 S6 S9 S15 D6 D16 S17.lock D18.lock  @2.04 Dp3  @2.05 D20.lock",
+	},
 },
 
 
@@ -1245,7 +1443,9 @@ var readableTracklist = {
 	arcadeID: "1667",
 	pumpoutID: 769,
 
-	XX: "@1.01 S1 S3 S5 S9 S11 S16.lock S18 D12.lock D16 D19.lock  @1.04 CoOp(x2) Dp5",
+	charts: {
+		XX: "@1.01 S1 S3 S5 S9 S11 S16.lock S18 D12.lock D16 D19.lock  @1.04 CoOp(x2) Dp5",
+	},
 },
 
 
@@ -1256,8 +1456,10 @@ var readableTracklist = {
 	arcadeID: "1668",
 	pumpoutID: 753,
 
-	Phoenix: "= S9`8 S17`16 S19`18 -Dp5",
-	XX: "S8 S16 S18.lock S22.lock D12.lock D18.lock D21.lock CoOp(x2).lock  @1.01 Dp5  @2.06 D23.lock",
+	charts: {
+		Phoenix: "= S9`8 S17`16 S19`18 -Dp5",
+		XX: "S8 S16 S18.lock S22.lock D12.lock D18.lock D21.lock CoOp(x2).lock  @1.01 Dp5  @2.06 D23.lock",
+	},
 },
 
 
@@ -1268,8 +1470,11 @@ var readableTracklist = {
 	arcadeID: "1669",
 	pumpoutID: 824,
 
-	Phoenix: "= S9`8 S12`13 D15`14 -Dp5 -D21",
-	XX: "@2.01 S8 S13 S19 D14 D20 CoOp(x2) S22.lock D21.lock D22.lock  @2.02 S17 Dp5  @2.07 D25.lock",  // @2.02 S22 changed
+	charts: {
+		Phoenix: "= S9`8 S12`13 D15`14 -Dp5 -D21",
+		XX: "@2.01 S8 S13 S19 D14 D20 CoOp(x2) S22.lock D21.lock D22.lock  @2.02 S17 Dp5  @2.07 D25.lock",
+		  // @2.02 S22 changed
+	},
 },
 
 
@@ -1280,8 +1485,10 @@ var readableTracklist = {
 	arcadeID: "1670",
 	pumpoutID: 754,
 
-	Phoenix: "= -Dp3",
-	XX: "S12.lock S16.lock S20.lock D18.lock D21.lock  @1.01 Dp3  @2.08 CoOp(x2)",
+	charts: {
+		Phoenix: "= -Dp3",
+		XX: "S12.lock S16.lock S20.lock D18.lock D21.lock  @1.01 Dp3  @2.08 CoOp(x2)",
+	},
 },
 
 
@@ -1293,8 +1500,10 @@ var readableTracklist = {
 	arcadeID: "1671",
 	pumpoutID: 806,
 
-	Phoenix: "= -Dp4",
-	XX: "@1.05 S8 S17 D12 D18 S20.lock S22.lock D20.lock D24.lock  @2.00 Dp4",
+	charts: {
+		Phoenix: "= -Dp4",
+		XX: "@1.05 S8 S17 D12 D18 S20.lock S22.lock D20.lock D24.lock  @2.00 Dp4",
+	},
 },
 
 
@@ -1305,8 +1514,10 @@ var readableTracklist = {
 	arcadeID: "1672",
 	pumpoutID: 839,
 
-	Phoenix: "= S11`10 -Dp2",
-	XX: "@2.03 S10 S16 S19 D13 D20 S21.lock D23.lock  @2.04 Dp2",
+	charts: {
+		Phoenix: "= S11`10 -Dp2",
+		XX: "@2.03 S10 S16 S19 D13 D20 S21.lock D23.lock  @2.04 Dp2",
+	},
 },
 
 
@@ -1317,8 +1528,10 @@ var readableTracklist = {
 	arcadeID: "1673",
 	pumpoutID: 814,
 
-	Phoenix: "= S19`20 D20`21 -Dp4",
-	XX: "@2.00 S4 S7 S12 S18 D14 S20.lock D21.lock  @2.01 D23.lock  @2.04 Dp4",
+	charts: {
+		Phoenix: "= S19`20 D20`21 -Dp4",
+		XX: "@2.00 S4 S7 S12 S18 D14 S20.lock D21.lock  @2.01 D23.lock  @2.04 Dp4",
+	},
 },
 
 
@@ -1329,21 +1542,24 @@ var readableTracklist = {
 	arcadeID: "1674",
 	pumpoutID: 808,
 
-	Phoenix: "= S14`15 D8`7 -Dp3",
-	XX: "@2.00 S1 S3 S5 S8 S15 D7 D16  @2.02 Dp3",
+	charts: {
+		Phoenix: "= S14`15 D8`7 -Dp3",
+		XX: "@2.00 S1 S3 S5 S8 S15 D7 D16  @2.02 Dp3",
+	},
 },
 
 
 "16__F_r_iend":
 {
 	title: "F(R)IEND", artist: "D_AAN", channel: WORLD, bpm: "200",
-	arcadeNameMaxEditDistance: 2, // 'F(RJIEND', 'FR( END'
 	altID: "16_F_R_IEND",
 	arcadeID: "1675",
 	pumpoutID: 798,
 
-	Phoenix: "= -Dp4",
-	XX: "@1.04 S10 S15 S19 D12 D17 S21.lock S23.lock D21.lock D25.lock  @2.00 Dp4",
+	charts: {
+		Phoenix: "= -Dp4",
+		XX: "@1.04 S10 S15 S19 D12 D17 S21.lock S23.lock D21.lock D25.lock  @2.00 Dp4",
+	},
 },
 
 
@@ -1354,7 +1570,9 @@ var readableTracklist = {
 	arcadeID: "1676",
 	pumpoutID: 784,
 
-	XX: "@1.03 S6 S11 S17 S19 D13 D21 S22.lock D24.lock  @1.04 S15 CoOp(x2)  @2.02 Dp4",
+	charts: {
+		XX: "@1.03 S6 S11 S17 S19 D13 D21 S22.lock D24.lock  @1.04 S15 CoOp(x2)  @2.02 Dp4",
+	},
 },
 
 
@@ -1365,8 +1583,10 @@ var readableTracklist = {
 	arcadeID: "1677",
 	pumpoutID: 831,
 
-	Phoenix: "= D14`15 -Dp3",
-	XX: "@2.02 S8 S12 S16 D10 D15 D18 S19.lock D21.lock  @2.04 Dp3  @2.07 D23.lock",
+	charts: {
+		Phoenix: "= D14`15 -Dp3",
+		XX: "@2.02 S8 S12 S16 D10 D15 D18 S19.lock D21.lock  @2.04 Dp3  @2.07 D23.lock",
+	},
 },
 
 
@@ -1377,8 +1597,10 @@ var readableTracklist = {
 	arcadeID: "1678",
 	pumpoutID: 755,
 
-	Phoenix: "= S18`17 -Dp5",
-	XX: "S12.lock S15.lock S19.lock D16.lock D21.lock  @1.01 Dp5  @2.02 S17",
+	charts: {
+		Phoenix: "= S18`17 -Dp5",
+		XX: "S12.lock S15.lock S19.lock D16.lock D21.lock  @1.01 Dp5  @2.02 S17",
+	},
 },
 
 
@@ -1389,8 +1611,11 @@ var readableTracklist = {
 	arcadeID: "1679",
 	pumpoutID: 756,
 
-	Phoenix: "= S15`14 -Dp4",
-	XX: "S12.lock S14.lock S16.lock S19.lock D15.lock D22.lock  @1.01 Dp4",  // @1.05 D22 changed
+	charts: {
+		Phoenix: "= S15`14 -Dp4",
+		XX: "S12.lock S14.lock S16.lock S19.lock D15.lock D22.lock  @1.01 Dp4",
+		  // @1.05 D22 changed
+	},
 },
 
 
@@ -1401,8 +1626,10 @@ var readableTracklist = {
 	arcadeID: "1680",
 	pumpoutID: 757,
 
-	Phoenix: "= D12`11 -Dp3",
-	XX: "S2 S4 S7 S10 S15.lock S17.lock D11 D15.lock D17.lock CoOp(x2)  @1.01 Dp3",
+	charts: {
+		Phoenix: "= D12`11 -Dp3",
+		XX: "S2 S4 S7 S10 S15.lock S17.lock D11 D15.lock D17.lock CoOp(x2)  @1.01 Dp3",
+	},
 },
 
 
@@ -1413,8 +1640,10 @@ var readableTracklist = {
 	arcadeID: "1681",
 	pumpoutID: 782,
 
-	Phoenix: "= D11`10 -Dp3",
-	XX: "@1.02 S7 S11 S16 D10 D17 CoOp(x2) S18.lock D19.lock  @1.04 Dp3",
+	charts: {
+		Phoenix: "= D11`10 -Dp3",
+		XX: "@1.02 S7 S11 S16 D10 D17 CoOp(x2) S18.lock D19.lock  @1.04 Dp3",
+	},
 },
 
 
@@ -1425,8 +1654,10 @@ var readableTracklist = {
 	arcadeID: "1682",
 	pumpoutID: 833,
 
-	Phoenix: "= D19`20 D21`22 -Dp4",
-	XX: "@2.02 S7 S11 S16 S18 D13 D20 CoOp(x2) S20.lock D22.lock  @2.04 Dp4",
+	charts: {
+		Phoenix: "= D19`20 D21`22 -Dp4",
+		XX: "@2.02 S7 S11 S16 S18 D13 D20 CoOp(x2) S20.lock D22.lock  @2.04 Dp4",
+	},
 },
 
 
@@ -1437,8 +1668,10 @@ var readableTracklist = {
 	arcadeID: "1683",
 	pumpoutID: 826,
 
-	Phoenix: "= S19`20 D20`21 -Dp4",
-	XX: "@2.01 S3 S7 S10 S16 D11 D16 S20.lock D21.lock  @2.02 Dp4",
+	charts: {
+		Phoenix: "= S19`20 D20`21 -Dp4",
+		XX: "@2.01 S3 S7 S10 S16 D11 D16 S20.lock D21.lock  @2.02 Dp4",
+	},
 },
 
 
@@ -1449,8 +1682,10 @@ var readableTracklist = {
 	arcadeID: "1684",
 	pumpoutID: 819,
 
-	Phoenix: "= S15`16 D12`11 -Dp4",
-	XX: "@2.00 S9 S16 D11 D17 S19.lock S22.lock D20.lock D24.lock  @2.02 Dp4",
+	charts: {
+		Phoenix: "= S15`16 D12`11 -Dp4",
+		XX: "@2.00 S9 S16 D11 D17 S19.lock S22.lock D20.lock D24.lock  @2.02 Dp4",
+	},
 },
 
 
@@ -1461,8 +1696,10 @@ var readableTracklist = {
 	arcadeID: "1685",
 	pumpoutID: 772,
 
-	Phoenix: "= -Dp5",
-	XX: "@1.01 S12 S17 S21.lock S24.lock D18 D22.lock D25.lock  @2.00 Dp5  @2.03  CoOp(x3)",
+	charts: {
+		Phoenix: "= -Dp5",
+		XX: "@1.01 S12 S17 S21.lock S24.lock D18 D22.lock D25.lock  @2.00 Dp5  @2.03  CoOp(x3)",
+	},
 },
 
 
@@ -1473,8 +1710,10 @@ var readableTracklist = {
 	arcadeID: "1686",
 	pumpoutID: 795,
 
-	Phoenix: "= S11`10 D12`11 -Dp3",
-	XX: "@1.04 S6 S10 S15 D11 D17 CoOp(x2) S17.lock D19.lock  @2.00 Dp3",
+	charts: {
+		Phoenix: "= S11`10 D12`11 -Dp3",
+		XX: "@1.04 S6 S10 S15 D11 D17 CoOp(x2) S17.lock D19.lock  @2.00 Dp3",
+	},
 },
 
 
@@ -1485,8 +1724,10 @@ var readableTracklist = {
 	arcadeID: "1687",
 	pumpoutID: 840,
 
-	Phoenix: "= -Dp3",
-	XX: "@2.03 S4 S8 S11 S15 D13 D17 CoOp(x3) S19.lock D21.lock  @2.04 Dp3",
+	charts: {
+		Phoenix: "= -Dp3",
+		XX: "@2.03 S4 S8 S11 S15 D13 D17 CoOp(x3) S19.lock D21.lock  @2.04 Dp3",
+	},
 },
 
 
@@ -1497,21 +1738,24 @@ var readableTracklist = {
 	arcadeID: "1688",
 	pumpoutID: 848,
 
-	Phoenix: "= S6`5",
-	XX: "@2.04 S5 S10 S15 S19 D12 D17 CoOp(x2) S21.lock D21.lock",
+	charts: {
+		Phoenix: "= S6`5",
+		XX: "@2.04 S5 S10 S15 S19 D12 D17 CoOp(x2) S21.lock D21.lock",
+	},
 },
 
 
 "16__Over_the_Horizon":
 {
 	title: "Over The Horizon", artist: "Yamajet", channel: XROSS, bpm: "190",
-	arcadeNameMaxEditDistance: 1, // 'Qver The Horizon'
 	altID: "16_Over_the_Horizon",
 	arcadeID: "1689",
 	pumpoutID: 849,
 
-	Phoenix: "= S14`15",
-	XX: "@2.04 S11 S15 S17 D14 S20.lock D21.lock  @2.07 D18",
+	charts: {
+		Phoenix: "= S14`15",
+		XX: "@2.04 S11 S15 S17 D14 S20.lock D21.lock  @2.07 D18",
+	},
 },
 
 
@@ -1522,8 +1766,10 @@ var readableTracklist = {
 	arcadeID: "1690",
 	pumpoutID: 758,
 
-	Phoenix: "= S20`19 D20`19 -Dp3",
-	XX: "S12.lock S16.lock S19.lock S21.lock D12.lock D19.lock  @1.01 Dp3  @2.00 CoOp(x2)",
+	charts: {
+		Phoenix: "= S20`19 D20`19 -Dp3",
+		XX: "S12.lock S16.lock S19.lock S21.lock D12.lock D19.lock  @1.01 Dp3  @2.00 CoOp(x2)",
+	},
 },
 
 
@@ -1535,8 +1781,10 @@ var readableTracklist = {
 	arcadeID: "1691",
 	pumpoutID: 759,
 
-	Phoenix: "= D20`21 -Dp2",
-	XX: "S23.lock D26.lock  @1.01 Dp2  @2.04 S15 S18 S21 D21 D24.lock",
+	charts: {
+		Phoenix: "= D20`21 -Dp2",
+		XX: "S23.lock D26.lock  @1.01 Dp2  @2.04 S15 S18 S21 D21 D24.lock",
+	},
 },
 
 
@@ -1547,8 +1795,10 @@ var readableTracklist = {
 	arcadeID: "1692",
 	pumpoutID: 850,
 
-	Phoenix: "= D19`18",
-	XX: "@2.04 S3 S6 S9 S15 D8 D16 S17.lock D18.lock",
+	charts: {
+		Phoenix: "= D19`18",
+		XX: "@2.04 S3 S6 S9 S15 D8 D16 S17.lock D18.lock",
+	},
 },
 
 
@@ -1559,8 +1809,10 @@ var readableTracklist = {
 	arcadeID: "1693",
 	pumpoutID: 810,
 
-	Phoenix: "= S15`14 -Dp4",
-	XX: "@2.00 S9 S14 S17 D10 D18 S21.lock D23.lock  @2.02 Dp4",
+	charts: {
+		Phoenix: "= S15`14 -Dp4",
+		XX: "@2.00 S9 S14 S17 D10 D18 S21.lock D23.lock  @2.02 Dp4",
+	},
 },
 
 
@@ -1572,8 +1824,10 @@ var readableTracklist = {
 	arcadeID: "1694",
 	pumpoutID: 773,
 
-	Phoenix: "= D22`23 -Dp4",
-	XX: "@1.01 S8 S15 S18 S21.lock D17 D19.lock D23.lock  @1.04 Dp4",
+	charts: {
+		Phoenix: "= D22`23 -Dp4",
+		XX: "@1.01 S8 S15 S18 S21.lock D17 D19.lock D23.lock  @1.04 Dp4",
+	},
 },
 
 
@@ -1584,8 +1838,10 @@ var readableTracklist = {
 	arcadeID: "1695",
 	pumpoutID: 801,
 
-	Phoenix: "= -Dp3 -D22",
-	XX: "@1.05 S11 S15 S17 S19 S22 D13 D18 D21  @2.00 Dp3  @2.07 D22  @2.08 D24",
+	charts: {
+		Phoenix: "= -Dp3 -D22",
+		XX: "@1.05 S11 S15 S17 S19 S22 D13 D18 D21  @2.00 Dp3  @2.07 D22  @2.08 D24",
+	},
 },
 
 
@@ -1596,8 +1852,10 @@ var readableTracklist = {
 	arcadeID: "1696",
 	pumpoutID: 832,
 
-	Phoenix: "= -Dp3",
-	XX: "@2.02 S11 S16 S19 D15 D20 S21.lock D22.lock  @2.04 Dp3",
+	charts: {
+		Phoenix: "= -Dp3",
+		XX: "@2.02 S11 S16 S19 D15 D20 S21.lock D22.lock  @2.04 Dp3",
+	},
 },
 
 
@@ -1608,21 +1866,24 @@ var readableTracklist = {
 	arcadeID: "1697",
 	pumpoutID: 872,
 
-	Phoenix: "= S19`18",
-	XX: "@2.05 S3.lock S5.lock S8.lock S11.lock S16.lock S18.lock S22.lock D8.lock D14.lock D20.lock D24.lock  @2.08 CoOp(x2)",
+	charts: {
+		Phoenix: "= S19`18",
+		XX: "@2.05 S3.lock S5.lock S8.lock S11.lock S16.lock S18.lock S22.lock D8.lock D14.lock D20.lock D24.lock  @2.08 CoOp(x2)",
+	},
 },
 
 
 "16__Life_is_Piano":
 {
 	title: "Life is Piano", artist: "Junk", channel: WORLD, bpm: "133",
-	arcadeNameMaxEditDistance: 1, // 'Life is PANO'
 	altID: "16_Life_is_Piano",
 	arcadeID: "1698",
 	pumpoutID: 875,
 
-	Phoenix: "=",
-	XX: "@2.05 S2 S4 S7 S10 S16 D11 D18 S19.lock D21.lock",
+	charts: {
+		Phoenix: "=",
+		XX: "@2.05 S2 S4 S7 S10 S16 D11 D18 S19.lock D21.lock",
+	},
 },
 
 
@@ -1633,8 +1894,10 @@ var readableTracklist = {
 	arcadeID: "1699",
 	pumpoutID: 887,
 
-	Phoenix: "= D25`24",
-	XX: "@2.07 S10 S14 S17 D16 D18 S20.lock S23.lock D21.lock D24.lock",
+	charts: {
+		Phoenix: "= D25`24",
+		XX: "@2.07 S10 S14 S17 D16 D18 S20.lock S23.lock D21.lock D24.lock",
+	},
 },
 
 
@@ -1646,8 +1909,10 @@ var readableTracklist = {
 	arcadeID: "16A0",
 	pumpoutID: 785,
 
-	Phoenix: "= S21`22 -Dp3",
-	XX: "@1.03 S8 S13 S16 S19 D12 D15 D18 S22.lock D23.lock  @2.00 Dp3  @2.01 CoOp(x2)",
+	charts: {
+		Phoenix: "= S21`22 -Dp3",
+		XX: "@1.03 S8 S13 S16 S19 D12 D15 D18 S22.lock D23.lock  @2.00 Dp3  @2.01 CoOp(x2)",
+	},
 },
 
 
@@ -1656,13 +1921,14 @@ var readableTracklist = {
 	title: "Papasito (ft. KuTiNA)", artist: "Yakukaze & Cashew", channel: ORIGINAL, bpm: "128",
 	shortTitle: "Papasito",
 	arcadeName: "Papasito (feat. KuTiNA)",
-	arcadeNameMaxEditDistance: 1, // 'Papasito (feat. KUTiINA)'
 	altID: "16_Papasito",
 	arcadeID: "16A1",
 	pumpoutID: 786,
 
-	Phoenix: "= S7`6 -Dp3",
-	XX: "@1.03 S6 S13 S15 S16 D11 D14 D16 D18 CoOp(x2) S20.lock D21.lock  @1.04 D19 Dp3",
+	charts: {
+		Phoenix: "= S7`6 -Dp3",
+		XX: "@1.03 S6 S13 S15 S16 D11 D14 D16 D18 CoOp(x2) S20.lock D21.lock  @1.04 D19 Dp3",
+	},
 },
 
 
@@ -1673,8 +1939,10 @@ var readableTracklist = {
 	arcadeID: "16A2",
 	pumpoutID: 787,
 
-	Phoenix: "= -Dp3",
-	XX: "@1.03 S6 S10 S16 S18 D11 D18 S20.lock D22.lock  @2.00 Dp3  @2.01 CoOp(x2)",
+	charts: {
+		Phoenix: "= -Dp3",
+		XX: "@1.03 S6 S10 S16 S18 D11 D18 S20.lock D22.lock  @2.00 Dp3  @2.01 CoOp(x2)",
+	},
 },
 
 
@@ -1687,8 +1955,10 @@ var readableTracklist = {
 	arcadeID: "16A3",
 	pumpoutID: 788,
 
-	Phoenix: "= S16`17 D7`8 D22`21 -Dp3",
-	XX: "@1.03 S3 S5 S8 S17 D8 D17  @1.05 S20 D21  @2.00 Dp3",
+	charts: {
+		Phoenix: "= S16`17 D7`8 D22`21 -Dp3",
+		XX: "@1.03 S3 S5 S8 S17 D8 D17  @1.05 S20 D21  @2.00 Dp3",
+	},
 },
 
 
@@ -1699,8 +1969,10 @@ var readableTracklist = {
 	arcadeID: "16A4",
 	pumpoutID: 789,
 
-	Phoenix: "= -Dp4",
-	XX: "@1.03 S3 S6 S8 S13 S16 D5 D11 D14 D17 CoOp(x2) S18.lock D20.lock  @2.00 Dp4",
+	charts: {
+		Phoenix: "= -Dp4",
+		XX: "@1.03 S3 S6 S8 S13 S16 D5 D11 D14 D17 CoOp(x2) S18.lock D20.lock  @2.00 Dp4",
+	},
 },
 
 
@@ -1711,8 +1983,10 @@ var readableTracklist = {
 	arcadeID: "16A5",
 	pumpoutID: 880,
 
-	Phoenix: "=",
-	XX: "@2.06 S4 S6 S10 S16 S19 D13 D21 S22.lock D24.lock",
+	charts: {
+		Phoenix: "=",
+		XX: "@2.06 S4 S6 S10 S16 S19 D13 D21 S22.lock D24.lock",
+	},
 },
 
 
@@ -1723,8 +1997,10 @@ var readableTracklist = {
 	arcadeID: "16A6",
 	pumpoutID: 884,
 
-	Phoenix: "= D13`12",
-	XX: "@2.07 S6 S10 S16 D12 D17 S19.lock S22.lock D20.lock D23.lock D26.lock",
+	charts: {
+		Phoenix: "= D13`12",
+		XX: "@2.07 S6 S10 S16 D12 D17 S19.lock S22.lock D20.lock D23.lock D26.lock",
+	},
 },
 
 
@@ -1735,8 +2011,10 @@ var readableTracklist = {
 	arcadeID: "16A7",
 	pumpoutID: 876,
 
-	Phoenix: "= D22`21",
-	XX: "@2.05 S3 S5 S8 S11 S15 S17 D12 D18 S19.lock S21.lock D21.lock",
+	charts: {
+		Phoenix: "= D22`21",
+		XX: "@2.05 S3 S5 S8 S11 S15 S17 D12 D18 S19.lock S21.lock D21.lock",
+	},
 },
 
 
@@ -1746,8 +2024,10 @@ var readableTracklist = {
 	arcadeID: "16B1",
 	pumpoutID: 894,
 
-	Phoenix: "= S21`20 D17`16 D24`23",
-	XX: "@2.08 S11 S15 S17 S20 S23 D16 D19 D23 D25 CoOp(x2)",
+	charts: {
+		Phoenix: "= S21`20 D17`16 D24`23",
+		XX: "@2.08 S11 S15 S17 S20 S23 D16 D19 D23 D25 CoOp(x2)",
+	},
 },
 
 
@@ -1757,8 +2037,10 @@ var readableTracklist = {
 	arcadeID: "16B2",
 	pumpoutID: 895,
 
-	Phoenix: "=",
-	XX: "@2.08 S12 S15 S19 S21 S23 D18 D22 D25",
+	charts: {
+		Phoenix: "=",
+		XX: "@2.08 S12 S15 S19 S21 S23 D18 D22 D25",
+	},
 },
 
 
@@ -1769,8 +2051,10 @@ var readableTracklist = {
 	pumpoutID: 896,
 	arcadeName: "CROSS RAY",
 
-	Phoenix: "= S21`22",
-	XX: "@2.08 S4 S7 S12 S16 S19 S22 D14 D20 D23",
+	charts: {
+		Phoenix: "= S21`22",
+		XX: "@2.08 S4 S7 S12 S16 S19 S22 D14 D20 D23",
+	},
 },
 
 
@@ -1780,8 +2064,10 @@ var readableTracklist = {
 	arcadeID: "16B4",
 	pumpoutID: 897,
 
-	Phoenix: "= S21`22 D23`24",
-	XX: "@2.08 S4 S7 S11 S17 S19 S22 D12 D18 D21 D24",
+	charts: {
+		Phoenix: "= S21`22 D23`24",
+		XX: "@2.08 S4 S7 S11 S17 S19 S22 D12 D18 D21 D24",
+	},
 },
 
 
@@ -1791,8 +2077,10 @@ var readableTracklist = {
 	arcadeID: "16B5",
 	pumpoutID: 898,
 
-	Phoenix: "=",
-	XX: "@2.08 S2 S4 S7 S11 S16 S19 D6 D13 D18 D21",
+	charts: {
+		Phoenix: "=",
+		XX: "@2.08 S2 S4 S7 S11 S16 S19 D6 D13 D18 D21",
+	},
 },
 
 
@@ -1803,8 +2091,10 @@ var readableTracklist = {
 	pumpoutID: 899,
 	arcadeName: "Paradoxx - SHORT CUT -",
 
-	Phoenix: "=",
-	XX: "@2.08 S21 S24 D26",
+	charts: {
+		Phoenix: "=",
+		XX: "@2.08 S21 S24 D26",
+	},
 },
 
 
@@ -1814,8 +2104,10 @@ var readableTracklist = {
 	arcadeID: "16B7",
 	pumpoutID: 900,
 
-	Phoenix: "= S25`24",
-	XX: "@2.08 S19 S21 S24 D21 D24 D26",
+	charts: {
+		Phoenix: "= S25`24",
+		XX: "@2.08 S19 S21 S24 D21 D24 D26",
+	},
 },
 
 
@@ -1826,8 +2118,10 @@ var readableTracklist = {
 	arcadeID: "16B8",
 	pumpoutID: 901,
 
-	Phoenix: "=",
-	XX: "@2.08 S18 S21 S24 D26",
+	charts: {
+		Phoenix: "=",
+		XX: "@2.08 S18 S21 S24 D26",
+	},
 },
 
 
@@ -1839,8 +2133,10 @@ var readableTracklist = {
 	arcadeID: "16C5",
 	pumpoutID: 780,
 
-	Phoenix: "=",
-	XX: "@1.02 S23.lock D25.lock  @2.02 S18 D21",
+	charts: {
+		Phoenix: "=",
+		XX: "@1.02 S23.lock D25.lock  @2.02 S18 D21",
+	},
 },
 
 
@@ -1852,8 +2148,10 @@ var readableTracklist = {
 	arcadeID: "16C9",
 	pumpoutID: 889,
 
-	Phoenix: "= D20`21",
-	XX: "@2.07 S12 S19 D14 D21 S22.lock D23.lock",
+	charts: {
+		Phoenix: "= D20`21",
+		XX: "@2.07 S12 S19 D14 D21 S22.lock D23.lock",
+	},
 },
 
 
@@ -1864,8 +2162,10 @@ var readableTracklist = {
 	arcadeID: "16D0",
 	pumpoutID: 744,
 
-	Phoenix: "=",
-	XX: "S20.lock S22.lock D23.lock  @1.04 S18 D19  @2.08 D25",
+	charts: {
+		Phoenix: "=",
+		XX: "S20.lock S22.lock D23.lock  @1.04 S18 D19  @2.08 D25",
+	},
 },
 
 
@@ -1876,8 +2176,10 @@ var readableTracklist = {
 	arcadeID: "16D1",
 	pumpoutID: 852,
 
-	Phoenix: "=",
-	XX: "@2.04 S19 S23 D24 S25.lock D27.lock",
+	charts: {
+		Phoenix: "=",
+		XX: "@2.04 S19 S23 D24 S25.lock D27.lock",
+	},
 },
 
 
@@ -1885,13 +2187,14 @@ var readableTracklist = {
 {
 	title: "Meteo5cience", artist: "Paul Bazooka", channel: ORIGINAL, bpm: "140", duration: REMIX,
 	arcadeName: "MeteoScience (GADGET mix)",
-	arcadeNameMaxEditDistance: 1, // 'Meteo5Science (GADGET mix)'
 	altID: "16_Meteo5cience",
 	arcadeID: "16D3",
 	pumpoutID: 781,
 
-	Phoenix: "= D18`19",
-	XX: "@1.02 S18 D19 S21.lock D22.lock",
+	charts: {
+		Phoenix: "= D18`19",
+		XX: "@1.02 S18 D19 S21.lock D22.lock",
+	},
 },
 
 
@@ -1902,8 +2205,10 @@ var readableTracklist = {
 	arcadeID: "16D4",
 	pumpoutID: 807,
 
-	Phoenix: "= D20`21 -Dp24",
-	XX: "@1.05 S15 D23 Dp24 S21.lock S23.lock D26.lock  @2.07 D21",
+	charts: {
+		Phoenix: "= D20`21 -Dp24",
+		XX: "@1.05 S15 D23 Dp24 S21.lock S23.lock D26.lock  @2.07 D21",
+	},
 },
 
 
@@ -1914,8 +2219,10 @@ var readableTracklist = {
 	arcadeID: "16D5",
 	pumpoutID: 834,
 
-	Phoenix: "= S19`20 D20`21",
-	XX: "@2.02 S15 S20 D21 S23.lock D25.lock",
+	charts: {
+		Phoenix: "= S19`20 D20`21",
+		XX: "@2.02 S15 S20 D21 S23.lock D25.lock",
+	},
 },
 
 
@@ -1927,8 +2234,10 @@ var readableTracklist = {
 	arcadeID: "16D7",
 	pumpoutID: 873,
 
-	Phoenix: "=",
-	XX: "@2.05 S20 S22.lock D24.lock",
+	charts: {
+		Phoenix: "=",
+		XX: "@2.05 S20 S22.lock D24.lock",
+	},
 },
 
 
@@ -1940,7 +2249,9 @@ var readableTracklist = {
 	arcadeID: "16D8",
 	pumpoutID: 809,
 
-	XX: "@2.00 S14 S18 D19",
+	charts: {
+		XX: "@2.00 S14 S18 D19",
+	},
 },
 
 
@@ -1952,7 +2263,9 @@ var readableTracklist = {
 	arcadeID: "16D9",
 	pumpoutID: 842,
 
-	XX: "@2.03 S12 S19 D20",
+	charts: {
+		XX: "@2.03 S12 S19 D20",
+	},
 },
 
 
@@ -1963,7 +2276,9 @@ var readableTracklist = {
 	arcadeID: "16E0",
 	pumpoutID: 760,
 
-	XX: "S17 D18",
+	charts: {
+		XX: "S17 D18",
+	},
 },
 
 
@@ -1971,12 +2286,13 @@ var readableTracklist = {
 {
 	title: "I'm So Sick  [FULL]", artist: "APink", channel: KPOP, bpm: "124",
 	arcadeName: "I'm so sick - FULL SONG -",
-	arcadeNameMaxEditDistance: 1, // 'Im so sick'
 	altID: ["16_I'm_So_Sick_FULL", "16_I_m_So_Sick_FULL"],
 	arcadeID: "16E1",
 	pumpoutID: 828,
 
-	XX: "@2.02 S11 S18 D20",
+	charts: {
+		XX: "@2.02 S11 S18 D20",
+	},
 },
 
 
@@ -1988,7 +2304,9 @@ var readableTracklist = {
 	arcadeID: "16E3",
 	pumpoutID: 790,
 
-	XX: "@1.03 S15 S20 D21",
+	charts: {
+		XX: "@1.03 S15 S20 D21",
+	},
 },
 
 
@@ -2000,7 +2318,9 @@ var readableTracklist = {
 	arcadeID: "16E4",
 	pumpoutID: 794,
 
-	XX: "@1.04 S12 S17 D18",
+	charts: {
+		XX: "@1.04 S12 S17 D18",
+	},
 },
 
 
@@ -2012,7 +2332,9 @@ var readableTracklist = {
 	arcadeID: "16E6",
 	pumpoutID: 835,
 
-	XX: "@2.02 S14 S18 D20 S21.lock D24.lock",
+	charts: {
+		XX: "@2.02 S14 S18 D20 S21.lock D24.lock",
+	},
 },
 
 
@@ -2024,7 +2346,9 @@ var readableTracklist = {
 	arcadeID: "16E7",
 	pumpoutID: 825,
 
-	XX: "@2.01 S11 S19 D20",
+	charts: {
+		XX: "@2.01 S11 S19 D20",
+	},
 },
 
 
@@ -2036,7 +2360,9 @@ var readableTracklist = {
 	arcadeID: "16E8",
 	pumpoutID: 841,
 
-	XX: "@2.03 S17 S19 D18 D21",
+	charts: {
+		XX: "@2.03 S17 S19 D18 D21",
+	},
 },
 
 
@@ -2048,8 +2374,10 @@ var readableTracklist = {
 	arcadeID: "16F0",
 	pumpoutID: 745,
 
-	Phoenix: "=",
-	XX: "S22 D24.lock",
+	charts: {
+		Phoenix: "=",
+		XX: "S22 D24.lock",
+	},
 },
 
 
@@ -2061,8 +2389,10 @@ var readableTracklist = {
 	arcadeID: "16F1",
 	pumpoutID: 746,
 
-	Phoenix: "=",
-	XX: "S18 D20  @2.06 S4 S7 S11 S15 D6 D13",
+	charts: {
+		Phoenix: "=",
+		XX: "S18 D20  @2.06 S4 S7 S11 S15 D6 D13",
+	},
 },
 
 
@@ -2075,8 +2405,10 @@ var readableTracklist = {
 	arcadeID: "16F2",
 	pumpoutID: 804,
 
-	Phoenix: "=",
-	XX: "@1.05 D13 D15.lock D17.lock D19.lock D21.lock D23.lock D25.lock",
+	charts: {
+		Phoenix: "=",
+		XX: "@1.05 D13 D15.lock D17.lock D19.lock D21.lock D23.lock D25.lock",
+	},
 },
 
 
@@ -2088,8 +2420,10 @@ var readableTracklist = {
 	arcadeID: "16F3",
 	pumpoutID: 775,
 
-	Phoenix: "=",
-	XX: "@1.01 S3 S6 S11 S16 D12 D17",
+	charts: {
+		Phoenix: "=",
+		XX: "@1.01 S3 S6 S11 S16 D12 D17",
+	},
 },
 
 
@@ -2101,8 +2435,10 @@ var readableTracklist = {
 	arcadeID: "16F4",
 	pumpoutID: 843,
 
-	Phoenix: "=",
-	XX: "@2.03 S4 S7 S11 S19 D13 D21",
+	charts: {
+		Phoenix: "=",
+		XX: "@2.03 S4 S7 S11 S19 D13 D21",
+	},
 },
 
 
@@ -2113,8 +2449,10 @@ var readableTracklist = {
 	arcadeID: "16F5",
 	pumpoutID: 791,
 
-	Phoenix: "=",
-	XX: "@1.03 S11 S14 S18 S21 D14 D21",
+	charts: {
+		Phoenix: "=",
+		XX: "@1.03 S11 S14 S18 S21 D14 D21",
+	},
 },
 
 
@@ -2126,8 +2464,10 @@ var readableTracklist = {
 	arcadeID: "16F6",
 	pumpoutID: 822,
 
-	Phoenix: "= S9`10 S17`18 D4`5 D11`12 D17`18",
-	XX: "@2.01 S3 S6 S10 S14 S18 D5 D12 D18",
+	charts: {
+		Phoenix: "= S9`10 S17`18 D4`5 D11`12 D17`18",
+		XX: "@2.01 S3 S6 S10 S14 S18 D5 D12 D18",
+	},
 },
 
 
@@ -2139,8 +2479,10 @@ var readableTracklist = {
 	arcadeID: "16F7",
 	pumpoutID: 774,
 
-	Phoenix: "= S15`16",
-	XX: "@1.01 S16.lock S21.lock D23.lock",
+	charts: {
+		Phoenix: "= S15`16",
+		XX: "@1.01 S16.lock S21.lock D23.lock",
+	},
 },
 
 
@@ -2152,8 +2494,10 @@ var readableTracklist = {
 	arcadeID: "16F9",
 	pumpoutID: 851,
 
-	Phoenix: "= S15`16 S18`19",
-	XX: "@2.04 S16 S19 D20 S21.lock D23.lock",
+	charts: {
+		Phoenix: "= S15`16 S18`19",
+		XX: "@2.04 S16 S19 D20 S21.lock D23.lock",
+	},
 },
 
 
@@ -2167,9 +2511,11 @@ var readableTracklist = {
 	arcadeID: "1501",
 	pumpoutID: 516,
 
-	Phoenix: "= S9`8 S16`15 D8`7 D17`16 -Dp3",
-	XX: "=",
-	Prime2: "S3 S5 S8 S13 S15.ampass D7 D14 D16.ampass  Dp3  @1.05 D18.ampass",
+	charts: {
+		Phoenix: "= S9`8 S16`15 D8`7 D17`16 -Dp3",
+		XX: "=",
+		Prime2: "S3 S5 S8 S13 S15.ampass D7 D14 D16.ampass  Dp3  @1.05 D18.ampass",
+	},
 },
 
 
@@ -2179,9 +2525,11 @@ var readableTracklist = {
 	arcadeID: "1502",
 	pumpoutID: 657,
 
-	Phoenix: "= S12`11 -Dp4",
-	XX: "= S19`18 D19`18  @1.04 Dp4  @2.02 D23.lock",
-	Prime2: "@2.00 S4 S7 S11 S16 D11 S18 D18",
+	charts: {
+		Phoenix: "= S12`11 -Dp4",
+		XX: "= S19`18 D19`18  @1.04 Dp4  @2.02 D23.lock",
+		Prime2: "@2.00 S4 S7 S11 S16 D11 S18 D18",
+	},
 },
 
 
@@ -2191,9 +2539,11 @@ var readableTracklist = {
 	arcadeID: "1503",
 	pumpoutID: 517,
 
-	Phoenix: "= D10`9 -Dp4",
-	XX: "=  @2.01 S22.lock",
-	Prime2: "S7 S11 S15 S18.ampass D9 D19.ampass D23  @1.06 Dp4",
+	charts: {
+		Phoenix: "= D10`9 -Dp4",
+		XX: "=  @2.01 S22.lock",
+		Prime2: "S7 S11 S15 S18.ampass D9 D19.ampass D23  @1.06 Dp4",
+	},
 },
 
 
@@ -2204,9 +2554,11 @@ var readableTracklist = {
 	arcadeID: "1504",
 	pumpoutID: 675,
 
-	Phoenix: "= -Dp4",
-	XX: "= D21`22  @1.04 Dp4",
-	Prime2: "@2.03 S8 S12 S17 D10 D14 S20 D19 D22",
+	charts: {
+		Phoenix: "= -Dp4",
+		XX: "= D21`22  @1.04 Dp4",
+		Prime2: "@2.03 S8 S12 S17 D10 D14 S20 D19 D22",
+	},
 },
 
 
@@ -2218,9 +2570,11 @@ var readableTracklist = {
 	arcadeID: "1505",
 	pumpoutID: 681,
 
-	Phoenix: "= -Dp4",
-	XX: "= D15`14  @1.04 Dp4  @2.01 CoOp(x2)",
-	Prime2: "@2.04 S7 S11 S15 D14 S18 S22 D19 D23",
+	charts: {
+		Phoenix: "= -Dp4",
+		XX: "= D15`14  @1.04 Dp4  @2.01 CoOp(x2)",
+		Prime2: "@2.04 S7 S11 S15 D14 S18 S22 D19 D23",
+	},
 },
 
 
@@ -2231,9 +2585,11 @@ var readableTracklist = {
 	arcadeID: "1507",
 	pumpoutID: 518,
 
-	Phoenix: "= S4`5 -Dp4",
-	XX: "=",
-	Prime2: "S5 S8 S13 S18 S20.ampass D9 D17 D21.ampass  @1.06 Dp4",
+	charts: {
+		Phoenix: "= S4`5 -Dp4",
+		XX: "=",
+		Prime2: "S5 S8 S13 S18 S20.ampass D9 D17 D21.ampass  @1.06 Dp4",
+	},
 },
 
 
@@ -2244,9 +2600,11 @@ var readableTracklist = {
 	arcadeID: "1508",
 	pumpoutID: 641,
 
-	Phoenix: "= S16`15 -Dp3",
-	XX: "= S12`11 D18`17",
-	Prime2: "@1.06 S11 S15 S19 D17 S21 S24 D23 D26  @2.01 Dp3",
+	charts: {
+		Phoenix: "= S16`15 -Dp3",
+		XX: "= S12`11 D18`17",
+		Prime2: "@1.06 S11 S15 S19 D17 S21 S24 D23 D26  @2.01 Dp3",
+	},
 },
 
 
@@ -2256,9 +2614,11 @@ var readableTracklist = {
 	arcadeID: "1509",
 	pumpoutID: 519,
 
-	Phoenix: "= S11`10 S16`15 -Dp3",
-	XX: "=  @2.00 S15",
-	Prime2: "S10 S18 S22 S24.ampass D14 D22 D25.ampass  @1.06 Dp3  @2.03 D17",
+	charts: {
+		Phoenix: "= S11`10 S16`15 -Dp3",
+		XX: "=  @2.00 S15",
+		Prime2: "S10 S18 S22 S24.ampass D14 D22 D25.ampass  @1.06 Dp3  @2.03 D17",
+	},
 },
 
 
@@ -2270,9 +2630,11 @@ var readableTracklist = {
 	arcadeID: "1510",
 	pumpoutID: 686,
 
-	Phoenix: "= S11`10 D16`15",
-	XX: "= S16`17 S19`20 D15`14  @2.02 D22",
-	Prime2: "@2.05 S10 S17 D14 S20 S23 D24",
+	charts: {
+		Phoenix: "= S11`10 D16`15",
+		XX: "= S16`17 S19`20 D15`14  @2.02 D22",
+		Prime2: "@2.05 S10 S17 D14 S20 S23 D24",
+	},
 },
 
 
@@ -2284,9 +2646,11 @@ var readableTracklist = {
 	arcadeID: "1511",
 	pumpoutID: 676,
 
-	Phoenix: "= S13`12 D8`7 D13`12 -S4 -S7 -Dp3",
-	XX: "=  @1.04 Dp3",
-	Prime2: "@2.03 S4 S7 S12 S16 S18.ampass D7 D12 D18",
+	charts: {
+		Phoenix: "= S13`12 D8`7 D13`12 -S4 -S7 -Dp3",
+		XX: "=  @1.04 Dp3",
+		Prime2: "@2.03 S4 S7 S12 S16 S18.ampass D7 D12 D18",
+	},
 },
 
 
@@ -2296,9 +2660,11 @@ var readableTracklist = {
 	arcadeID: "1512",
 	pumpoutID: 520,
 
-	Phoenix: "= D9`8 -Dp5",
-	XX: "=",
-	Prime2: "S7 S12 S17 D8 D19.ampass  @1.06 Dp5  @1.07 S19.ampass",
+	charts: {
+		Phoenix: "= D9`8 -Dp5",
+		XX: "=",
+		Prime2: "S7 S12 S17 D8 D19.ampass  @1.06 Dp5  @1.07 S19.ampass",
+	},
 },
 
 
@@ -2309,9 +2675,11 @@ var readableTracklist = {
 	arcadeID: "1513",
 	pumpoutID: 685,
 
-	Phoenix: "=",
-	XX: "= D20`22",
-	Prime2: "@2.05 S4 S8 S12 S16 D12 S19 D18 D22",
+	charts: {
+		Phoenix: "=",
+		XX: "= D20`22",
+		Prime2: "@2.05 S4 S8 S12 S16 D12 S19 D18 D22",
+	},
 },
 
 
@@ -2321,9 +2689,11 @@ var readableTracklist = {
 	arcadeID: "1516",
 	pumpoutID: 521,
 
-	Phoenix: "= -Dp4",
-	XX: "= S19`18 D21`20  @2.05 CoOp(x2)",
-	Prime2: "S2 S4 S7 S16 S18.ampass D11 D18 D20.ampass  @1.06 Dp4  @2.03 D24  @2.04 S12  @2.05 S20",
+	charts: {
+		Phoenix: "= -Dp4",
+		XX: "= S19`18 D21`20  @2.05 CoOp(x2)",
+		Prime2: "S2 S4 S7 S16 S18.ampass D11 D18 D20.ampass  @1.06 Dp4  @2.03 D24  @2.04 S12  @2.05 S20",
+	},
 },
 
 
@@ -2333,9 +2703,11 @@ var readableTracklist = {
 	arcadeID: "1517",
 	pumpoutID: 624,
 
-	Phoenix: "= S21`20 D24`23 -Dp3",
-	XX: "=",
-	Prime2: "@1.02 S4 S7 S9 S16 S18 S20.ampass D12 D19 D23.ampass  @1.06 CoOp(x2).ampass  @2.01 Dp3",
+	charts: {
+		Phoenix: "= S21`20 D24`23 -Dp3",
+		XX: "=",
+		Prime2: "@1.02 S4 S7 S9 S16 S18 S20.ampass D12 D19 D23.ampass  @1.06 CoOp(x2).ampass  @2.01 Dp3",
+	},
 },
 
 
@@ -2346,9 +2718,11 @@ var readableTracklist = {
 	arcadeID: "1518",
 	pumpoutID: 644,
 
-	Phoenix: "= S10`9 D8`7 D15`14 -Dp3",
-	XX: "=",
-	Prime2: "@1.07 S5 S9 S15 D7 D14 S18.ampass D19.ampass  @2.01 Dp3",
+	charts: {
+		Phoenix: "= S10`9 D8`7 D15`14 -Dp3",
+		XX: "=",
+		Prime2: "@1.07 S5 S9 S15 D7 D14 S18.ampass D19.ampass  @2.01 Dp3",
+	},
 },
 
 
@@ -2359,9 +2733,11 @@ var readableTracklist = {
 	arcadeID: "1524",
 	pumpoutID: 679,
 
-	Phoenix: "= -Dp3",
-	XX: "= S19`20  @1.04 Dp3",
-	Prime2: "@2.03 S8 S12 S16 S20 D10 D20.ampass",
+	charts: {
+		Phoenix: "= -Dp3",
+		XX: "= S19`20  @1.04 Dp3",
+		Prime2: "@2.03 S8 S12 S16 S20 D10 D20.ampass",
+	},
 },
 
 
@@ -2371,9 +2747,11 @@ var readableTracklist = {
 	arcadeID: "1525",
 	pumpoutID: 514,
 
-	Phoenix: "= -Dp2",
-	XX: "=",
-	Prime2: "S4 S9 S16 S20.ampass D10 D17 D20.ampass  @1.06 Dp2",
+	charts: {
+		Phoenix: "= -Dp2",
+		XX: "=",
+		Prime2: "S4 S9 S16 S20.ampass D10 D17 D20.ampass  @1.06 Dp2",
+	},
 },
 
 
@@ -2384,9 +2762,11 @@ var readableTracklist = {
 	arcadeID: "1526",
 	pumpoutID: 632,
 
-	Phoenix: "= S6`5 S11`10 S18`17 -Dp4",
-	XX: "= S14`13 D15`14  @2.07 CoOp(x3)",
-	Prime2: "@1.04 S5 S10 S13 S17 D14 S20 D20  @2.01 Dp4",
+	charts: {
+		Phoenix: "= S6`5 S11`10 S18`17 -Dp4",
+		XX: "= S14`13 D15`14  @2.07 CoOp(x3)",
+		Prime2: "@1.04 S5 S10 S13 S17 D14 S20 D20  @2.01 Dp4",
+	},
 },
 
 
@@ -2397,9 +2777,11 @@ var readableTracklist = {
 	arcadeID: "1529",
 	pumpoutID: 658,
 
-	Phoenix: "= S18`17 D10`9 D19`18 -Dp3",
-	XX: "=  @1.04 Dp3",
-	Prime2: "@2.00 S3 S5 S8 S15 D9 S17 D18  @2.04 D22",
+	charts: {
+		Phoenix: "= S18`17 D10`9 D19`18 -Dp3",
+		XX: "=  @1.04 Dp3",
+		Prime2: "@2.00 S3 S5 S8 S15 D9 S17 D18  @2.04 D22",
+	},
 },
 
 
@@ -2411,9 +2793,11 @@ var readableTracklist = {
 	arcadeID: "1530",
 	pumpoutID: 636,
 
-	Phoenix: "= -Dp5",
-	XX: "= S17`16 D20`19",
-	Prime2: "@1.05 S7 S11 S16 D11 D19 S20.ampass D18.ampass  @2.01 Dp5",
+	charts: {
+		Phoenix: "= -Dp5",
+		XX: "= S17`16 D20`19",
+		Prime2: "@1.05 S7 S11 S16 D11 D19 S20.ampass D18.ampass  @2.01 Dp5",
+	},
 },
 
 
@@ -2424,9 +2808,11 @@ var readableTracklist = {
 	arcadeID: "1533",
 	pumpoutID: 645,
 
-	Phoenix: "= -Dp4",
-	XX: "=  @2.05 S3",
-	Prime2: "@1.07 S5 S10 S15 D10 D16  @2.01 Dp4",
+	charts: {
+		Phoenix: "= -Dp4",
+		XX: "=  @2.05 S3",
+		Prime2: "@1.07 S5 S10 S15 D10 D16  @2.01 Dp4",
+	},
 },
 
 
@@ -2438,9 +2824,11 @@ var readableTracklist = {
 	arcadeID: "1536",
 	pumpoutID: 659,
 
-	Phoenix: "= -Dp4",
-	XX: "= S19`18 D21`20  @1.04 Dp4  @2.03  CoOp(x2)",
-	Prime2: "@2.00 S4 S6 S10 S16 D10 D17 S18 D20",
+	charts: {
+		Phoenix: "= -Dp4",
+		XX: "= S19`18 D21`20  @1.04 Dp4  @2.03  CoOp(x2)",
+		Prime2: "@2.00 S4 S6 S10 S16 D10 D17 S18 D20",
+	},
 },
 
 
@@ -2451,9 +2839,11 @@ var readableTracklist = {
 	arcadeID: "1537",
 	pumpoutID: 660,
 
-	Phoenix: "= D11`10 D13`12 D24`23 -Dp4",
-	XX: "=  @1.04 Dp4  @2.03  CoOp(x2)",
-	Prime2: "@2.00 S2 S4 S7 S14 D10 D12 S17 S21 D19 D23",
+	charts: {
+		Phoenix: "= D11`10 D13`12 D24`23 -Dp4",
+		XX: "=  @1.04 Dp4  @2.03  CoOp(x2)",
+		Prime2: "@2.00 S2 S4 S7 S14 D10 D12 S17 S21 D19 D23",
+	},
 },
 
 
@@ -2466,9 +2856,11 @@ var readableTracklist = {
 	arcadeID: "1538",
 	pumpoutID: 672,
 
-	Phoenix: "= D10`9 D21`20 -Dp5",
-	XX: "=  @1.04 Dp5",
-	Prime2: "@2.02 S3 S5 S8 S17 D9 D18  @2.03 D20",
+	charts: {
+		Phoenix: "= D10`9 D21`20 -Dp5",
+		XX: "=  @1.04 Dp5",
+		Prime2: "@2.02 S3 S5 S8 S17 D9 D18  @2.03 D20",
+	},
 },
 
 
@@ -2479,9 +2871,11 @@ var readableTracklist = {
 	arcadeID: "1539",
 	pumpoutID: 673,
 
-	Phoenix: "= D13`12 -Dp3",
-	XX: "=  @1.04 Dp3",
-	Prime2: "@2.02 S3 S7 S11 S17 D12 D18 D21  S19 D23",
+	charts: {
+		Phoenix: "= D13`12 -Dp3",
+		XX: "=  @1.04 Dp3",
+		Prime2: "@2.02 S3 S7 S11 S17 D12 D18 D21  S19 D23",
+	},
 },
 
 
@@ -2492,9 +2886,11 @@ var readableTracklist = {
 	arcadeID: "1540",
 	pumpoutID: 669,
 
-	Phoenix: "= D14`13 -Dp3",
-	XX: "=  @1.04 Dp3",
-	Prime2: "@2.01 S4 S7 S15 S17 D13 D18  S19 D20",
+	charts: {
+		Phoenix: "= D14`13 -Dp3",
+		XX: "=  @1.04 Dp3",
+		Prime2: "@2.01 S4 S7 S15 S17 D13 D18  S19 D20",
+	},
 },
 
 
@@ -2505,9 +2901,11 @@ var readableTracklist = {
 	arcadeID: "1541",
 	pumpoutID: 678,
 
-	Phoenix: "= -Dp2",
-	XX: "=  @1.04 Dp2  @2.01 CoOp(x2)",
-	Prime2: "@2.03 S7 S10 S14 S16 D9 D13 D17 S19 D20",
+	charts: {
+		Phoenix: "= -Dp2",
+		XX: "=  @1.04 Dp2  @2.01 CoOp(x2)",
+		Prime2: "@2.03 S7 S10 S14 S16 D9 D13 D17 S19 D20",
+	},
 },
 
 
@@ -2518,9 +2916,11 @@ var readableTracklist = {
 	arcadeID: "1542",
 	pumpoutID: 689,
 
-	Phoenix: "= -Dp4",
-	XX: "=  @1.04 Dp4  @2.02 D26.lock",  // TODO: D26 modified on 2.03
-	Prime2: "@2.05 S15 S18 D19 S21 S24 D22",
+	charts: {
+		Phoenix: "= -Dp4",
+		XX: "=  @1.04 Dp4  @2.02 D26.lock",  // TODO: D26 modified on 2.03
+		Prime2: "@2.05 S15 S18 D19 S21 S24 D22",
+	},
 },
 
 
@@ -2531,9 +2931,11 @@ var readableTracklist = {
 	arcadeID: "1543",
 	pumpoutID: 682,
 
-	Phoenix: "= -Dp3",
-	XX: "=  @1.04 Dp3",
-	Prime2: "@2.04 S8 S11 S14 S17 D12 D18 S19 D20 CoOp(x2).ampass",
+	charts: {
+		Phoenix: "= -Dp3",
+		XX: "=  @1.04 Dp3",
+		Prime2: "@2.04 S8 S11 S14 S17 D12 D18 S19 D20 CoOp(x2).ampass",
+	},
 },
 
 
@@ -2543,7 +2945,9 @@ var readableTracklist = {
 	arcadeID: "1544",
 	pumpoutID: 522,
 
-	Prime2: "S1 S3 S5 S10 S15 D6 D16 D20.ampass Sp3  @1.06 Dp3",
+	charts: {
+		Prime2: "S1 S3 S5 S10 S15 D6 D16 D20.ampass Sp3  @1.06 Dp3",
+	},
 },
 
 
@@ -2553,7 +2957,9 @@ var readableTracklist = {
 	arcadeID: "1545",
 	pumpoutID: 523,
 
-	Prime2: "S2 S4 S6 S13 S15.ampass D6 D14 D16 D19.ampass Dp4",
+	charts: {
+		Prime2: "S2 S4 S6 S13 S15.ampass D6 D14 D16 D19.ampass Dp4",
+	},
 },
 
 
@@ -2563,7 +2969,9 @@ var readableTracklist = {
 	arcadeID: "1546",
 	pumpoutID: 524,
 
-	Prime2: "S2 S4 S7 S10 S15 D5 D11 D17.ampass  @1.06 Dp4",
+	charts: {
+		Prime2: "S2 S4 S7 S10 S15 D5 D11 D17.ampass  @1.06 Dp4",
+	},
 },
 
 
@@ -2573,9 +2981,11 @@ var readableTracklist = {
 	arcadeID: "1547",
 	pumpoutID: 623,
 
-	Phoenix: "= -Dp3",
-	XX: "= S17`18 S20`21 D18`19",
-	Prime2: "@1.02 S3 S5 S9 S15 S18 D11 D19 S21.ampass D23.ampass CoOp(x2)  @2.01 Dp3",
+	charts: {
+		Phoenix: "= -Dp3",
+		XX: "= S17`18 S20`21 D18`19",
+		Prime2: "@1.02 S3 S5 S9 S15 S18 D11 D19 S21.ampass D23.ampass CoOp(x2)  @2.01 Dp3",
+	},
 },
 
 
@@ -2585,7 +2995,9 @@ var readableTracklist = {
 	arcadeID: "1548",
 	pumpoutID: 525,
 
-	Prime2: "S1 S3 S5 S8 S13 S15.ampass D6 D10 D16 Dp3 CoOp(x2).ampass  @1.06 D20.ampass",
+	charts: {
+		Prime2: "S1 S3 S5 S8 S13 S15.ampass D6 D10 D16 Dp3 CoOp(x2).ampass  @1.06 D20.ampass",
+	},
 },
 
 
@@ -2595,7 +3007,9 @@ var readableTracklist = {
 	arcadeID: "1549",
 	pumpoutID: 526,
 
-	Prime2: "S1 S3 S6 S9 S15 D6 D15  @1.06 Dp3",
+	charts: {
+		Prime2: "S1 S3 S6 S9 S15 D6 D15  @1.06 Dp3",
+	},
 },
 
 
@@ -2605,7 +3019,9 @@ var readableTracklist = {
 	arcadeID: "1550",
 	pumpoutID: 648,
 
-	Prime2: "@1.08 S3 S5 S8 S15 D6 D16 S17 D18  @2.01 Dp3",
+	charts: {
+		Prime2: "@1.08 S3 S5 S8 S15 D6 D16 S17 D18  @2.01 Dp3",
+	},
 },
 
 
@@ -2615,7 +3031,9 @@ var readableTracklist = {
 	arcadeID: "1551",
 	pumpoutID: 527,
 
-	Prime2: "S2 S4 S6 S9 S13 S16.ampass D7 D15 D17.ampass CoOp(x2)  @1.06 Dp3",
+	charts: {
+		Prime2: "S2 S4 S6 S9 S13 S16.ampass D7 D15 D17.ampass CoOp(x2)  @1.06 Dp3",
+	},
 },
 
 
@@ -2626,7 +3044,9 @@ var readableTracklist = {
 	arcadeID: "1552",
 	pumpoutID: 640,
 
-	Prime2: "@1.06 S2 S4 S7 S13 D3 D14 S17.ampass D17.ampass CoOp(x2).ampass  @2.01 Dp3",
+	charts: {
+		Prime2: "@1.06 S2 S4 S7 S13 D3 D14 S17.ampass D17.ampass CoOp(x2).ampass  @2.01 Dp3",
+	},
 },
 
 
@@ -2636,7 +3056,9 @@ var readableTracklist = {
 	arcadeID: "1553",
 	pumpoutID: 528,
 
-	Prime2: "S2 S4 S7 S9 S15 S17.ampass D5 D15 CoOp(x2).ampass  @1.06 Dp5",
+	charts: {
+		Prime2: "S2 S4 S7 S9 S15 S17.ampass D5 D15 CoOp(x2).ampass  @1.06 Dp5",
+	},
 },
 
 
@@ -2647,9 +3069,11 @@ var readableTracklist = {
 	arcadeID: "1554",
 	pumpoutID: 631,
 
-	Phoenix: "= S6`5 D6`5 -Dp3",
-	XX: "=",
-	Prime2: "@1.04 S3 S5 S9 S17 D5 D19 S20 S23 D22 D24  @2.01 Dp3",
+	charts: {
+		Phoenix: "= S6`5 D6`5 -Dp3",
+		XX: "=",
+		Prime2: "@1.04 S3 S5 S9 S17 D5 D19 S20 S23 D22 D24  @2.01 Dp3",
+	},
 },
 
 
@@ -2659,7 +3083,9 @@ var readableTracklist = {
 	arcadeID: "1555",
 	pumpoutID: 529,
 
-	Prime2: "S2 S4 S6 S10 S15 D7 D10 D16.ampass  @1.06 Dp2  @2.00 CoOp(x2)",
+	charts: {
+		Prime2: "S2 S4 S6 S10 S15 D7 D10 D16.ampass  @1.06 Dp2  @2.00 CoOp(x2)",
+	},
 },
 
 
@@ -2669,7 +3095,9 @@ var readableTracklist = {
 	arcadeID: "1556",
 	pumpoutID: 530,
 
-	Prime2: "S3 S5 S8 S11 S13 S15.ampass D8 D15 D17.ampass  @1.06 Dp4",
+	charts: {
+		Prime2: "S3 S5 S8 S11 S13 S15.ampass D8 D15 D17.ampass  @1.06 Dp4",
+	},
 },
 
 
@@ -2679,7 +3107,9 @@ var readableTracklist = {
 	arcadeID: "1557",
 	pumpoutID: 513,
 
-	Prime2: "S3 S7 S9 S17 S20.ampass D7 D18 D21.ampass CoOp(x2)  @1.06 Dp4",
+	charts: {
+		Prime2: "S3 S7 S9 S17 S20.ampass D7 D18 D21.ampass CoOp(x2)  @1.06 Dp4",
+	},
 },
 
 
@@ -2690,8 +3120,10 @@ var readableTracklist = {
 	arcadeID: "1559",
 	pumpoutID: 661,
 
-	XX: "=  @1.04 Dp3",
-	Prime2: "@2.00 S2 S4 S6 S9 S13 D6 D14 S16 D16 D19",
+	charts: {
+		XX: "=  @1.04 Dp3",
+		Prime2: "@2.00 S2 S4 S6 S9 S13 D6 D14 S16 D16 D19",
+	},
 },
 
 
@@ -2702,8 +3134,10 @@ var readableTracklist = {
 	arcadeID: "1560",
 	pumpoutID: 662,
 
-	XX: "= S14`15  @1.04 Dp3",
-	Prime2: "@2.00 S2 S3 S5 S9 S15 D5 D12 D18.ampass",
+	charts: {
+		XX: "= S14`15  @1.04 Dp3",
+		Prime2: "@2.00 S2 S3 S5 S9 S15 D5 D12 D18.ampass",
+	},
 },
 
 
@@ -2713,8 +3147,10 @@ var readableTracklist = {
 	arcadeID: "1561",
 	pumpoutID: 668,
 
-	XX: "= S15`14  @1.04 Dp3",
-	Prime2: "@2.01 S2 S4 S6 S14 D5 D16  S17 D18",
+	charts: {
+		XX: "= S15`14  @1.04 Dp3",
+		Prime2: "@2.01 S2 S4 S6 S14 D5 D16  S17 D18",
+	},
 },
 
 
@@ -2725,8 +3161,10 @@ var readableTracklist = {
 	arcadeID: "1562",
 	pumpoutID: 663,
 
-	XX: "= S7`6  @1.04 Dp3",
-	Prime2: "@2.00 S2 S4 S6 S13 D7 S15 D16",
+	charts: {
+		XX: "= S7`6  @1.04 Dp3",
+		Prime2: "@2.00 S2 S4 S6 S13 D7 S15 D16",
+	},
 },
 
 
@@ -2736,8 +3174,10 @@ var readableTracklist = {
 	arcadeID: "1564",
 	pumpoutID: 531,
 
-	XX: "=",
-	Prime2: "S3 S7 S11 S14 S17.ampass D4 D15 D19.ampass  @1.06 Dp4  @2.02 CoOp(x2)",
+	charts: {
+		XX: "=",
+		Prime2: "S3 S7 S11 S14 S17.ampass D4 D15 D19.ampass  @1.06 Dp4  @2.02 CoOp(x2)",
+	},
 },
 
 
@@ -2747,9 +3187,11 @@ var readableTracklist = {
 	arcadeID: "1575",
 	pumpoutID: 625,
 
-	Phoenix: "= -Dp2",
-	XX: "=",
-	Prime2: "@1.02 S7 S13 S17 D12 D18 D20.ampass  @2.01 Dp2",
+	charts: {
+		Phoenix: "= -Dp2",
+		XX: "=",
+		Prime2: "@1.02 S7 S13 S17 D12 D18 D20.ampass  @2.01 Dp2",
+	},
 },
 
 
@@ -2759,8 +3201,10 @@ var readableTracklist = {
 	arcadeID: "1576",
 	pumpoutID: 621,
 
-	XX: "=",
-	Prime2: "@1.01 S5 S13 S16 D9  D18.ampass  @1.06 Dp5",
+	charts: {
+		XX: "=",
+		Prime2: "@1.01 S5 S13 S16 D9  D18.ampass  @1.06 Dp5",
+	},
 },
 
 
@@ -2771,9 +3215,11 @@ var readableTracklist = {
 	arcadeID: "1577",
 	pumpoutID: 654,
 
-	Phoenix: "= S11`10 -Dp4",
-	XX: "= S15`14 S19`18 D16`15 D20`19",
-	Prime2: "@1.10 S10 S14 S18 D15 D19.ampass CoOp(x2)  @2.01 Dp4",
+	charts: {
+		Phoenix: "= S11`10 -Dp4",
+		XX: "= S15`14 S19`18 D16`15 D20`19",
+		Prime2: "@1.10 S10 S14 S18 D15 D19.ampass CoOp(x2)  @2.01 Dp4",
+	},
 },
 
 
@@ -2784,9 +3230,11 @@ var readableTracklist = {
 	arcadeID: "1578",
 	pumpoutID: 653,
 
-	Phoenix: "= D10`9 D21`20 -Dp3",
-	XX: "=",
-	Prime2: "@1.10 S7 S11 S16 D9 D18  S18 D20  @2.01 Dp3",
+	charts: {
+		Phoenix: "= D10`9 D21`20 -Dp3",
+		XX: "=",
+		Prime2: "@1.10 S7 S11 S16 D9 D18  S18 D20  @2.01 Dp3",
+	},
 },
 
 
@@ -2801,9 +3249,11 @@ var readableTracklist = {
 	arcadeID: "1584",
 	pumpoutID: 629,
 
-	Phoenix: "= S15`14 D7`6 -Dp4",
-	XX: "=  @1.04 Dp4",
-	Prime2: "@1.03 S3 S5 S8 S14 D6 D15",
+	charts: {
+		Phoenix: "= S15`14 D7`6 -Dp4",
+		XX: "=  @1.04 Dp4",
+		Prime2: "@1.03 S3 S5 S8 S14 D6 D15",
+	},
 },
 
 
@@ -2814,9 +3264,11 @@ var readableTracklist = {
 	arcadeID: "1593",
 	pumpoutID: 664,
 
-	Phoenix: "= D10`9 -Dp2",
-	XX: "=  @1.04 Dp2",
-	Prime2: "@2.00 S6 S9 S14 D9 S17 D18 D24  @2.03 D21",
+	charts: {
+		Phoenix: "= D10`9 -Dp2",
+		XX: "=  @1.04 Dp2",
+		Prime2: "@2.00 S6 S9 S14 D9 S17 D18 D24  @2.03 D21",
+	},
 },
 
 
@@ -2827,9 +3279,11 @@ var readableTracklist = {
 	arcadeID: "1594",
 	pumpoutID: 655,
 
-	Phoenix: "= -Dp3",
-	XX: "= S12`11 S16`15  @2.07 D22",
-	Prime2: "@1.10 S3 S7 S11 S15 S18.ampass D11 D17 D20.ampass  @2.01 Dp3",
+	charts: {
+		Phoenix: "= -Dp3",
+		XX: "= S12`11 S16`15  @2.07 D22",
+		Prime2: "@1.10 S3 S7 S11 S15 S18.ampass D11 D17 D20.ampass  @2.01 Dp3",
+	},
 },
 
 
@@ -2841,9 +3295,11 @@ var readableTracklist = {
 	arcadeID: "1595",
 	pumpoutID: 670,
 
-	Phoenix: "= -Dp5",
-	XX: "=  @1.04 Dp5",
-	Prime2: "@2.01 S11 S16 S18 D11 D17  S20.ampass D20.ampass",
+	charts: {
+		Phoenix: "= -Dp5",
+		XX: "=  @1.04 Dp5",
+		Prime2: "@2.01 S11 S16 S18 D11 D17  S20.ampass D20.ampass",
+	},
 },
 
 
@@ -2854,9 +3310,11 @@ var readableTracklist = {
 	arcadeID: "1597",
 	pumpoutID: 627,
 
-	Phoenix: "= D12`11 D16`15 -Dp5",
-	XX: "=",
-	Prime2: "@1.03 S5 S7 S11 S16 S18 D11 D15 S19.ampass D19.ampass  @2.01 Dp5",
+	charts: {
+		Phoenix: "= D12`11 D16`15 -Dp5",
+		XX: "=",
+		Prime2: "@1.03 S5 S7 S11 S16 S18 D11 D15 S19.ampass D19.ampass  @2.01 Dp5",
+	},
 },
 
 
@@ -2867,9 +3325,11 @@ var readableTracklist = {
 	arcadeID: "1598",
 	pumpoutID: 628,
 
-	Phoenix: "= S4`5 S17`18 -Dp4",
-	XX: "=",
-	Prime2: "@1.03 S5 S9 S14 D11 D18 S18.ampass D20.ampass  @2.01 Dp4",
+	charts: {
+		Phoenix: "= S4`5 S17`18 -Dp4",
+		XX: "=",
+		Prime2: "@1.03 S5 S9 S14 D11 D18 S18.ampass D20.ampass  @2.01 Dp4",
+	},
 },
 
 
@@ -2880,9 +3340,11 @@ var readableTracklist = {
 	arcadeID: "15A0",
 	pumpoutID: 683,
 
-	Phoenix: "= S4`5 S21`20 D12`11 -Dp4",
-	XX: "=  @1.04 Dp4",
-	Prime2: "@2.04 S5 S8 S11 S17 D11 D17 S20 D19",
+	charts: {
+		Phoenix: "= S4`5 S21`20 D12`11 -Dp4",
+		XX: "=  @1.04 Dp4",
+		Prime2: "@2.04 S5 S8 S11 S17 D11 D17 S20 D19",
+	},
 },
 
 
@@ -2893,9 +3355,11 @@ var readableTracklist = {
 	arcadeID: "15A1",
 	pumpoutID: 688,
 
-	Phoenix: "= S12`11 -Dp5",
-	XX: "= S16`17 S19`20 S21`22  @1.04 Dp5  @2.02 CoOp(x2)",  // TODO: CoOp(x2) modified on 2.03
-	Prime2: "@2.05 S8 S11 S17 D13 S20 S22 D20 D23",
+	charts: {
+		Phoenix: "= S12`11 -Dp5",
+		XX: "= S16`17 S19`20 S21`22  @1.04 Dp5  @2.02 CoOp(x2)",  // TODO: CoOp(x2) modified on 2.03
+		Prime2: "@2.05 S8 S11 S17 D13 S20 S22 D20 D23",
+	},
 },
 
 
@@ -2906,9 +3370,11 @@ var readableTracklist = {
 	arcadeID: "15A2",
 	pumpoutID: 637,
 
-	Phoenix: "= S16`15 D13`12 D19`18 -Dp3",
-	XX: "=",
-	Prime2: "@1.05 S4 S8 S11 S15 D12 S19 D20  @2.01 Dp3  @2.04 D18",
+	charts: {
+		Phoenix: "= S16`15 D13`12 D19`18 -Dp3",
+		XX: "=",
+		Prime2: "@1.05 S4 S8 S11 S15 D12 S19 D20  @2.01 Dp3  @2.04 D18",
+	},
 },
 
 
@@ -2918,9 +3384,11 @@ var readableTracklist = {
 	arcadeID: "15A3",
 	pumpoutID: 650,
 
-	Phoenix: "= -Dp3",
-	XX: "=",
-	Prime2: "@1.09 S8 S15 D10 D16 S18 D20  @2.01 Dp3",
+	charts: {
+		Phoenix: "= -Dp3",
+		XX: "=",
+		Prime2: "@1.09 S8 S15 D10 D16 S18 D20  @2.01 Dp3",
+	},
 },
 
 
@@ -2931,9 +3399,11 @@ var readableTracklist = {
 	pumpoutID: 642,
 	altID: "15_Magical_Vacation",
 
-	Phoenix: "= -Dp3",
-	XX: "= S18`19  @2.03  CoOp(x2)",
-	Prime2: "@1.06 S6 S11 S16 D7 D13 S19.ampass D18.ampass  @2.01 Dp3",
+	charts: {
+		Phoenix: "= -Dp3",
+		XX: "= S18`19  @2.03  CoOp(x2)",
+		Prime2: "@1.06 S6 S11 S16 D7 D13 S19.ampass D18.ampass  @2.01 Dp3",
+	},
 },
 
 
@@ -2946,9 +3416,11 @@ var readableTracklist = {
 	pumpoutID: 687,
 	altID: "15_Visual_Dream_II",
 
-	Phoenix: "= D11`10 -Dp3",
-	XX: "=  @1.04 Dp3",
-	Prime2: "@2.05 S5 S8 S16 D10 S18 D19",
+	charts: {
+		Phoenix: "= D11`10 -Dp3",
+		XX: "=  @1.04 Dp3",
+		Prime2: "@2.05 S5 S8 S16 D10 S18 D19",
+	},
 },
 
 
@@ -2958,9 +3430,11 @@ var readableTracklist = {
 	arcadeID: "15A6",
 	pumpoutID: 532,
 
-	Phoenix: "= S12`11 -Dp3",
-	XX: "= S11`10",
-	Prime2: "S3 S6 S10 S14 S17 S19.ampass D7 D17 D21.ampass CoOp(x2)  @1.06 Dp3",
+	charts: {
+		Phoenix: "= S12`11 -Dp3",
+		XX: "= S11`10",
+		Prime2: "S3 S6 S10 S14 S17 S19.ampass D7 D17 D21.ampass CoOp(x2)  @1.06 Dp3",
+	},
 },
 
 
@@ -2971,9 +3445,11 @@ var readableTracklist = {
 	arcadeID: "15A7",
 	pumpoutID: 633,
 
-	Phoenix: "= S6`7 S8`9 D10`9 -Dp4",
-	XX: "=  @2.07 D21.lock",
-	Prime2: "@1.04 S7 S9 S11 S17 D9 D12 D17.ampass  @2.01 Dp4",
+	charts: {
+		Phoenix: "= S6`7 S8`9 D10`9 -Dp4",
+		XX: "=  @2.07 D21.lock",
+		Prime2: "@1.04 S7 S9 S11 S17 D9 D12 D17.ampass  @2.01 Dp4",
+	},
 },
 
 
@@ -2983,9 +3459,11 @@ var readableTracklist = {
 	arcadeID: "15A8",
 	pumpoutID: 533,
 
-	Phoenix: "= -Dp4",
-	XX: "= ",
-	Prime2: "S3 S5 S8 S14 D9 D15 CoOp(x2)  @1.06 Dp4",
+	charts: {
+		Phoenix: "= -Dp4",
+		XX: "= ",
+		Prime2: "S3 S5 S8 S14 D9 D15 CoOp(x2)  @1.06 Dp4",
+	},
 },
 
 
@@ -2995,9 +3473,11 @@ var readableTracklist = {
 	arcadeID: "15A9",
 	pumpoutID: 656,
 
-	Phoenix: "= S13`12 D13`12 -Dp3",
-	XX: "= D21`22",
-	Prime2: "@1.10 S6 S12 S15 D12 D17  S18 S21 D20 D22  @2.01 Dp3",
+	charts: {
+		Phoenix: "= S13`12 D13`12 -Dp3",
+		XX: "= D21`22",
+		Prime2: "@1.10 S6 S12 S15 D12 D17  S18 S21 D20 D22  @2.01 Dp3",
+	},
 },
 
 
@@ -3007,9 +3487,11 @@ var readableTracklist = {
 	arcadeID: "15B0",
 	pumpoutID: 515,
 
-	Phoenix: "= S10`11 -Dp3",
-	XX: "= D22`21",
-	Prime2: "S4 S6 S11 S14 S17 S19.ampass D8 D18 D21.ampass CoOp(x2).ampass  @1.06 Dp3",
+	charts: {
+		Phoenix: "= S10`11 -Dp3",
+		XX: "= D22`21",
+		Prime2: "S4 S6 S11 S14 S17 S19.ampass D8 D18 D21.ampass CoOp(x2).ampass  @1.06 Dp3",
+	},
 },
 
 
@@ -3019,23 +3501,26 @@ var readableTracklist = {
 	arcadeID: "15B1",
 	pumpoutID: 534,
 
-	Phoenix: "= D10`9 -Dp6",
-	XX: "=",
-	Prime2: "S7 S12 S16 S18.ampass D9 D18 D20.ampass  @1.06 Dp6  @2.00 S20",
+	charts: {
+		Phoenix: "= D10`9 -Dp6",
+		XX: "=",
+		Prime2: "S7 S12 S16 S18.ampass D9 D18 D20.ampass  @1.06 Dp6  @2.00 S20",
+	},
 },
 
 
 "15__Infinity":
 {
 	title: "Infinity", artist: "Lunatic Sounds", channel: XROSS, bpm: "175",
-	arcadeNameMaxEditDistance: 1, // '(INFINITY'
 	altID: "15_Infinity",
 	arcadeID: "15B2",
 	pumpoutID: 665,
 
-	Phoenix: "= -Dp4",
-	XX: "= D23`24  @1.04 Dp4",
-	Prime2: "@2.00 S10 S15 D10 CoOp(x3) S18 S21 D19 D24",
+	charts: {
+		Phoenix: "= -Dp4",
+		XX: "= D23`24  @1.04 Dp4",
+		Prime2: "@2.00 S10 S15 D10 CoOp(x3) S18 S21 D19 D24",
+	},
 },
 
 
@@ -3046,9 +3531,11 @@ var readableTracklist = {
 	arcadeID: "15B3",
 	pumpoutID: 677,
 
-	Phoenix: "= S8`7 S21`20 D13`12 -Dp4",
-	XX: "= D21`20  @1.04 Dp4",
-	Prime2: "@2.03 S7 S11 S18 S20 D12 D20.ampass",
+	charts: {
+		Phoenix: "= S8`7 S21`20 D13`12 -Dp4",
+		XX: "= D21`20  @1.04 Dp4",
+		Prime2: "@2.03 S7 S11 S18 S20 D12 D20.ampass",
+	},
 },
 
 
@@ -3059,9 +3546,11 @@ var readableTracklist = {
 	arcadeID: "15B5",
 	pumpoutID: 646,
 
-	Phoenix: "= D15`13 -Dp4",
-	XX: "=  @2.01 CoOp(x2)",
-	Prime2: "@1.07 S8 S15 S18 D13 D20 S22 D24  @2.01 Dp4",
+	charts: {
+		Phoenix: "= D15`13 -Dp4",
+		XX: "=  @2.01 CoOp(x2)",
+		Prime2: "@1.07 S8 S15 S18 D13 D20 S22 D24  @2.01 Dp4",
+	},
 },
 
 
@@ -3072,9 +3561,11 @@ var readableTracklist = {
 	arcadeID: "15B6",
 	pumpoutID: 684,
 
-	Phoenix: "= S9`8 D14`12",
-	XX: "= S16`17 S19`20 D19`20",
-	Prime2: "@2.04 S8 S11 S17 D12 S20 D20 D24",
+	charts: {
+		Phoenix: "= S9`8 D14`12",
+		XX: "= S16`17 S19`20 D19`20",
+		Prime2: "@2.04 S8 S11 S17 D12 S20 D20 D24",
+	},
 },
 
 
@@ -3084,9 +3575,11 @@ var readableTracklist = {
 	arcadeID: "15B7",
 	pumpoutID: 620,
 
-	Phoenix: "= D12`10 D21`22 -Dp4",
-	XX: "=  @2.01 D22",
-	Prime2: "@1.01 S4 S8 S12 S16 D10 D18  S18.ampass D20.ampass  @1.06 Dp4",
+	charts: {
+		Phoenix: "= D12`10 D21`22 -Dp4",
+		XX: "=  @2.01 D22",
+		Prime2: "@1.01 S4 S8 S12 S16 D10 D18  S18.ampass D20.ampass  @1.06 Dp4",
+	},
 },
 
 
@@ -3097,9 +3590,11 @@ var readableTracklist = {
 	arcadeID: "15B8",
 	pumpoutID: 634,
 
-	Phoenix: "= S11`10 D16`15 -Dp5",
-	XX: "= D15`13 D22`21  @2.05 CoOp(x3)",
-	Prime2: "@1.04 S5 S10 S16 D13 D20 S18 D19  @2.01 Dp5  @2.04 D21",
+	charts: {
+		Phoenix: "= S11`10 D16`15 -Dp5",
+		XX: "= D15`13 D22`21  @2.05 CoOp(x3)",
+		Prime2: "@1.04 S5 S10 S16 D13 D20 S18 D19  @2.01 Dp5  @2.04 D21",
+	},
 },
 
 
@@ -3110,9 +3605,11 @@ var readableTracklist = {
 	arcadeID: "15B9",
 	pumpoutID: 651,
 
-	Phoenix: "= D10`9 -Dp4",
-	XX: "=",
-	Prime2: "@1.09 S5 S10 S15 D9 D19 S18.ampass  @2.01 Dp4",
+	charts: {
+		Phoenix: "= D10`9 -Dp4",
+		XX: "=",
+		Prime2: "@1.09 S5 S10 S15 D9 D19 S18.ampass  @2.01 Dp4",
+	},
 },
 
 
@@ -3123,9 +3620,11 @@ var readableTracklist = {
 	arcadeID: "15C0",
 	pumpoutID: 671,
 
-	Phoenix: "= S22`21 -Dp4",
-	XX: "= S13`12  @1.04 Dp4",
-	Prime2: "@2.02 S12 S17 S21 D18  D22.ampass",
+	charts: {
+		Phoenix: "= S22`21 -Dp4",
+		XX: "= S13`12  @1.04 Dp4",
+		Prime2: "@2.02 S12 S17 S21 D18  D22.ampass",
+	},
 },
 
 
@@ -3136,8 +3635,10 @@ var readableTracklist = {
 	arcadeID: "15C4",
 	pumpoutID: 638,
 
-	XX: "=",
-	Prime2: "@1.05 S2 S6 S10 S14 S18 D7 D12 D19 D22.ampass  @2.01 Dp4",
+	charts: {
+		XX: "=",
+		Prime2: "@1.05 S2 S6 S10 S14 S18 D7 D12 D19 D22.ampass  @2.01 Dp4",
+	},
 },
 
 
@@ -3148,9 +3649,11 @@ var readableTracklist = {
 	arcadeID: "15C5",
 	pumpoutID: 494,
 
-	Phoenix: "= S11`10 D11`10 D16`15 -Dp3",
-	XX: "= -D20 D20`21",  // report by Haru
-	Prime2: "@1.08 S6 S10 S17 D10 D15 D21 D20.ampass  @2.01 Dp3  @2.05 S19",
+	charts: {
+		Phoenix: "= S11`10 D11`10 D16`15 -Dp3",
+		XX: "= -D20 D20`21",  // report by Haru
+		Prime2: "@1.08 S6 S10 S17 D10 D15 D21 D20.ampass  @2.01 Dp3  @2.05 S19",
+	},
 },
 
 
@@ -3160,9 +3663,11 @@ var readableTracklist = {
 	arcadeID: "15D0",
 	pumpoutID: 535,
 
-	Phoenix: "= S19`18",
-	XX: "=  @2.06 S18",
-	Prime2: "S22 D24",
+	charts: {
+		Phoenix: "= S19`18",
+		XX: "=  @2.06 S18",
+		Prime2: "S22 D24",
+	},
 },
 
 
@@ -3173,11 +3678,13 @@ var readableTracklist = {
 	arcadeID: "15D2",
 	pumpoutID: 690,
 
-	Phoenix: "=",
-	XX: "=",
-		//??? D27.updated
-		// D27-XX - https://www.youtube.com/watch?v=O5xatKUFxbY
-	Prime2: "@2.05 S25 D27",
+	charts: {
+		Phoenix: "=",
+		XX: "=",
+			//??? D27.updated
+			// D27-XX - https://www.youtube.com/watch?v=O5xatKUFxbY
+		Prime2: "@2.05 S25 D27",
+	},
 },
 
 
@@ -3188,12 +3695,14 @@ var readableTracklist = {
 	arcadeID: "15D3",
 	pumpoutID: 647,
 
-	Phoenix: "=",
-	XX: "=",
-		//??? S24.updated D26.updated
-		// S24-XX - https://www.youtube.com/watch?v=62pnZ8a-aHw
-		// D26-XX - https://www.youtube.com/watch?v=uSUHgPaEbXo
-	Prime2: "@1.07 S18 S21 D22 S24 D26",
+	charts: {
+		Phoenix: "=",
+		XX: "=",
+			//??? S24.updated D26.updated
+			// S24-XX - https://www.youtube.com/watch?v=62pnZ8a-aHw
+			// D26-XX - https://www.youtube.com/watch?v=uSUHgPaEbXo
+		Prime2: "@1.07 S18 S21 D22 S24 D26",
+	},
 },
 
 
@@ -3203,7 +3712,9 @@ var readableTracklist = {
 	arcadeID: "15E0",
 	pumpoutID: 622,
 
-	Prime2: "@1.01 S16 D17",
+	charts: {
+		Prime2: "@1.01 S16 D17",
+	},
 },
 
 
@@ -3213,7 +3724,9 @@ var readableTracklist = {
 	arcadeID: "15E1",
 	pumpoutID: 536,
 
-	Prime2: "S6 S18 D20",
+	charts: {
+		Prime2: "S6 S18 D20",
+	},
 },
 
 
@@ -3223,7 +3736,9 @@ var readableTracklist = {
 	arcadeID: "15E2",
 	pumpoutID: 626,
 
-	Prime2: "@1.02 S10 S17 D18",
+	charts: {
+		Prime2: "@1.02 S10 S17 D18",
+	},
 },
 
 
@@ -3234,7 +3749,9 @@ var readableTracklist = {
 	arcadeID: "15E3",
 	pumpoutID: 639,
 
-	Prime2: "@1.05 S8 S18 D19",
+	charts: {
+		Prime2: "@1.05 S8 S18 D19",
+	},
 },
 
 
@@ -3245,7 +3762,9 @@ var readableTracklist = {
 	arcadeID: "15E4",
 	pumpoutID: 643,
 
-	Prime2: "@1.06 S20 D22",
+	charts: {
+		Prime2: "@1.06 S20 D22",
+	},
 },
 
 
@@ -3256,11 +3775,13 @@ var readableTracklist = {
 	arcadeID: "15E5",
 	pumpoutID: 596,
 
-	Phoenix: "= -S21 S21`20",
-		// S21 was removed and S20 rerated to 21 - https://www.youtube.com/watch?v=uzPWCRkOQK8
-	XX: "= S20`21 S21`20",
-		// S20-XX & S21-XX - https://www.youtube.com/watch?v=IWbkQJcDkN4
-	Prime2: "@2.04 S20 S21 D22 S23 D25 CoOp(x2).ampass",
+	charts: {
+		Phoenix: "= -S21 S21`20",
+			// S21 was removed and S20 rerated to 21 - https://www.youtube.com/watch?v=uzPWCRkOQK8
+		XX: "= S20`21 S21`20",
+			// S20-XX & S21-XX - https://www.youtube.com/watch?v=IWbkQJcDkN4
+		Prime2: "@2.04 S20 S21 D22 S23 D25 CoOp(x2).ampass",
+	},
 },
 
 
@@ -3275,9 +3796,11 @@ var readableTracklist = {
 		"XX": { region: "" }
 	},
 
-	Phoenix: "=",
-	XX: "=",
-	Prime2: "@1.03 S15 D16",
+	charts: {
+		Phoenix: "=",
+		XX: "=",
+		Prime2: "@1.03 S15 D16",
+	},
 },
 
 
@@ -3287,9 +3810,11 @@ var readableTracklist = {
 	arcadeID: "15E7",
 	pumpoutID: 652,
 
-	Phoenix: "=",
-	XX: "=",
-	Prime2: "@1.09 S19 D25",
+	charts: {
+		Phoenix: "=",
+		XX: "=",
+		Prime2: "@1.09 S19 D25",
+	},
 },
 
 
@@ -3300,9 +3825,11 @@ var readableTracklist = {
 	arcadeID: "15F0",
 	pumpoutID: 537,
 
-	Phoenix: "= S10`9 D19`18",
-	XX: "= S17`16 S19`18 D18`17",
-	Prime2: "S9 S16 S18 D17",
+	charts: {
+		Phoenix: "= S10`9 D19`18",
+		XX: "= S17`16 S19`18 D18`17",
+		Prime2: "S9 S16 S18 D17",
+	},
 },
 
 
@@ -3313,9 +3840,11 @@ var readableTracklist = {
 	arcadeID: "15F1",
 	pumpoutID: 538,
 
-	Phoenix: "= D19`18",
-	XX: "= S16`15 D18`17 D23`22",
-	Prime2: "S9 S15 S19 D17 D22  @1.07 S22",
+	charts: {
+		Phoenix: "= D19`18",
+		XX: "= S16`15 D18`17 D23`22",
+		Prime2: "S9 S15 S19 D17 D22  @1.07 S22",
+	},
 },
 
 
@@ -3327,9 +3856,11 @@ var readableTracklist = {
 	arcadeID: "15F3",
 	pumpoutID: 635,
 
-	Phoenix: "= D19`18",
-	XX: "=",
-	Prime2: "@1.04 S7 S12 S17 D18",
+	charts: {
+		Phoenix: "= D19`18",
+		XX: "=",
+		Prime2: "@1.04 S7 S12 S17 D18",
+	},
 },
 
 
@@ -3341,9 +3872,11 @@ var readableTracklist = {
 	arcadeID: "15F4",
 	pumpoutID: 649,
 
-	Phoenix: "=",
-	XX: "= S21`22",
-	Prime2: "@1.08 S18 S22 D23",
+	charts: {
+		Phoenix: "=",
+		XX: "= S21`22",
+		Prime2: "@1.08 S18 S22 D23",
+	},
 },
 
 
@@ -3355,9 +3888,11 @@ var readableTracklist = {
 	arcadeID: "15F5",
 	pumpoutID: 666,
 
-	Phoenix: "=",
-	XX: "= S16`15",
-	Prime2: "@2.00 S15 S20 D21",
+	charts: {
+		Phoenix: "=",
+		XX: "= S16`15",
+		Prime2: "@2.00 S15 S20 D21",
+	},
 },
 
 
@@ -3369,9 +3904,11 @@ var readableTracklist = {
 	arcadeID: "15F6",
 	pumpoutID: 667,
 
-	Phoenix: "=",
-	XX: "=",
-	Prime2: "@2.00 S20 D21",
+	charts: {
+		Phoenix: "=",
+		XX: "=",
+		Prime2: "@2.00 S20 D21",
+	},
 },
 
 
@@ -3385,10 +3922,12 @@ var readableTracklist = {
 	arcadeID: "1401",
 	pumpoutID: 281,
 
-	Phoenix: "= S10`11 -Dp4",
-	XX: "=",
-	Prime2: "=",
-	Prime: "S4 S7 S11 S16 S18 D12 D20  @1.01 CoOp(x2)  @1.15 Dp4",
+	charts: {
+		Phoenix: "= S10`11 -Dp4",
+		XX: "=",
+		Prime2: "=",
+		Prime: "S4 S7 S11 S16 S18 D12 D20  @1.01 CoOp(x2)  @1.15 Dp4",
+	},
 },
 
 
@@ -3398,10 +3937,12 @@ var readableTracklist = {
 	arcadeID: "1402",
 	pumpoutID: 348,
 
-	Phoenix: "= S8`7 S11`10 -Dp4",
-	XX: "=",
-	Prime2: "=  @1.08 Dp4",
-	Prime: "@1.07 S7 S10 S14 S18 D12 D15 D19",
+	charts: {
+		Phoenix: "= S8`7 S11`10 -Dp4",
+		XX: "=",
+		Prime2: "=  @1.08 Dp4",
+		Prime: "@1.07 S7 S10 S14 S18 D12 D15 D19",
+	},
 },
 
 
@@ -3411,10 +3952,12 @@ var readableTracklist = {
 	arcadeID: "1403",
 	pumpoutID: 282,
 
-	Phoenix: "= D13`12 -Dp3",
-	XX: "=",
-	Prime2: "=",
-	Prime: "S3 S7 S9 S17 D12 D19 CoOp(x2)  @1.12 Dp3.ucs",
+	charts: {
+		Phoenix: "= D13`12 -Dp3",
+		XX: "=",
+		Prime2: "=",
+		Prime: "S3 S7 S9 S17 D12 D19 CoOp(x2)  @1.12 Dp3.ucs",
+	},
 },
 
 
@@ -3424,10 +3967,12 @@ var readableTracklist = {
 	arcadeID: "1404",
 	pumpoutID: 476,
 
-	Phoenix: "= S9`8 -Dp2",
-	XX: "= S14`15 D15`16",
-	Prime2: "=",
-	Prime: "@1.13 S4 S8 S15 D10 D16  @1.15 Dp2",
+	charts: {
+		Phoenix: "= S9`8 -Dp2",
+		XX: "= S14`15 D15`16",
+		Prime2: "=",
+		Prime: "@1.13 S4 S8 S15 D10 D16  @1.15 Dp2",
+	},
 },
 
 
@@ -3437,10 +3982,12 @@ var readableTracklist = {
 	arcadeID: "1405",
 	pumpoutID: 283,
 
-	Phoenix: "= -Dp5",
-	XX: "= S17`18 D18`17 D24`23",
-	Prime2: "=  @1.03 S16.ucs.ampass",
-	Prime: "S9 S18 S21 S23 D23 D25  @1.01 CoOp(x3)  @1.15 Dp5  @1.19 D17",
+	charts: {
+		Phoenix: "= -Dp5",
+		XX: "= S17`18 D18`17 D24`23",
+		Prime2: "=  @1.03 S16.ucs.ampass",
+		Prime: "S9 S18 S21 S23 D23 D25  @1.01 CoOp(x3)  @1.15 Dp5  @1.19 D17",
+	},
 },
 
 
@@ -3450,10 +3997,12 @@ var readableTracklist = {
 	arcadeID: "1406",
 	pumpoutID: 352,
 
-	Phoenix: "= D13`12 -Dp4",
-	XX: "=  @2.02 CoOp(x2)",
-	Prime2: "=",
-	Prime: "@1.08 S4 S7 S10 D12  S18 D20  @1.15 Dp4",
+	charts: {
+		Phoenix: "= D13`12 -Dp4",
+		XX: "=  @2.02 CoOp(x2)",
+		Prime2: "=",
+		Prime: "@1.08 S4 S7 S10 D12  S18 D20  @1.15 Dp4",
+	},
 },
 
 
@@ -3463,10 +4012,12 @@ var readableTracklist = {
 	arcadeID: "1407",
 	pumpoutID: 284,
 
-	Phoenix: "= D11`10 -Dp3 -D16",
-	XX: "= D16`17 D19`20  @2.06 CoOp(x3)",
-	Prime2: "=",
-	Prime: "S4 S7 S10 S16 S18 D10 D20  @1.15 Dp3  @1.19 D17.ucs",
+	charts: {
+		Phoenix: "= D11`10 -Dp3 -D16",
+		XX: "= D16`17 D19`20  @2.06 CoOp(x3)",
+		Prime2: "=",
+		Prime: "S4 S7 S10 S16 S18 D10 D20  @1.15 Dp3  @1.19 D17.ucs",
+	},
 },
 
 
@@ -3476,10 +4027,12 @@ var readableTracklist = {
 	arcadeID: "1408",
 	pumpoutID: 327,
 
-	Phoenix: "= S7`6 S11`9 D13`11 -Dp3",
-	XX: "= S19`18 D11`10 D19`18 D20`19 D25`24",
-	Prime2: "=  @1.03 S16.ucs.ampass D18.ucs.ampass  @2.00 CoOp(x3)",
-	Prime: "@1.04 S4 S6 S9 S18 D10 D19 D24  @1.13 S22  @1.15 Dp3",
+	charts: {
+		Phoenix: "= S7`6 S11`9 D13`11 -Dp3",
+		XX: "= S19`18 D11`10 D19`18 D20`19 D25`24",
+		Prime2: "=  @1.03 S16.ucs.ampass D18.ucs.ampass  @2.00 CoOp(x3)",
+		Prime: "@1.04 S4 S6 S9 S18 D10 D19 D24  @1.13 S22  @1.15 Dp3",
+	},
 },
 
 
@@ -3489,10 +4042,12 @@ var readableTracklist = {
 	arcadeID: "1409",
 	pumpoutID: 502,
 
-	Phoenix: "= S8`7 -Dp3",
-	XX: "=",
-	Prime2: "=  @1.08 Dp3",
-	Prime: "@1.16 S7 S12 S17 D12  S19 D20",
+	charts: {
+		Phoenix: "= S8`7 -Dp3",
+		XX: "=",
+		Prime2: "=  @1.08 Dp3",
+		Prime: "@1.16 S7 S12 S17 D12  S19 D20",
+	},
 },
 
 
@@ -3502,10 +4057,12 @@ var readableTracklist = {
 	arcadeID: "1410",
 	pumpoutID: 285,
 
-	Phoenix: "= S12`11 D10`9 -Dp4",
-	XX: "= D18`19",
-	Prime2: "=",
-	Prime: "S4 S7 S11 S16 S19 D9 D19 D23  @1.15 Dp4",
+	charts: {
+		Phoenix: "= S12`11 D10`9 -Dp4",
+		XX: "= D18`19",
+		Prime2: "=",
+		Prime: "S4 S7 S11 S16 S19 D9 D19 D23  @1.15 Dp4",
+	},
 },
 
 
@@ -3515,10 +4072,12 @@ var readableTracklist = {
 	arcadeID: "1411",
 	pumpoutID: 330,
 
-	Phoenix: "= S10`9 -Dp4",
-	XX: "=",
-	Prime2: "=",
-	Prime: "@1.05 S4 S9 S17 S18 D5 D18  @1.06 S6  @1.15 Dp4",
+	charts: {
+		Phoenix: "= S10`9 -Dp4",
+		XX: "=",
+		Prime2: "=",
+		Prime: "@1.05 S4 S9 S17 S18 D5 D18  @1.06 S6  @1.15 Dp4",
+	},
 },
 
 
@@ -3528,10 +4087,12 @@ var readableTracklist = {
 	arcadeID: "1412",
 	pumpoutID: 349,
 
-	Phoenix: "= D13`12 -Dp3",
-	XX: "= S10`11 D12`13",
-	Prime2: "=",
-	Prime: "@1.07 S4 S7 S11 S16 S18 D13 D19  @1.15 Dp3",
+	charts: {
+		Phoenix: "= D13`12 -Dp3",
+		XX: "= S10`11 D12`13",
+		Prime2: "=",
+		Prime: "@1.07 S4 S7 S11 S16 S18 D13 D19  @1.15 Dp3",
+	},
 },
 
 
@@ -3541,24 +4102,27 @@ var readableTracklist = {
 	arcadeID: "1413",
 	pumpoutID: 286,
 
-	Phoenix: "= S16`15 S18`17 D9`8 D17`16 D19`18 -Dp3",
-	XX: "=",
-	Prime2: "=",
-	Prime: "S3 S5 S10 S15 D8 D16  @1.07 S17 D18  @1.15 Dp3",
+	charts: {
+		Phoenix: "= S16`15 S18`17 D9`8 D17`16 D19`18 -Dp3",
+		XX: "=",
+		Prime2: "=",
+		Prime: "S3 S5 S10 S15 D8 D16  @1.07 S17 D18  @1.15 Dp3",
+	},
 },
 
 
 "14__Mad5cience":
 {
 	title: "Mad5cience", artist: "Paul Bazooka", channel: ORIGINAL, bpm: "130",
-	arcadeNameMaxEditDistance: 1, // 'Mad5Science'
 	arcadeID: "1414",
 	pumpoutID: 481,
 
-	Phoenix: "= D9`7 -Dp5",
-	XX: "= S15`16",
-	Prime2: "=  @1.08 Dp5",
-	Prime: "@1.15 S5 S16 D7 D16  S20",
+	charts: {
+		Phoenix: "= D9`7 -Dp5",
+		XX: "= S15`16",
+		Prime2: "=  @1.08 Dp5",
+		Prime: "@1.15 S5 S16 D7 D16  S20",
+	},
 },
 
 
@@ -3568,10 +4132,12 @@ var readableTracklist = {
 	arcadeID: "1415",
 	pumpoutID: 6,
 
-	Phoenix: "= D12`11 D21`20 -Dp3",
-	XX: "= S19`18",
-	Prime2: "= -S17 -D18  @1.08 Dp3",
-	Prime: "@1.01 S4 S7 S10 S18 D11 D20  @1.19 S17.ucs D18.ucs",
+	charts: {
+		Phoenix: "= D12`11 D21`20 -Dp3",
+		XX: "= S19`18",
+		Prime2: "= -S17 -D18  @1.08 Dp3",
+		Prime: "@1.01 S4 S7 S10 S18 D11 D20  @1.19 S17.ucs D18.ucs",
+	},
 },
 
 
@@ -3581,10 +4147,12 @@ var readableTracklist = {
 	arcadeID: "1416",
 	pumpoutID: 504,
 
-	Phoenix: "= D13`12 D21`20 -Dp4",
-	XX: "= S7`6  @2.05 S4",
-	Prime2: "=  @1.08 Dp4",
-	Prime: "@1.17 S6 S11 D12  S18 D20",
+	charts: {
+		Phoenix: "= D13`12 D21`20 -Dp4",
+		XX: "= S7`6  @2.05 S4",
+		Prime2: "=  @1.08 Dp4",
+		Prime: "@1.17 S6 S11 D12  S18 D20",
+	},
 },
 
 
@@ -3594,10 +4162,12 @@ var readableTracklist = {
 	arcadeID: "1417",
 	pumpoutID: 287,
 
-	Phoenix: "= S12`10 D14`12 D23`22 -Dp3",
-	XX: "= S21`20 D18`19",
-	Prime2: "= -D20  @1.08 Dp3",
-	Prime: "S10 S15 S17 D12 D19  @1.12 S20.ucs D20.ucs D22.ucs",
+	charts: {
+		Phoenix: "= S12`10 D14`12 D23`22 -Dp3",
+		XX: "= S21`20 D18`19",
+		Prime2: "= -D20  @1.08 Dp3",
+		Prime: "S10 S15 S17 D12 D19  @1.12 S20.ucs D20.ucs D22.ucs",
+	},
 },
 
 
@@ -3607,10 +4177,12 @@ var readableTracklist = {
 	arcadeID: "1418",
 	pumpoutID: 507,
 
-	Phoenix: "= D6`5 -Dp3",
-	XX: "=  @2.05 S9",
-	Prime2: "=  @1.08 Dp3  @2.04 CoOp(x2)",
-	Prime: "@1.18 S3 S6 S15 D5 D16",
+	charts: {
+		Phoenix: "= D6`5 -Dp3",
+		XX: "=  @2.05 S9",
+		Prime2: "=  @1.08 Dp3  @2.04 CoOp(x2)",
+		Prime: "@1.18 S3 S6 S15 D5 D16",
+	},
 },
 
 
@@ -3620,10 +4192,12 @@ var readableTracklist = {
 	arcadeID: "1419",
 	pumpoutID: 288,
 
-	Phoenix: "= D12`11 -Dp2",
-	XX: "= D22`21  @1.02 S20.lock",
-	Prime2: "= -D16",
-	Prime: "S4 S7 S10 S16 S19 D11 D21 CoOp(x2)  @1.14 S14.ucs D16.ucs  @1.15 Dp2  @1.19 D18",
+	charts: {
+		Phoenix: "= D12`11 -Dp2",
+		XX: "= D22`21  @1.02 S20.lock",
+		Prime2: "= -D16",
+		Prime: "S4 S7 S10 S16 S19 D11 D21 CoOp(x2)  @1.14 S14.ucs D16.ucs  @1.15 Dp2  @1.19 D18",
+	},
 },
 
 
@@ -3633,10 +4207,12 @@ var readableTracklist = {
 	arcadeID: "1420",
 	pumpoutID: 469,
 
-	Phoenix: "= D12`10 -Dp4",
-	XX: "= S13`14 D14`15 D18`19  @2.05 CoOp(x2)",
-	Prime2: "=",
-	Prime: "@1.12 S4 S6 S8 S14 S17 D10 D15 D19  @1.15 Dp4",
+	charts: {
+		Phoenix: "= D12`10 -Dp4",
+		XX: "= S13`14 D14`15 D18`19  @2.05 CoOp(x2)",
+		Prime2: "=",
+		Prime: "@1.12 S4 S6 S8 S14 S17 D10 D15 D19  @1.15 Dp4",
+	},
 },
 
 
@@ -3646,10 +4222,12 @@ var readableTracklist = {
 	arcadeID: "1421",
 	pumpoutID: 289,
 
-	Phoenix: "= -Dp4 -Dp20",
-	XX: "= S7`6 S9`8 D22`21",
-	Prime2: "=",
-	Prime: "S4 S6 S8 S18 D12 D20 D21  @1.02 CoOp(x2)  @1.12 Dp4.ucs Dp20.ucs",
+	charts: {
+		Phoenix: "= -Dp4 -Dp20",
+		XX: "= S7`6 S9`8 D22`21",
+		Prime2: "=",
+		Prime: "S4 S6 S8 S18 D12 D20 D21  @1.02 CoOp(x2)  @1.12 Dp4.ucs Dp20.ucs",
+	},
 },
 
 
@@ -3659,10 +4237,12 @@ var readableTracklist = {
 	arcadeID: "1422",
 	pumpoutID: 462,
 
-	Phoenix: "= S10`9 S14`13 D13`12 D20`19 -Dp4",
-	XX: "= S22`21 D24`23  @2.05 S5",
-	Prime2: "=  @1.08 Dp4",
-	Prime: "@1.10 S9 S13 D12  S18 S21 D19 D23",
+	charts: {
+		Phoenix: "= S10`9 S14`13 D13`12 D20`19 -Dp4",
+		XX: "= S22`21 D24`23  @2.05 S5",
+		Prime2: "=  @1.08 Dp4",
+		Prime: "@1.10 S9 S13 D12  S18 S21 D19 D23",
+	},
 },
 
 
@@ -3673,10 +4253,12 @@ var readableTracklist = {
 	arcadeID: "1423",
 	pumpoutID: 505,
 
-	Phoenix: "= S9`8 D5`4 -Dp3",
-	XX: "=",
-	Prime2: "=  @1.08 Dp3",
-	Prime: "@1.17 S2 S8 S17 D4 D18",
+	charts: {
+		Phoenix: "= S9`8 D5`4 -Dp3",
+		XX: "=",
+		Prime2: "=  @1.08 Dp3",
+		Prime: "@1.17 S2 S8 S17 D4 D18",
+	},
 },
 
 
@@ -3686,13 +4268,16 @@ var readableTracklist = {
 	arcadeID: "1424",
 	pumpoutID: 350,
 
-	Phoenix: "= -Dp3",
-	XX: "= S16`17 D22`21",  //??? S25.updated D27.updated
-	// S25-XX - https://www.youtube.com/watch?v=G0on3vr0qfk
-	// S25 XX vs P2 - https://www.youtube.com/watch?v=6GJuzGCR1aE
-	// D27-XX - https://www.youtube.com/watch?v=h0C-o-7LWl4
-	Prime2: "= -S16",
-	Prime: "@1.07 S23 D25  S25 D27  @1.12 S20  @1.15 Dp3  @1.19 S16.ucs S17.ucs D21.ucs",
+	charts: {
+		Phoenix: "= -Dp3",
+		XX: "= S16`17 D22`21",
+			//??? S25.updated D27.updated
+			// S25-XX - https://www.youtube.com/watch?v=G0on3vr0qfk
+			// S25 XX vs P2 - https://www.youtube.com/watch?v=6GJuzGCR1aE
+			// D27-XX - https://www.youtube.com/watch?v=h0C-o-7LWl4
+		Prime2: "= -S16",
+		Prime: "@1.07 S23 D25  S25 D27  @1.12 S20  @1.15 Dp3  @1.19 S16.ucs S17.ucs D21.ucs",
+	},
 },
 
 
@@ -3702,10 +4287,12 @@ var readableTracklist = {
 	arcadeID: "1425",
 	pumpoutID: 339,
 
-	Phoenix: "= -Dp5",
-	XX: "= S14`15 D16`17",
-	Prime2: "=  @2.00 CoOp(x2)",
-	Prime: "@1.06 S1 S3 S6 S10 S15 S18 S19 D7 D11 D17 D20  @1.15 Dp5",
+	charts: {
+		Phoenix: "= -Dp5",
+		XX: "= S14`15 D16`17",
+		Prime2: "=  @2.00 CoOp(x2)",
+		Prime: "@1.06 S1 S3 S6 S10 S15 S18 S19 D7 D11 D17 D20  @1.15 Dp5",
+	},
 },
 
 
@@ -3715,10 +4302,12 @@ var readableTracklist = {
 	arcadeID: "1426",
 	pumpoutID: 290,
 
-	Phoenix: "= -Dp4",
-	XX: "= S10`11 S17`16 D12`13",
-	Prime2: "=",
-	Prime: "S4 S6 S11 S16 D13 D19  @1.09 S19  @1.15 Dp4",
+	charts: {
+		Phoenix: "= -Dp4",
+		XX: "= S10`11 S17`16 D12`13",
+		Prime2: "=",
+		Prime: "S4 S6 S11 S16 D13 D19  @1.09 S19  @1.15 Dp4",
+	},
 },
 
 
@@ -3728,10 +4317,12 @@ var readableTracklist = {
 	arcadeID: "1427",
 	pumpoutID: 353,
 
-	Phoenix: "= S11`10 S16`15 D15`13 -Dp4",
-	XX: "= D13`12",
-	Prime2: "=  @2.02 S23",
-	Prime: "@1.08 S7 S10 S15 D12  S19 D20  @1.15 Dp4 D24",
+	charts: {
+		Phoenix: "= S11`10 S16`15 D15`13 -Dp4",
+		XX: "= D13`12",
+		Prime2: "=  @2.02 S23",
+		Prime: "@1.08 S7 S10 S15 D12  S19 D20  @1.15 Dp4 D24",
+	},
 },
 
 
@@ -3741,10 +4332,12 @@ var readableTracklist = {
 	arcadeID: "1428",
 	pumpoutID: 340,
 
-	Phoenix: "= S10`8 D12`10 -Dp3",
-	XX: "=",
-	Prime2: "=",
-	Prime: "@1.06 S3 S5 S8 S12 S17 S20 D10 D18  @1.11 Dp3",
+	charts: {
+		Phoenix: "= S10`8 D12`10 -Dp3",
+		XX: "=",
+		Prime2: "=",
+		Prime: "@1.06 S3 S5 S8 S12 S17 S20 D10 D18  @1.11 Dp3",
+	},
 },
 
 
@@ -3754,10 +4347,12 @@ var readableTracklist = {
 	arcadeID: "1429",
 	pumpoutID: 291,
 
-	Phoenix: "= S8`7 -Dp3",
-	XX: "= S16`17 D11`10",
-	Prime2: "= -S16",
-	Prime: "S7 S10 S17 D10 D18 D22  @1.14 S16.ucs D13.ucs  @1.15 Dp3",
+	charts: {
+		Phoenix: "= S8`7 -Dp3",
+		XX: "= S16`17 D11`10",
+		Prime2: "= -S16",
+		Prime: "S7 S10 S17 D10 D18 D22  @1.14 S16.ucs D13.ucs  @1.15 Dp3",
+	},
 },
 
 
@@ -3767,10 +4362,12 @@ var readableTracklist = {
 	arcadeID: "1430",
 	pumpoutID: 472,
 
-	Phoenix: "= -Dp3",
-	XX: "=  @2.08 D23",
-	Prime2: "=",
-	Prime: "@1.12 S3 S5 S8 S15 D10 D16  S19 D20  @1.15 Dp3",
+	charts: {
+		Phoenix: "= -Dp3",
+		XX: "=  @2.08 D23",
+		Prime2: "=",
+		Prime: "@1.12 S3 S5 S8 S15 D10 D16  S19 D20  @1.15 Dp3",
+	},
 },
 
 
@@ -3780,10 +4377,12 @@ var readableTracklist = {
 	arcadeID: "1431",
 	pumpoutID: 475,
 
-	Phoenix: "= S10`9 -Dp4",
-	XX: "=",
-	Prime2: "=",
-	Prime: "@1.13 S9 S16 D11 D17  S20 D22  @1.15 Dp4",
+	charts: {
+		Phoenix: "= S10`9 -Dp4",
+		XX: "=",
+		Prime2: "=",
+		Prime: "@1.13 S9 S16 D11 D17  S20 D22  @1.15 Dp4",
+	},
 },
 
 
@@ -3793,10 +4392,12 @@ var readableTracklist = {
 	arcadeID: "1433",
 	pumpoutID: 482,
 
-	Phoenix: "= D22`23 -Dp4",
-	XX: "= D13`12 D21`20  @2.07 D23.lock",
-	Prime2: "=  @1.05 CoOp(x2)  @1.07 D18.ucs  @1.08 Dp4",
-	Prime: "@1.15 S11 S16 D12  S19 D20  @1.21 S7",
+	charts: {
+		Phoenix: "= D22`23 -Dp4",
+		XX: "= D13`12 D21`20  @2.07 D23.lock",
+		Prime2: "=  @1.05 CoOp(x2)  @1.07 D18.ucs  @1.08 Dp4",
+		Prime: "@1.15 S11 S16 D12  S19 D20  @1.21 S7",
+	},
 },
 
 
@@ -3806,12 +4407,14 @@ var readableTracklist = {
 	arcadeID: "1434",
 	pumpoutID: 509,
 
-	Phoenix: "= D12`10 D17`16 -Dp5 -CoOp(x2) CoOp(x2).new",
-		// TODO.Phoenix: CoOp marked as new
-		// CoOp XX - https://www.youtube.com/watch?v=vaKfxI_iSl8
-	XX: "= S10`9  @1.04 CoOp(x2)  @2.05 S4",
-	Prime2: "=  @1.08 Dp5",
-	Prime: "@1.19 S6 S9 S16 D10 D16",
+	charts: {
+		Phoenix: "= D12`10 D17`16 -Dp5 -CoOp(x2) CoOp(x2).new",
+			// TODO.Phoenix: CoOp marked as new
+			// CoOp XX - https://www.youtube.com/watch?v=vaKfxI_iSl8
+		XX: "= S10`9  @1.04 CoOp(x2)  @2.05 S4",
+		Prime2: "=  @1.08 Dp5",
+		Prime: "@1.19 S6 S9 S16 D10 D16",
+	},
 },
 
 
@@ -3821,10 +4424,12 @@ var readableTracklist = {
 	arcadeID: "1435",
 	pumpoutID: 512,
 
-	Phoenix: "= -Dp4",
-	XX: "= D15`14  @2.00 CoOp(x2)",
-	Prime2: "=  @1.08 Dp4",
-	Prime: "@1.21 S1 S3 S6 S14 D6 D14",
+	charts: {
+		Phoenix: "= -Dp4",
+		XX: "= D15`14  @2.00 CoOp(x2)",
+		Prime2: "=  @1.08 Dp4",
+		Prime: "@1.21 S1 S3 S6 S14 D6 D14",
+	},
 },
 
 
@@ -3834,10 +4439,12 @@ var readableTracklist = {
 	arcadeID: "1436",
 	pumpoutID: 292,
 
-	Phoenix: "= S14`13 S19`18 D14`13 -Dp5",
-	XX: "= S9`8 S13`12 S22`21 D13`12 D24`23",
-	Prime2: "=",
-	Prime: "S8 S12 S21 D12 D23  @1.15 Dp5  @1.17 S18.ucs D19.ucs",
+	charts: {
+		Phoenix: "= S14`13 S19`18 D14`13 -Dp5",
+		XX: "= S9`8 S13`12 S22`21 D13`12 D24`23",
+		Prime2: "=",
+		Prime: "S8 S12 S21 D12 D23  @1.15 Dp5  @1.17 S18.ucs D19.ucs",
+	},
 },
 
 
@@ -3847,8 +4454,10 @@ var readableTracklist = {
 	arcadeID: "1437",
 	pumpoutID: 293,
 
-	Prime2: "=  @1.08 Dp3",
-	Prime: "S3 S5 S8 S14  D4 D11 D15  CoOp(x3)",
+	charts: {
+		Prime2: "=  @1.08 Dp3",
+		Prime: "S3 S5 S8 S14  D4 D11 D15  CoOp(x3)",
+	},
 },
 
 
@@ -3858,8 +4467,10 @@ var readableTracklist = {
 	arcadeID: "1438",
 	pumpoutID: 321,
 
-	Prime2: "=",
-	Prime: "@1.02 S2 S4 S6 S15 D5 D15  @1.15 Dp5",
+	charts: {
+		Prime2: "=",
+		Prime: "@1.02 S2 S4 S6 S15 D5 D15  @1.15 Dp5",
+	},
 },
 
 
@@ -3869,8 +4480,10 @@ var readableTracklist = {
 	arcadeID: "1439",
 	pumpoutID: 294,
 
-	Prime2: "=",
-	Prime: "S2 S4 S7 S15 D5 D16  @1.11 S17  @1.15 Dp3",
+	charts: {
+		Prime2: "=",
+		Prime: "S2 S4 S7 S15 D5 D16  @1.11 S17  @1.15 Dp3",
+	},
 },
 
 
@@ -3880,8 +4493,10 @@ var readableTracklist = {
 	arcadeID: "1440",
 	pumpoutID: 328,
 
-	Prime2: "=",
-	Prime: "@1.04 S3 S6 S9 S15 D5 D15  @1.15 Dp4",
+	charts: {
+		Prime2: "=",
+		Prime: "@1.04 S3 S6 S9 S15 D5 D15  @1.15 Dp4",
+	},
 },
 
 
@@ -3891,8 +4506,10 @@ var readableTracklist = {
 	arcadeID: "1441",
 	pumpoutID: 295,
 
-	Prime2: "=",
-	Prime: "S4 S6 S9 S16 D8 D17  @1.15 Dp3",
+	charts: {
+		Prime2: "=",
+		Prime: "S4 S6 S9 S16 D8 D17  @1.15 Dp3",
+	},
 },
 
 
@@ -3902,8 +4519,10 @@ var readableTracklist = {
 	arcadeID: "1442",
 	pumpoutID: 296,
 
-	Prime2: "=",
-	Prime: "S2 S4 S7 S16 D6 D16  @1.15 Dp4",
+	charts: {
+		Prime2: "=",
+		Prime: "S2 S4 S7 S16 D6 D16  @1.15 Dp4",
+	},
 },
 
 
@@ -3913,8 +4532,10 @@ var readableTracklist = {
 	arcadeID: "1443",
 	pumpoutID: 331,
 
-	Prime2: "=",
-	Prime: "@1.05 S2 S3 S5 S14 D6 D14  @1.11 Dp3",
+	charts: {
+		Prime2: "=",
+		Prime: "@1.05 S2 S3 S5 S14 D6 D14  @1.11 Dp3",
+	},
 },
 
 
@@ -3924,8 +4545,10 @@ var readableTracklist = {
 	arcadeID: "1444",
 	pumpoutID: 297,
 
-	Prime2: "=",
-	Prime: "S2 S4 S6 S15 D6 D16  @1.15 Dp2",
+	charts: {
+		Prime2: "=",
+		Prime: "S2 S4 S6 S15 D6 D16  @1.15 Dp2",
+	},
 },
 
 
@@ -3935,8 +4558,10 @@ var readableTracklist = {
 	arcadeID: "1445",
 	pumpoutID: 298,
 
-	Prime2: "=",
-	Prime: "S2 S4 S6 S14 D5 D15  @1.15 Dp4",
+	charts: {
+		Prime2: "=",
+		Prime: "S2 S4 S6 S14 D5 D15  @1.15 Dp4",
+	},
 },
 
 
@@ -3946,8 +4571,10 @@ var readableTracklist = {
 	arcadeID: "1446",
 	pumpoutID: 299,
 
-	Prime2: "=  @1.09 D18",
-	Prime: "S4 S6 S8 S15 D5 D16  @1.11 S17  @1.15 Dp3",
+	charts: {
+		Prime2: "=  @1.09 D18",
+		Prime: "S4 S6 S8 S15 D5 D16  @1.11 S17  @1.15 Dp3",
+	},
 },
 
 
@@ -3957,8 +4584,10 @@ var readableTracklist = {
 	arcadeID: "1447",
 	pumpoutID: 300,
 
-	Prime2: "=",
-	Prime: "S4 S6 S9 S16 D7 D17  @1.02 CoOp(x2)  @1.15 Dp3",
+	charts: {
+		Prime2: "=",
+		Prime: "S4 S6 S9 S16 D7 D17  @1.02 CoOp(x2)  @1.15 Dp3",
+	},
 },
 
 
@@ -3968,8 +4597,10 @@ var readableTracklist = {
 	arcadeID: "1448",
 	pumpoutID: 301,
 
-	Prime2: "=",
-	Prime: "S2 S3 S5 S14 D5 D14 Sp15 Dp15  @1.02 CoOp(x2)  @1.15 Dp4",
+	charts: {
+		Prime2: "=",
+		Prime: "S2 S3 S5 S14 D5 D14 Sp15 Dp15  @1.02 CoOp(x2)  @1.15 Dp4",
+	},
 },
 
 
@@ -3979,8 +4610,10 @@ var readableTracklist = {
 	arcadeID: "1449",
 	pumpoutID: 302,
 
-	Prime2: "=  @1.08 Dp4",
-	Prime: "S3 S5 S8 S15 S19 D6 D17 D22",
+	charts: {
+		Prime2: "=  @1.08 Dp4",
+		Prime: "S3 S5 S8 S15 S19 D6 D17 D22",
+	},
 },
 
 
@@ -3990,8 +4623,10 @@ var readableTracklist = {
 	arcadeID: "1450",
 	pumpoutID: 303,
 
-	Prime2: "=  @1.08 Dp4",
-	Prime: "S3 S7 S10 S16 D11 D18",
+	charts: {
+		Prime2: "=  @1.08 Dp4",
+		Prime: "S3 S7 S10 S16 D11 D18",
+	},
 },
 
 
@@ -4002,8 +4637,10 @@ var readableTracklist = {
 	arcadeID: "1451",
 	pumpoutID: 304,
 
-	Prime2: "=",
-	Prime: "@1.01 S4 S6 S8 S18 D5 D19 CoOp(x3)  @1.15 Dp3",
+	charts: {
+		Prime2: "=",
+		Prime: "@1.01 S4 S6 S8 S18 D5 D19 CoOp(x3)  @1.15 Dp3",
+	},
 },
 
 
@@ -4013,8 +4650,10 @@ var readableTracklist = {
 	arcadeID: "1452",
 	pumpoutID: 305,
 
-	Prime2: "=",
-	Prime: "S1 S3 S5 S15 D5 D16  @1.15 Dp3",
+	charts: {
+		Prime2: "=",
+		Prime: "S1 S3 S5 S15 D5 D16  @1.15 Dp3",
+	},
 },
 
 
@@ -4024,14 +4663,16 @@ var readableTracklist = {
 	arcadeID: "1453",
 	pumpoutID: 453,
 
-	Phoenix: "= S12`11 -Dp3",
-	XX: "=",
-	Prime2: "= -S21 -D22 -D24 D22`23",
-		// yes, D23 on P1 became D22 on P2
-		// D22 on Prime - https://www.youtube.com/watch?v=XCwJO8n5O7Y
-		// D23 on Prime - https://www.youtube.com/watch?v=SZBvBn_ea4k
-		// D22 on Prime2 - https://www.youtube.com/watch?v=pu7knXy5YXc
-	Prime: "@1.09 S7 S11 S17 S19 D12 D19  @1.11 S21.ucs D22.ucs D23.ucs D24.ucs  @1.15 Dp3",
+	charts: {
+		Phoenix: "= S12`11 -Dp3",
+		XX: "=",
+		Prime2: "= -S21 -D22 -D24 D22`23",
+			// yes, D23 on P1 became D22 on P2
+			// D22 on Prime - https://www.youtube.com/watch?v=XCwJO8n5O7Y
+			// D23 on Prime - https://www.youtube.com/watch?v=SZBvBn_ea4k
+			// D22 on Prime2 - https://www.youtube.com/watch?v=pu7knXy5YXc
+		Prime: "@1.09 S7 S11 S17 S19 D12 D19  @1.11 S21.ucs D22.ucs D23.ucs D24.ucs  @1.15 Dp3",
+	},
 },
 
 
@@ -4041,10 +4682,12 @@ var readableTracklist = {
 	arcadeID: "1454",
 	pumpoutID: 325,
 
-	Phoenix: "= -Dp3",
-	XX: "= D20`21",
-	Prime2: "=  @1.09 D21",
-	Prime: "@1.03 S3 S6 S11 S17 D12 D18  @1.15 Dp3",
+	charts: {
+		Phoenix: "= -Dp3",
+		XX: "= D20`21",
+		Prime2: "=  @1.09 D21",
+		Prime: "@1.03 S3 S6 S11 S17 D12 D18  @1.15 Dp3",
+	},
 },
 
 
@@ -4054,10 +4697,12 @@ var readableTracklist = {
 	arcadeID: "1457",
 	pumpoutID: 306,
 
-	Phoenix: "= S4`3 D11`10 D19`18 -Dp2",
-	XX: "= S14`15 D15`16",
-	Prime2: "= -S16",
-	Prime: "S3 S6 S8 S15 D10 D16  @1.12 S16.ucs D18.ucs  @1.15 Dp2",
+	charts: {
+		Phoenix: "= S4`3 D11`10 D19`18 -Dp2",
+		XX: "= S14`15 D15`16",
+		Prime2: "= -S16",
+		Prime: "S3 S6 S8 S15 D10 D16  @1.12 S16.ucs D18.ucs  @1.15 Dp2",
+	},
 },
 
 
@@ -4067,10 +4712,12 @@ var readableTracklist = {
 	arcadeID: "1458",
 	pumpoutID: 351,
 
-	Phoenix: "= D16`15 -S3 -Dp3",
-	XX: "=  @2.08 D21",
-	Prime2: "=",
-	Prime: "@1.07 S3 S6 S14 D6 D15  @1.15 Dp3  @1.19 S17",
+	charts: {
+		Phoenix: "= D16`15 -S3 -Dp3",
+		XX: "=  @2.08 D21",
+		Prime2: "=",
+		Prime: "@1.07 S3 S6 S14 D6 D15  @1.15 Dp3  @1.19 S17",
+	},
 },
 
 
@@ -4080,10 +4727,12 @@ var readableTracklist = {
 	arcadeID: "1459",
 	pumpoutID: 307,
 
-	Phoenix: "= -Dp3",
-	XX: "= D22`21",
-	Prime2: "=",
-	Prime: "S4 S7 S10 S18 D7 D19  @1.12 S21.ucs D16.ucs D21.ucs  @1.15 Dp3",
+	charts: {
+		Phoenix: "= -Dp3",
+		XX: "= D22`21",
+		Prime2: "=",
+		Prime: "S4 S7 S10 S18 D7 D19  @1.12 S21.ucs D16.ucs D21.ucs  @1.15 Dp3",
+	},
 },
 
 
@@ -4093,10 +4742,12 @@ var readableTracklist = {
 	arcadeID: "1460",
 	pumpoutID: 324,
 
-	Phoenix: "= D13`11 D19`18 -Dp2",
-	XX: "= S18`17",
-	Prime2: "=",
-	Prime: "@1.03 S6 S11 S17 D11 D18  @1.15 Dp2",
+	charts: {
+		Phoenix: "= D13`11 D19`18 -Dp2",
+		XX: "= S18`17",
+		Prime2: "=",
+		Prime: "@1.03 S6 S11 S17 D11 D18  @1.15 Dp2",
+	},
 },
 
 
@@ -4106,10 +4757,12 @@ var readableTracklist = {
 	arcadeID: "1461",
 	pumpoutID: 508,
 
-	Phoenix: "= S4`3 S11`10 -Dp2",
-	XX: "=",
-	Prime2: "=  @1.08 Dp2  @2.03 D21",
-	Prime: "@1.19 S3 S10 S17 D6 D18",
+	charts: {
+		Phoenix: "= S4`3 S11`10 -Dp2",
+		XX: "=",
+		Prime2: "=  @1.08 Dp2  @2.03 D21",
+		Prime: "@1.19 S3 S10 S17 D6 D18",
+	},
 },
 
 
@@ -4119,10 +4772,12 @@ var readableTracklist = {
 	arcadeID: "1462",
 	pumpoutID: 308,
 
-	Phoenix: "= S8`7 S12`11 S21`20 -Dp3",
-	XX: "=",
-	Prime2: "=",
-	Prime: "S7 S11 S16 S18 D9 D13 D17  @1.13 S20  @1.15 Dp3",
+	charts: {
+		Phoenix: "= S8`7 S12`11 S21`20 -Dp3",
+		XX: "=",
+		Prime2: "=",
+		Prime: "S7 S11 S16 S18 D9 D13 D17  @1.13 S20  @1.15 Dp3",
+	},
 },
 
 
@@ -4132,10 +4787,12 @@ var readableTracklist = {
 	arcadeID: "1463",
 	pumpoutID: 322,
 
-	Phoenix: "= D14`13 D17`16 -Dp3",
-	XX: "= S9`8 S17`18 D13`12",
-	Prime2: "=",
-	Prime: "@1.02 S8 S15 S18 S22 D12 D16 D24  @1.03 S24  @1.15 Dp3  @1.16 D26",
+	charts: {
+		Phoenix: "= D14`13 D17`16 -Dp3",
+		XX: "= S9`8 S17`18 D13`12",
+		Prime2: "=",
+		Prime: "@1.02 S8 S15 S18 S22 D12 D16 D24  @1.03 S24  @1.15 Dp3  @1.16 D26",
+	},
 },
 
 
@@ -4145,10 +4802,12 @@ var readableTracklist = {
 	arcadeID: "1464",
 	pumpoutID: 309,
 
-	Phoenix: "= S14`15 D17`16 -Dp4",
-	XX: "= S16`17  @2.05 D22.lock",
-	Prime2: "= -D19",
-	Prime: "S4 S7 S10 S17 S20 D7 D16  @1.14 S15.ucs D19.ucs  @1.15 Dp4",
+	charts: {
+		Phoenix: "= S14`15 D17`16 -Dp4",
+		XX: "= S16`17  @2.05 D22.lock",
+		Prime2: "= -D19",
+		Prime: "S4 S7 S10 S17 S20 D7 D16  @1.14 S15.ucs D19.ucs  @1.15 Dp4",
+	},
 },
 
 
@@ -4158,10 +4817,12 @@ var readableTracklist = {
 	arcadeID: "1465",
 	pumpoutID: 467,
 
-	Phoenix: "= S11`10 -Dp4",
-	XX: "= S10`9 D15`14",
-	Prime2: "=",
-	Prime: "@1.11 S9 S14 D14  S17 S22 D23  @1.15 Dp4",
+	charts: {
+		Phoenix: "= S11`10 -Dp4",
+		XX: "= S10`9 D15`14",
+		Prime2: "=",
+		Prime: "@1.11 S9 S14 D14  S17 S22 D23  @1.15 Dp4",
+	},
 },
 
 
@@ -4172,8 +4833,10 @@ var readableTracklist = {
 	arcadeID: "1467",
 	pumpoutID: 318,
 
-	Prime2: "=",
-	Prime: "S2 S4 S6 S15 D5 D15",
+	charts: {
+		Prime2: "=",
+		Prime: "S2 S4 S6 S15 D5 D15",
+	},
 },
 
 
@@ -4184,8 +4847,10 @@ var readableTracklist = {
 	arcadeID: "1468",
 	pumpoutID: 319,
 
-	Prime2: "=",
-	Prime: "S2 S4 S6 S14 D4 D15",
+	charts: {
+		Prime2: "=",
+		Prime: "S2 S4 S6 S14 D4 D15",
+	},
 },
 
 
@@ -4196,8 +4861,10 @@ var readableTracklist = {
 	arcadeID: "1469",
 	pumpoutID: 320,
 
-	Prime2: "=",
-	Prime: "S2 S4 S6 S16 D7 D16",
+	charts: {
+		Prime2: "=",
+		Prime: "S2 S4 S6 S16 D7 D16",
+	},
 },
 
 
@@ -4207,8 +4874,10 @@ var readableTracklist = {
 	arcadeID: "1470",
 	pumpoutID: 510,
 
-	Prime2: "=  @1.08 Dp2",
-	Prime: "@1.20 S3 S6 S9 S15 D11 D16",
+	charts: {
+		Prime2: "=  @1.08 Dp2",
+		Prime: "@1.20 S3 S6 S9 S15 D11 D16",
+	},
 },
 
 
@@ -4218,8 +4887,10 @@ var readableTracklist = {
 	arcadeID: "1471",
 	pumpoutID: 479,
 
-	Prime2: "=  @1.04 S16 D18  @1.08 Dp5",
-	Prime: "@1.14 S9 S14 D11  S19 D20",
+	charts: {
+		Prime2: "=  @1.04 S16 D18  @1.08 Dp5",
+		Prime: "@1.14 S9 S14 D11  S19 D20",
+	},
 },
 
 
@@ -4229,10 +4900,12 @@ var readableTracklist = {
 	arcadeID: "1472",
 	pumpoutID: 454,
 
-	Phoenix: "= -Dp3",
-	XX: "= D23`24",
-	Prime2: "=",
-	Prime: "@1.09 S4 S9 S16 S18 D5 D13 D16 D19  @1.15 Dp3  @1.16 D24",
+	charts: {
+		Phoenix: "= -Dp3",
+		XX: "= D23`24",
+		Prime2: "=",
+		Prime: "@1.09 S4 S9 S16 S18 D5 D13 D16 D19  @1.15 Dp3  @1.16 D24",
+	},
 },
 
 
@@ -4242,10 +4915,12 @@ var readableTracklist = {
 	arcadeID: "1473",
 	pumpoutID: 463,
 
-	Phoenix: "= S16`15 D11`10 D20`19 -Dp3 -Dp23",
-	XX: "= S18`17 D19`18  @1.03 Dp23",
-	Prime2: "=  @1.10 S15 D17",
-	Prime: "@1.10 S3 S6 S10 D10 CoOp(x2)  S17 D18  @1.15 Dp3",
+	charts: {
+		Phoenix: "= S16`15 D11`10 D20`19 -Dp3 -Dp23",
+		XX: "= S18`17 D19`18  @1.03 Dp23",
+		Prime2: "=  @1.10 S15 D17",
+		Prime: "@1.10 S3 S6 S10 D10 CoOp(x2)  S17 D18  @1.15 Dp3",
+	},
 },
 
 
@@ -4255,10 +4930,12 @@ var readableTracklist = {
 	arcadeID: "1474",
 	pumpoutID: 501,
 
-	Phoenix: "= D11`9 -Dp5",
-	XX: "= D18`19",
-	Prime2: "=  @1.08 Dp5",
-	Prime: "@1.16 S3 S6 S10 S15 S17 D9 D16 CoOp(x2)  S18 D19",
+	charts: {
+		Phoenix: "= D11`9 -Dp5",
+		XX: "= D18`19",
+		Prime2: "=  @1.08 Dp5",
+		Prime: "@1.16 S3 S6 S10 S15 S17 D9 D16 CoOp(x2)  S18 D19",
+	},
 },
 
 
@@ -4268,10 +4945,12 @@ var readableTracklist = {
 	arcadeID: "1475",
 	pumpoutID: 461,
 
-	Phoenix: "= D6`5 -Dp3",
-	XX: "= S14`15 D15`16",
-	Prime2: "=",
-	Prime: "@1.11 S1 S3 S6 S11 S15 D5 D10 D16  @1.15 Dp3",
+	charts: {
+		Phoenix: "= D6`5 -Dp3",
+		XX: "= S14`15 D15`16",
+		Prime2: "=",
+		Prime: "@1.11 S1 S3 S6 S11 S15 D5 D10 D16  @1.15 Dp3",
+	},
 },
 
 
@@ -4281,10 +4960,12 @@ var readableTracklist = {
 	arcadeID: "1476",
 	pumpoutID: 465,
 
-	Phoenix: "= S10`9 -Sp3 -Dp4",
-	XX: "=  @2.07 CoOp(x2)",
-	Prime2: "=",
-	Prime: "@1.10 S3 S5 S9 S15 D5 D16 Sp3  @1.15 Dp4",
+	charts: {
+		Phoenix: "= S10`9 -Sp3 -Dp4",
+		XX: "=  @2.07 CoOp(x2)",
+		Prime2: "=",
+		Prime: "@1.10 S3 S5 S9 S15 D5 D16 Sp3  @1.15 Dp4",
+	},
 },
 
 
@@ -4294,10 +4975,12 @@ var readableTracklist = {
 	arcadeID: "1477",
 	pumpoutID: 346,
 
-	Phoenix: "= S8`7 D14`13 -Dp4",
-	XX: "= S21`20 D13`12 D21`20",
-	Prime2: "=  @2.04 D16",
-	Prime: "@1.10 S4 S7 S11 D12  S17 S20 D20  @1.15 Dp4 D24",
+	charts: {
+		Phoenix: "= S8`7 D14`13 -Dp4",
+		XX: "= S21`20 D13`12 D21`20",
+		Prime2: "=  @2.04 D16",
+		Prime: "@1.10 S4 S7 S11 D12  S17 S20 D20  @1.15 Dp4 D24",
+	},
 },
 
 
@@ -4309,10 +4992,12 @@ var readableTracklist = {
 	arcadeID: "1478",
 	pumpoutID: 345,
 
-	Phoenix: "= D9`8 -Dp4",
-	XX: "= D15`14",
-	Prime2: "S4 S6 S9 S14 S19  D8 D14 D19  @1.08 Dp4",
-	// from PrimeJE
+	charts: {
+		Phoenix: "= D9`8 -Dp4",
+		XX: "= D15`14",
+		Prime2: "S4 S6 S9 S14 S19  D8 D14 D19  @1.08 Dp4",
+		// from PrimeJE
+	},
 },
 
 
@@ -4322,10 +5007,12 @@ var readableTracklist = {
 	arcadeID: "1479",
 	pumpoutID: 344,
 
-	Phoenix: "= D12`10 -Dp4",
-	XX: "=",
-	Prime2: "=  @1.08 Dp4",
-	Prime: "@1.20 S1 S4 S9 S15 S18 D10 D16 D19",
+	charts: {
+		Phoenix: "= D12`10 -Dp4",
+		XX: "=",
+		Prime2: "=  @1.08 Dp4",
+		Prime: "@1.20 S1 S4 S9 S15 S18 D10 D16 D19",
+	},
 },
 
 
@@ -4335,10 +5022,12 @@ var readableTracklist = {
 	arcadeID: "1480",
 	pumpoutID: 343,
 
-	Phoenix: "= D9`8 -Dp5",
-	XX: "= D19`20",
-	Prime2: "=  @1.08 Dp5",
-	Prime: "@1.19 S4 S7 S11 S16 D8 D17  S19 D20",
+	charts: {
+		Phoenix: "= D9`8 -Dp5",
+		XX: "= D19`20",
+		Prime2: "=  @1.08 Dp5",
+		Prime: "@1.19 S4 S7 S11 S16 D8 D17  S19 D20",
+	},
 },
 
 
@@ -4349,10 +5038,12 @@ var readableTracklist = {
 	arcadeID: "1481",
 	pumpoutID: 342,
 
-	Phoenix: "= D11`10 -Dp2",
-	XX: "= D20`21  @2.03  CoOp(x2)",
-	Prime2: "=",
-	Prime: "@1.09 S1 S5 S9 S13 D10  S17 S19 D18 D21  @1.15 Dp2  @1.17 S3  @1.21 S15",
+	charts: {
+		Phoenix: "= D11`10 -Dp2",
+		XX: "= D20`21  @2.03  CoOp(x2)",
+		Prime2: "=",
+		Prime: "@1.09 S1 S5 S9 S13 D10  S17 S19 D18 D21  @1.15 Dp2  @1.17 S3  @1.21 S15",
+	},
 },
 
 
@@ -4360,13 +5051,14 @@ var readableTracklist = {
 {
 	title: "Creed -1st Desire-", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "163",
 	arcadeName: "Creed - 1st Desire -",
-	arcadeNameMaxEditDistance: 1, // 'Creed - Ist Desire -'
 	arcadeID: "1482",
 	pumpoutID: 347,
 
-	XX: "=  @2.06 S15",
-	Prime2: "=",
-	Prime: "@1.13 S4 S7 S12 D11 Dp5  S18 S21 D18 D23",
+	charts: {
+		XX: "=  @2.06 S15",
+		Prime2: "=",
+		Prime: "@1.13 S4 S7 S12 D11 Dp5  S18 S21 D18 D23",
+	},
 },
 
 
@@ -4376,9 +5068,11 @@ var readableTracklist = {
 	arcadeID: "1483",
 	pumpoutID: 355,
 
-	XX: "=",
-	Prime2: "=  @1.08 Dp4",
-	Prime: "@1.18 S3 S8 S12 S15 D11 D16 CoOp(x2)  S18 D20",
+	charts: {
+		XX: "=",
+		Prime2: "=  @1.08 Dp4",
+		Prime: "@1.18 S3 S8 S12 S15 D11 D16 CoOp(x2)  S18 D20",
+	},
 },
 
 
@@ -4386,13 +5080,15 @@ var readableTracklist = {
 {
 	title: "Four Seasons of Loneliness", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "178",
 	//fullTitle: "Four Seasons of Loneliness ver B feat. Sariyajin",
-	arcadeName: "FOUR SEASONS OF LONELINESS ver B feat. Sariyajin", arcadeNameMaxEditDistance: 2,  // 'beta' vs 'B'
+	arcadeName: "FOUR SEASONS OF LONELINESS ver B feat. Sariyajin",
 	arcadeID: "1484",
 	pumpoutID: 451,
 
-	XX: "= D15`14 D22`21",
-	Prime2: "=",
-	Prime: "@1.09 S1 S4 S6 S10 S14 D10 D14 CoOp(x2)  S17 S20 D18 D21  @1.15 Dp2",
+	charts: {
+		XX: "= D15`14 D22`21",
+		Prime2: "=",
+		Prime: "@1.09 S1 S4 S6 S10 S14 D10 D14 CoOp(x2)  S17 S20 D18 D21  @1.15 Dp2",
+	},
 },
 
 
@@ -4403,9 +5099,11 @@ var readableTracklist = {
 	arcadeID: "1485",
 	pumpoutID: 452,
 
-	XX: "=  @1.05 D20",
-	Prime2: "S1 S3 S6 S9 S13 S16  D8 D15 D18  @1.08 Dp4",
-	// from PrimeJE
+	charts: {
+		XX: "=  @1.05 D20",
+		Prime2: "S1 S3 S6 S9 S13 S16  D8 D15 D18  @1.08 Dp4",
+		// from PrimeJE
+	},
 },
 
 
@@ -4415,9 +5113,11 @@ var readableTracklist = {
 	arcadeID: "1486",
 	pumpoutID: 449,
 
-	XX: "=  @2.05 D23.lock",
-	Prime2: "=",
-	Prime: "@1.12 S1 S5 S9 S13 S16 Dp3  D8 D14  CoOp(x2)  S18 D19  @1.17 S3",
+	charts: {
+		XX: "=  @2.05 D23.lock",
+		Prime2: "=",
+		Prime: "@1.12 S1 S5 S9 S13 S16 Dp3  D8 D14  CoOp(x2)  S18 D19  @1.17 S3",
+	},
 },
 
 
@@ -4427,9 +5127,11 @@ var readableTracklist = {
 	arcadeID: "1487",
 	pumpoutID: 450,
 
-	XX: "= S15`14 D11`10 D16`15  @2.05 S23.lock",
-	Prime2: "=",
-	Prime: "@1.14 S1 S5 S10 S14  D10 D15  CoOp(x2)  S20 D24  @1.15 Dp4  @1.17 S3",
+	charts: {
+		XX: "= S15`14 D11`10 D16`15  @2.05 S23.lock",
+		Prime2: "=",
+		Prime: "@1.14 S1 S5 S10 S14  D10 D15  CoOp(x2)  S20 D24  @1.15 Dp4  @1.17 S3",
+	},
 },
 
 
@@ -4440,9 +5142,11 @@ var readableTracklist = {
 	arcadeID: "1488",
 	pumpoutID: 459,
 
-	XX: "=",
-	Prime2: "=  @1.08 Dp4",
-	Prime: "@1.14 S3 S6 S12 S17 D4 D13 D18 CoOp(x3)  S19 D20",
+	charts: {
+		XX: "=",
+		Prime2: "=  @1.08 Dp4",
+		Prime: "@1.14 S3 S6 S12 S17 D4 D13 D18 CoOp(x3)  S19 D20",
+	},
 },
 
 
@@ -4452,9 +5156,11 @@ var readableTracklist = {
 	arcadeID: "1489",
 	pumpoutID: 460,
 
-	XX: "=",
-	Prime2: "=  @1.08 Dp5",
-	Prime: "@1.16 S3 S6 S10 S15 D10 D16  S19 D21",
+	charts: {
+		XX: "=",
+		Prime2: "=  @1.08 Dp5",
+		Prime: "@1.16 S3 S6 S10 S15 D10 D16  S19 D21",
+	},
 },
 
 
@@ -4464,23 +5170,27 @@ var readableTracklist = {
 	arcadeID: "1490",
 	pumpoutID: 458,
 
-	Phoenix: "= D13`12 D21`20 -Dp3",
-	XX: "= S21`20",
-	Prime2: "=  @1.08 Dp3",
-	Prime: "@1.15 S4 S7 S11 S16 S18 D12 D16 D18  S20 D20",
+	charts: {
+		Phoenix: "= D13`12 D21`20 -Dp3",
+		XX: "= S21`20",
+		Prime2: "=  @1.08 Dp3",
+		Prime: "@1.15 S4 S7 S11 S16 S18 D12 D16 D18  S20 D20",
+	},
 },
 
 
 "14__Bad_End_Night":
 {
 	title: "Bad &infin; End &infin; Night", artist: "HitoshizukuP X yama&#9651", channel: JMUSIC, bpm: "204",
-	arcadeName: "Bad ~ End ~ Night", arcadeNameMaxEditDistance: 4,  // &infin; recognition, two characters per each
+	arcadeName: "Bad ~ End ~ Night",
 	arcadeID: "1491",
 	pumpoutID: 466,
 
-	XX: "=",
-	Prime2: "=",
-	Prime: "@1.11 S2 S6 S10 S13 D11 Dp4 CoOp(x3)  S17 S19 D18 D23  @1.17 S4",
+	charts: {
+		XX: "=",
+		Prime2: "=",
+		Prime: "@1.11 S2 S6 S10 S13 D11 Dp4 CoOp(x3)  S17 S19 D18 D23  @1.17 S4",
+	},
 },
 
 
@@ -4490,24 +5200,27 @@ var readableTracklist = {
 	arcadeID: "1492",
 	pumpoutID: 471,
 
-	Phoenix: "= S12`11 D14`12 -Dp3",
-	XX: "=",
-	Prime2: "=",
-	Prime: "@1.12 S4 S7 S11 S15 D12 D16 S18 D19  @1.15 Dp3",
+	charts: {
+		Phoenix: "= S12`11 D14`12 -Dp3",
+		XX: "=",
+		Prime2: "=",
+		Prime: "@1.12 S4 S7 S11 S15 D12 D16 S18 D19  @1.15 Dp3",
+	},
 },
 
 
 "14__Idealized_Romance":
 {
 	title: "Idealized Romance", artist: "void", channel: JMUSIC, bpm: "140",
-	arcadeNameMaxEditDistance: 1,  //tdealized
 	arcadeID: "1493",
 	pumpoutID: 474,
 
-	Phoenix: "= D11`10",
-	XX: "=",
-	Prime2: "=",
-	Prime: "@1.16 S2 S4 S7 S11 S16 D10  S18 D18",
+	charts: {
+		Phoenix: "= D11`10",
+		XX: "=",
+		Prime2: "=",
+		Prime: "@1.16 S2 S4 S7 S11 S16 D10  S18 D18",
+	},
 },
 
 
@@ -4518,11 +5231,13 @@ var readableTracklist = {
 	arcadeID: "1494",
 	pumpoutID: 478,
 
-	Phoenix: "= S11`10 D15`12 D19`18 -Dp2",
-		// TODO.Phoenix: D15`12
-	XX: "=",
-	Prime2: "=",
-	Prime: "@1.14 S4 S7 S10 S16 D12 D18  S21 D22 D25  @1.15 Dp2",
+	charts: {
+		Phoenix: "= S11`10 D15`12 D19`18 -Dp2",
+			// TODO.Phoenix: D15`12
+		XX: "=",
+		Prime2: "=",
+		Prime: "@1.14 S4 S7 S10 S16 D12 D18  S21 D22 D25  @1.15 Dp2",
+	},
 },
 
 
@@ -4538,8 +5253,12 @@ var readableTracklist = {
 		"Prime2@1.00": { region: "" },
 		"Prime2@1.01": { region: JAPAN },
 	},
-	Prime2: "S2 S3 S5 S7 S11 S14  D3 D9 D15",  //? all charts are AM.Pass exclusive. Added in P2 1.00, removed in 1.01
-	// from PrimeJE
+
+	charts: {
+		Prime2: "S2 S3 S5 S7 S11 S14  D3 D9 D15",
+			//? all charts are AM.Pass exclusive. Added in P2 1.00, removed in 1.01
+			// from PrimeJE
+	},
 },
 
 
@@ -4555,8 +5274,12 @@ var readableTracklist = {
 		"Prime2@1.00": { region: "" },
 		"Prime2@1.01": { region: JAPAN },
 	},
-	Prime2: "S2 S4 S5 S9 S16 S18  D6 D16 D19  CoOp(x2)",  //? all charts are AM.Pass exclusive. Added in P2 1.00, removed in 1.01
-	// from PrimeJE
+
+	charts: {
+		Prime2: "S2 S4 S5 S9 S16 S18  D6 D16 D19  CoOp(x2)",
+			//? all charts are AM.Pass exclusive. Added in P2 1.00, removed in 1.01
+			// from PrimeJE
+	},
 },
 
 
@@ -4566,10 +5289,12 @@ var readableTracklist = {
 	arcadeID: "1497",
 	pumpoutID: 483,
 
-	Phoenix: "= D13`12",
-	XX: "=  @2.05 D21.lock",
-	Prime2: "=",
-	Prime: "@1.15 S7 S14 S16 D5 D12 D17",
+	charts: {
+		Phoenix: "= D13`12",
+		XX: "=  @2.05 D21.lock",
+		Prime2: "=",
+		Prime: "@1.15 S7 S14 S16 D5 D12 D17",
+	},
 },
 
 
@@ -4579,10 +5304,12 @@ var readableTracklist = {
 	arcadeID: "1498",
 	pumpoutID: 470,
 
-	Phoenix: "= D11`10 -Dp4",
-	XX: "= D15`16 D19`20",
-	Prime2: "=",
-	Prime: "@1.12 S6 S10 S15 S17 D10 D16 D20  @1.15 Dp4",
+	charts: {
+		Phoenix: "= D11`10 -Dp4",
+		XX: "= D15`16 D19`20",
+		Prime2: "=",
+		Prime: "@1.12 S6 S10 S15 S17 D10 D16 D20  @1.15 Dp4",
+	},
 },
 
 
@@ -4592,10 +5319,12 @@ var readableTracklist = {
 	arcadeID: "1499",
 	pumpoutID: 511,
 
-	Phoenix: "= S19`18 D13`11 D20`19 -Dp2",
-	XX: "= S18`17 D19`18",
-	Prime2: "=  @1.08 Dp2",
-	Prime: "@1.21 S6 S10 S14 S17 D11 D18 CoOp(x2)",
+	charts: {
+		Phoenix: "= S19`18 D13`11 D20`19 -Dp2",
+		XX: "= S18`17 D19`18",
+		Prime2: "=  @1.08 Dp2",
+		Prime: "@1.21 S6 S10 S14 S17 D11 D18 CoOp(x2)",
+	},
 },
 
 
@@ -4605,10 +5334,12 @@ var readableTracklist = {
 	arcadeID: "14A0",
 	pumpoutID: 310,
 
-	Phoenix: "=",
-	XX: "= D20`21",
-	Prime2: "=",
-	Prime: "S18 S21 D21",
+	charts: {
+		Phoenix: "=",
+		XX: "= D20`21",
+		Prime2: "=",
+		Prime: "S18 S21 D21",
+	},
 },
 
 
@@ -4618,10 +5349,12 @@ var readableTracklist = {
 	arcadeID: "14A1",
 	pumpoutID: 329,
 
-	Phoenix: "=",
-	XX: "= S20`19",
-	Prime2: "=",
-	Prime: "@1.04 S23 D25  @1.10 S19",
+	charts: {
+		Phoenix: "=",
+		XX: "= S20`19",
+		Prime2: "=",
+		Prime: "@1.04 S23 D25  @1.10 S19",
+	},
 },
 
 
@@ -4631,10 +5364,12 @@ var readableTracklist = {
 	arcadeID: "14A2",
 	pumpoutID: 506,
 
-	Phoenix: "=",
-	XX: "=",
-	Prime2: "=  @2.04 D25",
-	Prime: "@1.18 S21 S23 S26  @1.19 D28",
+	charts: {
+		Phoenix: "=",
+		XX: "=",
+		Prime2: "=  @2.04 D25",
+		Prime: "@1.18 S21 S23 S26  @1.19 D28",
+	},
 },
 
 
@@ -4644,8 +5379,10 @@ var readableTracklist = {
 	arcadeID: "14C0",
 	pumpoutID: 311,
 
-	Prime2: "=",
-	Prime: "S16 D15",
+	charts: {
+		Prime2: "=",
+		Prime: "S16 D15",
+	},
 },
 
 
@@ -4655,8 +5392,10 @@ var readableTracklist = {
 	arcadeID: "14C1",
 	pumpoutID: 312,
 
-	Prime2: "=",
-	Prime: "@1.01 S15 D15",
+	charts: {
+		Prime2: "=",
+		Prime: "@1.01 S15 D15",
+	},
 },
 
 
@@ -4666,8 +5405,10 @@ var readableTracklist = {
 	arcadeID: "14C2",
 	pumpoutID: 473,
 
-	Prime2: "=",
-	Prime: "@1.12 S14 S15 D16",
+	charts: {
+		Prime2: "=",
+		Prime: "@1.12 S14 S15 D16",
+	},
 },
 
 
@@ -4677,10 +5418,12 @@ var readableTracklist = {
 	arcadeID: "14C3",
 	pumpoutID: 468,
 
-	Phoenix: "= -S17",
-	XX: "=",
-	Prime2: "= -D20",
-	Prime: "@1.11 S17.ucs S18.ucs D19.ucs D20.ucs",
+	charts: {
+		Phoenix: "= -S17",
+		XX: "=",
+		Prime2: "= -D20",
+		Prime: "@1.11 S17.ucs S18.ucs D19.ucs D20.ucs",
+	},
 },
 
 
@@ -4690,8 +5433,10 @@ var readableTracklist = {
 	arcadeID: "14C4",
 	pumpoutID: 480,
 
-	Prime2: "=",
-	Prime: "@1.14 S17 D18",
+	charts: {
+		Prime2: "=",
+		Prime: "@1.14 S17 D18",
+	},
 },
 
 
@@ -4699,13 +5444,15 @@ var readableTracklist = {
 {
 	title: "Four Seasons of Loneliness ver B feat. Sariyajin  [FULL]", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "178",
 	shortTitle: "Four Seasons of Loneliness",
-	arcadeName: "FOUR SEASONS OF LONELINESS verB feat. Sariyajin - FULL SONG", arcadeNameMaxEditDistance: 2,  // 'beta' vs 'B'
+	arcadeName: "FOUR SEASONS OF LONELINESS verB feat. Sariyajin - FULL SONG",
 	arcadeID: "14C5",
 	pumpoutID: 455,
 
-	XX: "= D15`14",
-	Prime2: "=",
-	Prime: "@1.09 S14 S19 D14 D19",
+	charts: {
+		XX: "= D15`14",
+		Prime2: "=",
+		Prime: "@1.09 S14 S19 D14 D19",
+	},
 },
 
 
@@ -4716,10 +5463,12 @@ var readableTracklist = {
 	arcadeID: "14C6",
 	pumpoutID: 456,
 
-	Phoenix: "= D12`11",
-	XX: "=",
-	Prime2: "=",
-	Prime: "@1.09 S10 S14 S17 D11 D18 D22 CoOp(x4)",
+	charts: {
+		Phoenix: "= D12`11",
+		XX: "=",
+		Prime2: "=",
+		Prime: "@1.09 S10 S14 S17 D11 D18 D22 CoOp(x4)",
+	},
 },
 
 
@@ -4730,9 +5479,11 @@ var readableTracklist = {
 	arcadeID: "14C7",
 	pumpoutID: 477,
 
-	XX: "= S22`23",
-	Prime2: "=",
-	Prime: "@1.13 S18 S23 D19 D24",
+	charts: {
+		XX: "= S22`23",
+		Prime2: "=",
+		Prime: "@1.13 S18 S23 D19 D24",
+	},
 },
 
 
@@ -4743,10 +5494,12 @@ var readableTracklist = {
 	arcadeID: "14E0",
 	pumpoutID: 464,
 
-	Phoenix: "=",
-	XX: "=",
-	Prime2: "=",
-	Prime: "@1.10 S19 D17",
+	charts: {
+		Phoenix: "=",
+		XX: "=",
+		Prime2: "=",
+		Prime: "@1.10 S19 D17",
+	},
 },
 
 
@@ -4757,10 +5510,12 @@ var readableTracklist = {
 	arcadeID: "14E1",
 	pumpoutID: 313,
 
-	Phoenix: "= S14`13",
-	XX: "=",
-	Prime2: "=",
-	Prime: "S13 S18 S21 D16 D21",
+	charts: {
+		Phoenix: "= S14`13",
+		XX: "=",
+		Prime2: "=",
+		Prime: "S13 S18 S21 D16 D21",
+	},
 },
 
 
@@ -4771,10 +5526,12 @@ var readableTracklist = {
 	arcadeID: "14E2",
 	pumpoutID: 354,
 
-	Phoenix: "=",
-	XX: "=",
-	Prime2: "=",
-	Prime: "@1.08 S18 D17",
+	charts: {
+		Phoenix: "=",
+		XX: "=",
+		Prime2: "=",
+		Prime: "@1.08 S18 D17",
+	},
 },
 
 
@@ -4785,10 +5542,12 @@ var readableTracklist = {
 	arcadeID: "14E3",
 	pumpoutID: 326,
 
-	Phoenix: "=",
-	XX: "=",
-	Prime2: "=",
-	Prime: "@1.03 S17 D18",
+	charts: {
+		Phoenix: "=",
+		XX: "=",
+		Prime2: "=",
+		Prime: "@1.03 S17 D18",
+	},
 },
 
 
@@ -4800,10 +5559,12 @@ var readableTracklist = {
 	arcadeID: "14E4",
 	pumpoutID: 314,
 
-	Phoenix: "=",
-	XX: "=",
-	Prime2: "=",
-	Prime: "S15 S18 D20",
+	charts: {
+		Phoenix: "=",
+		XX: "=",
+		Prime2: "=",
+		Prime: "S15 S18 D20",
+	},
 },
 
 
@@ -4814,10 +5575,12 @@ var readableTracklist = {
 	arcadeID: "14E5",
 	pumpoutID: 341,
 
-	Phoenix: "=",
-	XX: "= S17`16",
-	Prime2: "=",
-	Prime: "@1.06 S16 D18",
+	charts: {
+		Phoenix: "=",
+		XX: "= S17`16",
+		Prime2: "=",
+		Prime: "@1.06 S16 D18",
+	},
 },
 
 
@@ -4828,10 +5591,12 @@ var readableTracklist = {
 	arcadeID: "14E6",
 	pumpoutID: 323,
 
-	Phoenix: "=",
-	XX: "=",
-	Prime2: "=",
-	Prime: "@1.02 S15 D15 CoOp(x5)",
+	charts: {
+		Phoenix: "=",
+		XX: "=",
+		Prime2: "=",
+		Prime: "@1.02 S15 D15 CoOp(x5)",
+	},
 },
 
 
@@ -4842,10 +5607,12 @@ var readableTracklist = {
 	arcadeID: "14E7",
 	pumpoutID: 457,
 
-	Phoenix: "=",
-	XX: "=",
-	Prime2: "=",
-	Prime: "@1.09 S16 D17",
+	charts: {
+		Phoenix: "=",
+		XX: "=",
+		Prime2: "=",
+		Prime: "@1.09 S16 D17",
+	},
 },
 
 
@@ -4861,8 +5628,12 @@ var readableTracklist = {
 		"Prime2@1.00": { region: "" },
 		"Prime2@1.01": { region: JAPAN },
 	},
-	Prime2: "S10 S15 S18  D9 D16 D20",  //? all charts are AM.Pass exclusive. Added in P2 1.00, removed in 1.01
-	// from PrimeJE
+
+	charts: {
+		Prime2: "S10 S15 S18  D9 D16 D20",
+		//? all charts are AM.Pass exclusive. Added in P2 1.00, removed in 1.01
+		// from PrimeJE
+	},
 },
 
 
@@ -4876,11 +5647,13 @@ var readableTracklist = {
 	arcadeID: "1301",
 	pumpoutID: 210,
 
-	Phoenix: "= S10`9 D11`9",
-	XX: "= S18`19  @2.05 S4",
-	Prime2: "=",
-	Prime: "= CoOp(x2)`Dp??(x2)",
-	Fiesta2: "S2 S7 S9 S16 D9 D18 Dp??(x2)  @1.40 S19  @1.60 D20",
+	charts: {
+		Phoenix: "= S10`9 D11`9",
+		XX: "= S18`19  @2.05 S4",
+		Prime2: "=",
+		Prime: "= CoOp(x2)`Dp??(x2)",
+		Fiesta2: "S2 S7 S9 S16 D9 D18 Dp??(x2)  @1.40 S19  @1.60 D20",
+	},
 },
 
 
@@ -4890,8 +5663,10 @@ var readableTracklist = {
 	arcadeID: "1302",
 	pumpoutID: 211,
 
-	Prime: "=  @1.15 S17",
-	Fiesta2: "S2 S4 S6 S14 D4 D16",
+	charts: {
+		Prime: "=  @1.15 S17",
+		Fiesta2: "S2 S4 S6 S14 D4 D16",
+	},
 },
 
 
@@ -4901,11 +5676,13 @@ var readableTracklist = {
 	arcadeID: "1303",
 	pumpoutID: 212,
 
-	Phoenix: "= S8`7 S12`11 D14`13",
-	XX: "= S11`10 S17`16 S19`20 D13`12 D18`17 D23`24",
-	Prime2: "=",
-	Prime: "= -S19",
-	Fiesta2: "S4 S7 S10 S16 D12 D17 D22  @1.01 S20  @1.50 S19  @1.60 D24",
+	charts: {
+		Phoenix: "= S8`7 S12`11 D14`13",
+		XX: "= S11`10 S17`16 S19`20 D13`12 D18`17 D23`24",
+		Prime2: "=",
+		Prime: "= -S19",
+		Fiesta2: "S4 S7 S10 S16 D12 D17 D22  @1.01 S20  @1.50 S19  @1.60 D24",
+	},
 },
 
 
@@ -4915,11 +5692,13 @@ var readableTracklist = {
 	arcadeID: "1304",
 	pumpoutID: 213,
 
-	Phoenix: "= S10`9 D13`11",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "S5 S9 S17 D11 D18  @1.60 D20",
+	charts: {
+		Phoenix: "= S10`9 D13`11",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "S5 S9 S17 D11 D18  @1.60 D20",
+	},
 },
 
 
@@ -4929,11 +5708,13 @@ var readableTracklist = {
 	arcadeID: "1305",
 	pumpoutID: 214,
 
-	Phoenix: "= S11`10",
-	XX: "= S16`17 S18`19 S21`22 D12`13 D17`16",
-	Prime2: "=",
-	Prime: "= CoOp(x2)`Dp??(x2)",
-	Fiesta2: "S4 S7 S10 S17 S19 D13 D16 Dp??(x2)  @1.40 S22 D23",
+	charts: {
+		Phoenix: "= S11`10",
+		XX: "= S16`17 S18`19 S21`22 D12`13 D17`16",
+		Prime2: "=",
+		Prime: "= CoOp(x2)`Dp??(x2)",
+		Fiesta2: "S4 S7 S10 S17 S19 D13 D16 Dp??(x2)  @1.40 S22 D23",
+	},
 },
 
 
@@ -4944,12 +5725,14 @@ var readableTracklist = {
 	arcadeID: "1306",
 	pumpoutID: 215,
 
-	Phoenix: "= S12`10 S16`15",
-		// Phoenix S22, slowdown removed - https://www.youtube.com/watch?v=mcAN_AhFB0I
-	XX: "= S10`9 S22`23 -D17 D17`15 D18`19",
-	Prime2: "=",
-	Prime: "= CoOp(x2)`Dp??(x2) -D24 -D26",
-	Fiesta2: "S9 S15 S19 S23 D15 D17 D19 D23 D25 Dp??(x2)  @1.50 D24 D26",
+	charts: {
+		Phoenix: "= S12`10 S16`15",
+			// Phoenix S22, slowdown removed - https://www.youtube.com/watch?v=mcAN_AhFB0I
+		XX: "= S10`9 S22`23 -D17 D17`15 D18`19",
+		Prime2: "=",
+		Prime: "= CoOp(x2)`Dp??(x2) -D24 -D26",
+		Fiesta2: "S9 S15 S19 S23 D15 D17 D19 D23 D25 Dp??(x2)  @1.50 D24 D26",
+	},
 },
 
 
@@ -4960,11 +5743,13 @@ var readableTracklist = {
 	arcadeID: "1307",
 	pumpoutID: 216,
 
-	Phoenix: "= S7`6 S14`13",
-	XX: "= S13`12 S17`18 S21`22 D11`8 D23`24",
-	Prime2: "=",
-	Prime: "= CoOp(x2)`Dp??(x2) -S19",
-	Fiesta2: "S6 S12 S20 D8 D16 Dp??(x2)  @1.01 D24  @1.40 S18  @1.50 S19  @1.60 S22 D20",
+	charts: {
+		Phoenix: "= S7`6 S14`13",
+		XX: "= S13`12 S17`18 S21`22 D11`8 D23`24",
+		Prime2: "=",
+		Prime: "= CoOp(x2)`Dp??(x2) -S19",
+		Fiesta2: "S6 S12 S20 D8 D16 Dp??(x2)  @1.01 D24  @1.40 S18  @1.50 S19  @1.60 S22 D20",
+	},
 },
 
 
@@ -4976,11 +5761,13 @@ var readableTracklist = {
 	arcadeID: "1308",
 	pumpoutID: 217,
 
-	Phoenix: "=",
-	XX: "= S11`8 S13`11 S20`21 D14`13 D19`20  @2.06 D22.lock",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "S8 S11 S17 S21 D13 D15  @1.01 D20",
+	charts: {
+		Phoenix: "=",
+		XX: "= S11`8 S13`11 S20`21 D14`13 D19`20  @2.06 D22.lock",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "S8 S11 S17 S21 D13 D15  @1.01 D20",
+	},
 },
 
 
@@ -4991,11 +5778,13 @@ var readableTracklist = {
 	arcadeID: "1309",
 	pumpoutID: 218,
 
-	Phoenix: "= S13`11 D15`13",
-	XX: "= S11`10 S18`17 S22`23 D13`12",
-	Prime2: "=",
-	Prime: "= CoOp(x3)`Dp??(x3)  @1.14 D24",
-	Fiesta2: "S10 S17 S23 D22 Dp??(x3)  @1.01 D12",
+	charts: {
+		Phoenix: "= S13`11 D15`13",
+		XX: "= S11`10 S18`17 S22`23 D13`12",
+		Prime2: "=",
+		Prime: "= CoOp(x3)`Dp??(x3)  @1.14 D24",
+		Fiesta2: "S10 S17 S23 D22 Dp??(x3)  @1.01 D12",
+	},
 },
 
 
@@ -5005,11 +5794,13 @@ var readableTracklist = {
 	arcadeID: "1310",
 	pumpoutID: 219,
 
-	Phoenix: "=",
-	XX: "= S14`15 S16`17 D18`19",
-	Prime2: "=",
-	Prime: "= -S16",
-	Fiesta2: "S3 S6 S10 S17 D12 D19  @1.40 S15 D16  @1.50 S16",
+	charts: {
+		Phoenix: "=",
+		XX: "= S14`15 S16`17 D18`19",
+		Prime2: "=",
+		Prime: "= -S16",
+		Fiesta2: "S3 S6 S10 S17 D12 D19  @1.40 S15 D16  @1.50 S16",
+	},
 },
 
 
@@ -5019,11 +5810,13 @@ var readableTracklist = {
 	arcadeID: "1311",
 	pumpoutID: 220,
 
-	Phoenix: "= S13`11 D13`11",
-	XX: "= S11`10 S18`19",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "S4 S7 S10 S19 D11 D20",
+	charts: {
+		Phoenix: "= S13`11 D13`11",
+		XX: "= S11`10 S18`19",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "S4 S7 S10 S19 D11 D20",
+	},
 },
 
 
@@ -5033,11 +5826,13 @@ var readableTracklist = {
 	arcadeID: "1312",
 	pumpoutID: 221,
 
-	Phoenix: "= S11`10 D14`12 D19`18",
-	XX: "= S10`9 D12`11 D20`19",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "S4 S7 S9 S18 D11 D19  @1.40 D18",
+	charts: {
+		Phoenix: "= S11`10 D14`12 D19`18",
+		XX: "= S10`9 D12`11 D20`19",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "S4 S7 S9 S18 D11 D19  @1.40 D18",
+	},
 },
 
 
@@ -5047,11 +5842,13 @@ var readableTracklist = {
 	arcadeID: "1313",
 	pumpoutID: 222,
 
-	Phoenix: "= S9`8 D5`4 -Dp3",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "S3 S6 S8 S17 D4 D17 Dp3  @1.01 S18",
+	charts: {
+		Phoenix: "= S9`8 D5`4 -Dp3",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "S3 S6 S8 S17 D4 D17 Dp3  @1.01 S18",
+	},
 },
 
 
@@ -5062,13 +5859,15 @@ var readableTracklist = {
 	arcadeID: "1314",
 	pumpoutID: 223,
 
-	Phoenix: "= S13`11 D14`11",
-		// TODO.Phoenix: D14`11
-		// D11.XX - https://www.youtube.com/watch?v=dPI4E7H5eKU
-	XX: "= S11`10 S19`20",
-	Prime2: "=",
-	Prime: "= CoOp(x2)`Dp??(x2)  @1.12 S16.ucs",
-	Fiesta2: "S4 S7 S10 S20 D11 D20 Dp??(x2)  @1.60 D23",
+	charts: {
+		Phoenix: "= S13`11 D14`11",
+			// TODO.Phoenix: D14`11
+			// D11.XX - https://www.youtube.com/watch?v=dPI4E7H5eKU
+		XX: "= S11`10 S19`20",
+		Prime2: "=",
+		Prime: "= CoOp(x2)`Dp??(x2)  @1.12 S16.ucs",
+		Fiesta2: "S4 S7 S10 S20 D11 D20 Dp??(x2)  @1.60 D23",
+	},
 },
 
 
@@ -5078,8 +5877,10 @@ var readableTracklist = {
 	arcadeID: "1315",
 	pumpoutID: 224,
 
-	Prime: "=",
-	Fiesta2: "S2 S4 S6 S15 D8 D17 Sp3 Dp4",
+	charts: {
+		Prime: "=",
+		Fiesta2: "S2 S4 S6 S15 D8 D17 Sp3 Dp4",
+	},
 },
 
 
@@ -5089,8 +5890,10 @@ var readableTracklist = {
 	arcadeID: "1316",
 	pumpoutID: 225,
 
-	Prime: "=",
-	Fiesta2: "S1 S3 S5 S14  D4 D13  Sp2 Dp3",
+	charts: {
+		Prime: "=",
+		Fiesta2: "S1 S3 S5 S14  D4 D13  Sp2 Dp3",
+	},
 },
 
 
@@ -5100,8 +5903,10 @@ var readableTracklist = {
 	arcadeID: "1317",
 	pumpoutID: 226,
 
-	Prime: "= -D16",
-	Fiesta2: "S2 S4 S7 S15 D5 D15 Sp2 Dp4  @1.50 D16",
+	charts: {
+		Prime: "= -D16",
+		Fiesta2: "S2 S4 S7 S15 D5 D15 Sp2 Dp4  @1.50 D16",
+	},
 },
 
 
@@ -5111,8 +5916,10 @@ var readableTracklist = {
 	arcadeID: "1318",
 	pumpoutID: 227,
 
-	Prime: "=",
-	Fiesta2: "S2 S4 S6 S15 D5 D13 Sp3 Dp4",
+	charts: {
+		Prime: "=",
+		Fiesta2: "S2 S4 S6 S15 D5 D13 Sp3 Dp4",
+	},
 },
 
 
@@ -5122,8 +5929,10 @@ var readableTracklist = {
 	arcadeID: "1319",
 	pumpoutID: 228,
 
-	Prime: "= -S17",
-	Fiesta2: "S2 S4 S6 S15 D5 D16 Sp3 Dp5  @1.50 S17",
+	charts: {
+		Prime: "= -S17",
+		Fiesta2: "S2 S4 S6 S15 D5 D16 Sp3 Dp5  @1.50 S17",
+	},
 },
 
 
@@ -5133,8 +5942,10 @@ var readableTracklist = {
 	arcadeID: "1320",
 	pumpoutID: 229,
 
-	Prime: "= -S18 -D17",
-	Fiesta2: "S4 S7 S9 S14 D5 D13 Sp2 Dp4  @1.01 S16  @1.50 S18 D17",
+	charts: {
+		Prime: "= -S18 -D17",
+		Fiesta2: "S4 S7 S9 S14 D5 D13 Sp2 Dp4  @1.01 S16  @1.50 S18 D17",
+	},
 },
 
 
@@ -5144,8 +5955,10 @@ var readableTracklist = {
 	arcadeID: "1321",
 	pumpoutID: 230,
 
-	Prime: "=",
-	Fiesta2: "S3 S5 S8 S14 D5 D17 Sp1 Dp5",
+	charts: {
+		Prime: "=",
+		Fiesta2: "S3 S5 S8 S14 D5 D17 Sp1 Dp5",
+	},
 },
 
 
@@ -5155,8 +5968,10 @@ var readableTracklist = {
 	arcadeID: "1322",
 	pumpoutID: 231,
 
-	Prime: "=",
-	Fiesta2: "S2 S4 S6 S15 D5 D15 Sp2 Dp5",
+	charts: {
+		Prime: "=",
+		Fiesta2: "S2 S4 S6 S15 D5 D15 Sp2 Dp5",
+	},
 },
 
 
@@ -5166,8 +5981,10 @@ var readableTracklist = {
 	arcadeID: "1323",
 	pumpoutID: 232,
 
-	Prime: "= -D18",
-	Fiesta2: "S1 S3 S5 S15 D4 D16 Sp3 Dp6  @1.50 D18",
+	charts: {
+		Prime: "= -D18",
+		Fiesta2: "S1 S3 S5 S15 D4 D16 Sp3 Dp6  @1.50 D18",
+	},
 },
 
 
@@ -5178,7 +5995,9 @@ var readableTracklist = {
 	arcadeID: "1324",
 	pumpoutID: 356,
 
-	Fiesta2: "S3 S5 S8 S15 D5 D15 Sp3 Dp4",
+	charts: {
+		Fiesta2: "S3 S5 S8 S15 D5 D15 Sp3 Dp4",
+	},
 },
 
 
@@ -5188,8 +6007,10 @@ var readableTracklist = {
 	arcadeID: "1325",
 	pumpoutID: 233,
 
-	Prime: "=",
-	Fiesta2: "S2 S4 S7 S15  D5 D15  Sp3 Dp5",
+	charts: {
+		Prime: "=",
+		Fiesta2: "S2 S4 S7 S15  D5 D15  Sp3 Dp5",
+	},
 },
 
 
@@ -5199,8 +6020,10 @@ var readableTracklist = {
 	arcadeID: "1326",
 	pumpoutID: 234,
 
-	Prime: "=",
-	Fiesta2: "@1.10 S4 S6 S8 S17 D5 D17",
+	charts: {
+		Prime: "=",
+		Fiesta2: "@1.10 S4 S6 S8 S17 D5 D17",
+	},
 },
 
 
@@ -5210,8 +6033,10 @@ var readableTracklist = {
 	arcadeID: "1327",
 	pumpoutID: 235,
 
-	Prime: "= CoOp(x2)`Dp??(x2)",
-	Fiesta2: "S4 S6 S8 S16 D5 D15 Sp2 Dp4 Dp??(x2)",
+	charts: {
+		Prime: "= CoOp(x2)`Dp??(x2)",
+		Fiesta2: "S4 S6 S8 S16 D5 D15 Sp2 Dp4 Dp??(x2)",
+	},
 },
 
 
@@ -5221,8 +6046,10 @@ var readableTracklist = {
 	arcadeID: "1328",
 	pumpoutID: 236,
 
-	Prime: "= -D18",
-	Fiesta2: "S4 S7 S9 S15 D5 D16 Sp3 Dp6  @1.50 D18",
+	charts: {
+		Prime: "= -D18",
+		Fiesta2: "S4 S7 S9 S15 D5 D16 Sp3 Dp6  @1.50 D18",
+	},
 },
 
 
@@ -5233,8 +6060,10 @@ var readableTracklist = {
 	arcadeID: "1329",
 	pumpoutID: 316,
 
-	Prime: "=",
-	Fiesta2: "S4 S7 S9 S15 D10 D16",
+	charts: {
+		Prime: "=",
+		Fiesta2: "S4 S7 S9 S15 D10 D16",
+	},
 },
 
 
@@ -5245,8 +6074,10 @@ var readableTracklist = {
 	arcadeID: "1330",
 	pumpoutID: 315,
 
-	Prime: "=",
-	Fiesta2: "S2 S4 S7 S14 D5 D16",
+	charts: {
+		Prime: "=",
+		Fiesta2: "S2 S4 S7 S14 D5 D16",
+	},
 },
 
 
@@ -5257,8 +6088,10 @@ var readableTracklist = {
 	arcadeID: "1331",
 	pumpoutID: 317,
 
-	Prime: "= -D19",
-	Fiesta2: "S2 S5 S8 S14 D5 D16  @1.50 D19",
+	charts: {
+		Prime: "= -D19",
+		Fiesta2: "S2 S5 S8 S14 D5 D16  @1.50 D19",
+	},
 },
 
 
@@ -5268,8 +6101,10 @@ var readableTracklist = {
 	arcadeID: "1332",
 	pumpoutID: 237,
 
-	Prime: "=",
-	Fiesta2: "S3 S6 S8 S13 D7 D14",
+	charts: {
+		Prime: "=",
+		Fiesta2: "S3 S6 S8 S13 D7 D14",
+	},
 },
 
 
@@ -5279,8 +6114,10 @@ var readableTracklist = {
 	arcadeID: "1333",
 	pumpoutID: 238,
 
-	Prime: "=",
-	Fiesta2: "S4 S7 S9 S16 D12 D18",
+	charts: {
+		Prime: "=",
+		Fiesta2: "S4 S7 S9 S16 D12 D18",
+	},
 },
 
 
@@ -5290,9 +6127,11 @@ var readableTracklist = {
 	arcadeID: "1334",
 	pumpoutID: 239,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "S3 S5 S8 S13 D4  @1.01 D14",
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "S3 S5 S8 S13 D4  @1.01 D14",
+	},
 },
 
 
@@ -5302,9 +6141,11 @@ var readableTracklist = {
 	arcadeID: "1335",
 	pumpoutID: 240,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "S1 S4 S6 S15 D4  @1.01 D15",
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "S1 S4 S6 S15 D4  @1.01 D15",
+	},
 },
 
 
@@ -5314,9 +6155,11 @@ var readableTracklist = {
 	arcadeID: "1336",
 	pumpoutID: 241,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "S1 S3 S5 S8 D4 D9",
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "S1 S3 S5 S8 D4 D9",
+	},
 },
 
 
@@ -5326,9 +6169,11 @@ var readableTracklist = {
 	arcadeID: "1337",
 	pumpoutID: 242,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "S1 S3 S6 S8 S10 D4 D9  @1.60 S13",
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "S1 S3 S6 S8 S10 D4 D9  @1.60 S13",
+	},
 },
 
 
@@ -5339,11 +6184,13 @@ var readableTracklist = {
 	arcadeID: "1338",
 	pumpoutID: 243,
 
-	Phoenix: "= S5`4 D12`10",
-	XX: "= S20`21 D19`20",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "@1.40 S4 S7 S10 S18 S21 D10 D20",
+	charts: {
+		Phoenix: "= S5`4 D12`10",
+		XX: "= S20`21 D19`20",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "@1.40 S4 S7 S10 S18 S21 D10 D20",
+	},
 },
 
 
@@ -5353,11 +6200,13 @@ var readableTracklist = {
 	arcadeID: "1339",
 	pumpoutID: 244,
 
-	Phoenix: "=",
-	XX: "= D23`24  @2.00 CoOp(x2)",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "@1.40 S8 S13 S17 S21 D14 D18 D24",
+	charts: {
+		Phoenix: "=",
+		XX: "= D23`24  @2.00 CoOp(x2)",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "@1.40 S8 S13 S17 S21 D14 D18 D24",
+	},
 },
 
 
@@ -5367,11 +6216,13 @@ var readableTracklist = {
 	arcadeID: "1340",
 	pumpoutID: 245,
 
-	Phoenix: "= D10`9",
-	XX: "= D17`18",
-	Prime2: "=",
-	Prime: "= CoOp(x2)`Dp??(x2)",
-	Fiesta2: "@1.60 S4 S6 S9 S14 S17 D9 D18 Dp??(x2)",
+	charts: {
+		Phoenix: "= D10`9",
+		XX: "= D17`18",
+		Prime2: "=",
+		Prime: "= CoOp(x2)`Dp??(x2)",
+		Fiesta2: "@1.60 S4 S6 S9 S14 S17 D9 D18 Dp??(x2)",
+	},
 },
 
 
@@ -5381,11 +6232,13 @@ var readableTracklist = {
 	arcadeID: "1341",
 	pumpoutID: 246,
 
-	Phoenix: "= -CoOp(x5)",
-	XX: "= D7`5 D10`12  @2.01 CoOp(x5)",
-	Prime2: "=",
-	Prime: "=  @1.06 S8",
-	Fiesta2: "@1.60 S1 S3 S5 S13 D5 D12",
+	charts: {
+		Phoenix: "= -CoOp(x5)",
+		XX: "= D7`5 D10`12  @2.01 CoOp(x5)",
+		Prime2: "=",
+		Prime: "=  @1.06 S8",
+		Fiesta2: "@1.60 S1 S3 S5 S13 D5 D12",
+	},
 },
 
 
@@ -5395,11 +6248,13 @@ var readableTracklist = {
 	arcadeID: "1390",
 	pumpoutID: 247,
 
-	Phoenix: "= D15`13 D20`19",
-	XX: "= S13`12 D24`23  @2.03  CoOp(x4)",
-	Prime2: "=  @2.05 D22",
-	Prime: "=",
-	Fiesta2: "@1.50 S12 S16 S21 D13 D19 D23",
+	charts: {
+		Phoenix: "= D15`13 D20`19",
+		XX: "= S13`12 D24`23  @2.03  CoOp(x4)",
+		Prime2: "=  @2.05 D22",
+		Prime: "=",
+		Fiesta2: "@1.50 S12 S16 S21 D13 D19 D23",
+	},
 },
 
 
@@ -5409,8 +6264,10 @@ var readableTracklist = {
 	arcadeID: "13A0",
 	pumpoutID: 248,
 
-	Prime: "=",
-	Fiesta2: "S17 D17",
+	charts: {
+		Prime: "=",
+		Fiesta2: "S17 D17",
+	},
 },
 
 
@@ -5420,8 +6277,10 @@ var readableTracklist = {
 	arcadeID: "13A1",
 	pumpoutID: 249,
 
-	Prime: "=",
-	Fiesta2: "S16 D18",
+	charts: {
+		Prime: "=",
+		Fiesta2: "S16 D18",
+	},
 },
 
 
@@ -5434,11 +6293,13 @@ var readableTracklist = {
 	arcadeID: "13A2",
 	pumpoutID: 250,
 
-	Phoenix: "= S19`20",
-	XX: "= D19`20",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "S20 D20",
+	charts: {
+		Phoenix: "= S19`20",
+		XX: "= D19`20",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "S20 D20",
+	},
 },
 
 
@@ -5449,11 +6310,13 @@ var readableTracklist = {
 	arcadeID: "13A3",
 	pumpoutID: 251,
 
-	Phoenix: "=",
-	XX: "= S18`19 D23`24",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "S19 D24",
+	charts: {
+		Phoenix: "=",
+		XX: "= S18`19 D23`24",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "S19 D24",
+	},
 },
 
 
@@ -5463,8 +6326,10 @@ var readableTracklist = {
 	arcadeID: "13C0",
 	pumpoutID: 252,
 
-	Prime: "=",
-	Fiesta2: "S15 D17",
+	charts: {
+		Prime: "=",
+		Fiesta2: "S15 D17",
+	},
 },
 
 
@@ -5474,8 +6339,10 @@ var readableTracklist = {
 	arcadeID: "13C1",
 	pumpoutID: 253,
 
-	Prime: "=",
-	Fiesta2: "S18 D14",
+	charts: {
+		Prime: "=",
+		Fiesta2: "S18 D14",
+	},
 },
 
 
@@ -5485,8 +6352,10 @@ var readableTracklist = {
 	arcadeID: "13C2",
 	pumpoutID: 254,
 
-	Prime: "=",
-	Fiesta2: "S17 D16",
+	charts: {
+		Prime: "=",
+		Fiesta2: "S17 D16",
+	},
 },
 
 
@@ -5496,8 +6365,10 @@ var readableTracklist = {
 	arcadeID: "13C3",
 	pumpoutID: 255,
 
-	Prime: "=",
-	Fiesta2: "S17 D15",
+	charts: {
+		Prime: "=",
+		Fiesta2: "S17 D15",
+	},
 },
 
 
@@ -5507,8 +6378,10 @@ var readableTracklist = {
 	arcadeID: "13C4",
 	pumpoutID: 256,
 
-	Prime: "=",
-	Fiesta2: "@1.60 S15 D16",
+	charts: {
+		Prime: "=",
+		Fiesta2: "@1.60 S15 D16",
+	},
 },
 
 
@@ -5518,8 +6391,10 @@ var readableTracklist = {
 	arcadeID: "13C5",
 	pumpoutID: 257,
 
-	Prime: "=",
-	Fiesta2: "@1.60 S16 D16",
+	charts: {
+		Prime: "=",
+		Fiesta2: "@1.60 S16 D16",
+	},
 },
 
 
@@ -5536,11 +6411,13 @@ var readableTracklist = {
 	arcadeID: "13E0",
 	pumpoutID: 258,
 
-	Phoenix: "=",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "S18 D16",
+	charts: {
+		Phoenix: "=",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "S18 D16",
+	},
 },
 
 
@@ -5551,11 +6428,13 @@ var readableTracklist = {
 	arcadeID: "13E1",
 	pumpoutID: 259,
 
-	Phoenix: "=",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "S17 D18",
+	charts: {
+		Phoenix: "=",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "S17 D18",
+	},
 },
 
 
@@ -5567,11 +6446,13 @@ var readableTracklist = {
 	arcadeID: "13E2",
 	pumpoutID: 260,
 
-	Phoenix: "=",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "S21 D21",
+	charts: {
+		Phoenix: "=",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "S21 D21",
+	},
 },
 
 
@@ -5582,11 +6463,13 @@ var readableTracklist = {
 	arcadeID: "13E3",
 	pumpoutID: 261,
 
-	Phoenix: "=",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "S18 D21",
+	charts: {
+		Phoenix: "=",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "S18 D21",
+	},
 },
 
 
@@ -5597,11 +6480,13 @@ var readableTracklist = {
 	arcadeID: "13E4",
 	pumpoutID: 262,
 
-	Phoenix: "=",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "S18 D16",
+	charts: {
+		Phoenix: "=",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "S18 D16",
+	},
 },
 
 
@@ -5612,11 +6497,13 @@ var readableTracklist = {
 	arcadeID: "13E5",
 	pumpoutID: 263,
 
-	Phoenix: "=",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "S17 D17",
+	charts: {
+		Phoenix: "=",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "S17 D17",
+	},
 },
 
 
@@ -5630,11 +6517,13 @@ var readableTracklist = {
 	arcadeID: "1201",
 	pumpoutID: 264,
 
-	Phoenix: "=",
-	XX: "= S15`16 D14`13 D17`18 D22`23  @1.03 S21.lock",
-	Prime2: "=  @1.10 D23",
-	Prime: "=",
-	Fiesta2: "S3 S5 S9  @1.50 D13   @1.60 S16 D18",
+	charts: {
+		Phoenix: "=",
+		XX: "= S15`16 D14`13 D17`18 D22`23  @1.03 S21.lock",
+		Prime2: "=  @1.10 D23",
+		Prime: "=",
+		Fiesta2: "S3 S5 S9  @1.50 D13   @1.60 S16 D18",
+	},
 },
 
 
@@ -5644,9 +6533,11 @@ var readableTracklist = {
 	arcadeID: "1202",
 	pumpoutID: 265,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "@1.30 S3 S6 S9 S16 D9 D17",
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "@1.30 S3 S6 S9 S16 D9 D17",
+	},
 },
 
 
@@ -5660,9 +6551,11 @@ var readableTracklist = {
 	arcadeID: "1206",
 	pumpoutID: 266,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "@1.10 S3 S6 S11 S16 D12 D18",
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "@1.10 S3 S6 S11 S16 D12 D18",
+	},
 },
 
 
@@ -5675,9 +6568,11 @@ var readableTracklist = {
 	arcadeID: "1208",
 	pumpoutID: 267,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "S3 S5 S9  @1.50 S15 S18 D10 D16 D18",
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "S3 S5 S9  @1.50 S15 S18 D10 D16 D18",
+	},
 },
 
 
@@ -5687,11 +6582,13 @@ var readableTracklist = {
 	arcadeID: "1209",
 	pumpoutID: 268,
 
-	Phoenix: "= S14`13 D14`13",
-	XX: "=",
-	Prime2: "=",
-	Prime: "= CoOp(x2)`Dp??(x2)",
-	Fiesta2: "S1 S3 S5  @1.50 S13 D13 Dp??(x2)",
+	charts: {
+		Phoenix: "= S14`13 D14`13",
+		XX: "=",
+		Prime2: "=",
+		Prime: "= CoOp(x2)`Dp??(x2)",
+		Fiesta2: "S1 S3 S5  @1.50 S13 D13 Dp??(x2)",
+	},
 },
 
 
@@ -5702,8 +6599,10 @@ var readableTracklist = {
 	arcadeID: "1210",
 	pumpoutID: 547,
 
-	Phoenix: "=",
-	XX: "S1 S3 S5 S14 D6 D15 CoOp(x2)",
+	charts: {
+		Phoenix: "=",
+		XX: "S1 S3 S5 S14 D6 D15 CoOp(x2)",
+	},
 },
 
 
@@ -5713,14 +6612,16 @@ var readableTracklist = {
 	arcadeID: "1212",
 	pumpoutID: 269,
 
-	Phoenix: "= S12`11 S22`21",
-	XX: "= D15`16 D22`23  @2.07 S18",
-		//??? D22.updated
-		// D22-XX - https://www.youtube.com/watch?v=gPUJICScJeI
-		// D23-P2 vs D22-XX - https://www.youtube.com/watch?v=mbsveAMw7sk
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "S4 S7 S11  @1.50 S21 D16  @1.60 D23",
+	charts: {
+		Phoenix: "= S12`11 S22`21",
+		XX: "= D15`16 D22`23  @2.07 S18",
+			//??? D22.updated
+			// D22-XX - https://www.youtube.com/watch?v=gPUJICScJeI
+			// D23-P2 vs D22-XX - https://www.youtube.com/watch?v=mbsveAMw7sk
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "S4 S7 S11  @1.50 S21 D16  @1.60 D23",
+	},
 },
 
 
@@ -5734,9 +6635,11 @@ var readableTracklist = {
 	arcadeID: "1218",
 	pumpoutID: 270,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "S2 S5 S9  @1.50 S16 D4 D18",
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "S2 S5 S9  @1.50 S16 D4 D18",
+	},
 },
 
 
@@ -5746,11 +6649,13 @@ var readableTracklist = {
 	arcadeID: "1219",
 	pumpoutID: 271,
 
-	Phoenix: "= S4`3 S5`6",
-	XX: "= S17`16 D17`15",
-	Prime2: "=",
-	Prime: "= CoOp(x4)`Dp??(x4)",
-	Fiesta2: "S3 S6 S9  @1.50 S16 D10 D15 Dp??(x4)",
+	charts: {
+		Phoenix: "= S4`3 S5`6",
+		XX: "= S17`16 D17`15",
+		Prime2: "=",
+		Prime: "= CoOp(x4)`Dp??(x4)",
+		Fiesta2: "S3 S6 S9  @1.50 S16 D10 D15 Dp??(x4)",
+	},
 },
 
 
@@ -5760,9 +6665,11 @@ var readableTracklist = {
 	arcadeID: "1221",
 	pumpoutID: 272,
 
-	Prime2: "=",
-	Prime: "= CoOp(x2)`Dp??(x2)",
-	Fiesta2: "S3 S7 S11  @1.40 D18  @1.50 S17 Dp??(x2)",
+	charts: {
+		Prime2: "=",
+		Prime: "= CoOp(x2)`Dp??(x2)",
+		Fiesta2: "S3 S7 S11  @1.40 D18  @1.50 S17 Dp??(x2)",
+	},
 },
 
 
@@ -5772,9 +6679,11 @@ var readableTracklist = {
 	arcadeID: "1222",
 	pumpoutID: 273,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "@1.20 S3 S7 S9 S17 D10 D16",
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "@1.20 S3 S7 S9 S17 D10 D16",
+	},
 },
 
 
@@ -5784,9 +6693,11 @@ var readableTracklist = {
 	arcadeID: "1225",
 	pumpoutID: 274,
 
-	Prime2: "=",
-	Prime: "= -S16",
-	Fiesta2: "@1.50 S2 S6 S11 S16 S17 D12 D18",
+	charts: {
+		Prime2: "=",
+		Prime: "= -S16",
+		Fiesta2: "@1.50 S2 S6 S11 S16 S17 D12 D18",
+	},
 },
 
 
@@ -5796,9 +6707,11 @@ var readableTracklist = {
 	arcadeID: "1226",
 	pumpoutID: 275,
 
-	Prime2: "=",
-	Prime: "= CoOp(x2)`Dp??(x2)",
-	Fiesta2: "S2 S7 S9  @1.50 D11 Dp??(x2)  @1.60 S17",
+	charts: {
+		Prime2: "=",
+		Prime: "= CoOp(x2)`Dp??(x2)",
+		Fiesta2: "S2 S7 S9  @1.50 D11 Dp??(x2)  @1.60 S17",
+	},
 },
 
 
@@ -5812,11 +6725,13 @@ var readableTracklist = {
 	arcadeID: "1228",
 	pumpoutID: 208,
 
-	Phoenix: "=",
-	XX: "= -S22 D23`24",
-	Prime2: "=",
-	Prime: "= -S23  @1.19 S22",
-	Fiesta2: "@1.30 S19 S21 S23 D22 D24",
+	charts: {
+		Phoenix: "=",
+		XX: "= -S22 D23`24",
+		Prime2: "=",
+		Prime: "= -S23  @1.19 S22",
+		Fiesta2: "@1.30 S19 S21 S23 D22 D24",
+	},
 },
 
 
@@ -5829,9 +6744,11 @@ var readableTracklist = {
 	arcadeID: "1230",
 	pumpoutID: 276,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "S2 S5 S9  @1.50 S15 D5 D17",
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "S2 S5 S9  @1.50 S15 D5 D17",
+	},
 },
 
 
@@ -5846,12 +6763,14 @@ var readableTracklist = {
 	arcadeID: "1235",
 	pumpoutID: 277,
 
-	Phoenix: "= S10`9 D13`9",
-		// TODO.Phoenix: D13`9
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "S4 S7 S9 S17 D9 D18",
+	charts: {
+		Phoenix: "= S10`9 D13`9",
+			// TODO.Phoenix: D13`9
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "S4 S7 S9 S17 D9 D18",
+	},
 },
 
 
@@ -5861,11 +6780,13 @@ var readableTracklist = {
 	arcadeID: "1236",
 	pumpoutID: 278,
 
-	Phoenix: "= S10`9",
-	XX: "= D17`18",
-	Prime2: "=",
-	Prime: "= CoOp(x2)`Dp??(x2)",
-	Fiesta2: "@1.20 S3 S5 S9 S14 D12 D18 Dp??(x2)",
+	charts: {
+		Phoenix: "= S10`9",
+		XX: "= D17`18",
+		Prime2: "=",
+		Prime: "= CoOp(x2)`Dp??(x2)",
+		Fiesta2: "@1.20 S3 S5 S9 S14 D12 D18 Dp??(x2)",
+	},
 },
 
 
@@ -5876,9 +6797,11 @@ var readableTracklist = {
 	arcadeID: "1237",
 	pumpoutID: 279,
 
-	Prime2: "=",
-	Prime: "= CoOp(x2)`Dp??(x2)",
-	Fiesta2: "S2 S5 S8  @1.50 D10 Dp??(x2)  @1.60 S15 S17 D16",
+	charts: {
+		Prime2: "=",
+		Prime: "= CoOp(x2)`Dp??(x2)",
+		Fiesta2: "S2 S5 S8  @1.50 D10 Dp??(x2)  @1.60 S15 S17 D16",
+	},
 },
 
 
@@ -5889,11 +6812,13 @@ var readableTracklist = {
 	arcadeID: "1240",
 	pumpoutID: 209,
 
-	Phoenix: "=",
-	XX: "= D17`16",
-	Prime2: "=",
-	Prime: "= -D24",
-	Fiesta2: "@1.50 S18 S23 D16 D19 D24",
+	charts: {
+		Phoenix: "=",
+		XX: "= D17`16",
+		Prime2: "=",
+		Prime: "= -D24",
+		Fiesta2: "@1.50 S18 S23 D16 D19 D24",
+	},
 },
 
 
@@ -5903,11 +6828,13 @@ var readableTracklist = {
 	arcadeID: "1241",
 	pumpoutID: 280,
 
-	Phoenix: "= S13`12 D22`21",
-	XX: "= D15`14",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "S3 S5 S12  @1.50 S15 S19 D14 D21  @1.60 D23",
+	charts: {
+		Phoenix: "= S13`12 D22`21",
+		XX: "= D15`14",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "S3 S5 S12  @1.50 S15 S19 D14 D21  @1.60 D23",
+	},
 },
 
 
@@ -5921,12 +6848,14 @@ var readableTracklist = {
 	arcadeID: "1101",
 	pumpoutID: 172,
 
-	Phoenix: "= S13`12",
-	XX: "= S17`18 S21`22 D25`24",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "S18 S22 S23 D20 D24  @1.30 D26  @1.51 S4 S7 S12",
+	charts: {
+		Phoenix: "= S13`12",
+		XX: "= S17`18 S21`22 D25`24",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "S18 S22 S23 D20 D24  @1.30 D26  @1.51 S4 S7 S12",
+	},
 },
 
 
@@ -5936,12 +6865,14 @@ var readableTracklist = {
 	arcadeID: "1102",
 	pumpoutID: 173,
 
-	Phoenix: "= S12`11 D13`12 D19`18 -Sp2 -Dp3",
-	XX: "= D18`19 D22`21",
-	Prime2: "=",
-	Prime: "=  @1.05 D21",
-	Fiesta2: "=",
-	FiestaEX: "S11 S18 D19  @1.20 D12 Sp2 Dp3",
+	charts: {
+		Phoenix: "= S12`11 D13`12 D19`18 -Sp2 -Dp3",
+		XX: "= D18`19 D22`21",
+		Prime2: "=",
+		Prime: "=  @1.05 D21",
+		Fiesta2: "=",
+		FiestaEX: "S11 S18 D19  @1.20 D12 Sp2 Dp3",
+	},
 },
 
 
@@ -5951,12 +6882,14 @@ var readableTracklist = {
 	arcadeID: "1103",
 	pumpoutID: 174,
 
-	Phoenix: "= S4`3 S9`8 D6`4 -Sp4 -Dp2",
-	XX: "= S15`14",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "S3 S6 S14 S17 D4 D15 Sp4 Dp2  @1.51 S8",
+	charts: {
+		Phoenix: "= S4`3 S9`8 D6`4 -Sp4 -Dp2",
+		XX: "= S15`14",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "S3 S6 S14 S17 D4 D15 Sp4 Dp2  @1.51 S8",
+	},
 },
 
 
@@ -5966,12 +6899,14 @@ var readableTracklist = {
 	arcadeID: "1104",
 	pumpoutID: 175,
 
-	Phoenix: "=",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "= CoOp(x3)`Dp??(x3)",
-	FiestaEX: "S4 S7 S11 S17 D13 D19 D22 Dp??(x3)  @1.20 S20  @1.30 D23",
+	charts: {
+		Phoenix: "=",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "= CoOp(x3)`Dp??(x3)",
+		FiestaEX: "S4 S7 S11 S17 D13 D19 D22 Dp??(x3)  @1.20 S20  @1.30 D23",
+	},
 },
 
 
@@ -5981,12 +6916,14 @@ var readableTracklist = {
 	arcadeID: "1105",
 	pumpoutID: 176,
 
-	Phoenix: "= S4`3 S9`8 D8`7 -Sp2 -Dp3",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "S3 S6 S13 D7 D17 Sp2 Dp3  @1.10 S16  @1.51 S8",
+	charts: {
+		Phoenix: "= S4`3 S9`8 D8`7 -Sp2 -Dp3",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "S3 S6 S13 D7 D17 Sp2 Dp3  @1.10 S16  @1.51 S8",
+	},
 },
 
 
@@ -5996,12 +6933,14 @@ var readableTracklist = {
 	arcadeID: "1106",
 	pumpoutID: 177,
 
-	Phoenix: "= -Sp2 -Dp3",
-	XX: "= D19`20",
-	Prime2: "=",
-	Prime: "=  @1.11 CoOp(x2)",
-	Fiesta2: "=",
-	FiestaEX: "S4 S7 S10 S18 D12 D20 Sp2  @1.20 S16 S20 D18 Dp3",
+	charts: {
+		Phoenix: "= -Sp2 -Dp3",
+		XX: "= D19`20",
+		Prime2: "=",
+		Prime: "=  @1.11 CoOp(x2)",
+		Fiesta2: "=",
+		FiestaEX: "S4 S7 S10 S18 D12 D20 Sp2  @1.20 S16 S20 D18 Dp3",
+	},
 },
 
 
@@ -6011,13 +6950,15 @@ var readableTracklist = {
 	arcadeID: "1107",
 	pumpoutID: 178,
 
-	Phoenix: "= S9`8 D7`4 -Sp2 -S20 -Dp3",
-		// TODO.Phoenix: D7`4
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "= CoOp(x3)`Dp??(x3)",
-	FiestaEX: "S5 S8 S17 S20 D4 D18 Sp2 Dp3  @1.30 Dp??(x3)  @1.51 S1",
+	charts: {
+		Phoenix: "= S9`8 D7`4 -Sp2 -S20 -Dp3",
+			// TODO.Phoenix: D7`4
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "= CoOp(x3)`Dp??(x3)",
+		FiestaEX: "S5 S8 S17 S20 D4 D18 Sp2 Dp3  @1.30 Dp??(x3)  @1.51 S1",
+	},
 },
 
 
@@ -6027,8 +6968,10 @@ var readableTracklist = {
 	arcadeID: "1108",
 	pumpoutID: 362,
 
-	Fiesta2: "=",
-	FiestaEX: "S1 S4 S8 S13 D3 D14 Sp3 Dp4",
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "S1 S4 S8 S13 D3 D14 Sp3 Dp4",
+	},
 },
 
 
@@ -6038,8 +6981,10 @@ var readableTracklist = {
 	arcadeID: "1109",
 	pumpoutID: 358,
 
-	Fiesta2: "=  @1.50 D26",
-	FiestaEX: "S3 S7 S10 D5 D13 Sp4 Dp5  @1.30 S16 D15",
+	charts: {
+		Fiesta2: "=  @1.50 D26",
+		FiestaEX: "S3 S7 S10 D5 D13 Sp4 Dp5  @1.30 S16 D15",
+	},
 },
 
 
@@ -6049,8 +6994,10 @@ var readableTracklist = {
 	arcadeID: "1110",
 	pumpoutID: 363,
 
-	Fiesta2: "=",
-	FiestaEX: "S4 S7 S11 D5 D13 D21 Sp3 Dp4  @1.10 S15  @1.30 D16",
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "S4 S7 S11 D5 D13 D21 Sp3 Dp4  @1.10 S15  @1.30 D16",
+	},
 },
 
 
@@ -6059,8 +7006,11 @@ var readableTracklist = {
 	title: "Ring Ding Dong", artist: "SHINee", channel: KPOP, bpm: "125",
 	arcadeID: "1111",
 	pumpoutID: 856,
-	Fiesta2: "=",
-	FiestaEX: "S3 S5 S8 S15 D5 D17 Sp3 Dp4",
+
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "S3 S5 S8 S15 D5 D17 Sp3 Dp4",
+	},
 },
 
 
@@ -6070,8 +7020,10 @@ var readableTracklist = {
 	arcadeID: "1112",
 	pumpoutID: 366,
 
-	Fiesta2: "=",
-	FiestaEX: "S3 S5 S14 D4 D15 Dp5  @1.10 S16  @1.51 S8",
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "S3 S5 S14 D4 D15 Dp5  @1.10 S16  @1.51 S8",
+	},
 },
 
 
@@ -6081,8 +7033,10 @@ var readableTracklist = {
 	arcadeID: "1113",
 	pumpoutID: 361,
 
-	Fiesta2: "=",
-	FiestaEX: "S2 S5 S13 S17 D6 D14 Sp3 Dp5  @1.51 S8",
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "S2 S5 S13 S17 D6 D14 Sp3 Dp5  @1.51 S8",
+	},
 },
 
 
@@ -6092,9 +7046,11 @@ var readableTracklist = {
 	arcadeID: "1114",
 	pumpoutID: 193,
 
-	Prime: "= CoOp(x2)`Dp??(x2)",
-	Fiesta2: "=",
-	FiestaEX: "S4 S6 S8 S14 D9 D15 Dp4 Dp??(x2)  @1.10 S16  @1.20 Sp1  @1.30 D23",
+	charts: {
+		Prime: "= CoOp(x2)`Dp??(x2)",
+		Fiesta2: "=",
+		FiestaEX: "S4 S6 S8 S14 D9 D15 Dp4 Dp??(x2)  @1.10 S16  @1.20 Sp1  @1.30 D23",
+	},
 },
 
 
@@ -6104,8 +7060,10 @@ var readableTracklist = {
 	arcadeID: "1115",
 	pumpoutID: 357,
 
-	Fiesta2: "=",
-	FiestaEX: "S4 S8 S13 S15 D9 D14 Sp4 Dp5",
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "S4 S8 S13 S15 D9 D14 Sp4 Dp5",
+	},
 },
 
 
@@ -6115,8 +7073,10 @@ var readableTracklist = {
 	arcadeID: "1116",
 	pumpoutID: 365,
 
-	Fiesta2: "=",
-	FiestaEX: "S1 S4 S7 S13 D5 D14 Sp2 Dp3",
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "S1 S4 S7 S13 D5 D14 Sp2 Dp3",
+	},
 },
 
 
@@ -6126,9 +7086,11 @@ var readableTracklist = {
 	arcadeID: "1117",
 	pumpoutID: 194,
 
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "S4 S7 S16 D5 D16 Dp4  @1.51 S9",
+	charts: {
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "S4 S7 S16 D5 D16 Dp4  @1.51 S9",
+	},
 },
 
 
@@ -6138,9 +7100,11 @@ var readableTracklist = {
 	arcadeID: "1118",
 	pumpoutID: 195,
 
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "S6 S8 S18 D10 D18  @1.20 Dp3  @1.51 S4",
+	charts: {
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "S6 S8 S18 D10 D18  @1.20 Dp3  @1.51 S4",
+	},
 },
 
 
@@ -6150,10 +7114,12 @@ var readableTracklist = {
 	arcadeID: "1119",
 	pumpoutID: 196,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "S17 S23 D17 D26  @1.20 S24  @1.51 S4 S6 S11",
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "S17 S23 D17 D26  @1.20 S24  @1.51 S4 S6 S11",
+	},
 },
 
 
@@ -6163,12 +7129,14 @@ var readableTracklist = {
 	arcadeID: "1120",
 	pumpoutID: 200,
 
-	Phoenix: "=",
-	XX: "= S21`20",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "S17 S20 D20  @1.30 D23  @1.51 S3 S7 S12",
+	charts: {
+		Phoenix: "=",
+		XX: "= S21`20",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "S17 S20 D20  @1.30 D23  @1.51 S3 S7 S12",
+	},
 },
 
 
@@ -6178,12 +7146,14 @@ var readableTracklist = {
 	arcadeID: "1121",
 	pumpoutID: 201,
 
-	Phoenix: "= S11`9 D14`12 -Sp2",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=  @1.60 S22",
-	FiestaEX: "S9 S18 D12 D20  @1.20 Sp2  @1.30 D23  @1.51 S4 S7",
+	charts: {
+		Phoenix: "= S11`9 D14`12 -Sp2",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=  @1.60 S22",
+		FiestaEX: "S9 S18 D12 D20  @1.20 Sp2  @1.30 D23  @1.51 S4 S7",
+	},
 },
 
 
@@ -6193,12 +7163,14 @@ var readableTracklist = {
 	arcadeID: "1122",
 	pumpoutID: 202,
 
-	Phoenix: "= S5`4 D11`9 -Sp1 -Dp6",
-	XX: "= S10`11",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=  @1.60 S22",
-	FiestaEX: "S4 S7 S11 S17 D9 D18 Dp6  @1.20 Sp1  @1.30 D23",
+	charts: {
+		Phoenix: "= S5`4 D11`9 -Sp1 -Dp6",
+		XX: "= S10`11",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=  @1.60 S22",
+		FiestaEX: "S4 S7 S11 S17 D9 D18 Dp6  @1.20 Sp1  @1.30 D23",
+	},
 },
 
 
@@ -6208,12 +7180,14 @@ var readableTracklist = {
 	arcadeID: "1123",
 	pumpoutID: 179,
 
-	Phoenix: "= S9`8 D11`9 -Sp2",
-	XX: "=  @2.06 D21.lock",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "S4 S6 S8 S17 D9 D17  @1.20 Sp2  @1.40 S18",
+	charts: {
+		Phoenix: "= S9`8 D11`9 -Sp2",
+		XX: "=  @2.06 D21.lock",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "S4 S6 S8 S17 D9 D17  @1.20 Sp2  @1.40 S18",
+	},
 },
 
 
@@ -6223,12 +7197,14 @@ var readableTracklist = {
 	arcadeID: "1124",
 	pumpoutID: 180,
 
-	Phoenix: "= D15`14",
-	XX: "= S19`20 D14`13 D20`21",
-	Prime2: "=",
-	Prime: "= CoOp(x2)`Dp??(x2)",
-	Fiesta2: "=",
-	FiestaEX: "S6 S9 S12 S20 D13 D21 Dp??(x2)  @1.51 S4",
+	charts: {
+		Phoenix: "= D15`14",
+		XX: "= S19`20 D14`13 D20`21",
+		Prime2: "=",
+		Prime: "= CoOp(x2)`Dp??(x2)",
+		Fiesta2: "=",
+		FiestaEX: "S6 S9 S12 S20 D13 D21 Dp??(x2)  @1.51 S4",
+	},
 },
 
 
@@ -6238,12 +7214,14 @@ var readableTracklist = {
 	arcadeID: "1125",
 	pumpoutID: 203,
 
-	Phoenix: "= D13`11 D21`20 -Sp2 -Dp6",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "@1.30 S3 S6 S9 S17 D11 D20 Sp2 Dp6",
+	charts: {
+		Phoenix: "= D13`11 D21`20 -Sp2 -Dp6",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "@1.30 S3 S6 S9 S17 D11 D20 Sp2 Dp6",
+	},
 },
 
 
@@ -6253,12 +7231,14 @@ var readableTracklist = {
 	arcadeID: "1126",
 	pumpoutID: 181,
 
-	Phoenix: "= S10`9 D11`10 -Sp2 -Dp3",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "@1.30 S9 S17 S20 D10 D18 Sp2 Dp3  @1.51 S3 S5",
+	charts: {
+		Phoenix: "= S10`9 D11`10 -Sp2 -Dp3",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "@1.30 S9 S17 S20 D10 D18 Sp2 Dp3  @1.51 S3 S5",
+	},
 },
 
 
@@ -6268,12 +7248,14 @@ var readableTracklist = {
 	arcadeID: "1127",
 	pumpoutID: 204,
 
-	Phoenix: "= S3`4 -Sp1 -Dp3",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "@1.30 S9 S16 D12 D17 Sp1 Dp3  @1.51 S4 S6",
+	charts: {
+		Phoenix: "= S3`4 -Sp1 -Dp3",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "@1.30 S9 S16 D12 D17 Sp1 Dp3  @1.51 S4 S6",
+	},
 },
 
 
@@ -6283,12 +7265,14 @@ var readableTracklist = {
 	arcadeID: "1128",
 	pumpoutID: 205,
 
-	Phoenix: "= D15`14 -Sp2 -Dp3",
-	XX: "= D14`13 D23`24",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "@1.20 S10 S18 S20 D13 D19  @1.30 D24 Sp2 Dp3  @1.51 S4 S7",
+	charts: {
+		Phoenix: "= D15`14 -Sp2 -Dp3",
+		XX: "= D14`13 D23`24",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "@1.20 S10 S18 S20 D13 D19  @1.30 D24 Sp2 Dp3  @1.51 S4 S7",
+	},
 },
 
 
@@ -6298,8 +7282,10 @@ var readableTracklist = {
 	arcadeID: "1129",
 	pumpoutID: 360,
 
-	Fiesta2: "=",
-	FiestaEX: "S14 D15",
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "S14 D15",
+	},
 },
 
 
@@ -6308,8 +7294,11 @@ var readableTracklist = {
 	title: "K-POP Boy Group RMX", artist: "BEAST & Big Bang & SHINee", channel: KPOP, bpm: "125 - 135", duration: REMIX,
 	arcadeID: "1130",
 	pumpoutID: 871,
-	Fiesta2: "=",
-	FiestaEX: "@1.30 D17",
+
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "@1.30 D17",
+	},
 },
 
 
@@ -6319,12 +7308,14 @@ var readableTracklist = {
 	arcadeID: "1131",
 	pumpoutID: 182,
 
-	Phoenix: "= S16`15 D26`27",
-	XX: "= ",
-	Prime2: "=",
-	Prime: "=  @1.19 D20",
-	Fiesta2: "=",
-	FiestaEX: "@1.30 S15 S20 S25 D27",
+	charts: {
+		Phoenix: "= S16`15 D26`27",
+		XX: "= ",
+		Prime2: "=",
+		Prime: "=  @1.19 D20",
+		Fiesta2: "=",
+		FiestaEX: "@1.30 S15 S20 S25 D27",
+	},
 },
 
 
@@ -6334,12 +7325,15 @@ var readableTracklist = {
 	arcadeID: "1132",
 	pumpoutID: 183,
 
-	Phoenix: "= S21`19 D19`18",
-	XX: "=",
-	Prime2: "=",
-	Prime: "= -S??",
-	Fiesta2: "=",
-	FiestaEX: "@1.20 S?? S19 D18",  // S?? – анлок, S19 без стопов
+	charts: {
+		Phoenix: "= S21`19 D19`18",
+		XX: "=",
+		Prime2: "=",
+		Prime: "= -S??",
+		Fiesta2: "=",
+		FiestaEX: "@1.20 S?? S19 D18",
+		  // S?? – unlock, S19 without stops
+	},
 },
 
 
@@ -6353,12 +7347,14 @@ var readableTracklist = {
 	arcadeID: "1135",
 	pumpoutID: 184,
 
-	Phoenix: "= S19`18 D16`15",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "@1.40 S18 D15 D18",
+	charts: {
+		Phoenix: "= S19`18 D16`15",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "@1.40 S18 D15 D18",
+	},
 },
 
 
@@ -6368,8 +7364,10 @@ var readableTracklist = {
 	arcadeID: "1136",
 	pumpoutID: 364,
 
-	Fiesta2: "=",
-	FiestaEX: "S12",
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "S12",
+	},
 },
 
 
@@ -6378,8 +7376,11 @@ var readableTracklist = {
 	title: "Ring Ding Dong  [FULL]", artist: "SHINee", channel: KPOP, bpm: "125",
 	arcadeID: "1137",
 	pumpoutID: 857,
-	Fiesta2: "=",
-	FiestaEX: "@1.30 S16 D17",
+
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "@1.30 S16 D17",
+	},
 },
 
 
@@ -6389,8 +7390,10 @@ var readableTracklist = {
 	arcadeID: "1138",
 	pumpoutID: 367,
 
-	Fiesta2: "=",
-	FiestaEX: "S17 D15",
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "S17 D15",
+	},
 },
 
 
@@ -6399,8 +7402,11 @@ var readableTracklist = {
 	title: "Energy  [FULL]", artist: "Mighty Mouth", channel: KPOP, bpm: "155",
 	arcadeID: "1139",
 	pumpoutID: 855,
-	Fiesta2: "=",
-	FiestaEX: "S15",
+
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "S15",
+	},
 },
 
 
@@ -6410,9 +7416,11 @@ var readableTracklist = {
 	arcadeID: "1140",
 	pumpoutID: 197,
 
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "S19 D19",
+	charts: {
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "S19 D19",
+	},
 },
 
 
@@ -6422,9 +7430,11 @@ var readableTracklist = {
 	arcadeID: "1141",
 	pumpoutID: 198,
 
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "S17 D18",
+	charts: {
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "S17 D18",
+	},
 },
 
 
@@ -6434,10 +7444,12 @@ var readableTracklist = {
 	arcadeID: "1142",
 	pumpoutID: 199,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "S22  @1.51 D22",
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "S22  @1.51 D22",
+	},
 },
 
 
@@ -6447,8 +7459,10 @@ var readableTracklist = {
 	arcadeID: "1143",
 	pumpoutID: 359,
 
-	Fiesta2: "=",
-	FiestaEX: "@1.30 S9 S14 D16",
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "@1.30 S9 S14 D16",
+	},
 },
 
 
@@ -6462,12 +7476,14 @@ var readableTracklist = {
 	arcadeID: "1145",
 	pumpoutID: 185,
 
-	Phoenix: "= D15`14",
-	XX: "= D14`15",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "D15  @1.30 S14",
+	charts: {
+		Phoenix: "= D15`14",
+		XX: "= D14`15",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "D15  @1.30 S14",
+	},
 },
 
 
@@ -6478,12 +7494,14 @@ var readableTracklist = {
 	arcadeID: "1146",
 	pumpoutID: 186,
 
-	Phoenix: "=",
-	XX: "= D22`20",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "S21  @1.40 D20",
+	charts: {
+		Phoenix: "=",
+		XX: "= D22`20",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "S21  @1.40 D20",
+	},
 },
 
 
@@ -6494,12 +7512,14 @@ var readableTracklist = {
 	arcadeID: "1147",
 	pumpoutID: 187,
 
-	Phoenix: "=",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "S18 D19",
+	charts: {
+		Phoenix: "=",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "S18 D19",
+	},
 },
 
 
@@ -6510,12 +7530,14 @@ var readableTracklist = {
 	arcadeID: "1148",
 	pumpoutID: 188,
 
-	Phoenix: "=",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "S18 D17",
+	charts: {
+		Phoenix: "=",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "S18 D17",
+	},
 },
 
 
@@ -6526,12 +7548,14 @@ var readableTracklist = {
 	arcadeID: "1149",
 	pumpoutID: 206,
 
-	Phoenix: "=",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "S16 D18",
+	charts: {
+		Phoenix: "=",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "S16 D18",
+	},
 },
 
 
@@ -6545,8 +7569,10 @@ var readableTracklist = {
 	arcadeID: "1151",
 	pumpoutID: 696,
 
-	Phoenix: "= S20`19 D21`20",
-	XX: "@2.06 S3 S6 S9 S14 S17 D8 D15 S19.lock D20.lock",
+	charts: {
+		Phoenix: "= S20`19 D21`20",
+		XX: "@2.06 S3 S6 S9 S14 S17 D8 D15 S19.lock D20.lock",
+	},
 },
 
 
@@ -6560,12 +7586,14 @@ var readableTracklist = {
 	arcadeID: "1152",
 	pumpoutID: 189,
 
-	Phoenix: "= -Sp2",
-	XX: "= D17`16",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "@1.30 S3 S6 S10 S17 D16 D22 Sp2",
+	charts: {
+		Phoenix: "= -Sp2",
+		XX: "= D17`16",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "@1.30 S3 S6 S10 S17 D16 D22 Sp2",
+	},
 },
 
 
@@ -6575,12 +7603,14 @@ var readableTracklist = {
 	arcadeID: "1153",
 	pumpoutID: 190,
 
-	Phoenix: "= S15`13 D17`16 D23`22",
-	XX: "=  @2.01 D22.lock",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "@1.51 S13 S20 D16",
+	charts: {
+		Phoenix: "= S15`13 D17`16 D23`22",
+		XX: "=  @2.01 D22.lock",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "@1.51 S13 S20 D16",
+	},
 },
 
 
@@ -6594,12 +7624,14 @@ var readableTracklist = {
 	arcadeID: "1154",
 	pumpoutID: 191,
 
-	Phoenix: "=",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "@1.51 S9 S17 D10 D17",
+	charts: {
+		Phoenix: "=",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "@1.51 S9 S17 D10 D17",
+	},
 },
 
 
@@ -6615,10 +7647,12 @@ var readableTracklist = {
 	arcadeID: "1159",
 	pumpoutID: 207,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "@1.10 S5 S9 S15 D11 D17 Sp3 Dp4  @1.51 S2",
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "@1.10 S5 S9 S15 D11 D17 Sp3 Dp4  @1.51 S2",
+	},
 },
 
 
@@ -6628,13 +7662,15 @@ var readableTracklist = {
 	arcadeID: "1160",
 	pumpoutID: 192,
 
-	Phoenix: "= D13`10",
-		// TODO.Phoenix: D13`10
-	XX: "=  @1.04 S18 D19  @2.05 S4 S6",
-	Prime2: "=",
-	Prime: "= -D18",
-	Fiesta2: "=  @1.50 D18",
-	FiestaEX: "@1.51 S8 S16 D10 D15",
+	charts: {
+		Phoenix: "= D13`10",
+			// TODO.Phoenix: D13`10
+		XX: "=  @1.04 S18 D19  @2.05 S4 S6",
+		Prime2: "=",
+		Prime: "= -D18",
+		Fiesta2: "=  @1.50 D18",
+		FiestaEX: "@1.51 S8 S16 D10 D15",
+	},
 },
 
 
@@ -6649,13 +7685,15 @@ var readableTracklist = {
 	arcadeID: "1001",
 	pumpoutID: 129,
 
-	Phoenix: "= S9`7 S14`12 D16`15 D20`19 -Sp2 -Dp3",
-	XX: "= S2`3 D15`14 D19`18",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.30 Sp2 Dp3  @1.51 S3",
-	Fiesta: "S7 S12 S20 D14 D18 D22",
+	charts: {
+		Phoenix: "= S9`7 S14`12 D16`15 D20`19 -Sp2 -Dp3",
+		XX: "= S2`3 D15`14 D19`18",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.30 Sp2 Dp3  @1.51 S3",
+		Fiesta: "S7 S12 S20 D14 D18 D22",
+	},
 },
 
 
@@ -6665,15 +7703,17 @@ var readableTracklist = {
 	arcadeID: "1002",
 	pumpoutID: 130,
 
-	Phoenix: "= D13`8 D18`17",
-		// TODO.Phoenix: D13`8
-		// XX D8 - https://www.youtube.com/watch?v=_z3tzYjZwTs
-	XX: "= S17`15",
-	Prime2: "=",
-	Prime: "= CoOp(x2)`Dp??(x2)",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.20 S15 S21",
-	Fiesta: "S4 S6 S8 S10 S18 S23 D8 D17 D24 Dp??(x2)",
+	charts: {
+		Phoenix: "= D13`8 D18`17",
+			// TODO.Phoenix: D13`8
+			// XX D8 - https://www.youtube.com/watch?v=_z3tzYjZwTs
+		XX: "= S17`15",
+		Prime2: "=",
+		Prime: "= CoOp(x2)`Dp??(x2)",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.20 S15 S21",
+		Fiesta: "S4 S6 S8 S10 S18 S23 D8 D17 D24 Dp??(x2)",
+	},
 },
 
 
@@ -6683,12 +7723,14 @@ var readableTracklist = {
 	arcadeID: "1003",
 	pumpoutID: 369,
 
-	Phoenix: "= S12`10 -Sp3 -Dp3",
-	XX: "=",
-	Prime2: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 D15",
-	Fiesta: "S4 S6 S10 Sp3 Dp3",
+	charts: {
+		Phoenix: "= S12`10 -Sp3 -Dp3",
+		XX: "=",
+		Prime2: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 D15",
+		Fiesta: "S4 S6 S10 Sp3 Dp3",
+	},
 },
 
 
@@ -6698,9 +7740,11 @@ var readableTracklist = {
 	arcadeID: "1004",
 	pumpoutID: 377,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S2 S4 S15 D5 D16 Sp2 Dp3",
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S2 S4 S15 D5 D16 Sp2 Dp3",
+	},
 },
 
 
@@ -6710,9 +7754,11 @@ var readableTracklist = {
 	arcadeID: "1005",
 	pumpoutID: 370,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S5 S13 S15  D6 D14  Sp3 Dp5",
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S5 S13 S15  D6 D14  Sp3 Dp5",
+	},
 },
 
 
@@ -6722,9 +7768,11 @@ var readableTracklist = {
 	arcadeID: "1006",
 	pumpoutID: 374,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S2 S3 S14 D14 Sp5",
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S2 S3 S14 D14 Sp5",
+	},
 },
 
 
@@ -6734,9 +7782,11 @@ var readableTracklist = {
 	arcadeID: "1007",
 	pumpoutID: 371,
 
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S5",
-	Fiesta: "S2 S4 S15 D6 D16 Sp2 Dp4",
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S5",
+		Fiesta: "S2 S4 S15 D6 D16 Sp2 Dp4",
+	},
 },
 
 
@@ -6746,14 +7796,16 @@ var readableTracklist = {
 	arcadeID: "1008",
 	pumpoutID: 131,
 
-	Phoenix: "= -Sp2 -Dp4",
-	XX: "= S20`18",
-		// S18->20 - https://www.youtube.com/watch?v=JYmZxSbKafo (XX), https://www.youtube.com/watch?v=V9sikisXVts
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S2 S7 S8",
-	Fiesta: "S18 S19 D18 Sp2 Dp4  @1.05 S17",
+	charts: {
+		Phoenix: "= -Sp2 -Dp4",
+		XX: "= S20`18",
+			// S18->20 - https://www.youtube.com/watch?v=JYmZxSbKafo (XX), https://www.youtube.com/watch?v=V9sikisXVts
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S2 S7 S8",
+		Fiesta: "S18 S19 D18 Sp2 Dp4  @1.05 S17",
+	},
 },
 
 
@@ -6763,9 +7815,11 @@ var readableTracklist = {
 	arcadeID: "1009",
 	pumpoutID: 389,
 
-	Fiesta2: "=",
-	FiestaEX: "= S15",
-	Fiesta: "S1 S3 S5 S12 D6 D16 Sp3 Dp6",
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "= S15",
+		Fiesta: "S1 S3 S5 S12 D6 D16 Sp3 Dp6",
+	},
 },
 
 
@@ -6775,9 +7829,11 @@ var readableTracklist = {
 	arcadeID: "1010",
 	pumpoutID: 388,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S1 S4 S6 S13 D6 D16 Sp2 Dp3",
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S1 S4 S6 S13 D6 D16 Sp2 Dp3",
+	},
 },
 
 
@@ -6787,9 +7843,11 @@ var readableTracklist = {
 	arcadeID: "1011",
 	pumpoutID: 379,
 
-	Fiesta2: "=",
-	FiestaEX: "= S14",  // pumbi unlock
-	Fiesta: "S3 S5 S11 D6 D15",
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "= S14",  // pumbi unlock
+		Fiesta: "S3 S5 S11 D6 D15",
+	},
 },
 
 
@@ -6799,10 +7857,12 @@ var readableTracklist = {
 	arcadeID: "1012",
 	pumpoutID: 373,
 
-	Fiesta2: "=",
-	FiestaEX: "= -S4",
-	Fiesta: "S3 S4 S6 S11 S14 D7 D14 Sp4 Dp5",
-	//??? Fiesta S4 gone after 1.10
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "= -S4",
+		Fiesta: "S3 S4 S6 S11 S14 D7 D14 Sp4 Dp5",
+			//??? Fiesta S4 gone after 1.10
+	},
 },
 
 
@@ -6812,13 +7872,15 @@ var readableTracklist = {
 	arcadeID: "1013",
 	pumpoutID: 132,
 
-	Phoenix: "= S13`12 D15`14 -Dp5",
-	XX: "= S12`11 S17`16 S19`18 S20`19 D14`13",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "= S19  @1.10 Dp5",  //??? S19 - pumbi unlock
-	Fiesta: "S11 S18 D13 D20  @1.05 S16  @1.10 S4 S7",
+	charts: {
+		Phoenix: "= S13`12 D15`14 -Dp5",
+		XX: "= S12`11 S17`16 S19`18 S20`19 D14`13",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "= S19  @1.10 Dp5",  //??? S19 - pumbi unlock
+		Fiesta: "S11 S18 D13 D20  @1.05 S16  @1.10 S4 S7",
+	},
 },
 
 
@@ -6827,9 +7889,12 @@ var readableTracklist = {
 	title: "Twist King", artist: "Turbo", channel: KPOP, bpm: "156",
 	arcadeID: "1014",
 	pumpoutID: 853,
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S10",
-	Fiesta: "S4 S6 S14 D7 D15 Sp4",
+
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S10",
+		Fiesta: "S4 S6 S14 D7 D15 Sp4",
+	},
 },
 
 
@@ -6843,9 +7908,11 @@ var readableTracklist = {
 	arcadeID: "1015",
 	pumpoutID: 375,
 
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 D14",
-	Fiesta: "S3 S5 S8 S15 D4 D11 Sp3 Dp4  @1.05 S16",
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 D14",
+		Fiesta: "S3 S5 S8 S15 D4 D11 Sp3 Dp4  @1.05 S16",
+	},
 },
 
 
@@ -6855,9 +7922,11 @@ var readableTracklist = {
 	arcadeID: "1016",
 	pumpoutID: 390,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S2 S4 S9 S16 D3 D12 Sp2 Dp5  @1.05 D17",
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S2 S4 S9 S16 D3 D12 Sp2 Dp5  @1.05 D17",
+	},
 },
 
 
@@ -6867,13 +7936,15 @@ var readableTracklist = {
 	arcadeID: "1017",
 	pumpoutID: 133,
 
-	Phoenix: "= -Dp3",
-	XX: "= D21`22",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=  @1.60 S19",
-	FiestaEX: "=  @1.10 Dp3",
-	Fiesta: "S21 S23 D25  @1.05 D22",
+	charts: {
+		Phoenix: "= -Dp3",
+		XX: "= D21`22",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=  @1.60 S19",
+		FiestaEX: "=  @1.10 Dp3",
+		Fiesta: "S21 S23 D25  @1.05 D22",
+	},
 },
 
 
@@ -6883,11 +7954,13 @@ var readableTracklist = {
 	arcadeID: "1018",
 	pumpoutID: 168,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S3",
-	Fiesta: "S5 S8 S16 D9 D18",
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S3",
+		Fiesta: "S5 S8 S16 D9 D18",
+	},
 },
 
 
@@ -6897,9 +7970,11 @@ var readableTracklist = {
 	arcadeID: "1019",
 	pumpoutID: 384,
 
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S8",
-	Fiesta: "S2 S5 S15 Sp2  @1.05 D20",
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S8",
+		Fiesta: "S2 S5 S15 Sp2  @1.05 D20",
+	},
 },
 
 
@@ -6909,9 +7984,11 @@ var readableTracklist = {
 	arcadeID: "1020",
 	pumpoutID: 368,
 
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S8",
-	Fiesta: "S2 S5 S12 D6 D17 Sp3 Dp4  @1.05 S16",
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S8",
+		Fiesta: "S2 S5 S12 D6 D17 Sp3 Dp4  @1.05 S16",
+	},
 },
 
 
@@ -6922,12 +7999,14 @@ var readableTracklist = {
 	arcadeID: "1021",
 	pumpoutID: 372,
 
-	Phoenix: "= D16`15 -Sp4 -Dp5",
-	XX: "=",
-	Prime2: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S13 D15 Sp4 Dp5",
+	charts: {
+		Phoenix: "= D16`15 -Sp4 -Dp5",
+		XX: "=",
+		Prime2: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S13 D15 Sp4 Dp5",
+	},
 },
 
 
@@ -6937,13 +8016,15 @@ var readableTracklist = {
 	arcadeID: "1022",
 	pumpoutID: 134,
 
-	Phoenix: "= S11`10 D13`12 -Sp1",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.30 Sp1",
-	Fiesta: "S4 S7 S10 S18 D12 D15 D18",
+	charts: {
+		Phoenix: "= S11`10 D13`12 -Sp1",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.30 Sp1",
+		Fiesta: "S4 S7 S10 S18 D12 D15 D18",
+	},
 },
 
 
@@ -6953,13 +8034,15 @@ var readableTracklist = {
 	arcadeID: "1023",
 	pumpoutID: 135,
 
-	Phoenix: "= S13`11 D15`12 D22`21 -Dp2",
-	XX: "= S11`9 S19`18 D12`10 D21`20",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.20 Dp2",
-	Fiesta: "S9 S18 S22 D10 D20",
+	charts: {
+		Phoenix: "= S13`11 D15`12 D22`21 -Dp2",
+		XX: "= S11`9 S19`18 D12`10 D21`20",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.20 Dp2",
+		Fiesta: "S9 S18 S22 D10 D20",
+	},
 },
 
 
@@ -6969,13 +8052,15 @@ var readableTracklist = {
 	arcadeID: "1024",
 	pumpoutID: 136,
 
-	Phoenix: "= S17`16 S18`17 -Sp5 -Dp4",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S3 S5 S16 D17 Sp5 Dp4  @1.10 S17",
+	charts: {
+		Phoenix: "= S17`16 S18`17 -Sp5 -Dp4",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S3 S5 S16 D17 Sp5 Dp4  @1.10 S17",
+	},
 },
 
 
@@ -6985,14 +8070,16 @@ var readableTracklist = {
 	arcadeID: "1025",
 	pumpoutID: 137,
 
-	Phoenix: "= S10`9 D12`9",
+	charts: {
+		Phoenix: "= S10`9 D12`9",
 		// TODO.Phoenix: D12`9
-	XX: "= D20`21",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S4 S6 S9 S19 D9 D21  @1.10 S17",
+		XX: "= D20`21",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S4 S6 S9 S19 D9 D21  @1.10 S17",
+	},
 },
 
 
@@ -7003,13 +8090,15 @@ var readableTracklist = {
 	arcadeID: "1026",
 	pumpoutID: 138,
 
-	Phoenix: "= D13`11 -Dp1",
-	XX: "= S10`8 D11`10",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "= Dp1",
-	Fiesta: "S3 S6 S8 S17 D10 D18",
+	charts: {
+		Phoenix: "= D13`11 -Dp1",
+		XX: "= S10`8 D11`10",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "= Dp1",
+		Fiesta: "S3 S6 S8 S17 D10 D18",
+	},
 },
 
 
@@ -7019,13 +8108,15 @@ var readableTracklist = {
 	arcadeID: "1027",
 	pumpoutID: 139,
 
-	Phoenix: "= S11`10 D12`11 -Dp3",
-	XX: "= D19`20",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.10 Dp3",
-	Fiesta: "S4 S7 S10 S17 D11 D20",
+	charts: {
+		Phoenix: "= S11`10 D12`11 -Dp3",
+		XX: "= D19`20",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.10 Dp3",
+		Fiesta: "S4 S7 S10 S17 D11 D20",
+	},
 },
 
 
@@ -7035,13 +8126,15 @@ var readableTracklist = {
 	arcadeID: "1028",
 	pumpoutID: 140,
 
-	Phoenix: "= S16`15 -Dp3",
-	XX: "= S22`21 D17`15 D21`20",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "= D20 Dp3  @1.51 S3 S7",
-	Fiesta: "S12 S19 S21 D15 D19  @1.05 S15",
+	charts: {
+		Phoenix: "= S16`15 -Dp3",
+		XX: "= S22`21 D17`15 D21`20",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "= D20 Dp3  @1.51 S3 S7",
+		Fiesta: "S12 S19 S21 D15 D19  @1.05 S15",
+	},
 },
 
 
@@ -7051,12 +8144,14 @@ var readableTracklist = {
 	arcadeID: "1029",
 	pumpoutID: 381,
 
-	Phoenix: "= D19`18 -Sp3 -Dp5",
-	XX: "= S19`18 D18`17  @1.02 D21.new",
-	Prime2: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S18 D17 Sp3 Dp5",
+	charts: {
+		Phoenix: "= D19`18 -Sp3 -Dp5",
+		XX: "= S19`18 D18`17  @1.02 D21.new",
+		Prime2: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S18 D17 Sp3 Dp5",
+	},
 },
 
 
@@ -7066,13 +8161,15 @@ var readableTracklist = {
 	arcadeID: "1030",
 	pumpoutID: 387,
 
-	Phoenix: "= S2`1 S6`5 S14`13 S16`15 D9`6 D18`17 -Dp5 -Sp4 -Dp6",
-		// TODO.Phoenix: D9`6
-	XX: "= S4`3",
-	Prime2: "=",
-	Fiesta2: "=",
-	FiestaEX: "= S19",
-	Fiesta: "S1 S3 S5 S13 S15 S17 D6 D17 Sp4 Dp5 Dp6",
+	charts: {
+		Phoenix: "= S2`1 S6`5 S14`13 S16`15 D9`6 D18`17 -Dp5 -Sp4 -Dp6",
+			// TODO.Phoenix: D9`6
+		XX: "= S4`3",
+		Prime2: "=",
+		Fiesta2: "=",
+		FiestaEX: "= S19",
+		Fiesta: "S1 S3 S5 S13 S15 S17 D6 D17 Sp4 Dp5 Dp6",
+	},
 },
 
 
@@ -7082,13 +8179,15 @@ var readableTracklist = {
 	arcadeID: "1031",
 	pumpoutID: 141,
 
-	Phoenix: "= S14`12 D15`14",
-	XX: "= D14`13",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "= S18",
-	Fiesta: "S12 D13 D19",
+	charts: {
+		Phoenix: "= S14`12 D15`14",
+		XX: "= D14`13",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "= S18",
+		Fiesta: "S12 D13 D19",
+	},
 },
 
 
@@ -7098,9 +8197,11 @@ var readableTracklist = {
 	arcadeID: "1032",
 	pumpoutID: 380,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S7 S13",
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S7 S13",
+	},
 },
 
 
@@ -7110,13 +8211,15 @@ var readableTracklist = {
 	arcadeID: "1033",
 	pumpoutID: 142,
 
-	Phoenix: "= S10`8",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "= S19",
-	Fiesta: "S8",
+	charts: {
+		Phoenix: "= S10`8",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "= S19",
+		Fiesta: "S8",
+	},
 },
 
 
@@ -7126,13 +8229,15 @@ var readableTracklist = {
 	arcadeID: "1034",
 	pumpoutID: 143,
 
-	Phoenix: "= S13`11",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S11 S18",
+	charts: {
+		Phoenix: "= S13`11",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S11 S18",
+	},
 },
 
 
@@ -7142,11 +8247,13 @@ var readableTracklist = {
 	arcadeID: "1035",
 	pumpoutID: 144,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S18 S21",
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S18 S21",
+	},
 },
 
 
@@ -7157,10 +8264,12 @@ var readableTracklist = {
 	arcadeID: "1036",
 	pumpoutID: 385,
 
-	Prime2: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S17",
+	charts: {
+		Prime2: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S17",
+	},
 },
 
 
@@ -7170,13 +8279,15 @@ var readableTracklist = {
 	arcadeID: "1037",
 	pumpoutID: 145,
 
-	Phoenix: "= S18`17",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S17",
+	charts: {
+		Phoenix: "= S18`17",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S17",
+	},
 },
 
 
@@ -7186,10 +8297,12 @@ var readableTracklist = {
 	arcadeID: "1038",
 	pumpoutID: 382,
 
-	Prime2: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S17 D17 Sp3 Dp4",
+	charts: {
+		Prime2: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S17 D17 Sp3 Dp4",
+	},
 },
 
 
@@ -7199,13 +8312,15 @@ var readableTracklist = {
 	arcadeID: "1039",
 	pumpoutID: 146,
 
-	Phoenix: "= D21`20",
-	XX: "= S21`20 D20`19",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "D19 S20",
+	charts: {
+		Phoenix: "= D21`20",
+		XX: "= S21`20 D20`19",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "D19 S20",
+	},
 },
 
 
@@ -7215,9 +8330,11 @@ var readableTracklist = {
 	arcadeID: "1040",
 	pumpoutID: 383,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S17 Dp4",
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S17 Dp4",
+	},
 },
 
 
@@ -7227,9 +8344,11 @@ var readableTracklist = {
 	arcadeID: "1041",
 	pumpoutID: 378,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp6 Dp5",
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp6 Dp5",
+	},
 },
 
 
@@ -7239,11 +8358,13 @@ var readableTracklist = {
 	arcadeID: "1042",
 	pumpoutID: 166,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S7 S16 D16",
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S7 S16 D16",
+	},
 },
 
 
@@ -7253,10 +8374,12 @@ var readableTracklist = {
 	arcadeID: "1043",
 	pumpoutID: 169,
 
-	Prime2: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S17 D18",
+	charts: {
+		Prime2: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S17 D18",
+	},
 },
 
 
@@ -7266,11 +8389,13 @@ var readableTracklist = {
 	arcadeID: "1044",
 	pumpoutID: 167,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "= S21",
-	Fiesta: "S15",
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "= S21",
+		Fiesta: "S15",
+	},
 },
 
 
@@ -7284,9 +8409,12 @@ var readableTracklist = {
 	{
 		"Fiesta2": { banner: "10__Fire__FULL" },
 	},
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S14",
+
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S14",
+	},
 },
 
 
@@ -7296,9 +8424,11 @@ var readableTracklist = {
 	arcadeID: "1046",
 	pumpoutID: 391,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S16",
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S16",
+	},
 },
 
 
@@ -7308,9 +8438,11 @@ var readableTracklist = {
 	arcadeID: "1047",
 	pumpoutID: 386,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S17 D17",
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S17 D17",
+	},
 },
 
 
@@ -7321,13 +8453,15 @@ var readableTracklist = {
 	arcadeID: "1048",
 	pumpoutID: 147,
 
-	Phoenix: "= D19`18",
-	XX: "= S17`16 D18`17",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S16 D17",
+	charts: {
+		Phoenix: "= D19`18",
+		XX: "= S17`16 D18`17",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S16 D17",
+	},
 },
 
 
@@ -7338,13 +8472,15 @@ var readableTracklist = {
 	arcadeID: "1049",
 	pumpoutID: 148,
 
-	Phoenix: "= D18`16",
-	XX: "= S18`17",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "= S17",
-	Fiesta: "D16",
+	charts: {
+		Phoenix: "= D18`16",
+		XX: "= S18`17",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "= S17",
+		Fiesta: "D16",
+	},
 },
 
 
@@ -7355,13 +8491,15 @@ var readableTracklist = {
 	arcadeID: "1050",
 	pumpoutID: 149,
 
-	Phoenix: "=",
-	XX: "= D20`19",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "= S20",
-	Fiesta: "D19",
+	charts: {
+		Phoenix: "=",
+		XX: "= D20`19",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "= S20",
+		Fiesta: "D19",
+	},
 },
 
 
@@ -7372,13 +8510,15 @@ var readableTracklist = {
 	arcadeID: "1051",
 	pumpoutID: 150,
 
-	Phoenix: "= D18`17",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "= S20",
-	Fiesta: "D17  @1.06 S13",
+	charts: {
+		Phoenix: "= D18`17",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "= S20",
+		Fiesta: "D17  @1.06 S13",
+	},
 },
 
 
@@ -7389,13 +8529,15 @@ var readableTracklist = {
 	arcadeID: "1052",
 	pumpoutID: 151,
 
-	Phoenix: "= S9`8 D23`22",
-	XX: "= D22`21",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S19 D21  @1.06 S8",
+	charts: {
+		Phoenix: "= S9`8 D23`22",
+		XX: "= D22`21",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S19 D21  @1.06 S8",
+	},
 },
 
 
@@ -7406,13 +8548,15 @@ var readableTracklist = {
 	arcadeID: "1053",
 	pumpoutID: 152,
 
-	Phoenix: "= S16`15 D16`15 D23`22 -Sp15",
-	XX: "= S15`14 D15`14 D22`21",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S14 Sp15  @1.06 D14 D21",
+	charts: {
+		Phoenix: "= S16`15 D16`15 D23`22 -Sp15",
+		XX: "= S15`14 D15`14 D22`21",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S14 Sp15  @1.06 D14 D21",
+	},
 },
 
 
@@ -7423,13 +8567,15 @@ var readableTracklist = {
 	arcadeID: "1054",
 	pumpoutID: 153,
 
-	Phoenix: "= D15`14",
-	XX: "= D14`13",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S20 D13",
+	charts: {
+		Phoenix: "= D15`14",
+		XX: "= D14`13",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S20 D13",
+	},
 },
 
 
@@ -7440,14 +8586,16 @@ var readableTracklist = {
 	arcadeID: "1055",
 	pumpoutID: 154,
 
-	Phoenix: "= S11`9 D13`10",
-		// TODO.Phoenix: D13`10
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "= D17",
-	Fiesta: "S6 S9 S16  @1.06 D10",
+	charts: {
+		Phoenix: "= S11`9 D13`10",
+			// TODO.Phoenix: D13`10
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "= D17",
+		Fiesta: "S6 S9 S16  @1.06 D10",
+	},
 },
 
 
@@ -7458,13 +8606,15 @@ var readableTracklist = {
 	arcadeID: "1056",
 	pumpoutID: 155,
 
-	Phoenix: "= D18`17",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "= S18",
-	Fiesta: "D17",
+	charts: {
+		Phoenix: "= D18`17",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "= S18",
+		Fiesta: "D17",
+	},
 },
 
 
@@ -7475,13 +8625,15 @@ var readableTracklist = {
 	arcadeID: "1057",
 	pumpoutID: 156,
 
-	Phoenix: "=",
-	XX: "= S15`16 S19`18",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "= D20",
-	Fiesta: "S18  @1.06 S16",
+	charts: {
+		Phoenix: "=",
+		XX: "= S15`16 S19`18",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "= D20",
+		Fiesta: "S18  @1.06 S16",
+	},
 },
 
 
@@ -7492,13 +8644,15 @@ var readableTracklist = {
 	arcadeID: "1058",
 	pumpoutID: 157,
 
-	Phoenix: "=",
-	XX: "= D17`16",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "= S20",
-	Fiesta: "D16  @1.06 S14",
+	charts: {
+		Phoenix: "=",
+		XX: "= D17`16",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "= S20",
+		Fiesta: "D16  @1.06 S14",
+	},
 },
 
 
@@ -7509,14 +8663,16 @@ var readableTracklist = {
 	arcadeID: "1059",
 	pumpoutID: 158,
 
-	Phoenix: "= S16`15",
-	XX: "= D18`19",
-	Prime2: "=",
-	Prime: "= -D??(x9)",
-	Fiesta2: "=",
-	FiestaEX: "= D??(x9)`nm",
-	Fiesta: "S15  @1.06 D19",
-	Exceed2: ["", "", "", "", "??(x9)"],
+	charts: {
+		Phoenix: "= S16`15",
+		XX: "= D18`19",
+		Prime2: "=",
+		Prime: "= -D??(x9)",
+		Fiesta2: "=",
+		FiestaEX: "= D??(x9)`nm",
+		Fiesta: "S15  @1.06 D19",
+		Exceed2: ["", "", "", "", "??(x9)"],
+	},
 },
 
 
@@ -7527,13 +8683,15 @@ var readableTracklist = {
 	arcadeID: "1060",
 	pumpoutID: 159,
 
-	Phoenix: "= D18`17",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S16 D17",
+	charts: {
+		Phoenix: "= D18`17",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S16 D17",
+	},
 },
 
 
@@ -7541,17 +8699,18 @@ var readableTracklist = {
 {
 	title: "K.O.A : Alice in Wonderworld  [SHORT]", artist: "BanYa Production", bpm: "156",
 	arcadeName: "K.O.A: Alice In Wonderworld - SHORT CUT",
-	arcadeNameMaxEditDistance: 1, // 'K.0O.A: Alice In Wonderworld - SHORT CUT'
 	arcadeID: "1061",
 	pumpoutID: 160,
 
-	Phoenix: "= S9`8",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "= D18",
-	Fiesta: "S8 S16",
+	charts: {
+		Phoenix: "= S9`8",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "= D18",
+		Fiesta: "S8 S16",
+	},
 },
 
 
@@ -7562,13 +8721,15 @@ var readableTracklist = {
 	arcadeID: "1062",
 	pumpoutID: 161,
 
-	Phoenix: "= S15`14 S22`23",
-	XX: "= S14`13",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S21 D19  @1.06 S13 S23",
+	charts: {
+		Phoenix: "= S15`14 S22`23",
+		XX: "= S14`13",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S21 D19  @1.06 S13 S23",
+	},
 },
 
 
@@ -7580,13 +8741,15 @@ var readableTracklist = {
 	arcadeID: "1063",
 	pumpoutID: 162,
 
-	Phoenix: "=",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "= D22",
-	Fiesta: "S16  @1.06 S8",
+	charts: {
+		Phoenix: "=",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "= D22",
+		Fiesta: "S16  @1.06 S8",
+	},
 },
 
 
@@ -7597,13 +8760,15 @@ var readableTracklist = {
 	arcadeID: "1064",
 	pumpoutID: 163,
 
-	Phoenix: "= S11`9 D20`19 D21`20",
-	XX: "= D19`18",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S15 D18  @1.06 S9 D20",
+	charts: {
+		Phoenix: "= S11`9 D20`19 D21`20",
+		XX: "= D19`18",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S15 D18  @1.06 S9 D20",
+	},
 },
 
 
@@ -7614,11 +8779,13 @@ var readableTracklist = {
 	arcadeID: "1065",
 	pumpoutID: 170,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S18 D16",
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S18 D16",
+	},
 },
 
 // 1066	Skill Up Zone: Get Up (And Go) 180	B.P.M
@@ -7657,13 +8824,15 @@ var readableTracklist = {
 	arcadeID: "1094",
 	pumpoutID: 164,
 
-	Phoenix: "= D11`9 D20`19",
-	XX: "= S17`16 D19`18",
-	Prime2: "=",
-	Prime: "= CoOp(x2)`Dp??(x2)",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "@1.10 S2 S7 S16 Dp??(x2) S4 D9 D18",
+	charts: {
+		Phoenix: "= D11`9 D20`19",
+		XX: "= S17`16 D19`18",
+		Prime2: "=",
+		Prime: "= CoOp(x2)`Dp??(x2)",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "@1.10 S2 S7 S16 Dp??(x2) S4 D9 D18",
+	},
 },
 
 
@@ -7673,13 +8842,15 @@ var readableTracklist = {
 	arcadeID: "1095",
 	pumpoutID: 165,
 
-	Phoenix: "= S15`14 D16`15",
-	XX: "= S14`13 S21`22 D15`14 D22`23",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "@1.10 S13 S19 S22 D14 D23",
+	charts: {
+		Phoenix: "= S15`14 D16`15",
+		XX: "= S14`13 S21`22 D15`14 D22`23",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "@1.10 S13 S19 S22 D14 D23",
+	},
 },
 
 
@@ -7689,11 +8860,13 @@ var readableTracklist = {
 	arcadeID: "1096",
 	pumpoutID: 171,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "@1.10 S2 S4 S6 S13 D5 D15",
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "@1.10 S2 S4 S6 S13 D5 D15",
+	},
 },
 
 
@@ -7707,14 +8880,16 @@ var readableTracklist = {
 	arcadeID: "F01",
 	pumpoutID: 78,
 
-	Phoenix: "= D11`10 D18`17 D19`18",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S3 S6 S9",
-	Fiesta: "S2`nl S7`hd S17`cz D10`fs D17`nm  S16`acz D18`anm",
-	NXA: ["2", "7", "17", "10", "18"], NXA_: ["", "", "17", "", "18"],
+	charts: {
+		Phoenix: "= D11`10 D18`17 D19`18",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S3 S6 S9",
+		Fiesta: "S2`nl S7`hd S17`cz D10`fs D17`nm  S16`acz D18`anm",
+		NXA: ["2", "7", "17", "10", "18"], NXA_: ["", "", "17", "", "18"],
+	},
 },
 
 
@@ -7724,14 +8899,16 @@ var readableTracklist = {
 	arcadeID: "F02",
 	pumpoutID: 79,
 
-	Phoenix: "= S13`12 D15`14",
-	XX: "= S12`10 D14`13",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S7",
-	Fiesta: "S3`nl S10`hd S20`cz D13`fs D22`nm  S21`acz",
-	NXA: ["3", "10", "20", "13", "23"], NXA_: ["", "8", "21", "10", ""],
+	charts: {
+		Phoenix: "= S13`12 D15`14",
+		XX: "= S12`10 D14`13",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S7",
+		Fiesta: "S3`nl S10`hd S20`cz D13`fs D22`nm  S21`acz",
+		NXA: ["3", "10", "20", "13", "23"], NXA_: ["", "8", "21", "10", ""],
+	},
 },
 
 
@@ -7741,14 +8918,16 @@ var readableTracklist = {
 	arcadeID: "F03",
 	pumpoutID: 80,
 
-	Phoenix: "= -Sp1 -D3",
-	XX: "=  @2.07 S12",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp1`nl S6`hd S17`cz D3`fs D16`nm",
-	NXA: ["1", "6", "17", "3", "16"],
+	charts: {
+		Phoenix: "= -Sp1 -D3",
+		XX: "=  @2.07 S12",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp1`nl S6`hd S17`cz D3`fs D16`nm",
+		NXA: ["1", "6", "17", "3", "16"],
+	},
 },
 
 
@@ -7758,10 +8937,12 @@ var readableTracklist = {
 	arcadeID: "F04",
 	pumpoutID: 409,
 
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S1",
-	Fiesta: "Sp2`nl S5`hd S10`cz Dp5`fs D13`nm  @1.10 S3",
-	NXA: ["2", "5", "10", "5", "13"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S1",
+		Fiesta: "Sp2`nl S5`hd S10`cz Dp5`fs D13`nm  @1.10 S3",
+		NXA: ["2", "5", "10", "5", "13"],
+	},
 },
 
 
@@ -7771,10 +8952,12 @@ var readableTracklist = {
 	arcadeID: "F05",
 	pumpoutID: 394,
 
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S1",
-	Fiesta: "Sp2`nl S6`hd S14`cz Dp4`fs D16`nm  @1.10 S3",
-	NXA: ["2", "6", "14", "4", "16"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S1",
+		Fiesta: "Sp2`nl S6`hd S14`cz Dp4`fs D16`nm  @1.10 S3",
+		NXA: ["2", "6", "14", "4", "16"],
+	},
 },
 
 
@@ -7784,10 +8967,12 @@ var readableTracklist = {
 	arcadeID: "F06",
 	pumpoutID: 419,
 
-	Fiesta2: "=",
-	FiestaEX: "=  @1.30 D14",
-	Fiesta: "Sp1`nl S4`hd S14`cz Dp5`fs D12`nm",
-	NXA: ["1", "4", "14", "5", "12"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=  @1.30 D14",
+		Fiesta: "Sp1`nl S4`hd S14`cz Dp5`fs D12`nm",
+		NXA: ["1", "4", "14", "5", "12"],
+	},
 },
 
 
@@ -7797,10 +8982,12 @@ var readableTracklist = {
 	arcadeID: "F07",
 	pumpoutID: 869,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp2`nl S5`hd S12`cz Dp6`fs D10`nm  S1.new S3.new",
-	NXA: ["2", "5", "12", "6", "10"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp2`nl S5`hd S12`cz Dp6`fs D10`nm  S1.new S3.new",
+		NXA: ["2", "5", "12", "6", "10"],
+	},
 },
 
 
@@ -7810,10 +8997,12 @@ var readableTracklist = {
 	arcadeID: "F08",
 	pumpoutID: 868,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S3`nl S6`hd S12`cz D3`fs D13`nm",
-	NXA: ["3", "6", "12", "3", "13"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S3`nl S6`hd S12`cz D3`fs D13`nm",
+		NXA: ["3", "6", "12", "3", "13"],
+	},
 },
 
 
@@ -7823,10 +9012,12 @@ var readableTracklist = {
 	arcadeID: "F09",
 	pumpoutID: 866,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp2`nl S5`hd S9`cz Dp3`fs D9`nm  S6`ahd S13`acz D15`anm",
-	NXA: ["2", "5", "9", "3", "9"], NXA_: ["", "6", "13", "", "15"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp2`nl S5`hd S9`cz Dp3`fs D9`nm  S6`ahd S13`acz D15`anm",
+		NXA: ["2", "5", "9", "3", "9"], NXA_: ["", "6", "13", "", "15"],
+	},
 },
 
 
@@ -7836,10 +9027,12 @@ var readableTracklist = {
 	arcadeID: "F10",
 	pumpoutID: 402,
 
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S2",
-	Fiesta: "Sp2`nl S5`hd S13`cz Dp5`fs D13`nm  @1.10 S4",
-	NXA: ["2", "5", "13", "5", "13"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S2",
+		Fiesta: "Sp2`nl S5`hd S13`cz Dp5`fs D13`nm  @1.10 S4",
+		NXA: ["2", "5", "13", "5", "13"],
+	},
 },
 
 
@@ -7849,10 +9042,12 @@ var readableTracklist = {
 	arcadeID: "F11",
 	pumpoutID: 422,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp2`nl S5`hd S17`cz Dp4`fs D14`nm",
-	NXA: ["2", "5", "17", "4", "14"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp2`nl S5`hd S17`cz Dp4`fs D14`nm",
+		NXA: ["2", "5", "17", "4", "14"],
+	},
 },
 
 
@@ -7862,10 +9057,12 @@ var readableTracklist = {
 	arcadeID: "F12",
 	pumpoutID: 397,
 
-	Fiesta2: "=",
-	FiestaEX: "=  @1.30 Dp3  @1.51 S2 S4 S8",
-	Fiesta: "Sp2`nl S5`hd S15`cz Dp6`fs D19`nm",
-	NXA: ["2", "5", "15", "6", "19"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=  @1.30 Dp3  @1.51 S2 S4 S8",
+		Fiesta: "Sp2`nl S5`hd S15`cz Dp6`fs D19`nm",
+		NXA: ["2", "5", "15", "6", "19"],
+	},
 },
 
 
@@ -7875,12 +9072,14 @@ var readableTracklist = {
 	arcadeID: "F13",
 	pumpoutID: 117,
 
-	Prime2: "=  @2.05 S17",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp1`nl S5`hd S10`cz Dp4`fs D18`nm",
-	NXA: ["1", "5", "10", "4", "18"],
+	charts: {
+		Prime2: "=  @2.05 S17",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp1`nl S5`hd S10`cz Dp4`fs D18`nm",
+		NXA: ["1", "5", "10", "4", "18"],
+	},
 },
 
 
@@ -7891,12 +9090,14 @@ var readableTracklist = {
 	arcadeID: "F14",
 	pumpoutID: 118,
 
-	Prime2: "=",
-	Prime: "=  @1.19 S18 D19",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S3`nl S7`hd S15`cz D7`fs D16`nm",
-	NXA: ["3", "7", "15", "7", "16"],
+	charts: {
+		Prime2: "=",
+		Prime: "=  @1.19 S18 D19",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S3`nl S7`hd S15`cz D7`fs D16`nm",
+		NXA: ["3", "7", "15", "7", "16"],
+	},
 },
 
 
@@ -7906,12 +9107,14 @@ var readableTracklist = {
 	arcadeID: "F15",
 	pumpoutID: 119,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S4 S7 S9",
-	Fiesta: "S3`nl S6`hd S16`cz Dp8`fs D13`nm  D18",
-	NXA: ["3", "6", "16", "8", "13"],
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S4 S7 S9",
+		Fiesta: "S3`nl S6`hd S16`cz Dp8`fs D13`nm  D18",
+		NXA: ["3", "6", "16", "8", "13"],
+	},
 },
 
 
@@ -7921,10 +9124,12 @@ var readableTracklist = {
 	arcadeID: "F16",
 	pumpoutID: 418,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp2`nl S5`nl S17`cz Dp4`fs  D15",  //??? после NXA убрали удвоение BPM - считать другим чартом
-	NXA: ["2", "5", "17", "4", "15"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp2`nl S5`nl S17`cz Dp4`fs  D15",  //??? после NXA убрали удвоение BPM - считать другим чартом
+		NXA: ["2", "5", "17", "4", "15"],
+	},
 },
 
 
@@ -7934,10 +9139,12 @@ var readableTracklist = {
 	arcadeID: "F17",
 	pumpoutID: 395,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp1`nl S5`hd S10`cz Dp5`fs D9`nm  S1.new S4.new",
-	NXA: ["1", "5", "10", "5", "9"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp1`nl S5`hd S10`cz Dp5`fs D9`nm  S1.new S4.new",
+		NXA: ["1", "5", "10", "5", "9"],
+	},
 },
 
 
@@ -7946,10 +9153,13 @@ var readableTracklist = {
 	title: "Come On!", artist: "Lee Jeong Hyun", channel: WORLD, bpm: "141",
 	arcadeID: "F18",
 	pumpoutID: 870,
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S2`nl S5`hd S12`cz Dp4`fs D9`nm  S4",
-	NXA: ["2", "5", "12", "4", "9"],
+
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S2`nl S5`hd S12`cz Dp4`fs D9`nm  S4",
+		NXA: ["2", "5", "12", "4", "9"],
+	},
 },
 
 
@@ -7958,10 +9168,13 @@ var readableTracklist = {
 	title: "Bad Character", artist: "Jang Na Ra", channel: WORLD, bpm: "100",
 	arcadeID: "F19",
 	pumpoutID: 864,
-	Fiesta2: "=",
-	FiestaEX: "= -S5",
-	Fiesta: "Sp1`nl S5`hd S10`cz  Dp3`fs D11`nm  S3.new S6.new",
-	NXA: ["1", "6", "10", "3", "11"],
+
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "= -S5",
+		Fiesta: "Sp1`nl S5`hd S10`cz  Dp3`fs D11`nm  S3.new S6.new",
+		NXA: ["1", "6", "10", "3", "11"],
+	},
 },
 
 
@@ -7970,10 +9183,13 @@ var readableTracklist = {
 	title: "U", artist: "Super Junior M", channel: KPOP, bpm: "115",
 	arcadeID: "F20",
 	pumpoutID: 867,
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp2`nl S6`hd S14`cz Dp5`fs D13`nm  S1.new Sp1.new S4.new",
-	NXA: ["2", "6", "14", "5", "13"],
+
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp2`nl S6`hd S14`cz Dp5`fs D13`nm  S1.new Sp1.new S4.new",
+		NXA: ["2", "6", "14", "5", "13"],
+	},
 },
 
 
@@ -7983,10 +9199,12 @@ var readableTracklist = {
 	arcadeID: "F21",
 	pumpoutID: 865,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp2`nl S6`hd S12`cz  Dp4`fs D14`nm",
-	NXA: ["2", "6", "12", "4", "14"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp2`nl S6`hd S12`cz  Dp4`fs D14`nm",
+		NXA: ["2", "6", "12", "4", "14"],
+	},
 },
 
 
@@ -7996,14 +9214,16 @@ var readableTracklist = {
 	arcadeID: "F22",
 	pumpoutID: 81,
 
-	Phoenix: "= S16`15 D8`7",
-	XX: "= S3`2  @2.07 CoOp(x2)",
-	Prime2: "=  @2.04 S12",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S2`nl S5`hd S15`cz D7`fs D17`nm",
-	NXA: ["2", "5", "15", "7", "17"],
+	charts: {
+		Phoenix: "= S16`15 D8`7",
+		XX: "= S3`2  @2.07 CoOp(x2)",
+		Prime2: "=  @2.04 S12",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S2`nl S5`hd S15`cz D7`fs D17`nm",
+		NXA: ["2", "5", "15", "7", "17"],
+	},
 },
 
 
@@ -8013,14 +9233,16 @@ var readableTracklist = {
 	arcadeID: "F23",
 	pumpoutID: 82,
 
-	Phoenix: "= S7`6 S10`8",
-	XX: "=  @2.00 S17 D20",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S6",
-	Fiesta: "S4`nl S8`hd S19`cz D14`fs D22`nm",
-	NXA: ["4", "8", "19", "14", "22"], NXA_: ["", "", "20", "", "21"],
+	charts: {
+		Phoenix: "= S7`6 S10`8",
+		XX: "=  @2.00 S17 D20",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S6",
+		Fiesta: "S4`nl S8`hd S19`cz D14`fs D22`nm",
+		NXA: ["4", "8", "19", "14", "22"], NXA_: ["", "", "20", "", "21"],
+	},
 },
 
 
@@ -8028,19 +9250,20 @@ var readableTracklist = {
 {
 	title: "K.O.A. -Alice in Wonderworld-", artist: "BanYa Production", bpm: "156",
 	arcadeName: "K.O.A: Alice In Wonderworld",
-	arcadeNameMaxEditDistance: 1, // 'K.0O.A: Alice In Wonderworld'
 	arcadeID: "F24",
 	pumpoutID: 83,
 
-	Phoenix: "= S1`2 S10`8 D14`10 D19`18",
-		// TODO.Phoenix: D14`10
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S2",
-	Fiesta: "S3`nl S8`hd S17`cz D18`nm  S5.new D10.new",
-	NXA: ["3", "8", "17", "9", "18"],
+	charts: {
+		Phoenix: "= S1`2 S10`8 D14`10 D19`18",
+			// TODO.Phoenix: D14`10
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S2",
+		Fiesta: "S3`nl S8`hd S17`cz D18`nm  S5.new D10.new",
+		NXA: ["3", "8", "17", "9", "18"],
+	},
 },
 
 
@@ -8050,14 +9273,16 @@ var readableTracklist = {
 	arcadeID: "F25",
 	pumpoutID: 84,
 
-	Phoenix: "= D19`18 -Dp5",
-	XX: "= S18`17 S19`18  @2.00 D22.lock",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S4`nl S10`hd S18`cz Dp5`fs D18`nm  S17`acz",
-	NXA: ["4", "10", "18", "5", "18"], NXA_: ["", "", "19", "", ""],
+	charts: {
+		Phoenix: "= D19`18 -Dp5",
+		XX: "= S18`17 S19`18  @2.00 D22.lock",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S4`nl S10`hd S18`cz Dp5`fs D18`nm  S17`acz",
+		NXA: ["4", "10", "18", "5", "18"], NXA_: ["", "", "19", "", ""],
+	},
 },
 
 
@@ -8067,14 +9292,17 @@ var readableTracklist = {
 	arcadeID: "F26",
 	pumpoutID: 85,
 
-	Phoenix: "= S11`10 D15`14 D18`17 -Sp3 -Dp6",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp3`nl S10`hd S17`cz Dp6`fs D14`nm  D17`afs  @1.10 S4.new S7.new",
-	NXA: ["3", "10", "17", "6", "14"], NXA_: ["", "16", "", "17", ""],  //? проверить спешл зону
+	charts: {
+		Phoenix: "= S11`10 D15`14 D18`17 -Sp3 -Dp6",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp3`nl S10`hd S17`cz Dp6`fs D14`nm  D17`afs  @1.10 S4.new S7.new",
+		NXA: ["3", "10", "17", "6", "14"], NXA_: ["", "16", "", "17", ""],
+		  //? verify special zone
+	},
 },
 
 
@@ -8084,10 +9312,12 @@ var readableTracklist = {
 	arcadeID: "F27",
 	pumpoutID: 398,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp2`nl S6`hd S15`cz Dp4`fs D18`nm",
-	NXA: ["2", "6", "15", "4", "18"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp2`nl S6`hd S15`cz Dp4`fs D18`nm",
+		NXA: ["2", "6", "15", "4", "18"],
+	},
 },
 
 
@@ -8097,13 +9327,15 @@ var readableTracklist = {
 	arcadeID: "F28",
 	pumpoutID: 113,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S4`nl S14`hd S21`cz D14`fs D21`nm",
-	NXA: ["4", "14", "21", "14", "21"],
-	//? NXA unlock
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S4`nl S14`hd S21`cz D14`fs D21`nm",
+		NXA: ["4", "14", "21", "14", "21"],
+			//? NXA unlock
+	},
 },
 
 
@@ -8115,14 +9347,16 @@ var readableTracklist = {
 	arcadeID: "F29",
 	pumpoutID: 86,
 
-	Phoenix: "= S9`8 -Dp2",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.20 Dp2  @1.51 S3 S5",
-	Fiesta: "S8`nl S17`hd S23`cz D21`fs D24`nm",
-	NXA: ["8", "17", "??(23)", "21", "??(24)"],
+	charts: {
+		Phoenix: "= S9`8 -Dp2",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.20 Dp2  @1.51 S3 S5",
+		Fiesta: "S8`nl S17`hd S23`cz D21`fs D24`nm",
+		NXA: ["8", "17", "??(23)", "21", "??(24)"],
+	},
 },
 
 
@@ -8132,10 +9366,12 @@ var readableTracklist = {
 	arcadeID: "F30",
 	pumpoutID: 393,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S11`cz Dp5`fs D14`nm",
-	NXA_: ["", "", "11", "5", "14"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S11`cz Dp5`fs D14`nm",
+		NXA_: ["", "", "11", "5", "14"],
+	},
 },
 
 
@@ -8146,14 +9382,16 @@ var readableTracklist = {
 	arcadeID: "F31",
 	pumpoutID: 87,
 
-	Phoenix: "= S8`7 D6`4",
-	XX: "= D18`17",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S7`hd D4`fs D17`nm",
-	NXA_: ["", "7", "", "4", "17"],
+	charts: {
+		Phoenix: "= S8`7 D6`4",
+		XX: "= D18`17",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S7`hd D4`fs D17`nm",
+		NXA_: ["", "7", "", "4", "17"],
+	},
 },
 
 
@@ -8163,9 +9401,11 @@ var readableTracklist = {
 	arcadeID: "F32",
 	pumpoutID: 766,
 
-	Phoenix: "=",
-	XX: "S17`cz D18`nm",
-	NXA_: ["", "12", "15", "", "16"],
+	charts: {
+		Phoenix: "=",
+		XX: "S17`cz D18`nm",
+		NXA_: ["", "12", "15", "", "16"],
+	},
 },
 
 
@@ -8175,14 +9415,16 @@ var readableTracklist = {
 	arcadeID: "F33",
 	pumpoutID: 88,
 
-	Phoenix: "= S12`11 S21`20",
-	XX: "= S20`19",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.20 D25",
-	Fiesta: "S11`hd S19`cz D22`nm",
-	NXA_: ["", "11", "19", "", "22"],
+	charts: {
+		Phoenix: "= S12`11 S21`20",
+		XX: "= S20`19",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.20 D25",
+		Fiesta: "S11`hd S19`cz D22`nm",
+		NXA_: ["", "11", "19", "", "22"],
+	},
 },
 
 
@@ -8192,14 +9434,16 @@ var readableTracklist = {
 	arcadeID: "F34",
 	pumpoutID: 89,
 
-	Phoenix: "= S12`10",
-	XX: "= S10`8",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S8`hd S18`cz D20`nm",
-	NXA_: ["", "8", "18", "", "20"],
+	charts: {
+		Phoenix: "= S12`10",
+		XX: "= S10`8",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S8`hd S18`cz D20`nm",
+		NXA_: ["", "8", "18", "", "20"],
+	},
 },
 
 
@@ -8209,7 +9453,9 @@ var readableTracklist = {
 	arcadeID: "F35",
 	pumpoutID: 609,
 
-	NXA_: ["", "", "16", "6", "16"],
+	charts: {
+		NXA_: ["", "", "16", "6", "16"],
+	},
 },
 
 
@@ -8219,7 +9465,9 @@ var readableTracklist = {
 	arcadeID: "F36",
 	pumpoutID: "",
 
-	NXA_: ["", "5", "", "6", "15"],
+	charts: {
+		NXA_: ["", "5", "", "6", "15"],
+	},
 },
 
 
@@ -8229,12 +9477,14 @@ var readableTracklist = {
 	arcadeID: "F37",
 	pumpoutID: 120,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S6`hd S16`cz D8`fs",
-	NXA_: ["", "6", "16", "8", ""],
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S6`hd S16`cz D8`fs",
+		NXA_: ["", "6", "16", "8", ""],
+	},
 },
 
 
@@ -8244,12 +9494,14 @@ var readableTracklist = {
 	arcadeID: "F38",
 	pumpoutID: 121,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S5`hd S19`cz D17`nm",
-	NXA_: ["", "5", "19", "", "17"],
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S5`hd S19`cz D17`nm",
+		NXA_: ["", "5", "19", "", "17"],
+	},
 },
 
 
@@ -8259,7 +9511,9 @@ var readableTracklist = {
 	arcadeID: "F39",
 	pumpoutID: "",
 
-	NXA_: ["", "6", "13", "4", ""],
+	charts: {
+		NXA_: ["", "6", "13", "4", ""],
+	},
 },
 
 
@@ -8269,10 +9523,12 @@ var readableTracklist = {
 	arcadeID: "F40",
 	pumpoutID: 415,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S6`hd S17`cz D19`nm",
-	NXA_: ["", "6", "17", "", "19"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S6`hd S17`cz D19`nm",
+		NXA_: ["", "6", "17", "", "19"],
+	},
 },
 
 
@@ -8283,7 +9539,9 @@ var readableTracklist = {
 	arcadeID: "F41",
 	pumpoutID: "",
 
-	NXA_: ["", "8", "15", "9", ""],
+	charts: {
+		NXA_: ["", "8", "15", "9", ""],
+	},
 },
 
 
@@ -8293,7 +9551,9 @@ var readableTracklist = {
 	arcadeID: "F42",
 	pumpoutID: "",
 
-	NXA_: ["", "8", "17", "", "18"],
+	charts: {
+		NXA_: ["", "8", "17", "", "18"],
+	},
 },
 
 
@@ -8303,14 +9563,16 @@ var readableTracklist = {
 	arcadeID: "F43",
 	pumpoutID: 421,
 
-	Phoenix: "= D14`11 -S8",
-		// TODO.Phoenix: D14`11
-	XX: "=",
-	Prime2: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S8`hd S15`cz D11`fs",
-	NXA_: ["", "8", "15", "11", ""],
+	charts: {
+		Phoenix: "= D14`11 -S8",
+			// TODO.Phoenix: D14`11
+		XX: "=",
+		Prime2: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S8`hd S15`cz D11`fs",
+		NXA_: ["", "8", "15", "11", ""],
+	},
 },
 
 
@@ -8320,11 +9582,13 @@ var readableTracklist = {
 	arcadeID: "F44",
 	pumpoutID: 414,
 
-	Prime2: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S7`hd S17`cz D17`nm",
-	NXA_: ["", "7", "17", "", "17"],
+	charts: {
+		Prime2: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S7`hd S17`cz D17`nm",
+		NXA_: ["", "7", "17", "", "17"],
+	},
 },
 
 
@@ -8334,7 +9598,9 @@ var readableTracklist = {
 	arcadeID: "F45",
 	pumpoutID: "",
 
-	NXA_: ["", "5", "16", "5", ""],
+	charts: {
+		NXA_: ["", "5", "16", "5", ""],
+	},
 },
 
 
@@ -8344,11 +9610,13 @@ var readableTracklist = {
 	arcadeID: "F46",
 	pumpoutID: 413,
 
-	Prime2: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S6`hd S17`cz D11`fs D20`nm",
-	NXA_: ["", "6", "17", "11", "20"],
+	charts: {
+		Prime2: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S6`hd S17`cz D11`fs D20`nm",
+		NXA_: ["", "6", "17", "11", "20"],
+	},
 },
 
 
@@ -8358,14 +9626,16 @@ var readableTracklist = {
 	arcadeID: "F50",
 	pumpoutID: 90,
 
-	Phoenix: "= S17`15 D20`19",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S15`cz D19`nm",
-	NXA_: ["", "", "15", "3", "19"],
+	charts: {
+		Phoenix: "= S17`15 D20`19",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S15`cz D19`nm",
+		NXA_: ["", "", "15", "3", "19"],
+	},
 },
 
 
@@ -8375,10 +9645,12 @@ var readableTracklist = {
 	arcadeID: "F51",
 	pumpoutID: 410,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S4`hd S14`cz",
-	NXA_: ["", "4", "14", "4", ""],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S4`hd S14`cz",
+		NXA_: ["", "4", "14", "4", ""],
+	},
 },
 
 
@@ -8387,7 +9659,10 @@ var readableTracklist = {
 	title: "Adios  [FULL]", artist: "Eun Ji Won", bpm: "123",
 	arcadeID: "F52",
 	pumpoutID: 878,
-	NXA_: ["", "4", "15", "4", ""],
+
+	charts: {
+		NXA_: ["", "4", "15", "4", ""],
+	},
 },
 
 
@@ -8397,12 +9672,14 @@ var readableTracklist = {
 	arcadeID: "F53",
 	pumpoutID: 122,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S9`hd S16`cz D18`nm",
-	NXA_: ["", "9", "16", "", "18"],
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S9`hd S16`cz D18`nm",
+		NXA_: ["", "9", "16", "", "18"],
+	},
 },
 
 
@@ -8413,12 +9690,14 @@ var readableTracklist = {
 	arcadeID: "F54",
 	pumpoutID: 123,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S6`hd S17`cz D7`fs",
-	NXA_: ["", "6", "17", "7", ""],
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S6`hd S17`cz D7`fs",
+		NXA_: ["", "6", "17", "7", ""],
+	},
 },
 
 
@@ -8428,10 +9707,12 @@ var readableTracklist = {
 	arcadeID: "F55",
 	pumpoutID: 403,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S4`hd S15`cz D5`fs",
-	NXA_: ["", "4", "15", "5", ""],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S4`hd S15`cz D5`fs",
+		NXA_: ["", "4", "15", "5", ""],
+	},
 },
 
 
@@ -8441,10 +9722,12 @@ var readableTracklist = {
 	arcadeID: "F56",
 	pumpoutID: 420,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S5`hd S17`cz",
-	NXA_: ["", "5", "17", "5", ""],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S5`hd S17`cz",
+		NXA_: ["", "5", "17", "5", ""],
+	},
 },
 
 
@@ -8454,7 +9737,9 @@ var readableTracklist = {
 	arcadeID: "F57",
 	pumpoutID: "",
 
-	NXA_: ["", "6", "", "6", ""],
+	charts: {
+		NXA_: ["", "6", "", "6", ""],
+	},
 },
 
 
@@ -8464,7 +9749,9 @@ var readableTracklist = {
 	arcadeID: "F58",
 	pumpoutID: "",
 
-	NXA_: ["", "6", "15", "8", ""],
+	charts: {
+		NXA_: ["", "6", "15", "8", ""],
+	},
 },
 
 
@@ -8474,12 +9761,14 @@ var readableTracklist = {
 	arcadeID: "F59",
 	pumpoutID: 124,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S7`hd S18`cz",
-	NXA_: ["", "7", "18", "9", ""],
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S7`hd S18`cz",
+		NXA_: ["", "7", "18", "9", ""],
+	},
 },
 
 
@@ -8489,12 +9778,14 @@ var readableTracklist = {
 	arcadeID: "F60",
 	pumpoutID: 125,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S10`hd S22`cz D24`nm",
-	NXA_: ["", "10", "23", "", "25"],
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S10`hd S22`cz D24`nm",
+		NXA_: ["", "10", "23", "", "25"],
+	},
 },
 
 
@@ -8504,7 +9795,9 @@ var readableTracklist = {
 	arcadeID: "F61",
 	pumpoutID: 592,
 
-	NXA_: ["", "3", "13", "3", ""],
+	charts: {
+		NXA_: ["", "3", "13", "3", ""],
+	},
 },
 
 
@@ -8514,7 +9807,9 @@ var readableTracklist = {
 	arcadeID: "F62",
 	pumpoutID: "",
 
-	NXA_: ["", "3", "15", "3", ""],
+	charts: {
+		NXA_: ["", "3", "15", "3", ""],
+	},
 },
 
 
@@ -8524,7 +9819,9 @@ var readableTracklist = {
 	arcadeID: "F63",
 	pumpoutID: "",
 
-	NXA_: ["", "3", "14", "3", ""],
+	charts: {
+		NXA_: ["", "3", "14", "3", ""],
+	},
 },
 
 
@@ -8534,10 +9831,12 @@ var readableTracklist = {
 	arcadeID: "F64",
 	pumpoutID: 399,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S17`cz Dp3`fs D18`nm",
-	NXA_: ["", "", "17", "3", "18"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S17`cz Dp3`fs D18`nm",
+		NXA_: ["", "", "17", "3", "18"],
+	},
 },
 
 
@@ -8547,11 +9846,13 @@ var readableTracklist = {
 	arcadeID: "F65",
 	pumpoutID: 114,
 
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S17`cz Dp6`fs D19`nm",
-	NXA_: ["", "", "17", "6", "19"],
+	charts: {
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S17`cz Dp6`fs D19`nm",
+		NXA_: ["", "", "17", "6", "19"],
+	},
 },
 
 
@@ -8565,9 +9866,12 @@ var readableTracklist = {
 	title: "In Your Fantasy", artist: "Taiji Boys", bpm: "130", fromMix: "NXA",
 	arcadeID: "F80",
 	pumpoutID: 854,
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "@1.10 S2 S4 S6 S14 D7 D16 Dp3",
+
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "@1.10 S2 S4 S6 S14 D7 D16 Dp3",
+	},
 },
 
 
@@ -8581,15 +9885,17 @@ var readableTracklist = {
 	arcadeID: "E01",
 	pumpoutID: 92,
 
-	Phoenix: "= -Sp4 -Dp6",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp4`nl S7`hd S16`cz Dp6`fs D18`nm",
-	NXA: ["4", "7", "16", "6", "18"],
-	NX2: ["3", "7", "16", "6", "18"],
+	charts: {
+		Phoenix: "= -Sp4 -Dp6",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp4`nl S7`hd S16`cz Dp6`fs D18`nm",
+		NXA: ["4", "7", "16", "6", "18"],
+		NX2: ["3", "7", "16", "6", "18"],
+	},
 },
 
 
@@ -8599,14 +9905,16 @@ var readableTracklist = {
 	arcadeID: "E02",
 	pumpoutID: 93,
 
-	Phoenix: "= S4`3 S11`9 -D7",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S3`nl S9`hd S18`cz D7`fs D20`nm  @1.10 S20",
-	NX2: ["3", "9", "18", "7", "20"],
+	charts: {
+		Phoenix: "= S4`3 S11`9 -D7",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S3`nl S9`hd S18`cz D7`fs D20`nm  @1.10 S20",
+		NX2: ["3", "9", "18", "7", "20"],
+	},
 },
 
 
@@ -8616,15 +9924,17 @@ var readableTracklist = {
 	arcadeID: "E03",
 	pumpoutID: 94,
 
-	Phoenix: "= D11`10 D19`18 D22`21",
-	XX: "=",
-	Prime2: "=  @1.10 S19",
-	Prime: "=",
-	Fiesta2: "=  @1.50 D21`anm",
-	FiestaEX: "=  @1.51 S6",
-	Fiesta: "S8`hd S17`cz D10`fs D18`nm  @1.10 S4",
-	NXA: ["3", "8", "17", "10", "18"], NXA_: ["", "17", "19", "19", "21"],
-	NX2: ["3", "8", "17", "9", "19"], NX2_: ["", "16", "19", "18", "21"],
+	charts: {
+		Phoenix: "= D11`10 D19`18 D22`21",
+		XX: "=",
+		Prime2: "=  @1.10 S19",
+		Prime: "=",
+		Fiesta2: "=  @1.50 D21`anm",
+		FiestaEX: "=  @1.51 S6",
+		Fiesta: "S8`hd S17`cz D10`fs D18`nm  @1.10 S4",
+		NXA: ["3", "8", "17", "10", "18"], NXA_: ["", "17", "19", "19", "21"],
+		NX2: ["3", "8", "17", "9", "19"], NX2_: ["", "16", "19", "18", "21"],
+	},
 },
 
 
@@ -8634,12 +9944,14 @@ var readableTracklist = {
 	arcadeID: "E04",
 	pumpoutID: 411,
 
-	Phoenix: "= D17`16 -Sp4 -D10",
-	XX: "= S9`10 D10`12",
-	Prime2: "=",
-	Fiesta2: "=",
-	FiestaEX: "Sp4`nl S10`hd S14`cz D12`fs D16`nm",
-	NX2: ["4", "7", "13", "8", "16"],
+	charts: {
+		Phoenix: "= D17`16 -Sp4 -D10",
+		XX: "= S9`10 D10`12",
+		Prime2: "=",
+		Fiesta2: "=",
+		FiestaEX: "Sp4`nl S10`hd S14`cz D12`fs D16`nm",
+		NX2: ["4", "7", "13", "8", "16"],
+	},
 },
 
 
@@ -8649,13 +9961,15 @@ var readableTracklist = {
 	arcadeID: "E05",
 	pumpoutID: 95,
 
-	Phoenix: "= D8`7",
-	XX: "= S4`6 S8`10 D7`9",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "S6`nl S10`hd S17`cz D9`fs D19`nm",
-	NX2: ["4", "8", "17", "7", "19"],
+	charts: {
+		Phoenix: "= D8`7",
+		XX: "= S4`6 S8`10 D7`9",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "S6`nl S10`hd S17`cz D9`fs D19`nm",
+		NX2: ["4", "8", "17", "7", "19"],
+	},
 },
 
 
@@ -8665,8 +9979,10 @@ var readableTracklist = {
 	arcadeID: "E06",
 	pumpoutID: "",
 
-	NXA: ["2", "5", "14", "5", "14"],
-	NX2: ["2", "5", "14", "5", "14"],
+	charts: {
+		NXA: ["2", "5", "14", "5", "14"],
+		NX2: ["2", "5", "14", "5", "14"],
+	},
 },
 
 
@@ -8676,11 +9992,13 @@ var readableTracklist = {
 	arcadeID: "E07",
 	pumpoutID: 423,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp2`nl S6`hd S13`cz Dp6`fs D15`nm",
-	NXA: ["2", "6", "13", "6", "15"],
-	NX2: ["3", "6", "13", "6", "15"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp2`nl S6`hd S13`cz Dp6`fs D15`nm",
+		NXA: ["2", "6", "13", "6", "15"],
+		NX2: ["3", "6", "13", "6", "15"],
+	},
 },
 
 
@@ -8693,8 +10011,10 @@ var readableTracklist = {
 	arcadeID: "E08",
 	pumpoutID: "",
 
-	NXA: ["1", "5", "13", "5", "14"],
-	NX2: ["1", "5", "13", "5", "14"],
+	charts: {
+		NXA: ["1", "5", "13", "5", "14"],
+		NX2: ["1", "5", "13", "5", "14"],
+	},
 },
 
 
@@ -8704,8 +10024,10 @@ var readableTracklist = {
 	arcadeID: "E09",
 	pumpoutID: "",
 
-	NXA: ["3", "5", "13", "4", "14"],
-	NX2: ["3", "5", "13", "4", "14"],
+	charts: {
+		NXA: ["3", "5", "13", "4", "14"],
+		NX2: ["3", "5", "13", "4", "14"],
+	},
 },
 
 
@@ -8715,8 +10037,10 @@ var readableTracklist = {
 	arcadeID: "E10",
 	pumpoutID: "",
 
-	NXA: ["1", "5", "10", "5", "12"], NXA_: ["", "", "", "13", "16"],
-	NX2: ["2", "5", "10", "5", "12"], NX2_: ["", "", "", "12", "15"],
+	charts: {
+		NXA: ["1", "5", "10", "5", "12"], NXA_: ["", "", "", "13", "16"],
+		NX2: ["2", "5", "10", "5", "12"], NX2_: ["", "", "", "12", "15"],
+	},
 },
 
 
@@ -8729,8 +10053,10 @@ var readableTracklist = {
 	arcadeID: "E11",
 	pumpoutID: "",
 
-	NXA: ["3", "5", "11", "5", "15"],
-	NX2: ["3", "5", "11", "5", "13"],
+	charts: {
+		NXA: ["3", "5", "11", "5", "15"],
+		NX2: ["3", "5", "11", "5", "13"],
+	},
 },
 
 
@@ -8740,35 +10066,39 @@ var readableTracklist = {
 	arcadeID: "E12",
 	pumpoutID: 96,
 
-	Phoenix: "= S13`11 S21`20 D15`14",
-	XX: "= S7`6 S11`8 D21`20",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "= S6  @1.30 D23",
-	Fiesta: "S4`nl S12`hd S19`cz D14`fs D20`nm  S8`anl S16`ahd S20`acz",
-	NXA: ["4", "12", "19", "14", "20"], NXA_: ["8", "16", "19", "18", "22"],
-	NX2: ["4", "11", "20", "15", "??(24)"], NX2_: ["", "15", "19", "19", "21"],
+	charts: {
+		Phoenix: "= S13`11 S21`20 D15`14",
+		XX: "= S7`6 S11`8 D21`20",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "= S6  @1.30 D23",
+		Fiesta: "S4`nl S12`hd S19`cz D14`fs D20`nm  S8`anl S16`ahd S20`acz",
+		NXA: ["4", "12", "19", "14", "20"], NXA_: ["8", "16", "19", "18", "22"],
+		NX2: ["4", "11", "20", "15", "??(24)"], NX2_: ["", "15", "19", "19", "21"],
+	},
 },
 
 
 "0E__Pumptris_Quattro":
 {
 	title: "Pumptris Quattro", artist: "Yahpp", bpm: "153",
-	arcadeNameMaxEditDistance: 1, // 'Pumpitris Quattro'
 	arcadeID: "E13",
 	pumpoutID: 97,
 
-	Phoenix: "= S13`12 S20`19 -Sp10 -Dp2",
-	XX: "= S18`17 D15`13",  // S18.updated - степы в начале холдов, считать новым чартом
-	// S18-XX - https://www.youtube.com/watch?v=jQMIZhG0sqA
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S3`nl S7`hd S19`cz D13`fs D20`nm  Sp10`anl S12`ahd S17`acz Dp2`afs D22`anm",
-	NXA: ["3", "7", "19", "13", "20"], NXA_: ["10", "12", "17", "2", "22"],
-	NX2: ["3", "8", "20", "14", "??(22)"], NX2_: ["7", "8", "17", "4", "22"],
+	charts: {
+		Phoenix: "= S13`12 S20`19 -Sp10 -Dp2",
+		XX: "= S18`17 D15`13",
+			// S18.updated - steps in a head of holds, may be treated as new chart
+			// S18-XX - https://www.youtube.com/watch?v=jQMIZhG0sqA
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S3`nl S7`hd S19`cz D13`fs D20`nm  Sp10`anl S12`ahd S17`acz Dp2`afs D22`anm",
+		NXA: ["3", "7", "19", "13", "20"], NXA_: ["10", "12", "17", "2", "22"],
+		NX2: ["3", "8", "20", "14", "??(22)"], NX2_: ["7", "8", "17", "4", "22"],
+	},
 },
 
 
@@ -8785,14 +10115,16 @@ var readableTracklist = {
 	arcadeID: "FE13B",
 	pumpoutID: 91,
 
-	Phoenix: "= S17`16 S18`17 -Sp15",
-	XX: "=",
-	Prime2: "=",
-	Prime: "= CoOp(x2)`Dp??(x2) -D??(x3)",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S3 S5 S8",
-	Fiesta: "S16 S17 D??(x3) Sp15 Dp??(x2)",  //?
-	NXA_: ["16", "16", "17", "??(x3)", "??(x2)"],
+	charts: {
+		Phoenix: "= S17`16 S18`17 -Sp15",
+		XX: "=",
+		Prime2: "=",
+		Prime: "= CoOp(x2)`Dp??(x2) -D??(x3)",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S3 S5 S8",
+		Fiesta: "S16 S17 D??(x3) Sp15 Dp??(x2)",  //?
+		NXA_: ["16", "16", "17", "??(x3)", "??(x2)"],
+	},
 },
 
 
@@ -8802,8 +10134,10 @@ var readableTracklist = {
 	arcadeID: "E14",
 	pumpoutID: "",
 
-	NXA: ["3", "11", "20", "13", "21"], NXA_: ["", "", "14", "", "17"],
-	NX2: ["3", "10", "20", "13", "21"], NX2_: ["", "", "10", "", "14"],
+	charts: {
+		NXA: ["3", "11", "20", "13", "21"], NXA_: ["", "", "14", "", "17"],
+		NX2: ["3", "10", "20", "13", "21"], NX2_: ["", "", "10", "", "14"],
+	},
 },
 
 
@@ -8813,8 +10147,10 @@ var readableTracklist = {
 	arcadeID: "E15",
 	pumpoutID: "",
 
-	NXA: ["2", "6", "16", "8", "16"], NXA_: ["", "", "16", "", "17"],
-	NX2: ["2", "6", "17", "8", "16"], NX2_: ["", "", "16", "", "18"],
+	charts: {
+		NXA: ["2", "6", "16", "8", "16"], NXA_: ["", "", "16", "", "17"],
+		NX2: ["2", "6", "17", "8", "16"], NX2_: ["", "", "16", "", "18"],
+	},
 },
 
 
@@ -8827,8 +10163,10 @@ var readableTracklist = {
 	arcadeID: "E16",
 	pumpoutID: "",
 
-	NXA: ["2", "5", "16", "5", "19"],
-	NX2: ["3", "5", "16", "5", "18"],
+	charts: {
+		NXA: ["2", "5", "16", "5", "19"],
+		NX2: ["3", "5", "16", "5", "18"],
+	},
 },
 
 
@@ -8838,8 +10176,10 @@ var readableTracklist = {
 	arcadeID: "E17",
 	pumpoutID: "",
 
-	NXA: ["3", "7", "15", "8", "17"],
-	NX2: ["4", "9", "15", "9", "17"],
+	charts: {
+		NXA: ["3", "7", "15", "8", "17"],
+		NX2: ["4", "9", "15", "9", "17"],
+	},
 },
 
 
@@ -8852,8 +10192,10 @@ var readableTracklist = {
 	arcadeID: "E18",
 	pumpoutID: "",
 
-	NXA: ["2", "6", "19", "8", "21"],
-	NX2: ["1", "6", "18", "8", "20"],
+	charts: {
+		NXA: ["2", "6", "19", "8", "21"],
+		NX2: ["1", "6", "18", "8", "20"],
+	},
 },
 
 
@@ -8866,8 +10208,10 @@ var readableTracklist = {
 	arcadeID: "E19",
 	pumpoutID: "",
 
-	NXA: ["2", "6", "16", "4", "17"],
-	NX2: ["2", "6", "16", "4", "17"],
+	charts: {
+		NXA: ["2", "6", "16", "4", "17"],
+		NX2: ["2", "6", "16", "4", "17"],
+	},
 },
 
 
@@ -8877,12 +10221,14 @@ var readableTracklist = {
 	arcadeID: "E20",
 	pumpoutID: 115,
 
-	Prime: "=  @1.19 D18",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp2`nl S6`hd S15`cz Dp5`fs D17`nm",
-	NXA: ["2", "6", "15", "5", "17"],
-	NX2: ["2", "6", "16", "5", "17"],
+	charts: {
+		Prime: "=  @1.19 D18",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp2`nl S6`hd S15`cz Dp5`fs D17`nm",
+		NXA: ["2", "6", "15", "5", "17"],
+		NX2: ["2", "6", "16", "5", "17"],
+	},
 },
 
 
@@ -8896,8 +10242,10 @@ var readableTracklist = {
 	arcadeID: "E21",
 	pumpoutID: "",
 
-	NXA: ["1", "4", "", "4", ""],
-	NX2: ["1", "4", "", "4", ""],
+	charts: {
+		NXA: ["1", "4", "", "4", ""],
+		NX2: ["1", "4", "", "4", ""],
+	},
 },
 
 
@@ -8907,8 +10255,10 @@ var readableTracklist = {
 	arcadeID: "E22",
 	pumpoutID: "",
 
-	NXA: ["2", "7", "17", "4", "18"],
-	NX2: ["3", "9", "18", "4", "20"],
+	charts: {
+		NXA: ["2", "7", "17", "4", "18"],
+		NX2: ["3", "9", "18", "4", "20"],
+	},
 },
 
 
@@ -8918,12 +10268,14 @@ var readableTracklist = {
 	arcadeID: "E23",
 	pumpoutID: 405,
 
-	Phoenix: "= -D10 -D13",
-	XX: "= S7`9 S20`18",
-	Prime2: "=",
-	Fiesta2: "=",
-	FiestaEX: "S3`nl S9`hd S13`cz D10`fs D13`nm  S18`acz D19`anm",
-	NX2: ["3", "7", "12", "7", "13"], NX2_: ["", "", "17", "", "20"],
+	charts: {
+		Phoenix: "= -D10 -D13",
+		XX: "= S7`9 S20`18",
+		Prime2: "=",
+		Fiesta2: "=",
+		FiestaEX: "S3`nl S9`hd S13`cz D10`fs D13`nm  S18`acz D19`anm",
+		NX2: ["3", "7", "12", "7", "13"], NX2_: ["", "", "17", "", "20"],
+	},
 },
 
 
@@ -8933,15 +10285,17 @@ var readableTracklist = {
 	arcadeID: "E24",
 	pumpoutID: 98,
 
-	Phoenix: "= S15`14 D16`15 -Sp1",
-	XX: "=  @1.03 D20.lock  @2.05 S19`acz",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=  @1.51 S16",
-	FiestaEX: "=  @1.51 S9",
-	Fiesta: "Sp1`nl S6`hd S14`cz D8`fs D15`nm  S2.new",
-	NXA: ["1", "6", "14", "8", "15"], NXA_: ["", "16", "18", "", ""],
-	NX2: ["2", "7", "15", "8", "17"], NX2_: ["", "16", "18", "", ""],
+	charts: {
+		Phoenix: "= S15`14 D16`15 -Sp1",
+		XX: "=  @1.03 D20.lock  @2.05 S19`acz",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=  @1.51 S16",
+		FiestaEX: "=  @1.51 S9",
+		Fiesta: "Sp1`nl S6`hd S14`cz D8`fs D15`nm  S2.new",
+		NXA: ["1", "6", "14", "8", "15"], NXA_: ["", "16", "18", "", ""],
+		NX2: ["2", "7", "15", "8", "17"], NX2_: ["", "16", "18", "", ""],
+	},
 },
 
 
@@ -8952,14 +10306,16 @@ var readableTracklist = {
 	arcadeID: "E25",
 	pumpoutID: 408,
 
-	Phoenix: "= S16`15 -Sp2 -Dp6",
-	XX: "= S15`14 D15`14",
-	Prime2: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp2`nl S7`hd S14`cz Dp6`fs D14`nm",
-	NXA: ["2", "7", "14", "6", "14"],
-	NX2: ["3", "7", "15", "6", "16"],
+	charts: {
+		Phoenix: "= S16`15 -Sp2 -Dp6",
+		XX: "= S15`14 D15`14",
+		Prime2: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp2`nl S7`hd S14`cz Dp6`fs D14`nm",
+		NXA: ["2", "7", "14", "6", "14"],
+		NX2: ["3", "7", "15", "6", "16"],
+	},
 },
 
 
@@ -8969,11 +10325,13 @@ var readableTracklist = {
 	arcadeID: "E26",
 	pumpoutID: 396,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp2`nl S5`hd S13`cz Dp2`fs D15`nm",
-	NXA: ["2", "5", "13", "2", "15"],
-	NX2: ["3", "5", "14", "2", "16"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp2`nl S5`hd S13`cz Dp2`fs D15`nm",
+		NXA: ["2", "5", "13", "2", "15"],
+		NX2: ["3", "5", "14", "2", "16"],
+	},
 },
 
 
@@ -8983,13 +10341,15 @@ var readableTracklist = {
 	arcadeID: "E27",
 	pumpoutID: 126,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp2`nl S5`hd S13`cz D15`nm",
-	NXA: ["2", "5", "13", "2", "15"],
-	NX2: ["3", "6", "11", "6", "13"],
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp2`nl S5`hd S13`cz D15`nm",
+		NXA: ["2", "5", "13", "2", "15"],
+		NX2: ["3", "6", "11", "6", "13"],
+	},
 },
 
 
@@ -8999,13 +10359,15 @@ var readableTracklist = {
 	arcadeID: "E28",
 	pumpoutID: 127,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S4",
-	Fiesta: "Sp1`nl S5`hd S10`cz Dp6`fs D15`nm  S14`acz D18`anm",
-	NXA: ["1", "5", "10", "6", "15"],
-	NX2: ["2", "6", "10", "6", "15"], NX2_: ["", "", "14", "", "18"],
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S4",
+		Fiesta: "Sp1`nl S5`hd S10`cz Dp6`fs D15`nm  S14`acz D18`anm",
+		NXA: ["1", "5", "10", "6", "15"],
+		NX2: ["2", "6", "10", "6", "15"], NX2_: ["", "", "14", "", "18"],
+	},
 },
 
 
@@ -9015,13 +10377,15 @@ var readableTracklist = {
 	arcadeID: "E29",
 	pumpoutID: 128,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S4 S7",
-	Fiesta: "Sp2`nl S9`hd S16`cz D11`fs D17`nm",
-	NXA: ["2", "9", "16", "11", "17"],
-	NX2: ["3", "9", "16", "10", "17"],
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S4 S7",
+		Fiesta: "Sp2`nl S9`hd S16`cz D11`fs D17`nm",
+		NXA: ["2", "9", "16", "11", "17"],
+		NX2: ["3", "9", "16", "10", "17"],
+	},
 },
 
 
@@ -9031,23 +10395,27 @@ var readableTracklist = {
 	arcadeID: "E30",
 	pumpoutID: 404,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp3`nl S6`hd S9`cz Dp6`fs D11`nm",
-	NXA: ["3", "6", "9", "6", "11"],
-	NX2: ["3", "6", "12", "6", "12"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp3`nl S6`hd S9`cz Dp6`fs D11`nm",
+		NXA: ["3", "6", "9", "6", "11"],
+		NX2: ["3", "6", "12", "6", "12"],
+	},
 },
 
 
 "0E__Tell_Me":
 {
-	title: "", artist: "Wonder Girls", channel: KPOP, bpm: "127",
+	title: "Tell Me", artist: "Wonder Girls", channel: KPOP, bpm: "127",
 	arcadeID: "E31",
 	pumpoutID: "",
 
-	NXA: ["1", "5", "12", "5", "14"],
-	NX2: ["2", "5", "14", "5", "16"],
-	// Korean only on NX2
+	charts: {
+		NXA: ["1", "5", "12", "5", "14"],
+		NX2: ["2", "5", "14", "5", "16"],
+			// Korean only on NX2
+	},
 },
 
 
@@ -9057,15 +10425,17 @@ var readableTracklist = {
 	arcadeID: "E50",
 	pumpoutID: 99,
 
-	Phoenix: "=",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S22`cz D24`nm",
-	NXA_: ["", "", "22", "", "24"],
-	NX2_: ["", "", "??", "", "??"],
+	charts: {
+		Phoenix: "=",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S22`cz D24`nm",
+		NXA_: ["", "", "22", "", "24"],
+		NX2_: ["", "", "??", "", "??"],
+	},
 },
 
 
@@ -9075,7 +10445,9 @@ var readableTracklist = {
 	arcadeID: "E51",
 	pumpoutID: 597,
 
-	NX2_: ["", "8", "", "9", ""],
+	charts: {
+		NX2_: ["", "8", "", "9", ""],
+	},
 },
 
 
@@ -9085,14 +10457,16 @@ var readableTracklist = {
 	arcadeID: "E52",
 	pumpoutID: 412,
 
-	Phoenix: "= S10`8 D14`9 D19`17",
-		// TODO.Phoenix: D14`9
-	XX: "= S17`16",
-	Prime2: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S8`hd S16`cz D9`fs D17`nm",
-	NX2_: ["", "9", "14", "10", "18"],
+	charts: {
+		Phoenix: "= S10`8 D14`9 D19`17",
+			// TODO.Phoenix: D14`9
+		XX: "= S17`16",
+		Prime2: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S8`hd S16`cz D9`fs D17`nm",
+		NX2_: ["", "9", "14", "10", "18"],
+	},
 },
 
 
@@ -9102,8 +10476,10 @@ var readableTracklist = {
 	arcadeID: "E53",
 	pumpoutID: 599,
 
-	NXA_: ["", "8", "16", "9", "17"],
-	NX2_: ["5", "9", "17", "7", "19"],
+	charts: {
+		NXA_: ["", "8", "16", "9", "17"],
+		NX2_: ["5", "9", "17", "7", "19"],
+	},
 },
 
 
@@ -9113,8 +10489,10 @@ var readableTracklist = {
 	arcadeID: "E54",
 	pumpoutID: "",
 
-	NXA_: ["", "6", "13", "7", "16"],
-	NX2_: ["", "8", "15", "9", "16"],
+	charts: {
+		NXA_: ["", "6", "13", "7", "16"],
+		NX2_: ["", "8", "15", "9", "16"],
+	},
 },
 
 
@@ -9124,7 +10502,9 @@ var readableTracklist = {
 	arcadeID: "E55",
 	pumpoutID: "",
 
-	NX2_: ["", "7", "14", "", "15"],
+	charts: {
+		NX2_: ["", "7", "14", "", "15"],
+	},
 },
 
 
@@ -9134,7 +10514,9 @@ var readableTracklist = {
 	arcadeID: "E56",
 	pumpoutID: "",
 
-	NX2_: ["", "8", "", "", ""],
+	charts: {
+		NX2_: ["", "8", "", "", ""],
+	},
 },
 
 
@@ -9144,8 +10526,10 @@ var readableTracklist = {
 	arcadeID: "E57",
 	pumpoutID: "",
 
-	NXA_: ["", "5", "", "", "15"],
-	NX2_: ["", "7", "", "", "14"],
+	charts: {
+		NXA_: ["", "5", "", "", "15"],
+		NX2_: ["", "7", "", "", "14"],
+	},
 },
 
 
@@ -9155,7 +10539,9 @@ var readableTracklist = {
 	arcadeID: "E58",
 	pumpoutID: "",
 
-	NX2_: ["", "7", "18", "", "20"],
+	charts: {
+		NX2_: ["", "7", "18", "", "20"],
+	},
 },
 
 
@@ -9165,7 +10551,9 @@ var readableTracklist = {
 	arcadeID: "E59",
 	pumpoutID: "",
 
-	NX2_: ["", "7", "13", "", "13"],
+	charts: {
+		NX2_: ["", "7", "13", "", "13"],
+	},
 },
 
 
@@ -9175,8 +10563,10 @@ var readableTracklist = {
 	arcadeID: "E60",
 	pumpoutID: "",
 
-	NXA_: ["", "4", "9", "5", ""],
-	NX2_: ["", "4", "12", "5", ""],
+	charts: {
+		NXA_: ["", "4", "9", "5", ""],
+		NX2_: ["", "4", "12", "5", ""],
+	},
 },
 
 
@@ -9191,7 +10581,9 @@ var readableTracklist = {
 	arcadeID: "E70",
 	pumpoutID: "",
 
-	NX2_: ["", "8", "19", "", "20"],
+	charts: {
+		NX2_: ["", "8", "19", "", "20"],
+	},
 },
 
 
@@ -9201,7 +10593,9 @@ var readableTracklist = {
 	arcadeID: "E71",
 	pumpoutID: "",
 
-	NX2_: ["", "6", "14", "", ""],
+	charts: {
+		NX2_: ["", "6", "14", "", ""],
+	},
 },
 
 
@@ -9211,8 +10605,10 @@ var readableTracklist = {
 	arcadeID: "E72",
 	pumpoutID: "",
 
-	NXA_: ["1", "3", "", "4", ""],
-	NX2_: ["1", "4", "", "4", ""],
+	charts: {
+		NXA_: ["1", "3", "", "4", ""],
+		NX2_: ["1", "4", "", "4", ""],
+	},
 },
 
 
@@ -9222,7 +10618,9 @@ var readableTracklist = {
 	arcadeID: "E73",
 	pumpoutID: "",
 
-	NX2_: ["", "", "18", "", ""],
+	charts: {
+		NX2_: ["", "", "18", "", ""],
+	},
 },
 
 
@@ -9232,8 +10630,10 @@ var readableTracklist = {
 	arcadeID: "E74",
 	pumpoutID: "",
 
-	NXA_: ["1", "4", "", "4", ""],
-	NX2_: ["2", "6", "", "6", ""],
+	charts: {
+		NXA_: ["1", "4", "", "4", ""],
+		NX2_: ["2", "6", "", "6", ""],
+	},
 },
 
 
@@ -9246,10 +10646,12 @@ var readableTracklist = {
 	arcadeID: "E76",
 	pumpoutID: 401,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S10`hd S15`cz D17`nm  D16",
-	NX2_: ["", "10", "15", "", "17"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S10`hd S15`cz D17`nm  D16",
+		NX2_: ["", "10", "15", "", "17"],
+	},
 },
 
 
@@ -9259,8 +10661,10 @@ var readableTracklist = {
 	arcadeID: "E77",
 	pumpoutID: "",
 
-	NXA_: ["", "2", "", "3", ""],
-	NX2_: ["", "5", "", "5", ""],
+	charts: {
+		NXA_: ["", "2", "", "3", ""],
+		NX2_: ["", "5", "", "5", ""],
+	},
 },
 
 
@@ -9271,7 +10675,9 @@ var readableTracklist = {
 	arcadeID: "E92",
 	pumpoutID: "",
 
-	NX2: ["1", "6", "11", "4", "15"],
+	charts: {
+		NX2: ["1", "6", "11", "4", "15"],
+	},
 },
 
 
@@ -9282,7 +10688,9 @@ var readableTracklist = {
 	arcadeID: "E93",
 	pumpoutID: "",
 
-	NX2: ["2", "6", "10", "4", "15"],
+	charts: {
+		NX2: ["2", "6", "10", "4", "15"],
+	},
 },
 
 
@@ -9293,7 +10701,9 @@ var readableTracklist = {
 	arcadeID: "E94",
 	pumpoutID: "",
 
-	NX2: ["2", "6", "11", "3", "14"],
+	charts: {
+		NX2: ["2", "6", "11", "3", "14"],
+	},
 },
 
 
@@ -9304,7 +10714,9 @@ var readableTracklist = {
 	arcadeID: "E95",
 	pumpoutID: "",
 
-	NX2: ["3", "6", "13", "4", "15"],
+	charts: {
+		NX2: ["3", "6", "13", "4", "15"],
+	},
 },
 
 
@@ -9315,7 +10727,9 @@ var readableTracklist = {
 	arcadeID: "E96",
 	pumpoutID: "",
 
-	NX2: ["1", "4", "11", "3", "10"],
+	charts: {
+		NX2: ["1", "4", "11", "3", "10"],
+	},
 },
 
 
@@ -9326,7 +10740,9 @@ var readableTracklist = {
 	arcadeID: "E97",
 	pumpoutID: "",
 
-	NX2: ["4", "4", "10", "4", "11"],
+	charts: {
+		NX2: ["4", "4", "10", "4", "11"],
+	},
 },
 
 
@@ -9337,7 +10753,9 @@ var readableTracklist = {
 	arcadeID: "E99",
 	pumpoutID: "",
 
-	NX2: ["3", "6", "10", "4", "17"],
+	charts: {
+		NX2: ["3", "6", "10", "4", "17"],
+	},
 },
 
 
@@ -9350,15 +10768,17 @@ var readableTracklist = {
 	arcadeID: "E928",
 	pumpoutID: 44,
 
-	Phoenix: "= S12`11 D15`14",
-	XX: "= S11`8 D14`13",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S8`hd S21`cz D13`fs",
-	NXA_: ["", "8", "21", "13", ""],
-	NX2_: ["", "10", "", "11", ""],
+	charts: {
+		Phoenix: "= S12`11 D15`14",
+		XX: "= S11`8 D14`13",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S8`hd S21`cz D13`fs",
+		NXA_: ["", "8", "21", "13", ""],
+		NX2_: ["", "10", "", "11", ""],
+	},
 },
 
 
@@ -9386,17 +10806,20 @@ var readableTracklist = {
 	arcadeID: "D01",
 	pumpoutID: 100,
 
-	Phoenix: "= S17`16 S18`17 -Sp3 -Dp7",
-	XX: "= S16`15 S17`16 S19`18 D21`19",
-	// D21-XX - https://www.youtube.com/watch?v=Wj_1xUDGHa0
-	// D19-Fiesta - https://www.youtube.com/watch?v=5m6r65QmAjg
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "Sp3`nl S9`hd S15`cz Dp7`fs D20`nm  S16`ahd-NX2 S18`acz-NX2 D17`afs-NX2 D19`anm-NX2   @1.51 S2 S5 S8",
-	NXA: ["3", "7", "14", "5", "19"], NXA_: ["", "7", "18", "7", "20"],
-	NX2: ["3", "7", "14", "5", "19"], NX2_: ["", "18", "20", "19", "21"],
-	NX: ["*1.5", "*3.5", "*7", "*2.5", "@4"], NX_: ["", "17", "18", "20", ""],  //??? another added at NX 1.08
+	charts: {
+		Phoenix: "= S17`16 S18`17 -Sp3 -Dp7",
+		XX: "= S16`15 S17`16 S19`18 D21`19",
+			// D21-XX - https://www.youtube.com/watch?v=Wj_1xUDGHa0
+			// D19-Fiesta - https://www.youtube.com/watch?v=5m6r65QmAjg
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "Sp3`nl S9`hd S15`cz Dp7`fs D20`nm  S16`ahd-NX2 S18`acz-NX2 D17`afs-NX2 D19`anm-NX2   @1.51 S2 S5 S8",
+		NXA: ["3", "7", "14", "5", "19"], NXA_: ["", "7", "18", "7", "20"],
+		NX2: ["3", "7", "14", "5", "19"], NX2_: ["", "18", "20", "19", "21"],
+		NX: ["*1.5", "*3.5", "*7", "*2.5", "@4"], NX_: ["", "17", "18", "20", ""],
+		  //??? another added at NX 1.08
+	},
 },
 
 
@@ -9406,15 +10829,17 @@ var readableTracklist = {
 	arcadeID: "D02",
 	pumpoutID: 101,
 
-	Phoenix: "= -S4 -S8 -D7 -D20",
-	XX: "= S15`14 S17`16",
-	Prime2: "=  @2.05 D20",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "S4`nl S8`hd S14`cz D7`fs D18`nm  S16`acz  @1.51 S2 S5",
-	NXA: ["3", "7", "14", "4", "16"], NXA_: ["", "", "17", "", ""],
-	NX2: ["3", "7", "14", "4", "17"],
-	NX: ["*1.5", "*3.5", "*7", "*2", "@2"],
+	charts: {
+		Phoenix: "= -S4 -S8 -D7 -D20",
+		XX: "= S15`14 S17`16",
+		Prime2: "=  @2.05 D20",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "S4`nl S8`hd S14`cz D7`fs D18`nm  S16`acz  @1.51 S2 S5",
+		NXA: ["3", "7", "14", "4", "16"], NXA_: ["", "", "17", "", ""],
+		NX2: ["3", "7", "14", "4", "17"],
+		NX: ["*1.5", "*3.5", "*7", "*2", "@2"],
+	},
 },
 
 
@@ -9424,17 +10849,20 @@ var readableTracklist = {
 	arcadeID: "D03",
 	pumpoutID: 102,
 
-	Phoenix: "= S13`12 D18`16",
-	XX: "= S9`7 S12`11 S19`16 D26`25  @2.03  D22",  //??? S19.updated (something with ending?)
-	// S19-XX - https://www.youtube.com/watch?v=ieMFtCNbSac
-	Prime2: "=",
-	Prime: "= CoOp(x2)`Dp??(x2) -D??(x3)",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S7`nl S16`hd S23`cz D25`nm  D16`afs Dp??(x2).new  S4.new S11.new S18.new D??(x3)`anm",
-	NXA: ["7", "16", "23", "21", "??(25)"], NXA_: ["", "16", "19", "16", "??(x3)"],
-	NX2: ["8", "17", "23", "20", "??(25)"], NX2_: ["", "13", "20", "15", "??(x3)"],
-	NX: ["*4", "@1(16)", "@7", "@5", "??(24)"], NX_: ["", "*6.5", "", "@1(15)", "??(x3)"],
+	charts: {
+		Phoenix: "= S13`12 D18`16",
+		XX: "= S9`7 S12`11 S19`16 D26`25  @2.03  D22",
+			//??? S19.updated (something with ending?)
+			// S19-XX - https://www.youtube.com/watch?v=ieMFtCNbSac
+		Prime2: "=",
+		Prime: "= CoOp(x2)`Dp??(x2) -D??(x3)",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S7`nl S16`hd S23`cz D25`nm  D16`afs Dp??(x2).new  S4.new S11.new S18.new D??(x3)`anm",
+		NXA: ["7", "16", "23", "21", "??(25)"], NXA_: ["", "16", "19", "16", "??(x3)"],
+		NX2: ["8", "17", "23", "20", "??(25)"], NX2_: ["", "13", "20", "15", "??(x3)"],
+		NX: ["*4", "@1(16)", "@7", "@5", "??(24)"], NX_: ["", "*6.5", "", "@1(15)", "??(x3)"],
+	},
 },
 
 
@@ -9444,8 +10872,10 @@ var readableTracklist = {
 	arcadeID: "D04",
 	pumpoutID: "",
 
-	NX2: ["1", "4", "9", "4", "10"],
-	NX: ["*0.5", "*2", "*4", "*2", "*5"],
+	charts: {
+		NX2: ["1", "4", "9", "4", "10"],
+		NX: ["*0.5", "*2", "*4", "*2", "*5"],
+	},
 },
 
 
@@ -9455,11 +10885,13 @@ var readableTracklist = {
 	arcadeID: "D05",
 	pumpoutID: 400,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp3`nl S14`cz Dp4`fs D16`nm  S1.new S3.new S6.new",
-	NX2: ["3", "5", "14", "4", "16"],
-	NX: ["*1.5", "*2.5", "*7", "*2", "@1(16)"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp3`nl S14`cz Dp4`fs D16`nm  S1.new S3.new S6.new",
+		NX2: ["3", "5", "14", "4", "16"],
+		NX: ["*1.5", "*2.5", "*7", "*2", "@1(16)"],
+	},
 },
 
 
@@ -9469,12 +10901,14 @@ var readableTracklist = {
 	arcadeID: "D06",
 	pumpoutID: 417,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp2`nl S5`hd S13`cz Dp4`fs D14`nm",
-	NXA: ["2", "5", "13", "4", "14"],
-	NX2: ["2", "5", "13", "4", "14"],
-	NX: ["*1", "*2.5", "*6.5", "*2", "*7"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp2`nl S5`hd S13`cz Dp4`fs D14`nm",
+		NXA: ["2", "5", "13", "4", "14"],
+		NX2: ["2", "5", "13", "4", "14"],
+		NX: ["*1", "*2.5", "*6.5", "*2", "*7"],
+	},
 },
 
 
@@ -9484,8 +10918,10 @@ var readableTracklist = {
 	arcadeID: "D07",
 	pumpoutID: "",
 
-	NX2: ["3", "6", "14", "4", "18"],
-	NX: ["*1.5", "*3", "*7", "*2", "@3"], NX_: ["", "", "", "*2.5", ""],
+	charts: {
+		NX2: ["3", "6", "14", "4", "18"],
+		NX: ["*1.5", "*3", "*7", "*2", "@3"], NX_: ["", "", "", "*2.5", ""],
+	},
 },
 
 
@@ -9495,8 +10931,10 @@ var readableTracklist = {
 	arcadeID: "D08",
 	pumpoutID: "",
 
-	NX2: ["4", "7", "15", "8", "18"], NX2_: ["", "", "", "5", ""],
-	NX: ["*2", "*3.5", "@1", "*4", "@3"],
+	charts: {
+		NX2: ["4", "7", "15", "8", "18"], NX2_: ["", "", "", "5", ""],
+		NX: ["*2", "*3.5", "@1", "*4", "@3"],
+	},
 },
 
 
@@ -9506,8 +10944,10 @@ var readableTracklist = {
 	arcadeID: "D09",
 	pumpoutID: "",
 
-	NX2: ["4", "5", "12", "4", "13"],
-	NX: ["*2", "*2.5", "*6", "*2", "*6.5"],
+	charts: {
+		NX2: ["4", "5", "12", "4", "13"],
+		NX: ["*2", "*2.5", "*6", "*2", "*6.5"],
+	},
 },
 
 
@@ -9517,8 +10957,10 @@ var readableTracklist = {
 	arcadeID: "D10",
 	pumpoutID: "",
 
-	NX2: ["3", "6", "13", "5", "16"],
-	NX: ["*1.5", "*3", "*6.5", "*2.5", "@1"],
+	charts: {
+		NX2: ["3", "6", "13", "5", "16"],
+		NX: ["*1.5", "*3", "*6.5", "*2.5", "@1"],
+	},
 },
 
 
@@ -9527,8 +10969,11 @@ var readableTracklist = {
 	title: "For You", artist: "N.EX.T", channel: KPOP, bpm: "160",
 	arcadeID: "D11",
 	pumpoutID: 883,
-	NX2: ["1", "5", "14", "5", "20"], NX2_: ["", "", "", "13", ""],
-	NX: ["*0.5", "*2.5", "*7", "*2.5", "@5"], NX_: ["", "", "", "*7", ""],
+
+	charts: {
+		NX2: ["1", "5", "14", "5", "20"], NX2_: ["", "", "", "13", ""],
+		NX: ["*0.5", "*2.5", "*7", "*2.5", "@5"], NX_: ["", "", "", "*7", ""],
+	},
 },
 
 
@@ -9538,8 +10983,10 @@ var readableTracklist = {
 	arcadeID: "D12",
 	pumpoutID: 892,
 
-	NX2: ["3", "5", "13", "7", "13"], NX2_: ["", "", "", "6", ""],
-	NX: ["*1.5", "*2.5", "*6.5", "*3.5", "*6.5"],
+	charts: {
+		NX2: ["3", "5", "13", "7", "13"], NX2_: ["", "", "", "6", ""],
+		NX: ["*1.5", "*2.5", "*6.5", "*3.5", "*6.5"],
+	},
 },
 
 
@@ -9549,8 +10996,10 @@ var readableTracklist = {
 	arcadeID: "D13",
 	pumpoutID: "",
 
-	NX2: ["2", "4", "18", "3", "15"], NX2_: ["", "", "13", "", "14"],
-	NX: ["*1", "*2", "@3", "*1.5", "@1"],
+	charts: {
+		NX2: ["2", "4", "18", "3", "15"], NX2_: ["", "", "13", "", "14"],
+		NX: ["*1", "*2", "@3", "*1.5", "@1"],
+	},
 },
 
 
@@ -9560,12 +11009,14 @@ var readableTracklist = {
 	arcadeID: "D14",
 	pumpoutID: 392,
 
-	Phoenix: "= D14`13 -Dp5",
-	XX: "= S9`10",
-	Prime2: "=",
-	Fiesta2: "=",
-	FiestaEX: "S3`nl S10`hd S12`cz  Dp5`fs D13`nm  @1.30 S15.new",
-	NX: ["*1", "*3.5", "*5", "*2", "*6.5"],
+	charts: {
+		Phoenix: "= D14`13 -Dp5",
+		XX: "= S9`10",
+		Prime2: "=",
+		Fiesta2: "=",
+		FiestaEX: "S3`nl S10`hd S12`cz  Dp5`fs D13`nm  @1.30 S15.new",
+		NX: ["*1", "*3.5", "*5", "*2", "*6.5"],
+	},
 },
 
 
@@ -9577,14 +11028,16 @@ var readableTracklist = {
 	arcadeID: "D15",
 	pumpoutID: 103,
 
-	Phoenix: "= S17`15 D20`19 -Dp8",
-	XX: "= S15`14 D19`18",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "S4`nl S6`hd S14`cz Dp8`fs D18`nm",
-	NX2: ["3", "4", "15", "7", "18"],
-	NX: ["*1.5", "*2", "@1", "*3.5", "@3"],
+	charts: {
+		Phoenix: "= S17`15 D20`19 -Dp8",
+		XX: "= S15`14 D19`18",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "S4`nl S6`hd S14`cz Dp8`fs D18`nm",
+		NX2: ["3", "4", "15", "7", "18"],
+		NX: ["*1.5", "*2", "@1", "*3.5", "@3"],
+	},
 },
 
 
@@ -9594,14 +11047,16 @@ var readableTracklist = {
 	arcadeID: "D16",
 	pumpoutID: 104,
 
-	Phoenix: "=",
-	XX: "= S9`11 S20`18 D9`11 D24`22",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "S5 S11 S18`cz D11 D22`nm   S17`acz D18`anm",  //? nl hd fs, и проверить аркаду для NX2
-	                                NX2_: ["", "", "18", "", "19"],
-	NX: ["*1", "*4", "@3", "*3", "@7"], NX_: ["", "", "@2", "", "@3"],
+	charts: {
+		Phoenix: "=",
+		XX: "= S9`11 S20`18 D9`11 D24`22",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "S5 S11 S18`cz D11 D22`nm   S17`acz D18`anm",  //? nl hd fs, и проверить аркаду для NX2
+			                                NX2_: ["", "", "18", "", "19"],
+		NX: ["*1", "*4", "@3", "*3", "@7"], NX_: ["", "", "@2", "", "@3"],
+	},
 },
 
 
@@ -9611,15 +11066,17 @@ var readableTracklist = {
 	arcadeID: "D17",
 	pumpoutID: 105,
 
-	Phoenix: "= S11`9 S15`14 S17`16 D12`9",
-	XX: "= S9`8 D18`17  @2.03  S14",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S4",
-	Fiesta: "S5`nl S8`hd S16`cz D9`fs D21`nm  @1.10 D17.new",
-	NX2: ["4", "8", "16", "6", "20"],
-	NX: ["*2", "*4", "@1", "*3", "@5"],
+	charts: {
+		Phoenix: "= S11`9 S15`14 S17`16 D12`9",
+		XX: "= S9`8 D18`17  @2.03  S14",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S4",
+		Fiesta: "S5`nl S8`hd S16`cz D9`fs D21`nm  @1.10 D17.new",
+		NX2: ["4", "8", "16", "6", "20"],
+		NX: ["*2", "*4", "@1", "*3", "@5"],
+	},
 },
 
 
@@ -9629,16 +11086,18 @@ var readableTracklist = {
 	arcadeID: "D18",
 	pumpoutID: 106,
 
-	Phoenix: "= S10`9 D17`15",
-	XX: "= D15`11 D18`15  @2.07 S17",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S3 S5 S9",
-	Fiesta: "D11`afs D15`anm",
-	NXA_: ["", "", "", "11", "15"],
-	NX2_: ["", "", "", "15", "15"],
-	NX: ["*0.5", "*2", "*6.5", "*2.5", "*7"],
+	charts: {
+		Phoenix: "= S10`9 D17`15",
+		XX: "= D15`11 D18`15  @2.07 S17",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S3 S5 S9",
+		Fiesta: "D11`afs D15`anm",
+		NXA_: ["", "", "", "11", "15"],
+		NX2_: ["", "", "", "15", "15"],
+		NX: ["*0.5", "*2", "*6.5", "*2.5", "*7"],
+	},
 },
 
 
@@ -9649,8 +11108,10 @@ var readableTracklist = {
 	arcadeID: "D19",
 	pumpoutID: "",
 
-	NX2: ["3", "6", "19", "6", "20"],
-	NX: ["*1.5", "*3", "@4", "*3", "@4"],
+	charts: {
+		NX2: ["3", "6", "19", "6", "20"],
+		NX: ["*1.5", "*3", "@4", "*3", "@4"],
+	},
 },
 
 
@@ -9660,8 +11121,10 @@ var readableTracklist = {
 	arcadeID: "D20",
 	pumpoutID: "",
 
-	NX2: ["2", "5", "11", "3", "13"],
-	NX: ["*1", "*2.5", "*5.5", "*1.5", "*6.5"],
+	charts: {
+		NX2: ["2", "5", "11", "3", "13"],
+		NX: ["*1", "*2.5", "*5.5", "*1.5", "*6.5"],
+	},
 },
 
 
@@ -9671,8 +11134,10 @@ var readableTracklist = {
 	arcadeID: "D21",
 	pumpoutID: "",
 
-	NX2: ["1", "6", "12", "2", "12"], NX2_: ["12", "13", "15", "14", "16"],
-	NX: ["*0.5", "*3", "*6", "*1", "*6"],
+	charts: {
+		NX2: ["1", "6", "12", "2", "12"], NX2_: ["12", "13", "15", "14", "16"],
+		NX: ["*0.5", "*3", "*6", "*1", "*6"],
+	},
 },
 
 
@@ -9682,8 +11147,10 @@ var readableTracklist = {
 	arcadeID: "D22",
 	pumpoutID: "",
 
-	NX2: ["2", "4", "12", "4", "14"],
-	NX: ["*1", "*2", "*6", "*2", "*7"],
+	charts: {
+		NX2: ["2", "4", "12", "4", "14"],
+		NX: ["*1", "*2", "*6", "*2", "*7"],
+	},
 },
 
 
@@ -9693,12 +11160,14 @@ var readableTracklist = {
 	arcadeID: "D23",
 	pumpoutID: 407,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp2`nl S4`hd S11`cz Dp4`fs D13`nm",
-	NXA: ["2", "4", "11", "4", "13"],
-	NX2: ["2", "4", "11", "4", "13"],
-	NX: ["*1", "*2", "*5.5", "*2", "*6.5"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp2`nl S4`hd S11`cz Dp4`fs D13`nm",
+		NXA: ["2", "4", "11", "4", "13"],
+		NX2: ["2", "4", "11", "4", "13"],
+		NX: ["*1", "*2", "*5.5", "*2", "*6.5"],
+	},
 },
 
 
@@ -9708,8 +11177,10 @@ var readableTracklist = {
 	arcadeID: "D24",
 	pumpoutID: "",
 
-	NX2: ["2", "5", "14", "5", "15"],
-	NX: ["*1", "*2.5", "*7", "*2.5", "@1"],
+	charts: {
+		NX2: ["2", "5", "14", "5", "15"],
+		NX: ["*1", "*2.5", "*7", "*2.5", "@1"],
+	},
 },
 
 
@@ -9718,8 +11189,11 @@ var readableTracklist = {
 	title: "Bust Back", artist: "DVS", channel: WORLD, bpm: "94",
 	arcadeID: "D25",
 	pumpoutID: 882,
-	//??? NX2:
-	NX: ["*1.5", "*3", "*6", "*2.5", "*6.5"],
+
+	charts: {
+		//??? NX2:
+		NX: ["*1.5", "*3", "*6", "*2.5", "*6.5"],
+	},
 },
 
 
@@ -9729,12 +11203,14 @@ var readableTracklist = {
 	arcadeID: "D26",
 	pumpoutID: 406,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp2`nl S4`hd S9`cz Dp4`fs D11`nm",
-	NXA: ["2", "4", "9", "4", "11"],
-	NX2: ["2", "4", "9", "4", "11"],
-	NX: ["*1", "*2", "*4.5", "*2", "*5.5"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp2`nl S4`hd S9`cz Dp4`fs D11`nm",
+		NXA: ["2", "4", "9", "4", "11"],
+		NX2: ["2", "4", "9", "4", "11"],
+		NX: ["*1", "*2", "*4.5", "*2", "*5.5"],
+	},
 },
 
 
@@ -9745,12 +11221,14 @@ var readableTracklist = {
 	arcadeID: "D27",
 	pumpoutID: 424,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp3`nl S5`hd S15`cz Dp6`fs D19`nm",
-	NXA: ["3", "5", "15", "6", "19"],
-	NX2: ["4", "5", "14", "6", "19"],
-	NX: ["*2", "*2.5", "*7", "*3", "@4"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp3`nl S5`hd S15`cz Dp6`fs D19`nm",
+		NXA: ["3", "5", "15", "6", "19"],
+		NX2: ["4", "5", "14", "6", "19"],
+		NX: ["*2", "*2.5", "*7", "*3", "@4"],
+	},
 },
 
 
@@ -9762,17 +11240,20 @@ var readableTracklist = {
 	arcadeID: "D28",
 	pumpoutID: 107,
 
-	Phoenix: "= S19`18",
-	XX: "= S8`7 S22`20 D12`9 D22`21 D23`22",  //??? S22.updated
-	// S22-XX - https://www.youtube.com/watch?v=Rbcztfs6jx4
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S3`nl S7`hd S20`cz D9`fs D22`nm  S18`ahd S21`acz D21`anm  @1.10 S4.new",
-	NXA: ["3", "7", "20", "9", "22"], NXA_: ["", "19", "21", "", "22"],
-	NX2: ["3", "7", "20", "9", "22"], NX2_: ["", "", "20", "", "22"],
-	NX: ["*1.5", "*3.5", "@5", "*4.5", "@7"], NX_: ["", "", "@5", "", "@6"],
+	charts: {
+		Phoenix: "= S19`18",
+		XX: "= S8`7 S22`20 D12`9 D22`21 D23`22",
+			//??? S22.updated
+			// S22-XX - https://www.youtube.com/watch?v=Rbcztfs6jx4
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S3`nl S7`hd S20`cz D9`fs D22`nm  S18`ahd S21`acz D21`anm  @1.10 S4.new",
+		NXA: ["3", "7", "20", "9", "22"], NXA_: ["", "19", "21", "", "22"],
+		NX2: ["3", "7", "20", "9", "22"], NX2_: ["", "", "20", "", "22"],
+		NX: ["*1.5", "*3.5", "@5", "*4.5", "@7"], NX_: ["", "", "@5", "", "@6"],
+	},
 },
 
 
@@ -9782,7 +11263,9 @@ var readableTracklist = {
 	arcadeID: "D29",
 	pumpoutID: "",
 
-	NX2_: ["", "12", "15", "13", "15"],
+	charts: {
+		NX2_: ["", "12", "15", "13", "15"],
+	},
 },
 
 
@@ -9794,18 +11277,21 @@ var readableTracklist = {
 	arcadeID: "D30",
 	pumpoutID: 108,
 
-	Phoenix: "=",
-	XX: "= S8`7 S17`16 S18`17 D19`18",  //??? S18.updated
-	// S18-XX - https://www.youtube.com/watch?v=Y3y2gjcy4d8
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S7`nl S16`hd S22`cz D24`nm  S17`ahd S21`acz D18`afs D23`anm",
-	NXA: ["7", "16", "22", "18", "24"], NXA_: ["", "16", "21", "18", "23"],
-	NX2: ["7", "16", "22", "18", "24"], NX2_: ["", "16", "21", "18", "??"],
-	NX: ["*3.5", "@1(16)", "@6", "@3", "??(24)"], NX_: ["", "", "@6", "@3", "??"],
-	//??? notes: ["arcade unlock on NX, play 2-1 200 times"],
+	charts: {
+		Phoenix: "=",
+		XX: "= S8`7 S17`16 S18`17 D19`18",
+			//??? S18.updated
+			// S18-XX - https://www.youtube.com/watch?v=Y3y2gjcy4d8
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S7`nl S16`hd S22`cz D24`nm  S17`ahd S21`acz D18`afs D23`anm",
+		NXA: ["7", "16", "22", "18", "24"], NXA_: ["", "16", "21", "18", "23"],
+		NX2: ["7", "16", "22", "18", "24"], NX2_: ["", "16", "21", "18", "??"],
+		NX: ["*3.5", "@1(16)", "@6", "@3", "??(24)"], NX_: ["", "", "@6", "@3", "??"],
+			//??? notes: ["arcade unlock on NX, play 2-1 200 times"],
+	},
 },
 
 
@@ -9815,11 +11301,13 @@ var readableTracklist = {
 	arcadeID: "D31",
 	pumpoutID: 416,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S8`hd S14`cz D9`fs D16`nm",
-	NX2_: ["", "8", "15", "9", "17"],
-	NX_: ["", "*4", "@1", "*4.5", "@1"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S8`hd S14`cz D9`fs D16`nm",
+		NX2_: ["", "8", "15", "9", "17"],
+		NX_: ["", "*4", "@1", "*4.5", "@1"],
+	},
 },
 
 
@@ -9829,13 +11317,15 @@ var readableTracklist = {
 	arcadeID: "D32",
 	pumpoutID: 116,
 
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S5`hd S14`cz Dp5`fs D15`nm",
-	NXA_: ["", "5", "14", "5", "15"],
-	NX2_: ["", "7", "13", "6", "15"],
-	NX_: ["", "*2.5", "*6", "*3", "*7"],
+	charts: {
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S5`hd S14`cz Dp5`fs D15`nm",
+		NXA_: ["", "5", "14", "5", "15"],
+		NX2_: ["", "7", "13", "6", "15"],
+		NX_: ["", "*2.5", "*6", "*3", "*7"],
+	},
 },
 
 
@@ -9845,8 +11335,10 @@ var readableTracklist = {
 	arcadeID: "D33",
 	pumpoutID: "",
 
-	NX2_: ["", "8", "15", "", "16"],
-	NX_: ["", "*4", "*7", "", "@1"],
+	charts: {
+		NX2_: ["", "8", "15", "", "16"],
+		NX_: ["", "*4", "*7", "", "@1"],
+	},
 },
 
 
@@ -9856,16 +11348,18 @@ var readableTracklist = {
 	arcadeID: "D34",
 	pumpoutID: 109,
 
-	Phoenix: "= S17`15 D17`16",
-	XX: "= D16`15 D24`23",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S15`hd S21`cz D15`fs D23`nm",
-	NXA_: ["", "15", "21", "15", "23"],
-	NX2_: ["", "16", "21", "19", "??"],
-	NX_: ["", "@1", "@6", "@2", "@8"],
+	charts: {
+		Phoenix: "= S17`15 D17`16",
+		XX: "= D16`15 D24`23",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S15`hd S21`cz D15`fs D23`nm",
+		NXA_: ["", "15", "21", "15", "23"],
+		NX2_: ["", "16", "21", "19", "??"],
+		NX_: ["", "@1", "@6", "@2", "@8"],
+	},
 },
 
 
@@ -9875,16 +11369,18 @@ var readableTracklist = {
 	arcadeID: "D35",
 	pumpoutID: 110,
 
-	Phoenix: "=",
-	XX: "= S17`16",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S16`hd S24`cz D18`fs D26`nm",
-	NXA_: ["", "16", "24", "18", "25"],
-	NX2_: ["", "15", "24", "18", "??"],
-	NX_: ["", "*7", "@7", "@3", "??"],
+	charts: {
+		Phoenix: "=",
+		XX: "= S17`16",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S16`hd S24`cz D18`fs D26`nm",
+		NXA_: ["", "16", "24", "18", "25"],
+		NX2_: ["", "15", "24", "18", "??"],
+		NX_: ["", "*7", "@7", "@3", "??"],
+	},
 },
 
 
@@ -9895,10 +11391,12 @@ var readableTracklist = {
 	arcadeID: "D36",
 	pumpoutID: 767,
 
-	Phoenix: "=",
-	XX: "S15`hd S21`cz  D16`fs D22`nm",
-	NX2_: ["", "14", "19", "15", "20"],
-	NX_: ["", "*5.5", "@4", "*6.5", "@5"],
+	charts: {
+		Phoenix: "=",
+		XX: "S15`hd S21`cz  D16`fs D22`nm",
+		NX2_: ["", "14", "19", "15", "20"],
+		NX_: ["", "*5.5", "@4", "*6.5", "@5"],
+	},
 },
 
 
@@ -9908,7 +11406,9 @@ var readableTracklist = {
 	arcadeID: "D37",
 	pumpoutID: "",
 
-	NX_: ["", "*5", "@1", "*5.5", "@2"],
+	charts: {
+		NX_: ["", "*5", "@1", "*5.5", "@2"],
+	},
 },
 
 
@@ -9918,8 +11418,10 @@ var readableTracklist = {
 	arcadeID: "D38",
 	pumpoutID: "",
 
-	NX2_: ["", "9", "15", "10", "19"],
-	NX_: ["", "*4", "*7", "*4.5", "@1"],
+	charts: {
+		NX2_: ["", "9", "15", "10", "19"],
+		NX_: ["", "*4", "*7", "*4.5", "@1"],
+	},
 },
 
 
@@ -9929,8 +11431,10 @@ var readableTracklist = {
 	arcadeID: "D39",
 	pumpoutID: "",
 
-	NX2_: ["", "", "19", "", "20"],
-	NX_: ["", "", "@3", "(-)", "@5"],
+	charts: {
+		NX2_: ["", "", "19", "", "20"],
+		NX_: ["", "", "@3", "(-)", "@5"],
+	},
 },
 
 
@@ -9940,8 +11444,10 @@ var readableTracklist = {
 	arcadeID: "D40",
 	pumpoutID: "",
 
-	NX2_: ["", "6", "", "7", ""],
-	NX_: ["", "*2.5", "(-)", "*3", "(-)"],
+	charts: {
+		NX2_: ["", "6", "", "7", ""],
+		NX_: ["", "*2.5", "(-)", "*3", "(-)"],
+	},
 },
 
 
@@ -9951,16 +11457,18 @@ var readableTracklist = {
 	arcadeID: "D41",
 	pumpoutID: 111,
 
-	Phoenix: "= S20`19",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S19`cz D21`nm",
-	NXA_: ["", "", "19", "", "21"],
-	NX2_: ["", "", "19", "", "21"],
-	NX_: ["", "(-)", "@3", "(-)", "@5"],
+	charts: {
+		Phoenix: "= S20`19",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S19`cz D21`nm",
+		NXA_: ["", "", "19", "", "21"],
+		NX2_: ["", "", "19", "", "21"],
+		NX_: ["", "(-)", "@3", "(-)", "@5"],
+	},
 },
 
 
@@ -9970,16 +11478,18 @@ var readableTracklist = {
 	arcadeID: "D42",
 	pumpoutID: 112,
 
-	Phoenix: "= S21`20",
-	XX: "= S20`19 D21`20",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S19`cz D20`nm",
-	NXA_: ["", "", "19", "", "20"],
-	NX2_: ["", "", "19", "", "21"],
-	NX_: ["", "(-)", "@5", "", "@6"],
+	charts: {
+		Phoenix: "= S21`20",
+		XX: "= S20`19 D21`20",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S19`cz D20`nm",
+		NXA_: ["", "", "19", "", "20"],
+		NX2_: ["", "", "19", "", "21"],
+		NX_: ["", "(-)", "@5", "", "@6"],
+	},
 },
 
 
@@ -9989,8 +11499,10 @@ var readableTracklist = {
 	arcadeID: "D43",
 	pumpoutID: "",
 
-	NX2_: ["", "7", "16", "8", "18"],
-	NX_: ["", "*3.5", "@1", "*4", "@3"],
+	charts: {
+		NX2_: ["", "7", "16", "8", "18"],
+		NX_: ["", "*3.5", "@1", "*4", "@3"],
+	},
 },
 
 
@@ -10011,17 +11523,19 @@ var readableTracklist = {
 	arcadeID: "C01",
 	pumpoutID: 47,
 
-	Phoenix: "= S7`6 S11`10 S17`16 D15`14",
-	XX: "= S21.new D14`12 D20`19",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S4 S6",
-	Fiesta: "S5`nl S10`hd S16`cz D12`fs D19`nm",
-	NXA: ["5", "10", "16", "12", "19"],
-	NX2: ["4", "9", "16", "11", "19"],
-	NX: ["*2", "*4.5", "@1", "*5.5", "@4"],
-	Zero: ["3", "8", "17", "9", "20"],
+	charts: {
+		Phoenix: "= S7`6 S11`10 S17`16 D15`14",
+		XX: "= S21.new D14`12 D20`19",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S4 S6",
+		Fiesta: "S5`nl S10`hd S16`cz D12`fs D19`nm",
+		NXA: ["5", "10", "16", "12", "19"],
+		NX2: ["4", "9", "16", "11", "19"],
+		NX: ["*2", "*4.5", "@1", "*5.5", "@4"],
+		Zero: ["3", "8", "17", "9", "20"],
+	},
 },
 
 
@@ -10031,17 +11545,19 @@ var readableTracklist = {
 	arcadeID: "C02",
 	pumpoutID: 48,
 
-	Phoenix: "= S11`10 D12`11",
-	XX: "= S8`7",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S4",
-	Fiesta: "S10`hd S19`cz D11`fs D21`nm  S18`acz D20`anm  S7.new",
-	NXA: ["", "10", "19", "11", "21"], NXA_: ["", "", "19", "", "21"],
-	NX2: ["", "8", "19", "11", "21"],
-	NX: ["", "*4", "@4", "*5.5", "@6"],
-	Zero: ["", "7", "18", "8", "21"],
+	charts: {
+		Phoenix: "= S11`10 D12`11",
+		XX: "= S8`7",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S4",
+		Fiesta: "S10`hd S19`cz D11`fs D21`nm  S18`acz D20`anm  S7.new",
+		NXA: ["", "10", "19", "11", "21"], NXA_: ["", "", "19", "", "21"],
+		NX2: ["", "8", "19", "11", "21"],
+		NX: ["", "*4", "@4", "*5.5", "@6"],
+		Zero: ["", "7", "18", "8", "21"],
+	},
 },
 
 
@@ -10051,17 +11567,20 @@ var readableTracklist = {
 	arcadeID: "C03",
 	pumpoutID: 49,
 
-	Phoenix: "= S11`10",
-	XX: "= S17`16 D22`23 D23`22",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S4 S6 S10",
-	Fiesta: "S16`cz D22`nm  S19`ahd S21`acz D19`afs D23`anm",
-	NXA: ["", "", "16", "", "23"], NXA_: ["", "19", "21", "19", "23"],
-	NX2: ["", "", "17", "", "23"], NX2_: ["", "", "21", "", "22"],
-	NX: ["", "", "@1", "", "@7"], NX_: ["", "", "@5", "", "@7"],
-	Zero: ["", "", "17", "", "22"], Zero_: ["", "", "??", "", "??"], // аркада на Zero - анлок за миссию
+	charts: {
+		Phoenix: "= S11`10",
+		XX: "= S17`16 D22`23 D23`22",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S4 S6 S10",
+		Fiesta: "S16`cz D22`nm  S19`ahd S21`acz D19`afs D23`anm",
+		NXA: ["", "", "16", "", "23"], NXA_: ["", "19", "21", "19", "23"],
+		NX2: ["", "", "17", "", "23"], NX2_: ["", "", "21", "", "22"],
+		NX: ["", "", "@1", "", "@7"], NX_: ["", "", "@5", "", "@7"],
+		Zero: ["", "", "17", "", "22"], Zero_: ["", "", "??", "", "??"],
+			// arcade charts on Zero are unlock for mission
+	}
 },
 
 
@@ -10072,17 +11591,19 @@ var readableTracklist = {
 	arcadeID: "C04",
 	pumpoutID: 50,
 
-	Phoenix: "= S11`9 D18`17 D24`23",
-	XX: "= S22`21",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S9",
-	Fiesta: "S7`nl S15`hd S21`cz D17`fs D23`nm  @1.10 S4",
-	NXA: ["7", "15", "21", "17", "23"],
-	NX2: ["6", "15", "21", "18", "23"],
-	NX: ["*3", "@1", "@6", "@3", "@8"],
-	Zero: ["7", "15", "21", "18", "23"],
+	charts: {
+		Phoenix: "= S11`9 D18`17 D24`23",
+		XX: "= S22`21",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S9",
+		Fiesta: "S7`nl S15`hd S21`cz D17`fs D23`nm  @1.10 S4",
+		NXA: ["7", "15", "21", "17", "23"],
+		NX2: ["6", "15", "21", "18", "23"],
+		NX: ["*3", "@1", "@6", "@3", "@8"],
+		Zero: ["7", "15", "21", "18", "23"],
+	},
 },
 
 
@@ -10092,19 +11613,22 @@ var readableTracklist = {
 	arcadeID: "C05",
 	pumpoutID: 51,
 
-	Phoenix: "= S13`12 D15`13 D21`20 -Dp7",
-	XX: "= S18`17 S19`18 D13`12 D19`20 D20`19",  //??? D19.updated
-	// D19-XX - https://www.youtube.com/watch?v=zJDLZy7r-lE
-	// D19-P2 - https://www.youtube.com/watch?v=UF_tkEWx4L4
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S2 S7",
-	Fiesta: "S12`hd S18`cz Dp7`fs D19`nm  S17`acz D12`afs D20`anm",
-	NXA: ["", "12", "18", "7", "19"], NXA_: ["", "", "18", "11", "20"],
-	NX2: ["", "10", "18", "7", "19"], NX2_: ["", "", "19", "", "20"],
-	NX: ["", "*5", "@3", "*3.5", "@4"], NX_: ["", "", "", "", "@3"],
-	Zero: ["", "10", "18", "6", "19"],
+	charts: {
+		Phoenix: "= S13`12 D15`13 D21`20 -Dp7",
+		XX: "= S18`17 S19`18 D13`12 D19`20 D20`19",
+			//??? D19.updated
+			// D19-XX - https://www.youtube.com/watch?v=zJDLZy7r-lE
+			// D19-P2 - https://www.youtube.com/watch?v=UF_tkEWx4L4
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S2 S7",
+		Fiesta: "S12`hd S18`cz Dp7`fs D19`nm  S17`acz D12`afs D20`anm",
+		NXA: ["", "12", "18", "7", "19"], NXA_: ["", "", "18", "11", "20"],
+		NX2: ["", "10", "18", "7", "19"], NX2_: ["", "", "19", "", "20"],
+		NX: ["", "*5", "@3", "*3.5", "@4"], NX_: ["", "", "", "", "@3"],
+		Zero: ["", "10", "18", "6", "19"],
+	},
 },
 
 
@@ -10114,15 +11638,17 @@ var readableTracklist = {
 	arcadeID: "C06",
 	pumpoutID: 52,
 
-	Phoenix: "= D19`18 D24`23 -D7",
-	XX: "= S16`14  @2.07 S22.lock D23.lock",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S4 S8",
-	Fiesta: "S6`hd S14`cz D7`fs D18`nm",
-	NX: ["", "*3", "*7", "*3.5", "@3"],
-	Zero: ["", "6", "14", "7", "18"],
+	charts: {
+		Phoenix: "= D19`18 D24`23 -D7",
+		XX: "= S16`14  @2.07 S22.lock D23.lock",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S4 S8",
+		Fiesta: "S6`hd S14`cz D7`fs D18`nm",
+		NX: ["", "*3", "*7", "*3.5", "@3"],
+		Zero: ["", "6", "14", "7", "18"],
+	},
 },
 
 
@@ -10132,9 +11658,11 @@ var readableTracklist = {
 	arcadeID: "C07",
 	pumpoutID: 764,
 
-	Phoenix: "= S12`13",
-	XX: "S4`nl S7`hd S13`cz  @1.01 D18.lock  @2.00 S16.lock",
-	Zero: ["3", "7", "9", "", ""],
+	charts: {
+		Phoenix: "= S12`13",
+		XX: "S4`nl S7`hd S13`cz  @1.01 D18.lock  @2.00 S16.lock",
+		Zero: ["3", "7", "9", "", ""],
+	},
 },
 
 
@@ -10144,9 +11672,11 @@ var readableTracklist = {
 	arcadeID: "C08",
 	pumpoutID: "",
 
-	NX2: ["2", "5", "12", "5", "14"],
-	NX: ["*1", "*2.5", "*6", "*2.5", "*7"],
-	Zero: ["3", "4", "12", "6", "15"],
+	charts: {
+		NX2: ["2", "5", "12", "5", "14"],
+		NX: ["*1", "*2.5", "*6", "*2.5", "*7"],
+		Zero: ["3", "4", "12", "6", "15"],
+	},
 },
 
 
@@ -10156,12 +11686,14 @@ var readableTracklist = {
 	arcadeID: "C09",
 	pumpoutID: 428,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp3`nl S12`cz Dp5`fs D14`nm  Dp6`afs  S1.new S3.new S6.new",
-	NX2: ["3", "4", "12", "5", "14"],
-	NX: ["*1.5", "*2", "*6", "*2.5", "*7"],  NX_: ["", "", "", "*3", ""],
-	Zero: ["3", "4", "13", "5", "16"], Zero_: ["", "", "", "??", ""],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp3`nl S12`cz Dp5`fs D14`nm  Dp6`afs  S1.new S3.new S6.new",
+		NX2: ["3", "4", "12", "5", "14"],
+		NX: ["*1.5", "*2", "*6", "*2.5", "*7"],  NX_: ["", "", "", "*3", ""],
+		Zero: ["3", "4", "13", "5", "16"], Zero_: ["", "", "", "??", ""],
+	},
 },
 
 
@@ -10171,9 +11703,11 @@ var readableTracklist = {
 	arcadeID: "C10",
 	pumpoutID: "",
 
-	NX2: ["2", "4", "", "3", ""],
-	NX: ["*1", "*2", "", "*1.5", ""],
-	Zero: ["2", "4", "", "3", ""],
+	charts: {
+		NX2: ["2", "4", "", "3", ""],
+		NX: ["*1", "*2", "", "*1.5", ""],
+		Zero: ["2", "4", "", "3", ""],
+	},
 },
 
 
@@ -10183,9 +11717,11 @@ var readableTracklist = {
 	arcadeID: "C11",
 	pumpoutID: "",
 
-	NX2: ["", "6", "13", "7", "14"], NX2_: ["", "", "", "", "17"],
-	NX: ["", "*3", "*6.5", "*3.5", "*7"], NX_: ["", "", "", "", "@2"],
-	Zero: ["", "6", "13", "7", "14"], Zero_: ["", "", "", "", "??"],
+	charts: {
+		NX2: ["", "6", "13", "7", "14"], NX2_: ["", "", "", "", "17"],
+		NX: ["", "*3", "*6.5", "*3.5", "*7"], NX_: ["", "", "", "", "@2"],
+		Zero: ["", "6", "13", "7", "14"], Zero_: ["", "", "", "", "??"],
+	},
 },
 
 
@@ -10195,9 +11731,11 @@ var readableTracklist = {
 	arcadeID: "C12",
 	pumpoutID: "",
 
-	NX2: ["3", "3", "7", "5", "8"],
-	NX: ["*1.5", "*1.5", "*3.5", "*2.5", "*4"],
-	Zero: ["3", "2", "7", "5", "9"],
+	charts: {
+		NX2: ["3", "3", "7", "5", "8"],
+		NX: ["*1.5", "*1.5", "*3.5", "*2.5", "*4"],
+		Zero: ["3", "2", "7", "5", "9"],
+	},
 },
 
 
@@ -10207,7 +11745,9 @@ var readableTracklist = {
 	arcadeID: "C13",
 	pumpoutID: "",
 
-	Zero: ["2", "3", "", "4", ""],
+	charts: {
+		Zero: ["2", "3", "", "4", ""],
+	},
 },
 
 
@@ -10217,13 +11757,15 @@ var readableTracklist = {
 	arcadeID: "C14",
 	pumpoutID: 70,
 
-	Prime2: "=",
-	Prime: "=  @1.06 S4 S9",
-	Fiesta2: "=",
-	FiestaEX: "Sp1`nl S6`hd S14`cz Dp2`fs D16`nm",
-	NX2: ["1", "5", "12", "3", "15"],
-	NX: ["*0.5", "*2.5", "*6", "*1.5", "@1(15)"],
-	Zero: ["2", "5", "13", "2", "16"],
+	charts: {
+		Prime2: "=",
+		Prime: "=  @1.06 S4 S9",
+		Fiesta2: "=",
+		FiestaEX: "Sp1`nl S6`hd S14`cz Dp2`fs D16`nm",
+		NX2: ["1", "5", "12", "3", "15"],
+		NX: ["*0.5", "*2.5", "*6", "*1.5", "@1(15)"],
+		Zero: ["2", "5", "13", "2", "16"],
+	},
 },
 
 
@@ -10233,13 +11775,15 @@ var readableTracklist = {
 	arcadeID: "C15",
 	pumpoutID: 427,
 
-	Fiesta2: "=",
-	FiestaEX: "= -S2",
-	Fiesta: "S2`nl S7`hd S13`cz D8`fs D15`nm  S4.new",
-	NXA: ["2", "7", "13", "8", "15"],
-	NX2: ["2", "7", "13", "8", "15"],
-	NX: ["*1", "*3.5", "*6.5", "*4", "@1(15)"],
-	Zero: ["2", "6", "13", "8", "15"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "= -S2",
+		Fiesta: "S2`nl S7`hd S13`cz D8`fs D15`nm  S4.new",
+		NXA: ["2", "7", "13", "8", "15"],
+		NX2: ["2", "7", "13", "8", "15"],
+		NX: ["*1", "*3.5", "*6.5", "*4", "@1(15)"],
+		Zero: ["2", "6", "13", "8", "15"],
+	},
 },
 
 
@@ -10249,9 +11793,11 @@ var readableTracklist = {
 	arcadeID: "C16",
 	pumpoutID: "",
 
-	NX2: ["", "5", "11", "5", "11"],
-	NX: ["", "*2.5", "*5.5", "*2.5", "*5.5"],
-	Zero: ["", "5", "12", "5", "13"],
+	charts: {
+		NX2: ["", "5", "11", "5", "11"],
+		NX: ["", "*2.5", "*5.5", "*2.5", "*5.5"],
+		Zero: ["", "5", "12", "5", "13"],
+	},
 },
 
 
@@ -10261,9 +11807,11 @@ var readableTracklist = {
 	arcadeID: "C17",
 	pumpoutID: "",
 
-	NX2: ["2", "4", "10", "4", "11"],
-	NX: ["*1", "*2", "*5", "*2", "*5.5"],
-	Zero: ["3", "4", "9", "5", "10"],
+	charts: {
+		NX2: ["2", "4", "10", "4", "11"],
+		NX: ["*1", "*2", "*5", "*2", "*5.5"],
+		Zero: ["3", "4", "9", "5", "10"],
+	},
 },
 
 
@@ -10273,13 +11821,15 @@ var readableTracklist = {
 	arcadeID: "C18",
 	pumpoutID: 425,
 
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S8",
-	Fiesta: "Sp2`nl S5`hd S14`cz Dp5`fs D17`nm  S1.new S4.new",
-	NXA: ["2", "5", "14", "5", "17"],
-	NX2: ["2", "5", "14", "5", "17"],
-	NX: ["*1", "*2.5", "*7", "*2.5", "@2"],
-	Zero: ["3", "4", "14", "5", "17"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S8",
+		Fiesta: "Sp2`nl S5`hd S14`cz Dp5`fs D17`nm  S1.new S4.new",
+		NXA: ["2", "5", "14", "5", "17"],
+		NX2: ["2", "5", "14", "5", "17"],
+		NX: ["*1", "*2.5", "*7", "*2.5", "@2"],
+		Zero: ["3", "4", "14", "5", "17"],
+	},
 },
 
 
@@ -10289,13 +11839,15 @@ var readableTracklist = {
 	arcadeID: "C19",
 	pumpoutID: 430,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S5 S12 D13 Sp3 Dp4",
-	NXA: ["3", "5", "12", "4", "13"],
-	NX2: ["2", "5", "12", "4", "13"],
-	NX: ["*1", "*2.5", "*6", "*2", "*6.5"],
-	Zero: ["2", "3", "12", "4", "13"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S5 S12 D13 Sp3 Dp4",
+		NXA: ["3", "5", "12", "4", "13"],
+		NX2: ["2", "5", "12", "4", "13"],
+		NX: ["*1", "*2.5", "*6", "*2", "*6.5"],
+		Zero: ["2", "3", "12", "4", "13"],
+	},
 },
 
 
@@ -10305,9 +11857,11 @@ var readableTracklist = {
 	arcadeID: "C20",
 	pumpoutID: "",
 
-	NX2: ["2", "4", "13", "5", "14"],
-	NX: ["*1", "*2", "*6.5", "*2.5", "*7"],
-	Zero: ["3", "5", "11", "5", "14"],
+	charts: {
+		NX2: ["2", "4", "13", "5", "14"],
+		NX: ["*1", "*2", "*6.5", "*2.5", "*7"],
+		Zero: ["3", "5", "11", "5", "14"],
+	},
 },
 
 
@@ -10317,8 +11871,10 @@ var readableTracklist = {
 	arcadeID: "C21",
 	pumpoutID: "",
 
-	NX: ["*1.5", "*2.5", "*5.5", "*2.5", "*6.5"],
-	Zero: ["3", "5", "12", "5", "15"],
+	charts: {
+		NX: ["*1.5", "*2.5", "*5.5", "*2.5", "*6.5"],
+		Zero: ["3", "5", "12", "5", "15"],
+	},
 },
 
 
@@ -10328,8 +11884,10 @@ var readableTracklist = {
 	arcadeID: "C22",
 	pumpoutID: "",
 
-	NX: ["*1.5", "*2", "*5", "*2", "*5.5"],
-	Zero: ["3", "4", "9", "4", "10"],
+	charts: {
+		NX: ["*1.5", "*2", "*5", "*2", "*5.5"],
+		Zero: ["3", "4", "9", "4", "10"],
+	},
 },
 
 
@@ -10341,17 +11899,19 @@ var readableTracklist = {
 	arcadeID: "C41",
 	pumpoutID: 53,
 
-	Phoenix: "= S16`15 D17`16",
-	XX: "= S15`12 S21`20 D16`14",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S12`hd S20`cz D14`fs D23`nm",
-	NXA_: ["", "15", "19", "15", "22"],
-	NX2_: ["", "14", "21", "16", "23"],
-	NX_: ["", "*7", "@5", "@1", "@8"],
-	Zero_: ["", "12", "20", "14", "23"],
+	charts: {
+		Phoenix: "= S16`15 D17`16",
+		XX: "= S15`12 S21`20 D16`14",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S12`hd S20`cz D14`fs D23`nm",
+		NXA_: ["", "15", "19", "15", "22"],
+		NX2_: ["", "14", "21", "16", "23"],
+		NX_: ["", "*7", "@5", "@1", "@8"],
+		Zero_: ["", "12", "20", "14", "23"],
+	},
 },
 
 
@@ -10361,9 +11921,11 @@ var readableTracklist = {
 	arcadeID: "C42",
 	pumpoutID: "",
 
-	NX2_: ["", "8", "14", "7", ""],
-	NX_: ["", "*4", "*7", "*3.5", ""],  // title: "Zero K-Hip Hop Mix"
-	Zero_: ["", "7", "13", "6", ""],
+	charts: {
+		NX2_: ["", "8", "14", "7", ""],
+		NX_: ["", "*4", "*7", "*3.5", ""],  // title: "Zero K-Hip Hop Mix"
+		Zero_: ["", "7", "13", "6", ""],
+	},
 },
 
 
@@ -10373,8 +11935,10 @@ var readableTracklist = {
 	arcadeID: "C43",
 	pumpoutID: "",
 
-	NX_: ["", "*3.5", "*6.5", "*3", ""],
-	Zero_: ["", "6", "12", "5", ""],
+	charts: {
+		NX_: ["", "*3.5", "*6.5", "*3", ""],
+		Zero_: ["", "6", "12", "5", ""],
+	},
 },
 
 
@@ -10384,7 +11948,9 @@ var readableTracklist = {
 	arcadeID: "C44",
 	pumpoutID: "",
 
-	Zero_: ["", "??", "??", "??", ""],
+	charts: {
+		Zero_: ["", "??", "??", "??", ""],
+	},
 },
 
 
@@ -10402,19 +11968,21 @@ var readableTracklist = {
 	sortingID: "C41__1",  // after LIADZ Try To BPM (C41)
 	pumpoutID: 54,
 
-	Phoenix: "= S17`16 S18`17",
-	XX: "=",
-	Prime2: "=",
-	Prime: "= CoOp(x2)`Dp??(x2) -D??(x2)",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S16`ahd S17`acz D??(x2)`afs Dp??(x2)`anm",
-		//? afs anm проверить
-	NXA_: ["", "16", "17", "??(x2)", "??(x2)"],
-		// Dp - капл, D - ahd+acz
-	NX2_: ["", "16", "18", "", "??(x2)"],
-	NX_: ["", "@1", "@3", "", "??(x2)"],
-	Zero_: ["", "??", "??", "", "??(x2)"],
+	charts: {
+		Phoenix: "= S17`16 S18`17",
+		XX: "=",
+		Prime2: "=",
+		Prime: "= CoOp(x2)`Dp??(x2) -D??(x2)",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S16`ahd S17`acz D??(x2)`afs Dp??(x2)`anm",
+			//? afs anm проверить
+		NXA_: ["", "16", "17", "??(x2)", "??(x2)"],
+			// Dp - CoOp, D - ahd+acz
+		NX2_: ["", "16", "18", "", "??(x2)"],
+		NX_: ["", "@1", "@3", "", "??(x2)"],
+		Zero_: ["", "??", "??", "", "??(x2)"],
+	},
 },
 
 
@@ -10428,11 +11996,13 @@ var readableTracklist = {
 	arcadeID: "B01",
 	pumpoutID: "",
 
-	NXA: ["2", "4", "13", "5", "13"],
-	NX2: ["2", "4", "13", "5", "15"],
-	NX: ["*1", "*2", "*6.5", "*2.5", "@1"],
-	Zero: ["1", "4", "13", "5", "15"],
-	Exceed2: ["1", "4", "13", "5", "15"],
+	charts: {
+		NXA: ["2", "4", "13", "5", "13"],
+		NX2: ["2", "4", "13", "5", "15"],
+		NX: ["*1", "*2", "*6.5", "*2.5", "@1"],
+		Zero: ["1", "4", "13", "5", "15"],
+		Exceed2: ["1", "4", "13", "5", "15"],
+	},
 },
 
 
@@ -10442,15 +12012,17 @@ var readableTracklist = {
 	arcadeID: "B02",
 	pumpoutID: 71,
 
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S2`nl S4`hd S10`cz Dp4`fs D12`nm  S6.new",
-	NXA: ["2", "5", "10", "4", "12"],
-	NX2: ["2", "5", "11", "4", "12"],
-	NX: ["*1", "*2.5", "*5.5", "*2", "*6"],
-	Zero: ["2", "5", "10", "4", "12"],
-	Exceed2: ["2", "5", "10", "4", "12"],
+	charts: {
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S2`nl S4`hd S10`cz Dp4`fs D12`nm  S6.new",
+		NXA: ["2", "5", "10", "4", "12"],
+		NX2: ["2", "5", "11", "4", "12"],
+		NX: ["*1", "*2.5", "*5.5", "*2", "*6"],
+		Zero: ["2", "5", "10", "4", "12"],
+		Exceed2: ["2", "5", "10", "4", "12"],
+	},
 },
 
 
@@ -10460,9 +12032,11 @@ var readableTracklist = {
 	arcadeID: "B03",
 	pumpoutID: "",
 
-	NX2: ["2", "4", "9", "4", "11"],
-	NX: ["*1", "*2", "*4.5", "*2", "*5.5"],
-	Exceed2: ["2", "5", "8", "4", "11"],
+	charts: {
+		NX2: ["2", "4", "9", "4", "11"],
+		NX: ["*1", "*2", "*4.5", "*2", "*5.5"],
+		Exceed2: ["2", "5", "8", "4", "11"],
+	},
 },
 
 
@@ -10472,8 +12046,10 @@ var readableTracklist = {
 	arcadeID: "B04",
 	pumpoutID: "",
 
-	Zero: ["2", "6", "11", "5", "15"],
-	Exceed2: ["2", "6", "11", "5", "15"],
+	charts: {
+		Zero: ["2", "6", "11", "5", "15"],
+		Exceed2: ["2", "6", "11", "5", "15"],
+	},
 },
 
 
@@ -10483,11 +12059,13 @@ var readableTracklist = {
 	arcadeID: "B05",
 	pumpoutID: "",
 
-	NXA: ["3", "5", "", "5", ""],
-	NX2: ["2", "5", "", "5", ""],
-	NX: ["*1", "*2.5", "", "*2.5", ""],
-	Zero: ["3", "6", "", "5", ""],
-	Exceed2: ["3", "6", "10", "5", "11"],
+	charts: {
+		NXA: ["3", "5", "", "5", ""],
+		NX2: ["2", "5", "", "5", ""],
+		NX: ["*1", "*2.5", "", "*2.5", ""],
+		Zero: ["3", "6", "", "5", ""],
+		Exceed2: ["3", "6", "10", "5", "11"],
+	},
 },
 
 
@@ -10497,16 +12075,18 @@ var readableTracklist = {
 	arcadeID: "B06",
 	pumpoutID: 72,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "= S1",
-	Fiesta: "S3`nl S6`hd S13`cz D6`fs D13`nm",
-	NXA: ["3", "6", "13", "6", "13"],
-	NX2: ["3", "5", "14", "6", "14"], NX2_: ["", "", "", "", "17"],
-	NX: ["*1.5", "*2.5", "*7", "*3", "*7"], NX_: ["", "", "", "", "@2"],
-	Zero: ["3", "6", "13", "6", "14"],
-	Exceed2: ["3", "6", "13", "6", "14"],
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "= S1",
+		Fiesta: "S3`nl S6`hd S13`cz D6`fs D13`nm",
+		NXA: ["3", "6", "13", "6", "13"],
+		NX2: ["3", "5", "14", "6", "14"], NX2_: ["", "", "", "", "17"],
+		NX: ["*1.5", "*2.5", "*7", "*3", "*7"], NX_: ["", "", "", "", "@2"],
+		Zero: ["3", "6", "13", "6", "14"],
+		Exceed2: ["3", "6", "13", "6", "14"],
+	},
 },
 
 
@@ -10516,8 +12096,10 @@ var readableTracklist = {
 	arcadeID: "B07",
 	pumpoutID: "",
 
-	Zero: ["3", "6", "11", "6", "14"],
-	Exceed2: ["3", "6", "11", "6", "14"],
+	charts: {
+		Zero: ["3", "6", "11", "6", "14"],
+		Exceed2: ["3", "6", "11", "6", "14"],
+	},
 },
 
 
@@ -10527,15 +12109,17 @@ var readableTracklist = {
 	arcadeID: "B08",
 	pumpoutID: 73,
 
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp3`nl S13`cz Dp5`fs D14`nm  S3.new S6.new",
-	NXA: ["3", "5", "13", "5", "14"],
-	NX2: ["3", "5", "13", "5", "14"],
-	NX: ["*1.5", "*2.5", "*6.5", "*2.5", "*7"],
-	Zero: ["2", "5", "13", "5", "14"],
-	Exceed2: ["2", "5", "13", "5", "14"],
+	charts: {
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp3`nl S13`cz Dp5`fs D14`nm  S3.new S6.new",
+		NXA: ["3", "5", "13", "5", "14"],
+		NX2: ["3", "5", "13", "5", "14"],
+		NX: ["*1.5", "*2.5", "*6.5", "*2.5", "*7"],
+		Zero: ["2", "5", "13", "5", "14"],
+		Exceed2: ["2", "5", "13", "5", "14"],
+	},
 },
 
 
@@ -10545,10 +12129,12 @@ var readableTracklist = {
 	arcadeID: "B09",
 	pumpoutID: "",
 
-	NX2: ["2", "5", "10", "5", "13"],
-	NX: ["*1", "*2.5", "*5", "*2.5", "*6.5"],
-	Zero: ["3", "6", "11", "6", "14"],
-	Exceed2: ["2", "6", "11", "6", "14"],
+	charts: {
+		NX2: ["2", "5", "10", "5", "13"],
+		NX: ["*1", "*2.5", "*5", "*2.5", "*6.5"],
+		Zero: ["3", "6", "11", "6", "14"],
+		Exceed2: ["2", "6", "11", "6", "14"],
+	},
 },
 
 
@@ -10558,8 +12144,10 @@ var readableTracklist = {
 	arcadeID: "B10",
 	pumpoutID: "",
 
-	Zero: ["1", "5", "9", "5", "12"],
-	Exceed2: ["1", "5", "9", "5", "12"],
+	charts: {
+		Zero: ["1", "5", "9", "5", "12"],
+		Exceed2: ["1", "5", "9", "5", "12"],
+	},
 },
 
 
@@ -10569,9 +12157,11 @@ var readableTracklist = {
 	arcadeID: "B11",
 	pumpoutID: "",
 
-	NX: ["*1.5", "*2.5", "*6", "*2.5", "*6.5"],
-	Zero: ["3", "6", "13", "5", "15"],
-	Exceed2: ["3", "6", "13", "5", "15"],
+	charts: {
+		NX: ["*1.5", "*2.5", "*6", "*2.5", "*6.5"],
+		Zero: ["3", "6", "13", "5", "15"],
+		Exceed2: ["3", "6", "13", "5", "15"],
+	},
 },
 
 
@@ -10581,9 +12171,11 @@ var readableTracklist = {
 	arcadeID: "B12",
 	pumpoutID: "",
 
-	NX: ["*1.5", "*2", "", "*2.5", ""],
-	Zero: ["3", "5", "", "5", ""],
-	Exceed2: ["2", "5", "11", "5", "12"],
+	charts: {
+		NX: ["*1.5", "*2", "", "*2.5", ""],
+		Zero: ["3", "5", "", "5", ""],
+		Exceed2: ["2", "5", "11", "5", "12"],
+	},
 },
 
 
@@ -10593,16 +12185,18 @@ var readableTracklist = {
 	arcadeID: "B13",
 	pumpoutID: 74,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S2",
-	Fiesta: "S4`nl S7`hd S16`cz D7`fs D18`nm",
-	NXA: ["3", "7", "16", "7", "18"],
-	NX2: ["3", "7", "16", "7", "18"],
-	NX: ["*1.5", "*3.5", "@1", "*3.5", "@3"], NX_: ["", "", "", "", "@5"],
-	Zero: ["3", "7", "15", "8", "17"], Zero_: ["", "", "", "", "??"],
-	Exceed2: ["3", "7", "16", "8", "18"],
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S2",
+		Fiesta: "S4`nl S7`hd S16`cz D7`fs D18`nm",
+		NXA: ["3", "7", "16", "7", "18"],
+		NX2: ["3", "7", "16", "7", "18"],
+		NX: ["*1.5", "*3.5", "@1", "*3.5", "@3"], NX_: ["", "", "", "", "@5"],
+		Zero: ["3", "7", "15", "8", "17"], Zero_: ["", "", "", "", "??"],
+		Exceed2: ["3", "7", "16", "8", "18"],
+	},
 },
 
 
@@ -10612,9 +12206,11 @@ var readableTracklist = {
 	arcadeID: "B14",
 	pumpoutID: "",
 
-	NX: ["*1.5", "*3", "*6.5", "*3", "*6.5"],
-	Zero: ["3", "6", "12", "7", "14"],
-	Exceed2: ["3", "6", "12", "7", "14"],
+	charts: {
+		NX: ["*1.5", "*3", "*6.5", "*3", "*6.5"],
+		Zero: ["3", "6", "12", "7", "14"],
+		Exceed2: ["3", "6", "12", "7", "14"],
+	},
 },
 
 
@@ -10624,9 +12220,11 @@ var readableTracklist = {
 	arcadeID: "B15",
 	pumpoutID: "",
 
-	NX: ["*1", "*2.5", "*5", "*2", "*5.5"],
-	Zero: ["3", "6", "9", "5", "10"],
-	Exceed2: ["3", "6", "9", "5", "10"],
+	charts: {
+		NX: ["*1", "*2.5", "*5", "*2", "*5.5"],
+		Zero: ["3", "6", "9", "5", "10"],
+		Exceed2: ["3", "6", "9", "5", "10"],
+	},
 },
 
 
@@ -10636,16 +12234,18 @@ var readableTracklist = {
 	arcadeID: "B16",
 	pumpoutID: 55,
 
-	Phoenix: "= -Dp5",
-	XX: "= S15`13",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S3 S8",
-	Fiesta: "S5`nl S7`hd S13`cz Dp5`fs D17`nm",
-	NX2: ["5", "7", "13", "5", "17"],
-	Zero: ["5", "7", "13", "5", "19"],
-	Exceed2: ["5", "7", "13", "5", "17"],
+	charts: {
+		Phoenix: "= -Dp5",
+		XX: "= S15`13",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S3 S8",
+		Fiesta: "S5`nl S7`hd S13`cz Dp5`fs D17`nm",
+		NX2: ["5", "7", "13", "5", "17"],
+		Zero: ["5", "7", "13", "5", "19"],
+		Exceed2: ["5", "7", "13", "5", "17"],
+	},
 },
 
 
@@ -10656,21 +12256,23 @@ var readableTracklist = {
 	arcadeID: "B17",
 	pumpoutID: 56,
 
-	Phoenix: "= D11`8 D20`19 D21`20 -S3",
-		// TODO.Phoenix: D11`8
-	XX: "= S16`15 S19`18 D19`18",
-		//??? D20.updated - simplified 10-buttons hold (to 6-buttons)
-		// D20-XX - https://www.youtube.com/watch?v=nR61F0n4dio
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S5",
-	Fiesta: "S3`nl S8`hd S15`cz D18`nm  S18`acz D20`anm  D8",  //? fs
-	NXA: ["3", "8", "15", "8", "18"], NXA_: ["", "", "18", "7", "20"],
-	NX2: ["4", "8", "14", "8", "18"], NX2_: ["", "", "17", "6", "18"],
-	NX: ["*2", "*4", "*7", "*4", "@3"], NX_: ["", "", "@2", "", "@4"],
-	Zero: ["3", "8", "14", "8", "18"],
-	Exceed2: ["3", "8", "14", "8", "18"],
+	charts: {
+		Phoenix: "= D11`8 D20`19 D21`20 -S3",
+			// TODO.Phoenix: D11`8
+		XX: "= S16`15 S19`18 D19`18",
+			//??? D20.updated - simplified 10-buttons hold (to 6-buttons)
+			// D20-XX - https://www.youtube.com/watch?v=nR61F0n4dio
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S5",
+		Fiesta: "S3`nl S8`hd S15`cz D18`nm  S18`acz D20`anm  D8",  //? fs
+		NXA: ["3", "8", "15", "8", "18"], NXA_: ["", "", "18", "7", "20"],
+		NX2: ["4", "8", "14", "8", "18"], NX2_: ["", "", "17", "6", "18"],
+		NX: ["*2", "*4", "*7", "*4", "@3"], NX_: ["", "", "@2", "", "@4"],
+		Zero: ["3", "8", "14", "8", "18"],
+		Exceed2: ["3", "8", "14", "8", "18"],
+	},
 },
 
 
@@ -10680,18 +12282,21 @@ var readableTracklist = {
 	arcadeID: "B18",
 	pumpoutID: 57,
 
-	Phoenix: "= S18`17 D20`19 -Sp3 -Dp6",
-	XX: "= S8`6 S9`8 D19`18",
-	Prime2: "=  @2.00 D21",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S4 S8",
-	Fiesta: "Sp3`nl S6`hd S17`cz Dp6`fs D18`nm",
-	NXA: ["3", "6", "17", "6", "18"],
-	NX2: ["3", "6", "17", "6", "19"],
-	NX: ["*1.5", "*3", "@2", "*3", "@4"], NX_: ["", "", "@2", "", "@5"],
-	Zero: ["3", "6", "16", "6", "18"], Zero_: ["", "", "??", "", "??"],
-	Exceed2: ["??", "??", "??", "??", "??"],  // unlock
+	charts: {
+		Phoenix: "= S18`17 D20`19 -Sp3 -Dp6",
+		XX: "= S8`6 S9`8 D19`18",
+		Prime2: "=  @2.00 D21",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S4 S8",
+		Fiesta: "Sp3`nl S6`hd S17`cz Dp6`fs D18`nm",
+		NXA: ["3", "6", "17", "6", "18"],
+		NX2: ["3", "6", "17", "6", "19"],
+		NX: ["*1.5", "*3", "@2", "*3", "@4"], NX_: ["", "", "@2", "", "@5"],
+		Zero: ["3", "6", "16", "6", "18"], Zero_: ["", "", "??", "", "??"],
+		Exceed2: ["??", "??", "??", "??", "??"],
+		  // unlock with code
+	},
 },
 
 
@@ -10702,18 +12307,20 @@ var readableTracklist = {
 	arcadeID: "B19",
 	pumpoutID: 58,
 
-	Phoenix: "= S11`10",
-	XX: "= S10`9 D12`10 D23`22",
-	Prime2: "= -S18 -D18",
-	Prime: "=  @1.11 S17.ucs S18.ucs D17.ucs D18.ucs  @1.14 CoOp(x2)",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S9",
-	Fiesta: "S3`nl S7`hd S20`cz D10`fs D22`nm  S21`acz",
-	NXA: ["4", "6", "20", "10", "22"], NXA_: ["", "", "21", "", "21"],
-	NX2: ["3", "5", "20", "9", "22"],
-	NX: ["*1.5", "*2.5", "@4", "*4.5", "@6"],
-	Zero: ["2", "5", "20", "8", "21"],
-	Exceed2: ["2", "6", "??(20)", "7", "??(22)"],
+	charts: {
+		Phoenix: "= S11`10",
+		XX: "= S10`9 D12`10 D23`22",
+		Prime2: "= -S18 -D18",
+		Prime: "=  @1.11 S17.ucs S18.ucs D17.ucs D18.ucs  @1.14 CoOp(x2)",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S9",
+		Fiesta: "S3`nl S7`hd S20`cz D10`fs D22`nm  S21`acz",
+		NXA: ["4", "6", "20", "10", "22"], NXA_: ["", "", "21", "", "21"],
+		NX2: ["3", "5", "20", "9", "22"],
+		NX: ["*1.5", "*2.5", "@4", "*4.5", "@6"],
+		Zero: ["2", "5", "20", "8", "21"],
+		Exceed2: ["2", "6", "??(20)", "7", "??(22)"],
+	},
 },
 
 
@@ -10723,10 +12330,12 @@ var readableTracklist = {
 	arcadeID: "B20",
 	pumpoutID: "",
 
-	NX2: ["4", "5", "12", "8", "15"],
-	NX: ["*2", "*2.5", "*6", "*4", "@1"],
-	Zero: ["4", "7", "10", "8", "15"],
-	Exceed2: ["4", "7", "10", "8", "15"],
+	charts: {
+		NX2: ["4", "5", "12", "8", "15"],
+		NX: ["*2", "*2.5", "*6", "*4", "@1"],
+		Zero: ["4", "7", "10", "8", "15"],
+		Exceed2: ["4", "7", "10", "8", "15"],
+	},
 },
 
 
@@ -10736,12 +12345,14 @@ var readableTracklist = {
 	arcadeID: "B26",
 	pumpoutID: 429,
 
-	Fiesta2: "=",
-	FiestaEX: "S11`hd S17`cz D12`fs",
-	NX2_: ["", "8", "16", "10", ""],
-	NX_: ["", "*4", "*6.5", "*5", ""],
-	Zero_: ["", "8", "18", "9", ""],
-	Exceed2_: ["", "8", "18", "9", ""],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "S11`hd S17`cz D12`fs",
+		NX2_: ["", "8", "16", "10", ""],
+		NX_: ["", "*4", "*6.5", "*5", ""],
+		Zero_: ["", "8", "18", "9", ""],
+		Exceed2_: ["", "8", "18", "9", ""],
+	},
 },
 
 
@@ -10751,8 +12362,10 @@ var readableTracklist = {
 	arcadeID: "B27",
 	pumpoutID: "",
 
-	Exceed2_: ["", "7", "11", "8", ""],
-	Zero_: ["", "7", "11", "8", ""],
+	charts: {
+		Exceed2_: ["", "7", "11", "8", ""],
+		Zero_: ["", "7", "11", "8", ""],
+	},
 },
 
 
@@ -10763,18 +12376,20 @@ var readableTracklist = {
 	arcadeID: "B28",  //? B58
 	pumpoutID: 59,
 
-	Phoenix: "= S14`13 D17`15",
-	XX: "= S13`11 D15`13",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S11`hd S19`cz D13`fs D22`nm",
-	NXA_: ["", "12", "18", "15", "22"],
-	NX2_: ["", "13", "19", "16", "22"],
-	NX_: ["", "*6", "@3", "*6.5", "@6"],
-	Zero_: ["", "11", "19", "13", "22"],
-	Exceed2_: ["", "10", "20", "12", ""],  //Exceed2_: ["", "", "??", "", "??"], - эназеры, хз как впихнуть
+	charts: {
+		Phoenix: "= S14`13 D17`15",
+		XX: "= S13`11 D15`13",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S11`hd S19`cz D13`fs D22`nm",
+		NXA_: ["", "12", "18", "15", "22"],
+		NX2_: ["", "13", "19", "16", "22"],
+		NX_: ["", "*6", "@3", "*6.5", "@6"],
+		Zero_: ["", "11", "19", "13", "22"],
+		Exceed2_: ["", "10", "20", "12", ""],  //Exceed2_: ["", "", "??", "", "??"], - anothers?
+	},
 },
 
 
@@ -10784,19 +12399,21 @@ var readableTracklist = {
 	arcadeID: "B29",
 	pumpoutID: 60,
 
-	Phoenix: "= D15`14 D21`20",
-	XX: "= S13`7 D14`11",
-	Prime2: "=",
-	Prime: "= D11`Dp11",  // просто сменили тип:
-		// https://www.youtube.com/watch?v=7oNcvphJdk4 на P2
-		// https://www.youtube.com/watch?v=jMWyaZ_Knbc старый
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "@1.10 S7`hd S19`cz Dp11`fs D20`nm",
-	NX2_: ["", "10", "19", "11", "21"],
-	NX_: ["", "*5.5", "@4", "*5.5", "@4"],
-	Zero_: ["", "9", "19", "11", "??"],
-	Exceed2_: ["", "9", "19", "11", "??"],
+	charts: {
+		Phoenix: "= D15`14 D21`20",
+		XX: "= S13`7 D14`11",
+		Prime2: "=",
+		Prime: "= D11`Dp11",  // just changed type:
+			// https://www.youtube.com/watch?v=7oNcvphJdk4 - P2
+			// https://www.youtube.com/watch?v=jMWyaZ_Knbc - previous mixes
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "@1.10 S7`hd S19`cz Dp11`fs D20`nm",
+		NX2_: ["", "10", "19", "11", "21"],
+		NX_: ["", "*5.5", "@4", "*5.5", "@4"],
+		Zero_: ["", "9", "19", "11", "??"],
+		Exceed2_: ["", "9", "19", "11", "??"],
+	},
 },
 
 
@@ -10806,10 +12423,12 @@ var readableTracklist = {
 	arcadeID: "B30",
 	pumpoutID: "",
 
-	NX2_: ["", "7", "14", "8", ""],
-	NX_: ["", "*3.5", "*7", "*3.5", ""],
-	Zero_: ["", "6", "15", "7", ""],
-	Exceed2_: ["", "6", "15", "7", ""],
+	charts: {
+		NX2_: ["", "7", "14", "8", ""],
+		NX_: ["", "*3.5", "*7", "*3.5", ""],
+		Zero_: ["", "6", "15", "7", ""],
+		Exceed2_: ["", "6", "15", "7", ""],
+	},
 },
 
 
@@ -10819,9 +12438,11 @@ var readableTracklist = {
 	arcadeID: "B31",
 	pumpoutID: "",
 
-	NX_: ["", "*4", "*5.5", "*4.5", ""],
-	Zero_: ["", "7", "11", "8", ""],
-	Exceed2_: ["", "7", "11", "8", ""],
+	charts: {
+		NX_: ["", "*4", "*5.5", "*4.5", ""],
+		Zero_: ["", "7", "11", "8", ""],
+		Exceed2_: ["", "7", "11", "8", ""],
+	},
 },
 
 
@@ -10831,8 +12452,10 @@ var readableTracklist = {
 	arcadeID: "B50",
 	pumpoutID: "",
 
-	Exceed2_: ["", "5", "9", "6", ""],
-	Zero_: ["", "5", "9", "6", ""],
+	charts: {
+		Exceed2_: ["", "5", "9", "6", ""],
+		Zero_: ["", "5", "9", "6", ""],
+	},
 },
 
 
@@ -10845,17 +12468,19 @@ var readableTracklist = {
 	arcadeID: "B51",
 	pumpoutID: 75,
 
-	Phoenix: "=",
-	XX: "@1.04 = S15`13 D18`16",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S13`hd S19`cz D16`fs D22`nm",
-	NXA_: ["", "14", "19", "16", "22"],
-	NX2_: ["", "13", "20", "16", "22"],
-	NX_: ["", "*7", "@4", "@1", "@6"],
-	Exceed2_: ["", "??", "??", "??", ""],
-	Zero_: ["", "??", "??", "??", ""],
+	charts: {
+		Phoenix: "=",
+		XX: "@1.04 = S15`13 D18`16",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S13`hd S19`cz D16`fs D22`nm",
+		NXA_: ["", "14", "19", "16", "22"],
+		NX2_: ["", "13", "20", "16", "22"],
+		NX_: ["", "*7", "@4", "@1", "@6"],
+		Exceed2_: ["", "??", "??", "??", ""],
+		Zero_: ["", "??", "??", "??", ""],
+	},
 },
 
 
@@ -10865,8 +12490,10 @@ var readableTracklist = {
 	arcadeID: "B52",
 	pumpoutID: "",
 
-	Exceed2_: ["", "7", "11", "9", ""],
-	Zero_: ["", "7", "11", "9", ""],
+	charts: {
+		Exceed2_: ["", "7", "11", "9", ""],
+		Zero_: ["", "7", "11", "9", ""],
+	},
 },
 
 
@@ -10876,10 +12503,12 @@ var readableTracklist = {
 	arcadeID: "B53",
 	pumpoutID: "",
 
-	NX2_: ["", "9", "12", "10", ""],
-	NX_: ["", "*4.5", "*5.5", "*5.5", ""],
-	Zero_: ["", "8", "14", "10", ""],
-	Exceed2_: ["", "8", "14", "10", ""],
+	charts: {
+		NX2_: ["", "9", "12", "10", ""],
+		NX_: ["", "*4.5", "*5.5", "*5.5", ""],
+		Zero_: ["", "8", "14", "10", ""],
+		Exceed2_: ["", "8", "14", "10", ""],
+	},
 },
 
 
@@ -10888,10 +12517,13 @@ var readableTracklist = {
 	title: "2nd Hidden Remix", artist: "Clon/Sechskies", channel: KPOP, bpm: "140", duration: REMIX,
 	arcadeID: "B54", altID: "DB54",
 	pumpoutID: 877,
-	NX2_: ["", "10", "11", "13", "16"],
-	NX_: ["", "*5", "*5.5", "*6", "@2"],
-	Zero_: ["", "9", "10", "12", "??"],
-	Exceed2_: ["", "9", "10", "12", "??"],
+
+	charts: {
+		NX2_: ["", "10", "11", "13", "16"],
+		NX_: ["", "*5", "*5.5", "*6", "@2"],
+		Zero_: ["", "9", "10", "12", "??"],
+		Exceed2_: ["", "9", "10", "12", "??"],
+	},
 },
 
 
@@ -10901,10 +12533,12 @@ var readableTracklist = {
 	arcadeID: "B55",
 	pumpoutID: "",
 
-	NX2_: ["", "6", "7", "6", ""],
-	NX_: ["", "*3", "*3.5", "*3", ""],
-	Zero_: ["", "5", "6", "5", ""],
-	Exceed2_: ["", "5", "6", "5", ""],
+	charts: {
+		NX2_: ["", "6", "7", "6", ""],
+		NX_: ["", "*3", "*3.5", "*3", ""],
+		Zero_: ["", "5", "6", "5", ""],
+		Exceed2_: ["", "5", "6", "5", ""],
+	},
 },
 
 
@@ -10914,18 +12548,20 @@ var readableTracklist = {
 	arcadeID: "B56",
 	pumpoutID: 61,
 
-	Phoenix: "= S8`7 D21`20 -Dp6",
-	XX: "=",
-	Prime2: "=  @2.04 D20",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S6 S7 Dp6",
-	NXA_: ["", "3", "9", "7", ""],
-	NX2_: ["", "7", "8", "7", ""],
-	NX_: ["", "*3.5", "*4", "*3.5", ""],
-	Zero_: ["", "6", "7", "6", ""],
-	Exceed2_: ["", "6", "7", "6", ""],
+	charts: {
+		Phoenix: "= S8`7 D21`20 -Dp6",
+		XX: "=",
+		Prime2: "=  @2.04 D20",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S6 S7 Dp6",
+		NXA_: ["", "3", "9", "7", ""],
+		NX2_: ["", "7", "8", "7", ""],
+		NX_: ["", "*3.5", "*4", "*3.5", ""],
+		Zero_: ["", "6", "7", "6", ""],
+		Exceed2_: ["", "6", "7", "6", ""],
+	},
 },
 
 
@@ -10936,18 +12572,20 @@ var readableTracklist = {
 	arcadeID: "B57",
 	pumpoutID: 62,
 
-	Phoenix: "= S15`14",
-	XX: "= S14`S11 S17`16",
-	Prime2: "=",
-	Prime: "=  @1.19 D24",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S11`hd S16`cz  D23",
-	NXA_: ["", "11", "16", "", ""],
-	NX2_: ["", "15", "17", "", ""],
-	NX_: ["", "@1", "@2", "", "(-)"],
-	Zero_: ["", "", "??", "", ""],
-	Exceed2_: ["", "", "??", "", ""],
+	charts: {
+		Phoenix: "= S15`14",
+		XX: "= S14`S11 S17`16",
+		Prime2: "=",
+		Prime: "=  @1.19 D24",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S11`hd S16`cz  D23",
+		NXA_: ["", "11", "16", "", ""],
+		NX2_: ["", "15", "17", "", ""],
+		NX_: ["", "@1", "@2", "", "(-)"],
+		Zero_: ["", "", "??", "", ""],
+		Exceed2_: ["", "", "??", "", ""],
+	},
 },
 
 
@@ -10962,19 +12600,21 @@ var readableTracklist = {
 	arcadeID: "A01",
 	pumpoutID: 63,
 
-	Phoenix: "= D18`17 -Sp3 -Dp5",
-	XX: "= S8`6 S16`14",
-	Prime2: "=",
-	Prime: "=  @1.19 S17",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S2 S5 S9",
-	Fiesta: "Sp3`nl S6`hd S14`cz Dp5`fs D17`nm  D19`anm",
-	NXA: ["3", "6", "14", "5", "17"], NXA_: ["", "", "", "", "19"],
-	NX2: ["3", "6", "14", "5", "17"], NX2_: ["", "", "", "", "18"],
-	NX: ["*1.5", "*3", "*7", "*2.5", "@2"], NX_: ["", "", "", "", "@3"],
-	Zero: ["3", "5", "13", "4", "16"], Zero_: ["", "", "", "", "??"],
-	Exceed2: ["3", "5", "13", "4", "15"],
-	Exceed: ["2", "5", "13", "5", "17"],
+	charts: {
+		Phoenix: "= D18`17 -Sp3 -Dp5",
+		XX: "= S8`6 S16`14",
+		Prime2: "=",
+		Prime: "=  @1.19 S17",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S2 S5 S9",
+		Fiesta: "Sp3`nl S6`hd S14`cz Dp5`fs D17`nm  D19`anm",
+		NXA: ["3", "6", "14", "5", "17"], NXA_: ["", "", "", "", "19"],
+		NX2: ["3", "6", "14", "5", "17"], NX2_: ["", "", "", "", "18"],
+		NX: ["*1.5", "*3", "*7", "*2.5", "@2"], NX_: ["", "", "", "", "@3"],
+		Zero: ["3", "5", "13", "4", "16"], Zero_: ["", "", "", "", "??"],
+		Exceed2: ["3", "5", "13", "4", "15"],
+		Exceed: ["2", "5", "13", "5", "17"],
+	},
 },
 
 
@@ -10984,20 +12624,22 @@ var readableTracklist = {
 	arcadeID: "A02",
 	pumpoutID: 64,
 
-	Phoenix: "= S15`13 D16`15 -Sp3 -Dp5",
-		// Phoenix D20 speedup removed - https://www.youtube.com/watch?v=IMzEi3T-gYM
-	XX: "= S9`6 D20`19",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp3`nl S6`hd S13`cz Dp5`fs D15`nm  D19`anm",
-	NXA: ["3", "6", "13", "5", "15"], NXA_: ["", "", "", "", "19"],
-	NX2: ["3", "6", "13", "5", "15"], NX2_: ["", "", "", "", "20"],
-	NX: ["*1.5", "*3", "*6.5", "*2.5", "@1"], NX_: ["", "", "", "", "@4"],
-	Zero: ["2", "6", "13", "5", "14"], Zero_: ["", "", "", "", "??"],
-	Exceed2: ["2", "6", "13", "5", "14"],
-	Exceed: ["2", "6", "11", "6", "15"],
+	charts: {
+		Phoenix: "= S15`13 D16`15 -Sp3 -Dp5",
+			// D20 speedup removed - https://www.youtube.com/watch?v=IMzEi3T-gYM
+		XX: "= S9`6 D20`19",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp3`nl S6`hd S13`cz Dp5`fs D15`nm  D19`anm",
+		NXA: ["3", "6", "13", "5", "15"], NXA_: ["", "", "", "", "19"],
+		NX2: ["3", "6", "13", "5", "15"], NX2_: ["", "", "", "", "20"],
+		NX: ["*1.5", "*3", "*6.5", "*2.5", "@1"], NX_: ["", "", "", "", "@4"],
+		Zero: ["2", "6", "13", "5", "14"], Zero_: ["", "", "", "", "??"],
+		Exceed2: ["2", "6", "13", "5", "14"],
+		Exceed: ["2", "6", "11", "6", "15"],
+	},
 },
 
 
@@ -11007,19 +12649,21 @@ var readableTracklist = {
 	arcadeID: "A03",
 	pumpoutID: 65,
 
-	Phoenix: "= S6`5 S10`9 -Sp5",
-	XX: "= S4`3 S9`8",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "= S3",
-	Fiesta: "Sp5`nl S8`hd S15`cz D17`nm  S5.new",
-	NXA: ["5", "8", "15", "7", "17"],
-	NX2: ["3", "7", "15", "7", "17"],
-	NX: ["*1.5", "*3.5", "@1", "*3.5", "@2"],
-	Zero: ["4", "7", "15", "6", "18"],
-	Exceed2: ["4", "7", "15", "6", "18"],
-	Exceed: ["4", "7", "17", "6", "18"],
+	charts: {
+		Phoenix: "= S6`5 S10`9 -Sp5",
+		XX: "= S4`3 S9`8",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "= S3",
+		Fiesta: "Sp5`nl S8`hd S15`cz D17`nm  S5.new",
+		NXA: ["5", "8", "15", "7", "17"],
+		NX2: ["3", "7", "15", "7", "17"],
+		NX: ["*1.5", "*3.5", "@1", "*3.5", "@2"],
+		Zero: ["4", "7", "15", "6", "18"],
+		Exceed2: ["4", "7", "15", "6", "18"],
+		Exceed: ["4", "7", "17", "6", "18"],
+	},
 },
 
 
@@ -11029,17 +12673,19 @@ var readableTracklist = {
 	arcadeID: "A04",
 	pumpoutID: 66,
 
-	Phoenix: "= S7`6 S20`19 D21`20",
-	XX: "= S4`3 S17`15 D20`19",
-	Prime2: "=  @2.04 S19",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S9",
-	Fiesta: "S3`nl S6`hd S15`cz  D19`nm",
-	NX: ["*1.5", "*3", "@1", "*3", "@4"],
-	Zero: ["3", "6", "15", "6", "19"],
-	Exceed2: ["3", "6", "14", "6", "19"],
-	Exceed: ["3", "6", "14", "5", "17"],
+	charts: {
+		Phoenix: "= S7`6 S20`19 D21`20",
+		XX: "= S4`3 S17`15 D20`19",
+		Prime2: "=  @2.04 S19",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S9",
+		Fiesta: "S3`nl S6`hd S15`cz  D19`nm",
+		NX: ["*1.5", "*3", "@1", "*3", "@4"],
+		Zero: ["3", "6", "15", "6", "19"],
+		Exceed2: ["3", "6", "14", "6", "19"],
+		Exceed: ["3", "6", "14", "5", "17"],
+	},
 },
 
 
@@ -11049,18 +12695,20 @@ var readableTracklist = {
 	arcadeID: "A05",
 	pumpoutID: 67,
 
-	Phoenix: "= S13`11 D15`12 D24`23",
-		// TODO.Phoenix: D15`12
-	XX: "= S6`5 S11`9 S18`17 D12`10 D19`18 D21`19  @2.08 D23",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "= -S4  @1.51 S3",
-	Fiesta: "S5`nl S9`hd S17`cz D10`fs D19`nm  D18  @1.10 S4",
-	NX: ["*2", "*4.5", "@2", "*5", "@4"],
-	Zero: ["4", "8", "16", "8", "19"],
-	Exceed2: ["4", "8", "16", "8", "19"],
-	Exceed: ["4", "7", "15", "8", "20"],
+	charts: {
+		Phoenix: "= S13`11 D15`12 D24`23",
+			// TODO.Phoenix: D15`12
+		XX: "= S6`5 S11`9 S18`17 D12`10 D19`18 D21`19  @2.08 D23",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "= -S4  @1.51 S3",
+		Fiesta: "S5`nl S9`hd S17`cz D10`fs D19`nm  D18  @1.10 S4",
+		NX: ["*2", "*4.5", "@2", "*5", "@4"],
+		Zero: ["4", "8", "16", "8", "19"],
+		Exceed2: ["4", "8", "16", "8", "19"],
+		Exceed: ["4", "7", "15", "8", "20"],
+	},
 },
 
 
@@ -11071,19 +12719,21 @@ var readableTracklist = {
 	arcadeID: "A06",
 	pumpoutID: 68,
 
-	Phoenix: "= S5`4 S8`7 S12`10 D15`13",
-	XX: "= S10`9 S15`14 D20`19",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.40 S18  @1.51 S4 S7",
-	Fiesta: "S9`hd S14`cz D19`nm  D13.new",
-	NXA: ["5", "9", "14", "9", "19"],
-	NX2: ["4", "7", "14", "9", "19"],
-	NX: ["*2", "*3.5", "*7", "*4.5", "@4"],
-	Zero: ["5", "7", "14", "8", "19"],
-	Exceed2: ["5", "7", "14", "8", "19"],
-	Exceed: ["4", "7", "15", "7", "19"],
+	charts: {
+		Phoenix: "= S5`4 S8`7 S12`10 D15`13",
+		XX: "= S10`9 S15`14 D20`19",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.40 S18  @1.51 S4 S7",
+		Fiesta: "S9`hd S14`cz D19`nm  D13.new",
+		NXA: ["5", "9", "14", "9", "19"],
+		NX2: ["4", "7", "14", "9", "19"],
+		NX: ["*2", "*3.5", "*7", "*4.5", "@4"],
+		Zero: ["5", "7", "14", "8", "19"],
+		Exceed2: ["5", "7", "14", "8", "19"],
+		Exceed: ["4", "7", "15", "7", "19"],
+	},
 },
 
 
@@ -11093,20 +12743,22 @@ var readableTracklist = {
 	arcadeID: "A07",
 	pumpoutID: 69,
 
-	Phoenix: "= S5`4 S10`8 D15`12 D19`18",
-		// TODO.Phoenix: D15`12
-	XX: "= S15`13 D12`9 -D17  @2.07 S21.lock D23.lock",
-		// XX D18 - https://www.youtube.com/watch?v=6N-vQLe_JrI
-		// Prime2 D17 (removed) - https://www.youtube.com/watch?v=MukHbjtZNZs
-		// Fiesta D18 - https://www.youtube.com/watch?v=HqPF9ddtsvY
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=  @1.51 D17`nm",
-	FiestaEX: "=",
-	Fiesta: "S4`nl S8`hd S13`cz D9`fs  D18.new",
-	NX2: ["4", "7", "15", "7", "18"],
-	Exceed2: ["4", "7", "13", "7", "16"],
-	Exceed: ["5", "7", "12", "7", "18"],
+	charts: {
+		Phoenix: "= S5`4 S10`8 D15`12 D19`18",
+			// TODO.Phoenix: D15`12
+		XX: "= S15`13 D12`9 -D17  @2.07 S21.lock D23.lock",
+			// XX D18 - https://www.youtube.com/watch?v=6N-vQLe_JrI
+			// Prime2 D17 (removed) - https://www.youtube.com/watch?v=MukHbjtZNZs
+			// Fiesta D18 - https://www.youtube.com/watch?v=HqPF9ddtsvY
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=  @1.51 D17`nm",
+		FiestaEX: "=",
+		Fiesta: "S4`nl S8`hd S13`cz D9`fs  D18.new",
+		NX2: ["4", "7", "15", "7", "18"],
+		Exceed2: ["4", "7", "13", "7", "16"],
+		Exceed: ["5", "7", "12", "7", "18"],
+	},
 },
 
 
@@ -11116,18 +12768,20 @@ var readableTracklist = {
 	arcadeID: "A08",
 	pumpoutID: 76,
 
-	Phoenix: "= S4`3 S6`5 S15`14 S21`20 D20`19",
-	XX: "@1.04 = S14`12 S17`16 D17`13 D19`18 D24`23 D26.lock",
-	Prime: "=",
-	Fiesta2: "=  @1.60 S22",
-	FiestaEX: "=  @1.30 D18",
-	Fiesta: "S5`nl S12`hd S20`cz D13`fs D23`nm  S16`ahd  @1.10 S3",
-	NXA: ["5", "12", "20", "13", "23"], NXA_: ["", "16", "", "", ""],
-	NX2: ["4", "11", "20", "15", "23"],
-	NX: ["*2", "*6", "@5", "@1", "@8"],
-	Zero: ["5", "9", "20", "12", "22"],
-	Exceed2: ["5", "9", "20", "12", "22"],
-	Exceed: ["5", "8", "15", "12", "20"],
+	charts: {
+		Phoenix: "= S4`3 S6`5 S15`14 S21`20 D20`19",
+		XX: "@1.04 = S14`12 S17`16 D17`13 D19`18 D24`23 D26.lock",
+		Prime: "=",
+		Fiesta2: "=  @1.60 S22",
+		FiestaEX: "=  @1.30 D18",
+		Fiesta: "S5`nl S12`hd S20`cz D13`fs D23`nm  S16`ahd  @1.10 S3",
+		NXA: ["5", "12", "20", "13", "23"], NXA_: ["", "16", "", "", ""],
+		NX2: ["4", "11", "20", "15", "23"],
+		NX: ["*2", "*6", "@5", "@1", "@8"],
+		Zero: ["5", "9", "20", "12", "22"],
+		Exceed2: ["5", "9", "20", "12", "22"],
+		Exceed: ["5", "8", "15", "12", "20"],
+	},
 },
 
 
@@ -11137,10 +12791,12 @@ var readableTracklist = {
 	arcadeID: "A09",
 	pumpoutID: "",
 
-	NX: ["*1.5", "*3", "*7", "*3", "@1"],
-	Zero: ["3", "6", "13", "6", "16"],
-	Exceed2: ["3", "6", "13", "6", "16"],
-	Exceed: ["3", "5", "12", "6", "16"],
+	charts: {
+		NX: ["*1.5", "*3", "*7", "*3", "@1"],
+		Zero: ["3", "6", "13", "6", "16"],
+		Exceed2: ["3", "6", "13", "6", "16"],
+		Exceed: ["3", "5", "12", "6", "16"],
+	},
 },
 
 
@@ -11150,10 +12806,12 @@ var readableTracklist = {
 	arcadeID: "A10",
 	pumpoutID: "",
 
-	NX: ["*1", "*2", "*5.5", "*2", "*6.5"], //??? NX: removed at 1.08
-	Zero: ["2", "4", "9", "4", "11"],
-	Exceed2: ["2", "4", "9", "4", "11"],
-	Exceed: ["2", "4", "12", "5", "13"],
+	charts: {
+		NX: ["*1", "*2", "*5.5", "*2", "*6.5"], //??? NX: removed at 1.08
+		Zero: ["2", "4", "9", "4", "11"],
+		Exceed2: ["2", "4", "9", "4", "11"],
+		Exceed: ["2", "4", "12", "5", "13"],
+	},
 },
 
 
@@ -11163,16 +12821,18 @@ var readableTracklist = {
 	arcadeID: "A11",
 	pumpoutID: 77,
 
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S9`hd S19`cz D16`nm D20`anm  S14",
-	NXA: ["3", "9", "19", "11", "16"],
-	NX2: ["2", "9", "20", "11", "14"],
-	NX: ["*1", "*4.5", "@5", "*5.5", "*7"], NX_: ["", "", "*6", "", "@5"],
-	Zero: ["2", "7", "18", "7", "14"],
-	Exceed2: ["2", "7", "16", "7", "14"],
-	Exceed: ["2", "6", "14", "7", "15"],
+	charts: {
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S9`hd S19`cz D16`nm D20`anm  S14",
+		NXA: ["3", "9", "19", "11", "16"],
+		NX2: ["2", "9", "20", "11", "14"],
+		NX: ["*1", "*4.5", "@5", "*5.5", "*7"], NX_: ["", "", "*6", "", "@5"],
+		Zero: ["2", "7", "18", "7", "14"],
+		Exceed2: ["2", "7", "16", "7", "14"],
+		Exceed: ["2", "6", "14", "7", "15"],
+	},
 },
 
 
@@ -11182,15 +12842,17 @@ var readableTracklist = {
 	arcadeID: "A12",
 	pumpoutID: 426,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S3 S7 S12 D13 Dp3",
-	NXA: ["3", "7", "12", "3", "13"],
-	NX2: ["3", "6", "12", "3", "13"],
-	NX: ["*1.5", "*3", "*6", "*1.5", "*6.5"],
-	Zero: ["2", "6", "11", "6", "13"],
-	Exceed2: ["2", "6", "11", "3", "13"],
-	Exceed: ["2", "3", "9", "4", "12"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S3 S7 S12 D13 Dp3",
+		NXA: ["3", "7", "12", "3", "13"],
+		NX2: ["3", "6", "12", "3", "13"],
+		NX: ["*1.5", "*3", "*6", "*1.5", "*6.5"],
+		Zero: ["2", "6", "11", "6", "13"],
+		Exceed2: ["2", "6", "11", "3", "13"],
+		Exceed: ["2", "3", "9", "4", "12"],
+	},
 },
 
 
@@ -11200,8 +12862,10 @@ var readableTracklist = {
 	arcadeID: "A13",
 	pumpoutID: "",
 
-	Exceed2: ["2", "5", "9", "5", "11"],
-	Exceed: ["3", "5", "9", "5", "11"],
+	charts: {
+		Exceed2: ["2", "5", "9", "5", "11"],
+		Exceed: ["3", "5", "9", "5", "11"],
+	},
 },
 
 
@@ -11211,10 +12875,12 @@ var readableTracklist = {
 	arcadeID: "A14",
 	pumpoutID: "",
 
-	NX: ["*0.5", "*2.5", "*6.5", "*3", "@1"], NX_: ["", "", "(-)", "", "@1"],
-	Zero: ["1", "5", "12", "5", "14"],
-	Exceed2: ["1", "5", "12", "5", "14"],
-	Exceed: ["2", "4", "8", "5", "10"],
+	charts: {
+		NX: ["*0.5", "*2.5", "*6.5", "*3", "@1"], NX_: ["", "", "(-)", "", "@1"],
+		Zero: ["1", "5", "12", "5", "14"],
+		Exceed2: ["1", "5", "12", "5", "14"],
+		Exceed: ["2", "4", "8", "5", "10"],
+	},
 },
 
 
@@ -11224,11 +12890,13 @@ var readableTracklist = {
 	arcadeID: "A15",
 	pumpoutID: "",
 
-	NX2: ["3", "7", "13", "9", "14"],
-	NX: ["*1.5", "*3.5", "*6.5", "*4.5", "*7"],
-	Zero: ["2", "6", "12", "7", "13"],
-	Exceed2: ["2", "6", "9", "7", "12"],
-	Exceed: ["3", "5", "8", "5", "12"],
+	charts: {
+		NX2: ["3", "7", "13", "9", "14"],
+		NX: ["*1.5", "*3.5", "*6.5", "*4.5", "*7"],
+		Zero: ["2", "6", "12", "7", "13"],
+		Exceed2: ["2", "6", "9", "7", "12"],
+		Exceed: ["3", "5", "8", "5", "12"],
+	},
 },
 
 
@@ -11238,8 +12906,10 @@ var readableTracklist = {
 	arcadeID: "A16",
 	pumpoutID: "",
 
-	Exceed2: ["1", "4", "9", "5", "13"],
-	Exceed: ["1", "4", "9", "5", "12"],
+	charts: {
+		Exceed2: ["1", "4", "9", "5", "13"],
+		Exceed: ["1", "4", "9", "5", "12"],
+	},
 },
 
 
@@ -11249,11 +12919,13 @@ var readableTracklist = {
 	arcadeID: "A17",
 	pumpoutID: "",
 
-	NX2: ["4", "9", "13", "10", "16"],
-	NX: ["*2", "*4.5", "*6.5", "*5", "@1"],
-	Zero: ["2", "6", "12", "7", "13"],
-	Exceed2: ["2", "6", "12", "7", "13"],
-	Exceed: ["2", "5", "7", "6", "14"],
+	charts: {
+		NX2: ["4", "9", "13", "10", "16"],
+		NX: ["*2", "*4.5", "*6.5", "*5", "@1"],
+		Zero: ["2", "6", "12", "7", "13"],
+		Exceed2: ["2", "6", "12", "7", "13"],
+		Exceed: ["2", "5", "7", "6", "14"],
+	},
 },
 
 
@@ -11263,11 +12935,13 @@ var readableTracklist = {
 	arcadeID: "A18",
 	pumpoutID: "",
 
-	NX2: ["4", "9", "15", "3", "19"],
-	NX: ["*2", "*4.5", "@1", "*1.5", "@4"], NX_: ["", "", "@1", "", "@4"],
-	Zero: ["2", "7", "14", "7", "19"],
-	Exceed2: ["2", "7", "14", "7", "18"],
-	Exceed: ["3", "6", "10", "7", "14"],
+	charts: {
+		NX2: ["4", "9", "15", "3", "19"],
+		NX: ["*2", "*4.5", "@1", "*1.5", "@4"], NX_: ["", "", "@1", "", "@4"],
+		Zero: ["2", "7", "14", "7", "19"],
+		Exceed2: ["2", "7", "14", "7", "18"],
+		Exceed: ["3", "6", "10", "7", "14"],
+	},
 },
 
 
@@ -11277,10 +12951,12 @@ var readableTracklist = {
 	arcadeID: "A19",
 	pumpoutID: "",
 
-	NX: ["*1", "*2.5", "*4.5", "*2", "*5"],
-	Zero: ["2", "5", "8", "4", "11"],
-	Exceed2: ["2", "5", "8", "4", "11"],
-	Exceed: ["2", "5", "7", "4", "11"],
+	charts: {
+		NX: ["*1", "*2.5", "*4.5", "*2", "*5"],
+		Zero: ["2", "5", "8", "4", "11"],
+		Exceed2: ["2", "5", "8", "4", "11"],
+		Exceed: ["2", "5", "7", "4", "11"],
+	},
 },
 
 
@@ -11290,11 +12966,13 @@ var readableTracklist = {
 	arcadeID: "A20",
 	pumpoutID: "",
 
-	NX2: ["1", "7", "14", "6", "15"],
-	NX: ["*0.5", "*3.5", "*7", "*3", "@1"],
-	Zero: ["1", "6", "14", "5", "15"],
-	Exceed2: ["1", "6", "13", "5", "14"],
-	Exceed: ["1", "5", "13", "4", "14"],
+	charts: {
+		NX2: ["1", "7", "14", "6", "15"],
+		NX: ["*0.5", "*3.5", "*7", "*3", "@1"],
+		Zero: ["1", "6", "14", "5", "15"],
+		Exceed2: ["1", "6", "13", "5", "14"],
+		Exceed: ["1", "5", "13", "4", "14"],
+	},
 },
 
 
@@ -11304,11 +12982,13 @@ var readableTracklist = {
 	arcadeID: "A21",
 	pumpoutID: "",
 
-	NX2: ["3", "6", "10", "6", "12"],
-	NX: ["*1.5", "*3", "*5", "*3", "*6"],
-	Zero: ["2", "5", "11", "7", "12"],
-	Exceed2: ["2", "5", "11", "7", "12"],
-	Exceed: ["2", "4", "11", "5", "12"],
+	charts: {
+		NX2: ["3", "6", "10", "6", "12"],
+		NX: ["*1.5", "*3", "*5", "*3", "*6"],
+		Zero: ["2", "5", "11", "7", "12"],
+		Exceed2: ["2", "5", "11", "7", "12"],
+		Exceed: ["2", "4", "11", "5", "12"],
+	},
 },
 
 
@@ -11318,10 +12998,12 @@ var readableTracklist = {
 	arcadeID: "A22",
 	pumpoutID: "",
 
-	NX: ["*2", "*3.5", "*5.5", "*3", "*6.5"],
-	Zero: ["2", "7", "8", "5", "10"],
-	Exceed2: ["2", "7", "8", "5", "10"],
-	Exceed: ["2", "5", "12", "4", "11"],
+	charts: {
+		NX: ["*2", "*3.5", "*5.5", "*3", "*6.5"],
+		Zero: ["2", "7", "8", "5", "10"],
+		Exceed2: ["2", "7", "8", "5", "10"],
+		Exceed: ["2", "5", "12", "4", "11"],
+	},
 },
 
 
@@ -11331,11 +13013,13 @@ var readableTracklist = {
 	arcadeID: "A23",
 	pumpoutID: "",
 
-	NX2: ["3", "5", "10", "5", "12"],
-	NX: ["*1.5", "*2.5", "*5", "*2.5", "*6"],
-	Zero: ["2", "5", "9", "6", "10"],
-	Exceed2: ["2", "5", "9", "6", "10"],
-	Exceed: ["3", "5", "9", "4", "8"],
+	charts: {
+		NX2: ["3", "5", "10", "5", "12"],
+		NX: ["*1.5", "*2.5", "*5", "*2.5", "*6"],
+		Zero: ["2", "5", "9", "6", "10"],
+		Exceed2: ["2", "5", "9", "6", "10"],
+		Exceed: ["3", "5", "9", "4", "8"],
+	},
 },
 
 
@@ -11345,8 +13029,10 @@ var readableTracklist = {
 	arcadeID: "A24",
 	pumpoutID: "",
 
-	Exceed2: ["2", "5", "9", "5", "12"],
-	Exceed: ["2", "5", "11", "4", "12"],
+	charts: {
+		Exceed2: ["2", "5", "9", "5", "12"],
+		Exceed: ["2", "5", "11", "4", "12"],
+	},
 },
 
 
@@ -11356,8 +13042,10 @@ var readableTracklist = {
 	arcadeID: "A25",
 	pumpoutID: "",
 
-	Exceed2: ["1", "5", "8", "5", "9"],
-	Exceed: ["3", "4", "8", "4", "10"],
+	charts: {
+		Exceed2: ["1", "5", "8", "5", "9"],
+		Exceed: ["3", "4", "8", "4", "10"],
+	},
 },
 
 
@@ -11384,11 +13072,13 @@ var readableTracklist = {
 	arcadeID: "902",
 	pumpoutID: "",
 
-	NX2: ["3", "8", "14", "9", ""],
-	NX: ["*1.5", "*4", "*7", "*4.5", ""], NX_: ["", "", "", "", "@1"],
-	Zero_: ["", "", "", "", "??"],
-	Exceed2: ["4", "7", "9", "8", ""],
-	Exceed: ["3", "6", "11", "5", ""],
+	charts: {
+		NX2: ["3", "8", "14", "9", ""],
+		NX: ["*1.5", "*4", "*7", "*4.5", ""], NX_: ["", "", "", "", "@1"],
+		Zero_: ["", "", "", "", "??"],
+		Exceed2: ["4", "7", "9", "8", ""],
+		Exceed: ["3", "6", "11", "5", ""],
+	},
 },
 
 
@@ -11403,16 +13093,18 @@ var readableTracklist = {
 	arcadeID: "906",
 	pumpoutID: 45,
 
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "= S2",
-	Fiesta: "S7`hd S13`cz D9`fs  S15`acz D17`anm",
-	NXA: ["", "7", "13", "9", ""], NXA_: ["", "", "15", "", "17"],
-	NX2: ["", "7", "13", "9", ""],
-	NX: ["", "*3.5", "*6.5", "*4.5", ""],
-	Zero: ["", "6", "12", "7", ""],
-	Exceed2: ["", "6", "12", "7", ""],
-	Exceed: ["", "5", "12", "5", ""],
+	charts: {
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "= S2",
+		Fiesta: "S7`hd S13`cz D9`fs  S15`acz D17`anm",
+		NXA: ["", "7", "13", "9", ""], NXA_: ["", "", "15", "", "17"],
+		NX2: ["", "7", "13", "9", ""],
+		NX: ["", "*3.5", "*6.5", "*4.5", ""],
+		Zero: ["", "6", "12", "7", ""],
+		Exceed2: ["", "6", "12", "7", ""],
+		Exceed: ["", "5", "12", "5", ""],
+	},
 },
 
 
@@ -11426,13 +13118,15 @@ var readableTracklist = {
 	arcadeID: "909",
 	pumpoutID: 46,
 
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.30 S11",
-	Fiesta: "Sp1`nl S6`hd Dp6`fs D12`nm  S2.new S4.new",
-	NXA: ["1", "6", "", "6", "12"],
-	NX2: ["1", "6", "", "6", "13"],
-	NX: ["*0.5", "*3", "", "*3", ""],
+	charts: {
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.30 S11",
+		Fiesta: "Sp1`nl S6`hd Dp6`fs D12`nm  S2.new S4.new",
+		NXA: ["1", "6", "", "6", "12"],
+		NX2: ["1", "6", "", "6", "13"],
+		NX: ["*0.5", "*3", "", "*3", ""],
+	},
 },
 
 
@@ -11442,8 +13136,10 @@ var readableTracklist = {
 	arcadeID: "910",
 	pumpoutID: "",
 
-	Zero: ["3", "5", "12", "5", "13"],
-	Exceed2: ["3", "5", "12", "5", "13"],
+	charts: {
+		Zero: ["3", "5", "12", "5", "13"],
+		Exceed2: ["3", "5", "12", "5", "13"],
+	},
 },
 
 
@@ -11453,15 +13149,17 @@ var readableTracklist = {
 	arcadeID: "911",
 	pumpoutID: 42,
 
-	Phoenix: "= D18`17 -D13",
-	XX: "= S11`10 S20`19 D13`11 D22`23",
-	Prime2: "= -S22",
-	Prime: "=  @1.17 S21.ucs S22.ucs D23.ucs",
-	Fiesta2: "=  @1.60 S17",
-	FiestaEX: "=  @1.51 S4 S6 S9 D17",
-	Fiesta: "S10`cz D11`nm  S19.new",
-	Exceed2: ["", "", "10", "", "11"],
-	Exceed: ["", "", "10", "6", ""],
+	charts: {
+		Phoenix: "= D18`17 -D13",
+		XX: "= S11`10 S20`19 D13`11 D22`23",
+		Prime2: "= -S22",
+		Prime: "=  @1.17 S21.ucs S22.ucs D23.ucs",
+		Fiesta2: "=  @1.60 S17",
+		FiestaEX: "=  @1.51 S4 S6 S9 D17",
+		Fiesta: "S10`cz D11`nm  S19.new",
+		Exceed2: ["", "", "10", "", "11"],
+		Exceed: ["", "", "10", "6", ""],
+	},
 },
 
 
@@ -11475,10 +13173,12 @@ var readableTracklist = {
 	arcadeID: "913",
 	pumpoutID: 763,
 
-	Phoenix: "= S7`8 S12`13 D18`17",
-	XX: "= S16`cz D17`nm S20.lock D22.lock  @2.05 S8 S13",
-	Exceed2: ["", "", "12", "", "14"],
-	Exceed: ["", "", "12", "", "15"],
+	charts: {
+		Phoenix: "= S7`8 S12`13 D18`17",
+		XX: "= S16`cz D17`nm S20.lock D22.lock  @2.05 S8 S13",
+		Exceed2: ["", "", "12", "", "14"],
+		Exceed: ["", "", "12", "", "15"],
+	},
 },
 
 
@@ -11491,10 +13191,12 @@ var readableTracklist = {
 	arcadeID: "915",
 	pumpoutID: "",
 
-	NX: ["", "*4", "*6.5", "*3", ""],
-	Zero: ["", "6", "10", "7", ""],
-	Exceed2: ["", "6", "10", "7", ""],
-	Exceed: ["", "6", "10", "6", ""],
+	charts: {
+		NX: ["", "*4", "*6.5", "*3", ""],
+		Zero: ["", "6", "10", "7", ""],
+		Exceed2: ["", "6", "10", "7", ""],
+		Exceed: ["", "6", "10", "6", ""],
+	},
 },
 
 
@@ -11504,7 +13206,9 @@ var readableTracklist = {
 	arcadeID: "916",
 	pumpoutID: "",
 
-	Exceed: ["3", "6", "10", "6", ""],
+	charts: {
+		Exceed: ["3", "6", "10", "6", ""],
+	},
 },
 
 
@@ -11518,9 +13222,11 @@ var readableTracklist = {
 	arcadeID: "919",
 	pumpoutID: "",
 
-	NXA: ["3", "6", "", "5", ""],
-	NX2: ["2", "5", "", "5", ""],
-	NX: ["*1", "*2.5", "", "*2.5", ""],
+	charts: {
+		NXA: ["3", "6", "", "5", ""],
+		NX2: ["2", "5", "", "5", ""],
+		NX: ["*1", "*2.5", "", "*2.5", ""],
+	},
 },
 
 
@@ -11533,8 +13239,10 @@ var readableTracklist = {
 	arcadeID: "921",
 	pumpoutID: "",
 
-	Exceed2: ["2", "5", "12", "5", "12"],
-	Exceed: ["2", "5", "11", "5", "12"],
+	charts: {
+		Exceed2: ["2", "5", "12", "5", "12"],
+		Exceed: ["2", "5", "11", "5", "12"],
+	},
 },
 
 
@@ -11546,19 +13254,21 @@ var readableTracklist = {
 	arcadeID: "922",
 	pumpoutID: 43,
 
-	Phoenix: "= S9`7 S17`16 S21`20 D15`13",
-	XX: "= S16`15 S20`19 D13`11 D22`21",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S4 S7",
-	Fiesta: "S8`hd S15`cz D11`fs D21`nm  S13`ahd S19`acz D23`anm",
-	NXA: ["", "8", "15", "11", "21"], NXA_: ["", "13", "19", "", "23"],
-	NX2: ["", "8", "15", "11", "21"], NX2_: ["", "10", "19", "", "22"],
-	NX: ["", "*4", "@1", "*5.5", "@6"], NX_: ["", "*4.5", "", "(-)", "@7"],
-	Zero: ["", "7", "15", "8", "21"],
-	Exceed2: ["", "7", "15", "8", "21"],
-	Exceed: ["", "6", "14", "7", "19"],
+	charts: {
+		Phoenix: "= S9`7 S17`16 S21`20 D15`13",
+		XX: "= S16`15 S20`19 D13`11 D22`21",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S4 S7",
+		Fiesta: "S8`hd S15`cz D11`fs D21`nm  S13`ahd S19`acz D23`anm",
+		NXA: ["", "8", "15", "11", "21"], NXA_: ["", "13", "19", "", "23"],
+		NX2: ["", "8", "15", "11", "21"], NX2_: ["", "10", "19", "", "22"],
+		NX: ["", "*4", "@1", "*5.5", "@6"], NX_: ["", "*4.5", "", "(-)", "@7"],
+		Zero: ["", "7", "15", "8", "21"],
+		Exceed2: ["", "7", "15", "8", "21"],
+		Exceed: ["", "6", "14", "7", "19"],
+	},
 },
 
 
@@ -11580,8 +13290,10 @@ var readableTracklist = {
 	arcadeID: "801",
 	pumpoutID: "",
 
-	Exceed2: ["2", "9", "11", "6", "12"],
-	Exceed: ["1", "7", "12", "6", "13"],
+	charts: {
+		Exceed2: ["2", "9", "11", "6", "12"],
+		Exceed: ["1", "7", "12", "6", "13"],
+	},
 },
 
 
@@ -11591,20 +13303,22 @@ var readableTracklist = {
 	arcadeID: "802",
 	pumpoutID: 25,
 
-	Phoenix: "= S17`16 D15`12 D23`22 -S4",
-		// TODO.Phoenix: D15`12
-	XX: "= S12`11 S16`15 D12`11 D20`19 D22`21 D24`23",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.20 D19  @1.51 S7 S10",
-	Fiesta: "S4`nl S11`hd S15`cz D11`fs D21`nm  S19`acz D23`anm",
-	NXA: ["4", "11", "15", "11", "21"], NXA_: ["", "", "19", "", "23"],
-	NX2: ["3", "8", "15", "11", "21"], NX2_: ["", "", "18", "", "23"],
-	NX: ["*1.5", "*4", "@1", "*5.5", "@6"], NX_: ["", "", "@3", "@8", "??"],
-	Zero: ["3", "6", "13", "9", "20"],
-	Exceed2: ["3", "6", "13", "9", "20"],
-	Exceed: ["3", "6", "12", "9", "18"],
+	charts: {
+		Phoenix: "= S17`16 D15`12 D23`22 -S4",
+			// TODO.Phoenix: D15`12
+		XX: "= S12`11 S16`15 D12`11 D20`19 D22`21 D24`23",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.20 D19  @1.51 S7 S10",
+		Fiesta: "S4`nl S11`hd S15`cz D11`fs D21`nm  S19`acz D23`anm",
+		NXA: ["4", "11", "15", "11", "21"], NXA_: ["", "", "19", "", "23"],
+		NX2: ["3", "8", "15", "11", "21"], NX2_: ["", "", "18", "", "23"],
+		NX: ["*1.5", "*4", "@1", "*5.5", "@6"], NX_: ["", "", "@3", "@8", "??"],
+		Zero: ["3", "6", "13", "9", "20"],
+		Exceed2: ["3", "6", "13", "9", "20"],
+		Exceed: ["3", "6", "12", "9", "18"],
+	},
 },
 
 
@@ -11614,7 +13328,9 @@ var readableTracklist = {
 	arcadeID: "803",
 	pumpoutID: "",
 
-	Exceed: ["2", "4", "9", "6", ""],
+	charts: {
+		Exceed: ["2", "4", "9", "6", ""],
+	},
 },
 
 
@@ -11624,7 +13340,9 @@ var readableTracklist = {
 	arcadeID: "804",
 	pumpoutID: "",
 
-	Exceed: ["2", "4", "11", "6", ""],
+	charts: {
+		Exceed: ["2", "4", "11", "6", ""],
+	},
 },
 
 
@@ -11634,10 +13352,12 @@ var readableTracklist = {
 	arcadeID: "805",
 	pumpoutID: "",
 
-	NX: ["*1.5", "*3", "*5", "*2.5", "*7"],
-	Zero: ["2", "5", "9", "5", "14"],
-	Exceed2: ["2", "5", "9", "5", "14"],
-	Exceed: ["2", "5", "9", "6", "14"],
+	charts: {
+		NX: ["*1.5", "*3", "*5", "*2.5", "*7"],
+		Zero: ["2", "5", "9", "5", "14"],
+		Exceed2: ["2", "5", "9", "5", "14"],
+		Exceed: ["2", "5", "9", "6", "14"],
+	},
 },
 
 
@@ -11647,10 +13367,12 @@ var readableTracklist = {
 	arcadeID: "806",
 	pumpoutID: "",
 
-	NX: ["*1.5", "*3", "*7", "*4", "@1"],
-	Zero: ["4", "5", "12", "7", "15"],
-	Exceed2: ["4", "5", "12", "7", "15"],
-	Exceed: ["2", "5", "12", "6", ""],
+	charts: {
+		NX: ["*1.5", "*3", "*7", "*4", "@1"],
+		Zero: ["4", "5", "12", "7", "15"],
+		Exceed2: ["4", "5", "12", "7", "15"],
+		Exceed: ["2", "5", "12", "6", ""],
+	},
 },
 
 
@@ -11660,14 +13382,16 @@ var readableTracklist = {
 	arcadeID: "807",
 	pumpoutID: 431,
 
-	Phoenix: "= S5`4 D9`7 D18`17",
-	XX: "= S11`9",
-	Prime2: "=  @2.00 D17",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S4`nl S6`hd S9`cz D7`fs  S18 D15",
-	Exceed2: ["4", "6", "9", "7", ""],
-	Exceed: ["3", "5", "9", "8", ""],
+	charts: {
+		Phoenix: "= S5`4 D9`7 D18`17",
+		XX: "= S11`9",
+		Prime2: "=  @2.00 D17",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S4`nl S6`hd S9`cz D7`fs  S18 D15",
+		Exceed2: ["4", "6", "9", "7", ""],
+		Exceed: ["3", "5", "9", "8", ""],
+	},
 },
 
 
@@ -11677,7 +13401,9 @@ var readableTracklist = {
 	arcadeID: "808",
 	pumpoutID: "",
 
-	Exceed: ["2", "4", "11", "5", ""],
+	charts: {
+		Exceed: ["2", "4", "11", "5", ""],
+	},
 },
 
 
@@ -11687,10 +13413,12 @@ var readableTracklist = {
 	arcadeID: "809",
 	pumpoutID: "",
 
-	NX: ["*1", "*2.5", "*6.5", "*4", ""],
-	Zero: ["2", "5", "11", "7", ""], Zero_: ["", "", "", "??", ""], //? правда был эназер?
-	Exceed2: ["2", "5", "11", "7", ""],
-	Exceed: ["2", "4", "11", "6", ""],
+	charts: {
+		NX: ["*1", "*2.5", "*6.5", "*4", ""],
+		Zero: ["2", "5", "11", "7", ""], Zero_: ["", "", "", "??", ""], //? правда был эназер?
+		Exceed2: ["2", "5", "11", "7", ""],
+		Exceed: ["2", "4", "11", "6", ""],
+	},
 },
 
 
@@ -11700,8 +13428,10 @@ var readableTracklist = {
 	arcadeID: "810",
 	pumpoutID: "",
 
-	Exceed2: ["2", "5", "8", "6", ""],
-	Exceed: ["2", "4", "7", "6", ""],
+	charts: {
+		Exceed2: ["2", "5", "8", "6", ""],
+		Exceed: ["2", "4", "7", "6", ""],
+	},
 },
 
 
@@ -11711,15 +13441,17 @@ var readableTracklist = {
 	arcadeID: "811",
 	pumpoutID: 434,
 
-	Phoenix: "= S11`7 S17`16 -D9",
-		// TODO.Phoenix: S11`7
-	XX: "= D18`16",
-	Prime2: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S7 S16 D9 D16`nm",  //?
-	Exceed2: ["2", "7", "13", "7", "16"],
-	Exceed: ["2", "6", "13", "8", ""],
+	charts: {
+		Phoenix: "= S11`7 S17`16 -D9",
+			// TODO.Phoenix: S11`7
+		XX: "= D18`16",
+		Prime2: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S7 S16 D9 D16`nm",  //?
+		Exceed2: ["2", "7", "13", "7", "16"],
+		Exceed: ["2", "6", "13", "8", ""],
+	},
 },
 
 
@@ -11729,8 +13461,10 @@ var readableTracklist = {
 	arcadeID: "812",
 	pumpoutID: "",
 
-	Exceed2: ["1", "4", "7", "5", ""],
-	Exceed: ["1", "4", "8", "5", ""],
+	charts: {
+		Exceed2: ["1", "4", "7", "5", ""],
+		Exceed: ["1", "4", "8", "5", ""],
+	},
 },
 
 
@@ -11740,8 +13474,10 @@ var readableTracklist = {
 	arcadeID: "813",
 	pumpoutID: "",
 
-	Exceed2: ["1", "6", "8", "6", ""],
-	Exceed: ["1", "6", "8", "5", ""],
+	charts: {
+		Exceed2: ["1", "6", "8", "6", ""],
+		Exceed: ["1", "6", "8", "5", ""],
+	},
 },
 
 
@@ -11751,10 +13487,12 @@ var readableTracklist = {
 	arcadeID: "814",
 	pumpoutID: "",
 
-	NX: ["*1.5", "*3", "*6.5", "*2.5", "*7"], NX_: ["", "", "", "", "@3"],
-	Zero: ["2", "5", "11", "5", "13"], Zero_: ["", "", "", "", "??"],
-	Exceed2: ["2", "5", "11", "5", "13"],
-	Exceed: ["1", "5", "11", "5", "14"],
+	charts: {
+		NX: ["*1.5", "*3", "*6.5", "*2.5", "*7"], NX_: ["", "", "", "", "@3"],
+		Zero: ["2", "5", "11", "5", "13"], Zero_: ["", "", "", "", "??"],
+		Exceed2: ["2", "5", "11", "5", "13"],
+		Exceed: ["1", "5", "11", "5", "14"],
+	},
 },
 
 
@@ -11764,8 +13502,10 @@ var readableTracklist = {
 	arcadeID: "815",
 	pumpoutID: "",
 
-	Exceed2: ["3", "5", "8", "5", ""],
-	Exceed: ["3", "5", "8", "5", ""],
+	charts: {
+		Exceed2: ["3", "5", "8", "5", ""],
+		Exceed: ["3", "5", "8", "5", ""],
+	},
 },
 
 
@@ -11775,8 +13515,10 @@ var readableTracklist = {
 	arcadeID: "816",
 	pumpoutID: "",
 
-	Exceed2: ["2", "4", "7", "4", ""],
-	Exceed: ["2", "4", "8", "3", ""],
+	charts: {
+		Exceed2: ["2", "4", "7", "4", ""],
+		Exceed: ["2", "4", "8", "3", ""],
+	},
 },
 
 
@@ -11786,7 +13528,9 @@ var readableTracklist = {
 	arcadeID: "817",
 	pumpoutID: "",
 
-	Exceed: ["2", "5", "10", "4", "12"],
+	charts: {
+		Exceed: ["2", "5", "10", "4", "12"],
+	},
 },
 
 
@@ -11796,10 +13540,12 @@ var readableTracklist = {
 	arcadeID: "818",
 	pumpoutID: "",
 
-	NX: ["*2", "*3.5", "*6", "*3.5", ""], NX_: ["", "", "", "", "@1"],
-	Zero: ["3", "6", "11", "5", ""], Zero_: ["", "", "", "", "??"],
-	Exceed2: ["3", "6", "11", "5", ""],
-	Exceed: ["3", "6", "13", "5", ""],
+	charts: {
+		NX: ["*2", "*3.5", "*6", "*3.5", ""], NX_: ["", "", "", "", "@1"],
+		Zero: ["3", "6", "11", "5", ""], Zero_: ["", "", "", "", "??"],
+		Exceed2: ["3", "6", "11", "5", ""],
+		Exceed: ["3", "6", "13", "5", ""],
+	},
 },
 
 
@@ -11809,7 +13555,9 @@ var readableTracklist = {
 	arcadeID: "819",
 	pumpoutID: "",
 
-	Exceed: ["3", "7", "13", "6", ""],
+	charts: {
+		Exceed: ["3", "7", "13", "6", ""],
+	},
 },
 
 
@@ -11819,18 +13567,20 @@ var readableTracklist = {
 	arcadeID: "820",
 	pumpoutID: 26,
 
-	Phoenix: "= S6`5 D20`19 D24`23 -S11 -D13",
-	XX: "= S11`10 S16`15 D13`12",
-	Prime2: "=  @2.05 S18 S21 D23",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S3 S9",
-	Fiesta: "S5`nl S10`hd S15`cz  D12`fs D19`nm",
-	NX2: ["5", "10", "15", "12", "19"],
-	NX: ["*2.5", "*5", "@1", "*6", "@4"],
-	Zero: ["5", "9", "13", "9", "19"],
-	Exceed2: ["5", "9", "13", "9", "20"],
-	Exceed: ["4", "7", "14", "7", ""],
+	charts: {
+		Phoenix: "= S6`5 D20`19 D24`23 -S11 -D13",
+		XX: "= S11`10 S16`15 D13`12",
+		Prime2: "=  @2.05 S18 S21 D23",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S3 S9",
+		Fiesta: "S5`nl S10`hd S15`cz  D12`fs D19`nm",
+		NX2: ["5", "10", "15", "12", "19"],
+		NX: ["*2.5", "*5", "@1", "*6", "@4"],
+		Zero: ["5", "9", "13", "9", "19"],
+		Exceed2: ["5", "9", "13", "9", "20"],
+		Exceed: ["4", "7", "14", "7", ""],
+	},
 },
 
 
@@ -11840,12 +13590,14 @@ var readableTracklist = {
 	arcadeID: "821",
 	pumpoutID: 432,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp1`nl S6`hd S11`cz Dp4`fs D13`nm",
-	Zero: ["1", "6", "11", "4", "13"],
-	Exceed2: ["1", "6", "11", "4", "13"],
-	Exceed: ["2", "5", "10", "5", "15"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp1`nl S6`hd S11`cz Dp4`fs D13`nm",
+		Zero: ["1", "6", "11", "4", "13"],
+		Exceed2: ["1", "6", "11", "4", "13"],
+		Exceed: ["2", "5", "10", "5", "15"],
+	},
 },
 
 
@@ -11858,7 +13610,9 @@ var readableTracklist = {
 	arcadeID: "823",
 	pumpoutID: "",
 
-	Exceed: ["2", "6", "15", "6", "20"],
+	charts: {
+		Exceed: ["2", "6", "15", "6", "20"],
+	},
 },
 
 
@@ -11871,19 +13625,21 @@ var readableTracklist = {
 	arcadeID: "826",
 	pumpoutID: 27,
 
-	Phoenix: "= D15`13 -Sp3 -Dp6",
-	XX: "= S13`12 S17`15",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S4",
-	Fiesta: "Sp3`nl S6`hd S11`cz Dp6`fs D13`nm  S12`ahd S15`acz D14`anm",
-	NXA: ["3", "6", "11", "6", "13"], NXA_: ["", "12", "15", "", "14"],
-	NX2: ["3", "6", "11", "6", "13"], NX2_: ["", "12", "15", "", "14"],
-	NX: ["*1.5", "*3", "*5.5", "*3", "*6.5"],
-	Zero: ["3", "5", "10", "6", "12"],
-	Exceed2: ["3", "8", "10", "6", "12"],
-	Exceed: ["1", "7", "10", "6", "12"],
+	charts: {
+		Phoenix: "= D15`13 -Sp3 -Dp6",
+		XX: "= S13`12 S17`15",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S4",
+		Fiesta: "Sp3`nl S6`hd S11`cz Dp6`fs D13`nm  S12`ahd S15`acz D14`anm",
+		NXA: ["3", "6", "11", "6", "13"], NXA_: ["", "12", "15", "", "14"],
+		NX2: ["3", "6", "11", "6", "13"], NX2_: ["", "12", "15", "", "14"],
+		NX: ["*1.5", "*3", "*5.5", "*3", "*6.5"],
+		Zero: ["3", "5", "10", "6", "12"],
+		Exceed2: ["3", "8", "10", "6", "12"],
+		Exceed: ["1", "7", "10", "6", "12"],
+	},
 },
 
 
@@ -11902,21 +13658,23 @@ var readableTracklist = {
 	arcadeID: "701",
 	pumpoutID: 28,
 
-	Phoenix: "= S10`8 S14`12 D14`11",
-		// TODO.Phoenix: D14`11
-	XX: "= S6 S8`7 D18`16",
-		// TODO: S6.???
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S9",
-	Fiesta: "S3`nl S7`hd S12`cz D11`fs D16`nm  S16`acz",
-	NXA: ["4", "7", "12", "11", "16"], NXA_: ["", "", "16", "", ""],
-	NX2: ["3", "7", "11", "9", "16"], NX2_: ["", "", "16", "", ""],
-	NX: ["*1.5", "*3.5", "*5.5", "*4.5", "@1"], NX_: ["", "", "@1", "", ""],
-	Zero: ["2", "6", "12", "8", "16"],
-	Exceed2: ["2", "6", "12", "8", "16"],
-	Exceed: ["2", "5", "12", "6", "16"],
+	charts: {
+		Phoenix: "= S10`8 S14`12 D14`11",
+			// TODO.Phoenix: D14`11
+		XX: "= S6 S8`7 D18`16",
+			// TODO: S6.???
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S9",
+		Fiesta: "S3`nl S7`hd S12`cz D11`fs D16`nm  S16`acz",
+		NXA: ["4", "7", "12", "11", "16"], NXA_: ["", "", "16", "", ""],
+		NX2: ["3", "7", "11", "9", "16"], NX2_: ["", "", "16", "", ""],
+		NX: ["*1.5", "*3.5", "*5.5", "*4.5", "@1"], NX_: ["", "", "@1", "", ""],
+		Zero: ["2", "6", "12", "8", "16"],
+		Exceed2: ["2", "6", "12", "8", "16"],
+		Exceed: ["2", "5", "12", "6", "16"],
+	},
 },
 
 
@@ -11926,13 +13684,15 @@ var readableTracklist = {
 	arcadeID: "702",
 	pumpoutID: 29,
 
-	Phoenix: "= -Sp3 -S5 -Dp3",
-	XX: "= S12`11  @2.06 CoOp(x2)",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.20 Sp3 Dp3  @1.51 S2 S8",
-	Fiesta: "S5 S11 S16 D17",
+	charts: {
+		Phoenix: "= -Sp3 -S5 -Dp3",
+		XX: "= S12`11  @2.06 CoOp(x2)",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.20 Sp3 Dp3  @1.51 S2 S8",
+		Fiesta: "S5 S11 S16 D17",
+	},
 },
 
 
@@ -11942,13 +13702,15 @@ var readableTracklist = {
 	arcadeID: "703",
 	pumpoutID: 433,
 
-	Phoenix: "= S7`6 D10`9",
-	XX: "= S12`13 D22`21",
-	Prime2: "=  @1.10 D21",
-	Fiesta2: "=",
-	FiestaEX: "S4 S6 S13 D9",  //? nl hd cz fs
-	Exceed2: ["1", "5", "7", "8", ""],
-	Exceed: ["1", "4", "8", "5", ""],
+	charts: {
+		Phoenix: "= S7`6 D10`9",
+		XX: "= S12`13 D22`21",
+		Prime2: "=  @1.10 D21",
+		Fiesta2: "=",
+		FiestaEX: "S4 S6 S13 D9",  //? nl hd cz fs
+		Exceed2: ["1", "5", "7", "8", ""],
+		Exceed: ["1", "4", "8", "5", ""],
+	},
 },
 
 
@@ -11958,20 +13720,22 @@ var readableTracklist = {
 	arcadeID: "704",
 	pumpoutID: 30,
 
-	Phoenix: "= S4`3 S8`7 S11`10 D11`6",
-		// TODO.Phoenix: D11`6
-	XX: "= S17`15 D17`15 D21`20",
-	Prime2: "=",
-	Prime: "= CoOp(x2)`Dp??(x2)",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S10",
-	Fiesta: "S3`nl S7`hd S19`cz D6`fs D20`nm  S15`acz D15`afs Dp??(x2)`anm",
-	NXA: ["4", "7", "19", "6", "20"], NXA_: ["", "", "16", "7", "??(x2)"],  // у afs неправильная официальная оценка, он гораздо круче (и это новый чарт, не из NX2)
-	NX2: ["3", "5", "19", "6", "20"], NX2_: ["", "", "16", "8", "??(x2)"],
-	NX: ["*1.5", "*3", "@4", "*3", "@5"], NX_: ["", "", "@1", "*4", "??(x2)"],
-	Zero: ["2", "6", "19", "6", "20"], Zero_: ["", "", "", "??", "??(x2)"],
-	Exceed2: ["2", "6", "18", "6", "20"],
-	Exceed: ["2", "6", "11", "5", ""],
+	charts: {
+		Phoenix: "= S4`3 S8`7 S11`10 D11`6",
+			// TODO.Phoenix: D11`6
+		XX: "= S17`15 D17`15 D21`20",
+		Prime2: "=",
+		Prime: "= CoOp(x2)`Dp??(x2)",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S10",
+		Fiesta: "S3`nl S7`hd S19`cz D6`fs D20`nm  S15`acz D15`afs Dp??(x2)`anm",
+		NXA: ["4", "7", "19", "6", "20"], NXA_: ["", "", "16", "7", "??(x2)"],  // у afs неправильная официальная оценка, он гораздо круче (и это новый чарт, не из NX2)
+		NX2: ["3", "5", "19", "6", "20"], NX2_: ["", "", "16", "8", "??(x2)"],
+		NX: ["*1.5", "*3", "@4", "*3", "@5"], NX_: ["", "", "@1", "*4", "??(x2)"],
+		Zero: ["2", "6", "19", "6", "20"], Zero_: ["", "", "", "??", "??(x2)"],
+		Exceed2: ["2", "6", "18", "6", "20"],
+		Exceed: ["2", "6", "11", "5", ""],
+	},
 },
 
 
@@ -11981,15 +13745,17 @@ var readableTracklist = {
 	arcadeID: "705",
 	pumpoutID: 31,
 
-	Phoenix: "= S7`6 S12`11 S16`15 D16`15 D21`20",
-	XX: "= D20`19",
-	Prime2: "=  @1.09 D19",
-	Prime: "=  @1.12 S18.ucs",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S6 S11 S15 D15",  //?
-	Exceed2: ["2", "5", "8", "6", ""],
-	Exceed: ["2", "5", "8", "5", ""],
+	charts: {
+		Phoenix: "= S7`6 S12`11 S16`15 D16`15 D21`20",
+		XX: "= D20`19",
+		Prime2: "=  @1.09 D19",
+		Prime: "=  @1.12 S18.ucs",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S6 S11 S15 D15",  //? nl hd cz fs
+		Exceed2: ["2", "5", "8", "6", ""],
+		Exceed: ["2", "5", "8", "5", ""],
+	},
 },
 
 
@@ -11999,11 +13765,13 @@ var readableTracklist = {
 	arcadeID: "706",
 	pumpoutID: 436,
 
-	Phoenix: "= -S13 -D8",
-	XX: "=",
-	Prime2: "=",
-	Fiesta2: "=",
-	FiestaEX: "S5 S7 S13 D8  @1.20 S19",
+	charts: {
+		Phoenix: "= -S13 -D8",
+		XX: "=",
+		Prime2: "=",
+		Fiesta2: "=",
+		FiestaEX: "S5 S7 S13 D8  @1.20 S19",
+	},
 },
 
 
@@ -12013,15 +13781,17 @@ var readableTracklist = {
 	arcadeID: "707",
 	pumpoutID: 32,
 
-	Phoenix: "= S4`3 S6`5 S15`14 D16`15 -Sp2 -Dp4 -Dp6",
-	XX: "= S14`12",
-	Prime2: "=  @1.09 D18",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.20 Dp4  @1.51 S3 S8",
-	Fiesta: "Sp2`nl S5`hd S12`cz Dp6`fs D15`nm",
-	Zero: ["2", "5", "12", "6", "15"],
-	Exceed2: ["2", "5", "12", "6", "15"],
+	charts: {
+		Phoenix: "= S4`3 S6`5 S15`14 D16`15 -Sp2 -Dp4 -Dp6",
+		XX: "= S14`12",
+		Prime2: "=  @1.09 D18",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.20 Dp4  @1.51 S3 S8",
+		Fiesta: "Sp2`nl S5`hd S12`cz Dp6`fs D15`nm",
+		Zero: ["2", "5", "12", "6", "15"],
+		Exceed2: ["2", "5", "12", "6", "15"],
+	},
 },
 
 
@@ -12031,18 +13801,20 @@ var readableTracklist = {
 	arcadeID: "708",
 	pumpoutID: 33,
 
-	Phoenix: "= S8`9 D7`9 -Sp3 -Dp6",
-	XX: "=  @2.02 S3 S9 S13 D9",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp3`nl S6`hd Dp6`fs  D14.new",
-	NXA: ["3", "6", "9", "6", "13"],
-	NX2: ["3", "6", "9", "6", "13"],
-	NX: ["*1.5", "*3", "*4.5", "*3", ""],
-	Zero: ["1", "4", "8", "5", ""],
-	Exceed2: ["1", "4", "8", "5", ""],
+	charts: {
+		Phoenix: "= S8`9 D7`9 -Sp3 -Dp6",
+		XX: "=  @2.02 S3 S9 S13 D9",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp3`nl S6`hd Dp6`fs  D14.new",
+		NXA: ["3", "6", "9", "6", "13"],
+		NX2: ["3", "6", "9", "6", "13"],
+		NX: ["*1.5", "*3", "*4.5", "*3", ""],
+		Zero: ["1", "4", "8", "5", ""],
+		Exceed2: ["1", "4", "8", "5", ""],
+	},
 },
 
 
@@ -12052,16 +13824,18 @@ var readableTracklist = {
 	arcadeID: "709",
 	pumpoutID: 437,
 
-	Phoenix: "= S8`7 S16`15 D16`13 D19`18 -Sp4 -Dp6",
-		// TODO.Phoenix: D16`13
-	XX: "=  @1.02 D18.new  @2.07 S11",
-	Prime2: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S7 S15 D13 Sp4 Dp6",
-	NX2: ["4", "7", "8", "6", "13"],
-	Zero: ["4", "7", "8", "6", "13"],
-	Exceed2: ["4", "7", "8", "6", "14"],
+	charts: {
+		Phoenix: "= S8`7 S16`15 D16`13 D19`18 -Sp4 -Dp6",
+			// TODO.Phoenix: D16`13
+		XX: "=  @1.02 D18.new  @2.07 S11",
+		Prime2: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S7 S15 D13 Sp4 Dp6",
+		NX2: ["4", "7", "8", "6", "13"],
+		Zero: ["4", "7", "8", "6", "13"],
+		Exceed2: ["4", "7", "8", "6", "14"],
+	},
 },
 
 
@@ -12071,11 +13845,13 @@ var readableTracklist = {
 	arcadeID: "710",
 	pumpoutID: 438,
 
-	Phoenix: "= S13`12 D9`7 D21`20",
-	XX: "=  @2.06 S20.lock D20.ampass",
-	Prime2: "= -D12",
-	Fiesta2: "=",
-	FiestaEX: "S4 S6 S12 D7 D12",
+	charts: {
+		Phoenix: "= S13`12 D9`7 D21`20",
+		XX: "=  @2.06 S20.lock D20.ampass",
+		Prime2: "= -D12",
+		Fiesta2: "=",
+		FiestaEX: "S4 S6 S12 D7 D12",
+	},
 },
 
 
@@ -12085,19 +13861,21 @@ var readableTracklist = {
 	arcadeID: "711",
 	pumpoutID: 34,
 
-	Phoenix: "= S12`10 S20`19 D14`12 D21`20",
-	XX: "= S7`6 S10`8 S16`15 D12`11 D20`19",
-	Prime2: "=  @1.07 S19",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.30 D17",
-	Fiesta: "S4`nl S8`hd S15`cz D11`fs D19`nm  S6",
-	NXA: ["4", "8", "15", "11", "19"],
-	NX2: ["4", "9", "14", "10", "19"],
-	NX: ["*2", "*4.5", "*7", "*5", "@4"],
-	Zero: ["3", "8", "14", "9", "19"],
-	Exceed2: ["3", "8", "14", "9", "18"],
-	Exceed: ["3", "7", "14", "7", "18"],
+	charts: {
+		Phoenix: "= S12`10 S20`19 D14`12 D21`20",
+		XX: "= S7`6 S10`8 S16`15 D12`11 D20`19",
+		Prime2: "=  @1.07 S19",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.30 D17",
+		Fiesta: "S4`nl S8`hd S15`cz D11`fs D19`nm  S6",
+		NXA: ["4", "8", "15", "11", "19"],
+		NX2: ["4", "9", "14", "10", "19"],
+		NX: ["*2", "*4.5", "*7", "*5", "@4"],
+		Zero: ["3", "8", "14", "9", "19"],
+		Exceed2: ["3", "8", "14", "9", "18"],
+		Exceed: ["3", "7", "14", "7", "18"],
+	},
 },
 
 
@@ -12108,19 +13886,21 @@ var readableTracklist = {
 	arcadeID: "712",
 	pumpoutID: 35,
 
-	Phoenix: "= S13`11 S16`14 D16`14 D14`13",
-	XX: "= S2`3 S11`10 S14`13 D13`10 D14`13 D20`19  @2.01 D25.lock",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S3",
-	Fiesta: "S5`nl S10`hd S13`cz D13`fs D19`nm  S19`acz D21`anm  D10",
-	NXA: ["5", "10", "13", "13", "19"], NXA_: ["", "", "19", "", "21"],
-	NX2: ["5", "10", "13", "13", "19"],
-	NX: ["*2.5", "*5", "*6.5", "*6.5", "@4"],
-	Zero: ["4", "8", "13", "10", "19"],
-	Exceed2: ["4", "8", "13", "10", "19"],
-	Exceed: ["4", "7", "12", "7", "20"],
+	charts: {
+		Phoenix: "= S13`11 S16`14 D16`14 D14`13",
+		XX: "= S2`3 S11`10 S14`13 D13`10 D14`13 D20`19  @2.01 D25.lock",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S3",
+		Fiesta: "S5`nl S10`hd S13`cz D13`fs D19`nm  S19`acz D21`anm  D10",
+		NXA: ["5", "10", "13", "13", "19"], NXA_: ["", "", "19", "", "21"],
+		NX2: ["5", "10", "13", "13", "19"],
+		NX: ["*2.5", "*5", "*6.5", "*6.5", "@4"],
+		Zero: ["4", "8", "13", "10", "19"],
+		Exceed2: ["4", "8", "13", "10", "19"],
+		Exceed: ["4", "7", "12", "7", "20"],
+	},
 },
 
 
@@ -12130,13 +13910,15 @@ var readableTracklist = {
 	arcadeID: "713",
 	pumpoutID: 36,
 
-	Phoenix: "= S3`2 S11`9 D10`8 -Dp3",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=  @1.17 S13.ucs S17.ucs D8.ucs D13.ucs D16.ucs",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.10 Dp3",
-	Fiesta: "S2 S4 S9",
+	charts: {
+		Phoenix: "= S3`2 S11`9 D10`8 -Dp3",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=  @1.17 S13.ucs S17.ucs D8.ucs D13.ucs D16.ucs",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.10 Dp3",
+		Fiesta: "S2 S4 S9",
+	},
 },
 
 
@@ -12146,15 +13928,17 @@ var readableTracklist = {
 	arcadeID: "714",
 	pumpoutID: 37,
 
-	Phoenix: "= S9`8 S8`6 S14`13 -Sp2 -Dp3",
-	XX: "=",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.20 Sp2 Dp3  @1.30 S13 D13  @1.51 S4",
-	Fiesta: "S6`hd S8`cz",
-	Exceed2: ["3", "6", "8", "7", ""],
-	Exceed: ["3", "6", "8", "6", ""],
+	charts: {
+		Phoenix: "= S9`8 S8`6 S14`13 -Sp2 -Dp3",
+		XX: "=",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.20 Sp2 Dp3  @1.30 S13 D13  @1.51 S4",
+		Fiesta: "S6`hd S8`cz",
+		Exceed2: ["3", "6", "8", "7", ""],
+		Exceed: ["3", "6", "8", "6", ""],
+	},
 },
 
 
@@ -12164,12 +13948,15 @@ var readableTracklist = {
 	arcadeID: "715",
 	pumpoutID: 439,
 
-	Phoenix: "= S9`8 D11`8 -S14",
-		// TODO.Phoenix: D11`8
-	XX: "= S4`3 S13`14 S14`13",  //TODO: proof S13`14 S14`13
-	Prime2: "=",
-	Fiesta2: "=",
-	FiestaEX: "S3 S8 S13 D8  @1.30 S14",
+	charts: {
+		Phoenix: "= S9`8 D11`8 -S14",
+			// TODO.Phoenix: D11`8
+		XX: "= S4`3 S13`14 S14`13",
+			//TODO: proof S13`14 S14`13
+		Prime2: "=",
+		Fiesta2: "=",
+		FiestaEX: "S3 S8 S13 D8  @1.30 S14",
+	},
 },
 
 
@@ -12180,13 +13967,15 @@ var readableTracklist = {
 	arcadeID: "716",
 	pumpoutID: 435,
 
-	Phoenix: "= S7`5 -Sp3 -Dp5",
-	XX: "= S19`18",
-	Prime2: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp3`nl S5`hd Dp5`fs  S18.new D19.new",
-	NX2: ["3", "5", "12", "3", ""],
+	charts: {
+		Phoenix: "= S7`5 -Sp3 -Dp5",
+		XX: "= S19`18",
+		Prime2: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp3`nl S5`hd Dp5`fs  S18.new D19.new",
+		NX2: ["3", "5", "12", "3", ""],
+	},
 },
 
 
@@ -12196,13 +13985,15 @@ var readableTracklist = {
 	arcadeID: "717",
 	pumpoutID: 38,
 
-	Phoenix: "= S10`9 S14`13 D17`16 -Sp4 -Dp4 -Dp7",
-	XX: "=  @2.01 D16",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "= S9  @1.10 Dp4  @1.30 S13  @1.51 S2 S4 S6",
-	Fiesta: "Sp4 Dp7",
+	charts: {
+		Phoenix: "= S10`9 S14`13 D17`16 -Sp4 -Dp4 -Dp7",
+		XX: "=  @2.01 D16",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "= S9  @1.10 Dp4  @1.30 S13  @1.51 S2 S4 S6",
+		Fiesta: "Sp4 Dp7",
+	},
 },
 
 
@@ -12212,13 +14003,15 @@ var readableTracklist = {
 	arcadeID: "718",
 	pumpoutID: 39,
 
-	Phoenix: "= S15`14 -Sp4 -S12 -Dp4 -Dp6",
-	XX: "=  @2.06 D18",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "= S12  @1.10 Dp4  @1.30 S14 D15  @1.51 S2 S4 S6",
-	Fiesta: "Sp4 Dp6",
+	charts: {
+		Phoenix: "= S15`14 -Sp4 -S12 -Dp4 -Dp6",
+		XX: "=  @2.06 D18",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "= S12  @1.10 Dp4  @1.30 S14 D15  @1.51 S2 S4 S6",
+		Fiesta: "Sp4 Dp6",
+	},
 },
 
 
@@ -12228,8 +14021,10 @@ var readableTracklist = {
 	arcadeID: "719",
 	pumpoutID: "",
 
-	Exceed2: ["2", "4", "9", "6", ""],
-	Exceed: ["1", "4", "9", "5", ""],
+	charts: {
+		Exceed2: ["2", "4", "9", "6", ""],
+		Exceed: ["1", "4", "9", "5", ""],
+	},
 },
 
 
@@ -12242,8 +14037,10 @@ var readableTracklist = {
 	arcadeID: "721",
 	pumpoutID: "",
 
-	Exceed2: ["1", "4", "13", "3", ""],
-	Exceed: ["1", "4", "11", "3", ""],
+	charts: {
+		Exceed2: ["1", "4", "13", "3", ""],
+		Exceed: ["1", "4", "11", "3", ""],
+	},
 },
 
 
@@ -12263,9 +14060,11 @@ var readableTracklist = {
 	arcadeID: "730",
 	pumpoutID: "",
 
-	Zero: ["1", "5", "10", "4", "13"],
-	Exceed2: ["1", "5", "10", "4", "13"],
-	Exceed: ["1", "5", "10", "3", "13"],
+	charts: {
+		Zero: ["1", "5", "10", "4", "13"],
+		Exceed2: ["1", "5", "10", "4", "13"],
+		Exceed: ["1", "5", "10", "3", "13"],
+	},
 },
 
 
@@ -12281,19 +14080,21 @@ var readableTracklist = {
 	arcadeID: "735",
 	pumpoutID: 40,
 
-	Phoenix: "= S3`4 S10`9 S16`15 S18`17 D15`13 D21`19",
-	XX: "= D13`12 -D17 D19`18 D20`19",  //??? proof
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S4 S7",
-	Fiesta: "S9`hd S15`cz D17`fs D18`nm  S17`ahd S20`acz D12`afs D19`anm",
-	NXA: ["5", "9", "15", "17", "18"], NXA_: ["", "17", "20", "12", "19"],
-	NX2: ["4", "8", "14", "16", "18"], NX2_: ["", "16", "18", "12", "19"],
-	NX: ["*2", "*4", "*7", "@1", "@3"], NX_: ["", "", "(-)", "*5.5", "@4"],
-	Zero: ["4", "7", "14", "15", "18"], Zero_: ["", "", "", "??", "??"],
-	Exceed2: ["4", "7", "14", "15", "17"],
-	Exceed: ["4", "7", "14", "7", "18"],
+	charts: {
+		Phoenix: "= S3`4 S10`9 S16`15 S18`17 D15`13 D21`19",
+		XX: "= D13`12 -D17 D19`18 D20`19",  //??? proof
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S4 S7",
+		Fiesta: "S9`hd S15`cz D17`fs D18`nm  S17`ahd S20`acz D12`afs D19`anm",
+		NXA: ["5", "9", "15", "17", "18"], NXA_: ["", "17", "20", "12", "19"],
+		NX2: ["4", "8", "14", "16", "18"], NX2_: ["", "16", "18", "12", "19"],
+		NX: ["*2", "*4", "*7", "@1", "@3"], NX_: ["", "", "(-)", "*5.5", "@4"],
+		Zero: ["4", "7", "14", "15", "18"], Zero_: ["", "", "", "??", "??"],
+		Exceed2: ["4", "7", "14", "15", "17"],
+		Exceed: ["4", "7", "14", "7", "18"],
+	},
 },
 
 
@@ -12303,18 +14104,21 @@ var readableTracklist = {
 	arcadeID: "736",
 	pumpoutID: 41,
 
-	Phoenix: "= S12`11 S15`13 D12`8",
-		// TODO.Phoenix: D12`8
-	XX: "= S4`3 S7 S8`7 S11`10 D22`21  @2.02 CoOp(x2)",  // S7.???
-	Prime2: "=",
-	Prime: "=  @1.12 D21.ucs",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S3`nl S7`hd S13`cz D8`fs D16`nm  S10",
-	NX: ["*2", "*3.5", "*6.5", "*4", "@1"], NX_: ["", "", "", "", "@2"],
-	Zero: ["3", "6", "12", "7", "14"],
-	Exceed2: ["3", "6", "12", "7", "14"],
-	Exceed: ["3", "6", "13", "6", "15"],
+	charts: {
+		Phoenix: "= S12`11 S15`13 D12`8",
+			// TODO.Phoenix: D12`8
+		XX: "= S4`3 S7 S8`7 S11`10 D22`21  @2.02 CoOp(x2)",
+			// S7.???
+		Prime2: "=",
+		Prime: "=  @1.12 D21.ucs",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S3`nl S7`hd S13`cz D8`fs D16`nm  S10",
+		NX: ["*2", "*3.5", "*6.5", "*4", "@1"], NX_: ["", "", "", "", "@2"],
+		Zero: ["3", "6", "12", "7", "14"],
+		Exceed2: ["3", "6", "12", "7", "14"],
+		Exceed: ["3", "6", "13", "6", "15"],
+	},
 },
 
 
@@ -12349,13 +14153,15 @@ var readableTracklist = {
 	arcadeID: "501",
 	pumpoutID: 499,
 
-	Phoenix: "= S5`4 D18`17 -Sp2 -Dp4",
-	XX: "=",
-	Prime2: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S4`hd S15.new D17.new Sp2`nl Dp4`fs",
-	Exceed: ["2", "4", "9", "4", ""],
+	charts: {
+		Phoenix: "= S5`4 D18`17 -Sp2 -Dp4",
+		XX: "=",
+		Prime2: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S4`hd S15.new D17.new Sp2`nl Dp4`fs",
+		Exceed: ["2", "4", "9", "4", ""],
+	},
 },
 
 
@@ -12365,16 +14171,18 @@ var readableTracklist = {
 	arcadeID: "502",
 	pumpoutID: 446,
 
-	Phoenix: "= -Sp2 -Dp5",
-	XX: "=",
-	Prime2: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 D16",
-	Fiesta: "Sp2`nl S5`hd S16`cz Dp5`fs",
-	NXA: ["2", "5", "16", "5", ""],
-	NX2: ["2", "5", "16", "5", ""],
-	NX: ["*1", "*2.5", "@1", "*2.5", ""],
-	Zero: ["2", "4", "14", "4", ""],
+	charts: {
+		Phoenix: "= -Sp2 -Dp5",
+		XX: "=",
+		Prime2: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 D16",
+		Fiesta: "Sp2`nl S5`hd S16`cz Dp5`fs",
+		NXA: ["2", "5", "16", "5", ""],
+		NX2: ["2", "5", "16", "5", ""],
+		NX: ["*1", "*2.5", "@1", "*2.5", ""],
+		Zero: ["2", "4", "14", "4", ""],
+	},
 },
 
 
@@ -12384,17 +14192,19 @@ var readableTracklist = {
 	arcadeID: "503",
 	pumpoutID: 2,
 
-	Phoenix: "=",
-	XX: "= S12`13 D16`17  @2.05 D22.lock  @2.06 S17",
-	Prime2: "=",
-	Prime: "=  @1.11 CoOp(x2)  @1.12 D17.ucs",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "D5`fs D13`nm  S3.new S5.new S8.new S13.new",
-	NX: ["*2", "*2.5", "*5", "*2.5", "*6.5"],
-	Zero: ["2", "4", "7", "4", "12"],
-	Exceed2: ["2", "5", "8", "5", ""],
-	Exceed: ["3", "5", "8", "4", ""],
+	charts: {
+		Phoenix: "=",
+		XX: "= S12`13 D16`17  @2.05 D22.lock  @2.06 S17",
+		Prime2: "=",
+		Prime: "=  @1.11 CoOp(x2)  @1.12 D17.ucs",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "D5`fs D13`nm  S3.new S5.new S8.new S13.new",
+		NX: ["*2", "*2.5", "*5", "*2.5", "*6.5"],
+		Zero: ["2", "4", "7", "4", "12"],
+		Exceed2: ["2", "5", "8", "5", ""],
+		Exceed: ["3", "5", "8", "4", ""],
+	},
 },
 
 
@@ -12404,14 +14214,16 @@ var readableTracklist = {
 	arcadeID: "504",
 	pumpoutID: 1,
 
-	Phoenix: "= S5`6 D8`7",
-	XX: "= S9`11",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "S3`nl S6`hd S11`cz D7`fs",
-	Exceed2: ["2", "5", "7", "4", ""],
-	Exceed: ["2", "5", "8", "4", ""],
+	charts: {
+		Phoenix: "= S5`6 D8`7",
+		XX: "= S9`11",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "S3`nl S6`hd S11`cz D7`fs",
+		Exceed2: ["2", "5", "7", "4", ""],
+		Exceed: ["2", "5", "8", "4", ""],
+	},
 },
 
 
@@ -12421,19 +14233,21 @@ var readableTracklist = {
 	arcadeID: "505",
 	pumpoutID: 4,
 
-	Phoenix: "= S12`11 D13`11 D24`23 -Dp3",
-	XX: "= S6`8 S11`13 D11`8 D21`20  @2.01 CoOp(x2)  @2.08 S21 D23",  //TODO proof S6.updated S7
-	Prime2: "=",
-	Prime: "= -Dp11",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.30 Dp3",
-	Fiesta: "S4`nl S7`hd D8 D20`nm  Dp11  S17`acz  S8.new S13.new S16.new D18.new",  //? D8 Dp11
-	NXA: ["4", "7", "13", "8", "20"], NXA_: ["", "10", "17", "11", ""],
-	NX2: ["3", "7", "13", "8", "20"], NX2_: ["", "7", "17", "9", ""],
-	NX: ["*1.5", "*3.5", "*6.5", "*4", "@5"], NX_: ["", "(-)", "@1", "", "(-)"],
-	Zero: ["3", "6", "13", "8", "20"],
-	Exceed2: ["3", "6", "13", "8", "20"],
-	Exceed: ["4", "6", "11", "6", "17"],
+	charts: {
+		Phoenix: "= S12`11 D13`11 D24`23 -Dp3",
+		XX: "= S6`8 S11`13 D11`8 D21`20  @2.01 CoOp(x2)  @2.08 S21 D23",  //TODO proof S6.updated S7
+		Prime2: "=",
+		Prime: "= -Dp11",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.30 Dp3",
+		Fiesta: "S4`nl S7`hd D8 D20`nm  Dp11  S17`acz  S8.new S13.new S16.new D18.new",  //? D8 Dp11
+		NXA: ["4", "7", "13", "8", "20"], NXA_: ["", "10", "17", "11", ""],
+		NX2: ["3", "7", "13", "8", "20"], NX2_: ["", "7", "17", "9", ""],
+		NX: ["*1.5", "*3.5", "*6.5", "*4", "@5"], NX_: ["", "(-)", "@1", "", "(-)"],
+		Zero: ["3", "6", "13", "8", "20"],
+		Exceed2: ["3", "6", "13", "8", "20"],
+		Exceed: ["4", "6", "11", "6", "17"],
+	},
 },
 
 
@@ -12446,11 +14260,13 @@ var readableTracklist = {
 	arcadeID: "507",
 	pumpoutID: "",
 
-	NXA: ["2", "5", "11", "6", "13"],
-	NX2: ["2", "5", "11", "6", "13"],
-	NX: ["*1", "*2.5", "*5.5", "*3", "*6.5"],
-	Exceed2: ["2", "5", "10", "6", "11"],
-	Exceed: ["2", "5", "10", "5", "11"],
+	charts: {
+		NXA: ["2", "5", "11", "6", "13"],
+		NX2: ["2", "5", "11", "6", "13"],
+		NX: ["*1", "*2.5", "*5.5", "*3", "*6.5"],
+		Exceed2: ["2", "5", "10", "6", "11"],
+		Exceed: ["2", "5", "10", "5", "11"],
+	},
 },
 
 
@@ -12460,8 +14276,10 @@ var readableTracklist = {
 	arcadeID: "508",
 	pumpoutID: "",
 
-	Exceed2: ["2", "5", "9", "5", "12"],
-	Exceed: ["2", "5", "10", "4", "10"],
+	charts: {
+		Exceed2: ["2", "5", "9", "5", "12"],
+		Exceed: ["2", "5", "10", "4", "10"],
+	},
 },
 
 
@@ -12480,20 +14298,22 @@ var readableTracklist = {
 	arcadeID: "516",
 	pumpoutID: 17,
 
-	Phoenix: "= S5`3 S7`6 S20`19 D9`6 D22`21 D24`23",
-		// TODO.Phoenix: D9`6
-	XX: "= S18`17 S19`18 D21`20",
-	Prime2: "=  @1.04 D23",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S9",
-	Fiesta: "S3`nl S6`hd S17`cz D6`fs D20`nm  S18`acz",
-	NXA: ["3", "6", "17", "6", "20"], NXA_: ["", "", "18", "", "19"],
-	NX2: ["3", "6", "18", "6", "20"],
-	NX: ["*1.5", "*3", "@1", "*3", "@5"],
-	Zero: ["3", "5", "15", "6", "19"],
-	Exceed2: ["3", "5", "15", "6", "19"],
-	Exceed: ["3", "5", "12", "5", "17"],
+	charts: {
+		Phoenix: "= S5`3 S7`6 S20`19 D9`6 D22`21 D24`23",
+			// TODO.Phoenix: D9`6
+		XX: "= S18`17 S19`18 D21`20",
+		Prime2: "=  @1.04 D23",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S9",
+		Fiesta: "S3`nl S6`hd S17`cz D6`fs D20`nm  S18`acz",
+		NXA: ["3", "6", "17", "6", "20"], NXA_: ["", "", "18", "", "19"],
+		NX2: ["3", "6", "18", "6", "20"],
+		NX: ["*1.5", "*3", "@1", "*3", "@5"],
+		Zero: ["3", "5", "15", "6", "19"],
+		Exceed2: ["3", "5", "15", "6", "19"],
+		Exceed: ["3", "5", "12", "5", "17"],
+	},
 },
 
 
@@ -12503,7 +14323,9 @@ var readableTracklist = {
 	arcadeID: "517",
 	pumpoutID: "",
 
-	Exceed: ["4", "6", "11", "6", ""],
+	charts: {
+		Exceed: ["4", "6", "11", "6", ""],
+	},
 },
 
 
@@ -12518,15 +14340,17 @@ var readableTracklist = {
 	arcadeID: "401",
 	pumpoutID: 498,
 
-	Phoenix: "= S9`8 S14`13 D11`7",
-		// TODO.Phoenix: D11`7
-	XX: "= S8`7",
-	Prime2: "=  @1.04 CoOp(x2)",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "D7`fs  S7.new S13.new",
-	Exceed2: ["3", "6", "9", "7", ""],
-	Exceed: ["3", "5", "9", "6", ""],
+	charts: {
+		Phoenix: "= S9`8 S14`13 D11`7",
+			// TODO.Phoenix: D11`7
+		XX: "= S8`7",
+		Prime2: "=  @1.04 CoOp(x2)",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "D7`fs  S7.new S13.new",
+		Exceed2: ["3", "6", "9", "7", ""],
+		Exceed: ["3", "5", "9", "6", ""],
+	},
 },
 
 
@@ -12536,14 +14360,16 @@ var readableTracklist = {
 	arcadeID: "402",
 	pumpoutID: 443,
 
-	Phoenix: "= S6`4 S12`10 D15`14 -Sp1 -Dp4",
-	XX: "= S10`9",
-	Prime2: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp1`nl S4`hd S9`cz Dp4`fs  D14",
-	Exceed2: ["1", "4", "9", "4", ""],
-	Exceed: ["1", "4", "9", "3", ""],
+	charts: {
+		Phoenix: "= S6`4 S12`10 D15`14 -Sp1 -Dp4",
+		XX: "= S10`9",
+		Prime2: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp1`nl S4`hd S9`cz Dp4`fs  D14",
+		Exceed2: ["1", "4", "9", "4", ""],
+		Exceed: ["1", "4", "9", "3", ""],
+	},
 },
 
 
@@ -12553,14 +14379,16 @@ var readableTracklist = {
 	arcadeID: "403",
 	pumpoutID: 441,
 
-	Phoenix: "= S9`8 -Sp2 -D11",
-	XX: "= D11`8",
-	Prime2: "=",
-	Prime: "@1.11 = S16 D17",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S1 S13",
-	Fiesta: "Sp2`nl S5`hd S8`cz D8`fs D13.new",
-	Exceed: ["2", "5", "8", "6", ""],
+	charts: {
+		Phoenix: "= S9`8 -Sp2 -D11",
+		XX: "= D11`8",
+		Prime2: "=",
+		Prime: "@1.11 = S16 D17",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S1 S13",
+		Fiesta: "Sp2`nl S5`hd S8`cz D8`fs D13.new",
+		Exceed: ["2", "5", "8", "6", ""],
+	},
 },
 
 
@@ -12570,20 +14398,22 @@ var readableTracklist = {
 	arcadeID: "404",
 	pumpoutID: 5,
 
-	Phoenix: "= S11`9 D17`16 -Sp3 -Dp5",
-	XX: "= S17`16 S18`17 D10`7",
-		//??? proof S17 S18
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: " =  @1.30 Dp5  @1.51 S2 S4 S8",
-	Fiesta: "Sp3`nl S6`hd S9`cz D7`fs D16`nm  S17`acz  S16.new",
-	NXA: ["3", "6", "9", "7", "16"], NXA_: ["", "", "17", "", "18"],
-	NX2: ["3", "5", "9", "7", "16"], NX2_: ["", "", "17", "", "19"],
-	NX: ["*1.5", "*2.5", "*4.5", "*3.5", "@1"],
-	Zero: ["3", "5", "8", "6", "15"],
-	Exceed2: ["3", "5", "8", "6", "15"],
-	Exceed: ["3", "5", "9", "6", ""],
+	charts: {
+		Phoenix: "= S11`9 D17`16 -Sp3 -Dp5",
+		XX: "= S17`16 S18`17 D10`7",
+			//??? proof S17 S18
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: " =  @1.30 Dp5  @1.51 S2 S4 S8",
+		Fiesta: "Sp3`nl S6`hd S9`cz D7`fs D16`nm  S17`acz  S16.new",
+		NXA: ["3", "6", "9", "7", "16"], NXA_: ["", "", "17", "", "18"],
+		NX2: ["3", "5", "9", "7", "16"], NX2_: ["", "", "17", "", "19"],
+		NX: ["*1.5", "*2.5", "*4.5", "*3.5", "@1"],
+		Zero: ["3", "5", "8", "6", "15"],
+		Exceed2: ["3", "5", "8", "6", "15"],
+		Exceed: ["3", "5", "9", "6", ""],
+	},
 },
 
 
@@ -12593,19 +14423,21 @@ var readableTracklist = {
 	arcadeID: "405",
 	pumpoutID: 7,
 
-	Phoenix: "= S13`12 S15`14 D18`17",
-	XX: "= S12`11 D16`14  @2.07 D22",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S3",
-	Fiesta: "S5`nl S11`hd S14`cz S22`acz D14`fs D17`nm D23`afs  S20.new",  //? что за D25, он вроде только на фиесте ex есть
-	NXA: ["5", "11", "14", "14", "17"], NXA_: ["", "", "22", "23", "25"],
-	NX2: ["4", "11", "14", "14", "17"], NX2_: ["", "", "21", "23", "??"],
-	NX: ["*2", "*5.5", "*7", "*7", "@2"], NX_: ["", "", "@6", "@6", "@8"],
-	Zero: ["4", "9", "13", "10", "18"], Zero_: ["", "", "", "", "??"],
-	Exceed2: ["4", "9", "13", "10", "18"],
-	Exceed: ["4", "7", "12", "10", "19"],
+	charts: {
+		Phoenix: "= S13`12 S15`14 D18`17",
+		XX: "= S12`11 D16`14  @2.07 D22",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S3",
+		Fiesta: "S5`nl S11`hd S14`cz S22`acz D14`fs D17`nm D23`afs  S20.new",  //? что за D25, он вроде только на фиесте ex есть
+		NXA: ["5", "11", "14", "14", "17"], NXA_: ["", "", "22", "23", "25"],
+		NX2: ["4", "11", "14", "14", "17"], NX2_: ["", "", "21", "23", "??"],
+		NX: ["*2", "*5.5", "*7", "*7", "@2"], NX_: ["", "", "@6", "@6", "@8"],
+		Zero: ["4", "9", "13", "10", "18"], Zero_: ["", "", "", "", "??"],
+		Exceed2: ["4", "9", "13", "10", "18"],
+		Exceed: ["4", "7", "12", "10", "19"],
+	},
 },
 
 
@@ -12622,7 +14454,9 @@ var readableTracklist = {
 	arcadeID: "411",
 	pumpoutID: "",
 
-	Exceed2: ["1", "4", "12", "4", "13"],
+	charts: {
+		Exceed2: ["1", "4", "12", "4", "13"],
+	},
 },
 
 
@@ -12635,13 +14469,15 @@ var readableTracklist = {
 	arcadeID: "413",
 	pumpoutID: 447,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S4`nl S8`hd S15`cz D8`fs D17`nm",
-	NX: ["*2", "*4", "@1", "*4", "@1"],
-	Zero: ["2", "5", "15", "6", "16"],
-	Exceed2: ["2", "5", "15", "6", "16"],
-	Exceed: ["2", "5", "10", "6", ""],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S4`nl S8`hd S15`cz D8`fs D17`nm",
+		NX: ["*2", "*4", "@1", "*4", "@1"],
+		Zero: ["2", "5", "15", "6", "16"],
+		Exceed2: ["2", "5", "15", "6", "16"],
+		Exceed: ["2", "5", "10", "6", ""],
+	},
 },
 
 
@@ -12651,10 +14487,12 @@ var readableTracklist = {
 	arcadeID: "414",
 	pumpoutID: 18,
 
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "S4 S5 S10 D6  @1.20 S13 D14  @1.51 S2 S7",  //?
-	Exceed: ["2", "5", "9", "3", ""],
+	charts: {
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "S4 S5 S10 D6  @1.20 S13 D14  @1.51 S2 S7",  //?
+		Exceed: ["2", "5", "9", "3", ""],
+	},
 },
 
 
@@ -12672,19 +14510,21 @@ var readableTracklist = {
 	arcadeID: "301",
 	pumpoutID: 8,
 
-	Phoenix: "= S12`10 S10`9 S18`17 D12`11 -Dp3",
-	XX: "= S9`8 S17`16 D11`8 D18`17 D20`19",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.20 Dp3  @1.51 S4 S7",
-	Fiesta: "S8`hd S10`cz D8`fs D17`nm  S16`acz D19`anm",
-	NXA: ["", "8", "10", "8", "17"], NXA_: ["", "", "16", "", "19"],
-	NX2: ["", "8", "10", "8", "17"], NX2_: ["", "", "16", "", "19"],
-	NX: ["", "*4", "*5", "*4", "@2"], NX_: ["", "", "@1", "", "@3"],
-	Zero: ["", "7", "9", "7", "16"], Zero_: ["", "", "??", "", ""],
-	Exceed2: ["", "7", "9", "7", "17"],
-	Exceed: ["", "6", "10", "6", "17"],
+	charts: {
+		Phoenix: "= S12`10 S10`9 S18`17 D12`11 -Dp3",
+		XX: "= S9`8 S17`16 D11`8 D18`17 D20`19",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.20 Dp3  @1.51 S4 S7",
+		Fiesta: "S8`hd S10`cz D8`fs D17`nm  S16`acz D19`anm",
+		NXA: ["", "8", "10", "8", "17"], NXA_: ["", "", "16", "", "19"],
+		NX2: ["", "8", "10", "8", "17"], NX2_: ["", "", "16", "", "19"],
+		NX: ["", "*4", "*5", "*4", "@2"], NX_: ["", "", "@1", "", "@3"],
+		Zero: ["", "7", "9", "7", "16"], Zero_: ["", "", "??", "", ""],
+		Exceed2: ["", "7", "9", "7", "17"],
+		Exceed: ["", "6", "10", "6", "17"],
+	},
 },
 
 
@@ -12694,20 +14534,22 @@ var readableTracklist = {
 	arcadeID: "302",
 	pumpoutID: 9,
 
-	Phoenix: "= S5`4 S12`10 D12`7 D16`15 -S7 -S16",
-		// TODO.Phoenix: D12`7
-	XX: "=",
-	Prime2: "=  @2.02 S16",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S4 S8",
-	Fiesta: "S7`hd S10`cz D7`fs D15`nm  S20`acz",
-	NXA: ["", "7", "10", "7", "15"], NXA_: ["", "", "20", "", ""],
-	NX2: ["", "7", "11", "7", "14"],
-	NX: ["", "*3.5", "*5.5", "*3.5", "*7"],
-	Zero: ["", "7", "9", "7", "14"],
-	Exceed2: ["", "7", "9", "7", ""],
-	Exceed: ["", "6", "9", "6", ""],
+	charts: {
+		Phoenix: "= S5`4 S12`10 D12`7 D16`15 -S7 -S16",
+			// TODO.Phoenix: D12`7
+		XX: "=",
+		Prime2: "=  @2.02 S16",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S4 S8",
+		Fiesta: "S7`hd S10`cz D7`fs D15`nm  S20`acz",
+		NXA: ["", "7", "10", "7", "15"], NXA_: ["", "", "20", "", ""],
+		NX2: ["", "7", "11", "7", "14"],
+		NX: ["", "*3.5", "*5.5", "*3.5", "*7"],
+		Zero: ["", "7", "9", "7", "14"],
+		Exceed2: ["", "7", "9", "7", ""],
+		Exceed: ["", "6", "9", "6", ""],
+	},
 },
 
 
@@ -12717,20 +14559,22 @@ var readableTracklist = {
 	arcadeID: "303",
 	pumpoutID: 10,
 
-	Phoenix: "= S17`16 S19`18 D13`9 D18`17 D21`20",
-		// TODO.Phoenix: D13`9
-	XX: "= S16`15 D20`19",
-	Prime2: "=",
-	Prime: "=  @1.12 S18.ucs D17.ucs CoOp(x2).ucs",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S3",
-	Fiesta: "S7`hd S12`cz D9`fs D19`nm  S15`ahd",
-	NXA: ["", "7", "12", "9", "19"],
-	NX2: ["", "7", "12", "9", "18"], NX2_: ["", "15", "18", "", ""],
-	NX: ["", "*3.5", "*6", "*4.5", "@3"],
-	Zero: ["", "7", "12", "8", "19"],
-	Exceed2: ["", "7", "12", "8", "18"],
-	Exceed: ["", "6", "11", "8", "16"],
+	charts: {
+		Phoenix: "= S17`16 S19`18 D13`9 D18`17 D21`20",
+			// TODO.Phoenix: D13`9
+		XX: "= S16`15 D20`19",
+		Prime2: "=",
+		Prime: "=  @1.12 S18.ucs D17.ucs CoOp(x2).ucs",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S3",
+		Fiesta: "S7`hd S12`cz D9`fs D19`nm  S15`ahd",
+		NXA: ["", "7", "12", "9", "19"],
+		NX2: ["", "7", "12", "9", "18"], NX2_: ["", "15", "18", "", ""],
+		NX: ["", "*3.5", "*6", "*4.5", "@3"],
+		Zero: ["", "7", "12", "8", "19"],
+		Exceed2: ["", "7", "12", "8", "18"],
+		Exceed: ["", "6", "11", "8", "16"],
+	},
 },
 
 
@@ -12740,12 +14584,14 @@ var readableTracklist = {
 	arcadeID: "304",
 	pumpoutID: 762,
 
-	Phoenix: "= D18`19",
-	XX: "= S5`nl S12`cz D14`nm  @1.02 D19.new",
-		//??? S12.updated
-		// S12-XX - https://www.youtube.com/watch?v=EHtChc2BGM0
-	NX: ["*1.5", "", "*5", "", "*5.5"],
-	Zero: ["3", "", "10", "", "11"],
+	charts: {
+		Phoenix: "= D18`19",
+		XX: "= S5`nl S12`cz D14`nm  @1.02 D19.new",
+			//??? S12.updated
+			// S12-XX - https://www.youtube.com/watch?v=EHtChc2BGM0
+		NX: ["*1.5", "", "*5", "", "*5.5"],
+		Zero: ["3", "", "10", "", "11"],
+	},
 },
 
 
@@ -12755,10 +14601,12 @@ var readableTracklist = {
 	arcadeID: "305",
 	pumpoutID: 761,
 
-	Phoenix: "=",
-	XX: "S6 S13",
-		//??? S13.updated
-		// S13-XX - https://www.youtube.com/watch?v=3VqEZxOfSdo
+	charts: {
+		Phoenix: "=",
+		XX: "S6 S13",
+			//??? S13.updated
+			// S13-XX - https://www.youtube.com/watch?v=3VqEZxOfSdo
+	},
 },
 
 
@@ -12769,14 +14617,16 @@ var readableTracklist = {
 	arcadeID: "306",
 	pumpoutID: 440,
 
-	Phoenix: "= S3`2 S6`4 D14`13 -Dp5",
-	XX: "= S2`1",
-	Prime2: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.30 D13",
-	Fiesta: "S1`nl S4`hd Dp5`fs",
-	Exceed2: ["1", "4", "", "5", ""],
-	Exceed: ["1", "5", "", "4", ""],
+	charts: {
+		Phoenix: "= S3`2 S6`4 D14`13 -Dp5",
+		XX: "= S2`1",
+		Prime2: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.30 D13",
+		Fiesta: "S1`nl S4`hd Dp5`fs",
+		Exceed2: ["1", "4", "", "5", ""],
+		Exceed: ["1", "5", "", "4", ""],
+	},
 },
 
 
@@ -12787,12 +14637,14 @@ var readableTracklist = {
 	arcadeID: "307",
 	pumpoutID: 442,
 
-	Phoenix: "= S6`4 -Sp2 -Dp3",
-	XX: "=",
-	Prime2: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S4 Sp2 Dp3",
+	charts: {
+		Phoenix: "= S6`4 -Sp2 -Dp3",
+		XX: "=",
+		Prime2: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S4 Sp2 Dp3",
+	},
 },
 
 
@@ -12802,13 +14654,15 @@ var readableTracklist = {
 	arcadeID: "308",
 	pumpoutID: 444,
 
-	Phoenix: "= -Sp1 -Dp3",
-	XX: "=  @2.07 S5 S9",
-	Prime2: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S13",
-	Fiesta: "Sp1`nl Dp3`fs  D15",
-	Zero: ["1", "", "", "3", ""],
+	charts: {
+		Phoenix: "= -Sp1 -Dp3",
+		XX: "=  @2.07 S5 S9",
+		Prime2: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S13",
+		Fiesta: "Sp1`nl Dp3`fs  D15",
+		Zero: ["1", "", "", "3", ""],
+	},
 },
 
 
@@ -12818,13 +14672,15 @@ var readableTracklist = {
 	arcadeID: "309",
 	pumpoutID: 11,
 
-	Phoenix: "= S12`11 D13`12 -Sp4 -Dp5",
-	XX: "= S11`12 D12`13",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "Sp4 Dp5  @1.10 S12 D13",
+	charts: {
+		Phoenix: "= S12`11 D13`12 -Sp4 -Dp5",
+		XX: "= S11`12 D12`13",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "Sp4 Dp5  @1.10 S12 D13",
+	},
 },
 
 
@@ -12834,18 +14690,20 @@ var readableTracklist = {
 	arcadeID: "310",
 	pumpoutID: 448,
 
-	Phoenix: "= S10`8 D11`9 D18`16",
-	XX: "=",
-	Prime2: "=  @1.05 S21 D23",
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S8`hd S9`cz D9`fs D16`nm",
-	NXA: ["", "8", "9", "9", "16"],
-	NX2: ["", "7", "11", "8", "16"],
-	NX: ["", "*3.5", "*5.5", "*4", "@1"],  NX_: ["", "", "", "", "@4"],
-	Zero: ["", "7", "9", "8", "16"],
-	Exceed2: ["", "7", "9", "8", "16"],
-	Exceed: ["", "7", "10", "9", "16"],
+	charts: {
+		Phoenix: "= S10`8 D11`9 D18`16",
+		XX: "=",
+		Prime2: "=  @1.05 S21 D23",
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S8`hd S9`cz D9`fs D16`nm",
+		NXA: ["", "8", "9", "9", "16"],
+		NX2: ["", "7", "11", "8", "16"],
+		NX: ["", "*3.5", "*5.5", "*4", "@1"],  NX_: ["", "", "", "", "@4"],
+		Zero: ["", "7", "9", "8", "16"],
+		Exceed2: ["", "7", "9", "8", "16"],
+		Exceed: ["", "7", "10", "9", "16"],
+	},
 },
 
 
@@ -12855,15 +14713,17 @@ var readableTracklist = {
 	arcadeID: "311",
 	pumpoutID: 500,
 
-	Phoenix: "= S5`4 S10`9 S13`12",
-	XX: "=  @2.07 S9",
-	Prime2: "=  @1.06 D15",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.30 S12",
-	Fiesta: "S4`hd",
-	Zero: ["", "4", "", "", ""],
-	Exceed2: ["", "4", "", "", ""],
-	Exceed: ["", "4", "", "", ""],
+	charts: {
+		Phoenix: "= S5`4 S10`9 S13`12",
+		XX: "=  @2.07 S9",
+		Prime2: "=  @1.06 D15",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.30 S12",
+		Fiesta: "S4`hd",
+		Zero: ["", "4", "", "", ""],
+		Exceed2: ["", "4", "", "", ""],
+		Exceed: ["", "4", "", "", ""],
+	},
 },
 
 
@@ -12873,17 +14733,19 @@ var readableTracklist = {
 	arcadeID: "312",
 	pumpoutID: 19,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.20 D13",
-	Fiesta: "Sp2`nl S10`cz D5`fs  S4.new S5.new",
-	NXA: ["2", "6", "10", "6", ""],
-	NX2: ["3", "6", "12", "6", ""],
-	NX: ["*1.5", "*3", "*6", "*3", ""],
-	Zero: ["1", "7", "10", "5", ""],
-	Exceed2: ["1", "7", "10", "5", ""],
-	Exceed: ["1", "6", "9", "4", ""],
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.20 D13",
+		Fiesta: "Sp2`nl S10`cz D5`fs  S4.new S5.new",
+		NXA: ["2", "6", "10", "6", ""],
+		NX2: ["3", "6", "12", "6", ""],
+		NX: ["*1.5", "*3", "*6", "*3", ""],
+		Zero: ["1", "7", "10", "5", ""],
+		Exceed2: ["1", "7", "10", "5", ""],
+		Exceed: ["1", "6", "9", "4", ""],
+	},
 },
 
 
@@ -12893,9 +14755,11 @@ var readableTracklist = {
 	arcadeID: "313",
 	pumpoutID: "",
 
-	NX: ["*1", "*2", "*5", "*2", "*5.5"],
-	Zero: ["1", "4", "9", "4", "11"],
-	Exceed2: ["1", "4", "9", "4", "11"],
+	charts: {
+		NX: ["*1", "*2", "*5", "*2", "*5.5"],
+		Zero: ["1", "4", "9", "4", "11"],
+		Exceed2: ["1", "4", "9", "4", "11"],
+	},
 },
 
 
@@ -12908,7 +14772,9 @@ var readableTracklist = {
 	arcadeID: "315",
 	pumpoutID: "",
 
-	Exceed2: ["1", "5", "", "", ""],
+	charts: {
+		Exceed2: ["1", "5", "", "", ""],
+	},
 },
 
 
@@ -12922,16 +14788,18 @@ var readableTracklist = {
 	arcadeID: "318",
 	pumpoutID: 20,
 
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.30 Dp4  @1.51 S2",
-	Fiesta: "S5`hd S12`cz D6`fs D13`nm  @1.10 S4",
-	NXA: ["", "5", "12", "6", "13"],
-	NX2: ["", "5", "13", "6", "14"],
-	NX: ["", "*2.5", "*6.5", "*3", "*7"],
-	Zero: ["", "5", "9", "5", "12"],
-	Exceed2: ["", "5", "9", "5", ""],
-	Exceed: ["", "5", "9", "4", ""],
+	charts: {
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.30 Dp4  @1.51 S2",
+		Fiesta: "S5`hd S12`cz D6`fs D13`nm  @1.10 S4",
+		NXA: ["", "5", "12", "6", "13"],
+		NX2: ["", "5", "13", "6", "14"],
+		NX: ["", "*2.5", "*6.5", "*3", "*7"],
+		Zero: ["", "5", "9", "5", "12"],
+		Exceed2: ["", "5", "9", "5", ""],
+		Exceed: ["", "5", "9", "4", ""],
+	},
 },
 
 
@@ -12960,9 +14828,11 @@ var readableTracklist = {
 	arcadeID: "202",
 	pumpoutID: "",
 
-	Zero: ["1", "3", "", "4", ""],
-	Exceed2: ["1", "4", "", "3", ""],
-	Exceed: ["1", "4", "", "3", ""],
+	charts: {
+		Zero: ["1", "3", "", "4", ""],
+		Exceed2: ["1", "4", "", "3", ""],
+		Exceed: ["1", "4", "", "3", ""],
+	},
 },
 
 
@@ -12972,8 +14842,10 @@ var readableTracklist = {
 	arcadeID: "203",
 	pumpoutID: "",
 
-	Exceed2: ["", "5", "10", "5", ""],
-	Exceed: ["", "5", "8", "4", ""],
+	charts: {
+		Exceed2: ["", "5", "10", "5", ""],
+		Exceed: ["", "5", "8", "4", ""],
+	},
 },
 
 
@@ -12983,19 +14855,21 @@ var readableTracklist = {
 	arcadeID: "204",
 	pumpoutID: 12,
 
-	Phoenix: "= S10`9 S18`17 S19`18 D17`15 D19`18 -S6 -Dp3",
-	XX: "= S18`15 D18`17",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S2 S6 S9",
-	Fiesta: "S7`hd S17`cz Dp3`fs D17`nm  S15`acz D15`anm",
-	NXA: ["3", "7", "17", "3", "17"], NXA_: ["", "", "15", "", "16"],
-	NX2: ["3", "7", "15", "3", "16"], NX2_: ["", "", "17", "", "16"],
-	NX: ["*1.5", "*3.5", "@1", "*1.5", "@1"], NX_: ["", "", "@1", "", "@1"],
-	Zero: ["2", "7", "15", "3", "17"], Zero_: ["", "", "??", "", "??"],
-	Exceed2: ["2", "7", "14", "3", "17"],
-	Exceed: ["2", "5", "13", "3", "18"],
+	charts: {
+		Phoenix: "= S10`9 S18`17 S19`18 D17`15 D19`18 -S6 -Dp3",
+		XX: "= S18`15 D18`17",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S2 S6 S9",
+		Fiesta: "S7`hd S17`cz Dp3`fs D17`nm  S15`acz D15`anm",
+		NXA: ["3", "7", "17", "3", "17"], NXA_: ["", "", "15", "", "16"],
+		NX2: ["3", "7", "15", "3", "16"], NX2_: ["", "", "17", "", "16"],
+		NX: ["*1.5", "*3.5", "@1", "*1.5", "@1"], NX_: ["", "", "@1", "", "@1"],
+		Zero: ["2", "7", "15", "3", "17"], Zero_: ["", "", "??", "", "??"],
+		Exceed2: ["2", "7", "14", "3", "17"],
+		Exceed: ["2", "5", "13", "3", "18"],
+	},
 },
 
 
@@ -13005,19 +14879,21 @@ var readableTracklist = {
 	arcadeID: "205",
 	pumpoutID: 13,
 
-	Phoenix: "= S11`10 S13`12 S19`17 S22`21 D15`13 D21`20",
-	XX: "= S8`7 S10`9 S12`11 S17`16 D13`12 D18`17 D20`19",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S4",
-	Fiesta: "S9`hd S11`cz D12`fs D17`nm  S16`ahd S21`acz D19`anm  @1.10 S7",
-	NXA: ["", "10", "11", "12", "17"], NXA_: ["", "16", "21", "", "19"],
-	NX2: ["", "10", "12", "13", "18"], NX2_: ["", "", "21", "", "19"],
-	NX: ["", "*5", "*6", "*6.5", "@3"], NX_: ["", "(-)", "@6", "", "@4"],
-	Zero: ["", "8", "11", "9", "17"], Zero_: ["", "", "??", "", "??"],
-	Exceed2: ["", "7", "11", "7", "18"],
-	Exceed: ["", "6", "10", "6", "17"],
+	charts: {
+		Phoenix: "= S11`10 S13`12 S19`17 S22`21 D15`13 D21`20",
+		XX: "= S8`7 S10`9 S12`11 S17`16 D13`12 D18`17 D20`19",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S4",
+		Fiesta: "S9`hd S11`cz D12`fs D17`nm  S16`ahd S21`acz D19`anm  @1.10 S7",
+		NXA: ["", "10", "11", "12", "17"], NXA_: ["", "16", "21", "", "19"],
+		NX2: ["", "10", "12", "13", "18"], NX2_: ["", "", "21", "", "19"],
+		NX: ["", "*5", "*6", "*6.5", "@3"], NX_: ["", "(-)", "@6", "", "@4"],
+		Zero: ["", "8", "11", "9", "17"], Zero_: ["", "", "??", "", "??"],
+		Exceed2: ["", "7", "11", "7", "18"],
+		Exceed: ["", "6", "10", "6", "17"],
+	},
 },
 
 
@@ -13031,10 +14907,12 @@ var readableTracklist = {
 	arcadeID: "208",
 	pumpoutID: "",
 
-	NX: ["*1.5", "", "", "*2.5", ""], NX_: ["", "", "*6.5", "", "@1"], //??? NX: removed at 1.08
-	Zero: ["2", "", "", "5", ""],
-	Exceed2: ["2", "", "", "5", ""],
-	Exceed: ["3", "", "", "5", ""],
+	charts: {
+		NX: ["*1.5", "", "", "*2.5", ""], NX_: ["", "", "*6.5", "", "@1"], //??? NX: removed at 1.08
+		Zero: ["2", "", "", "5", ""],
+		Exceed2: ["2", "", "", "5", ""],
+		Exceed: ["3", "", "", "5", ""],
+	},
 },
 
 
@@ -13049,17 +14927,19 @@ var readableTracklist = {
 	arcadeID: "212",
 	pumpoutID: 21,
 
-	Prime2: "=  @2.05 CoOp(x2)",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "= -D8  @1.51 S8",
-	Fiesta: "S6`hd S15`cz D16`nm  D7 D8  @1.10 S4",
-	NXA: ["", "6", "15", "", "16"],
-	NX2: ["", "6", "15", "", "16"],
-	NX: ["", "*3", "@1(15)", "", "@1(16)"],
-	Zero: ["", "6", "14", "", "16"],
-	Exceed2: ["", "6", "8", "", ""],
-	Exceed: ["", "6", "12", "", ""],
+	charts: {
+		Prime2: "=  @2.05 CoOp(x2)",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "= -D8  @1.51 S8",
+		Fiesta: "S6`hd S15`cz D16`nm  D7 D8  @1.10 S4",
+		NXA: ["", "6", "15", "", "16"],
+		NX2: ["", "6", "15", "", "16"],
+		NX: ["", "*3", "@1(15)", "", "@1(16)"],
+		Zero: ["", "6", "14", "", "16"],
+		Exceed2: ["", "6", "8", "", ""],
+		Exceed: ["", "6", "12", "", ""],
+	},
 },
 
 
@@ -13069,14 +14949,16 @@ var readableTracklist = {
 	arcadeID: "213",
 	pumpoutID: 22,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S2",
-	Fiesta: "S6`hd S12`cz D7`fs D14`nm  S4.new",
-	NX: ["", "*3", "*6", "*3", "*7"],
-	Zero: ["", "5", "12", "6", "14"],
-	Exceed2: ["", "5", "", "6", ""],
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S2",
+		Fiesta: "S6`hd S12`cz D7`fs D14`nm  S4.new",
+		NX: ["", "*3", "*6", "*3", "*7"],
+		Zero: ["", "5", "12", "6", "14"],
+		Exceed2: ["", "5", "", "6", ""],
+	},
 },
 
 
@@ -13097,12 +14979,14 @@ var readableTracklist = {
 	arcadeID: "224",
 	pumpoutID: 14,
 
-	Phoenix: "= -S7 -D8",
-	XX: "= S18`19  @2.07 D22",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "S7 D8  @1.51 S19",
+	charts: {
+		Phoenix: "= -S7 -D8",
+		XX: "= S18`19  @2.07 D22",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "S7 D8  @1.51 S19",
+	},
 },
 
 
@@ -13119,10 +15003,12 @@ var readableTracklist = {
 	arcadeID: "101",
 	pumpoutID: 15,
 
-	Prime2: "=",
-	Prime: "@1.01 S8`hd S15`cz D10`fs  @1.19 S18 D17",
-	Exceed2: ["", "6", "12", "7", ""],
-	Exceed: ["", "6", "12", "6", ""],
+	charts: {
+		Prime2: "=",
+		Prime: "@1.01 S8`hd S15`cz D10`fs  @1.19 S18 D17",
+		Exceed2: ["", "6", "12", "7", ""],
+		Exceed: ["", "6", "12", "6", ""],
+	},
 },
 
 
@@ -13132,10 +15018,12 @@ var readableTracklist = {
 	arcadeID: "102",
 	pumpoutID: 16,
 
-	Prime2: "=",
-	Prime: "@1.01 S7`hd S15`cz D8`fs D15`nm  S18 D18",
-	Exceed2: ["", "6", "12", "7", "15"],
-	Exceed: ["", "6", "12", "6", "16"],
+	charts: {
+		Prime2: "=",
+		Prime: "@1.01 S7`hd S15`cz D8`fs D15`nm  S18 D18",
+		Exceed2: ["", "6", "12", "7", "15"],
+		Exceed: ["", "6", "12", "6", "16"],
+	},
 },
 
 
@@ -13145,11 +15033,13 @@ var readableTracklist = {
 	arcadeID: "103",
 	pumpoutID: "",
 
-	NXA: ["1", "", "", "", "13"],
-	NX2: ["1", "", "", "", "13"],
-	NX: ["*0.5", "", "", "", "*6.5"],
-	Zero: ["1", "", "", "", "11"],
-	Exceed2: ["1", "", "", "", ""],
+	charts: {
+		NXA: ["1", "", "", "", "13"],
+		NX2: ["1", "", "", "", "13"],
+		NX: ["*0.5", "", "", "", "*6.5"],
+		Zero: ["1", "", "", "", "11"],
+		Exceed2: ["1", "", "", "", ""],
+	},
 },
 
 
@@ -13159,8 +15049,10 @@ var readableTracklist = {
 	arcadeID: "104",
 	pumpoutID: "",
 
-	Exceed2: ["1", "5", "", "5", ""],
-	Exceed: ["2", "5", "", "4", ""],
+	charts: {
+		Exceed2: ["1", "5", "", "5", ""],
+		Exceed: ["2", "5", "", "4", ""],
+	},
 },
 
 
@@ -13175,9 +15067,11 @@ var readableTracklist = {
 	arcadeID: "108",
 	pumpoutID: "",
 
-	Zero: ["2", "5", "9", "5", "12"],
-	Exceed2: ["2", "5", "9", "5", "12"],
-	Exceed: ["2", "5", "8", "4", ""],
+	charts: {
+		Zero: ["2", "5", "9", "5", "12"],
+		Exceed2: ["2", "5", "9", "5", "12"],
+		Exceed: ["2", "5", "8", "4", ""],
+	},
 },
 
 
@@ -13187,17 +15081,19 @@ var readableTracklist = {
 	arcadeID: "109",
 	pumpoutID: 23,
 
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.40 D14",
-	Fiesta: "S4`hd S12`cz D4`fs  S2.new S5.new",
-	NXA: ["", "4", "12", "4", ""],
-	NX2: ["", "4", "12", "4", ""],
-	NX: ["", "*2", "*6", "*2", ""],
-	Zero: ["", "4", "11", "4", ""],
-	Exceed2: ["", "4", "", "4", ""],
-	Exceed: ["", "4", "", "4", ""],
+	charts: {
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.40 D14",
+		Fiesta: "S4`hd S12`cz D4`fs  S2.new S5.new",
+		NXA: ["", "4", "12", "4", ""],
+		NX2: ["", "4", "12", "4", ""],
+		NX: ["", "*2", "*6", "*2", ""],
+		Zero: ["", "4", "11", "4", ""],
+		Exceed2: ["", "4", "", "4", ""],
+		Exceed: ["", "4", "", "4", ""],
+	},
 },
 
 
@@ -13210,11 +15106,13 @@ var readableTracklist = {
 	arcadeID: "111",
 	pumpoutID: 445,
 
-	Fiesta2: "=",
-	FiestaEX: "=",
-	Fiesta: "S6 S13`cz D7 D16`nm Dp7",  //??? hd fs
-	Zero: ["2", "7", "13", "7", "16"],
-	Exceed2: ["2", "7", "13", "7", "16"],
+	charts: {
+		Fiesta2: "=",
+		FiestaEX: "=",
+		Fiesta: "S6 S13`cz D7 D16`nm Dp7",  //??? hd fs
+		Zero: ["2", "7", "13", "7", "16"],
+		Exceed2: ["2", "7", "13", "7", "16"],
+	},
 },
 
 
@@ -13224,19 +15122,21 @@ var readableTracklist = {
 	arcadeID: "112",
 	pumpoutID: 24,
 
-	Phoenix: "= S4`3 S6`5 D9`7 D18`17 D19`18",
-	XX: "= S16`15 D7`6 D17`16 D18`17 D21`22  @2.07 CoOp(x2)",
-	Prime2: "=",
-	Prime: "=",
-	Fiesta2: "=",
-	FiestaEX: "=  @1.51 S8",
-	Fiesta: "S3`nl S5`hd S15`cz D6`fs D16`nm  D17`afs D22`anm",
-	NXA: ["4", "5", "15", "6", "16"], NXA_: ["", "", "", "17", "22"],
-	NX2: ["3", "5", "15", "6", "16"], NX2_: ["", "", "", "18", "21"],
-	NX: ["*1.5", "*2.5", "@1", "*3", "@1"], NX_: ["", "", "", "@3", "@7"],
-	Zero: ["3", "5", "16", "6", "16"], Zero_: ["", "", "", "", "??"],
-	Exceed2: ["3", "5", "", "6", "16"],
-	Exceed: ["3", "5", "", "5", "18"],
+	charts: {
+		Phoenix: "= S4`3 S6`5 D9`7 D18`17 D19`18",
+		XX: "= S16`15 D7`6 D17`16 D18`17 D21`22  @2.07 CoOp(x2)",
+		Prime2: "=",
+		Prime: "=",
+		Fiesta2: "=",
+		FiestaEX: "=  @1.51 S8",
+		Fiesta: "S3`nl S5`hd S15`cz D6`fs D16`nm  D17`afs D22`anm",
+		NXA: ["4", "5", "15", "6", "16"], NXA_: ["", "", "", "17", "22"],
+		NX2: ["3", "5", "15", "6", "16"], NX2_: ["", "", "", "18", "21"],
+		NX: ["*1.5", "*2.5", "@1", "*3", "@1"], NX_: ["", "", "", "@3", "@7"],
+		Zero: ["3", "5", "16", "6", "16"], Zero_: ["", "", "", "", "??"],
+		Exceed2: ["3", "5", "", "6", "16"],
+		Exceed: ["3", "5", "", "5", "18"],
+	},
 },
 
 
@@ -13257,7 +15157,10 @@ var readableTracklist = {
 /*{
 	title: "Narcisista Por Excelencia  [SHORT]", artist: "PXNDX", bpm: "164",
 	pumpoutID: "",
-	Prime: "S17 D18",
+
+	charts: {
+		Prime: "S17 D18",
+	},
 },*/
 
 };
@@ -13511,33 +15414,33 @@ function PreprocessNewStyleChart( track, trackID, result, chartDescr, mixID, pat
 
 function RemoveNewStyleChart( track, mixID, chartText )
 {
-	var index = _.findIndex( track[ mixID ], function( item ) { return item.text === chartText; } );
+	var index = _.findIndex( track.charts[ mixID ], function( item ) { return item.text === chartText; } );
 	if( index < 0)
 		throw new Error( "Can't find '" + track.title + "'' " + chartText + " chart @ " + mixID );
-	if( index != _.findLastIndex( track[ mixID ], function( item ) { return item.text === chartText; } ) )
+	if( index != _.findLastIndex( track.charts[ mixID ], function( item ) { return item.text === chartText; } ) )
 		throw new Error( "Several '" + track.title + "'' " + chartText + " charts @ " + mixID );
-	track[ mixID ].splice( index, 1 );
+	track.charts[ mixID ].splice( index, 1 );
 }
 
 
 function CopyCharts( track, mixID, fromMixID, patchIndex )
 {
-	console.assert( track[ mixID ].length === 0 );
+	console.assert( track.charts[ mixID ].length === 0 );
 
 	if( fromMixID === "" )
 	{
 		var mixIndex = mixesOrder.indexOf( mixID );
 		for( var i = mixIndex - 1;  i >= 0;  --i )
-			if( track[ mixesOrder[ i ] ] )
+			if( track.charts[ mixesOrder[ i ] ] )
 			{
 				fromMixID = mixesOrder[ i ];
 				break;
 			}
 	}
 
-	console.assert( track[ fromMixID ] );
-	track[ mixID ] = JSON.parse( JSON.stringify( track[ fromMixID ] ) );
-	for( var chart of track[ mixID ] )
+	console.assert( track.charts[ fromMixID ] );
+	track.charts[ mixID ] = JSON.parse( JSON.stringify( track.charts[ fromMixID ] ) );
+	for( var chart of track.charts[ mixID ] )
 	{
 		if( patchIndex > 0 )
 			chart.fromPatchIndex = patchIndex;
@@ -13561,11 +15464,11 @@ function ParsePatchIndex( mixID, patchName )
 
 function PreprocessNewStyleStringCharts( track, trackID, mixID )
 {
-	var chartsStr = track[ mixID ];
+	var chartsStr = track.charts[ mixID ];
 	if( ! chartsStr )
 		return;
 
-	track[ mixID ] = [];
+	track.charts[ mixID ] = [];
 
 	var charts = chartsStr.split( " " );
 	var patchIndex = mixes[ mixID ].patches ? 0 : -1;
@@ -13580,11 +15483,11 @@ function PreprocessNewStyleStringCharts( track, trackID, mixID )
 		}
 		else if( token[0] === '+' )
 		{
-			var chart = PreprocessNewStyleChart( track, trackID, track[ mixID ], token.substr( 1 ), mixID, patchIndex );
+			var chart = PreprocessNewStyleChart( track, trackID, track.charts[ mixID ], token.substr( 1 ), mixID, patchIndex );
 		}
 		else if( token[0] === 'S'  ||  token[0] === 'D'  ||  token.substr(0, 4) === 'CoOp' )  // implicit '+' is considered
 		{
-			var chart = PreprocessNewStyleChart( track, trackID, track[ mixID ], token, mixID, patchIndex );
+			var chart = PreprocessNewStyleChart( track, trackID, track.charts[ mixID ], token, mixID, patchIndex );
 		}
 		else if( token[0] === '-' )
 		{
@@ -13601,7 +15504,7 @@ function PreprocessNewStyleStringCharts( track, trackID, mixID )
 	}
 
 	var chartLabels = new Set();
-	for( var chart of track[ mixID ] )
+	for( var chart of track.charts[ mixID ] )
 	{
 		if( chartLabels.has( chart.text ) )
 			throw new Error( `Duplicate chart '${ chart.text }' in track '${ id }' on mix ${ mixID }` );
@@ -13613,23 +15516,23 @@ function PreprocessNewStyleStringCharts( track, trackID, mixID )
 function PreprocessOldStyleListCharts( track, mixID, oldSlotSharedCharts )
 {
 	var mix = mixes[ mixID ];
-	console.assert( mix.style === "old"  ||  ! track[ mixID ] );
+	console.assert( mix.style === "old"  ||  ! track.charts[ mixID ] );
 
-	var arcadeCharts = track[ mixID ];
-	var specialCharts = track[ mixID + "_" ];
+	var arcadeCharts = track.charts[ mixID ];
+	var specialCharts = track.charts[ mixID + "_" ];
 	if( arcadeCharts  ||  specialCharts )
 	{
 		if( track.duration !== REMIX  &&  track.duration !== FULL )
-			track[ mixID ] = PreprocessOldStyleStation( track, mixID, arcadeCharts, ARCADE, OldArcadeTags, oldSlotSharedCharts )
-		                     .concat(
-			                 PreprocessOldStyleStation( track, mixID, specialCharts, SPECIAL, OldSpecialTags, oldSlotSharedCharts )
-			                 );
+			track.charts[ mixID ] = PreprocessOldStyleStation( track, mixID, arcadeCharts, ARCADE, OldArcadeTags, oldSlotSharedCharts )
+		                           .concat(
+			                       PreprocessOldStyleStation( track, mixID, specialCharts, SPECIAL, OldSpecialTags, oldSlotSharedCharts )
+			                    );
 		else
-			track[ mixID ] = PreprocessOldStyleStation( track, mixID, specialCharts, SPECIAL, OldArcadeTags, oldSlotSharedCharts );
+			track.charts[ mixID ] = PreprocessOldStyleStation( track, mixID, specialCharts, SPECIAL, OldArcadeTags, oldSlotSharedCharts );
 
-		console.assert( track[ mixID ].length > 0 );
+		console.assert( track.charts[ mixID ].length > 0 );
 
-		delete track[ mixID + "_" ];
+		delete track.charts[ mixID + "_" ];
 	}
 }
 
@@ -13734,7 +15637,7 @@ function PreprocessTrack( track )
 	var oldSlotSharedCharts = {};
 	for( var mixID of mixesOrder )
 	{
-		if( typeof track[ mixID ] === "string" )
+		if( typeof track.charts[ mixID ] === "string" )
 			PreprocessNewStyleStringCharts( track, trackID, mixID );
 		else
 			PreprocessOldStyleListCharts( track, mixID, oldSlotSharedCharts );
@@ -13775,23 +15678,23 @@ function PostprocessTracklist()
 {
 	function GetNewStyleChartDiff( track, newMix, oldMix )
 	{
-		if( ! track[ newMix ] )
+		if( ! track.charts[ newMix ] )
 			return;
-		//&&  ! track[ oldMix ] )
+		//&&  ! track.charts[ oldMix ] )
 		//	return;
 
 		var result = "";
-		if( track[ oldMix ] )
+		if( track.charts[ oldMix ] )
 			result = "=";
 
-		var oldCharts = track[ oldMix ] ? track[ oldMix ] : [];
+		var oldCharts = track.charts[ oldMix ] ? track.charts[ oldMix ] : [];
 
-		for( var newChart of track[ newMix ] )
+		for( var newChart of track.charts[ newMix ] )
 			if ( ! _.find( oldCharts, function( item ) { return( item.text === newChart.text ); } ) )
 				result += " +" + newChart.text;
 
 		for( var oldChart of oldCharts )
-			if ( ! _.find( track[ newMix ], function( item ) { return( item.text === oldChart.text ); } ) )
+			if ( ! _.find( track.charts[ newMix ], function( item ) { return( item.text === oldChart.text ); } ) )
 				result += " -" + oldChart.text;
 
 		return result.trim();

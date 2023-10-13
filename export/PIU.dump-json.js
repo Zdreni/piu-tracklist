@@ -85,7 +85,7 @@ function CopyChartWithRemovedObviousFieldsForApp( track, mixID, chart )
 		delete chart.isLocked;
 	}
 
-	track[ mixID ][ chartIndex ] = chart;
+	track.charts[ mixID ][ chartIndex ] = chart;
 }
 
 
@@ -113,7 +113,7 @@ function CopyChartWithRemovedObviousFieldsForDB( track, mixID, chart )
 
 	delete chart.tag;
 
-	track[ mixID ][ chartIndex ] = chart;
+	track.charts[ mixID ][ chartIndex ] = chart;
 }
 
 
@@ -125,11 +125,11 @@ function ConvertInnerDataToOutput( track, shortenData )
 		{
 			delete track.chartsCount;
 
-			var mixCharts = track[ mixID ];
+			var mixCharts = track.charts[ mixID ];
 			if( ! mixCharts )
 				continue;
 
-			track[ mixID ] = {};
+			track.charts[ mixID ] = {};
 			for( var chart of mixCharts )
 				CopyChartWithRemovedObviousFieldsForApp( track, mixID, chart );
 		}
@@ -147,11 +147,11 @@ function ConvertInnerDataToOutput( track, shortenData )
 			delete track.chartsCount;
 			delete track.channel;
 
-			var mixCharts = track[ mixID ];
+			var mixCharts = track.charts[ mixID ];
 			if( ! mixCharts )
 				continue;
 
-			track[ mixID ] = {};
+			track.charts[ mixID ] = {};
 			for( var chart of mixCharts )
 				CopyChartWithRemovedObviousFieldsForDB( track, mixID, chart );
 		}
@@ -226,8 +226,8 @@ function DumpTracklist( shortenData )
 			var trackMixes = {};
 			for( var mixID of mixesOrder )
 			{
-				trackMixes[ mixID ] = track[ mixID ];
-				delete track[ mixID ];
+				trackMixes[ mixID ] = track.charts[ mixID ];
+				delete track.charts[ mixID ];
 			}
 
 			if( ! track.charts )
@@ -284,7 +284,7 @@ function DumpTracklist( shortenData )
 		}
 		catch( exc )
 		{
-			errors.push( exc + ":<br>" + exc.stack.replace( " at", "<br>&nbsp;at" ) );
+			//errors.push( exc + ":<br>" + exc.stack.replace( " at", "<br>&nbsp;at" ) );
 			console.log( "Catched ", exc );
 		}
 	}

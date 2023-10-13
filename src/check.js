@@ -217,10 +217,10 @@ function SortCharts( a, b )
 
 function GetTracklistChartTexts( mixName, trackID )
 {
-	if( ! tracklist[ trackID ][ mixName ] )
+	if( ! tracklist[ trackID ].charts[ mixName ] )
 		return [];
 
-	return tracklist[ trackID ][ mixName ].filter( ch => ! ch.fromPatchIndex ).map( ch => ch.text.replace( "Dp??", "CoOp" ) ).sort( SortCharts );
+	return tracklist[ trackID ].charts[ mixName ].filter( ch => ! ch.fromPatchIndex ).map( ch => ch.text.replace( "Dp??", "CoOp" ) ).sort( SortCharts );
 }
 
 

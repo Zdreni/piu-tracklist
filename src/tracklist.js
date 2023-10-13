@@ -246,9 +246,9 @@ function FindChartSharedNew( track, chartTag, chartLevelText )
 
 	for( var mixID of mixesOrder )
 	{
-		if( mixes[ mixID ].style === "new"  &&  track[ mixID ] )
+		if( mixes[ mixID ].style === "new"  &&  track.charts[ mixID ] )
 		{
-			var chart = _.findWhere( track[ mixID ], { tag: chartTag, levelText: chartLevelText, } );
+			var chart = _.findWhere( track.charts[ mixID ], { tag: chartTag, levelText: chartLevelText, } );
 			if( chart )
 			{
 				console.assert( chart.shared );
@@ -265,7 +265,7 @@ function FindChartWithIndexInMix( track, chartIndex, mixID )
 {
 	console.assert( mixesOrder.indexOf( mixID ) >= 0 );
 
-	var chartsInMix = track[ mixID ];
+	var chartsInMix = track.charts[ mixID ];
 	if( chartsInMix )
 	{
 		for( var chart of chartsInMix )
@@ -284,7 +284,7 @@ function FindChartsWithIndexInMixesRange( track, chartIndex, mixIndexFrom, mixIn
 	var charts = [];
 	for( var i = mixIndexFrom;  i < mixIndexTo;  ++i )
 	{
-		var chartsInMix = track[ mixesOrder[ i ] ];
+		var chartsInMix = track.charts[ mixesOrder[ i ] ];
 		if( chartsInMix )
 		{
 			for( var chart of chartsInMix )
@@ -317,9 +317,9 @@ function FindChartEx( track, chartDescr, chartPattern, fromMixName, toMixName )
 
 	for( var mixID = toMixID;  mixID >= fromMixID;  --mixID )
 	{
-		if( track[ mixesOrder[ mixID ] ] )
+		if( track.charts[ mixesOrder[ mixID ] ] )
 		{
-			var chart = _.findWhere( track[ mixesOrder[ mixID ] ], chartPattern );
+			var chart = _.findWhere( track.charts[ mixesOrder[ mixID ] ], chartPattern );
 			if( chart )
 				return chart;
 		}
@@ -395,7 +395,7 @@ function GetTrackFirstMix( track )
 		return track.fromMix;
 
 	for( var mixID of mixesOrder )
-		if( track[ mixID ] )
+		if( track.charts[ mixID ] )
 			return mixID;
 }
 
@@ -481,8 +481,8 @@ var chartFilter = {
 
 			for( var mixID of chartFilter.excludeMixIDs )
 			{
-				//if( track[ mixID ]  &&  _.findWhere( track[ mixID ], { index: chart.index, } ) )
-				if( track[ mixID ] )  // временно, пока не будет установлено корректное соотношение между старыми и новыми сложностями для всех чартов
+				//if( track.charts[ mixID ]  &&  _.findWhere( track.charts[ mixID ], { index: chart.index, } ) )
+				if( track.charts[ mixID ] )  // временно, пока не будет установлено корректное соотношение между старыми и новыми сложностями для всех чартов
 					return;
 			}
 
@@ -494,7 +494,7 @@ var chartFilter = {
 		}
 
 
-		var charts = track[ chartFilter.mixID ];
+		var charts = track.charts[ chartFilter.mixID ];
 		if( typeof charts === 'undefined' )
 			return;
 
