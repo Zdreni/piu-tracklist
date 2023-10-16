@@ -138,7 +138,6 @@ function ConvertInnerDataToOutput( track, shortenData )
 			delete track.duration;
 
 		delete track.arcadeName;
-		delete track.arcadeNameMaxEditDistance;
 	}
 	else
 	{
@@ -158,10 +157,9 @@ function ConvertInnerDataToOutput( track, shortenData )
 
 		if( ! track.arcadeName )
 			track.arcadeName = track.title.replace("  [SHORT]", " - SHORT CUT -").replace("  [FULL]", " - FULL SONG");
-		if( ! track.arcadeNameMaxEditDistance )
-			track.arcadeNameMaxEditDistance = 0;
 		if( ! track.shortTitle )
 			track.shortTitle = track.title;
+		delete track.altID;
 	}
 
 	track.title = track.title.replace( "  ", "&nbsp;&nbsp;" ).replace( "<", "&lt;" ).replace( ">", "&gt;" );
