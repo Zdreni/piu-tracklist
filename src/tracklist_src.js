@@ -51,7 +51,8 @@ var readableTracklist = {
 "17__":
 {
 	title: "", artist: "", channel: , bpm: "", duration: ,
-	sortingID: "",  // between  () and  ()
+	// sortingID: "",
+	sortingBetween: ["", ""],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -70,7 +71,8 @@ var readableTracklist = {
 "17__Pirate":
 {
 	title: "Pirate", artist: "EVERGLOW", channel: KPOP, bpm: "130",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__After_Like", "17__Beautiful_Liar"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -84,7 +86,8 @@ var readableTracklist = {
 "17__R_I_P":
 {
 	title: "R.I.P.", artist: "eicateve", channel: WORLD, bpm: "192",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__Goodbounce", "17__Halcyon"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -98,7 +101,8 @@ var readableTracklist = {
 "17__Battle_No_1":
 {
 	title: "BATTLE NO.1", artist: "TANO*C Sound Team", channel: WORLD, bpm: "200",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__Halcyon", ""],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -112,7 +116,8 @@ var readableTracklist = {
 "17__Ghroth":
 {
 	title: "Ghroth", artist: "nato", channel: ORIGINAL, bpm: "212",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__Jupin", "17__Kugutsu"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -127,6 +132,7 @@ var readableTracklist = {
 {
 	title: "MURDOCH", artist: "WONDERTRAVELER Project", channel: ORIGINAL, bpm: "179",
 	//sortingID: "",  // between  () and  ()
+	sortingBetween: ["17__Etude_Op_10_4", "17__Lohxia"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -140,7 +146,8 @@ var readableTracklist = {
 "17__Lohxia":
 {
 	title: "Lohxia", artist: "The Musical Ghost", channel: ORIGINAL, bpm: "155",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__Murdoch", "17__Chaos_Again"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -154,7 +161,8 @@ var readableTracklist = {
 "17__Chaos_Again":
 {
 	title: "Chaos Again", artist: "NAOKI underground -Ω-", channel: ORIGINAL, bpm: "150~260",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__Lohxia", "17__Goodtek"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -168,7 +176,8 @@ var readableTracklist = {
 "17__Beautiful_Liar":
 {
 	title: "Beautiful Liar", artist: "MONSTA X", channel: KPOP, bpm: "130",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__Pirate", "17__Storm"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -182,7 +191,8 @@ var readableTracklist = {
 "17__Storm":
 {
 	title: "STORM", artist: "KOYOTE", channel: KPOP, bpm: "139",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__Beautiful_Liar", "17__Airplane"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -197,7 +207,8 @@ var readableTracklist = {
 "17__Airplane":
 {
 	title: "Airplane", artist: "TYPHOON", channel: KPOP, bpm: "120",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__Storm", "17__Vector"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -211,7 +222,8 @@ var readableTracklist = {
 "17__Goodbounce":
 {
 	title: "GOODBOUNCE", artist: "EBIMAYO", channel: WORLD, bpm: "180",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__Altale", "17__R_I_P"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -225,7 +237,8 @@ var readableTracklist = {
 "17__Booom":
 {
 	title: "BOOOM!!", artist: "RiraN", channel: ORIGINAL, bpm: "160",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__Showdown", "17__Euphorianic"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -239,7 +252,8 @@ var readableTracklist = {
 "17__Kugutsu":
 {
 	title: "KUGUTSU", artist: "onoken", channel: ORIGINAL, bpm: "220",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__Ghroth", "17__Etude_Op_10_4"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -253,7 +267,8 @@ var readableTracklist = {
 "17__Boca":
 {
 	title: "BOCA", artist: "Dreamcatcher", channel: KPOP, bpm: "200",
-	//sortingID: "",  // between  () and  ()
+	sortingID: "17_",
+	sortingBetween: ["", "17__Nxde"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -267,7 +282,8 @@ var readableTracklist = {
 "17__Nxde":
 {
 	title: "Nxde", artist: "(G)I-DLE", channel: KPOP, bpm: "136",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__Boca", "17__Teddy_Bear"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -281,7 +297,8 @@ var readableTracklist = {
 "17__Teddy_Bear":
 {
 	title: "Teddy Bear", artist: "STAYC", channel: KPOP, bpm: "119",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__Nxde", "17__Alone"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -295,7 +312,8 @@ var readableTracklist = {
 "17__Alone":
 {
 	title: "Alone", artist: "HIGHLIGHT", channel: KPOP, bpm: "115",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__Teddy_Bear", "17__Amor_Fati"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -309,7 +327,8 @@ var readableTracklist = {
 "17__Amor_Fati":
 {
 	title: "Amor Fati", artist: "Yeon Ja Kim", channel: KPOP, bpm: "134",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__Alone", "17__After_Like"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -323,7 +342,8 @@ var readableTracklist = {
 "17__After_Like":
 {
 	title: "After LIKE", artist: "IVE", channel: KPOP, bpm: "125",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",  // between  (17__Amor_Fati) and  (17__Pirate)
+	sortingBetween: ["17__Amor_Fati", "17__Pirate"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -337,7 +357,8 @@ var readableTracklist = {
 "17__Vector":
 {
 	title: "VECTOR", artist: "Zekk", channel: ORIGINAL, bpm: "178",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__Airplane", "17__Versailles"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -351,7 +372,8 @@ var readableTracklist = {
 "17__Versailles":
 {
 	title: "Versailles", artist: "Hyun & MIIM", channel: ORIGINAL, bpm: "160-175",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__Vector", "17__Showdown"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -365,7 +387,8 @@ var readableTracklist = {
 "17__Showdown":
 {
 	title: "Showdown", artist: "litmus*", channel: ORIGINAL, bpm: "130",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__Versailles", "17__Booom"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -379,7 +402,8 @@ var readableTracklist = {
 "17__Euphorianic":
 {
 	title: "Euphorianic", artist: "SHK", channel: ORIGINAL, bpm: "140",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__Booom", "17__Jupin"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -393,7 +417,8 @@ var readableTracklist = {
 "17__Jupin":
 {
 	title: "Jupin", artist: "Sobrem", channel: ORIGINAL, bpm: "173",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__Euphorianic", "17__Ghroth"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -407,7 +432,8 @@ var readableTracklist = {
 "17__Etude_Op_10_4":
 {
 	title: "Etude Op 10-4", artist: "MAX", channel: ORIGINAL, bpm: "176",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__Kugutsu", "17__Murdoch"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -421,7 +447,8 @@ var readableTracklist = {
 "17__Goodtek":
 {
 	title: "GOODTEK", artist: "EBIMAYO", channel: WORLD, bpm: "190",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__Chaos_Again", "17__Co5m1c_R4ilr0ad"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -435,7 +462,8 @@ var readableTracklist = {
 "17__Co5m1c_R4ilr0ad":
 {
 	title: "CO5M1C R4ILR0AD", artist: "kanone", channel: WORLD, bpm: "155",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__Goodtek", "17__Energy_Synergy_Matrix"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -449,7 +477,8 @@ var readableTracklist = {
 "17__Energy_Synergy_Matrix":
 {
 	title: "Energy Synergy Matrix", artist: "Tanchiky", channel: WORLD, bpm: "160",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__Co5m1c_R4ilr0ad", "17__Milk"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -463,7 +492,8 @@ var readableTracklist = {
 "17__Milk":
 {
 	title: "MilK", artist: "Morimori Atsushi", channel: WORLD, bpm: "150",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__Energy_Synergy_Matrix", "17__Acquire"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -477,7 +507,8 @@ var readableTracklist = {
 "17__Acquire":
 {
 	title: "Acquire", artist: "ryhki", channel: WORLD, bpm: "155",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__Milk", "17__Pneumonoultramicroscopicsilicovolcanoconiosis"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -493,7 +524,8 @@ var readableTracklist = {
 	title: "Pneumonoultramicroscopicsilicovolcanoconiosis", artist: "DASU", channel: WORLD, bpm: "156",
 	shortTitle: "Pneumonoultramicroscopic...",
 	arcadeName: "Pneumonoultramicroscopicsilicovolcanoconiosis ft. Kagamine Len/GUMI",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__Acquire", "17__Altale"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -507,7 +539,8 @@ var readableTracklist = {
 "17__Altale":
 {
 	title: "Altale", artist: "sakuzyo", channel: WORLD, bpm: "90",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__Pneumonoultramicroscopicsilicovolcanoconiosis", "17__Goodbounce"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -521,7 +554,8 @@ var readableTracklist = {
 "17__Halcyon":
 {
 	title: "Halcyon", artist: "xi", channel: WORLD, bpm: "40-191",
-	//sortingID: "",  // between  () and  ()
+	//sortingID: "",
+	sortingBetween: ["17__R_I_P", "17__Battle_No_1"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -542,7 +576,7 @@ var readableTracklist = {
 	shortTitle: "God Mode 2.0",
 	altID: "16_God_Mode_2_0",
 	arcadeID: "1702",
-	sortingID: "16F6__1",  // between 16__Switronic__SHORT (16F6.orig) and 16__Club_Night (1668.world)
+	sortingBetween: ["16__Switronic__SHORT", "16__Club_Night"],
 	pumpoutID: 874,
 
 	charts: {
@@ -556,7 +590,7 @@ var readableTracklist = {
 {
 	title: "Ultimatum", artist: "Cosmograph", channel: WORLD, bpm: "202",
 	arcadeID: "1705",
-	sortingID: "16B3__1",  // between 16__Cross_Ray (WORLD/16B3) and 16__Kokugen_Kairou_Labyrinth (WORLD/16B3__2)
+	sortingBetween: ["16__Cross_Ray", "16__Kokugen_Kairou_Labyrinth"],
 	pumpoutID: 893,
 
 	charts: {
@@ -571,8 +605,7 @@ var readableTracklist = {
 	title: "Kokugen Kairou Labyrinth", artist: "A:llha (ANE + 2riA)", channel: WORLD, bpm: "215",
 	altID: "16_Kokugen_Kairou_Labyrinth",
 	arcadeID: "1718",
-	//sortingID: "1699__5",  // between 16__Ultimatum (1699__5) and 16_Imagination (1678)
-	sortingID: "16B3__2",  // between 16__Ultimatum (16B3__1) and 16_Imagination (1678)
+	sortingBetween: ["16__Ultimatum", "16__Imagination"],
 	pumpoutID: 888,
 
 	charts: {
@@ -1455,6 +1488,7 @@ var readableTracklist = {
 	altID: "16_Club_Night",
 	arcadeID: "1668",
 	pumpoutID: 753,
+	sortingBetween: ["16__God_Mode_2_0", ""],
 
 	charts: {
 		Phoenix: "= S9`8 S17`16 S19`18 -Dp5",
@@ -1596,6 +1630,7 @@ var readableTracklist = {
 	altID: "16_Imagination",
 	arcadeID: "1678",
 	pumpoutID: 755,
+	sortingBetween: ["16__Kokugen_Kairou_Labyrinth", ""],
 
 	charts: {
 		Phoenix: "= S18`17 -Dp5",
@@ -2050,6 +2085,7 @@ var readableTracklist = {
 	arcadeID: "16B3",
 	pumpoutID: 896,
 	arcadeName: "CROSS RAY",
+	sortingBetween: ["", "16__Ultimatum"],
 
 	charts: {
 		Phoenix: "= S21`22",
@@ -2462,6 +2498,7 @@ var readableTracklist = {
 	arcadeName: "Switronic - SHORT CUT -",
 	altID: "16_Switronic_SHORT",
 	arcadeID: "16F6",
+	sortingBetween: ["", "16__God_Mode_2_0"],
 	pumpoutID: 822,
 
 	charts: {
@@ -15607,6 +15644,8 @@ function PreprocessTrack( track )
 	if( track.sortingID === "" )
 		delete track.sortingID;
 
+	delete track.sortingBetween;
+
 	if( track.pumpoutID )
 	{
 		if( track.pumpoutID !== "" )
@@ -15660,8 +15699,80 @@ function PreprocessTrack( track )
 }
 
 
+function ProcessSortingChain( tracklist, initialID )
+{
+	var sortingPrefix = tracklist[ initialID ].sortingID  ||  tracklist[ initialID ].arcadeID;
+	console.log( `Sorting chain: '${initialID}' as '${sortingPrefix}__*'` );
+	var counter = 0;
+	var id = tracklist[ initialID ].sortingBetween[ 1 ];
+	while( id !== "" )
+	{
+		if( ++counter >= 1000 )
+			throw new Error( `Sorting chain ${initialID} is too large` );
+
+		tracklist[ id ].sortingID = `${sortingPrefix}__${String(counter).padStart(3, '0')}`;
+		id = tracklist[ id ].sortingBetween[ 1 ];
+	}
+
+}
+
+
+function GenerateSortingIDs( tracklist )
+{
+	var sortingChains = [];
+
+	for( var trackID in tracklist )
+	{
+		var track = tracklist[ trackID ];
+		if( track.sortingBetween )
+		{
+			var prevID = track.sortingBetween[ 0 ];
+			if( prevID === "" )
+			{
+				if( ! track.sortingID  &&  ! track.arcadeID )
+					throw new Error( `Track '${ trackID }' is in the start of sorting chain, but doesn't have arcadeID or sortingID` );
+				sortingChains.push( trackID );
+			}
+			else
+			{
+				if( track.sortingID )
+					throw new Error( `Track '${ trackID }' is in the middle of sorting chain, but has sortingID` );
+				if( ! tracklist[ prevID ] )
+					throw new Error( `Track '${ prevID }' referred in sorting from '${ trackID }' doesn't exists` );
+				if( ! tracklist[ prevID ].sortingBetween )
+					throw new Error( `Track '${ prevID }' referred in sorting from '${ trackID }' doesn't have sortingBetween` );
+				if( tracklist[ prevID ].sortingBetween[ 1 ] !== trackID )
+					throw new Error( `Track '${ prevID }' referred in sorting from '${ trackID }' refers back to '${tracklist[ prevID ].sortingBetween[ 1 ]}' instead` );
+			}
+
+			var nextID = track.sortingBetween[ 1 ];
+			if( nextID === "" )
+			{
+				if( prevID === "" )
+					throw new Error( `Track '${ trackID }' can't have both empty entries of sortingBetween` );
+			}
+			else
+			{
+				if( ! tracklist[ nextID ] )
+					throw new Error( `Track '${ nextID }' referred in sorting from '${ trackID }' doesn't exists` );
+				if( ! tracklist[ nextID ].sortingBetween )
+					throw new Error( `Track '${ nextID }' referred in sorting from '${ trackID }' doesn't have sortingBetween` );
+				if( tracklist[ nextID ].sortingBetween[ 0 ] !== trackID )
+					throw new Error( `Track '${ nextID }' referred in sorting from '${ trackID }' refers back to '${tracklist[ nextID ].sortingBetween[ 0 ]}' instead` );
+			}
+		}
+	}
+
+
+	for( var id of sortingChains )
+		ProcessSortingChain( tracklist, id );
+}
+
+
 function PreprocessTracklist()
 {
+	GenerateSortingIDs( tracklist );
+
 	for( var trackID in tracklist )
 	{
 		tracklist[ trackID ].id = trackID;
