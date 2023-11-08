@@ -16,46 +16,46 @@ If the machine is connected with internet, update file will be downloaded automa
 1. New Songs
 
 1) Title : Pirate
-Artist : EVERGLOW
-BPM : 130
-Category : K-POP
-Step charts : S2, S4, S6, S9, S13, S17, D8, D15, D18
+   Artist : EVERGLOW
+   BPM : 130
+   Category : K-POP
+   Step charts : S2, S4, S6, S9, S13, S17, D8, D15, D18
 
 2) Title : R.I.P.
-Artist : eicateve
-BPM : 192
-Category : WORLD MUSIC
-Step charts : S12, S16, S19, S22, D16, D21, D24
+   Artist : eicateve
+   BPM : 192
+   Category : WORLD MUSIC
+   Step charts : S12, S16, S19, S22, D16, D21, D24
 
 3) Title : BATTLE NO.1
-Artist : TANO*C Sound Team
-BPM : 200
-Category : WORLD MUSIC
-Step charts : S9, S14, S17, S20, S22, D16, D22, D24
+   Artist : TANO*C Sound Team
+   BPM : 200
+   Category : WORLD MUSIC
+   Step charts : S9, S14, S17, S20, S22, D16, D22, D24
 
 4) Title : Ghroth
-Artist : nato
-BPM : 212
-Category : ORIGINAL
-Step charts : S13, S16, S19, S21, S23, D17, D20, D23, D25
+   Artist : nato
+   BPM : 212
+   Category : ORIGINAL
+   Step charts : S13, S16, S19, S21, S23, D17, D20, D23, D25
 
 5) Title : MURDOCH
-Artist : WONDERTRAVELER Project
-BPM : 179
-Category : ORIGINAL
-Step charts : S11, S18, S20, S22, D14, D20, D22, D24
+   Artist : WONDERTRAVELER Project
+   BPM : 179
+   Category : ORIGINAL
+   Step charts : S11, S18, S20, S22, D14, D20, D22, D24
 
 6) Title : Lohxia
-Artist : The Musical Ghost
-BPM : 155
-Category : ORIGINAL
-Step charts : S7, S12, S16, S21, D14, D19, D22
+   Artist : The Musical Ghost
+   BPM : 155
+   Category : ORIGINAL
+   Step charts : S7, S12, S16, S21, D14, D19, D22
 
 7) Title : CHAOS AGAIN
-Artist : NAOKI underground -Ω-
-BPM : 150~260
-Category : ORIGINAL
-Step charts : S15, S18, S20, S22, S24, D17, D22, D24, D26
+   Artist : NAOKI underground -Ω-
+   BPM : 150~260
+   Category : ORIGINAL
+   Step charts : S15, S18, S20, S22, S24, D17, D22, D24, D26
 
 
 
