@@ -217,17 +217,17 @@ function SortCharts( a, b )
 
 function GetTracklistChartTexts( mixName, trackID )
 {
-	if( ! tracklist[ trackID ].charts[ mixName ] )
-		return [];
+	if( ! tracklist[ trackID ]  ||  ! tracklist[ trackID ].charts[ mixName ] )
+		throw new Error( `${mixName} check:  can't find track with id '${trackID}'` );
 
 	return tracklist[ trackID ].charts[ mixName ].filter( ch => ! ch.fromPatchIndex ).map( ch => ch.text.replace( "Dp??", "CoOp" ) ).sort( SortCharts );
 }
 
 
-function GetCheckChartTexts( checkTable, trackID )
+function GetCheckChartTexts( checkTable, mixName, trackID )
 {
 	if( ! checkTable[ trackID ] )
-		return [];
+		throw new Error( `${mixName} check:  can't find track with id '${trackID}' in checktable` );
 
 	return checkTable[ trackID ].split( ' ' ).filter( ch => ch !== "" ).sort( SortCharts );
 }
@@ -235,7 +235,7 @@ function GetCheckChartTexts( checkTable, trackID )
 function GetNewMixChartsDifference( mixName, checkTable, trackID )
 {
 	var src = GetTracklistChartTexts( mixName, trackID );
-	var dst = GetCheckChartTexts( checkTable, trackID );
+	var dst = GetCheckChartTexts( checkTable, mixName, trackID );
 	//return src.filter( x => ! dst.includes( x ) ).concat( dst.filter( x => ! src.includes( x ) ) );
 	var dstAdd = dst.filter( x => ! src.includes( x ) ).map( x => `+${x}` );
 	var srcSub = src.filter( x => ! dst.includes( x ) ).map( x => `-${x}` );
@@ -244,14 +244,32 @@ function GetNewMixChartsDifference( mixName, checkTable, trackID )
 }
 
 
+function HasInitialCharts( track, mixName )
+{
+	if( ! track.charts[ mixName ] )
+		return false;
+
+	for( var chart of track.charts[ mixName ] )
+		if( ! chart.fromPatchIndex )
+			return true;
+
+	return false;
+}
+
+
 function CheckInitialTracklistOfNewMix( mixName, checkTable )
 {
+	var tracklistIDs = Object.keys( tracklist ).filter((key) => HasInitialCharts( tracklist[ key ], mixName ) );
+	var checklistIDs = Object.keys( checkTable );
+	var combinedIDs = _.union(tracklistIDs, checklistIDs);
+
+
 	var exceptions = [];
-	for( var trackID in tracklist )
+	for( var trackID of combinedIDs )
 	{
 		try
 		{
-			let difference = GetNewMixChartsDifference( mixName, checkTable, trackID )
+			let difference = GetNewMixChartsDifference( mixName, checkTable, trackID );
 			if( difference.length > 0 )
 				throw new Error( `${mixName} check:  content mismatch for '${trackID}':  difference = ${difference.join( ' ' )}` );
 		}
