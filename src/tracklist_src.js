@@ -58,7 +58,7 @@ var readableTracklist = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@1.02  ",
+		Phoenix: "@1.03  ",
 	},
 },
 */
@@ -68,11 +68,86 @@ var readableTracklist = {
 // \17 - Phoenix
 
 
+"17__Whisper":
+{
+	title: "WHISPER", artist: "THE BOYZ", channel: KPOP, bpm: "96",
+	// sortingID: "",
+	sortingBetween: ["17__Pirate", "17__Beautiful_Liar"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.03 S2 S6 S9 S13 S16 S19 D14 D18 D21",
+	},
+},
+
+
+"17__Halloween_Party_Multiverse":
+{
+	title: "Halloween Party ~Multiverse~", artist: "SHK", channel: ORIGINAL, bpm: "160",
+	// sortingID: "",
+	sortingBetween: ["17__Euphorianic", "17__Jupin"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.03 S8 S12 S16 S18 S20 D13 D17 D21 CoOp(x2)",
+	},
+},
+
+
+"17__Lacrimosa":
+{
+	title: "Lacrimosa", artist: "Fiverwater", channel: ORIGINAL, bpm: "210",
+	// sortingID: "",
+	sortingBetween: ["17__Etude_Op_10_4", "17__Murdoch"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.03 S3 S6 S10 S13 S15 S17 S20 D9 D15 D18 D22",
+	},
+},
+
+
+"17__Galaxy_Collapse":
+{
+	title: "Galaxy Collapse", artist: "Kurokotei", channel: WORLD, bpm: "150~320",
+	// sortingID: "",
+	sortingBetween: ["17__Chaos_Again", "17__Goodtek"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.03 S4 S7 S11 S15 S18 S22 D13 D16 D20 D24",
+	},
+},
+
+
+"17__Euphorianic__SHORT":
+{
+	title: "Euphorianic  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "140",
+	sortingID: "17_",
+	sortingBetween: ["", "16__Paradoxx__SHORT"],
+	// arcadeID: "",
+	pumpoutID: "",
+	arcadeName: "Euphorianic - SHORT CUT -",
+
+	charts: {
+		Phoenix: "@1.03 S4 S7 S10 S17 D12 D19",
+	},
+},
+
+
 "17__Pirate":
 {
 	title: "Pirate", artist: "EVERGLOW", channel: KPOP, bpm: "130",
 	//sortingID: "",
-	sortingBetween: ["17__After_Like", "17__Beautiful_Liar"],
+	sortingBetween: ["17__After_Like", "17__Whisper"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -132,7 +207,7 @@ var readableTracklist = {
 {
 	title: "MURDOCH", artist: "WONDERTRAVELER Project", channel: ORIGINAL, bpm: "179",
 	//sortingID: "",  // between  () and  ()
-	sortingBetween: ["17__Etude_Op_10_4", "17__Lohxia"],
+	sortingBetween: ["17__Lacrimosa", "17__Lohxia"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -162,7 +237,7 @@ var readableTracklist = {
 {
 	title: "Chaos Again", artist: "NAOKI underground -Ω-", channel: ORIGINAL, bpm: "150~260",
 	//sortingID: "",
-	sortingBetween: ["17__Lohxia", "17__Goodtek"],
+	sortingBetween: ["17__Lohxia", "17__Galaxy_Collapse"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -177,7 +252,7 @@ var readableTracklist = {
 {
 	title: "Beautiful Liar", artist: "MONSTA X", channel: KPOP, bpm: "130",
 	//sortingID: "",
-	sortingBetween: ["17__Pirate", "17__Storm"],
+	sortingBetween: ["17__Whisper", "17__Storm"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -403,7 +478,7 @@ var readableTracklist = {
 {
 	title: "Euphorianic", artist: "SHK", channel: ORIGINAL, bpm: "140",
 	//sortingID: "",
-	sortingBetween: ["17__Booom", "17__Jupin"],
+	sortingBetween: ["17__Booom", "17__Halloween_Party_Multiverse"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -418,7 +493,7 @@ var readableTracklist = {
 {
 	title: "Jupin", artist: "Sobrem", channel: ORIGINAL, bpm: "173",
 	//sortingID: "",
-	sortingBetween: ["17__Euphorianic", "17__Ghroth"],
+	sortingBetween: ["17__Halloween_Party_Multiverse", "17__Ghroth"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -433,7 +508,7 @@ var readableTracklist = {
 {
 	title: "Etude Op 10-4", artist: "MAX", channel: ORIGINAL, bpm: "176",
 	//sortingID: "",
-	sortingBetween: ["17__Kugutsu", "17__Murdoch"],
+	sortingBetween: ["17__Kugutsu", "17__Lacrimosa"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -448,7 +523,7 @@ var readableTracklist = {
 {
 	title: "GOODTEK", artist: "EBIMAYO", channel: WORLD, bpm: "190",
 	//sortingID: "",
-	sortingBetween: ["17__Chaos_Again", "17__Co5m1c_R4ilr0ad"],
+	sortingBetween: ["17__Galaxy_Collapse", "17__Co5m1c_R4ilr0ad"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -2125,6 +2200,7 @@ var readableTracklist = {
 	title: "Paradoxx  [SHORT]", artist: "SLAM & NATO", channel: ORIGINAL, bpm: "220",
 	arcadeID: "16B6",
 	pumpoutID: 899,
+	sortingBetween: ["17__Euphorianic__SHORT", ""],
 	arcadeName: "Paradoxx - SHORT CUT -",
 
 	charts: {
