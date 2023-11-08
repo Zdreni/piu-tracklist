@@ -19,7 +19,7 @@ include("src/check.js")
 #include("src/check_Exceed2_Zero.js")
 #include("src/check_NX.js")
 #include("src/check_NX2_NXA.js")
-#include("src/check_XX.js")
+include("src/check_XX.js")
 include("src/check_Phoenix.js")
 
 include("src/tracklist_bpms.js")
