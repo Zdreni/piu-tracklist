@@ -1,0 +1,87 @@
+﻿https://piugame.com/bbs/board.php?bo_table=phoenix_notice&wr_id=232
+https://www.facebook.com/piugame/posts/732752992225115
+
+
+Hello everyone. 
+
+We would like to notice official update of PIU PHOENIX v1.03.0 version.
+
+If the machine is connected with internet, update file will be downloaded automatically and the update will be processed when the machine is rebooted. 
+  - Download times may vary depending on the store’s network speed.
+  - If connected to a LAN cable dedicated to Japanese rhythm games (KONAMI/BEMANI, etc.), automatic updates will not occur.
+
+     If it does not update automatically, please ensure it is connected via a regular LAN cable.
+
+
+※ Update v1.03.0 is possible after update v1.02.1.
+
+
+
+1. New Songs
+
+1) Title : WHISPER
+   Artist : THE BOYZ
+   BPM : 96
+   Category : K-POP
+   Step charts : S2, S6, S9, S13, S16, S19, D14, D18, D21
+
+2) Title : Halloween Party ~Multiverse~
+   Artist : SHK
+   BPM : 160
+   Category : ORIGINAL
+   Step charts : S8, S12, S16, S18, S20, D13, D17, D21, CO-OP(2)
+
+3) Title : Lacrimosa
+   Artist : Fiverwater
+   BPM : 210
+   Category : ORIGINAL
+   Step charts : S3, S6, S10, S13, S15, S17, S20, D9, D15, D18, D22
+
+4) Title : Galaxy Collapse
+   Artist : Kurokotei
+   BPM : 150~320
+   Category : WORLD MUSIC
+   Step charts : S4, S7, S11, S15, S18, S22, D13, D16, D20, D24
+
+5) Title : Euphorianic - SHORT CUT -
+   Artist : SHK
+   BPM : 140
+   Category : ORIGINAL
+   Step charts : S4, S7, S10, S17, D12, D19
+
+
+
+2. More Updates
+
+1) The "Leaderboard" is activated on the homepage. The leaderboard contains the following items
+  -  Top Songs : Sorts monthly top songs by rank.
+  -  Top Steps : Sort monthly popular steps by rank.
+  -  Rating Ranking : Sort game IDs in order of RATING POINT earned in the game.
+  -  Over Lv.20 Ranking : You can check the TOP 100 list for each STEP of difficulty level LV.20 or higher. (Only cleared records are displayed)
+
+2) New command PASS G is added (Premium mode only)
+  - Descriptions: Pass to the next stage when the life gauge reaches 0.
+
+3) The PASS command image changes.
+  - Existing: PASS
+  - After change: PASS M
+
+4) A scene dedicated to the PASS command is added.
+
+5) Two new titles are added. This title is awarded only under special circumstances.
+  - PIU GUARDIAN
+  - PIU SUPPORTER
+
+6) The BPM notation of the title images for “Naissance,” “Close Your Eye,” “She Likes Pizza,” and “Tepris” has been corrected.
+
+7) “With My Lover” audio has been fixed.
+
+8) Added "Game Info - PIU History" tab to the homepage.
+
+9) The detailed record UI displayed when clicking on the plate on the homepage "Play Data - MY RATING" has been changed.
+
+10) 4 new songs will be added to the UCS homepage. Please check the UCS page for details.
+
+
+
+Thank you.
