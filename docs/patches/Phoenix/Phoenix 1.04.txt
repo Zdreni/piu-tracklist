@@ -1,0 +1,59 @@
+﻿https://piugame.com/bbs/board.php?bo_table=phoenix_notice&wr_id=236
+https://www.facebook.com/piugame/posts/744138211086593
+
+
+Hello everyone.
+
+We would like to notice the 4th official contents update of PIU PHOENIX v1.04.0 version.
+
+If the machine is connected with internet, update file will be downloaded automatically and the update will be processed when the machine is rebooted.
+(Downloading depends on Internet speed)
+
+
+※ Update v1.04.0 is possible after update v1.03.0.
+
+
+
+1. New Songs
+
+1) Title : ELEVEN
+   Artist : IVE
+   BPM : 120
+   Category : K-POP
+   Step charts : S2, S4, S6, S12, S15, S17, D5, D13, D16, D18, CO-OP(2)
+
+2) Title : Neo Catharsis (Exclusive song for premium mode)
+   Artist : TAG underground overlay
+   BPM : 120~300
+   Category : Original
+   Step charts : S13, S17, S20, S22, S25, D21, D24, D27
+
+3) Title : Barber's Madness
+   Artist : Klass E
+   BPM : 195
+   Category : Original
+   Step charts : S11, S16, S18, S22, D16, D19, D23, CO-OP(2)
+
+4) Title : Aragami
+   Artist : xi
+   BPM : 48~196
+   Category : World music
+   Step charts : S15, S17, S19, S22, S24, D17, D21, D24, D26
+
+5) Title : Viyella's Nightmare
+   Artist : Laur
+   BPM : 220
+   Category : World music
+   Step charts : S11, S16, S19, S23, D14, D21, D25
+
+
+
+2. More updates
+
+1) "Dement ~After Legend~" S15, S18 The accelerator gimmick is modified.
+
+2) "Halloween Party ~Multiverse~" Co-op skin changes.
+
+
+
+Thank you.

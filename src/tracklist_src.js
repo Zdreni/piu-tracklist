@@ -58,7 +58,7 @@ var readableTracklist = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@1.03  ",
+		Phoenix: "@1.04  ",
 	},
 },
 */
@@ -66,6 +66,81 @@ var readableTracklist = {
 
 
 // \17 - Phoenix
+
+
+"17__Eleven":
+{
+	title: "ELEVEN", artist: "IVE", channel: KPOP, bpm: "120",
+	// sortingID: "",
+	sortingBetween: ["17__After_Like", "17__Pirate"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.04  S2 S4 S6 S12 S15 S17 D5 D13 D16 D18 CoOp(x2)",
+	},
+},
+
+
+"17__Neo_Catharsis":
+{
+	title: "Neo Catharsis", artist: "TAG underground overlay", channel: ORIGINAL, bpm: "120~300",
+	// sortingID: "",
+	sortingBetween: ["17__Lohxia", "17__Chaos_Again"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.04  S13 S17 S20 S22 S25 D21 D24 D27",
+	},
+},
+
+
+"17__Barbers_Madness":
+{
+	title: "Barber's Madness", artist: "Klass E", channel: ORIGINAL, bpm: "195",
+	// sortingID: "",
+	sortingBetween: ["17__Murdoch", "17__Lohxia"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.04  S11 S16 S18 S22 D16 D19 D23 CoOp(x2)",
+	},
+},
+
+
+"17__Aragami":
+{
+	title: "Aragami", artist: "xi", channel: WORLD, bpm: "48~196",
+	// sortingID: "",
+	sortingBetween: ["17__R_I_P", "17__Halcyon"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.04  S15 S17 S19 S22 S24 D17 D21 D24 D26",
+	},
+},
+
+
+"17__Viyellas_Nightmare":
+{
+	title: "Viyella's Nightmare", artist: "Laur", channel: WORLD, bpm: "220",
+	// sortingID: "",
+	sortingBetween: ["17__Halcyon", "17__Battle_No_1"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.04  S11 S16 S19 S23 D14 D21 D25",
+	},
+},
 
 
 "17__Whisper":
@@ -147,7 +222,7 @@ var readableTracklist = {
 {
 	title: "Pirate", artist: "EVERGLOW", channel: KPOP, bpm: "130",
 	//sortingID: "",
-	sortingBetween: ["17__After_Like", "17__Whisper"],
+	sortingBetween: ["17__Eleven", "17__Whisper"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -162,7 +237,7 @@ var readableTracklist = {
 {
 	title: "R.I.P.", artist: "eicateve", channel: WORLD, bpm: "192",
 	//sortingID: "",
-	sortingBetween: ["17__Goodbounce", "17__Halcyon"],
+	sortingBetween: ["17__Goodbounce", "17__Aragami"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -177,7 +252,7 @@ var readableTracklist = {
 {
 	title: "BATTLE NO.1", artist: "TANO*C Sound Team", channel: WORLD, bpm: "200",
 	//sortingID: "",
-	sortingBetween: ["17__Halcyon", ""],
+	sortingBetween: ["17__Viyellas_Nightmare", ""],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -207,7 +282,7 @@ var readableTracklist = {
 {
 	title: "MURDOCH", artist: "WONDERTRAVELER Project", channel: ORIGINAL, bpm: "179",
 	//sortingID: "",  // between  () and  ()
-	sortingBetween: ["17__Lacrimosa", "17__Lohxia"],
+	sortingBetween: ["17__Lacrimosa", "17__Barbers_Madness"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -222,7 +297,7 @@ var readableTracklist = {
 {
 	title: "Lohxia", artist: "The Musical Ghost", channel: ORIGINAL, bpm: "155",
 	//sortingID: "",
-	sortingBetween: ["17__Murdoch", "17__Chaos_Again"],
+	sortingBetween: ["17__Barbers_Madness", "17__Neo_Catharsis"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -237,7 +312,7 @@ var readableTracklist = {
 {
 	title: "Chaos Again", artist: "NAOKI underground -Ω-", channel: ORIGINAL, bpm: "150~260",
 	//sortingID: "",
-	sortingBetween: ["17__Lohxia", "17__Galaxy_Collapse"],
+	sortingBetween: ["17__Neo_Catharsis", "17__Galaxy_Collapse"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -418,7 +493,7 @@ var readableTracklist = {
 {
 	title: "After LIKE", artist: "IVE", channel: KPOP, bpm: "125",
 	//sortingID: "",  // between  (17__Amor_Fati) and  (17__Pirate)
-	sortingBetween: ["17__Amor_Fati", "17__Pirate"],
+	sortingBetween: ["17__Amor_Fati", "17__Eleven"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -630,7 +705,7 @@ var readableTracklist = {
 {
 	title: "Halcyon", artist: "xi", channel: WORLD, bpm: "40-191",
 	//sortingID: "",
-	sortingBetween: ["17__R_I_P", "17__Battle_No_1"],
+	sortingBetween: ["17__Aragami", "17__Viyellas_Nightmare"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
