@@ -58,12 +58,84 @@ var readableTracklist = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@1.04  ",
+		Phoenix: "@1.05 ",
 	},
 },
 */
 
 
+"17__Spray":
+{
+	title: "Spray", artist: "WEi", channel: KPOP, bpm: "92",
+	// sortingID: "",
+	sortingBetween: ["17__Whisper", "17__Beautiful_Liar"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.05 S2 S4 S6 S12 S15 S17 D8 D14 D17 D19",
+	},
+},
+
+"17__Yo_Say_Fairy":
+{
+	title: "Yo! Say!! Fairy!!!", artist: "MYUKKE", channel: ORIGINAL, bpm: "150",
+	// sortingID: "",
+	sortingBetween: ["17__Barbers_Madness", "17__Lohxia"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.05 S3 S6 S11 S16 S20 D12 D18 D22 CoOp(x3)",
+	},
+},
+
+
+"17__Curiosity_Overdrive":
+{
+	title: "Curiosity Overdrive", artist: "t+pazolite", channel: ORIGINAL, bpm: "192",
+	// sortingID: "",
+	sortingBetween: ["17__Neo_Catharsis", "17__Chaos_Again"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.05 S10 S15 S18 S20 S22 D16 D22 D24",
+	},
+},
+
+
+"17__Irellia":
+{
+	title: "iRELLiA", artist: "HyuN", channel: WORLD, bpm: "204",
+	// sortingID: "",
+	sortingBetween: ["17__Altale", "17__Goodbounce"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.05 S8 S13 S18 S22 S24 D16 D19 D24 D26",
+	},
+},
+
+
+"17__Pupa":
+{
+	title: "PUPA", artist: "Morimori Atsushi", channel: WORLD, bpm: "202",
+	// sortingID: "",
+	sortingBetween: ["17__R_I_P", "17__Aragami"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.05 S7 S11 S14 S17 S19 S21 S23 D16 D21 D23 D25",
+	},
+},
 
 // \17 - Phoenix
 
@@ -78,7 +150,7 @@ var readableTracklist = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@1.04  S2 S4 S6 S12 S15 S17 D5 D13 D16 D18 CoOp(x2)",
+		Phoenix: "@1.04 S2 S4 S6 S12 S15 S17 D5 D13 D16 D18 CoOp(x2)",
 	},
 },
 
@@ -87,13 +159,13 @@ var readableTracklist = {
 {
 	title: "Neo Catharsis", artist: "TAG underground overlay", channel: ORIGINAL, bpm: "120~300",
 	// sortingID: "",
-	sortingBetween: ["17__Lohxia", "17__Chaos_Again"],
+	sortingBetween: ["17__Lohxia", "17__Curiosity_Overdrive"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@1.04  S13 S17 S20 S22 S25 D21 D24 D27",
+		Phoenix: "@1.04 S13 S17 S20 S22 S25 D21 D24 D27",
 	},
 },
 
@@ -102,13 +174,13 @@ var readableTracklist = {
 {
 	title: "Barber's Madness", artist: "Klass E", channel: ORIGINAL, bpm: "195",
 	// sortingID: "",
-	sortingBetween: ["17__Murdoch", "17__Lohxia"],
+	sortingBetween: ["17__Murdoch", "17__Yo_Say_Fairy"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@1.04  S11 S16 S18 S22 D16 D19 D23 CoOp(x2)",
+		Phoenix: "@1.04 S11 S16 S18 S22 D16 D19 D23 CoOp(x2)",
 	},
 },
 
@@ -117,13 +189,13 @@ var readableTracklist = {
 {
 	title: "Aragami", artist: "xi", channel: WORLD, bpm: "48~196",
 	// sortingID: "",
-	sortingBetween: ["17__R_I_P", "17__Halcyon"],
+	sortingBetween: ["17__Pupa", "17__Halcyon"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@1.04  S15 S17 S19 S22 S24 D17 D21 D24 D26",
+		Phoenix: "@1.04 S15 S17 S19 S22 S24 D17 D21 D24 D26",
 	},
 },
 
@@ -138,7 +210,7 @@ var readableTracklist = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@1.04  S11 S16 S19 S23 D14 D21 D25",
+		Phoenix: "@1.04 S11 S16 S19 S23 D14 D21 D25",
 	},
 },
 
@@ -147,7 +219,7 @@ var readableTracklist = {
 {
 	title: "WHISPER", artist: "THE BOYZ", channel: KPOP, bpm: "96",
 	// sortingID: "",
-	sortingBetween: ["17__Pirate", "17__Beautiful_Liar"],
+	sortingBetween: ["17__Pirate", "17__Spray"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -228,7 +300,7 @@ var readableTracklist = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@1.02  S2 S4 S6 S9 S13 S17 D8 D15 D18",
+		Phoenix: "@1.02 S2 S4 S6 S9 S13 S17 D8 D15 D18",
 	}
 },
 
@@ -237,13 +309,13 @@ var readableTracklist = {
 {
 	title: "R.I.P.", artist: "eicateve", channel: WORLD, bpm: "192",
 	//sortingID: "",
-	sortingBetween: ["17__Goodbounce", "17__Aragami"],
+	sortingBetween: ["17__Goodbounce", "17__Pupa"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@1.02  S12 S16 S19 S22 D16 D21 D24",
+		Phoenix: "@1.02 S12 S16 S19 S22 D16 D21 D24",
 	},
 },
 
@@ -258,7 +330,7 @@ var readableTracklist = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@1.02  S9 S14 S17 S20 S22 D16 D22 D24",
+		Phoenix: "@1.02 S9 S14 S17 S20 S22 D16 D22 D24",
 	},
 },
 
@@ -273,7 +345,7 @@ var readableTracklist = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@1.02  S13 S16 S19 S21 S23 D17 D20 D23 D25",
+		Phoenix: "@1.02 S13 S16 S19 S21 S23 D17 D20 D23 D25",
 	},
 },
 
@@ -288,7 +360,7 @@ var readableTracklist = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@1.02  S11 S18 S20 S22 D14 D20 D22 D24",
+		Phoenix: "@1.02 S11 S18 S20 S22 D14 D20 D22 D24",
 	},
 },
 
@@ -297,13 +369,13 @@ var readableTracklist = {
 {
 	title: "Lohxia", artist: "The Musical Ghost", channel: ORIGINAL, bpm: "155",
 	//sortingID: "",
-	sortingBetween: ["17__Barbers_Madness", "17__Neo_Catharsis"],
+	sortingBetween: ["17__Yo_Say_Fairy", "17__Neo_Catharsis"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@1.02  S7 S12 S16 S21 D14 D19 D22",
+		Phoenix: "@1.02 S7 S12 S16 S21 D14 D19 D22",
 	},
 },
 
@@ -312,13 +384,13 @@ var readableTracklist = {
 {
 	title: "Chaos Again", artist: "NAOKI underground -Ω-", channel: ORIGINAL, bpm: "150~260",
 	//sortingID: "",
-	sortingBetween: ["17__Neo_Catharsis", "17__Galaxy_Collapse"],
+	sortingBetween: ["17__Curiosity_Overdrive", "17__Galaxy_Collapse"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@1.02  S15 S18 S20 S22 S24 D17 D22 D24 D26",
+		Phoenix: "@1.02 S15 S18 S20 S22 S24 D17 D22 D24 D26",
 	},
 },
 
@@ -327,7 +399,7 @@ var readableTracklist = {
 {
 	title: "Beautiful Liar", artist: "MONSTA X", channel: KPOP, bpm: "130",
 	//sortingID: "",
-	sortingBetween: ["17__Whisper", "17__Storm"],
+	sortingBetween: ["17__Spray", "17__Storm"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -373,7 +445,7 @@ var readableTracklist = {
 {
 	title: "GOODBOUNCE", artist: "EBIMAYO", channel: WORLD, bpm: "180",
 	//sortingID: "",
-	sortingBetween: ["17__Altale", "17__R_I_P"],
+	sortingBetween: ["17__Irellia", "17__R_I_P"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -690,7 +762,7 @@ var readableTracklist = {
 {
 	title: "Altale", artist: "sakuzyo", channel: WORLD, bpm: "90",
 	//sortingID: "",
-	sortingBetween: ["17__Pneumonoultramicroscopicsilicovolcanoconiosis", "17__Goodbounce"],
+	sortingBetween: ["17__Pneumonoultramicroscopicsilicovolcanoconiosis", "17__Irellia"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",

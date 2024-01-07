@@ -1,0 +1,82 @@
+﻿https://piugame.com/phoenix_notice?wr_id=242
+https://www.facebook.com/piugame/posts/761509336016147
+
+
+Hello everyone. 
+
+We would like to notice official update of PIU PHOENIX v1.05.0 version.
+
+If the machine is connected with internet, update file will be downloaded automatically and the update will be processed when the machine is rebooted. 
+(Downloading depends on Internet speed) 
+
+※ Update v1.05.0 is possible after update v1.04.0.
+
+
+
+1. New Songs
+
+1) Title : Spray
+   Artist : WEi
+   BPM : 92
+   Category : K-POP
+   Step charts : S2, S4, S6, S12, S15, S17, D8, D14, D17, D19
+
+2) Title : Yo! Say!! Fairy!!!
+   Artist : MYUKKE.
+   BPM : 150
+   Category : Original
+   Step charts : S3, S6, S11, S16, S20, D12, D18, D22, CO-OP(x3)
+
+3) Title : Curiosity Overdrive
+   Artist : t+pazolite
+   BPM : 192
+   Category : Original
+   Step charts : S10, S15, S18, S20, S22, D16, D22, D24
+
+4) Title : iRELLiA
+   Artist : HyuN
+   BPM : 204
+   Category : World music
+   Step charts : S8, S13, S18, S22, S24, D16, D19, D24, D26
+
+5) Title : PUPA (Exclusive song for premium mode)
+   Artist : Morimori Atsushi
+   BPM : 202
+   Category : World music
+   Step charts : S7, S11, S14, S17, S19, S21, S23, D16, D21, D23, D25
+
+
+
+2. More updates
+
+1) Online matching is added. (The PASS command is not applied to online matching.)
+
+2) BGA is partially modified.
+ - Barber's Madness
+ - Halloween Party ~Multiverse~
+
+3) BGA for world music will be added. (If there is no BGA, it will be applied as a dedicated BGA.)
+ - BATTLE NO.1
+ - Galaxy Collapse
+
+4) The phenomenon that some titles of J Music songs do not appear normally will be corrected.
+
+5) [MOVE THAT BODY! - FULL SONG - D19] The part where the gimmick falls out of the step and causes the problem is corrected.
+
+6) [MARIA S18] Corrects where the step maker of the step is incorrectly entered.
+
+7) Some title colors change.
+ - PIU GUARDIAN
+ - PIU SUPPORTER
+
+8) Two new titles are added. This title is awarded only under special circumstances.
+ - PIU ARTIST
+ - PIU STEPMAKER
+ - PIU STAFF
+
+9) Fixes the phenomenon where TOP100 does not output normally from OVER LV.20 RANKING.
+
+※ In addition, there will be a modification of PUPAS23, D25 steps in the upcoming 1.06.0 update.
+(Note is not changed, but some BPM changes will be corrected.)
+
+Thank you.
