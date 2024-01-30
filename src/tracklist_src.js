@@ -58,10 +58,85 @@ var readableTracklist = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@1.05 ",
+		Phoenix: "@1.06 ",
 	},
 },
 */
+
+
+"17__Tomboy":
+{
+	title: "TOMBOY", artist: "(G)I-DLE", channel: KPOP, bpm: "124",
+	// sortingID: "",
+	sortingBetween: ["17__Pirate", "17__Whisper"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.06 S3 S5 S8 S17 S19 D12 D18 D20 D22",
+	},
+},
+
+
+"17__Pandora":
+{
+	title: "PANDORA", artist: "MAVE", channel: KPOP, bpm: "75",
+	// sortingID: "",
+	sortingBetween: ["17__Beautiful_Liar", "17__Storm"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.06 S2 S4 S7 S11 S17 D6 D13 D18",
+	},
+},
+
+
+"17__Bluish_Rose":
+{
+	title: "Bluish Rose", artist: "WyvernP", channel: ORIGINAL, bpm: "130",
+	// sortingID: "",
+	sortingBetween: ["17__Yo_Say_Fairy", "17__Lohxia"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.06 S3 S5 S8 S12 S16 S20 D6 D14 D18 D21",
+	},
+},
+
+
+"17__Flavor_Step":
+{
+	title: "Flavor Step!", artist: "EmoCosine", channel: ORIGINAL, bpm: "150",
+	// sortingID: "",
+	sortingBetween: ["17__Kugutsu", "17__Etude_Op_10_4"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.06 S11 S14 S18 S21 D15 D19 D22",
+	},
+},
+
+
+"17__Trickl4sh_220":
+{
+	title: "TRICKL4SH 220", artist: "Lite Show Magic", channel: WORLD, bpm: "220",
+	// sortingID: "",
+	sortingBetween: ["17__Viyellas_Nightmare", "17__Battle_No_1"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.06 S15 S18 S21 S23 D16 D20 D23 D25",
+	},
+},
 
 
 "17__Spray":
@@ -78,11 +153,12 @@ var readableTracklist = {
 	},
 },
 
+
 "17__Yo_Say_Fairy":
 {
 	title: "Yo! Say!! Fairy!!!", artist: "MYUKKE", channel: ORIGINAL, bpm: "150",
 	// sortingID: "",
-	sortingBetween: ["17__Barbers_Madness", "17__Lohxia"],
+	sortingBetween: ["17__Barbers_Madness", "17__Bluish_Rose"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -125,7 +201,7 @@ var readableTracklist = {
 
 "17__Pupa":
 {
-	title: "PUPA", artist: "Morimori Atsushi", channel: WORLD, bpm: "202",
+	title: "PUPA", artist: "Morimori Atsushi", channel: WORLD, bpm: "50~202",
 	// sortingID: "",
 	sortingBetween: ["17__R_I_P", "17__Aragami"],
 	// arcadeID: "",
@@ -204,7 +280,7 @@ var readableTracklist = {
 {
 	title: "Viyella's Nightmare", artist: "Laur", channel: WORLD, bpm: "220",
 	// sortingID: "",
-	sortingBetween: ["17__Halcyon", "17__Battle_No_1"],
+	sortingBetween: ["17__Halcyon", "17__Trickl4sh_220"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -219,7 +295,7 @@ var readableTracklist = {
 {
 	title: "WHISPER", artist: "THE BOYZ", channel: KPOP, bpm: "96",
 	// sortingID: "",
-	sortingBetween: ["17__Pirate", "17__Spray"],
+	sortingBetween: ["17__Tomboy", "17__Spray"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -294,7 +370,7 @@ var readableTracklist = {
 {
 	title: "Pirate", artist: "EVERGLOW", channel: KPOP, bpm: "130",
 	//sortingID: "",
-	sortingBetween: ["17__Eleven", "17__Whisper"],
+	sortingBetween: ["17__Eleven", "17__Tomboy"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -324,7 +400,7 @@ var readableTracklist = {
 {
 	title: "BATTLE NO.1", artist: "TANO*C Sound Team", channel: WORLD, bpm: "200",
 	//sortingID: "",
-	sortingBetween: ["17__Viyellas_Nightmare", ""],
+	sortingBetween: ["17__Trickl4sh_220", ""],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -369,7 +445,7 @@ var readableTracklist = {
 {
 	title: "Lohxia", artist: "The Musical Ghost", channel: ORIGINAL, bpm: "155",
 	//sortingID: "",
-	sortingBetween: ["17__Yo_Say_Fairy", "17__Neo_Catharsis"],
+	sortingBetween: ["17__Bluish_Rose", "17__Neo_Catharsis"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -399,7 +475,7 @@ var readableTracklist = {
 {
 	title: "Beautiful Liar", artist: "MONSTA X", channel: KPOP, bpm: "130",
 	//sortingID: "",
-	sortingBetween: ["17__Spray", "17__Storm"],
+	sortingBetween: ["17__Spray", "17__Pandora"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -414,7 +490,7 @@ var readableTracklist = {
 {
 	title: "STORM", artist: "KOYOTE", channel: KPOP, bpm: "139",
 	//sortingID: "",
-	sortingBetween: ["17__Beautiful_Liar", "17__Airplane"],
+	sortingBetween: ["17__Pandora", "17__Airplane"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -475,7 +551,7 @@ var readableTracklist = {
 {
 	title: "KUGUTSU", artist: "onoken", channel: ORIGINAL, bpm: "220",
 	//sortingID: "",
-	sortingBetween: ["17__Ghroth", "17__Etude_Op_10_4"],
+	sortingBetween: ["17__Ghroth", "17__Flavor_Step"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -655,7 +731,7 @@ var readableTracklist = {
 {
 	title: "Etude Op 10-4", artist: "MAX", channel: ORIGINAL, bpm: "176",
 	//sortingID: "",
-	sortingBetween: ["17__Kugutsu", "17__Lacrimosa"],
+	sortingBetween: ["17__Flavor_Step", "17__Lacrimosa"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
