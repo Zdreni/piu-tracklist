@@ -1,0 +1,55 @@
+﻿https://piugame.com/bbs/board.php?bo_table=phoenix_notice&wr_id=253
+https://www.facebook.com/piugame/posts/809370191230061
+
+
+Hello everyone.
+
+We would like to notice official update of PIU PHOENIX v1.07.0 version.
+
+If the machine is connected with internet, update file will be downloaded automatically and the update will be processed when the machine is rebooted.
+  - Download times may vary depending on the store’s network speed.
+  - If connected to a LAN cable dedicated to Japanese rhythm games (KONAMI/BEMANI, etc.), automatic updates will not occur. If it does not update automatically, please ensure it is connected via a regular LAN cable.
+
+※ Update v1.07.0 is possible after update v1.06.0
+
+
+
+1. New Songs
+
+1) Title : See
+   Artist : Doin
+   BPM : 293
+   Category : Original
+   Step charts : S11, S16, S19, S22, D13, D18, D20, D23
+
+2) Title : Sudden Appearance Image
+   Artist : Blacklolita
+   BPM : 170
+   Category : Original
+   Step charts : S8, S13, S15, S17, S19, S21, D17, D21, D23
+
+3) Title : Little Munchkin
+   Artist : Castellia
+   BPM : 180
+   Category : Original
+   Step charts : S8, S13, S16, S19, S21, D11, D15, D17, D20, D23, CO-OP(x2)
+
+4) Title : Simon Says, EURODANCE!! (feat. Sara☆M)
+   Artist : Jehezukiel☆KAZEMURA☆Hideky
+   BPM : 157
+   Category : Original
+   Step charts : S4, S7, S11, S16, S18, S20, D13, D19, D22
+
+5) Title : STAGER
+   Artist : Ras
+   BPM : 146
+   Category : World music
+   Step charts : S8, S11, S15, S17, S19, D12, D16, D18, D20, CO-OP(x2)"
+
+
+
+2. More Updates
+
+1) Fixed a bug with JR mode.
+
+2) The beat of specific parts for 'Flavor Step!'(S11, S14, S18, S21, D15, D19, D22) will be changed.

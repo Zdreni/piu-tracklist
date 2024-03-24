@@ -58,10 +58,85 @@ var readableTracklist = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@1.06 ",
+		Phoenix: "@1.07 ",
 	},
 },
 */
+
+
+"17__See":
+{
+	title: "See", artist: "Doin", channel: ORIGINAL, bpm: "293",
+	// sortingID: "",
+	sortingBetween: ["17__Flavor_Step", "17__Etude_Op_10_4"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.07 S11 S16 S19 S22 D13 D18 D20 D23",
+	},
+},
+
+
+"17__Sudden_Appearance_Image":
+{
+	title: "Sudden Appearance Image", artist: "Blacklolita", channel: ORIGINAL, bpm: "170",
+	// sortingID: "",
+	sortingBetween: ["17__Chaos_Again", "17__Galaxy_Collapse"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.07 S8 S13 S15 S17 S19 S21 D17 D21 D23",
+	},
+},
+
+
+"17__Little_Munchkin":
+{
+	title: "Little Munchkin", artist: "Castellia", channel: ORIGINAL, bpm: "180",
+	// sortingID: "",
+	sortingBetween: ["17__Murdoch", "17__Simon_Says_Eurodance"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.07 S8 S13 S16 S19 S21 D11 D15 D17 D20 D23 CoOp(x2)",
+	},
+},
+
+
+"17__Simon_Says_Eurodance":
+{
+	title: "Simon Says, Eurodance!! (feat. Sara*M)", artist: "Jehezukiel * KAZEMURA * Hideky", channel: ORIGINAL, bpm: "157",
+	// sortingID: "",
+	sortingBetween: ["17__Little_Munchkin", "17__Barbers_Madness"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.07 S4 S7 S11 S16 S18 S20 D13 D19 D22",
+	},
+},
+
+
+"17__Stager":
+{
+	title: "Stager", artist: "Ras", channel: WORLD, bpm: "146",
+	// sortingID: "",
+	sortingBetween: ["17__Pupa", "17__Aragami"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.07 S8 S11 S15 S17 S19 D12 D16 D18 D20 CoOp(x2)",
+	},
+},
 
 
 "17__Tomboy":
@@ -113,7 +188,7 @@ var readableTracklist = {
 {
 	title: "Flavor Step!", artist: "EmoCosine", channel: ORIGINAL, bpm: "150",
 	// sortingID: "",
-	sortingBetween: ["17__Kugutsu", "17__Etude_Op_10_4"],
+	sortingBetween: ["17__Kugutsu", "17__See"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -203,7 +278,7 @@ var readableTracklist = {
 {
 	title: "PUPA", artist: "Morimori Atsushi", channel: WORLD, bpm: "50~202",
 	// sortingID: "",
-	sortingBetween: ["17__R_I_P", "17__Aragami"],
+	sortingBetween: ["17__R_I_P", "17__Stager"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -250,7 +325,7 @@ var readableTracklist = {
 {
 	title: "Barber's Madness", artist: "Klass E", channel: ORIGINAL, bpm: "195",
 	// sortingID: "",
-	sortingBetween: ["17__Murdoch", "17__Yo_Say_Fairy"],
+	sortingBetween: ["17__Simon_Says_Eurodance", "17__Yo_Say_Fairy"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -265,7 +340,7 @@ var readableTracklist = {
 {
 	title: "Aragami", artist: "xi", channel: WORLD, bpm: "48~196",
 	// sortingID: "",
-	sortingBetween: ["17__Pupa", "17__Halcyon"],
+	sortingBetween: ["17__Stager", "17__Halcyon"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -340,7 +415,7 @@ var readableTracklist = {
 {
 	title: "Galaxy Collapse", artist: "Kurokotei", channel: WORLD, bpm: "150~320",
 	// sortingID: "",
-	sortingBetween: ["17__Chaos_Again", "17__Goodtek"],
+	sortingBetween: ["17__Sudden_Appearance_Image", "17__Goodtek"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -430,7 +505,7 @@ var readableTracklist = {
 {
 	title: "MURDOCH", artist: "WONDERTRAVELER Project", channel: ORIGINAL, bpm: "179",
 	//sortingID: "",  // between  () and  ()
-	sortingBetween: ["17__Lacrimosa", "17__Barbers_Madness"],
+	sortingBetween: ["17__Lacrimosa", "17__Little_Munchkin"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -460,7 +535,7 @@ var readableTracklist = {
 {
 	title: "Chaos Again", artist: "NAOKI underground -Ω-", channel: ORIGINAL, bpm: "150~260",
 	//sortingID: "",
-	sortingBetween: ["17__Curiosity_Overdrive", "17__Galaxy_Collapse"],
+	sortingBetween: ["17__Curiosity_Overdrive", "17__Sudden_Appearance_Image"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -731,7 +806,7 @@ var readableTracklist = {
 {
 	title: "Etude Op 10-4", artist: "MAX", channel: ORIGINAL, bpm: "176",
 	//sortingID: "",
-	sortingBetween: ["17__Flavor_Step", "17__Lacrimosa"],
+	sortingBetween: ["17__See", "17__Lacrimosa"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
