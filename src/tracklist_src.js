@@ -58,17 +58,92 @@ var readableTracklist = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@1.07 ",
+		Phoenix: "@1.08 ",
 	},
 },
 */
+
+
+"17__Lucid_Dream":
+{
+	title: "Lucid Dream", artist: "Cosmograph", channel: ORIGINAL, bpm: "173",
+	// sortingID: "",
+	sortingBetween: ["17__Flavor_Step", "17__See"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.08 S8 S13 S19 S21 D14 D20 D22",
+	},
+},
+
+
+"17__Solfeggietto":
+{
+	title: "Solfeggietto", artist: "Fiverwater", channel: ORIGINAL, bpm: "157",
+	// sortingID: "",
+	sortingBetween: ["17__Lacrimosa", "17__Murdoch"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.08 S9 S15 S19 S21 S22 D11 D16 D20 D23 D25",
+	},
+},
+
+
+"17__Le_Nozze_di_Figaro_Celebrazione_Remix":
+{
+	title: "Le Nozze di Figaro ~Celebrazione Remix~", artist: "Sr. Lan Belmont", channel: ORIGINAL, bpm: "172",
+	// sortingID: "",
+	sortingBetween: ["17__Yo_Say_Fairy", "17__Bluish_Rose"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.08 S9 S13 S17 S20 D14 D18 D21",
+	},
+},
+
+
+"17__PRiMA_MATERiA":
+{
+	title: "PRiMA MATERiA", artist: "xi", channel: ORIGINAL, bpm: "187",
+	// sortingID: "",
+	sortingBetween: ["17__Lohxia", "17__Neo_Catharsis"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.08 S14 S18 S21 S24 D17 D24 D26",
+	},
+},
+
+
+"17__Destr0yer":
+{
+	title: "Destr0yer", artist: "sakuzyo", channel: WORLD, bpm: "90",
+	// sortingID: "",
+	sortingBetween: ["17__Halcyon", "17__Viyellas_Nightmare"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@1.08 S7 S13 S18 S22 D15 D20 D24",
+	},
+},
 
 
 "17__See":
 {
 	title: "See", artist: "Doin", channel: ORIGINAL, bpm: "293",
 	// sortingID: "",
-	sortingBetween: ["17__Flavor_Step", "17__Etude_Op_10_4"],
+	sortingBetween: ["17__Lucid_Dream", "17__Etude_Op_10_4"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -173,7 +248,7 @@ var readableTracklist = {
 {
 	title: "Bluish Rose", artist: "WyvernP", channel: ORIGINAL, bpm: "130",
 	// sortingID: "",
-	sortingBetween: ["17__Yo_Say_Fairy", "17__Lohxia"],
+	sortingBetween: ["17__Le_Nozze_di_Figaro_Celebrazione_Remix", "17__Lohxia"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -188,7 +263,7 @@ var readableTracklist = {
 {
 	title: "Flavor Step!", artist: "EmoCosine", channel: ORIGINAL, bpm: "150",
 	// sortingID: "",
-	sortingBetween: ["17__Kugutsu", "17__See"],
+	sortingBetween: ["17__Kugutsu", "17__Lucid_Dream"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -233,7 +308,7 @@ var readableTracklist = {
 {
 	title: "Yo! Say!! Fairy!!!", artist: "MYUKKE", channel: ORIGINAL, bpm: "150",
 	// sortingID: "",
-	sortingBetween: ["17__Barbers_Madness", "17__Bluish_Rose"],
+	sortingBetween: ["17__Barbers_Madness", "17__Le_Nozze_di_Figaro_Celebrazione_Remix"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -310,7 +385,7 @@ var readableTracklist = {
 {
 	title: "Neo Catharsis", artist: "TAG underground overlay", channel: ORIGINAL, bpm: "120~300",
 	// sortingID: "",
-	sortingBetween: ["17__Lohxia", "17__Curiosity_Overdrive"],
+	sortingBetween: ["17__PRiMA_MATERiA", "17__Curiosity_Overdrive"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -355,7 +430,7 @@ var readableTracklist = {
 {
 	title: "Viyella's Nightmare", artist: "Laur", channel: WORLD, bpm: "220",
 	// sortingID: "",
-	sortingBetween: ["17__Halcyon", "17__Trickl4sh_220"],
+	sortingBetween: ["17__Destr0yer", "17__Trickl4sh_220"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -400,7 +475,7 @@ var readableTracklist = {
 {
 	title: "Lacrimosa", artist: "Fiverwater", channel: ORIGINAL, bpm: "210",
 	// sortingID: "",
-	sortingBetween: ["17__Etude_Op_10_4", "17__Murdoch"],
+	sortingBetween: ["17__Etude_Op_10_4", "17__Solfeggietto"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -505,7 +580,7 @@ var readableTracklist = {
 {
 	title: "MURDOCH", artist: "WONDERTRAVELER Project", channel: ORIGINAL, bpm: "179",
 	//sortingID: "",  // between  () and  ()
-	sortingBetween: ["17__Lacrimosa", "17__Little_Munchkin"],
+	sortingBetween: ["17__Solfeggietto", "17__Little_Munchkin"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -520,7 +595,7 @@ var readableTracklist = {
 {
 	title: "Lohxia", artist: "The Musical Ghost", channel: ORIGINAL, bpm: "155",
 	//sortingID: "",
-	sortingBetween: ["17__Bluish_Rose", "17__Neo_Catharsis"],
+	sortingBetween: ["17__Bluish_Rose", "17__PRiMA_MATERiA"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -928,7 +1003,7 @@ var readableTracklist = {
 {
 	title: "Halcyon", artist: "xi", channel: WORLD, bpm: "40-191",
 	//sortingID: "",
-	sortingBetween: ["17__Aragami", "17__Viyellas_Nightmare"],
+	sortingBetween: ["17__Aragami", "17__Destr0yer"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
