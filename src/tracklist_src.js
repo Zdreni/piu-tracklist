@@ -64,11 +64,146 @@ var readableTracklist = {
 */
 
 
+"17__Uh_Heung":
+{
+	title: "Uh-Heung", artist: "DKZ", channel: KPOP, bpm: "128",
+	sortingID: "17_",
+	sortingBetween: ["", "17__Crush"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.01 S2 S4 S7 S9 S14 S17 S20 S22 D11 D16 D18 D21 D24",
+	},
+},
+
+
+"17__Discord":
+{
+	title: "Discord", artist: "QWER", channel: KPOP, bpm: "132",
+	// sortingID: "",
+	sortingBetween: ["17__Crush", "17__Bubble"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.01 S3 S6 S9 S11 S13 S16 S19 D8 D14 D17 D20",
+	},
+},
+
+
+"17__Highway_Chaser":
+{
+	title: "Highway Chaser", artist: "Cosmograph", channel: ORIGINAL, bpm: "155",
+	// sortingID: "",
+	sortingBetween: ["17__Airplane", "17__Vector"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.01 S4 S7 S11 S16 S21 D13 D18 D22",
+	},
+},
+
+
+"17__Megaheartz":
+{
+	title: "MEGAHEARTZ", artist: "DJ Noriken", channel: ORIGINAL, bpm: "200",
+	// sortingID: "",
+	sortingBetween: ["17__Curiosity_Overdrive", "17__Chaos_Again"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.01 S12 S17 S21 S23 D14 D18 D23 D25",
+	},
+},
+
+
+"17__Earendel":
+{
+	title: "Earendel", artist: "Palami feat.neur6sia", channel: ORIGINAL, bpm: "180",
+	// sortingID: "",
+	sortingBetween: ["17__Hercules", "17__Athenas_Shield"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.01 S4 S7 S12 S17 S20 S22 D15 D21 D24",
+	},
+},
+
+
+"17__Athenas_Shield":
+{
+	title: "Athena's Shield", artist: "Jehezukiel", channel: ORIGINAL, bpm: "176",
+	// sortingID: "",
+	sortingBetween: ["17__Earendel", "17__Wither_Garden"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.01 S4 S7 S11 S16 S20 S22 D14 D20 D23",
+	},
+},
+
+
+"17__Fracture_Temporelle":
+{
+	title: "Fracture Temporelle", artist: "Kurokotei", channel: WORLD, bpm: "232",
+	// sortingID: "",
+	sortingBetween: ["17__Galaxy_Collapse", "17__Goodtek"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.01 S9 S12 S15 S18 S21 S24 D18 D23 D26",
+	},
+},
+
+
+"17__Rush_More":
+{
+	title: "Rush-More", artist: "litmus*", channel: WORLD, bpm: "160",
+	// sortingID: "",
+	sortingBetween: ["17__Stager", "17__Giselle"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.01 S13 S16 S18 S22 D14 D17 D19 D23",
+	},
+},
+
+
+"17__Chobit_Flavor":
+{
+	title: "Chobit Flavor", artist: "aran & t+pazolite", channel: WORLD, bpm: "180",
+	// sortingID: "",
+	sortingBetween: ["17__Viyellas_Nightmare", "17__Trickl4sh_220"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.01 S12 S16 S19 S22 D17 D21 D24",
+	},
+},
+
+
 "17__Crush":
 {
 	title: "CRUSH", artist: "ZEROBASEONE", channel: KPOP, bpm: "154",
-	sortingID: "17_",
-	sortingBetween: ["", "17__Bubble"],
+	//sortingID: "",
+	sortingBetween: ["17__Uh_Heung", "17__Discord"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -83,7 +218,7 @@ var readableTracklist = {
 {
 	title: "Bubble", artist: "STAYC", channel: KPOP, bpm: "132",
 	// sortingID: "",
-	sortingBetween: ["17__Crush", "17__Queencard"],
+	sortingBetween: ["17__Discord", "17__Queencard"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -128,7 +263,7 @@ var readableTracklist = {
 {
 	title: "hercules", artist: "Abel", channel: ORIGINAL, bpm: "195",
 	// sortingID: "",
-	sortingBetween: ["17__Sudden_Appearance_Image", "17__Wither_Garden"],
+	sortingBetween: ["17__Sudden_Appearance_Image", "17__Earendel"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -143,7 +278,7 @@ var readableTracklist = {
 {
 	title: "wither garden", artist: "uma feat. Kanon Tachibana", channel: ORIGINAL, bpm: "168",
 	// sortingID: "",
-	sortingBetween: ["17__Hercules", "17__Galaxy_Collapse"],
+	sortingBetween: ["17__Athenas_Shield", "17__Galaxy_Collapse"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -158,7 +293,7 @@ var readableTracklist = {
 {
 	title: "Giselle", artist: "Sobrem a.k.a. Widowmaker", channel: WORLD, bpm: "128~152",
 	// sortingID: "",
-	sortingBetween: ["17__Stager", "17__Aragami"],
+	sortingBetween: ["17__Rush_More", "17__Aragami"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -353,7 +488,7 @@ var readableTracklist = {
 {
 	title: "Stager", artist: "Ras", channel: WORLD, bpm: "146",
 	// sortingID: "",
-	sortingBetween: ["17__Pupa", "17__Giselle"],
+	sortingBetween: ["17__Pupa", "17__Rush_More"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -389,7 +524,7 @@ var readableTracklist = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@1.06 S2 S4 S7 S11 S17 D6 D13 D18",
+		Phoenix: "@1.06 S2 S4 S7 S11 S17 D6 D13 D18  @2.01 D20",
 	},
 },
 
@@ -428,7 +563,7 @@ var readableTracklist = {
 {
 	title: "TRICKL4SH 220", artist: "Lite Show Magic", channel: WORLD, bpm: "220",
 	// sortingID: "",
-	sortingBetween: ["17__Viyellas_Nightmare", "17__Battle_No_1"],
+	sortingBetween: ["17__Chobit_Flavor", "17__Battle_No_1"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -473,7 +608,7 @@ var readableTracklist = {
 {
 	title: "Curiosity Overdrive", artist: "t+pazolite", channel: ORIGINAL, bpm: "192",
 	// sortingID: "",
-	sortingBetween: ["17__Neo_Catharsis", "17__Chaos_Again"],
+	sortingBetween: ["17__Neo_Catharsis", "17__Megaheartz"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -580,7 +715,7 @@ var readableTracklist = {
 {
 	title: "Viyella's Nightmare", artist: "Laur", channel: WORLD, bpm: "220",
 	// sortingID: "",
-	sortingBetween: ["17__Poppin_Shower", "17__Trickl4sh_220"],
+	sortingBetween: ["17__Poppin_Shower", "17__Chobit_Flavor"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -640,7 +775,7 @@ var readableTracklist = {
 {
 	title: "Galaxy Collapse", artist: "Kurokotei", channel: WORLD, bpm: "150~320",
 	// sortingID: "",
-	sortingBetween: ["17__Wither_Garden", "17__Goodtek"],
+	sortingBetween: ["17__Wither_Garden", "17__Fracture_Temporelle"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -760,7 +895,7 @@ var readableTracklist = {
 {
 	title: "Chaos Again", artist: "NAOKI underground -Ω-", channel: ORIGINAL, bpm: "150~260",
 	//sortingID: "",
-	sortingBetween: ["17__Curiosity_Overdrive", "17__Sudden_Appearance_Image"],
+	sortingBetween: ["17__Megaheartz", "17__Sudden_Appearance_Image"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -796,7 +931,7 @@ var readableTracklist = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@1.01 S2 S4 S6 S9 S14 S17 D8 D16 D19",
+		Phoenix: "@1.01 S2 S4 S6 S9 S14 S17 D8 D16 D19  @2.01 CoOp(x3)",
 	},
 },
 
@@ -806,13 +941,13 @@ var readableTracklist = {
 {
 	title: "Airplane", artist: "TYPHOON", channel: KPOP, bpm: "120",
 	//sortingID: "",
-	sortingBetween: ["17__Storm", "17__Vector"],
+	sortingBetween: ["17__Storm", "17__Highway_Chaser"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@1.01 S1 S3 S5 S13 S15 S17 D8 D16 D18",
+		Phoenix: "@1.01 S1 S3 S5 S13 S15 S17 D8 D16 D18  @2.01 CoOp(x3)",
 	},
 },
 
@@ -955,7 +1090,7 @@ var readableTracklist = {
 {
 	title: "VECTOR", artist: "Zekk", channel: ORIGINAL, bpm: "178",
 	//sortingID: "",
-	sortingBetween: ["17__Airplane", "17__Versailles"],
+	sortingBetween: ["17__Highway_Chaser", "17__Versailles"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1045,7 +1180,7 @@ var readableTracklist = {
 {
 	title: "GOODTEK", artist: "EBIMAYO", channel: WORLD, bpm: "190",
 	//sortingID: "",
-	sortingBetween: ["17__Galaxy_Collapse", "17__Co5m1c_R4ilr0ad"],
+	sortingBetween: ["17__Fracture_Temporelle", "17__Co5m1c_R4ilr0ad"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1418,7 +1553,7 @@ var readableTracklist = {
 	pumpoutID: 837,
 
 	charts: {
-		Phoenix: "= D18`17 -Dp3",
+		Phoenix: "= D18`17 -Dp3  @2.01 D20",
 		XX: "@2.03 S7 S10 S16 D11 D17 S20.lock S22.lock D24.lock  @2.04 Dp3  @2.05 D21",
 	},
 },
@@ -3539,7 +3674,7 @@ var readableTracklist = {
 	pumpoutID: 678,
 
 	charts: {
-		Phoenix: "= -Dp2",
+		Phoenix: "= -Dp2  @2.01 S22 D24",
 		XX: "=  @1.04 Dp2  @2.01 CoOp(x2)",
 		Prime2: "@2.03 S7 S10 S14 S16 D9 D13 D17 S19 D20",
 	},
@@ -5335,7 +5470,7 @@ var readableTracklist = {
 	pumpoutID: 306,
 
 	charts: {
-		Phoenix: "= S4`3 D11`10 D19`18 -Dp2",
+		Phoenix: "= S4`3 D11`10 D19`18 -Dp2  @2.01 S17",
 		XX: "= S14`15 D15`16",
 		Prime2: "= -S16",
 		Prime: "S3 S6 S8 S15 D10 D16  @1.12 S16.ucs D18.ucs  @1.15 Dp2",
@@ -13333,7 +13468,7 @@ var readableTracklist = {
 	pumpoutID: 67,
 
 	charts: {
-		Phoenix: "= S13`11 D15`12 D24`23",
+		Phoenix: "= S13`11 D15`12 D24`23  @2.01 S16",
 			// TODO.Phoenix: D15`12
 		XX: "= S6`5 S11`9 S18`17 D12`10 D19`18 D21`19  @2.08 D23",
 		Prime2: "=",
