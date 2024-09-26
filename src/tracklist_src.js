@@ -58,17 +58,92 @@ var readableTracklist = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@2.00 ",
+		Phoenix: "@2.02 ",
 	},
 },
 */
+
+
+"17__Do_or_Die":
+{
+	title: "DO or DIE", artist: "xikers", channel: KPOP, bpm: "170",
+	// sortingID: "",
+	sortingBetween: ["17__Uh_Heung", "17__Crush"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.02 S2 S5 S8 S12 S17 S20 D14 D19 D22",
+	},
+},
+
+
+"17__Appassionata":
+{
+	title: "Appassionata", artist: "Cashew x D_AAN x Jehezukiel", channel: ORIGINAL, bpm: "160~210",
+	// sortingID: "",
+	sortingBetween: ["17__Neo_Catharsis", "17__Curiosity_Overdrive"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.02 S13 S16 S19 S22 S25 D21 D25 D27 CoOp(x4)",
+	},
+},
+
+
+"17__Murdoch_vs_Otada":
+{
+	title: "Murdoch vs Otada", artist: "ESPITZ vs WONDERTRAVELER Project", channel: ORIGINAL, bpm: "180",
+	// sortingID: "",
+	sortingBetween: ["17__Athenas_Shield", "17__Wither_Garden"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.02 S9 S13 S16 S19 S22 D17 D21 D24 D25",
+	},
+},
+
+
+"17__Dancing":
+{
+	title: "Dancing", artist: "Said", channel: WORLD, bpm: "151",
+	// sortingID: "",
+	sortingBetween: ["17__Wither_Garden", "17__Galaxy_Collapse"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.02 S7 S13 S16 S20 D13 D17 D21 D24",
+	},
+},
+
+
+"17__Mahika":
+{
+	title: "Mahika", artist: "The Musical Ghost", channel: WORLD, bpm: "188",
+	// sortingID: "",
+	sortingBetween: ["17__Rush_More", "17__Giselle"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.02 S13 S16 S19 S22 D15 D18 D22 D24",
+	},
+},
 
 
 "17__Uh_Heung":
 {
 	title: "Uh-Heung", artist: "DKZ", channel: KPOP, bpm: "128",
 	sortingID: "17_",
-	sortingBetween: ["", "17__Crush"],
+	sortingBetween: ["", "17__Do_or_Die"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -143,7 +218,7 @@ var readableTracklist = {
 {
 	title: "Athena's Shield", artist: "Jehezukiel", channel: ORIGINAL, bpm: "176",
 	// sortingID: "",
-	sortingBetween: ["17__Earendel", "17__Wither_Garden"],
+	sortingBetween: ["17__Earendel", "17__Murdoch_vs_Otada"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -173,7 +248,7 @@ var readableTracklist = {
 {
 	title: "Rush-More", artist: "litmus*", channel: WORLD, bpm: "160",
 	// sortingID: "",
-	sortingBetween: ["17__Stager", "17__Giselle"],
+	sortingBetween: ["17__Stager", "17__Mahika"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -203,7 +278,7 @@ var readableTracklist = {
 {
 	title: "CRUSH", artist: "ZEROBASEONE", channel: KPOP, bpm: "154",
 	//sortingID: "",
-	sortingBetween: ["17__Uh_Heung", "17__Discord"],
+	sortingBetween: ["17__Do_or_Die", "17__Discord"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -278,7 +353,7 @@ var readableTracklist = {
 {
 	title: "wither garden", artist: "uma feat. Kanon Tachibana", channel: ORIGINAL, bpm: "168",
 	// sortingID: "",
-	sortingBetween: ["17__Athenas_Shield", "17__Galaxy_Collapse"],
+	sortingBetween: ["17__Murdoch_vs_Otada", "17__Dancing"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -293,7 +368,7 @@ var readableTracklist = {
 {
 	title: "Giselle", artist: "Sobrem a.k.a. Widowmaker", channel: WORLD, bpm: "128~152",
 	// sortingID: "",
-	sortingBetween: ["17__Rush_More", "17__Aragami"],
+	sortingBetween: ["17__Mahika", "17__Aragami"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -608,7 +683,7 @@ var readableTracklist = {
 {
 	title: "Curiosity Overdrive", artist: "t+pazolite", channel: ORIGINAL, bpm: "192",
 	// sortingID: "",
-	sortingBetween: ["17__Neo_Catharsis", "17__Megaheartz"],
+	sortingBetween: ["17__Appassionata", "17__Megaheartz"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -670,7 +745,7 @@ var readableTracklist = {
 {
 	title: "Neo Catharsis", artist: "TAG underground overlay", channel: ORIGINAL, bpm: "120~300",
 	// sortingID: "",
-	sortingBetween: ["17__Imperium", "17__Curiosity_Overdrive"],
+	sortingBetween: ["17__Imperium", "17__Appassionata"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -775,7 +850,7 @@ var readableTracklist = {
 {
 	title: "Galaxy Collapse", artist: "Kurokotei", channel: WORLD, bpm: "150~320",
 	// sortingID: "",
-	sortingBetween: ["17__Wither_Garden", "17__Fracture_Temporelle"],
+	sortingBetween: ["17__Dancing", "17__Fracture_Temporelle"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",

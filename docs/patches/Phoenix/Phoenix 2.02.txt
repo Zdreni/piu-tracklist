@@ -1,0 +1,83 @@
+﻿https://piugame.com/bbs/board.php?bo_table=phoenix_notice&wr_id=269
+https://www.facebook.com/piugame/posts/916382947195451
+
+
+Hello everyone. 
+
+
+
+We would like to notice official update of PIU PHOENIX v2.02.0 version.
+
+If the machine is connected with internet, update file will be downloaded automatically and the update will be processed when the machine is rebooted.
+  - Download times may vary depending on the store’s network speed.
+  - If connected to a LAN cable dedicated to Japanese rhythm games (KONAMI/BEMANI, etc.), automatic updates will not occur. If it does not update automatically, please ensure it is connected via a regular LAN cable.
+※ Update v2.02.0 is possible after update v2.01.0
+
+
+
+
+
+1. New Songs (5 songs)
+
+1) Title : DO or DIE
+    Artist : xikers
+    BPM : 170
+    Category : K-POP
+    Step charts : S2, S5, S8, S12, S17, S20, D14, D19, D22
+
+2) Title : Appassionata (Exclusive song for premium mode)
+    Artist : Cashew x D_AAN x Jehezukiel
+    BPM : 160~210
+    Category : Original
+    Step charts : S13, S16, S19, S22, S25, D21, D25, D27, CO-OP(X4)
+
+3) Title : Murdoch vs Otada
+    Artist : ESPITZ vs WONDERTRAVELER Project
+    BPM : 180
+    Category : Original
+    Step charts : S9, S13, S16, S19, S22, D17, D21, D24, D25
+
+4) Title : Dancing
+    Artist : Said
+    BPM : 151
+    Category : World Music
+    Step charts : S7, S13, S16, S20, D13, D17, D21, D24
+
+5) Title : Mahika
+    Artist : The Musical Ghost
+    BPM : 188
+    Category : World Music
+    Step charts : S13, S16, S19, S22, D15, D18, D22, D24
+
+
+
+
+
+2. More Updates
+
+
+1) Added 4 skins that won the '4th Contents Creation Contest'. (https://piugame.com/bbs/board.php?bo_table=phoenix_notice&wr_id=205)
+    - Chiduck Note Skin
+    - Toy Note Skin
+    - Nekoneko Note Skin
+    - Canon D Girl Note Skin
+
+2) Fixed the 'Athena's Shield' BGA sync is adjusted.
+
+3) The steps in the 'Rolling Christmas D22' have been modified.
+
+4) Fixed the command info field, if multiple commands were printed in duplicate locations, they would not be displayed alternately.
+
+
+
+
+※ On October 11, 2024, the B1G ONE Pump It Up Festival will take place in Santiago, Chile.
+
+We've added a promotional video from B1G ONE to the game update to wish the event, which will be open to players from around the world and will feature Speed, Freestyle, and other competition categories, the best of luck.
+We hope that everyone who participates in the B1G ONE Pump It Up Festival will enjoy another round of Pump It Up fun.
+
+* 'B1G ONE Pump It Up Festival' is the largest unofficial competition after WPF, and Andamiro is sponsoring it.
+
+
+
+Thank you.
