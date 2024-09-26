@@ -1,0 +1,66 @@
+﻿https://piugame.com/bbs/board.php?bo_table=phoenix_notice&wr_id=273
+https://www.facebook.com/piugame/posts/
+
+
+Hello everyone. 
+
+We would like to notice official update of PIU PHOENIX v2.03.0 version.
+
+ 
+
+If the machine is connected with internet, update file will be downloaded automatically and the update will be processed when the machine is rebooted.
+  - Download times may vary depending on the store’s network speed.
+  - If connected to a LAN cable dedicated to Japanese rhythm games (KONAMI/BEMANI, etc.), automatic updates will not occur. If it does not update automatically, please ensure it is connected via a regular LAN cable.
+※ Update v2.03.0 is possible after update v2.02.0
+
+ 
+
+ 
+
+1. New Songs (5 songs)
+
+1) Title : Nostalgia
+  Artist : Woody
+  BPM : 100
+  Category : K-POP 
+  Step charts :  S3, S5, S8, S14, S17, S20, D10, D15, D18, D21
+
+2) Title : Stardream -Eurobeat Remix-
+  Artist : MAX x Cashew x Dave Rodgers
+  BPM : 160
+  Category : Original
+  Step charts : S7, S12, S17, S19, S21, D13, D18, D20, D23
+
+3) Title : Hymn of Golden Glory (Exclusive song for premium mode)
+  Artist : Essbee
+  BPM : 244
+  Category : Original
+  Step charts : S15, S19, S22, S25, D21, D23, D25
+
+4) Title : Perpetual
+  Artist : Qu-ail
+  BPM : 180
+  Category : World Music
+  Step charts : S4, S7, S12, S16, S19, S21, D14, D18, D21, D24
+
+5) Title : * this game does not exist *
+  Artist : litmus* x Ester
+  BPM : 40~240
+  Category : World Music
+  Step charts : S13, S16, S20, S22, S24, D18, D22, D24, D26
+
+ 
+
+ 2. 'B1G ONE Pump It Up Festival' Event information
+
+On October 11, 2024, the B1G ONE Pump It Up Festival will take place in Santiago, Chile.
+To wish the event, which is open to users from all over the world and supports Speed, Freestyle, and other competition categories, a promotional video from B1G ONE will be displayed in-game.
+We hope that everyone who participates in the B1G ONE Pump It Up Festival will experience the fun of Pump It Up.
+
+*'B1G ONE Pump It Up Festival' is the largest unofficial competition for countries around the world after WPF, and ANDAMIRO is sponsoring this event.
+
+ 
+
+ 
+
+Thank you.

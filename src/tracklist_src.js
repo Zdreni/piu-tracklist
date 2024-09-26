@@ -58,10 +58,85 @@ var readableTracklist = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@2.02 ",
+		Phoenix: "@2.03 ",
 	},
 },
 */
+
+
+"17__Nostalgia":
+{
+	title: "Nostalgia", artist: "Woody", channel: KPOP, bpm: "100",
+	// sortingID: "",
+	sortingBetween: ["17__Airplane", "17__Highway_Chaser"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.03 S3 S5 S8 S14 S17 S20 D10 D15 D18 D21",
+	},
+},
+
+
+"17__Stardream_Eurobeat_Remix":
+{
+	title: "Stardream -Eurobeat Remix-", artist: "MAX x Cashew x Dave Rodgers", channel: ORIGINAL, bpm: "160",
+	// sortingID: "",
+	sortingBetween: ["17__Etude_Op_10_4", "17__Lacrimosa"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.03 S7 S12 S17 S19 S21 D13 D18 D20 D23",
+	},
+},
+
+
+"17__Hymn_of_Golden_Glory":
+{
+	title: "Hymn of Golden Glory", artist: "Essbee", channel: ORIGINAL, bpm: "244",
+	// sortingID: "",
+	sortingBetween: ["17__Earendel", "17__Athenas_Shield"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.03 S15 S19 S22 S25 D21 D23 D25",
+	},
+},
+
+
+"17__Perpetual":
+{
+	title: "Perpetual", artist: "Qu-ail", channel: WORLD, bpm: "180",
+	// sortingID: "",
+	sortingBetween: ["17__Wither_Garden", "17__Dancing"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.03 S4 S7 S12 S16 S19 S21 D14 D18 D21 D24",
+	},
+},
+
+
+"17__This_game_does_not_exist":
+{
+	title: "* this game does not exist *", artist: "litmus* x Ester", channel: WORLD, bpm: "40~240",
+	// sortingID: "",
+	sortingBetween: ["17__Rush_More", "17__Mahika"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.03 S13 S16 S20 S22 S24 D18 D22 D24 D26",
+	},
+},
 
 
 "17__Do_or_Die":
@@ -113,7 +188,7 @@ var readableTracklist = {
 {
 	title: "Dancing", artist: "Said", channel: WORLD, bpm: "151",
 	// sortingID: "",
-	sortingBetween: ["17__Wither_Garden", "17__Galaxy_Collapse"],
+	sortingBetween: ["17__Perpetual", "17__Galaxy_Collapse"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -128,7 +203,7 @@ var readableTracklist = {
 {
 	title: "Mahika", artist: "The Musical Ghost", channel: WORLD, bpm: "188",
 	// sortingID: "",
-	sortingBetween: ["17__Rush_More", "17__Giselle"],
+	sortingBetween: ["17__This_game_does_not_exist", "17__Giselle"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -173,7 +248,7 @@ var readableTracklist = {
 {
 	title: "Highway Chaser", artist: "Cosmograph", channel: ORIGINAL, bpm: "155",
 	// sortingID: "",
-	sortingBetween: ["17__Airplane", "17__Vector"],
+	sortingBetween: ["17__Nostalgia", "17__Vector"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -203,7 +278,7 @@ var readableTracklist = {
 {
 	title: "Earendel", artist: "Palami feat.neur6sia", channel: ORIGINAL, bpm: "180",
 	// sortingID: "",
-	sortingBetween: ["17__Hercules", "17__Athenas_Shield"],
+	sortingBetween: ["17__Hercules", "17__Hymn_of_Golden_Glory"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -218,7 +293,7 @@ var readableTracklist = {
 {
 	title: "Athena's Shield", artist: "Jehezukiel", channel: ORIGINAL, bpm: "176",
 	// sortingID: "",
-	sortingBetween: ["17__Earendel", "17__Murdoch_vs_Otada"],
+	sortingBetween: ["17__Hymn_of_Golden_Glory", "17__Murdoch_vs_Otada"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -248,7 +323,7 @@ var readableTracklist = {
 {
 	title: "Rush-More", artist: "litmus*", channel: WORLD, bpm: "160",
 	// sortingID: "",
-	sortingBetween: ["17__Stager", "17__Mahika"],
+	sortingBetween: ["17__Stager", "17__This_game_does_not_exist"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -353,7 +428,7 @@ var readableTracklist = {
 {
 	title: "wither garden", artist: "uma feat. Kanon Tachibana", channel: ORIGINAL, bpm: "168",
 	// sortingID: "",
-	sortingBetween: ["17__Murdoch_vs_Otada", "17__Dancing"],
+	sortingBetween: ["17__Murdoch_vs_Otada", "17__Perpetual"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -835,7 +910,7 @@ var readableTracklist = {
 {
 	title: "Lacrimosa", artist: "Fiverwater", channel: ORIGINAL, bpm: "210",
 	// sortingID: "",
-	sortingBetween: ["17__Etude_Op_10_4", "17__Solfeggietto"],
+	sortingBetween: ["17__Stardream_Eurobeat_Remix", "17__Solfeggietto"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1016,7 +1091,7 @@ var readableTracklist = {
 {
 	title: "Airplane", artist: "TYPHOON", channel: KPOP, bpm: "120",
 	//sortingID: "",
-	sortingBetween: ["17__Storm", "17__Highway_Chaser"],
+	sortingBetween: ["17__Storm", "17__Nostalgia"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1240,7 +1315,7 @@ var readableTracklist = {
 {
 	title: "Etude Op 10-4", artist: "MAX", channel: ORIGINAL, bpm: "176",
 	//sortingID: "",
-	sortingBetween: ["17__See", "17__Lacrimosa"],
+	sortingBetween: ["17__See", "17__Stardream_Eurobeat_Remix"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
