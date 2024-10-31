@@ -58,10 +58,85 @@ var readableTracklist = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@2.03 ",
+		Phoenix: "@2.04 ",
 	},
 },
 */
+
+
+"17__Duel":
+{
+	title: "DUEL", artist: "Cashew & D_AAN", channel: ORIGINAL, bpm: "155",
+	// sortingID: "",
+	//sortingBetween: ["", ""],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.04 S10 S13 S16 S18 S21 S22 D14 D18 D21 D24",
+	},
+},
+
+
+"17__Invasion":
+{
+	title: "INVASION", artist: "D_AAN", channel: ORIGINAL, bpm: "220",
+	// sortingID: "",
+	//sortingBetween: ["", ""],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.04 S13 S17 S21 S23 D15 D18 D23 D25",
+	},
+},
+
+
+"17__Underworld":
+{
+	title: "Underworld ft. Skizzo (PIU Edit.)", artist: "MonstDeath vs Neutral Moon", channel: WORLD, bpm: "190",
+	// sortingID: "",
+	//sortingBetween: ["", ""],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.04 S8 S11 S16 S19 S22 S23 D18 D23 D25",
+	},
+},
+
+
+"17__Odin":
+{
+	title: "Odin", artist: "Gram", channel: WORLD, bpm: "200",
+	// sortingID: "",
+	//sortingBetween: ["", ""],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.04 S8 S12 S17 S21 S23 D14 D18 D23 D25",
+	},
+},
+
+
+"17__Soldiers":
+{
+	title: "Soldiers (TANO*C W TEAM RED ANTHEM)", artist: "DJ Noriken", channel: WORLD, bpm: "170",
+	// sortingID: "",
+	//sortingBetween: ["", ""],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.04 S4 S6 S11 S15 S18 S20 D13 D19 D22",
+	},
+},
 
 
 "17__Nostalgia":

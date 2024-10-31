@@ -1,0 +1,67 @@
+﻿https://piugame.com/bbs/board.php?bo_table=phoenix_notice&wr_id=274
+https://www.facebook.com/piugame/posts/967721988728213
+
+
+Hello everyone. 
+
+We would like to notice official update of PIU PHOENIX v2.04.0 version.
+
+
+If the machine is connected with internet, update file will be downloaded automatically and the update will be processed when the machine is rebooted.
+  - Download times may vary depending on the store’s network speed.
+  - If connected to a LAN cable dedicated to Japanese rhythm games (KONAMI/BEMANI, etc.), automatic updates will not occur. If it does not update automatically, please ensure it is connected via a regular LAN cable.
+
+※ Update v2.04.0 is possible after update v2.03.0
+
+
+
+1. New Songs (5 songs)
+
+1) Title : DUEL
+  Artist : Cashew & D_AAN
+  BPM : 155
+  Category : Original
+  Step charts : S10, S13, S16, S18, S21, S22, D14, D18, D21, D24
+
+2) Title : INVASION
+  Artist : D_AAN
+  BPM : 220
+  Category : Original
+  Step charts : S13, S17, S21, S23, D15, D18, D23, D25
+
+3) Title : Underworld ft. Skizzo (PIU Edit.)
+  Artist : MonstDeath vs Neutral Moon
+  BPM : 190
+  Category : World Music
+  Step charts : S8, S11, S16, S19, S22, S23, D18, D23, D25
+
+4) Title : Odin
+  Artist : Gram
+  BPM : 200
+  Category : World Music
+  Step charts : S8, S12, S17, S21, S23, D14, D18, D23, D25
+
+5) Title : Soldiers (TANO*C W TEAM RED ANTHEM)
+  Artist : DJ Noriken
+  BPM : 170
+  Category : World Music
+  Step charts : S4, S6, S11, S15, S18, S20, D13, D19, D22
+
+
+2. More Updates
+
+  1) Added 2 titles for the 'B1G ONE Pump It Up Festival' event.
+
+    Announcing the 'B1G ONE Pump It Up Festival' event titles.
+
+    On October 11, 2024, the B1G ONE Pump It Up Festival came to a successful conclusion in Santiago, Chile.
+    The following titles will be awarded to players and supporters who participated in B1G ONE.
+
+      For players - B1G ONE 2024 PLAYER
+      For Supporter - B1G ONE 2024 SUPPORTER
+
+※ The titles will be applied sequentially after the B1G ONE Organizing Committee confirms the number of people eligible for the titles.
+
+
+
+Thank you.
