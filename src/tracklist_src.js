@@ -68,7 +68,7 @@ var readableTracklist = {
 {
 	title: "DUEL", artist: "Cashew & D_AAN", channel: ORIGINAL, bpm: "155",
 	// sortingID: "",
-	//sortingBetween: ["", ""],
+	sortingBetween: ["17__Stardream_Eurobeat_Remix", "17__Lacrimosa"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -83,7 +83,7 @@ var readableTracklist = {
 {
 	title: "INVASION", artist: "D_AAN", channel: ORIGINAL, bpm: "220",
 	// sortingID: "",
-	//sortingBetween: ["", ""],
+	sortingBetween: ["17__Hercules", "17__Earendel"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -98,7 +98,7 @@ var readableTracklist = {
 {
 	title: "Underworld ft. Skizzo (PIU Edit.)", artist: "MonstDeath vs Neutral Moon", channel: WORLD, bpm: "190",
 	// sortingID: "",
-	//sortingBetween: ["", ""],
+	sortingBetween: ["17__Fracture_Temporelle", "17__Goodtek"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -113,7 +113,7 @@ var readableTracklist = {
 {
 	title: "Odin", artist: "Gram", channel: WORLD, bpm: "200",
 	// sortingID: "",
-	//sortingBetween: ["", ""],
+	sortingBetween: ["17__Big_Daddy", "17__Poppin_Shower"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -128,7 +128,7 @@ var readableTracklist = {
 {
 	title: "Soldiers (TANO*C W TEAM RED ANTHEM)", artist: "DJ Noriken", channel: WORLD, bpm: "170",
 	// sortingID: "",
-	//sortingBetween: ["", ""],
+	sortingBetween: ["17__Battle_No_1", "17__Horang_Pungryuga"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -158,7 +158,7 @@ var readableTracklist = {
 {
 	title: "Stardream -Eurobeat Remix-", artist: "MAX x Cashew x Dave Rodgers", channel: ORIGINAL, bpm: "160",
 	// sortingID: "",
-	sortingBetween: ["17__Etude_Op_10_4", "17__Lacrimosa"],
+	sortingBetween: ["17__Etude_Op_10_4", "17__Duel"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -353,7 +353,7 @@ var readableTracklist = {
 {
 	title: "Earendel", artist: "Palami feat.neur6sia", channel: ORIGINAL, bpm: "180",
 	// sortingID: "",
-	sortingBetween: ["17__Hercules", "17__Hymn_of_Golden_Glory"],
+	sortingBetween: ["17__Invasion", "17__Hymn_of_Golden_Glory"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -383,7 +383,7 @@ var readableTracklist = {
 {
 	title: "Fracture Temporelle", artist: "Kurokotei", channel: WORLD, bpm: "232",
 	// sortingID: "",
-	sortingBetween: ["17__Galaxy_Collapse", "17__Goodtek"],
+	sortingBetween: ["17__Galaxy_Collapse", "17__Underworld"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -488,7 +488,7 @@ var readableTracklist = {
 {
 	title: "hercules", artist: "Abel", channel: ORIGINAL, bpm: "195",
 	// sortingID: "",
-	sortingBetween: ["17__Sudden_Appearance_Image", "17__Earendel"],
+	sortingBetween: ["17__Sudden_Appearance_Image", "17__Invasion"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -533,7 +533,7 @@ var readableTracklist = {
 {
 	title: "Big Daddy", artist: "USAO", channel: WORLD, bpm: "190",
 	// sortingID: "",
-	sortingBetween: ["17__Destr0yer", "17__Poppin_Shower"],
+	sortingBetween: ["17__Destr0yer", "17__Odin"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -548,7 +548,7 @@ var readableTracklist = {
 {
 	title: "Poppin' Shower", artist: "P*Light", channel: WORLD, bpm: "175",
 	// sortingID: "",
-	sortingBetween: ["17__Big_Daddy", "17__Viyellas_Nightmare"],
+	sortingBetween: ["17__Odin", "17__Viyellas_Nightmare"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -563,7 +563,7 @@ var readableTracklist = {
 {
 	title: "Horang Pungryuga", artist: "Sangnoksu feat. HANANA", channel: WORLD, bpm: "160",
 	// sortingID: "",
-	sortingBetween: ["17__Battle_No_1", ""],
+	sortingBetween: ["17__Soldiers", ""],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -985,7 +985,7 @@ var readableTracklist = {
 {
 	title: "Lacrimosa", artist: "Fiverwater", channel: ORIGINAL, bpm: "210",
 	// sortingID: "",
-	sortingBetween: ["17__Stardream_Eurobeat_Remix", "17__Solfeggietto"],
+	sortingBetween: ["17__Duel", "17__Solfeggietto"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1060,7 +1060,7 @@ var readableTracklist = {
 {
 	title: "BATTLE NO.1", artist: "TANO*C Sound Team", channel: WORLD, bpm: "200",
 	//sortingID: "",
-	sortingBetween: ["17__Trickl4sh_220", "17__Horang_Pungryuga"],
+	sortingBetween: ["17__Trickl4sh_220", "17__Soldiers"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1405,7 +1405,7 @@ var readableTracklist = {
 {
 	title: "GOODTEK", artist: "EBIMAYO", channel: WORLD, bpm: "190",
 	//sortingID: "",
-	sortingBetween: ["17__Fracture_Temporelle", "17__Co5m1c_R4ilr0ad"],
+	sortingBetween: ["17__Underworld", "17__Co5m1c_R4ilr0ad"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
