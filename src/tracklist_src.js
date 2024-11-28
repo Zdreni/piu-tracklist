@@ -58,10 +58,85 @@ var readableTracklist = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@2.04 ",
+		Phoenix: "@2.05 ",
 	},
 },
 */
+
+
+"17__Nyan_turne":
+{
+	title: "Nyan-turne (feat. KuTiNA)", artist: "Cashew & Castellia", channel: ORIGINAL, bpm: "202.1",
+	// sortingID: "",
+	sortingBetween: ["17__Highway_Chaser", "17__Vector"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.05 S4 S7 S11 S16 S19 D12 D17 D21 CoOp(x2)",
+	},
+},
+
+
+"17__Doppelganger":
+{
+	title: "Doppelganger", artist: "MonstDeath", channel: ORIGINAL, bpm: "210",
+	// sortingID: "",
+	sortingBetween: ["17__Wither_Garden", "17__Perpetual"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.05 S9 S13 S16 S20 S22 S24 D15 D18 D24 D26",
+	},
+},
+
+
+"17__Sonic_Boom":
+{
+	title: "Sonic Boom", artist: "USAO", channel: ORIGINAL, bpm: "205",
+	// sortingID: "",
+	sortingBetween: ["17__Curiosity_Overdrive", "17__Megaheartz"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.05 S4 S7 S10 S16 S19 S21 S23 D14 D18 D23 D25",
+	},
+},
+
+
+"17__Extreme_Music_School_1st_period":
+{
+	title: "Extreme Music School 1st period feat. Nanahira", artist: "Massive New Krew & RoughSketch", channel: WORLD, bpm: "210",
+	// sortingID: "",
+	sortingBetween: ["17__Trickl4sh_220", "17__Extreme_Music_School_2nd_period"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.05 S15 S18 S20 S23 D20 D23 D25",
+	},
+},
+
+
+"17__Extreme_Music_School_2nd_period":
+{
+	title: "Extreme Music School 2nd period feat. Nanahira", artist: "Massive New Krew & RoughSketch", channel: WORLD, bpm: "210",
+	// sortingID: "",
+	sortingBetween: ["17__Extreme_Music_School_1st_period", "17__Battle_No_1"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.05 S16 S18 S22 S24 D19 D24 D26",
+	},
+},
 
 
 "17__Duel":
@@ -188,7 +263,7 @@ var readableTracklist = {
 {
 	title: "Perpetual", artist: "Qu-ail", channel: WORLD, bpm: "180",
 	// sortingID: "",
-	sortingBetween: ["17__Wither_Garden", "17__Dancing"],
+	sortingBetween: ["17__Doppelganger", "17__Dancing"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -323,7 +398,7 @@ var readableTracklist = {
 {
 	title: "Highway Chaser", artist: "Cosmograph", channel: ORIGINAL, bpm: "155",
 	// sortingID: "",
-	sortingBetween: ["17__Nostalgia", "17__Vector"],
+	sortingBetween: ["17__Nostalgia", "17__Nyan_turne"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -338,7 +413,7 @@ var readableTracklist = {
 {
 	title: "MEGAHEARTZ", artist: "DJ Noriken", channel: ORIGINAL, bpm: "200",
 	// sortingID: "",
-	sortingBetween: ["17__Curiosity_Overdrive", "17__Chaos_Again"],
+	sortingBetween: ["17__Sonic_Boom", "17__Chaos_Again"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -503,7 +578,7 @@ var readableTracklist = {
 {
 	title: "wither garden", artist: "uma feat. Kanon Tachibana", channel: ORIGINAL, bpm: "168",
 	// sortingID: "",
-	sortingBetween: ["17__Murdoch_vs_Otada", "17__Perpetual"],
+	sortingBetween: ["17__Murdoch_vs_Otada", "17__Doppelganger"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -788,7 +863,7 @@ var readableTracklist = {
 {
 	title: "TRICKL4SH 220", artist: "Lite Show Magic", channel: WORLD, bpm: "220",
 	// sortingID: "",
-	sortingBetween: ["17__Chobit_Flavor", "17__Battle_No_1"],
+	sortingBetween: ["17__Chobit_Flavor", "17__Extreme_Music_School_1st_period"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -833,7 +908,7 @@ var readableTracklist = {
 {
 	title: "Curiosity Overdrive", artist: "t+pazolite", channel: ORIGINAL, bpm: "192",
 	// sortingID: "",
-	sortingBetween: ["17__Appassionata", "17__Megaheartz"],
+	sortingBetween: ["17__Appassionata", "17__Sonic_Boom"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1060,7 +1135,7 @@ var readableTracklist = {
 {
 	title: "BATTLE NO.1", artist: "TANO*C Sound Team", channel: WORLD, bpm: "200",
 	//sortingID: "",
-	sortingBetween: ["17__Trickl4sh_220", "17__Soldiers"],
+	sortingBetween: ["17__Extreme_Music_School_2nd_period", "17__Soldiers"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1315,7 +1390,7 @@ var readableTracklist = {
 {
 	title: "VECTOR", artist: "Zekk", channel: ORIGINAL, bpm: "178",
 	//sortingID: "",
-	sortingBetween: ["17__Highway_Chaser", "17__Versailles"],
+	sortingBetween: ["17__Nyan_turne", "17__Versailles"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
