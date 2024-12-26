@@ -58,10 +58,130 @@ var readableTracklist = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@2.05 ",
+		Phoenix: "@2.06 ",
 	},
 },
 */
+
+
+"17__E_O_N":
+{
+	title: "E.O.N", artist: "HiTECH NINJA", channel: ORIGINAL, bpm: "165",
+	// sortingID: "",
+	sortingBetween: ["17__Megaheartz", "17__Chaos_Again"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.06 S7 S12 S15 S17 S19 S22 D13 D18 D21 D24",
+	},
+},
+
+
+"17__Festival_of_Death_Moon":
+{
+	title: "Festival of Death Moon", artist: "SHK", channel: ORIGINAL, bpm: "204",
+	// sortingID: "",
+	sortingBetween: ["17__Nostalgia", "17__Highway_Chaser"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.06 S3 S5 S11 S14 S18 S21 D11 D15 D19 D23",
+	},
+},
+
+
+"17__Imaginarized_City":
+{
+	title: "Imaginarized City", artist: "Reku Mochizuki", channel: ORIGINAL, bpm: "156",
+	// sortingID: "",
+	sortingBetween: ["17__Wither_Garden", "17__Doppelganger"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.06 S7 S12 S16 S19 S21 D14 D18 D20 D23",
+	},
+},
+
+
+"17__Break_Through_Myself":
+{
+	title: "Break Through Myself feat. Risa Yuzuki", artist: "DJ Myosuke & Laur", channel: WORLD, bpm: "200",
+	// sortingID: "",
+	sortingBetween: ["17__Poppin_Shower", "17__Viyellas_Nightmare"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.06 S12 S15 S18 S21 S23 D17 D20 D23 D25",
+	},
+},
+
+
+"17__Emomomo":
+{
+	title: "EMOMOMO", artist: "Ras", channel: WORLD, bpm: "145",
+	// sortingID: "",
+	sortingBetween: ["17__R_I_P", "17__Pupa"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.06 S3 S7 S10 S14 S16 S19 D12 D18 D21",
+	},
+},
+
+
+"17__Teddy_Bear__FULL":
+{
+	title: "Teddy Bear - FULL SONG -", artist: "STAYC", channel: KPOP, bpm: "119",
+	sortingID: "17_",
+	sortingBetween: ["", "16__Good_Night__FULL"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.06 S12 S20 D22",
+	},
+},
+
+
+"17__District_V":
+{
+	title: "DISTRICT V", artist: "Zekk vs MAX", channel: ORIGINAL, bpm: "178", duration: REMIX,
+	sortingID: "17_",
+	sortingBetween: ["", "16__Brown_Sky"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.06 S13 S18 S22 D20 D24",
+	},
+},
+
+
+"17__Jupin__SHORT":
+{
+	title: "Jupin - SHORT CUT -", artist: "Sobrem", channel: ORIGINAL, bpm: "173",
+	// sortingID: "",
+	sortingBetween: ["17__Euphorianic__SHORT", "16__Paradoxx__SHORT"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.06 S12 S13 S14 S21 S22 S23 D16 D19 D20 D23 D24",
+	},
+},
 
 
 "17__Nyan_turne":
@@ -83,7 +203,7 @@ var readableTracklist = {
 {
 	title: "Doppelganger", artist: "MonstDeath", channel: ORIGINAL, bpm: "210",
 	// sortingID: "",
-	sortingBetween: ["17__Wither_Garden", "17__Perpetual"],
+	sortingBetween: ["17__Imaginarized_City", "17__Perpetual"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -218,7 +338,7 @@ var readableTracklist = {
 {
 	title: "Nostalgia", artist: "Woody", channel: KPOP, bpm: "100",
 	// sortingID: "",
-	sortingBetween: ["17__Airplane", "17__Highway_Chaser"],
+	sortingBetween: ["17__Airplane", "17__Festival_of_Death_Moon"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -389,7 +509,7 @@ var readableTracklist = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@2.01 S3 S6 S9 S11 S13 S16 S19 D8 D14 D17 D20",
+		Phoenix: "@2.01 S3 S6 S9 S11 S13 S16 S19 D8 D14 D17 D20  @2.06 CoOp(x2)",
 	},
 },
 
@@ -398,7 +518,7 @@ var readableTracklist = {
 {
 	title: "Highway Chaser", artist: "Cosmograph", channel: ORIGINAL, bpm: "155",
 	// sortingID: "",
-	sortingBetween: ["17__Nostalgia", "17__Nyan_turne"],
+	sortingBetween: ["17__Festival_of_Death_Moon", "17__Nyan_turne"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -413,7 +533,7 @@ var readableTracklist = {
 {
 	title: "MEGAHEARTZ", artist: "DJ Noriken", channel: ORIGINAL, bpm: "200",
 	// sortingID: "",
-	sortingBetween: ["17__Sonic_Boom", "17__Chaos_Again"],
+	sortingBetween: ["17__Sonic_Boom", "17__E_O_N"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -578,7 +698,7 @@ var readableTracklist = {
 {
 	title: "wither garden", artist: "uma feat. Kanon Tachibana", channel: ORIGINAL, bpm: "168",
 	// sortingID: "",
-	sortingBetween: ["17__Murdoch_vs_Otada", "17__Doppelganger"],
+	sortingBetween: ["17__Murdoch_vs_Otada", "17__Imaginarized_City"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -623,7 +743,7 @@ var readableTracklist = {
 {
 	title: "Poppin' Shower", artist: "P*Light", channel: WORLD, bpm: "175",
 	// sortingID: "",
-	sortingBetween: ["17__Odin", "17__Viyellas_Nightmare"],
+	sortingBetween: ["17__Odin", "17__Break_Through_Myself"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -644,7 +764,7 @@ var readableTracklist = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@2.00 S4 S7 S12 S16 S19 S21 D12 D16 D21 D24",
+		Phoenix: "@2.00 S4 S7 S12 S16 S19 S21 D12 D16 D21 D24  @2.06 CoOp(x2)",
 	},
 },
 
@@ -938,7 +1058,7 @@ var readableTracklist = {
 {
 	title: "PUPA", artist: "Morimori Atsushi", channel: WORLD, bpm: "50~202",
 	// sortingID: "",
-	sortingBetween: ["17__R_I_P", "17__Stager"],
+	sortingBetween: ["17__Emomomo", "17__Stager"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1015,7 +1135,7 @@ var readableTracklist = {
 {
 	title: "Viyella's Nightmare", artist: "Laur", channel: WORLD, bpm: "220",
 	// sortingID: "",
-	sortingBetween: ["17__Poppin_Shower", "17__Chobit_Flavor"],
+	sortingBetween: ["17__Break_Through_Myself", "17__Chobit_Flavor"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1090,7 +1210,7 @@ var readableTracklist = {
 {
 	title: "Euphorianic  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "140",
 	sortingID: "17_",
-	sortingBetween: ["", "16__Paradoxx__SHORT"],
+	sortingBetween: ["", "17__Jupin__SHORT"],
 	// arcadeID: "",
 	pumpoutID: "",
 	arcadeName: "Euphorianic - SHORT CUT -",
@@ -1120,7 +1240,7 @@ var readableTracklist = {
 {
 	title: "R.I.P.", artist: "eicateve", channel: WORLD, bpm: "192",
 	//sortingID: "",
-	sortingBetween: ["17__Goodbounce", "17__Pupa"],
+	sortingBetween: ["17__Goodbounce", "17__Emomomo"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1195,7 +1315,7 @@ var readableTracklist = {
 {
 	title: "Chaos Again", artist: "NAOKI underground -Ω-", channel: ORIGINAL, bpm: "150~260",
 	//sortingID: "",
-	sortingBetween: ["17__Megaheartz", "17__Sudden_Appearance_Image"],
+	sortingBetween: ["17__E_O_N", "17__Sudden_Appearance_Image"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1516,7 +1636,7 @@ var readableTracklist = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "S7 S11 S16 S18 S20 D13 D19 D22",
+		Phoenix: "S7 S11 S16 S18 S20 D13 D19 D22  @2.06 CoOp(x3)",
 	},
 },
 
@@ -3159,7 +3279,7 @@ var readableTracklist = {
 	title: "Paradoxx  [SHORT]", artist: "SLAM & NATO", channel: ORIGINAL, bpm: "220",
 	arcadeID: "16B6",
 	pumpoutID: 899,
-	sortingBetween: ["17__Euphorianic__SHORT", ""],
+	sortingBetween: ["17__Jupin__SHORT", ""],
 	arcadeName: "Paradoxx - SHORT CUT -",
 
 	charts: {
@@ -3172,6 +3292,7 @@ var readableTracklist = {
 "16__Brown_Sky":
 {
 	title: "Brown Sky", artist: "Doin", channel: ORIGINAL, bpm: "200", duration: REMIX,
+	sortingBetween: ["17__District_V", ""],
 	arcadeID: "16B7",
 	pumpoutID: 900,
 
@@ -3185,6 +3306,7 @@ var readableTracklist = {
 "16__Good_Night__FULL":
 {
 	title: "Good Night  [FULL]", artist: "Dreamcatcher", channel: KPOP, bpm: "196",
+	sortingBetween: ["17__Teddy_Bear__FULL", ""],
 	arcadeName: "GOOD NIGHT - FULL SONG -",
 	arcadeID: "16B8",
 	pumpoutID: 901,
@@ -12618,7 +12740,7 @@ var readableTracklist = {
 	pumpoutID: 48,
 
 	charts: {
-		Phoenix: "= S11`10 D12`11",
+		Phoenix: "= S11`10 D12`11  @2.06 D24",
 		XX: "= S8`7",
 		Prime2: "=",
 		Prime: "=",
