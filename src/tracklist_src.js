@@ -141,12 +141,12 @@ var readableTracklist = {
 
 "17__Teddy_Bear__FULL":
 {
-	title: "Teddy Bear - FULL SONG -", artist: "STAYC", channel: KPOP, bpm: "119",
+	title: "Teddy Bear  [FULL]", artist: "STAYC", channel: KPOP, bpm: "119",
 	sortingID: "17_",
 	sortingBetween: ["", "16__Good_Night__FULL"],
 	// arcadeID: "",
 	pumpoutID: "",
-	// arcadeName: "",
+	arcadeName: "Teddy Bear - FULL SONG -",
 
 	charts: {
 		Phoenix: "@2.06 S12 S20 D22",
@@ -171,12 +171,12 @@ var readableTracklist = {
 
 "17__Jupin__SHORT":
 {
-	title: "Jupin - SHORT CUT -", artist: "Sobrem", channel: ORIGINAL, bpm: "173",
+	title: "Jupin  [SHORT]", artist: "Sobrem", channel: ORIGINAL, bpm: "173",
 	// sortingID: "",
 	sortingBetween: ["17__Euphorianic__SHORT", "16__Paradoxx__SHORT"],
 	// arcadeID: "",
 	pumpoutID: "",
-	// arcadeName: "",
+	arcadeName: "Jupin - SHORT CUT -",
 
 	charts: {
 		Phoenix: "@2.06 S12 S13 S14 S21 S22 S23 D16 D19 D20 D23 D24",
