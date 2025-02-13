@@ -58,17 +58,152 @@ var readableTracklist = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@2.06 ",
+		Phoenix: "@2.07 ",
 	},
 },
 */
+
+
+"17__Darkside_of_the_Mind":
+{
+	title: "Darkside Of The Mind", artist: "DJ Myosuke", channel: ORIGINAL, bpm: "220",
+	// sortingID: "",
+	sortingBetween: ["17__Megaheartz", "17__E_O_N"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.07 S14 S17 S19 S23 D18 D21 D25",
+	},
+},
+
+
+"17__ESP":
+{
+	title: "ESP", artist: "nato", channel: ORIGINAL, bpm: "175",
+	// sortingID: "",
+	sortingBetween: ["17__Festival_of_Death_Moon", "17__Highway_Chaser"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.07 S7 S13 S18 S20 S22 D15 D19 D22 D24",
+	},
+},
+
+
+"17__New_Rose":
+{
+	title: "New Rose", artist: "Hommarju", channel: ORIGINAL, bpm: "190",
+	// sortingID: "",
+	sortingBetween: ["17__Sudden_Appearance_Image", "17__Hercules"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.07 S11 S16 S19 S21 D17 D20 D23",
+	},
+},
+
+
+"17__Crimson_Hood":
+{
+	title: "Crimson hood", artist: "Springhead", channel: ORIGINAL, bpm: "190",
+	// sortingID: "",
+	sortingBetween: ["17__Imaginarized_City", "17__Doppelganger"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.07 S12 S16 S18 S20 S22 S24 D18 D22 D24 D26",
+	},
+},
+
+
+"17__Nade_Nade":
+{
+	title: "Nade Nade", artist: "Doin", channel: WORLD, bpm: "100",
+	// sortingID: "",
+	sortingBetween: ["17__Underworld", "17__Goodtek"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.07 S10 S15 S20 S23 D16 D24",
+	},
+},
+
+
+"17__Catastrophe":
+{
+	title: "Catastrophe", artist: "rareguy & MonstDeath", channel: WORLD, bpm: "202",
+	// sortingID: "",
+	sortingBetween: ["17__Fracture_Temporelle", "17__Underworld"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.07 S12 S15 S18 S21 S23 D20 D23 D26",
+	},
+},
+
+
+"17__Flvsh_Out":
+{
+	title: "FLVSH OUT", artist: "Getty", channel: WORLD, bpm: "160",
+	// sortingID: "",
+	sortingBetween: ["17__Big_Daddy", "17__Odin"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.07 S4 S7 S11 S16 S18 S21 D13 D19 D23",
+	},
+},
+
+
+"17__Phoenix_Opening__SHORT":
+{
+	title: "Phoenix Opening  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "174",
+	// sortingID: "",
+	sortingBetween: ["17__Euphorianic__SHORT", "17__Jupin__SHORT"],
+	// arcadeID: "",
+	pumpoutID: "",
+	arcadeName: "Phoenix Opening - SHORT CUT -",
+
+	charts: {
+		Phoenix: "@2.07 S12 S16 S18 D16 D20 CoOp(x2)",
+	},
+},
+
+
+"17__Ghroth__SHORT":
+{
+	title: "Ghroth  [SHORT]", artist: "nato", channel: ORIGINAL, bpm: "212",
+	// sortingID: "",
+	sortingBetween: ["17__Jupin__SHORT", "16__Paradoxx__SHORT"],
+	// arcadeID: "",
+	pumpoutID: "",
+	arcadeName: "Ghroth - SHORT CUT -",
+
+	charts: {
+		Phoenix: "@2.07 S14 S18 S22 D20 D24",
+	},
+},
 
 
 "17__E_O_N":
 {
 	title: "E.O.N", artist: "HiTECH NINJA", channel: ORIGINAL, bpm: "165",
 	// sortingID: "",
-	sortingBetween: ["17__Megaheartz", "17__Chaos_Again"],
+	sortingBetween: ["17__Darkside_of_the_Mind", "17__Chaos_Again"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -83,7 +218,7 @@ var readableTracklist = {
 {
 	title: "Festival of Death Moon", artist: "SHK", channel: ORIGINAL, bpm: "204",
 	// sortingID: "",
-	sortingBetween: ["17__Nostalgia", "17__Highway_Chaser"],
+	sortingBetween: ["17__Nostalgia", "17__ESP"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -98,7 +233,7 @@ var readableTracklist = {
 {
 	title: "Imaginarized City", artist: "Reku Mochizuki", channel: ORIGINAL, bpm: "156",
 	// sortingID: "",
-	sortingBetween: ["17__Wither_Garden", "17__Doppelganger"],
+	sortingBetween: ["17__Wither_Garden", "17__Crimson_Hood"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -173,7 +308,7 @@ var readableTracklist = {
 {
 	title: "Jupin  [SHORT]", artist: "Sobrem", channel: ORIGINAL, bpm: "173",
 	// sortingID: "",
-	sortingBetween: ["17__Euphorianic__SHORT", "16__Paradoxx__SHORT"],
+	sortingBetween: ["17__Phoenix_Opening__SHORT", "17__Ghroth__SHORT"],
 	// arcadeID: "",
 	pumpoutID: "",
 	arcadeName: "Jupin - SHORT CUT -",
@@ -203,7 +338,7 @@ var readableTracklist = {
 {
 	title: "Doppelganger", artist: "MonstDeath", channel: ORIGINAL, bpm: "210",
 	// sortingID: "",
-	sortingBetween: ["17__Imaginarized_City", "17__Perpetual"],
+	sortingBetween: ["17__Crimson_Hood", "17__Perpetual"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -293,7 +428,7 @@ var readableTracklist = {
 {
 	title: "Underworld ft. Skizzo (PIU Edit.)", artist: "MonstDeath vs Neutral Moon", channel: WORLD, bpm: "190",
 	// sortingID: "",
-	sortingBetween: ["17__Fracture_Temporelle", "17__Goodtek"],
+	sortingBetween: ["17__Catastrophe", "17__Nade_Nade"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -308,7 +443,7 @@ var readableTracklist = {
 {
 	title: "Odin", artist: "Gram", channel: WORLD, bpm: "200",
 	// sortingID: "",
-	sortingBetween: ["17__Big_Daddy", "17__Poppin_Shower"],
+	sortingBetween: ["17__Flvsh_Out", "17__Poppin_Shower"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -518,7 +653,7 @@ var readableTracklist = {
 {
 	title: "Highway Chaser", artist: "Cosmograph", channel: ORIGINAL, bpm: "155",
 	// sortingID: "",
-	sortingBetween: ["17__Festival_of_Death_Moon", "17__Nyan_turne"],
+	sortingBetween: ["17__ESP", "17__Nyan_turne"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -533,7 +668,7 @@ var readableTracklist = {
 {
 	title: "MEGAHEARTZ", artist: "DJ Noriken", channel: ORIGINAL, bpm: "200",
 	// sortingID: "",
-	sortingBetween: ["17__Sonic_Boom", "17__E_O_N"],
+	sortingBetween: ["17__Sonic_Boom", "17__Darkside_of_the_Mind"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -578,7 +713,7 @@ var readableTracklist = {
 {
 	title: "Fracture Temporelle", artist: "Kurokotei", channel: WORLD, bpm: "232",
 	// sortingID: "",
-	sortingBetween: ["17__Galaxy_Collapse", "17__Underworld"],
+	sortingBetween: ["17__Galaxy_Collapse", "17__Catastrophe"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -681,9 +816,9 @@ var readableTracklist = {
 
 "17__Hercules":
 {
-	title: "hercules", artist: "Abel", channel: ORIGINAL, bpm: "195",
+	title: "Hercules", artist: "Abel", channel: ORIGINAL, bpm: "195",
 	// sortingID: "",
-	sortingBetween: ["17__Sudden_Appearance_Image", "17__Invasion"],
+	sortingBetween: ["17__New_Rose", "17__Invasion"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -728,7 +863,7 @@ var readableTracklist = {
 {
 	title: "Big Daddy", artist: "USAO", channel: WORLD, bpm: "190",
 	// sortingID: "",
-	sortingBetween: ["17__Destr0yer", "17__Odin"],
+	sortingBetween: ["17__Destr0yer", "17__Flvsh_Out"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -863,7 +998,7 @@ var readableTracklist = {
 {
 	title: "Sudden Appearance Image", artist: "Blacklolita", channel: ORIGINAL, bpm: "170",
 	// sortingID: "",
-	sortingBetween: ["17__Chaos_Again", "17__Hercules"],
+	sortingBetween: ["17__Chaos_Again", "17__New_Rose"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1210,7 +1345,7 @@ var readableTracklist = {
 {
 	title: "Euphorianic  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "140",
 	sortingID: "17_",
-	sortingBetween: ["", "17__Jupin__SHORT"],
+	sortingBetween: ["", "17__Phoenix_Opening__SHORT"],
 	// arcadeID: "",
 	pumpoutID: "",
 	arcadeName: "Euphorianic - SHORT CUT -",
@@ -1600,7 +1735,7 @@ var readableTracklist = {
 {
 	title: "GOODTEK", artist: "EBIMAYO", channel: WORLD, bpm: "190",
 	//sortingID: "",
-	sortingBetween: ["17__Underworld", "17__Co5m1c_R4ilr0ad"],
+	sortingBetween: ["17__Nade_Nade", "17__Co5m1c_R4ilr0ad"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -3279,7 +3414,7 @@ var readableTracklist = {
 	title: "Paradoxx  [SHORT]", artist: "SLAM & NATO", channel: ORIGINAL, bpm: "220",
 	arcadeID: "16B6",
 	pumpoutID: 899,
-	sortingBetween: ["17__Jupin__SHORT", ""],
+	sortingBetween: ["17__Ghroth__SHORT", ""],
 	arcadeName: "Paradoxx - SHORT CUT -",
 
 	charts: {
