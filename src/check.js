@@ -1,6 +1,11 @@
 "use strict";
 
 
+import _ from 'underscore';
+import { mixesOrder, firstNewMixIndex } from './tracklist.js';
+import { tracklist } from './tracklist_src.js';
+
+
 //var oldMixes = [ "Exceed", "Exceed2", "Zero", "NX", "NX2", "NXA" ];
 const oldMixes = mixesOrder.slice(0, firstNewMixIndex );  // NXA..Exceed
 
@@ -257,7 +262,7 @@ function HasInitialCharts( track, mixName )
 }
 
 
-function CheckInitialTracklistOfNewMix( mixName, checkTable )
+export function CheckInitialTracklistOfNewMix( mixName, checkTable )
 {
 	var tracklistIDs = Object.keys( tracklist ).filter((key) => HasInitialCharts( tracklist[ key ], mixName ) );
 	var checklistIDs = Object.keys( checkTable );

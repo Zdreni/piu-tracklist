@@ -1,6 +1,23 @@
 "use strict";
 
 
+import _ from 'underscore';
+
+
+import {
+	SINGLE, DOUBLE, COUPLE,
+	ORIGINAL, KPOP, WORLD, XROSS, JMUSIC,
+	ARCADE, SPECIAL,
+	SHORT, STANDARD, REMIX, FULL,
+	PHILIPPINES, LATIN, JAPAN, CHINESE,
+
+	OldArcadeTags, OldSpecialTags, OldTagTypes,
+	mixes, mixesOrder, initFuncs,
+	NewTags,
+	GetTrackFirstMix, FindChart,
+} from './tracklist.js';
+
+
 var knownArtists = {
 	"BanYa": ORIGINAL,
 	"BanYa Production": ORIGINAL,
@@ -3403,7 +3420,7 @@ var readableTracklist = {
 	pumpoutID: 898,
 
 	charts: {
-		Phoenix: "=",
+		Phoenix: "=  @2.07 CoOp(x3)",
 		XX: "@2.08 S2 S4 S7 S11 S16 S19 D6 D13 D18 D21",
 	},
 },
@@ -15191,7 +15208,7 @@ var readableTracklist = {
 	pumpoutID: 34,
 
 	charts: {
-		Phoenix: "= S12`10 S20`19 D14`12 D21`20",
+		Phoenix: "= S12`10 S20`19 D14`12 D21`20  @2.07 CoOp(x2)",
 		XX: "= S7`6 S10`8 S16`15 D12`11 D20`19",
 		Prime2: "=  @1.07 S19",
 		Prime: "=",
@@ -15333,7 +15350,7 @@ var readableTracklist = {
 	pumpoutID: 39,
 
 	charts: {
-		Phoenix: "= S15`14 -Sp4 -S12 -Dp4 -Dp6",
+		Phoenix: "= S15`14 -Sp4 -S12 -Dp4 -Dp6  @2.07 CoOp(x2)",
 		XX: "=  @2.06 D18",
 		Prime2: "=",
 		Prime: "=",
@@ -15628,7 +15645,7 @@ var readableTracklist = {
 	pumpoutID: 17,
 
 	charts: {
-		Phoenix: "= S5`3 S7`6 S20`19 D9`6 D22`21 D24`23",
+		Phoenix: "= S5`3 S7`6 S20`19 D9`6 D22`21 D24`23  @2.07 CoOp(x2)",
 			// TODO.Phoenix: D9`6
 		XX: "= S18`17 S19`18 D21`20",
 		Prime2: "=  @1.04 D23",
@@ -16494,7 +16511,7 @@ var readableTracklist = {
 
 };
 
-let tracklist = JSON.parse( JSON.stringify( readableTracklist ) );
+export let tracklist = JSON.parse( JSON.stringify( readableTracklist ) );
 
 /* unused:
 {
@@ -16911,7 +16928,7 @@ function PreprocessTrack( track )
 	if( ! trackID.match(/^[\d][\dA-F]__/g) )
 		throw new Error( `Track ID '${ trackID }' has invalid format` );
 
-	for( cutType of ["FULL", "REMIX", "SHORT"] )
+	for( var cutType of ["FULL", "REMIX", "SHORT"] )
 		if( trackID.endsWith( cutType ) && ! trackID.endsWith( `__${ cutType }` ) )
 			throw new Error( `Track ID '${ trackID }' has invalid cut format` );
 

@@ -1,5 +1,10 @@
 "use strict";
 
+
+import { initFuncs } from './tracklist.js';
+import { CheckInitialTracklistOfNewMix } from './check.js';
+
+
 var checkPhoenix = {
 
 // verified according to https://www.youtube.com/watch?v=kbqvvlw9ED4,

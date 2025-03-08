@@ -1,6 +1,9 @@
 "use strict";
 
 
+import _ from 'underscore';
+
+
 String.prototype.endsWith = function(suffix)
 {
 	return this.indexOf(suffix, this.length - suffix.length) !== -1;
@@ -97,47 +100,47 @@ function VerList(str)
 
 
 // mode
-var SINGLE = "Single";
-var DOUBLE = "Double";
-var COUPLE = "Couple";
+export const SINGLE = "Single";
+export const DOUBLE = "Double";
+export const COUPLE = "Couple";
 
 // zone
-var ARCADE = "Arcade";
-var SPECIAL = "Special";
+export const ARCADE = "Arcade";
+export const SPECIAL = "Special";
 
 // channel
-var ORIGINAL = "Original";
-var KPOP = "K-Pop";
-var WORLD = "World";
-var JMUSIC = "J-Music";
-var XROSS = "Xross";
+export const ORIGINAL = "Original";
+export const KPOP = "K-Pop";
+export const WORLD = "World";
+export const JMUSIC = "J-Music";
+export const XROSS = "Xross";
 
 // duration
-var SHORT = "Short";
-var STANDARD = "Standard";
-var REMIX = "Remix";
-var FULL = "Full";
+export const SHORT = "Short";
+export const STANDARD = "Standard";
+export const REMIX = "Remix";
+export const FULL = "Full";
 
 // region
-var CHINESE = "Chinese";
-var JAPAN = "Japan";
-var LATIN = "Latin";
-var PHILIPPINES = "Philippines";
+export const CHINESE = "Chinese";
+export const JAPAN = "Japan";
+export const LATIN = "Latin";
+export const PHILIPPINES = "Philippines";
 
 
-const OldArcadeTags     = ["NL", "HD", "CZ", "FS", "NM"];
+export const OldArcadeTags     = ["NL", "HD", "CZ", "FS", "NM"];
 const OldArcadeTags_low = ["nl", "hd", "cz", "fs", "nm"];
 
-const OldSpecialTags     = ["aNL", "aHD", "aCZ", "aFS", "aNM"];
+export const OldSpecialTags     = ["aNL", "aHD", "aCZ", "aFS", "aNM"];
 const OldSpecialTags_low = ["anl", "ahd", "acz", "afs", "anm"];
 
-const OldTagTypes = [ SINGLE, SINGLE, SINGLE, DOUBLE, DOUBLE ];
+export const OldTagTypes = [ SINGLE, SINGLE, SINGLE, DOUBLE, DOUBLE ];
 
-const NewTags = [ "Sp", "S", "Dp", "D", "CoOp" ];
-const NewTagTypes = [ SINGLE, SINGLE, DOUBLE, DOUBLE, COUPLE ];
+export const NewTags = [ "Sp", "S", "Dp", "D", "CoOp" ];
+export const NewTagTypes = [ SINGLE, SINGLE, DOUBLE, DOUBLE, COUPLE ];
 
 
-var mixes =
+export const mixes =
 {
 	'1st':       {},  // 1st Dance Floor
 	'2nd':       {},  // 2nd Dance Floor
@@ -193,10 +196,10 @@ var mixes =
 };
 
 
-const mixesOrder = [ "Exceed", "Exceed2", "Zero", "NX", "NX2", "NXA", "Fiesta", "FiestaEX", "Fiesta2", "Prime", "Prime2", "XX", "Phoenix" ];
+export const mixesOrder = [ "Exceed", "Exceed2", "Zero", "NX", "NX2", "NXA", "Fiesta", "FiestaEX", "Fiesta2", "Prime", "Prime2", "XX", "Phoenix" ];
 const lowCaseMixesOrder = mixesOrder.map( x => x.toLowerCase() );
-const firstNewMixIndex = mixesOrder.indexOf( "Fiesta" );
-const lastOldMixIndex = firstNewMixIndex - 1;
+export const firstNewMixIndex = mixesOrder.indexOf( "Fiesta" );
+export const lastOldMixIndex = firstNewMixIndex - 1;
 //const oldMixesReverseOrder = mixesOrder.slice(0, firstNewMixIndex ).reverse();  // NXA..Exceed
 //const newMixesOrder = mixesOrder.slice( firstNewMixIndex );  // Fiesta..Prime
 
@@ -219,7 +222,7 @@ function Normalized( title )
 }
 
 
-function FindTrack( tracklist, idOrTitle )
+export function FindTrack( tracklist, idOrTitle )
 {
 	var track = tracklist[ idOrTitle ];
 	if( track )
@@ -278,7 +281,7 @@ function FindChartWithIndexInMix( track, chartIndex, mixID )
 
 
 // range treated as [ mixIndexFrom..mixIndexTo ), not including the <mixIndexTo> mix
-function FindChartsWithIndexInMixesRange( track, chartIndex, mixIndexFrom, mixIndexTo )
+export function FindChartsWithIndexInMixesRange( track, chartIndex, mixIndexFrom, mixIndexTo )
 {
 	console.assert( 0 <= mixIndexFrom  &&  mixIndexFrom < mixIndexTo  &&  mixIndexTo <= mixesOrder.length );
 
@@ -320,7 +323,7 @@ function FindChartEx( track, chartDescr, chartPattern, fromMixName, toMixName )
 	{
 		if( track.charts[ mixesOrder[ mixID ] ] )
 		{
-			var chart = _.findWhere( track.charts[ mixesOrder[ mixID ] ], chartPattern );
+			const chart = _.findWhere( track.charts[ mixesOrder[ mixID ] ], chartPattern );
 			if( chart )
 				return chart;
 		}
@@ -331,7 +334,7 @@ function FindChartEx( track, chartDescr, chartPattern, fromMixName, toMixName )
 }
 
 
-function FindChart( track, chartDescr, beforeMixID )
+export function FindChart( track, chartDescr, beforeMixID )
 {
 	var chartInfo = chartDescr.split( "-" );
 
@@ -373,6 +376,7 @@ function FindChart( track, chartDescr, beforeMixID )
 	}
 	catch (e)
 	{
+		console.log(e);
 		throw new Error( `Can't find ${track.id} chart '${chartDescr}' because of ${e}` );
 	}
 
@@ -390,7 +394,7 @@ function ChartRealLevelNum( chart )
 }
 
 
-function GetTrackFirstMix( track )
+export function GetTrackFirstMix( track )
 {
 	if( track.fromMix )
 		return track.fromMix;
@@ -564,9 +568,9 @@ var chartFilter = {
 	}
 }
 
-var initFuncs = []
+export const initFuncs = []
 
-function initTracklist()
+export function initTracklist()
 {
 	for( var f of initFuncs )
 		f();

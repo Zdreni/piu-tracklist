@@ -1,5 +1,9 @@
 "use strict";
 
+
+import { FindTrack, FindChart, mixesOrder, FindChartsWithIndexInMixesRange } from './tracklist.js';
+
+
 var separateBPMs =
 [
 	{                      chart: "08__Mexi_Mexi  CZ", ratio: "2", mixes: "Exceed2" },
@@ -70,7 +74,7 @@ function GetMixesRange( text )
 }
 
 
-function SetChartBPM( descr )
+function SetChartBPM( tracklist, descr )
 {
 	console.assert( descr.bpm  || descr.ratio );
 	if( descr.ratio )
@@ -104,14 +108,14 @@ function SetChartBPM( descr )
 }
 
 
-function ApplyBPMs()
+export function ApplyBPMs( tracklist )
 {
 	for( var item of separateBPMs )
-		SetChartBPM( item );
+		SetChartBPM( tracklist, item );
 }
 
 
-initFuncs.push( ApplyBPMs );
+// initFuncs.push( ApplyBPMs );
 
 /*
 

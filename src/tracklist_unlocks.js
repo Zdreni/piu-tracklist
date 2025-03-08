@@ -29,6 +29,10 @@ NXA:
 	2-X
 */
 
+import { mixes, initFuncs, FindTrack } from './tracklist.js';
+import { tracklist } from './tracklist_src.js';
+
+
 var currentMixID;
 var currentMixUnlockPatchIndex;
 
@@ -40,8 +44,8 @@ function ReadPatchIndex( tillPatch )
 	if( ! tillPatch.startsWith( '..@' ) )
 		throw new Error( "Invalid tillPatch '" + tillPatch + "'" );
 
-	var patch = tillPatch.substring( 3 );
-	patchIndex = mixes[ currentMixID ].patches.indexOf( patch );
+	const patch = tillPatch.substring( 3 );
+	const patchIndex = mixes[ currentMixID ].patches.indexOf( patch );
 	if( patchIndex < 0 )
 		throw new Error( "Invalid patch " + patch );
 

@@ -1,5 +1,10 @@
 "use strict";
 
+
+import { initFuncs } from './tracklist.js';
+import { CheckInitialTracklistOfNewMix } from './check.js';
+
+
 var checkXX = {
 
 "16__Kitty_Cat":  "S1 S3 S5 S14 D6 D15 CoOp(x2)",

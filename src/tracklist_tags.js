@@ -14,12 +14,12 @@ function FindChart( track, chartText )
 */
 
 
-function Tag( tag, fullChartDescr )
+function Tag( tracklist, tag, fullChartDescr )
 {
 	if( Array.isArray( fullChartDescr ) )
 	{
 		for( var item of fullChartDescr )
-			Tag( tag, item );
+			Tag( tracklist, tag, item );
 		return;
 	}
 
@@ -89,7 +89,7 @@ function ApplyTagsForIPF2016()
 }
 */
 
-function ApplyTags()
+function ApplyTags( tracklist )
 {
 /*
 	Tag( "Drills",
@@ -247,7 +247,7 @@ function ApplyTags()
 */
 }
 
-function ApplyTagsForWPT2019()
+function ApplyTagsForWPT2019( tracklist )
 {
 	var S19 =
 	[
@@ -528,13 +528,13 @@ function ApplyTagsForWPT2019()
 	var male = [].concat( S21, D21, S22, D22, S23, D23, S24p, D24p );
 	var female = male.concat( D18, S19, D19, S20, D20 );
 
-	Tag( "WPT-2019.male", male );
-	Tag( "WPT-2019.female", female );
+	Tag( tracklist, "WPT-2019.male", male );
+	Tag( tracklist, "WPT-2019.female", female );
 	// AddTags( "Arirang  S-18", DRILLS +
 }
 
 
-function ApplyTagsForEPF2019()
+function ApplyTagsForEPF2019( tracklist )
 {
 	var common =
 	[
@@ -663,7 +663,7 @@ function ApplyTagsForEPF2019()
 }
 
 
-function ApplyTagsForIPF2019()
+function ApplyTagsForIPF2019( tracklist )
 {
 	var male =
 	[
@@ -706,7 +706,7 @@ function ApplyTagsForIPF2019()
 
 		"1949  D-28",
 	];
-	Tag( "IPF-2019.male", male );
+	Tag( tracklist, "IPF-2019.male", male );
 
 	var female = [
 		"%X (Percent X)  S-19",
@@ -757,7 +757,7 @@ function ApplyTagsForIPF2019()
 		"Nyarlathotep  D-23",
 		"Tantanmen  D-23",
 	];
-	Tag( "IPF-2019.female", female );
+	Tag( tracklist, "IPF-2019.female", female );
 }
 
 
