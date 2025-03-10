@@ -1,25 +1,24 @@
 import fs from 'fs';
 
 import {
-	mixes, mixesOrder, initTracklist,
+	mixes, mixesOrder,
 	NewTags, OldTagTypes, NewTagTypes, OldArcadeTags, OldSpecialTags,
 	STANDARD, REMIX, FULL,
 	ARCADE, SPECIAL } from './tracklist.js';
-import { tracklist } from './tracklist_src.js';
+import { tracklist, PreprocessTracklist } from './tracklist_src.js';
 
-// include("src/tracklist_src.js")
-import {} from './tracklist_unlocks.js';
+import { ApplyUnlocks } from './tracklist_unlocks.js';
 
-import {} from './check.js';
+import { CheckInitialTracklistOfNewMix } from './check.js';
 // #include("src/check_Exceed2_Zero.js")
 // #include("src/check_NX.js")
 // #include("src/check_NX2_NXA.js")
-import {} from './check_XX.js';
-import {} from './check_Phoenix.js';
+import { checkXXTable } from './check_XX.js';
+import { checkPhoenixTable } from './check_Phoenix.js';
 
 import { ApplyBPMs } from './tracklist_bpms.js';
 // #include("src/tracklist_level_estimations.js")
-//import {} from './tracklist_tags.js';
+import { ApplyTags } from './tracklist_tags.js';
 import { AddNotes } from './tracklist_notes.js';
 
 
@@ -321,12 +320,6 @@ function DumpAll( args )
 
 	try
 	{
-		initTracklist();
-		if( args.addBPMNotes )
-			ApplyBPMs( tracklist );
-		if( args.addNotes )
-			AddNotes( tracklist );
-
 		for( var trackID in tracklist )
 			ConvertInnerDataToOutput( tracklist[ trackID ], args.shortenData );
 	}
@@ -445,9 +438,27 @@ if( args.format !== "DB"  &&  args.format !== "STEPITUP")
 }
 
 args.rawOutput = true;
-args.shortenData = (args.format === "STEPITUP");
-args.addBPMNotes = (args.format === "STEPITUP");
-args.addNotes = (args.format === "STEPITUP");
+
+const isForStepItUp = (args.format === "STEPITUP")
+args.shortenData = isForStepItUp;
+//args.addBPMNotes = isForStepItUp;
+//args.addNotes = isForStepItUp;
+//args.addUnlocks = isForStepItUp;
 
 console.log(args);
+
+
+PreprocessTracklist();
+CheckInitialTracklistOfNewMix( "XX", checkXXTable );
+CheckInitialTracklistOfNewMix( "Phoenix", checkPhoenixTable );
+
+ApplyUnlocks( tracklist );
+
+if( isForStepItUp )
+{
+	ApplyBPMs( tracklist );
+	AddNotes( tracklist );
+	ApplyTags( tracklist );
+}
+
 DumpAll( args );

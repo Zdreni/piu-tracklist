@@ -4,6 +4,18 @@
 import { FindTrack, FindChart } from './tracklist.js';
 
 
+export function	AddSharedChartNote( sharedChart, kind, noteText )
+{
+	if( ! sharedChart.notes )
+		sharedChart.notes = [];
+
+	var note = {};
+	note[ kind ] = noteText;
+	sharedChart.notes.push( note );
+
+}
+
+
 function Note( tracklist, trackName, chartDescrs, kind, noteText )
 {
 	if( ! Array.isArray( chartDescrs ) )

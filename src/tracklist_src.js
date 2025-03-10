@@ -12,7 +12,7 @@ import {
 	PHILIPPINES, LATIN, JAPAN, CHINESE,
 
 	OldArcadeTags, OldSpecialTags, OldTagTypes,
-	mixes, mixesOrder, initFuncs,
+	mixes, mixesOrder,
 	NewTags,
 	GetTrackFirstMix, FindChart,
 } from './tracklist.js';
@@ -17078,7 +17078,7 @@ function GenerateSortingIDs( tracklist )
 }
 
 
-function PreprocessTracklist()
+export function PreprocessTracklist()
 {
 	GenerateSortingIDs( tracklist );
 
@@ -17090,7 +17090,7 @@ function PreprocessTracklist()
 }
 
 
-initFuncs.push( PreprocessTracklist );
+//initFuncs.push( PreprocessTracklist );
 
 
 /*

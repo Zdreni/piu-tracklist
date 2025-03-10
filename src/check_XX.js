@@ -1,11 +1,7 @@
 "use strict";
 
 
-import { initFuncs } from './tracklist.js';
-import { CheckInitialTracklistOfNewMix } from './check.js';
-
-
-var checkXX = {
+export const checkXXTable = {
 
 "16__Kitty_Cat":  "S1 S3 S5 S14 D6 D15 CoOp(x2)",
 "16__Fly_High":  "S1 S3 S5 S9 S15 S18 D10 D16 D19 Dp3",
@@ -453,5 +449,3 @@ var checkXX = {
 
 };
 
-
-initFuncs.push( () => CheckInitialTracklistOfNewMix( "XX", checkXX ) );

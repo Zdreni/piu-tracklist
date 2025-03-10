@@ -1,96 +1,288 @@
 "use strict";
 
-function AddTags( chart, tags )
+
+import { FindSharedChartByDescr } from './tracklist.js'
+import { AddSharedChartNote } from './tracklist_notes.js'
+
+
+function Tag( tracklist, chartDescr, tagStr )
 {
-}
-
-/*
-function FindChart( track, chartText )
-{
-	for( var chart of track[ mixID ] )
-		if( chart.text === chartText )
-			return chart;
-}
-*/
-
-
-function Tag( tracklist, tag, fullChartDescr )
-{
-	if( Array.isArray( fullChartDescr ) )
-	{
-		for( var item of fullChartDescr )
-			Tag( tracklist, tag, item );
-		return;
-	}
-
-	var chart_Match = fullChartDescr.match( "(.*)  (.*)-(.*)" );
-	if( ! chart_Match )
-	{
-		window.alert( "Can't parse chart '" + fullChartDescr + "'" );
-		return;
-	}
-
-	var trackTitle = chart_Match[ 1 ];
-	var chartTag = chart_Match[ 2 ];
-	var chartLevelText = chart_Match[ 3 ];
-
-	var track = FindTrack( tracklist, trackTitle );
-	var shared = FindChartSharedNew( track, chartTag, chartLevelText );
-	if( ! shared.tags )
-		shared.tags = tag;
-	else
-		shared.tags += " " + tag;
+	const shared = FindSharedChartByDescr( tracklist, chartDescr );
+	AddSharedChartNote( shared, 'info', tagStr );
 }
 
 
-/*
-function ApplyTagsForIPF2016()
+export function ApplyTags( t )
 {
-	Tag( "IPF-2016",
-		[
-			"Passacaglia  S-20",
-			"Love is a Danger Zone (Cranky Mix)  S-20",
-			"Lucid (PIU Edit)  S-20",
-			"Move That Body!  S-20",
-			"1950  S-20",
-			"Karyawisata  S-20",
+	//#title.misc "Perfect breaker" '15__Gargoyle__FULL  S21' "Get 444,444 points or less"
+	//#title.misc "Human metronome" [Yeo rae a S1] 180,000 Point or less
 
-			"Hypnosis (SynthWulf Mix)  S-21",
-			"Dream to Nightmare  S-21",
-			"Hardkore of the North  S-21",
-			"Windmill  S-21",
-			"Mental Rider  S-21",
-			"Yog-Sothoth  S-21",
-			"Robot Battle  S-21",
+	//'No skills no pump'  [Moonlight D21] SSS+ Grade or more
+	//PUMP IS A SENSE  [Love is a Danger Zone D21] SSS+ Grade or more
 
-			"Elise  S-22",
-			"Love is a Danger Zone (Cranky Mix)  S-22",
-			"Dream to Nightmare  S-22",
-			"Achluoias  S-22",
+	// B.P.M FOLLOWER
+	// [Beethoven Virus D18] Perfect 927 / Great 1 / Miss 2 / Max Combo 747
 
-			"Ignis Fatuus (DM Ashura Mix)  S-23",
-			"Flew Far Faster  S-23",
-			"VVV  S-23",
-			//"Yog-Sothoth  S-23",
-			"1950  S-23",
+	// [Waltz of Doge D20] Max Combo of 888
+	// DOGE MAJOR STOCKHOLDER
 
-			"Passacaglia  D-24",
-			"Dream to Nightmare  D-24",
-			"Love is a Danger Zone (Cranky Mix)  D-24",
-			"Flew Far Faster  D-24",
-			"Windmill  D-24",
-			"Avalanche  D-24",
-			"Achluoias  D-24",
+	// [1949 D28] ROUGH GAME or more
+	// [XX] Double Boss breaker
 
-			"Ignis Fatuus (DM Ashura Mix)  D-25",
-			"Yog-Sothoth  D-25",
-			//"1950  D-25",
-		] );
-}
-*/
+	// [ERRORCODE: 0 S25] ROUGH GAME or more
+	// [XX] Single Boss breaker
 
-function ApplyTags( tracklist )
-{
+	// [Shub Sothoth D27] ROUGH GAME or more
+	// [PRIME2] Double Boss breaker
+
+	// [Shub Sothoth S25] ROUGH GAME or more
+	// [PRIME2] Single Boss breaker
+
+	// [Paradoxx D28] ROUGH GAME or more
+	// [PRIME] Double Boss breaker
+
+	// [Paradoxx S26] ROUGH GAME or more
+	// [PRIME] Single Boss breaker
+
+	// [Ignis Fatuus D25] ROUGH GAME or more
+	// [FIESTA2] Double Boss breaker
+
+	// [Ignis Fatuus S22] ROUGH GAME or more
+	// [FIESTA2] Single Boss breaker
+
+	// [Vacuum Cleaner D26] ROUGH GAME or more
+	// [FIESTA EX] Double Boss breaker
+
+	// [Vacuum Cleaner S25] ROUGH GAME or more
+	// [FIESTA EX] Single Boss breaker
+
+	// [Vacuum D25] ROUGH GAME or more
+	// [FIESTA] Double Boss breaker
+
+	// [Vacuum S23] ROUGH GAME or more
+	// [FIESTA] Single Boss breaker
+
+	// [Final Audition Ep. 2-X D24] ROUGH GAME or more
+	// [NXA] Double Boss breaker
+
+	// [Final Audition Ep. 2-X S23] ROUGH GAME or more
+	// [NXA] Single Boss breaker
+
+	// [Banya-P Guitar RemixD24] ROUGH GAME or more
+	// [NX2] Double Boss breaker
+
+	// [Banya-P Guitar Remix S22] ROUGH GAME or more
+	// [NX2] Single Boss breaker
+
+	// [BEMERA D26] ROUGH GAME or more
+	// [NX] Double Boss breaker
+
+	// [BEMERA S24] ROUGH GAME or more
+	// [NX] Single Boss breaker
+
+	// [Love is a Danger Zone pt. 2 D24] ROUGH GAME or more
+	// [ZERO] Double Boss breaker
+
+	// [Love is a Danger Zone pt. 2 S22] ROUGH GAME or more
+	// [ZERO] Single Boss breaker
+
+	// [Canon D D23] ROUGH GAME or more
+	// [EXCEED2] Double Boss breaker
+
+	// [Canon D S20] ROUGH GAME or more
+	// [EXCEED2] Single Boss breaker
+
+	// [Dignity D24] ROUGH GAME or more
+	// [EXCEED] Double Boss breaker
+
+	// [Dignity S21] ROUGH GAME or more
+	// [EXCEED] Single Boss breaker
+
+	// [Bee S17] ROUGH GAME or more
+	// [THE PREX3] Boss breaker
+
+	// [Love is a Danger Zone S17] ROUGH GAME or more
+	// [THE REBIRTH] Boss breaker
+
+	// [Radetzky Can Can D18] ROUGH GAME or more
+	// [EXTRA] Boss breaker
+
+	// [Slam S18] ROUGH GAME or more
+	// [Perfect Collection] Boss breaker
+
+	// [Mr. Larpus S15] ROUGH GAME or more
+	// [The O.B.G SE] Boss breaker
+
+	// [Turkey March S12] ROUGH GAME or more
+	// [The O.B.G] Boss breaker
+
+	// [Extravaganza S11] ROUGH GAME or more
+	// [The 2nd] Boss breaker
+
+	// [Another Truth S6] ROUGH GAME or more
+	// [The 1st] Boss breaker
+
+	// [Phalanx D24] SSS Grade or more
+	// [BRACKET] Lv.10
+
+	// [Scorpion King D23] SSS Grade or more
+	// [BRACKET] Lv.9
+
+	// [Pop Sequence D23] SSS Grade or more
+	// [BRACKET] Lv.8
+
+	// [What Happened D23] SSS Grade or more
+	// [BRACKET] Lv.7
+
+	// [Meteo5cience D22] SSS Grade or more
+	// [BRACKET] Lv.6
+
+	// [Phalanx S22] SSS Grade or more
+	// [BRACKET] Lv.5
+
+	// [What Happened S21] SSS Grade or more
+	// [BRACKET] Lv.4
+
+	// [Meteo5cience S21] SSS Grade or more
+	// [BRACKET] Lv.3
+
+	// [Mad5cience S20] SSS Grade or more
+	// [BRACKET] Lv.2
+
+	// [Allegro furioso D20] SSS Grade or more
+	// [BRACKET] Lv.1
+
+	Tag( t, '14__Imprinting D24', "SSS to get #title.half 10" )
+	Tag( t, '0C__Love_is_a_Danger_Zone_try_to_B_P_M D23', "SSS to get #title.half 9" )
+	Tag( t, '15__Redline D22', "SSS to get #title.half 8" )
+	Tag( t, '0D__Witch_Doctor_1 D21', "SSS to get #title.half 7" )
+	Tag( t, '15__Utsushiyo_No_Kaze D20', "SSS to get #title.half 6" )
+	//Tag( t, '0C__Phantom D19.phoenix', "SSS to get #title.half 5" )
+	Tag( t, '14__Super_Fantasy D18', "SSS to get #title.half 4" )
+	Tag( t, '15__Shub_Niggurath D18', "SSS to get #title.half 3" )
+	Tag( t, '11__Butterfly D17', "SSS to get #title.half 2" )
+	Tag( t, '16__Mopemope D17', "SSS to get #title.half 1" )
+
+	// [GIMMICK] Lv.10
+	// [Everybody Got 2 Know S21] SSS Grade or more
+
+	// [GIMMICK] Lv.9
+	// [8 6 S20] SSS Grade or more
+
+	// [GIMMICK] Lv.8
+	// [Twist of Fate S19] SSS Grade or more
+
+	// [GIMMICK] Lv.7
+	// [Nakakapagpabagabag S19] SSS Grade or more
+
+	// [GIMMICK] Lv.6
+	// [Miss S' story S19] SSS Grade or more
+
+	// [GIMMICK] Lv.5
+	// [Rock the house - SHORT CUT - S18 ] SSS Grade or more
+
+	// [GIMMICK] Lv.4
+	// [Come to Me S17] SSS Grade or more
+
+	// [GIMMICK] Lv.3
+	// [Ugly Dee S17] SSS Grade or more
+
+	// [GIMMICK] Lv.2
+	// [8 6 S16] SSS Grade or more
+
+	// [GIMMICK] Lv.1
+	// [Yeo rae a S13] SSS Grade or more
+
+	// [DRILL] Lv.10
+	// [WI-EX-DOC-VA D24] SSS Grade or more
+
+	// [DRILL] Lv.9
+	// [Witch Doctor D23] SSS Grade or more
+
+	// [DRILL] Lv.8
+	// [Rock the house D22] SSS Grade or more
+
+	// [DRILL] Lv.7
+	// [Sorceress Elise S21] SSS Grade or more
+
+	// [DRILL] Lv.6
+	// [Overblow S20] SSS Grade or more
+
+	// [DRILL] Lv.5
+	// [Vacuum S19] SSS Grade or more
+
+	// [DRILL] Lv.4
+	// [Moonlight S18] SSS Grade or more
+
+	// [DRILL] Lv.3
+	// [Gun Rock S17] SSS Grade or more
+
+	// [DRILL] Lv.2
+	// [Vook S16] SSS Grade or more
+
+	// [DRILL] Lv.1
+	// [Hellfire S15] SSS Grade or more
+
+	// [RUN] Lv.10
+	// [Yog-Sothoth D24] SSS Grade or more
+
+	// [RUN] Lv.9
+	// [Baroque Virus - FULL SONG - D23] SSS Grade or more
+
+	// [RUN] Lv.8
+	// [Gargoyle - FULL SONG - D22] SSS Grade or more
+
+	// [RUN] Lv.7
+	// [Sarabande D21] SSS Grade or more
+
+	// [RUN] Lv.6
+	// [Bee D20] SSS Grade or more
+
+	// [RUN] Lv.5
+	// [Napalm S19] SSS Grade or more
+
+	// [RUN] Lv.4
+	// [Gothique Resonance S18] SSS Grade or more
+
+	// [RUN] Lv.3
+	// [Pavane S17] SSS Grade or more
+
+	// [RUN] Lv.2
+	// [Super Fantasy S16] SSS Grade or more
+
+	// [RUN] Lv.1
+	// [Switronic S15] SSS Grade or more
+
+	// [TWIST] Lv.10
+	// [Bee D24] SSS Grade or more
+
+	// [TWIST] Lv.9
+	// [Love Is A Danger Zone(Cranky Mix) D23] SSS Grade or more
+
+	// [TWIST] Lv.8
+	// [Super Fantasy D22] SSS Grade or more
+
+	// [TWIST] Lv.7
+	// [Love is a Danger Zone D21] SSS Grade or more
+
+	// [TWIST] Lv.6
+	// [Witch Doctor #1 D20] SSS Grade or more
+
+	// [TWIST] Lv.5
+	// [U GOT 2 KNOW S19] SSS Grade or more
+
+	// [TWIST] Lv.4
+	// [Solitary 2 S18] SSS Grade or more
+
+	// [TWIST] Lv.3
+	// [U Got Me Rocking S17] SSS Grade or more
+
+	// [TWIST] Lv.2
+	// [Street show down S16] SSS Grade or more
+
+	// [TWIST] Lv.1
+	// [Scorpion King S15] SSS Grade or more
+
 /*
 	Tag( "Drills",
 		[
@@ -246,519 +438,3 @@ function ApplyTags( tracklist )
 		])
 */
 }
-
-function ApplyTagsForWPT2019( tracklist )
-{
-	var S19 =
-	[
-		"Allegro Piu Mosso  S-19",
-		"Annihilator Method  S-19",
-		"Asterios -ReEntry-  S-19",
-		"Awakening  S-19",
-		"Bad &infin; End &infin; Night  S-19",
-		"Bad Apple!! feat. Nomico  S-19",
-		"Break Out  S-19",
-		"Bring Back the Beat  S-19",
-		"Death Moon  S-19",
-		"Fallen Angel  S-19",
-		"Force of Ra  S-19",
-		"Helix  S-19",
-		"Houkago Stride  S-19",
-		"Rave'til the earth's end  S-19",
-		"Red Snow  S-19",
-		"Ren'ai Yuusha  S-19",
-		"Requiem  S-19",
-		"Scorpion King  S-19",
-		"Shub Niggurath  S-19",
-		"Smile Diary  S-19",
-		"Start On Red  S-19",
-		"Sudden Romance (PIU Edit)  S-19",
-		"Sugar Conspiracy Theory  S-19",
-		"Super Fantasy  S-19",
-		"The Revolution  S-19",
-		"Travel to Future  S-19",
-		"Waltz of Doge  S-19",
-	];
-
-	var S20 =
-	[
-		"1950  S-20",
-		"Allegro Furioso  S-20",
-		"Arcana Force  S-20",
-		"Black Dragon  S-20",
-		"Four Seasons of Loneliness  S-20",
-		"God Mode feat. skizzo  S-20",
-		"Good Night  S-20",
-		"Gothique Resonance  S-20",
-		"Karyawisata  S-20",
-		"Kasou Shinja  S-20",
-		"Le Grand Bleu  S-20",
-		"Mad5cience  S-20",
-		"Move That Body!  S-20",
-		"Point Zero One  S-20",
-		"Ragnarok  S-20",
-		"Sarabande  S-20",
-		"The Festival of Ghost2 (Sneak)  S-20",
-		"Trashy Innocence  S-20",
-		"Tritium  S-20",
-		"Utsushiyo No Kaze feat. Kana  S-20",
-	];
-
-	var S21 =
-	[
-		"Creed -1st Desire-  S-21",
-		"Donatello  S-21",
-		"Escape  S-21",
-		"HTTP  S-21",
-		"Infinity  S-21",
-		"Just Hold On (To All Fighters)  S-21",
-		"Keep On!  S-21",
-		"Matador  S-21",
-		"Shub Niggurath  S-21",
-		"Yog-Sothoth  S-21",
-	];
-
-	var S22 =
-	[
-		"Achluoias  S-22",
-		"Avalanche  S-22",
-		"Bedlam  S-22",
-		"Cross Over  S-22",
-		"Further  S-22",
-		"video out c  S-22",
-	];
-
-	var S23 =
-	[
-		"1950  S-23",
-		"Annihilator Method  S-23",
-		"Good Night  S-23",
-		"The Quick Brown Fox Jumps Over The Lazy Dog  S-23",
-		"Yog-Sothoth  S-23",
-	];
-
-	var S24p =
-	[
-		"Achluoias  S-24",
-		"Escape  S-24",
-		"Further  S-24",
-		"Shub Niggurath  S-24",
-	];
-
-
-	var D18 =
-	[
-		"Ai, Yurete  D-18",
-		"Anguished Unmaking  D-18",
-		"Asterios -ReEntry-  D-18",
-		"Bad &infin; End &infin; Night  D-18",
-		"Bad Apple!! feat. Nomico  D-18",
-		"Beautiful  D-18",
-		"Blaze emotion (Band version)  D-18",
-		"Break Out  D-18",
-		"Clue  D-18",
-		"Cosmical Rhythm  D-18",
-		"Creed -1st Desire-  D-18",
-		"Donatello  D-18",
-		"Feel My Happiness  D-18",
-		"Four Seasons of Loneliness  D-18",
-		"Heart Attack  D-18",
-		"Hyperion  D-18",
-		"Idealized Romance  D-18",
-		"Just Hold On (To All Fighters)  D-18",
-		"Just Kiddin  D-18",
-		"Last Rebirth  D-18",
-		"Le Grand Bleu  D-18",
-		"Magical Vacation  D-18",
-		"Meteorize  D-18",
-		"Milky Way Galaxy  D-18",
-		"Move That Body!  D-18",
-		"Pick Me @ 1561  D-18",
-		"Prime  D-18",
-		"Rave'til the earth's end  D-18",
-		"Red Snow  D-18",
-		"Ren'ai Yuusha  D-18",
-		"Rock the House  D-18",
-		"Sarabande  D-18",
-		"Selfishness  D-18",
-		"Silver Beat feat. ChisaUezono  D-18",
-		"Start On Red  D-18",
-		"Step @ 1575  D-18",
-		"Super Fantasy  D-18",
-		"Travel to Future  D-18",
-		"Up & Up @ 1538  D-18",
-		"Utsushiyo No Kaze feat. Kana  D-18",
-		"V3  D-18",
-		"Waltz of Doge  D-18",
-		"You Got Me Crazy  D-18",
-	];
-
-	var D19 =
-	[
-		"Allegro Piu Mosso  D-19",
-		"B2  D-19",
-		"Black Dragon  D-19",
-		"Bring Back the Beat  D-19",
-		"Cross Over  D-19",
-		"Energetic  D-19",
-		"Escape  D-19",
-		"Good Night  D-19",
-		"HTTP  D-19",
-		"Helix  D-19",
-		"Hellfire  D-19",
-		"Hyacinth  D-19",
-		"Infinity  D-19",
-		"Kasou Shinja  D-19",
-		"Katkoi  D-19",
-		"Kill Them!  D-19",
-		"Latino Virus  D-19",
-		"Matador  D-19",
-		"Mitotsudaira  D-19",
-		"Moon Light Dance  D-19",
-		"Overblow2  D-19",
-		"Queen of the Red  D-19",
-		"Redline  D-19",
-		"Robot Battle  D-19",
-		"Seize My Day  D-19",
-		"Setsuna Trip  D-19",
-		"Stardust Overdrive  D-19",
-		"Sudden Romance (PIU Edit)  D-19",
-		"The Revolution  D-19",
-		"Tritium  D-19",
-		"Visual Dream II (In Fiction)  D-19",
-	];
-
-	var D20 =
-	[
-		"Allegro Furioso  D-20",
-		"Amphitryon  D-20",
-		"Annihilator Method  D-20",
-		"Arcana Force  D-20",
-		"Awakening  D-20",
-		"BSPower Explosion  D-20",
-		"Bedlam  D-20",
-		"Clue  D-20",
-		"Cross Time  D-20",
-		"Force of Ra  D-20",
-		"Heart Attack  D-20",
-		"Hestia  D-20",
-		"Hyperion  D-20",
-		"Keep On!  D-20",
-		"Le Grand Bleu  D-20",
-		"Nemesis  D-20",
-		"Passing Rider  D-20",
-		"Prime  D-20",
-		"Rave'til the earth's end  D-20",
-		"Red Swan  D-20",
-		"Redline  D-20",
-		"Ren'ai Yuusha  D-20",
-		"Scorpion King  D-20",
-		"Silhouette Effect  D-20",
-		"Sora no Shirabe  D-20",
-		"Start On Red  D-20",
-		"Step @ 1575  D-20",
-		"Sugar Conspiracy Theory  D-20",
-		"The Festival of Ghost2 (Sneak)  D-20",
-		"Time Attack <Blue>  D-20",
-		"Up & Up @ 1538  D-20",
-		"Waltz of Doge  D-20",
-	];
-
-	var D21 =
-	[
-		"Death Moon  D-21",
-		"Feel My Happiness  D-21",
-		"God Mode feat. skizzo  D-21",
-		"Houkago Stride  D-21",
-		"Travel to Future  D-21",
-		"V3  D-21",
-	];
-
-	var D22 =
-	[
-		"Anguished Unmaking  D-22",
-		"Donatello  D-22",
-		"Escape  D-22",
-		"Further  D-22",
-		"Good Night  D-22",
-		"Just Hold On (To All Fighters)  D-22",
-		"Leakage Voltage  D-22",
-		"Point Zero One  D-22",
-		"Seize My Day  D-22",
-	];
-
-	var D23 =
-	[
-		"BSPower Explosion  D-23",
-		"Bad &infin; End &infin; Night  D-23",
-		"Chase Me  D-23",
-		"Creed -1st Desire-  D-23",
-		"Cross Over  D-23",
-		"HTTP  D-23",
-		"Hellfire  D-23",
-		"Kasou Shinja  D-23",
-		"Requiem  D-23",
-		"Shub Niggurath  D-23",
-		"Travel to Future  D-23",
-		"video out c  D-23",
-	];
-
-	var D24p =
-	[
-		"A Site De La Rue  D-24",
-		"Achluoias  D-24",
-		"Annihilator Method  D-24",
-		"Bedlam  D-24",
-		"Good Night  D-24",
-		"Imprinting  D-24",
-		"Sarabande  D-24",
-		"The Quick Brown Fox Jumps Over The Lazy Dog  D-24",
-		"Trashy Innocence  D-24",
-		"V3  D-24",
-
-		"1950  D-25",
-		"Further  D-25",
-		"Just Hold On (To All Fighters)  D-25",
-		"Yog-Sothoth  D-25",
-
-		"Achluoias  D-26",
-		"Shub Niggurath  D-26",
-	];
-
-	var male = [].concat( S21, D21, S22, D22, S23, D23, S24p, D24p );
-	var female = male.concat( D18, S19, D19, S20, D20 );
-
-	Tag( tracklist, "WPT-2019.male", male );
-	Tag( tracklist, "WPT-2019.female", female );
-	// AddTags( "Arirang  S-18", DRILLS +
-}
-
-
-function ApplyTagsForEPF2019( tracklist )
-{
-	var common =
-	[
-		"Arcana Force  D-17",
-		"Awakening  D-17",
-		"Black Dragon  D-17",
-		"Cross Time  D-17",
-		"Death Moon  D-17",
-		"Further  D-17",
-		"God Mode feat. skizzo  D-17",
-		"Keep On!  D-17",
-		"Super Stylin'  D-17",
-		"The Festival of Ghost2 (Sneak)  D-17",
-		"Twist of Fate (feat. Ruriling)  D-17",
-
-		"Bedlam  S-18",
-		"Clue  S-18",
-		"Cross Over  S-18",
-		"Cross Time  S-18",
-		"Escape  S-18",
-		"Further  S-18",
-		"God Mode feat. skizzo  S-18",
-		"Gothique Resonance  S-18",
-		"Heart Attack  S-18",
-		"Helix  S-18",
-		"Hellfire  S-18",
-		"Hyperion  S-18",
-		"Infinity  S-18",
-		"Kasou Shinja  S-18",
-		"Keep On!  S-18",
-		"Kill Them!  S-18",
-		"Le Grand Bleu  S-18",
-		"Magical Vacation  S-18",
-		"Overblow2  S-18",
-		"Redline  S-18",
-		"Seize My Day  S-18",
-		"Silver Beat feat. ChisaUezono  S-18",
-		"The Festival of Ghost2 (Sneak)  S-18",
-		"Time Attack <Blue>   S-18",
-		"Visual Dream II (In Fiction)  S-18",
-
-		"Anguished Unmaking  D-18",
-		"Asterios -ReEntry-  D-18",
-		"Beautiful  D-18",
-		"Break Out  D-18",
-		"Chase Me  D-18",
-		"Clue  D-18",
-		"Donatello  D-18",
-		"Heart Attack  D-18",
-		"Hyperion  D-18",
-		"Just Kiddin  D-18",
-		"Last Rebirth  D-18",
-		"Le Grand Bleu  D-18",
-		"Magical Vacation  D-18",
-		"Pick Me @ 1561  D-18",
-		"Rave'til the earth's end  D-18",
-		"Sarabande  D-18",
-		"Shub Niggurath  D-18",
-		"Silver Beat feat. ChisaUezono  D-18",
-		"Start On Red  D-18",
-		"Step @ 1575  D-18",
-		"Travel to Future  D-18",
-		"Up & Up (Produced by AWAL)  D-18",
-		"Utsushiyo No Kaze feat. Kana  D-18",
-		"V3  D-18",
-		"Waltz of Doge  D-18",
-
-		"A Site De La Rue  S-19",
-		"Asterios -ReEntry-  S-19",
-		"Awakening  S-19",
-		"BSPower Explosion  S-19",
-		"Break Out  S-19",
-		"Bring Back the Beat  S-19",
-		"Death Moon  S-19",
-		"Fallen Angel  S-19",
-		"Helix  S-19",
-		"Nakakapagpabagabag  S-19",
-		"Passing Rider  S-19",
-		"Rave'til the earth's end  S-19",
-		"Sarabande  S-19",
-		"Shub Niggurath  S-19",
-		"Start On Red  S-19",
-		"Super Capriccio  S-19",
-		"The Quick Brown Fox Jumps Over The Lazy Dog  S-19",
-		"Travel to Future  S-19",
-		"Twist of Fate (feat. Ruriling)  S-19",
-		"Waltz of Doge  S-19",
-
-		"A Site De La Rue  D-19",
-		"Black Dragon  D-19",
-		"Bring Back the Beat  D-19",
-		"Cross Over  D-19",
-		"Energetic  D-19",
-		"Escape  D-19",
-		"Good Night  D-19",
-		"HTTP  D-19",
-		"Helix  D-19",
-		"Hellfire  D-19",
-		"Infinity  D-19",
-		"Kasou Shinja  D-19",
-		"Kill Them!  D-19",
-		"Moon Light Dance  D-19",
-		"Overblow2  D-19",
-		"Redline  D-19",
-		"Seize My Day  D-19",
-		"Super Capriccio  D-19",
-		"Tritium  D-19",
-		"Visual Dream II (In Fiction)  D-19",
-
-		"Allegro Furioso  S-20",
-		"Arcana Force  S-20",
-		"Black Dragon  S-20",
-		"Chase Me  S-20",
-		"God Mode feat. skizzo  S-20",
-		"Good Night  S-20",
-		"Gothique Resonance  S-20",
-		"Kasou Shinja  S-20",
-		"Le Grand Bleu  S-20",
-		"Sarabande  S-20",
-		"The Festival of Ghost2 (Sneak)  S-20",
-		"Tritium  S-20",
-		"Utsushiyo No Kaze feat. Kana  S-20",
-	];
-
-	Tag( "EPF-2019", common );
-}
-
-
-function ApplyTagsForIPF2019( tracklist )
-{
-	var male =
-	[
-		"1949  S-21",
-		"F(R)IEND  S-21",
-		"Heart Rabbit Coaster  S-21",
-		"King of Sales  S-21",
-		"Loki  S-21",
-		"Nihilism - Another Ver.-  S-21",
-		"Nyarlathotep  S-21",
-		"Wedding Crashers  S-21",
-		"Xeroize  S-21",
-		"You and I  S-21",
-
-		"Can-Can ~Orpheus in the Party Mix~  S-22",
-		"Club Night  S-22",
-		"Conflict  S-22",
-		"Skeptic  S-22",
-
-		"1949  S-23",
-		"Dement ~After Legend~  S-23",
-		"F(R)IEND  S-23",
-		"Heart Rabbit Coaster  S-23",
-		"Nyarlathotep  S-23",
-
-		"Skeptic  S-24",
-		"Xeroize  S-24",
-
-		"Conflict  D-24",
-
-		"F(R)IEND  D-25",
-		"Heart Rabbit Coaster  D-25",
-		"Nyarlathotep  D-25",
-		"Skeptic  D-25",
-		"Xeroize  D-25",
-		"You and I  D-25",
-
-		"1949  D-26",
-		"Dement ~After Legend~  D-26",
-
-		"1949  D-28",
-	];
-	Tag( tracklist, "IPF-2019.male", male );
-
-	var female = [
-		"%X (Percent X)  S-19",
-		"Black Swan  S-19",
-		"Can-Can ~Orpheus in the Party Mix~  S-19",
-		"Conflict  S-19",
-		"F(R)IEND  S-19",
-		"I Want U  S-19",
-		"Imagination  S-19",
-		"Loki  S-19",
-
-		"8 6  S-20",
-		"Fires of Destiny  S-20",
-		"Ice of Death  S-20",
-		"Kimchi Fingers  S-20",
-		"Le Grand Rouge  S-20",
-		"Papasito (ft. KuTiNA)  S-20",
-		"Poseidon  S-20",
-		"Tantanmen  S-20",
-		"Vanish  S-20",
-
-		"1949  D-21",
-		"8 6  D-21",
-		"Club Night  D-21",
-		"Conflict  D-21",
-		"F(R)IEND  D-21",
-		"Good Bye  D-21",
-		"I Want U  D-21",
-		"Ice of Death  D-21",
-		"Imagination  D-21",
-		"Kimchi Fingers  D-21",
-		"Papasito (ft. KuTiNA)  D-21",
-		"Time for the Moon Night  D-21",
-
-		"Black Swan  D-22",
-		"Fires of Destiny  D-22",
-		"Heart Rabbit Coaster  D-22",
-		"Le Grand Rouge  D-22",
-		"Poseidon  D-22",
-		"Skeptic  D-22",
-		"Vanish  D-22",
-		"Wedding Crashers  D-22",
-		"Xeroize  D-22",
-
-		"Can-Can ~Orpheus in the Party Mix~  D-23",
-		"King of Sales  D-23",
-		"Nihilism - Another Ver.-  D-23",
-		"Nyarlathotep  D-23",
-		"Tantanmen  D-23",
-	];
-	Tag( tracklist, "IPF-2019.female", female );
-}
-
-
-//initFuncs.push( ApplyTagsForIPF2019 );

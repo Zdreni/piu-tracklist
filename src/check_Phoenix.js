@@ -1,11 +1,10 @@
 "use strict";
 
 
-import { initFuncs } from './tracklist.js';
-import { CheckInitialTracklistOfNewMix } from './check.js';
+//import { CheckInitialTracklistOfNewMix } from './check.js';
 
 
-var checkPhoenix = {
+export const checkPhoenixTable = {
 
 // verified according to https://www.youtube.com/watch?v=kbqvvlw9ED4,
 // track order is sorted as in "all tunes"
@@ -547,6 +546,3 @@ var checkPhoenix = {
 "17__Halcyon":  "S12 S18 S20 S22  D12 D20 D24",
 
 };
-
-
-initFuncs.push( () => CheckInitialTracklistOfNewMix( "Phoenix", checkPhoenix ) );

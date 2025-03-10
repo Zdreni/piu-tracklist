@@ -222,10 +222,14 @@ function SortCharts( a, b )
 
 function GetTracklistChartTexts( mixName, trackID )
 {
-	if( ! tracklist[ trackID ]  ||  ! tracklist[ trackID ].charts[ mixName ] )
-		throw new Error( `${mixName} check:  can't find track with id '${trackID}'` );
+	if( ! tracklist[ trackID ] )
+		throw new Error( `Сan't find track with id '${trackID}'` );
 
-	return tracklist[ trackID ].charts[ mixName ].filter( ch => ! ch.fromPatchIndex ).map( ch => ch.text.replace( "Dp??", "CoOp" ) ).sort( SortCharts );
+	const chartInstance = tracklist[ trackID ].charts[ mixName ];
+	if( ! chartInstance )
+		throw new Error( ` check:  Сan't find ${mixName} chart on track '${trackID}'` );
+
+	return chartInstance.filter( ch => ! ch.fromPatchIndex ).map( ch => ch.text.replace( "Dp??", "CoOp" ) ).sort( SortCharts );
 }
 
 
@@ -280,10 +284,13 @@ export function CheckInitialTracklistOfNewMix( mixName, checkTable )
 		}
 		catch( exc )
 		{
+			console.log(exc);
 			exceptions.push( exc );
 		}
 	}
 
+	//if( exceptions.length > 0 )
+	//	throw new Error( exceptions.join( '<br>\n' ) );
 	if( exceptions.length > 0 )
-		throw new Error( exceptions.join( '<br>\n' ) );
+		throw new Error( `Found ${exceptions.length} exceptions` );
 }

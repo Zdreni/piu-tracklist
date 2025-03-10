@@ -228,7 +228,10 @@ export function FindTrack( tracklist, idOrTitle )
 	if( track )
 		return track;
 
+	throw new Error( `Can't find track '${idOrTitle}'` );
+/*	
 	var normTitle = Normalized( idOrTitle );
+	console.log(tracklist);
 	var result = _.filter( tracklist, function( item, key )
 		{
 			// this match not working well for [FULL] tracks, 'cause their title is identical to arcade title
@@ -239,7 +242,9 @@ export function FindTrack( tracklist, idOrTitle )
 		throw new Error( `Can't find track '${idOrTitle}'` );
 	else if( result.length > 1 )
 		throw new Error( `Several tracks with name '${idOrTitle}' found, specify <id> to find specific one` );
+
 	return result[ 0 ];
+*/
 }
 
 
@@ -379,8 +384,37 @@ export function FindChart( track, chartDescr, beforeMixID )
 		console.log(e);
 		throw new Error( `Can't find ${track.id} chart '${chartDescr}' because of ${e}` );
 	}
+}
 
-	//throw new Error( "Can't find " + track.id + " chart '" + chartDescr + "'" );
+
+export function FindSharedChartByDescr( tracklist, descr )
+{
+	const descrArr = descr.split( /\s+/ );
+	if( descrArr.length != 2 )
+		throw new Error(`'$descr' is invalid description of shared chart`);
+
+	const track = FindTrack( tracklist, descrArr[ 0 ] );
+
+	const resultIndexes = [];
+	for( var mixID of mixesOrder )
+	{
+		if( track.charts[ mixID ] )
+		{
+			var chart = _.findWhere( track.charts[ mixID ], { text: descrArr[ 1 ] } );
+			if( chart  &&  ! resultIndexes.includes( chart.shared.index ) )
+				resultIndexes.push( chart.shared.index );
+		}
+	}
+
+	if( resultIndexes.length == 0 )
+		throw new Error(`Can't find chart ${ descrArr[ 1 ] } in track ${ descrArr[ 0 ] }`);
+
+	if( resultIndexes.length > 1 )
+	{
+		throw new Error(`Chart ${ descrArr[ 1 ] } in track ${ descrArr[ 0 ] } is ambiguous`);
+	}
+
+	return track.charts[ resultIndexes[ 0 ] ];
 }
 
 
@@ -568,6 +602,7 @@ var chartFilter = {
 	}
 }
 
+/*
 export const initFuncs = []
 
 export function initTracklist()
@@ -576,3 +611,4 @@ export function initTracklist()
 		f();
 }
 //chartFilter.ReadSettings();
+*/
