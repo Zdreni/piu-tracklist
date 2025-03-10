@@ -1,10 +1,10 @@
 "use strict";
 
 
-//import { CheckInitialTracklistOfNewMix } from './check.js';
+import { CheckInitialTracklistOfNewMix } from './check.js';
 
 
-export const checkPhoenixTable = {
+const checkPhoenixTable = {
 
 // verified according to https://www.youtube.com/watch?v=kbqvvlw9ED4,
 // track order is sorted as in "all tunes"
@@ -544,5 +544,10 @@ export const checkPhoenixTable = {
 "17__Pneumonoultramicroscopicsilicovolcanoconiosis":  "S12 S16 S19  D22",
 "17__Altale":  "S2 S6 S9 S12 S15 S18 S21  D6 D16 D19 D23",
 "17__Halcyon":  "S12 S18 S20 S22  D12 D20 D24",
-
 };
+
+
+export function CheckInitialTracklistOfPhoenix()
+{
+	CheckInitialTracklistOfNewMix( "Phoenix", checkPhoenixTable );
+}

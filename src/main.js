@@ -7,17 +7,16 @@ import {
 	ARCADE, SPECIAL } from './tracklist.js';
 import { tracklist, PreprocessTracklist } from './tracklist_src.js';
 
-import { ApplyUnlocks } from './tracklist_unlocks.js';
 
-import { CheckInitialTracklistOfNewMix } from './check.js';
 // #include("src/check_Exceed2_Zero.js")
 // #include("src/check_NX.js")
 // #include("src/check_NX2_NXA.js")
-import { checkXXTable } from './check_XX.js';
-import { checkPhoenixTable } from './check_Phoenix.js';
+import { CheckInitialTracklistOfXX } from './check_XX.js';
+import { CheckInitialTracklistOfPhoenix } from './check_Phoenix.js';
 
+
+import { ApplyUnlocks } from './tracklist_unlocks.js';
 import { ApplyBPMs } from './tracklist_bpms.js';
-// #include("src/tracklist_level_estimations.js")
 import { ApplyTags } from './tracklist_tags.js';
 import { AddNotes } from './tracklist_notes.js';
 
@@ -449,8 +448,9 @@ console.log(args);
 
 
 PreprocessTracklist();
-CheckInitialTracklistOfNewMix( "XX", checkXXTable );
-CheckInitialTracklistOfNewMix( "Phoenix", checkPhoenixTable );
+
+CheckInitialTracklistOfXX();
+CheckInitialTracklistOfPhoenix();
 
 ApplyUnlocks( tracklist );
 

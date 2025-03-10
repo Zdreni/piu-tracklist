@@ -1,7 +1,10 @@
 "use strict";
 
 
-export const checkXXTable = {
+import { CheckInitialTracklistOfNewMix } from './check.js';
+
+
+const checkXXTable = {
 
 "16__Kitty_Cat":  "S1 S3 S5 S14 D6 D15 CoOp(x2)",
 "16__Fly_High":  "S1 S3 S5 S9 S15 S18 D10 D16 D19 Dp3",
@@ -446,6 +449,10 @@ export const checkXXTable = {
 "02__Extravaganza":  "S4 S8 S10 S12 S17 S21  D13 D18 D20",
 "02__Repeatorment_Remix":  "S7 S18  D8",
 "01__Another_Truth":  "S3 S5 S8 S16  D7 D17 D18 D21",
-
 };
 
+
+export function CheckInitialTracklistOfXX()
+{
+	CheckInitialTracklistOfNewMix( "XX", checkXXTable );
+}
