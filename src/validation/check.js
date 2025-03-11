@@ -2,27 +2,13 @@
 
 
 import _ from 'underscore';
-import { mixesOrder, firstNewMixIndex } from './tracklist.js';
-import { tracklist } from './tracklist_src.js';
+import { mixesOrder, firstNewMixIndex } from '../tracklist.js';
+import { tracklist } from '../tracklist_src.js';
 
 
 //var oldMixes = [ "Exceed", "Exceed2", "Zero", "NX", "NX2", "NXA" ];
 const oldMixes = mixesOrder.slice(0, firstNewMixIndex );  // NXA..Exceed
 
-
-/*
-function ASSERT( condition, descr )
-{
-	console.assert( condition );
-
-	if( ! condition )
-	{
-		console.log( descr );
-		for( var i = 2;  i < arguments.length;  ++i )
-			console.log( " > '" + arguments[i] + "'" );
-	}
-}
-*/
 
 function FindTrackInList( list, title, artist )
 {

@@ -11,10 +11,10 @@ import { tracklist, PreprocessTracklist } from './tracklist_src.js';
 // #include("src/check_Exceed2_Zero.js")
 // #include("src/check_NX.js")
 // #include("src/check_NX2_NXA.js")
-import { CheckInitialTracklistOfXX } from './check_XX.js';
-import { CheckInitialTracklistOfPhoenix } from './check_Phoenix.js';
+import { CheckInitialTracklistOfXX } from './validation/check_XX.js';
+import { CheckInitialTracklistOfPhoenix } from './validation/check_Phoenix.js';
 
-
+	
 import { ApplyUnlocks } from './tracklist_unlocks.js';
 import { ApplyBPMs } from './tracklist_bpms.js';
 import { ApplyTags } from './tracklist_tags.js';
