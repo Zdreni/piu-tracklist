@@ -14,11 +14,25 @@ function Tag( tracklist, chartDescr, tagStr )
 
 export function ApplyTags( t )
 {
+	/* #memorize
+		08__Come_to_Me S17
+		07__Miss_s_Story S19
+		17__Stager S17 S19 D18 D20
+		14__Break_It_Down D21
+		15__Twist_of_Fate S19 D21
+		15__Cross_Time D22
+		17__Chaos_Again S21
+		11__Everybody_Got_2_Know S21
+		14__Rock_the_House__SHORT S18
+		0D__Ugly_Dee S17
+		07__Dance_With_Me D18
+	*/
+
 	//#title.misc "Perfect breaker" '15__Gargoyle__FULL  S21' "Get 444,444 points or less"
 	//#title.misc "Human metronome" [Yeo rae a S1] 180,000 Point or less
 
-	//'No skills no pump'  [Moonlight D21] SSS+ Grade or more
-	//PUMP IS A SENSE  [Love is a Danger Zone D21] SSS+ Grade or more
+	//'No skills no pump'  [0C__Moonlight D21] SSS+ Grade or more
+	//PUMP IS A SENSE  [07__Love_is_a_Danger_Zone D21] SSS+ Grade or more
 
 	// B.P.M FOLLOWER
 	// [Beethoven Virus D18] Perfect 927 / Great 1 / Miss 2 / Max Combo 747
@@ -26,130 +40,130 @@ export function ApplyTags( t )
 	// [Waltz of Doge D20] Max Combo of 888
 	// DOGE MAJOR STOCKHOLDER
 
-	// [1949 D28] ROUGH GAME or more
+	// [16__1949 D28] ROUGH GAME or more
 	// [XX] Double Boss breaker
 
-	// [ERRORCODE: 0 S25] ROUGH GAME or more
+	// [16__Errorcode_0 S25] ROUGH GAME or more
 	// [XX] Single Boss breaker
 
-	// [Shub Sothoth D27] ROUGH GAME or more
+	// [15__Shub_Sothoth D27] ROUGH GAME or more
 	// [PRIME2] Double Boss breaker
 
-	// [Shub Sothoth S25] ROUGH GAME or more
+	// [15__Shub_Sothoth S25] ROUGH GAME or more
 	// [PRIME2] Single Boss breaker
 
-	// [Paradoxx D28] ROUGH GAME or more
+	// [14__Paradoxx D28] ROUGH GAME or more
 	// [PRIME] Double Boss breaker
 
-	// [Paradoxx S26] ROUGH GAME or more
+	// [14__Paradoxx S26] ROUGH GAME or more
 	// [PRIME] Single Boss breaker
 
-	// [Ignis Fatuus D25] ROUGH GAME or more
+	// [13__Ignis_Fatuus D25] ROUGH GAME or more
 	// [FIESTA2] Double Boss breaker
 
-	// [Ignis Fatuus S22] ROUGH GAME or more
+	// [13__Ignis_Fatuus S22] ROUGH GAME or more
 	// [FIESTA2] Single Boss breaker
 
-	// [Vacuum Cleaner D26] ROUGH GAME or more
+	// [11__Vacuum_Cleaner D26] ROUGH GAME or more
 	// [FIESTA EX] Double Boss breaker
 
-	// [Vacuum Cleaner S25] ROUGH GAME or more
+	// [11__Vacuum_Cleaner S25] ROUGH GAME or more
 	// [FIESTA EX] Single Boss breaker
 
-	// [Vacuum D25] ROUGH GAME or more
+	// [10__Vacuum D25] ROUGH GAME or more
 	// [FIESTA] Double Boss breaker
 
-	// [Vacuum S23] ROUGH GAME or more
+	// [10__Vacuum S23] ROUGH GAME or more
 	// [FIESTA] Single Boss breaker
 
-	// [Final Audition Ep. 2-X D24] ROUGH GAME or more
+	// [0F__Final_Audition_ep_2_X D24] ROUGH GAME or more
 	// [NXA] Double Boss breaker
 
-	// [Final Audition Ep. 2-X S23] ROUGH GAME or more
+	// [0F__Final_Audition_ep_2_X S23] ROUGH GAME or more
 	// [NXA] Single Boss breaker
 
-	// [Banya-P Guitar RemixD24] ROUGH GAME or more
+	// [0E__BanYa_P_Guitar_Remix D24] ROUGH GAME or more
 	// [NX2] Double Boss breaker
 
-	// [Banya-P Guitar Remix S22] ROUGH GAME or more
+	// [0E__BanYa_P_Guitar_Remix S22] ROUGH GAME or more
 	// [NX2] Single Boss breaker
 
-	// [BEMERA D26] ROUGH GAME or more
+	// [0D__Bemera D26] ROUGH GAME or more
 	// [NX] Double Boss breaker
 
-	// [BEMERA S24] ROUGH GAME or more
+	// [0D__Bemera S24] ROUGH GAME or more
 	// [NX] Single Boss breaker
 
-	// [Love is a Danger Zone pt. 2 D24] ROUGH GAME or more
+	// [0C__Love_is_a_Danger_Zone_2 D24] ROUGH GAME or more
 	// [ZERO] Double Boss breaker
 
-	// [Love is a Danger Zone pt. 2 S22] ROUGH GAME or more
+	// [0C__Love_is_a_Danger_Zone_2 S22] ROUGH GAME or more
 	// [ZERO] Single Boss breaker
 
-	// [Canon D D23] ROUGH GAME or more
+	// [0B__Canon_D D23] ROUGH GAME or more
 	// [EXCEED2] Double Boss breaker
 
-	// [Canon D S20] ROUGH GAME or more
+	// [0B__Canon_D S20] ROUGH GAME or more
 	// [EXCEED2] Single Boss breaker
 
-	// [Dignity D24] ROUGH GAME or more
+	// [0A__Dignity D24] ROUGH GAME or more
 	// [EXCEED] Double Boss breaker
 
-	// [Dignity S21] ROUGH GAME or more
+	// [0A__Dignity S21] ROUGH GAME or more
 	// [EXCEED] Single Boss breaker
 
-	// [Bee S17] ROUGH GAME or more
+	// [08__Bee S17] ROUGH GAME or more
 	// [THE PREX3] Boss breaker
 
-	// [Love is a Danger Zone S17] ROUGH GAME or more
+	// [07__Love_is_a_Danger_Zone S17] ROUGH GAME or more
 	// [THE REBIRTH] Boss breaker
 
-	// [Radetzky Can Can D18] ROUGH GAME or more
+	// [09__Can_Can D18] ROUGH GAME or more
 	// [EXTRA] Boss breaker
 
-	// [Slam S18] ROUGH GAME or more
+	// [05__Slam S18] ROUGH GAME or more
 	// [Perfect Collection] Boss breaker
 
-	// [Mr. Larpus S15] ROUGH GAME or more
+	// [04__Mr_Larpus S15] ROUGH GAME or more
 	// [The O.B.G SE] Boss breaker
 
-	// [Turkey March S12] ROUGH GAME or more
+	// [03__Turkey_March S12] ROUGH GAME or more
 	// [The O.B.G] Boss breaker
 
-	// [Extravaganza S11] ROUGH GAME or more
+	// [02__Extravaganza S11] ROUGH GAME or more
 	// [The 2nd] Boss breaker
 
-	// [Another Truth S6] ROUGH GAME or more
+	// [01__Another_Truth S6] ROUGH GAME or more
 	// [The 1st] Boss breaker
 
-	// [Phalanx D24] SSS Grade or more
+	// [16__Phalanx_RS2018 D24] SSS Grade or more
 	// [BRACKET] Lv.10
 
-	// [Scorpion King D23] SSS Grade or more
+	// [14__Scorpion_King D23] SSS Grade or more
 	// [BRACKET] Lv.9
 
-	// [Pop Sequence D23] SSS Grade or more
+	// [16__Pop_Sequence D23] SSS Grade or more
 	// [BRACKET] Lv.8
 
-	// [What Happened D23] SSS Grade or more
+	// [11__What_Happened D23] SSS Grade or more
 	// [BRACKET] Lv.7
 
-	// [Meteo5cience D22] SSS Grade or more
+	// [16__Meteo5cience D22] SSS Grade or more
 	// [BRACKET] Lv.6
 
-	// [Phalanx S22] SSS Grade or more
+	// '16__Phalanx_RS2018 S22' SSS Grade or more
 	// [BRACKET] Lv.5
 
-	// [What Happened S21] SSS Grade or more
+	// '11__What_Happened S21' SSS Grade or more
 	// [BRACKET] Lv.4
 
-	// [Meteo5cience S21] SSS Grade or more
+	// '16__Meteo5cience S21' SSS Grade or more
 	// [BRACKET] Lv.3
 
-	// [Mad5cience S20] SSS Grade or more
+	// [14__Mad5cience S20] SSS Grade or more
 	// [BRACKET] Lv.2
 
-	// [Allegro furioso D20] SSS Grade or more
+	// [15__Allegro_Furioso D20] SSS Grade or more
 	// [BRACKET] Lv.1
 
 	Tag( t, '14__Imprinting D24', "SSS to get #title.half 10" )
