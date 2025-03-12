@@ -26,6 +26,13 @@ export function ApplyTags( t )
 		14__Rock_the_House__SHORT S18
 		0D__Ugly_Dee S17
 		07__Dance_With_Me D18
+		0F__Uprock S17
+		16__Love_Scenario S17 D19
+		14__Bad_Apple S15
+		0B__Deja_Vu aNM
+		14__NoNoNo Sp15 Dp15
+		16_Pop_Sequence Sp18 Dp22
+		13__Nobody S15 D17
 	*/
 
 	//#title.misc "Perfect breaker" '15__Gargoyle__FULL  S21' "Get 444,444 points or less"
