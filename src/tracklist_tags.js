@@ -7,8 +7,7 @@ import { AddSharedChartNote } from './tracklist_notes.js'
 
 function Tag( tracklist, chartDescr, tagStr )
 {
-	const shared = FindSharedChartByDescr( tracklist, chartDescr );
-	AddSharedChartNote( shared, 'info', tagStr );
+	AddSharedChartNote( FindSharedChartByDescr( tracklist, chartDescr ), 'info', tagStr );
 }
 
 
@@ -49,7 +48,7 @@ export function ApplyTags( t )
 
 	function PHOENIX_BOSS_TITLE( chart, details )
 	{
-		Tag( t, chart, `Pass to get #phoenix.title.bossbreaker of ${details} Boss breaker` );
+		Tag( t, chart + ".Phoenix", `Pass to get #phoenix.title.bossbreaker of ${details} Boss breaker` );
 	}
 
 	PHOENIX_BOSS_TITLE( '01__Another_Truth  S6', '[The 1st]' )
@@ -89,7 +88,7 @@ export function ApplyTags( t )
 	function PHOENIX_SKILL_TITLE( category, charts )
 	{
 		for( const [index, chart] of charts.entries() )
-			Tag( t, chart, `SSS to get #phoenix.title.${category} (${index+1})` );
+			Tag( t, chart + ".Phoenix", `SSS to get #phoenix.title.${category} (${index+1})` );
 	}
 
 
@@ -112,7 +111,7 @@ export function ApplyTags( t )
 		'11__Butterfly  D17',
 		'15__Shub_Niggurath  D18',
 		'14__Super_Fantasy  D18',
-		//'0C__Phantom  D19',
+		'0C__Phantom  D19',
 		'15__Utsushiyo_No_Kaze  D20',
 		'0D__Witch_Doctor_1  D21',
 		'15__Redline  D22',
@@ -144,7 +143,7 @@ export function ApplyTags( t )
 		'11__Overblow  S20',
 		'10__Sorceress_Elise  S21',
 		'14__Rock_the_House  D22',
-		//'0C__Witch_Doctor  D23',
+		'0C__Witch_Doctor  D23',
 		'0D__Wi_Ex_Doc_Va  D24'
 	] )
 

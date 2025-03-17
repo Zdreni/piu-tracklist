@@ -387,32 +387,42 @@ export function FindChart( track, chartDescr, beforeMixID )
 }
 
 
-export function FindSharedChartByDescr( tracklist, descr )
+export function FindSharedChartByDescr( tracklist, chartDescr )
 {
-	const descrArr = descr.split( /\s+/ );
+	const descrArr = chartDescr.split( /\s+/ );
 	if( descrArr.length != 2 )
-		throw new Error(`'$descr' is invalid description of shared chart`);
+		throw new Error(`'${chartDescr}' is invalid description of shared chart`);
 
-	const track = FindTrack( tracklist, descrArr[ 0 ] );
+	const trackID = descrArr[ 0 ];
+	const chartLabelAndMix = descrArr[ 1 ];
+
+	const chartLabelArr = chartLabelAndMix.split( '.' );
+	if( chartLabelArr.length > 2 )
+		throw new Error(`'${chartLabel}' is invalid label`);
+
+	const chartLabel = chartLabelArr[ 0 ];
+	const mixLabel = chartLabelArr.length > 1  ?  chartLabelArr[ 1 ]  :  '';
+	const mixes = mixLabel !== ''  ?  [ mixLabel ]  :  mixesOrder;
+	//const mixes = chartLabelArr.length > 1  ?  [ chartLabelArr[ 1 ] ]  :  mixesOrder;
+
+	const track = FindTrack( tracklist, trackID );
 
 	const resultIndexes = [];
-	for( var mixID of mixesOrder )
+	for( var mixID of mixes )
 	{
 		if( track.charts[ mixID ] )
 		{
-			var chart = _.findWhere( track.charts[ mixID ], { text: descrArr[ 1 ] } );
+			var chart = _.findWhere( track.charts[ mixID ], { text: chartLabel } );
 			if( chart  &&  ! resultIndexes.includes( chart.shared.index ) )
 				resultIndexes.push( chart.shared.index );
 		}
 	}
 
 	if( resultIndexes.length == 0 )
-		throw new Error(`Can't find chart ${ descrArr[ 1 ] } in track ${ descrArr[ 0 ] }`);
+		throw new Error(`Can't find chart ${chartLabelAndMix} in track ${trackID}`);
 
 	if( resultIndexes.length > 1 )
-	{
-		throw new Error(`Chart ${ descrArr[ 1 ] } in track ${ descrArr[ 0 ] } is ambiguous`);
-	}
+		throw new Error(`Chart ${chartLabelAndMix} in track ${trackID} is ambiguous`);
 
 	return track.charts[ resultIndexes[ 0 ] ];
 }
