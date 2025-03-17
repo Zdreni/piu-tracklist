@@ -35,11 +35,11 @@ export function ApplyTags( t )
 		13__Nobody S15 D17
 	*/
 
-	//#title.misc "Perfect breaker" '15__Gargoyle__FULL  S21' "Get 444,444 points or less"
-	//#title.misc "Human metronome" [Yeo rae a S1] 180,000 Point or less
+	//Tag( t, '13__Yeo_Rae_A  S1', "Pass with score <= 180,000 to get #phoenix.title 'Human metronome'" );
+	//Tag( t, '15__Gargoyle__FULL  S21', "Pass with score <= 444,444 to get #phoenix.title 'Perfect breaker'" );
 
-	//'No skills no pump'  [0C__Moonlight D21] SSS+ Grade or more
-	//PUMP IS A SENSE  [07__Love_is_a_Danger_Zone D21] SSS+ Grade or more
+	Tag( t, '0C__Moonlight  D21', "SSS+ to get #phoenix.title 'No skills no pump'" );
+	Tag( t, '07__Love_is_a_Danger_Zone  D21', "SSS+ to get #phoenix.title 'PUMP IS A SENSE'" );
 
 	// B.P.M FOLLOWER
 	// [Beethoven Virus D18] Perfect 927 / Great 1 / Miss 2 / Max Combo 747
@@ -47,262 +47,134 @@ export function ApplyTags( t )
 	// [Waltz of Doge D20] Max Combo of 888
 	// DOGE MAJOR STOCKHOLDER
 
-	// [16__1949 D28] ROUGH GAME or more
-	// [XX] Double Boss breaker
+	function PHOENIX_BOSS_TITLE( chart, details )
+	{
+		Tag( t, chart, `Pass to get #phoenix.title.bossbreaker of ${details} Boss breaker` );
+	}
+
+	PHOENIX_BOSS_TITLE( '01__Another_Truth  S6', '[The 1st]' )
+	PHOENIX_BOSS_TITLE( '02__Extravaganza  S11', '[The 2nd]' )
+	PHOENIX_BOSS_TITLE( '03__Turkey_March  S12', '[The O.B.G]' )
+	PHOENIX_BOSS_TITLE( '04__Mr_Larpus  S15', '[The O.B.G SE]' )
+	PHOENIX_BOSS_TITLE( '05__Slam  S18', '[Perfect Collection]' )
+	PHOENIX_BOSS_TITLE( '09__Can_Can  D18', '[EXTRA]' )
+	PHOENIX_BOSS_TITLE( '07__Love_is_a_Danger_Zone  S17', '[THE REBIRTH]' )
+	PHOENIX_BOSS_TITLE( '08__Bee  S17', '[THE PREX3]' )
+	PHOENIX_BOSS_TITLE( '0A__Dignity  S21', '[EXCEED] Single' )
+	PHOENIX_BOSS_TITLE( '0A__Dignity  D24', '[EXCEED] Double' )
+	PHOENIX_BOSS_TITLE( '0B__Canon_D  S20', '[EXCEED2] Single' )
+	PHOENIX_BOSS_TITLE( '0B__Canon_D  D23', '[EXCEED2] Double' )
+	PHOENIX_BOSS_TITLE( '0C__Love_is_a_Danger_Zone_2  S22', '[ZERO] Single' )
+	PHOENIX_BOSS_TITLE( '0C__Love_is_a_Danger_Zone_2  D24', '[ZERO] Double' )
+	PHOENIX_BOSS_TITLE( '0D__Bemera  S24', '[NX] Single' )
+	PHOENIX_BOSS_TITLE( '0D__Bemera  D26', '[NX] Double' )
+	PHOENIX_BOSS_TITLE( '0E__BanYa_P_Guitar_Remix  S22', '[NX2] Single' )
+	PHOENIX_BOSS_TITLE( '0E__BanYa_P_Guitar_Remix  D24', '[NX2] Double' )
+	PHOENIX_BOSS_TITLE( '0F__Final_Audition_ep_2_X  S23', '[NXA] Single' )
+	PHOENIX_BOSS_TITLE( '0F__Final_Audition_ep_2_X  D24', '[NXA] Double' )
+	PHOENIX_BOSS_TITLE( '10__Vacuum  S23', '[FIESTA] Single' )
+	PHOENIX_BOSS_TITLE( '10__Vacuum  D25', '[FIESTA] Double' )
+	PHOENIX_BOSS_TITLE( '11__Vacuum_Cleaner  S25', '[FIESTA EX] Single' )
+	PHOENIX_BOSS_TITLE( '11__Vacuum_Cleaner  D26', '[FIESTA EX] Double' )
+	PHOENIX_BOSS_TITLE( '13__Ignis_Fatuus  S22', '[FIESTA2] Single' )
+	PHOENIX_BOSS_TITLE( '13__Ignis_Fatuus  D25', '[FIESTA2] Double' )
+	PHOENIX_BOSS_TITLE( '14__Paradoxx  S26', '[PRIME] Single' )
+	PHOENIX_BOSS_TITLE( '14__Paradoxx  D28', '[PRIME] Double' )
+	PHOENIX_BOSS_TITLE( '15__Shub_Sothoth  S25', '[PRIME2] Single' )
+	PHOENIX_BOSS_TITLE( '15__Shub_Sothoth  D27', '[PRIME2] Double' )
+	PHOENIX_BOSS_TITLE( '16__Errorcode_0  S25', '[XX] Single' )
+	PHOENIX_BOSS_TITLE( '16__1949  D28', '[XX] Double' )
+
+
+	function PHOENIX_SKILL_TITLE( category, charts )
+	{
+		for( const [index, chart] of charts.entries() )
+			Tag( t, chart, `SSS to get #phoenix.title.${category} (${index+1})` );
+	}
+
+
+	PHOENIX_SKILL_TITLE( 'bracket', [
+		'15__Allegro_Furioso  D20',
+		'14__Mad5cience  S20',
+		'16__Meteo5cience  S21',
+		'11__What_Happened  S21',
+		'16__Phalanx_RS2018  S22',
+		'16__Meteo5cience  D22',
+		'11__What_Happened  D23',
+		'16__Pop_Sequence  D23',
+		'14__Scorpion_King  D23',
+		'16__Phalanx_RS2018  D24'
+	] )
+
+
+	PHOENIX_SKILL_TITLE( 'half', [
+		'16__Mopemope  D17',
+		'11__Butterfly  D17',
+		'15__Shub_Niggurath  D18',
+		'14__Super_Fantasy  D18',
+		//'0C__Phantom  D19',
+		'15__Utsushiyo_No_Kaze  D20',
+		'0D__Witch_Doctor_1  D21',
+		'15__Redline  D22',
+		'0C__Love_is_a_Danger_Zone_try_to_B_P_M  D23',
+		'14__Imprinting D24'
+	] )
+
+
+	PHOENIX_SKILL_TITLE( 'gimmick', [
+		'13__Yeo_Rae_A  S13',
+		'16__8_6  S16',
+		'0D__Ugly_Dee  S17',
+		'08__Come_to_Me  S17',
+		'14__Rock_the_House__SHORT  S18',
+		'07__Miss_s_Story  S19',
+		'15__Nakakapagpabagabag  S19',
+		'15__Twist_of_Fate  S19',
+		'16__8_6  S20',
+		'11__Everybody_Got_2_Know  S21'
+	] )
+
+
+	PHOENIX_SKILL_TITLE( 'drill', [
+		'15__Hellfire  S15',
+		'07__Vook  S16',
+		'0D__Gun_Rock  S17',
+		'0C__Moonlight  S18',
+		'10__Vacuum  S19',
+		'11__Overblow  S20',
+		'10__Sorceress_Elise  S21',
+		'14__Rock_the_House  D22',
+		//'0C__Witch_Doctor  D23',
+		'0D__Wi_Ex_Doc_Va  D24'
+	] )
+
 
-	// [16__Errorcode_0 S25] ROUGH GAME or more
-	// [XX] Single Boss breaker
-
-	// [15__Shub_Sothoth D27] ROUGH GAME or more
-	// [PRIME2] Double Boss breaker
-
-	// [15__Shub_Sothoth S25] ROUGH GAME or more
-	// [PRIME2] Single Boss breaker
-
-	// [14__Paradoxx D28] ROUGH GAME or more
-	// [PRIME] Double Boss breaker
-
-	// [14__Paradoxx S26] ROUGH GAME or more
-	// [PRIME] Single Boss breaker
-
-	// [13__Ignis_Fatuus D25] ROUGH GAME or more
-	// [FIESTA2] Double Boss breaker
-
-	// [13__Ignis_Fatuus S22] ROUGH GAME or more
-	// [FIESTA2] Single Boss breaker
-
-	// [11__Vacuum_Cleaner D26] ROUGH GAME or more
-	// [FIESTA EX] Double Boss breaker
-
-	// [11__Vacuum_Cleaner S25] ROUGH GAME or more
-	// [FIESTA EX] Single Boss breaker
-
-	// [10__Vacuum D25] ROUGH GAME or more
-	// [FIESTA] Double Boss breaker
-
-	// [10__Vacuum S23] ROUGH GAME or more
-	// [FIESTA] Single Boss breaker
-
-	// [0F__Final_Audition_ep_2_X D24] ROUGH GAME or more
-	// [NXA] Double Boss breaker
-
-	// [0F__Final_Audition_ep_2_X S23] ROUGH GAME or more
-	// [NXA] Single Boss breaker
-
-	// [0E__BanYa_P_Guitar_Remix D24] ROUGH GAME or more
-	// [NX2] Double Boss breaker
-
-	// [0E__BanYa_P_Guitar_Remix S22] ROUGH GAME or more
-	// [NX2] Single Boss breaker
-
-	// [0D__Bemera D26] ROUGH GAME or more
-	// [NX] Double Boss breaker
-
-	// [0D__Bemera S24] ROUGH GAME or more
-	// [NX] Single Boss breaker
-
-	// [0C__Love_is_a_Danger_Zone_2 D24] ROUGH GAME or more
-	// [ZERO] Double Boss breaker
-
-	// [0C__Love_is_a_Danger_Zone_2 S22] ROUGH GAME or more
-	// [ZERO] Single Boss breaker
-
-	// [0B__Canon_D D23] ROUGH GAME or more
-	// [EXCEED2] Double Boss breaker
-
-	// [0B__Canon_D S20] ROUGH GAME or more
-	// [EXCEED2] Single Boss breaker
-
-	// [0A__Dignity D24] ROUGH GAME or more
-	// [EXCEED] Double Boss breaker
-
-	// [0A__Dignity S21] ROUGH GAME or more
-	// [EXCEED] Single Boss breaker
-
-	// [08__Bee S17] ROUGH GAME or more
-	// [THE PREX3] Boss breaker
-
-	// [07__Love_is_a_Danger_Zone S17] ROUGH GAME or more
-	// [THE REBIRTH] Boss breaker
-
-	// [09__Can_Can D18] ROUGH GAME or more
-	// [EXTRA] Boss breaker
-
-	// [05__Slam S18] ROUGH GAME or more
-	// [Perfect Collection] Boss breaker
-
-	// [04__Mr_Larpus S15] ROUGH GAME or more
-	// [The O.B.G SE] Boss breaker
-
-	// [03__Turkey_March S12] ROUGH GAME or more
-	// [The O.B.G] Boss breaker
-
-	// [02__Extravaganza S11] ROUGH GAME or more
-	// [The 2nd] Boss breaker
-
-	// [01__Another_Truth S6] ROUGH GAME or more
-	// [The 1st] Boss breaker
-
-	// [16__Phalanx_RS2018 D24] SSS Grade or more
-	// [BRACKET] Lv.10
-
-	// [14__Scorpion_King D23] SSS Grade or more
-	// [BRACKET] Lv.9
-
-	// [16__Pop_Sequence D23] SSS Grade or more
-	// [BRACKET] Lv.8
-
-	// [11__What_Happened D23] SSS Grade or more
-	// [BRACKET] Lv.7
-
-	// [16__Meteo5cience D22] SSS Grade or more
-	// [BRACKET] Lv.6
-
-	// '16__Phalanx_RS2018 S22' SSS Grade or more
-	// [BRACKET] Lv.5
-
-	// '11__What_Happened S21' SSS Grade or more
-	// [BRACKET] Lv.4
-
-	// '16__Meteo5cience S21' SSS Grade or more
-	// [BRACKET] Lv.3
-
-	// [14__Mad5cience S20] SSS Grade or more
-	// [BRACKET] Lv.2
-
-	// [15__Allegro_Furioso D20] SSS Grade or more
-	// [BRACKET] Lv.1
-
-	Tag( t, '14__Imprinting D24', "SSS to get #title.half 10" )
-	Tag( t, '0C__Love_is_a_Danger_Zone_try_to_B_P_M D23', "SSS to get #title.half 9" )
-	Tag( t, '15__Redline D22', "SSS to get #title.half 8" )
-	Tag( t, '0D__Witch_Doctor_1 D21', "SSS to get #title.half 7" )
-	Tag( t, '15__Utsushiyo_No_Kaze D20', "SSS to get #title.half 6" )
-	//Tag( t, '0C__Phantom D19.phoenix', "SSS to get #title.half 5" )
-	Tag( t, '14__Super_Fantasy D18', "SSS to get #title.half 4" )
-	Tag( t, '15__Shub_Niggurath D18', "SSS to get #title.half 3" )
-	Tag( t, '11__Butterfly D17', "SSS to get #title.half 2" )
-	Tag( t, '16__Mopemope D17', "SSS to get #title.half 1" )
-
-	// [GIMMICK] Lv.10
-	// [Everybody Got 2 Know S21] SSS Grade or more
-
-	// [GIMMICK] Lv.9
-	// [8 6 S20] SSS Grade or more
-
-	// [GIMMICK] Lv.8
-	// [Twist of Fate S19] SSS Grade or more
-
-	// [GIMMICK] Lv.7
-	// [Nakakapagpabagabag S19] SSS Grade or more
-
-	// [GIMMICK] Lv.6
-	// [Miss S' story S19] SSS Grade or more
-
-	// [GIMMICK] Lv.5
-	// [Rock the house - SHORT CUT - S18 ] SSS Grade or more
-
-	// [GIMMICK] Lv.4
-	// [Come to Me S17] SSS Grade or more
-
-	// [GIMMICK] Lv.3
-	// [Ugly Dee S17] SSS Grade or more
-
-	// [GIMMICK] Lv.2
-	// [8 6 S16] SSS Grade or more
-
-	// [GIMMICK] Lv.1
-	// [Yeo rae a S13] SSS Grade or more
-
-	// [DRILL] Lv.10
-	// [WI-EX-DOC-VA D24] SSS Grade or more
-
-	// [DRILL] Lv.9
-	// [Witch Doctor D23] SSS Grade or more
-
-	// [DRILL] Lv.8
-	// [Rock the house D22] SSS Grade or more
-
-	// [DRILL] Lv.7
-	// [Sorceress Elise S21] SSS Grade or more
-
-	// [DRILL] Lv.6
-	// [Overblow S20] SSS Grade or more
-
-	// [DRILL] Lv.5
-	// [Vacuum S19] SSS Grade or more
-
-	// [DRILL] Lv.4
-	// [Moonlight S18] SSS Grade or more
-
-	// [DRILL] Lv.3
-	// [Gun Rock S17] SSS Grade or more
-
-	// [DRILL] Lv.2
-	// [Vook S16] SSS Grade or more
-
-	// [DRILL] Lv.1
-	// [Hellfire S15] SSS Grade or more
-
-	// [RUN] Lv.10
-	// [Yog-Sothoth D24] SSS Grade or more
-
-	// [RUN] Lv.9
-	// [Baroque Virus - FULL SONG - D23] SSS Grade or more
-
-	// [RUN] Lv.8
-	// [Gargoyle - FULL SONG - D22] SSS Grade or more
-
-	// [RUN] Lv.7
-	// [Sarabande D21] SSS Grade or more
-
-	// [RUN] Lv.6
-	// [Bee D20] SSS Grade or more
-
-	// [RUN] Lv.5
-	// [Napalm S19] SSS Grade or more
-
-	// [RUN] Lv.4
-	// [Gothique Resonance S18] SSS Grade or more
-
-	// [RUN] Lv.3
-	// [Pavane S17] SSS Grade or more
-
-	// [RUN] Lv.2
-	// [Super Fantasy S16] SSS Grade or more
-
-	// [RUN] Lv.1
-	// [Switronic S15] SSS Grade or more
-
-	// [TWIST] Lv.10
-	// [Bee D24] SSS Grade or more
-
-	// [TWIST] Lv.9
-	// [Love Is A Danger Zone(Cranky Mix) D23] SSS Grade or more
-
-	// [TWIST] Lv.8
-	// [Super Fantasy D22] SSS Grade or more
-
-	// [TWIST] Lv.7
-	// [Love is a Danger Zone D21] SSS Grade or more
-
-	// [TWIST] Lv.6
-	// [Witch Doctor #1 D20] SSS Grade or more
-
-	// [TWIST] Lv.5
-	// [U GOT 2 KNOW S19] SSS Grade or more
-
-	// [TWIST] Lv.4
-	// [Solitary 2 S18] SSS Grade or more
-
-	// [TWIST] Lv.3
-	// [U Got Me Rocking S17] SSS Grade or more
-
-	// [TWIST] Lv.2
-	// [Street show down S16] SSS Grade or more
-
-	// [TWIST] Lv.1
-	// [Scorpion King S15] SSS Grade or more
+	PHOENIX_SKILL_TITLE( 'run', [
+		'16__Switronic  S15',
+		'14__Super_Fantasy  S16',
+		'11__Pavane  S17',
+		'15__Gothique_Resonance  S18',
+		'10__Napalm  S19',
+		'08__Bee  D20',
+		'15__Sarabande  D21',
+		'15__Gargoyle__FULL  D22',
+		'16__Baroque_Virus__FULL  D23',
+		'14__Yog_Sothoth  D24'
+	] )
+
+
+	PHOENIX_SKILL_TITLE( 'twist', [
+		'14__Scorpion_King  S15',
+		'07__Street_Show_Down  S16',
+		'13__U_Got_Me_Rocking  S17',
+		'0B__Solitary_2  S18',
+		'10__U_Got_2_Know  S19',
+		'0D__Witch_Doctor_1  D20',
+		'07__Love_is_a_Danger_Zone  D21',
+		'14__Super_Fantasy  D22',
+		'13__Love_is_a_Danger_Zone_Cranky_Mix  D23',
+		'08__Bee D24'
+	] )
 
 /*
 	Tag( "Drills",

@@ -12,7 +12,6 @@ export function	AddSharedChartNote( sharedChart, kind, noteText )
 	var note = {};
 	note[ kind ] = noteText;
 	sharedChart.notes.push( note );
-
 }
 
 
