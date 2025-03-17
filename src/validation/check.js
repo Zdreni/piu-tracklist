@@ -2,7 +2,7 @@
 
 
 import _ from 'underscore';
-import { mixesOrder, firstNewMixIndex } from '../tracklist.js';
+import { mixesOrder, firstNewMixIndex } from '../mixes.js';
 import { tracklist } from '../tracklist_src.js';
 
 

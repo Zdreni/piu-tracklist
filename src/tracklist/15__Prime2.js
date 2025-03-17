@@ -1,8 +1,8 @@
 import {
 	ORIGINAL, KPOP, WORLD, XROSS, JMUSIC,
 	SHORT, STANDARD, REMIX, FULL,
-	PHILIPPINES,	
-} from '../tracklist.js';
+	PHILIPPINES,
+} from '../constants.js';
 
 
 export const newTunes__15__Prime2 = {

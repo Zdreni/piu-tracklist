@@ -1,10 +1,11 @@
 import fs from 'fs';
 
+import { mixes, mixesOrder, } from './mixes.js';
 import {
-	mixes, mixesOrder,
-	NewTags, OldTagTypes, NewTagTypes, OldArcadeTags, OldSpecialTags,
 	STANDARD, REMIX, FULL,
-	ARCADE, SPECIAL } from './tracklist.js';
+	ARCADE, SPECIAL,
+	NewTags, OldTagTypes, NewTagTypes, OldArcadeTags, OldSpecialTags,
+} from './constants.js';
 import { tracklist, PreprocessTracklist } from './tracklist_src.js';
 
 

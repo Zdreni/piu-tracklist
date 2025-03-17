@@ -32,7 +32,8 @@ NXA:
 	2-X
 */
 
-import { mixes, FindTrack } from './tracklist.js';
+import { mixes } from './mixes.js';
+import { FindTrack } from './tracklist.js';
 
 
 var currentMixID;

@@ -1,8 +1,8 @@
 import {
-	ORIGINAL, KPOP, WORLD, XROSS, JMUSIC,
+	ORIGINAL, KPOP, WORLD, JMUSIC,
 	SHORT, STANDARD, REMIX, FULL,
-	LATIN, JAPAN
-} from '../tracklist.js';
+	LATIN, JAPAN,
+} from '../constants.js';
 
 
 export const newTunes__14__Prime = {

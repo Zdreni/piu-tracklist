@@ -1,7 +1,8 @@
 "use strict";
 
 
-import { FindTrack, FindChart, mixesOrder, FindChartsWithIndexInMixesRange } from './tracklist.js';
+import { mixesOrder } from './mixes.js';
+import { FindTrack, FindChart, FindChartsWithIndexInMixesRange } from './tracklist.js';
 
 
 var separateBPMs =
@@ -115,11 +116,7 @@ export function ApplyBPMs( tracklist )
 }
 
 
-// initFuncs.push( ApplyBPMs );
-
 /*
-
-
 twist king d15 медленнее
 некоторые dp3
 */

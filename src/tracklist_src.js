@@ -9,10 +9,15 @@ import {
 	ORIGINAL, KPOP, WORLD, XROSS, JMUSIC,
 	ARCADE, SPECIAL,
 	SHORT, STANDARD, REMIX, FULL,
-
 	OldArcadeTags, OldSpecialTags, OldTagTypes,
-	mixes, mixesOrder,
 	NewTags,
+} from './constants.js';
+
+import {
+	mixes, mixesOrder,
+} from './mixes.js';
+
+import {
 	GetTrackFirstMix, FindChart,
 } from './tracklist.js';
 

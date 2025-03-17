@@ -1,7 +1,7 @@
 import {
-	ORIGINAL, KPOP, WORLD, XROSS, JMUSIC,
-	SHORT, STANDARD, REMIX, FULL
-} from '../tracklist.js';
+	ORIGINAL, KPOP, WORLD,
+	STANDARD, REMIX, FULL
+} from '../constants.js';
 
 
 export const newTunes__09__Extra = {

@@ -1,8 +1,8 @@
 import {
-	ORIGINAL, KPOP, WORLD, XROSS, JMUSIC,
-	SHORT, STANDARD, REMIX, FULL,
+	ORIGINAL, KPOP, WORLD,
+	STANDARD, REMIX, FULL,
 	CHINESE
-} from '../tracklist.js';
+} from '../constants.js';
 
 
 export const newTunes__0E__NX2 = {
