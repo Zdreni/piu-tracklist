@@ -840,10 +840,11 @@ export const newTunes__13__Fiesta2 = {
 },
 
 
-"12__Unique__SHORT":
+"13__Unique__SHORT":
 {
 	title: "Unique  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "145",
 	arcadeName: "Unique - SHORT CUT",
+	altID: "12__Unique__SHORT",
 	arcadeID: "13E4",
 	pumpoutID: 262,
 
@@ -857,10 +858,11 @@ export const newTunes__13__Fiesta2 = {
 },
 
 
-"12__U_Got_Me_Rocking__SHORT":
+"13__U_Got_Me_Rocking__SHORT":
 {
 	title: "U Got Me Rocking  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "128",
 	arcadeName: "U Got Me Rocking - SHORT CUT",
+	altID: "12__U_Got_Me_Rocking__SHORT",
 	arcadeID: "13E5",
 	pumpoutID: 263,
 

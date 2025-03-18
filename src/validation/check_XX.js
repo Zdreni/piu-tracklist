@@ -232,8 +232,8 @@ const checkXXTable = {
 "13__Passacaglia__SHORT":  "S17  D18",
 "13__Ignis_Fatuus__SHORT":  "S21  D21",
 "13__Flew_Far_Faster__SHORT":  "S18  D21",
-"12__Unique__SHORT":  "S18  D16",
-"12__U_Got_Me_Rocking__SHORT":  "S17  D17",
+"13__Unique__SHORT":  "S18  D16",
+"13__U_Got_Me_Rocking__SHORT":  "S17  D17",
 
 "12__Monolith":  "S3 S5 S9 S15  D14 D17 D22",
 "12__Ladybug":  "S1 S3 S5 S13  D13  CoOp(x2)",
