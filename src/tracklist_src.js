@@ -132,21 +132,6 @@ extendObjWithNewKeys( readableTracklist, newTunes__08__Premiere3 );
 import { newTunes__07__Rebirth } from './tracklist/07__Rebirth.js';
 extendObjWithNewKeys( readableTracklist, newTunes__07__Rebirth );
 
-import { newTunes__05__Perfect } from './tracklist/05__Perfect.js';
-extendObjWithNewKeys( readableTracklist, newTunes__05__Perfect );
-
-import { newTunes__04__OBG_SE } from './tracklist/04__OBG_SE.js';
-extendObjWithNewKeys( readableTracklist, newTunes__04__OBG_SE );
-
-import { newTunes__03__OBG } from './tracklist/03__OBG.js';
-extendObjWithNewKeys( readableTracklist, newTunes__03__OBG );
-
-import { newTunes__02__2nd } from './tracklist/02__2nd.js';
-extendObjWithNewKeys( readableTracklist, newTunes__02__2nd );
-
-import { newTunes__01__1st } from './tracklist/01__1st.js';
-extendObjWithNewKeys( readableTracklist, newTunes__01__1st );
-
 
 // 601	Oops! I Did it Again	Pump Premiere
 // 602	Bye Bye Bye	Pump Premiere
@@ -162,6 +147,22 @@ extendObjWithNewKeys( readableTracklist, newTunes__01__1st );
 // 612	Sempre Assim	Jota Quest
 // 613	Uma Bomba	Braga Boys
 // 614	Vaquiero Bom Demais	Limão Com Mel
+
+
+import { newTunes__05__Perfect } from './tracklist/05__Perfect.js';
+extendObjWithNewKeys( readableTracklist, newTunes__05__Perfect );
+
+import { newTunes__04__OBG_SE } from './tracklist/04__OBG_SE.js';
+extendObjWithNewKeys( readableTracklist, newTunes__04__OBG_SE );
+
+import { newTunes__03__OBG } from './tracklist/03__OBG.js';
+extendObjWithNewKeys( readableTracklist, newTunes__03__OBG );
+
+import { newTunes__02__2nd } from './tracklist/02__2nd.js';
+extendObjWithNewKeys( readableTracklist, newTunes__02__2nd );
+
+import { newTunes__01__1st } from './tracklist/01__1st.js';
+extendObjWithNewKeys( readableTracklist, newTunes__01__1st );
 
 /*{
 	title: "Narcisista Por Excelencia  [SHORT]", artist: "PXNDX", bpm: "164",

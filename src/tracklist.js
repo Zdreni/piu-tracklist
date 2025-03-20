@@ -251,34 +251,43 @@ export function FindChart( track, chartDescr, beforeMixID )
 }
 
 
-function parseChartDescr( chartDescrStr )
+function ParseChartLabel( labelStr )
 {
-	const descr = {};
+	const chartLabelDescr = {};
 
-	const descrArr = chartDescrStr.split( /\s+/ );
-	if( descrArr.length != 2 )
-		throw new Error(`'${chartDescrStr}' is invalid description of shared chart`);
+	chartLabelDescr.chartLabelAndMix = labelStr;
 
-	descr.trackID = descrArr[ 0 ];
-
-	descr.chartLabelAndMix = descrArr[ 1 ];
-
-	const chartLabelArr = descr.chartLabelAndMix.split( '.' );
+	const chartLabelArr = labelStr.split( '.' );
 	if( chartLabelArr.length > 2 )
-		throw new Error(`'${ descr.chartLabelAndMix}' is invalid label`);
+		throw new Error(`Chart label '${labelStr}' is invalid`);
 
-	descr.chartLabel = chartLabelArr[ 0 ];
+	chartLabelDescr.chartLabel = chartLabelArr[ 0 ];
 	const mixLabel = chartLabelArr.length > 1  ?  chartLabelArr[ 1 ]  :  '';
-	descr.mixes = mixLabel !== ''  ?  [ mixLabel ]  :  mixesOrder;
+	chartLabelDescr.mixes = mixLabel !== ''  ?  [ mixLabel ]  :  mixesOrder;
+
+	return chartLabelDescr;
+}
+
+
+function ParseChartsDescr( chartsDescrStr )
+{
+	const descrArr = chartsDescrStr.split( /\s+/ );
+	if( descrArr.length != 2 )
+		throw new Error(`'${chartsDescrStr}' is invalid description of shared chart`);
+
+	const labelsArr = descrArr[ 1 ].split( '/' );
+
+	const descr = {
+		trackID: descrArr[ 0 ],
+		charts: labelsArr.map( ( x ) => ParseChartLabel( x ) )
+	};
 
 	return descr;
 }
 
-export function FindSharedChartByDescr( tracklist, chartDescrStr )
-{
-	const chartDescr = parseChartDescr( chartDescrStr );
-	const track = FindTrack( tracklist, chartDescr.trackID );
 
+function FindSharedChartInTrack( track, chartDescr )
+{
 	const resultIndexes = [];
 	for( const mixID of chartDescr.mixes )
 	{
@@ -291,7 +300,7 @@ export function FindSharedChartByDescr( tracklist, chartDescrStr )
 	}
 
 	if( resultIndexes.length == 0 )
-		throw new Error(`Can't find chart ${chartDescr.chartLabelAndMix} in track ${chartDescr.trackID}`);
+		throw new Error(`Can't find chart ${chartDescr.chartLabelAndMix} in track '${track.id}'`);
 
 	if( resultIndexes.length > 1 )
 		throw new Error(`Chart ${chartDescr.chartLabelAndMix} in track ${chartDescr.trackID} is ambiguous`);
@@ -300,14 +309,23 @@ export function FindSharedChartByDescr( tracklist, chartDescrStr )
 }
 
 
-function ChartRealLevelNum( chart )
+export function FindSharedChartsByDescr( tracklist, chartsDescrStr )
 {
-	if( chart.shared.estimatedLevelNum )
-		return chart.shared.estimatedLevelNum;
-	if( isNaN( chart.levelNum ) )
-		return 0;
-	return chart.levelNum;
+	const chartsDescr = ParseChartsDescr( chartsDescrStr );
+	const track = FindTrack( tracklist, chartsDescr.trackID );
+	const charts = chartsDescr.charts.map( ( d ) => FindSharedChartInTrack( track, d ) );
+	return charts;
 }
+
+
+// function ChartRealLevelNum( chart )
+// {
+// 	if( chart.shared.estimatedLevelNum )
+// 		return chart.shared.estimatedLevelNum;
+// 	if( isNaN( chart.levelNum ) )
+// 		return 0;
+// 	return chart.levelNum;
+// }
 
 
 export function GetTrackFirstMix( track )

@@ -1,39 +1,77 @@
 "use strict";
 
 
-import { FindSharedChartByDescr } from './tracklist.js'
+import { FindSharedChartsByDescr } from './tracklist.js'
 import { AddSharedChartNote } from './tracklist_notes.js'
 
 
-function Tag( tracklist, tagStr, chartDescr )
+function Tag( tracklist, tagStr, chartsDescrList )
 {
-	AddSharedChartNote( FindSharedChartByDescr( tracklist, chartDescr ), 'info', tagStr );
+	if( ! Array.isArray( chartsDescrList ) )
+		chartsDescrList = [ chartsDescrList ];
+
+	for( const descrItem of chartsDescrList )
+	{
+		const sharedCharts = FindSharedChartsByDescr( tracklist, descrItem );
+		for( const chart of sharedCharts )
+			AddSharedChartNote( chart, 'info', tagStr );
+	}
 }
 
 
 export function ApplyTags( t )
 {
-	const memorizeCharts = [
-		'17__Stager  S17',
-		'17__Stager  S19',
-		'17__Stager  D18',
-		'17__Stager  D20',
+	/*
+	Tag( '#slowdown',
+	[
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"Moonlight  S-19",
+		"Moonlight  D-21",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+	] );
+*/
+	Tag( t, '#nakaka',
+	[
+		'15__Nakakapagpabagabag  D16/S19/D20',
+		'16__8_6  S16/D18/S20/D21',
+		'17__Euphorianic  S19',
+		'17__Pneumonoultramicroscopicsilicovolcanoconiosis  S19/D22',
+		'16__Tales_of_Pumpnia  S20/D21',
+		'16__8_6__FULL  S21/D23',
+	] );
+
+	Tag( t, '#memorize',
+	[
+		'17__Stager  S17/S19/D18/D20',
 		'17__Chaos_Again  S21',
-		'16__Love_Scenario  S17',
-		'16__Love_Scenario  D19',
-		'16__Pop_Sequence  Sp18',
-		'16__Pop_Sequence  Dp22',
-		'15__Twist_of_Fate  S19',
-		'15__Twist_of_Fate  D21',
+		'16__Love_Scenario  S17/D19',
+		'16__Pop_Sequence  Sp18/Dp22',
+		'15__Twist_of_Fate  S19/D21',
 		'15__Cross_Time  D22',
 		'14__Red_Swan  Dp20',
 		'14__Bad_Apple  S15',
 		'14__Rock_the_House__SHORT  S18',
 		'14__Break_It_Down  D21',
-		'14__NoNoNo  Sp15',
-		'14__NoNoNo  Dp15',
-		'13__Nobody  S15',
-		'13__Nobody  D17',
+		'14__NoNoNo  Sp15/Dp15',
+		'13__Nobody  S15/D17',
 		'11__Everybody_Got_2_Know  S21',
 		'0F__Uprock  S17',
 		'0D__Ugly_Dee  S17',
@@ -41,11 +79,7 @@ export function ApplyTags( t )
 		'07__Miss_s_Story  S19',
 		'07__Dance_With_Me  D18',
 		//'0B__Deja_Vu  aNM',
-	];
-
-	for( const chart of memorizeCharts )
-		Tag( t, '#memorize', chart );
-
+	]);
 
 	//Tag( t, '13__Yeo_Rae_A  S1', "Pass with score <= 180,000 to get #phoenix.title 'Human metronome'" );
 	//Tag( t, '15__Gargoyle__FULL  S21', "Pass with score <= 444,444 to get #phoenix.title 'Perfect breaker'" );
@@ -291,45 +325,8 @@ export function ApplyTags( t )
 		] )
 
 	/*
-	Tag( "slowdowns",
-		[
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"Moonlight  S-19",
-			"Moonlight  D-21",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-			"",
-		] );
 	*/
 /*
-	Tag( "bruteforce",
-		[
-			"Chimera  S-23",
-			"Dignity  [FULL]  S-19",
-			"Dignity  S-22",
-			"Hi-Bi  S-18",
-			"Love is a Danger Zone  S-19",
-			"Mr. Larpus  S-22",
-			"Trato De No Trabarme  [FULL]  S-22",
-		] );
-
-
 	Tag( "extreme-twists",
 		[
 			"Love is a Danger Zone 2  D-23",
