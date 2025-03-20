@@ -5,7 +5,7 @@ import { FindSharedChartByDescr } from './tracklist.js'
 import { AddSharedChartNote } from './tracklist_notes.js'
 
 
-function Tag( tracklist, chartDescr, tagStr )
+function Tag( tracklist, tagStr, chartDescr )
 {
 	AddSharedChartNote( FindSharedChartByDescr( tracklist, chartDescr ), 'info', tagStr );
 }
@@ -13,32 +13,45 @@ function Tag( tracklist, chartDescr, tagStr )
 
 export function ApplyTags( t )
 {
-	/* #memorize
-		08__Come_to_Me S17
-		07__Miss_s_Story S19
-		17__Stager S17 S19 D18 D20
-		14__Break_It_Down D21
-		15__Twist_of_Fate S19 D21
-		15__Cross_Time D22
-		17__Chaos_Again S21
-		11__Everybody_Got_2_Know S21
-		14__Rock_the_House__SHORT S18
-		0D__Ugly_Dee S17
-		07__Dance_With_Me D18
-		0F__Uprock S17
-		16__Love_Scenario S17 D19
-		14__Bad_Apple S15
-		0B__Deja_Vu aNM
-		14__NoNoNo Sp15 Dp15
-		16_Pop_Sequence Sp18 Dp22
-		13__Nobody S15 D17
-	*/
+	const memorizeCharts = [
+		'17__Stager  S17',
+		'17__Stager  S19',
+		'17__Stager  D18',
+		'17__Stager  D20',
+		'17__Chaos_Again  S21',
+		'16__Love_Scenario  S17',
+		'16__Love_Scenario  D19',
+		'16__Pop_Sequence  Sp18',
+		'16__Pop_Sequence  Dp22',
+		'15__Twist_of_Fate  S19',
+		'15__Twist_of_Fate  D21',
+		'15__Cross_Time  D22',
+		'14__Red_Swan  Dp20',
+		'14__Bad_Apple  S15',
+		'14__Rock_the_House__SHORT  S18',
+		'14__Break_It_Down  D21',
+		'14__NoNoNo  Sp15',
+		'14__NoNoNo  Dp15',
+		'13__Nobody  S15',
+		'13__Nobody  D17',
+		'11__Everybody_Got_2_Know  S21',
+		'0F__Uprock  S17',
+		'0D__Ugly_Dee  S17',
+		'08__Come_to_Me  S17',
+		'07__Miss_s_Story  S19',
+		'07__Dance_With_Me  D18',
+		//'0B__Deja_Vu  aNM',
+	];
+
+	for( const chart of memorizeCharts )
+		Tag( t, '#memorize', chart );
+
 
 	//Tag( t, '13__Yeo_Rae_A  S1', "Pass with score <= 180,000 to get #phoenix.title 'Human metronome'" );
 	//Tag( t, '15__Gargoyle__FULL  S21', "Pass with score <= 444,444 to get #phoenix.title 'Perfect breaker'" );
 
-	Tag( t, '0C__Moonlight  D21', "SSS+ to get #phoenix.title 'No skills no pump'" );
-	Tag( t, '07__Love_is_a_Danger_Zone  D21', "SSS+ to get #phoenix.title 'PUMP IS A SENSE'" );
+	Tag( t, "SSS+ to get #phoenix.title 'No skills no pump'", '0C__Moonlight  D21' );
+	Tag( t, "SSS+ to get #phoenix.title 'PUMP IS A SENSE'", '07__Love_is_a_Danger_Zone  D21' );
 
 	// B.P.M FOLLOWER
 	// [Beethoven Virus D18] Perfect 927 / Great 1 / Miss 2 / Max Combo 747
@@ -46,49 +59,67 @@ export function ApplyTags( t )
 	// [Waltz of Doge D20] Max Combo of 888
 	// DOGE MAJOR STOCKHOLDER
 
-	function PHOENIX_BOSS_TITLE( chart, details )
+	function PHOENIX_BOSS_TITLE( bossDetails, chart )
 	{
-		Tag( t, chart + ".Phoenix", `Pass to get #phoenix.title.bossbreaker of ${details} Boss breaker` );
+		Tag( t, `Pass to get #phoenix.title.bossbreaker of ${bossDetails} Boss breaker`, chart + ".Phoenix" );
 	}
 
-	PHOENIX_BOSS_TITLE( '01__Another_Truth  S6', '[The 1st]' )
-	PHOENIX_BOSS_TITLE( '02__Extravaganza  S11', '[The 2nd]' )
-	PHOENIX_BOSS_TITLE( '03__Turkey_March  S12', '[The O.B.G]' )
-	PHOENIX_BOSS_TITLE( '04__Mr_Larpus  S15', '[The O.B.G SE]' )
-	PHOENIX_BOSS_TITLE( '05__Slam  S18', '[Perfect Collection]' )
-	PHOENIX_BOSS_TITLE( '09__Can_Can  D18', '[EXTRA]' )
-	PHOENIX_BOSS_TITLE( '07__Love_is_a_Danger_Zone  S17', '[THE REBIRTH]' )
-	PHOENIX_BOSS_TITLE( '08__Bee  S17', '[THE PREX3]' )
-	PHOENIX_BOSS_TITLE( '0A__Dignity  S21', '[EXCEED] Single' )
-	PHOENIX_BOSS_TITLE( '0A__Dignity  D24', '[EXCEED] Double' )
-	PHOENIX_BOSS_TITLE( '0B__Canon_D  S20', '[EXCEED2] Single' )
-	PHOENIX_BOSS_TITLE( '0B__Canon_D  D23', '[EXCEED2] Double' )
-	PHOENIX_BOSS_TITLE( '0C__Love_is_a_Danger_Zone_2  S22', '[ZERO] Single' )
-	PHOENIX_BOSS_TITLE( '0C__Love_is_a_Danger_Zone_2  D24', '[ZERO] Double' )
-	PHOENIX_BOSS_TITLE( '0D__Bemera  S24', '[NX] Single' )
-	PHOENIX_BOSS_TITLE( '0D__Bemera  D26', '[NX] Double' )
-	PHOENIX_BOSS_TITLE( '0E__BanYa_P_Guitar_Remix  S22', '[NX2] Single' )
-	PHOENIX_BOSS_TITLE( '0E__BanYa_P_Guitar_Remix  D24', '[NX2] Double' )
-	PHOENIX_BOSS_TITLE( '0F__Final_Audition_ep_2_X  S23', '[NXA] Single' )
-	PHOENIX_BOSS_TITLE( '0F__Final_Audition_ep_2_X  D24', '[NXA] Double' )
-	PHOENIX_BOSS_TITLE( '10__Vacuum  S23', '[FIESTA] Single' )
-	PHOENIX_BOSS_TITLE( '10__Vacuum  D25', '[FIESTA] Double' )
-	PHOENIX_BOSS_TITLE( '11__Vacuum_Cleaner  S25', '[FIESTA EX] Single' )
-	PHOENIX_BOSS_TITLE( '11__Vacuum_Cleaner  D26', '[FIESTA EX] Double' )
-	PHOENIX_BOSS_TITLE( '13__Ignis_Fatuus  S22', '[FIESTA2] Single' )
-	PHOENIX_BOSS_TITLE( '13__Ignis_Fatuus  D25', '[FIESTA2] Double' )
-	PHOENIX_BOSS_TITLE( '14__Paradoxx  S26', '[PRIME] Single' )
-	PHOENIX_BOSS_TITLE( '14__Paradoxx  D28', '[PRIME] Double' )
-	PHOENIX_BOSS_TITLE( '15__Shub_Sothoth  S25', '[PRIME2] Single' )
-	PHOENIX_BOSS_TITLE( '15__Shub_Sothoth  D27', '[PRIME2] Double' )
-	PHOENIX_BOSS_TITLE( '16__Errorcode_0  S25', '[XX] Single' )
-	PHOENIX_BOSS_TITLE( '16__1949  D28', '[XX] Double' )
+	function PHOENIX_BOSS_TITLE_S_D( bossDetails, singleChart, doubleChart )
+	{
+		PHOENIX_BOSS_TITLE( `${bossDetails} Single`, singleChart );
+		PHOENIX_BOSS_TITLE( `${bossDetails} Double`, doubleChart );
+	}
+
+	PHOENIX_BOSS_TITLE( '[The 1st]', '01__Another_Truth  S6'  )
+	PHOENIX_BOSS_TITLE( '[The 2nd]', '02__Extravaganza  S11' )
+	PHOENIX_BOSS_TITLE( '[The O.B.G]', '03__Turkey_March  S12' )
+	PHOENIX_BOSS_TITLE( '[The O.B.G SE]', '04__Mr_Larpus  S15' )
+	PHOENIX_BOSS_TITLE( '[Perfect Collection]', '05__Slam  S18' )
+	PHOENIX_BOSS_TITLE( '[EXTRA]', '09__Can_Can  D18' )
+	PHOENIX_BOSS_TITLE( '[THE REBIRTH]', '07__Love_is_a_Danger_Zone  S17' )
+	PHOENIX_BOSS_TITLE( '[THE PREX3]', '08__Bee  S17' )
+
+	PHOENIX_BOSS_TITLE_S_D( '[EXCEED]', '0A__Dignity  S21',
+	                                    '0A__Dignity  D24' )
+
+	PHOENIX_BOSS_TITLE_S_D( '[EXCEED2]', '0B__Canon_D  S20',
+	                                     '0B__Canon_D  D23' )
+
+	PHOENIX_BOSS_TITLE_S_D( '[ZERO]', '0C__Love_is_a_Danger_Zone_2  S22',
+	                                  '0C__Love_is_a_Danger_Zone_2  D24' )
+
+	PHOENIX_BOSS_TITLE_S_D( '[NX]', '0D__Bemera  S24',
+	                                '0D__Bemera  D26' )
+
+	PHOENIX_BOSS_TITLE_S_D( '[NX2]', '0E__BanYa_P_Guitar_Remix  S22',
+	                                 '0E__BanYa_P_Guitar_Remix  D24' )
+
+	PHOENIX_BOSS_TITLE_S_D( '[NXA]', '0F__Final_Audition_ep_2_X  S23',
+	                                 '0F__Final_Audition_ep_2_X  D24' )
+
+	PHOENIX_BOSS_TITLE_S_D( '[FIESTA]', '10__Vacuum  S23',
+	                                    '10__Vacuum  D25' )
+
+	PHOENIX_BOSS_TITLE_S_D( '[FIESTA EX]', '11__Vacuum_Cleaner  S25',
+	                                       '11__Vacuum_Cleaner  D26' )
+
+	PHOENIX_BOSS_TITLE_S_D( '[FIESTA2]', '13__Ignis_Fatuus  S22',
+	                                     '13__Ignis_Fatuus  D25' )
+
+	PHOENIX_BOSS_TITLE_S_D( '[PRIME]', '14__Paradoxx  S26',
+	                                   '14__Paradoxx  D28' )
+
+	PHOENIX_BOSS_TITLE_S_D( '[PRIME2]', '15__Shub_Sothoth  S25',
+	                                    '15__Shub_Sothoth  D27' )
+
+	PHOENIX_BOSS_TITLE_S_D( '[XX]', '16__Errorcode_0  S25',
+	                                '16__1949  D28' )
 
 
 	function PHOENIX_SKILL_TITLE( category, charts )
 	{
 		for( const [index, chart] of charts.entries() )
-			Tag( t, chart + ".Phoenix", `SSS to get #phoenix.title.${category} (${index+1})` );
+			Tag( t, `SSS to get #phoenix.title.${category} (${index+1})`, chart + ".Phoenix" );
 	}
 
 
@@ -186,16 +217,6 @@ export function ApplyTags( t )
 
 	Tag( "Streams",
 		[
-		] )
-
-	Tag( "Tricky_stops",
-		[
-			"Bad Apple!! feat. Nomico  S-15",
-			"Everybody Got 2 Know  S-19",
-			"NoNoNo  S-p-15",
-			"NoNoNo  D-p-15",
-			"Red Swan  D-p-20",
-			"Uprock  S-17",
 		] )
 
 	Tag( "M-runs",
