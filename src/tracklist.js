@@ -303,7 +303,7 @@ function FindSharedChartInTrack( track, chartDescr )
 		throw new Error(`Can't find chart ${chartDescr.chartLabelAndMix} in track '${track.id}'`);
 
 	if( resultIndexes.length > 1 )
-		throw new Error(`Chart ${chartDescr.chartLabelAndMix} in track ${chartDescr.trackID} is ambiguous`);
+		throw new Error(`Chart ${chartDescr.chartLabelAndMix} in track ${track.id} is ambiguous`);
 
 	return track.charts[ resultIndexes[ 0 ] ];
 }
