@@ -61,19 +61,19 @@ export function AddNotes( t )
 	W( t, "10__Witch_Doctor__SHORT", "S20", "Arrows accelerate a bit at the end." )
 
 	CR( t, "16__Loki", ["S16", "S19", "S21", "D19"], "Excessive partial gimmicks.")
-	CR( t, "16__Loki", "S21", "Series of long footswitches.")
+	// CR( t, "16__Loki", "S21", "Series of long footswitches.")
 
-	CR( t, "14__Break_It_Down", "D21", HAS_SOME_STOPS )
-	CR( t, "16__Love_Scenario", ["S17", "D19"], BUILT_WITH_STOPS )
-	CR( t, "0F__Uprock", "CZ", BUILT_WITH_STOPS )
-	CR( t, "11__Everybody_Got_2_Know", "S19", BUILT_WITH_STOPS )
+	// CR( t, "14__Break_It_Down", "D21", HAS_SOME_STOPS )
+	// CR( t, "16__Love_Scenario", ["S17", "D19"], BUILT_WITH_STOPS )
+	// CR( t, "0F__Uprock", "CZ", BUILT_WITH_STOPS )
+	// CR( t, "11__Everybody_Got_2_Know", "S19", BUILT_WITH_STOPS )
 
 	W( t, "08__Come_to_Me", "S13-XX", "Ends with all arrows jump." )
 	CR( t, "08__Come_to_Me", "S17-XX", BUILT_WITH_STOPS )
 	W( t, "08__Come_to_Me", "S17-XX", "Ends with all arrows jump." )
 
 	W( t, "10__Tek_Club_Copenhagen", ["S16", "S17"], HAS_SOME_STOPS )
-	W( t, "14__Bad_Apple", "S15", HAS_SOME_STOPS )
+	// W( t, "14__Bad_Apple", "S15", HAS_SOME_STOPS )
 	W( t, "07__Miss_s_Story", "S18", "Small part with tricky stops." )
 
 	W( t, "0D__Gun_Rock", "CZ", "Excessive triple jumps stream at the end." )
@@ -81,7 +81,7 @@ export function AddNotes( t )
 
 	CR( t, "0D__Ugly_Dee", ["aFS", "aNM"], "Triple and quad holds throughout the chart." )
 
-	W( t, "13__Nobody", ["S15", "D17"], HAS_SOME_STOPS )
+	// W( t, "13__Nobody", ["S15", "D17"], HAS_SOME_STOPS )
 
 	W( t, "13__Mackerel", ["S8", "S16", "D15"], HAS_SOME_STOPS )
 
@@ -90,7 +90,7 @@ export function AddNotes( t )
 	W( t, "08__Join_the_Party", "CZ", "Consists of central hold with steps around it." )
 	W( t, "0E__Dance_Vibrations", ["aCZ", "aNM"], "Consists of central hold with steps around it." )
 
-	CR( t, "02__Final_Audition", "aCZ", "Series of long footswitches." )
+	// CR( t, "02__Final_Audition", "aCZ", "Series of long footswitches." )
 
 	CR( t, "15__Nakakapagpabagabag", ["S18", "D19"], "Confusing holds with steps." )
 	CR( t, "15__Nakakapagpabagabag", ["S18", "D19"], "Gimmicky, need 6.5x or av999." )

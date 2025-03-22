@@ -48,7 +48,129 @@ export function ApplyTags( t )
 		"",
 	] );
 */
-	Tag( t, '#nakaka',
+
+
+	Tag( t, "#hands",
+	[
+		'17__Uh_Heung  S22',
+		'16__King_of_Sales  S21',
+	]);
+
+
+	Tag( t, "#twists.back",
+	[
+		'17__Acquire  S17/S20',
+		'17__Duel  S21',
+		'17__See  D20',
+		'17__Tomboy  D20',
+
+		'16__Crossing_Delta  D21/D23',
+		'16__Danger_n_Danger  D23',
+		'16__Forgotten_Vampire  D20',
+		'16__Headless_Chicken  D21',
+		'16__I_Want_U__SHORT  D21',
+		'16__Imagination  S19',
+		'16__Janus  D22',
+		'16__Jogging  S18/D18',
+		'16__Nyarlathotep  D17',
+		'16__Percent_X  S20',
+		'16__Poseidon  D16',
+		'16__Switronic  D18',
+		'16__Wedding_Crashers__SHORT  D20',
+		'16__Xeroize  S21',
+
+		'15__Asterios_ReEntry  D22',
+		'15__Awakening  D20',
+		'15__Clue  D20/D21',
+		'15__Hellfire  D23',
+		'15__Sarabande  D24',
+		'15__Shub_Niggurath  D23',
+		'15__The_Festival_of_Ghost2  D20',
+		'15__V3  D24',
+
+		'15__Hyperion__SHORT  D21',
+
+		'14__Bad_Apple  S19/D20',
+		'14__Dolly_Kiss  D21',
+		'14__Imprinting  D24',
+		'14__Prime  S21/D21',
+		'14__Scorpion_King  D16',
+		'14__Super_Fantasy  D22',
+		'14__You_Got_Me_Crazy  D18',
+
+		'13__Baroque_Virus  D20',
+		'13__Love_is_a_Danger_Zone_Cranky_Mix  S20/S21/D20/D23',
+		'13__Mental_Rider  D22',
+		'13__U_Got_Me_Rocking  D17',
+		'13__Windmill  D23',
+
+		'12__Monolith  D22',
+
+		'11__Butterfly  D17',
+		'11__We_Got_2_Know  D18',
+
+		'10__Turkey_March_Minimal_Tunes  D18',
+
+		'0F__Toccata  S17',
+		'0F__The_People_Didnt_Know  D17',
+
+		'0E__Faster_Z  D21',
+
+		'0D__Wi_Ex_Doc_Va  D17',
+		'0D__Witch_Doctor_1  D17/S19/D21',
+		'0D__Bemera  D18',
+
+		'0C__Love_is_a_Danger_Zone_try_to_B_P_M  D17/D23',
+
+		'07__Set_Me_Up  D17',
+		'07__Maria  S18',
+
+		'05__Rolling_Christmas  D22',
+
+		'04__Betrayer  D17',
+	] );
+
+
+	Tag( t, "#twists.side",
+	[
+		'16__Fly_High  S20',
+		'15__Gothique_Resonance  S20/D20',
+		'15__Super_Capriccio  S16',
+		'15__Vulcan  S22',
+		'14__Like_Me  S19',
+		'10__Hello_William  S19',
+		'10__Turkey_March_Minimal_Tunes  S17',
+		'0E__Pumptris_8bit  S16.XX',
+		'0D__Final_Audition_ep_2_1  S19/S21',
+		//'0C__Love_is_a_Danger_Zone_2_DnG  S16.XX',
+	] );
+
+
+	Tag( t, "#footswitches",
+	[
+		'16__Papasito  D21',
+		'17__Yo_Say_Fairy  S20',
+		'17__Acquire  S17',
+		'16__Headless_Chicken  S21',
+		'16__Loki  S21',
+		'16__Over_the_Horizon  S20',
+		'15__Rave_til_the_Earth_End  S17',
+		'14__Allegro_Piu_Mosso  S17',
+		'14__Hypercube  S15',
+		'11__Native  S17/D18/S20',
+		'0C__Beat_of_the_War_2  S21',
+		'07__Oy_Oy_Oy  S14',
+		'02__Final_Audition  S19',
+	] );
+
+
+	Tag( t, "#oneleg",
+	[
+		'14__Hypercube  S15',
+	] );
+
+
+	Tag( t, "#nakaka",
 	[
 		'15__Nakakapagpabagabag  D16/S19/D20',
 		'16__8_6  S16/D18/S20/D21',
@@ -58,7 +180,8 @@ export function ApplyTags( t )
 		'16__8_6__FULL  S21/D23',
 	] );
 
-	Tag( t, '#memorize',
+
+	Tag( t, "#memorize",
 	[
 		'17__Stager  S17/S19/D18/D20',
 		'17__Chaos_Again  S21',
@@ -80,6 +203,7 @@ export function ApplyTags( t )
 		'07__Dance_With_Me  D18',
 		//'0B__Deja_Vu  aNM',
 	]);
+
 
 	//Tag( t, '13__Yeo_Rae_A  S1', "Pass with score <= 180,000 to get #phoenix.title 'Human metronome'" );
 	//Tag( t, '15__Gargoyle__FULL  S21', "Pass with score <= 444,444 to get #phoenix.title 'Perfect breaker'" );
