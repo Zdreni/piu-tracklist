@@ -279,7 +279,7 @@ function ParseChartsDescr( chartsDescrStr )
 
 	const descr = {
 		trackID: descrArr[ 0 ],
-		charts: labelsArr.map( ( x ) => ParseChartLabel( x ) )
+		charts: labelsArr.map( ParseChartLabel )
 	};
 
 	return descr;
