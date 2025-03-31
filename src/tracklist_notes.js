@@ -9,9 +9,7 @@ export function	AddSharedChartNote( sharedChart, kind, noteText )
 	if( ! sharedChart.notes )
 		sharedChart.notes = [];
 
-	var note = {};
-	note[ kind ] = noteText;
-	sharedChart.notes.push( note );
+	sharedChart.notes.push( { 'kind': kind, 'text': noteText} );
 }
 
 
@@ -27,8 +25,7 @@ function Note( tracklist, trackName, chartDescrs, kind, noteText )
 		if( ! chart.shared.notes )
 			chart.shared.notes = [];
 
-		var note = {};
-		note[ kind ] = noteText;
+		var note = { 'kind': kind, 'text': noteText };
 		chart.shared.notes.push( note );
 	}
 }
