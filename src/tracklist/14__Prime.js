@@ -850,7 +850,7 @@ export const newTunes__14__Prime = {
 	pumpoutID: 508,
 
 	charts: {
-		Phoenix: "= S4`3 S11`10 -Dp2",
+		Phoenix: "= S4`3 S11`10 -Dp2  @2.08 CoOp(x4)",
 		XX: "=",
 		Prime2: "=  @1.08 Dp2  @2.03 D21",
 		Prime: "@1.19 S3 S10 S17 D6 D18",

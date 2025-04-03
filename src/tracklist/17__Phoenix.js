@@ -8,7 +8,7 @@ import {
 /*
 "17__":
 {
-	title: "", artist: "", channel: , bpm: "", duration: ,
+	title: "", artist: "", channel: , bpm: "", //duration: ,
 	// sortingID: "",
 	sortingBetween: ["", ""],
 	// arcadeID: "",
@@ -16,7 +16,7 @@ import {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@2.07 ",
+		Phoenix: "@2.08 ",
 	},
 },
 */
@@ -199,7 +199,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "S1 S4 S6 S9 S13 S15 S18 D7 D15 D17 D20 CoOp(x2)",
+		Phoenix: "S1 S4 S6 S9 S13 S15 S18 D7 D15 D17 D20 CoOp(x2)  @2.08 D23",
 	},
 },
 
@@ -388,7 +388,7 @@ export const newTunes__17__Phoenix = {
 {
 	title: "Highway Chaser", artist: "Cosmograph", channel: ORIGINAL, bpm: "155",
 	// sortingID: "",
-	sortingBetween: ["17__ESP", "17__Nyan_turne"],
+	sortingBetween: ["17__ESP", "17__Burn_Out"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -399,11 +399,41 @@ export const newTunes__17__Phoenix = {
 },
 
 
+"17__Burn_Out":
+{
+	title: "Burn Out", artist: "WyvernP", channel: ORIGINAL, bpm: "190",
+	// sortingID: "",
+	sortingBetween: ["17__Highway_Chaser", "17__Ultimate_Eyes"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.08 S11 S15 S17 S20 D13 D20 D23",
+	},
+},
+
+
+"17__Ultimate_Eyes":
+{
+	title: "Ultimate Eyes", artist: "HyuN", channel: ORIGINAL, bpm: "185",
+	// sortingID: "",
+	sortingBetween: ["17__Burn_Out", "17__Nyan_turne"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.08 S4 S7 S11 S14 S16 S19 S22 D13 D21 D24",
+	},
+},
+
+
 "17__Nyan_turne":
 {
 	title: "Nyan-turne (feat. KuTiNA)", artist: "Cashew & Castellia", channel: ORIGINAL, bpm: "202.1",
 	// sortingID: "",
-	sortingBetween: ["17__Highway_Chaser", "17__Vector"],
+	sortingBetween: ["17__Ultimate_Eyes", "17__Vector"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -499,7 +529,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@1.03 S8 S12 S16 S18 S20 D13 D17 D21 CoOp(x2)",
+		Phoenix: "@1.03 S8 S12 S16 S18 S20 D13 D17 D21 CoOp(x2)  @2.08 D23",
 	},
 },
 
@@ -613,7 +643,7 @@ export const newTunes__17__Phoenix = {
 {
 	title: "Stardream -Eurobeat Remix-", artist: "MAX x Cashew x Dave Rodgers", channel: ORIGINAL, bpm: "160",
 	// sortingID: "",
-	sortingBetween: ["17__Etude_Op_10_4", "17__Duel"],
+	sortingBetween: ["17__Etude_Op_10_4", "17__1948"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -624,11 +654,26 @@ export const newTunes__17__Phoenix = {
 },
 
 
+"17__1948":
+{
+	title: "1948", artist: "SLAM", channel: ORIGINAL, bpm: "240",
+	// sortingID: "",
+	sortingBetween: ["17__Stardream_Eurobeat_Remix", "17__Duel"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.08 S18 S21 S24 S26 D24 D27 D??(29)",
+	},
+},
+
+
 "17__Duel":
 {
 	title: "DUEL", artist: "Cashew & D_AAN", channel: ORIGINAL, bpm: "155",
 	// sortingID: "",
-	sortingBetween: ["17__Stardream_Eurobeat_Remix", "17__Lacrimosa"],
+	sortingBetween: ["17__1948", "17__Lacrimosa"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -838,7 +883,7 @@ export const newTunes__17__Phoenix = {
 {
 	title: "Appassionata", artist: "Cashew x D_AAN x Jehezukiel", channel: ORIGINAL, bpm: "160~210",
 	// sortingID: "",
-	sortingBetween: ["17__Neo_Catharsis", "17__Curiosity_Overdrive"],
+	sortingBetween: ["17__Neo_Catharsis", "17__Super_Akuma_Emperor"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -849,11 +894,26 @@ export const newTunes__17__Phoenix = {
 },
 
 
+"17__Super_Akuma_Emperor":
+{
+	title: "Super Akuma Emperor", artist: "REDALiCE", channel: ORIGINAL, bpm: "240",
+	// sortingID: "",
+	sortingBetween: ["17__Appassionata", "17__Curiosity_Overdrive"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.08 S15 S18 S20 S22 S24 D18 D24 D26",
+	},
+},
+
+
 "17__Curiosity_Overdrive":
 {
 	title: "Curiosity Overdrive", artist: "t+pazolite", channel: ORIGINAL, bpm: "192",
 	// sortingID: "",
-	sortingBetween: ["17__Appassionata", "17__Sonic_Boom"],
+	sortingBetween: ["17__Super_Akuma_Emperor", "17__Sonic_Boom"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -943,7 +1003,7 @@ export const newTunes__17__Phoenix = {
 {
 	title: "Sudden Appearance Image", artist: "Blacklolita", channel: ORIGINAL, bpm: "170",
 	// sortingID: "",
-	sortingBetween: ["17__Chaos_Again", "17__New_Rose"],
+	sortingBetween: ["17__Chaos_Again", "17__Deca_Dance"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -954,11 +1014,26 @@ export const newTunes__17__Phoenix = {
 },
 
 
+"17__Deca_Dance":
+{
+	title: "Deca Dance", artist: "Yooh", channel: ORIGINAL, bpm: "160",
+	// sortingID: "",
+	sortingBetween: ["17__Sudden_Appearance_Image", "17__New_Rose"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.08 S9 S13 S16 S18 S21 D17 D20 D23",
+	},
+},
+
+
 "17__New_Rose":
 {
 	title: "New Rose", artist: "Hommarju", channel: ORIGINAL, bpm: "190",
 	// sortingID: "",
-	sortingBetween: ["17__Sudden_Appearance_Image", "17__Hercules"],
+	sortingBetween: ["17__Deca_Dance", "17__Hercules"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1183,7 +1258,7 @@ export const newTunes__17__Phoenix = {
 {
 	title: "Catastrophe", artist: "rareguy & MonstDeath", channel: WORLD, bpm: "202",
 	// sortingID: "",
-	sortingBetween: ["17__Fracture_Temporelle", "17__Underworld"],
+	sortingBetween: ["17__Fracture_Temporelle", "17__Human_Extinction"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1194,11 +1269,26 @@ export const newTunes__17__Phoenix = {
 },
 
 
+"17__Human_Extinction":
+{
+	title: "Human Extinction (PIU Edit.)", artist: "MonstDeath", channel: WORLD, bpm: "199",
+	// sortingID: "",
+	sortingBetween: ["17__Catastrophe", "17__Underworld"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.08 S12 S18 S20 S22 S24 D20 D23 D25",
+	},
+},
+
+
 "17__Underworld":
 {
 	title: "Underworld ft. Skizzo (PIU Edit.)", artist: "MonstDeath vs Neutral Moon", channel: WORLD, bpm: "190",
 	// sortingID: "",
-	sortingBetween: ["17__Catastrophe", "17__Nade_Nade"],
+	sortingBetween: ["17__Human_Extinction", "17__Nade_Nade"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1425,7 +1515,7 @@ export const newTunes__17__Phoenix = {
 {
 	title: "Rush-More", artist: "litmus*", channel: WORLD, bpm: "160",
 	// sortingID: "",
-	sortingBetween: ["17__Stager", "17__This_game_does_not_exist"],
+	sortingBetween: ["17__Stager", "17__Rush_Hour"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1436,11 +1526,26 @@ export const newTunes__17__Phoenix = {
 },
 
 
+"17__Rush_Hour":
+{
+	title: "Rush-Hour", artist: "litmus*", channel: WORLD, bpm: "112",
+	// sortingID: "",
+	sortingBetween: ["17__Rush_More", "17__This_game_does_not_exist"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.08 S13 S16 S20 S22 D17 D22 D24",
+	},
+},
+
+
 "17__This_game_does_not_exist":
 {
 	title: "* this game does not exist *", artist: "litmus* x Ester", channel: WORLD, bpm: "40~240",
 	// sortingID: "",
-	sortingBetween: ["17__Rush_More", "17__Mahika"],
+	sortingBetween: ["17__Rush_Hour", "17__Mahika"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1686,7 +1791,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@1.02 S9 S14 S17 S20 S22 D16 D22 D24",
+		Phoenix: "@1.02 S9 S14 S17 S20 S22 D16 D22 D24  @2.08 CoOp(x2)",
 	},
 },
 
@@ -1770,13 +1875,43 @@ export const newTunes__17__Phoenix = {
 {
 	title: "Ghroth  [SHORT]", artist: "nato", channel: ORIGINAL, bpm: "212",
 	// sortingID: "",
-	sortingBetween: ["17__Jupin__SHORT", "16__Paradoxx__SHORT"],
+	sortingBetween: ["17__Jupin__SHORT", "17__Neo_Catharsis__SHORT"],
 	// arcadeID: "",
 	pumpoutID: "",
 	arcadeName: "Ghroth - SHORT CUT -",
 
 	charts: {
 		Phoenix: "@2.07 S14 S18 S22 D20 D24",
+	},
+},
+
+
+"17__Neo_Catharsis__SHORT":
+{
+	title: "Neo Catharsis  [SHORT]", artist: "TAG underground overlay", channel: ORIGINAL, bpm: "120~300",
+	// sortingID: "",
+	sortingBetween: ["17__Ghroth__SHORT", "17__Hymn_of_Golden_Glory__SHORT"],
+	// arcadeID: "",
+	pumpoutID: "",
+	arcadeName: "Neo Catharsis - SHORT CUT -",
+
+	charts: {
+		Phoenix: "@2.08 S19 S21 S23 D23 D25",
+	},
+},
+
+
+"17__Hymn_of_Golden_Glory__SHORT":
+{
+	title: "Hymn of Golden Glory - SHORT CUT -", artist: "Essbee", channel: ORIGINAL, bpm: "244",
+	// sortingID: "",
+	sortingBetween: ["17__Neo_Catharsis__SHORT", "16__Paradoxx__SHORT"],
+	// arcadeID: "",
+	pumpoutID: "",
+	arcadeName: "Hymn of Golden Glory - SHORT CUT -",
+
+	charts: {
+		Phoenix: "@2.08 S15 S18 S20 S23 D17 D20 D22 D24",
 	},
 },
 

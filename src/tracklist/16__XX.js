@@ -513,7 +513,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 881,
 
 	charts: {
-		Phoenix: "= D13`12",
+		Phoenix: "= D13`12  @2.08 D23",
 		XX: "@2.06 S3 S7 S10 S16 D12 D18 S19.lock D21.lock",
 	},
 },
@@ -611,7 +611,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 770,
 
 	charts: {
-		Phoenix: "= S18`17 D19`18 -Dp4",
+		Phoenix: "= S18`17 D19`18 -Dp4  @2.08 CoOp(x2)",
 		XX: "@1.01 S2 S4 S7 S15 S17.lock D11 D16 D18.lock  @1.04 Dp4",
 	},
 },
@@ -1057,7 +1057,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 831,
 
 	charts: {
-		Phoenix: "= D14`15 -Dp3",
+		Phoenix: "= D14`15 -Dp3  @2.08 S21",
 		XX: "@2.02 S8 S12 S16 D10 D15 D18 S19.lock D21.lock  @2.04 Dp3  @2.07 D23.lock",
 	},
 },
@@ -1564,7 +1564,7 @@ export const newTunes__16__XX = {
 	title: "Paradoxx  [SHORT]", artist: "SLAM & NATO", channel: ORIGINAL, bpm: "220",
 	arcadeID: "16B6",
 	pumpoutID: 899,
-	sortingBetween: ["17__Ghroth__SHORT", ""],
+	sortingBetween: ["17__Hymn_of_Golden_Glory__SHORT", ""],
 	arcadeName: "Paradoxx - SHORT CUT -",
 
 	charts: {
