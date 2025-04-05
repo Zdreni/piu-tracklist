@@ -10,7 +10,7 @@ import {
 {
 	title: "", artist: "", channel: , bpm: "", //duration: ,
 	// sortingID: "",
-	sortingBetween: ["", ""],
+	sortingBetween: [null, ""],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -29,7 +29,7 @@ export const newTunes__17__Phoenix = {
 {
 	title: "Uh-Heung", artist: "DKZ", channel: KPOP, bpm: "128",
 	sortingID: "17__STANDARD_",
-	sortingBetween: ["", "17__Do_or_Die"],
+	sortingBetween: [null, "17__Do_or_Die"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1815,7 +1815,7 @@ export const newTunes__17__Phoenix = {
 {
 	title: "Horang Pungryuga", artist: "Sangnoksu feat. HANANA", channel: WORLD, bpm: "160",
 	// sortingID: "",
-	sortingBetween: ["17__Soldiers", ""],
+	sortingBetween: ["17__Soldiers", null],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1830,7 +1830,7 @@ export const newTunes__17__Phoenix = {
 {
 	title: "Euphorianic  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "140",
 	sortingID: "17_",
-	sortingBetween: ["", "17__Phoenix_Opening__SHORT"],
+	sortingBetween: [null, "17__Phoenix_Opening__SHORT"],
 	// arcadeID: "",
 	pumpoutID: "",
 	arcadeName: "Euphorianic - SHORT CUT -",
@@ -1920,7 +1920,7 @@ export const newTunes__17__Phoenix = {
 {
 	title: "DISTRICT V", artist: "Zekk vs MAX", channel: ORIGINAL, bpm: "178", duration: REMIX,
 	sortingID: "17__REMIX_",
-	sortingBetween: ["", "16__Brown_Sky"],
+	sortingBetween: [null, "16__Brown_Sky"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1935,7 +1935,7 @@ export const newTunes__17__Phoenix = {
 {
 	title: "Teddy Bear  [FULL]", artist: "STAYC", channel: KPOP, bpm: "119",
 	sortingID: "17__FULL_",
-	sortingBetween: ["", "16__Good_Night__FULL"],
+	sortingBetween: [null, "16__Good_Night__FULL"],
 	// arcadeID: "",
 	pumpoutID: "",
 	arcadeName: "Teddy Bear - FULL SONG -",

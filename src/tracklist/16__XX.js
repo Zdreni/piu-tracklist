@@ -925,7 +925,7 @@ export const newTunes__16__XX = {
 	altID: "16_Club_Night",
 	arcadeID: "1668",
 	pumpoutID: 753,
-	sortingBetween: ["16__God_Mode_2_0", ""],
+	sortingBetween: ["16__God_Mode_2_0", null],
 
 	charts: {
 		Phoenix: "= S9`8 S17`16 S19`18 -Dp5",
@@ -1069,7 +1069,7 @@ export const newTunes__16__XX = {
 	altID: "16_Imagination",
 	arcadeID: "1678",
 	pumpoutID: 755,
-	sortingBetween: ["16__Kokugen_Kairou_Labyrinth", ""],
+	sortingBetween: ["16__Kokugen_Kairou_Labyrinth", null],
 
 	charts: {
 		Phoenix: "= S18`17 -Dp5",
@@ -1524,7 +1524,7 @@ export const newTunes__16__XX = {
 	arcadeID: "16B3",
 	pumpoutID: 896,
 	arcadeName: "CROSS RAY",
-	sortingBetween: ["", "16__Ultimatum"],
+	sortingBetween: [null, "16__Ultimatum"],
 
 	charts: {
 		Phoenix: "= S21`22",
@@ -1564,7 +1564,7 @@ export const newTunes__16__XX = {
 	title: "Paradoxx  [SHORT]", artist: "SLAM & NATO", channel: ORIGINAL, bpm: "220",
 	arcadeID: "16B6",
 	pumpoutID: 899,
-	sortingBetween: ["17__Hymn_of_Golden_Glory__SHORT", ""],
+	sortingBetween: ["17__Hymn_of_Golden_Glory__SHORT", null],
 	arcadeName: "Paradoxx - SHORT CUT -",
 
 	charts: {
@@ -1577,7 +1577,7 @@ export const newTunes__16__XX = {
 "16__Brown_Sky":
 {
 	title: "Brown Sky", artist: "Doin", channel: ORIGINAL, bpm: "200", duration: REMIX,
-	sortingBetween: ["17__District_V", ""],
+	sortingBetween: ["17__District_V", null],
 	arcadeID: "16B7",
 	pumpoutID: 900,
 
@@ -1591,7 +1591,7 @@ export const newTunes__16__XX = {
 "16__Good_Night__FULL":
 {
 	title: "Good Night  [FULL]", artist: "Dreamcatcher", channel: KPOP, bpm: "196",
-	sortingBetween: ["17__Teddy_Bear__FULL", ""],
+	sortingBetween: ["17__Teddy_Bear__FULL", null],
 	arcadeName: "GOOD NIGHT - FULL SONG -",
 	arcadeID: "16B8",
 	pumpoutID: 901,
@@ -1940,7 +1940,7 @@ export const newTunes__16__XX = {
 	arcadeName: "Switronic - SHORT CUT -",
 	altID: "16_Switronic_SHORT",
 	arcadeID: "16F6",
-	sortingBetween: ["", "16__God_Mode_2_0"],
+	sortingBetween: [null, "16__God_Mode_2_0"],
 	pumpoutID: 822,
 
 	charts: {

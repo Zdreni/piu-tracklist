@@ -676,7 +676,7 @@ function validateTrackSortingBetween( tracklist, trackID )
 	const track = tracklist[ trackID ];
 
 	const prevID = track.sortingBetween[ 0 ];
-	if( prevID === "" )
+	if( prevID === null )
 	{
 		if( ! track.sortingID  &&  ! track.arcadeID )
 			throw new Error( `Track '${trackID}' is in the start of sorting chain, but doesn't have arcadeID or sortingID` );
@@ -695,9 +695,9 @@ function validateTrackSortingBetween( tracklist, trackID )
 	}
 
 	const nextID = track.sortingBetween[ 1 ];
-	if( nextID === "" )
+	if( nextID === null )
 	{
-		if( prevID === "" )
+		if( prevID === null )
 			throw new Error( `Track '${trackID}' can't have both empty entries of sortingBetween` );
 	}
 	else
@@ -718,7 +718,7 @@ function generateSortingIdsForChain( tracklist, initialID )
 	var sortingPrefix = tracklist[ initialID ].sortingID  ||  tracklist[ initialID ].arcadeID;
 	var counter = 1;
 	var trackID = tracklist[ initialID ].sortingBetween[ 1 ];
-	while( trackID !== "" )
+	while( trackID !== null )
 	{
 		const track = tracklist[ trackID ];
 		if( track.sortingID )
@@ -742,7 +742,7 @@ function GenerateSortingIDs( tracklist )
 		if( tracklist[ trackID ].sortingBetween )
 		{
 			validateTrackSortingBetween( tracklist, trackID );
-			if( tracklist[ trackID ].sortingBetween[ 0 ] === "" )
+			if( tracklist[ trackID ].sortingBetween[ 0 ] === null )
 				sortingChains.push( trackID );
 		}
 	}
