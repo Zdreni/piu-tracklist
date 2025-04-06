@@ -1903,7 +1903,7 @@ export const newTunes__17__Phoenix = {
 
 "17__Hymn_of_Golden_Glory__SHORT":
 {
-	title: "Hymn of Golden Glory - SHORT CUT -", artist: "Essbee", channel: ORIGINAL, bpm: "244",
+	title: "Hymn of Golden Glory  [SHORT]", artist: "Essbee", channel: ORIGINAL, bpm: "244",
 	// sortingID: "",
 	sortingBetween: ["17__Neo_Catharsis__SHORT", "16__Paradoxx__SHORT"],
 	// arcadeID: "",

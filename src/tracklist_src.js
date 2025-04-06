@@ -546,13 +546,25 @@ function PreprocessOldStyleListCharts( track, mixID, oldSlotSharedCharts )
 }
 
 
-function GuessDurationFromTitle( title )
+function GuessDurationFromInfo( track )
 {
-	if( title.endsWith( "[SHORT]" ) )
-		return SHORT;
+	const title = track.title;
 
-	if( title.endsWith( "[FULL]" ) )
+	if( track.id.endsWith( "__SHORT" ))
+	{
+		if( ! title.endsWith( "[SHORT]" ) )
+			throw new Error( `Short track '${track.id}'' doesn't have [SHORT] suffix in its name` );
+
+		return SHORT;
+	}
+
+	if( track.id.endsWith( "__FULL" ))
+	{
+		if( ! title.endsWith( "[FULL]" ) )
+			throw new Error( `Full track '${track.id}'' doesn't have [FULL] suffix in its name` );
+
 		return FULL;
+	}
 
 	return STANDARD;
 }
@@ -597,7 +609,7 @@ function PreprocessTrack( track )
 
 
 	if( ! track.duration )
-		track.duration = GuessDurationFromTitle( track.title );
+		track.duration = GuessDurationFromInfo( track );
 
 	if( ! track.artist )
 		throw new Error( `Track ${ trackID } has no artist specified` );
