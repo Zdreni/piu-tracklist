@@ -79,6 +79,8 @@ export function ApplyTags( t )
 		'16__Wedding_Crashers__SHORT  D20',
 		'16__Xeroize  S21',
 
+		'16__Phalanx_RS2018  D13',
+
 		'15__Asterios_ReEntry  D22',
 		'15__Awakening  D20',
 		'15__Clue  D20/D21',
@@ -203,6 +205,17 @@ export function ApplyTags( t )
 		'07__Dance_With_Me  D18',
 		//'0B__Deja_Vu  aNM',
 	]);
+
+
+	Tag( t, "#jacks",
+	[
+		'17__1948  S18/S21',
+		'17__Ultimate_Eyes  S14',
+
+		'16__Phalanx_RS2018  D13',
+
+		'15__V3  S14',
+	])
 
 
 	//Tag( t, '13__Yeo_Rae_A  S1', "Pass with score <= 180,000 to get #phoenix.title 'Human metronome'" );
