@@ -136,32 +136,51 @@ export function ApplyTags( t )
 	Tag( t, "#twists.side",
 	[
 		'16__Fly_High  S20',
+
 		'15__Gothique_Resonance  S20/D20',
 		'15__Super_Capriccio  S16',
 		'15__Vulcan  S22',
+
 		'14__Like_Me  S19',
+
 		'10__Hello_William  S19',
 		'10__Turkey_March_Minimal_Tunes  S17',
+
 		'0E__Pumptris_8bit  S16.XX',
+
 		'0D__Final_Audition_ep_2_1  S19/S21',
+
 		//'0C__Love_is_a_Danger_Zone_2_DnG  S16.XX',
 	] );
 
 
 	Tag( t, "#footswitches",
 	[
-		'16__Papasito  D21',
 		'17__Yo_Say_Fairy  S20',
 		'17__Acquire  S17',
-		'16__Headless_Chicken  S21',
-		'16__Loki  S21',
+
 		'16__Over_the_Horizon  S20',
+		'16__Papasito  D21',
+
 		'15__Rave_til_the_Earth_End  S17',
+
 		'14__Allegro_Piu_Mosso  S17',
 		'14__Hypercube  S15',
+
 		'11__Native  S17/D18/S20',
-		'0C__Beat_of_the_War_2  S21',
+
+		'0E__Caprice_of_Otada  S17',
+
 		'07__Oy_Oy_Oy  S14',
+	] );
+
+	Tag( t, "#footswitches.plus",
+	[
+		'16__Loki  S21',
+		'16__Headless_Chicken  S21',
+
+		'0C__Beat_of_the_War_2  S21',
+
 		'02__Final_Audition  S19',
 	] );
 
@@ -174,12 +193,14 @@ export function ApplyTags( t )
 
 	Tag( t, "#nakaka",
 	[
-		'15__Nakakapagpabagabag  D16/S19/D20',
-		'16__8_6  S16/D18/S20/D21',
 		'17__Euphorianic  S19',
 		'17__Pneumonoultramicroscopicsilicovolcanoconiosis  S19/D22',
-		'16__Tales_of_Pumpnia  S20/D21',
+
+		'16__8_6  S16/D18/S20/D21',
 		'16__8_6__FULL  S21/D23',
+		'16__Tales_of_Pumpnia  S20/D21',
+
+		'15__Nakakapagpabagabag  D16/S19/D20',
 	] );
 
 
@@ -187,20 +208,29 @@ export function ApplyTags( t )
 	[
 		'17__Stager  S17/S19/D18/D20',
 		'17__Chaos_Again  S21',
+
 		'16__Love_Scenario  S17/D19',
 		'16__Pop_Sequence  Sp18/Dp22',
+
 		'15__Twist_of_Fate  S19/D21',
 		'15__Cross_Time  D22',
+
 		'14__Red_Swan  Dp20',
 		'14__Bad_Apple  S15',
 		'14__Rock_the_House__SHORT  S18',
 		'14__Break_It_Down  D21',
 		'14__NoNoNo  Sp15/Dp15',
+
 		'13__Nobody  S15/D17',
+
 		'11__Everybody_Got_2_Know  S21',
+
 		'0F__Uprock  S17',
+
 		'0D__Ugly_Dee  S17',
+
 		'08__Come_to_Me  S17',
+
 		'07__Miss_s_Story  S19',
 		'07__Dance_With_Me  D18',
 		//'0B__Deja_Vu  aNM',
@@ -209,12 +239,31 @@ export function ApplyTags( t )
 
 	Tag( t, "#jacks",
 	[
-		'17__1948  S18/S21',
+		'17__1948  S18/S21/D24',
+		'17__Imperium  S18',
+		'17__Super_Akuma_Emperor  S18',
 		'17__Ultimate_Eyes  S14',
+		'17__Wither_Garden  S20',
 
+		'16__Dement_After_Legend  S15',
+		'16__Life_is_Piano  S16',
 		'16__Phalanx_RS2018  D13',
+		'16__Your_Mind  S21',
 
+		'15__Allegro_Furioso  S20',
+		'15__Last_Rebirth  D18',
+		'15__Travel_to_Future  D23',
 		'15__V3  S14',
+
+		'13__Hypnosis_SynthWulf_Mix  D22',
+		'13__Unique  S16',
+
+		'11__Native  S17/S20',
+
+		'10__Arirang  S22',
+		'10__Bemera__SHORT  S17/S22',
+		'10__Moonlight__SHORT  S19',
+		'10__Vacuum  S16',
 	])
 
 
