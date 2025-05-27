@@ -1564,7 +1564,7 @@ export const newTunes__16__XX = {
 	title: "Paradoxx  [SHORT]", artist: "SLAM & NATO", channel: ORIGINAL, bpm: "220",
 	arcadeID: "16B6",
 	pumpoutID: 899,
-	sortingBetween: ["17__Hymn_of_Golden_Glory__SHORT", null],
+	sortingBetween: ["17__Stardream_Eurobeat_Remix__SHORT", null],
 	arcadeName: "Paradoxx - SHORT CUT -",
 
 	charts: {

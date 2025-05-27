@@ -1,0 +1,89 @@
+﻿https://piugame.com/bbs/board.php?bo_table=phoenix_notice&wr_id=297
+https://www.facebook.com/piugame/posts/1122938733206537
+
+
+Hello everyone. 
+
+We would like to notice official update of PIU PHOENIX v2.09.0 version.
+
+ 
+
+If the machine is connected with internet, update file will be downloaded automatically and the update will be processed when the machine is rebooted. 
+
+  - Download times may vary depending on the store’s network speed.
+
+  - If connected to a LAN cable dedicated to Japanese rhythm games (KONAMI/BEMANI, etc.), automatic updates will not occur. If it does not update automatically, please ensure it is connected via a regular LAN cable.
+
+※ Update v2.09.0 is possible after update v2.08.0
+
+ 
+
+ 
+
+1. New Songs (9 songs)
+
+1) Title : Vanish 2 - Roar of the invisible dragon
+  Artist : Applesoda
+  BPM : 190
+  Category : Original
+  Step charts : S12, S17, S20, S22, D13, D18, D24
+
+2) Title : Autumn Break
+  Artist : Cosmograph
+  BPM : 175
+  Category : Original
+  Step charts : S4, S7, S12, S16, S21, D14, D18, D23
+
+3) Title : Solve My Hurt
+  Artist : Doin
+  BPM : 234
+  Category : Original
+  Step charts : S10, S14, S18, S21, D15, D19, D23, Co-Op (x2)
+
+4) Title : Eternal Universe
+  Artist : Quree
+  BPM : 200
+  Category : Original
+  Step charts : S4, S7, S12, S16, S20, S23, D19, D23, D25
+
+5) Title : Becouse of You
+  Artist : Srav3R & USAO
+  BPM : 175
+  Category : World Music
+  Step charts : S11, S14, S16, S18, S21, D12, D17, D20, D22
+
+6) Title : About The Universe
+  Artist : SOTUI & MIssionary
+  BPM : 180
+  Category : World Music
+  Step charts : S7, S12, S16, S18, S21, D18, D21, D24
+
+7) Title : ALiVE
+  Artist : REDALiCE
+  BPM : 170
+  Category : World Music
+  Step charts : S5, S12, S15, S18, S22, D13, D17, D21, D24
+
+8) Title : Halloween Party ~Multiverse~ - SHORT CUT -
+  Artist : SHK
+  BPM : 160
+  Category : Short Cut
+  Step charts : S14, S19, S21, D18, D21
+
+9) Title :  Stardream -Eurobeat Remix- - SHORT CUT -
+  Artist : MAX x Cashew x Dave Rodgers
+  BPM : 160
+  Category : Short Cut
+  Step charts : S12, S16, S18, S21, D14, D18, D20, D22
+
+ 
+
+2. More Updates
+
+1) Fixes some steps that are causing issues under certain conditions.
+
+ 
+
+ 
+
+Thank you.

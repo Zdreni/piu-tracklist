@@ -16,7 +16,7 @@ import {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@2.08 ",
+		Phoenix: "@2.09 ",
 	},
 },
 */
@@ -373,7 +373,7 @@ export const newTunes__17__Phoenix = {
 {
 	title: "ESP", artist: "nato", channel: ORIGINAL, bpm: "175",
 	// sortingID: "",
-	sortingBetween: ["17__Festival_of_Death_Moon", "17__Highway_Chaser"],
+	sortingBetween: ["17__Festival_of_Death_Moon", "17__Autumn_Break"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -384,11 +384,26 @@ export const newTunes__17__Phoenix = {
 },
 
 
+"17__Autumn_Break":
+{
+	title: "Autumn Break", artist: "Cosmograph", channel: ORIGINAL, bpm: "175",
+	// sortingID: "",
+	sortingBetween: ["17__ESP", "17__Highway_Chaser"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.09 S4 S7 S12 S16 S21 D14 D18 D23",
+	},
+},
+
+
 "17__Highway_Chaser":
 {
 	title: "Highway Chaser", artist: "Cosmograph", channel: ORIGINAL, bpm: "155",
 	// sortingID: "",
-	sortingBetween: ["17__ESP", "17__Burn_Out"],
+	sortingBetween: ["17__Autumn_Break", "17__Eternal_Universe"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -399,11 +414,26 @@ export const newTunes__17__Phoenix = {
 },
 
 
+"17__Eternal_Universe":
+{
+	title: "Eternal_Universe", artist: "Quree", channel: ORIGINAL, bpm: "200",
+	// sortingID: "",
+	sortingBetween: ["17__Highway_Chaser", "17__Burn_Out"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.09 S4 S7 S12 S16 S20 S23 D19 D23 D25",
+	},
+},
+
+
 "17__Burn_Out":
 {
 	title: "Burn Out", artist: "WyvernP", channel: ORIGINAL, bpm: "190",
 	// sortingID: "",
-	sortingBetween: ["17__Highway_Chaser", "17__Ultimate_Eyes"],
+	sortingBetween: ["17__Eternal_Universe", "17__Ultimate_Eyes"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -673,7 +703,7 @@ export const newTunes__17__Phoenix = {
 {
 	title: "DUEL", artist: "Cashew & D_AAN", channel: ORIGINAL, bpm: "155",
 	// sortingID: "",
-	sortingBetween: ["17__1948", "17__Lacrimosa"],
+	sortingBetween: ["17__1948", "17__Vanish_2_Roar_of_the_invisible_dragon"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -684,11 +714,26 @@ export const newTunes__17__Phoenix = {
 },
 
 
+"17__Vanish_2_Roar_of_the_invisible_dragon":
+{
+	title: "Vanish 2 - Roar of the invisible dragon", artist: "Applesoda", channel: ORIGINAL, bpm: "190",
+	// sortingID: "",
+	sortingBetween: ["17__Duel", "17__Lacrimosa"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.09 S12 S17 S20 S22 D13 D18 D24",
+	},
+},
+
+
 "17__Lacrimosa":
 {
 	title: "Lacrimosa", artist: "Fiverwater", channel: ORIGINAL, bpm: "210",
 	// sortingID: "",
-	sortingBetween: ["17__Duel", "17__Solfeggietto"],
+	sortingBetween: ["17__Vanish_2_Roar_of_the_invisible_dragon", "17__Solfeggietto"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -988,7 +1033,7 @@ export const newTunes__17__Phoenix = {
 {
 	title: "Chaos Again", artist: "NAOKI underground -Ω-", channel: ORIGINAL, bpm: "150~260",
 	//sortingID: "",
-	sortingBetween: ["17__E_O_N", "17__Sudden_Appearance_Image"],
+	sortingBetween: ["17__E_O_N", "17__Solve_My_Hurt"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -999,11 +1044,26 @@ export const newTunes__17__Phoenix = {
 },
 
 
+"17__Solve_My_Hurt":
+{
+	title: "Solve My Hurt", artist: "Doin", channel: ORIGINAL, bpm: "234",
+	// sortingID: "",
+	sortingBetween: ["17__Chaos_Again", "17__Sudden_Appearance_Image"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.09 S10 S14 S18 S21 D15 D19 D23 CoOp(x2)",
+	},
+},
+
+
 "17__Sudden_Appearance_Image":
 {
 	title: "Sudden Appearance Image", artist: "Blacklolita", channel: ORIGINAL, bpm: "170",
 	// sortingID: "",
-	sortingBetween: ["17__Chaos_Again", "17__Deca_Dance"],
+	sortingBetween: ["17__Solve_My_Hurt", "17__Deca_Dance"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1183,7 +1243,7 @@ export const newTunes__17__Phoenix = {
 {
 	title: "Doppelganger", artist: "MonstDeath", channel: ORIGINAL, bpm: "210",
 	// sortingID: "",
-	sortingBetween: ["17__Crimson_Hood", "17__Perpetual"],
+	sortingBetween: ["17__Crimson_Hood", "17__About_the_Universe"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1194,11 +1254,26 @@ export const newTunes__17__Phoenix = {
 },
 
 
+"17__About_the_Universe":
+{
+	title: "About The Universe", artist: "SOTUI & MIssionary", channel: WORLD, bpm: "180",
+	// sortingID: "",
+	sortingBetween: ["17__Doppelganger", "17__Perpetual"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.09 S7 S12 S16 S18 S21 D18 D21 D24",
+	},
+},
+
+
 "17__Perpetual":
 {
 	title: "Perpetual", artist: "Qu-ail", channel: WORLD, bpm: "180",
 	// sortingID: "",
-	sortingBetween: ["17__Doppelganger", "17__Dancing"],
+	sortingBetween: ["17__About_the_Universe", "17__Dancing"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1665,7 +1740,7 @@ export const newTunes__17__Phoenix = {
 {
 	title: "Odin", artist: "Gram", channel: WORLD, bpm: "200",
 	// sortingID: "",
-	sortingBetween: ["17__Flvsh_Out", "17__Poppin_Shower"],
+	sortingBetween: ["17__Flvsh_Out", "17__Becouse_of_You"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1676,11 +1751,26 @@ export const newTunes__17__Phoenix = {
 },
 
 
+"17__Becouse_of_You":
+{
+	title: "Becouse of You", artist: "Srav3R & USAO", channel: WORLD, bpm: "175",
+	// sortingID: "",
+	sortingBetween: ["17__Odin", "17__Poppin_Shower"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.09 S11 S14 S16 S18 S21 D12 D17 D20 D22",
+	},
+},
+
+
 "17__Poppin_Shower":
 {
 	title: "Poppin' Shower", artist: "P*Light", channel: WORLD, bpm: "175",
 	// sortingID: "",
-	sortingBetween: ["17__Odin", "17__Break_Through_Myself"],
+	sortingBetween: ["17__Becouse_of_You", "17__Break_Through_Myself"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1725,7 +1815,7 @@ export const newTunes__17__Phoenix = {
 {
 	title: "Chobit Flavor", artist: "aran & t+pazolite", channel: WORLD, bpm: "180",
 	// sortingID: "",
-	sortingBetween: ["17__Viyellas_Nightmare", "17__Trickl4sh_220"],
+	sortingBetween: ["17__Viyellas_Nightmare", "17__ALiVE"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1736,11 +1826,26 @@ export const newTunes__17__Phoenix = {
 },
 
 
+"17__ALiVE":
+{
+	title: "ALiVE", artist: "REDALiCE", channel: WORLD, bpm: "170", //duration: ,
+	// sortingID: "",
+	sortingBetween: ["17__Chobit_Flavor", "17__Trickl4sh_220"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.09 S5 S12 S15 S18 S22 D13 D17 D21 D24",
+	},
+},
+
+
 "17__Trickl4sh_220":
 {
 	title: "TRICKL4SH 220", artist: "Lite Show Magic", channel: WORLD, bpm: "220",
 	// sortingID: "",
-	sortingBetween: ["17__Chobit_Flavor", "17__Extreme_Music_School_1st_period"],
+	sortingBetween: ["17__ALiVE", "17__Extreme_Music_School_1st_period"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1905,13 +2010,43 @@ export const newTunes__17__Phoenix = {
 {
 	title: "Hymn of Golden Glory  [SHORT]", artist: "Essbee", channel: ORIGINAL, bpm: "244",
 	// sortingID: "",
-	sortingBetween: ["17__Neo_Catharsis__SHORT", "16__Paradoxx__SHORT"],
+	sortingBetween: ["17__Neo_Catharsis__SHORT", "17__Halloween_Party_Multiverse__SHORT"],
 	// arcadeID: "",
 	pumpoutID: "",
 	arcadeName: "Hymn of Golden Glory - SHORT CUT -",
 
 	charts: {
 		Phoenix: "@2.08 S15 S18 S20 S23 D17 D20 D22 D24",
+	},
+},
+
+
+"17__Halloween_Party_Multiverse__SHORT":
+{
+	title: "Halloween Party ~Multiverse~  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "160", duration: SHORT,
+	// sortingID: "",
+	sortingBetween: ["17__Hymn_of_Golden_Glory__SHORT", "17__Stardream_Eurobeat_Remix__SHORT"],
+	// arcadeID: "",
+	pumpoutID: "",
+	arcadeName: "Halloween Party ~Multiverse~ - SHORT CUT -",
+
+	charts: {
+		Phoenix: "@2.09 S14 S19 S21 D18 D21",
+	},
+},
+
+
+"17__Stardream_Eurobeat_Remix__SHORT":
+{
+	title: "Stardream -Eurobeat Remix-  [SHORT]", artist: "MAX x Cashew x Dave Rodgers", channel: ORIGINAL, bpm: "160", //duration: SHORT,
+	// sortingID: "",
+	sortingBetween: ["17__Halloween_Party_Multiverse__SHORT", "16__Paradoxx__SHORT"],
+	// arcadeID: "",
+	pumpoutID: "",
+	arcadeName: "Stardream -Eurobeat Remix- - SHORT CUT -",
+
+	charts: {
+		Phoenix: "@2.09 S12 S16 S18 S21 D14 D18 D20 D22",
 	},
 },
 
