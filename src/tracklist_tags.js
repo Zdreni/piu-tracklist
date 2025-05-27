@@ -256,14 +256,16 @@ export function ApplyTags( t )
 		'15__V3  S14',
 
 		'13__Hypnosis_SynthWulf_Mix  D22',
-		'13__Unique  S16',
+		'13__Unique  S16.XX',
 
 		'11__Native  S17/S20',
 
 		'10__Arirang  S22',
-		'10__Bemera__SHORT  S17/S22',
+		'10__Bemera__SHORT  S22',
 		'10__Moonlight__SHORT  S19',
 		'10__Vacuum  S16',
+
+		'0D__Bemera  S17',
 	])
 
 
