@@ -416,7 +416,7 @@ export const newTunes__17__Phoenix = {
 
 "17__Eternal_Universe":
 {
-	title: "Eternal_Universe", artist: "Quree", channel: ORIGINAL, bpm: "200",
+	title: "Eternal Universe", artist: "Quree", channel: ORIGINAL, bpm: "200",
 	// sortingID: "",
 	sortingBetween: ["17__Highway_Chaser", "17__Burn_Out"],
 	// arcadeID: "",
