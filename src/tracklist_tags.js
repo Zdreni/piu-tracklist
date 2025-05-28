@@ -57,6 +57,11 @@ export function ApplyTags( t )
 	]);
 
 
+	Tag( t, "#twists",
+	[
+		'16__Indestructible  D15'
+	] );
+
 	Tag( t, "#twists.back",
 	[
 		'17__Acquire  S17/S20',
@@ -204,19 +209,29 @@ export function ApplyTags( t )
 	] );
 
 
+	function T(charts, tags) {
+		Tag( t, tags, charts );
+	}
+
+
+	T('17__Chaos_Again  S21',  ["#memorize", "#gimmicks.stops"]);
+
+	T('17__Horang_Pungryuga  D24',  ["#stamina.plus"]);
+
+	T('17__Stager  S17/S19/D18/D20',  ["#memorize", "#gimmicks.stops"]);
+
+	T('16__Love_Scenario  S17/D19',  ["#memorize", "#gimmicks.stops"]);
+	T('16__Pop_Sequence  Sp18/Dp22',  ["#memorize", "#gimmicks.stops"]);
+
+	T('15__Twist_of_Fate  S19/D21',  ["#memorize", "#gimmicks.slowdown"]);
+	T('15__Cross_Time  D22',  ["#memorize"]);
+
+	T('14__Red_Swan  Dp20',  ["#memorize"]);
+
+	T('14__Bad_Apple  S15',  ["#memorize", "#gimmicks.stops"]);
+
 	Tag( t, "#memorize",
 	[
-		'17__Stager  S17/S19/D18/D20',
-		'17__Chaos_Again  S21',
-
-		'16__Love_Scenario  S17/D19',
-		'16__Pop_Sequence  Sp18/Dp22',
-
-		'15__Twist_of_Fate  S19/D21',
-		'15__Cross_Time  D22',
-
-		'14__Red_Swan  Dp20',
-		'14__Bad_Apple  S15',
 		'14__Rock_the_House__SHORT  S18',
 		'14__Break_It_Down  D21',
 		'14__NoNoNo  Sp15/Dp15',
@@ -341,7 +356,7 @@ export function ApplyTags( t )
 	function PHOENIX_SKILL_TITLE( category, charts )
 	{
 		for( const [index, chart] of charts.entries() )
-			Tag( t, `SSS to get #phoenix.title.${category} (${index+1})`, chart + ".Phoenix" );
+			Tag( t, `SSS to get #phoenix.title.${category} [${index+1}]`, chart + ".Phoenix" );
 	}
 
 
