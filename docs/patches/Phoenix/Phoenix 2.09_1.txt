@@ -1,0 +1,49 @@
+﻿https://piugame.com/bbs/board.php?bo_table=phoenix_notice&wr_id=301
+https://www.facebook.com/piugame/posts/1122938733206537
+
+
+2.09.1 hotfix version release and song deletion announcement
+
+
+Recently, the song 'Autumn Break', which was added in the 2.09.0 update, was found to have a problem and was unavoidably discontinued.
+
+We will do our best to prevent this from happening again and provide a stable service.
+
+As a result, we will be releasing a hotfix with the following information.
+
+
+ 
+
+1. 2.09.1 hotfix will be deployed immediately.
+
+  - After the 2.09.1 update, 'Autumn Break' will be unplayable. 
+  - Your gameplay records will not be saved on the server after this date. (May 30, 2025, 18:00 Korean time)
+
+
+2. Information related to 'Autumn Break' will be removed from the piugame.com webpage.
+
+ a) Play Data 
+  - Play Data >Clear, Progress, Plates
+  - PUMBILITY
+  - My Best Score
+
+ b) Leaderboard
+  - Top Songs
+  - Top Steps
+  - RATING RANKING
+  - PUMBILITY RANKING
+  - OVER LV.20 RANKING
+
+※'Play Data - My Rating : Myrating includes ratings earned in 'Autumn Break'.
+※The record of 'Autumn Break' may be displayed in the most recent play.
+
+ 
+
+We apologize for the songs that were removed due to our carelessness,
+we'll do our best to make it up to you in the next update with some good songs.
+
+Again, we apologize for the inconvenience, and we'll work to make sure this doesn't happen again.
+
+ 
+
+Thank you.
