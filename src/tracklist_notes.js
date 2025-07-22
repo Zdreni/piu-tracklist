@@ -9,7 +9,7 @@ export function	AddSharedChartNote( sharedChart, kind, noteText )
 	if( ! sharedChart.notes )
 		sharedChart.notes = [];
 
-	sharedChart.notes.push( { 'kind': kind, 'text': noteText} );
+	sharedChart.notes.push( { 'kind': kind, 'text': noteText } );
 }
 
 

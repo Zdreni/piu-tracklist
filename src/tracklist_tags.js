@@ -50,17 +50,14 @@ export function ApplyTags( t )
 */
 
 
-	Tag( t, "#hands",
-	[
-		'17__Uh_Heung  S22',
-		'16__King_of_Sales  S21',
-	]);
-
-
 	Tag( t, "#twists",
 	[
-		'16__Indestructible  D15'
+		'16__Indestructible  D15',
+		'16__Switronic  S17',
+
+		'07__Love_is_a_Danger_Zone  S17'
 	] );
+
 
 	Tag( t, "#twists.back",
 	[
@@ -159,42 +156,6 @@ export function ApplyTags( t )
 	] );
 
 
-	Tag( t, "#footswitches",
-	[
-		'17__Yo_Say_Fairy  S20',
-		'17__Acquire  S17',
-
-		'16__Over_the_Horizon  S20',
-		'16__Papasito  D21',
-
-		'15__Rave_til_the_Earth_End  S17',
-
-		'14__Allegro_Piu_Mosso  S17',
-		'14__Hypercube  S15',
-
-		'11__Native  S17/D18/S20',
-
-		'0E__Caprice_of_Otada  S17',
-
-		'07__Oy_Oy_Oy  S14',
-	] );
-
-	Tag( t, "#footswitches.plus",
-	[
-		'16__Loki  S21',
-		'16__Headless_Chicken  S21',
-
-		'0C__Beat_of_the_War_2  S21',
-
-		'02__Final_Audition  S19',
-	] );
-
-
-	Tag( t, "#oneleg",
-	[
-		'14__Hypercube  S15',
-	] );
-
 
 	Tag( t, "#nakaka",
 	[
@@ -209,26 +170,116 @@ export function ApplyTags( t )
 	] );
 
 
-	function T(charts, tags) {
-		Tag( t, tags, charts );
+	function T(charts, tags)
+	{
+		if( ! Array.isArray( tags ) )
+			tags = [ tags ];
+		for( const tag of tags )
+			Tag( t, tag, charts );
 	}
 
 
-	T('17__Chaos_Again  S21',  ["#memorize", "#gimmicks.stops"]);
 
-	T('17__Horang_Pungryuga  D24',  ["#stamina.plus"]);
+	T('17__Acquire  S17',  "#footswitches")
 
-	T('17__Stager  S17/S19/D18/D20',  ["#memorize", "#gimmicks.stops"]);
+	T('17__ALiVE  S18',  "#brackets");
 
-	T('16__Love_Scenario  S17/D19',  ["#memorize", "#gimmicks.stops"]);
-	T('16__Pop_Sequence  Sp18/Dp22',  ["#memorize", "#gimmicks.stops"]);
+	T('17__Becouse_of_You  D20',  "#stamina")
+	T('17__Becouse_of_You  D22',  "#brackets")
 
-	T('15__Twist_of_Fate  S19/D21',  ["#memorize", "#gimmicks.slowdown"]);
-	T('15__Cross_Time  D22',  ["#memorize"]);
+	T('17__Chaos_Again  S21',  ["#memorize", "#gimmicks.stops"])
 
-	T('14__Red_Swan  Dp20',  ["#memorize"]);
+	T('17__Euphorianic  S19', "#nakaka")
 
-	T('14__Bad_Apple  S15',  ["#memorize", "#gimmicks.stops"]);
+	T('17__Halloween_Party_Multiverse__SHORT  D18/S19',  "#twists")
+
+	T('17__Horang_Pungryuga  D24',  ["#stamina.plus"])
+
+	T('17__Pneumonoultramicroscopicsilicovolcanoconiosis  S19/D22', "#nakaka")
+
+	T('17__Solve_My_Hurt  S21',  "#brackets")
+
+	T('17__Stager  S17/S19/D18/D20',  ["#memorize", "#gimmicks.stops"])
+
+	T('17__Yo_Say_Fairy  S20',  "#footswitches")
+
+	T('17__Uh_Heung  S22',  "#exotic.hands")
+
+
+
+	T('16__8_6  S16/D18/S20/D21',  "#nakaka")
+
+	T('16__8_6__FULL  S21/D23',  "#nakaka")
+
+	T('16__Headless_Chicken  S21',  "#footswitches.plus")
+
+	T('16__Heart_Rabbit_Coaster  S21',  "#jumps")
+
+	T('16__King_of_Sales  S21',  "#exotic.hands")
+
+	T('16__Loki  S21',  "#footswitches.plus")
+
+	T('16__Over_the_Horizon  S20',  "#footswitches")
+
+	T('16__Papasito  D21',  "#footswitches")
+
+	T('16__Tales_of_Pumpnia  S20/D21',  "#nakaka")
+
+	T('16__Love_Scenario  S17/D19',  ["#memorize", "#gimmicks.stops"])
+
+	T('16__Pop_Sequence  Sp18/Dp22',  ["#memorize", "#gimmicks.stops"])
+
+
+
+	T('15__Cross_Time  D22',  ["#memorize", "#gimmicks.stops"])
+
+	T('15__Nakakapagpabagabag  D16/S19/D20',  "#nakaka")
+
+	T('15__Rave_til_the_Earth_End  S17',  "#footswitches")
+	T('15__Rave_til_the_Earth_End  S19',  "#twists")
+
+	T('15__Twist_of_Fate  S19/D21',  ["#memorize", "#gimmicks.slowdown"])
+
+
+
+	T('14__Allegro_Piu_Mosso  S17',  "#footswitches")
+
+	T('14__Break_It_Down  S16',  "#exotic.centralhold")
+
+	T('14__Hypercube  S15',  "#footswitches")
+	T('14__Hypercube  S15',  "#exotic.oneleg")
+
+	T('14__Moment_Day  S18',  "#twists")
+
+	T('14__Red_Swan  Dp20',  "#memorize")
+
+	T('14__Bad_Apple  S15',  ["#memorize", "#gimmicks.stops"])
+
+
+
+	T('11__Native  S17/D18/S20',  "#footswitches")
+
+
+
+	T('0E__Caprice_of_Otada  S17',  "#footswitches")
+
+
+
+	T('0C__Beat_of_the_War_2  S21',  "#footswitches.plus")
+
+
+
+	T('07__Oy_Oy_Oy  S14',  "#footswitches")
+
+
+
+	T('05__Rolling_Christmas  S17',  "#exotic.roundabout")
+
+
+
+	T('02__Final_Audition  S19',  "#footswitches.plus")
+
+
 
 	Tag( t, "#memorize",
 	[
@@ -255,6 +306,7 @@ export function ApplyTags( t )
 	Tag( t, "#jacks",
 	[
 		'17__1948  S18/S21/D24',
+		'17__Darkside_of_the_Mind  S14',
 		'17__Imperium  S18',
 		'17__Super_Akuma_Emperor  S18',
 		'17__Ultimate_Eyes  S14',
@@ -282,6 +334,7 @@ export function ApplyTags( t )
 
 		'0D__Bemera  S17',
 	])
+
 
 
 	//Tag( t, '13__Yeo_Rae_A  S1', "Pass with score <= 180,000 to get #phoenix.title 'Human metronome'" );
