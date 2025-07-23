@@ -1,6 +1,33 @@
 "use strict";
 
 
+const BRACKETS = "#brackets"
+const BRACKETS_PLUS = "#brackets.plus"
+const ROLLINGBRACKETS = "#rollingbrackets"
+const JACKS = "#jacks"
+const FOOTSWITCHES = "#footswitches"
+const FOOTSWITCHES_PLUS = "#footswitches.plus"
+const TWISTS = "#twists"
+const TWISTS_BACK = "#twists.back"
+const TWISTS_SIDE = "#twists.side"
+
+const STAMINA = "#stamina"
+const STAMINA_PLUS = "#stamina.plus"
+
+const NAKAKA = "#nakaka"
+
+const EXOTIC_HANDS = "#exotic.hands"
+const EXOTIC_CENTRALHOLD = "#exotic.centralhold"
+const EXOTIC_ROUNDABOUT = "#exotic.roundabout"
+const EXOTIC_ONELEG = "#exotic.oneleg"
+
+const SLOWDOWN = "#slowdown"
+const GIMMICKS_STOPS = "#gimmicks.stops"
+const GIMMICKS_BLINKING = "#gimmicks.blinking"
+const MEMORIZE = "#memorize"
+
+
+
 import { FindSharedChartsByDescr } from './tracklist.js'
 import { AddSharedChartNote } from './tracklist_notes.js'
 
@@ -21,155 +48,6 @@ function Tag( tracklist, tagStr, chartsDescrList )
 
 export function ApplyTags( t )
 {
-	/*
-	Tag( '#slowdown',
-	[
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"Moonlight  S-19",
-		"Moonlight  D-21",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-		"",
-	] );
-*/
-
-
-	Tag( t, "#twists",
-	[
-		'16__Indestructible  D15',
-		'16__Switronic  S17',
-
-		'07__Love_is_a_Danger_Zone  S17'
-	] );
-
-
-	Tag( t, "#twists.back",
-	[
-		'17__Acquire  S17/S20',
-		'17__Duel  S21',
-		'17__See  D20',
-		'17__Tomboy  D20',
-
-		'16__Crossing_Delta  D21/D23',
-		'16__Danger_n_Danger  D23',
-		'16__Forgotten_Vampire  D20',
-		'16__Headless_Chicken  D21',
-		'16__I_Want_U__SHORT  D21',
-		'16__Imagination  S19',
-		'16__Janus  D22',
-		'16__Jogging  S18/D18',
-		'16__Nyarlathotep  D17',
-		'16__Percent_X  S20',
-		'16__Poseidon  D16',
-		'16__Switronic  D18',
-		'16__Wedding_Crashers__SHORT  D20',
-		'16__Xeroize  S21',
-
-		'16__Phalanx_RS2018  D13',
-
-		'15__Asterios_ReEntry  D22',
-		'15__Awakening  D20',
-		'15__Clue  D20/D21',
-		'15__Hellfire  D23',
-		'15__Sarabande  D24',
-		'15__Shub_Niggurath  D23',
-		'15__The_Festival_of_Ghost2  D20',
-		'15__V3  D24',
-
-		'15__Hyperion__SHORT  D21',
-
-		'14__Bad_Apple  S19/D20',
-		'14__Dolly_Kiss  D21',
-		'14__Imprinting  D24',
-		'14__Prime  S21/D21',
-		'14__Scorpion_King  D16',
-		'14__Super_Fantasy  D22',
-		'14__You_Got_Me_Crazy  D18',
-
-		'13__Baroque_Virus  D20',
-		'13__Love_is_a_Danger_Zone_Cranky_Mix  S20/S21/D20/D23',
-		'13__Mental_Rider  D22',
-		'13__U_Got_Me_Rocking  D17',
-		'13__Windmill  D23',
-
-		'12__Monolith  D22',
-
-		'11__Butterfly  D17',
-		'11__We_Got_2_Know  D18',
-
-		'10__Turkey_March_Minimal_Tunes  D18',
-
-		'0F__Toccata  S17',
-		'0F__The_People_Didnt_Know  D17',
-
-		'0E__Faster_Z  D21',
-
-		'0D__Wi_Ex_Doc_Va  D17',
-		'0D__Witch_Doctor_1  D17/S19/D21',
-		'0D__Bemera  D18',
-
-		'0C__Love_is_a_Danger_Zone_try_to_B_P_M  D17/D23',
-
-		'07__Set_Me_Up  D17',
-		'07__Maria  S18',
-
-		'05__Rolling_Christmas  D22',
-
-		'04__Betrayer  D17',
-	] );
-
-
-	Tag( t, "#twists.side",
-	[
-		'16__Fly_High  S20',
-
-		'15__Gothique_Resonance  S20/D20',
-		'15__Super_Capriccio  S16',
-		'15__Vulcan  S22',
-
-		'14__Like_Me  S19',
-
-		'10__Hello_William  S19',
-		'10__Turkey_March_Minimal_Tunes  S17',
-
-		'0E__Pumptris_8bit  S16.XX',
-
-		'0D__Final_Audition_ep_2_1  S19/S21',
-
-		//'0C__Love_is_a_Danger_Zone_2_DnG  S16.XX',
-	] );
-
-
-
-	Tag( t, "#nakaka",
-	[
-		'17__Euphorianic  S19',
-		'17__Pneumonoultramicroscopicsilicovolcanoconiosis  S19/D22',
-
-		'16__8_6  S16/D18/S20/D21',
-		'16__8_6__FULL  S21/D23',
-		'16__Tales_of_Pumpnia  S20/D21',
-
-		'15__Nakakapagpabagabag  D16/S19/D20',
-	] );
-
-
 	function T(charts, tags)
 	{
 		if( ! Array.isArray( tags ) )
@@ -179,169 +57,345 @@ export function ApplyTags( t )
 	}
 
 
+	T('17__1948  S18/S21/D24',  JACKS)
 
-	T('17__Acquire  S17',  "#footswitches")
+	T('17__About_the_Universe  S21',  TWISTS)
+	T('17__About_the_Universe  D24',  BRACKETS_PLUS)
 
-	T('17__ALiVE  S18',  "#brackets");
+	T('17__Acquire  S17',  FOOTSWITCHES)
+	T('17__Acquire  S17/S20',  TWISTS_BACK)
 
-	T('17__Becouse_of_You  D20',  "#stamina")
-	T('17__Becouse_of_You  D22',  "#brackets")
+	T('17__ALiVE  S18/S22',  BRACKETS);
+	T('17__ALiVE  D21',  BRACKETS_PLUS);
 
-	T('17__Chaos_Again  S21',  ["#memorize", "#gimmicks.stops"])
+	T('17__Becouse_of_You  D20',  STAMINA)
+	T('17__Becouse_of_You  D22',  BRACKETS)
 
-	T('17__Euphorianic  S19', "#nakaka")
+	T('17__Chaos_Again  S21',  [MEMORIZE, GIMMICKS_STOPS])
 
-	T('17__Halloween_Party_Multiverse__SHORT  D18/S19',  "#twists")
+	T('17__Darkside_of_the_Mind  S14',  JACKS)
 
-	T('17__Horang_Pungryuga  D24',  ["#stamina.plus"])
+	T('17__Duel  S21',  TWISTS_BACK)
 
-	T('17__Pneumonoultramicroscopicsilicovolcanoconiosis  S19/D22', "#nakaka")
+	T('17__Eternal_Universe  S23/D23',  BRACKETS)
 
-	T('17__Solve_My_Hurt  S21',  "#brackets")
+	T('17__Euphorianic  S19',  NAKAKA)
 
-	T('17__Stager  S17/S19/D18/D20',  ["#memorize", "#gimmicks.stops"])
+	T('17__Halloween_Party_Multiverse__SHORT  D18/S19',  TWISTS)
 
-	T('17__Yo_Say_Fairy  S20',  "#footswitches")
+	T('17__Horang_Pungryuga  D24',  STAMINA_PLUS)
 
-	T('17__Uh_Heung  S22',  "#exotic.hands")
+	T('17__Imperium  S18',  JACKS)
+
+	T('17__Jupin  S23',  TWISTS)
+
+	T('17__Pneumonoultramicroscopicsilicovolcanoconiosis  S19/D22',  NAKAKA)
+
+	T('17__See  D20',  TWISTS_BACK)
+
+	T('17__Solve_My_Hurt  S21/D23',  BRACKETS)
+
+	T('17__Stager  S17/S19/D18/D20',  [MEMORIZE, GIMMICKS_STOPS])
+
+	T('17__Super_Akuma_Emperor  S18',  JACKS)
+
+	T('17__Tomboy  D20',  TWISTS_BACK)
+
+	T('17__Yo_Say_Fairy  S20',  FOOTSWITCHES)
+
+	T('17__Uh_Heung  S22',  EXOTIC_HANDS)
+
+	T('17__Ultimate_Eyes  S14',  JACKS)
+
+	T('17__Wither_Garden  S20',  JACKS)
 
 
 
-	T('16__8_6  S16/D18/S20/D21',  "#nakaka")
+	T('16__8_6  S16/D18/S20/D21',  NAKAKA)
 
-	T('16__8_6__FULL  S21/D23',  "#nakaka")
+	T('16__8_6__FULL  S21/D23',  NAKAKA)
 
-	T('16__Headless_Chicken  S21',  "#footswitches.plus")
+	T('16__Clematis_Rapsodia  D23',  BRACKETS)
+
+	T('16__Crossing_Delta  D21/D23',  TWISTS_BACK)
+
+	T('16__Danger_n_Danger  D23',  TWISTS_BACK)
+
+	T('16__Dement_After_Legend  S15',  JACKS)
+
+	T('16__Fly_High  S20',  TWISTS_SIDE)
+
+	T('16__Fires_of_Destiny  S20',  TWISTS)
+
+	T('16__Forgotten_Vampire  D20',  TWISTS_BACK)
+
+	T('16__Harmagedon  D24',  BRACKETS)
+
+	T('16__Headless_Chicken  S21',  FOOTSWITCHES_PLUS)
+	T('16__Headless_Chicken  D21',  TWISTS_BACK)
 
 	T('16__Heart_Rabbit_Coaster  S21',  "#jumps")
 
-	T('16__King_of_Sales  S21',  "#exotic.hands")
+	T('16__I_Want_U__SHORT  D21',  TWISTS_BACK)
 
-	T('16__Loki  S21',  "#footswitches.plus")
+	T('16__Imagination  S19',  TWISTS_BACK)
 
-	T('16__Over_the_Horizon  S20',  "#footswitches")
+	T('16__Indestructible  D15',  TWISTS)
 
-	T('16__Papasito  D21',  "#footswitches")
+	T('16__Janus  D22',  TWISTS_BACK)
 
-	T('16__Tales_of_Pumpnia  S20/D21',  "#nakaka")
+	T('16__Jogging  S18/D18',  TWISTS_BACK)
 
-	T('16__Love_Scenario  S17/D19',  ["#memorize", "#gimmicks.stops"])
+	T('16__King_of_Sales  S21',  EXOTIC_HANDS)
 
-	T('16__Pop_Sequence  Sp18/Dp22',  ["#memorize", "#gimmicks.stops"])
+	T('16__Life_is_Piano  S16',  JACKS)
 
+	T('16__Loki  S21',  FOOTSWITCHES_PLUS)
 
+	T('16__Love_Scenario  S17/D19',  [MEMORIZE, GIMMICKS_STOPS])
 
-	T('15__Cross_Time  D22',  ["#memorize", "#gimmicks.stops"])
+	T('16__Mopemope  S21',  GIMMICKS_BLINKING)
 
-	T('15__Nakakapagpabagabag  D16/S19/D20',  "#nakaka")
+	T('16__Nyarlathotep  D17',  TWISTS_BACK)
 
-	T('15__Rave_til_the_Earth_End  S17',  "#footswitches")
-	T('15__Rave_til_the_Earth_End  S19',  "#twists")
+	T('16__Over_the_Horizon  S20',  FOOTSWITCHES)
 
-	T('15__Twist_of_Fate  S19/D21',  ["#memorize", "#gimmicks.slowdown"])
+	T('16__Papasito  D21',  FOOTSWITCHES)
 
+	T('16__Percent_X  S20',  TWISTS_BACK)
 
+	T('16__Phalanx_RS2018  D13',  [JACKS, TWISTS_BACK])
 
-	T('14__Allegro_Piu_Mosso  S17',  "#footswitches")
+	T('16__Pop_Sequence  Sp18/Dp22',  [MEMORIZE, GIMMICKS_STOPS])
 
-	T('14__Break_It_Down  S16',  "#exotic.centralhold")
+	T('16__Poseidon  D16',  TWISTS_BACK)
 
-	T('14__Hypercube  S15',  "#footswitches")
-	T('14__Hypercube  S15',  "#exotic.oneleg")
+	T('16__Switronic  S17',  TWISTS)
+	T('16__Switronic  D18',  TWISTS_BACK)
 
-	T('14__Moment_Day  S18',  "#twists")
+	T('16__Tales_of_Pumpnia  S20/D21',  NAKAKA)
 
-	T('14__Red_Swan  Dp20',  "#memorize")
+	T('16__Tropicanic  D21',  TWISTS)
 
-	T('14__Bad_Apple  S15',  ["#memorize", "#gimmicks.stops"])
+	T('16__Wedding_Crashers__SHORT  D20',  TWISTS_BACK)
 
+	T('16__Xeroize  S21',  TWISTS_BACK)
 
-
-	T('11__Native  S17/D18/S20',  "#footswitches")
-
-
-
-	T('0E__Caprice_of_Otada  S17',  "#footswitches")
-
-
-
-	T('0C__Beat_of_the_War_2  S21',  "#footswitches.plus")
+	T('16__Your_Mind  S21',  JACKS)
 
 
 
-	T('07__Oy_Oy_Oy  S14',  "#footswitches")
+	T('15__Allegro_Furioso  S20',  JACKS)
+	T('15__Asterios_ReEntry  D22',  TWISTS_BACK)
+
+	T('15__Awakening  D20',  TWISTS_BACK)
+
+	T('15__Clue  D20/D21',  TWISTS_BACK)
+
+	T('15__Cross_Time  D22',  [MEMORIZE, GIMMICKS_STOPS])
+
+	T('15__Gothique_Resonance  S20/D20',  TWISTS_SIDE)
+
+	T('15__Hellfire  D23',  TWISTS_BACK)
+
+	T('15__Hyperion  D20',  STAMINA)
+
+	T('15__Hyperion__SHORT  D21',  TWISTS_BACK)
+
+	T('15__Last_Rebirth  D18',  JACKS)
+
+	T('15__Nakakapagpabagabag  D16/S19/D20',  NAKAKA)
+
+	T('15__Rave_til_the_Earth_End  S17',  FOOTSWITCHES)
+	T('15__Rave_til_the_Earth_End  S19',  TWISTS)
+
+	T('15__Sarabande  D24',  TWISTS_BACK)
+
+	T('15__Shub_Niggurath  D23',  TWISTS_BACK)
+
+	T('15__Super_Capriccio  S16',  TWISTS_SIDE)
+
+	T('15__The_Festival_of_Ghost2  D20',  TWISTS_BACK)
+
+	T('15__Travel_to_Future  D23',  JACKS)
+
+	T('15__Twist_of_Fate  S19/D21',  [MEMORIZE, SLOWDOWN])
+
+	T('15__V3  S14',  JACKS)
+	T('15__V3  D24',  TWISTS_BACK)
+
+	T('15__Vulcan  S22',  TWISTS_SIDE)
 
 
 
-	T('05__Rolling_Christmas  S17',  "#exotic.roundabout")
+
+	T('14__Allegro_Piu_Mosso  S17',  FOOTSWITCHES)
+
+	T('14__Bad_Apple  S15',  [MEMORIZE, GIMMICKS_STOPS])
+	T('14__Bad_Apple  S19/D20',  TWISTS_BACK)
+
+	T('14__Break_It_Down  S16',  EXOTIC_CENTRALHOLD)
+	T('14__Break_It_Down  D21',  MEMORIZE)
+
+	T('14__Dolly_Kiss  D21',  TWISTS_BACK)
+
+	T('14__Hypercube  S15',  [FOOTSWITCHES, EXOTIC_ONELEG])
+
+	T('14__Imprinting  D24',  TWISTS_BACK)
+
+	T('14__Like_Me  S19',  TWISTS_SIDE)
+
+	T('14__Moment_Day  S18',  TWISTS)
+
+	T('14__NoNoNo  Sp15/Dp15',  MEMORIZE)
+
+	T('14__Prime  S21/D21',  TWISTS_BACK)
+
+	T('14__Red_Swan  Dp20',  MEMORIZE)
+
+	T('14__Rock_the_House__SHORT  S18',  MEMORIZE)
+
+	T('14__Scorpion_King  D16',  TWISTS_BACK)
+
+	T('14__Super_Fantasy  D22',  TWISTS_BACK)
+
+	T('14__You_Got_Me_Crazy  D18',  TWISTS_BACK)
 
 
 
-	T('02__Final_Audition  S19',  "#footswitches.plus")
+	T('13__Baroque_Virus  D20',  TWISTS_BACK)
+
+	T('13__Hypnosis_SynthWulf_Mix  D22',  JACKS)
+
+	T('13__Love_is_a_Danger_Zone_Cranky_Mix  S20/S21/D20/D23',  TWISTS_BACK)
+
+	T('13__Mental_Rider  D22',  TWISTS_BACK)
+
+	T('13__Nobody  S15/D17',  MEMORIZE)
+
+	T('13__U_Got_Me_Rocking  D17',  TWISTS_BACK)
+
+	T('13__Unique  S16.XX',  JACKS)
+
+	T('13__Windmill  D23',  [TWISTS_BACK, ROLLINGBRACKETS])
 
 
 
-	Tag( t, "#memorize",
-	[
-		'14__Rock_the_House__SHORT  S18',
-		'14__Break_It_Down  D21',
-		'14__NoNoNo  Sp15/Dp15',
-
-		'13__Nobody  S15/D17',
-
-		'11__Everybody_Got_2_Know  S21',
-
-		'0F__Uprock  S17',
-
-		'0D__Ugly_Dee  S17',
-
-		'08__Come_to_Me  S17',
-
-		'07__Miss_s_Story  S19',
-		'07__Dance_With_Me  D18',
-		//'0B__Deja_Vu  aNM',
-	]);
-
-
-	Tag( t, "#jacks",
-	[
-		'17__1948  S18/S21/D24',
-		'17__Darkside_of_the_Mind  S14',
-		'17__Imperium  S18',
-		'17__Super_Akuma_Emperor  S18',
-		'17__Ultimate_Eyes  S14',
-		'17__Wither_Garden  S20',
-
-		'16__Dement_After_Legend  S15',
-		'16__Life_is_Piano  S16',
-		'16__Phalanx_RS2018  D13',
-		'16__Your_Mind  S21',
-
-		'15__Allegro_Furioso  S20',
-		'15__Last_Rebirth  D18',
-		'15__Travel_to_Future  D23',
-		'15__V3  S14',
-
-		'13__Hypnosis_SynthWulf_Mix  D22',
-		'13__Unique  S16.XX',
-
-		'11__Native  S17/S20',
-
-		'10__Arirang  S22',
-		'10__Bemera__SHORT  S22',
-		'10__Moonlight__SHORT  S19',
-		'10__Vacuum  S16',
-
-		'0D__Bemera  S17',
-	])
+	T('12__Monolith  D22',  TWISTS_BACK)
 
 
 
-	//Tag( t, '13__Yeo_Rae_A  S1', "Pass with score <= 180,000 to get #phoenix.title 'Human metronome'" );
-	//Tag( t, '15__Gargoyle__FULL  S21', "Pass with score <= 444,444 to get #phoenix.title 'Perfect breaker'" );
+	T('11__Butterfly  D17',  TWISTS_BACK)
 
-	Tag( t, "SSS+ to get #phoenix.title 'No skills no pump'", '0C__Moonlight  D21' );
-	Tag( t, "SSS+ to get #phoenix.title 'PUMP IS A SENSE'", '07__Love_is_a_Danger_Zone  D21' );
+	T('11__Everybody_Got_2_Know  S21',  MEMORIZE)
+
+	T('11__Native  S17/D18/S20',  FOOTSWITCHES)
+	T('11__Native  S17/S20',  JACKS)
+
+	T('11__Take_Out  D22/D23',  SLOWDOWN)
+
+	T('11__We_Got_2_Know  D18',  TWISTS_BACK)
+
+
+
+	T('10__Arirang  S22',  JACKS)
+
+	T('10__Bemera__SHORT  S22',  JACKS)
+
+	T('10__Hello_William  S19',  TWISTS_SIDE)
+
+	T('10__Moonlight__SHORT  S19',  JACKS)
+
+	T('10__Turkey_March_Minimal_Tunes  S17',  TWISTS_SIDE)
+	T('10__Turkey_March_Minimal_Tunes  D18',  TWISTS_BACK)
+
+	T('10__Vacuum  S16',  JACKS)
+
+
+
+	T('0F__Toccata  S17',  TWISTS_BACK)
+
+	T('0F__The_People_Didnt_Know  D17',  TWISTS_BACK)
+
+	T('0F__Uprock  S17',  MEMORIZE)
+
+
+
+	T('0E__Faster_Z  D21',  TWISTS_BACK)
+
+	T('0E__Caprice_of_Otada  S17',  FOOTSWITCHES)
+
+	T('0E__Pumptris_8bit  S16.XX',  TWISTS_SIDE)
+
+
+
+	T('0D__Bemera  S17',  JACKS)
+	T('0D__Bemera  D18',  TWISTS_BACK)
+
+	T('0D__Final_Audition_ep_2_1  S19/S21',  TWISTS_SIDE)
+
+	T('0D__Ugly_Dee  S17',  MEMORIZE)
+
+	T('0D__Wi_Ex_Doc_Va  D17',  TWISTS_BACK)
+
+	T('0D__Witch_Doctor_1  D17/S19/D21',  TWISTS_BACK)
+
+
+
+	T('0C__Beat_of_the_War_2  S21',  FOOTSWITCHES_PLUS)
+
+	T('0C__Love_is_a_Danger_Zone_try_to_B_P_M  D17/D23',  TWISTS_BACK)
+
+	T('0C__Moonlight  S19/D21',  SLOWDOWN)
+
+
+
+	//T('0B__Deja_Vu  aNM',  MEMORIZE)
+
+	T('0B__Solitary_2  D21',  [BRACKETS, ROLLINGBRACKETS])
+
+
+
+	T('08__Come_to_Me  S17',  MEMORIZE)
+
+
+
+	T('07__Dance_With_Me  D18',  MEMORIZE)
+
+	T('07__Love_is_a_Danger_Zone  S17',  TWISTS)
+
+	T('07__Maria  S18',  TWISTS_BACK)
+
+	T('07__Miss_s_Story  S19',  MEMORIZE)
+
+	T('07__Oy_Oy_Oy  S14',  FOOTSWITCHES)
+
+	T('07__Set_Me_Up  D17',  TWISTS_BACK)
+
+
+
+	T('05__Rolling_Christmas  S17',  EXOTIC_ROUNDABOUT)
+	T('05__Rolling_Christmas  D22',  TWISTS_BACK)
+
+
+
+	T('04__Betrayer  D17',  TWISTS_BACK)
+
+
+
+	T('02__Final_Audition  S19',  FOOTSWITCHES_PLUS)
+
+
+
+
+	const PHOENIX_TITLE = "#phoenix.title"
+
+
+	//Tag( t, '13__Yeo_Rae_A  S1', "Pass with score <= 180,000 to get " + PHOENIX_TITLE + " 'Human metronome'" );
+	//Tag( t, '15__Gargoyle__FULL  S21', "Pass with score <= 444,444 to get " + PHOENIX_TITLE + " 'Perfect breaker'" );
+
+	Tag( t, `SSS+ to get ${PHOENIX_TITLE} 'No skills no pump'`, '0C__Moonlight  D21' );
+	Tag( t, `SSS+ to get ${PHOENIX_TITLE} 'PUMP IS A SENSE'`, '07__Love_is_a_Danger_Zone  D21' );
 
 	// B.P.M FOLLOWER
 	// [Beethoven Virus D18] Perfect 927 / Great 1 / Miss 2 / Max Combo 747
@@ -351,7 +405,7 @@ export function ApplyTags( t )
 
 	function PHOENIX_BOSS_TITLE( bossDetails, chart )
 	{
-		Tag( t, `Pass to get #phoenix.title.bossbreaker of ${bossDetails} Boss breaker`, chart + ".Phoenix" );
+		Tag( t, `Pass to get ${PHOENIX_TITLE}.bossbreaker of ${bossDetails} Boss breaker`, chart + ".Phoenix" );
 	}
 
 	function PHOENIX_BOSS_TITLE_S_D( bossDetails, singleChart, doubleChart )
@@ -406,10 +460,10 @@ export function ApplyTags( t )
 	                                '16__1949  D28' )
 
 
-	function PHOENIX_SKILL_TITLE( category, charts )
+	function PHOENIX_SKILL_TITLE( skillType, charts )
 	{
 		for( const [index, chart] of charts.entries() )
-			Tag( t, `SSS to get #phoenix.title.${category} [${index+1}]`, chart + ".Phoenix" );
+			Tag( t, `SSS to get ${PHOENIX_TITLE}.${skillType} [${index+1}]`, chart + ".Phoenix" );
 	}
 
 
@@ -497,18 +551,6 @@ export function ApplyTags( t )
 	] )
 
 /*
-	Tag( "Drills",
-		[
-		] )
-
-	Tag( "Bursts",
-		[
-		] )
-
-	Tag( "Streams",
-		[
-		] )
-
 	Tag( "M-runs",
 		[
 			"Mr. Larpus  S-22",
@@ -590,10 +632,6 @@ export function ApplyTags( t )
 			"Love is a Danger Zone (Cranky Mix)  S-22",
 		] );
 
-
-	Tag( "quads",
-		[
-		] );
 
 	Tag( "lol",
 		[
