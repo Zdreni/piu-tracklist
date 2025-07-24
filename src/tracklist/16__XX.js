@@ -436,6 +436,7 @@ export const newTunes__16__XX = {
 "16__Destrucimate":
 {
 	title: "DESTRUCIMATE", artist: "KURORAK", channel: ORIGINAL, bpm: "193",
+	shortTitle: "Destrucimate",
 	altID: "16_Destrucimate",
 	arcadeID: "1632",
 	pumpoutID: 845,
@@ -981,6 +982,7 @@ export const newTunes__16__XX = {
 "16__Broken_Karma":
 {
 	title: "Broken Karma (PIU Edit)", artist: "Quree", channel: WORLD, bpm: "180",
+	shortTitle: "Broken Karma",
 	altID: "16_Broken_Karma",
 	arcadeID: "1672",
 	pumpoutID: 839,

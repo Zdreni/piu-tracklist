@@ -465,6 +465,7 @@ export const newTunes__17__Phoenix = {
 "17__Nyan_turne":
 {
 	title: "Nyan-turne (feat. KuTiNA)", artist: "Cashew & Castellia", channel: ORIGINAL, bpm: "202.1",
+	shortTitle: "Nyan-turne",
 	// sortingID: "",
 	sortingBetween: ["17__Ultimate_Eyes", "17__Vector"],
 	// arcadeID: "",
@@ -705,6 +706,7 @@ export const newTunes__17__Phoenix = {
 "17__Duel":
 {
 	title: "DUEL", artist: "Cashew & D_AAN", channel: ORIGINAL, bpm: "155",
+	shortTitle: "Duel",
 	// sortingID: "",
 	sortingBetween: ["17__1948", "17__Vanish_2_Roar_of_the_invisible_dragon"],
 	// arcadeID: "",
@@ -765,6 +767,7 @@ export const newTunes__17__Phoenix = {
 "17__Murdoch":
 {
 	title: "MURDOCH", artist: "WONDERTRAVELER Project", channel: ORIGINAL, bpm: "179",
+	shortTitle: "Murdoch",
 	//sortingID: "",
 	sortingBetween: ["17__Solfeggietto", "17__Little_Munchkin"],
 	// arcadeID: "",
@@ -795,6 +798,7 @@ export const newTunes__17__Phoenix = {
 "17__Simon_Says_Eurodance":
 {
 	title: "Simon Says, Eurodance!! (feat. Sara*M)", artist: "Jehezukiel * KAZEMURA * Hideky", channel: ORIGINAL, bpm: "157",
+	shortTitle: "Simon Says, Eurodance!!",
 	// sortingID: "",
 	sortingBetween: ["17__Little_Munchkin", "17__Barbers_Madness"],
 	// arcadeID: "",
@@ -840,6 +844,7 @@ export const newTunes__17__Phoenix = {
 "17__Le_Nozze_di_Figaro_Celebrazione_Remix":
 {
 	title: "Le Nozze di Figaro ~Celebrazione Remix~", artist: "Sr. Lan Belmont", channel: ORIGINAL, bpm: "172",
+	shortTitle: "Le Nozze di Figaro",
 	// sortingID: "",
 	sortingBetween: ["17__Yo_Say_Fairy", "17__Bluish_Rose"],
 	// arcadeID: "",
@@ -1125,6 +1130,7 @@ export const newTunes__17__Phoenix = {
 "17__Invasion":
 {
 	title: "INVASION", artist: "D_AAN", channel: ORIGINAL, bpm: "220",
+	shortTitle: "Invasion",
 	// sortingID: "",
 	sortingBetween: ["17__Hercules", "17__Earendel"],
 	// arcadeID: "",
@@ -1350,6 +1356,7 @@ export const newTunes__17__Phoenix = {
 "17__Human_Extinction":
 {
 	title: "Human Extinction (PIU Edit.)", artist: "MonstDeath", channel: WORLD, bpm: "199",
+	shortTitle: "Human Extinction",
 	// sortingID: "",
 	sortingBetween: ["17__Catastrophe", "17__Underworld"],
 	// arcadeID: "",
@@ -1365,6 +1372,7 @@ export const newTunes__17__Phoenix = {
 "17__Underworld":
 {
 	title: "Underworld ft. Skizzo (PIU Edit.)", artist: "MonstDeath vs Neutral Moon", channel: WORLD, bpm: "190",
+	shortTitle: "Underworld",
 	// sortingID: "",
 	sortingBetween: ["17__Human_Extinction", "17__Nade_Nade"],
 	// arcadeID: "",
@@ -1787,6 +1795,7 @@ export const newTunes__17__Phoenix = {
 "17__Break_Through_Myself":
 {
 	title: "Break Through Myself feat. Risa Yuzuki", artist: "DJ Myosuke & Laur", channel: WORLD, bpm: "200",
+	shortTitle: "Break Through Myself",
 	// sortingID: "",
 	sortingBetween: ["17__Poppin_Shower", "17__Viyellas_Nightmare"],
 	// arcadeID: "",
@@ -1862,6 +1871,7 @@ export const newTunes__17__Phoenix = {
 "17__Extreme_Music_School_1st_period":
 {
 	title: "Extreme Music School 1st period feat. Nanahira", artist: "Massive New Krew & RoughSketch", channel: WORLD, bpm: "210",
+	shortTitle: "Extreme Music School\n1st period",
 	// sortingID: "",
 	sortingBetween: ["17__Trickl4sh_220", "17__Extreme_Music_School_2nd_period"],
 	// arcadeID: "",
@@ -1877,6 +1887,7 @@ export const newTunes__17__Phoenix = {
 "17__Extreme_Music_School_2nd_period":
 {
 	title: "Extreme Music School 2nd period feat. Nanahira", artist: "Massive New Krew & RoughSketch", channel: WORLD, bpm: "210",
+	shortTitle: "Extreme Music School\n2nd period",
 	// sortingID: "",
 	sortingBetween: ["17__Extreme_Music_School_1st_period", "17__Battle_No_1"],
 	// arcadeID: "",
@@ -1892,6 +1903,7 @@ export const newTunes__17__Phoenix = {
 "17__Battle_No_1":
 {
 	title: "BATTLE NO.1", artist: "TANO*C Sound Team", channel: WORLD, bpm: "200",
+	shortTitle: "Battle No.1",
 	//sortingID: "",
 	sortingBetween: ["17__Extreme_Music_School_2nd_period", "17__Soldiers"],
 	// arcadeID: "",
@@ -1907,6 +1919,7 @@ export const newTunes__17__Phoenix = {
 "17__Soldiers":
 {
 	title: "Soldiers (TANO*C W TEAM RED ANTHEM)", artist: "DJ Noriken", channel: WORLD, bpm: "170",
+	shortTitle: "Soldiers",
 	// sortingID: "",
 	sortingBetween: ["17__Battle_No_1", "17__Horang_Pungryuga"],
 	// arcadeID: "",
