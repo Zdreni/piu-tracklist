@@ -16,7 +16,7 @@ import {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@2.09 ",
+		Phoenix: "@2.10 ",
 	},
 },
 */
@@ -436,7 +436,7 @@ export const newTunes__17__Phoenix = {
 {
 	title: "Burn Out", artist: "WyvernP", channel: ORIGINAL, bpm: "190",
 	// sortingID: "",
-	sortingBetween: ["17__Eternal_Universe", "17__Ultimate_Eyes"],
+	sortingBetween: ["17__Eternal_Universe", "17__4nt"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -447,11 +447,26 @@ export const newTunes__17__Phoenix = {
 },
 
 
+"17__4nt":
+{
+	title: "4NT", artist: "PODA", channel: ORIGINAL, bpm: "180",
+	// sortingID: "",
+	sortingBetween: ["17__Burn_Out", "17__Ultimate_Eyes"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.10 S9 S12 S16 S20 S22 D14 D20 D24",
+	},
+},
+
+
 "17__Ultimate_Eyes":
 {
 	title: "Ultimate Eyes", artist: "HyuN", channel: ORIGINAL, bpm: "185",
 	// sortingID: "",
-	sortingBetween: ["17__Burn_Out", "17__Nyan_turne"],
+	sortingBetween: ["17__4nt", "17__Nyan_turne"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -497,7 +512,7 @@ export const newTunes__17__Phoenix = {
 {
 	title: "Versailles", artist: "Hyun & MIIM", channel: ORIGINAL, bpm: "160-175",
 	//sortingID: "",
-	sortingBetween: ["17__Vector", "17__Showdown"],
+	sortingBetween: ["17__Vector", "17__The_Apocalypse"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -508,11 +523,26 @@ export const newTunes__17__Phoenix = {
 },
 
 
+"17__The_Apocalypse":
+{
+	title: "The Apocalypse", artist: "HyuN feat. Elika", channel: ORIGINAL, bpm: "171",
+	// sortingID: "",
+	sortingBetween: ["17__Versailles", "17__Showdown"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.10 S4 S7 S11 S14 S16 S18 S20 D13 D16 D18 D20 D23",
+	},
+},
+
+
 "17__Showdown":
 {
 	title: "Showdown", artist: "litmus*", channel: ORIGINAL, bpm: "130",
 	//sortingID: "",
-	sortingBetween: ["17__Versailles", "17__Booom"],
+	sortingBetween: ["17__The_Apocalypse", "17__Booom"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -846,7 +876,7 @@ export const newTunes__17__Phoenix = {
 	title: "Le Nozze di Figaro ~Celebrazione Remix~", artist: "Sr. Lan Belmont", channel: ORIGINAL, bpm: "172",
 	shortTitle: "Le Nozze di Figaro",
 	// sortingID: "",
-	sortingBetween: ["17__Yo_Say_Fairy", "17__Bluish_Rose"],
+	sortingBetween: ["17__Yo_Say_Fairy", "17__Demon_of_Laplace"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -857,11 +887,26 @@ export const newTunes__17__Phoenix = {
 },
 
 
+"17__Demon_of_Laplace":
+{
+	title: "Demon of Laplace", artist: "Quree", channel: ORIGINAL, bpm: "144",
+	// sortingID: "",
+	sortingBetween: ["17__Le_Nozze_di_Figaro_Celebrazione_Remix", "17__Bluish_Rose"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.10 S6 S10 S17 S20 D15 D20 D23",
+	},
+},
+
+
 "17__Bluish_Rose":
 {
 	title: "Bluish Rose", artist: "WyvernP", channel: ORIGINAL, bpm: "130",
 	// sortingID: "",
-	sortingBetween: ["17__Le_Nozze_di_Figaro_Celebrazione_Remix", "17__Lohxia"],
+	sortingBetween: ["17__Demon_of_Laplace", "17__Lohxia"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1056,7 +1101,7 @@ export const newTunes__17__Phoenix = {
 {
 	title: "Solve My Hurt", artist: "Doin", channel: ORIGINAL, bpm: "234",
 	// sortingID: "",
-	sortingBetween: ["17__Chaos_Again", "17__Sudden_Appearance_Image"],
+	sortingBetween: ["17__Chaos_Again", "17__Glimmer_Gleam"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1067,11 +1112,26 @@ export const newTunes__17__Phoenix = {
 },
 
 
+"17__Glimmer_Gleam":
+{
+	title: "Glimmer Gleam", artist: "Doin", channel: ORIGINAL, bpm: "85",
+	// sortingID: "",
+	sortingBetween: ["17__Solve_My_Hurt", "17__Sudden_Appearance_Image"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.10 S8 S13 S18 S21 D14 D19 D23",
+	},
+},
+
+
 "17__Sudden_Appearance_Image":
 {
 	title: "Sudden Appearance Image", artist: "Blacklolita", channel: ORIGINAL, bpm: "170",
 	// sortingID: "",
-	sortingBetween: ["17__Solve_My_Hurt", "17__Deca_Dance"],
+	sortingBetween: ["17__Glimmer_Gleam", "17__Deca_Dance"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1358,7 +1418,7 @@ export const newTunes__17__Phoenix = {
 	title: "Human Extinction (PIU Edit.)", artist: "MonstDeath", channel: WORLD, bpm: "199",
 	shortTitle: "Human Extinction",
 	// sortingID: "",
-	sortingBetween: ["17__Catastrophe", "17__Underworld"],
+	sortingBetween: ["17__Catastrophe", "17__That_Kitty"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1369,12 +1429,28 @@ export const newTunes__17__Phoenix = {
 },
 
 
+"17__That_Kitty":
+{
+	title: "That Kitty (PIU Edit.)", artist: "MonstDeath", channel: WORLD, bpm: "190",
+	shortTitle: "That Kitty",
+	// sortingID: "",
+	sortingBetween: ["17__Human_Extinction", "17__Underworld"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.10 S13 S17 S20 S23 D15 D18 D22 D24",
+	},
+},
+
+
 "17__Underworld":
 {
 	title: "Underworld ft. Skizzo (PIU Edit.)", artist: "MonstDeath vs Neutral Moon", channel: WORLD, bpm: "190",
 	shortTitle: "Underworld",
 	// sortingID: "",
-	sortingBetween: ["17__Human_Extinction", "17__Nade_Nade"],
+	sortingBetween: ["17__That_Kitty", "17__Nade_Nade"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1661,7 +1737,7 @@ export const newTunes__17__Phoenix = {
 {
 	title: "Giselle", artist: "Sobrem a.k.a. Widowmaker", channel: WORLD, bpm: "128~152",
 	// sortingID: "",
-	sortingBetween: ["17__Mahika", "17__Aragami"],
+	sortingBetween: ["17__Mahika", "17__Spooky_Macaron"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1672,11 +1748,26 @@ export const newTunes__17__Phoenix = {
 },
 
 
+"17__Spooky_Macaron":
+{
+	title: "Spooky Macaron", artist: "Sobrem", channel: WORLD, bpm: "201",
+	// sortingID: "",
+	sortingBetween: ["17__Giselle", "17__Aragami"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.10 S14 S17 S20 S23 D16 D18 D22 D25",
+	},
+},
+
+
 "17__Aragami":
 {
 	title: "Aragami", artist: "xi", channel: WORLD, bpm: "48~196",
 	// sortingID: "",
-	sortingBetween: ["17__Giselle", "17__Halcyon"],
+	sortingBetween: ["17__Spooky_Macaron", "17__Halcyon"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1766,7 +1857,7 @@ export const newTunes__17__Phoenix = {
 {
 	title: "Becouse of You", artist: "Srav3R & USAO", channel: WORLD, bpm: "175",
 	// sortingID: "",
-	sortingBetween: ["17__Odin", "17__Poppin_Shower"],
+	sortingBetween: ["17__Odin", "17__Doof_Senc"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1777,11 +1868,26 @@ export const newTunes__17__Phoenix = {
 },
 
 
+"17__Doof_Senc":
+{
+	title: "†DOOF†SENC†", artist: "Kobaryo", channel: WORLD, bpm: "200",
+	// sortingID: "",
+	sortingBetween: ["17__Becouse_of_You", "17__Poppin_Shower"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.10 S15 S18 S21 S23 D16 D19 D23 D25",
+	},
+},
+
+
 "17__Poppin_Shower":
 {
 	title: "Poppin' Shower", artist: "P*Light", channel: WORLD, bpm: "175",
 	// sortingID: "",
-	sortingBetween: ["17__Becouse_of_You", "17__Break_Through_Myself"],
+	sortingBetween: ["17__Doof_Senc", "17__Break_Through_Myself"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -2055,14 +2161,47 @@ export const newTunes__17__Phoenix = {
 "17__Stardream_Eurobeat_Remix__SHORT":
 {
 	title: "Stardream -Eurobeat Remix-  [SHORT]", artist: "MAX x Cashew x Dave Rodgers", channel: ORIGINAL, bpm: "160", //duration: SHORT,
+	arcadeName: "Stardream -Eurobeat Remix- - SHORT CUT -",
 	// sortingID: "",
-	sortingBetween: ["17__Halloween_Party_Multiverse__SHORT", "16__Paradoxx__SHORT"],
+	sortingBetween: ["17__Halloween_Party_Multiverse__SHORT", "17__PRiMA_MATERiA__SHORT"],
 	// arcadeID: "",
 	pumpoutID: "",
-	arcadeName: "Stardream -Eurobeat Remix- - SHORT CUT -",
 
 	charts: {
 		Phoenix: "@2.09 S12 S16 S18 S21 D14 D18 D20 D22",
+	},
+},
+
+
+"17__PRiMA_MATERiA__SHORT":
+{
+	title: "PRiMA MATERiA  [SHORT]", artist: "xi", channel: ORIGINAL, bpm: "187",
+	shortTitle: "Prima Materia  [SHORT]",
+	arcadeName: "PRiMA MATERiA - SHORT CUT -",
+	// sortingID: "",
+	sortingBetween: ["17__Stardream_Eurobeat_Remix__SHORT", "17__Duel__SHORT"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.10 S18 S21 S23 D22 D24",
+	},
+},
+
+
+"17__Duel__SHORT":
+{
+	title: "Duel  [SHORT]", artist: "Cashew & D_AAN", channel: ORIGINAL, bpm: "155",
+	arcadeName: "DUEL - SHORT CUT -",
+	// sortingID: "",
+	sortingBetween: ["17__PRiMA_MATERiA__SHORT", "16__Paradoxx__SHORT"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.10 S16 S19 S21 D18 D21 D23",
 	},
 },
 
