@@ -1870,8 +1870,8 @@ export const newTunes__17__Phoenix = {
 
 "17__Doof_Senc":
 {
-	title: "†DOOF†SENC†", artist: "Kobaryo", channel: WORLD, bpm: "200",
-	shortTitle: "DOOF SENC",
+	title: "DOOF SENC", artist: "Kobaryo", channel: WORLD, bpm: "200",
+	arcadeName: "†DOOF†SENC†",
 	// sortingID: "",
 	sortingBetween: ["17__Becouse_of_You", "17__Poppin_Shower"],
 	// arcadeID: "",
