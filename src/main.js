@@ -370,9 +370,9 @@ function DumpAll( args )
 
 function CheckBannerRename( bannersPath, files, altID, trackID )
 {
-	for (ext of ["png", "jpg"])
+	for( ext of ["png", "jpg"] )
 	{
-		if (files.includes(`${altID}.${ext}`))
+		if( files.includes( `${altID}.${ext}` ) )
 		{
 			var oldName = `${bannersPath}\\${altID}.${ext}`;
 			var newName = `${bannersPath}\\${trackID}.${ext}`;
@@ -391,15 +391,15 @@ function CheckBannerRename( bannersPath, files, altID, trackID )
 
 function CheckBannerName( bannersPath, files, trackID, track )
 {
-	if( files.includes(trackID + ".png") || files.includes(trackID + ".jpg") )
+	if( files.includes( `${trackID}.png` )  ||  files.includes( `${trackID}.jpg` ) )
 		return;
 
 	if( track.arcadeID  &&  CheckBannerRename( bannersPath, files, track.arcadeID, trackID ) )
 		return;
 
-	if( track.altID)
+	if( track.altID )
 		for( altID of track.altID )
-			if( CheckBannerRename( bannersPath, files, altID, trackID ))
+			if( CheckBannerRename( bannersPath, files, altID, trackID ) )
 				return;
 
 	//console.log(`[-]  Can't find banner for ${ trackID }`);
@@ -430,16 +430,16 @@ function RenameBannersToActualID( bannersPath )
 
 import minimist from 'minimist';
 
-const args = minimist(process.argv.slice(2));
-if( args.format !== "DB"  &&  args.format !== "STEPITUP")
+const args = minimist( process.argv.slice( 2 ) )
+if( args.format !== "DB"  &&  args.format !== "STEPITUP" )
 {
-	console.log(`format is required to be either DB or STEPITUP`)
+	console.log( `format is required to be either DB or STEPITUP` );
 	exit(1);
 }
 
 args.rawOutput = true;
 
-const isForStepItUp = (args.format === "STEPITUP")
+const isForStepItUp = ( args.format === "STEPITUP" );
 args.shortenData = isForStepItUp;
 //args.addBPMNotes = isForStepItUp;
 //args.addNotes = isForStepItUp;
@@ -448,7 +448,7 @@ args.shortenData = isForStepItUp;
 console.log(args);
 
 
-PreprocessTracklist();
+PreprocessTracklist( args );
 
 CheckInitialTracklistOfXX();
 CheckInitialTracklistOfPhoenix();
