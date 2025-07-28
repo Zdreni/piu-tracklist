@@ -589,8 +589,8 @@ export function ApplyTags( t )
 	//Tag( t, '13__Yeo_Rae_A  S1', "Pass with score <= 180,000 to get " + PHOENIX_TITLE + " 'Human metronome'" );
 	//Tag( t, '15__Gargoyle__FULL  S21', "Pass with score <= 444,444 to get " + PHOENIX_TITLE + " 'Perfect breaker'" );
 
-	Tag( t, `SSS+ to get ${PHOENIX_TITLE} 'No skills no pump'`, '0C__Moonlight  D21' );
-	Tag( t, `SSS+ to get ${PHOENIX_TITLE} 'PUMP IS A SENSE'`, '07__Love_is_a_Danger_Zone  D21' );
+	Tag( t, `SSS+ to get ${PHOENIX_TITLE} 'No skills no pump'`, '0C__Moonlight  D21' )
+	Tag( t, `SSS+ to get ${PHOENIX_TITLE} 'PUMP IS A SENSE'`, '07__Love_is_a_Danger_Zone  D21' )
 
 	// B.P.M FOLLOWER
 	// [Beethoven Virus D18] Perfect 927 / Great 1 / Miss 2 / Max Combo 747
@@ -600,13 +600,13 @@ export function ApplyTags( t )
 
 	function PHOENIX_BOSS_TITLE( bossDetails, chart )
 	{
-		Tag( t, `Pass to get ${PHOENIX_TITLE}.bossbreaker of ${bossDetails} Boss breaker`, chart + ".Phoenix" );
+		Tag( t, `Pass to get ${PHOENIX_TITLE}.bossbreaker of ${bossDetails} Boss breaker`, chart + ".Phoenix" )
 	}
 
 	function PHOENIX_BOSS_TITLE_S_D( bossDetails, singleChart, doubleChart )
 	{
-		PHOENIX_BOSS_TITLE( `${bossDetails} Single`, singleChart );
-		PHOENIX_BOSS_TITLE( `${bossDetails} Double`, doubleChart );
+		PHOENIX_BOSS_TITLE( `${bossDetails} Single`, singleChart )
+		PHOENIX_BOSS_TITLE( `${bossDetails} Double`, doubleChart )
 	}
 
 	PHOENIX_BOSS_TITLE( '[The 1st]', '01__Another_Truth  S6'  )
@@ -658,7 +658,7 @@ export function ApplyTags( t )
 	function PHOENIX_SKILL_TITLE( skillType, charts )
 	{
 		for( const [index, chart] of charts.entries() )
-			Tag( t, `SSS to get ${PHOENIX_TITLE}.${skillType} [${index+1}]`, chart + ".Phoenix" );
+			Tag( t, `SSS to get ${PHOENIX_TITLE}.${skillType} [${index+1}]`, chart + ".Phoenix" )
 	}
 
 
