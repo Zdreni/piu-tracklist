@@ -57,7 +57,7 @@ export function AddNotes( t )
 
 	W( t, "10__Witch_Doctor__SHORT", "S20", "Arrows accelerate a bit at the end." )
 
-	CR( t, "16__Loki", ["S16", "S19", "S21", "D19"], "Excessive partial gimmicks.")
+	CR( t, "16__Loki", [/*"S16",*/ "S19", "S21", "D19"], "Excessive partial gimmicks.")
 	// CR( t, "16__Loki", "S21", "Series of long footswitches.")
 
 	// CR( t, "14__Break_It_Down", "D21", HAS_SOME_STOPS )
@@ -67,7 +67,7 @@ export function AddNotes( t )
 
 	W( t, "08__Come_to_Me", "S13-XX", "Ends with all arrows jump." )
 	CR( t, "08__Come_to_Me", "S17-XX", BUILT_WITH_STOPS )
-	W( t, "08__Come_to_Me", "S17-XX", "Ends with all arrows jump." )
+	// not on Phoenix - W( t, "08__Come_to_Me", "S17-XX", "Ends with all arrows jump." )
 
 	W( t, "10__Tek_Club_Copenhagen", ["S16", "S17"], HAS_SOME_STOPS )
 	// W( t, "14__Bad_Apple", "S15", HAS_SOME_STOPS )

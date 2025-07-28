@@ -15,6 +15,8 @@ const TWISTS_SIDE = "#twists.side"
 const STAMINA = "#stamina"
 const STAMINA_PLUS = "#stamina.plus"
 
+const STRETCH = "#stretch"
+
 const NAKAKA = "#nakaka (velocity gimmicks & step-hold twists)"
 
 const EXOTIC_HANDS = "#exotic.hands"
@@ -24,6 +26,7 @@ const EXOTIC_ONELEG = "#exotic.oneleg"
 
 const SLOWDOWN = "#slowdown"
 const GIMMICKS_STOPS = "#gimmicks.stops"
+const GIMMICKS_VELOCITY = "#gimmicks.velocity"
 const GIMMICKS_BLINKING = "#gimmicks.blinking"
 const MEMORIZE = "#memorize"
 
@@ -51,14 +54,16 @@ export function ApplyTags( t )
 {
 	function T(charts, tags)
 	{
-		if( ! Array.isArray( tags ) )
-			tags = [ tags ];
-		for( const tag of tags )
-			Tag( t, tag, charts );
+		if( Array.isArray( tags ))
+			tags = tags.join(" ");
+		Tag( t, tags, charts );
 	}
 
 
 	T('17__1948  S18/S21/D24',  JACKS)
+
+
+	T('17__4nt  S22',  BRACKETS)
 
 
 	T('16__8_6  S16/D18/S20/D21',  NAKAKA)
@@ -84,6 +89,7 @@ export function ApplyTags( t )
 	T('14__Allegro_Piu_Mosso  S17',  FOOTSWITCHES)
 
 
+	T('10__Arirang  S19',  TWISTS)
 	T('10__Arirang  S22',  JACKS)
 
 
@@ -119,7 +125,7 @@ export function ApplyTags( t )
 
 
 	T('14__Break_It_Down  S16',  EXOTIC_CENTRALHOLD)
-	T('14__Break_It_Down  D21',  MEMORIZE)
+	T('14__Break_It_Down  D21',  [MEMORIZE, GIMMICKS_STOPS])
 
 
 	T('11__Butterfly  D17',  TWISTS_BACK)
@@ -137,7 +143,7 @@ export function ApplyTags( t )
 	T('15__Clue  D20/D21',  TWISTS_BACK)
 
 
-	T('08__Come_to_Me  S17',  MEMORIZE)
+	T('08__Come_to_Me  S17',  [MEMORIZE, GIMMICKS_STOPS])
 
 
 	T('15__Cross_Time  D22',  [MEMORIZE, GIMMICKS_STOPS])
@@ -158,10 +164,23 @@ export function ApplyTags( t )
 	T('16__Dement_After_Legend  S15',  JACKS)
 
 
+	T('17__Demon_of_Laplace  S20',  [BRACKETS, EXOTIC_CENTRALHOLD])
+	T('17__Demon_of_Laplace  D20',  TWISTS)
+
+
+	T('10__Destination  S17',  TWISTS)
+
+
 	T('14__Dolly_Kiss  D21',  TWISTS_BACK)
 
 
+	T('17__Doof_Senc  S21/S23/D23',  BRACKETS)
+
+
 	T('17__Duel  S21',  TWISTS_BACK)
+
+
+	T('07__Emperor  S16',  TWISTS)
 
 
 	T('17__Eternal_Universe  S23/D23',  BRACKETS)
@@ -173,6 +192,9 @@ export function ApplyTags( t )
 	T('11__Everybody_Got_2_Know  S21',  MEMORIZE)
 
 
+	T('10__Extravaganza__SHORT  S16',  TWISTS)
+
+
 	T('0E__Faster_Z  D21',  TWISTS_BACK)
 
 
@@ -180,6 +202,7 @@ export function ApplyTags( t )
 
 
 	T('0D__Final_Audition_ep_2_1  S19/S21',  TWISTS_SIDE)
+	T('0D__Final_Audition_ep_2_1  S22',  TWISTS)
 
 
 	T('0F__Final_Audition_ep_2_X  D24',  RUNS_AS_BRACKETS)
@@ -192,6 +215,9 @@ export function ApplyTags( t )
 
 
 	T('16__Forgotten_Vampire  D20',  TWISTS_BACK)
+
+
+	T('17__Glimmer_Gleam  S21', [BRACKETS, EXOTIC_CENTRALHOLD])
 
 
 	T('15__God_Mode  S20',  TWISTS)
@@ -228,6 +254,9 @@ export function ApplyTags( t )
 	T('17__Horang_Pungryuga  D24',  STAMINA_PLUS)
 
 
+	T('11__Hungarian_Dance_V  S17',  TWISTS)
+
+
 	T('14__Hypercube  S15',  [FOOTSWITCHES, EXOTIC_ONELEG])
 
 
@@ -258,10 +287,22 @@ export function ApplyTags( t )
 	T('17__Jupin  S23',  TWISTS)
 
 
+	T('15__Keep_On  S21',  [BRACKETS, TWISTS])
+
+
 	T('16__King_of_Sales  S21',  EXOTIC_HANDS)
 
 
+	T('17__Lacrimosa  S17',  [TWISTS, JACKS])
+
+
 	T('15__Last_Rebirth  D18',  JACKS)
+
+
+	T('14__Leakage_Voltage  S21',  TWISTS)
+
+
+	T('16__Lepton_Strike  S21', [BRACKETS, TWISTS])
 
 
 	T('16__Life_is_Piano  S16',  JACKS)
@@ -286,10 +327,11 @@ export function ApplyTags( t )
 	T('16__Love_Scenario  S17/D19',  [MEMORIZE, GIMMICKS_STOPS])
 
 
+	T('07__Maria  S18',  TWISTS_BACK)
+
+
 	T('13__Mental_Rider  D22',  TWISTS_BACK)
 
-
-	T('07__Maria  S18',  TWISTS_BACK)
 
 	T('07__Miss_s_Story  S19',  MEMORIZE)
 
@@ -328,12 +370,16 @@ export function ApplyTags( t )
 	T('11__Native  S17/S20',  JACKS)
 
 
+	T('17__Neo_Catharsis  S22', [GIMMICKS_VELOCITY, SLOWDOWN])
+
+
 	T('13__Nobody  S15/D17',  MEMORIZE)
 
 
 	T('14__NoNoNo  Sp15/Dp15',  MEMORIZE)
 
 
+	T('16__Nyarlathotep  S17',  TWISTS)
 	T('16__Nyarlathotep  D17',  TWISTS_BACK)
 
 
@@ -352,6 +398,9 @@ export function ApplyTags( t )
 	T('16__Phalanx_RS2018  D13',  [JACKS, TWISTS_BACK])
 
 
+	T('11__Pine_Nut  S15',  TWISTS)
+
+
 	T('17__Pneumonoultramicroscopicsilicovolcanoconiosis  S19/D22',  NAKAKA)
 
 
@@ -367,11 +416,18 @@ export function ApplyTags( t )
 	T('0E__Pumptris_8bit  S16.XX',  TWISTS_SIDE)
 
 
+	T('17__Pupa  D23',  BRACKETS)
+
+
 	T('15__Rave_til_the_Earth_End  S17',  FOOTSWITCHES)
 	T('15__Rave_til_the_Earth_End  S19',  TWISTS)
 
 
 	T('14__Red_Swan  Dp20',  MEMORIZE)
+	T('14__Red_Swan  D22',  [BRACKETS, STRETCH])
+
+
+	T('16__Repentance  D23',  ROLLING_BRACKETS)
 
 
 	T('14__Rock_the_House__SHORT  S18',  MEMORIZE)
@@ -379,6 +435,9 @@ export function ApplyTags( t )
 
 	T('05__Rolling_Christmas  S17',  EXOTIC_ROUNDABOUT)
 	T('05__Rolling_Christmas  D22',  TWISTS_BACK)
+
+
+	T('17__Rush_Hour  S16',  TWISTS)
 
 
 	T('15__Sarabande  D24',  TWISTS_BACK)
@@ -416,6 +475,7 @@ export function ApplyTags( t )
 
 	T('16__Switronic  S17',  TWISTS)
 	T('16__Switronic  D18',  TWISTS_BACK)
+	T('16__Switronic  D22',  GIMMICKS_BLINKING)
 
 
 	T('11__Take_Out  D22/D23',  SLOWDOWN)
@@ -428,6 +488,9 @@ export function ApplyTags( t )
 
 
 	T('0F__The_People_Didnt_Know  D17',  TWISTS_BACK)
+
+
+	T('14__The_Revolution  S17',  TWISTS)
 
 
 	T('0F__Toccata  S17',  TWISTS_BACK)
@@ -468,6 +531,9 @@ export function ApplyTags( t )
 
 
 	T('0F__Uprock  S17',  MEMORIZE)
+
+
+	T('15__Up_n_Up  S17',  TWISTS)
 
 
 	T('10__Vacuum  S16',  JACKS)
