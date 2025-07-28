@@ -89,6 +89,9 @@ export function ApplyTags( t )
 	T('14__Allegro_Piu_Mosso  S17',  FOOTSWITCHES)
 
 
+	T('17__The_Apocalypse  S20',  [TWISTS, BRACKETS])
+
+
 	T('10__Arirang  S19',  TWISTS)
 	T('10__Arirang  S22',  JACKS)
 
@@ -137,10 +140,14 @@ export function ApplyTags( t )
 	T('17__Chaos_Again  S21',  [MEMORIZE, GIMMICKS_STOPS])
 
 
+	T('0D__Chimera  S19',  SLOWDOWN)
+
+
 	T('16__Clematis_Rapsodia  D23',  BRACKETS)
 
 
-	T('15__Clue  D20/D21',  TWISTS_BACK)
+	T('15__Clue  D20',  [TWISTS_BACK, GIMMICKS_VELOCITY])
+	T('15__Clue  D21',  TWISTS_BACK)
 
 
 	T('08__Come_to_Me  S17',  [MEMORIZE, GIMMICKS_STOPS])
@@ -217,6 +224,7 @@ export function ApplyTags( t )
 	T('16__Forgotten_Vampire  D20',  TWISTS_BACK)
 
 
+	T('17__Glimmer_Gleam  D19', TWISTS)
 	T('17__Glimmer_Gleam  S21', [BRACKETS, EXOTIC_CENTRALHOLD])
 
 
@@ -239,6 +247,9 @@ export function ApplyTags( t )
 	T('16__Heart_Rabbit_Coaster  S21',  "#jumps")
 
 
+	T('15__Helix  S19',  TWISTS)
+
+
 	T('15__Hellfire  D23',  TWISTS_BACK)
 
 
@@ -254,6 +265,9 @@ export function ApplyTags( t )
 	T('17__Horang_Pungryuga  D24',  STAMINA_PLUS)
 
 
+	T('16__Houseplan  D19',  TWISTS)
+
+
 	T('11__Hungarian_Dance_V  S17',  TWISTS)
 
 
@@ -261,6 +275,9 @@ export function ApplyTags( t )
 
 
 	T('13__Hypnosis_SynthWulf_Mix  D22',  JACKS)
+
+
+	T('16__I_Want_U  S20',  TWISTS)
 
 
 	T('16__I_Want_U__SHORT  D21',  TWISTS_BACK)
@@ -299,6 +316,9 @@ export function ApplyTags( t )
 	T('15__Last_Rebirth  D18',  JACKS)
 
 
+	T('15__Le_Grand_Bleu  S18',  TWISTS)
+
+
 	T('14__Leakage_Voltage  S21',  TWISTS)
 
 
@@ -313,6 +333,7 @@ export function ApplyTags( t )
 
 
 	T('16__Loki  S21',  FOOTSWITCHES_PLUS)
+	T('16__Loki  D20',  GIMMICKS_BLINKING)
 
 
 	T('07__Love_is_a_Danger_Zone  S17/S19',  TWISTS)
@@ -333,7 +354,7 @@ export function ApplyTags( t )
 	T('13__Mental_Rider  D22',  TWISTS_BACK)
 
 
-	T('07__Miss_s_Story  S19',  MEMORIZE)
+	T('07__Miss_s_Story  S19',  [MEMORIZE, GIMMICKS_STOPS])
 
 
 	T('14__Moment_Day  S18',  TWISTS)
@@ -373,6 +394,9 @@ export function ApplyTags( t )
 	T('17__Neo_Catharsis  S22', [GIMMICKS_VELOCITY, SLOWDOWN])
 
 
+	// not on Phoenix: T('11__Night_Duty  S17',  SLOWDOWN)
+
+
 	T('13__Nobody  S15/D17',  MEMORIZE)
 
 
@@ -398,6 +422,9 @@ export function ApplyTags( t )
 	T('16__Phalanx_RS2018  D13',  [JACKS, TWISTS_BACK])
 
 
+	T('0C__Phantom  S19',  [TWISTS, SLOWDOWN])
+
+
 	T('11__Pine_Nut  S15',  TWISTS)
 
 
@@ -416,11 +443,20 @@ export function ApplyTags( t )
 	T('0E__Pumptris_8bit  S16.XX',  TWISTS_SIDE)
 
 
+	T('0E__Pumptris_Quattro  D20',  TWISTS)
+
+
 	T('17__Pupa  D23',  BRACKETS)
+
+
+	T('14__Ragnarok  S18',  TWISTS)
 
 
 	T('15__Rave_til_the_Earth_End  S17',  FOOTSWITCHES)
 	T('15__Rave_til_the_Earth_End  S19',  TWISTS)
+
+
+	T('14__Red_Snow  S19',  TWISTS)
 
 
 	T('14__Red_Swan  Dp20',  MEMORIZE)
@@ -464,6 +500,12 @@ export function ApplyTags( t )
 	T('17__Stager  S17/S19/D18/D20',  [MEMORIZE, GIMMICKS_STOPS])
 
 
+	T('15__Start_On_Red  S19',  TWISTS)
+
+
+	T('16__Sugar_Plum  S19',  [TWISTS, JACKS])
+
+
 	T('17__Super_Akuma_Emperor  S18',  JACKS)
 
 
@@ -484,13 +526,16 @@ export function ApplyTags( t )
 	T('16__Tales_of_Pumpnia  S20/D21',  NAKAKA)
 
 
-	T('15__The_Festival_of_Ghost2  D20',  TWISTS_BACK)
+	T('16__The_End_of_the_World  S20',  EXOTIC_CENTRALHOLD)
+
+
+	T('15__The_Festival_of_Ghost2  D20',  [TWISTS_BACK, GIMMICKS_VELOCITY])
 
 
 	T('0F__The_People_Didnt_Know  D17',  TWISTS_BACK)
 
 
-	T('14__The_Revolution  S17',  TWISTS)
+	T('14__The_Revolution  S17/S19',  TWISTS)
 
 
 	T('0F__Toccata  S17',  TWISTS_BACK)
@@ -502,7 +547,7 @@ export function ApplyTags( t )
 	T('15__Travel_to_Future  D23',  JACKS)
 
 
-	T('16__Tropicanic  D21',  TWISTS)
+	T('16__Tropicanic  S19/D21',  TWISTS)
 
 
 	T('10__Turkey_March_Minimal_Tunes  S17',  TWISTS_SIDE)
