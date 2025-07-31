@@ -51,8 +51,6 @@ export function AddNotes( t )
 	W( t, "16__BBoom_BBoom__FULL", "S17", "Some series of jumps are compressed to one step (on repeated voice samples).")
 	W( t, "16__BBoom_BBoom__FULL", "D18", "Arrows are jumping up sometimes.")
 
-	W( t, "15__A_Site_De_La_Rue", ["S17", "S20", "D20", "D24"], "Arrows are blinking sometimes." )
-
 	W( t, "11__Cleaner__SHORT", "S21", "Random triple jump at the end, twice.")
 
 	W( t, "10__Witch_Doctor__SHORT", "S20", "Arrows accelerate a bit at the end." )
@@ -66,7 +64,7 @@ export function AddNotes( t )
 	// CR( t, "11__Everybody_Got_2_Know", "S19", BUILT_WITH_STOPS )
 
 	W( t, "08__Come_to_Me", "S13-XX", "Ends with all arrows jump." )
-	CR( t, "08__Come_to_Me", "S17-XX", BUILT_WITH_STOPS )
+	//CR( t, "08__Come_to_Me", "S17-XX", BUILT_WITH_STOPS )
 	// not on Phoenix - W( t, "08__Come_to_Me", "S17-XX", "Ends with all arrows jump." )
 
 	W( t, "10__Tek_Club_Copenhagen", ["S16", "S17"], HAS_SOME_STOPS )
@@ -78,8 +76,6 @@ export function AddNotes( t )
 
 	CR( t, "0D__Ugly_Dee", ["aFS", "aNM"], "Triple and quad holds throughout the chart." )
 
-	// W( t, "13__Nobody", ["S15", "D17"], HAS_SOME_STOPS )
-
 	W( t, "13__Mackerel", ["S8", "S16", "D15"], HAS_SOME_STOPS )
 
 	// fire 2ne1 - mimimi таппинг
@@ -89,27 +85,24 @@ export function AddNotes( t )
 
 	// CR( t, "02__Final_Audition", "aCZ", "Series of long footswitches." )
 
-	CR( t, "15__Nakakapagpabagabag", ["S18", "D19"], "Confusing holds with steps." )
-	CR( t, "15__Nakakapagpabagabag", ["S18", "D19"], "Gimmicky, need 6.5x or av999." )
-	CR( t, "16__8_6", ["S16", "S20", "D18", "D21"], "Confusing holds with steps." )
-	CR( t, "16__8_6", ["S16", "S20", "D18", "D21"], "Gimmicky, need 6.5x or av999." )
-	CR( t, "16__8_6__FULL", ["S16", "S21", "D23"], "Confusing holds with steps." )
-	CR( t, "16__8_6__FULL", ["S21", "D23"], "Gimmicky, need 6.5x or av999." )
+	//CR( t, "15__Nakakapagpabagabag", ["S18", "D19"], "Confusing holds with steps." )
+	//CR( t, "15__Nakakapagpabagabag", ["S18", "D19"], "Gimmicky, need 6.5x or av999." )
+	//CR( t, "16__8_6", ["S16", "S20", "D18", "D21"], "Confusing holds with steps." )
+	//CR( t, "16__8_6", ["S16", "S20", "D18", "D21"], "Gimmicky, need 6.5x or av999." )
+	//CR( t, "16__8_6__FULL", ["S16", "S21", "D23"], "Confusing holds with steps." )
+	//CR( t, "16__8_6__FULL", ["S21", "D23"], "Gimmicky, need 6.5x or av999." )
 
-	W( t, "15__Shub_Niggurath", "D17", "Central quad twists." )
-
-	W( t, "11__Gargoyle", "S18", "Arrows stretch up to ~195 bpm at the end." )
+	//not on Phoenix: W( t, "11__Gargoyle", "S18", "Arrows stretch up to ~195 bpm at the end." )
 
 	W( t, "16__Nyarlathotep", ["S18", "S21", "D20"], "Unexpected blinking holds" )
 	// Hey U - jumps
-	W( t, "14__Feel_My_Happiness", "D21", "Lots of brackets." )
 	// Karyawisata S20 - slowdown
 	// Moonlight S21 - slowdown
 	// De La Rue  D24 - blinking holds
 	// Vanish - Vanish
 	// Hardkore of the North  S21 - twists on the holds with slowdown
 
-	CR( t, "12__VVV", ["S18", "S23", "D16", "D19", "D24"], "Whole chart is slow, except of simple ending. Use 3-3.5x or av900+." )
+	//not on Phoenix:  CR( t, "12__VVV", ["S18", "S23", "D16", "D19", "D24"], "Whole chart is slow, except of simple ending. Use 3-3.5x or av900+." )
 
 	//N( "Destination  [SHORT]", "D18", "crab legs" ) //D20 - ебошащий стрим
 	//N( "Pumptris (8Bit ver.)  [SHORT]", "D22", "crab legs" )
