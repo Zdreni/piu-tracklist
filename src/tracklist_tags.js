@@ -100,6 +100,9 @@ export function ApplyTags( t )
 	T('14__Allegro_Piu_Mosso  S17',  [FOOTSWITCHES, TWISTS])
 
 
+	T('17__Altale  D23',  BRACKETS)
+
+
 	T('17__Amor_Fati  S21',  STEP_HOLD)
 
 
@@ -154,6 +157,12 @@ export function ApplyTags( t )
 	T('04__Betrayer  D17',  TWISTS_BACK)
 
 
+	T('17__Boca  D23',  [BRACKETS, JUMPS, WIDE_RUNS])
+
+
+	T('17__Booom  S17',  [TWISTS, BRACKETS])
+
+
 	T('16__Brain_Power  D20',  GIMMICKS_BLINKING)
 
 
@@ -162,6 +171,9 @@ export function ApplyTags( t )
 
 
 	T('11__Butterfly  D17',  TWISTS_BACK)
+
+
+	T('0F__Cannon_X_1  S21',  TWISTS)
 
 
 	T('0B__Canon_D  S21',  TWISTS)
@@ -176,6 +188,9 @@ export function ApplyTags( t )
 
 
 	T('17__Chaos_Again  S21',  [MEMORIZE, GIMMICKS_STOPS])
+
+
+	T('09__Chicken_Wing  S20',  DRILLS)
 
 
 	T('0D__Chimera  S19',  SLOWDOWN)
@@ -209,6 +224,7 @@ export function ApplyTags( t )
 	T('07__Dance_With_Me  D18',  [MEMORIZE, GIMMICKS_STOPS])
 
 
+	T('16__Danger_n_Danger  S19',  TWISTS)
 	T('16__Danger_n_Danger  D23',  TWISTS_BACK)
 
 
@@ -229,7 +245,11 @@ export function ApplyTags( t )
 	T('14__Dolly_Kiss  D21',  TWISTS_BACK)
 
 
-	T('17__Doof_Senc  S21/S23/D23',  BRACKETS)
+	T('17__Doof_Senc  S21/S23/D23/D25',  BRACKETS)
+
+
+	T('12__Dream_to_Nightmare  D23',  [BRACKETS, STRETCH, TWISTS])
+	//not on Phoenix: T('12__Dream_to_Nightmare  D23',  SLOWDOWN)
 
 
 	T('17__Duel  D14',  TWISTS)
@@ -241,6 +261,9 @@ export function ApplyTags( t )
 
 
 	T('07__Emperor  S16',  TWISTS)
+
+
+	T('15__Escape  S21',  DRILLS)
 
 
 	T('17__Eternal_Universe  S23/D23',  BRACKETS)
@@ -270,8 +293,11 @@ export function ApplyTags( t )
 	T('02__Final_Audition  S19',  FOOTSWITCHES_PLUS)
 
 
+	T('03__Final_Audition_2  S18',  TWISTS_PLUS)
+
+
 	T('0D__Final_Audition_ep_2_1  S19/S21',  TWISTS_SIDE)
-	T('0D__Final_Audition_ep_2_1  S22',  TWISTS)
+	T('0D__Final_Audition_ep_2_1  S22/D22.Phoenix',  TWISTS)
 
 
 	T('0F__Final_Audition_ep_2_X  D24',  RUNS_AS_BRACKETS)
@@ -286,7 +312,7 @@ export function ApplyTags( t )
 	T('16__Forgotten_Vampire  D20',  TWISTS_BACK)
 
 
-	T('17__Galaxy_Collapse  S22',  BRACKETS_PLUS)
+	T('17__Galaxy_Collapse  S22/D24',  BRACKETS_PLUS)
 
 
 	T('17__Glimmer_Gleam  S18/D19',  TWISTS)
@@ -295,6 +321,9 @@ export function ApplyTags( t )
 
 
 	T('15__God_Mode  S20',  TWISTS)
+
+
+	T('16__God_Mode_2_0  D22',  TWISTS)
 
 
 	T('15__Gothique_Resonance  S20/D20',  TWISTS_SIDE)
@@ -317,6 +346,7 @@ export function ApplyTags( t )
 
 
 	T('15__Helix  S19',  TWISTS)
+	T('15__Helix  D19',  [WIDE_RUNS, TWISTS])
 
 
 	T('15__Hellfire  D23',  TWISTS_BACK)
@@ -369,6 +399,7 @@ export function ApplyTags( t )
 
 
 	T('17__Invasion  S13',  JUMPS)
+	T('17__Invasion  D25',  BRACKETS_PLUS)
 
 
 	T('16__Janus  D22',  [TWISTS_BACK, STEP_HOLD, WIDE_RUNS])
@@ -402,13 +433,17 @@ export function ApplyTags( t )
 
 
 	T('14__Leakage_Voltage  S21',  TWISTS)
+	T('14__Leakage_Voltage  D23',  [BRACKETS, TWISTS_BACK, WIDE_RUNS])
 
 
+	T('16__Lepton_Strike  S19', TWISTS)
+	//not on Phoenix: T('16__Lepton_Strike  S19', SLOWDOWN)
 	T('16__Lepton_Strike  S21', [BRACKETS, TWISTS])
 
 
 	T('16__Life_is_Piano  S16',  JACKS)
 	T('16__Life_is_Piano  S19/D18',  TWISTS)
+	T('16__Life_is_Piano  D21',  [TWISTS, WIDE_RUNS])
 
 
 	T('14__Like_Me  S14',  EXOTIC_CENTRALHOLD)
@@ -469,6 +504,9 @@ export function ApplyTags( t )
 
 
 	T('14__Move_That_Body  S17',  TWISTS)
+
+
+	T('04__Mr_Larpus  D16',  WIDE_RUNS)
 
 
 	T('17__Nade_Nade  D16',  TWISTS)
@@ -544,6 +582,7 @@ export function ApplyTags( t )
 
 
 	T('0E__Pumptris_Quattro  D20',  TWISTS)
+	T('0E__Pumptris_Quattro  D22',  [TWISTS_BACK, WIDE_RUNS])
 
 
 	T('17__Pupa  D23',  BRACKETS)
@@ -598,6 +637,9 @@ export function ApplyTags( t )
 	T('05__Slam  D24',  BRACKETS_PLUS)
 
 
+	T('16__Slapstick_Parfait  D21',  [TWISTS, WIDE_RUNS])
+
+
 	T('17__Solve_My_Hurt  S21/D23',  BRACKETS)
 
 
@@ -622,6 +664,9 @@ export function ApplyTags( t )
 
 
 	T('15__Start_On_Red  S19',  TWISTS)
+
+
+	T('15__Step  D20',  WIDE_RUNS)
 
 
 	T('17__Sudden_Appearance_Image  D23',  BRACKETS_PLUS)
@@ -733,6 +778,9 @@ export function ApplyTags( t )
 	T('10__Vacuum  S19',  DRILLS)
 
 
+	T('16__Vanish  D24',  [TWISTS, WIDE_RUNS])
+
+
 	T('17__Versailles  D23',  SLOWDOWN)
 
 
@@ -764,6 +812,9 @@ export function ApplyTags( t )
 
 
 	T('11__X_Rave__SHORT  D18',  ROLLING_BRACKETS)
+
+
+	T('10__X_Tree  D22',  WIDE_RUNS)
 
 
 	T('16__Xeroize  S21',  TWISTS_BACK)
