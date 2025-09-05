@@ -11,10 +11,13 @@ const DRILLS = "#drills"
 const JACKS = "#jacks"
 const FOOTSWITCHES = "#footswitches"
 const FOOTSWITCHES_PLUS = "#footswitches.plus"
+
 const TWISTS = "#twists"
 const TWISTS_PLUS = "#twists.plus"
 const TWISTS_BACK = "#twists.back"
 const TWISTS_SIDE = "#twists.side"
+const TWISTS_QUAD = "#twists.quad"
+
 const STEP_HOLD = "#step_hold"
 const JUMPS = "#jumps"
 const WIDE_RUNS = "#wide_runs"
@@ -33,6 +36,8 @@ const EXOTIC_TURN_AROUND = "#exotic.turn_around"
 const EXOTIC_ONELEG = "#exotic.oneleg"
 
 const SLOWDOWN = "#slowdown"
+const SLOWDOWN_PLUS = "#slowdown.plus"
+
 const GIMMICKS_STOPS = "#gimmicks.stops"
 const GIMMICKS_VELOCITY = "#gimmicks.velocity"
 const GIMMICKS_BLINKING = "#gimmicks.blinking"
@@ -87,7 +92,7 @@ export function ApplyTags( t )
 
 
 	T('17__Acquire  S17',  [FOOTSWITCHES, TWISTS_BACK])
-	T('17__Acquire  S20',  TWISTS_BACK)
+	T('17__Acquire  S20',  [TWISTS_BACK, BRACKETS])
 
 
 	T('17__ALiVE  S18/S22',  BRACKETS);
@@ -107,6 +112,9 @@ export function ApplyTags( t )
 	T('17__Amor_Fati  D23',  [BRACKETS, STEP_HOLD, WIDE_RUNS])
 
 
+	T('15__Anguished_Unmaking  D22',  [BRACKETS, WIDE_RUNS])
+
+
 	T('14__Annihilator_Method  S19',  TWISTS)
 
 
@@ -118,6 +126,7 @@ export function ApplyTags( t )
 
 
 	T('15__Awakening  D20',  TWISTS_BACK)
+	T('15__Awakening  D24',  [BRACKETS_PLUS, SLOWDOWN])
 
 
 	T('14__Bad_Apple  S15',  [MEMORIZE, GIMMICKS_STOPS])
@@ -142,6 +151,7 @@ export function ApplyTags( t )
 	T('17__Becouse_of_You  D22',  BRACKETS)
 
 
+	T('15__Bedlam  D20',  WIDE_RUNS)
 	T('15__Bedlam  D24',  BRACKETS)
 
 
@@ -156,6 +166,9 @@ export function ApplyTags( t )
 
 
 	T('04__Betrayer  D17',  TWISTS_BACK)
+
+
+	T('15__Black_Dragon  S21',  TWISTS)
 
 
 	T('17__Boca  D23',  [BRACKETS, JUMPS, WIDE_RUNS])
@@ -243,6 +256,7 @@ export function ApplyTags( t )
 
 
 	T('16__Dement_After_Legend  S15',  JACKS)
+	T('16__Dement_After_Legend  S21',  [BRACKETS, DRILLS])
 
 
 	T('17__Demon_of_Laplace  S20',  [BRACKETS, EXOTIC_CENTRALHOLD])
@@ -253,7 +267,10 @@ export function ApplyTags( t )
 	T('10__Destination  D20',  STRETCH)
 
 
-	T('14__Dolly_Kiss  D21',  TWISTS_BACK)
+	T('0F__DJ_Otada  D22',  WIDE_RUNS)
+
+
+	T('14__Dolly_Kiss  D21',  [TWISTS_BACK, WIDE_RUNS])
 
 
 	T('17__Doof_Senc  S21/S23/D23/D25',  BRACKETS)
@@ -304,7 +321,7 @@ export function ApplyTags( t )
 	T('02__Final_Audition  S19',  FOOTSWITCHES_PLUS)
 
 
-	T('03__Final_Audition_2  S18',  TWISTS_PLUS)
+	T('03__Final_Audition_2  S18/D20',  TWISTS_PLUS)
 
 
 	T('0D__Final_Audition_ep_2_1  S19/S21',  TWISTS_SIDE)
@@ -323,6 +340,7 @@ export function ApplyTags( t )
 	T('16__Forgotten_Vampire  D20',  TWISTS_BACK)
 
 
+	T('17__Galaxy_Collapse  D20',  TWISTS)
 	T('17__Galaxy_Collapse  S22/D24',  BRACKETS_PLUS)
 
 
@@ -350,7 +368,7 @@ export function ApplyTags( t )
 
 
 	T('16__Headless_Chicken  S21',  FOOTSWITCHES_PLUS)
-	T('16__Headless_Chicken  D21',  TWISTS_BACK)
+	T('16__Headless_Chicken  D21',  [TWISTS_BACK, WIDE_RUNS])
 
 
 	T('16__Heart_Rabbit_Coaster  S21',  JUMPS)
@@ -364,6 +382,9 @@ export function ApplyTags( t )
 
 
 	T('10__Hello_William  S19',  TWISTS_SIDE)
+
+
+	T('0E__Higgledy_Piggledy  D20',  [TWISTS, WIDE_RUNS])
 
 
 	T('17__Hymn_of_Golden_Glory__SHORT  S23',  DRILLS)
@@ -418,6 +439,7 @@ export function ApplyTags( t )
 	T('17__Invasion  D25',  BRACKETS_PLUS)
 
 
+	T('16__Iolite_Sky  D20',  [GIMMICKS_STOPS, MEMORIZE, BRACKETS])
 	T('16__Iolite_Sky  D24',  ROLLING_BRACKETS)
 
 
@@ -446,6 +468,7 @@ export function ApplyTags( t )
 
 
 	T('17__Lacrimosa  S17',  [TWISTS, JACKS])
+	T('17__Lacrimosa  S20',  [TWISTS, BRACKETS])
 
 
 	T('15__Last_Rebirth  D18',  JACKS)
@@ -475,7 +498,8 @@ export function ApplyTags( t )
 	T('17__Lohxia  D22',  [BRACKETS, ROLLING_BRACKETS])
 
 
-	T('16__Loki  S21',  FOOTSWITCHES_PLUS)
+	T('16__Loki  S20',  [GIMMICKS_BLINKING, TWISTS])
+	T('16__Loki  S21',  [GIMMICKS_BLINKING, FOOTSWITCHES_PLUS])
 	T('16__Loki  D20',  GIMMICKS_BLINKING)
 
 
@@ -494,7 +518,11 @@ export function ApplyTags( t )
 	T('13__Lucid  D23',  [DRILLS, ROLLING_BRACKETS])
 
 
+	T('14__Mad5cience  S20',  BRACKETS)
+
+
 	T('07__Maria  S18',  TWISTS_BACK)
+	T('07__Maria  D21',  [TWISTS, WIDE_RUNS])
 
 
 	T('14__Matador  S21',  TWISTS)
@@ -508,6 +536,9 @@ export function ApplyTags( t )
 
 
 	T('07__Miss_s_Story  S19',  [MEMORIZE, GIMMICKS_STOPS])
+
+
+	T('10__Mission_Possible_Blowback  D21',  [WIDE_RUNS, TWISTS])
 
 
 	T('14__Moment_Day  S18',  TWISTS)
@@ -549,6 +580,9 @@ export function ApplyTags( t )
 
 	T('11__Native  S17/D18/S20',  FOOTSWITCHES)
 	T('11__Native  S17/S20',  JACKS)
+
+
+	T('14__Nemesis  D20',  TWISTS_QUAD)
 
 
 	T('17__Neo_Catharsis  S22', [GIMMICKS_VELOCITY, SLOWDOWN])
@@ -629,6 +663,9 @@ export function ApplyTags( t )
 	T('15__Rave_til_the_Earth_End  S19',  TWISTS)
 
 
+	T('16__Re_End_of_a_Dream  S21',  [BRACKETS, DRILLS])
+
+
 	T('14__Red_Snow  S19',  TWISTS)
 
 
@@ -673,6 +710,9 @@ export function ApplyTags( t )
 	T('15__Shub_Niggurath  S24',  DRILLS)
 
 
+	T('17__Showdown  S20',  BRACKETS)
+
+
 	T('05__Slam  D24',  BRACKETS_PLUS)
 
 
@@ -688,12 +728,13 @@ export function ApplyTags( t )
 	T('0E__Solitary_1_5  D18',  TWISTS)
 
 
-	T('0B__Solitary_2  D21',  [BRACKETS, ROLLING_BRACKETS])
+	T('0B__Solitary_2  D21',  [BRACKETS, ROLLING_BRACKETS, RUNS_AS_BRACKETS])
 
 
 	T('17__Sonic_Boom  S23',  BRACKETS)
 
 
+	T('10__Sorceress_Elise  S21',  DRILLS)
 	T('10__Sorceress_Elise  D24',  [DRILLS, ROLLING_BRACKETS, WIDE_RUNS])
 
 
@@ -788,13 +829,16 @@ export function ApplyTags( t )
 	T('10__Turkey_March_Minimal_Tunes  D18',  TWISTS_BACK)
 
 
-	T('15__Twist_of_Fate  S19/D21',  [MEMORIZE, SLOWDOWN])
+	T('15__Twist_of_Fate  S19/D21',  [MEMORIZE, SLOWDOWN_PLUS])
 
 
 	T('17__Yo_Say_Fairy  S20',  FOOTSWITCHES)
 
 
 	T('13__U_Got_Me_Rocking  D17',  TWISTS_BACK)
+
+
+	T('10__U_Got_2_Know  S20',  TWISTS)
 
 
 	T('0D__Ugly_Dee  S17',  MEMORIZE)
@@ -816,6 +860,9 @@ export function ApplyTags( t )
 
 
 	T('16__Uranium  D24',  [WIDE_RUNS, TWISTS])
+
+
+	T('15__Utsushiyo_No_Kaze  D20',  TWISTS_QUAD)
 
 
 	T('15__V3  S14',  JACKS)
@@ -860,6 +907,9 @@ export function ApplyTags( t )
 
 
 	T('13__Windmill  D23',  [TWISTS_BACK, ROLLING_BRACKETS])
+
+
+	T('07__Winter  S20',  TWISTS)
 
 
 	T('17__Wither_Garden  S20',  JACKS)
