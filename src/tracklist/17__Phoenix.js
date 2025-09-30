@@ -16,7 +16,7 @@ import {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@2.10 ",
+		Phoenix: "@2.11 ",
 	},
 },
 */
@@ -647,7 +647,7 @@ export const newTunes__17__Phoenix = {
 {
 	title: "Flavor Step!", artist: "EmoCosine", channel: ORIGINAL, bpm: "150",
 	// sortingID: "",
-	sortingBetween: ["17__Kugutsu", "17__Lucid_Dream"],
+	sortingBetween: ["17__Kugutsu", "17__Dead_End"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -658,11 +658,26 @@ export const newTunes__17__Phoenix = {
 },
 
 
+"17__Dead_End":
+{
+	title: " Dead End", artist: "Cosmograph", channel: ORIGINAL, bpm: "212",
+	// sortingID: "",
+	sortingBetween: ["17__Flavor_Step", "17__Lucid_Dream"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.11 S18 S21 S23 S25 D22 D26 D28",
+	},
+},
+
+
 "17__Lucid_Dream":
 {
 	title: "Lucid Dream", artist: "Cosmograph", channel: ORIGINAL, bpm: "173",
 	// sortingID: "",
-	sortingBetween: ["17__Flavor_Step", "17__See"],
+	sortingBetween: ["17__Dead_End", "17__See"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1312,7 +1327,7 @@ export const newTunes__17__Phoenix = {
 {
 	title: "Doppelganger", artist: "MonstDeath", channel: ORIGINAL, bpm: "210",
 	// sortingID: "",
-	sortingBetween: ["17__Crimson_Hood", "17__About_the_Universe"],
+	sortingBetween: ["17__Crimson_Hood", "17__Binary_Star"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1323,11 +1338,26 @@ export const newTunes__17__Phoenix = {
 },
 
 
+"17__Binary_Star":
+{
+	title: "Binary star", artist: "SynthWulf", channel: WORLD, bpm: "170",
+	// sortingID: "",
+	sortingBetween: ["17__Doppelganger", "17__About_the_Universe"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.11 S5 S13 S17 S20 D15 D19 D23",
+	},
+},
+
+
 "17__About_the_Universe":
 {
 	title: "About The Universe", artist: "SOTUI & MIssionary", channel: WORLD, bpm: "180",
 	// sortingID: "",
-	sortingBetween: ["17__Doppelganger", "17__Perpetual"],
+	sortingBetween: ["17__Binary_Star", "17__Perpetual"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1602,7 +1632,7 @@ export const newTunes__17__Phoenix = {
 {
 	title: "GOODBOUNCE", artist: "EBIMAYO", channel: WORLD, bpm: "180",
 	//sortingID: "",
-	sortingBetween: ["17__Irellia", "17__R_I_P"],
+	sortingBetween: ["17__Irellia", "17__Alice_in_Misanthrope"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -1613,11 +1643,26 @@ export const newTunes__17__Phoenix = {
 },
 
 
+"17__Alice_in_Misanthrope":
+{
+	title: "Alice in Misanthrope", artist: "LeaF", channel: WORLD, bpm: "154~174",
+	// sortingID: "",
+	sortingBetween: ["17__Goodbounce", "17__R_I_P"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.11 S12 S15 S17 S20 S22 D13 D18 D21 D24",
+	},
+},
+
+
 "17__R_I_P":
 {
 	title: "R.I.P.", artist: "eicateve", channel: WORLD, bpm: "192",
 	//sortingID: "",
-	sortingBetween: ["17__Goodbounce", "17__Emomomo"],
+	sortingBetween: ["17__Alice_in_Misanthrope", "17__Emomomo"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -2196,13 +2241,45 @@ export const newTunes__17__Phoenix = {
 	title: "Duel  [SHORT]", artist: "Cashew & D_AAN", channel: ORIGINAL, bpm: "155",
 	arcadeName: "DUEL - SHORT CUT -",
 	// sortingID: "",
-	sortingBetween: ["17__PRiMA_MATERiA__SHORT", "16__Paradoxx__SHORT"],
+	sortingBetween: ["17__PRiMA_MATERiA__SHORT", "17__Murdoch_vs_Otada__SHORT"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
 
 	charts: {
 		Phoenix: "@2.10 S16 S19 S21 D18 D21 D23",
+	},
+},
+
+
+"17__Murdoch_vs_Otada__SHORT":
+{
+	title: "Murdoch vs Otada  [SHORT]", artist: "ESPITZ vs WONDERTRAVELER Project", channel: ORIGINAL, bpm: "180",
+	arcadeName: "Murdoch vs Otada - SHORT CUT -",
+	// sortingID: "",
+	sortingBetween: ["17__Duel__SHORT", "17__Solve_My_Hurt__SHORT"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.11 S15 S18 S21 D20 D24",
+	},
+},
+
+
+"17__Solve_My_Hurt__SHORT":
+{
+	title: "Solve My Hurt  [SHORT]", artist: "Doin", channel: ORIGINAL, bpm: "234",
+	arcadeTitle: "Solve My Hurt - SHORT CUT -",
+	// sortingID: "",
+	sortingBetween: ["17__Murdoch_vs_Otada__SHORT", "16__Paradoxx__SHORT"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.11 S20 S23 D26",
 	},
 },
 
