@@ -144,7 +144,7 @@ export function ApplyTags( t )
 
 	T('10__Arirang  D15',  WIDE_RUNS_PLUS)
 	T('10__Arirang  S19',  TWISTS)
-	T('10__Arirang  S22',  JACKS)
+	T('10__Arirang  S22',  [TWISTS, JACKS])
 
 
 	T('15__Asterios_ReEntry  S19',  TWISTS)
@@ -320,6 +320,9 @@ export function ApplyTags( t )
 	T('14__Cosmical_Rhythm  S17',  TWISTS)
 
 
+	T('17__Crimson_Hood  S24',  [BRACKETS, EXOTIC_CENTRALHOLD])
+
+
 	T('15__Cross_Time  D22',  [MEMORIZE, GIMMICKS_STOPS, TWISTS])
 
 
@@ -343,7 +346,7 @@ export function ApplyTags( t )
 	T('17__Darkside_of_the_Mind  D25',  BRACKETS_PLUS)
 
 
-	T('17__Dead_End  S21',  BRACKETS)
+	T('17__Dead_End  S21/S23',  BRACKETS)
 
 
 	T('15__Death_Moon__SHORT  S22',  DRILLS)
@@ -456,6 +459,7 @@ export function ApplyTags( t )
 	T('16__Fires_of_Destiny  S20',  TWISTS)
 
 
+	T('17__Flavor_Step  S21',  [TWISTS, BRACKETS])
 	T('17__Flavor_Step  D22',  [TWISTS, WIDE_RUNS])
 
 
@@ -508,6 +512,11 @@ export function ApplyTags( t )
 	T('17__Halloween_Party_Multiverse__SHORT  D18/S19',  TWISTS)
 
 
+	//not on Phoenix: T('12__Hardkore_of_the_North  S22',  SLOWDOWN)
+	T('12__Hardkore_of_the_North  S22',  TWISTS)
+	T('12__Hardkore_of_the_North  D22',  WIDE_RUNS)
+
+
 	T('16__Harmagedon  D24',  BRACKETS)
 
 
@@ -535,6 +544,9 @@ export function ApplyTags( t )
 
 
 	T('15__HTTP  D13',  WIDE_RUNS)
+
+
+	T('17__Hymn_of_Golden_Glory  D25',  BRACKETS)
 
 
 	T('17__Hymn_of_Golden_Glory__SHORT  S23',  DRILLS)
@@ -759,6 +771,9 @@ export function ApplyTags( t )
 	T('17__Murdoch_vs_Otada  D25',  SLOWDOWN)
 
 
+	T('0F__My_Dreams  D22',  WIDE_RUNS)
+
+
 	T('17__Nade_Nade  S15/D16',  TWISTS)
 	T('17__Nade_Nade  D24',  RUNS_AS_BRACKETS)
 
@@ -770,10 +785,16 @@ export function ApplyTags( t )
 	T('11__Native  S17/S20',  JACKS)
 
 
+	T('11__Necromancy  D23',  TWISTS_QUAD)
+
+
 	T('14__Nemesis  D20',  TWISTS_QUAD)
 
 
 	T('17__Neo_Catharsis  S22', [GIMMICKS_VELOCITY, SLOWDOWN])
+
+
+	T('17__Neo_Catharsis__SHORT  D23',  BRACKETS)
 
 
 	// not on Phoenix: T('11__Night_Duty  D15/S17',  SLOWDOWN)
@@ -831,7 +852,7 @@ export function ApplyTags( t )
 
 
 	T('11__Pine_Nut  S15',  TWISTS)
-	T('11__Pine_Nut  D17',  WIDE_RUNS)
+	T('11__Pine_Nut  D17/D23',  WIDE_RUNS)
 
 
 	T('17__Pneumonoultramicroscopicsilicovolcanoconiosis  S19/D22',  NAKAKA)
