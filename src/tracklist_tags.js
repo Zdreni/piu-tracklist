@@ -50,30 +50,52 @@ const MEMORIZE = "#memorize"
 
 
 import { FindSharedChartsByDescr } from './tracklist.js'
-import { AddSharedChartNote } from './tracklist_notes.js'
+import { AddSharedChartNote, GetSharedChartNote, UpdateSharedChartNote } from './tracklist_notes.js'
 
 
-function Tag( tracklist, tagStr, chartsDescrList )
+function AddTagNote( tracklist, tagStr, chartsDescr )
 {
-	if( ! Array.isArray( chartsDescrList ) )
-		chartsDescrList = [ chartsDescrList ];
-
-	for( const descrItem of chartsDescrList )
-	{
-		const sharedCharts = FindSharedChartsByDescr( tracklist, descrItem );
-		for( const chart of sharedCharts )
-			AddSharedChartNote( chart, 'info', tagStr );
-	}
+	for( const sharedChart of FindSharedChartsByDescr( tracklist, chartsDescr ) )
+		AddSharedChartNote( sharedChart, 'info', tagStr );
 }
 
 
-export function ApplyTags( t )
+function AddChartSimpleTags( sharedChart, tagStr )
+{
+	var prevStr = GetSharedChartNote( sharedChart, 'tags' );
+	if( prevStr === undefined )
+		prevStr = "";
+	else
+		prevStr += " ";
+
+	UpdateSharedChartNote( sharedChart, 'tags', prevStr + tagStr );
+}
+
+function AddSimpleTags( tracklist, tagStr, chartsDescr )
+{
+	for( const sharedChart of FindSharedChartsByDescr( tracklist, chartsDescr ) )
+		AddChartSimpleTags( sharedChart, tagStr );
+}
+
+
+function ConvertAllTagsToInfo( tracklist )
+{
+	for( var t of Object.values( tracklist ) )
+		for( var sharedChart of Object.values( t.charts ) )
+			if( sharedChart.notes )
+				for( var note of sharedChart.notes )
+					if( note['kind'] === 'tags' )
+						note['kind'] = 'info';
+}
+
+
+export function ApplyTags( tracklist )
 {
 	function T(charts, tags)
 	{
 		if( Array.isArray( tags ))
 			tags = tags.join(" ");
-		Tag( t, tags, charts );
+		AddSimpleTags( tracklist, tags, charts );
 	}
 
 
@@ -304,14 +326,13 @@ export function ApplyTags( t )
 	T('16__Club_Night  D23',  BRACKETS)
 
 
-	T('15__Clue  D20',  [TWISTS_BACK, GIMMICKS_VELOCITY])
-	T('15__Clue  D21',  TWISTS_BACK)
+	T('15__Clue  D20/D21',  TWISTS_BACK)
+	T('15__Clue  D20',  GIMMICKS_VELOCITY)
 
 
-	T('17__Co5m1c_R4ilr0ad  S15',  TWISTS)
-	T('17__Co5m1c_R4ilr0ad  D19',  TWISTS)
-	T('17__Co5m1c_R4ilr0ad  S21',  [TWISTS, BRACKETS, ROLLING_BRACKETS])
-	T('17__Co5m1c_R4ilr0ad  D22',  ROLLING_BRACKETS)
+	T('17__Co5m1c_R4ilr0ad  S15/D19/S21',  TWISTS)
+	T('17__Co5m1c_R4ilr0ad  S21',  BRACKETS)
+	T('17__Co5m1c_R4ilr0ad  S21/D22',  ROLLING_BRACKETS)
 
 
 	//not on Phoenix:  T('08__Come_to_Me  S13',  penta jump at the end)
@@ -1385,11 +1406,11 @@ export function ApplyTags( t )
 	const PHOENIX_TITLE = "#phoenix.title"
 
 
-	//Tag( t, '13__Yeo_Rae_A  S1', "Pass with score <= 180,000 to get " + PHOENIX_TITLE + " 'Human metronome'" );
-	//Tag( t, '15__Gargoyle__FULL  S21', "Pass with score <= 444,444 to get " + PHOENIX_TITLE + " 'Perfect breaker'" );
+	//AddTagNote( tracklist, '13__Yeo_Rae_A  S1', "Pass with score <= 180,000 to get " + PHOENIX_TITLE + " 'Human metronome'" );
+	//AddTagNote( tracklist, '15__Gargoyle__FULL  S21', "Pass with score <= 444,444 to get " + PHOENIX_TITLE + " 'Perfect breaker'" );
 
-	Tag( t, `SSS+ to get ${PHOENIX_TITLE} 'No skills no pump'`, '0C__Moonlight  D21' )
-	Tag( t, `SSS+ to get ${PHOENIX_TITLE} 'PUMP IS A SENSE'`, '07__Love_is_a_Danger_Zone  D21' )
+	AddTagNote( tracklist, `SSS+ to get ${PHOENIX_TITLE} 'No skills no pump'`, '0C__Moonlight  D21' )
+	AddTagNote( tracklist, `SSS+ to get ${PHOENIX_TITLE} 'PUMP IS A SENSE'`, '07__Love_is_a_Danger_Zone  D21' )
 
 	// B.P.M FOLLOWER
 	// [Beethoven Virus D18] Perfect 927 / Great 1 / Miss 2 / Max Combo 747
@@ -1399,7 +1420,7 @@ export function ApplyTags( t )
 
 	function PHOENIX_BOSS_TITLE( bossDetails, chart )
 	{
-		Tag( t, `Pass to get ${PHOENIX_TITLE}.bossbreaker of ${bossDetails} Boss breaker`, chart + ".Phoenix" )
+		AddTagNote( tracklist, `Pass to get ${PHOENIX_TITLE}.bossbreaker of ${bossDetails} Boss breaker`, chart + ".Phoenix" )
 	}
 
 	function PHOENIX_BOSS_TITLE_S_D( bossDetails, singleChart, doubleChart )
@@ -1457,7 +1478,7 @@ export function ApplyTags( t )
 	function PHOENIX_SKILL_TITLE( skillType, charts )
 	{
 		for( const [index, chart] of charts.entries() )
-			Tag( t, `SSS to get ${PHOENIX_TITLE}.${skillType} [${index+1}]`, chart + ".Phoenix" )
+			AddTagNote( tracklist, `SSS to get ${PHOENIX_TITLE}.${skillType} [${index+1}]`, chart + ".Phoenix" )
 	}
 
 
@@ -1545,13 +1566,13 @@ export function ApplyTags( t )
 	] )
 
 /*
-	Tag( "M-runs",
+	AddTagNote( "M-runs",
 		[
 			"Mr. Larpus  S-22",
 			"Dignity  S-22",
 		] )
 
-	Tag( "brackets",
+	AddTagNote( "brackets",
 		[
 			"1950  D-21",
 			"1950  D-25",
@@ -1619,7 +1640,7 @@ export function ApplyTags( t )
 	/*
 	*/
 /*
-	Tag( "extreme-twists",
+	AddTagNote( "extreme-twists",
 		[
 			"Love is a Danger Zone 2  D-23",
 			"Love is a Danger Zone (Cranky Mix)  S-19",
@@ -1627,7 +1648,7 @@ export function ApplyTags( t )
 		] );
 
 
-	Tag( "lol",
+	AddTagNote( "lol",
 		[
 			"VVV  D-16",
 			"Destination  [SHORT]  D-18",
@@ -1635,4 +1656,6 @@ export function ApplyTags( t )
 			"Pumptris (8Bit ver.)  [SHORT]  D-22",
 		])
 */
+
+	ConvertAllTagsToInfo( tracklist );
 }

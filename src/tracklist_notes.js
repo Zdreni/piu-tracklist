@@ -12,6 +12,34 @@ export function	AddSharedChartNote( sharedChart, kind, noteText )
 	sharedChart.notes.push( { 'kind': kind, 'text': noteText } );
 }
 
+export function	GetSharedChartNote( sharedChart, kind )
+{
+	if( ! sharedChart.notes )
+		sharedChart.notes = [];
+
+	for( var note of sharedChart.notes )
+		if( note['kind'] === kind )
+			return note['text'];
+
+	return undefined;
+}
+
+
+export function UpdateSharedChartNote( sharedChart, kind, noteText )
+{
+	if( ! sharedChart.notes )
+		sharedChart.notes = [];
+
+	for( var note of sharedChart.notes )
+		if( note['kind'] === kind )
+		{
+			note['text'] = noteText;
+			return;
+		}
+
+	sharedChart.notes.push( { 'kind': kind, 'text': noteText } );
+}
+
 
 function Note( tracklist, trackName, chartDescrs, kind, noteText )
 {
