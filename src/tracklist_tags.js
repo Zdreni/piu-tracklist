@@ -218,6 +218,7 @@ export function ApplyTags( tracklist )
 	T('0E__BanYa_P_Guitar_Remix  S22/D24',  SLOWDOWN)
 
 
+	T('17__Barbers_Madness  S18',  DRILLS)
 	T('17__Barbers_Madness  D23',  BRACKETS)
 
 
@@ -317,6 +318,7 @@ export function ApplyTags( tracklist )
 
 
 	T('0B__Canon_D  S20/S21',  TWISTS)
+	T('0B__Canon_D  D23',  TWISTS_QUAD, WIDE_RUNS, STAMINA)
 
 
 	T('0E__Caprice_of_Otada  S17',  TWISTS, FOOTSWITCHES)
@@ -358,6 +360,7 @@ export function ApplyTags( tracklist )
 
 
 	T('16__Club_Night  D18',  WIDE_RUNS)
+	T('16__Club_Night  D21',  WIDE_RUNS, BRACKETS, ROLLING_BRACKETS, TWISTS_QUAD)
 	T('16__Club_Night  D23',  BRACKETS)
 
 
@@ -481,6 +484,9 @@ export function ApplyTags( tracklist )
 	T('07__Emperor  S16',  TWISTS, BRACKETS)
 
 
+	T('17__Energy_Synergy_Matrix  D22',  BRACKETS, TWISTS_QUAD)
+
+
 	T('15__Escape  S21',  DRILLS)
 
 
@@ -570,6 +576,9 @@ export function ApplyTags( tracklist )
 	T('03__Free_Style  D15',  STRETCH, WIDE_RUNS)
 
 
+	T('15__Further  S22',  BRACKETS, DRILLS)
+
+
 	T('17__Galaxy_Collapse  D20',  TWISTS)
 	T('17__Galaxy_Collapse  S22/D24',  BRACKETS_PLUS)
 
@@ -583,6 +592,9 @@ export function ApplyTags( tracklist )
 	T('17__Glimmer_Gleam  S18/D19',  TWISTS)
 	T('17__Glimmer_Gleam  S21',  BRACKETS, EXOTIC_CENTRALHOLD)
 	T('17__Glimmer_Gleam  D23',  BRACKETS_PLUS)
+
+
+	T('16__Gloria  S20',  DRILLS, BRACKETS)
 
 
 	T('15__God_Mode  S18',  TWISTS, FOOTSWITCHES)
@@ -663,6 +675,7 @@ export function ApplyTags( tracklist )
 	T('15__Hyperion__SHORT  D21',  TWISTS_BACK)
 
 
+	T('17__Horang_Pungryuga  S19',  STAMINA, TWISTS)
 	T('17__Horang_Pungryuga  D24',  STAMINA_PLUS)
 
 
@@ -746,7 +759,8 @@ export function ApplyTags( tracklist )
 	T('16__Janus  D22',  TWISTS_BACK, STEP_HOLD, WIDE_RUNS)
 
 
-	T('16__Jogging  S18/D18',  TWISTS_BACK)
+	T('16__Jogging  S18',  STEP_HOLD, TWISTS_BACK)
+	T('16__Jogging  D18',  TWISTS_BACK)
 
 
 	T('11__Jonathans_Dream  D19',  TWISTS, WIDE_RUNS)
@@ -844,7 +858,8 @@ export function ApplyTags( tracklist )
 
 
 	T('13__Love_is_a_Danger_Zone_Cranky_Mix  D16',  TWISTS)
-	T('13__Love_is_a_Danger_Zone_Cranky_Mix  S20/S21/D20/D23',  TWISTS_BACK)
+	T('13__Love_is_a_Danger_Zone_Cranky_Mix  D20',  TWISTS_BACK, TWISTS_QUAD)
+	T('13__Love_is_a_Danger_Zone_Cranky_Mix  S20/S21/D23',  TWISTS_BACK)
 
 
 	T('0C__Love_is_a_Danger_Zone_try_to_B_P_M  D17/D23',  TWISTS_BACK)
@@ -912,6 +927,7 @@ export function ApplyTags( tracklist )
 
 
 	T('16__Mopemope  S15',  GIMMICKS_VELOCITY)
+	T('16__Mopemope  D19',  GIMMICKS_BLINKING, TWISTS_BACK)
 	T('16__Mopemope  S21',  GIMMICKS_BLINKING)
 
 
@@ -1074,7 +1090,11 @@ export function ApplyTags( tracklist )
 	T('0E__Pumptris_Quattro  D22',  TWISTS_BACK, WIDE_RUNS)
 
 
+	T('17__Pupa  S23',  BRACKETS, TWISTS)
 	T('17__Pupa  D23',  BRACKETS)
+
+
+	T('14__Queen_of_the_Red  S18',  DRILLS, ROLLING_BRACKETS)
 
 
 	T('17__R_I_P  S19',  BRACKETS, TWISTS)
@@ -1122,6 +1142,7 @@ export function ApplyTags( tracklist )
 
 	T('14__Robot_Battle  S14/S19',  TWISTS)
 	T('14__Robot_Battle  D14',  STRETCH)
+	T('14__Robot_Battle  D19',  DRILLS, BRACKETS)
 	T('14__Robot_Battle  D24',  SLOWDOWN, DRILLS, WIDE_RUNS)
 
 
@@ -1177,6 +1198,7 @@ export function ApplyTags( tracklist )
 	T('17__Simon_Says_Eurodance  S20',  TWISTS_PLUS)
 
 
+	T('05__Slam  D22',  BRACKETS, WIDE_RUNS, JACKS, JUMPS)
 	T('05__Slam  D24',  BRACKETS_PLUS)
 
 
@@ -1186,6 +1208,9 @@ export function ApplyTags( tracklist )
 
 
 	T('14__Smile_Diary  S19',  TWISTS)
+
+
+	T('17__Solfeggietto  S22',  TWISTS, STAMINA_PLUS)
 
 
 	T('17__Solve_My_Hurt  S21/D23',  BRACKETS)
@@ -1232,6 +1257,7 @@ export function ApplyTags( tracklist )
 	//not on Phoenix:  T('14__Stardust_Overdrive  S18',  SLOWDOWN)
 	T('14__Stardust_Overdrive  S18',  DRILLS, BRACKETS, TWISTS)
 	//not on Phoenix:  T('14__Stardust_Overdrive  D19',  SLOWDOWN)
+	T('14__Stardust_Overdrive  D23',  BRACKETS, SLOWDOWN)
 
 
 	T('14__Stardust_Overdrive__SHORT  S16',  DRILLS, ROLLING_BRACKETS)
@@ -1288,6 +1314,7 @@ export function ApplyTags( tracklist )
 	T('11__Take_Out  D13',  WIDE_RUNS)
 	//not on Phoenix: T('11__Take_Out  D19',  SLOWDOWN)
 	T('11__Take_Out  D19',  DRILLS)
+	T('11__Take_Out  S20',  SLOWDOWN)
 	T('11__Take_Out  D22/D23',  SLOWDOWN)
 
 
@@ -1439,6 +1466,9 @@ export function ApplyTags( tracklist )
 
 
 	T('14__Violet_Perfume  S17',  TWISTS)
+
+
+	T('17__Viyellas_Nightmare  S19',  DRILLS)
 
 
 	T('07__Vook  D15',  TWISTS_BACK)
