@@ -44,7 +44,7 @@ export const newTunes__13__Fiesta2 = {
 	pumpoutID: 212,
 
 	charts: {
-		Phoenix: "= S8`7 S12`11 D14`13",
+		Phoenix: "= S8`7 S12`11 D14`13  @2.12 D25",
 		XX: "= S11`10 S17`16 S19`20 D13`12 D18`17 D23`24",
 		Prime2: "=",
 		Prime: "= -S19",

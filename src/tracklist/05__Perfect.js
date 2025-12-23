@@ -75,7 +75,7 @@ export const newTunes__05__Perfect = {
 	pumpoutID: 1,
 
 	charts: {
-		Phoenix: "= S5`6 D8`7",
+		Phoenix: "= S5`6 D8`7  @2.12 S15 S17 D16 D18",
 		XX: "= S9`11",
 		Prime2: "=",
 		Prime: "=",

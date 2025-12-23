@@ -30,7 +30,7 @@ export const newTunes__14__Prime = {
 	pumpoutID: 348,
 
 	charts: {
-		Phoenix: "= S8`7 S11`10 -Dp4",
+		Phoenix: "= S8`7 S11`10 -Dp4  @2.12 S22 D24",
 		XX: "=",
 		Prime2: "=  @1.08 Dp4",
 		Prime: "@1.07 S7 S10 S14 S18 D12 D15 D19",
@@ -1023,7 +1023,7 @@ export const newTunes__14__Prime = {
 	pumpoutID: 501,
 
 	charts: {
-		Phoenix: "= D11`9 -Dp5",
+		Phoenix: "= D11`9 -Dp5  @2.12 D23",
 		XX: "= D18`19",
 		Prime2: "=  @1.08 Dp5",
 		Prime: "@1.16 S3 S6 S10 S15 S17 D9 D16 CoOp(x2)  S18 D19",
@@ -1053,7 +1053,7 @@ export const newTunes__14__Prime = {
 	pumpoutID: 465,
 
 	charts: {
-		Phoenix: "= S10`9 -Sp3 -Dp4",
+		Phoenix: "= S10`9 -Sp3 -Dp4  @2.12 S22 D24",
 		XX: "=  @2.07 CoOp(x2)",
 		Prime2: "=",
 		Prime: "@1.10 S3 S5 S9 S15 D5 D16 Sp3  @1.15 Dp4",

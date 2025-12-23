@@ -843,7 +843,7 @@ export const newTunes__15__Prime2 = {
 	pumpoutID: 683,
 
 	charts: {
-		Phoenix: "= S4`5 S21`20 D12`11 -Dp4",
+		Phoenix: "= S4`5 S21`20 D12`11 -Dp4  @2.12 D23",
 		XX: "=  @1.04 Dp4",
 		Prime2: "@2.04 S5 S8 S11 S17 D11 D17 S20 D19",
 	},
@@ -902,7 +902,7 @@ export const newTunes__15__Prime2 = {
 	altID: "15_Magical_Vacation",
 
 	charts: {
-		Phoenix: "= -Dp3",
+		Phoenix: "= -Dp3  @2.12 D21",
 		XX: "= S18`19  @2.03  CoOp(x2)",
 		Prime2: "@1.06 S6 S11 S16 D7 D13 S19.ampass D18.ampass  @2.01 Dp3",
 	},

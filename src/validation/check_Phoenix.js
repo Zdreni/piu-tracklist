@@ -519,7 +519,7 @@ const checkPhoenixTable = {
 "16__Dement_After_Legend":  "S15 S18 S21 S23  D20 D24 D26",
 "16__Houseplan":  "S3 S6 S9 S15 S17  D8 D16 D19",
 "16__Your_Mind":  "S9 S15 S17 S21  D10 D18 D23",
-
+//"16__Conflict":  "S6, S11, S15, S17, S19, S22, D12, D21, D25, CO-OP(X2)",
 
 
 // Phoenix:

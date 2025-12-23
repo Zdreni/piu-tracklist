@@ -16,7 +16,7 @@ import {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@2.11 ",
+		Phoenix: "@2.12 ",
 	},
 },
 */
@@ -578,7 +578,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "S3 S5 S8 S11 S16 S19 D10 D18 D21",
+		Phoenix: "S3 S5 S8 S11 S16 S19 D10 D18 D21  @2.12 D23",
 	},
 },
 
@@ -897,7 +897,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@1.08 S9 S13 S17 S20 D14 D18 D21",
+		Phoenix: "@1.08 S9 S13 S17 S20 D14 D18 D21  @2.12 CoOp(x2)",
 	},
 },
 
@@ -1273,7 +1273,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@2.02 S9 S13 S16 S19 S22 D17 D21 D24 D25",
+		Phoenix: "@2.02 S9 S13 S16 S19 S22 D17 D21 D24 D25  @2.12 CoOp(x3)",
 	},
 },
 
@@ -1333,7 +1333,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@2.05 S9 S13 S16 S20 S22 S24 D15 D18 D24 D26",
+		Phoenix: "@2.05 S9 S13 S16 S20 S22 S24 D15 D18 D24 D26  @2.12 CoOp(x2)",
 	},
 },
 
@@ -1893,7 +1893,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix: "@2.04 S8 S12 S17 S21 S23 D14 D18 D23 D25",
+		Phoenix: "@2.04 S8 S12 S17 S21 S23 D14 D18 D23 D25  @2.12 CoOp(x2)",
 	},
 },
 
@@ -2088,13 +2088,43 @@ export const newTunes__17__Phoenix = {
 {
 	title: "Horang Pungryuga", artist: "Sangnoksu feat. HANANA", channel: WORLD, bpm: "160",
 	// sortingID: "",
-	sortingBetween: ["17__Soldiers", null],
+	sortingBetween: ["17__Soldiers", "17__Heliosphere"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
 
 	charts: {
 		Phoenix: "@2.00 S4 S7 S12 S16 S19 S21 D12 D16 D21 D24  @2.06 CoOp(x2)",
+	},
+},
+
+
+"17__Heliosphere":
+{
+	title: "Heliosphere", artist: "BlackY", channel: XROSS, bpm: "182",
+	// sortingID: "",
+	sortingBetween: ["17__Horang_Pungryuga", "17__Sweet_Wonderland"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.12 S14 S18 S21 S23 D20 D23 D25",
+	},
+},
+
+
+"17__Sweet_Wonderland":
+{
+	title: "Sweet Wonderland", artist: "MAX feat. ankimo", channel: XROSS, bpm: "170",
+	// sortingID: "",
+	sortingBetween: ["17__Heliosphere", null],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix: "@2.12 S3 S5 S8 S12 S15 S17 S20 D14 D18 D22 CoOp(x2)",
 	},
 },
 

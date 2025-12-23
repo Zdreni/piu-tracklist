@@ -1,0 +1,92 @@
+﻿https://piugame.com/phoenix_notice?&wr_id=318
+https://www.facebook.com/piugame/posts/pfbid0dSgf9jzoBC81chkGjQRCty1PbnAezK1jVEBGxkuSLGwZ5SpweFAiZRVAS9SGdohkl
+
+
+Hello everyone. 
+
+We would like to notice official update of PIU PHOENIX v2.12.0 version.
+
+ 
+
+If the machine is connected with internet, update file will be downloaded automatically and the update will be processed when the machine is rebooted. 
+
+  - Download times may vary depending on the store’s network speed.
+
+  - If connected to a LAN cable dedicated to Japanese rhythm games (KONAMI/BEMANI, etc.), automatic updates will not occur. If it does not update automatically, please ensure it is connected via a regular LAN cable.
+
+※ Update v2.12.0 is possible after update v2.11.0
+
+ 
+
+ 
+
+1. New Songs (2 songs)
+
+1) Title : Heliosphere
+  Artist : BlackY
+  BPM : 182
+  Category : Xross
+  Step charts : S14, S18, S21, S23, D20, D23, D25
+
+2) Title : SWEET WONDERLAND
+  Artist : MAX feat. ankimo
+  BPM : 170
+  Category : Xross
+  Step charts : S3, S5, S8, S12, S15, S17, S20, D14, D18, D22, CO-OP (X2)
+
+ 
+
+2. New Steps (23 Steps)
+
+1) Title : Black Dragon
+  New step chart : D23
+
+2) Title : Magical Vacation
+  New step chart : D21
+
+3) Title : Odin
+  New step chart : CO-OP (X2)
+
+4) Title : All I Want For X-mas
+  New step chart : S15, S17, D16, D18
+
+5) Title : Passacaglia
+  New step chart : D25
+
+6) Title : Katkoi
+  New step chart : S22, D24
+
+7) Title : Moment Day
+  New step chart : D23
+
+8) Title : Yoropiku Pikuyoro !
+  New step chart : S22, D24
+
+9) Title : La Cinquantaine
+  New step chart : S22, D24
+
+10) Title : Conflict
+  New step chart : D18, D26
+
+11) Title : Rage of Fire
+  New step chart : S20, D22
+
+12) Title : Euphorianic
+  New step chart : D23
+
+13) Title : Le Nozze di Figaro ~Celebrazione Remix~
+  New step chart : CO-OP (X2)
+
+14) Title : Murdoch vs Otada
+  New step chart : CO-OP (X3)
+
+15) Title : Doppelganger
+  New step chart : CO-OP (X2)
+
+ 
+
+ 
+
+ 
+
+Thank you.

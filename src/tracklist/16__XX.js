@@ -286,7 +286,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 838,
 
 	charts: {
-		Phoenix: "= S5`6 S9`10 D13`12 D17`16 -S22 -Dp2 -D24",
+		Phoenix: "= S5`6 S9`10 D13`12 D17`16 -S22 -Dp2 -D24  @2.12 S22 D24",
 		XX: "@2.03 S6 S10 S16 D12 D16 S19.lock S22.lock D20.lock D24.lock  @2.04 Dp2",
 	},
 },
@@ -1044,8 +1044,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 784,
 
 	charts: {
-		// Step charts : S6, S11, S15, S17, S19, S22, D12, D21, D25, CO-OP(X2)
-		Phoenix: "@2.00 = D12`13 D25`24 -Dp4",
+		Phoenix: "@2.00 = D12`13 D25`24 -Dp4  @2.12 D18 D26",
 		XX: "@1.03 S6 S11 S17 S19 D13 D21 S22.lock D24.lock  @1.04 S15 CoOp(x2)  @2.02 Dp4",
 	},
 },
@@ -1117,7 +1116,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 782,
 
 	charts: {
-		Phoenix: "= D11`10 -Dp3",
+		Phoenix: "= D11`10 -Dp3  @2.12 S20 D22",
 		XX: "@1.02 S7 S11 S16 D10 D17 CoOp(x2) S18.lock D19.lock  @1.04 Dp3",
 	},
 },
