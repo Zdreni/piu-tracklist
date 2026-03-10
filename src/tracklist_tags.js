@@ -156,11 +156,13 @@ export function ApplyTags( tracklist )
 
 
 	T('17__Alone  S17',  TWISTS)
+	T('17__Alone  D18',  WIDE_RUNS, TWISTS)
 
 
 	T('17__Altale  S21/D23',  BRACKETS)
 
 
+	T('17__Amor_Fati  S18',  STEP_HOLD, TRIPLES)
 	T('17__Amor_Fati  S21/D23',  STEP_HOLD)
 	T('17__Amor_Fati  D23',  BRACKETS, WIDE_RUNS)
 
@@ -209,6 +211,7 @@ export function ApplyTags( tracklist )
 	T('14__Bad_Apple  D11',  WIDE_RUNS)
 	T('14__Bad_Apple  S15',  MEMORIZE, GIMMICKS_STOPS)
 	T('14__Bad_Apple  S17',  TWISTS)
+	T('14__Bad_Apple  D18',  TWISTS)
 	T('14__Bad_Apple  S19/D20',  TWISTS_BACK)
 	T('14__Bad_Apple  D20',  STEP_HOLD)
 
@@ -235,6 +238,10 @@ export function ApplyTags( tracklist )
 
 	T('0C__Beat_of_the_War_2  D15',  WIDE_RUNS)
 	T('0C__Beat_of_the_War_2  S21',  FOOTSWITCHES_PLUS)
+
+
+	//T('0E__Beat_the_Ghost  S20',  BRUTEFORCE)
+	//not on Phoenix: T('0E__Beat_the_Ghost  S20',  SLOWDOWN)
 
 
 	T('17__Beautiful_Liar  D18',  WIDE_RUNS, BRACKETS)
@@ -333,6 +340,9 @@ export function ApplyTags( tracklist )
 	T('0E__Caprice_of_Otada  D22',  SLOWDOWN)
 
 
+	T('16__Carmen_Bus  S21',  TWISTS, STAMINA)
+
+
 	T('17__Catastrophe  S12',  TWISTS)
 
 
@@ -351,7 +361,7 @@ export function ApplyTags( tracklist )
 
 
 	T('14__Chinese_Restaurant  D19',  WIDE_RUNS)
-	//not on Phoenix: T('14__Chinese_Restaurant  D19',  SLOWDOWN)
+	//not on Phoenix: T('14__Chinese_Restaurant  S18/D19',  SLOWDOWN)
 
 
 	T('0F__Chopsticks_Challenge  S12',  TWISTS)
@@ -361,6 +371,7 @@ export function ApplyTags( tracklist )
 	T('0F__Chopsticks_Challenge__FULL  S17',  TWISTS)
 
 
+	T('16__Clematis_Rapsodia  S18',  TWISTS)
 	T('16__Clematis_Rapsodia  S22',  TWISTS)
 	T('16__Clematis_Rapsodia  S22/D23',  BRACKETS)
 
@@ -371,8 +382,8 @@ export function ApplyTags( tracklist )
 
 
 	T('15__Clue  S18',  TWISTS)
-	T('15__Clue  D20/D21',  TWISTS_BACK)
-	T('15__Clue  D20',  GIMMICKS_VELOCITY)
+	T('15__Clue  D20',  TWISTS_BACK, GIMMICKS_VELOCITY)
+	T('15__Clue  D21',  TWISTS_BACK, TWISTS_QUAD)
 
 
 	T('17__Co5m1c_R4ilr0ad  S15/D19/S21',  TWISTS)
@@ -533,6 +544,9 @@ export function ApplyTags( tracklist )
 	T('14__Feel_My_Happiness  D21', BRACKETS_PLUS)
 
 
+	T('17__Festival_of_Death_Moon  S18',  TWISTS, STEP_HOLD)
+
+
 	T('02__Final_Audition  S18.Phoenix',  TWISTS)
 	T('02__Final_Audition  S19',  FOOTSWITCHES_PLUS)
 	T('02__Final_Audition  D19',  TWISTS, WIDE_RUNS)
@@ -565,6 +579,7 @@ export function ApplyTags( tracklist )
 	T('16__Fires_of_Destiny  S20',  TWISTS)
 
 
+	T('17__Flavor_Step  S18',  TWISTS)
 	T('17__Flavor_Step  S21',  TWISTS, BRACKETS)
 	T('17__Flavor_Step  D22',  TWISTS, WIDE_RUNS)
 
@@ -618,6 +633,7 @@ export function ApplyTags( tracklist )
 
 
 	T('15__Gothique_Resonance  D13',  TWISTS_BACK)
+	T('15__Gothique_Resonance  S18',  STAMINA)
 	T('15__Gothique_Resonance  S20/D20',  TWISTS_SIDE)
 
 
@@ -731,6 +747,7 @@ export function ApplyTags( tracklist )
 	T('16__Ice_of_Death  S20',  TWISTS, GIMMICKS_BLINKING)
 
 
+	T('14__Idealized_Romance  S18',  TWISTS)
 	//not on Phoenix:  T('14__Idealized_Romance  D18',  SLOWDOWN)
 	T('14__Idealized_Romance  D18',  WIDE_RUNS)
 
@@ -815,6 +832,9 @@ export function ApplyTags( tracklist )
 
 	T('17__Kugutsu  D21',  DRILLS)
 	T('17__Kugutsu  S25',  GIMMICKS_STOPS)
+
+
+	T('16__La_Cinquantaine  S22.Phoenix',  BRACKETS, TWISTS)
 
 
 	T('17__Lacrimosa  S17',  TWISTS, JACKS)
@@ -1001,12 +1021,14 @@ export function ApplyTags( tracklist )
 
 
 	T('16__Nyarlathotep  S17',  TWISTS)
+	T('16__Nyarlathotep  S18',  FOOTSWITCHES)
 	T('16__Nyarlathotep  D17',  TWISTS_BACK)
 
 
 	T('16__Obelisque  S17',  TWISTS_BACK)
 
 
+	T('16__Obliteration  S18',  DRILLS)
 	T('16__Obliteration  D19',  WIDE_RUNS, TWISTS)
 
 
@@ -1023,6 +1045,7 @@ export function ApplyTags( tracklist )
 	T('11__Overblow__SHORT  S18',  TWISTS)
 
 
+	T('15__Overblow2  S18',  TWISTS)
 	T('15__Overblow2  D19',  WIDE_RUNS)
 
 
@@ -1154,6 +1177,7 @@ export function ApplyTags( tracklist )
 	T('15__Redline  D20',  WIDE_RUNS)
 
 
+	T('14__Reminiscence  S18',  TWISTS, STAMINA)
 	T('14__Reminiscence  D20',  WIDE_RUNS, STAMINA)
 
 
@@ -1173,6 +1197,8 @@ export function ApplyTags( tracklist )
 	T('14__Robot_Battle  D24',  SLOWDOWN, DRILLS, WIDE_RUNS)
 
 
+	//not on Phoenix: T('14__Rock_the_House  D18',  SLOWDOWN)
+	T('14__Rock_the_House  D18',  DRILLS)
 	T('14__Rock_the_House  D22',  DRILLS)
 
 
@@ -1226,6 +1252,7 @@ export function ApplyTags( tracklist )
 	T('17__Simon_Says_Eurodance  S20',  TWISTS_PLUS)
 
 
+	T('05__Slam  S18.Phoenix',  JUMPS)
 	T('05__Slam  D22',  BRACKETS, WIDE_RUNS, JACKS, JUMPS)
 	T('05__Slam  D24',  BRACKETS_PLUS)
 
@@ -1238,6 +1265,7 @@ export function ApplyTags( tracklist )
 	T('14__Smile_Diary  S19',  TWISTS)
 
 
+	T('17__Solfeggietto  S19',  STAMINA)
 	T('17__Solfeggietto  S22',  TWISTS, STAMINA_PLUS)
 
 
@@ -1253,6 +1281,7 @@ export function ApplyTags( tracklist )
 	T('0E__Solitary_1_5  D18',  TWISTS)
 
 
+	T('0B__Solitary_2  S18',  STAMINA, TWISTS)
 	T('0B__Solitary_2  D20',  STAMINA, TWISTS, WIDE_RUNS)
 	T('0B__Solitary_2  D21',  BRACKETS, ROLLING_BRACKETS, RUNS_AS_BRACKETS)
 
@@ -1357,7 +1386,7 @@ export function ApplyTags( tracklist )
 	T('11__Take_Out  D22/D23',  SLOWDOWN)
 
 
-	T('16__Tales_of_Pumpnia  S20/D21',  NAKAKA)
+	T('16__Tales_of_Pumpnia  D18/S20/D21',  NAKAKA)
 
 
 	T('16__Tantanmen  D20',  TWISTS)
@@ -1376,6 +1405,7 @@ export function ApplyTags( tracklist )
 
 
 	T('15__The_Festival_of_Ghost2  D17',  TWISTS, GIMMICKS_VELOCITY)
+	T('15__The_Festival_of_Ghost2  S18',  TWISTS)
 	T('15__The_Festival_of_Ghost2  D20',  TWISTS_BACK, GIMMICKS_VELOCITY)
 
 
