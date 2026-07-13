@@ -602,7 +602,7 @@ export function ApplyUnlocks( t )
 			Prime2_Lock( t, "15__Break_Out", "D18", "1,440", "D12", "S" )
 			Prime2_Lock( t, "15__Break_Out", "D22", "2,640", "D18", "A" )
 
-	 	//Lock( t, "T15__The_Quick_Brown_Fox", "S20, S23, D24", PIUGAME )
+	 	//Lock( t, "15__The_Quick_Brown_Fox", "S20, S23, D24", PIUGAME )
 			Prime2_Lock( t, "15__The_Quick_Brown_Fox", "S20", "1,800", "S17", "A" )
 			Prime2_Lock( t, "15__The_Quick_Brown_Fox", "S23", "2,760", "S20", "A" )
 			Prime2_Lock( t, "15__The_Quick_Brown_Fox", "D24", "3,360", "D14", "gS" )

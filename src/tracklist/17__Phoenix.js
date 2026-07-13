@@ -320,6 +320,7 @@ export const newTunes__17__Phoenix = {
 
 	charts: {
 		Phoenix: "@1.01 S2 S4 S6 S9 S14 S17 D8 D16 D19  @2.01 CoOp(x3)",
+		Phoenix2: "S15`14 D17`16"
 	},
 },
 
