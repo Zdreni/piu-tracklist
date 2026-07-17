@@ -10,7 +10,7 @@ import {
 {
 	title: "", artist: "", channel: , bpm: "", //duration: ,
 	// sortingID: "",
-	sortingBetween: [null, ""],
+	sortingBetween: ["", ""],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -73,7 +73,7 @@ export const newTunes__18__Phoenix2 = {
 {
 	title: "404 (New Era)", artist: "KiiiKiii", channel: KPOP, bpm: "127",
 	// sortingID: "",
-	sortingBetween: ["18__Bang_Bang", "17__Storm"],
+	sortingBetween: ["18__Bang_Bang", "18__Enjoy_the_Show"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -83,6 +83,124 @@ export const newTunes__18__Phoenix2 = {
 	},
 },
 
+
+"18__Enjoy_the_Show":
+{
+	title: "Enjoy The Show", artist: "RiraN ft. Negoto Bunnyla", channel: ORIGINAL, bpm: "160",
+	// sortingID: "",
+	sortingBetween: ["18__404_New_Era", "18__Punishment_Restaurant"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix2: "s10 s18 s21 s23  d19 d23 d25",
+	},
+},
+
+
+'18__Punishment_Restaurant':
+{
+	title: "Punishment Restaurant", artist: "memme", channel: ORIGINAL, bpm: "175",
+	// sortingID: "",
+	sortingBetween: ["18__Enjoy_the_Show", "18__Blazor"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix2: "s4 s8 s11 s17 s21  d14 d18 d22",
+	},
+},
+
+
+'18__Blazor':
+{
+	title: "Blazor", artist: "WONDERTRAVELER Project", channel: ORIGINAL, bpm: "161",
+	// sortingID: "",
+	sortingBetween: ["18__Punishment_Restaurant", "18__B3"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix2: "s11 s15 s18 s20 s22  d18 d20 d22 d24",
+	},
+},
+
+'18__B3':
+{
+	title: "B3", artist: "MAX", channel: ORIGINAL, bpm: "160",
+	// sortingID: "",
+	sortingBetween: ["18__Blazor", "18__Digitalis"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix2: "s7 s11 s16 s18 s20  d12 d18 d21",
+	},
+},
+
+
+'18__Digitalis':
+{
+	title: "Digitalis", artist: "NeLiME", channel: ORIGINAL, bpm: "160",
+	// sortingID: "",
+	sortingBetween: ["18__B3", "18__The_Last_Rebellion"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix2: "s11 s14 s18 s21  d16 d21 d24",
+	},
+},
+
+
+'18__The_Last_Rebellion':
+{
+	title: "The Last Rebellion", artist: "MonstDeath", channel: ORIGINAL, bpm: "199",
+	// sortingID: "",
+	sortingBetween: ["18__Digitalis", "18__Overnight_Flower"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix2: "s16 s19 s21 s23  d21 d23 d25",
+	},
+},
+
+
+'18__Overnight_Flower':
+{
+	title: "OVERNIGHT FLOWER", artist: "P*Light", channel: ORIGINAL, bpm: "210",
+	// sortingID: "",
+	sortingBetween: ["18__The_Last_Rebellion", "18__Legendary_Dominion"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix2: "s12 s16 s19 s22 s24  d18 d20 d24 d26",
+	},
+},
+
+
+'18__Legendary_Dominion':
+{
+	title: "Legendary Dominion", artist: "Laur", channel: ORIGINAL, bpm: "210",
+	// sortingID: "",
+	sortingBetween: ["18__Overnight_Flower", "17__Storm"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix2: "s16 s20 s22 s25  d21 d25 d27",
+	},
+},
 
 
 };

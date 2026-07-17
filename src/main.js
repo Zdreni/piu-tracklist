@@ -14,6 +14,7 @@ import { tracklist, PreprocessTracklist } from './tracklist_src.js';
 // #include("src/check_NX2_NXA.js")
 import { CheckInitialTracklistOfXX } from './validation/check_XX.js';
 import { CheckInitialTracklistOfPhoenix } from './validation/check_Phoenix.js';
+import { CheckInitialTracklistOfPhoenix2 } from './validation/check_Phoenix2.js';
 
 	
 import { ApplyUnlocks } from './tracklist_unlocks.js';
@@ -452,6 +453,7 @@ PreprocessTracklist( args );
 
 CheckInitialTracklistOfXX();
 CheckInitialTracklistOfPhoenix();
+CheckInitialTracklistOfPhoenix2();
 
 ApplyUnlocks( tracklist );
 
