@@ -356,6 +356,8 @@ function PreprocessNewStyleChart( track, trackID, result, chartDescr, mixID, pat
 {
 	var descrTokens = chartDescr.split( "." );
 	var chartText = descrTokens[ 0 ];
+	chartText = chartText[ 0 ].toUpperCase() + chartText.slice( 1 );  // to capitalize s -> S and d -> D
+
 	descrTokens = descrTokens.slice( 1 );
 
 	var sharedIndex = 0;
@@ -494,7 +496,7 @@ function PreprocessNewStyleStringCharts( track, trackID, mixID )
 		{
 			var chart = PreprocessNewStyleChart( track, trackID, track.charts[ mixID ], token.substr( 1 ), mixID, patchIndex );
 		}
-		else if( token[0] === 'S'  ||  token[0] === 'D'  ||  token.substr(0, 4) === 'CoOp' )  // implicit '+' is considered
+		else if( ['s', 'S', 'd', 'D'].includes( token[0] )  ||  token.substr(0, 4) === 'CoOp' )  // implicit '+' is considered
 		{
 			var chart = PreprocessNewStyleChart( track, trackID, track.charts[ mixID ], token, mixID, patchIndex );
 		}
@@ -508,7 +510,7 @@ function PreprocessNewStyleStringCharts( track, trackID, mixID )
 		}
 		else
 		{
-			throw new Error( `Unrecognized chart token '${ token }' in track '${ id }'` );
+			throw new Error( `Unrecognized chart token '${ token }' in track '${ trackID }'` );
 		}
 	}
 
@@ -516,7 +518,7 @@ function PreprocessNewStyleStringCharts( track, trackID, mixID )
 	for( var chart of track.charts[ mixID ] )
 	{
 		if( chartLabels.has( chart.text ) )
-			throw new Error( `Duplicate chart '${ chart.text }' in track '${ id }' on mix ${ mixID }` );
+			throw new Error( `Duplicate chart '${ chart.text }' in track '${ trackID }' on mix ${ mixID }` );
 		chartLabels.add( chart.text );
 	}
 }

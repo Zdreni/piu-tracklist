@@ -203,4 +203,105 @@ export const newTunes__18__Phoenix2 = {
 },
 
 
+"18__Crash_Landing_Rengezvous":
+{
+	title: "Crash-Landing Rengezvous", artist: "Xyris", channel: WORLD, bpm: "128~190",
+	// sortingID: "",
+	sortingBetween: ["", ""],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix2: "s13 s16 s19 s22  d17 d21 d24",
+	},
+},
+
+"18__Quattuorux":
+{
+	title: "QUATTUORUX", artist: "D-D-Dice Vs. Tanchiky Vs. Karameru", channel: WORLD, bpm: "220",
+	// sortingID: "",
+	sortingBetween: ["", ""],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix2: "s15 s19 s22 s24  d17 d21 d24 d26",
+	},
+},
+
+"18__Nighttheater":
+{
+	title: "NightTheater", artist: "*wakadori", channel: WORLD, bpm: "151",
+	// sortingID: "",
+	sortingBetween: ["", ""],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix2: "s12 s15 s18 s21  d16 d19 d22",
+	},
+},
+
+"18__Infinite_Energy_Overdoze":
+{
+	title: "INFiNiTE ENERGY -Overdoze-", artist: "Reku Mochizuki", channel: WORLD, bpm: "180",
+	// sortingID: "",
+	sortingBetween: ["", ""],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix2: "s13 s16 s18 s21 s23  d19 d22 d25",
+	},
+},
+
+// FREEDOM DiVE / xi / bpm 222.22
+"18__Freedom_Dive":  "s13 s17 s22 s25  d18 d24 d27",
+"18__":
+{
+	title: "", artist: "", channel: , bpm: "", //duration: ,
+	// sortingID: "",
+	sortingBetween: ["", ""],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix2: "",
+	},
+},
+
+"18__Dreamchasers":
+{
+	title: "Dreamchasers", artist: "s-don", channel: WORLD, bpm: "155",
+	// sortingID: "",
+	sortingBetween: ["", ""],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix2: "s12 s15 s17 s20  d17 d20 d22",
+	},
+},
+
+"18__Super_Haraguro_Pop":
+{
+	title: "SUPER*HARAGURO*POP", artist: "Zekk", channel: WORLD, bpm: "160",
+	// sortingID: "",
+	sortingBetween: ["", ""],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix2: "s4 s7 s10 s12 s16 s18 s20 s22  d17 d20 d22 d24",
+	},
+},
+
+
 };

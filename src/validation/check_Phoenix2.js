@@ -17,34 +17,6 @@ const checkPhoenix2Table = {
 //   - https://www.youtube.com/watch?v=j9w0nJ2lmCg  (Full)
 
 
-// track order is sorted as in "all tunes"
-
-
-// New Tunes:
-
-// Crash-Landing Rengezvous / Xyris / bpm 128~190
-"18__Crash_Landing_Rengezvous":  "S13 S16 S19 S22 D17 D21 D24",
-
-// QUATTUORUX / D-D-Dice Vs. Tanchiky Vs. Karameru / bpm 220
-"18__Quattuorux":  "S15 S19 S22 S24 D17 D21 D24 D26",
-
-// NightTheater / *wakadori / bpm 151
-"18__Nighttheater":  "S12 S15 S18 S21 D16 D19 D22",
-
-// INFiNiTE ENERGY -Overdoze- / Reku Mochizuki / bpm 180
-"18__Infinite_Energy_Overdoze":  "S13 S16 S18 S21 S23 D19 D22 D25",
-
-// FREEDOM DiVE / xi / bpm 222.22
-"18__Freedom_Dive":  "S13 S17 S22 S25 D18 D24 D27",
-
-// Dreamchasers / s-don / bpm 155
-"18__Dreamchasers":  "S12 S15 S17 S20 D17 D20 D22",
-
-// SUPER*HARAGURO*POP / Zekk / bpm 160
-"18__Super_Haraguro_Pop":  "S4 S7 S10 S12 S16 S18 S20 S22 D17 D20 D22 D24",
-
-
-
 // K-POP:
 
 '18__T_B_H':  "s2 s4 s6 s14 s17 s20 s22  d18 d22 d24",
@@ -426,6 +398,364 @@ const checkPhoenix2Table = {
 
 '02__Final_Audition':  "s2 s7 s10 s18 s19  d17 d19",
 '02__Extravaganza':  "s4 s8 s11 s13 s19 s22  d15 d18 d22",
+
+
+// World music
+
+'18__Crash_Landing_Rengezvous':  "s13 s16 s19 s22  d17 d21 d24",
+'18__Quattuorux':  "s15 s19 s22 s24  d17 d21 d24 d26",
+'18__Nighttheater':  "s12 s15 s18 s21  d16 d19 d22",
+'18__Infinite_Energy_Overdoze':  "s13 s16 s18 s21 s23  d19 d22 d25",
+'18__Freedom_Dive':  "s13 s17 s22 s25  d18 d24 d27",
+
+'17__Binary_Star':  "s5 s13 s17 s20  d15 d19 d23",
+'17__About_the_Universe':  "s7 s12 s16 s18 s20  d18 d20 d24",
+'17__Perpetual':  "s4 s7 s12 s16 s19 s21  d14 d18 d21 d24",
+'17__Dancing':  "s7 s13 s16 s20  d13 d17 d21 d24",
+'17__Galaxy_Collapse':  "s4 s7 s11 s15 s19 s23  d13 d16 d21 d25",
+'17__Fracture_Temporelle':  "s9 s12 s15 s18 s21 s24  d18 d23 d26",
+'17__Catastrophe':  "s12 s15 s18 s21 s23  d20 d23 d26",
+'17__Human_Extinction':  "s12 s18 s20 s21 s24  d20 d23 d25",
+'17__That_Kitty':  "s13 s17 s20 s23  d15 d18 d22 d24",
+'17__Underworld':  "s8 s11 s16 s19 s22 s23  d18 d22 d25",
+'17__Nade_Nade':  "s10 s15 s20 s23  d16 d24",
+'17__Goodtek':  "s8 s12 s16 s18 s21  d12 d16 d20 d24",
+'17__Co5m1c_R4ilr0ad':  "s10 s15 s18 s21  d13 d19 d22",
+'17__Energy_Synergy_Matrix':  "s7 s11 s16 s18 s20  d13 d19 d21  CoOp(x3)",
+'17__Milk':  "s7 s11 s15 s17 s20  d11 d16 d19 d22",
+'17__Acquire':  "s7 s11 s15 s17 s21  d13 d16 d19 d23  CoOp(x3)",
+'17__Pneumonoultramicroscopicsilicovolcanoconiosis':  "s12 s16 s20  d22",
+'17__Altale':  "s2 s6 s9 s12 s15 s18 s21  d6 d16 d19 d23",
+'17__Irellia':  "s8 s13 s18 s22 s24  d16 d19 d24 d26",
+'17__Goodbounce':  "s4 s7 s12 s16 s20  d13 d18 d21",
+'17__Alice_in_Misanthrope':  "s12 s15 s17 s20 s23  d13 d18 d21 d24",
+'17__R_I_P':  "s13 s16 s19 s22  d16 d21 d24",
+'17__Emomomo':  "s3 s7 s10 s14 s16 s19  d12 d18 d21",
+'17__Pupa':  "s7 s11 s14 s17 s19 s21 s23  d16 d21 d23 d25",
+'17__Stager':  "s8 s11 s15 s17 s19  d12 d16 d18 d20  CoOp(x2)",
+'17__Rush_More':  "s13 s16 s18 s22  d14 d17 d19 d23",
+'17__Rush_Hour':  "s13 s16 s20 s22  d17 d22 d24",
+'17__This_game_does_not_exist':  "s13 s16 s20 s22 s24  d18 d22 d24 d26",
+'17__Mahika':  "s13 s16 s19 s22  d15 d18 d21 d24",
+'17__Giselle':  "s12 s16 s18 s20 s22  d14 d20 d22 d24",
+'17__Spooky_Macaron':  "s14 s17 s20 s22  d16 d18 d22 d25",
+'17__Aragami':  "s15 s17 s19 s22 s24  d17 d21 d24 d26",
+'17__Halcyon':  "s12 s18 s20 s22  d12 d20 d24",
+'17__Destr0yer':  "s7 s13 s18 s22  d15 d20 d24",
+'17__Big_Daddy':  "s11 s14 s16 s19 s21  d17 d20 d23",
+'17__Flvsh_Out':  "s4 s7 s11 s16 s18 s21  d13 d19 d23",
+'17__Odin':  "s8 s12 s17 s20 s23  d14 d18 d23 d24  CoOp(x2)",
+'17__Becouse_of_You':  "s11 s14 s16 s18 s21  d12 d17 d20 d22",
+'17__Doof_Senc':  "s15 s18 s21 s23  d16 d19 d23 d25",
+'17__Poppin_Shower':  "s12 s15 s18 s21  d15 d19 d22",
+'17__Break_Through_Myself':  "s12 s15 s18 s21 s23  d17 d20 d23 d25",
+'17__Viyellas_Nightmare':  "s11 s16 s19 s23  d14 d21 d25",
+'17__Chobit_Flavor':  "s12 s16 s19 s22  d17 d21 d24",
+'17__ALiVE':  "s5 s12 s15 s18 s22  d13 d17 d21 d24",
+'17__Trickl4sh_220':  "s15 s18 s21 s23  d17 d20 d23 d25",
+'17__Extreme_Music_School_1st_period':  "s15 s18 s20 s23  d20 d23 d25",
+'17__Extreme_Music_School_2nd_period':  "s16 s18 s22 s24  d19 d24 d25",
+'17__Battle_No_1':  "s9 s14 s17 s20 s22  d16 d22 d24  CoOp(x2)",
+'17__Soldiers':  "s4 s6 s11 s15 s18 s20  d13 d19 d22",
+'17__Horang_Pungryuga':  "s4 s7 s12 s16 s19 s21  d12 d16 d22 d24  CoOp(x2)",
+
+'16__Slapstick_Parfait':  "s3 s7 s10 s16 s19  d13 d18 d21 d23",
+'16__Paved_Garden':  "s8 s12 s16 s19 s22  d14 d18 d20 d24",
+'16__Pop_Sequence':  "s5 s7 s12 s15 s21  d13 d19 d23",
+'16__Crossing_Delta':  "s10 s13 s17 s20  d14 d18 d21 d24  CoOp(x2)",
+'16__Club_Night':  "s9 s17 s19 s22  d12 d19 d22 d24  CoOp(x2)",
+'16__Indestructible':  "s9 s12 s17 s19 s22  d15 d20 d22 d25  CoOp(x2)",
+'16__8_6':  "s12 s16 s20  d18 d21  CoOp(x2)",
+'16__Cross_Soul':  "s8 s17 s20 s22  d13 d18 d20 d24",
+'16__Broken_Karma':  "s11 s16 s19 s21  d13 d20 d23",
+'16__After_a_Thousand_Years':  "s4 s7 s12 s18 s19  d14 d20 d23",
+'16__Lala':  "s1 s3 s5 s8 s14  d8 d16",
+'16__F_r_iend':  "s10 s15 s19 s21 s23  d12 d17 d21 d25",
+'16__Conflict':  "s6 s11 s15 s17 s19 s22  d13 d18 d21 d25 d26  CoOp(x2)",
+'16__Danger_n_Danger':  "s8 s12 s16 s19 s21  d10 d14 d18 d21 d23",
+'16__Nihilism_Another_Ver':  "s8 s15 s18 s21  d17 d19 d22",
+'16__Phalanx_RS2018':  "s11 s15 s17 s19 s22  d13 d18 d21 d24",
+'16__Point_Zero_2':  "s11 s16 s19 s21  d15 d20 d22",
+'16__Brain_Power':  "s3 s5 s8 s11 s16 s19 s22  d8 d14 d20 d24  CoOp(x2)",
+'16__Life_is_Piano':   "s2 s4 s7 s10 s16 s19  d11 d18 d21",
+'16__Gloria':  "s10 s14 s17 s20 s23  d16 d18 d21 d25",
+'16__Mopemope':  "s11 s15 s17 s21 s23  d17 d19 d24 d26  CoOp(x2)",
+'16__Re_End_of_a_Dream':  "s12 s15 s19 s21 s23  d18 d22 d25",
+'16__Cross_Ray':  "s4 s7 s12 s16 s19 s21  d15 d20 d24",
+'16__Ultimatum':  "s17 s21 s23 s25  d25 d27",
+'16__Kokugen_Kairou_Labyrinth':  "s10 s13 s15 s17 s20 s23  d18 d22 d26",
+
+'15__Step':  "s7 s14 s17  d12 d18 d20",
+'15__Nakakapagpabagabag':  "s12 s15 s19  d16 d20  CoOp(x2)",
+'15__Hush':  "s3 s5 s8 s15  d7 d15",
+'15__Fallen_Angel':  "s6 s11 s17 s19  d11 d16 d21",
+
+'14__Rock_the_House':  "s8 s10 s16  d11 d13 d18 d22",
+'14__The_Revolution':  "s7 s12 s17 s19  d12 d19 d22",
+'14__Selfishness':  "s3 s6 s11 s17  d12 d19 d21",
+'14__Cosmical_Rhythm':  "s4 s6 s8 s14 s17  d11 d15 d19",
+'14__Dolly_Kiss':  "s6 s14 s17  d6 d16 d21",
+'14__Matador':  "s4 s7 s11 s18 s21  d7 d16 d19 d23",
+'14__Milky_Way_Galaxy':  "s6 s11 s19  d13 d20",
+'14__Feel_My_Happiness':  "s4 s11 s17  d6 d18 d21  CoOp(x4)",
+'14__Ragnarok':  "s8 s12 s16 s18 s21  d9 d13 d17",
+'14__Achluoias':  "s9 s15 s17 s22 s24  d15 d17 d24 d26",
+'14__Karyawisata':  "s4 s7 s10 s14 s16 s21  d7 d17 d22",
+'14__video_out_c':  "s11 s14 s17 s22  d15 d23",
+'14__Stardust_Overdrive':  "s4 s9 s16 s18  d5 d13 d16 d19 d23",
+'14__Amai_Yuuwaku_Dangerous':  "s1 s3 s6 s11 s14  d6 d10 d15",
+'14__Yoropiku_Pikuyoro':  "s3 s5 s10 s15 s22  d6 d16 d24  CoOp(x2)",
+'14__Imprinting':  "s4 s8 s11 s17 s21  d14 d17 d22 d24",
+'14__Sudden_Romance':  "s4 s6 s9 s14 s19  d9 d15 d19",
+'14__Mitotsudaira':  "s1 s4 s9 s15 s19  d12 d16 d19",
+'14__Smile_Diary':  "s4 s7 s11 s16 s19  d9 d17 d19",
+'14__Bad_Apple':  "s1 s3 s5 s9 s13 s15 s17 s19  d11 d18 d20  CoOp(x2)",
+'14__Prime':  "s4 s7 s11 s16 s18 s21  d13 d16 d18 d21",
+'14__Queen_of_the_Red':  "s4 s7 s12 s15 s18  d14 d16 d19",
+'14__Idealized_Romance':  "s2 s4 s7 s11 s16 s18  d11 d18",
+'14__Just_Hold_On':  "s4 s7 s11 s16 s21  d15 d19 d22 d25",
+
+'12__Dream_to_Nightmare':  "s19 s21  d22 d23",
+'12__VVV':  "s18 s23  d17 d20",
+
+'13__Pop_the_Track':  "s2 s4 s7 s10 s16 s18  d11 d18 d20  CoOp(x2)",
+'13__Passacaglia':  "s4 s8 s12 s17 s19  d15 d18 d22 d23 d25",
+'13__Baroque_Virus':  "s5 s11 s17  d13 d18 d21",
+'12__Monolith':  "s3 s5 s9 s15 s21  d14 d17 d23",
+'12__Ladybug':  "s1 s3 s5 s15  d15  CoOp(x2)",
+
+'16__Kitty_Cat':  "s1 s3 s5 s14  d6 d15  CoOp(x2)",
+
+'12__Hardkore_of_the_North':  "s4 s7 s12 s18 s22  d16 d22",
+'12__Tribe_Attacker':  "s4 s5 s9 s17  d10 d17  CoOp(x4)",
+'12__Utopia':  "s4 s7 s10 s17 s20  d13 d18 d22",
+'12__Xuxa':  "s3 s6 s10 s15  d12 d17  CoOp(x2)",
+'12__Star_Command':  "s3 s5 s13 s15 s19  d15 d22 d23",
+
+'11__What_Happened':  "s3 s7 s12 s17 s22  d19 d23",
+'11__Gargoyle':  "s4 s7 s11 s18 s22  d14 d20 d23",
+'11__Allegro_Con_Fuoco':  "s5 s7 s10 s17 s22  d11 d18 d24",
+'11__X_Rave':  "s3 s6 s9 s17  d13 d21",
+'11__Smells_Like_a_Chocolate':  "s3 s6 s9 s17  d12 d18",
+'11__Necromancy':  "s4 s7 s10 s18 s20  d15 d19 d23",
+
+
+// XROSS
+
+'18__Dreamchasers':  "s12 s15 s17 s20  d17 d20 d22",
+'18__Super_Haraguro_Pop':  "s4 s7 s10 s12 s16 s18 s20 s22  d17 d20 d22 d24",
+
+'17__Heliosphere':  "s14 s18 s21 s23  d20 d23 d25",
+'17__Sweet_Wonderland':  "s3 s5 s89 s12 s15 s17 s21  d14 d18 d23  CoOp(x2)",
+
+'16__Imagination':  "s12 s15 s18 s19  d17 d21",
+'16__Black_Swan':  "s12 s15 s16 s19  d15 d22",
+'16__Obelisque':  "s2 s4 s7 s10 s15 s17  d12 d15 d17  CoOp(x2)",
+'16__Rage_of_Fire':  "s7 s11 s16 s18 s20  d11 d17 d19 d22  CoOp(x2)",
+'16__Dual_Racing_RED_vs_BLUE':  "s7 s11 s16 s18 s20  d13 d19 d21  CoOp(x2)",
+'16__Cycling':  "s3 s7 s10 s16 s19  d11 d16 d20",
+'16__Uranium':  "s9 s15 s19 s22  d12 d17 d20 d25",
+'16__Xeroize':  "s12 s17 s21 s24  d18 d22 d25  CoOp(x3)",
+'16__Rising_Star':  "s6 s11 s15 s17  d12 d17 d19  CoOp(x2)",
+'16__Cutie_Song':  "s4 s8 s11 s15 s19  d13 d18 d21  CoOp(x3)",
+'16__Headless_Chicken':  "s6 s10 s15 s19 s21  d12 d17 d21  CoOp(x2)",
+'16__Over_the_Horizon':  "s11 s14 s17 s20  d15 d18 d21",
+'16__Loki':  "s12 s16 s20 s21  d12 d20  CoOp(x2)",
+'16__Dement_After_Legend':  "s15 s18 s21 s23  d20 d24 d26",
+'16__Houseplan':  "s3 s6 s9 s15 s17  d8 d16 d19",
+'16__Your_Mind':  "s9 s15 s17 s21  d10 d18 d23",
+
+'15__V3':  "s6 s9 s14 s17  d10 d18 d21 d24",
+'15__Cross_Time':  "s3 s7 s12 s16 s18  d11 d17 d20 d22",
+'15__The_Festival_of_Ghost2':  "s11 s16 s18 s20  d11 d17 d20",
+'15__Helix':  "s5 s7 s11 s16 s18 s19  d12 d16 d19 d23",
+'15__Hyperion':  "s4 s9 s14 s17  d11 d18 d20",
+'15__Black_Dragon':  "s4 s8 s11 s17 s21  d12 d17 d19 d23",
+'15__BSPower_Explosion':  "s8 s12 s16 s19 s21  d13 d20 d23  CoOp(x2)",
+'15__Start_On_Red':  "s4 s8 s11 s16 s19  d13 d19 d20",
+'15__Time_Attack_Blue':  "s8 s15 s18  d10 d16 d20",
+'15__Magical_Vacation':  "s6 s11 s16 s18  d7 d13 d18 d21  CoOp(x2)",
+'15__Visual_Dream_II':  "s5 s8 s16 s18  d11 d19",
+'15__Death_Moon':  "s3 s6 s13 s14 s17 s20  d7 d17 d22  CoOp(x2)",
+'15__Super_Stylin':  "s6 s8 s11 s17  d10 d12 d18 d21",
+'15__Christmas_Memories':  "s3 s5 s8 s14  d9 d15  CoOp(x2)",
+'15__Keep_On':  "s6 s13 s15 s18 s21  d13 d17 d20 d22",
+'15__Asterios_ReEntry':  "s4 s6 s10 s14 s17 s19  d8 d18 d22  CoOp(x2)",
+'15__Le_Grand_Bleu':  "s7 s12 s16 s18 s20  d10 d18 d20",
+'15__Infinity':  "s10 s15 s18 s21  d10 d19 d23  CoOp(x3)",
+'15__Gothique_Resonance':  "s8 s11 s18 s21  d13 d21",
+'15__Bedlam':  "s8 s15 s18 s22  d15 d20 d24  CoOp(x2)",
+'15__A_Site_De_La_Rue':  "s9 s11 s16 s19  d14 d20 d24",
+'15__Clue':  "s4 s8 s12 s16 s18  d12 d18 d20 d21",
+'15__Redline':  "s5 s11 s16 s18  d16 d19 d20 d22  CoOp(x3)",
+'15__Kill_Them':  "s5 s10 s15 s18  d10 d19",
+'15__Donatello':  "s13 s17 s22  d19 d22",
+
+
+// SHORT
+
+'17__Euphorianic__SHORT':  "s4 s7 s10 s17  d12 d19",
+'17__Phoenix_Opening__SHORT':  "s12 s16 s18  d16 d20  CoOp(x2)",
+'17__Jupin__SHORT':  "s12 s13 s14 s20 s21 s23  d16 d19 d20 d23 d24",
+'17__Ghroth__SHORT':  "s14 s18 s22  d20 d24",
+'17__Neo_Catharsis__SHORT':  "s19 s21 s23  d24 d25",
+'17__Hymn_of_Golden_Glory__SHORT':  "s15 s18 s20 s23  d17 d20 d22 d24",
+'17__Halloween_Party_Multiverse__SHORT':  "s14 s19 s21  d18 d21",
+'17__Stardream_Eurobeat_Remix__SHORT':  "s12 s16 s18 s21  d14 d18 d20 d22",
+'17__PRiMA_MATERiA__SHORT':  "s18 s21 s23  d22 d24",
+'17__Duel__SHORT':  "s16 s19 s21  d18 d21 d23",
+'17__Murdoch_vs_Otada__SHORT':  "s15 s18 s21  d20 d24",
+'17__Solve_My_Hurt__SHORT':  "s20 s23  d26",
+
+'16__Paradoxx__SHORT':  "s21 s24  d26",
+'16__Nyarlathotep__SHORT':  "s22  d24",
+'16__Wedding_Crashers__SHORT':  "s4 s7 s11 s15 s18  d6 d13 d20",
+'16__Can_Can_Orpheus__SHORT':  "d13 d15 d17 d19 d21 d23 d25",
+'16__XX_Opening__SHORT':  "s3 s6 s11 s16  d12 d17",
+'16__I_Want_U__SHORT':  "s4 s7 s11 s19  d13 d21",
+'16__Poseidon__SHORT':  "s11 s14 s18 s21  d14 d21",
+'16__Switronic__SHORT':  "s3 s6 s9 s14 s17  d4 d11 d17",
+
+'15__Sarabande__SHORT':  "s10 s17 s19  d19",
+'15__Prime2_Opening__SHORT':  "s7 s12 s17  d19",
+'15__Shub_Niggurath__SHORT':  "s18 s21  d23",
+'15__Kasou_Shinja__SHORT':  "s20  d21",
+
+'14__Super_Fantasy__SHORT':  "s20  d18",
+'14__Yog_Sothoth__SHORT':  "s14 s18 s21  d16 d21",
+'14__Silhouette_Effect__SHORT':  "s18  d17",
+'14__Move_That_Body__SHORT':  "s17  d18",
+'14__Prime_Opening__SHORT':  "s15  d15  CoOp(x2)",
+
+'13__Ignis_Fatuus__SHORT':  "s21  d21",
+'13__Flew_Far_Faster__SHORT':  "s18  d21",
+'13__Unique__SHORT':  "s18  d16",
+'13__U_Got_Me_Rocking__SHORT':  "s17  d17",
+
+'11__Trotpris__SHORT':  "s14  d15",
+'11__Cleaner__SHORT':  "s22  d22",
+'11__Take_Out__SHORT':  "s18  d19",
+'11__Overblow__SHORT':  "s18  d17",
+
+'10__Final_Audition_2__SHORT':  "s17  d19",
+'10__Final_Audition_3_U_F__SHORT':  "s18  d18",
+'10__Final_Audition_ep_2_X__SHORT':  "s21  d20",
+'10__Love_is_a_Danger_Zone__SHORT':  "s13 s20  d18",
+'10__Love_is_a_Danger_Zone_2__SHORT':  "s9 s19  d23",
+'10__Extravaganza__SHORT':  "s16  d17 d24",
+'10__Chicken_Wing__SHORT':  "s21  d15",
+'10__Winter__SHORT':  "s6 s11 s16  d13 d17",
+'10__Solitary_2__SHORT':  "s18  d18",
+'10__Moonlight__SHORT':  "s15 s19  d21",
+'10__Witch_Doctor__SHORT':  "s14 s21  d18",
+'10__Exceed2_Opening__SHORT':  "s16  d18",
+'10__NX_Opening__SHORT':  "s16  d18",
+'10__K_O_A_Alice_In_Wonderworld__SHORT':  "s9 s16  d18",
+'10__Bemera__SHORT':  "s15 s21 s23  d19",
+'10__Pumptris_8bit__SHORT':  "s8 s16  d23",
+'10__Destination__SHORT':  "s11 s15  d21 d22",
+
+'14__Selfishness__SHORT':  "s17  d18",
+'14__Rock_the_House__SHORT':  "s15 s18  d20",
+'14__Stardust_Overdrive__SHORT':  "s16  d17",
+
+'13__Pop_The_Track__SHORT':  "s18  d16",
+'13__Passacaglia__SHORT':  "s17  d18",
+
+'11__X_Rave__SHORT':  "s16  d18",
+
+'15__Death_Moon__SHORT':  "s9 s16 s19 s23  d19 d24",
+'15__Hyperion__SHORT':  "s16 s21  d21",
+
+
+// REMIX
+
+'17__District_V':  "s13 s18 s22  d20 d24",
+
+'16__Brown_Sky':  "s19 s21 s25  d21 d24 d26",
+'16__Desaparecer':  "s18 s20 s22  d20 d23 d25",
+'16__Errorcode_0':  "s19 s23 s25  d24 d27",
+'16__Meteo5cience':  "s18 s21  d18 d22",
+'16__Fire_Noodle_Challenge':  "s15 s19 s23  d20 d25",
+
+'15__Vulcan':  "s19 s22  d24",
+'15__Shub_Sothoth':  "s25  d27",
+'15__Leather':  "s18 s21 s24  d22 d26",
+
+'14__Beethoven_Influenza':  "s18 s21  d20",
+'14__Avalanquiem':  "s21 s23  d25",
+'14__Paradoxx':  "s21 s23 s26  d25 d28",
+
+'13__What_Are_You_Doin':  "s18  d23",
+
+'11__Vacuum_Cleaner':  "s16 s20 s25  d20 d26",
+'11__Everybody_Got_2_Know':  "s21  d19",
+
+'10__B_P_Classic_Remix':  "s14 s18  d15 d19",
+'10__PaPa_Helloizing':  "s10 s19",
+'10__B_P_Classic_Remix_2':  "s13 s18",
+'10__Set_Up_Me2_Mix':  "s18",
+'10__msgoon_RMX_pt_6':  "s21  d21",
+
+'0F__The_People_Didnt_Know_Pumping_Up':  "s8  d7 d18",
+'0F__Ugly_Duck_Toccata':  "s17  d18",
+'0F__Caprice_of_DJ_Otada':  "s12 s21  d23 d25",
+'0F__Dr_KOA':  "s12 s19  d20",
+'0F__Turkey_Virus':  "s15  d14",
+
+'0E__BanYa_P_Guitar_Remix':  "s23  d25",
+'0E__Money_Fingers':  "s10 s17  d14 d19",
+
+'0D__Wi_Ex_Doc_Va':  "s17 s21  d18 d24",
+'0D__Bemera':  "s18 s24  d19 d26",
+'0D__Banya_P_Classic_Remix':  "s15 s22  d16 d23",
+
+'0C__Love_is_a_Danger_Zone_try_to_B_P_M':  "s16 s21  d17 d23",
+
+'0B__Tream_Vook_of_the_War':  "s14 s19  d17 d22",
+'0B__Banya_Classic_Remix':  "s13 s19  d15 d22",
+'0B__BanYa_HipHop_Remix':  "s6 s8  d21",
+
+'0E__Extra_BanYa_Remix':  "s12 s21  d15",
+
+'02__Repeatorment_Remix':  "s18  d22",
+
+'16__Prime_Time':  "s15 s21 s23  d20 d23 d26",
+
+'13__Infinity_RMX':  "s19  d19",
+
+
+// FULL SONG
+
+'16__Good_Night__FULL':  "s18 s21 s24  d25",
+'16__Full_Moon__FULL':  "s20 s22  d24",
+
+'15__Chase_Me__FULL':  "s19  d25",
+
+'0B__Dignity__FULL':  "s15 s19  d18 d23",
+
+'16__Papasito__FULL':  "s12 s19 s22  d14 d20 d23",
+
+'14__Move_That_Body__FULL':  "s18  d19",
+
+'11__Interference__FULL':  "s19  d16 d18",
+
+'0F__Chopsticks_Challenge__FULL':  "s17  d20",
+
+'0D__Love_is_a_Danger_Zone_2__FULL':  "s20  d22",
+'0D__Beat_of_the_War_2__FULL':  "s21  d22",
+
+'0B__Canon_D__FULL':  "s15 s17  d23 d24",
+
+'16__Allegro_Con_Fuoco__FULL':  "s18 s23  d21 d25",
+'16__8_6__FULL':  "s15 s21  d23",
+'16__Baroque_Virus__FULL':  "s15 s18 s21  d20 d23",
+
+'15__Gargoyle__FULL':  "s21 s23  d22 d25  CoOp(x2)",
+'15__Hush__FULL':  "s15  d16",
+
+'14__Bad_Apple__FULL':  "s10 s14 s17  d12 d18 d22  CoOp(x4)",
+
 
 };
 
