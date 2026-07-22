@@ -27,8 +27,8 @@ const checkPhoenix2Table = {
 '17__Storm':  "s2 s4 s6 s9 s15 s17  d8 d17 d19  CoOp(x3)",
 '17__Airplane':  "s1 s3 s5 s13 s15 s17  d8 d16 d18  CoOp(x3)",
 '17__Nostalgia':  "s3 s5 s8 s14 s17 s20  d10 d15 d18 d21",
-'17__Jogging':  "s3 s5 s9 s16 s17  d7 d16 d18 d22",
 
+'16__Jogging':  "s3 s5 s9 s16 s17  d7 d16 d18 d22",
 '16__Full_Moon':  "s2 s4 s6 s16 s19 s21  d14 d19 d24  CoOp(x2)",
 '16__Timing':  "s2 s4 s7 s15 s18  d11 d16 d19  CoOp(x2)",
 '16__Fly_High':  "s1 s3 s5 s9 s15 s18 s20  d10 d16 d19 d21  CoOp(x2)",
@@ -179,7 +179,7 @@ const checkPhoenix2Table = {
 '15__Sarabande':  "s2 s4 s7 s12 s16 s19 s21  d11 d18 d21 d24  CoOp(x2)",
 '15__Kasou_Shinja':  "s4 s7 s9 s16 s18 s21  d12 d19 d24  CoOp(x2)",
 '15__Overblow2':  "s5 s10 s15 s18  d8 d15 d19",
-'15__Passing_Rider"':  "s8 s12 s16 s19  d10 d20",
+'15__Passing_Rider':  "s8 s12 s16 s19  d10 d20",
 '15__Arcana_Force':  "s4 s9 s16 s20  d10 d17 d20",
 '15__Allegro_Furioso':  "s6 s11 s14 s18 s21  d15 d20  CoOp(x3)",
 '15__Anguished_Unmaking':  "s3 s5 s8 s15 s18  d10 d19 d22",

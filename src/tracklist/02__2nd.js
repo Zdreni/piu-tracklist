@@ -170,6 +170,7 @@ export const newTunes__02__2nd = {
 	pumpoutID: 14,
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "= -S7 -D8",
 		XX: "= S18`19  @2.07 D22",
 		Prime2: "=",

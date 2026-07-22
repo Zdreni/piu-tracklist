@@ -81,6 +81,9 @@ function extendObjWithNewKeys( obj1, obj2 )
 }
 
 
+import { newTunes__18__Phoenix2 } from './tracklist/18__Phoenix2.js';
+extendObjWithNewKeys( readableTracklist, newTunes__18__Phoenix2 );
+
 import { newTunes__17__Phoenix } from './tracklist/17__Phoenix.js';
 extendObjWithNewKeys( readableTracklist, newTunes__17__Phoenix );
 

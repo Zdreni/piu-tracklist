@@ -27,7 +27,7 @@ export const newTunes__18__Phoenix2 = {
 "18__T_B_H":
 {
 	title: "T.B.H.", artist: "QWER", channel: KPOP, bpm: "178",
-	// sortingID: "",
+	sortingID: "18__STANDARD_",
 	sortingBetween: [null, "18__Do_the_Dance"],
 	// arcadeID: "",
 	pumpoutID: "",
@@ -69,7 +69,7 @@ export const newTunes__18__Phoenix2 = {
 },
 
 
-"18__404_New_Era":  ,
+"18__404_New_Era":
 {
 	title: "404 (New Era)", artist: "KiiiKiii", channel: KPOP, bpm: "127",
 	// sortingID: "",
@@ -99,7 +99,7 @@ export const newTunes__18__Phoenix2 = {
 },
 
 
-'18__Punishment_Restaurant':
+"18__Punishment_Restaurant":
 {
 	title: "Punishment Restaurant", artist: "memme", channel: ORIGINAL, bpm: "175",
 	// sortingID: "",
@@ -114,7 +114,7 @@ export const newTunes__18__Phoenix2 = {
 },
 
 
-'18__Blazor':
+"18__Blazor":
 {
 	title: "Blazor", artist: "WONDERTRAVELER Project", channel: ORIGINAL, bpm: "161",
 	// sortingID: "",
@@ -128,7 +128,8 @@ export const newTunes__18__Phoenix2 = {
 	},
 },
 
-'18__B3':
+
+"18__B3":
 {
 	title: "B3", artist: "MAX", channel: ORIGINAL, bpm: "160",
 	// sortingID: "",
@@ -143,7 +144,7 @@ export const newTunes__18__Phoenix2 = {
 },
 
 
-'18__Digitalis':
+"18__Digitalis":
 {
 	title: "Digitalis", artist: "NeLiME", channel: ORIGINAL, bpm: "160",
 	// sortingID: "",
@@ -158,7 +159,7 @@ export const newTunes__18__Phoenix2 = {
 },
 
 
-'18__The_Last_Rebellion':
+"18__The_Last_Rebellion":
 {
 	title: "The Last Rebellion", artist: "MonstDeath", channel: ORIGINAL, bpm: "199",
 	// sortingID: "",
@@ -173,7 +174,7 @@ export const newTunes__18__Phoenix2 = {
 },
 
 
-'18__Overnight_Flower':
+"18__Overnight_Flower":
 {
 	title: "OVERNIGHT FLOWER", artist: "P*Light", channel: ORIGINAL, bpm: "210",
 	// sortingID: "",
@@ -188,11 +189,11 @@ export const newTunes__18__Phoenix2 = {
 },
 
 
-'18__Legendary_Dominion':
+"18__Legendary_Dominion":
 {
 	title: "Legendary Dominion", artist: "Laur", channel: ORIGINAL, bpm: "210",
 	// sortingID: "",
-	sortingBetween: ["18__Overnight_Flower", "17__Storm"],
+	sortingBetween: ["18__Overnight_Flower", "18__Crash_Landing_Rengezvous"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -207,7 +208,7 @@ export const newTunes__18__Phoenix2 = {
 {
 	title: "Crash-Landing Rengezvous", artist: "Xyris", channel: WORLD, bpm: "128~190",
 	// sortingID: "",
-	sortingBetween: ["", ""],
+	sortingBetween: ["18__Legendary_Dominion", "18__Quattuorux"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -217,11 +218,12 @@ export const newTunes__18__Phoenix2 = {
 	},
 },
 
+
 "18__Quattuorux":
 {
 	title: "QUATTUORUX", artist: "D-D-Dice Vs. Tanchiky Vs. Karameru", channel: WORLD, bpm: "220",
 	// sortingID: "",
-	sortingBetween: ["", ""],
+	sortingBetween: ["18__Crash_Landing_Rengezvous", "18__Nighttheater"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -231,11 +233,12 @@ export const newTunes__18__Phoenix2 = {
 	},
 },
 
+
 "18__Nighttheater":
 {
 	title: "NightTheater", artist: "*wakadori", channel: WORLD, bpm: "151",
 	// sortingID: "",
-	sortingBetween: ["", ""],
+	sortingBetween: ["18__Quattuorux", "18__Infinite_Energy_Overdoze"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -245,11 +248,12 @@ export const newTunes__18__Phoenix2 = {
 	},
 },
 
+
 "18__Infinite_Energy_Overdoze":
 {
 	title: "INFiNiTE ENERGY -Overdoze-", artist: "Reku Mochizuki", channel: WORLD, bpm: "180",
 	// sortingID: "",
-	sortingBetween: ["", ""],
+	sortingBetween: ["18__Nighttheater", "18__Freedom_Dive"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -259,27 +263,27 @@ export const newTunes__18__Phoenix2 = {
 	},
 },
 
-// FREEDOM DiVE / xi / bpm 222.22
-"18__Freedom_Dive":  "s13 s17 s22 s25  d18 d24 d27",
-"18__":
+
+"18__Freedom_Dive":
 {
-	title: "", artist: "", channel: , bpm: "", //duration: ,
+	title: "FREEDOM DiVE", artist: "xi", channel: WORLD, bpm: "222.22",
 	// sortingID: "",
-	sortingBetween: ["", ""],
+	sortingBetween: ["18__Infinite_Energy_Overdoze", "18__Dreamchasers"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
 
 	charts: {
-		Phoenix2: "",
+		Phoenix2: "s13 s17 s22 s25  d18 d24 d27",
 	},
 },
+
 
 "18__Dreamchasers":
 {
 	title: "Dreamchasers", artist: "s-don", channel: WORLD, bpm: "155",
 	// sortingID: "",
-	sortingBetween: ["", ""],
+	sortingBetween: ["18__Freedom_Dive", "18__Super_Haraguro_Pop"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -293,7 +297,7 @@ export const newTunes__18__Phoenix2 = {
 {
 	title: "SUPER*HARAGURO*POP", artist: "Zekk", channel: WORLD, bpm: "160",
 	// sortingID: "",
-	sortingBetween: ["", ""],
+	sortingBetween: ["18__Dreamchasers", null],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",

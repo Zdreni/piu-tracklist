@@ -2,7 +2,7 @@
 
 
 import _ from 'underscore';
-import { mixesOrder, firstNewMixIndex } from '../mixes.js';
+import { mixes, mixesOrder, firstNewMixIndex } from '../mixes.js';
 import { tracklist } from '../tracklist_src.js';
 
 
@@ -57,7 +57,7 @@ function AddCheckTracklist( result, srcLines, srcConfig )
 			result.push( track );
 		}
 
-		if( track.channel === "Special"  ||  track.channel === "Remix" )
+		if( track.channel === "Special"||  track.channel === "Remix" )
 			isSpecial = true;
 
 		for( var mixID of oldMixes )
@@ -254,6 +254,12 @@ function HasInitialCharts( track, mixName )
 
 export function CheckInitialTracklistOfNewMix( mixName, checkTable )
 {
+	if( ! ( mixName in mixes ) )
+		throw new Error( `Mix '${mixName}' not found in mixes` );
+
+	if( ! mixesOrder.includes( mixName ) )
+		throw new Error( `Mix '${mixName}' not found in mixesOrder` );
+
 	var tracklistIDs = Object.keys( tracklist ).filter((key) => HasInitialCharts( tracklist[ key ], mixName ) );
 	var checklistIDs = Object.keys( checkTable );
 	var combinedIDs = _.union(tracklistIDs, checklistIDs);

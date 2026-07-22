@@ -14,6 +14,7 @@ export const newTunes__0C__Zero = {
 	pumpoutID: 47,
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "= S7`6 S11`10 S17`16 D15`14",
 		XX: "= S21.new D14`12 D20`19",
 		Prime2: "=",
@@ -36,6 +37,7 @@ export const newTunes__0C__Zero = {
 	pumpoutID: 48,
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "= S11`10 D12`11  @2.06 D24",
 		XX: "= S8`7",
 		Prime2: "=",
@@ -58,6 +60,7 @@ export const newTunes__0C__Zero = {
 	pumpoutID: 49,
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "= S11`10",
 		XX: "= S17`16 D22`23 D23`22",
 		Prime2: "=",
@@ -82,6 +85,7 @@ export const newTunes__0C__Zero = {
 	pumpoutID: 50,
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "= S11`9 D18`17 D24`23",
 		XX: "= S22`21",
 		Prime2: "=",
@@ -104,6 +108,7 @@ export const newTunes__0C__Zero = {
 	pumpoutID: 51,
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "= S13`12 D15`13 D21`20 -Dp7",
 		XX: "= S18`17 S19`18 D13`12 D19`20 D20`19",
 			//??? D19.updated
@@ -129,6 +134,7 @@ export const newTunes__0C__Zero = {
 	pumpoutID: 52,
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "= D19`18 D24`23 -D7",
 		XX: "= S16`14  @2.07 S22.lock D23.lock",
 		Prime2: "=",
@@ -149,6 +155,7 @@ export const newTunes__0C__Zero = {
 	pumpoutID: 764,
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "= S12`13",
 		XX: "S4`nl S7`hd S13`cz  @1.01 D18.lock  @2.00 S16.lock",
 		Zero: ["3", "7", "9", "", ""],
@@ -390,6 +397,7 @@ export const newTunes__0C__Zero = {
 	pumpoutID: 53,
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "= S16`15 D17`16",
 		XX: "= S15`12 S21`20 D16`14",
 		Prime2: "=",
@@ -459,6 +467,7 @@ export const newTunes__0C__Zero = {
 	pumpoutID: 54,
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "= S17`16 S18`17",
 		XX: "=",
 		Prime2: "=",

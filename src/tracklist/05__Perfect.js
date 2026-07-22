@@ -164,6 +164,7 @@ export const newTunes__05__Perfect = {
 	pumpoutID: 17,
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "= S5`3 S7`6 S20`19 D9`6 D22`21 D24`23  @2.07 CoOp(x2)",
 			// TODO.Phoenix: D9`6
 		XX: "= S18`17 S19`18 D21`20",
