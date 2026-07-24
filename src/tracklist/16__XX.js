@@ -48,7 +48,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 888,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S10`9",
 		Phoenix: "= S13`12",
 		XX: "@2.07 S9 S12 S15 S17 D18 S20.lock S23.lock D22.lock D26.lock",
 	},
@@ -63,7 +63,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 733,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D14`13",
 		Phoenix: "= D23`22 -Dp4",
 		XX: "S4 S6 S10 S16 S18.lock S21.lock D7 D13 D19.lock D22.lock CoOp(x3).lock  @1.01 Dp4",
 	},
@@ -93,7 +93,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 734,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D20`19",
 		Phoenix: "= S10`11 S15`14 S18`17 D16`15 -Dp5",
 		XX: "S7 S14 S17.lock D10 D15.lock D19.lock  @1.01 Dp5  @2.01 S11",
 	},
@@ -199,7 +199,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 886,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D22`23",
 		Phoenix: "=",
 		XX: "@2.07 S10 S13 S17 S19 D13 D20 S21.lock S23.lock D23.lock D26.lock",
 	},
@@ -214,7 +214,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 736,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S19`18",
 		Phoenix: "= S13`12 S17`16 D17`16 -Dp4",
 		XX: "S12 S16 S18.lock S21 S23.lock D16 D20.lock D23.lock D25.lock  @1.01 Dp4",
 	},
@@ -275,7 +275,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 837,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S23`22 D21`20 D22`21",
 		Phoenix: "= D18`17 -Dp3  @2.01 D20",
 		XX: "@2.03 S7 S10 S16 D11 D17 S20.lock S22.lock D24.lock  @2.04 Dp3  @2.05 D21",
 	},
@@ -320,7 +320,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 739,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S21`20 D23`22",
 		Phoenix: "= S18`17 -Dp5",
 		XX: "S8 S13 S17 S20.lock D19 D22.lock  @1.01 Dp5",
 	},
@@ -366,7 +366,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 771,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S4`3",
 		Phoenix: "= S11`10 D12`11 D20`21 -Dp3",
 		XX: "@1.01 S7 S10 S17 S20.lock D11 D17 D21.lock CoOp(x2)  @1.04 Dp3  @2.01 S3",
 	},
@@ -381,7 +381,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 741,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D23`22",
 		Phoenix: "= S15`14 S21`20 -Dp2",
 		XX: "S3 S6 S10 S14.lock S20 D8 D16 D22.lock  @1.01 Dp2  @2.00 CoOp(x2)",
 	},
@@ -441,7 +441,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 743,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D22`21",
 		Phoenix: "= D17`16 -Dp4",
 		XX: "S14.lock S17.lock S20.lock D16.lock D21.lock  @1.01 Dp4  @2.03  CoOp(x2)",
 	},
@@ -534,7 +534,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 847,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D21`22",
 		Phoenix: "= D16`15",
 		XX: "@2.04 S6 S10 S15 S18 D11 D15 D19 CoOp(x2) S21.lock D22.lock  @2.05 S1 S3",
 	},
@@ -564,7 +564,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 890,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D20`21",
 		Phoenix: "= D14`13 D18`17",
 		XX: "@2.06 S8 S12 S16 D13 D17 S19.lock S22.lock D21.lock D24.lock",
 	},
@@ -579,7 +579,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 891,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S12`11",
 		Phoenix: "= D13`12 -Sp18 -Dp22",
 		XX: "@2.06 S5 S7 S11 S15 D12 D19 Sp18 Dp22 S21.lock D23.lock",
 	},
@@ -594,7 +594,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 879,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D24`23",
 		Phoenix: "= S13`12 S17`16 D14`13 D18`17",
 		XX: "@2.06 S10.lock S12.lock S16.lock S20.lock D13.lock D17.lock D21.lock D23.lock CoOp(x2).lock",
 	},
@@ -638,7 +638,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 800,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S19`20 S21`22 D19`20",
 		Phoenix: "= -Dp3",
 		XX: "@1.05 S2 S4 S6 S16 D14 D20 CoOp(x2) S20.lock S22.lock D24.lock  @2.00 Dp3",
 	},
@@ -917,7 +917,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 779,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S15`14 D15`14 D25`24",
 		Phoenix: "= S14`13 D24`25 -Dp3",
 		XX: "@1.02 S1 S4 S7 S13 S17 D14 D17 S21.lock D20.lock D25.lock  @1.04 Dp3  @2.06 CoOp(x2)",
 	},
@@ -973,7 +973,7 @@ export const newTunes__16__XX = {
 	sortingBetween: ["16__God_Mode_2_0", null],
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D19`18 D22`21 D24`23",
 		Phoenix: "= S9`8 S17`16 S19`18 -Dp5",
 		XX: "S8 S16 S18.lock S22.lock D12.lock D18.lock D21.lock CoOp(x2).lock  @1.01 Dp5  @2.06 D23.lock",
 	},
@@ -1020,7 +1020,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 806,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D13`12",
 		Phoenix: "= -Dp4",
 		XX: "@1.05 S8 S17 D12 D18 S20.lock S22.lock D20.lock D24.lock  @2.00 Dp4",
 	},
@@ -1096,7 +1096,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 784,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D13`12",
 		Phoenix: "@2.00 = D12`13 D25`24 -Dp4  @2.12 D18 D26",
 		XX: "@1.03 S6 S11 S17 S19 D13 D21 S22.lock D24.lock  @1.04 S15 CoOp(x2)  @2.02 Dp4",
 	},
@@ -1127,7 +1127,7 @@ export const newTunes__16__XX = {
 	sortingBetween: ["16__Kokugen_Kairou_Labyrinth", null],
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D17`16",
 		Phoenix: "= S18`17 -Dp5",
 		XX: "S12.lock S15.lock S19.lock D16.lock D21.lock  @1.01 Dp5  @2.02 S17",
 	},
@@ -1218,7 +1218,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 819,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D25`24",
 		Phoenix: "= S15`16 D12`11 -Dp4",
 		XX: "@2.00 S9 S16 D11 D17 S19.lock S22.lock D20.lock D24.lock  @2.02 Dp4",
 	},
@@ -1263,7 +1263,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 840,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D18`17",
 		Phoenix: "= -Dp3",
 		XX: "@2.03 S4 S8 S11 S15 D13 D17 CoOp(x3) S19.lock D21.lock  @2.04 Dp3",
 	},
@@ -1293,7 +1293,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 849,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D15`14",
 		Phoenix: "= S14`15",
 		XX: "@2.04 S11 S15 S17 D14 S20.lock D21.lock  @2.07 D18",
 	},
@@ -1510,7 +1510,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 788,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D23`22",
 		Phoenix: "= S16`17 D7`8 D22`21 -Dp3",
 		XX: "@1.03 S3 S5 S8 S17 D8 D17  @1.05 S20 D21  @2.00 Dp3",
 	},
@@ -1555,7 +1555,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 884,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S23`22",
 		Phoenix: "= D13`12",
 		XX: "@2.07 S6 S10 S16 D12 D17 S19.lock S22.lock D20.lock D23.lock D26.lock",
 	},
@@ -1570,7 +1570,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 876,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D13`12",
 		Phoenix: "= D22`21",
 		XX: "@2.05 S3 S5 S8 S11 S15 S17 D12 D18 S19.lock S21.lock D21.lock",
 	},
@@ -1584,7 +1584,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 894,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D26`25",
 		Phoenix: "= S21`20 D17`16 D24`23",
 		XX: "@2.08 S11 S15 S17 S20 S23 D16 D19 D23 D25 CoOp(x2)",
 	},
@@ -1614,7 +1614,7 @@ export const newTunes__16__XX = {
 	sortingBetween: [null, "16__Ultimatum"],
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D15`14 D24`23",
 		Phoenix: "= S21`22",
 		XX: "@2.08 S4 S7 S12 S16 S19 S22 D14 D20 D23",
 	},
@@ -1628,7 +1628,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 897,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D13`12 D20`21",
 		Phoenix: "= S21`22 D23`24",
 		XX: "@2.08 S4 S7 S11 S17 S19 S22 D12 D18 D21 D24",
 	},
@@ -1736,7 +1736,7 @@ export const newTunes__16__XX = {
 	pumpoutID: 744,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D20`19",
 		Phoenix: "=",
 		XX: "S20.lock S22.lock D23.lock  @1.04 S18 D19  @2.08 D25",
 	},

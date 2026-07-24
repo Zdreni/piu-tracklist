@@ -107,7 +107,7 @@ export const newTunes__08__Premiere3 = {
 	pumpoutID: 431,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S13`11",
 		Phoenix: "= S5`4 D9`7 D18`17",
 		XX: "= S11`9",
 		Prime2: "=  @2.00 D17",
@@ -167,7 +167,7 @@ export const newTunes__08__Premiere3 = {
 	pumpoutID: 434,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D19`18",
 		Phoenix: "= S11`7 S17`16 -D9",
 			// TODO.Phoenix: S11`7
 		XX: "= D18`16",
@@ -353,7 +353,7 @@ export const newTunes__08__Premiere3 = {
 	pumpoutID: 27,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S18`17",
 		Phoenix: "= D15`13 -Sp3 -Dp6",
 		XX: "= S13`12 S17`15",
 		Prime2: "=",

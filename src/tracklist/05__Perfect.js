@@ -55,7 +55,7 @@ export const newTunes__05__Perfect = {
 	pumpoutID: 2,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S13`12 D17`16",
 		Phoenix: "=  @2.00 S20",
 		XX: "= S12`13 D16`17  @2.05 D22.lock  @2.06 S17",
 		Prime2: "=",
@@ -98,7 +98,7 @@ export const newTunes__05__Perfect = {
 	pumpoutID: 4,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D22`21",
 		Phoenix: "= S12`11 D13`11 D24`23 -Dp3",
 		XX: "= S6`8 S11`13 D11`8 D21`20  @2.01 CoOp(x2)  @2.08 S21 D23",  //TODO proof S6.updated S7
 		Prime2: "=",
@@ -164,7 +164,7 @@ export const newTunes__05__Perfect = {
 	pumpoutID: 17,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D10`9",
 		Phoenix: "= S5`3 S7`6 S20`19 D9`6 D22`21 D24`23  @2.07 CoOp(x2)",
 			// TODO.Phoenix: D9`6
 		XX: "= S18`17 S19`18 D21`20",

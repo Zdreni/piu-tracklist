@@ -219,12 +219,23 @@ function GetTracklistChartTexts( mixName, trackID )
 }
 
 
+function NormalizeChartText( chartText )
+{
+	chartText = chartText[ 0 ].toUpperCase() + chartText.slice( 1 );  // to capitalize s -> S and d -> D
+	return chartText;
+}
+
+
 function GetCheckChartTexts( checkTable, mixName, trackID )
 {
 	if( ! checkTable[ trackID ] )
 		throw new Error( `${mixName} check:  can't find track with id '${trackID}' in checktable` );
 
-	return checkTable[ trackID ].split( ' ' ).filter( ch => ch !== "" ).sort( SortCharts );
+	return checkTable[ trackID ]
+		.split( ' ' )
+		.filter( ch => ch !== "" )
+		.map( NormalizeChartText )
+		.sort( SortCharts );
 }
 
 function GetNewMixChartsDifference( mixName, checkTable, trackID )

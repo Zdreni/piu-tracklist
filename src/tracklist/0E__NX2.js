@@ -36,7 +36,7 @@ export const newTunes__0E__NX2 = {
 	pumpoutID: 93,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D21`20",
 		Phoenix: "= S4`3 S11`9 -D7",
 		XX: "=",
 		Prime2: "=",
@@ -77,7 +77,7 @@ export const newTunes__0E__NX2 = {
 	pumpoutID: 411,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S15`14",
 		Phoenix: "= D17`16 -Sp4 -D10",
 		XX: "= S9`10 D10`12",
 		Prime2: "=",
@@ -201,7 +201,7 @@ export const newTunes__0E__NX2 = {
 	pumpoutID: 96,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S17`16",
 		Phoenix: "= S13`11 S21`20 D15`14",
 		XX: "= S7`6 S11`8 D21`20",
 		Prime2: "=",
@@ -222,7 +222,7 @@ export const newTunes__0E__NX2 = {
 	pumpoutID: 97,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S14`13 D16`15",
 		Phoenix: "= S13`12 S20`19 -Sp10 -Dp2",
 		XX: "= S18`17 D15`13",
 			// S18.updated - steps in a head of holds, may be treated as new chart
@@ -424,7 +424,7 @@ export const newTunes__0E__NX2 = {
 	pumpoutID: 98,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S20`19 D17`16",
 		Phoenix: "= S15`14 D16`15 -Sp1",
 		XX: "=  @1.03 D20.lock  @2.05 S19`acz",
 		Prime2: "=",
@@ -446,7 +446,7 @@ export const newTunes__0E__NX2 = {
 	pumpoutID: 408,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S8`7",
 		Phoenix: "= S16`15 -Sp2 -Dp6",
 		XX: "= S15`14 D15`14",
 		Prime2: "=",
@@ -566,7 +566,7 @@ export const newTunes__0E__NX2 = {
 	pumpoutID: 99,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S23`22 D25`24",
 		Phoenix: "=",
 		XX: "=",
 		Prime2: "=",

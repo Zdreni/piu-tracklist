@@ -14,7 +14,7 @@ export const newTunes__07__Rebirth = {
 	pumpoutID: 28,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D19`18",
 		Phoenix: "= S10`8 S14`12 D14`11  @2.00 D20",
 			// TODO.Phoenix: D14`11
 		XX: "= S6 S8`7 D18`16",
@@ -41,7 +41,7 @@ export const newTunes__07__Rebirth = {
 	pumpoutID: 29,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S3`2 S9`8",
 		Phoenix: "= -Sp3 -S5 -Dp3",
 		XX: "= S12`11  @2.06 CoOp(x2)",
 		Prime2: "=",
@@ -79,7 +79,7 @@ export const newTunes__07__Rebirth = {
 	pumpoutID: 30,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S9`8 S20`19",
 		Phoenix: "= S4`3 S8`7 S11`10 D11`6",
 			// TODO.Phoenix: D11`6
 		XX: "= S17`15 D17`15 D21`20",
@@ -105,7 +105,7 @@ export const newTunes__07__Rebirth = {
 	pumpoutID: 31,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D22`21",
 		Phoenix: "= S7`6 S12`11 S16`15 D16`15 D21`20",
 		XX: "= D20`19",
 		Prime2: "=  @1.09 D19",
@@ -126,7 +126,7 @@ export const newTunes__07__Rebirth = {
 	pumpoutID: 436,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S20`19",
 		Phoenix: "= -S13 -D8",
 		XX: "=",
 		Prime2: "=",
@@ -143,7 +143,7 @@ export const newTunes__07__Rebirth = {
 	pumpoutID: 32,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S16`15",
 		Phoenix: "= S4`3 S6`5 S15`14 D16`15 -Sp2 -Dp4 -Dp6",
 		XX: "= S14`12",
 		Prime2: "=  @1.09 D18",
@@ -164,7 +164,7 @@ export const newTunes__07__Rebirth = {
 	pumpoutID: 33,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S14`13 D15`14",
 		Phoenix: "= S8`9 D7`9 -Sp3 -Dp6  @2.00 D23",
 		XX: "=  @2.02 S3 S9 S13 D9",
 		Prime2: "=",
@@ -227,7 +227,7 @@ export const newTunes__07__Rebirth = {
 	pumpoutID: 34,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D18`17",
 		Phoenix: "= S12`10 S20`19 D14`12 D21`20  @2.07 CoOp(x2)",
 		XX: "= S7`6 S10`8 S16`15 D12`11 D20`19",
 		Prime2: "=  @1.07 S19",
@@ -253,7 +253,7 @@ export const newTunes__07__Rebirth = {
 	pumpoutID: 35,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S6`5 D17`16 D21`20 D22`21",
 		Phoenix: "= S13`11 S16`14 D16`14 D14`13",
 		XX: "= S2`3 S11`10 S14`13 D13`10 D14`13 D20`19  @2.01 D25.lock",
 		Prime2: "=",
@@ -278,7 +278,7 @@ export const newTunes__07__Rebirth = {
 	pumpoutID: 36,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D14`13 D17`16",
 		Phoenix: "= S3`2 S11`9 D10`8 -Dp3",
 		XX: "=",
 		Prime2: "=",
@@ -454,7 +454,7 @@ export const newTunes__07__Rebirth = {
 	pumpoutID: 40,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S21`20 D21`20 D22`21",
 		Phoenix: "= S3`4 S10`9 S16`15 S18`17 D15`13 D21`19",
 		XX: "= D13`12 -D17 D19`18 D20`19",  //??? proof
 		Prime2: "=",
@@ -479,7 +479,7 @@ export const newTunes__07__Rebirth = {
 	pumpoutID: 41,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S9`8",
 		Phoenix: "= S12`11 S15`13 D12`8",
 			// TODO.Phoenix: D12`8
 		XX: "= S4`3 S7 S8`7 S11`10 D22`21  @2.02 CoOp(x2)",

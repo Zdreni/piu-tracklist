@@ -65,7 +65,13 @@ export const mixes =
 };
 
 
-export const mixesOrder = [ "Exceed", "Exceed2", "Zero", "NX", "NX2", "NXA", "Fiesta", "FiestaEX", "Fiesta2", "Prime", "Prime2", "XX", "Phoenix", "Phoenix2" ];
+export const mixesOrder = [
+	'Exceed', 'Exceed2', 'Zero',
+	'NX', 'NX2', 'NXA',
+	'Fiesta', 'FiestaEX', 'Fiesta2',
+	'Prime', 'Prime2', 'XX',
+	'Phoenix', 'Phoenix2' ];
+
 export const lowCaseMixesOrder = mixesOrder.map( x => x.toLowerCase() );
 export const firstNewMixIndex = mixesOrder.indexOf( "Fiesta" );
 export const lastOldMixIndex = firstNewMixIndex - 1;

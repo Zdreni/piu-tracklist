@@ -79,7 +79,7 @@ export const newTunes__14__Prime = {
 	pumpoutID: 283,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S10`9",
 		Phoenix: "= -Dp5",
 		XX: "= S17`18 D18`17 D24`23",
 		Prime2: "=  @1.03 S16.ucs.ampass",
@@ -111,7 +111,7 @@ export const newTunes__14__Prime = {
 	pumpoutID: 284,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D12`11",
 		Phoenix: "= D11`10 -Dp3 -D16",
 		XX: "= D16`17 D19`20  @2.06 CoOp(x3)",
 		Prime2: "=",
@@ -143,7 +143,7 @@ export const newTunes__14__Prime = {
 	pumpoutID: 502,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D14`12",
 		Phoenix: "= S8`7 -Dp3",
 		XX: "=",
 		Prime2: "=  @1.08 Dp3",
@@ -303,7 +303,7 @@ export const newTunes__14__Prime = {
 	pumpoutID: 288,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S15`14 S21`20 D19`18",
 		Phoenix: "= D12`11 -Dp2",
 		XX: "= D22`21  @1.02 S20.lock",
 		Prime2: "= -D16",
@@ -319,7 +319,7 @@ export const newTunes__14__Prime = {
 	pumpoutID: 469,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D15`14 D19`18",
 		Phoenix: "= D12`10 -Dp4",
 		XX: "= S13`14 D14`15 D18`19  @2.05 CoOp(x2)",
 		Prime2: "=",
@@ -351,7 +351,7 @@ export const newTunes__14__Prime = {
 	pumpoutID: 462,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D14`13",
 		Phoenix: "= S10`9 S14`13 D13`12 D20`19 -Dp4",
 		XX: "= S22`21 D24`23  @2.05 S5",
 		Prime2: "=  @1.08 Dp4",
@@ -436,7 +436,7 @@ export const newTunes__14__Prime = {
 	pumpoutID: 353,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D16`15",
 		Phoenix: "= S11`10 S16`15 D15`13 -Dp4",
 		XX: "= D13`12",
 		Prime2: "=  @2.02 S23",
@@ -452,7 +452,7 @@ export const newTunes__14__Prime = {
 	pumpoutID: 340,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S21`20",
 		Phoenix: "= S10`8 D12`10 -Dp3",
 		XX: "=",
 		Prime2: "=",
@@ -532,7 +532,7 @@ export const newTunes__14__Prime = {
 	pumpoutID: 509,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D13`12",
 		Phoenix: "= D12`10 D17`16 -Dp5 -CoOp(x2) CoOp(x2).new",
 			// TODO.Phoenix: CoOp marked as new
 			// CoOp XX - https://www.youtube.com/watch?v=vaKfxI_iSl8
@@ -550,7 +550,7 @@ export const newTunes__14__Prime = {
 	pumpoutID: 512,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S15`14 D16`15",
 		Phoenix: "= -Dp4",
 		XX: "= D15`14  @2.00 CoOp(x2)",
 		Prime2: "=  @1.08 Dp4",
@@ -566,7 +566,7 @@ export const newTunes__14__Prime = {
 	pumpoutID: 292,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S15`14 D15`14",
 		Phoenix: "= S14`13 S19`18 D14`13 -Dp5",
 		XX: "= S9`8 S13`12 S22`21 D13`12 D24`23",
 		Prime2: "=",
@@ -811,7 +811,7 @@ export const newTunes__14__Prime = {
 	pumpoutID: 325,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D19`18 D21`20",
 		Phoenix: "= -Dp3",
 		XX: "= D20`21",
 		Prime2: "=  @1.09 D21",
@@ -859,7 +859,7 @@ export const newTunes__14__Prime = {
 	pumpoutID: 307,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S11`10 D23`22",
 		Phoenix: "= -Dp3",
 		XX: "= D22`21",
 		Prime2: "=",
@@ -875,7 +875,7 @@ export const newTunes__14__Prime = {
 	pumpoutID: 324,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S19`18 D20`19",
 		Phoenix: "= D13`11 D19`18 -Dp2",
 		XX: "= S18`17",
 		Prime2: "=",
@@ -923,7 +923,7 @@ export const newTunes__14__Prime = {
 	pumpoutID: 322,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D15`14",
 		Phoenix: "= D14`13 D17`16 -Dp3",
 		XX: "= S9`8 S17`18 D13`12",
 		Prime2: "=",
@@ -939,7 +939,7 @@ export const newTunes__14__Prime = {
 	pumpoutID: 309,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S21`20",
 		Phoenix: "= S14`15 D17`16 -Dp4",
 		XX: "= S16`17  @2.05 D22.lock",
 		Prime2: "= -D19",
@@ -1055,7 +1055,7 @@ export const newTunes__14__Prime = {
 	pumpoutID: 463,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S4`3 S7`6 S19`18",
 		Phoenix: "= S16`15 D11`10 D20`19 -Dp3 -Dp23",
 		XX: "= S18`17 D19`18  @1.03 Dp23",
 		Prime2: "=  @1.10 S15 D17",
@@ -1103,7 +1103,7 @@ export const newTunes__14__Prime = {
 	pumpoutID: 465,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D6`5",
 		Phoenix: "= S10`9 -Sp3 -Dp4  @2.12 S22 D24",
 		XX: "=  @2.07 CoOp(x2)",
 		Prime2: "=",
@@ -1119,7 +1119,7 @@ export const newTunes__14__Prime = {
 	pumpoutID: 346,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D17`16 D22`21",
 		Phoenix: "= S8`7 D14`13 -Dp4",
 		XX: "= S21`20 D13`12 D21`20",
 		Prime2: "=  @2.04 D16",
@@ -1153,7 +1153,7 @@ export const newTunes__14__Prime = {
 	pumpoutID: 344,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S19`18",
 		Phoenix: "= D12`10 -Dp4",
 		XX: "=",
 		Prime2: "=  @1.08 Dp4",
@@ -1442,7 +1442,7 @@ export const newTunes__14__Prime = {
 	pumpoutID: 483,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= D22`21",
 		Phoenix: "= D13`12",
 		XX: "=  @2.05 D21.lock",
 		Prime2: "=",
@@ -1506,7 +1506,7 @@ export const newTunes__14__Prime = {
 	pumpoutID: 329,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S21`20",
 		Phoenix: "=",
 		XX: "= S20`19",
 		Prime2: "=",
@@ -1655,7 +1655,7 @@ export const newTunes__14__Prime = {
 	pumpoutID: 464,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "= S20`19 D18`17",
 		Phoenix: "=",
 		XX: "=",
 		Prime2: "=",

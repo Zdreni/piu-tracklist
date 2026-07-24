@@ -28,7 +28,7 @@ const checkPhoenix2Table = {
 '17__Airplane':  "s1 s3 s5 s13 s15 s17  d8 d16 d18  CoOp(x3)",
 '17__Nostalgia':  "s3 s5 s8 s14 s17 s20  d10 d15 d18 d21",
 
-'16__Jogging':  "s3 s5 s9 s16 s17  d7 d16 d18 d22",
+'16__Jogging':  "s3 s5 s9 s16 s18  d7 d16 d18 d22",
 '16__Full_Moon':  "s2 s4 s6 s16 s19 s21  d14 d19 d24  CoOp(x2)",
 '16__Timing':  "s2 s4 s7 s15 s18  d11 d16 d19  CoOp(x2)",
 '16__Fly_High':  "s1 s3 s5 s9 s15 s18 s20  d10 d16 d19 d21  CoOp(x2)",
@@ -41,7 +41,7 @@ const checkPhoenix2Table = {
 
 '05__Slam':  "s5 s7 s9 s18 s20  d10 d22 d24  CoOp(x2)",
 
-'01__Another_Truth':  "s4 s5 s8 s16 s10 s18 s19 s21  CoOp(x2)",
+'01__Another_Truth':  "s4 s6 s8 s16 d10 d18 d19 d21  CoOp(x2)",
 
 
 // Original
@@ -75,11 +75,11 @@ const checkPhoenix2Table = {
 '17__Kugutsu':  "s18 s20 s23 s25  d20 d23 d25 d27",
 '17__Flavor_Step':  "s11 s14 s18 s20  d15 d19 d22",
 '17__Dead_End':  "s18 s21 s23 s25  d22 d26 d28",
-'17__Lucid_Dream':  "s8 s13 s19 s20  d14 d20 d23",
+'17__Lucid_Dream':  "s8 s13 s19 s20  d14 d20 d22",
 '17__See':  "s11 s16 s19 s22  d13 d18 d20 d23",
 '17__Etude_Op_10_4':  "s4 s7 s11 s17 s23  d13 d18 d25",
 '17__Stardream_Eurobeat_Remix':  "s7 s12 s17 s19 s21  d13 d18 d20 d23",
-'17__1948':  "s18 s21 s24 s26  d24 d27 d??",
+'17__1948':  "s18 s21 s24 s26  d24 d27 d??(29)",
 '17__Duel':  "s10 s13 s16 s18 s21 s22  d14 d18 d21 d24",
 '17__Vanish_2_Roar_of_the_invisible_dragon':  "s12 s17 s20 s22  d13 d18 d24",
 '17__Lacrimosa':  "s3 s6 s10 s13 s15 s17 s20  d9 d15 d18 d22",
@@ -122,7 +122,7 @@ const checkPhoenix2Table = {
 
 '16__Wedding_Crashers':  "s4 s6 s10 s16 s18 s21  d7 d14 d19 d23  CoOp(x3)",
 '16__Switronic':  "s3 s5 s8 s11 s15 s17  d10 d16 d18 d22  CoOp(x2)",
-'16__Obliteration':  "s7 s10 s15 s18  d10 d16 20",
+'16__Obliteration':  "s7 s10 s15 s18  d10 d16 d20",
 '16__Transacaglia_in_G_minor':  "s3 s6 s11 s16 s19  d7 d13 d18 d20",
 '16__1949':  "s16 s21 s23  d22 d26 d28",
 '16__Janus':  "s8 s12 s17 s20  d14 d19 d22  CoOp(x2)",
@@ -149,7 +149,7 @@ const checkPhoenix2Table = {
 '16__Orbit_Stabilizer':  "s4 s13 s16 s19 s21  d18 d21 d23",
 '16__Destrucimate':  "s9 s12 s16 s19 s21  d14 d19 d23",
 '16__Clematis_Rapsodia':  "s11 s15 s18 s22  d13 d16 d19 d23  CoOp(x3)",
-'16__Wicked_Legend':  "s10 s16 s22  d12 d18 d21",
+'16__Wicked_Legend':  "s10 s16 s20  d12 d18 d21",
 '16__Tantanmen':  "s4 s7 s11 s14 s17 s20  d13 d20 d24  CoOp(x3)",
 '16__Stardream':  "s1 s3 s6 s10 s15 s18 s21  d11 d16 d19 d21  CoOp(x2)",
 '16__Can_Can_Orpheus':  "s8 s13 s16 s19 s21  d12 d15 d18 d23  CoOp(x2)",
@@ -189,7 +189,7 @@ const checkPhoenix2Table = {
 '15__HTTP':  "s2 s4 s7 s14 s17 s21  d11 d13 d20 d24  CoOp(x2)",
 '15__Up_n_Up':  "s3 s5 s8 s17  d10 d18 d21",
 '15__Travel_to_Future':  "s3 s7 s11 s17 s19  d13 d18 d21 d23",
-'15__Rave_til_the_Earth_End':  "s4 s7 s14 s17 s20  d15 d19 d21",
+'15__Rave_til_the_Earth_End':  "s4 s7 s15 s17 s20  d15 d19 d21",
 '15__Awakening':  "s7 s10 s14 s16 s19 s22  d9 d13 d17 d20 d24  CoOp(x2)",
 '15__Escape':  "s15 s18 s21 s24  d20 d22 d26",
 '15__Waltz_of_Doge':  "s8 s11 s14 s17 s19  d12 d18 d20  CoOp(x2)",
@@ -199,7 +199,7 @@ const checkPhoenix2Table = {
 '14__Katkoi':  "s8 s11 s14 s18 s22  d12 d15 d19 d24",
 '14__Latino_Virus':  "s3 s7 s9 s17  d13 d19  CoOp(x2)",
 '14__Elysium':  "s4 s9 s14  d10 d15",
-'14__Yog_Sothoth':  "s10 s16 s17 s21 s23  d18 d24 d25  CoOp(x2)",
+'14__Yog_Sothoth':  "s10 s16 s17 s21 s23  d18 d24 d25  CoOp(x3)",
 '14__Silhouette_Effect':  "s4 s7 s10 s18  d13 d20  CoOp(x2)",
 '14__Chinese_Restaurant':  "s4 s7 s10 s16 s18  d12 d19  CoOp(x3)",
 '14__Avalanche':  "s4 s7 s11 s16 s19 s22  d13 d19 d20 d25  CoOp(x3)",
@@ -245,7 +245,7 @@ const checkPhoenix2Table = {
 '13__D':  "s4 s7 s12 s18  d14 d19 d20",
 '13__U_Got_Me_Rocking':  "s3 s6 s9 s17 s19  d6 d18",
 '13__Lucid':  "s4 s7 s13 s16 s19  d15 d20 d24  CoOp(x2)",
-'13__Log_In':  "s5 s7 s10 s18 s20  d12 19",
+'13__Log_In':  "s5 s7 s10 s18 s20  d12 d19",
 '13__Windmill':  "s8 s13 s17 s21  d14 d18 d23  CoOp(x2)",
 '13__Follow_Me':  "s4 s6 s9 s14 s17  d10 d17  CoOp(x2)",
 '13__Yeo_Rae_A':  "s1 s3 s5 s8 s13  d7 d10",
@@ -294,7 +294,7 @@ const checkPhoenix2Table = {
 '0F__K_O_A_Alice_in_Wonderworld':  "s1 s3 s5 s10 s17  d14 d19",
 '0F__My_Dreams':  "s4 s10 s18 s19  d19 d22",
 '0F__Toccata':  "s4 s7 s11 s17  d15 d18",
-'0F__Final_Audition_ep_2_X':  "s3 s5 s8 s18 s24  d21 d24",
+'0F__Final_Audition_ep_2_X':  "s3 s5 s9 s18 s24  d21 d24",
 
 '0E__Pumptris_8bit':  "s3 s5 s8 s17 s18  CoOp(x2)",
 '0E__Solitary_1_5':  "s7 s16  d18",
@@ -427,8 +427,8 @@ const checkPhoenix2Table = {
 '17__Pneumonoultramicroscopicsilicovolcanoconiosis':  "s12 s16 s20  d22",
 '17__Altale':  "s2 s6 s9 s12 s15 s18 s21  d6 d16 d19 d23",
 '17__Irellia':  "s8 s13 s18 s22 s24  d16 d19 d24 d26",
-'17__Goodbounce':  "s4 s7 s12 s16 s20  d13 d18 d21",
-'17__Alice_in_Misanthrope':  "s12 s15 s17 s20 s23  d13 d18 d21 d24",
+'17__Goodbounce':  "s4 s7 s12 s16 s20  d13 d18 d21  CoOp(x2)",
+'17__Alice_in_Misanthrope':  "s12 s15 s17 s20 s22  d13 d18 d21 d24",
 '17__R_I_P':  "s13 s16 s19 s22  d16 d21 d24",
 '17__Emomomo':  "s3 s7 s10 s14 s16 s19  d12 d18 d21",
 '17__Pupa':  "s7 s11 s14 s17 s19 s21 s23  d16 d21 d23 d25",
@@ -444,7 +444,7 @@ const checkPhoenix2Table = {
 '17__Destr0yer':  "s7 s13 s18 s22  d15 d20 d24",
 '17__Big_Daddy':  "s11 s14 s16 s19 s21  d17 d20 d23",
 '17__Flvsh_Out':  "s4 s7 s11 s16 s18 s21  d13 d19 d23",
-'17__Odin':  "s8 s12 s17 s20 s23  d14 d18 d23 d24  CoOp(x2)",
+'17__Odin':  "s8 s12 s17 s20 s23  d14 d18 d23 d25  CoOp(x2)",
 '17__Becouse_of_You':  "s11 s14 s16 s18 s21  d12 d17 d20 d22",
 '17__Doof_Senc':  "s15 s18 s21 s23  d16 d19 d23 d25",
 '17__Poppin_Shower':  "s12 s15 s18 s21  d15 d19 d22",
@@ -454,7 +454,7 @@ const checkPhoenix2Table = {
 '17__ALiVE':  "s5 s12 s15 s18 s22  d13 d17 d21 d24",
 '17__Trickl4sh_220':  "s15 s18 s21 s23  d17 d20 d23 d25",
 '17__Extreme_Music_School_1st_period':  "s15 s18 s20 s23  d20 d23 d25",
-'17__Extreme_Music_School_2nd_period':  "s16 s18 s22 s24  d19 d24 d25",
+'17__Extreme_Music_School_2nd_period':  "s16 s18 s22 s24  d19 d24 d26",
 '17__Battle_No_1':  "s9 s14 s17 s20 s22  d16 d22 d24  CoOp(x2)",
 '17__Soldiers':  "s4 s6 s11 s15 s18 s20  d13 d19 d22",
 '17__Horang_Pungryuga':  "s4 s7 s12 s16 s19 s21  d12 d16 d22 d24  CoOp(x2)",
@@ -546,7 +546,7 @@ const checkPhoenix2Table = {
 '18__Super_Haraguro_Pop':  "s4 s7 s10 s12 s16 s18 s20 s22  d17 d20 d22 d24",
 
 '17__Heliosphere':  "s14 s18 s21 s23  d20 d23 d25",
-'17__Sweet_Wonderland':  "s3 s5 s89 s12 s15 s17 s21  d14 d18 d23  CoOp(x2)",
+'17__Sweet_Wonderland':  "s3 s5 s8 s12 s15 s17 s21  d14 d18 d23  CoOp(x2)",
 
 '16__Imagination':  "s12 s15 s18 s19  d17 d21",
 '16__Black_Swan':  "s12 s15 s16 s19  d15 d22",
@@ -625,7 +625,7 @@ const checkPhoenix2Table = {
 '14__Yog_Sothoth__SHORT':  "s14 s18 s21  d16 d21",
 '14__Silhouette_Effect__SHORT':  "s18  d17",
 '14__Move_That_Body__SHORT':  "s17  d18",
-'14__Prime_Opening__SHORT':  "s15  d15  CoOp(x2)",
+'14__Prime_Opening__SHORT':  "s15  d15  CoOp(x5)",
 
 '13__Ignis_Fatuus__SHORT':  "s21  d21",
 '13__Flew_Far_Faster__SHORT':  "s18  d21",
@@ -727,7 +727,7 @@ const checkPhoenix2Table = {
 
 // FULL SONG
 
-'16__Good_Night__FULL':  "s18 s21 s24  d25",
+'16__Good_Night__FULL':  "s18 s21 s24  d26",
 '16__Full_Moon__FULL':  "s20 s22  d24",
 
 '15__Chase_Me__FULL':  "s19  d25",
