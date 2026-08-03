@@ -762,6 +762,35 @@ const checkPhoenix2Table = {
 '14__Bad_Apple__FULL':  "s10 s14 s17  d12 d18 d22  CoOp(x4)",
 
 
+// RISE
+
+'18__Cynical':  "s8 s12 s16 s18 s21  d14 d19 d23  h13 h19 h22",
+'18__Rise_Up':  "s11 s16 s18 s22  d14 d18 d20 d24  h13 h15 h18 h22",
+'18__Ercitite':  "s3 s6 s9 s12 s15 s18 s21  d11 d16 d19 d23  h11 h16 h18 h22",
+'18__Kings_Tomb':  "s4 s7 s10 s13 s17 s20 s22  d14 d18 d21 d24  h13 h17 h20 h23",
+'18__Dizzy_Dance_Street_Light':  "s6 s16 s18 s20  d18 d22 d24  h17 h20 h22",
+'18__Unfelicitas':  "s4 s7 s12 s17 s20 s22  d15 d21 d24  h14 h20 h23",
+'18__Pull_me_up':  "s3 s7 s11 s16 s19  d13 d17 d21  h12 h16 h20",
+'18__Antique_Serenade':  "s12 s16 s18 s21  d18 d20 d23  h16 h18 h21",
+'18__We_Love_Your_Step':  "s11 s14 s18 s20 s22  d16 d20 d22 d24  CoOp(x2)  h15 h19 h21 h23",
+'18__Lucky_Star':  "s8 s11 s15 s17 s20  d13 d16 d18 d21  h13 h15 h18 h21",
+
+'18__Transmission':  "h15 h21 h24",
+'18__Chess_and_Chase':  "h10 h15 h17 h21",
+'18__Sylaphz':  "h13 h18 h22 h24",
+'18__Pastry_mix':  "h17 h21 h25",
+'18__Love_Witch':  "h14 h17 h18 h20",
+'18__Galactic_Metronome':  "h16 h20 h24 h25",
+'18__Under_the_Christmas_Stars':  "h7 h12 h16 h18",
+'18__Skybound':  "h20 h21",
+'18__Drop_Frontier':  "h16 h24 h26",
+'18__Morrighan':  "h20 h21 h23",
+'18__Galactic_Terminus':  "h12 h18 h20",
+'18__The_Last_Stand':  "h13 h19 h22",
+'18__The_Deconstruction':  "h16 h19 h22",
+'18__Reincarnate_in_A':  "h20 h23 h26",
+'18__Burning_SuperNova':  "h15 h22 h25",
+
 };
 
 
