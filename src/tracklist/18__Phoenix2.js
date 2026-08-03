@@ -1,5 +1,5 @@
 import {
-	ORIGINAL, KPOP, WORLD, XROSS,
+	ORIGINAL, KPOP, WORLD, XROSS, RISE,
 	SHORT, STANDARD, REMIX, FULL,
 } from '../constants.js';
 
