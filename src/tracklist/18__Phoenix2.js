@@ -34,7 +34,7 @@ export const newTunes__18__Phoenix2 = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix2: "S2 S4 S6 S14 S17 S20 S22 D18 D22 D24",
+		Phoenix2: "s2 s4 s6 s14 s17 s20 s22  d18 d22 d24",
 	},
 },
 
@@ -49,7 +49,7 @@ export const newTunes__18__Phoenix2 = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix2: "S1 S3 S5 S8 S15 S17 S20 D7 D16 D18 D22 CoOp(x2)",
+		Phoenix2: "s1 s3 s5 s8 s15 s17 s20  d7 d16 d18 d22 CoOp(x2)",
 	},
 },
 
@@ -64,7 +64,7 @@ export const newTunes__18__Phoenix2 = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix2: "S2 S4 S6 S10 S16 S18 S21 D12 D18 D20 D23 CoOp(x2)",
+		Phoenix2: "S2 S4 S6 S10 S16 S18 S21  D12 D18 D20 D23  CoOp(x2)",
 	},
 },
 
@@ -79,7 +79,7 @@ export const newTunes__18__Phoenix2 = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix2: "S1 S3 S5 S16 S18 S21 D17 D20 D23",
+		Phoenix2: "s1 s3 s5 s16 s18 s21  d17 d20 d23",
 	},
 },
 
@@ -293,6 +293,7 @@ export const newTunes__18__Phoenix2 = {
 	},
 },
 
+
 "18__Super_Haraguro_Pop":
 {
 	title: "SUPER*HARAGURO*POP", artist: "Zekk", channel: WORLD, bpm: "160",
@@ -305,6 +306,434 @@ export const newTunes__18__Phoenix2 = {
 	charts: {
 		Phoenix2: "s4 s7 s10 s12 s16 s18 s20 s22  d17 d20 d22 d24",
 	},
+},
+
+
+// Rise Volume 1:
+
+
+"18__Cynical":
+{
+	title: "Cynical", artist: "RiraN ft. Negoto Bunnyla", channel: RISE, bpm: "155",
+
+	sortingID: [null, "18__Rise_Up"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	steamLinkExclusive: true,
+
+	charts: {
+		Phoenix2: "s8 s12 s16 s18 s21  d14 d19 d23  h13 h19 h22",
+	}
+},
+
+
+"18__Rise_Up":
+{
+	title: "Rise Up", artist: "memme", channel: RISE, bpm: "190",
+
+	sortingID: ["18__Rise_Up", "18__Ercitite"],
+	// arcadeID: "",
+	pumpoutID: "",
+	arcadeName: "Rise Up (feat. Miori Celesta)",
+
+	steamLinkExclusive: true,
+
+	charts: {
+		Phoenix2: "s11 s16 s18 s22  d14 d18 d20 d24  h13 h15 h18 h22",
+	}
+},
+
+
+"18__Ercitite":
+{
+	title: "Ercitite", artist: "Doin x neur6sia", channel: RISE, bpm: "135",
+
+	sortingID: ["18__Rise_Up", "18__Kings_Tomb"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	steamLinkExclusive: true,
+
+	charts: {
+		Phoenix2: "s3 s6 s9 s12 s15 s18 s21  d11 d16 d19 d23  h11 h16 h18 h22",
+	}
+},
+
+
+"18__Kings_Tomb":
+{
+	title: "King’s Tomb", artist: "r300k", channel: RISE, bpm: "113",
+
+	sortingID: ["18__Ercitite", "18__Dizzy_Dance_Street_Light"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	steamLinkExclusive: true,
+
+	charts: {
+		Phoenix2: "s4 s7 s10 s13 s17 s20 s22  d14 d18 d21 d24  h13 h17 h20 h23",
+	}
+},
+
+
+"18__Dizzy_Dance_Street_Light":
+{
+	title: "Dizzy Dance, Street Light", artist: "WyvernP", channel: RISE, bpm: "128",
+
+	sortingID: ["18__Kings_Tomb", "18__Unfelicitas"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	steamLinkExclusive: true,
+
+	charts: {
+		Phoenix2: "s6 s16 s18 s20  d18 d22 d24  h17 h20 h22",
+	}
+},
+
+
+"18__Unfelicitas":
+{
+	title: "Unfelicitas", artist: "Fiverwater", channel: RISE, bpm: "192",
+
+	sortingID: ["18__Dizzy_Dance_Street_Light", "18__Pull_me_up"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	steamLinkExclusive: true,
+
+	charts: {
+		Phoenix2: "s4 s7 s12 s17 s20 s22  d15 d21 d24  h14 h20 h23",
+	}
+},
+
+
+"18__Pull_me_up":
+{
+	title: "Pull me up", artist: "Applesoda", channel: RISE, bpm: "160",
+
+	sortingID: ["18__Unfelicitas", "18__Antique_Serenade"],
+	// arcadeID: "",
+	pumpoutID: "",
+	arcadeName: "Pull me up (Feat. Monya)",
+
+	steamLinkExclusive: true,
+
+	charts: {
+		Phoenix2: "s3 s7 s11 s16 s19  d13 d17 d21  h12 h16 h20",
+	}
+},
+
+
+"18__Antique_Serenade":
+{
+	title: "Antique Serenade", artist: "Abel", channel: RISE, bpm: "214",
+
+	sortingID: ["18__Pull_me_up", "18__We_Love_Your_Step"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	steamLinkExclusive: true,
+
+	charts: {
+		Phoenix2: "s12 s16 s18 s21  d18 d20 d23  h16 h18 h21",
+	}
+},
+
+
+"18__We_Love_Your_Step":
+{
+	title: "We Love Your Step", artist: "EmoCosine", channel: RISE, bpm: "205",
+
+	sortingID: ["18__Antique_Serenade", "18__Lucky_Star"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	steamLinkExclusive: true,
+
+	charts: {
+		Phoenix2: "s11 s14 s18 s20 s22  d16 d20 d22 d24  CoOp(x2)  h15 h19 h21 h23",
+	}
+},
+
+
+"18__Lucky_Star":
+{
+	title: "Lucky Star", artist: "INFX feat. Miori Celesta", channel: RISE, bpm: "180",
+
+	// sortingID: "",  # between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	steamLinkExclusive: true,
+
+	charts: {
+		Phoenix2: "s8 s11 s15 s17 s20  d13 d16 d18 d21  h13 h15 h18 h21",
+	}
+},
+
+
+"18__Transmission":
+{
+	title: "Transmission", artist: "Sakuzyo", channel: RISE, bpm: "100~225",
+
+	// sortingID: "",  # between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	steamLinkExclusive: true,
+
+	charts: {
+		Phoenix2: "h15 h21 h24",
+	}
+},
+
+
+"18__Chess_and_Chase":
+{
+	title: "Chess and Chase", artist: "litmus* ft. CielA", channel: RISE, bpm: "128",
+
+	// sortingID: "",  # between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	steamLinkExclusive: true,
+
+	charts: {
+		Phoenix2: "h10 h15 h17 h21",
+	}
+},
+
+
+"18__Sylaphz":
+{
+	title: "Sylaphz", artist: "onoken", channel: RISE, bpm: "204",
+
+	// sortingID: "",  # between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	steamLinkExclusive: true,
+
+	charts: {
+		Phoenix2: "h13 h18 h22 h24",
+	}
+},
+
+
+"18__Pastry_mix":
+{
+	title: "Pastry mix", artist: "Sobrem", channel: RISE, bpm: "180",
+
+	// sortingID: "",  # between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	steamLinkExclusive: true,
+
+	charts: {
+		Phoenix2: "h17 h21 h25",
+	}
+},
+
+
+"18__Love_Witch":
+{
+	title: "Love Witch", artist: "SHK", channel: RISE, bpm: "155~170",
+
+	// sortingID: "",  # between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	steamLinkExclusive: true,
+
+	charts: {
+		Phoenix2: "h14 h17 h18 h20",
+	}
+},
+
+
+"18__Galactic_Metronome":
+{
+	title: "Galactic Metronome", artist: "Essbee", channel: RISE, bpm: "216",
+
+	// sortingID: "",  # between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	steamLinkExclusive: true,
+
+	charts: {
+		Phoenix2: "h16 h20 h24 h25",
+	}
+},
+
+
+"18__Under_the_Christmas_Stars":
+{
+	title: "Under the Christmas Stars", artist: "MAX", channel: RISE, bpm: "128",
+
+	// sortingID: "",  # between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	steamLinkExclusive: true,
+
+	charts: {
+		Phoenix2: "h7 h12 h16 h18",
+	}
+},
+
+
+"18__Skybound":
+{
+	title: "Skybound", artist: "Yamajet", channel: RISE, bpm: "192",
+
+	// sortingID: "",  # between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	steamLinkExclusive: true,
+
+	charts: {
+		Phoenix2: "h20 h21",
+	}
+},
+
+
+"18__Drop_Fronter":
+{
+	title: "DROP FRONT!ER", artist: "xi", channel: RISE, bpm: "223",
+
+	// sortingID: "",  # between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	steamLinkExclusive: true,
+
+	charts: {
+		Phoenix2: "h16 h24 h26",
+	}
+},
+
+
+"18__Morrighan":
+{
+	title: "Morrighan", artist: "ryhki", channel: RISE, bpm: "160",
+
+	// sortingID: "",  # between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	steamLinkExclusive: true,
+
+	charts: {
+		Phoenix2: "h20 h21 h23",
+	}
+},
+
+
+"18__Galactic_Terminus":
+{
+	title: "Galactic Terminus", artist: "Reku Mochizuki", channel: RISE, bpm: "145",
+
+	// sortingID: "",  # between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	steamLinkExclusive: true,
+
+	charts: {
+		Phoenix2: "h12 h18 h20",
+	}
+},
+
+
+"18__The_Last_Stand":
+{
+	title: "The Last Stand", artist: "3R2", channel: RISE, bpm: "172",
+
+	// sortingID: "",  # between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	steamLinkExclusive: true,
+
+	charts: {
+		Phoenix2: "h13 h19 h22",
+	}
+},
+
+
+"18__The_Deconstruction":
+{
+	title: "The Deconstruction", artist: "Hommarju", channel: RISE, bpm: "195",
+
+	// sortingID: "",  # between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	steamLinkExclusive: true,
+
+	charts: {
+		Phoenix2: "h16 h19 h22",
+	}
+},
+
+
+"18__Reincarnate_in_A_":
+{
+	title: "Reincarnate in \"A\"", artist: "TAG underground overlay", channel: RISE, bpm: "65~220",
+
+	// sortingID: "",  # between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	steamLinkExclusive: true,
+
+	charts: {
+  		Phoenix2: "h20 h23 h26",
+	}
+},
+
+
+"18__Burning_SuperNova":
+{
+	title: "Burning SuperNova", artist: "Palami", channel: RISE, bpm: "210",
+
+	// sortingID: "",  # between  () and  ()
+	// arcadeID: "",
+	pumpoutID: "",
+  arcadeName: "Burning SuperNova feat. neur6sia",
+
+	steamLinkExclusive: true,
+
+	charts: {
+		Phoenix2: "h15 h22 h25",
+	}
 },
 
 

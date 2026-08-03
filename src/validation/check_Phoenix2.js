@@ -14,7 +14,12 @@ const checkPhoenix2Table = {
 //   - https://www.youtube.com/watch?v=qBRAjh4pAgs  (Xross)
 //   - https://www.youtube.com/watch?v=pt2im9QVGfs  (Short)
 //   - https://www.youtube.com/watch?v=kNAztUtqo5o  (Remix)
-//   - https://www.youtube.com/watch?v=j9w0nJ2lmCg  (Full)
+
+//   - https://www.youtube.com/watch?v=Sb4HNSabt-4  (FULL SONG LIST Kor)
+//   - https://www.youtube.com/watch?v=GJt2snvKdxg  (FULL SONG LIST LatAm)
+
+//   - https://www.youtube.com/watch?v=QcwXLRmOvuM  (Rise Volume 1)
+//   - https://www.youtube.com/watch?v=T-CIUOf7mns  (Rise H.Doubles)
 
 
 // K-POP:
