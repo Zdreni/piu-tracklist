@@ -15,7 +15,7 @@ export const newTunes__04__OBG_SE = {
 	pumpoutID: 498,
 
 	charts: {
-		Phoenix2: "= S10`9",
+		Phoenix2: "= s10`9  h10 h22",
 		Phoenix: "= S9`8 S14`13 D11`7",
 			// TODO.Phoenix: D11`7
 		XX: "= S8`7",
@@ -36,7 +36,7 @@ export const newTunes__04__OBG_SE = {
 	pumpoutID: 443,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "=  h14 h17",
 		Phoenix: "= S6`4 S12`10 D15`14 -Sp1 -Dp4",
 		XX: "= S10`9",
 		Prime2: "=",
@@ -76,7 +76,7 @@ export const newTunes__04__OBG_SE = {
 	pumpoutID: 5,
 
 	charts: {
-		Phoenix2: "= D12`10",
+		Phoenix2: "= d12`10  h10 h17",
 		Phoenix: "= S11`9 D17`16 -Sp3 -Dp5",
 		XX: "= S17`16 S18`17 D10`7",
 			//??? proof S17 S18
@@ -102,7 +102,7 @@ export const newTunes__04__OBG_SE = {
 	pumpoutID: 7,
 
 	charts: {
-		Phoenix2: "= D17`16 D19`18 D24`23",
+		Phoenix2: "= d17`16 d19`18 d24`23  h14 h17 h21",
 		Phoenix: "= S13`12 S15`14 D18`17",
 		XX: "= S12`11 D16`14  @2.07 D22",
 		Prime2: "=",

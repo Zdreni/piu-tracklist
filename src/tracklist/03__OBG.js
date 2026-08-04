@@ -14,7 +14,7 @@ export const newTunes__03__OBG = {
 	pumpoutID: 8,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "=  h11 h17 h18",
 		Phoenix: "= S12`10 S10`9 S18`17 D12`11 -Dp3",
 		XX: "= S9`8 S17`16 D11`8 D18`17 D20`19",
 		Prime2: "=",
@@ -39,7 +39,7 @@ export const newTunes__03__OBG = {
 	pumpoutID: 9,
 
 	charts: {
-		Phoenix2: "= S21`20",
+		Phoenix2: "= s21`20  h10 h15",
 		Phoenix: "= S5`4 S12`10 D12`7 D16`15 -S7 -S16",
 			// TODO.Phoenix: D12`7
 		XX: "=",
@@ -65,7 +65,7 @@ export const newTunes__03__OBG = {
 	pumpoutID: 10,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "=  h11 h17 h19",
 		Phoenix: "= S17`16 S19`18 D13`9 D18`17 D21`20",
 			// TODO.Phoenix: D13`9
 		XX: "= S16`15 D20`19",
@@ -91,7 +91,7 @@ export const newTunes__03__OBG = {
 	pumpoutID: 762,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "=  h13 h17",
 		Phoenix: "= d18`19",
 		XX: "= S5`nl S12`cz D14`nm  @1.02 D19.new",
 			//??? S12.updated
@@ -109,7 +109,7 @@ export const newTunes__03__OBG = {
 	pumpoutID: 761,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "=  h17 h21",
 		Phoenix: "=",
 		XX: "S6 S13",
 			//??? S13.updated
@@ -126,7 +126,7 @@ export const newTunes__03__OBG = {
 	pumpoutID: 440,
 
 	charts: {
-		Phoenix2: "= D15`14",
+		Phoenix2: "= d15`14  h10 h13",
 		Phoenix: "= S3`2 S6`4 D14`13 -Dp5",
 		XX: "= S2`1",
 		Prime2: "=",
@@ -141,13 +141,12 @@ export const newTunes__03__OBG = {
 
 "03__Close_Your_Eyes":
 {
-	title: "Close Your Eyes", artist: "BanYa", bpm: "105", fromMix: "OBG",
-	arcadeName: "Close Your Eye",
+	title: "Close Your Eye", artist: "BanYa", bpm: "105", fromMix: "OBG",
 	arcadeID: "307",
 	pumpoutID: 442,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "=  h8 h17",
 		Phoenix: "= S6`4 -Sp2 -Dp3",
 		XX: "=",
 		Prime2: "=",
@@ -165,7 +164,7 @@ export const newTunes__03__OBG = {
 	pumpoutID: 444,
 
 	charts: {
-		Phoenix2: "= D16`15",
+		Phoenix2: "= d16`15  h11 h14",
 		Phoenix: "= -Sp1 -Dp3",
 		XX: "=  @2.07 S5 S9",
 		Prime2: "=",
@@ -184,7 +183,7 @@ export const newTunes__03__OBG = {
 	pumpoutID: 11,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "=  h7 h11",
 		Phoenix: "= S12`11 D13`12 -Sp4 -Dp5",
 		XX: "= S11`12 D12`13",
 		Prime2: "=",
@@ -203,7 +202,7 @@ export const newTunes__03__OBG = {
 	pumpoutID: 448,
 
 	charts: {
-		Phoenix2: "= D24`23",
+		Phoenix2: "= d24`23  h9 h17 h23",
 		Phoenix: "= S10`8 D11`9 D18`16",
 		XX: "=",
 		Prime2: "=  @1.05 S21 D23",

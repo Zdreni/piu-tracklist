@@ -98,7 +98,7 @@ export const newTunes__05__Perfect = {
 	pumpoutID: 4,
 
 	charts: {
-		Phoenix2: "= D22`21",
+		Phoenix2: "= d22`21  h11 h17 h19 h21",
 		Phoenix: "= S12`11 D13`11 D24`23 -Dp3",
 		XX: "= S6`8 S11`13 D11`8 D21`20  @2.01 CoOp(x2)  @2.08 S21 D23",  //TODO proof S6.updated S7
 		Prime2: "=",

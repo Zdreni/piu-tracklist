@@ -214,7 +214,7 @@ export const newTunes__18__Phoenix2 = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix2: "s13 s16 s19 s22  d17 d21 d24",
+		Phoenix2: "s13 s16 s19 s22  d17 d21 d24  h16 h20 h23",
 	},
 },
 

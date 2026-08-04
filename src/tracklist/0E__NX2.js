@@ -15,7 +15,7 @@ export const newTunes__0E__NX2 = {
 	pumpoutID: 92,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "=  h9 h17",
 		Phoenix: "= -Sp4 -Dp6",
 		XX: "=",
 		Prime2: "=",
@@ -36,7 +36,7 @@ export const newTunes__0E__NX2 = {
 	pumpoutID: 93,
 
 	charts: {
-		Phoenix2: "= D21`20",
+		Phoenix2: "= d21`20  h13 h20",
 		Phoenix: "= S4`3 S11`9 -D7",
 		XX: "=",
 		Prime2: "=",
@@ -56,7 +56,7 @@ export const newTunes__0E__NX2 = {
 	pumpoutID: 94,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "=  h11 h18 h21",
 		Phoenix: "= D11`10 D19`18 D22`21",
 		XX: "=",
 		Prime2: "=  @1.10 S19",
@@ -77,7 +77,7 @@ export const newTunes__0E__NX2 = {
 	pumpoutID: 411,
 
 	charts: {
-		Phoenix2: "= S15`14",
+		Phoenix2: "= s15`14  h9 h16",
 		Phoenix: "= D17`16 -Sp4 -D10",
 		XX: "= S9`10 D10`12",
 		Prime2: "=",
@@ -95,7 +95,7 @@ export const newTunes__0E__NX2 = {
 	pumpoutID: 95,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "=  h8 h18",
 		Phoenix: "= D8`7",
 		XX: "= S4`6 S8`10 D7`9",
 		Prime2: "=",
@@ -201,7 +201,7 @@ export const newTunes__0E__NX2 = {
 	pumpoutID: 96,
 
 	charts: {
-		Phoenix2: "= S17`16",
+		Phoenix2: "= s17`16  h15 h21 h23",
 		Phoenix: "= S13`11 S21`20 D15`14",
 		XX: "= S7`6 S11`8 D21`20",
 		Prime2: "=",
@@ -222,7 +222,7 @@ export const newTunes__0E__NX2 = {
 	pumpoutID: 97,
 
 	charts: {
-		Phoenix2: "= S14`13 D16`15",
+		Phoenix2: "= s14`13 d16`15  h15 h20 h21",
 		Phoenix: "= S13`12 S20`19 -Sp10 -Dp2",
 		XX: "= S18`17 D15`13",
 			// S18.updated - steps in a head of holds, may be treated as new chart
@@ -406,7 +406,7 @@ export const newTunes__0E__NX2 = {
 	pumpoutID: 405,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "=  h7 h18",
 		Phoenix: "= -D10 -D13",
 		XX: "= S7`9 S20`18",
 		Prime2: "=",
@@ -424,7 +424,7 @@ export const newTunes__0E__NX2 = {
 	pumpoutID: 98,
 
 	charts: {
-		Phoenix2: "= S20`19 D17`16",
+		Phoenix2: "= s20`19 d17`16  h8 h16 h20",
 		Phoenix: "= S15`14 D16`15 -Sp1",
 		XX: "=  @1.03 D20.lock  @2.05 S19`acz",
 		Prime2: "=",
@@ -446,7 +446,7 @@ export const newTunes__0E__NX2 = {
 	pumpoutID: 408,
 
 	charts: {
-		Phoenix2: "= S8`7",
+		Phoenix2: "= s8`7  h8 h14",
 		Phoenix: "= S16`15 -Sp2 -Dp6",
 		XX: "= S15`14 D15`14",
 		Prime2: "=",

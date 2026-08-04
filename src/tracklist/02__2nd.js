@@ -44,7 +44,7 @@ export const newTunes__02__2nd = {
 	pumpoutID: 12,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "=  h17 h18",
 		Phoenix: "= S10`9 S18`17 S19`18 D17`15 D19`18 -S6 -Dp3",
 		XX: "= S18`15 D18`17",
 		Prime2: "=",
@@ -69,7 +69,7 @@ export const newTunes__02__2nd = {
 	pumpoutID: 13,
 
 	charts: {
-		Phoenix2: "= d22`21",
+		Phoenix2: "= d22`21  h14 h17 h21",
 		Phoenix: "= s11`10 s13`12 s19`17 s22`21 d15`13 d21`20",
 		XX: "= S8`7 S10`9 S12`11 S17`16 D13`12 D18`17 D20`19",
 		Prime2: "=",

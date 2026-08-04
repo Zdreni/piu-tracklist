@@ -14,7 +14,7 @@ export const newTunes__0D__NX = {
 	pumpoutID: 100,
 
 	charts: {
-		Phoenix2: "= S6`5",
+		Phoenix2: "= s6`5  h17 h19",
 		Phoenix: "= S17`16 S18`17 -Sp3 -Dp7",
 		XX: "= S16`15 S17`16 S19`18 D21`19",
 			// D21-XX - https://www.youtube.com/watch?v=Wj_1xUDGHa0
@@ -38,7 +38,7 @@ export const newTunes__0D__NX = {
 	pumpoutID: 101,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "=  h7 h17",
 		Phoenix: "= -S4 -S8 -D7 -D20",
 		XX: "= S15`14 S17`16",
 		Prime2: "=  @2.05 D20",
@@ -59,7 +59,7 @@ export const newTunes__0D__NX = {
 	pumpoutID: 102,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "=  h17 h22 h24",
 		Phoenix: "= S13`12 D18`16",
 		XX: "= S9`7 S12`11 S19`16 D26`25  @2.03  D22",
 			//??? S19.updated (something with ending?)
@@ -220,7 +220,7 @@ export const newTunes__0D__NX = {
 	pumpoutID: 392,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "=  h9 h14",
 		Phoenix: "= D14`13 -Dp5",
 		XX: "= S9`10",
 		Prime2: "=",
@@ -240,7 +240,7 @@ export const newTunes__0D__NX = {
 	pumpoutID: 103,
 
 	charts: {
-		Phoenix2: "= D21`20",
+		Phoenix2: "= d21`20  h8 h18",
 		Phoenix: "= S17`15 D20`19 -Dp8",
 		XX: "= S15`14 D19`18",
 		Prime2: "=",
@@ -260,7 +260,7 @@ export const newTunes__0D__NX = {
 	pumpoutID: 104,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "=  h7 h17 h22",
 		Phoenix: "=",
 		XX: "= S9`11 S20`18 D9`11 D24`22",
 		Prime2: "=",
@@ -280,7 +280,7 @@ export const newTunes__0D__NX = {
 	pumpoutID: 105,
 
 	charts: {
-		Phoenix2: "= D19`18 D22`21",
+		Phoenix2: "= d19`18 d22`21  h10 h17 h20",
 		Phoenix: "= S11`9 S15`14 S17`16 D12`9",
 		XX: "= S9`8 D18`17  @2.03  S14",
 		Prime2: "=",
@@ -301,7 +301,7 @@ export const newTunes__0D__NX = {
 	pumpoutID: 106,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "=  h4 h20",
 		Phoenix: "= S10`9 D17`15",
 		XX: "= D15`11 D18`15  @2.07 S17",
 		Prime2: "=",
@@ -456,7 +456,7 @@ export const newTunes__0D__NX = {
 	pumpoutID: 107,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "=  h12 h21",
 		Phoenix: "= S19`18",
 		XX: "= S8`7 S22`20 D12`9 D22`21 D23`22",
 			//??? S22.updated
@@ -494,7 +494,7 @@ export const newTunes__0D__NX = {
 	pumpoutID: 108,
 
 	charts: {
-		Phoenix2: "= S9`8 S22`21 S23`22",
+		Phoenix2: "= s9`8 s22`21 s23`22  h19 h22 h23",
 		Phoenix: "=",
 		XX: "= S8`7 S17`16 S18`17 D19`18",
 			//??? S18.updated

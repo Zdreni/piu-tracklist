@@ -15,7 +15,7 @@ export const newTunes__10__Fiesta = {
 	pumpoutID: 129,
 
 	charts: {
-		Phoenix2: "= S15`14 D17`16",
+		Phoenix2: "= s15`14 d17`16  h15 h20 h21",
 		Phoenix: "= S9`7 S14`12 D16`15 D20`19 -Sp2 -Dp3",
 		XX: "= S2`3 D15`14 D19`18",
 		Prime2: "=",
@@ -34,7 +34,7 @@ export const newTunes__10__Fiesta = {
 	pumpoutID: 130,
 
 	charts: {
-		Phoenix2: "= S22`21",
+		Phoenix2: "= s22`21  h11 h17 h24",
 		Phoenix: "= D13`8 D18`17",
 			// TODO.Phoenix: D13`8
 			// XX D8 - https://www.youtube.com/watch?v=_z3tzYjZwTs
@@ -55,7 +55,7 @@ export const newTunes__10__Fiesta = {
 	pumpoutID: 369,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "=  h6 h15",
 		Phoenix: "= S12`10 -Sp3 -Dp3",
 		XX: "=",
 		Prime2: "=",
@@ -129,7 +129,7 @@ export const newTunes__10__Fiesta = {
 	pumpoutID: 131,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "=  h9 h17",
 		Phoenix: "= -Sp2 -Dp4",
 		XX: "= S20`18",
 			// S18->20 - https://www.youtube.com/watch?v=JYmZxSbKafo (XX), https://www.youtube.com/watch?v=V9sikisXVts
@@ -206,7 +206,7 @@ export const newTunes__10__Fiesta = {
 	pumpoutID: 132,
 
 	charts: {
-		Phoenix2: "= S21`20",
+		Phoenix2: "= s21`20  h14 h20",
 		Phoenix: "= S13`12 D15`14 -Dp5",
 		XX: "= S12`11 S17`16 S19`18 S20`19 D14`13",
 		Prime2: "=",
@@ -271,7 +271,7 @@ export const newTunes__10__Fiesta = {
 	pumpoutID: 133,
 
 	charts: {
-		Phoenix2: "= D17`16 D22`21",
+		Phoenix2: "= d17`16 d22`21  h16 h22 h25",
 		Phoenix: "= -Dp3  @2.00 S16 D16",
 		XX: "= D21`22",
 		Prime2: "=",
@@ -335,7 +335,7 @@ export const newTunes__10__Fiesta = {
 	pumpoutID: 372,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "=  h5 h15",
 		Phoenix: "= D16`15 -Sp4 -Dp5",
 		XX: "=",
 		Prime2: "=",
@@ -353,7 +353,7 @@ export const newTunes__10__Fiesta = {
 	pumpoutID: 134,
 
 	charts: {
-		Phoenix2: "= D14`13",
+		Phoenix2: "= d14`13  h13 h15 h18",
 		Phoenix: "= S11`10 D13`12 -Sp1",
 		XX: "=",
 		Prime2: "=",
@@ -372,7 +372,7 @@ export const newTunes__10__Fiesta = {
 	pumpoutID: 135,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "=  h13 h21",
 		Phoenix: "= S13`11 D15`12 D22`21 -Dp2",
 		XX: "= S11`9 S19`18 D12`10 D21`20",
 		Prime2: "=",
@@ -391,7 +391,7 @@ export const newTunes__10__Fiesta = {
 	pumpoutID: 136,
 
 	charts: {
-		Phoenix2: "= S4`3",
+		Phoenix2: "= s4`3  h6 h16",
 		Phoenix: "= S17`16 S18`17 -Sp5 -Dp4",
 		XX: "=",
 		Prime2: "=",
@@ -410,7 +410,7 @@ export const newTunes__10__Fiesta = {
 	pumpoutID: 137,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "=  h12 h20",
 		Phoenix: "= S10`9 D12`9",
 			// TODO.Phoenix: D12`9
 		XX: "= D20`21",
@@ -431,7 +431,7 @@ export const newTunes__10__Fiesta = {
 	pumpoutID: 138,
 
 	charts: {
-		Phoenix2: "= S4`3",
+		Phoenix2: "= s4`3  h12 h18",
 		Phoenix: "= D13`11 -Dp1",
 		XX: "= S10`8 D11`10",
 		Prime2: "=",
@@ -450,7 +450,7 @@ export const newTunes__10__Fiesta = {
 	pumpoutID: 139,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "=  h11 h18",
 		Phoenix: "= S11`10 D12`11 -Dp3",
 		XX: "= D19`20",
 		Prime2: "=",
@@ -469,7 +469,7 @@ export const newTunes__10__Fiesta = {
 	pumpoutID: 140,
 
 	charts: {
-		Phoenix2: "= S20`19 D20`19",
+		Phoenix2: "= s20`19 d20`19  h17 h19 h20",
 		Phoenix: "= S16`15 -Dp3",
 		XX: "= S22`21 D17`15 D21`20",
 		Prime2: "=",
@@ -488,7 +488,7 @@ export const newTunes__10__Fiesta = {
 	pumpoutID: 381,
 
 	charts: {
-		Phoenix2: "= D20`19",
+		Phoenix2: "= d20`19  h18 h20",
 		Phoenix: "= D19`18 -Sp3 -Dp5",
 		XX: "= S19`18 D18`17  @1.02 D21.new",
 		Prime2: "=",
@@ -506,7 +506,7 @@ export const newTunes__10__Fiesta = {
 	pumpoutID: 387,
 
 	charts: {
-		Phoenix2: "= D19`18",
+		Phoenix2: "= d19`18  h8 h18",
 		Phoenix: "= S2`1 S6`5 S14`13 S16`15 D9`6 D18`17 -Dp5 -Sp4 -Dp6",
 			// TODO.Phoenix: D9`6
 		XX: "= S4`3",
@@ -1192,7 +1192,7 @@ export const newTunes__10__Fiesta = {
 	pumpoutID: 164,
 
 	charts: {
-		Phoenix2: "=",
+		Phoenix2: "=  h11 h18",
 		Phoenix: "= D11`9 D20`19",
 		XX: "= S17`16 D19`18",
 		Prime2: "=",
@@ -1211,7 +1211,7 @@ export const newTunes__10__Fiesta = {
 	pumpoutID: 165,
 
 	charts: {
-		Phoenix2: "= S22`21 D23`22",
+		Phoenix2: "= s22`21 d23`22  h13 h21",
 		Phoenix: "= S15`14 D16`15",
 		XX: "= S14`13 S21`22 D15`14 D22`23",
 		Prime2: "=",
