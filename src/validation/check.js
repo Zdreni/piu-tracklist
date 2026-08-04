@@ -57,7 +57,7 @@ function AddCheckTracklist( result, srcLines, srcConfig )
 			result.push( track );
 		}
 
-		if( track.channel === "Special"||  track.channel === "Remix" )
+		if( track.channel === "Special"  ||  track.channel === "Remix" )
 			isSpecial = true;
 
 		for( var mixID of oldMixes )

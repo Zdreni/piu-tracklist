@@ -1383,7 +1383,7 @@ export function ApplyTags( tracklist )
 	//not on Phoenix: T('11__Take_Out  D19',  SLOWDOWN)
 	T('11__Take_Out  D19',  DRILLS)
 	T('11__Take_Out  S20',  SLOWDOWN)
-	T('11__Take_Out  D22/D23',  SLOWDOWN)
+	T('11__Take_Out  D22/D23.Phoenix',  SLOWDOWN)
 
 
 	T('16__Tales_of_Pumpnia  D18/S20/D21',  NAKAKA)
@@ -1572,7 +1572,7 @@ export function ApplyTags( tracklist )
 
 
 	T('07__Will_o_the_Wisp  S19',  TWISTS_SIDE)
-	T('07__Will_o_the_Wisp  D20/D21',  WIDE_RUNS)
+	T('07__Will_o_the_Wisp  D20/D21.Phoenix',  WIDE_RUNS)
 
 
 	T('0C__Witch_Doctor  S19',  EXOTIC_TURN_AROUND, DRILLS)
