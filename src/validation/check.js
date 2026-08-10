@@ -2,7 +2,7 @@
 
 
 import _ from 'underscore';
-import { mixesOrder, firstNewMixIndex } from '../mixes.js';
+import { mixes, mixesOrder, firstNewMixIndex } from '../mixes.js';
 import { tracklist } from '../tracklist_src.js';
 
 
@@ -219,12 +219,23 @@ function GetTracklistChartTexts( mixName, trackID )
 }
 
 
+function NormalizeChartText( chartText )
+{
+	chartText = chartText[ 0 ].toUpperCase() + chartText.slice( 1 );  // to capitalize s -> S and d -> D
+	return chartText;
+}
+
+
 function GetCheckChartTexts( checkTable, mixName, trackID )
 {
 	if( ! checkTable[ trackID ] )
 		throw new Error( `${mixName} check:  can't find track with id '${trackID}' in checktable` );
 
-	return checkTable[ trackID ].split( ' ' ).filter( ch => ch !== "" ).sort( SortCharts );
+	return checkTable[ trackID ]
+		.split( ' ' )
+		.filter( ch => ch !== "" )
+		.map( NormalizeChartText )
+		.sort( SortCharts );
 }
 
 function GetNewMixChartsDifference( mixName, checkTable, trackID )
@@ -254,6 +265,12 @@ function HasInitialCharts( track, mixName )
 
 export function CheckInitialTracklistOfNewMix( mixName, checkTable )
 {
+	if( ! ( mixName in mixes ) )
+		throw new Error( `Mix '${mixName}' not found in mixes` );
+
+	if( ! mixesOrder.includes( mixName ) )
+		throw new Error( `Mix '${mixName}' not found in mixesOrder` );
+
 	var tracklistIDs = Object.keys( tracklist ).filter((key) => HasInitialCharts( tracklist[ key ], mixName ) );
 	var checklistIDs = Object.keys( checkTable );
 	var combinedIDs = _.union(tracklistIDs, checklistIDs);

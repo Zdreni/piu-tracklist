@@ -58,10 +58,20 @@ export const mixes =
 	              patches: ["1.00", "1.01", "1.02", "1.03", "1.04", "1.05", "1.06", "1.07", "1.08",
 	                        "2.00", "2.01", "2.02", "2.03", "2.04", "2.05", "2.06", "2.07", "2.08",
                                         "2.09", "2.10", "2.11", "2.12"] },
+
+	'Phoenix2': { style: "new",
+	              patches: ["1.00"] },
+
 };
 
 
-export const mixesOrder = [ "Exceed", "Exceed2", "Zero", "NX", "NX2", "NXA", "Fiesta", "FiestaEX", "Fiesta2", "Prime", "Prime2", "XX", "Phoenix" ];
+export const mixesOrder = [
+	'Exceed', 'Exceed2', 'Zero',
+	'NX', 'NX2', 'NXA',
+	'Fiesta', 'FiestaEX', 'Fiesta2',
+	'Prime', 'Prime2', 'XX',
+	'Phoenix', 'Phoenix2' ];
+
 export const lowCaseMixesOrder = mixesOrder.map( x => x.toLowerCase() );
 export const firstNewMixIndex = mixesOrder.indexOf( "Fiesta" );
 export const lastOldMixIndex = firstNewMixIndex - 1;

@@ -15,6 +15,7 @@ export const newTunes__13__Fiesta2 = {
 	pumpoutID: 210,
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "= S10`9 D11`9",
 		XX: "= S18`19  @2.05 S4",
 		Prime2: "=",
@@ -44,6 +45,7 @@ export const newTunes__13__Fiesta2 = {
 	pumpoutID: 212,
 
 	charts: {
+		Phoenix2: "= d15`14  h15 h17 h21 h22",
 		Phoenix: "= S8`7 S12`11 D14`13  @2.12 D25",
 		XX: "= S11`10 S17`16 S19`20 D13`12 D18`17 D23`24",
 		Prime2: "=",
@@ -60,6 +62,7 @@ export const newTunes__13__Fiesta2 = {
 	pumpoutID: 213,
 
 	charts: {
+		Phoenix2: "= s11`10 d21`20  h13 h17 h19",
 		Phoenix: "= S10`9 D13`11",
 		XX: "=",
 		Prime2: "=",
@@ -76,6 +79,7 @@ export const newTunes__13__Fiesta2 = {
 	pumpoutID: 214,
 
 	charts: {
+		Phoenix2: "= s12`11  h12 h17 h21",
 		Phoenix: "= S11`10",
 		XX: "= S16`17 S18`19 S21`22 D12`13 D17`16",
 		Prime2: "=",
@@ -93,6 +97,7 @@ export const newTunes__13__Fiesta2 = {
 	pumpoutID: 215,
 
 	charts: {
+		Phoenix2: "= d24`23  h17 h18 h23 h24",
 		Phoenix: "= S12`10 S16`15",
 			// Phoenix S22, slowdown removed - https://www.youtube.com/watch?v=mcAN_AhFB0I
 		XX: "= S10`9 S22`23 -D17 D17`15 D18`19",
@@ -111,6 +116,7 @@ export const newTunes__13__Fiesta2 = {
 	pumpoutID: 216,
 
 	charts: {
+		Phoenix2: "=  h11 h15 h20 h23",
 		Phoenix: "= S7`6 S14`13",
 		XX: "= S13`12 S17`18 S21`22 D11`8 D23`24",
 		Prime2: "=",
@@ -129,6 +135,7 @@ export const newTunes__13__Fiesta2 = {
 	pumpoutID: 217,
 
 	charts: {
+		Phoenix2: "= d16`15  h14 h15 h18 h21",
 		Phoenix: "=",
 		XX: "= S11`8 S13`11 S20`21 D14`13 D19`20  @2.06 D22.lock",
 		Prime2: "=",
@@ -146,6 +153,7 @@ export const newTunes__13__Fiesta2 = {
 	pumpoutID: 218,
 
 	charts: {
+		Phoenix2: "= s19`18 d16`15  h14 h22",
 		Phoenix: "= S13`11 D15`13",
 		XX: "= S11`10 S18`17 S22`23 D13`12",
 		Prime2: "=",
@@ -162,6 +170,7 @@ export const newTunes__13__Fiesta2 = {
 	pumpoutID: 219,
 
 	charts: {
+		Phoenix2: "= d23`22  h11 h15 h17 h22",
 		Phoenix: "=  @2.00 D22",
 		XX: "= S14`15 S16`17 D18`19",
 		Prime2: "=",
@@ -178,6 +187,7 @@ export const newTunes__13__Fiesta2 = {
 	pumpoutID: 220,
 
 	charts: {
+		Phoenix2: "=  h12 h19",
 		Phoenix: "= S13`11 D13`11",
 		XX: "= S11`10 S18`19",
 		Prime2: "=",
@@ -194,6 +204,7 @@ export const newTunes__13__Fiesta2 = {
 	pumpoutID: 221,
 
 	charts: {
+		Phoenix2: "= s12`11  h14 h19 h20",
 		Phoenix: "= S11`10 D14`12 D19`18",
 		XX: "= S10`9 D12`11 D20`19",
 		Prime2: "=",
@@ -210,6 +221,7 @@ export const newTunes__13__Fiesta2 = {
 	pumpoutID: 222,
 
 	charts: {
+		Phoenix2: "= s19`18 d6`5 d18`17  h5 h17",
 		Phoenix: "= S9`8 D5`4 -Dp3",
 		XX: "=",
 		Prime2: "=",
@@ -227,6 +239,7 @@ export const newTunes__13__Fiesta2 = {
 	pumpoutID: 223,
 
 	charts: {
+		Phoenix2: "= d15`14 d24`23  h13 h20 h22",
 		Phoenix: "= S13`11 D14`11",
 			// TODO.Phoenix: D14`11
 			// D11.XX - https://www.youtube.com/watch?v=dPI4E7H5eKU
@@ -552,6 +565,7 @@ export const newTunes__13__Fiesta2 = {
 	pumpoutID: 243,
 
 	charts: {
+		Phoenix2: "=  h11 h18",
 		Phoenix: "= S5`4 D12`10",
 		XX: "= S20`21 D19`20",
 		Prime2: "=",
@@ -568,6 +582,7 @@ export const newTunes__13__Fiesta2 = {
 	pumpoutID: 244,
 
 	charts: {
+		Phoenix2: "=  h13 h17 h22",
 		Phoenix: "=",
 		XX: "= D23`24  @2.00 CoOp(x2)",
 		Prime2: "=",
@@ -584,6 +599,7 @@ export const newTunes__13__Fiesta2 = {
 	pumpoutID: 245,
 
 	charts: {
+		Phoenix2: "=  h10 h17",
 		Phoenix: "= D10`9",
 		XX: "= D17`18",
 		Prime2: "=",
@@ -600,6 +616,7 @@ export const newTunes__13__Fiesta2 = {
 	pumpoutID: 246,
 
 	charts: {
+		Phoenix2: "=  h7 h10",
 		Phoenix: "= -CoOp(x5)",
 		XX: "= D7`5 D10`12  @2.01 CoOp(x5)",
 		Prime2: "=",
@@ -616,6 +633,7 @@ export const newTunes__13__Fiesta2 = {
 	pumpoutID: 247,
 
 	charts: {
+		Phoenix2: "= d23`22  h14 h19 h20 h21",
 		Phoenix: "= D15`13 D20`19",
 		XX: "= S13`12 D24`23  @2.03  CoOp(x4)",
 		Prime2: "=  @2.05 D22",
@@ -661,6 +679,7 @@ export const newTunes__13__Fiesta2 = {
 	pumpoutID: 250,
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "= S19`20",
 		XX: "= D19`20",
 		Prime2: "=",
@@ -678,6 +697,7 @@ export const newTunes__13__Fiesta2 = {
 	pumpoutID: 251,
 
 	charts: {
+		Phoenix2: "=  h22",
 		Phoenix: "=",
 		XX: "= S18`19 D23`24",
 		Prime2: "=",
@@ -779,6 +799,7 @@ export const newTunes__13__Fiesta2 = {
 	pumpoutID: 258,
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "=",
 		XX: "=",
 		Prime2: "=",
@@ -796,6 +817,7 @@ export const newTunes__13__Fiesta2 = {
 	pumpoutID: 259,
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "=",
 		XX: "=",
 		Prime2: "=",
@@ -814,6 +836,7 @@ export const newTunes__13__Fiesta2 = {
 	pumpoutID: 260,
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "=",
 		XX: "=",
 		Prime2: "=",
@@ -831,6 +854,7 @@ export const newTunes__13__Fiesta2 = {
 	pumpoutID: 261,
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "=",
 		XX: "=",
 		Prime2: "=",
@@ -849,6 +873,7 @@ export const newTunes__13__Fiesta2 = {
 	pumpoutID: 262,
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "=",
 		XX: "=",
 		Prime2: "=",
@@ -867,6 +892,7 @@ export const newTunes__13__Fiesta2 = {
 	pumpoutID: 263,
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "=",
 		XX: "=",
 		Prime2: "=",

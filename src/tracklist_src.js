@@ -6,11 +6,11 @@ import _ from 'underscore';
 
 import {
 	SINGLE, DOUBLE, COUPLE,
-	ORIGINAL, KPOP, WORLD, XROSS, JMUSIC,
+	ORIGINAL, KPOP, WORLD, XROSS, JMUSIC, RISE,
 	ARCADE, SPECIAL,
 	SHORT, STANDARD, REMIX, FULL,
 	OldArcadeTags, OldSpecialTags, OldTagTypes,
-	NewTags,
+	NewTags, NewTagTypes,
 } from './constants.js';
 
 import {
@@ -80,6 +80,9 @@ function extendObjWithNewKeys( obj1, obj2 )
 	return obj1;
 }
 
+
+import { newTunes__18__Phoenix2 } from './tracklist/18__Phoenix2.js';
+extendObjWithNewKeys( readableTracklist, newTunes__18__Phoenix2 );
 
 import { newTunes__17__Phoenix } from './tracklist/17__Phoenix.js';
 extendObjWithNewKeys( readableTracklist, newTunes__17__Phoenix );
@@ -244,10 +247,12 @@ function ParseChartLevel( track, chart, chartText )
 
 	chart.levelText = chartText;
 	chart.levelNum = Number( chartText );
+
 	if( chartText !== NO_OFFICIAL_ESTIMATION  &&  chartText !== NX_GLITCH_LEVEL  &&  String( chart.levelNum ) !== chartText )
-		throw new Error( "Error in parsing " + track.title + "  level '" + chartText + "'" );
+		throw new Error( `Error in parsing ${track.title} level '${chartText}'` );
+
 	if( chart.levelNum < 1  ||  chart.levelNum > 30 )
-		throw new Error( "Error in parsing " + track.title + "  level '" + chartText + "'" );
+		throw new Error( `Error in parsing ${track.title} level '${chartText}'` );
 }
 
 
@@ -332,23 +337,26 @@ function PreprocessOldStyleStation( track, mixID, inCharts, zone, tags, oldSlotS
 
 function ParseNewStyleChart( track, chartText, sharedIndex )
 {
-	for( var prefix of NewTags )
-		if( chartText.indexOf( prefix ) === 0 )
-		{
-			var chart = {};
-			chart.shared = GetSharedChart( track, sharedIndex > 0  ?  sharedIndex  :  ++track.chartsCount );
-			ParseChartLevel( track, chart, chartText.substring( prefix.length ) );
-			chart.text = chartText;
-			chart.tag = prefix;
-			var chartType = ( chart.shared.players  ?  COUPLE  :  ( prefix[0] === "S"  ?  SINGLE  :  DOUBLE ) );
-			if( ! chart.shared.type )
-				chart.shared.type = chartType;
-			else if( chart.shared.type !== chartType )
-				throw new Error( `Track '${ track.name }' chart ${ chartText } type ${ chartType } is inconsistent with previous type ${ chart.shared.type }` );
+	const typePrefixMatch = chartText.match( /^([A-Za-z]+)\s*(.*)$/ );
+	const typePrefix = typePrefixMatch?.[ 1 ];
+	const typePrefixIndex = NewTags.indexOf( typePrefix );
+	if( typePrefixIndex < 0 )
+		throw new Error( `Unknown chart tag '${typePrefix}' of chart '${chartText}'` );
 
-			return chart;
-		}
-	throw new Error( "Unknown chart tag '" + chartText + "'" );
+	var chart = {};
+	chart.shared = GetSharedChart( track, sharedIndex > 0  ?  sharedIndex  :  ++track.chartsCount );
+	ParseChartLevel( track, chart, typePrefixMatch?.[ 2 ] );
+	chart.text = chartText;
+	chart.tag = typePrefix;
+
+	const chartType = chart.shared.players ? COUPLE : NewTagTypes[ typePrefixIndex ];
+
+	if( ! chart.shared.type )
+		chart.shared.type = chartType;
+	else if( chart.shared.type !== chartType )
+		throw new Error( `Track '${ track.title }' chart ${ chartText } type ${ chartType } is inconsistent with previous type ${ chart.shared.type }` );
+
+	return chart;
 }
 
 
@@ -356,6 +364,8 @@ function PreprocessNewStyleChart( track, trackID, result, chartDescr, mixID, pat
 {
 	var descrTokens = chartDescr.split( "." );
 	var chartText = descrTokens[ 0 ];
+	chartText = chartText[ 0 ].toUpperCase() + chartText.slice( 1 );  // to capitalize s -> S and d -> D
+
 	descrTokens = descrTokens.slice( 1 );
 
 	var sharedIndex = 0;
@@ -494,7 +504,7 @@ function PreprocessNewStyleStringCharts( track, trackID, mixID )
 		{
 			var chart = PreprocessNewStyleChart( track, trackID, track.charts[ mixID ], token.substr( 1 ), mixID, patchIndex );
 		}
-		else if( token[0] === 'S'  ||  token[0] === 'D'  ||  token.substr(0, 4) === 'CoOp' )  // implicit '+' is considered
+		else if( ['s', 'S', 'd', 'D', 'h'].includes( token[0] )  ||  token.substr(0, 4) === 'CoOp' )  // implicit '+' is considered
 		{
 			var chart = PreprocessNewStyleChart( track, trackID, track.charts[ mixID ], token, mixID, patchIndex );
 		}
@@ -508,7 +518,7 @@ function PreprocessNewStyleStringCharts( track, trackID, mixID )
 		}
 		else
 		{
-			throw new Error( `Unrecognized chart token '${ token }' in track '${ id }'` );
+			throw new Error( `Unrecognized chart token '${ token }' in track '${ trackID }'` );
 		}
 	}
 
@@ -516,7 +526,7 @@ function PreprocessNewStyleStringCharts( track, trackID, mixID )
 	for( var chart of track.charts[ mixID ] )
 	{
 		if( chartLabels.has( chart.text ) )
-			throw new Error( `Duplicate chart '${ chart.text }' in track '${ id }' on mix ${ mixID }` );
+			throw new Error( `Duplicate chart '${ chart.text }' in track '${ trackID }' on mix ${ mixID }` );
 		chartLabels.add( chart.text );
 	}
 }
@@ -619,7 +629,7 @@ function PreprocessTrack( track )
 	else if( knownArtists[ track.artist ] === track.channel )
 		console.warn( `Track ${ trackID } artist '${ track.artist }' channel is already defined as '${ track.channel }'` );
 
-	if( [ ORIGINAL, WORLD, KPOP, JMUSIC, XROSS, "TODO" ].indexOf( track.channel ) < 0 )
+	if( [ ORIGINAL, WORLD, KPOP, JMUSIC, XROSS, RISE, "TODO" ].indexOf( track.channel ) < 0 )
 		throw new Error( `Track ${ trackID } has no channel specified` );
 
 	if( ! track.bpm )

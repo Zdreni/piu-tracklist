@@ -319,6 +319,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= S15`14 D17`16",
 		Phoenix: "@1.01 S2 S4 S6 S9 S14 S17 D8 D16 D19  @2.01 CoOp(x3)",
 	},
 },
@@ -334,6 +335,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@1.01 S1 S3 S5 S13 S15 S17 D8 D16 D18  @2.01 CoOp(x3)",
 	},
 },
@@ -349,6 +351,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.03 S3 S5 S8 S14 S17 S20 D10 D15 D18 D21",
 	},
 },
@@ -364,6 +367,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= S15`14 S19`18",
 		Phoenix: "@2.06 S3 S5 S11 S14 S18 S21 D11 D15 D19 D23",
 	},
 },
@@ -379,6 +383,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= D16`15 D20`19",
 		Phoenix: "@2.07 S7 S13 S18 S20 S22 D15 D19 D22 D24",
 	},
 },
@@ -396,6 +401,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.09 S4 S7 S12 S16 S21 D14 D18 D23",
 	},
 },
@@ -412,6 +418,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= S20`21",
 		Phoenix: "@2.01 S4 S7 S11 S16 S21 D13 D18 D22",
 	},
 },
@@ -427,6 +434,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.09 S4 S7 S12 S16 S20 S23 D19 D23 D25",
 	},
 },
@@ -442,6 +450,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.08 S11 S15 S17 S20 D13 D20 D23",
 	},
 },
@@ -457,6 +466,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.10 S9 S12 S16 S20 S22 D14 D20 D24",
 	},
 },
@@ -472,6 +482,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.08 S4 S7 S11 S14 S16 S19 S22 D13 D21 D24",
 	},
 },
@@ -488,6 +499,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.05 S4 S7 S11 S16 S19 D12 D17 D21 CoOp(x2)",
 	},
 },
@@ -503,6 +515,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= D19`20",
 		Phoenix: "S8 S14 S18 S22 D15 D20 D24",
 	},
 },
@@ -518,6 +531,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= S21`20 D13`12",
 		Phoenix: "S7 S10 S16 S19 S20 D12 D20 D23",
 	},
 },
@@ -533,6 +547,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= S21`20 D24`23",
 		Phoenix: "@2.10 S4 S7 S11 S14 S16 S18 S20 D13 D16 D18 D20 D23",
 	},
 },
@@ -548,6 +563,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= D21`22",
 		Phoenix: "S6 S10 S14 S17 S20 D11 D16 D18 D22",
 	},
 },
@@ -563,6 +579,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= S12`10 D13`12",
 		Phoenix: "@1.01 S7 S10 S15 S17 S20 D12 D16 D18 D22",
 	},
 },
@@ -578,6 +595,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= D12`10",
 		Phoenix: "S3 S5 S8 S11 S16 S19 D10 D18 D21  @2.12 D23",
 	},
 },
@@ -593,6 +611,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= D22`21",
 		Phoenix: "@1.03 S8 S12 S16 S18 S20 D13 D17 D21 CoOp(x2)  @2.08 D23",
 	},
 },
@@ -608,6 +627,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= S13`12",
 		Phoenix: "S12 S17 S19 S21 S23 D14 D18 D23 D25",
 	},
 },
@@ -623,6 +643,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@1.02 S13 S16 S19 S21 S23 D17 D20 D23 D25",
 	},
 },
@@ -638,6 +659,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= D20`21",
 		Phoenix: "@1.01 S18 S20 S23 S25 D21 D23 D25 D27",
 	},
 },
@@ -653,6 +675,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= S20`21",
 		Phoenix: "@1.06 S11 S14 S18 S21 D15 D19 D22",
 	},
 },
@@ -668,6 +691,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.11 S18 S21 S23 S25 D22 D26 D28",
 	},
 },
@@ -683,6 +707,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= S20`21",
 		Phoenix: "@1.08 S8 S13 S19 S21 D14 D20 D22",
 	},
 },
@@ -698,6 +723,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@1.07 S11 S16 S19 S22 D13 D18 D20 D23",
 	},
 },
@@ -713,6 +739,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= S17`16 S23`22 D18`17",
 		Phoenix: "S4 S7 S11 S16 S22 D13 D17 D25",
 	},
 },
@@ -728,6 +755,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.03 S7 S12 S17 S19 S21 D13 D18 D20 D23",
 	},
 },
@@ -743,6 +771,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.08 S18 S21 S24 S26 D24 D27 D??(29)",
 	},
 },
@@ -759,6 +788,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.04 S10 S13 S16 S18 S21 S22 D14 D18 D21 D24",
 	},
 },
@@ -774,6 +804,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.09 S12 S17 S20 S22 D13 D18 D24",
 	},
 },
@@ -789,6 +820,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@1.03 S3 S6 S10 S13 S15 S17 S20 D9 D15 D18 D22",
 	},
 },
@@ -804,6 +836,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@1.08 S9 S15 S19 S21 S22 D11 D16 D20 D23 D25",
 	},
 },
@@ -820,6 +853,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= D19`20 D21`22",
 		Phoenix: "@1.02 S11 S18 S20 S22 D14 D20 D22 D24",
 	},
 },
@@ -835,6 +869,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= D19`20 D22`23",
 		Phoenix: "@1.07 S8 S13 S16 S19 S21 D11 D15 D17 D20 D23 CoOp(x2)",
 	},
 },
@@ -851,6 +886,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@1.07 S4 S7 S11 S16 S18 S20 D13 D19 D22",
 	},
 },
@@ -866,6 +902,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= D24`23",
 		Phoenix: "@1.04 S11 S16 S18 S22 D16 D19 D23 CoOp(x2)",
 	},
 },
@@ -881,6 +918,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@1.05 S3 S6 S11 S16 S20 D12 D18 D22 CoOp(x3)",
 	},
 },
@@ -897,6 +935,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@1.08 S9 S13 S17 S20 D14 D18 D21  @2.12 CoOp(x2)",
 	},
 },
@@ -912,6 +951,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= S5`6 S8`10",
 		Phoenix: "@2.10 S6 S10 S17 S20 D15 D20 D23",
 	},
 },
@@ -927,6 +967,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@1.06 S3 S5 S8 S12 S16 S20 D6 D14 D18 D21",
 	},
 },
@@ -942,6 +983,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@1.02 S7 S12 S16 S21 D14 D19 D22",
 	},
 },
@@ -957,6 +999,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@1.08 S14 S18 S21 S24 D17 D24 D26",
 	},
 },
@@ -972,6 +1015,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.00 S10 S14 S18 S22 D16 D20 D23 D25",
 	},
 },
@@ -987,6 +1031,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= D25`24 D28`27",
 		Phoenix: "@1.04 S13 S17 S20 S22 S25 D21 D24 D27",
 	},
 },
@@ -1002,6 +1047,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.02 S13 S16 S19 S22 S25 D21 D25 D27 CoOp(x4)",
 	},
 },
@@ -1017,6 +1063,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.08 S15 S18 S20 S22 S24 D18 D24 D26",
 	},
 },
@@ -1032,6 +1079,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= D21`22",
 		Phoenix: "@1.05 S10 S15 S18 S20 S22 D16 D22 D24",
 	},
 },
@@ -1047,6 +1095,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= D24`23",
 		Phoenix: "@2.05 S4 S7 S10 S16 S19 S21 S23 D14 D18 D23 D25",
 	},
 },
@@ -1062,6 +1111,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.01 S12 S17 S21 S23 D14 D18 D23 D25",
 	},
 },
@@ -1077,6 +1127,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.07 S14 S17 S19 S23 D18 D21 D25",
 	},
 },
@@ -1092,6 +1143,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.06 S7 S12 S15 S17 S19 S22 D13 D18 D21 D24",
 	},
 },
@@ -1107,6 +1159,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@1.02 S15 S18 S20 S22 S24 D17 D22 D24 D26  @2.00 S21",
 	},
 },
@@ -1122,6 +1175,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.09 S10 S14 S18 S21 D15 D19 D23 CoOp(x2)",
 	},
 },
@@ -1137,6 +1191,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.10 S8 S13 S18 S21 D14 D19 D23",
 	},
 },
@@ -1152,6 +1207,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@1.07 S8 S13 S15 S17 S19 S21 D17 D21 D23",
 	},
 },
@@ -1167,6 +1223,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= D18`17",
 		Phoenix: "@2.08 S9 S13 S16 S18 S21 D17 D20 D23",
 	},
 },
@@ -1182,6 +1239,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= S12`11",
 		Phoenix: "@2.07 S11 S16 S19 S21 D17 D20 D23",
 	},
 },
@@ -1197,6 +1255,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.00 S14 S19 S22 S24 D15 D20 D24 D26",
 	},
 },
@@ -1213,6 +1272,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= S14`13",
 		Phoenix: "@2.04 S13 S17 S21 S23 D15 D18 D23 D25",
 	},
 },
@@ -1228,6 +1288,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= S19`20",
 		Phoenix: "@2.01 S4 S7 S12 S17 S20 S22 D15 D21 D24",
 	},
 },
@@ -1243,6 +1304,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.03 S15 S19 S22 S25 D21 D23 D25",
 	},
 },
@@ -1258,6 +1320,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= S19`20 S21`22",
 		Phoenix: "@2.01 S4 S7 S11 S16 S20 S22 D14 D20 D23",
 	},
 },
@@ -1273,6 +1336,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.02 S9 S13 S16 S19 S22 D17 D21 D24 D25  @2.12 CoOp(x3)",
 	},
 },
@@ -1288,6 +1352,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.00 S4 S7 S11 S14 S17 S20 D13 D18 D22",
 	},
 },
@@ -1303,6 +1368,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.06 S7 S12 S16 S19 S21 D14 D18 D20 D23",
 	},
 },
@@ -1318,6 +1384,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= D21`22",
 		Phoenix: "@2.07 S12 S16 S18 S20 S22 S24 D18 D22 D24 D26",
 	},
 },
@@ -1333,6 +1400,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.05 S9 S13 S16 S20 S22 S24 D15 D18 D24 D26  @2.12 CoOp(x2)",
 	},
 },
@@ -1348,6 +1416,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.11 S5 S13 S17 S20 D15 D19 D23",
 	},
 },
@@ -1363,6 +1432,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= S20`21 D20`21",
 		Phoenix: "@2.09 S7 S12 S16 S18 S21 D18 D21 D24",
 	},
 },
@@ -1378,6 +1448,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.03 S4 S7 S12 S16 S19 S21 D14 D18 D21 D24",
 	},
 },
@@ -1393,6 +1464,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.02 S7 S13 S16 S20 D13 D17 D21 D24",
 	},
 },
@@ -1408,6 +1480,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= S19`18 S23`22 D21`20 D25`24",
 		Phoenix: "@1.03 S4 S7 S11 S15 S18 S22 D13 D16 D20 D24",
 	},
 },
@@ -1423,6 +1496,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.01 S9 S12 S15 S18 S21 S24 D18 D23 D26",
 	},
 },
@@ -1438,6 +1512,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.07 S12 S15 S18 S21 S23 D20 D23 D26",
 	},
 },
@@ -1454,6 +1529,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= S21`22",
 		Phoenix: "@2.08 S12 S18 S20 S22 S24 D20 D23 D25",
 	},
 },
@@ -1470,6 +1546,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.10 S13 S17 S20 S23 D15 D18 D22 D24",
 	},
 },
@@ -1486,6 +1563,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= D22`23",
 		Phoenix: "@2.04 S8 S11 S16 S19 S22 S23 D18 D23 D25",
 	},
 },
@@ -1501,6 +1579,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.07 S10 S15 S20 S23 D16 D24",
 	},
 },
@@ -1516,6 +1595,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=  h11 h14 h19 h23",
 		Phoenix: "S8 S12 S16 S18 S21 D12 D16 D20 D24",
 	},
 },
@@ -1531,6 +1611,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=  h11 h17 h20",
 		Phoenix: "S10 S15 S18 S21 D13 D19 D22",
 	},
 },
@@ -1546,6 +1627,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= D21`22",
 		Phoenix: "S7 S11 S16 S18 S20 D13 D19 D22  @2.06 CoOp(x3)",
 	},
 },
@@ -1561,6 +1643,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=  h10 h16 h18 h22",
 		Phoenix: "S7 S11 S15 S17 S20 D11 D16 D19 D22",
 	},
 },
@@ -1576,6 +1659,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= s21`20 d13`12  h11 h15 h19 h22",
 		Phoenix: "S7 S11 S15 S17 S20 D12 D16 D19 D23 CoOp(x3)",
 	},
 },
@@ -1593,6 +1677,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= S20`19",
 		Phoenix: "S12 S16 S19 D22",
 	},
 },
@@ -1608,6 +1693,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=  h5 h16 h20 h22",
 		Phoenix: "S2 S6 S9 S12 S15 S18 S21 D6 D16 D19 D23",
 	},
 },
@@ -1623,6 +1709,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@1.05 S8 S13 S18 S22 S24 D16 D19 D24 D26",
 	},
 },
@@ -1638,6 +1725,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=  h12 h17 h21",
 		Phoenix: "@1.01 S4 S7 S12 S16 S20 D13 D18 D21 CoOp(x2)",
 	},
 },
@@ -1653,6 +1741,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.11 S12 S15 S17 S20 S22 D13 D18 D21 D24",
 	},
 },
@@ -1668,6 +1757,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= s13`12  h15 h20 h23",
 		Phoenix: "@1.02 S12 S16 S19 S22 D16 D21 D24",
 	},
 },
@@ -1683,6 +1773,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.06 S3 S7 S10 S14 S16 S19 D12 D18 D21",
 	},
 },
@@ -1698,6 +1789,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=  h16 h20 h23 h24",
 		Phoenix: "@1.05 S7 S11 S14 S17 S19 S21 S23 D16 D21 D23 D25",
 	},
 },
@@ -1713,6 +1805,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@1.07 S8 S11 S15 S17 S19 D12 D16 D18 D20 CoOp(x2)",
 	},
 },
@@ -1728,6 +1821,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.01 S13 S16 S18 S22 D14 D17 D19 D23",
 	},
 },
@@ -1743,6 +1837,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.08 S13 S16 S20 S22 D17 D22 D24",
 	},
 },
@@ -1758,6 +1853,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.03 S13 S16 S20 S22 S24 D18 D22 D24 D26",
 	},
 },
@@ -1773,6 +1869,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= D21`22",
 		Phoenix: "@2.02 S13 S16 S19 S22 D15 D18 D22 D24",
 	},
 },
@@ -1788,6 +1885,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=  h12 h18 h21 h23",
 		Phoenix: "@2.00 S12 S16 S18 S20 S22 D14 D20 D22 D24",
 	},
 },
@@ -1803,6 +1901,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= S22`23",
 		Phoenix: "@2.10 S14 S17 S20 S23 D16 D18 D22 D25",
 	},
 },
@@ -1818,6 +1917,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@1.04 S15 S17 S19 S22 S24 D17 D21 D24 D26",
 	},
 },
@@ -1833,6 +1933,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=  h12 h20 h23",
 		Phoenix: "S12 S18 S20 S22 D12 D20 D24",
 	},
 },
@@ -1848,6 +1949,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=  h14 h19 h24",
 		Phoenix: "@1.08 S7 S13 S18 S22 D15 D20 D24",
 	},
 },
@@ -1863,6 +1965,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.00 S11 S14 S16 S19 S21 D17 D20 D23",
 	},
 },
@@ -1878,6 +1981,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.07 S4 S7 S11 S16 S18 S21 D13 D19 D23",
 	},
 },
@@ -1893,6 +1997,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= S20`21",
 		Phoenix: "@2.04 S8 S12 S17 S21 S23 D14 D18 D23 D25  @2.12 CoOp(x2)",
 	},
 },
@@ -1908,6 +2013,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.09 S11 S14 S16 S18 S21 D12 D17 D20 D22",
 	},
 },
@@ -1924,6 +2030,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.10 S15 S18 S21 S23 D16 D19 D23 D25",
 	},
 },
@@ -1939,6 +2046,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.00 S12 S15 S18 S21 D15 D19 D22",
 	},
 },
@@ -1955,6 +2063,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.06 S12 S15 S18 S21 S23 D17 D20 D23 D25",
 	},
 },
@@ -1970,6 +2079,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@1.04 S11 S16 S19 S23 D14 D21 D25",
 	},
 },
@@ -1985,6 +2095,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.01 S12 S16 S19 S22 D17 D21 D24",
 	},
 },
@@ -2000,6 +2111,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.09 S5 S12 S15 S18 S22 D13 D17 D21 D24",
 	},
 },
@@ -2015,6 +2127,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= D17`16",
 		Phoenix: "@1.06 S15 S18 S21 S23 D16 D20 D23 D25",
 	},
 },
@@ -2031,6 +2144,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.05 S15 S18 S20 S23 D20 D23 D25",
 	},
 },
@@ -2047,6 +2161,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.05 S16 S18 S22 S24 D19 D24 D26",
 	},
 },
@@ -2063,6 +2178,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@1.02 S9 S14 S17 S20 S22 D16 D22 D24  @2.08 CoOp(x2)",
 	},
 },
@@ -2079,6 +2195,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.04 S4 S6 S11 S15 S18 S20 D13 D19 D22",
 	},
 },
@@ -2094,6 +2211,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= D22`21",
 		Phoenix: "@2.00 S4 S7 S12 S16 S19 S21 D12 D16 D21 D24  @2.06 CoOp(x2)",
 	},
 },
@@ -2109,6 +2227,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.12 S14 S18 S21 S23 D20 D23 D25",
 	},
 },
@@ -2124,6 +2243,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "= S21`20 D23`22",
 		Phoenix: "@2.12 S3 S5 S8 S12 S15 S17 S20 D14 D18 D22 CoOp(x2)",
 	},
 },
@@ -2139,6 +2259,7 @@ export const newTunes__17__Phoenix = {
 	arcadeName: "Euphorianic - SHORT CUT -",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@1.03 S4 S7 S10 S17 D12 D19",
 	},
 },
@@ -2154,6 +2275,7 @@ export const newTunes__17__Phoenix = {
 	arcadeName: "Phoenix Opening - SHORT CUT -",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.07 S12 S16 S18 D16 D20 CoOp(x2)",
 	},
 },
@@ -2169,6 +2291,7 @@ export const newTunes__17__Phoenix = {
 	arcadeName: "Jupin - SHORT CUT -",
 
 	charts: {
+		Phoenix2: "= S20`21 S21`22",
 		Phoenix: "@2.06 S12 S13 S14 S21 S22 S23 D16 D19 D20 D23 D24",
 	},
 },
@@ -2184,6 +2307,7 @@ export const newTunes__17__Phoenix = {
 	arcadeName: "Ghroth - SHORT CUT -",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.07 S14 S18 S22 D20 D24",
 	},
 },
@@ -2199,6 +2323,7 @@ export const newTunes__17__Phoenix = {
 	arcadeName: "Neo Catharsis - SHORT CUT -",
 
 	charts: {
+		Phoenix2: "= D24`23",
 		Phoenix: "@2.08 S19 S21 S23 D23 D25",
 	},
 },
@@ -2214,6 +2339,7 @@ export const newTunes__17__Phoenix = {
 	arcadeName: "Hymn of Golden Glory - SHORT CUT -",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.08 S15 S18 S20 S23 D17 D20 D22 D24",
 	},
 },
@@ -2229,6 +2355,7 @@ export const newTunes__17__Phoenix = {
 	arcadeName: "Halloween Party ~Multiverse~ - SHORT CUT -",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.09 S14 S19 S21 D18 D21",
 	},
 },
@@ -2244,6 +2371,7 @@ export const newTunes__17__Phoenix = {
 	pumpoutID: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.09 S12 S16 S18 S21 D14 D18 D20 D22",
 	},
 },
@@ -2261,6 +2389,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.10 S18 S21 S23 D22 D24",
 	},
 },
@@ -2277,6 +2406,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.10 S16 S19 S21 D18 D21 D23",
 	},
 },
@@ -2293,6 +2423,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.11 S15 S18 S21 D20 D24",
 	},
 },
@@ -2309,6 +2440,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.11 S20 S23 D26",
 	},
 },
@@ -2324,6 +2456,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
+		Phoenix2: "=",
 		Phoenix: "@2.06 S13 S18 S22 D20 D24",
 	},
 },

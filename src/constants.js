@@ -5,6 +5,7 @@
 export const SINGLE = "Single";
 export const DOUBLE = "Double";
 export const COUPLE = "Couple";
+export const HALFDOUBLE = "HalfDouble";
 
 // zone
 export const ARCADE = "Arcade";
@@ -16,6 +17,7 @@ export const KPOP = "K-Pop";
 export const WORLD = "World";
 export const JMUSIC = "J-Music";
 export const XROSS = "Xross";
+export const RISE = "Rise";
 
 // duration
 export const SHORT = "Short";
@@ -38,5 +40,5 @@ export const OldSpecialTags_low = ["anl", "ahd", "acz", "afs", "anm"];
 
 export const OldTagTypes = [ SINGLE, SINGLE, SINGLE, DOUBLE, DOUBLE ];
 
-export const NewTags = [ "Sp", "S", "Dp", "D", "CoOp" ];
-export const NewTagTypes = [ SINGLE, SINGLE, DOUBLE, DOUBLE, COUPLE ];
+export const NewTags = [ "Sp", "S", "Dp", "D", "CoOp", "H" ];
+export const NewTagTypes = [ SINGLE, SINGLE, DOUBLE, DOUBLE, COUPLE, HALFDOUBLE ];
