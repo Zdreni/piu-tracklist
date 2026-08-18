@@ -198,6 +198,7 @@ function SPACE( n )
 var _S = SPACE( 1 )
 var __S = SPACE( 2 )
 var ___S = SPACE( 3 )
+var ____S = SPACE( 4 )
 
 
 function DumpMixes()
@@ -279,28 +280,32 @@ function DumpTracklist( shortenData )
 			if( Object.keys( trackCharts ).length > 0 )
 			{
 				var chartsArr = DictToArr( trackCharts, function ( key, val ) {  return ___S + JStr( key ) + ": " + JStr( val );  } );
-				result += __S + "\"charts\": {<br>"
+				result += __S + "\"charts\": {<br>";
 				result += chartsArr.join( ",<br>" ) + "<br>";
 				result += __S + "},<br>";
 			}
+
+			result += __S + "\"instances\": {<br>";
 
 			var nextMix = false;
 			for( var mixID of mixesOrder )
 			{
 				var mixCharts = trackMixes[ mixID ];
-				if( mixCharts )
+				if( mixCharts  &&  Object.keys( mixCharts ).length > 0 )
 				{
 					if( nextMix )
 						result += ",<br>";
 					else
 						nextMix = true;
-					result += __S + JStr( mixID ) + ": {<br>";
+					result += ___S + JStr( mixID ) + ": {<br>";
 
-					var mixChartsArr = DictToArr( mixCharts, function ( key, val ) {  return ___S + JStr( key ) + ": " + JStr( val );  } );
+					var mixChartsArr = DictToArr( mixCharts, function ( key, val ) {  return ____S + JStr( key ) + ": " + JStr( val );  } );
 					result += mixChartsArr.join( ",<br>" );
-					result += "<br>" + __S + "}";
+					result += "<br>" + ___S + "}";
 				}
 			}
+
+			result += "<br>" + __S + "}";
 			result += "<br>" + _S + "}";
 		}
 		catch( exc )

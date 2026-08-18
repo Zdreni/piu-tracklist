@@ -377,7 +377,7 @@ export const newTunes__17__Phoenix = {
 {
 	title: "ESP", artist: "nato", channel: ORIGINAL, bpm: "175",
 	// sortingID: "",
-	sortingBetween: ["17__Festival_of_Death_Moon", "17__Highway_Chaser"],
+	sortingBetween: ["17__Festival_of_Death_Moon", "17__Autumn_Break"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -389,8 +389,6 @@ export const newTunes__17__Phoenix = {
 },
 
 
-/* removed in 2.09.1
-
 "17__Autumn_Break":
 {
 	title: "Autumn Break", artist: "Cosmograph", channel: ORIGINAL, bpm: "175",
@@ -401,18 +399,17 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix2: "=",
-		Phoenix: "@2.09 S4 S7 S12 S16 S21 D14 D18 D23",
+		//Removed in 2.09.1 actually
+		Phoenix: "@2.09 S4 S7 S12 S16 S21 D14 D18 D23  @2.10 -S4 -S7 -S12 -S16 -S21 -D14 -D18 -D23",
 	},
 },
-*/
 
 
 "17__Highway_Chaser":
 {
 	title: "Highway Chaser", artist: "Cosmograph", channel: ORIGINAL, bpm: "155",
 	// sortingID: "",
-	sortingBetween: ["17__ESP", "17__Eternal_Universe"],
+	sortingBetween: ["17__Autumn_Break", "17__Eternal_Universe"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
