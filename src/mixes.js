@@ -60,7 +60,7 @@ export const mixes =
                                         "2.09", "2.10", "2.11", "2.12"] },
 
 	'Phoenix2': { style: "new",
-	              patches: ["1.00"] },
+	              patches: ["1.00", "1.01"] },
 
 };
 

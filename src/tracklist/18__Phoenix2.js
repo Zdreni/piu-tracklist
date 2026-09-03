@@ -24,11 +24,26 @@ import {
 
 export const newTunes__18__Phoenix2 = {
 
+"18__The_Stranger":
+{
+	title: "The Stranger", artist: "ONF", channel: KPOP, bpm: "116",
+	sortingID: "18__STANDARD_",
+	sortingBetween: [null, "18__T_B_H"],
+	// sortingID: "",
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix2: "@1.01  s2 s4 s6 s9 s15 s18 s20 s22  d10 d16 d19 d22 d25",
+	},
+},
+
+
 "18__T_B_H":
 {
 	title: "T.B.H.", artist: "QWER", channel: KPOP, bpm: "178",
-	sortingID: "18__STANDARD_",
-	sortingBetween: [null, "18__Do_the_Dance"],
+	sortingBetween: ["18__The_Stranger", "18__Do_the_Dance"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -73,7 +88,7 @@ export const newTunes__18__Phoenix2 = {
 {
 	title: "404 (New Era)", artist: "KiiiKiii", channel: KPOP, bpm: "127",
 	// sortingID: "",
-	sortingBetween: ["18__Bang_Bang", "18__Enjoy_the_Show"],
+	sortingBetween: ["18__Bang_Bang", "18__Call_Me_Back"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -84,11 +99,41 @@ export const newTunes__18__Phoenix2 = {
 },
 
 
+"18__Call_Me_Back":
+{
+	title: "Call Me Back", artist: "TNX", channel: KPOP, bpm: "128",
+	// sortingID: "",
+	sortingBetween: ["18__404_New_Era", "18__Die_Another_Day"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix2: "@1.01  s1 s3 s5 s8 s14 s16 s20  d6 d15 d18 d22",
+	},
+},
+
+
+"18__Die_Another_Day":
+{
+	title: "Die Another Day", artist: "TNX", channel: KPOP, bpm: "98",
+	// sortingID: "",
+	sortingBetween: ["18__Call_Me_Back", "18__Enjoy_the_Show"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix2: "@1.01  s3 s5 s9 s15 s17 s20  d11 d16 d19 d23",
+	},
+},
+
+
 "18__Enjoy_the_Show":
 {
 	title: "Enjoy The Show", artist: "RiraN ft. Negoto Bunnyla", channel: ORIGINAL, bpm: "160",
 	// sortingID: "",
-	sortingBetween: ["18__404_New_Era", "18__Punishment_Restaurant"],
+	sortingBetween: ["18__Die_Another_Day", "18__Punishment_Restaurant"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -103,7 +148,7 @@ export const newTunes__18__Phoenix2 = {
 {
 	title: "Punishment Restaurant", artist: "memme", channel: ORIGINAL, bpm: "175",
 	// sortingID: "",
-	sortingBetween: ["18__Enjoy_the_Show", "18__Blazor"],
+	sortingBetween: ["18__Enjoy_the_Show", "18__Ghost_Bloody_Train"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -114,11 +159,26 @@ export const newTunes__18__Phoenix2 = {
 },
 
 
+"18__Ghost_Bloody_Train":
+{
+	title: "Ghost Bloody Train", artist: "Fiverwater", channel: ORIGINAL, bpm: "192",
+	// sortingID: "",
+	sortingBetween: ["18__Punishment_Restaurant", "18__Blazor"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix2: "@1.01  s11 s15 s18 s21 s23  d17 d20 d23 d25",
+	},
+},
+
+
 "18__Blazor":
 {
 	title: "Blazor", artist: "WONDERTRAVELER Project", channel: ORIGINAL, bpm: "161",
 	// sortingID: "",
-	sortingBetween: ["18__Punishment_Restaurant", "18__B3"],
+	sortingBetween: ["18__Ghost_Bloody_Train", "18__B3"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -193,7 +253,7 @@ export const newTunes__18__Phoenix2 = {
 {
 	title: "Legendary Dominion", artist: "Laur", channel: ORIGINAL, bpm: "210",
 	// sortingID: "",
-	sortingBetween: ["18__Overnight_Flower", "18__Crash_Landing_Rengezvous"],
+	sortingBetween: ["18__Overnight_Flower", "18__L"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -204,11 +264,41 @@ export const newTunes__18__Phoenix2 = {
 },
 
 
+"18__L":
+{
+	title: "L", artist: "Ice", channel: WORLD, bpm: "155",
+	// sortingID: "",
+	sortingBetween: ["18__Legendary_Dominion", "18__Can_I_friend_you_on_Bassbook_lol"],
+	// arcadeID: "",
+	pumpoutID: "",
+	arcadeName: "L (PIU Edit)",
+
+	charts: {
+		Phoenix2: "@1.01  s12 s18 s22 s24  d19 d24 d27",
+	},
+},
+
+
+"18__Can_I_friend_you_on_Bassbook_lol":
+{
+	title: "Can I friend you on Bassbook? lol", artist: "Camellia & Nanahira", channel: WORLD, bpm: "128",
+	// sortingID: "",
+	sortingBetween: ["18__L", "18__Crash_Landing_Rengezvous"],
+	// arcadeID: "",
+	pumpoutID: "",
+	// arcadeName: "",
+
+	charts: {
+		Phoenix2: "@1.01  s4 s7 s11 s17 s19 s22  d11 d20 d25",
+	},
+},
+
+
 "18__Crash_Landing_Rengezvous":
 {
 	title: "Crash-Landing Rengezvous", artist: "Xyris", channel: WORLD, bpm: "128~190",
 	// sortingID: "",
-	sortingBetween: ["18__Legendary_Dominion", "18__Quattuorux"],
+	sortingBetween: ["18__Can_I_friend_you_on_Bassbook_lol", "18__Quattuorux"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -716,7 +806,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-  		Phoenix2: "h20 h23 h26",
+		Phoenix2: "h20 h23 h26",
 	}
 },
 
