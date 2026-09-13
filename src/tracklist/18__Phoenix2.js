@@ -371,7 +371,7 @@ export const newTunes__18__Phoenix2 = {
 
 "18__Dreamchasers":
 {
-	title: "Dreamchasers", artist: "s-don", channel: WORLD, bpm: "155",
+	title: "Dreamchasers", artist: "s-don", channel: XROSS, bpm: "155",
 	// sortingID: "",
 	sortingBetween: ["18__Freedom_Dive", "18__Super_Haraguro_Pop"],
 	// arcadeID: "",
@@ -386,7 +386,7 @@ export const newTunes__18__Phoenix2 = {
 
 "18__Super_Haraguro_Pop":
 {
-	title: "SUPER*HARAGURO*POP", artist: "Zekk", channel: WORLD, bpm: "160",
+	title: "SUPER*HARAGURO*POP", artist: "Zekk", channel: XROSS, bpm: "160",
 	// sortingID: "",
 	sortingBetween: ["18__Dreamchasers", null],
 	// arcadeID: "",
@@ -456,7 +456,7 @@ export const newTunes__18__Phoenix2 = {
 
 "18__Kings_Tomb":
 {
-	title: "King’s Tomb", artist: "r300k", channel: RISE, bpm: "113",
+	title: "King's Tomb", artist: "r300k", channel: RISE, bpm: "113",
 
 	sortingBetween: ["18__Ercitite", "18__Dizzy_Dance_Street_Light"],
 	// arcadeID: "",
