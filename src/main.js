@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-import { mixes, mixesOrder, } from './mixes.js';
+import { mixes, mixesOrder, MixHasNewTags } from './mixes.js';
 import {
 	STANDARD, REMIX, FULL,
 	ARCADE, SPECIAL,
@@ -49,31 +49,36 @@ function CopyChartWithRemovedObviousFieldsForApp( track, mixID, chart )
 	if( String( chart.levelNum ) === chart.levelText )
 		delete chart.levelNum;
 
-	var newTagIndex = NewTags.indexOf( chart.tag );
-	if( newTagIndex >= 0 )
+	if( MixHasNewTags( mixID ) )
 	{
-		if( NewTagTypes[ newTagIndex ] === chart.type )
-			delete chart.type;
+		var newTagIndex = NewTags.indexOf( chart.tag );
+		if( newTagIndex >= 0 )
+		{
+			if( NewTagTypes[ newTagIndex ] === chart.type )
+				delete chart.type;
+		}
 	}
-
-	var oldArcadeTagIndex = OldArcadeTags.indexOf( chart.tag );
-	if( oldArcadeTagIndex >= 0 )
+	else
 	{
-		if( track.duration === STANDARD  &&  chart.zone === ARCADE )
-			delete chart.zone;
-		if( ( track.duration === REMIX  ||  track.duration === FULL )  &&  chart.zone === SPECIAL )
-			delete chart.zone;
-		if( OldTagTypes[ oldArcadeTagIndex ] === chart.type )
-			delete chart.type;
-	}
+		var oldArcadeTagIndex = OldArcadeTags.indexOf( chart.tag );
+		if( oldArcadeTagIndex >= 0 )
+		{
+			if( track.duration === STANDARD  &&  chart.zone === ARCADE )
+				delete chart.zone;
+			if( ( track.duration === REMIX  ||  track.duration === FULL )  &&  chart.zone === SPECIAL )
+				delete chart.zone;
+			if( OldTagTypes[ oldArcadeTagIndex ] === chart.type )
+				delete chart.type;
+		}
 
-	var oldSpecialTagIndex = OldSpecialTags.indexOf( chart.tag );
-	if( oldSpecialTagIndex >= 0 )
-	{
-		if( chart.zone === SPECIAL )
-			delete chart.zone;
-		if( OldTagTypes[ oldSpecialTagIndex ] === chart.type )
-			delete chart.type;
+		var oldSpecialTagIndex = OldSpecialTags.indexOf( chart.tag );
+		if( oldSpecialTagIndex >= 0 )
+		{
+			if( chart.zone === SPECIAL )
+				delete chart.zone;
+			if( OldTagTypes[ oldSpecialTagIndex ] === chart.type )
+				delete chart.type;
+		}
 	}
 
 	if( chart.levelText  &&  chart.levelText !== "" )

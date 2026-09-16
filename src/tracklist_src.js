@@ -360,11 +360,19 @@ function ParseNewStyleChart( track, chartText, sharedIndex )
 }
 
 
+export function NormalizeChartText( chartText )
+{
+	chartText = chartText[ 0 ].toUpperCase() + chartText.slice( 1 );  // to capitalize s -> S and d -> D
+	if( chartText.startsWith( "Hd" ))
+		chartText = "HD" + chartText.slice( 2 );
+	return chartText;
+}
+
+
 function PreprocessNewStyleChart( track, trackID, result, chartDescr, mixID, patchIndex )
 {
 	var descrTokens = chartDescr.split( "." );
-	var chartText = descrTokens[ 0 ];
-	chartText = chartText[ 0 ].toUpperCase() + chartText.slice( 1 );  // to capitalize s -> S and d -> D
+	var chartText = NormalizeChartText( descrTokens[ 0 ] );
 
 	descrTokens = descrTokens.slice( 1 );
 

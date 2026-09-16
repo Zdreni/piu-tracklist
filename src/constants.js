@@ -40,5 +40,5 @@ export const OldSpecialTags_low = ["anl", "ahd", "acz", "afs", "anm"];
 
 export const OldTagTypes = [ SINGLE, SINGLE, SINGLE, DOUBLE, DOUBLE ];
 
-export const NewTags = [ "Sp", "S", "Dp", "D", "CoOp", "H" ];
+export const NewTags = [ "Sp", "S", "Dp", "D", "CoOp", "HD" ];
 export const NewTagTypes = [ SINGLE, SINGLE, DOUBLE, DOUBLE, COUPLE, HALFDOUBLE ];

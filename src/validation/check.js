@@ -3,7 +3,7 @@
 
 import _ from 'underscore';
 import { mixes, mixesOrder, firstNewMixIndex } from '../mixes.js';
-import { tracklist } from '../tracklist_src.js';
+import { tracklist, NormalizeChartText } from '../tracklist_src.js';
 
 
 //var oldMixes = [ "Exceed", "Exceed2", "Zero", "NX", "NX2", "NXA" ];
@@ -216,13 +216,6 @@ function GetTracklistChartTexts( mixName, trackID )
 		throw new Error( ` check:  Сan't find ${mixName} chart on track '${trackID}'` );
 
 	return chartInstance.filter( ch => ! ch.fromPatchIndex ).map( ch => ch.text.replace( "Dp??", "CoOp" ) ).sort( SortCharts );
-}
-
-
-function NormalizeChartText( chartText )
-{
-	chartText = chartText[ 0 ].toUpperCase() + chartText.slice( 1 );  // to capitalize s -> S and d -> D
-	return chartText;
 }
 
 

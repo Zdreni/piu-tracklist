@@ -1592,7 +1592,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix2: "=  h11 h14 h19 h23",
+		Phoenix2: "=  hd11 hd14 hd19 hd23",
 		Phoenix: "S8 S12 S16 S18 S21 D12 D16 D20 D24",
 	},
 },
@@ -1608,7 +1608,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix2: "=  h11 h17 h20",
+		Phoenix2: "=  hd11 hd17 hd20",
 		Phoenix: "S10 S15 S18 S21 D13 D19 D22",
 	},
 },
@@ -1640,7 +1640,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix2: "=  h10 h16 h18 h22",
+		Phoenix2: "=  hd10 hd16 hd18 hd22",
 		Phoenix: "S7 S11 S15 S17 S20 D11 D16 D19 D22",
 	},
 },
@@ -1656,7 +1656,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix2: "= s21`20 d13`12  h11 h15 h19 h22",
+		Phoenix2: "= s21`20 d13`12  hd11 hd15 hd19 hd22",
 		Phoenix: "S7 S11 S15 S17 S20 D12 D16 D19 D23 CoOp(x3)",
 	},
 },
@@ -1690,7 +1690,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix2: "=  h5 h16 h20 h22",
+		Phoenix2: "=  hd5 hd16 hd20 hd22",
 		Phoenix: "S2 S6 S9 S12 S15 S18 S21 D6 D16 D19 D23",
 	},
 },
@@ -1722,7 +1722,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix2: "=  h12 h17 h21",
+		Phoenix2: "=  hd12 hd17 hd21",
 		Phoenix: "@1.01 S4 S7 S12 S16 S20 D13 D18 D21 CoOp(x2)",
 	},
 },
@@ -1754,7 +1754,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix2: "= s13`12  h15 h20 h23",
+		Phoenix2: "= s13`12  hd15 hd20 hd23",
 		Phoenix: "@1.02 S12 S16 S19 S22 D16 D21 D24",
 	},
 },
@@ -1786,7 +1786,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix2: "=  h16 h20 h23 h24",
+		Phoenix2: "=  hd16 hd20 hd23 hd24",
 		Phoenix: "@1.05 S7 S11 S14 S17 S19 S21 S23 D16 D21 D23 D25",
 	},
 },
@@ -1882,7 +1882,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix2: "=  h12 h18 h21 h23",
+		Phoenix2: "=  hd12 hd18 hd21 hd23",
 		Phoenix: "@2.00 S12 S16 S18 S20 S22 D14 D20 D22 D24",
 	},
 },
@@ -1930,7 +1930,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix2: "=  h12 h20 h23",
+		Phoenix2: "=  hd12 hd20 hd23",
 		Phoenix: "S12 S18 S20 S22 D12 D20 D24",
 	},
 },
@@ -1946,7 +1946,7 @@ export const newTunes__17__Phoenix = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix2: "=  h14 h19 h24",
+		Phoenix2: "=  hd14 hd19 hd24",
 		Phoenix: "@1.08 S7 S13 S18 S22 D15 D20 D24",
 	},
 },

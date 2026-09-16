@@ -77,3 +77,10 @@ export const firstNewMixIndex = mixesOrder.indexOf( "Fiesta" );
 export const lastOldMixIndex = firstNewMixIndex - 1;
 //const oldMixesReverseOrder = mixesOrder.slice(0, firstNewMixIndex ).reverse();  // NXA..Exceed
 //const newMixesOrder = mixesOrder.slice( firstNewMixIndex );  // Fiesta..Prime
+
+
+export function MixHasNewTags( mixID ) 
+{
+	return ( mixes[ mixID ].style === "new" );
+}
+

@@ -304,7 +304,7 @@ export const newTunes__18__Phoenix2 = {
 	// arcadeName: "",
 
 	charts: {
-		Phoenix2: "s13 s16 s19 s22  d17 d21 d24  h16 h20 h23",
+		Phoenix2: "s13 s16 s19 s22  d17 d21 d24  hd16 hd20 hd23",
 	},
 },
 
@@ -415,7 +415,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "s8 s12 s16 s18 s21  d14 d19 d23  h13 h19 h22",
+		Phoenix2: "s8 s12 s16 s18 s21  d14 d19 d23  hd13 hd19 hd22",
 	}
 },
 
@@ -432,7 +432,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "s11 s16 s18 s22  d14 d18 d20 d24  h13 h15 h18 h22",
+		Phoenix2: "s11 s16 s18 s22  d14 d18 d20 d24  hd13 hd15 hd18 hd22",
 	}
 },
 
@@ -449,7 +449,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "s3 s6 s9 s12 s15 s18 s21  d11 d16 d19 d23  h11 h16 h18 h22",
+		Phoenix2: "s3 s6 s9 s12 s15 s18 s21  d11 d16 d19 d23  hd11 hd16 hd18 hd22",
 	}
 },
 
@@ -466,7 +466,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "s4 s7 s10 s13 s17 s20 s22  d14 d18 d21 d24  h13 h17 h20 h23",
+		Phoenix2: "s4 s7 s10 s13 s17 s20 s22  d14 d18 d21 d24  hd13 hd17 hd20 hd23",
 	}
 },
 
@@ -483,7 +483,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "s6 s16 s18 s20  d18 d22 d24  h17 h20 h22",
+		Phoenix2: "s6 s16 s18 s20  d18 d22 d24  hd17 hd20 hd22",
 	}
 },
 
@@ -500,7 +500,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "s4 s7 s12 s17 s20 s22  d15 d21 d24  h14 h20 h23",
+		Phoenix2: "s4 s7 s12 s17 s20 s22  d15 d21 d24  hd14 hd20 hd23",
 	}
 },
 
@@ -517,7 +517,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "s3 s7 s11 s16 s19  d13 d17 d21  h12 h16 h20",
+		Phoenix2: "s3 s7 s11 s16 s19  d13 d17 d21  hd12 hd16 hd20",
 	}
 },
 
@@ -534,7 +534,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "s12 s16 s18 s21  d18 d20 d23  h16 h18 h21",
+		Phoenix2: "s12 s16 s18 s21  d18 d20 d23  hd16 hd18 hd21",
 	}
 },
 
@@ -551,7 +551,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "s11 s14 s18 s20 s22  d16 d20 d22 d24  CoOp(x2)  h15 h19 h21 h23",
+		Phoenix2: "s11 s14 s18 s20 s22  d16 d20 d22 d24  CoOp(x2)  hd15 hd19 hd21 hd23",
 	}
 },
 
@@ -568,7 +568,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "s8 s11 s15 s17 s20  d13 d16 d18 d21  h13 h15 h18 h21",
+		Phoenix2: "s8 s11 s15 s17 s20  d13 d16 d18 d21  hd13 hd15 hd18 hd21",
 	}
 },
 
@@ -585,7 +585,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "h15 h21 h24",
+		Phoenix2: "hd15 hd21 hd24",
 	}
 },
 
@@ -602,7 +602,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "h10 h15 h17 h21",
+		Phoenix2: "hd10 hd15 hd17 hd21",
 	}
 },
 
@@ -619,7 +619,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "h13 h18 h22 h24",
+		Phoenix2: "hd13 hd18 hd22 hd24",
 	}
 },
 
@@ -636,7 +636,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "h17 h21 h25",
+		Phoenix2: "hd17 hd21 hd25",
 	}
 },
 
@@ -653,7 +653,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "h14 h17 h18 h20",
+		Phoenix2: "hd14 hd17 hd18 hd20",
 	}
 },
 
@@ -670,7 +670,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "h16 h20 h24 h25",
+		Phoenix2: "hd16 hd20 hd24 hd25",
 	}
 },
 
@@ -687,7 +687,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "h7 h12 h16 h18",
+		Phoenix2: "hd7 hd12 hd16 hd18",
 	}
 },
 
@@ -704,7 +704,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "h20 h21",
+		Phoenix2: "hd20 hd21",
 	}
 },
 
@@ -721,7 +721,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "h16 h24 h26",
+		Phoenix2: "hd16 hd24 hd26",
 	}
 },
 
@@ -738,7 +738,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "h20 h21 h23",
+		Phoenix2: "hd20 hd21 hd23",
 	}
 },
 
@@ -755,7 +755,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "h12 h18 h20",
+		Phoenix2: "hd12 hd18 hd20",
 	}
 },
 
@@ -772,7 +772,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "h13 h19 h22",
+		Phoenix2: "hd13 hd19 hd22",
 	}
 },
 
@@ -789,7 +789,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "h16 h19 h22",
+		Phoenix2: "hd16 hd19 hd22",
 	}
 },
 
@@ -806,7 +806,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "h20 h23 h26",
+		Phoenix2: "hd20 hd23 hd26",
 	}
 },
 
@@ -823,7 +823,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "h15 h22 h25",
+		Phoenix2: "hd15 hd22 hd25",
 	}
 },
 
