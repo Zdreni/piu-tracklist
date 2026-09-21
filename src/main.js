@@ -139,6 +139,14 @@ function CopyChartWithRemovedObviousFieldsForDB( track, mixID, chart )
 		chart.text = chart.text.replace( "CoOp(x", "COOP" ).replace( ")", "" );
 	}
 
+	// stripping out level hint, because we need original chart level text for chart displaying and results matching
+	if( String( chart.levelNum ) !== chart.levelText )
+	{
+		var hintSuffix = "(" + chart.levelNum + ")";
+		if( chart.text.endsWith( hintSuffix ) )
+			chart.text = chart.text.slice( 0, chart.text.length - hintSuffix.length ).trimEnd();
+	}
+
 	delete chart.tag;
 
 	track.charts[ mixID ][ chartIndex ] = chart;
