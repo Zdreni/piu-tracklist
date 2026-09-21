@@ -407,7 +407,7 @@ const checkPhoenix2Table = {
 
 // World music
 
-'18__Crash_Landing_Rengezvous':  "s13 s16 s19 s22  d17 d21 d24  hd16 hd20 hd23",
+'18__Crash_Landing_Rendezvous':  "s13 s16 s19 s22  d17 d21 d24  hd16 hd20 hd23",
 '18__Quattuorux':  "s15 s19 s22 s24  d17 d21 d24 d26",
 '18__Nighttheater':  "s12 s15 s18 s21  d16 d19 d22",
 '18__Infinite_Energy_Overdoze':  "s13 s16 s18 s21 s23  d19 d22 d25",

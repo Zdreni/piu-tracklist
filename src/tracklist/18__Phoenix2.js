@@ -283,7 +283,7 @@ export const newTunes__18__Phoenix2 = {
 {
 	title: "Can I friend you on Bassbook? lol", artist: "Camellia & Nanahira", channel: WORLD, bpm: "128",
 	// sortingID: "",
-	sortingBetween: ["18__L", "18__Crash_Landing_Rengezvous"],
+	sortingBetween: ["18__L", "18__Crash_Landing_Rendezvous"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
@@ -294,9 +294,10 @@ export const newTunes__18__Phoenix2 = {
 },
 
 
-"18__Crash_Landing_Rengezvous":
+"18__Crash_Landing_Rendezvous":
 {
-	title: "Crash-Landing Rengezvous", artist: "Xyris", channel: WORLD, bpm: "128~190",
+	title: "Crash-Landing Rendezvous", artist: "Xyris", channel: WORLD, bpm: "128~190",
+	altID: "18__Crash_Landing_Rengezvous",
 	// sortingID: "",
 	sortingBetween: ["18__Can_I_friend_you_on_Bassbook_lol", "18__Quattuorux"],
 	// arcadeID: "",
@@ -313,7 +314,7 @@ export const newTunes__18__Phoenix2 = {
 {
 	title: "QUATTUORUX", artist: "D-D-Dice Vs. Tanchiky Vs. Karameru", channel: WORLD, bpm: "220",
 	// sortingID: "",
-	sortingBetween: ["18__Crash_Landing_Rengezvous", "18__Nighttheater"],
+	sortingBetween: ["18__Crash_Landing_Rendezvous", "18__Nighttheater"],
 	// arcadeID: "",
 	pumpoutID: "",
 	// arcadeName: "",
