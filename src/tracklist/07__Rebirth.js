@@ -392,7 +392,6 @@ export const newTunes__07__Rebirth = {
 {
 	title: "Go Away!", artist: "To-Ya", channel: KPOP, bpm: "103", fromMix: "Rebirth",
 	arcadeID: "719",
-	pumpoutID: "",
 
 	charts: {
 		Exceed2: ["2", "4", "9", "6", ""],
@@ -408,7 +407,6 @@ export const newTunes__07__Rebirth = {
 {
 	title: "Gotta Be Kidding!", artist: "Hanul", channel: KPOP, bpm: "138", fromMix: "Rebirth",
 	arcadeID: "721",
-	pumpoutID: "",
 
 	charts: {
 		Exceed2: ["1", "4", "13", "3", ""],
@@ -431,7 +429,6 @@ export const newTunes__07__Rebirth = {
 {
 	title: "Perfect!", artist: "Diva", channel: KPOP, bpm: "132", fromMix: "Rebirth",
 	arcadeID: "730",
-	pumpoutID: "",
 
 	charts: {
 		Zero: ["1", "5", "10", "4", "13"],

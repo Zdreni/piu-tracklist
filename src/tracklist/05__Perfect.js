@@ -123,7 +123,6 @@ export const newTunes__05__Perfect = {
 {
 	title: "Come Back to Me", artist: "Deux", channel: KPOP, bpm: "116", fromMix: "Perfect",
 	arcadeID: "507",
-	pumpoutID: "",
 
 	charts: {
 		NXA: ["2", "5", "11", "6", "13"],
@@ -139,7 +138,6 @@ export const newTunes__05__Perfect = {
 {
 	title: "As I Told U", artist: "Kim Sung Jae", channel: KPOP, bpm: "120", fromMix: "Perfect",
 	arcadeID: "508",
-	pumpoutID: "",
 
 	charts: {
 		Exceed2: ["2", "5", "9", "5", "12"],
@@ -187,7 +185,6 @@ export const newTunes__05__Perfect = {
 {
 	title: "Space Fantasy", artist: "E-paksa", channel: KPOP, bpm: "186", fromMix: "Perfect",
 	arcadeID: "517",
-	pumpoutID: "",
 
 	charts: {
 		Exceed: ["4", "6", "11", "6", ""],

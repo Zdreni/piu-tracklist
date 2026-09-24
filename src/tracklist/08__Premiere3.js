@@ -11,7 +11,6 @@ export const newTunes__08__Premiere3 = {
 {
 	title: "Bambole", artist: "Papa Gonzales", channel: WORLD, bpm: "128", fromMix: "Premiere3",
 	arcadeID: "801",
-	pumpoutID: "",
 
 	charts: {
 		Exceed2: ["2", "9", "11", "6", "12"],
@@ -50,7 +49,6 @@ export const newTunes__08__Premiere3 = {
 {
 	title: "Burning Krypt", artist: "B-Legit, 2Wice, & 4Tray", channel: WORLD, bpm: "96", fromMix: "Premiere3",
 	arcadeID: "803",
-	pumpoutID: "",
 
 	charts: {
 		Exceed: ["2", "4", "9", "6", ""],
@@ -62,7 +60,6 @@ export const newTunes__08__Premiere3 = {
 {
 	title: "Can You Feel Dis or Dat", artist: "2Wice", channel: WORLD, bpm: "97", fromMix: "Premiere3",
 	arcadeID: "804",
-	pumpoutID: "",
 
 	charts: {
 		Exceed: ["2", "4", "11", "6", ""],
@@ -74,7 +71,6 @@ export const newTunes__08__Premiere3 = {
 {
 	title: "Clap Your Hands", artist: "Scoop feat. Joyce Lyle", channel: WORLD, bpm: "127", fromMix: "Premiere3",
 	arcadeID: "805",
-	pumpoutID: "",
 
 	charts: {
 		NX: ["*1.5", "*3", "*5", "*2.5", "*7"],
@@ -89,7 +85,6 @@ export const newTunes__08__Premiere3 = {
 {
 	title: "Conga", artist: "Queen Latin", channel: WORLD, bpm: "124", fromMix: "Premiere3",
 	arcadeID: "806",
-	pumpoutID: "",
 
 	charts: {
 		NX: ["*1.5", "*3", "*7", "*4", "@1"],
@@ -124,7 +119,6 @@ export const newTunes__08__Premiere3 = {
 {
 	title: "DJ Nightmare", artist: "Rodney O & Joe Cooley", channel: WORLD, bpm: "114", fromMix: "Premiere3",
 	arcadeID: "808",
-	pumpoutID: "",
 
 	charts: {
 		Exceed: ["2", "4", "11", "5", ""],
@@ -136,7 +130,6 @@ export const newTunes__08__Premiere3 = {
 {
 	title: "Eres Para Mi", artist: "Mozquito", channel: WORLD, bpm: "128", fromMix: "Premiere3",
 	arcadeID: "809",
-	pumpoutID: "",
 
 	charts: {
 		NX: ["*1", "*2.5", "*6.5", "*4", ""],
@@ -151,7 +144,6 @@ export const newTunes__08__Premiere3 = {
 {
 	title: "Fiesta Macarena Pt. 1", artist: "DJ Paula", channel: WORLD, bpm: "131", fromMix: "Premiere3",
 	arcadeID: "810",
-	pumpoutID: "",
 
 	charts: {
 		Exceed2: ["2", "5", "8", "6", ""],
@@ -185,7 +177,6 @@ export const newTunes__08__Premiere3 = {
 {
 	title: "On Your Side", artist: "Kay Kent", channel: WORLD, bpm: "123", fromMix: "Premiere3",
 	arcadeID: "812",
-	pumpoutID: "",
 
 	charts: {
 		Exceed2: ["1", "4", "7", "5", ""],
@@ -198,7 +189,6 @@ export const newTunes__08__Premiere3 = {
 {
 	title: "Everybody", artist: "Carlos T. Quila", channel: WORLD, bpm: "110", fromMix: "Premiere3",
 	arcadeID: "813",
-	pumpoutID: "",
 
 	charts: {
 		Exceed2: ["1", "6", "8", "6", ""],
@@ -211,7 +201,6 @@ export const newTunes__08__Premiere3 = {
 {
 	title: "Join The Party", artist: "Gans", channel: WORLD, bpm: "131", fromMix: "Premiere3",
 	arcadeID: "814",
-	pumpoutID: "",
 
 	charts: {
 		NX: ["*1.5", "*3", "*6.5", "*2.5", "*7"], NX_: ["", "", "", "", "@3"],
@@ -226,7 +215,6 @@ export const newTunes__08__Premiere3 = {
 {
 	title: "Lay It Down", artist: "Fresno", channel: WORLD, bpm: "131", fromMix: "Premiere3",
 	arcadeID: "815",
-	pumpoutID: "",
 
 	charts: {
 		Exceed2: ["3", "5", "8", "5", ""],
@@ -239,7 +227,6 @@ export const newTunes__08__Premiere3 = {
 {
 	title: "Let the Sunshine", artist: "Lisa Cool & The South Spirit", channel: WORLD, bpm: "128", fromMix: "Premiere3",
 	arcadeID: "816",
-	pumpoutID: "",
 
 	charts: {
 		Exceed2: ["2", "4", "7", "4", ""],
@@ -252,7 +239,6 @@ export const newTunes__08__Premiere3 = {
 {
 	title: "Lovething", artist: "Down Low", channel: WORLD, bpm: "103", fromMix: "Premiere3",
 	arcadeID: "817",
-	pumpoutID: "",
 
 	charts: {
 		Exceed: ["2", "5", "10", "4", "12"],
@@ -264,7 +250,6 @@ export const newTunes__08__Premiere3 = {
 {
 	title: "Mexi Mexi", artist: "Mozquito", channel: WORLD, bpm: "138", fromMix: "Premiere3",
 	arcadeID: "818",
-	pumpoutID: "",
 
 	charts: {
 		NX: ["*2", "*3.5", "*6", "*3.5", ""], NX_: ["", "", "", "", "@1"],
@@ -279,7 +264,6 @@ export const newTunes__08__Premiere3 = {
 {
 	title: "You Don't Wanna Runup", artist: "Rodney O & Joe Cooley", channel: WORLD, bpm: "107", fromMix: "Premiere3",
 	arcadeID: "819",
-	pumpoutID: "",
 
 	charts: {
 		Exceed: ["3", "7", "13", "6", ""],
@@ -335,7 +319,6 @@ export const newTunes__08__Premiere3 = {
 {
 	title: "Let's Get the Party Started", artist: "Pink", channel: WORLD, bpm: "128.9", fromMix: "Premiere3",
 	arcadeID: "823",
-	pumpoutID: "",
 
 	charts: {
 		Exceed: ["2", "6", "15", "6", "20"],

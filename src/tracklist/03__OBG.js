@@ -266,7 +266,6 @@ export const newTunes__03__OBG = {
 {
 	title: "Love Song", artist: "Yu Seung Jun (Steve Yoo)", channel: KPOP, bpm: "118", fromMix: "OBG",
 	arcadeID: "313",
-	pumpoutID: "",
 
 	charts: {
 		NX: ["*1", "*2", "*5", "*2", "*5.5"],
@@ -283,7 +282,6 @@ export const newTunes__03__OBG = {
 {
 	title: "To the Top", artist: "6 Mill, Bionic Juno", channel: KPOP, bpm: "120", fromMix: "OBG",
 	arcadeID: "315",
-	pumpoutID: "",
 
 	charts: {
 		Exceed2: ["1", "5", "", "", ""],

@@ -14,7 +14,6 @@ export const newTunes__09__Extra = {
 {
 	title: "Circus Magic", artist: "Crying Nut", bpm: "141", fromMix: "Extra",
 	arcadeID: "902",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["3", "8", "14", "9", ""],
@@ -78,7 +77,6 @@ export const newTunes__09__Extra = {
 {
 	title: "The Rap. act 3", artist: "Honey Family", channel: KPOP, bpm: "98", fromMix: "Extra",
 	arcadeID: "910",
-	pumpoutID: "",
 
 	charts: {
 		Zero: ["3", "5", "12", "5", "13"],
@@ -135,7 +133,6 @@ export const newTunes__09__Extra = {
 {
 	title: "Loner", artist: "T.T.Ma", channel: KPOP, bpm: "155", fromMix: "Extra",
 	arcadeID: "915",
-	pumpoutID: "",
 
 	charts: {
 		NX: ["", "*4", "*6.5", "*3", ""],
@@ -150,7 +147,6 @@ export const newTunes__09__Extra = {
 {
 	title: "Monkey Magic", artist: "E-paksa", channel: KPOP, bpm: "151.9", fromMix: "Extra",
 	arcadeID: "916",
-	pumpoutID: "",
 
 	charts: {
 		Exceed: ["3", "6", "10", "6", ""],
@@ -166,7 +162,6 @@ export const newTunes__09__Extra = {
 {
 	title: "Lazenca, Save Us", artist: "N.EX.T", channel: KPOP, bpm: "85", fromMix: "Extra",
 	arcadeID: "919",
-	pumpoutID: "",
 
 	charts: {
 		NXA: ["3", "6", "", "5", ""],
@@ -183,7 +178,6 @@ export const newTunes__09__Extra = {
 {
 	title: "Pierrot", artist: "Lee Hyun Do", channel: KPOP, bpm: "100", fromMix: "Extra",
 	arcadeID: "921",
-	pumpoutID: "",
 
 	charts: {
 		Exceed2: ["2", "5", "12", "5", "12"],

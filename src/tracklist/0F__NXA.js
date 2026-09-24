@@ -609,7 +609,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "YG Remix", artist: "Big Bang / Perry", channel: KPOP, bpm: "102", duration: REMIX,
 	arcadeID: "F36",
-	pumpoutID: "",
 
 	charts: {
 		NXA_: ["", "5", "", "6", "15"],
@@ -655,7 +654,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "NXA Hip-Hop Mix", artist: "DJ Missill / Gyfted", channel: WORLD, bpm: "108", duration: REMIX,
 	arcadeID: "F39",
-	pumpoutID: "",
 
 	charts: {
 		NXA_: ["", "6", "13", "4", ""],
@@ -683,7 +681,6 @@ export const newTunes__0F__NXA = {
 	title: "Mr. Fire Fighter Falls in Love With Me", artist: "Spooky Banana / No Brain", channel: KPOP, bpm: "158", duration: REMIX,
 	shortTitle: "Mr. Fire Fighter\nFalls in Love With Me",
 	arcadeID: "F41",
-	pumpoutID: "",
 
 	charts: {
 		NXA_: ["", "8", "15", "9", ""],
@@ -695,7 +692,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "J Knows That Old Bong", artist: "BanYa Production", bpm: "130", duration: REMIX,
 	arcadeID: "F42",
-	pumpoutID: "",
 
 	charts: {
 		NXA_: ["", "8", "17", "", "18"],
@@ -743,7 +739,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "msgoon RMX pt. 2", artist: "msgoon", channel: KPOP, bpm: "105", duration: REMIX,
 	arcadeID: "F45",
-	pumpoutID: "",
 
 	charts: {
 		NXA_: ["", "5", "16", "5", ""],
@@ -883,7 +878,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Come On!  [FULL]", artist: "Lee Jeong Hyun", channel: WORLD, bpm: "140",
 	arcadeID: "F57",
-	pumpoutID: "",
 
 	charts: {
 		NXA_: ["", "6", "", "6", ""],
@@ -895,7 +889,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Chocolate  [FULL]", artist: "Banana Girl", channel: KPOP, bpm: "130",
 	arcadeID: "F58",
-	pumpoutID: "",
 
 	charts: {
 		NXA_: ["", "6", "15", "8", ""],
@@ -953,7 +946,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "U  [FULL]", artist: "Super Junior M", channel: KPOP, bpm: "115",
 	arcadeID: "F62",
-	pumpoutID: "",
 
 	charts: {
 		NXA_: ["", "3", "15", "3", ""],
@@ -965,7 +957,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Change Myself  [FULL]", artist: "Wang Lee Hom", channel: WORLD, bpm: "104.5",
 	arcadeID: "F63",
-	pumpoutID: "",
 
 	charts: {
 		NXA_: ["", "3", "14", "3", ""],

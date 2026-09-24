@@ -169,7 +169,6 @@ extendObjWithNewKeys( readableTracklist, newTunes__01__1st );
 
 /*{
 	title: "Narcisista Por Excelencia  [SHORT]", artist: "PXNDX", bpm: "164",
-	pumpoutID: "",
 
 	charts: {
 		Prime: "S17 D18",

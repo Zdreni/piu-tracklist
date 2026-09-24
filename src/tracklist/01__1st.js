@@ -41,7 +41,6 @@ export const newTunes__01__1st = {
 {
 	title: "Forever Love", artist: "Fin.K.L", channel: KPOP, bpm: "138", fromMix: "1st",
 	arcadeID: "103",
-	pumpoutID: "",
 
 	charts: {
 		NXA: ["1", "", "", "", "13"],
@@ -57,7 +56,6 @@ export const newTunes__01__1st = {
 {
 	title: "Passion", artist: "Yu Seung Jun (Steve Yoo)", channel: KPOP, bpm: "125", fromMix: "1st",
 	arcadeID: "104",
-	pumpoutID: "",
 
 	charts: {
 		Exceed2: ["1", "5", "", "5", ""],
@@ -75,7 +73,6 @@ export const newTunes__01__1st = {
 {
 	title: "Come to Me", artist: "Clon", channel: KPOP, bpm: "137", fromMix: "1st",
 	arcadeID: "108",
-	pumpoutID: "",
 
 	charts: {
 		Zero: ["2", "5", "9", "5", "12"],

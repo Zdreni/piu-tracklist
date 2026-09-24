@@ -211,7 +211,6 @@ export const newTunes__0A__Exceed = {
 {
 	title: "Shake That Bootie", artist: "OneTwo", channel: KPOP, bpm: "145",
 	arcadeID: "A09",
-	pumpoutID: "",
 
 	charts: {
 		NX: ["*1.5", "*3", "*7", "*3", "@1"],
@@ -226,7 +225,6 @@ export const newTunes__0A__Exceed = {
 {
 	title: "Valenti", artist: "BoA", channel: KPOP, bpm: "104",
 	arcadeID: "A10",
-	pumpoutID: "",
 
 	charts: {
 		NX: ["*1", "*2", "*5.5", "*2", "*6.5"], //??? NX: removed at 1.08
@@ -282,7 +280,6 @@ export const newTunes__0A__Exceed = {
 {
 	title: "Flamenco", artist: "Oliver", channel: KPOP, bpm: "105",
 	arcadeID: "A13",
-	pumpoutID: "",
 
 	charts: {
 		Exceed2: ["2", "5", "9", "5", "11"],
@@ -295,7 +292,6 @@ export const newTunes__0A__Exceed = {
 {
 	title: "Kiss Me", artist: "Debbie Scott", channel: WORLD, bpm: "126",
 	arcadeID: "A14",
-	pumpoutID: "",
 
 	charts: {
 		NX: ["*0.5", "*2.5", "*6.5", "*3", "@1"], NX_: ["", "", "(-)", "", "@1"],
@@ -310,7 +306,6 @@ export const newTunes__0A__Exceed = {
 {
 	title: "Essa Maneira", artist: "Kaoma", channel: WORLD, bpm: "150",
 	arcadeID: "A15",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["3", "7", "13", "9", "14"],
@@ -326,7 +321,6 @@ export const newTunes__0A__Exceed = {
 {
 	title: "Ba Be Loo Be Ra", artist: "Kristeen", channel: WORLD, bpm: "126",
 	arcadeID: "A16",
-	pumpoutID: "",
 
 	charts: {
 		Exceed2: ["1", "4", "9", "5", "13"],
@@ -339,7 +333,6 @@ export const newTunes__0A__Exceed = {
 {
 	title: "La Cubanita", artist: "Los ninos de sara", channel: WORLD, bpm: "120",
 	arcadeID: "A17",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["4", "9", "13", "10", "16"],
@@ -355,7 +348,6 @@ export const newTunes__0A__Exceed = {
 {
 	title: "Shake It Up", artist: "Rod", channel: WORLD, bpm: "120",
 	arcadeID: "A18",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["4", "9", "15", "3", "19"],
@@ -371,7 +363,6 @@ export const newTunes__0A__Exceed = {
 {
 	title: "One Love", artist: "S'Max", channel: KPOP, bpm: "98",
 	arcadeID: "A19",
-	pumpoutID: "",
 
 	charts: {
 		NX: ["*1", "*2.5", "*4.5", "*2", "*5"],
@@ -386,7 +377,6 @@ export const newTunes__0A__Exceed = {
 {
 	title: "Power of Dream", artist: "Victoria", channel: WORLD, bpm: "122",
 	arcadeID: "A20",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["1", "7", "14", "6", "15"],
@@ -402,7 +392,6 @@ export const newTunes__0A__Exceed = {
 {
 	title: "Watch Out", artist: "Victoria", channel: WORLD, bpm: "106",
 	arcadeID: "A21",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["3", "6", "10", "6", "12"],
@@ -418,7 +407,6 @@ export const newTunes__0A__Exceed = {
 {
 	title: "Fiesta", artist: "El Cuba", channel: WORLD, bpm: "140",
 	arcadeID: "A22",
-	pumpoutID: "",
 
 	charts: {
 		NX: ["*2", "*3.5", "*5.5", "*3", "*6.5"],
@@ -433,7 +421,6 @@ export const newTunes__0A__Exceed = {
 {
 	title: "Soca Make Yuh Ram Ram", artist: "General Grant", channel: WORLD, bpm: "108",
 	arcadeID: "A23",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["3", "5", "10", "5", "12"],
@@ -449,7 +436,6 @@ export const newTunes__0A__Exceed = {
 {
 	title: "Born to be Alive", artist: "P. Hernandez & B. Thomas", channel: WORLD, bpm: "124",
 	arcadeID: "A24",
-	pumpoutID: "",
 
 	charts: {
 		Exceed2: ["2", "5", "9", "5", "12"],
@@ -462,7 +448,6 @@ export const newTunes__0A__Exceed = {
 {
 	title: "Xibom Bombom", artist: "Los del ritmo", channel: WORLD, bpm: "148",
 	arcadeID: "A25",
-	pumpoutID: "",
 
 	charts: {
 		Exceed2: ["1", "5", "8", "5", "9"],

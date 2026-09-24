@@ -111,7 +111,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Nice to Meet You", artist: "Bae Chi Gi", channel: KPOP, bpm: "117",
 	arcadeID: "E06",
-	pumpoutID: "",
 
 	charts: {
 		NXA: ["2", "5", "14", "5", "14"],
@@ -143,7 +142,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Get My Phone Call", artist: "Mina", channel: KPOP, bpm: "108",
 	arcadeID: "E08",
-	pumpoutID: "",
 
 	charts: {
 		NXA: ["1", "5", "13", "5", "14"],
@@ -156,7 +154,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Shiny Day", artist: "Joanne", channel: KPOP, bpm: "106",
 	arcadeID: "E09",
-	pumpoutID: "",
 
 	charts: {
 		NXA: ["3", "5", "13", "4", "14"],
@@ -169,7 +166,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "A.U. Ready?", artist: "Gil Gun", channel: KPOP, bpm: "94",
 	arcadeID: "E10",
-	pumpoutID: "",
 
 	charts: {
 		NXA: ["1", "5", "10", "5", "12"], NXA_: ["", "", "", "13", "16"],
@@ -185,7 +181,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "V.I.P.", artist: "Bada", channel: KPOP, bpm: "112",
 	arcadeID: "E11",
-	pumpoutID: "",
 
 	charts: {
 		NXA: ["3", "5", "11", "5", "15"],
@@ -269,7 +264,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "It's My Business", artist: "Taiji Boys", bpm: "200",
 	arcadeID: "E14",
-	pumpoutID: "",
 
 	charts: {
 		NXA: ["3", "11", "20", "13", "21"], NXA_: ["", "", "14", "", "17"],
@@ -282,7 +276,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "You Fell in Me", artist: "No Brain", channel: KPOP, bpm: "152",
 	arcadeID: "E15",
-	pumpoutID: "",
 
 	charts: {
 		NXA: ["2", "6", "16", "8", "16"], NXA_: ["", "", "16", "", "17"],
@@ -298,7 +291,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Maelstrom", artist: "Pia", channel: KPOP, bpm: "102",
 	arcadeID: "E16",
-	pumpoutID: "",
 
 	charts: {
 		NXA: ["2", "5", "16", "5", "19"],
@@ -311,7 +303,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Astral Song", artist: "Crying Nut", bpm: "~190",
 	arcadeID: "E17",
-	pumpoutID: "",
 
 	charts: {
 		NXA: ["3", "7", "15", "8", "17"],
@@ -327,7 +318,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "No Despair", artist: "Hot Potato", channel: KPOP, bpm: "160",
 	arcadeID: "E18",
-	pumpoutID: "",
 
 	charts: {
 		NXA: ["2", "6", "19", "8", "21"],
@@ -343,7 +333,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Compunction", artist: "May", channel: KPOP, bpm: "133",
 	arcadeID: "E19",
-	pumpoutID: "",
 
 	charts: {
 		NXA: ["2", "6", "16", "4", "17"],
@@ -377,7 +366,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Come Back Home", artist: "Taiji Boys", bpm: "93",
 	arcadeID: "E21",
-	pumpoutID: "",
 
 	charts: {
 		NXA: ["1", "4", "", "4", ""],
@@ -390,7 +378,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Feel the Soul", artist: "Seo Taiji", bpm: "93.54",
 	arcadeID: "E22",
-	pumpoutID: "",
 
 	charts: {
 		NXA: ["2", "7", "17", "4", "18"],
@@ -549,7 +536,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Tell Me", artist: "Wonder Girls", channel: KPOP, bpm: "127",
 	arcadeID: "E31",
-	pumpoutID: "",
 
 	charts: {
 		NXA: ["1", "5", "12", "5", "14"],
@@ -629,7 +615,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "NX2 K-Pop Remix 1", artist: "U;Nee/Duke/Lee Hyun Do", channel: KPOP, bpm: "136", duration: REMIX,
 	arcadeID: "E54",
-	pumpoutID: "",
 
 	charts: {
 		NXA_: ["", "6", "13", "7", "16"],
@@ -642,7 +627,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "NX2 K-Hip Hop Remix", artist: "Eun Ji Won/Dynamic Duo", channel: KPOP, bpm: "110", duration: REMIX,
 	arcadeID: "E55",
-	pumpoutID: "",
 
 	charts: {
 		NX2_: ["", "7", "14", "", "15"],
@@ -654,7 +638,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Astral Song  [FULL]", artist: "Crying Nut", bpm: "??? (~190)", duration: REMIX,
 	arcadeID: "E56",
-	pumpoutID: "",
 
 	charts: {
 		NX2_: ["", "8", "", "", ""],
@@ -666,7 +649,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "NX2 K-Pop Remix 2", artist: "Mina/Bae Chi Gi", channel: KPOP, bpm: "117", duration: REMIX,
 	arcadeID: "E57",
-	pumpoutID: "",
 
 	charts: {
 		NXA_: ["", "5", "", "", "15"],
@@ -679,7 +661,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "No Despair  [FULL]", artist: "Hot Potato", channel: KPOP, bpm: "160", duration: REMIX,  // REMIX indeed
 	arcadeID: "E58",
-	pumpoutID: "",
 
 	charts: {
 		NX2_: ["", "7", "18", "", "20"],
@@ -691,7 +672,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "NX2 K-Pop Remix 3", artist: "Lee Hyun Do / Som 2", channel: KPOP, bpm: "112", duration: REMIX,
 	arcadeID: "E59",
-	pumpoutID: "",
 
 	charts: {
 		NX2_: ["", "7", "13", "", "13"],
@@ -703,7 +683,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "NX2 Diva Remix", artist: "Joanne / Bada", channel: KPOP, bpm: "120", duration: REMIX,
 	arcadeID: "E60",
-	pumpoutID: "",
 
 	charts: {
 		NXA_: ["", "4", "9", "5", ""],
@@ -721,7 +700,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "It's My Business  [FULL]", artist: "Taiji Boys", bpm: "200",
 	arcadeID: "E70",
-	pumpoutID: "",
 
 	charts: {
 		NX2_: ["", "8", "19", "", "20"],
@@ -733,7 +711,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Very Old Couples  [FULL]", artist: "015B", channel: KPOP, bpm: "121",
 	arcadeID: "E71",
-	pumpoutID: "",
 
 	charts: {
 		NX2_: ["", "6", "14", "", ""],
@@ -745,7 +722,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Come Back Home  [FULL]", artist: "Taiji Boys", bpm: "93",
 	arcadeID: "E72",
-	pumpoutID: "",
 
 	charts: {
 		NXA_: ["1", "3", "", "4", ""],
@@ -758,7 +734,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Feel the Soul  [FULL]", artist: "Seo Taiji", bpm: "187.08",
 	arcadeID: "E73",
-	pumpoutID: "",
 
 	charts: {
 		NX2_: ["", "", "18", "", ""],
@@ -770,7 +745,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "V.I.P  [FULL]", artist: "Bada", channel: KPOP, bpm: "112",
 	arcadeID: "E74",
-	pumpoutID: "",
 
 	charts: {
 		NXA_: ["1", "4", "", "4", ""],
@@ -801,7 +775,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Tell Me  [FULL]", artist: "Wonder Girls", channel: KPOP, bpm: "127",
 	arcadeID: "E77",
-	pumpoutID: "",
 
 	charts: {
 		NXA_: ["", "2", "", "3", ""],
@@ -815,7 +788,6 @@ export const newTunes__0E__NX2 = {
 	title: "Fist of Fury", artist: "Luo Zi Xiang", channel: WORLD, bpm: "92",
 	region: CHINESE,
 	arcadeID: "E92",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["1", "6", "11", "4", "15"],
@@ -828,7 +800,6 @@ export const newTunes__0E__NX2 = {
 	title: "Long Live the Chinese", artist: "Wang Lee Hom", channel: WORLD, bpm: "140",
 	region: CHINESE,
 	arcadeID: "E93",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["2", "6", "10", "4", "15"],
@@ -841,7 +812,6 @@ export const newTunes__0E__NX2 = {
 	title: "Fire", artist: "Karen Mok", channel: WORLD, bpm: "125",
 	region: CHINESE,
 	arcadeID: "E94",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["2", "6", "11", "3", "14"],
@@ -854,7 +824,6 @@ export const newTunes__0E__NX2 = {
 	title: "Wild Game", artist: "Jolin Tsai", channel: WORLD, bpm: "139",
 	region: CHINESE,
 	arcadeID: "E95",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["3", "6", "13", "4", "15"],
@@ -867,7 +836,6 @@ export const newTunes__0E__NX2 = {
 	title: "One Last Chance", artist: "ENERGY", channel: WORLD, bpm: "100",
 	region: CHINESE,
 	arcadeID: "E96",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["1", "4", "11", "3", "10"],
@@ -880,7 +848,6 @@ export const newTunes__0E__NX2 = {
 	title: "Mechanical Doll", artist: "Luo Zi Xiang", channel: WORLD, bpm: "106",
 	region: CHINESE,
 	arcadeID: "E97",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["4", "4", "10", "4", "11"],
@@ -893,7 +860,6 @@ export const newTunes__0E__NX2 = {
 	title: "Take It Off", artist: "Alex", channel: WORLD, bpm: "132",
 	region: CHINESE,
 	arcadeID: "E99",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["3", "6", "10", "4", "17"],

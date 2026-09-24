@@ -167,7 +167,6 @@ export const newTunes__0C__Zero = {
 {
 	title: "Emergency", artist: "Drunken Tiger", channel: KPOP, bpm: "110",
 	arcadeID: "C08",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["2", "5", "12", "5", "14"],
@@ -198,7 +197,6 @@ export const newTunes__0C__Zero = {
 {
 	title: "Wuthering Heights", artist: "Eugene", channel: KPOP, bpm: "138",
 	arcadeID: "C10",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["2", "4", "", "3", ""],
@@ -212,7 +210,6 @@ export const newTunes__0C__Zero = {
 {
 	title: "Do It Yourself", artist: "Lazy Bone", channel: KPOP, bpm: "106",
 	arcadeID: "C11",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["", "6", "13", "7", "14"], NX2_: ["", "", "", "", "17"],
@@ -226,7 +223,6 @@ export const newTunes__0C__Zero = {
 {
 	title: "What's Going On?", artist: "Turtles", channel: KPOP, bpm: "130",
 	arcadeID: "C12",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["3", "3", "7", "5", "8"],
@@ -240,7 +236,6 @@ export const newTunes__0C__Zero = {
 {
 	title: "All Famy", artist: "Eun Ji Won", bpm: "94",
 	arcadeID: "C13",
-	pumpoutID: "",
 
 	charts: {
 		Zero: ["2", "3", "", "4", ""],
@@ -288,7 +283,6 @@ export const newTunes__0C__Zero = {
 {
 	title: "Footprints", artist: "T.O", channel: KPOP, bpm: "135",
 	arcadeID: "C16",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["", "5", "11", "5", "11"],
@@ -302,7 +296,6 @@ export const newTunes__0C__Zero = {
 {
 	title: "Oh My!", artist: "Jang Yoon Jung", channel: KPOP, bpm: "112",
 	arcadeID: "C17",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["2", "4", "10", "4", "11"],
@@ -352,7 +345,6 @@ export const newTunes__0C__Zero = {
 {
 	title: "Turn Around", artist: "Mina", channel: KPOP, bpm: "113",
 	arcadeID: "C20",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["2", "4", "13", "5", "14"],
@@ -366,7 +358,6 @@ export const newTunes__0C__Zero = {
 {
 	title: "I Love You Baby", artist: "Pandera", channel: WORLD, bpm: "100",
 	arcadeID: "C21",
-	pumpoutID: "",
 
 	charts: {
 		NX: ["*1.5", "*2.5", "*5.5", "*2.5", "*6.5"],
@@ -379,7 +370,6 @@ export const newTunes__0C__Zero = {
 {
 	title: "Up Up", artist: "Cachy Huang", channel: WORLD, bpm: "135",
 	arcadeID: "C22",
-	pumpoutID: "",
 
 	charts: {
 		NX: ["*1.5", "*2", "*5", "*2", "*5.5"],
@@ -417,7 +407,6 @@ export const newTunes__0C__Zero = {
 {
 	title: "K-Hip Hop Mix Vol. 1", artist: "Perry/Drunken Tiger/JTL/Eun Ji Won", channel: KPOP, bpm: "110", duration: REMIX,
 	arcadeID: "C42",
-	pumpoutID: "",
 
 	charts: {
 		NX2_: ["", "8", "14", "7", ""],
@@ -431,7 +420,6 @@ export const newTunes__0C__Zero = {
 {
 	title: "Zero K-House Mix Vol. 1", artist: "Turtles/Cho PD/Harisu/Jang Yoon Jung", channel: KPOP, bpm: "136", duration: REMIX,
 	arcadeID: "C43",
-	pumpoutID: "",
 
 	charts: {
 		NX_: ["", "*3.5", "*6.5", "*3", ""],
@@ -444,7 +432,6 @@ export const newTunes__0C__Zero = {
 {
 	title: "Ignition Starts/Hypnosis/Extravaganza Remix", artist: "BanYa", bpm: "146/180/195", duration: REMIX,
 	arcadeID: "C44",
-	pumpoutID: "",
 
 	charts: {
 		Zero_: ["", "??", "??", "??", ""],

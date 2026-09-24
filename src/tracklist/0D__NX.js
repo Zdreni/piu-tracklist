@@ -80,7 +80,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Go Back", artist: "Dynamic Duo", channel: KPOP, bpm: "112",
 	arcadeID: "D04",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["1", "4", "9", "4", "10"],
@@ -126,7 +125,6 @@ export const newTunes__0D__NX = {
 {
 	title: "U Inside My Dim Memory", artist: "Hyun Jin Young vs. Yahpp", channel: KPOP, bpm: "118",
 	arcadeID: "D07",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["3", "6", "14", "4", "18"],
@@ -139,7 +137,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Free!", artist: "Jiny", channel: KPOP, bpm: "175",
 	arcadeID: "D08",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["4", "7", "15", "8", "18"], NX2_: ["", "", "", "5", ""],
@@ -152,7 +149,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Lovely", artist: "Kim Jong Kook", channel: KPOP, bpm: "188",
 	arcadeID: "D09",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["4", "5", "12", "4", "13"],
@@ -165,7 +161,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Terminal Depository", artist: "Ururbu Project", channel: KPOP, bpm: "138",
 	arcadeID: "D10",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["3", "6", "13", "5", "16"],
@@ -204,7 +199,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Handsome Character That Pass", artist: "May", channel: KPOP, bpm: "125",
 	arcadeID: "D13",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["2", "4", "18", "3", "15"], NX2_: ["", "", "13", "", "14"],
@@ -321,7 +315,6 @@ export const newTunes__0D__NX = {
 	title: "Hyun Jin Young Go Jin Young Go", artist: "Hyun Jin Young", channel: KPOP, bpm: "150",
 	shortTitle: "Hyun Jin Young Go",
 	arcadeID: "D19",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["3", "6", "19", "6", "20"],
@@ -334,7 +327,6 @@ export const newTunes__0D__NX = {
 {
 	title: "My Brother is Street Singer", artist: "Park Hyang Lim vs. Yahpp", channel: KPOP, bpm: "129",
 	arcadeID: "D20",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["2", "5", "11", "3", "13"],
@@ -347,7 +339,6 @@ export const newTunes__0D__NX = {
 {
 	title: "So", artist: "Typhoon", channel: KPOP, bpm: "138",
 	arcadeID: "D21",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["1", "6", "12", "2", "12"], NX2_: ["12", "13", "15", "14", "16"],
@@ -360,7 +351,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Hold the Line", artist: "Cho PD & B.E.G.", channel: KPOP, bpm: "126",
 	arcadeID: "D22",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["2", "4", "12", "4", "14"],
@@ -390,7 +380,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Throw 'em Up", artist: "Andrew Kim", channel: WORLD, bpm: "100",
 	arcadeID: "D24",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["2", "5", "14", "5", "15"],
@@ -477,7 +466,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Fire", artist: "Yahpp", bpm: "133",
 	arcadeID: "D29",
-	pumpoutID: "",
 
 	charts: {
 		NX2_: ["", "12", "15", "13", "15"],
@@ -550,7 +538,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Pop House Mix", artist: "Kristeen/Scoop/Fresno", channel: WORLD, bpm: "128-130.5", duration: REMIX,
 	arcadeID: "D33",
-	pumpoutID: "",
 
 	charts: {
 		NX2_: ["", "8", "15", "", "16"],
@@ -624,7 +611,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Chicago Club Mix", artist: "Haley/DVS/Gyfted", channel: WORLD, bpm: "112", duration: REMIX,
 	arcadeID: "D37",
-	pumpoutID: "",
 
 	charts: {
 		NX_: ["", "*5", "@1", "*5.5", "@2"],
@@ -636,7 +622,6 @@ export const newTunes__0D__NX = {
 {
 	title: "U Inside My Dim Memory  [FULL]", artist: "Hyun Jin Young vs. Yahpp", channel: KPOP, bpm: "118",
 	arcadeID: "D38",
-	pumpoutID: "",
 
 	charts: {
 		NX2_: ["", "9", "15", "10", "19"],
@@ -649,7 +634,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Fire  [FULL]", artist: "Yahpp", bpm: "136",
 	arcadeID: "D39",
-	pumpoutID: "",
 
 	charts: {
 		NX2_: ["", "", "19", "", "20"],
@@ -662,7 +646,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Lovely  [FULL]", artist: "Kim Jong Kook", channel: KPOP, bpm: "188",
 	arcadeID: "D40",
-	pumpoutID: "",
 
 	charts: {
 		NX2_: ["", "6", "", "7", ""],
@@ -719,7 +702,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Hold the Line  [FULL]", artist: "Cho PD & B.E.G.", channel: KPOP, bpm: "126",
 	arcadeID: "D43",
-	pumpoutID: "",
 
 	charts: {
 		NX2_: ["", "7", "16", "8", "18"],

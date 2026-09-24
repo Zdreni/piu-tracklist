@@ -11,7 +11,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "Greenhorn", artist: "Lexy", channel: KPOP, bpm: "109",
 	arcadeID: "B01",
-	pumpoutID: "",
 
 	charts: {
 		NXA: ["2", "4", "13", "5", "13"],
@@ -47,7 +46,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "Pray", artist: "Som2", channel: KPOP, bpm: "122",
 	arcadeID: "B03",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["2", "4", "9", "4", "11"],
@@ -61,7 +59,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "Go Away", artist: "B.M.K.", channel: KPOP, bpm: "132",
 	arcadeID: "B04",
-	pumpoutID: "",
 
 	charts: {
 		Zero: ["2", "6", "11", "5", "15"],
@@ -74,7 +71,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "Drunken in Melody", artist: "Eun Ji Won", bpm: "94",
 	arcadeID: "B05",
-	pumpoutID: "",
 
 	charts: {
 		NXA: ["3", "5", "", "5", ""],
@@ -111,7 +107,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "U", artist: "Ju Dain", channel: KPOP, bpm: "111",
 	arcadeID: "B07",
-	pumpoutID: "",
 
 	charts: {
 		Zero: ["3", "6", "11", "6", "14"],
@@ -144,7 +139,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "Typhoon", artist: "Lee Hyun Do", channel: KPOP, bpm: "112",
 	arcadeID: "B09",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["2", "5", "10", "5", "13"],
@@ -159,7 +153,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "Eternity", artist: "Uhm Jung Hwa", channel: KPOP, bpm: "120",
 	arcadeID: "B10",
-	pumpoutID: "",
 
 	charts: {
 		Zero: ["1", "5", "9", "5", "12"],
@@ -172,7 +165,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "Foxy Lady", artist: "Harisu", channel: KPOP, bpm: "130",
 	arcadeID: "B11",
-	pumpoutID: "",
 
 	charts: {
 		NX: ["*1.5", "*2.5", "*6", "*2.5", "*6.5"],
@@ -186,7 +178,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "Too Late", artist: "Shyne", channel: KPOP, bpm: "97",
 	arcadeID: "B12",
-	pumpoutID: "",
 
 	charts: {
 		NX: ["*1.5", "*2", "", "*2.5", ""],
@@ -221,7 +212,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "Huu Yah Yeah", artist: "Y-Me", channel: KPOP, bpm: "110",
 	arcadeID: "B14",
-	pumpoutID: "",
 
 	charts: {
 		NX: ["*1.5", "*3", "*6.5", "*3", "*6.5"],
@@ -235,7 +225,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "We Don't Stop", artist: "Asoto Union", channel: KPOP, bpm: "100",
 	arcadeID: "B15",
-	pumpoutID: "",
 
 	charts: {
 		NX: ["*1", "*2.5", "*5", "*2", "*5.5"],
@@ -349,7 +338,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "Le Code De Bonne Conduite", artist: "Manresa", channel: WORLD, bpm: "171",
 	arcadeID: "B20",
-	pumpoutID: "",
 
 	charts: {
 		NX2: ["4", "5", "12", "8", "15"],
@@ -381,7 +369,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "Lexy & 1TYM Remix", artist: "Lexy/1TYM", channel: KPOP, bpm: "123", duration: REMIX,
 	arcadeID: "B27",
-	pumpoutID: "",
 
 	charts: {
 		Exceed2_: ["", "7", "11", "8", ""],
@@ -444,7 +431,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "Deux Remix", artist: "Deux", channel: KPOP, bpm: "119.5", duration: REMIX,
 	arcadeID: "B30",
-	pumpoutID: "",
 
 	charts: {
 		NX2_: ["", "7", "14", "8", ""],
@@ -459,7 +445,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "Diva's Remix", artist: "BoA*/Shyne/Y*Me", channel: KPOP, bpm: "110", duration: REMIX,
 	arcadeID: "B31",
-	pumpoutID: "",
 
 	charts: {
 		NX_: ["", "*4", "*5.5", "*4.5", ""],
@@ -473,7 +458,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "World Remix", artist: "Mozquito / Down Low / B.M.K. / Uhm Jung Hwa", channel: WORLD, bpm: "128", duration: REMIX,
 	arcadeID: "B50",
-	pumpoutID: "",
 
 	charts: {
 		Exceed2_: ["", "5", "9", "6", ""],
@@ -512,7 +496,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "Novasonic Remix", artist: "Novasonic", bpm: "136", duration: REMIX,
 	arcadeID: "B52",
-	pumpoutID: "",
 
 	charts: {
 		Exceed2_: ["", "7", "11", "9", ""],
@@ -525,7 +508,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "Turbo Remix", artist: "Turbo", channel: KPOP, bpm: "147.7", duration: REMIX,
 	arcadeID: "B53",
-	pumpoutID: "",
 
 	charts: {
 		NX2_: ["", "9", "12", "10", ""],
@@ -555,7 +537,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "Drunken Family Remix", artist: "Drunken Tiger/Honey Family", channel: KPOP, bpm: "95", duration: REMIX,
 	arcadeID: "B55",
-	pumpoutID: "",
 
 	charts: {
 		NX2_: ["", "6", "7", "6", ""],

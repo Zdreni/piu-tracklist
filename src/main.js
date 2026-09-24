@@ -119,35 +119,47 @@ function CopyChartWithRemovedObviousFieldsForApp( track, mixID, chart )
 
 function CopyChartWithRemovedObviousFieldsForDB( track, mixID, chart )
 {
+	chart.level = chart.levelNum;
+	delete chart.levelNum;
+
+	chart.label = chart.text;
+	delete chart.text;	
+
+	if( String( chart.level ) === chart.levelText )
+		delete chart.level;
+
 	var chartIndex = chart.shared.index;
 	delete chart.shared;
 	delete chart.fromMixID;
 
+	delete chart.fromPatchIndex;
+
 	if( chart.isLocked )
 	{
 		if( ! chart.unlockDescr )
-			throw new Error( `No unlock condition specified for ${track.id} ${chart.text}` );
+			throw new Error( `No unlock condition specified for ${track.id} ${chart.label}` );
 		delete chart.isLocked;
 	}
 
-	if( isNaN( chart.levelNum )  ||  chart.levelNum === null )
-		delete chart.levelNum;
+	if( isNaN( chart.level )  ||  chart.level === null )
+		delete chart.level;
 
 	if( chart.tag == "CoOp" )
 	{
-		chart.levelNum = 0;
-		chart.text = chart.text.replace( "CoOp(x", "COOP" ).replace( ")", "" );
+		chart.level = 0;
+		chart.label = chart.label.replace( "CoOp(x", "COOP" ).replace( ")", "" );
 	}
 
 	// stripping out level hint, because we need original chart level text for chart displaying and results matching
-	if( String( chart.levelNum ) !== chart.levelText )
+	if( chart.level )
 	{
-		var hintSuffix = "(" + chart.levelNum + ")";
-		if( chart.text.endsWith( hintSuffix ) )
-			chart.text = chart.text.slice( 0, chart.text.length - hintSuffix.length ).trimEnd();
+		var levelHintSuffix = `(${chart.level})`;
+		if( chart.label.endsWith( levelHintSuffix ) )
+			chart.label = chart.label.slice( 0, chart.label.length - levelHintSuffix.length ).trimEnd();
 	}
 
 	delete chart.tag;
+
 
 	track.charts[ mixID ][ chartIndex ] = chart;
 }
@@ -193,8 +205,9 @@ function ConvertInnerDataToOutput( track, shortenData )
 
 		if( ! track.arcadeName )
 			track.arcadeName = track.title.replace("  [SHORT]", " - SHORT CUT -").replace("  [FULL]", " - FULL SONG");
-		if( ! track.shortTitle )
-			track.shortTitle = track.title;
+		if( track.arcadeName === track.title )
+			delete track.arcadeName;
+
 		delete track.altID;
 	}
 

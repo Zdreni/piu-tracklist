@@ -131,7 +131,6 @@ export const newTunes__04__OBG_SE = {
 {
 	title: "A-Trap", artist: "Baby V.O.X.", channel: KPOP, bpm: "125", fromMix: "OBG_SE",
 	arcadeID: "411",
-	pumpoutID: "",
 
 	charts: {
 		Exceed2: ["1", "4", "12", "4", "13"],

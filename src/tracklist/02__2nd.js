@@ -14,7 +14,6 @@ export const newTunes__02__2nd = {
 {
 	title: "Hate", artist: "BanYa", bpm: "90", fromMix: "2nd",
 	arcadeID: "202",
-	pumpoutID: "",
 
 	charts: {
 		Zero: ["1", "3", "", "4", ""],
@@ -28,7 +27,6 @@ export const newTunes__02__2nd = {
 {
 	title: "Koul", artist: "BanYa", bpm: "102", fromMix: "2nd",
 	arcadeID: "203",
-	pumpoutID: "",
 
 	charts: {
 		Exceed2: ["", "5", "10", "5", ""],
@@ -95,7 +93,6 @@ export const newTunes__02__2nd = {
 {
 	title: "Fighting Spirits", artist: "H.O.T.", channel: KPOP, bpm: "98", fromMix: "2nd",
 	arcadeID: "208",
-	pumpoutID: "",
 
 	charts: {
 		NX: ["*1.5", "", "", "*2.5", ""], NX_: ["", "", "*6.5", "", "@1"], //??? NX: removed at 1.08

@@ -9,11 +9,9 @@ import {
 "18__":
 {
 	title: "", artist: "", channel: , bpm: "", //duration: ,
+	// shortTitle: "",
 	// sortingID: "",
-	sortingBetween: ["", ""],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
+	// sortingBetween: ["", ""],
 
 	charts: {
 		Phoenix2: "",
@@ -29,10 +27,6 @@ export const newTunes__18__Phoenix2 = {
 	title: "The Stranger", artist: "ONF", channel: KPOP, bpm: "116",
 	sortingID: "18__STANDARD_",
 	sortingBetween: [null, "18__T_B_H"],
-	// sortingID: "",
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	charts: {
 		Phoenix2: "@1.01  s2 s4 s6 s9 s15 s18 s20 s22  d10 d16 d19 d22 d25",
@@ -44,9 +38,6 @@ export const newTunes__18__Phoenix2 = {
 {
 	title: "T.B.H.", artist: "QWER", channel: KPOP, bpm: "178",
 	sortingBetween: ["18__The_Stranger", "18__Do_the_Dance"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	charts: {
 		Phoenix2: "s2 s4 s6 s14 s17 s20 s22  d18 d22 d24",
@@ -57,11 +48,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Do_the_Dance":
 {
 	title: "Do the Dance", artist: "ILLIT", channel: KPOP, bpm: "130",
-	// sortingID: "",
 	sortingBetween: ["18__T_B_H", "18__Bang_Bang"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	charts: {
 		Phoenix2: "s1 s3 s5 s8 s15 s17 s20  d7 d16 d18 d22 CoOp(x2)",
@@ -72,11 +59,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Bang_Bang":
 {
 	title: "BANG BANG", artist: "IVE", channel: KPOP, bpm: "152",
-	// sortingID: "",
 	sortingBetween: ["18__Do_the_Dance", "18__404_New_Era"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	charts: {
 		Phoenix2: "S2 S4 S6 S10 S16 S18 S21  D12 D18 D20 D23  CoOp(x2)",
@@ -87,11 +70,7 @@ export const newTunes__18__Phoenix2 = {
 "18__404_New_Era":
 {
 	title: "404 (New Era)", artist: "KiiiKiii", channel: KPOP, bpm: "127",
-	// sortingID: "",
 	sortingBetween: ["18__Bang_Bang", "18__Call_Me_Back"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	charts: {
 		Phoenix2: "s1 s3 s5 s16 s18 s21  d17 d20 d23",
@@ -102,11 +81,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Call_Me_Back":
 {
 	title: "Call Me Back", artist: "TNX", channel: KPOP, bpm: "128",
-	// sortingID: "",
 	sortingBetween: ["18__404_New_Era", "18__Die_Another_Day"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	charts: {
 		Phoenix2: "@1.01  s1 s3 s5 s8 s14 s16 s20  d6 d15 d18 d22",
@@ -117,11 +92,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Die_Another_Day":
 {
 	title: "Die Another Day", artist: "TNX", channel: KPOP, bpm: "98",
-	// sortingID: "",
 	sortingBetween: ["18__Call_Me_Back", "18__Enjoy_the_Show"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	charts: {
 		Phoenix2: "@1.01  s3 s5 s9 s15 s17 s20  d11 d16 d19 d23",
@@ -132,11 +103,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Enjoy_the_Show":
 {
 	title: "Enjoy The Show", artist: "RiraN ft. Negoto Bunnyla", channel: ORIGINAL, bpm: "160",
-	// sortingID: "",
 	sortingBetween: ["18__Die_Another_Day", "18__Punishment_Restaurant"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	charts: {
 		Phoenix2: "s10 s18 s21 s23  d19 d23 d25",
@@ -147,11 +114,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Punishment_Restaurant":
 {
 	title: "Punishment Restaurant", artist: "memme", channel: ORIGINAL, bpm: "175",
-	// sortingID: "",
 	sortingBetween: ["18__Enjoy_the_Show", "18__Ghost_Bloody_Train"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	charts: {
 		Phoenix2: "s4 s8 s11 s17 s21  d14 d18 d22",
@@ -162,11 +125,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Ghost_Bloody_Train":
 {
 	title: "Ghost Bloody Train", artist: "Fiverwater", channel: ORIGINAL, bpm: "192",
-	// sortingID: "",
 	sortingBetween: ["18__Punishment_Restaurant", "18__Blazor"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	charts: {
 		Phoenix2: "@1.01  s11 s15 s18 s21 s23  d17 d20 d23 d25",
@@ -177,11 +136,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Blazor":
 {
 	title: "Blazor", artist: "WONDERTRAVELER Project", channel: ORIGINAL, bpm: "161",
-	// sortingID: "",
 	sortingBetween: ["18__Ghost_Bloody_Train", "18__B3"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	charts: {
 		Phoenix2: "s11 s15 s18 s20 s22  d18 d20 d22 d24",
@@ -192,11 +147,7 @@ export const newTunes__18__Phoenix2 = {
 "18__B3":
 {
 	title: "B3", artist: "MAX", channel: ORIGINAL, bpm: "160",
-	// sortingID: "",
 	sortingBetween: ["18__Blazor", "18__Digitalis"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	charts: {
 		Phoenix2: "s7 s11 s16 s18 s20  d12 d18 d21",
@@ -207,11 +158,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Digitalis":
 {
 	title: "Digitalis", artist: "NeLiME", channel: ORIGINAL, bpm: "160",
-	// sortingID: "",
 	sortingBetween: ["18__B3", "18__The_Last_Rebellion"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	charts: {
 		Phoenix2: "s11 s14 s18 s21  d16 d21 d24",
@@ -222,11 +169,7 @@ export const newTunes__18__Phoenix2 = {
 "18__The_Last_Rebellion":
 {
 	title: "The Last Rebellion", artist: "MonstDeath", channel: ORIGINAL, bpm: "199",
-	// sortingID: "",
 	sortingBetween: ["18__Digitalis", "18__Overnight_Flower"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	charts: {
 		Phoenix2: "s16 s19 s21 s23  d21 d23 d25",
@@ -237,11 +180,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Overnight_Flower":
 {
 	title: "OVERNIGHT FLOWER", artist: "P*Light", channel: ORIGINAL, bpm: "210",
-	// sortingID: "",
 	sortingBetween: ["18__The_Last_Rebellion", "18__Legendary_Dominion"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	charts: {
 		Phoenix2: "s12 s16 s19 s22 s24  d18 d20 d24 d26",
@@ -252,11 +191,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Legendary_Dominion":
 {
 	title: "Legendary Dominion", artist: "Laur", channel: ORIGINAL, bpm: "210",
-	// sortingID: "",
 	sortingBetween: ["18__Overnight_Flower", "18__L"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	charts: {
 		Phoenix2: "s16 s20 s22 s25  d21 d25 d27",
@@ -266,12 +201,9 @@ export const newTunes__18__Phoenix2 = {
 
 "18__L":
 {
-	title: "L", artist: "Ice", channel: WORLD, bpm: "155",
-	// sortingID: "",
+	title: "L (PIU Edit)", artist: "Ice", channel: WORLD, bpm: "155",
+	shortTitle: "L",
 	sortingBetween: ["18__Legendary_Dominion", "18__Can_I_friend_you_on_Bassbook_lol"],
-	// arcadeID: "",
-	pumpoutID: "",
-	arcadeName: "L (PIU Edit)",
 
 	charts: {
 		Phoenix2: "@1.01  s12 s18 s22 s24  d19 d24 d27",
@@ -282,11 +214,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Can_I_friend_you_on_Bassbook_lol":
 {
 	title: "Can I friend you on Bassbook? lol", artist: "Camellia & Nanahira", channel: WORLD, bpm: "128",
-	// sortingID: "",
 	sortingBetween: ["18__L", "18__Crash_Landing_Rendezvous"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	charts: {
 		Phoenix2: "@1.01  s4 s7 s11 s17 s19 s22  d11 d20 d25",
@@ -298,11 +226,7 @@ export const newTunes__18__Phoenix2 = {
 {
 	title: "Crash-Landing Rendezvous", artist: "Xyris", channel: WORLD, bpm: "128~190",
 	altID: "18__Crash_Landing_Rengezvous",
-	// sortingID: "",
 	sortingBetween: ["18__Can_I_friend_you_on_Bassbook_lol", "18__Quattuorux"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	charts: {
 		Phoenix2: "s13 s16 s19 s22  d17 d21 d24  hd16 hd20 hd23",
@@ -313,11 +237,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Quattuorux":
 {
 	title: "QUATTUORUX", artist: "D-D-Dice Vs. Tanchiky Vs. Karameru", channel: WORLD, bpm: "220",
-	// sortingID: "",
 	sortingBetween: ["18__Crash_Landing_Rendezvous", "18__Nighttheater"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	charts: {
 		Phoenix2: "s15 s19 s22 s24  d17 d21 d24 d26",
@@ -328,11 +248,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Nighttheater":
 {
 	title: "NightTheater", artist: "*wakadori", channel: WORLD, bpm: "151",
-	// sortingID: "",
 	sortingBetween: ["18__Quattuorux", "18__Infinite_Energy_Overdoze"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	charts: {
 		Phoenix2: "s12 s15 s18 s21  d16 d19 d22",
@@ -343,11 +259,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Infinite_Energy_Overdoze":
 {
 	title: "INFiNiTE ENERGY -Overdoze-", artist: "Reku Mochizuki", channel: WORLD, bpm: "180",
-	// sortingID: "",
 	sortingBetween: ["18__Nighttheater", "18__Freedom_Dive"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	charts: {
 		Phoenix2: "s13 s16 s18 s21 s23  d19 d22 d25",
@@ -358,11 +270,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Freedom_Dive":
 {
 	title: "FREEDOM DiVE", artist: "xi", channel: WORLD, bpm: "222.22",
-	// sortingID: "",
 	sortingBetween: ["18__Infinite_Energy_Overdoze", "18__Dreamchasers"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	charts: {
 		Phoenix2: "s13 s17 s22 s25  d18 d24 d27",
@@ -373,11 +281,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Dreamchasers":
 {
 	title: "Dreamchasers", artist: "s-don", channel: XROSS, bpm: "155",
-	// sortingID: "",
 	sortingBetween: ["18__Freedom_Dive", "18__Super_Haraguro_Pop"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	charts: {
 		Phoenix2: "s12 s15 s17 s20  d17 d20 d22",
@@ -387,12 +291,9 @@ export const newTunes__18__Phoenix2 = {
 
 "18__Super_Haraguro_Pop":
 {
-	title: "SUPER*HARAGURO*POP", artist: "Zekk", channel: XROSS, bpm: "160",
-	// sortingID: "",
+	title: "SUPER☆HARAGURO☆POP", artist: "Zekk", channel: XROSS, bpm: "160",
+	shortTitle: "Super Haraguro Pop",
 	sortingBetween: ["18__Dreamchasers", null],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	charts: {
 		Phoenix2: "s4 s7 s10 s12 s16 s18 s20 s22  d17 d20 d22 d24",
@@ -409,9 +310,6 @@ export const newTunes__18__Phoenix2 = {
 
 	sortingID: "18__RISE_",
 	sortingBetween: [null, "18__Rise_Up"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	steamLinkExclusive: true,
 
@@ -423,12 +321,9 @@ export const newTunes__18__Phoenix2 = {
 
 "18__Rise_Up":
 {
-	title: "Rise Up", artist: "memme", channel: RISE, bpm: "190",
-
+	title: "Rise Up (feat. Miori Celesta)", artist: "memme", channel: RISE, bpm: "190",
+	shortTitle: "Rise Up",
 	sortingBetween: ["18__Cynical", "18__Ercitite"],
-	// arcadeID: "",
-	pumpoutID: "",
-	arcadeName: "Rise Up (feat. Miori Celesta)",
 
 	steamLinkExclusive: true,
 
@@ -441,11 +336,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Ercitite":
 {
 	title: "Ercitite", artist: "Doin x neur6sia", channel: RISE, bpm: "135",
-
 	sortingBetween: ["18__Rise_Up", "18__Kings_Tomb"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	steamLinkExclusive: true,
 
@@ -458,11 +349,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Kings_Tomb":
 {
 	title: "King's Tomb", artist: "r300k", channel: RISE, bpm: "113",
-
 	sortingBetween: ["18__Ercitite", "18__Dizzy_Dance_Street_Light"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	steamLinkExclusive: true,
 
@@ -475,11 +362,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Dizzy_Dance_Street_Light":
 {
 	title: "Dizzy Dance, Street Light", artist: "WyvernP", channel: RISE, bpm: "128",
-
 	sortingBetween: ["18__Kings_Tomb", "18__Unfelicitas"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	steamLinkExclusive: true,
 
@@ -492,11 +375,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Unfelicitas":
 {
 	title: "Unfelicitas", artist: "Fiverwater", channel: RISE, bpm: "192",
-
 	sortingBetween: ["18__Dizzy_Dance_Street_Light", "18__Pull_me_up"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	steamLinkExclusive: true,
 
@@ -508,12 +387,9 @@ export const newTunes__18__Phoenix2 = {
 
 "18__Pull_me_up":
 {
-	title: "Pull me up", artist: "Applesoda", channel: RISE, bpm: "160",
-
+	title: "Pull me up (Feat. Monya)", artist: "Applesoda", channel: RISE, bpm: "160",
+	shortTitle: "Pull me up",
 	sortingBetween: ["18__Unfelicitas", "18__Antique_Serenade"],
-	// arcadeID: "",
-	pumpoutID: "",
-	arcadeName: "Pull me up (Feat. Monya)",
 
 	steamLinkExclusive: true,
 
@@ -526,11 +402,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Antique_Serenade":
 {
 	title: "Antique Serenade", artist: "Abel", channel: RISE, bpm: "214",
-
 	sortingBetween: ["18__Pull_me_up", "18__We_Love_Your_Step"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	steamLinkExclusive: true,
 
@@ -543,11 +415,7 @@ export const newTunes__18__Phoenix2 = {
 "18__We_Love_Your_Step":
 {
 	title: "We Love Your Step", artist: "EmoCosine", channel: RISE, bpm: "205",
-
 	sortingBetween: ["18__Antique_Serenade", "18__Lucky_Star"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	steamLinkExclusive: true,
 
@@ -560,11 +428,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Lucky_Star":
 {
 	title: "Lucky Star", artist: "INFX feat. Miori Celesta", channel: RISE, bpm: "180",
-
 	sortingBetween: ["18__We_Love_Your_Step", "18__Transmission"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	steamLinkExclusive: true,
 
@@ -577,11 +441,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Transmission":
 {
 	title: "Transmission", artist: "Sakuzyo", channel: RISE, bpm: "100~225",
-
 	sortingBetween: ["18__Lucky_Star", "18__Chess_and_Chase"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	steamLinkExclusive: true,
 
@@ -594,11 +454,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Chess_and_Chase":
 {
 	title: "Chess and Chase", artist: "litmus* ft. CielA", channel: RISE, bpm: "128",
-
 	sortingBetween: ["18__Transmission", "18__Sylaphz"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	steamLinkExclusive: true,
 
@@ -611,11 +467,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Sylaphz":
 {
 	title: "Sylaphz", artist: "onoken", channel: RISE, bpm: "204",
-
 	sortingBetween: ["18__Chess_and_Chase", "18__Pastry_mix"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	steamLinkExclusive: true,
 
@@ -628,11 +480,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Pastry_mix":
 {
 	title: "Pastry mix", artist: "Sobrem", channel: RISE, bpm: "180",
-
 	sortingBetween: ["18__Sylaphz", "18__Love_Witch"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	steamLinkExclusive: true,
 
@@ -645,11 +493,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Love_Witch":
 {
 	title: "Love Witch", artist: "SHK", channel: RISE, bpm: "155~170",
-
 	sortingBetween: ["18__Pastry_mix", "18__Galactic_Metronome"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	steamLinkExclusive: true,
 
@@ -662,11 +506,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Galactic_Metronome":
 {
 	title: "Galactic Metronome", artist: "Essbee", channel: RISE, bpm: "216",
-
 	sortingBetween: ["18__Love_Witch", "18__Under_the_Christmas_Stars"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	steamLinkExclusive: true,
 
@@ -679,11 +519,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Under_the_Christmas_Stars":
 {
 	title: "Under the Christmas Stars", artist: "MAX", channel: RISE, bpm: "128",
-
 	sortingBetween: ["18__Galactic_Metronome", "18__Skybound"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	steamLinkExclusive: true,
 
@@ -696,11 +532,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Skybound":
 {
 	title: "Skybound", artist: "Yamajet", channel: RISE, bpm: "192",
-
 	sortingBetween: ["18__Under_the_Christmas_Stars", "18__Drop_Frontier"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	steamLinkExclusive: true,
 
@@ -713,11 +545,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Drop_Frontier":
 {
 	title: "DROP FRONT!ER", artist: "xi", channel: RISE, bpm: "223",
-
 	sortingBetween: ["18__Skybound", "18__Morrighan"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	steamLinkExclusive: true,
 
@@ -730,11 +558,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Morrighan":
 {
 	title: "Morrighan", artist: "ryhki", channel: RISE, bpm: "160",
-
 	sortingBetween: ["18__Drop_Frontier", "18__Galactic_Terminus"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	steamLinkExclusive: true,
 
@@ -747,11 +571,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Galactic_Terminus":
 {
 	title: "Galactic Terminus", artist: "Reku Mochizuki", channel: RISE, bpm: "145",
-
 	sortingBetween: ["18__Morrighan", "18__The_Last_Stand"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	steamLinkExclusive: true,
 
@@ -764,11 +584,7 @@ export const newTunes__18__Phoenix2 = {
 "18__The_Last_Stand":
 {
 	title: "The Last Stand", artist: "3R2", channel: RISE, bpm: "172",
-
 	sortingBetween: ["18__Galactic_Terminus", "18__The_Deconstruction"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	steamLinkExclusive: true,
 
@@ -781,11 +597,7 @@ export const newTunes__18__Phoenix2 = {
 "18__The_Deconstruction":
 {
 	title: "The Deconstruction", artist: "Hommarju", channel: RISE, bpm: "195",
-
 	sortingBetween: ["18__The_Last_Stand", "18__Reincarnate_in_A"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	steamLinkExclusive: true,
 
@@ -798,11 +610,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Reincarnate_in_A":
 {
 	title: "Reincarnate in \"A\"", artist: "TAG underground overlay", channel: RISE, bpm: "65~220",
-
 	sortingBetween: ["18__The_Deconstruction", "18__Burning_SuperNova"],
-	// arcadeID: "",
-	pumpoutID: "",
-	// arcadeName: "",
 
 	steamLinkExclusive: true,
 
@@ -814,12 +622,9 @@ export const newTunes__18__Phoenix2 = {
 
 "18__Burning_SuperNova":
 {
-	title: "Burning SuperNova", artist: "Palami", channel: RISE, bpm: "210",
-
+	title: "Burning SuperNova feat. neur6sia", artist: "Palami", channel: RISE, bpm: "210",
+	shortTitle: "Burning SuperNova",
 	sortingBetween: ["18__Reincarnate_in_A", null],
-	// arcadeID: "",
-	pumpoutID: "",
-	arcadeName: "Burning SuperNova feat. neur6sia",
 
 	steamLinkExclusive: true,
 
