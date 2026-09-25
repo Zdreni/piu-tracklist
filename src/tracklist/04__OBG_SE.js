@@ -12,7 +12,6 @@ export const newTunes__04__OBG_SE = {
 	title: "Oh! Rosa", artist: "BanYa", bpm: "148", fromMix: "OBG_SE",
 	arcadeName: "Oh! Rosa!",
 	arcadeID: "401",
-	pumpoutID: 498,
 
 	charts: {
 		Phoenix2: "= s10`9  hd10 hd22",
@@ -33,7 +32,6 @@ export const newTunes__04__OBG_SE = {
 {
 	title: "First Love", artist: "BanYa", bpm: "104", fromMix: "OBG_SE",
 	arcadeID: "402",
-	pumpoutID: 443,
 
 	charts: {
 		Phoenix2: "=  hd14 hd17",
@@ -53,7 +51,6 @@ export const newTunes__04__OBG_SE = {
 {
 	title: "Betrayer", artist: "BanYa", bpm: "92", fromMix: "OBG_SE",
 	arcadeID: "403",
-	pumpoutID: 441,
 
 	charts: {
 		Phoenix2: "= D14`13",
@@ -73,7 +70,6 @@ export const newTunes__04__OBG_SE = {
 {
 	title: "Solitary", artist: "BanYa", bpm: "136", fromMix: "OBG_SE",
 	arcadeID: "404",
-	pumpoutID: 5,
 
 	charts: {
 		Phoenix2: "= d12`10  hd10 hd17",
@@ -99,7 +95,6 @@ export const newTunes__04__OBG_SE = {
 {
 	title: "Mr. Larpus", artist: "BanYa", bpm: "190", fromMix: "OBG_SE",
 	arcadeID: "405",
-	pumpoutID: 7,
 
 	charts: {
 		Phoenix2: "= d17`16 d19`18 d24`23  hd14 hd17 hd21",
@@ -145,7 +140,6 @@ export const newTunes__04__OBG_SE = {
 {
 	title: "Run!", artist: "Novasonic", bpm: "140", fromMix: "OBG_SE",
 	arcadeID: "413",
-	pumpoutID: 447,
 
 	charts: {
 		Fiesta2: "=",
@@ -163,7 +157,6 @@ export const newTunes__04__OBG_SE = {
 {
 	title: "Run to You", artist: "DJ DOC", channel: KPOP, bpm: "132", fromMix: "OBG_SE",
 	arcadeID: "414",
-	pumpoutID: 18,
 
 	charts: {
 		Prime: "=",

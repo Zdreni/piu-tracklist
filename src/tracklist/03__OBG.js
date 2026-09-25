@@ -11,7 +11,6 @@ export const newTunes__03__OBG = {
 {
 	title: "Final Audition 2", artist: "BanYa", bpm: "130", fromMix: "OBG",
 	arcadeID: "301",
-	pumpoutID: 8,
 
 	charts: {
 		Phoenix2: "=  hd11 hd17 hd18",
@@ -36,7 +35,6 @@ export const newTunes__03__OBG = {
 {
 	title: "Naissance", artist: "BanYa", bpm: "136", fromMix: "OBG",
 	arcadeID: "302",
-	pumpoutID: 9,
 
 	charts: {
 		Phoenix2: "= s21`20  hd10 hd15",
@@ -62,7 +60,6 @@ export const newTunes__03__OBG = {
 {
 	title: "Turkey March", artist: "BanYa", bpm: "150", fromMix: "OBG",
 	arcadeID: "303",
-	pumpoutID: 10,
 
 	charts: {
 		Phoenix2: "=  hd11 hd17 hd19",
@@ -88,7 +85,6 @@ export const newTunes__03__OBG = {
 {
 	title: "With My Lover", artist: "BanYa", bpm: "124", fromMix: "OBG",
 	arcadeID: "304",
-	pumpoutID: 762,
 
 	charts: {
 		Phoenix2: "=  hd13 hd17",
@@ -106,7 +102,6 @@ export const newTunes__03__OBG = {
 {
 	title: "An Interesting View", artist: "BanYa", bpm: "160", fromMix: "OBG",
 	arcadeID: "305",
-	pumpoutID: 761,
 
 	charts: {
 		Phoenix2: "=  hd17 hd21",
@@ -123,7 +118,6 @@ export const newTunes__03__OBG = {
 	title: "Nightmare", artist: "BanYa", bpm: "120", fromMix: "OBG",
 	arcadeName: "A Nightmare",
 	arcadeID: "306",
-	pumpoutID: 440,
 
 	charts: {
 		Phoenix2: "= d15`14  hd10 hd13",
@@ -143,7 +137,6 @@ export const newTunes__03__OBG = {
 {
 	title: "Close Your Eye", artist: "BanYa", bpm: "105", fromMix: "OBG",
 	arcadeID: "307",
-	pumpoutID: 442,
 
 	charts: {
 		Phoenix2: "=  hd8 hd17",
@@ -161,7 +154,6 @@ export const newTunes__03__OBG = {
 {
 	title: "Free Style", artist: "BanYa", bpm: "99", fromMix: "OBG",
 	arcadeID: "308",
-	pumpoutID: 444,
 
 	charts: {
 		Phoenix2: "= d16`15  hd11 hd14",
@@ -180,7 +172,6 @@ export const newTunes__03__OBG = {
 {
 	title: "Midnight Blue", artist: "BanYa", bpm: "80", fromMix: "OBG",
 	arcadeID: "309",
-	pumpoutID: 11,
 
 	charts: {
 		Phoenix2: "=  hd7 hd11",
@@ -199,7 +190,6 @@ export const newTunes__03__OBG = {
 {
 	title: "She Likes Pizza", artist: "BanYa", bpm: "230", fromMix: "OBG",
 	arcadeID: "310",
-	pumpoutID: 448,
 
 	charts: {
 		Phoenix2: "= d24`23  hd9 hd17 hd23",
@@ -223,7 +213,6 @@ export const newTunes__03__OBG = {
 {
 	title: "Pumping Up", artist: "BanYa", bpm: "135", fromMix: "OBG",
 	arcadeID: "311",
-	pumpoutID: 500,
 
 	charts: {
 		Phoenix2: "=",
@@ -244,7 +233,6 @@ export const newTunes__03__OBG = {
 {
 	title: "Don't Bother Me", artist: "Tashannie", channel: KPOP, bpm: "110", fromMix: "OBG",
 	arcadeID: "312",
-	pumpoutID: 19,
 
 	charts: {
 		Prime2: "=",
@@ -297,7 +285,6 @@ export const newTunes__03__OBG = {
 {
 	title: "We Are", artist: "Deux", channel: KPOP, bpm: "116", fromMix: "OBG",
 	arcadeID: "318",
-	pumpoutID: 20,
 
 	charts: {
 		Prime: "=",

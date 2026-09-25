@@ -11,7 +11,6 @@ export const newTunes__0C__Zero = {
 {
 	title: "Beat of the War 2", artist: "BanYa", bpm: "190",
 	arcadeID: "C01",
-	pumpoutID: 47,
 
 	charts: {
 		Phoenix2: "= d21`20  hd13 hd19",
@@ -34,7 +33,6 @@ export const newTunes__0C__Zero = {
 {
 	title: "Moonlight", artist: "BanYa", bpm: "180",
 	arcadeID: "C02",
-	pumpoutID: 48,
 
 	charts: {
 		Phoenix2: "= s20`19 d22`21 d25`24  hd12 hd19 hd20 hd22",
@@ -57,7 +55,6 @@ export const newTunes__0C__Zero = {
 {
 	title: "Witch Doctor", artist: "BanYa", bpm: "195",
 	arcadeID: "C03",
-	pumpoutID: 49,
 
 	charts: {
 		Phoenix2: "= s12`11  hd19 hd22",
@@ -82,7 +79,6 @@ export const newTunes__0C__Zero = {
 	title: "Love is a Danger Zone 2", artist: "BanYa", bpm: "162",
 	arcadeName: "Love is a Danger Zone pt. 2",
 	arcadeID: "C04",
-	pumpoutID: 50,
 
 	charts: {
 		Phoenix2: "= s16`15  hd17 hd22",
@@ -105,7 +101,6 @@ export const newTunes__0C__Zero = {
 {
 	title: "Phantom", artist: "BanYa", bpm: "136",
 	arcadeID: "C05",
-	pumpoutID: 51,
 
 	charts: {
 		Phoenix2: "= d20`19  hd15 hd20",
@@ -131,7 +126,6 @@ export const newTunes__0C__Zero = {
 {
 	title: "Papa Gonzales", artist: "BanYa", bpm: "145",
 	arcadeID: "C06",
-	pumpoutID: 52,
 
 	charts: {
 		Phoenix2: "=  hd19 hd23",
@@ -152,7 +146,6 @@ export const newTunes__0C__Zero = {
 {
 	title: "Jump", artist: "BanYa", bpm: "96",
 	arcadeID: "C07",
-	pumpoutID: 764,
 
 	charts: {
 		Phoenix2: "=  hd7 hd13",
@@ -180,7 +173,6 @@ export const newTunes__0C__Zero = {
 {
 	title: "My Friend", artist: "Cho PD", channel: KPOP, bpm: "127",
 	arcadeID: "C09",
-	pumpoutID: 428,
 
 	charts: {
 		Fiesta2: "=",
@@ -247,7 +239,6 @@ export const newTunes__0C__Zero = {
 {
 	title: "Chung Hwa Ban Jeom", artist: "Louis", channel: KPOP, bpm: "150",
 	arcadeID: "C14",
-	pumpoutID: 70,
 
 	charts: {
 		Prime2: "=",
@@ -265,7 +256,6 @@ export const newTunes__0C__Zero = {
 {
 	title: "Mr. Fire Fighter", artist: "Spooky Banana", channel: KPOP, bpm: "158",
 	arcadeID: "C15",
-	pumpoutID: 427,
 
 	charts: {
 		Fiesta2: "=",
@@ -309,7 +299,6 @@ export const newTunes__0C__Zero = {
 {
 	title: "Enter the Dragon", artist: "JTL", channel: KPOP, bpm: "110",
 	arcadeID: "C18",
-	pumpoutID: 425,
 
 	charts: {
 		Fiesta2: "=",
@@ -327,7 +316,6 @@ export const newTunes__0C__Zero = {
 {
 	title: "Storm", artist: "Perry", channel: KPOP, bpm: "96",
 	arcadeID: "C19",
-	pumpoutID: 430,
 
 	charts: {
 		Fiesta2: "=",
@@ -384,7 +372,6 @@ export const newTunes__0C__Zero = {
 	shortTitle: "Love is a Danger Zone (B.P.M.)",
 	arcadeName: "Love is a danger zone 2 (try to B.P.M.)",
 	arcadeID: "C41",
-	pumpoutID: 53,
 
 	charts: {
 		Phoenix2: "=",
@@ -451,7 +438,6 @@ export const newTunes__0C__Zero = {
 	altID: "DC04",
 	arcadeID: "C1C04",
 	sortingID: "C41__1",  // after LIADZ Try To BPM (C41)
-	pumpoutID: 54,
 
 	charts: {
 		Phoenix2: "=",

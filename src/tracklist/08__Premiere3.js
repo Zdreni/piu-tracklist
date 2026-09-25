@@ -23,7 +23,6 @@ export const newTunes__08__Premiere3 = {
 {
 	title: "Bee", artist: "BanYa", bpm: "160", fromMix: "Premiere3",
 	arcadeID: "802",
-	pumpoutID: 25,
 
 	charts: {
 		Phoenix2: "=",
@@ -99,7 +98,6 @@ export const newTunes__08__Premiere3 = {
 {
 	title: "D Gang", artist: "BanYa", bpm: "150", fromMix: "Premiere3",
 	arcadeID: "807",
-	pumpoutID: 431,
 
 	charts: {
 		Phoenix2: "= S13`11",
@@ -156,7 +154,6 @@ export const newTunes__08__Premiere3 = {
 {
 	title: "Hello", artist: "BanYa", bpm: "140", fromMix: "Premiere3",
 	arcadeID: "811",
-	pumpoutID: 434,
 
 	charts: {
 		Phoenix2: "= d19`18  hd17 hd20",
@@ -275,7 +272,6 @@ export const newTunes__08__Premiere3 = {
 {
 	title: "Beat of the War", artist: "BanYa", bpm: "190 ~ 140 ~ 202", fromMix: "Premiere3",
 	arcadeID: "820",
-	pumpoutID: 26,
 
 	charts: {
 		Phoenix2: "=  hd19 hd23",
@@ -299,7 +295,6 @@ export const newTunes__08__Premiere3 = {
 {
 	title: "Empire of the Sun", artist: "Novasonic", bpm: "118", fromMix: "Premiere3",
 	arcadeID: "821",
-	pumpoutID: 432,
 
 	charts: {
 		Fiesta2: "=",
@@ -333,7 +328,6 @@ export const newTunes__08__Premiere3 = {
 {
 	title: "Come to Me", artist: "BanYa", bpm: "100 ~ 107", fromMix: "Premiere3",
 	arcadeID: "826",
-	pumpoutID: 27,
 
 	charts: {
 		Phoenix2: "= S18`17",

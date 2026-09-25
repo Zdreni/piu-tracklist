@@ -12,7 +12,6 @@ export const newTunes__10__Fiesta = {
 	title: "X-Tree", artist: "Yahpp", bpm: "190",
 	arcadeName: "XTREE",
 	arcadeID: "1001",
-	pumpoutID: 129,
 
 	charts: {
 		Phoenix2: "= s15`14 d17`16  hd15 hd20 hd21",
@@ -31,7 +30,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Sorceress Elise", artist: "Yahpp", bpm: "158",
 	arcadeID: "1002",
-	pumpoutID: 130,
 
 	charts: {
 		Phoenix2: "= s22`21  hd11 hd17 hd24",
@@ -52,7 +50,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Betrayer -Act. 2-", artist: "msgoon", channel: ORIGINAL, bpm: "92",
 	arcadeID: "1003",
-	pumpoutID: 369,
 
 	charts: {
 		Phoenix2: "=  hd6 hd15",
@@ -70,7 +67,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Good Life", artist: "Drunken Tiger", channel: KPOP, bpm: "98.2",
 	arcadeID: "1004",
-	pumpoutID: 377,
 
 	charts: {
 		Fiesta2: "=",
@@ -84,7 +80,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Big Beat", artist: "NOW", channel: KPOP, bpm: "104",
 	arcadeID: "1005",
-	pumpoutID: 370,
 
 	charts: {
 		Fiesta2: "=",
@@ -98,7 +93,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Exciting", artist: "Dynamic Duo", channel: KPOP, bpm: "104",
 	arcadeID: "1006",
-	pumpoutID: 374,
 
 	charts: {
 		Fiesta2: "=",
@@ -112,7 +106,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "By Chance", artist: "Baby V.O.X.", channel: KPOP, bpm: "127",
 	arcadeID: "1007",
-	pumpoutID: 371,
 
 	charts: {
 		Fiesta2: "=",
@@ -126,7 +119,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "U Got 2 Know", artist: "MAX", channel: ORIGINAL, bpm: "127",
 	arcadeID: "1008",
-	pumpoutID: 131,
 
 	charts: {
 		Phoenix2: "=  hd9 hd17",
@@ -146,7 +138,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "To the Sky", artist: "Lexy", channel: KPOP, bpm: "130",
 	arcadeID: "1009",
-	pumpoutID: 389,
 
 	charts: {
 		Fiesta2: "=",
@@ -160,7 +151,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "The Angel Who Lost Wings", artist: "Roo'ra", channel: KPOP, bpm: "135",
 	arcadeID: "1010",
-	pumpoutID: 388,
 
 	charts: {
 		Fiesta2: "=",
@@ -174,7 +164,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Innocent", artist: "Koyote", channel: KPOP, bpm: "137",
 	arcadeID: "1011",
-	pumpoutID: 379,
 
 	charts: {
 		Fiesta2: "=",
@@ -188,7 +177,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Enjoy! Enjoy!", artist: "Mudagang", channel: KPOP, bpm: "138",
 	arcadeID: "1012",
-	pumpoutID: 373,
 
 	charts: {
 		Fiesta2: "=",
@@ -203,7 +191,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Destination", artist: "SHK", channel: ORIGINAL, bpm: "150",
 	arcadeID: "1013",
-	pumpoutID: 132,
 
 	charts: {
 		Phoenix2: "= s21`20  hd14 hd20",
@@ -222,7 +209,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Twist King", artist: "Turbo", channel: KPOP, bpm: "156",
 	arcadeID: "1014",
-	pumpoutID: 853,
 
 	charts: {
 		Fiesta2: "=",
@@ -240,7 +226,6 @@ export const newTunes__10__Fiesta = {
 		"Fiesta2": { banner: "10__Fire" },
 	},
 	arcadeID: "1015",
-	pumpoutID: 375,
 
 	charts: {
 		Fiesta2: "=",
@@ -254,7 +239,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Wanna", artist: "Kara", bpm: "161",
 	arcadeID: "1016",
-	pumpoutID: 390,
 
 	charts: {
 		Fiesta2: "=",
@@ -268,7 +252,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Vacuum", artist: "Doin", channel: ORIGINAL, bpm: "200",
 	arcadeID: "1017",
-	pumpoutID: 133,
 
 	charts: {
 		Phoenix2: "= d17`16 d22`21  hd16 hd22 hd25",
@@ -287,7 +270,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Narcisista Por Excelencia", artist: "PXNDX", bpm: "164",
 	arcadeID: "1018",
-	pumpoutID: 168,
 
 	charts: {
 		Prime2: "=",
@@ -303,7 +285,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "No Rhyme No Reason", artist: "LTJ X-Perience", channel: WORLD, bpm: "110",
 	arcadeID: "1019",
-	pumpoutID: 384,
 
 	charts: {
 		Fiesta2: "=",
@@ -317,7 +298,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "80's Pop", artist: "Energy Presents", channel: WORLD, bpm: "128",
 	arcadeID: "1020",
-	pumpoutID: 368,
 
 	charts: {
 		Fiesta2: "=",
@@ -332,7 +312,6 @@ export const newTunes__10__Fiesta = {
 	title: "Do It -Reggae Style-", artist: "BanYa Production", bpm: "96",
 	arcadeName: "Do It reggae Style",
 	arcadeID: "1021",
-	pumpoutID: 372,
 
 	charts: {
 		Phoenix2: "=  hd5 hd15",
@@ -350,7 +329,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Xenesis", artist: "BanYa Production", bpm: "152",
 	arcadeID: "1022",
-	pumpoutID: 134,
 
 	charts: {
 		Phoenix2: "= d14`13  hd13 hd15 hd18",
@@ -369,7 +347,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Arirang", artist: "BanYa Production", bpm: "160",
 	arcadeID: "1023",
-	pumpoutID: 135,
 
 	charts: {
 		Phoenix2: "=  hd13 hd21",
@@ -388,7 +365,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Tek -Club Copenhagen-", artist: "BanYa Production", bpm: "132",
 	arcadeID: "1024",
-	pumpoutID: 136,
 
 	charts: {
 		Phoenix2: "= s4`3  hd6 hd16",
@@ -407,7 +383,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Hello William", artist: "BanYa Production", bpm: "170",
 	arcadeID: "1025",
-	pumpoutID: 137,
 
 	charts: {
 		Phoenix2: "=  hd12 hd20",
@@ -428,7 +403,6 @@ export const newTunes__10__Fiesta = {
 	title: "Turkey March -Minimal Tunes-", artist: "BanYa Production", bpm: "130",
 	shortTitle: "Turkey March -Minimal-",
 	arcadeID: "1026",
-	pumpoutID: 138,
 
 	charts: {
 		Phoenix2: "= s4`3  hd12 hd18",
@@ -447,7 +421,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Get Up (and Go)", artist: "BanYa Production", bpm: "164",
 	arcadeID: "1027",
-	pumpoutID: 139,
 
 	charts: {
 		Phoenix2: "=  hd11 hd18",
@@ -466,7 +439,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Phantom -Intermezzo-", artist: "BanYa Production", bpm: "140",
 	arcadeID: "1028",
-	pumpoutID: 140,
 
 	charts: {
 		Phoenix2: "= s20`19 d20`19  hd17 hd19 hd20",
@@ -485,7 +457,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Mission Possible -Blowback-", artist: "BanYa Production", bpm: "128",
 	arcadeID: "1029",
-	pumpoutID: 381,
 
 	charts: {
 		Phoenix2: "= d20`19  hd18 hd20",
@@ -503,7 +474,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Pumping Jumping", artist: "BanYa Production", bpm: "116",
 	arcadeID: "1030",
-	pumpoutID: 387,
 
 	charts: {
 		Phoenix2: "= d19`18  hd8 hd18",
@@ -522,7 +492,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "B.P Classic Remix", artist: "BanYa Production", bpm: "164", duration: REMIX,
 	arcadeID: "1031",
-	pumpoutID: 141,
 
 	charts: {
 		Phoenix2: "=",
@@ -541,7 +510,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "K-Pop Mix (Old & New)", artist: "BanYa Production", bpm: "138", duration: REMIX,
 	arcadeID: "1032",
-	pumpoutID: 380,
 
 	charts: {
 		Fiesta2: "=",
@@ -555,7 +523,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "PaPa Helloizing", artist: "BanYa Production", bpm: "145 ~ 158", duration: REMIX,
 	arcadeID: "1033",
-	pumpoutID: 142,
 
 	charts: {
 		Phoenix2: "=",
@@ -574,7 +541,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "B.P Classic Remix 2", artist: "BanYa Production", bpm: "180", duration: REMIX,
 	arcadeID: "1034",
-	pumpoutID: 143,
 
 	charts: {
 		Phoenix2: "=",
@@ -593,7 +559,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Hard Core Rock Mix", artist: "BanYa Production", bpm: "196", duration: REMIX,
 	arcadeID: "1035",
-	pumpoutID: 144,
 
 	charts: {
 		Prime2: "=",
@@ -610,7 +575,6 @@ export const newTunes__10__Fiesta = {
 	title: "Pro Pop Mix (new remix)", artist: "BanYa Production", bpm: "151", duration: REMIX,
 	shortTitle: "Pro Pop Mix",
 	arcadeID: "1036",
-	pumpoutID: 385,
 
 	charts: {
 		Prime2: "=",
@@ -625,7 +589,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Set Up Me2 Mix", artist: "BanYa Production", bpm: "122", duration: REMIX,
 	arcadeID: "1037",
-	pumpoutID: 145,
 
 	charts: {
 		Phoenix2: "=",
@@ -644,7 +607,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "msgoon RMX pt. 5", artist: "msgoon", channel: ORIGINAL, duration: REMIX, bpm: "102.8",
 	arcadeID: "1038",
-	pumpoutID: 382,
 
 	charts: {
 		Prime2: "=",
@@ -659,7 +621,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "msgoon RMX pt. 6", artist: "msgoon", channel: ORIGINAL, bpm: "150", duration: REMIX,
 	arcadeID: "1039",
-	pumpoutID: 146,
 
 	charts: {
 		Phoenix2: "=",
@@ -678,7 +639,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "msgoon RMX pt. 7", artist: "msgoon", channel: ORIGINAL, duration: REMIX, bpm: "130",
 	arcadeID: "1040",
-	pumpoutID: 383,
 
 	charts: {
 		Fiesta2: "=",
@@ -692,7 +652,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "History: We Are The Zest", artist: "msgoon", channel: ORIGINAL, bpm: "112.5", duration: REMIX,
 	arcadeID: "1041",
-	pumpoutID: 378,
 
 	charts: {
 		Fiesta2: "=",
@@ -706,7 +665,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Deja Vu  [FULL]", artist: "SOM2", channel: KPOP, bpm: "115",
 	arcadeID: "1042",
-	pumpoutID: 166,
 
 	charts: {
 		Prime2: "=",
@@ -722,7 +680,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Narcisista Por Excelencia  [FULL]", artist: "PXNDX", bpm: "164",
 	arcadeID: "1043",
-	pumpoutID: 169,
 
 	charts: {
 		Prime2: "=",
@@ -737,7 +694,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Dawn of the Apocalypse  [FULL]", artist: "Vassline", channel: KPOP, bpm: "100 ~ 210",
 	arcadeID: "1044",
-	pumpoutID: 167,
 
 	charts: {
 		Prime2: "=",
@@ -753,7 +709,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Fire  [FULL]", artist: "2NE1", bpm: "126", banner: "10__Fire__FULL__Fiesta",
 	arcadeID: "1045",
-	pumpoutID: 376,
 
 	changes:
 	{
@@ -772,7 +727,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Wanna  [FULL]", artist: "Kara", bpm: "161",
 	arcadeID: "1046",
-	pumpoutID: 391,
 
 	charts: {
 		Fiesta2: "=",
@@ -786,7 +740,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Pump It Up With You", artist: "msgoon", channel: ORIGINAL, bpm: "105-135", duration: REMIX,
 	arcadeID: "1047",
-	pumpoutID: 386,
 
 	charts: {
 		Fiesta2: "=",
@@ -801,7 +754,6 @@ export const newTunes__10__Fiesta = {
 	title: "Final Audition 2  [SHORT]", artist: "BanYa", bpm: "130",
 	arcadeName: "Final Audition 2 - SHORT CUT",
 	arcadeID: "1048",
-	pumpoutID: 147,
 
 	charts: {
 		Phoenix2: "=",
@@ -821,7 +773,6 @@ export const newTunes__10__Fiesta = {
 	title: "Final Audition 3 U.F  [SHORT]", artist: "BanYa", bpm: "130.5",
 	arcadeName: "Final Audition 3 - SHORT CUT",
 	arcadeID: "1049",
-	pumpoutID: 148,
 
 	charts: {
 		Phoenix2: "=",
@@ -841,7 +792,6 @@ export const newTunes__10__Fiesta = {
 	title: "Final Audition episode 2-X  [SHORT]", artist: "Yahpp", bpm: "170",
 	arcadeName: "Final Audition EP. 2-X - SHORT CUT",
 	arcadeID: "1050",
-	pumpoutID: 149,
 
 	charts: {
 		Phoenix2: "= S21`20",
@@ -861,7 +811,6 @@ export const newTunes__10__Fiesta = {
 	title: "Love is a Danger Zone  [SHORT]", artist: "BanYa", bpm: "140",
 	arcadeName: "Love is a Danger Zone - SHORT CUT",
 	arcadeID: "1051",
-	pumpoutID: 150,
 
 	charts: {
 		Phoenix2: "=",
@@ -881,7 +830,6 @@ export const newTunes__10__Fiesta = {
 	title: "Love is a Danger Zone 2  [SHORT]", artist: "BanYa", bpm: "162",
 	arcadeName: "Love is a Danger Zone pt.2 - SHORT CUT",
 	arcadeID: "1052",
-	pumpoutID: 151,
 
 	charts: {
 		Phoenix2: "=",
@@ -901,7 +849,6 @@ export const newTunes__10__Fiesta = {
 	title: "Extravaganza  [SHORT]", artist: "BanYa", bpm: "195",
 	arcadeName: "Extravaganza - SHORT CUT",
 	arcadeID: "1053",
-	pumpoutID: 152,
 
 	charts: {
 		Phoenix2: "= D17`16 D24`23",
@@ -921,7 +868,6 @@ export const newTunes__10__Fiesta = {
 	title: "Chicken Wing  [SHORT]", artist: "BanYa", bpm: "200",
 	arcadeName: "CHICKEN WING - SHORT CUT",
 	arcadeID: "1054",
-	pumpoutID: 153,
 
 	charts: {
 		Phoenix2: "= S21`20",
@@ -941,7 +887,6 @@ export const newTunes__10__Fiesta = {
 	title: "Winter  [SHORT]", artist: "BanYa", bpm: "168",
 	arcadeName: "Winter - SHORT CUT",
 	arcadeID: "1055",
-	pumpoutID: 154,
 
 	charts: {
 		Phoenix2: "=",
@@ -962,7 +907,6 @@ export const newTunes__10__Fiesta = {
 	title: "Solitary 2  [SHORT]", artist: "BanYa", bpm: "136",
 	arcadeName: "Solitary 2 - SHORT CUT",
 	arcadeID: "1056",
-	pumpoutID: 155,
 
 	charts: {
 		Phoenix2: "=",
@@ -982,7 +926,6 @@ export const newTunes__10__Fiesta = {
 	title: "Moonlight  [SHORT]", artist: "BanYa", bpm: "180",
 	arcadeName: "Moonlight - SHORT CUT",
 	arcadeID: "1057",
-	pumpoutID: 156,
 
 	charts: {
 		Phoenix2: "= D21`20",
@@ -1002,7 +945,6 @@ export const newTunes__10__Fiesta = {
 	title: "Witch Doctor  [SHORT]", artist: "BanYa", bpm: "195",
 	arcadeName: "Witch Doctor - SHORT CUT",
 	arcadeID: "1058",
-	pumpoutID: 157,
 
 	charts: {
 		Phoenix2: "= S21`20 D18`17",
@@ -1022,7 +964,6 @@ export const newTunes__10__Fiesta = {
 	title: "Exceed 2 Opening", artist: "BanYa Production", bpm: "178", duration: SHORT, fromMix: "Fiesta",
 	arcadeName: "Exceed2 Opening - SHORT CUT",
 	arcadeID: "1059",
-	pumpoutID: 158,
 
 	charts: {
 		Phoenix2: "=",
@@ -1043,7 +984,6 @@ export const newTunes__10__Fiesta = {
 	title: "NX Opening", artist: "Yahpp", bpm: "133", duration: SHORT,
 	arcadeName: "NX Opening - SHORT CUT",
 	arcadeID: "1060",
-	pumpoutID: 159,
 
 	charts: {
 		Phoenix2: "=",
@@ -1063,7 +1003,6 @@ export const newTunes__10__Fiesta = {
 	title: "K.O.A : Alice in Wonderworld  [SHORT]", artist: "BanYa Production", bpm: "156",
 	arcadeName: "K.O.A: Alice In Wonderworld - SHORT CUT",
 	arcadeID: "1061",
-	pumpoutID: 160,
 
 	charts: {
 		Phoenix2: "=",
@@ -1083,7 +1022,6 @@ export const newTunes__10__Fiesta = {
 	title: "Bemera  [SHORT]", artist: "Yahpp", bpm: "210",
 	arcadeName: "Bemera - SHORT CUT",
 	arcadeID: "1062",
-	pumpoutID: 161,
 
 	charts: {
 		Phoenix2: "= S23`22",
@@ -1104,7 +1042,6 @@ export const newTunes__10__Fiesta = {
 	shortTitle: "Pumptris (8Bit)",
 	arcadeName: "Pumptris 8Bit ver. - SHORT CUT",
 	arcadeID: "1063",
-	pumpoutID: 162,
 
 	charts: {
 		Phoenix2: "= D23`22",
@@ -1124,7 +1061,6 @@ export const newTunes__10__Fiesta = {
 	title: "Destination  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "150",
 	arcadeName: "Destination - SHORT CUT",
 	arcadeID: "1064",
-	pumpoutID: 163,
 
 	charts: {
 		Phoenix2: "= D21`20 D22`21",
@@ -1144,7 +1080,6 @@ export const newTunes__10__Fiesta = {
 	title: "Procedimientos Para Llegar a un Comun Acuerdo  [SHORT]", artist: "PXNDX", bpm: "160",
 	shortTitle: "Procedimientos Para Llegar\na un Comun Acuerdo",
 	arcadeID: "1065",
-	pumpoutID: 170,
 
 	charts: {
 		Prime2: "=",
@@ -1189,7 +1124,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Tepris", artist: "Doin", channel: ORIGINAL, bpm: "145",
 	arcadeID: "1094",
-	pumpoutID: 164,
 
 	charts: {
 		Phoenix2: "=  hd11 hd18",
@@ -1208,7 +1142,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Napalm", artist: "Doin", channel: ORIGINAL, bpm: "185",
 	arcadeID: "1095",
-	pumpoutID: 165,
 
 	charts: {
 		Phoenix2: "= s22`21 d23`22  hd13 hd21",
@@ -1227,7 +1160,6 @@ export const newTunes__10__Fiesta = {
 {
 	title: "Dieciseis", artist: "Nina Pilots", channel: WORLD, bpm: "143",
 	arcadeID: "1096",
-	pumpoutID: 171,
 
 	charts: {
 		Prime2: "=",

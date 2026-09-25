@@ -11,7 +11,6 @@ export const newTunes__07__Rebirth = {
 {
 	title: "Dr. M", artist: "BanYa", bpm: "145", fromMix: "Rebirth",
 	arcadeID: "701",
-	pumpoutID: 28,
 
 	charts: {
 		Phoenix2: "= d19`18  hd12 hd17 hd18",
@@ -38,7 +37,6 @@ export const newTunes__07__Rebirth = {
 {
 	title: "Emperor", artist: "BanYa", bpm: "150", fromMix: "Rebirth",
 	arcadeID: "702",
-	pumpoutID: 29,
 
 	charts: {
 		Phoenix2: "= s3`2 s9`8  hd15 hd17",
@@ -57,7 +55,6 @@ export const newTunes__07__Rebirth = {
 {
 	title: "Get Your Groove On", artist: "BanYa", bpm: "96", fromMix: "Rebirth",
 	arcadeID: "703",
-	pumpoutID: 433,
 
 	charts: {
 		Phoenix2: "=",
@@ -76,7 +73,6 @@ export const newTunes__07__Rebirth = {
 {
 	title: "Love is a Danger Zone", artist: "BanYa", bpm: "140", fromMix: "Rebirth",
 	arcadeID: "704",
-	pumpoutID: 30,
 
 	charts: {
 		Phoenix2: "= s9`8 s20`19  hd8 hd16 hd19",
@@ -102,7 +98,6 @@ export const newTunes__07__Rebirth = {
 {
 	title: "Maria", artist: "BanYa", bpm: "136", fromMix: "Rebirth",
 	arcadeID: "705",
-	pumpoutID: 31,
 
 	charts: {
 		Phoenix2: "= D22`21",
@@ -123,7 +118,6 @@ export const newTunes__07__Rebirth = {
 {
 	title: "Mission Possible", artist: "BanYa", bpm: "124", fromMix: "Rebirth",
 	arcadeID: "706",
-	pumpoutID: 436,
 
 	charts: {
 		Phoenix2: "= S20`19",
@@ -140,7 +134,6 @@ export const newTunes__07__Rebirth = {
 {
 	title: "My Way", artist: "BanYa", bpm: "118", fromMix: "Rebirth",
 	arcadeID: "707",
-	pumpoutID: 32,
 
 	charts: {
 		Phoenix2: "= S16`15",
@@ -161,7 +154,6 @@ export const newTunes__07__Rebirth = {
 {
 	title: "Point Break", artist: "BanYa", bpm: "92", fromMix: "Rebirth",
 	arcadeID: "708",
-	pumpoutID: 33,
 
 	charts: {
 		Phoenix2: "= S14`13 D15`14",
@@ -185,7 +177,6 @@ export const newTunes__07__Rebirth = {
 {
 	title: "Street Show Down", artist: "BanYa", bpm: "124", fromMix: "Rebirth",
 	arcadeID: "709",
-	pumpoutID: 437,
 
 	charts: {
 		Phoenix2: "=",
@@ -207,7 +198,6 @@ export const newTunes__07__Rebirth = {
 {
 	title: "Top City", artist: "BanYa", bpm: "110.72", fromMix: "Rebirth",
 	arcadeID: "710",
-	pumpoutID: 438,
 
 	charts: {
 		Phoenix2: "=",
@@ -224,7 +214,6 @@ export const newTunes__07__Rebirth = {
 {
 	title: "Winter", artist: "BanYa", bpm: "168", fromMix: "Rebirth",
 	arcadeID: "711",
-	pumpoutID: 34,
 
 	charts: {
 		Phoenix2: "= d18`17  hd12 hd17 hd19",
@@ -250,7 +239,6 @@ export const newTunes__07__Rebirth = {
 	title: "Will o' the Wisp", artist: "BanYa", bpm: "210", fromMix: "Rebirth",
 	arcadeName: "Will-O-The-Wisp",
 	arcadeID: "712",
-	pumpoutID: 35,
 
 	charts: {
 		Phoenix2: "= s6`5 d17`16 d21`20 d22`21  hd14 hd15 hd19 hd20 hd24",
@@ -275,7 +263,6 @@ export const newTunes__07__Rebirth = {
 {
 	title: "Till the End of Time", artist: "BanYa", bpm: "140", fromMix: "Rebirth",
 	arcadeID: "713",
-	pumpoutID: 36,
 
 	charts: {
 		Phoenix2: "= D14`13 D17`16",
@@ -294,7 +281,6 @@ export const newTunes__07__Rebirth = {
 {
 	title: "Oy Oy Oy", artist: "BanYa", bpm: "148", fromMix: "Rebirth",
 	arcadeID: "714",
-	pumpoutID: 37,
 
 	charts: {
 		Phoenix2: "=",
@@ -315,7 +301,6 @@ export const newTunes__07__Rebirth = {
 {
 	title: "We Will Meet Again", artist: "BanYa", bpm: "118", fromMix: "Rebirth",
 	arcadeID: "715",
-	pumpoutID: 439,
 
 	charts: {
 		Phoenix2: "=",
@@ -335,7 +320,6 @@ export const newTunes__07__Rebirth = {
 	title: "Miss's Story", artist: "BanYa", bpm: "111", fromMix: "Rebirth",
 	arcadeName: "Miss S' Story",
 	arcadeID: "716",
-	pumpoutID: 435,
 
 	charts: {
 		Phoenix2: "=",
@@ -354,7 +338,6 @@ export const newTunes__07__Rebirth = {
 {
 	title: "Set Me Up", artist: "BanYa", bpm: "120", fromMix: "Rebirth",
 	arcadeID: "717",
-	pumpoutID: 38,
 
 	charts: {
 		Phoenix2: "=",
@@ -373,7 +356,6 @@ export const newTunes__07__Rebirth = {
 {
 	title: "Dance With Me", artist: "BanYa", bpm: "122", fromMix: "Rebirth",
 	arcadeID: "718",
-	pumpoutID: 39,
 
 	charts: {
 		Phoenix2: "=",
@@ -448,7 +430,6 @@ export const newTunes__07__Rebirth = {
 {
 	title: "Vook", artist: "BanYa", bpm: "184", fromMix: "Rebirth",
 	arcadeID: "735",
-	pumpoutID: 40,
 
 	charts: {
 		Phoenix2: "= S21`20 D21`20 D22`21",
@@ -473,7 +454,6 @@ export const newTunes__07__Rebirth = {
 {
 	title: "Csikos Post", artist: "BanYa", bpm: "180", fromMix: "Rebirth",
 	arcadeID: "736",
-	pumpoutID: 41,
 
 	charts: {
 		Phoenix2: "= s9`8  hd10 hd16 hd20",

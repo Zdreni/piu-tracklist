@@ -34,7 +34,6 @@ export const newTunes__09__Extra = {
 {
 	title: "Starian", artist: "Duke", channel: KPOP, bpm: "135", fromMix: "Extra",
 	arcadeID: "906",
-	pumpoutID: 45,
 
 	charts: {
 		Prime: "=",
@@ -59,7 +58,6 @@ export const newTunes__09__Extra = {
 {
 	title: "Mistake", artist: "U'Two", channel: KPOP, bpm: "110", fromMix: "Extra",
 	arcadeID: "909",
-	pumpoutID: 46,
 
 	charts: {
 		Prime: "=",
@@ -89,7 +87,6 @@ export const newTunes__09__Extra = {
 {
 	title: "Chicken Wing", artist: "BanYa", bpm: "200", fromMix: "Extra",
 	arcadeID: "911",
-	pumpoutID: 42,
 
 	charts: {
 		Phoenix2: "= s22`21  hd17 hd22",
@@ -114,7 +111,6 @@ export const newTunes__09__Extra = {
 	title: "Can Can", artist: "F2 Systems", channel: ORIGINAL, bpm: "197", fromMix: "Extra",
 	arcadeName: "Radetzky Can Can",
 	arcadeID: "913",
-	pumpoutID: 763,
 
 	charts: {
 		Phoenix2: "= s17`16  hd17 hd21",
@@ -192,7 +188,6 @@ export const newTunes__09__Extra = {
 	shortTitle: "Final Audition ep. 1",
 	arcadeName: "Final Audition Ep. 1",
 	arcadeID: "922",
-	pumpoutID: 43,
 
 	charts: {
 		Phoenix2: "= s10`9  hd12 hd20 hd22",

@@ -11,7 +11,6 @@ export const newTunes__01__1st = {
 {
 	title: "Ignition Starts", artist: "BanYa", bpm: "146", fromMix: "1st",
 	arcadeID: "101",
-	pumpoutID: 15,
 
 	charts: {
 		Prime2: "=",
@@ -26,7 +25,6 @@ export const newTunes__01__1st = {
 {
 	title: "Hypnosis", artist: "BanYa", bpm: "180", fromMix: "1st",
 	arcadeID: "102",
-	pumpoutID: 16,
 
 	charts: {
 		Prime2: "=",
@@ -86,7 +84,6 @@ export const newTunes__01__1st = {
 {
 	title: "Funky Tonight", artist: "Clon", channel: KPOP, bpm: "105", fromMix: "1st",
 	arcadeID: "109",
-	pumpoutID: 23,
 
 	charts: {
 		Prime2: "=",
@@ -111,7 +108,6 @@ export const newTunes__01__1st = {
 {
 	title: "Hatred", artist: "Novasonic", bpm: "136", fromMix: "1st",
 	arcadeID: "111",
-	pumpoutID: 445,
 
 	charts: {
 		Fiesta2: "=",
@@ -127,7 +123,6 @@ export const newTunes__01__1st = {
 {
 	title: "Another Truth", artist: "Novasonic", bpm: "136", fromMix: "1st",
 	arcadeID: "112",
-	pumpoutID: 24,
 
 	charts: {
 		Phoenix2: "= D10`9",

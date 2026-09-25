@@ -26,7 +26,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "Hot", artist: "1Tym", channel: KPOP, bpm: "98",
 	arcadeID: "B02",
-	pumpoutID: 71,
 
 	charts: {
 		Prime: "=",
@@ -86,7 +85,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "Deja Vu", artist: "SOM2", channel: KPOP, bpm: "115",
 	arcadeID: "B06",
-	pumpoutID: 72,
 
 	charts: {
 		Prime2: "=",
@@ -119,7 +117,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "Sajahu", artist: "Lee Hyun Do", channel: KPOP, bpm: "127",
 	arcadeID: "B08",
-	pumpoutID: 73,
 
 	charts: {
 		Prime: "=",
@@ -191,7 +188,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "I'll Give You All My Love", artist: "Wax", channel: KPOP, bpm: "164",
 	arcadeID: "B13",
-	pumpoutID: 74,
 
 	charts: {
 		Prime2: "=",
@@ -238,7 +234,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "J Bong", artist: "BanYa", bpm: "140",
 	arcadeID: "B16",
-	pumpoutID: 55,
 
 	charts: {
 		Phoenix2: "= d18`17  hd10 hd16",
@@ -261,7 +256,6 @@ export const newTunes__0B__Exceed2 = {
 	title: "Hi-Bi", artist: "BanYa", bpm: "145",
 	arcadeName: "Hi Bi",
 	arcadeID: "B17",
-	pumpoutID: 56,
 
 	charts: {
 		Phoenix2: "= d21`20 d22`21  hd10 hd18 hd19",
@@ -288,7 +282,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "Solitary 2", artist: "BanYa", bpm: "136",
 	arcadeID: "B18",
-	pumpoutID: 57,
 
 	charts: {
 		Phoenix2: "=  hd18 hd19",
@@ -314,7 +307,6 @@ export const newTunes__0B__Exceed2 = {
 	title: "Canon-D", artist: "BanYa", bpm: "160",
 	arcadeName: "Canon D",
 	arcadeID: "B19",
-	pumpoutID: 58,
 
 	charts: {
 		Phoenix2: "=  hd11 hd22",
@@ -352,7 +344,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "Novarash", artist: "Novasonic/Crash", bpm: "118", channel: KPOP, duration: REMIX,
 	arcadeID: "B26",
-	pumpoutID: 429,
 
 	charts: {
 		Fiesta2: "=",
@@ -382,7 +373,6 @@ export const newTunes__0B__Exceed2 = {
 	title: "Tream Vook of the War", artist: "BanYa", bpm: "140 - 202", duration: REMIX,
 	arcadeName: "Tream Vook of the war REMIX",
 	arcadeID: "B28",  //? B58
-	pumpoutID: 59,
 
 	charts: {
 		Phoenix2: "=",
@@ -406,7 +396,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "Banya Classic Remix", artist: "BanYa", bpm: "162 ~ 170", duration: REMIX,
 	arcadeID: "B29",
-	pumpoutID: 60,
 
 	charts: {
 		Phoenix2: "= D22`21",
@@ -473,7 +462,6 @@ export const newTunes__0B__Exceed2 = {
 	//in track selection it was: "Dignity – FULL SONG –"
 	arcadeName: "Dignity - FULL SONG -",
 	arcadeID: "B51",
-	pumpoutID: 75,
 
 	charts: {
 		Phoenix2: "= D23`22",
@@ -522,7 +510,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "2nd Hidden Remix", artist: "Clon/Sechskies", channel: KPOP, bpm: "140", duration: REMIX,
 	arcadeID: "B54", altID: "DB54",
-	pumpoutID: 877,
 
 	charts: {
 		NX2_: ["", "10", "11", "13", "16"],
@@ -551,7 +538,6 @@ export const newTunes__0B__Exceed2 = {
 {
 	title: "BanYa HipHop Remix", artist: "BanYa", bpm: "99", duration: REMIX,
 	arcadeID: "B56",
-	pumpoutID: 61,
 
 	charts: {
 		Phoenix2: "=",
@@ -576,7 +562,6 @@ export const newTunes__0B__Exceed2 = {
 	title: "Canon-D  [FULL]", artist: "BanYa", bpm: "160",
 	arcadeName: "Canon D - FULL SONG",
 	arcadeID: "B57",
-	pumpoutID: 62,
 
 	charts: {
 		Phoenix2: "=",

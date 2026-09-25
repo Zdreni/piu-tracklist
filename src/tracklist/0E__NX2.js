@@ -12,7 +12,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Solitary 1.5", artist: "Yahpp", bpm: "136",
 	arcadeID: "E01",
-	pumpoutID: 92,
 
 	charts: {
 		Phoenix2: "=  hd9 hd17",
@@ -33,7 +32,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Beat the Ghost", artist: "BanYa Production", bpm: "124",
 	arcadeID: "E02",
-	pumpoutID: 93,
 
 	charts: {
 		Phoenix2: "= d21`20  hd13 hd20",
@@ -53,7 +51,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Caprice of Otada", artist: "BanYa Production", bpm: "160",
 	arcadeID: "E03",
-	pumpoutID: 94,
 
 	charts: {
 		Phoenix2: "=  hd11 hd18 hd21",
@@ -74,7 +71,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Money", artist: "BanYa Production", bpm: "130",
 	arcadeID: "E04",
-	pumpoutID: 411,
 
 	charts: {
 		Phoenix2: "= s15`14  hd9 hd16",
@@ -92,7 +88,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Monkey Fingers 2", artist: "BanYa Production", bpm: "180",
 	arcadeID: "E05",
-	pumpoutID: 95,
 
 	charts: {
 		Phoenix2: "=  hd8 hd18",
@@ -123,7 +118,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Very Old Couples", artist: "015B", channel: KPOP, bpm: "121",
 	arcadeID: "E07",
-	pumpoutID: 423,
 
 	charts: {
 		Fiesta2: "=",
@@ -193,7 +187,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Faster Z", artist: "Yahpp", bpm: "162",
 	arcadeID: "E12",
-	pumpoutID: 96,
 
 	charts: {
 		Phoenix2: "= s17`16  hd15 hd21 hd23",
@@ -214,7 +207,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Pumptris Quattro", artist: "Yahpp", bpm: "153",
 	arcadeID: "E13",
-	pumpoutID: 97,
 
 	charts: {
 		Phoenix2: "= s14`13 d16`15  hd15 hd20 hd21",
@@ -244,7 +236,6 @@ export const newTunes__0E__NX2 = {
 	shortTitle: "Pumptris (8bit)",
 	arcadeName: "Pumptris 8Bit ver.",
 	arcadeID: "FE13B",
-	pumpoutID: 91,
 
 	charts: {
 		Phoenix2: "=",
@@ -345,7 +336,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Beat # No.4", artist: "HeaDTriP", channel: KPOP, bpm: "121",
 	arcadeID: "E20",
-	pumpoutID: 115,
 
 	charts: {
 		Prime: "=  @1.19 D18",
@@ -390,7 +380,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Guitar Man", artist: "BanYa Production", bpm: "120",
 	arcadeID: "E23",
-	pumpoutID: 405,
 
 	charts: {
 		Phoenix2: "=  hd7 hd18",
@@ -408,7 +397,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Higgledy Piggledy", artist: "BanYa Production", bpm: "150",
 	arcadeID: "E24",
-	pumpoutID: 98,
 
 	charts: {
 		Phoenix2: "= s20`19 d17`16  hd8 hd16 hd20",
@@ -430,7 +418,6 @@ export const newTunes__0E__NX2 = {
 	title: "Jam o' Beat", artist: "BanYa Production", bpm: "120",
 	arcadeName: "Jam O Beat",
 	arcadeID: "E25",
-	pumpoutID: 408,
 
 	charts: {
 		Phoenix2: "= s8`7  hd8 hd14",
@@ -450,7 +437,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Chopstix", artist: "Sonic Dimension", channel: WORLD, bpm: "134",
 	arcadeID: "E26",
-	pumpoutID: 396,
 
 	charts: {
 		Fiesta2: "=",
@@ -466,7 +452,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Dance All Night", artist: "Oscillator X", channel: WORLD, bpm: "140",
 	arcadeID: "E27",
-	pumpoutID: 126,
 
 	charts: {
 		Prime2: "=",
@@ -484,7 +469,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Dance Vibrations", artist: "Elpis", channel: WORLD, bpm: "130",
 	arcadeID: "E28",
-	pumpoutID: 127,
 
 	charts: {
 		Prime2: "=",
@@ -502,7 +486,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Energizer", artist: "ZiGZaG", channel: WORLD, bpm: "151",
 	arcadeID: "E29",
-	pumpoutID: 128,
 
 	charts: {
 		Prime2: "=",
@@ -520,7 +503,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Groovin' Motion", artist: "Sonic Dimension", channel: WORLD, bpm: "130",
 	arcadeID: "E30",
-	pumpoutID: 404,
 
 	charts: {
 		Fiesta2: "=",
@@ -549,7 +531,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "BanYa-P Guitar Remix", artist: "BanYa Production", bpm: "120", duration: REMIX,
 	arcadeID: "E50",
-	pumpoutID: 99,
 
 	charts: {
 		Phoenix2: "= S23`22 D25`24",
@@ -570,7 +551,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Guitar Man  [FULL]", artist: "BanYa Production", bpm: "120", duration: REMIX,
 	arcadeID: "E51",
-	pumpoutID: 597,
 
 	charts: {
 		NX2_: ["", "8", "", "9", ""],
@@ -582,7 +562,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Money Fingers", artist: "BanYa Production", bpm: "170", duration: REMIX,
 	arcadeID: "E52",
-	pumpoutID: 412,
 
 	charts: {
 		Phoenix2: "=",
@@ -602,7 +581,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Monkey Fingers  [FULL]", artist: "BanYa Production", bpm: "186", duration: REMIX,
 	arcadeID: "E53",
-	pumpoutID: 599,
 
 	charts: {
 		NXA_: ["", "8", "16", "9", "17"],
@@ -760,7 +738,6 @@ export const newTunes__0E__NX2 = {
 {
 	title: "Fly  [FULL]", artist: "Epik High", bpm: "128",
 	arcadeID: "E76",
-	pumpoutID: 401,
 
 	charts: {
 		Fiesta2: "=",
@@ -874,7 +851,6 @@ export const newTunes__0E__NX2 = {
 	arcadeName: "EXTRA BanYa Remix",
 	shortTitle: "Extra BanYa Remix",
 	arcadeID: "E928",
-	pumpoutID: 44,
 
 	charts: {
 		Phoenix2: "=",

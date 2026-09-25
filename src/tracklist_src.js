@@ -21,6 +21,8 @@ import {
 	GetTrackFirstMix, FindChart,
 } from './tracklist.js';
 
+import { pumpoutIDs } from './tracklist_pumpoutIDs.js';
+
 
 var knownArtists = {
 	"BanYa": ORIGINAL,
@@ -607,7 +609,6 @@ function ValidatedMixAndVersion( k )
 }
 
 
-var pumpoutMap = {}
 var arcadeMap = {}
 
 function PreprocessTrack( track )
@@ -646,21 +647,6 @@ function PreprocessTrack( track )
 		delete track.sortingID;
 
 	delete track.sortingBetween;
-
-	if( track.pumpoutID )
-	{
-		if( track.pumpoutID !== "" )
-		{
-			if( track.pumpoutID <= 0  ||  track.pumpoutID > 1000 )
-				throw new Error( `Invalid pumpout ID '${ track.pumpoutID }' in track ${ trackID }` );
-
-			if( pumpoutMap[ track.pumpoutID ] )
-				throw new Error( `Duplicate pumpout ID '${ track.pumpoutID }' in tracks ${ trackID } and ${ pumpoutMap[ track.pumpoutID ] }` );
-
-			pumpoutMap[ track.pumpoutID ] = trackID;
-		}
-		delete track.pumpoutID;
-	}
 
 	if( track.arcadeID )
 	{
@@ -781,6 +767,26 @@ function GenerateSortingIDs( tracklist )
 }
 
 
+function ValidatePumpoutIDs()
+{
+	var seenIDs = {};
+	for( var trackID in pumpoutIDs )
+	{
+		if( ! tracklist[ trackID ] )
+			throw new Error( `Pumpout ID mapping references unknown track '${ trackID }'` );
+
+		var id = pumpoutIDs[ trackID ];
+		if( id <= 0  ||  id > 1000 )
+			throw new Error( `Invalid pumpout ID '${ id }' for track ${ trackID }` );
+
+		if( seenIDs[ id ] )
+			throw new Error( `Duplicate pumpout ID '${ id }' in tracks ${ trackID } and ${ seenIDs[ id ] }` );
+
+		seenIDs[ id ] = trackID;
+	}
+}
+
+
 export function PreprocessTracklist()
 {
 	GenerateSortingIDs( tracklist );
@@ -790,4 +796,6 @@ export function PreprocessTracklist()
 		tracklist[ trackID ].id = trackID;
 		PreprocessTrack( tracklist[ trackID ] );
 	}
+
+	ValidatePumpoutIDs();
 }

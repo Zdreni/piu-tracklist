@@ -14,7 +14,6 @@ export const newTunes__16__XX = {
 	altID: "16_God_Mode_2_0",
 	arcadeID: "1702",
 	sortingBetween: ["16__Switronic__SHORT", "16__Club_Night"],
-	pumpoutID: 874,
 
 	charts: {
 		Phoenix2: "=  hd12 hd17 hd18 hd20",
@@ -29,7 +28,6 @@ export const newTunes__16__XX = {
 	title: "Ultimatum", artist: "Cosmograph", channel: WORLD, bpm: "202",
 	arcadeID: "1705",
 	sortingBetween: ["16__Cross_Ray", "16__Kokugen_Kairou_Labyrinth"],
-	pumpoutID: 893,
 
 	charts: {
 		Phoenix2: "=",
@@ -45,7 +43,6 @@ export const newTunes__16__XX = {
 	altID: "16_Kokugen_Kairou_Labyrinth",
 	arcadeID: "1718",
 	sortingBetween: ["16__Ultimatum", "16__Imagination"],
-	pumpoutID: 888,
 
 	charts: {
 		Phoenix2: "= S10`9",
@@ -60,7 +57,6 @@ export const newTunes__16__XX = {
 	title: "Wedding Crashers", artist: "SHK", channel: ORIGINAL, bpm: "165",
 	altID: "16_Wedding_Crashers",
 	arcadeID: "1601",
-	pumpoutID: 733,
 
 	charts: {
 		Phoenix2: "= d14`13  hd7 hd11 hd18 hd22",
@@ -75,7 +71,6 @@ export const newTunes__16__XX = {
 	title: "Switronic", artist: "SHK", channel: ORIGINAL, bpm: "120~170",
 	altID: "16_Switronic",
 	arcadeID: "1602",
-	pumpoutID: 821,
 
 	charts: {
 		Phoenix2: "=  hd10 hd16 hd17 hd18",
@@ -90,7 +85,6 @@ export const newTunes__16__XX = {
 	title: "Obliteration", artist: "ATAS", channel: ORIGINAL, bpm: "150",
 	altID: "16_Obliteration",
 	arcadeID: "1603",
-	pumpoutID: 734,
 
 	charts: {
 		Phoenix2: "= d20`19  hd9 hd15 hd18",
@@ -105,7 +99,6 @@ export const newTunes__16__XX = {
 	title: "Transacaglia in G-minor", artist: "ATAS", channel: ORIGINAL, bpm: "158",
 	altID: "16_Transacaglia_in_G_minor",
 	arcadeID: "1604",
-	pumpoutID: 823,
 
 	charts: {
 		Phoenix2: "=  hd6 hd12 hd17 hd18",
@@ -120,7 +113,6 @@ export const newTunes__16__XX = {
 	title: "1949", artist: "Slam", channel: ORIGINAL, bpm: "220",
 	altID: "16_1949",
 	arcadeID: "1605",
-	pumpoutID: 777,
 
 	charts: {
 		Phoenix2: "=  hd22 hd25 hd27",
@@ -136,7 +128,6 @@ export const newTunes__16__XX = {
 	title: "Janus", artist: "Max", channel: ORIGINAL, bpm: "174",
 	altID: "16_Janus",
 	arcadeID: "1607",
-	pumpoutID: 817,
 
 	charts: {
 		Phoenix2: "=  hd13 hd17 hd22",
@@ -151,7 +142,6 @@ export const newTunes__16__XX = {
 	title: "I Want U", artist: "MAX", channel: ORIGINAL, bpm: "156",
 	altID: "16_I_Want_U",
 	arcadeID: "1608",
-	pumpoutID: 735,
 
 	charts: {
 		Phoenix2: "=  hd6 hd13 hd18 hd21",
@@ -166,7 +156,6 @@ export const newTunes__16__XX = {
 	title: "District 1", artist: "MAX", channel: ORIGINAL, bpm: "158",
 	altID: "16_District_1",
 	arcadeID: "1609",
-	pumpoutID: 829,
 
 	charts: {
 		Phoenix2: "=  hd11 hd16 hd20",
@@ -181,7 +170,6 @@ export const newTunes__16__XX = {
 	title: "Sugar Plum", artist: "Mr. Weq", channel: ORIGINAL, bpm: "170",
 	altID: "16_Sugar_Plum",
 	arcadeID: "1613",
-	pumpoutID: 885,
 
 	charts: {
 		Phoenix2: "=",
@@ -196,7 +184,6 @@ export const newTunes__16__XX = {
 	title: "Telling Fortune Flower", artist: "Koharu feat. Renyata", channel: ORIGINAL, bpm: "200",
 	altID: "16_Telling_Fortune_Flower",
 	arcadeID: "1614",
-	pumpoutID: 886,
 
 	charts: {
 		Phoenix2: "= d22`23",
@@ -211,7 +198,6 @@ export const newTunes__16__XX = {
 	title: "Nyarlathotep", artist: "Nato", channel: ORIGINAL, bpm: "200",
 	altID: "16_Nyarlathotep",
 	arcadeID: "1615",
-	pumpoutID: 736,
 
 	charts: {
 		Phoenix2: "= s19`18  hd17 hd20 hd23 hd24",
@@ -227,7 +213,6 @@ export const newTunes__16__XX = {
 	arcadeName: "HEART RABBIT COASTER",
 	altID: "16_Heart_Rabbit_Coaster",
 	arcadeID: "1616",
-	pumpoutID: 799,
 
 	charts: {
 		Phoenix2: "=  hd13 hd18 hd22 hd24",
@@ -242,7 +227,6 @@ export const newTunes__16__XX = {
 	title: "Lepton Strike", artist: "Nato", channel: ORIGINAL, bpm: "183",
 	altID: "16_Lepton_Strike",
 	arcadeID: "1617",
-	pumpoutID: 818,
 
 	charts: {
 		Phoenix2: "=  hd11 hd16 hd21 hd22",
@@ -257,7 +241,6 @@ export const newTunes__16__XX = {
 	title: "Skeptic", artist: "Doin", channel: ORIGINAL, bpm: "200",
 	altID: "16_Skeptic",
 	arcadeID: "1618",
-	pumpoutID: 737,
 
 	charts: {
 		Phoenix2: "=  hd13 hd21 hd25",
@@ -272,7 +255,6 @@ export const newTunes__16__XX = {
 	title: "Iolite Sky", artist: "Doin", channel: ORIGINAL, bpm: "90",
 	altID: "16_Iolite_Sky",
 	arcadeID: "1619",
-	pumpoutID: 837,
 
 	charts: {
 		Phoenix2: "= s23`22 d21`20 d22`21  hd11 hd17 hd21 hd23",
@@ -287,7 +269,6 @@ export const newTunes__16__XX = {
 	title: "%X (Percent X)", artist: "Pory", channel: ORIGINAL, bpm: "150",
 	altID: "16_Percent_X",
 	arcadeID: "1620",
-	pumpoutID: 738,
 
 	charts: {
 		Phoenix2: "=  hd8 hd12 hd18",
@@ -302,7 +283,6 @@ export const newTunes__16__XX = {
 	title: "La Cinquantaine", artist: "Pory", channel: ORIGINAL, bpm: "164",
 	altID: "16_La_Cinquantaine",
 	arcadeID: "1621",
-	pumpoutID: 838,
 
 	charts: {
 		Phoenix2: "=  hd12 hd16 hd18",
@@ -317,7 +297,6 @@ export const newTunes__16__XX = {
 	title: "Le Grand Rouge", artist: "KIEN", channel: ORIGINAL, bpm: "166",
 	altID: "16_Le_Grand_Rouge",
 	arcadeID: "1622",
-	pumpoutID: 739,
 
 	charts: {
 		Phoenix2: "= s21`20 d23`22  hd19 hd22",
@@ -333,7 +312,6 @@ export const newTunes__16__XX = {
 	arcadeName: "CARMEN BUS",
 	altID: "16_Carmen_Bus",
 	arcadeID: "1623",
-	pumpoutID: 803,
 
 	charts: {
 		Phoenix2: "=  hd13 hd20 hd22",
@@ -348,7 +326,6 @@ export const newTunes__16__XX = {
 	title: "Macaron Day", artist: "HyuN", channel: ORIGINAL, bpm: "173",
 	altID: "16_Macaron_Day",
 	arcadeID: "1624",
-	pumpoutID: 740,
 
 	charts: {
 		Phoenix2: "=  hd12 hd18",
@@ -363,7 +340,6 @@ export const newTunes__16__XX = {
 	title: "Ice of Death", artist: "Fiverwater", channel: ORIGINAL, bpm: "172",
 	altID: "16_Ice_of_Death",
 	arcadeID: "1625",
-	pumpoutID: 771,
 
 	charts: {
 		Phoenix2: "= s4`3  hd12 hd16 hd19",
@@ -378,7 +354,6 @@ export const newTunes__16__XX = {
 	title: "Poseidon", artist: "Quree", channel: ORIGINAL, bpm: "160",
 	altID: "16_Poseidon",
 	arcadeID: "1626",
-	pumpoutID: 741,
 
 	charts: {
 		Phoenix2: "= d23`22  hd8 hd16 hd21",
@@ -393,7 +368,6 @@ export const newTunes__16__XX = {
 	title: "Adrenaline Blaster", artist: "QWertism", channel: ORIGINAL, bpm: "150",
 	altID: "16_Adrenaline_Blaster",
 	arcadeID: "1627",
-	pumpoutID: 830,
 
 	charts: {
 		Phoenix2: "=  hd12 hd18 hd22",
@@ -408,7 +382,6 @@ export const newTunes__16__XX = {
 	title: "Vanish", artist: "Applesoda", channel: ORIGINAL, bpm: "174",
 	altID: "16_Vanish",
 	arcadeID: "1628",
-	pumpoutID: 742,
 
 	charts: {
 		Phoenix2: "=  hd10 hd12 hd17 hd21 hd24",
@@ -423,7 +396,6 @@ export const newTunes__16__XX = {
 	title: "Tales of Pumpnia", artist: "Applesoda", channel: ORIGINAL, bpm: "200",
 	altID: "16_Tales_of_Pumpnia",
 	arcadeID: "1629",
-	pumpoutID: 805,
 
 	charts: {
 		Phoenix2: "=  hd13 hd18 hd20",
@@ -438,7 +410,6 @@ export const newTunes__16__XX = {
 	title: "Kimchi Fingers", artist: "Garlic Squad", channel: ORIGINAL, bpm: "190",
 	altID: "16_Kimchi_Fingers",
 	arcadeID: "1630",
-	pumpoutID: 743,
 
 	charts: {
 		Phoenix2: "= d22`21  hd15 hd21",
@@ -453,7 +424,6 @@ export const newTunes__16__XX = {
 	title: "Orbit Stabilizer", artist: "DM Ashura", channel: ORIGINAL, bpm: "155",
 	altID: "16_Orbit_Stabilizer",
 	arcadeID: "1631",
-	pumpoutID: 802,
 
 	charts: {
 		Phoenix2: "=  hd17 hd20 hd23",
@@ -469,7 +439,6 @@ export const newTunes__16__XX = {
 	shortTitle: "Destrucimate",
 	altID: "16_Destrucimate",
 	arcadeID: "1632",
-	pumpoutID: 845,
 
 	charts: {
 		Phoenix2: "=  hd14 hd19 hd22",
@@ -484,7 +453,6 @@ export const newTunes__16__XX = {
 	title: "Clematis Rapsodia", artist: "Jehezukiel", channel: ORIGINAL, bpm: "260",
 	altID: "16_Clematis_Rapsodia",
 	arcadeID: "1633",
-	pumpoutID: 846,
 
 	charts: {
 		Phoenix2: "=  hd12 hd15 hd18 hd22",
@@ -499,7 +467,6 @@ export const newTunes__16__XX = {
 	title: "Wicked Legend", artist: "D_AAN", channel: ORIGINAL, bpm: "150",
 	altID: "16_Wicked_Legend",
 	arcadeID: "1634",
-	pumpoutID: 811,
 
 	charts: {
 		Phoenix2: "=  hd12 hd17 hd20",
@@ -514,7 +481,6 @@ export const newTunes__16__XX = {
 	title: "TanTanMen", artist: "Memme", channel: ORIGINAL, bpm: "185",
 	altID: "16_Tantanmen",
 	arcadeID: "1635",
-	pumpoutID: 796,
 
 	charts: {
 		Phoenix2: "=  hd12 hd19 hd22",
@@ -531,7 +497,6 @@ export const newTunes__16__XX = {
 	arcadeName: "Stardream (feat. Romelon)",
 	altID: "16_Stardream",
 	arcadeID: "1636",
-	pumpoutID: 847,
 
 	charts: {
 		Phoenix2: "= d21`22  hd11 hd15 hd19 hd21",
@@ -546,7 +511,6 @@ export const newTunes__16__XX = {
 	title: "Slapstick Parfait", artist: "t+pazolite", channel: WORLD, bpm: "160",
 	altID: "16_Slapstick_Parfait",
 	arcadeID: "1637",
-	pumpoutID: 881,
 
 	charts: {
 		Phoenix2: "=",
@@ -561,7 +525,6 @@ export const newTunes__16__XX = {
 	title: "Paved Garden", artist: "Ginkiha", channel: WORLD, bpm: "187",
 	altID: "16_Paved_Garden",
 	arcadeID: "1638",
-	pumpoutID: 890,
 
 	charts: {
 		Phoenix2: "= D20`21",
@@ -576,7 +539,6 @@ export const newTunes__16__XX = {
 	title: "Pop Sequence", artist: "Hommarju", channel: WORLD, bpm: "110",
 	altID: "16_Pop_Sequence",
 	arcadeID: "1639",
-	pumpoutID: 891,
 
 	charts: {
 		Phoenix2: "= S12`11",
@@ -591,7 +553,6 @@ export const newTunes__16__XX = {
 	title: "Crossing Delta", artist: "t+pazolite+Ginkiha+Hommarju", channel: WORLD, bpm: "180",
 	altID: "16_Crossing_Delta",
 	arcadeID: "1640",
-	pumpoutID: 879,
 
 	charts: {
 		Phoenix2: "= D24`23",
@@ -606,7 +567,6 @@ export const newTunes__16__XX = {
 	title: "Jogging", artist: "LUCY", channel: KPOP, bpm: "138",
 	altID: "16_Jogging",
 	arcadeID: "1641",
-	pumpoutID: 844,
 
 	charts: {
 		Phoenix2: "=",
@@ -622,7 +582,6 @@ export const newTunes__16__XX = {
 	shortTitle: "The Little Prince",
 	altID: "16_The_Little_Prince",
 	arcadeID: "1642",
-	pumpoutID: 768,
 
 	charts: {
 		XX: "@1.01 S4 S7 S9 S13 S16 S18.lock D11 D14 D16.lock D19  @1.04 Dp5",
@@ -635,7 +594,6 @@ export const newTunes__16__XX = {
 	title: "Full Moon", artist: "Dreamcatcher", channel: KPOP, bpm: "190",
 	altID: "16_Full_Moon",
 	arcadeID: "1643",
-	pumpoutID: 800,
 
 	charts: {
 		Phoenix2: "= S19`20 S21`22 D19`20",
@@ -650,7 +608,6 @@ export const newTunes__16__XX = {
 	title: "Timing", artist: "HIGHTEEN", channel: KPOP, bpm: "164",
 	altID: "16_Timing",
 	arcadeID: "1644",
-	pumpoutID: 770,
 
 	charts: {
 		Phoenix2: "=",
@@ -665,7 +622,6 @@ export const newTunes__16__XX = {
 	title: "Fly High", artist: "Dreamcatcher", channel: KPOP, bpm: "154",
 	altID: "16_Fly_High",
 	arcadeID: "1645",
-	pumpoutID: 730,
 
 	charts: {
 		Phoenix2: "=",
@@ -680,7 +636,6 @@ export const newTunes__16__XX = {
 	title: "Black Cat", artist: "Turbo", channel: KPOP, bpm: "130.866",
 	altID: "16_Black_Cat",
 	arcadeID: "1646",
-	pumpoutID: 792,
 
 	charts: {
 		XX: "@1.04 S2 S4 S6 S9 S14 D7 D16 S17.lock D18.lock  @2.00 Dp5",
@@ -693,7 +648,6 @@ export const newTunes__16__XX = {
 	title: "Hann (Alone)", artist: "(G)I-DLE", channel: KPOP, bpm: "105",
 	altID: "16_Hann_Alone",
 	arcadeID: "1647",
-	pumpoutID: 731,
 
 	charts: {
 		XX: "S1 S3 S5 S8 S16.lock D17 CoOp(x2)  @1.01 Dp4",
@@ -706,7 +660,6 @@ export const newTunes__16__XX = {
 	title: "Snapping", artist: "CHUNG HA", channel: KPOP, bpm: "105",
 	altID: "16_Snapping",
 	arcadeID: "1648",
-	pumpoutID: 820,
 
 	charts: {
 		XX: "@2.01 S2 S3 S5 S15 D6 D16 S17.lock S19.lock D18.lock  @2.02 Dp2",
@@ -719,7 +672,6 @@ export const newTunes__16__XX = {
 	title: "Nekkoya (Pick Me)", artist: "PRODUCE48", channel: KPOP, bpm: "128",
 	altID: "16_Nekkoya_Pick_Me",
 	arcadeID: "1649",
-	pumpoutID: 732,
 
 	charts: {
 		XX: "S2 S4 S6 S9 S15 S17.lock D15.ampass D18  @1.01 Dp3",
@@ -732,7 +684,6 @@ export const newTunes__16__XX = {
 	title: "I'm So Sick", artist: "APink", channel: KPOP, bpm: "124",
 	altID: "16_I'm_So_Sick",
 	arcadeID: "1650",
-	pumpoutID: 747,
 
 	charts: {
 		XX: "S2 S4 S6 S9 S15 S17.lock D9 D16 D18.lock D20.lock  @1.01 Dp3  @1.04 CoOp(x2)",
@@ -745,7 +696,6 @@ export const newTunes__16__XX = {
 	title: "Boomerang", artist: "Wanna One", channel: KPOP, bpm: "100",
 	altID: "16_Boomerang",
 	arcadeID: "1651",
-	pumpoutID: 748,
 
 	charts: {
 		XX: "S2 S4 S6 S10 S14.lock S17.lock D7 D16.lock D20.lock CoOp(x2).lock  @1.01 Dp3",
@@ -758,7 +708,6 @@ export const newTunes__16__XX = {
 	title: "Gashina", artist: "SUNMI", channel: KPOP, bpm: "94",
 	altID: "16_Gashina",
 	arcadeID: "1652",
-	pumpoutID: 778,
 
 	charts: {
 		XX: "@1.02 S2 S4 S6 S10 S14 D15 Dp2 CoOp(x2) S18.lock D19.lock",
@@ -771,7 +720,6 @@ export const newTunes__16__XX = {
 	title: "Adios", artist: "Everglow", channel: KPOP, bpm: "128",
 	altID: "16_Adios",
 	arcadeID: "1653",
-	pumpoutID: 813,
 
 	charts: {
 		XX: "@2.00 S3 S6 S10 S13 S15 D10 D15 D18 S17.lock D20.lock  @2.02 Dp3",
@@ -784,7 +732,6 @@ export const newTunes__16__XX = {
 	title: "HIT", artist: "Seventeen", channel: KPOP, bpm: "130",
 	altID: "16_Hit",
 	arcadeID: "1654",
-	pumpoutID: 816,
 
 	charts: {
 		XX: "@2.00 S1 S3 S5 S9 S14 D7 D11 D16 S16.lock S19.lock D18.lock D21.lock  @2.02 Dp4",
@@ -797,7 +744,6 @@ export const newTunes__16__XX = {
 	title: "BBoom BBoom", artist: "MOMOLAND", channel: KPOP, bpm: "126",
 	altID: "16_BBoom_BBoom",
 	arcadeID: "1655",
-	pumpoutID: 749,
 
 	charts: {
 		XX: "S1 S4 S6 S9 S13 S15.lock D8 D15 D18.lock  @1.01 CoOp(x2) Dp2",
@@ -810,7 +756,6 @@ export const newTunes__16__XX = {
 	title: "Rooftop", artist: "N.Flying", channel: KPOP, bpm: "97",
 	altID: "16_Rooftop",
 	arcadeID: "1656",
-	pumpoutID: 812,
 
 	charts: {
 		XX: "@2.00 S2 S4 S6 S9 S13 D7 D15 CoOp(x2) S16.lock D18.lock D20.lock  @2.02 Dp3",
@@ -823,7 +768,6 @@ export const newTunes__16__XX = {
 	title: "Bungee (Fall in Love)", artist: "Oh My Girl", channel: KPOP, bpm: "128",
 	altID: "16_Bungee_Fall_in_Love",
 	arcadeID: "1657",
-	pumpoutID: 815,
 
 	charts: {
 		XX: "@2.00 S2 S4 S7 S11 S14 D11 D15 CoOp(x2) S17.lock D18.lock  @2.02 Dp4",
@@ -836,7 +780,6 @@ export const newTunes__16__XX = {
 	title: "Starry Night", artist: "Mamamoo", channel: KPOP, bpm: "124",
 	altID: "16_Starry_Night",
 	arcadeID: "1658",
-	pumpoutID: 783,
 
 	charts: {
 		XX: "@1.03 S1 S3 S5 S8 S14 D7 D15 S16.lock D17.lock  @2.04 Dp2  @2.07 CoOp(x2)",
@@ -849,7 +792,6 @@ export const newTunes__16__XX = {
 	title: "Love Scenario", artist: "iKon", channel: KPOP, bpm: "118",
 	altID: ["16_Love_Scenario", "16_Love Scenario"],
 	arcadeID: "1659",
-	pumpoutID: 750,
 
 	charts: {
 		XX: "S1 S3 S6 S8 S14 S17.lock D3 D14.lock  @1.01 Dp4  @2.04 D19.lock",
@@ -862,7 +804,6 @@ export const newTunes__16__XX = {
 	title: "Time for the Moon Night", artist: "GFRIEND", channel: KPOP, bpm: "170",
 	altID: "16_Time_for_the_Moon_Night",
 	arcadeID: "1660",
-	pumpoutID: 776,
 
 	charts: {
 		XX: "@1.02 S3 S5 S8 S16 D11 D18 S18.lock D21.lock  @1.04 Dp4  @2.02 CoOp(x2)",
@@ -875,7 +816,6 @@ export const newTunes__16__XX = {
 	title: "Bon Bon Chocolat", artist: "EVERGLOW", channel: KPOP, bpm: "140",
 	altID: "16_Bon_Bon_Chocolat",
 	arcadeID: "1661",
-	pumpoutID: 827,
 
 	charts: {
 		XX: "@2.02 S1 S3 S6 S8 S14 D10 D15 S16.lock D18.lock  @2.04 Dp3",
@@ -888,7 +828,6 @@ export const newTunes__16__XX = {
 	title: "Very Nice", artist: "Seventeen", channel: KPOP, bpm: "122",
 	altID: "16_Very_Nice",
 	arcadeID: "1662",
-	pumpoutID: 751,
 
 	charts: {
 		XX: "S2 S4 S6 S9 S14.lock S17.lock D6 D15.lock D18.lock CoOp(x2)  @1.01 Dp4",
@@ -901,7 +840,6 @@ export const newTunes__16__XX = {
 	title: "Good Bye", artist: "Hong Jin-Young", channel: KPOP, bpm: "139",
 	altID: "16_Good_Bye",
 	arcadeID: "1663",
-	pumpoutID: 752,
 
 	charts: {
 		XX: "S2 S4 S6 S10.lock S14.lock S17.lock D10 D16.lock D18.lock  @1.01 Dp3  @1.04 D21.lock  @2.00 CoOp(x2)",
@@ -914,7 +852,6 @@ export const newTunes__16__XX = {
 	title: "You and I", artist: "Dreamcatcher", channel: KPOP, bpm: "194",
 	altID: "16_You_and_I",
 	arcadeID: "1664",
-	pumpoutID: 779,
 
 	charts: {
 		Phoenix2: "= S15`14 D15`14 D25`24",
@@ -929,7 +866,6 @@ export const newTunes__16__XX = {
 	title: "King of Sales", artist: "Norazo", channel: KPOP, bpm: "150",
 	altID: "16_King_of_Sales",
 	arcadeID: "1665",
-	pumpoutID: 793,
 
 	charts: {
 		XX: "@1.04 S3 S5 S8 S14 S18 D9 D19 CoOp(x2) S21.lock D23.lock  @2.02 Dp4",
@@ -942,7 +878,6 @@ export const newTunes__16__XX = {
 	title: "Gotta Go", artist: "CHUNG HA", channel: KPOP, bpm: "102",
 	altID: "16_Gotta_Go",
 	arcadeID: "1666",
-	pumpoutID: 836,
 
 	charts: {
 		XX: "@2.03 S2 S4 S6 S9 S15 D6 D16 S17.lock D18.lock  @2.04 Dp3  @2.05 D20.lock",
@@ -956,7 +891,6 @@ export const newTunes__16__XX = {
 	shortTitle: "Boong Boong",
 	altID: "16_Boong_Boong",
 	arcadeID: "1667",
-	pumpoutID: 769,
 
 	charts: {
 		XX: "@1.01 S1 S3 S5 S9 S11 S16.lock S18 D12.lock D16 D19.lock  @1.04 CoOp(x2) Dp5",
@@ -969,7 +903,6 @@ export const newTunes__16__XX = {
 	title: "Club Night", artist: "Matduke", channel: WORLD, bpm: "170",
 	altID: "16_Club_Night",
 	arcadeID: "1668",
-	pumpoutID: 753,
 	sortingBetween: ["16__God_Mode_2_0", null],
 
 	charts: {
@@ -985,7 +918,6 @@ export const newTunes__16__XX = {
 	title: "Indestructible", artist: "Matduke", channel: WORLD, bpm: "174",
 	altID: "16_Indestructible",
 	arcadeID: "1669",
-	pumpoutID: 824,
 
 	charts: {
 		Phoenix2: "=",
@@ -1001,7 +933,6 @@ export const newTunes__16__XX = {
 	title: "8 6", artist: "Dasu", channel: WORLD, bpm: "167",
 	altID: "16_86",
 	arcadeID: "1670",
-	pumpoutID: 754,
 
 	charts: {
 		Phoenix2: "=  hd18 hd20",
@@ -1017,7 +948,6 @@ export const newTunes__16__XX = {
 	arcadeName: "CROSS SOUL",
 	altID: "16_Cross_Soul",
 	arcadeID: "1671",
-	pumpoutID: 806,
 
 	charts: {
 		Phoenix2: "= D13`12",
@@ -1033,7 +963,6 @@ export const newTunes__16__XX = {
 	shortTitle: "Broken Karma",
 	altID: "16_Broken_Karma",
 	arcadeID: "1672",
-	pumpoutID: 839,
 
 	charts: {
 		Phoenix2: "=",
@@ -1048,7 +977,6 @@ export const newTunes__16__XX = {
 	title: "After a thousand years", artist: "TOTO", channel: WORLD, bpm: "180",
 	altID: "16_After_a_thousand_years",
 	arcadeID: "1673",
-	pumpoutID: 814,
 
 	charts: {
 		Phoenix2: "=",
@@ -1063,7 +991,6 @@ export const newTunes__16__XX = {
 	title: "Lala", artist: "Yassi Pressman", channel: WORLD, bpm: "126",
 	altID: "16_Lala",
 	arcadeID: "1674",
-	pumpoutID: 808,
 
 	charts: {
 		Phoenix2: "=",
@@ -1078,7 +1005,6 @@ export const newTunes__16__XX = {
 	title: "F(R)IEND", artist: "D_AAN", channel: WORLD, bpm: "200",
 	altID: "16_F_R_IEND",
 	arcadeID: "1675",
-	pumpoutID: 798,
 
 	charts: {
 		Phoenix2: "=",
@@ -1093,7 +1019,6 @@ export const newTunes__16__XX = {
 	title: "Conflict", artist: "Siromaru + Cranky", channel: WORLD, bpm: "160",
 	altID: "16_Conflict",
 	arcadeID: "1676",
-	pumpoutID: 784,
 
 	charts: {
 		Phoenix2: "= d13`12  hd12 hd20 hd24",
@@ -1108,7 +1033,6 @@ export const newTunes__16__XX = {
 	title: "Danger & Danger", artist: "Cranky", channel: WORLD, bpm: "155",
 	altID: "16_Danger_n_Danger",
 	arcadeID: "1677",
-	pumpoutID: 831,
 
 	charts: {
 		Phoenix2: "=  hd9 hd13 hd17 hd20 hd22",
@@ -1123,7 +1047,6 @@ export const newTunes__16__XX = {
 	title: "Imagination", artist: "SHK", channel: XROSS, bpm: "180",
 	altID: "16_Imagination",
 	arcadeID: "1678",
-	pumpoutID: 755,
 	sortingBetween: ["16__Kokugen_Kairou_Labyrinth", null],
 
 	charts: {
@@ -1139,7 +1062,6 @@ export const newTunes__16__XX = {
 	title: "Black Swan", artist: "Zeron", channel: XROSS, bpm: "175",
 	altID: "16_Black_Swan",
 	arcadeID: "1679",
-	pumpoutID: 756,
 
 	charts: {
 		Phoenix2: "=",
@@ -1155,7 +1077,6 @@ export const newTunes__16__XX = {
 	title: "Obelisque", artist: "ESTi x M2U", channel: XROSS, bpm: "130",
 	altID: "16_Obelisque",
 	arcadeID: "1680",
-	pumpoutID: 757,
 
 	charts: {
 		Phoenix2: "=",
@@ -1170,7 +1091,6 @@ export const newTunes__16__XX = {
 	title: "Rage of Fire", artist: "MAX", channel: XROSS, bpm: "155",
 	altID: "16_Rage_of_Fire",
 	arcadeID: "1681",
-	pumpoutID: 782,
 
 	charts: {
 		Phoenix2: "=",
@@ -1185,7 +1105,6 @@ export const newTunes__16__XX = {
 	title: "Dual Racing <RED vs BLUE>", artist: "Nato & r300k", channel: XROSS, bpm: "165",
 	altID: "16_Dual_Racing_RED_vs_BLUE",
 	arcadeID: "1682",
-	pumpoutID: 833,
 
 	charts: {
 		Phoenix2: "=",
@@ -1200,7 +1119,6 @@ export const newTunes__16__XX = {
 	title: "Cycling!", artist: "Yamajet", channel: XROSS, bpm: "220",
 	altID: "16_Cycling",
 	arcadeID: "1683",
-	pumpoutID: 826,
 
 	charts: {
 		Phoenix2: "=",
@@ -1215,7 +1133,6 @@ export const newTunes__16__XX = {
 	title: "Uranium", artist: "Memme", channel: XROSS, bpm: "170",
 	altID: "16_Uranium",
 	arcadeID: "1684",
-	pumpoutID: 819,
 
 	charts: {
 		Phoenix2: "= D25`24",
@@ -1230,7 +1147,6 @@ export const newTunes__16__XX = {
 	title: "Xeroize", artist: "FE", channel: XROSS, bpm: "200",
 	altID: "16_Xeroize",
 	arcadeID: "1685",
-	pumpoutID: 772,
 
 	charts: {
 		Phoenix2: "=",
@@ -1245,7 +1161,6 @@ export const newTunes__16__XX = {
 	title: "Rising Star", artist: "M2U", channel: XROSS, bpm: "140",
 	altID: "16_Rising_Star",
 	arcadeID: "1686",
-	pumpoutID: 795,
 
 	charts: {
 		Phoenix2: "=",
@@ -1260,7 +1175,6 @@ export const newTunes__16__XX = {
 	title: "Cutie Song", artist: "Memme", channel: XROSS, bpm: "174",
 	altID: "16_Cutie_Song",
 	arcadeID: "1687",
-	pumpoutID: 840,
 
 	charts: {
 		Phoenix2: "= D18`17",
@@ -1275,7 +1189,6 @@ export const newTunes__16__XX = {
 	title: "Headless Chicken", artist: "r300k", channel: XROSS, bpm: "90.5",
 	altID: "16_Headless_Chicken",
 	arcadeID: "1688",
-	pumpoutID: 848,
 
 	charts: {
 		Phoenix2: "=",
@@ -1290,7 +1203,6 @@ export const newTunes__16__XX = {
 	title: "Over The Horizon", artist: "Yamajet", channel: XROSS, bpm: "190",
 	altID: "16_Over_the_Horizon",
 	arcadeID: "1689",
-	pumpoutID: 849,
 
 	charts: {
 		Phoenix2: "= D15`14",
@@ -1305,7 +1217,6 @@ export const newTunes__16__XX = {
 	title: "Loki", artist: "Lotze", channel: XROSS, bpm: "140",
 	altID: "16_Loki",
 	arcadeID: "1690",
-	pumpoutID: 758,
 
 	charts: {
 		Phoenix2: "=",
@@ -1321,7 +1232,6 @@ export const newTunes__16__XX = {
 	shortTitle: "Dement",
 	altID: "16_Dement_After_Legend",
 	arcadeID: "1691",
-	pumpoutID: 759,
 
 	charts: {
 		Phoenix2: "=",
@@ -1336,7 +1246,6 @@ export const newTunes__16__XX = {
 	title: "Houseplan", artist: "Houseplan", channel: XROSS, bpm: "128",
 	altID: "16_Houseplan",
 	arcadeID: "1692",
-	pumpoutID: 850,
 
 	charts: {
 		Phoenix2: "=",
@@ -1351,7 +1260,6 @@ export const newTunes__16__XX = {
 	title: "Your Mind", artist: "Roy Mikelate", channel: XROSS, bpm: "180",
 	altID: "16_Your_Mind",
 	arcadeID: "1693",
-	pumpoutID: 810,
 
 	charts: {
 		Phoenix2: "=",
@@ -1367,7 +1275,6 @@ export const newTunes__16__XX = {
 	shortTitle: "Nihilism",
 	altID: "16_Nihilism",
 	arcadeID: "1694",
-	pumpoutID: 773,
 
 	charts: {
 		Phoenix2: "=",
@@ -1382,7 +1289,6 @@ export const newTunes__16__XX = {
 	title: "Phalanx \"RS2018 edit\"", artist: "Cranky", channel: WORLD, bpm: "145",
 	altID: "16_Phalanx_RS2018",
 	arcadeID: "1695",
-	pumpoutID: 801,
 
 	charts: {
 		Phoenix2: "=  hd13 hd18 hd21 hd23",
@@ -1397,7 +1303,6 @@ export const newTunes__16__XX = {
 	title: "Point Zero 2", artist: "SYNTHWULF", channel: WORLD, bpm: "170",
 	altID: "16_Point_Zero_2",
 	arcadeID: "1696",
-	pumpoutID: 832,
 
 	charts: {
 		Phoenix2: "=",
@@ -1412,7 +1317,6 @@ export const newTunes__16__XX = {
 	title: "Brain Power", artist: "Noma", channel: WORLD, bpm: "170~173",
 	altID: "16_Brain_Power",
 	arcadeID: "1697",
-	pumpoutID: 872,
 
 	charts: {
 		Phoenix2: "=  hd8 hd13 hd19 hd23",
@@ -1427,7 +1331,6 @@ export const newTunes__16__XX = {
 	title: "Life is Piano", artist: "Junk", channel: WORLD, bpm: "133",
 	altID: "16_Life_is_Piano",
 	arcadeID: "1698",
-	pumpoutID: 875,
 
 	charts: {
 		Phoenix2: "=  hd11 hd17 hd20",
@@ -1442,7 +1345,6 @@ export const newTunes__16__XX = {
 	title: "Gloria", artist: "Croire", channel: WORLD, bpm: "245",
 	altID: "16_Gloria",
 	arcadeID: "1699",
-	pumpoutID: 887,
 
 	charts: {
 		Phoenix2: "=",
@@ -1458,7 +1360,6 @@ export const newTunes__16__XX = {
 	shortTitle: "Can-Can ~Orpheus~",
 	altID: "16_Can_Can_Orpheus",
 	arcadeID: "16A0",
-	pumpoutID: 785,
 
 	charts: {
 		Phoenix2: "=",
@@ -1475,7 +1376,6 @@ export const newTunes__16__XX = {
 	arcadeName: "Papasito (feat. KuTiNA)",
 	altID: "16_Papasito",
 	arcadeID: "16A1",
-	pumpoutID: 786,
 
 	charts: {
 		Phoenix2: "=",
@@ -1490,7 +1390,6 @@ export const newTunes__16__XX = {
 	title: "Fires of Destiny", artist: "Jehezukiel", channel: ORIGINAL, bpm: "155",
 	altID: "16_Fires_of_Destiny",
 	arcadeID: "16A2",
-	pumpoutID: 787,
 
 	charts: {
 		Phoenix2: "=",
@@ -1507,7 +1406,6 @@ export const newTunes__16__XX = {
 	arcadeName: "The End of the World ft. Skizzo",
 	altID: "16_The_End_of_the_World",
 	arcadeID: "16A3",
-	pumpoutID: 788,
 
 	charts: {
 		Phoenix2: "= D23`22",
@@ -1522,7 +1420,6 @@ export const newTunes__16__XX = {
 	title: "Forgotten Vampire", artist: "WyvernP", channel: ORIGINAL, bpm: "137",
 	altID: "16_Forgotten_Vampire",
 	arcadeID: "16A4",
-	pumpoutID: 789,
 
 	charts: {
 		Phoenix2: "=",
@@ -1537,7 +1434,6 @@ export const newTunes__16__XX = {
 	title: "Harmagedon", artist: "HyuN vs lixound", channel: ORIGINAL, bpm: "194",
 	altID: "16_Harmagedon",
 	arcadeID: "16A5",
-	pumpoutID: 880,
 
 	charts: {
 		Phoenix2: "=",
@@ -1552,7 +1448,6 @@ export const newTunes__16__XX = {
 	title: "Repentance", artist: "Abel", channel: ORIGINAL, bpm: "240",
 	altID: "16_Repentance",
 	arcadeID: "16A6",
-	pumpoutID: 884,
 
 	charts: {
 		Phoenix2: "= S23`22",
@@ -1567,7 +1462,6 @@ export const newTunes__16__XX = {
 	title: "The Reverie", artist: "uma", channel: ORIGINAL, bpm: "150",
 	altID: "16_The_Reverie",
 	arcadeID: "16A7",
-	pumpoutID: 876,
 
 	charts: {
 		Phoenix2: "= D13`12",
@@ -1581,7 +1475,6 @@ export const newTunes__16__XX = {
 {
 	title: "Mopemope", artist: "LeaF", channel: WORLD, bpm: "100",
 	arcadeID: "16B1",
-	pumpoutID: 894,
 
 	charts: {
 		Phoenix2: "= d26`25  hd17 hd18 hd23 hd25",
@@ -1595,7 +1488,6 @@ export const newTunes__16__XX = {
 {
 	title: "Re: End of a Dream", artist: "uma vs. Morimori Atsushi", channel: WORLD, bpm: "212",
 	arcadeID: "16B2",
-	pumpoutID: 895,
 
 	charts: {
 		Phoenix2: "=  hd17 hd21 hd25",
@@ -1609,7 +1501,6 @@ export const newTunes__16__XX = {
 {
 	title: "Cross Ray", artist: "HyuN", channel: WORLD, bpm: "176",
 	arcadeID: "16B3",
-	pumpoutID: 896,
 	arcadeName: "CROSS RAY",
 	sortingBetween: [null, "16__Ultimatum"],
 
@@ -1625,7 +1516,6 @@ export const newTunes__16__XX = {
 {
 	title: "Cygnus", artist: "Nato", channel: ORIGINAL, bpm: "188",
 	arcadeID: "16B4",
-	pumpoutID: 897,
 
 	charts: {
 		Phoenix2: "= d13`12 d20`21  hd11 hd18 hd19 hd22",
@@ -1639,7 +1529,6 @@ export const newTunes__16__XX = {
 {
 	title: "Tropicanic", artist: "SHK", channel: ORIGINAL, bpm: "145",
 	arcadeID: "16B5",
-	pumpoutID: 898,
 
 	charts: {
 		Phoenix2: "=  hd6 hd12 hd17 hd19",
@@ -1653,7 +1542,6 @@ export const newTunes__16__XX = {
 {
 	title: "Paradoxx  [SHORT]", artist: "SLAM & NATO", channel: ORIGINAL, bpm: "220",
 	arcadeID: "16B6",
-	pumpoutID: 899,
 	sortingBetween: ["17__Solve_My_Hurt__SHORT", null],
 	arcadeName: "Paradoxx - SHORT CUT -",
 
@@ -1670,7 +1558,6 @@ export const newTunes__16__XX = {
 	title: "Brown Sky", artist: "Doin", channel: ORIGINAL, bpm: "200", duration: REMIX,
 	sortingBetween: ["17__District_V", null],
 	arcadeID: "16B7",
-	pumpoutID: 900,
 
 	charts: {
 		Phoenix2: "=  hd20 hd23 hd25",
@@ -1686,7 +1573,6 @@ export const newTunes__16__XX = {
 	sortingBetween: ["17__Teddy_Bear__FULL", null],
 	arcadeName: "GOOD NIGHT - FULL SONG -",
 	arcadeID: "16B8",
-	pumpoutID: 901,
 
 	charts: {
 		Phoenix2: "=",
@@ -1702,7 +1588,6 @@ export const newTunes__16__XX = {
 	arcadeName: "Allegro Con Fuoco - FULL SONG -",
 	altID: "16_Allegro_Con_Fuoco_FULL",
 	arcadeID: "16C5",
-	pumpoutID: 780,
 
 	charts: {
 		Phoenix2: "=",
@@ -1718,7 +1603,6 @@ export const newTunes__16__XX = {
 	arcadeName: "Papasito (feat. KuTiNA) - FULL SONG -",
 	altID: "16_Papasito_FULL",
 	arcadeID: "16C9",
-	pumpoutID: 889,
 
 	charts: {
 		Phoenix2: "=",
@@ -1733,7 +1617,6 @@ export const newTunes__16__XX = {
 	title: "Desaparecer", artist: "Applesoda vs Max", channel: ORIGINAL, bpm: "174", duration: REMIX,
 	altID: "16_Desaparecer",
 	arcadeID: "16D0",
-	pumpoutID: 744,
 
 	charts: {
 		Phoenix2: "= d20`19  hd18 hd23 hd25",
@@ -1748,7 +1631,6 @@ export const newTunes__16__XX = {
 	title: "ERRORCODE: 0", artist: "DOIN && SUNNY", channel: ORIGINAL, bpm: "200.1", duration: REMIX,
 	altID: "16_Errorcode_0",
 	arcadeID: "16D1",
-	pumpoutID: 852,
 
 	charts: {
 		Phoenix2: "=  hd23 hd26",
@@ -1764,7 +1646,6 @@ export const newTunes__16__XX = {
 	arcadeName: "MeteoScience (GADGET mix)",
 	altID: "16_Meteo5cience",
 	arcadeID: "16D3",
-	pumpoutID: 781,
 
 	charts: {
 		Phoenix2: "=  hd18 hd22",
@@ -1779,7 +1660,6 @@ export const newTunes__16__XX = {
 	title: "Prime Time", artist: "Cashew", channel: WORLD, bpm: "190", duration: REMIX,
 	altID: "16_Prime_Time",
 	arcadeID: "16D4",
-	pumpoutID: 807,
 
 	charts: {
 		Phoenix2: "=",
@@ -1794,7 +1674,6 @@ export const newTunes__16__XX = {
 	title: "Fire Noodle Challenge", artist: "Memme", channel: ORIGINAL, bpm: "185", duration: REMIX,
 	altID: "16_Fire_Noodle_Challenge",
 	arcadeID: "16D5",
-	pumpoutID: 834,
 
 	charts: {
 		Phoenix2: "=  hd18 hd24",
@@ -1810,7 +1689,6 @@ export const newTunes__16__XX = {
 	arcadeName: "Full Moon - FULL SONG -",
 	altID: "16_Full_Moon_FULL",
 	arcadeID: "16D7",
-	pumpoutID: 873,
 
 	charts: {
 		Phoenix2: "=",
@@ -1826,7 +1704,6 @@ export const newTunes__16__XX = {
 	arcadeName: "HANN (Alone) - FULL SONG -",
 	altID: "16_Hann_Alone_FULL",
 	arcadeID: "16D8",
-	pumpoutID: 809,
 
 	charts: {
 		XX: "@2.00 S14 S18 D19",
@@ -1840,7 +1717,6 @@ export const newTunes__16__XX = {
 	arcadeName: "NEKKOYA(PICK ME) - FULL SONG -",
 	altID: "16_Nekkoya_Pick_Me_FULL",
 	arcadeID: "16D9",
-	pumpoutID: 842,
 
 	charts: {
 		XX: "@2.03 S12 S19 D20",
@@ -1853,7 +1729,6 @@ export const newTunes__16__XX = {
 	title: "BBoom BBoom  [FULL]", artist: "MOMOLAND", channel: KPOP, bpm: "126",
 	altID: "16_BBoom_BBoom_FULL",
 	arcadeID: "16E0",
-	pumpoutID: 760,
 
 	charts: {
 		XX: "S17 D18",
@@ -1867,7 +1742,6 @@ export const newTunes__16__XX = {
 	arcadeName: "I'm so sick - FULL SONG -",
 	altID: ["16_I'm_So_Sick_FULL", "16_I_m_So_Sick_FULL"],
 	arcadeID: "16E1",
-	pumpoutID: 828,
 
 	charts: {
 		XX: "@2.02 S11 S18 D20",
@@ -1881,7 +1755,6 @@ export const newTunes__16__XX = {
 	arcadeName: "Gashina - FULL SONG -",
 	altID: "16_Gashina_FULL",
 	arcadeID: "16E3",
-	pumpoutID: 790,
 
 	charts: {
 		XX: "@1.03 S15 S20 D21",
@@ -1895,7 +1768,6 @@ export const newTunes__16__XX = {
 	arcadeName: "Starry Night - FULL SONG -",
 	altID: "16_Starry_Night_FULL",
 	arcadeID: "16E4",
-	pumpoutID: 794,
 
 	charts: {
 		XX: "@1.04 S12 S17 D18",
@@ -1909,7 +1781,6 @@ export const newTunes__16__XX = {
 	arcadeName: "Time for the moon night - FULL SONG -",
 	altID: "16_Time_for_the_Moon_Night_FULL",
 	arcadeID: "16E6",
-	pumpoutID: 835,
 
 	charts: {
 		XX: "@2.02 S14 S18 D20 S21.lock D24.lock",
@@ -1923,7 +1794,6 @@ export const newTunes__16__XX = {
 	arcadeName: "VERY NICE - FULL SONG -",
 	altID: "16_Very_Nice_FULL",
 	arcadeID: "16E7",
-	pumpoutID: 825,
 
 	charts: {
 		XX: "@2.01 S11 S19 D20",
@@ -1937,7 +1807,6 @@ export const newTunes__16__XX = {
 	arcadeName: "GOOD BYE - FULL SONG -",
 	altID: "16_Good_Bye_FULL",
 	arcadeID: "16E8",
-	pumpoutID: 841,
 
 	charts: {
 		XX: "@2.03 S17 S19 D18 D21",
@@ -1951,7 +1820,6 @@ export const newTunes__16__XX = {
 	arcadeName: "Nyarlathotep - SHORT CUT",
 	altID: "16_Nyarlathotep_SHORT",
 	arcadeID: "16F0",
-	pumpoutID: 745,
 
 	charts: {
 		Phoenix2: "=",
@@ -1967,7 +1835,6 @@ export const newTunes__16__XX = {
 	arcadeName: "Wedding Crashers - SHORT CUT",
 	altID: "16_Wedding_Crashers_SHORT",
 	arcadeID: "16F1",
-	pumpoutID: 746,
 
 	charts: {
 		Phoenix2: "=",
@@ -1984,7 +1851,6 @@ export const newTunes__16__XX = {
 	arcadeName: "Can-can ~Orpheus in The Party Mix~ - SHORT CUT -",
 	altID: "16_Can_Can_Orpheus_SHORT",
 	arcadeID: "16F2",
-	pumpoutID: 804,
 
 	charts: {
 		Phoenix2: "=",
@@ -2000,7 +1866,6 @@ export const newTunes__16__XX = {
 	arcadeName: "XX Opening - SHORT CUT -",
 	altID: "16_XX_Opening",
 	arcadeID: "16F3",
-	pumpoutID: 775,
 
 	charts: {
 		Phoenix2: "=",
@@ -2016,7 +1881,6 @@ export const newTunes__16__XX = {
 	arcadeName: "I Want U - SHORT CUT -",
 	altID: "16_I_Want_U_SHORT",
 	arcadeID: "16F4",
-	pumpoutID: 843,
 
 	charts: {
 		Phoenix2: "=",
@@ -2031,7 +1895,6 @@ export const newTunes__16__XX = {
 	title: "Poseidon  [SHORT]", artist: "Quree", channel: ORIGINAL, bpm: "160", duration: SHORT,
 	altID: "16_Poseidon_SHORT",
 	arcadeID: "16F5",
-	pumpoutID: 791,
 
 	charts: {
 		Phoenix2: "=",
@@ -2048,7 +1911,6 @@ export const newTunes__16__XX = {
 	altID: "16_Switronic_SHORT",
 	arcadeID: "16F6",
 	sortingBetween: [null, "16__God_Mode_2_0"],
-	pumpoutID: 822,
 
 	charts: {
 		Phoenix2: "=",
@@ -2064,7 +1926,6 @@ export const newTunes__16__XX = {
 	arcadeName: "86- FULL SONG -",
 	altID: "16_86_FULL",
 	arcadeID: "16F7",
-	pumpoutID: 774,
 
 	charts: {
 		Phoenix2: "=",
@@ -2080,7 +1941,6 @@ export const newTunes__16__XX = {
 	arcadeName: "Baroque Virus - FULL SONG -",
 	altID: "16_Baroque_Virus_FULL",
 	arcadeID: "16F9",
-	pumpoutID: 851,
 
 	charts: {
 		Phoenix2: "=",

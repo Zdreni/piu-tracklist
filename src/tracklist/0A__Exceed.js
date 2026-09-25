@@ -12,7 +12,6 @@ export const newTunes__0A__Exceed = {
 	title: "Final Audition 3 U.F", artist: "BanYa", bpm: "130",
 	arcadeName: "Final Audition 3",
 	arcadeID: "A01",
-	pumpoutID: 63,
 
 	charts: {
 		Phoenix2: "=  hd17 hd18",
@@ -37,7 +36,6 @@ export const newTunes__0A__Exceed = {
 {
 	title: "Naissance 2", artist: "BanYa", bpm: "129",
 	arcadeID: "A02",
-	pumpoutID: 64,
 
 	charts: {
 		Phoenix2: "=  hd15 hd18",
@@ -63,7 +61,6 @@ export const newTunes__0A__Exceed = {
 {
 	title: "Monkey Fingers", artist: "BanYa", bpm: "186",
 	arcadeID: "A03",
-	pumpoutID: 65,
 
 	charts: {
 		Phoenix2: "= s12`10  hd14 hd17",
@@ -88,7 +85,6 @@ export const newTunes__0A__Exceed = {
 {
 	title: "Blazing", artist: "BanYa", bpm: "158",
 	arcadeID: "A04",
-	pumpoutID: 66,
 
 	charts: {
 		Phoenix2: "=  hd19 hd23",
@@ -111,7 +107,6 @@ export const newTunes__0A__Exceed = {
 {
 	title: "Pump Me Amadeus", artist: "BanYa", bpm: "170",
 	arcadeID: "A05",
-	pumpoutID: 67,
 
 	charts: {
 		Phoenix2: "= d22`21  hd13 hd18 hd19 hd21",
@@ -136,7 +131,6 @@ export const newTunes__0A__Exceed = {
 	title: "X-Treme", artist: "BanYa", bpm: "162",
 	arcadeName: "X-Tream",
 	arcadeID: "A06",
-	pumpoutID: 68,
 
 	charts: {
 		Phoenix2: "= d21`20  hd13 hd20",
@@ -161,7 +155,6 @@ export const newTunes__0A__Exceed = {
 {
 	title: "Get Up!", artist: "BanYa", bpm: "180",
 	arcadeID: "A07",
-	pumpoutID: 69,
 
 	charts: {
 		Phoenix2: "=  hd12 hd18 hd22",
@@ -187,7 +180,6 @@ export const newTunes__0A__Exceed = {
 {
 	title: "Dignity", artist: "Crash", channel: KPOP, bpm: "195",
 	arcadeID: "A08",
-	pumpoutID: 76,
 
 	charts: {
 		Phoenix2: "= D25`24",
@@ -239,7 +231,6 @@ export const newTunes__0A__Exceed = {
 {
 	title: "What Do You Really Want?", artist: "Crash", channel: KPOP, bpm: "110",
 	arcadeID: "A11",
-	pumpoutID: 77,
 
 	charts: {
 		Prime: "=",
@@ -260,7 +251,6 @@ export const newTunes__0A__Exceed = {
 {
 	title: "Go", artist: "U:Nee", channel: KPOP, bpm: "138",
 	arcadeID: "A12",
-	pumpoutID: 426,
 
 	charts: {
 		Fiesta2: "=",

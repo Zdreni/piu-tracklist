@@ -10,7 +10,6 @@ export const newTunes__12__Pro2 = {
 {
 	title: "Monolith", artist: "Affinity", channel: WORLD, bpm: "196",
 	arcadeID: "1201",
-	pumpoutID: 264,
 
 	charts: {
 		Phoenix2: "= D23`22",
@@ -27,7 +26,6 @@ export const newTunes__12__Pro2 = {
 {
 	title: "Y2Z", artist: "Affinity", channel: WORLD, bpm: "162",
 	arcadeID: "1202",
-	pumpoutID: 265,
 
 	charts: {
 		Prime2: "=",
@@ -45,7 +43,6 @@ export const newTunes__12__Pro2 = {
 {
 	title: "Rockhill", artist: "Beltaine", channel: WORLD, bpm: "140",
 	arcadeID: "1206",
-	pumpoutID: 266,
 
 	charts: {
 		Prime2: "=",
@@ -62,7 +59,6 @@ export const newTunes__12__Pro2 = {
 {
 	title: "Switchback", artist: "Celldweller", channel: WORLD, bpm: "112",
 	arcadeID: "1208",
-	pumpoutID: 267,
 
 	charts: {
 		Prime2: "=",
@@ -76,7 +72,6 @@ export const newTunes__12__Pro2 = {
 {
 	title: "Ladybug", artist: "Coconut", channel: WORLD, bpm: "133",
 	arcadeID: "1209",
-	pumpoutID: 268,
 
 	charts: {
 		Phoenix2: "= S15`14 D15`14",
@@ -94,7 +89,6 @@ export const newTunes__12__Pro2 = {
 	title: "Kitty Cat", artist: "Coconut", channel: WORLD, bpm: "128", fromMix: "Fiesta2",
 	altID: "16_Kitty_Cat",
 	arcadeID: "1210",
-	pumpoutID: 547,
 
 	charts: {
 		Phoenix2: "=",
@@ -108,7 +102,6 @@ export const newTunes__12__Pro2 = {
 {
 	title: "Hardkore of the North", artist: "Diclonius Kid", channel: WORLD, bpm: "190",
 	arcadeID: "1212",
-	pumpoutID: 269,
 
 	charts: {
 		Phoenix2: "= D16`15",
@@ -132,7 +125,6 @@ export const newTunes__12__Pro2 = {
 {
 	title: "Rippin' It Up", artist: "Future Funk Squad", channel: WORLD, bpm: "128",
 	arcadeID: "1218",
-	pumpoutID: 270,
 
 	charts: {
 		Prime2: "=",
@@ -146,7 +138,6 @@ export const newTunes__12__Pro2 = {
 {
 	title: "Tribe Attacker", artist: "Hi-G", channel: WORLD, bpm: "150",
 	arcadeID: "1219",
-	pumpoutID: 271,
 
 	charts: {
 		Phoenix2: "=",
@@ -163,7 +154,6 @@ export const newTunes__12__Pro2 = {
 {
 	title: "Virtual Emotion", artist: "Inspector K", channel: WORLD, bpm: "180",
 	arcadeID: "1221",
-	pumpoutID: 272,
 
 	charts: {
 		Prime2: "=",
@@ -177,7 +167,6 @@ export const newTunes__12__Pro2 = {
 {
 	title: "Take Me Back", artist: "KaW", channel: WORLD, bpm: "172",
 	arcadeID: "1222",
-	pumpoutID: 273,
 
 	charts: {
 		Prime2: "=",
@@ -191,7 +180,6 @@ export const newTunes__12__Pro2 = {
 {
 	title: "Re:RAVE", artist: "KURi-ZiLL", channel: WORLD, bpm: "146",
 	arcadeID: "1225",
-	pumpoutID: 274,
 
 	charts: {
 		Prime2: "=",
@@ -205,7 +193,6 @@ export const newTunes__12__Pro2 = {
 {
 	title: "Heel and Toe", artist: "KURi-ZiLL", channel: WORLD, bpm: "185",
 	arcadeID: "1226",
-	pumpoutID: 275,
 
 	charts: {
 		Prime2: "=",
@@ -223,7 +210,6 @@ export const newTunes__12__Pro2 = {
 	title: "Dream to Nightmare", artist: "Nightmare", channel: WORLD, bpm: "178",
 	sortingID: "1300__1",  // before any of 13xx charts
 	arcadeID: "1228",
-	pumpoutID: 208,
 
 	charts: {
 		Phoenix2: "=",
@@ -243,7 +229,6 @@ export const newTunes__12__Pro2 = {
 {
 	title: "Rainspark", artist: "Sanxion7", channel: WORLD, bpm: "125",
 	arcadeID: "1230",
-	pumpoutID: 276,
 
 	charts: {
 		Prime2: "=",
@@ -262,7 +247,6 @@ export const newTunes__12__Pro2 = {
 {
 	title: "Utopia", artist: "Smiley", channel: WORLD, bpm: "166",
 	arcadeID: "1235",
-	pumpoutID: 277,
 
 	charts: {
 		Phoenix2: "=",
@@ -280,7 +264,6 @@ export const newTunes__12__Pro2 = {
 {
 	title: "Xuxa", artist: "Smiley", channel: WORLD, bpm: "160",
 	arcadeID: "1236",
-	pumpoutID: 278,
 
 	charts: {
 		Phoenix2: "= S6`5 S15`14",
@@ -298,7 +281,6 @@ export const newTunes__12__Pro2 = {
 	title: "Be Alive (Raaban Inc. Mix)", artist: "Stian K", channel: WORLD, bpm: "142",
 	shortTitle: "Be Alive",
 	arcadeID: "1237",
-	pumpoutID: 279,
 
 	charts: {
 		Prime2: "=",
@@ -313,7 +295,6 @@ export const newTunes__12__Pro2 = {
 	title: "VVV", artist: "Zig Zag", channel: WORLD, bpm: "310",
 	sortingID: "1300__2",  // before any of 13xx charts, after Dream to Nightmare (1228)
 	arcadeID: "1240",
-	pumpoutID: 209,
 
 	charts: {
 		Phoenix2: "= D20`19",
@@ -330,7 +311,6 @@ export const newTunes__12__Pro2 = {
 {
 	title: "Star Command", artist: "Zircon", channel: WORLD, bpm: "155",
 	arcadeID: "1241",
-	pumpoutID: 280,
 
 	charts: {
 		Phoenix2: "=",

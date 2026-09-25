@@ -12,7 +12,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Nemesis", artist: "M2U", channel: ORIGINAL, bpm: "160",
 	arcadeID: "1401",
-	pumpoutID: 281,
 
 	charts: {
 		Phoenix2: "=  hd12 hd19",
@@ -28,7 +27,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Katkoi", artist: "M2U", channel: ORIGINAL, bpm: "180",
 	arcadeID: "1402",
-	pumpoutID: 348,
 
 	charts: {
 		Phoenix2: "=  hd12 hd15 hd18",
@@ -44,7 +42,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Latino Virus", artist: "Warak", channel: ORIGINAL, bpm: "170",
 	arcadeID: "1403",
-	pumpoutID: 282,
 
 	charts: {
 		Phoenix2: "=  hd11 hd18",
@@ -60,7 +57,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Elysium", artist: "Warak", channel: ORIGINAL, bpm: "128",
 	arcadeID: "1404",
-	pumpoutID: 476,
 
 	charts: {
 		Phoenix2: "=  hd10 hd14",
@@ -76,7 +72,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Yog-Sothoth", artist: "Nato", channel: ORIGINAL, bpm: "200",
 	arcadeID: "1405",
-	pumpoutID: 283,
 
 	charts: {
 		Phoenix2: "= s10`9  hd18 hd23 hd24",
@@ -92,7 +87,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Silhouette Effect", artist: "Nato", channel: ORIGINAL, bpm: "167",
 	arcadeID: "1406",
-	pumpoutID: 352,
 
 	charts: {
 		Phoenix2: "=  hd13 hd19",
@@ -108,7 +102,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Chinese Restaurant", artist: "Memme", channel: ORIGINAL, bpm: "175",
 	arcadeID: "1407",
-	pumpoutID: 284,
 
 	charts: {
 		Phoenix2: "= d12`11  hd11 hd18",
@@ -124,7 +117,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Avalanche", artist: "Memme", channel: ORIGINAL, bpm: "175",
 	arcadeID: "1408",
-	pumpoutID: 327,
 
 	charts: {
 		Phoenix2: "=  hd12 hd18 hd19 hd24",
@@ -140,7 +132,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Force of Ra", artist: "Memme", channel: ORIGINAL, bpm: "180",
 	arcadeID: "1409",
-	pumpoutID: 502,
 
 	charts: {
 		Phoenix2: "= d14`12  hd13 hd19",
@@ -156,7 +147,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Requiem", artist: "MAX", channel: ORIGINAL, bpm: "160",
 	arcadeID: "1410",
-	pumpoutID: 285,
 
 	charts: {
 		Phoenix2: "=  hd10 hd17 hd21",
@@ -172,7 +162,6 @@ export const newTunes__14__Prime = {
 {
 	title: "You Got Me Crazy", artist: "MAX", channel: ORIGINAL, bpm: "128",
 	arcadeID: "1411",
-	pumpoutID: 330,
 
 	charts: {
 		Phoenix2: "=  hd5 hd17",
@@ -188,7 +177,6 @@ export const newTunes__14__Prime = {
 {
 	title: "B2", artist: "MAX", channel: ORIGINAL, bpm: "158",
 	arcadeID: "1412",
-	pumpoutID: 349,
 
 	charts: {
 		Phoenix2: "=  hd12 hd19",
@@ -204,7 +192,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Meteorize", artist: "Paul Bazooka", channel: ORIGINAL, bpm: "136",
 	arcadeID: "1413",
-	pumpoutID: 286,
 
 	charts: {
 		Phoenix2: "=  hd8 hd17 hd19",
@@ -220,7 +207,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Mad5cience", artist: "Paul Bazooka", channel: ORIGINAL, bpm: "130",
 	arcadeID: "1414",
-	pumpoutID: 481,
 
 	charts: {
 		Phoenix2: "=  hd8 hd16",
@@ -236,7 +222,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Hestia", artist: "Gentle Stick", channel: ORIGINAL, bpm: "150",
 	arcadeID: "1415",
-	pumpoutID: 6,
 
 	charts: {
 		Phoenix2: "=  hd12 hd20",
@@ -252,7 +237,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Amphitryon", artist: "Gentle Stick", channel: ORIGINAL, bpm: "155",
 	arcadeID: "1416",
-	pumpoutID: 504,
 
 	charts: {
 		Phoenix2: "=  hd12 hd19",
@@ -268,7 +252,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Leakage Voltage", artist: "Doin", channel: ORIGINAL, bpm: "180",
 	arcadeID: "1417",
-	pumpoutID: 287,
 
 	charts: {
 		Phoenix2: "=  hd12 hd18 hd22",
@@ -284,7 +267,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Removable Disk0", artist: "Doin", channel: ORIGINAL, bpm: "130",
 	arcadeID: "1418",
-	pumpoutID: 507,
 
 	charts: {
 		Phoenix2: "=  hd5 hd16",
@@ -300,7 +282,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Super Fantasy", artist: "SHK", channel: ORIGINAL, bpm: "145",
 	arcadeID: "1419",
-	pumpoutID: 288,
 
 	charts: {
 		Phoenix2: "= s15`14 s21`20 d19`18  hd12 hd19 hd21",
@@ -316,7 +297,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Violet Perfume", artist: "SHK", channel: ORIGINAL, bpm: "140",
 	arcadeID: "1420",
-	pumpoutID: 469,
 
 	charts: {
 		Phoenix2: "= d15`14 d19`18  hd11 hd14 hd18",
@@ -332,7 +312,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Red Swan", artist: "Yahpp", bpm: "172",
 	arcadeID: "1421",
-	pumpoutID: 289,
 
 	charts: {
 		Phoenix2: "=  hd11 hd20 hd22",
@@ -348,7 +327,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Hyacinth", artist: "Yahpp", bpm: "192",
 	arcadeID: "1422",
-	pumpoutID: 462,
 
 	charts: {
 		Phoenix2: "= d14`13  hd13 hd19 hd23",
@@ -365,7 +343,6 @@ export const newTunes__14__Prime = {
 	title: "Blaze emotion (Band version)", artist: "Yahpp", bpm: "170",
 	shortTitle: "Blaze emotion\n(Band version)",
 	arcadeID: "1423",
-	pumpoutID: 505,
 
 	charts: {
 		Phoenix2: "=  hd5 hd17",
@@ -381,7 +358,6 @@ export const newTunes__14__Prime = {
 {
 	title: "1950", artist: "Slam", channel: ORIGINAL, bpm: "200",
 	arcadeID: "1424",
-	pumpoutID: 350,
 
 	charts: {
 		Phoenix2: "=  hd22 hd25 hd26",
@@ -401,7 +377,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Sugar Conspiracy Theory", artist: "MAX", channel: ORIGINAL, bpm: "170",
 	arcadeID: "1425",
-	pumpoutID: 339,
 
 	charts: {
 		Phoenix2: "=  hd7 hd11 hd16 hd19",
@@ -417,7 +392,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Allegro Piu Mosso", artist: "DM Ashura", channel: ORIGINAL, bpm: "160",
 	arcadeID: "1426",
-	pumpoutID: 290,
 
 	charts: {
 		Phoenix2: "=  hd10 hd18",
@@ -433,7 +407,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Annihilator Method", artist: "DM Ashura", channel: ORIGINAL, bpm: "192",
 	arcadeID: "1427",
-	pumpoutID: 353,
 
 	charts: {
 		Phoenix2: "= d16`15  hd13 hd20 hd23",
@@ -449,7 +422,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Move That Body!", artist: "DM Ashura", channel: ORIGINAL, bpm: "145",
 	arcadeID: "1428",
-	pumpoutID: 340,
 
 	charts: {
 		Phoenix2: "= s21`20  hd11 hd17",
@@ -465,7 +437,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Rock the House", artist: "Matduke", channel: WORLD, bpm: "175",
 	arcadeID: "1429",
-	pumpoutID: 291,
 
 	charts: {
 		Phoenix2: "=",
@@ -481,7 +452,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Scorpion King", artist: "r300k", channel: ORIGINAL, bpm: "113",
 	arcadeID: "1430",
-	pumpoutID: 472,
 
 	charts: {
 		Phoenix2: "=  hd11 hd16 hd20 hd23",
@@ -497,7 +467,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Point Zero One", artist: "SynthWulf", channel: ORIGINAL, bpm: "170",
 	arcadeID: "1431",
-	pumpoutID: 475,
 
 	charts: {
 		Phoenix2: "=  hd11 hd17 hd21",
@@ -513,7 +482,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Red Snow", artist: "Cashew", channel: ORIGINAL, bpm: "170",
 	arcadeID: "1433",
-	pumpoutID: 482,
 
 	charts: {
 		Phoenix2: "=  hd12 hd18 hd20 hd21",
@@ -529,7 +497,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Campanella", artist: "Cashew", channel: ORIGINAL, bpm: "140",
 	arcadeID: "1434",
-	pumpoutID: 509,
 
 	charts: {
 		Phoenix2: "= d13`12  hd12 hd17",
@@ -547,7 +514,6 @@ export const newTunes__14__Prime = {
 {
 	title: "You again my love", artist: "CYO Style & Henohenomoheji", channel: ORIGINAL, bpm: "137",
 	arcadeID: "1435",
-	pumpoutID: 512,
 
 	charts: {
 		Phoenix2: "= s15`14 d16`15  hd5 hd14",
@@ -563,7 +529,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Robot Battle", artist: "CYO Style", channel: ORIGINAL, bpm: "198",
 	arcadeID: "1436",
-	pumpoutID: 292,
 
 	charts: {
 		Phoenix2: "= s15`14 d15`14  hd14 hd19 hd23",
@@ -579,7 +544,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Bar Bar Bar", artist: "Crayon Pop", channel: KPOP, bpm: "134",
 	arcadeID: "1437",
-	pumpoutID: 293,
 
 	charts: {
 		Prime2: "=  @1.08 Dp3",
@@ -592,7 +556,6 @@ export const newTunes__14__Prime = {
 {
 	title: "On and On", artist: "VIXX", channel: KPOP, bpm: "119",
 	arcadeID: "1438",
-	pumpoutID: 321,
 
 	charts: {
 		Prime2: "=",
@@ -605,7 +568,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Elvis", artist: "AOA", channel: KPOP, bpm: "135",
 	arcadeID: "1439",
-	pumpoutID: 294,
 
 	charts: {
 		Prime2: "=",
@@ -618,7 +580,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Very Good", artist: "Block B", channel: KPOP, bpm: "136",
 	arcadeID: "1440",
-	pumpoutID: 328,
 
 	charts: {
 		Prime2: "=",
@@ -631,7 +592,6 @@ export const newTunes__14__Prime = {
 {
 	title: "I'm Sorry", artist: "CNBLUE", channel: KPOP, bpm: "131",
 	arcadeID: "1441",
-	pumpoutID: 295,
 
 	charts: {
 		Prime2: "=",
@@ -644,7 +604,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Pandora", artist: "Kara", bpm: "140",
 	arcadeID: "1442",
-	pumpoutID: 296,
 
 	charts: {
 		Prime2: "=",
@@ -657,7 +616,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Venus", artist: "Shinwa", channel: KPOP, bpm: "126",
 	arcadeID: "1443",
-	pumpoutID: 331,
 
 	charts: {
 		Prime2: "=",
@@ -670,7 +628,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Hate, Don't Hate!", artist: "Dal shabet", channel: KPOP, bpm: "123",
 	arcadeID: "1444",
-	pumpoutID: 297,
 
 	charts: {
 		Prime2: "=",
@@ -683,7 +640,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Supermagic", artist: "Supreme Team", channel: KPOP, bpm: "112",
 	arcadeID: "1445",
-	pumpoutID: 298,
 
 	charts: {
 		Prime2: "=",
@@ -696,7 +652,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Sugar Free", artist: "T-ara", channel: KPOP, bpm: "128",
 	arcadeID: "1446",
-	pumpoutID: 299,
 
 	charts: {
 		Prime2: "=  @1.09 D18",
@@ -709,7 +664,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Her", artist: "Block B", channel: KPOP, bpm: "162",
 	arcadeID: "1447",
-	pumpoutID: 300,
 
 	charts: {
 		Prime2: "=",
@@ -722,7 +676,6 @@ export const newTunes__14__Prime = {
 {
 	title: "NoNoNo", artist: "Apink", channel: KPOP, bpm: "106",
 	arcadeID: "1448",
-	pumpoutID: 301,
 
 	charts: {
 		Prime2: "=",
@@ -735,7 +688,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Loner", artist: "Outsider", channel: KPOP, bpm: "125",
 	arcadeID: "1449",
-	pumpoutID: 302,
 
 	charts: {
 		Prime2: "=  @1.08 Dp4",
@@ -748,7 +700,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Flying Duck", artist: "Cherry Filter", channel: KPOP, bpm: "158",
 	arcadeID: "1450",
-	pumpoutID: 303,
 
 	charts: {
 		Prime2: "=  @1.08 Dp4",
@@ -762,7 +713,6 @@ export const newTunes__14__Prime = {
 	title: "Ineffective Boss Without Power", artist: "Norazo", channel: KPOP, bpm: "170",
 	shortTitle: "Ineffective Boss\nWithout Power",
 	arcadeID: "1451",
-	pumpoutID: 304,
 
 	charts: {
 		Prime2: "=",
@@ -775,7 +725,6 @@ export const newTunes__14__Prime = {
 {
 	title: "One", artist: "Epik High", bpm: "135",
 	arcadeID: "1452",
-	pumpoutID: 305,
 
 	charts: {
 		Prime2: "=",
@@ -788,7 +737,6 @@ export const newTunes__14__Prime = {
 {
 	title: "The Revolution", artist: "Max & Doom", channel: WORLD, bpm: "160",
 	arcadeID: "1453",
-	pumpoutID: 453,
 
 	charts: {
 		Phoenix2: "=",
@@ -808,7 +756,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Selfishness", artist: "S.I.D-Sound", channel: WORLD, bpm: "160",
 	arcadeID: "1454",
-	pumpoutID: 325,
 
 	charts: {
 		Phoenix2: "= D19`18 D21`20",
@@ -824,7 +771,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Cosmical Rhythm", artist: "S.I.D-Sound", channel: WORLD, bpm: "128",
 	arcadeID: "1457",
-	pumpoutID: 306,
 
 	charts: {
 		Phoenix2: "=",
@@ -840,7 +786,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Dolly Kiss", artist: "S.I.D-Sound", channel: WORLD, bpm: "149",
 	arcadeID: "1458",
-	pumpoutID: 351,
 
 	charts: {
 		Phoenix2: "=",
@@ -856,7 +801,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Matador", artist: "Cranky", channel: WORLD, bpm: "168",
 	arcadeID: "1459",
-	pumpoutID: 307,
 
 	charts: {
 		Phoenix2: "= s11`10 d23`22  hd6 hd15 hd19 hd22",
@@ -872,7 +816,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Milky Way Galaxy", artist: "3R2", channel: WORLD, bpm: "175",
 	arcadeID: "1460",
-	pumpoutID: 324,
 
 	charts: {
 		Phoenix2: "= S19`18 D20`19",
@@ -888,7 +831,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Feel My Happiness", artist: "3R2", channel: WORLD, bpm: "175",
 	arcadeID: "1461",
-	pumpoutID: 508,
 
 	charts: {
 		Phoenix2: "=",
@@ -904,7 +846,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Ragnarok", artist: "SynthWulf", channel: WORLD, bpm: "170",
 	arcadeID: "1462",
-	pumpoutID: 308,
 
 	charts: {
 		Phoenix2: "=",
@@ -920,7 +861,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Achluoias", artist: "D_AAN", channel: WORLD, bpm: "200",
 	arcadeID: "1463",
-	pumpoutID: 322,
 
 	charts: {
 		Phoenix2: "= d15`14  hd14 hd16 hd24 hd25",
@@ -936,7 +876,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Karyawisata", artist: "Vesuvia x REDSHiFT", channel: WORLD, bpm: "173",
 	arcadeID: "1464",
-	pumpoutID: 309,
 
 	charts: {
 		Phoenix2: "= S21`20",
@@ -952,7 +891,6 @@ export const newTunes__14__Prime = {
 {
 	title: "video out c", artist: "Vospi", channel: WORLD, bpm: "198",
 	arcadeID: "1465",
-	pumpoutID: 467,
 
 	charts: {
 		Phoenix2: "=",
@@ -969,7 +907,6 @@ export const newTunes__14__Prime = {
 	title: "Limbo", artist: "Daddy Yankee", channel: WORLD, bpm: "125",
 	region: LATIN,
 	arcadeID: "1467",
-	pumpoutID: 318,
 
 	charts: {
 		Prime2: "=",
@@ -983,7 +920,6 @@ export const newTunes__14__Prime = {
 	title: "Melodia", artist: "Lylloo feat. Egas", channel: WORLD, bpm: "135",
 	region: LATIN,
 	arcadeID: "1468",
-	pumpoutID: 319,
 
 	charts: {
 		Prime2: "=",
@@ -997,7 +933,6 @@ export const newTunes__14__Prime = {
 	title: "Que Viva La Vida", artist: "Wisin Ft. Michel Telo", channel: WORLD, bpm: "130",
 	region: LATIN,
 	arcadeID: "1469",
-	pumpoutID: 320,
 
 	charts: {
 		Prime2: "=",
@@ -1010,7 +945,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Across the ocean", artist: "Zircon", channel: WORLD, bpm: "130",
 	arcadeID: "1470",
-	pumpoutID: 510,
 
 	charts: {
 		Prime2: "=  @1.08 Dp2",
@@ -1023,7 +957,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Enhanced Reality", artist: "Matduke", channel: WORLD, bpm: "170",
 	arcadeID: "1471",
-	pumpoutID: 479,
 
 	charts: {
 		Prime2: "=  @1.04 S16 D18  @1.08 Dp5",
@@ -1036,7 +969,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Stardust Overdrive", artist: "typeMARS", channel: WORLD, bpm: "175",
 	arcadeID: "1472",
-	pumpoutID: 454,
 
 	charts: {
 		Phoenix2: "=",
@@ -1052,7 +984,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Reminiscence", artist: "MAX", bpm: "155", channel: ORIGINAL,
 	arcadeID: "1473",
-	pumpoutID: 463,
 
 	charts: {
 		Phoenix2: "= s4`3 s7`6 s19`18  hd11 hd17 hd18",
@@ -1068,7 +999,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Moment Day", artist: "MAX", channel: ORIGINAL, bpm: "158",
 	arcadeID: "1474",
-	pumpoutID: 501,
 
 	charts: {
 		Phoenix2: "=  hd10 hd16 hd18",
@@ -1084,7 +1014,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Amai Yuuwaku Dangerous", artist: "Bakusute Sotokanda Icchome", channel: JMUSIC, bpm: "125",
 	arcadeID: "1475",
-	pumpoutID: 461,
 
 	charts: {
 		Phoenix2: "=",
@@ -1100,7 +1029,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Yoropiku Pikuyoro!", artist: "Bakasute Sotokanda Icchome", channel: JMUSIC, bpm: "198",
 	arcadeID: "1476",
-	pumpoutID: 465,
 
 	charts: {
 		Phoenix2: "= D6`5",
@@ -1116,7 +1044,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Imprinting", artist: "Sakuzyo", channel: JMUSIC, bpm: "175",
 	arcadeID: "1477",
-	pumpoutID: 346,
 
 	charts: {
 		Phoenix2: "= D17`16 D22`21",
@@ -1134,7 +1061,6 @@ export const newTunes__14__Prime = {
 	shortTitle: "Sudden Romance",
 	arcadeName: "Sudden Romance [PIU Edit]",
 	arcadeID: "1478",
-	pumpoutID: 345,
 
 	charts: {
 		Phoenix2: "=",
@@ -1150,7 +1076,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Mitotsudaira", artist: "ETIA.", channel: JMUSIC, bpm: "136",
 	arcadeID: "1479",
-	pumpoutID: 344,
 
 	charts: {
 		Phoenix2: "= S19`18",
@@ -1166,7 +1091,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Smile Diary", artist: "you", channel: JMUSIC, bpm: "175",
 	arcadeID: "1480",
-	pumpoutID: 343,
 
 	charts: {
 		Phoenix2: "=",
@@ -1183,7 +1107,6 @@ export const newTunes__14__Prime = {
 	title: "Bad Apple!! feat. Nomico", artist: "Masayoshi Minoshima", channel: JMUSIC, bpm: "138",
 	shortTitle: "Bad Apple",
 	arcadeID: "1481",
-	pumpoutID: 342,
 
 	charts: {
 		Phoenix2: "=",
@@ -1200,7 +1123,6 @@ export const newTunes__14__Prime = {
 	title: "Creed -1st Desire-", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "163",
 	arcadeName: "Creed - 1st Desire -",
 	arcadeID: "1482",
-	pumpoutID: 347,
 
 	charts: {
 		XX: "=  @2.06 S15",
@@ -1214,7 +1136,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Sora no Shirabe", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "172",
 	arcadeID: "1483",
-	pumpoutID: 355,
 
 	charts: {
 		XX: "=",
@@ -1230,7 +1151,6 @@ export const newTunes__14__Prime = {
 	//fullTitle: "Four Seasons of Loneliness ver B feat. Sariyajin",
 	arcadeName: "FOUR SEASONS OF LONELINESS ver B feat. Sariyajin",
 	arcadeID: "1484",
-	pumpoutID: 451,
 
 	charts: {
 		XX: "= D15`14 D22`21",
@@ -1245,7 +1165,6 @@ export const newTunes__14__Prime = {
 	title: "Ai, Yurete", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "152", fromMix: "Prime",
 	arcadeName: "Ai, Yurete...",
 	arcadeID: "1485",
-	pumpoutID: 452,
 
 	charts: {
 		XX: "=  @1.05 D20",
@@ -1259,7 +1178,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Setsuna Trip", artist: "LastNote", channel: JMUSIC, bpm: "145",
 	arcadeID: "1486",
-	pumpoutID: 449,
 
 	charts: {
 		XX: "=  @2.05 D23.lock",
@@ -1273,7 +1191,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Trashy Innocence", artist: "LastNote", channel: JMUSIC, bpm: "230",
 	arcadeID: "1487",
-	pumpoutID: 450,
 
 	charts: {
 		XX: "= S15`14 D11`10 D16`15  @2.05 S23.lock",
@@ -1288,7 +1205,6 @@ export const newTunes__14__Prime = {
 	title: "Ren'ai Yuusha", artist: "LastNote", channel: JMUSIC, bpm: "190",
 	arcadeName: "Renai Yuusha",
 	arcadeID: "1488",
-	pumpoutID: 459,
 
 	charts: {
 		XX: "=",
@@ -1302,7 +1218,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Houkago Stride", artist: "Last Note", channel: JMUSIC, bpm: "225",
 	arcadeID: "1489",
-	pumpoutID: 460,
 
 	charts: {
 		XX: "=",
@@ -1316,7 +1231,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Prime", artist: "Tatsh", channel: JMUSIC, bpm: "165",
 	arcadeID: "1490",
-	pumpoutID: 458,
 
 	charts: {
 		Phoenix2: "=",
@@ -1333,7 +1247,6 @@ export const newTunes__14__Prime = {
 	title: "Bad &infin; End &infin; Night", artist: "HitoshizukuP X yama&#9651", channel: JMUSIC, bpm: "204",
 	arcadeName: "Bad ~ End ~ Night",
 	arcadeID: "1491",
-	pumpoutID: 466,
 
 	charts: {
 		XX: "=",
@@ -1347,7 +1260,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Queen of the Red", artist: "ETIA", channel: JMUSIC, bpm: "188",
 	arcadeID: "1492",
-	pumpoutID: 471,
 
 	charts: {
 		Phoenix2: "=",
@@ -1363,7 +1275,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Idealized Romance", artist: "void", channel: JMUSIC, bpm: "140",
 	arcadeID: "1493",
-	pumpoutID: 474,
 
 	charts: {
 		Phoenix2: "=",
@@ -1380,7 +1291,6 @@ export const newTunes__14__Prime = {
 	title: "Just Hold On (To All Fighters)", artist: "Void", channel: JMUSIC, bpm: "170",
 	shortTitle: "Just Hold On",
 	arcadeID: "1494",
-	pumpoutID: 478,
 
 	charts: {
 		Phoenix2: "=",
@@ -1397,7 +1307,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Unlock", artist: "Daichi Miura (Cover)", channel: JMUSIC, bpm: "128",
 	arcadeID: "1495",
-	pumpoutID: 485,
 
 	region: JAPAN,
 	changes:
@@ -1418,7 +1327,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Heavy Rotation", artist: "AKB48 (Cover)", channel: JMUSIC, bpm: "178",
 	arcadeID: "1496",
-	pumpoutID: 484,
 
 	region: JAPAN,
 	changes:
@@ -1439,7 +1347,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Break It Down", artist: "MAZO", channel: ORIGINAL, bpm: "176",
 	arcadeID: "1497",
-	pumpoutID: 483,
 
 	charts: {
 		Phoenix2: "= d22`21  hd5 hd13 hd17 hd21",
@@ -1455,7 +1362,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Hypercube", artist: "MAX", channel: ORIGINAL, bpm: "145",
 	arcadeID: "1498",
-	pumpoutID: 470,
 
 	charts: {
 		Phoenix2: "=  hd10 hd15 hd19",
@@ -1471,7 +1377,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Like Me", artist: "SHK", channel: ORIGINAL, bpm: "155",
 	arcadeID: "1499",
-	pumpoutID: 511,
 
 	charts: {
 		Phoenix2: "=  hd13 hd20",
@@ -1487,7 +1392,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Beethoven Influenza", artist: "BanYa & Warak", channel: ORIGINAL, bpm: "170", duration: REMIX,
 	arcadeID: "14A0",
-	pumpoutID: 310,
 
 	charts: {
 		Phoenix2: "=  hd20",
@@ -1503,7 +1407,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Avalanquiem", artist: "MAX & Memme", channel: ORIGINAL, bpm: "175", duration: REMIX,
 	arcadeID: "14A1",
-	pumpoutID: 329,
 
 	charts: {
 		Phoenix2: "= s21`20  hd24",
@@ -1519,7 +1422,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Paradoxx", artist: "Slam & NATO", channel: ORIGINAL, bpm: "220", duration: REMIX,
 	arcadeID: "14A2",
-	pumpoutID: 506,
 
 	charts: {
 		Phoenix2: "=  hd25 hd27",
@@ -1535,7 +1437,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Bar Bar Bar  [FULL]", artist: "Crayon Pop", channel: KPOP, bpm: "134",
 	arcadeID: "14C0",
-	pumpoutID: 311,
 
 	charts: {
 		Prime2: "=",
@@ -1548,7 +1449,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Sugar Free  [FULL]", artist: "T-ara", channel: KPOP, bpm: "128",
 	arcadeID: "14C1",
-	pumpoutID: 312,
 
 	charts: {
 		Prime2: "=",
@@ -1561,7 +1461,6 @@ export const newTunes__14__Prime = {
 {
 	title: "NoNoNo  [FULL]", artist: "Apink", channel: KPOP, bpm: "106",
 	arcadeID: "14C2",
-	pumpoutID: 473,
 
 	charts: {
 		Prime2: "=",
@@ -1574,7 +1473,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Move That Body!  [FULL]", artist: "DM Ashura feat. Skizzo & Hanna", channel: ORIGINAL, bpm: "145",
 	arcadeID: "14C3",
-	pumpoutID: 468,
 
 	charts: {
 		Phoenix2: "=",
@@ -1590,7 +1488,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Pandora  [FULL]", artist: "Kara", bpm: "140",
 	arcadeID: "14C4",
-	pumpoutID: 480,
 
 	charts: {
 		Prime2: "=",
@@ -1605,7 +1502,6 @@ export const newTunes__14__Prime = {
 	shortTitle: "Four Seasons of Loneliness",
 	arcadeName: "FOUR SEASONS OF LONELINESS verB feat. Sariyajin - FULL SONG",
 	arcadeID: "14C5",
-	pumpoutID: 455,
 
 	charts: {
 		XX: "= D15`14",
@@ -1620,7 +1516,6 @@ export const newTunes__14__Prime = {
 	title: "Bad Apple!! feat. Nomico  [FULL]", artist: "Masayoshi Minoshima", channel: JMUSIC, bpm: "138",
 	shortTitle: "Bad Apple",
 	arcadeID: "14C6",
-	pumpoutID: 456,
 
 	charts: {
 		Phoenix2: "=",
@@ -1637,7 +1532,6 @@ export const newTunes__14__Prime = {
 	title: "Creed -1st Desire-  [FULL]", artist: "TatshMusicCircle", channel: JMUSIC, bpm: "163",
 	arcadeName: "Creed - 1st Desire - [FULL SONG]",
 	arcadeID: "14C7",
-	pumpoutID: 477,
 
 	charts: {
 		XX: "= S22`23",
@@ -1652,7 +1546,6 @@ export const newTunes__14__Prime = {
 	title: "Super Fantasy  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "145",
 	arcadeName: "Super Fantasy - SHORT CUT",
 	arcadeID: "14E0",
-	pumpoutID: 464,
 
 	charts: {
 		Phoenix2: "= S20`19 D18`17",
@@ -1669,7 +1562,6 @@ export const newTunes__14__Prime = {
 	title: "Yog-Sothoth  [SHORT]", artist: "Nato", channel: ORIGINAL, bpm: "200",
 	arcadeName: "Yog-Sothoth - SHORT CUT",
 	arcadeID: "14E1",
-	pumpoutID: 313,
 
 	charts: {
 		Phoenix2: "=",
@@ -1686,7 +1578,6 @@ export const newTunes__14__Prime = {
 	title: "Silhouette Effect  [SHORT]", artist: "Nato", channel: ORIGINAL, bpm: "167",
 	arcadeName: "Silhouette Effect - SHORT CUT",
 	arcadeID: "14E2",
-	pumpoutID: 354,
 
 	charts: {
 		Phoenix2: "=",
@@ -1703,7 +1594,6 @@ export const newTunes__14__Prime = {
 	title: "Selfishness  [SHORT]", artist: "S.I.D-Sound", channel: WORLD, bpm: "160",
 	arcadeName: "Selfishness - SHORT CUT",
 	arcadeID: "14E3",
-	pumpoutID: 326,
 
 	charts: {
 		Phoenix2: "=",
@@ -1721,7 +1611,6 @@ export const newTunes__14__Prime = {
 	arcadeName: "Rock the house - SHORT CUT",
 	// it was ORIGINAL at Prime2 1.01 (and maybe in Prime, but that was left annoticed because it was New Tunes). In P2 1.07 it is WORLD
 	arcadeID: "14E4",
-	pumpoutID: 314,
 
 	charts: {
 		Phoenix2: "=",
@@ -1738,7 +1627,6 @@ export const newTunes__14__Prime = {
 	title: "Move That Body!  [SHORT]", artist: "DM Ashura", channel: ORIGINAL, bpm: "145",
 	arcadeName: "Move That Body! - SHORT CUT",
 	arcadeID: "14E5",
-	pumpoutID: 341,
 
 	charts: {
 		Phoenix2: "=",
@@ -1755,7 +1643,6 @@ export const newTunes__14__Prime = {
 	title: "Prime Opening", artist: "MAX", channel: ORIGINAL, bpm: "128", duration: SHORT,
 	arcadeName: "PRIME Opening - SHORT CUT",
 	arcadeID: "14E6",
-	pumpoutID: 323,
 
 	charts: {
 		Phoenix2: "=",
@@ -1772,7 +1659,6 @@ export const newTunes__14__Prime = {
 	title: "Stardust Overdrive  [SHORT]", artist: "typeMARS", channel: WORLD, bpm: "175",
 	arcadeName: "Stardust Overdrive - SHORT CUT",
 	arcadeID: "14E7",
-	pumpoutID: 457,
 
 	charts: {
 		Phoenix2: "=",
@@ -1788,7 +1674,6 @@ export const newTunes__14__Prime = {
 {
 	title: "Heavy Rotation  [SHORT]", artist: "AKB48 (Cover)", channel: JMUSIC, bpm: "178",
 	arcadeID: "14F0",
-	pumpoutID: 503,
 
 	region: JAPAN,
 	changes:

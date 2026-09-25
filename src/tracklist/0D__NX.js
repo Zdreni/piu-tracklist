@@ -11,7 +11,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Witch Doctor #1", artist: "Yahpp", bpm: "122",
 	arcadeID: "D01",
-	pumpoutID: 100,
 
 	charts: {
 		Phoenix2: "= s6`5  hd17 hd19",
@@ -35,7 +34,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Arch of Darkness", artist: "Yahpp", bpm: "136",
 	arcadeID: "D02",
-	pumpoutID: 101,
 
 	charts: {
 		Phoenix2: "=  hd7 hd17",
@@ -56,7 +54,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Chimera", artist: "Yahpp", bpm: "210",
 	arcadeID: "D03",
-	pumpoutID: 102,
 
 	charts: {
 		Phoenix2: "=  hd17 hd22 hd24",
@@ -92,7 +89,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Fly", artist: "Epik High", bpm: "128",
 	arcadeID: "D05",
-	pumpoutID: 400,
 
 	charts: {
 		Fiesta2: "=",
@@ -108,7 +104,6 @@ export const newTunes__0D__NX = {
 {
 	title: "One Night", artist: "DJ DOC", channel: KPOP, bpm: "132",
 	arcadeID: "D06",
-	pumpoutID: 417,
 
 	charts: {
 		Fiesta2: "=",
@@ -173,7 +168,6 @@ export const newTunes__0D__NX = {
 {
 	title: "For You", artist: "N.EX.T", channel: KPOP, bpm: "160",
 	arcadeID: "D11",
-	pumpoutID: 883,
 
 	charts: {
 		NX2: ["1", "5", "14", "5", "20"], NX2_: ["", "", "", "13", ""],
@@ -186,7 +180,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Snow Dream", artist: "Apple Jam", channel: KPOP, bpm: "170",
 	arcadeID: "D12",
-	pumpoutID: 892,
 
 	charts: {
 		NX2: ["3", "5", "13", "7", "13"], NX2_: ["", "", "", "6", ""],
@@ -211,7 +204,6 @@ export const newTunes__0D__NX = {
 {
 	title: "2006 Love Song", artist: "BanYa Production", bpm: "96",
 	arcadeID: "D14",
-	pumpoutID: 392,
 
 	charts: {
 		Phoenix2: "=  hd9 hd14",
@@ -231,7 +223,6 @@ export const newTunes__0D__NX = {
 	shortTitle: "Do You Know That\n-Old School-",
 	arcadeName: "Do U Know That-Old School",
 	arcadeID: "D15",
-	pumpoutID: 103,
 
 	charts: {
 		Phoenix2: "= d21`20  hd8 hd18",
@@ -251,7 +242,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Gun Rock", artist: "BanYa Production", bpm: "104",
 	arcadeID: "D16",
-	pumpoutID: 104,
 
 	charts: {
 		Phoenix2: "=  hd7 hd17 hd22",
@@ -271,7 +261,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Bullfighter's Song", artist: "BanYa Production", bpm: "168",
 	arcadeID: "D17",
-	pumpoutID: 105,
 
 	charts: {
 		Phoenix2: "= d19`18 d22`21  hd10 hd17 hd20",
@@ -292,7 +281,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Ugly Dee", artist: "BanYa Production", bpm: "92",
 	arcadeID: "D18",
-	pumpoutID: 106,
 
 	charts: {
 		Phoenix2: "=  hd4 hd20",
@@ -363,7 +351,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Hybs", artist: "DJ Dookie", channel: WORLD, bpm: "102",
 	arcadeID: "D23",
-	pumpoutID: 407,
 
 	charts: {
 		Fiesta2: "=",
@@ -392,7 +379,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Bust Back", artist: "DVS", channel: WORLD, bpm: "94",
 	arcadeID: "D25",
-	pumpoutID: 882,
 
 	charts: {
 		//??? NX2:
@@ -405,7 +391,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Haley", artist: "Sam-I-Am", channel: WORLD, bpm: "112",
 	arcadeID: "D26",
-	pumpoutID: 406,
 
 	charts: {
 		Fiesta2: "=",
@@ -423,7 +408,6 @@ export const newTunes__0D__NX = {
 	title: "We Goin' Fly -remix-", artist: "Gyfted", channel: WORLD, bpm: "112",
 	shortTitle: "We Goin' Fly",
 	arcadeID: "D27",
-	pumpoutID: 424,
 
 	charts: {
 		Fiesta2: "=",
@@ -442,7 +426,6 @@ export const newTunes__0D__NX = {
 	shortTitle: "Final Audition ep. 2-1",
 	arcadeName: "Final Audition Ep. 2-1",
 	arcadeID: "D28",
-	pumpoutID: 107,
 
 	charts: {
 		Phoenix2: "=  hd12 hd21",
@@ -479,7 +462,6 @@ export const newTunes__0D__NX = {
 	shortTitle: "Final Audition ep. 2-2",
 	arcadeName: "Final Audition Ep. 2-2",
 	arcadeID: "D30",
-	pumpoutID: 108,
 
 	charts: {
 		Phoenix2: "= s9`8 s22`21 s23`22  hd19 hd22 hd23",
@@ -504,7 +486,6 @@ export const newTunes__0D__NX = {
 {
 	title: "K-Pop Dance Remix", artist: "DJ DOC/Epik High", channel: KPOP, bpm: "132", duration: REMIX,
 	arcadeID: "D31",
-	pumpoutID: 416,
 
 	charts: {
 		Fiesta2: "=",
@@ -520,7 +501,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Groove Party", artist: "Clon/Tashannie", channel: KPOP, bpm: "105-110", duration: REMIX,
 	arcadeID: "D32",
-	pumpoutID: 116,
 
 	charts: {
 		Prime: "=",
@@ -550,7 +530,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Wi-Ex-Doc-Va", artist: "Yahpp", bpm: "195", duration: REMIX,
 	arcadeID: "D34",
-	pumpoutID: 109,
 
 	charts: {
 		Phoenix2: "= D18`17",
@@ -572,7 +551,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Bemera", artist: "Yahpp", bpm: "210", duration: REMIX,
 	arcadeID: "D35",
-	pumpoutID: 110,
 
 	charts: {
 		Phoenix2: "= S18`17 D19`18",
@@ -595,7 +573,6 @@ export const newTunes__0D__NX = {
 	title: "BanYa-P Classic Mix", artist: "BanYa Production", bpm: "92~180", duration: REMIX,
 	arcadeName: "Banya-P Classic Remix",
 	arcadeID: "D36",
-	pumpoutID: 767,
 
 	charts: {
 		Phoenix2: "= S22`21 D23`22",
@@ -658,7 +635,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Love is a Danger Zone 2  [FULL]", artist: "Yahpp", bpm: "100 ~ 162",
 	arcadeID: "D41",
-	pumpoutID: 111,
 
 	charts: {
 		Phoenix2: "= D22`21",
@@ -680,7 +656,6 @@ export const newTunes__0D__NX = {
 {
 	title: "Beat of the War 2  [FULL]", artist: "Yahpp", bpm: "120 ~ 190",
 	arcadeID: "D42",
-	pumpoutID: 112,
 
 	charts: {
 		Phoenix2: "= D22`21",

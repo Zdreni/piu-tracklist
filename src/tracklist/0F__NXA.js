@@ -11,7 +11,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Blaze Emotion", artist: "Yahpp", bpm: "170",
 	arcadeID: "F01",
-	pumpoutID: 78,
 
 	charts: {
 		Phoenix2: "=  hd11 hd17 hd18",
@@ -31,7 +30,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Cannon X.1", artist: "Yahpp", bpm: "185",
 	arcadeID: "F02",
-	pumpoutID: 79,
 
 	charts: {
 		Phoenix2: "= s4`3  hd14 hd21",
@@ -51,7 +49,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Chopsticks Challenge", artist: "Yahpp", bpm: "128",
 	arcadeID: "F03",
-	pumpoutID: 80,
 
 	charts: {
 		Phoenix2: "=  hd8 hd16",
@@ -71,7 +68,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "La La La", artist: "Big Bang", bpm: "102",
 	arcadeID: "F04",
-	pumpoutID: 409,
 
 	charts: {
 		Fiesta2: "=",
@@ -86,7 +82,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Adios", artist: "Eun Ji Won", bpm: "123",
 	arcadeID: "F05",
-	pumpoutID: 394,
 
 	charts: {
 		Fiesta2: "=",
@@ -101,7 +96,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Slightly", artist: "45rpm", channel: KPOP, bpm: "120",
 	arcadeID: "F06",
-	pumpoutID: 419,
 
 	charts: {
 		Fiesta2: "=",
@@ -116,7 +110,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "I'm Your Girl", artist: "S.E.S", channel: KPOP, bpm: "102",
 	arcadeID: "F07",
-	pumpoutID: 869,
 
 	charts: {
 		Fiesta2: "=",
@@ -131,7 +124,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Only You", artist: "Namolla Family", channel: KPOP, bpm: "108",
 	arcadeID: "F08",
-	pumpoutID: 868,
 
 	charts: {
 		Fiesta2: "=",
@@ -146,7 +138,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Chocolate", artist: "Banana Girl", channel: KPOP, bpm: "130",
 	arcadeID: "F09",
-	pumpoutID: 866,
 
 	charts: {
 		Fiesta2: "=",
@@ -161,7 +152,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Forward", artist: "DJ Missill", channel: KPOP, bpm: "97",
 	arcadeID: "F10",
-	pumpoutID: 402,
 
 	charts: {
 		Fiesta2: "=",
@@ -176,7 +166,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Uprock", artist: "Sam-I-Am", channel: WORLD, bpm: "120",
 	arcadeID: "F11",
-	pumpoutID: 422,
 
 	charts: {
 		Fiesta2: "=",
@@ -191,7 +180,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Crazy", artist: "Gyfted", channel: KPOP, bpm: "108",
 	arcadeID: "F12",
-	pumpoutID: 397,
 
 	charts: {
 		Fiesta2: "=",
@@ -206,7 +194,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Panuelito Rojo", artist: "Big Metra", channel: WORLD, bpm: "98",
 	arcadeID: "F13",
-	pumpoutID: 117,
 
 	charts: {
 		Prime2: "=  @2.05 S17",
@@ -224,7 +211,6 @@ export const newTunes__0F__NXA = {
 	title: "Procedimientos Para Llegar a un Comun Acuerdo", artist: "PXNDX", bpm: "160",
 	shortTitle: "Procedimientos Para Llegar\na un Comun Acuerdo",
 	arcadeID: "F14",
-	pumpoutID: 118,
 
 	charts: {
 		Prime2: "=",
@@ -241,7 +227,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Digan Lo Que Digan", artist: "Nina Pilots", channel: WORLD, bpm: "162",
 	arcadeID: "F15",
-	pumpoutID: 119,
 
 	charts: {
 		Prime2: "=",
@@ -258,7 +243,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Pump Breakers", artist: "Tico", channel: WORLD, bpm: "120",
 	arcadeID: "F16",
-	pumpoutID: 418,
 
 	charts: {
 		Fiesta2: "=",
@@ -273,7 +257,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Change Myself", artist: "Wang Lee Hom", channel: WORLD, bpm: "104",
 	arcadeID: "F17",
-	pumpoutID: 395,
 
 	charts: {
 		Fiesta2: "=",
@@ -288,7 +271,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Come On!", artist: "Lee Jeong Hyun", channel: WORLD, bpm: "141",
 	arcadeID: "F18",
-	pumpoutID: 870,
 
 	charts: {
 		Fiesta2: "=",
@@ -303,7 +285,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Bad Character", artist: "Jang Na Ra", channel: WORLD, bpm: "100",
 	arcadeID: "F19",
-	pumpoutID: 864,
 
 	charts: {
 		Fiesta2: "=",
@@ -318,7 +299,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "U", artist: "Super Junior M", channel: KPOP, bpm: "115",
 	arcadeID: "F20",
-	pumpoutID: 867,
 
 	charts: {
 		Fiesta2: "=",
@@ -333,7 +313,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Breakin' Love", artist: "Yoo Seung Jun", channel: WORLD, bpm: "102",
 	arcadeID: "F21",
-	pumpoutID: 865,
 
 	charts: {
 		Fiesta2: "=",
@@ -348,7 +327,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "The People Didn't Know", artist: "BanYa Production", bpm: "134",
 	arcadeID: "F22",
-	pumpoutID: 81,
 
 	charts: {
 		Phoenix2: "=  hd8 hd16",
@@ -368,7 +346,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "DJ Otada", artist: "BanYa Production", bpm: "180",
 	arcadeID: "F23",
-	pumpoutID: 82,
 
 	charts: {
 		Phoenix2: "=  hd13 hd20 hd21",
@@ -389,7 +366,6 @@ export const newTunes__0F__NXA = {
 	title: "K.O.A. -Alice in Wonderworld-", artist: "BanYa Production", bpm: "156",
 	arcadeName: "K.O.A: Alice In Wonderworld",
 	arcadeID: "F24",
-	pumpoutID: 83,
 
 	charts: {
 		Phoenix2: "=  hd12 hd18",
@@ -410,7 +386,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "My Dreams", artist: "BanYa Production", bpm: "136",
 	arcadeID: "F25",
-	pumpoutID: 84,
 
 	charts: {
 		Phoenix2: "=  hd19 hd21",
@@ -430,7 +405,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Toccata", artist: "BanYa Production", bpm: "104",
 	arcadeID: "F26",
-	pumpoutID: 85,
 
 	charts: {
 		Phoenix2: "=  hd14 hd16",
@@ -451,7 +425,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Do It!", artist: "House Rulez", channel: KPOP, bpm: "129",
 	arcadeID: "F27",
-	pumpoutID: 398,
 
 	charts: {
 		Fiesta2: "=",
@@ -466,7 +439,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Dawn of the Apocalypse", artist: "Vassline", channel: KPOP, bpm: "160-190",
 	arcadeID: "F28",
-	pumpoutID: 113,
 
 	charts: {
 		Prime2: "=",
@@ -486,7 +458,6 @@ export const newTunes__0F__NXA = {
 	shortTitle: "Final Audition ep. 2-X",
 	arcadeName: "Final Audition Ep. 2-X",
 	arcadeID: "F29",
-	pumpoutID: 86,
 
 	charts: {
 		Phoenix2: "= s18`17 s24`23  hd20 hd24",
@@ -506,7 +477,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "45rpm & Eun Ji Won Remix", artist: "45RPM / Eun Ji Won", channel: KPOP, bpm: "123", duration: REMIX,
 	arcadeID: "F30",
-	pumpoutID: 393,
 
 	charts: {
 		Fiesta2: "=",
@@ -522,7 +492,6 @@ export const newTunes__0F__NXA = {
 	title: "The People Didn't Know Pumping Up", artist: "BanYa Production", bpm: "134", duration: REMIX,
 	shortTitle: "The People Didn't Know\nPumping Up",
 	arcadeID: "F31",
-	pumpoutID: 87,
 
 	charts: {
 		Phoenix2: "= D7`6",
@@ -542,7 +511,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Ugly Duck Toccata", artist: "BanYa Production", bpm: "104", duration: REMIX,
 	arcadeID: "F32",
-	pumpoutID: 766,
 
 	charts: {
 		Phoenix2: "=",
@@ -557,7 +525,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Caprice of DJ Otada", artist: "BanYa Production", bpm: "180", duration: REMIX,
 	arcadeID: "F33",
-	pumpoutID: 88,
 
 	charts: {
 		Phoenix2: "= D23`22",
@@ -577,7 +544,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Dr. KOA", artist: "BanYa Production", bpm: "156", duration: REMIX,
 	arcadeID: "F34",
-	pumpoutID: 89,
 
 	charts: {
 		Phoenix2: "= S19`18",
@@ -597,7 +563,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Jam O Beat # No. 4", artist: "BanYa Production / HEaDTriP", channel: ORIGINAL, bpm: "121", duration: REMIX,
 	arcadeID: "F35",
-	pumpoutID: 609,
 
 	charts: {
 		NXA_: ["", "", "16", "6", "16"],
@@ -620,7 +585,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Nina PXNDX Mix", artist: "Nina Pilots / PXNDX", channel: WORLD, bpm: "160", duration: REMIX,
 	arcadeID: "F37",
-	pumpoutID: 120,
 
 	charts: {
 		Prime2: "=",
@@ -637,7 +601,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Big Metra Remix", artist: "Big metra", channel: WORLD, bpm: "105", duration: REMIX,
 	arcadeID: "F38",
-	pumpoutID: 121,
 
 	charts: {
 		Prime2: "=",
@@ -665,7 +628,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Novasonic Mix ver. 3", artist: "Novasonic", bpm: "136", duration: REMIX,
 	arcadeID: "F40",
-	pumpoutID: 415,
 
 	charts: {
 		Fiesta2: "=",
@@ -703,7 +665,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Turkey Virus", artist: "BanYa Production", bpm: "150-162", duration: REMIX,
 	arcadeID: "F43",
-	pumpoutID: 421,
 
 	charts: {
 		Phoenix2: "=",
@@ -723,7 +684,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "msgoon RMX pt. 1", artist: "msgoon", channel: ORIGINAL, bpm: "120", duration: REMIX,
 	arcadeID: "F44",
-	pumpoutID: 414,
 
 	charts: {
 		Prime2: "=",
@@ -750,7 +710,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "msgoon RMX pt. 3", artist: "msgoon", channel: ORIGINAL, bpm: "168", duration: REMIX,
 	arcadeID: "F46",
-	pumpoutID: 413,
 
 	charts: {
 		Prime2: "=",
@@ -766,7 +725,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Chopsticks Challenge  [FULL]", artist: "Yahpp", bpm: "128",
 	arcadeID: "F50",
-	pumpoutID: 90,
 
 	charts: {
 		Phoenix2: "=",
@@ -786,7 +744,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "La La La  [FULL]", artist: "Big Bang", bpm: "102",
 	arcadeID: "F51",
-	pumpoutID: 410,
 
 	charts: {
 		Fiesta2: "=",
@@ -801,7 +758,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Adios  [FULL]", artist: "Eun Ji Won", bpm: "123",
 	arcadeID: "F52",
-	pumpoutID: 878,
 
 	charts: {
 		NXA_: ["", "4", "15", "4", ""],
@@ -813,7 +769,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Panuelito Rojo  [FULL]", artist: "Big Metra", channel: WORLD, bpm: "98",
 	arcadeID: "F53",
-	pumpoutID: 122,
 
 	charts: {
 		Prime2: "=",
@@ -831,7 +786,6 @@ export const newTunes__0F__NXA = {
 	title: "Procedimientos Para Llegar a un Comun Acuerdo  [FULL]", artist: "PXNDX", bpm: "160",
 	shortTitle: "Procedimientos Para Llegar\na un Comun Acuerdo",
 	arcadeID: "F54",
-	pumpoutID: 123,
 
 	charts: {
 		Prime2: "=",
@@ -848,7 +802,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Forward  [FULL]", artist: "DJ Missill", channel: KPOP, bpm: "97",
 	arcadeID: "F55",
-	pumpoutID: 403,
 
 	charts: {
 		Fiesta2: "=",
@@ -863,7 +816,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Slightly  [FULL]", artist: "45rpm ft. msgoon", channel: KPOP, bpm: "120",
 	arcadeID: "F56",
-	pumpoutID: 420,
 
 	charts: {
 		Fiesta2: "=",
@@ -900,7 +852,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Digan Lo Que Digan  [FULL]", artist: "Nina Pilots", channel: WORLD, bpm: "162",
 	arcadeID: "F59",
-	pumpoutID: 124,
 
 	charts: {
 		Prime2: "=",
@@ -917,7 +868,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Trato De No Trabarme  [FULL]", artist: "Big metra", channel: WORLD, bpm: "105",
 	arcadeID: "F60",
-	pumpoutID: 125,
 
 	charts: {
 		Prime2: "=",
@@ -934,7 +884,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Crazy  [FULL]", artist: "Gyfted", channel: KPOP, bpm: "108",
 	arcadeID: "F61",
-	pumpoutID: 592,
 
 	charts: {
 		NXA_: ["", "3", "13", "3", ""],
@@ -968,7 +917,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Enter the Dragon  [FULL]", artist: "JTL", channel: KPOP, bpm: "110",
 	arcadeID: "F64",
-	pumpoutID: 399,
 
 	charts: {
 		Fiesta2: "=",
@@ -983,7 +931,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "Beat # No.4  [FULL]", artist: "HEaDTriP", channel: KPOP, bpm: "121",
 	arcadeID: "F65",
-	pumpoutID: 114,
 
 	charts: {
 		Prime: "=",
@@ -1004,7 +951,6 @@ export const newTunes__0F__NXA = {
 {
 	title: "In Your Fantasy", artist: "Taiji Boys", bpm: "130", fromMix: "NXA",
 	arcadeID: "F80",
-	pumpoutID: 854,
 
 	charts: {
 		Fiesta2: "=",

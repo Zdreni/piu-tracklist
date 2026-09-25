@@ -11,7 +11,6 @@ export const newTunes__05__Perfect = {
 {
 	title: "Pump Jump", artist: "BanYa", bpm: "106", fromMix: "Perfect",
 	arcadeID: "501",
-	pumpoutID: 499,
 
 	charts: {
 		Phoenix2: "=",
@@ -30,7 +29,6 @@ export const newTunes__05__Perfect = {
 {
 	title: "N", artist: "BanYa", bpm: "106", fromMix: "Perfect",
 	arcadeID: "502",
-	pumpoutID: 446,
 
 	charts: {
 		Phoenix2: "=",
@@ -52,7 +50,6 @@ export const newTunes__05__Perfect = {
 {
 	title: "Rolling Christmas", artist: "BanYa", bpm: "142", fromMix: "Perfect",
 	arcadeID: "503",
-	pumpoutID: 2,
 
 	charts: {
 		Phoenix2: "= S13`12 D17`16",
@@ -75,7 +72,6 @@ export const newTunes__05__Perfect = {
 {
 	title: "All I Want For X-mas", artist: "BanYa", bpm: "130", fromMix: "Perfect",
 	arcadeID: "504",
-	pumpoutID: 1,
 
 	charts: {
 		Phoenix2: "=",
@@ -95,7 +91,6 @@ export const newTunes__05__Perfect = {
 {
 	title: "Beethoven Virus", artist: "BanYa", bpm: "162", fromMix: "Perfect",
 	arcadeID: "505",
-	pumpoutID: 4,
 
 	charts: {
 		Phoenix2: "= d22`21  hd11 hd17 hd19 hd21",
@@ -159,7 +154,6 @@ export const newTunes__05__Perfect = {
 {
 	title: "Slam", artist: "Novasonic", bpm: "132", fromMix: "Perfect",
 	arcadeID: "516",
-	pumpoutID: 17,
 
 	charts: {
 		Phoenix2: "= D10`9",

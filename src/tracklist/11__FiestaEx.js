@@ -11,7 +11,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Cleaner", artist: "Doin", channel: ORIGINAL, bpm: "203",
 	arcadeID: "1101",
-	pumpoutID: 172,
 
 	charts: {
 		Phoenix2: "= s14`13  hd20 hd24 hd25",
@@ -29,7 +28,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Interference", artist: "Doin", channel: ORIGINAL, bpm: "180.4",
 	arcadeID: "1102",
-	pumpoutID: 173,
 
 	charts: {
 		Phoenix2: "= d14`13  hd14 hd19 hd21",
@@ -47,7 +45,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Reality", artist: "SHK", channel: ORIGINAL, bpm: "135",
 	arcadeID: "1103",
-	pumpoutID: 174,
 
 	charts: {
 		Phoenix2: "= s10`9 s16`15 s18`17 d16`15  hd6 hd15",
@@ -65,7 +62,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Take Out", artist: "SHK", channel: ORIGINAL, bpm: "170",
 	arcadeID: "1104",
-	pumpoutID: 175,
 
 	charts: {
 		Phoenix2: "= s12`11 s21`20 d20`19 d23`22 d24`23  hd13 hd19 hd21",
@@ -83,7 +79,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Butterfly", artist: "MAX & Rorychesell (SID-SOUND)", channel: ORIGINAL, bpm: "128",
 	arcadeID: "1105",
-	pumpoutID: 176,
 
 	charts: {
 		Phoenix2: "= s14`13 s17`16  hd7 hd17",
@@ -101,7 +96,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Overblow", artist: "MAX", channel: ORIGINAL, bpm: "155",
 	arcadeID: "1106",
-	pumpoutID: 177,
 
 	charts: {
 		Phoenix2: "= s21`20  hd11 hd17 hd18",
@@ -119,7 +113,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "We Got 2 Know", artist: "MAX", channel: ORIGINAL, bpm: "128",
 	arcadeID: "1107",
-	pumpoutID: 178,
 
 	charts: {
 		Phoenix2: "=  hd6 hd17",
@@ -138,7 +131,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Magic", artist: "Secret", channel: KPOP, bpm: "107",
 	arcadeID: "1108",
-	pumpoutID: 362,
 
 	charts: {
 		Fiesta2: "=",
@@ -151,7 +143,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Hot Issue", artist: "4Minute", channel: KPOP, bpm: "128",
 	arcadeID: "1109",
-	pumpoutID: 358,
 
 	charts: {
 		Fiesta2: "=  @1.50 D26",
@@ -164,7 +155,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Magic Girl", artist: "Orange Caramel", channel: KPOP, bpm: "136",
 	arcadeID: "1110",
-	pumpoutID: 363,
 
 	charts: {
 		Fiesta2: "=",
@@ -177,7 +167,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Ring Ding Dong", artist: "SHINee", channel: KPOP, bpm: "125",
 	arcadeID: "1111",
-	pumpoutID: 856,
 
 	charts: {
 		Fiesta2: "=",
@@ -190,7 +179,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Shock", artist: "BEAST", channel: KPOP, bpm: "135",
 	arcadeID: "1112",
-	pumpoutID: 366,
 
 	charts: {
 		Fiesta2: "=",
@@ -203,7 +191,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Last Farewell", artist: "Big Bang", bpm: "135",
 	arcadeID: "1113",
-	pumpoutID: 361,
 
 	charts: {
 		Fiesta2: "=",
@@ -216,7 +203,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Superman", artist: "Norazo", channel: KPOP, bpm: "150",
 	arcadeID: "1114",
-	pumpoutID: 193,
 
 	charts: {
 		Prime: "= CoOp(x2)`Dp??(x2)",
@@ -230,7 +216,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Energy", artist: "Mighty Mouth", channel: KPOP, bpm: "155",
 	arcadeID: "1115",
-	pumpoutID: 357,
 
 	charts: {
 		Fiesta2: "=",
@@ -243,7 +228,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Mother", artist: "1TYM", channel: KPOP, bpm: "96",
 	arcadeID: "1116",
-	pumpoutID: 365,
 
 	charts: {
 		Fiesta2: "=",
@@ -256,7 +240,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "No. 3", artist: "Bae Chi Gi", channel: KPOP, bpm: "128",
 	arcadeID: "1117",
-	pumpoutID: 194,
 
 	charts: {
 		Prime: "=",
@@ -270,7 +253,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Like a Man", artist: "Outsider", channel: KPOP, bpm: "180",
 	arcadeID: "1118",
-	pumpoutID: 195,
 
 	charts: {
 		Prime: "=",
@@ -284,7 +266,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Crashday", artist: "Crash", channel: KPOP, bpm: "220",
 	arcadeID: "1119",
-	pumpoutID: 196,
 
 	charts: {
 		Prime2: "=",
@@ -299,7 +280,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "What Happened", artist: "Throwdown", channel: WORLD, bpm: "130",
 	arcadeID: "1120",
-	pumpoutID: 200,
 
 	charts: {
 		Phoenix2: "= S22`21 D19`20",
@@ -317,7 +297,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Gargoyle", artist: "Sanxion7", channel: WORLD, bpm: "150",
 	arcadeID: "1121",
-	pumpoutID: 201,
 
 	charts: {
 		Phoenix2: "=  hd12 hd19 hd22",
@@ -335,7 +314,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Allegro Con Fuoco", artist: "DM Ashura", channel: WORLD, bpm: "156",
 	arcadeID: "1122",
-	pumpoutID: 202,
 
 	charts: {
 		Phoenix2: "= d24`23  hd10 hd18 hd23",
@@ -353,7 +331,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Hungarian Dance V", artist: "BanYa Production", bpm: "145",
 	arcadeID: "1123",
-	pumpoutID: 179,
 
 	charts: {
 		Phoenix2: "= d22`21  hd10 hd17 hd21",
@@ -371,7 +348,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "The Devil", artist: "BanYa Production", bpm: "130 ~ 240",
 	arcadeID: "1124",
-	pumpoutID: 180,
 
 	charts: {
 		Phoenix2: "= s20`19 d22`20  hd13 hd20",
@@ -389,7 +365,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "X-Rave", artist: "DM Ashura", channel: WORLD, bpm: "147",
 	arcadeID: "1125",
-	pumpoutID: 203,
 
 	charts: {
 		Phoenix2: "=",
@@ -407,7 +382,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Native", artist: "SHK", channel: ORIGINAL, bpm: "135",
 	arcadeID: "1126",
-	pumpoutID: 181,
 
 	charts: {
 		Phoenix2: "=  hd10 hd18",
@@ -425,7 +399,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Smells Like a Chocolate", artist: "Vospi", channel: WORLD, bpm: "175.9",
 	arcadeID: "1127",
-	pumpoutID: 204,
 
 	charts: {
 		Phoenix2: "= S17`16 D18`17",
@@ -443,7 +416,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Necromancy", artist: "Zircon", channel: WORLD, bpm: "173",
 	arcadeID: "1128",
-	pumpoutID: 205,
 
 	charts: {
 		Phoenix2: "=",
@@ -461,7 +433,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "K-Pop Girl Group RMX", artist: "Secret & Orange Caramel & 4Minute & 2NE1", channel: KPOP, bpm: "128", duration: REMIX,
 	arcadeID: "1129",
-	pumpoutID: 360,
 
 	charts: {
 		Fiesta2: "=",
@@ -474,7 +445,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "K-POP Boy Group RMX", artist: "BEAST & Big Bang & SHINee", channel: KPOP, bpm: "125 - 135", duration: REMIX,
 	arcadeID: "1130",
-	pumpoutID: 871,
 
 	charts: {
 		Fiesta2: "=",
@@ -487,7 +457,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Vacuum Cleaner", artist: "Doin", channel: ORIGINAL, bpm: "222.22", duration: REMIX,
 	arcadeID: "1131",
-	pumpoutID: 182,
 
 	charts: {
 		Phoenix2: "=  hd20 hd26",
@@ -505,7 +474,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Everybody Got 2 Know", artist: "MAX", channel: ORIGINAL, bpm: "128", duration: REMIX,
 	arcadeID: "1132",
-	pumpoutID: 183,
 
 	charts: {
 		Phoenix2: "=  hd18",
@@ -528,7 +496,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Interference  [FULL]", artist: "Doin", channel: ORIGINAL, bpm: "180",
 	arcadeID: "1135",
-	pumpoutID: 184,
 
 	charts: {
 		Phoenix2: "=",
@@ -546,7 +513,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Magic Girl  [FULL]", artist: "Orange Caramel", channel: KPOP, bpm: "136",
 	arcadeID: "1136",
-	pumpoutID: 364,
 
 	charts: {
 		Fiesta2: "=",
@@ -559,7 +525,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Ring Ding Dong  [FULL]", artist: "SHINee", channel: KPOP, bpm: "125",
 	arcadeID: "1137",
-	pumpoutID: 857,
 
 	charts: {
 		Fiesta2: "=",
@@ -572,7 +537,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Shock  [FULL]", artist: "BEAST", channel: KPOP, bpm: "135",
 	arcadeID: "1138",
-	pumpoutID: 367,
 
 	charts: {
 		Fiesta2: "=",
@@ -585,7 +549,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Energy  [FULL]", artist: "Mighty Mouth", channel: KPOP, bpm: "155",
 	arcadeID: "1139",
-	pumpoutID: 855,
 
 	charts: {
 		Fiesta2: "=",
@@ -598,7 +561,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Like a Man  [FULL]", artist: "Outsider", channel: KPOP, bpm: "180",
 	arcadeID: "1140",
-	pumpoutID: 197,
 
 	charts: {
 		Prime: "=",
@@ -612,7 +574,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "No. 3  [FULL]", artist: "Bae Chi Gi", channel: KPOP, bpm: "128",
 	arcadeID: "1141",
-	pumpoutID: 198,
 
 	charts: {
 		Prime: "=",
@@ -626,7 +587,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Crashday  [FULL]", artist: "Crash", channel: KPOP, bpm: "220",
 	arcadeID: "1142",
-	pumpoutID: 199,
 
 	charts: {
 		Prime2: "=",
@@ -641,7 +601,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Hot Issue  [FULL]", artist: "4Minute", channel: KPOP, bpm: "128",
 	arcadeID: "1143",
-	pumpoutID: 359,
 
 	charts: {
 		Fiesta2: "=",
@@ -658,7 +617,6 @@ export const newTunes__11__FiestaEx = {
 	title: "Trotpris  [SHORT]", artist: "Doin", channel: ORIGINAL, bpm: "156.118",
 	arcadeName: "Trotpris - SHORT CUT",
 	arcadeID: "1145",
-	pumpoutID: 185,
 
 	charts: {
 		Phoenix2: "=",
@@ -677,7 +635,6 @@ export const newTunes__11__FiestaEx = {
 	title: "Cleaner  [SHORT]", artist: "Doin", channel: ORIGINAL, bpm: "203",
 	arcadeName: "Cleaner - SHORT CUT",
 	arcadeID: "1146",
-	pumpoutID: 186,
 
 	charts: {
 		Phoenix2: "= S22`21",
@@ -696,7 +653,6 @@ export const newTunes__11__FiestaEx = {
 	title: "Take Out  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "170",
 	arcadeName: "Take Out - SHORT CUT",
 	arcadeID: "1147",
-	pumpoutID: 187,
 
 	charts: {
 		Phoenix2: "=",
@@ -715,7 +671,6 @@ export const newTunes__11__FiestaEx = {
 	title: "Overblow  [SHORT]", artist: "MAX", channel: ORIGINAL, bpm: "155",
 	arcadeName: "Overblow - SHORT CUT",
 	arcadeID: "1148",
-	pumpoutID: 188,
 
 	charts: {
 		Phoenix2: "=",
@@ -734,7 +689,6 @@ export const newTunes__11__FiestaEx = {
 	title: "X-Rave  [SHORT]", artist: "DM Ashura", channel: WORLD, bpm: "147",
 	arcadeName: "X-Rave - SHORT CUT",
 	arcadeID: "1149",
-	pumpoutID: 206,
 
 	charts: {
 		Phoenix2: "=",
@@ -756,7 +710,6 @@ export const newTunes__11__FiestaEx = {
 	title: "Night Duty", artist: "A.V.", channel: ORIGINAL, bpm: "140", fromMix: "FiestaEX",
 	altID: ["13_Night_Duty", "16_Night_Duty"],
 	arcadeID: "1151",
-	pumpoutID: 696,
 
 	charts: {
 		Phoenix2: "=",
@@ -774,7 +727,6 @@ export const newTunes__11__FiestaEx = {
 		"XX": { banner: "11__Pavane__XX" },
 	},
 	arcadeID: "1152",
-	pumpoutID: 189,
 
 	charts: {
 		Phoenix2: "= d23`22  hd17 hd21",
@@ -792,7 +744,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Pine Nut", artist: "Doin", channel: ORIGINAL, bpm: "200",
 	arcadeID: "1153",
-	pumpoutID: 190,
 
 	charts: {
 		Phoenix2: "= S19`20",
@@ -814,7 +765,6 @@ export const newTunes__11__FiestaEx = {
 		"XX": { banner: "11__ASDF__XX" },
 	},
 	arcadeID: "1154",
-	pumpoutID: 191,
 
 	charts: {
 		Phoenix2: "=",
@@ -838,7 +788,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Rave Until The Night Is Over", artist: "DM Ashura feat. MC Jay & Veronica", channel: WORLD, bpm: "144",
 	arcadeID: "1159",
-	pumpoutID: 207,
 
 	charts: {
 		Prime2: "=",
@@ -853,7 +802,6 @@ export const newTunes__11__FiestaEx = {
 {
 	title: "Jonathan's Dream", artist: "MAX & Seorryang (SID-SOUND)", channel: ORIGINAL, bpm: "140",
 	arcadeID: "1160",
-	pumpoutID: 192,
 
 	charts: {
 		Phoenix2: "=  hd13 hd15 hd18",

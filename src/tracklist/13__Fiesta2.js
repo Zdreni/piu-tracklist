@@ -12,7 +12,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Pop the Track", artist: "J-Mi & Midi-D & Ft. Hanna Stockzell", channel: WORLD, bpm: "160",
 	arcadeID: "1301",
-	pumpoutID: 210,
 
 	charts: {
 		Phoenix2: "=",
@@ -29,7 +28,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Electric", artist: "The DNC", channel: WORLD, bpm: "120",
 	arcadeID: "1302",
-	pumpoutID: 211,
 
 	charts: {
 		Prime: "=  @1.15 S17",
@@ -42,7 +40,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Passacaglia", artist: "SynthWulf", channel: WORLD, bpm: "175",
 	arcadeID: "1303",
-	pumpoutID: 212,
 
 	charts: {
 		Phoenix2: "= d15`14  hd15 hd17 hd21 hd22",
@@ -59,7 +56,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Baroque Virus", artist: "Zircon", channel: WORLD, bpm: "135",
 	arcadeID: "1304",
-	pumpoutID: 213,
 
 	charts: {
 		Phoenix2: "= s11`10 d21`20  hd13 hd17 hd19",
@@ -76,7 +72,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Elise", artist: "DM Ashura", channel: ORIGINAL, bpm: "162",
 	arcadeID: "1305",
-	pumpoutID: 214,
 
 	charts: {
 		Phoenix2: "= s12`11  hd12 hd17 hd21",
@@ -94,7 +89,6 @@ export const newTunes__13__Fiesta2 = {
 	title: "Ignis Fatuus (DM Ashura Mix)", artist: "BanYa & DM Ashura", channel: ORIGINAL, bpm: "220",
 	shortTitle: "Ignis Fatuus",
 	arcadeID: "1306",
-	pumpoutID: 215,
 
 	charts: {
 		Phoenix2: "= d24`23  hd17 hd18 hd23 hd24",
@@ -113,7 +107,6 @@ export const newTunes__13__Fiesta2 = {
 	title: "Love is a Danger Zone (Cranky Mix)", artist: "BanYa & Cranky", channel: ORIGINAL, bpm: "155",
 	shortTitle: "Love is a Danger Zone  (Cranky)",
 	arcadeID: "1307",
-	pumpoutID: 216,
 
 	charts: {
 		Phoenix2: "=  hd11 hd15 hd20 hd23",
@@ -132,7 +125,6 @@ export const newTunes__13__Fiesta2 = {
 	shortTitle: "Hypnosis\n(SynthWulf Mix)",
 	arcadeName: "Hypnosis(SynthWulf Mix)",
 	arcadeID: "1308",
-	pumpoutID: 217,
 
 	charts: {
 		Phoenix2: "= d16`15  hd14 hd15 hd18 hd21",
@@ -150,7 +142,6 @@ export const newTunes__13__Fiesta2 = {
 	title: "Flew Far Faster", artist: "Doin", channel: ORIGINAL, bpm: "200",
 	arcadeName: "FFF",
 	arcadeID: "1309",
-	pumpoutID: 218,
 
 	charts: {
 		Phoenix2: "= s19`18 d16`15  hd14 hd22",
@@ -167,7 +158,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Unique", artist: "SHK", channel: ORIGINAL, bpm: "145",
 	arcadeID: "1310",
-	pumpoutID: 219,
 
 	charts: {
 		Phoenix2: "= d23`22  hd11 hd15 hd17 hd22",
@@ -184,7 +174,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Accident", artist: "MAX", channel: ORIGINAL, bpm: "183",
 	arcadeID: "1311",
-	pumpoutID: 220,
 
 	charts: {
 		Phoenix2: "=  hd12 hd19",
@@ -201,7 +190,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "D", artist: "MAX", channel: ORIGINAL, bpm: "180",
 	arcadeID: "1312",
-	pumpoutID: 221,
 
 	charts: {
 		Phoenix2: "= s12`11  hd14 hd19 hd20",
@@ -218,7 +206,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "U Got Me Rocking", artist: "MAX", channel: ORIGINAL, bpm: "128",
 	arcadeID: "1313",
-	pumpoutID: 222,
 
 	charts: {
 		Phoenix2: "= s19`18 d6`5 d18`17  hd5 hd17",
@@ -236,7 +223,6 @@ export const newTunes__13__Fiesta2 = {
 	title: "Lucid (PIU Edit)", artist: "Yak Won", channel: ORIGINAL, bpm: "40 ~ 190",
 	shortTitle: "Lucid",
 	arcadeID: "1314",
-	pumpoutID: 223,
 
 	charts: {
 		Phoenix2: "= d15`14 d24`23  hd13 hd20 hd22",
@@ -255,7 +241,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Nobody", artist: "Wonder Girls", channel: KPOP, bpm: "131",
 	arcadeID: "1315",
-	pumpoutID: 224,
 
 	charts: {
 		Prime: "=",
@@ -268,7 +253,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Bad Girl Good Girl", artist: "Miss A", channel: KPOP, bpm: "136",
 	arcadeID: "1316",
-	pumpoutID: 225,
 
 	charts: {
 		Prime: "=",
@@ -281,7 +265,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Step", artist: "KARA", channel: KPOP, bpm: "123",
 	arcadeID: "1317",
-	pumpoutID: 226,
 
 	charts: {
 		Prime: "= -D16",
@@ -294,7 +277,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "I'm the Best", artist: "2NE1", bpm: "128",
 	arcadeID: "1318",
-	pumpoutID: 227,
 
 	charts: {
 		Prime: "=",
@@ -307,7 +289,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Can't Nobody", artist: "2NE1", bpm: "130",
 	arcadeID: "1319",
-	pumpoutID: 228,
 
 	charts: {
 		Prime: "= -S17",
@@ -320,7 +301,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Shanghai Romance", artist: "Orange Caramel", channel: KPOP, bpm: "149",
 	arcadeID: "1320",
-	pumpoutID: 229,
 
 	charts: {
 		Prime: "= -S18 -D17",
@@ -333,7 +313,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Fantastic Baby", artist: "Big Bang", bpm: "130",
 	arcadeID: "1321",
-	pumpoutID: 230,
 
 	charts: {
 		Prime: "=",
@@ -346,7 +325,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Lie", artist: "Big Bang", bpm: "125",
 	arcadeID: "1322",
-	pumpoutID: 231,
 
 	charts: {
 		Prime: "=",
@@ -359,7 +337,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Heart Breaker", artist: "G-Dragon", channel: KPOP, bpm: "135",
 	arcadeID: "1323",
-	pumpoutID: 232,
 
 	charts: {
 		Prime: "= -D18",
@@ -373,7 +350,6 @@ export const newTunes__13__Fiesta2 = {
 	title: "Hands Up (East 4A Mix)", artist: "2PM", channel: KPOP, bpm: "130",
 	shortTitle: "Hands Up",
 	arcadeID: "1324",
-	pumpoutID: 356,
 
 	charts: {
 		Fiesta2: "S3 S5 S8 S15 D5 D15 Sp3 Dp4",
@@ -385,7 +361,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Be Mine", artist: "Infinite", channel: KPOP, bpm: "130",
 	arcadeID: "1325",
-	pumpoutID: 233,
 
 	charts: {
 		Prime: "=",
@@ -398,7 +373,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Crayon", artist: "G-Dragon", channel: KPOP, bpm: "132",
 	arcadeID: "1326",
-	pumpoutID: 234,
 
 	charts: {
 		Prime: "=",
@@ -411,7 +385,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Mackerel", artist: "Norazo", channel: KPOP, bpm: "150",
 	arcadeID: "1327",
-	pumpoutID: 235,
 
 	charts: {
 		Prime: "= CoOp(x2)`Dp??(x2)",
@@ -424,7 +397,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Two Guys", artist: "Bae Chi Gi", channel: KPOP, bpm: "128",
 	arcadeID: "1328",
-	pumpoutID: 236,
 
 	charts: {
 		Prime: "= -D18",
@@ -438,7 +410,6 @@ export const newTunes__13__Fiesta2 = {
 	title: "Danza Kuduro", artist: "Don Omar & Ft. Lucenzo", channel: WORLD, bpm: "130",
 	region: LATIN,
 	arcadeID: "1329",
-	pumpoutID: 316,
 
 	charts: {
 		Prime: "=",
@@ -452,7 +423,6 @@ export const newTunes__13__Fiesta2 = {
 	title: "Rabiosa", artist: "Shakira & Ft. Pitbull", channel: WORLD, bpm: "133",
 	region: LATIN,
 	arcadeID: "1330",
-	pumpoutID: 315,
 
 	charts: {
 		Prime: "=",
@@ -466,7 +436,6 @@ export const newTunes__13__Fiesta2 = {
 	title: "Lovumba", artist: "Daddy Yankee", channel: WORLD, bpm: "121",
 	region: LATIN,
 	arcadeID: "1331",
-	pumpoutID: 317,
 
 	charts: {
 		Prime: "= -D19",
@@ -479,7 +448,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "One Two Three Go!", artist: "Belanova", channel: WORLD, bpm: "150",
 	arcadeID: "1332",
-	pumpoutID: 237,
 
 	charts: {
 		Prime: "=",
@@ -492,7 +460,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Los Malaventurados No Lloran", artist: "PXNDX", bpm: "172",
 	arcadeID: "1333",
-	pumpoutID: 238,
 
 	charts: {
 		Prime: "=",
@@ -505,7 +472,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Sik Asik", artist: "Ayu Ting Ting", channel: WORLD, bpm: "147",
 	arcadeID: "1334",
-	pumpoutID: 239,
 
 	charts: {
 		Prime2: "=",
@@ -519,7 +485,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Online", artist: "Saykoji", channel: WORLD, bpm: "118",
 	arcadeID: "1335",
-	pumpoutID: 240,
 
 	charts: {
 		Prime2: "=",
@@ -533,7 +498,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Dam", artist: "Ben Chalatit", channel: WORLD, bpm: "141",
 	arcadeID: "1336",
-	pumpoutID: 241,
 
 	charts: {
 		Prime2: "=",
@@ -547,7 +511,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Sugar Eyes", artist: "Sugar Eyes", channel: WORLD, bpm: "122",
 	arcadeID: "1337",
-	pumpoutID: 242,
 
 	charts: {
 		Prime2: "=",
@@ -562,7 +525,6 @@ export const newTunes__13__Fiesta2 = {
 	title: "Log-In", artist: "SHK", channel: ORIGINAL, bpm: "140",
 	arcadeName: "Log In",
 	arcadeID: "1338",
-	pumpoutID: 243,
 
 	charts: {
 		Phoenix2: "=  hd11 hd18",
@@ -579,7 +541,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Windmill", artist: "Yak Won", channel: ORIGINAL, bpm: "246",
 	arcadeID: "1339",
-	pumpoutID: 244,
 
 	charts: {
 		Phoenix2: "=  hd13 hd17 hd22",
@@ -596,7 +557,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Follow Me", artist: "SHK", channel: ORIGINAL, bpm: "155",
 	arcadeID: "1340",
-	pumpoutID: 245,
 
 	charts: {
 		Phoenix2: "=  hd10 hd17",
@@ -613,7 +573,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Yeo Rae A", artist: "S.I.D-Sound", channel: ORIGINAL, bpm: "90",
 	arcadeID: "1341",
-	pumpoutID: 246,
 
 	charts: {
 		Phoenix2: "=  hd7 hd10",
@@ -630,7 +589,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Mental Rider", artist: "SQUAR", channel: ORIGINAL, bpm: "120 ~ 140",
 	arcadeID: "1390",
-	pumpoutID: 247,
 
 	charts: {
 		Phoenix2: "= d23`22  hd14 hd19 hd20 hd21",
@@ -647,7 +605,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "BIG to the BANG", artist: "Big Bang & MAX", channel: KPOP, bpm: "135", duration: REMIX,
 	arcadeID: "13A0",
-	pumpoutID: 248,
 
 	charts: {
 		Prime: "=",
@@ -660,7 +617,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Super Mackerel", artist: "Norazo & MAX", channel: KPOP, bpm: "150", duration: REMIX,
 	arcadeID: "13A1",
-	pumpoutID: 249,
 
 	charts: {
 		Prime: "=",
@@ -676,7 +632,6 @@ export const newTunes__13__Fiesta2 = {
 		"XX": { channel: WORLD }
 	},
 	arcadeID: "13A2",
-	pumpoutID: 250,
 
 	charts: {
 		Phoenix2: "=",
@@ -694,7 +649,6 @@ export const newTunes__13__Fiesta2 = {
 	title: "What Are You Doin'?", artist: "Doin & MAX", channel: ORIGINAL, bpm: "200", duration: REMIX,
 	arcadeName: "What Are You Doin?",
 	arcadeID: "13A3",
-	pumpoutID: 251,
 
 	charts: {
 		Phoenix2: "=  hd22",
@@ -711,7 +665,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Step  [FULL]", artist: "KARA", channel: KPOP, bpm: "123",
 	arcadeID: "13C0",
-	pumpoutID: 252,
 
 	charts: {
 		Prime: "=",
@@ -724,7 +677,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "I'm the Best  [FULL]", artist: "2NE1", bpm: "128",
 	arcadeID: "13C1",
-	pumpoutID: 253,
 
 	charts: {
 		Prime: "=",
@@ -737,7 +689,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Shanghai Romance  [FULL]", artist: "Orange Caramel", channel: KPOP, bpm: "149",
 	arcadeID: "13C2",
-	pumpoutID: 254,
 
 	charts: {
 		Prime: "=",
@@ -750,7 +701,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Fantastic Baby  [FULL]", artist: "Big Bang", bpm: "130",
 	arcadeID: "13C3",
-	pumpoutID: 255,
 
 	charts: {
 		Prime: "=",
@@ -763,7 +713,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Can't Nobody  [FULL]", artist: "2NE1", bpm: "130",
 	arcadeID: "13C4",
-	pumpoutID: 256,
 
 	charts: {
 		Prime: "=",
@@ -776,7 +725,6 @@ export const newTunes__13__Fiesta2 = {
 {
 	title: "Heart Breaker  [FULL]", artist: "G-Dragon", channel: KPOP, bpm: "135",
 	arcadeID: "13C5",
-	pumpoutID: 257,
 
 	charts: {
 		Prime: "=",
@@ -796,7 +744,6 @@ export const newTunes__13__Fiesta2 = {
 	title: "Pop the Track  [SHORT]", artist: "J-Mi & Midi-D & Ft. Hanna Stockzell", channel: WORLD, bpm: "160",
 	arcadeName: "Pop The Track - SHORT CUT",
 	arcadeID: "13E0",
-	pumpoutID: 258,
 
 	charts: {
 		Phoenix2: "=",
@@ -814,7 +761,6 @@ export const newTunes__13__Fiesta2 = {
 	title: "Passacaglia  [SHORT]", artist: "SynthWulf", channel: WORLD, bpm: "175",
 	arcadeName: "Passacaglia - SHORT CUT",
 	arcadeID: "13E1",
-	pumpoutID: 259,
 
 	charts: {
 		Phoenix2: "=",
@@ -833,7 +779,6 @@ export const newTunes__13__Fiesta2 = {
 	arcadeName: "Ignis Fatuus(DM Ashura Mix) - SHORT CUT",
 	shortTitle: "Ignis Fatuus  [SHORT]",
 	arcadeID: "13E2",
-	pumpoutID: 260,
 
 	charts: {
 		Phoenix2: "=",
@@ -851,7 +796,6 @@ export const newTunes__13__Fiesta2 = {
 	title: "Flew Far Faster  [SHORT]", artist: "Doin", channel: ORIGINAL, bpm: "200",
 	arcadeName: "FFF - SHORT CUT",
 	arcadeID: "13E3",
-	pumpoutID: 261,
 
 	charts: {
 		Phoenix2: "=",
@@ -870,7 +814,6 @@ export const newTunes__13__Fiesta2 = {
 	arcadeName: "Unique - SHORT CUT",
 	altID: "12__Unique__SHORT",
 	arcadeID: "13E4",
-	pumpoutID: 262,
 
 	charts: {
 		Phoenix2: "=",
@@ -889,7 +832,6 @@ export const newTunes__13__Fiesta2 = {
 	arcadeName: "U Got Me Rocking - SHORT CUT",
 	altID: "12__U_Got_Me_Rocking__SHORT",
 	arcadeID: "13E5",
-	pumpoutID: 263,
 
 	charts: {
 		Phoenix2: "=",

@@ -39,7 +39,6 @@ export const newTunes__02__2nd = {
 {
 	title: "Final Audition", artist: "BanYa", bpm: "130", fromMix: "2nd",
 	arcadeID: "204",
-	pumpoutID: 12,
 
 	charts: {
 		Phoenix2: "=  hd17 hd18",
@@ -64,7 +63,6 @@ export const newTunes__02__2nd = {
 {
 	title: "Extravaganza", artist: "BanYa", bpm: "195", fromMix: "2nd",
 	arcadeID: "205",
-	pumpoutID: 13,
 
 	charts: {
 		Phoenix2: "= d22`21  hd14 hd17 hd21",
@@ -112,7 +110,6 @@ export const newTunes__02__2nd = {
 {
 	title: "Com'Back", artist: "Sechs Kies", channel: KPOP, bpm: "158", fromMix: "2nd",
 	arcadeID: "212",
-	pumpoutID: 21,
 
 	charts: {
 		Prime2: "=  @2.05 CoOp(x2)",
@@ -134,7 +131,6 @@ export const newTunes__02__2nd = {
 {
 	title: "Mobius Strip", artist: "Sechs Kies", channel: KPOP, bpm: "106", fromMix: "2nd",
 	arcadeID: "213",
-	pumpoutID: 22,
 
 	charts: {
 		Prime2: "=",
@@ -164,7 +160,6 @@ export const newTunes__02__2nd = {
 {
 	title: "Repeatorment Remix", artist: "BanYa", bpm: "150", duration: REMIX, fromMix: "2nd",
 	arcadeID: "224",
-	pumpoutID: 14,
 
 	charts: {
 		Phoenix2: "=",
