@@ -228,14 +228,14 @@ export const newTunes__0E__NX2 = {
 "0E__Pumptris_8bit":
 {
 	title: "Pumptris (8bit ver.)", artist: "Yahpp", bpm: "162",
-	changes:
-	{
-		"XX": { banner: "0E__Pumptris_8bit__XX" },
-	},
 	altID: "E13B",
 	shortTitle: "Pumptris (8bit)",
 	arcadeName: "Pumptris 8Bit ver.",
 	arcadeID: "FE13B",
+
+	changes: {
+		XX: { banner: "0E__Pumptris_8bit__XX" },
+	},
 
 	charts: {
 		Phoenix2: "=",

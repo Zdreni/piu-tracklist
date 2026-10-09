@@ -221,11 +221,11 @@ export const newTunes__10__Fiesta = {
 "10__Fire":
 {
 	title: "Fire", artist: "2NE1", bpm: "126", banner: "10__Fire__Fiesta",
-	changes:
-	{
-		"Fiesta2": { banner: "10__Fire" },
-	},
 	arcadeID: "1015",
+
+	changes: {
+		Fiesta2: { banner: "10__Fire" },
+	},
 
 	charts: {
 		Fiesta2: "=",
@@ -710,9 +710,8 @@ export const newTunes__10__Fiesta = {
 	title: "Fire  [FULL]", artist: "2NE1", bpm: "126", banner: "10__Fire__FULL__Fiesta",
 	arcadeID: "1045",
 
-	changes:
-	{
-		"Fiesta2": { banner: "10__Fire__FULL" },
+	changes: {
+		Fiesta2: { banner: "10__Fire__FULL" },
 	},
 
 	charts: {

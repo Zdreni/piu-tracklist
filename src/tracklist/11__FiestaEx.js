@@ -722,11 +722,11 @@ export const newTunes__11__FiestaEx = {
 "11__Pavane":
 {
 	title: "Pavane", artist: "V.A.", channel: ORIGINAL, bpm: "160",
-	changes:
-	{
-		"XX": { banner: "11__Pavane__XX" },
-	},
 	arcadeID: "1152",
+
+	changes: {
+		XX: { banner: "11__Pavane__XX" },
+	},
 
 	charts: {
 		Phoenix2: "= d23`22  hd17 hd21",
@@ -762,7 +762,7 @@ export const newTunes__11__FiestaEx = {
 	title: "ASDF", artist: "Doin", channel: ORIGINAL, bpm: "170",
 	changes:
 	{
-		"XX": { banner: "11__ASDF__XX" },
+		XX: { banner: "11__ASDF__XX" },
 	},
 	arcadeID: "1154",
 

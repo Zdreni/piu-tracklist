@@ -628,10 +628,11 @@ export const newTunes__13__Fiesta2 = {
 "13__Infinity_RMX":
 {
 	title: "Infinity RMX", artist: "SynthWulf & MAX", channel: ORIGINAL, bpm: "175", duration: REMIX,
-	changes: {
-		"XX": { channel: WORLD }
-	},
 	arcadeID: "13A2",
+
+	changes: {
+		XX: { channel: WORLD }
+	},
 
 	charts: {
 		Phoenix2: "=",

@@ -727,11 +727,12 @@ export const newTunes__15__Prime2 = {
 {
 	title: "HUSH", artist: "Yassi Pressman & Nadine Lustre", channel: WORLD, bpm: "82",
 	region: PHILIPPINES,
-	changes: {
-		"XX": { region: "" }
-	},
 	altID: "15_Hush",
 	arcadeID: "1584",
+
+	changes: {
+		XX: { region: "" }
+	},
 
 	charts: {
 		Phoenix2: "=",
@@ -1271,7 +1272,7 @@ export const newTunes__15__Prime2 = {
 	arcadeID: "15E6",
 
 	changes: {
-		"XX": { region: "" }
+		XX: { region: "" }
 	},
 
 	charts: {

@@ -372,6 +372,7 @@ export const newTunes__0C__Zero = {
 	shortTitle: "Love is a Danger Zone (B.P.M.)",
 	arcadeName: "Love is a danger zone 2 (try to B.P.M.)",
 	arcadeID: "C41",
+	sortingBetween: [null, "0C__Love_is_a_Danger_Zone_2_DnG"],
 
 	charts: {
 		Phoenix2: "=",
@@ -437,7 +438,7 @@ export const newTunes__0C__Zero = {
 	arcadeName: "Love is a Danger Zone pt.2 another",
 	altID: "DC04",
 	arcadeID: "C1C04",
-	sortingID: "C41__1",  // after LIADZ Try To BPM (C41)
+	sortingBetween: ["0C__Love_is_a_Danger_Zone_try_to_B_P_M", null],
 
 	charts: {
 		Phoenix2: "=",
