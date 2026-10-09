@@ -4,25 +4,12 @@
 import { CheckInitialTracklistOfNewMix, CheckTracksOrder } from './check.js';
 
 
-const checkPhoenix2Table = {
-
 // verified according to:
 //   - https://www.youtube.com/watch?v=EvMn4sgqWDU  (New Tunes)
+
+
 //   - https://www.youtube.com/watch?v=acusRTT2EPk  (KPOP)
-//   - https://www.youtube.com/watch?v=gwfdnJGBSOA  (Original)
-//   - https://www.youtube.com/watch?v=p97FE-hh_xM  (World Music)
-//   - https://www.youtube.com/watch?v=qBRAjh4pAgs  (Xross)
-//   - https://www.youtube.com/watch?v=pt2im9QVGfs  (Short)
-//   - https://www.youtube.com/watch?v=kNAztUtqo5o  (Remix)
-
-//   - https://www.youtube.com/watch?v=Sb4HNSabt-4  (FULL SONG LIST Kor)
-//   - https://www.youtube.com/watch?v=GJt2snvKdxg  (FULL SONG LIST LatAm)
-
-//   - https://www.youtube.com/watch?v=QcwXLRmOvuM  (Rise Volume 1)
-//   - https://www.youtube.com/watch?v=T-CIUOf7mns  (Rise H.Doubles)
-
-
-// K-POP:
+const checkPhoenix2Table_KPOP = {
 
 '18__T_B_H':  "s2 s4 s6 s14 s17 s20 s22  d18 d22 d24",
 '18__Do_the_Dance':  "s1 s3 s5 s8 s15 s17 s20  d7 d16 d18 d22  CoOp(x2)",
@@ -48,8 +35,12 @@ const checkPhoenix2Table = {
 
 '01__Another_Truth':  "s4 s6 s8 s16 d10 d18 d19 d21  CoOp(x2)",
 
+};
 
-// Original
+
+
+//   - https://www.youtube.com/watch?v=gwfdnJGBSOA  (Original)
+const checkPhoenix2Table_ORIGINAL = {
 
 '18__Enjoy_the_Show':  "s10 s18 s21 s23  d19 d23 d25",
 '18__Punishment_Restaurant':  "s4 s8 s11 s17 s21  d14 d18 d22",
@@ -404,8 +395,12 @@ const checkPhoenix2Table = {
 '02__Final_Audition':  "s2 s7 s10 s18 s19  d17 d19  hd17 hd18",
 '02__Extravaganza':  "s4 s8 s11 s13 s19 s22  d15 d18 d22  hd14 hd17 hd21",
 
+};
 
-// World music
+
+
+//   - https://www.youtube.com/watch?v=p97FE-hh_xM  (World Music)
+const checkPhoenix2Table_WORLD ={
 
 '18__Crash_Landing_Rendezvous':  "s13 s16 s19 s22  d17 d21 d24  hd16 hd20 hd23",
 '18__Quattuorux':  "s15 s19 s22 s24  d17 d21 d24 d26",
@@ -544,8 +539,12 @@ const checkPhoenix2Table = {
 '11__Smells_Like_a_Chocolate':  "s3 s6 s9 s17  d12 d18",
 '11__Necromancy':  "s4 s7 s10 s18 s20  d15 d19 d23",
 
+};
 
-// XROSS
+
+
+//   - https://www.youtube.com/watch?v=qBRAjh4pAgs  (Xross)
+const checkPhoenix2Table_XROSS ={
 
 '18__Dreamchasers':  "s12 s15 s17 s20  d17 d20 d22",
 '18__Super_Haraguro_Pop':  "s4 s7 s10 s12 s16 s18 s20 s22  d17 d20 d22 d24",
@@ -596,8 +595,13 @@ const checkPhoenix2Table = {
 '15__Kill_Them':  "s5 s10 s15 s18  d10 d19",
 '15__Donatello':  "s13 s17 s22  d19 d22",
 
+};
 
-// SHORT
+
+
+//   - https://www.youtube.com/watch?v=pt2im9QVGfs  (Short)
+const checkPhoenix2Table_SHORT =
+{
 
 '17__Euphorianic__SHORT':  "s4 s7 s10 s17  d12 d19",
 '17__Phoenix_Opening__SHORT':  "s12 s16 s18  d16 d20  CoOp(x2)",
@@ -672,8 +676,13 @@ const checkPhoenix2Table = {
 '15__Death_Moon__SHORT':  "s9 s16 s19 s23  d19 d24",
 '15__Hyperion__SHORT':  "s16 s21  d21",
 
+};
 
-// REMIX
+
+
+//   - https://www.youtube.com/watch?v=kNAztUtqo5o  (Remix)
+const checkPhoenix2Table_REMIX =
+{
 
 '17__District_V':  "s13 s18 s22  d20 d24",
 
@@ -729,8 +738,14 @@ const checkPhoenix2Table = {
 
 '13__Infinity_RMX':  "s19  d19",
 
+};
 
-// FULL SONG
+
+
+//   - https://www.youtube.com/watch?v=Sb4HNSabt-4  (FULL SONG LIST Kor)
+//   - https://www.youtube.com/watch?v=GJt2snvKdxg  (FULL SONG LIST LatAm)
+const checkPhoenix2Table_FULL =
+{
 
 '16__Good_Night__FULL':  "s18 s21 s24  d26",
 '16__Full_Moon__FULL':  "s20 s22  d24",
@@ -761,8 +776,14 @@ const checkPhoenix2Table = {
 
 '14__Bad_Apple__FULL':  "s10 s14 s17  d12 d18 d22  CoOp(x4)",
 
+};
 
-// RISE
+
+
+//   - https://www.youtube.com/watch?v=QcwXLRmOvuM  (Rise Volume 1)
+//   - https://www.youtube.com/watch?v=T-CIUOf7mns  (Rise H.Doubles)
+const checkPhoenix2Table_RISE =
+{
 
 '18__Cynical':  "s8 s12 s16 s18 s21  d14 d19 d23  hd13 hd19 hd22",
 '18__Rise_Up':  "s11 s16 s18 s22  d14 d18 d20 d24  hd13 hd15 hd18 hd22",
@@ -794,6 +815,18 @@ const checkPhoenix2Table = {
 };
 
 
+const checkPhoenix2Table = {
+	...checkPhoenix2Table_KPOP,
+	...checkPhoenix2Table_ORIGINAL,
+	...checkPhoenix2Table_WORLD,
+	...checkPhoenix2Table_XROSS,
+	...checkPhoenix2Table_SHORT,
+	...checkPhoenix2Table_REMIX,
+	...checkPhoenix2Table_FULL,
+	...checkPhoenix2Table_RISE,
+};
+
+
 export function CheckInitialTracklistOfPhoenix2()
 {
 	CheckInitialTracklistOfNewMix( "Phoenix2", checkPhoenix2Table );
@@ -802,5 +835,12 @@ export function CheckInitialTracklistOfPhoenix2()
 
 export function CheckTracksOrderOfPhoenix2()
 {
-	CheckTracksOrder( "Phoenix2", checkPhoenix2Table );
+	CheckTracksOrder( "Phoenix2", checkPhoenix2Table_KPOP );
+	CheckTracksOrder( "Phoenix2", checkPhoenix2Table_ORIGINAL );
+	CheckTracksOrder( "Phoenix2", checkPhoenix2Table_WORLD );
+	CheckTracksOrder( "Phoenix2", checkPhoenix2Table_XROSS );
+	CheckTracksOrder( "Phoenix2", checkPhoenix2Table_SHORT );
+	CheckTracksOrder( "Phoenix2", checkPhoenix2Table_REMIX );
+	CheckTracksOrder( "Phoenix2", checkPhoenix2Table_FULL );
+	CheckTracksOrder( "Phoenix2", checkPhoenix2Table_RISE );
 }
