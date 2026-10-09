@@ -609,6 +609,15 @@ function ValidatedMixAndVersion( k )
 }
 
 
+// old arcade IDs (three-letter like 'F24' for NXA, or starting with 'A'..'F' like 'FE13B') are prefixed with '0'
+//   to be comparable with four-letter ones (like '1434')
+function SortingIDFromArcadeID( arcadeID )
+{
+	var isOldID = arcadeID.length === 3  ||  /^[A-F]/.test( arcadeID );
+	return isOldID  ?  "0" + arcadeID  :  arcadeID;
+}
+
+
 var arcadeMap = {}
 
 function PreprocessTrack( track )
@@ -633,7 +642,11 @@ function PreprocessTrack( track )
 		throw new Error( `Track ${ trackID } has no artist specified` );
 
 	if( ! track.channel )
-		track.channel = knownArtists[ track.artist ];
+	{
+		if( ! track.artist in knownArtists )
+			throw new Error( `Track ${ trackID } artist '${ track.artist }' has no channel defined` );
+			track.channel = knownArtists[ track.artist ];
+	}
 	else if( knownArtists[ track.artist ] === track.channel )
 		console.warn( `Track ${ trackID } artist '${ track.artist }' channel is already defined as '${ track.channel }'` );
 
@@ -645,6 +658,13 @@ function PreprocessTrack( track )
 
 	if( track.sortingID === "" )
 		delete track.sortingID;
+
+	if( ! track.sortingID )
+	{
+		if( ! track.arcadeID )
+			throw new Error( `Track ${ trackID } has neither sortingID nor arcadeID` );
+		track.sortingID = SortingIDFromArcadeID( track.arcadeID );
+	}
 
 	delete track.sortingBetween;
 
@@ -730,7 +750,7 @@ function validateTrackSortingBetween( tracklist, trackID )
 
 function generateSortingIdsForChain( tracklist, initialID )
 {
-	var sortingPrefix = tracklist[ initialID ].sortingID  ||  tracklist[ initialID ].arcadeID;
+	var sortingPrefix = tracklist[ initialID ].sortingID  ||  SortingIDFromArcadeID( tracklist[ initialID ].arcadeID );
 	var counter = 1;
 	var trackID = tracklist[ initialID ].sortingBetween[ 1 ];
 	while( trackID !== null )

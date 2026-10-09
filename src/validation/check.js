@@ -290,3 +290,31 @@ export function CheckInitialTracklistOfNewMix( mixName, checkTable )
 	if( exceptions.length > 0 )
 		throw new Error( `Found ${exceptions.length} exceptions` );
 }
+
+
+// each next track in check table should have higher xxOrder than previous one
+export function CheckTracksOrder( mixName, checkTable )
+{
+	var exceptions = [];
+	var prevTrackID = null;
+	for( var trackID of Object.keys( checkTable ) )
+	{
+		try
+		{
+			if( ! tracklist[ trackID ] )
+				throw new Error( `${mixName} order check:  track '${trackID}' not found in tracklist` );
+
+			if( prevTrackID  &&  tracklist[ trackID ].xxOrder <= tracklist[ prevTrackID ].xxOrder )
+				throw new Error( `${mixName} order check:  '${trackID}' ('${tracklist[ trackID ].sortingID}' #${tracklist[ trackID ].xxOrder}) should go after '${prevTrackID}' ('${tracklist[ prevTrackID ].sortingID}' #${tracklist[ prevTrackID ].xxOrder})` );
+		}
+		catch( exc )
+		{
+			console.log( exc.message );
+			exceptions.push( exc );
+		}
+		prevTrackID = trackID;
+	}
+
+	if( exceptions.length > 0 )
+		throw new Error( `Found ${exceptions.length} exceptions` );
+}

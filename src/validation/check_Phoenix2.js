@@ -1,7 +1,7 @@
 "use strict";
 
 
-import { CheckInitialTracklistOfNewMix } from './check.js';
+import { CheckInitialTracklistOfNewMix, CheckTracksOrder } from './check.js';
 
 
 const checkPhoenix2Table = {
@@ -797,4 +797,10 @@ const checkPhoenix2Table = {
 export function CheckInitialTracklistOfPhoenix2()
 {
 	CheckInitialTracklistOfNewMix( "Phoenix2", checkPhoenix2Table );
+}
+
+
+export function CheckTracksOrderOfPhoenix2()
+{
+	CheckTracksOrder( "Phoenix2", checkPhoenix2Table );
 }
