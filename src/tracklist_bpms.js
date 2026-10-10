@@ -11,7 +11,7 @@ var separateBPMs =
 
 	{                       chart: "0D__Gun_Rock  NM", ratio: "2", mixes: "..FiestaEX" },
 	{                              chart: "05__N  CZ", ratio: "2", mixes: "..FiestaEX" },
-	{                    chart: "0A__Naissance_2  aNM", bpm: "129 - 258" },
+	{                    chart: "0A__Naissance_2  aNM", bpm: "129 - 258", mixes: "..Phoenix" },
 
 	{                    chart: "0E__Compunction  NM", bpm: "133 - 177" },
 	{                  chart: "0E__Feel_the_Soul  HD", ratio: "2" },
@@ -34,11 +34,11 @@ var separateBPMs =
 
 	{      chart: "10__Mission_Possible_Blowback  S18", bpm: "122, ends 160" },
 
-	// notes: {                       chart: "Gargoyle  S18", bpm: "150, ends 195" },
+	// notes: {                       chart: "Gargoyle  S18", bpm: "150, ends 195", mixes: "..Phoenix" },
 	{             chart: "07__We_Will_Meet_Again  S14", bpm: "118..177" },
 	{                      chart: "13__Yeo_Rae_A  S13", ratio: "0.5" },
 
-	{                   chart: "12__Star_Command  S12", ratio: "1.25" },
+	{                   chart: "12__Star_Command  S12", ratio: "1.25", mixes: "..Phoenix" },
 
 	// notes: { chart: "Twist of Fate (feat. Ruriling)  S18", bpm: "141..28" },
 	// notes: { chart: "Twist of Fate (feat. Ruriling)  D20", bpm: "141..28" },
