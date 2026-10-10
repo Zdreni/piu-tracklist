@@ -400,7 +400,8 @@ const checkPhoenix2Table_ORIGINAL = {
 
 
 //   - https://www.youtube.com/watch?v=p97FE-hh_xM  (World Music)
-const checkPhoenix2Table_WORLD ={
+const checkPhoenix2Table_WORLD =
+{
 
 '18__Crash_Landing_Rendezvous':  "s13 s16 s19 s22  d17 d21 d24  hd16 hd20 hd23",
 '18__Quattuorux':  "s15 s19 s22 s24  d17 d21 d24 d26",

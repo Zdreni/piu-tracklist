@@ -13,7 +13,7 @@ import { tracklist, PreprocessTracklist } from './tracklist_src.js';
 // #include("src/check_NX.js")
 // #include("src/check_NX2_NXA.js")
 import { CheckInitialTracklistOfXX } from './validation/check_XX.js';
-import { CheckInitialTracklistOfPhoenix } from './validation/check_Phoenix.js';
+import { CheckInitialTracklistOfPhoenix, CheckTracksOrderOfPhoenix } from './validation/check_Phoenix.js';
 import { CheckInitialTracklistOfPhoenix2, CheckTracksOrderOfPhoenix2 } from './validation/check_Phoenix2.js';
 
 	
@@ -170,10 +170,11 @@ function ConvertInnerDataToOutput( track, shortenData )
 {
 	if( shortenData )
 	{
+		delete track.chartsCount;
+		delete track.sortingID;
+
 		for( var mixID of mixesOrder )
 		{
-			delete track.chartsCount;
-
 			var mixCharts = track.charts[ mixID ];
 			if( ! mixCharts )
 				continue;
@@ -187,14 +188,15 @@ function ConvertInnerDataToOutput( track, shortenData )
 			delete track.duration;
 
 		delete track.arcadeName;
+		delete track.arcadeID;
 	}
 	else
 	{
+		delete track.chartsCount;
+		delete track.channel;
+
 		for( var mixID of mixesOrder )
 		{
-			delete track.chartsCount;
-			delete track.channel;
-
 			var mixCharts = track.charts[ mixID ];
 			if( ! mixCharts )
 				continue;
@@ -495,6 +497,7 @@ if( isForStepItUp )
 	AddNotes( tracklist );
 	ApplyTags( tracklist );
 	ApplyArcadeOrder( tracklist );
+	CheckTracksOrderOfPhoenix();
 	CheckTracksOrderOfPhoenix2();
 }
 

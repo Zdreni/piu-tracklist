@@ -1015,6 +1015,10 @@ export const newTunes__14__Prime = {
 	title: "Amai Yuuwaku Dangerous", artist: "Bakusute Sotokanda Icchome", channel: JMUSIC, bpm: "125",
 	arcadeID: "1475",
 
+	changes: {
+		Phoenix2: { channel: WORLD }
+	},
+
 	charts: {
 		Phoenix2: "=",
 		Phoenix: "= D6`5 -Dp3",
@@ -1030,6 +1034,10 @@ export const newTunes__14__Prime = {
 	title: "Yoropiku Pikuyoro!", artist: "Bakasute Sotokanda Icchome", channel: JMUSIC, bpm: "198",
 	arcadeID: "1476",
 
+	changes: {
+		Phoenix2: { channel: WORLD }
+	},
+
 	charts: {
 		Phoenix2: "= D6`5",
 		Phoenix: "= S10`9 -Sp3 -Dp4  @2.12 S22 D24",
@@ -1044,6 +1052,10 @@ export const newTunes__14__Prime = {
 {
 	title: "Imprinting", artist: "Sakuzyo", channel: JMUSIC, bpm: "175",
 	arcadeID: "1477",
+
+	changes: {
+		Phoenix2: { channel: WORLD }
+	},
 
 	charts: {
 		Phoenix2: "= D17`16 D22`21",
@@ -1062,6 +1074,10 @@ export const newTunes__14__Prime = {
 	arcadeName: "Sudden Romance [PIU Edit]",
 	arcadeID: "1478",
 
+	changes: {
+		Phoenix2: { channel: WORLD }
+	},
+
 	charts: {
 		Phoenix2: "=",
 		Phoenix: "= D9`8 -Dp4",
@@ -1076,6 +1092,10 @@ export const newTunes__14__Prime = {
 {
 	title: "Mitotsudaira", artist: "ETIA.", channel: JMUSIC, bpm: "136",
 	arcadeID: "1479",
+
+	changes: {
+		Phoenix2: { channel: WORLD }
+	},
 
 	charts: {
 		Phoenix2: "= S19`18",
@@ -1092,6 +1112,10 @@ export const newTunes__14__Prime = {
 	title: "Smile Diary", artist: "you", channel: JMUSIC, bpm: "175",
 	arcadeID: "1480",
 
+	changes: {
+		Phoenix2: { channel: WORLD }
+	},
+
 	charts: {
 		Phoenix2: "=",
 		Phoenix: "= D9`8 -Dp5",
@@ -1107,6 +1131,10 @@ export const newTunes__14__Prime = {
 	title: "Bad Apple!! feat. Nomico", artist: "Masayoshi Minoshima", channel: JMUSIC, bpm: "138",
 	shortTitle: "Bad Apple",
 	arcadeID: "1481",
+
+	changes: {
+		Phoenix2: { channel: WORLD }
+	},
 
 	charts: {
 		Phoenix2: "=",
@@ -1232,6 +1260,10 @@ export const newTunes__14__Prime = {
 	title: "Prime", artist: "Tatsh", channel: JMUSIC, bpm: "165",
 	arcadeID: "1490",
 
+	changes: {
+		Phoenix2: { channel: WORLD }
+	},
+
 	charts: {
 		Phoenix2: "=",
 		Phoenix: "= D13`12 D21`20 -Dp3",
@@ -1261,6 +1293,10 @@ export const newTunes__14__Prime = {
 	title: "Queen of the Red", artist: "ETIA", channel: JMUSIC, bpm: "188",
 	arcadeID: "1492",
 
+	changes: {
+		Phoenix2: { channel: WORLD }
+	},
+
 	charts: {
 		Phoenix2: "=",
 		Phoenix: "= S12`11 D14`12 -Dp3",
@@ -1275,6 +1311,10 @@ export const newTunes__14__Prime = {
 {
 	title: "Idealized Romance", artist: "void", channel: JMUSIC, bpm: "140",
 	arcadeID: "1493",
+
+	changes: {
+		Phoenix2: { channel: WORLD }
+	},
 
 	charts: {
 		Phoenix2: "=",
@@ -1291,6 +1331,10 @@ export const newTunes__14__Prime = {
 	title: "Just Hold On (To All Fighters)", artist: "Void", channel: JMUSIC, bpm: "170",
 	shortTitle: "Just Hold On",
 	arcadeID: "1494",
+
+	changes: {
+		Phoenix2: { channel: WORLD }
+	},
 
 	charts: {
 		Phoenix2: "=",

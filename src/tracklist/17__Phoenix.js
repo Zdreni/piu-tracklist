@@ -33,7 +33,6 @@ export const newTunes__17__Phoenix = {
 "17__Crush":
 {
 	title: "CRUSH", artist: "ZEROBASEONE", channel: KPOP, bpm: "154",
-	//sortingID: "",
 	sortingBetween: ["17__Do_or_Die", "17__Discord"],
 
 	charts: {
@@ -89,7 +88,6 @@ export const newTunes__17__Phoenix = {
 "17__Nxde":
 {
 	title: "Nxde", artist: "(G)I-DLE", channel: KPOP, bpm: "136",
-	//sortingID: "",
 	sortingBetween: ["17__Boca", "17__Teddy_Bear"],
 
 	charts: {
@@ -101,7 +99,6 @@ export const newTunes__17__Phoenix = {
 "17__Teddy_Bear":
 {
 	title: "Teddy Bear", artist: "STAYC", channel: KPOP, bpm: "119",
-	//sortingID: "",
 	sortingBetween: ["17__Nxde", "17__Alone"],
 
 	charts: {
@@ -113,7 +110,6 @@ export const newTunes__17__Phoenix = {
 "17__Alone":
 {
 	title: "Alone", artist: "HIGHLIGHT", channel: KPOP, bpm: "115",
-	//sortingID: "",
 	sortingBetween: ["17__Teddy_Bear", "17__Amor_Fati"],
 
 	charts: {
@@ -125,7 +121,6 @@ export const newTunes__17__Phoenix = {
 "17__Amor_Fati":
 {
 	title: "Amor Fati", artist: "Yeon Ja Kim", channel: KPOP, bpm: "134",
-	//sortingID: "",
 	sortingBetween: ["17__Alone", "17__After_Like"],
 
 	charts: {
@@ -137,7 +132,6 @@ export const newTunes__17__Phoenix = {
 "17__After_Like":
 {
 	title: "After LIKE", artist: "IVE", channel: KPOP, bpm: "125",
-	//sortingID: "",
 	sortingBetween: ["17__Amor_Fati", "17__Eleven"],
 
 	charts: {
@@ -160,7 +154,6 @@ export const newTunes__17__Phoenix = {
 "17__Pirate":
 {
 	title: "Pirate", artist: "EVERGLOW", channel: KPOP, bpm: "130",
-	//sortingID: "",
 	sortingBetween: ["17__Eleven", "17__Tomboy"],
 
 	charts: {
@@ -205,7 +198,6 @@ export const newTunes__17__Phoenix = {
 "17__Beautiful_Liar":
 {
 	title: "Beautiful Liar", artist: "MONSTA X", channel: KPOP, bpm: "130",
-	//sortingID: "",
 	sortingBetween: ["17__Spray", "17__Pandora"],
 
 	charts: {
@@ -228,7 +220,6 @@ export const newTunes__17__Phoenix = {
 "17__Storm":
 {
 	title: "STORM", artist: "KOYOTE", channel: KPOP, bpm: "139",
-	//sortingID: "",
 	sortingBetween: ["17__Pandora", "17__Airplane"],
 
 	charts: {
@@ -241,7 +232,6 @@ export const newTunes__17__Phoenix = {
 "17__Airplane":
 {
 	title: "Airplane", artist: "TYPHOON", channel: KPOP, bpm: "120",
-	//sortingID: "",
 	sortingBetween: ["17__Storm", "17__Nostalgia"],
 
 	charts: {
@@ -375,7 +365,6 @@ export const newTunes__17__Phoenix = {
 "17__Vector":
 {
 	title: "VECTOR", artist: "Zekk", channel: ORIGINAL, bpm: "178",
-	//sortingID: "",
 	sortingBetween: ["17__Nyan_turne", "17__Versailles"],
 
 	charts: {
@@ -388,7 +377,6 @@ export const newTunes__17__Phoenix = {
 "17__Versailles":
 {
 	title: "Versailles", artist: "Hyun & MIIM", channel: ORIGINAL, bpm: "160-175",
-	//sortingID: "",
 	sortingBetween: ["17__Vector", "17__The_Apocalypse"],
 
 	charts: {
@@ -413,7 +401,6 @@ export const newTunes__17__Phoenix = {
 "17__Showdown":
 {
 	title: "Showdown", artist: "litmus*", channel: ORIGINAL, bpm: "130",
-	//sortingID: "",
 	sortingBetween: ["17__The_Apocalypse", "17__Booom"],
 
 	charts: {
@@ -426,7 +413,6 @@ export const newTunes__17__Phoenix = {
 "17__Booom":
 {
 	title: "BOOOM!!", artist: "RiraN", channel: ORIGINAL, bpm: "160",
-	//sortingID: "",
 	sortingBetween: ["17__Showdown", "17__Euphorianic"],
 
 	charts: {
@@ -439,7 +425,6 @@ export const newTunes__17__Phoenix = {
 "17__Euphorianic":
 {
 	title: "Euphorianic", artist: "SHK", channel: ORIGINAL, bpm: "140",
-	//sortingID: "",
 	sortingBetween: ["17__Booom", "17__Halloween_Party_Multiverse"],
 
 	charts: {
@@ -464,7 +449,6 @@ export const newTunes__17__Phoenix = {
 "17__Jupin":
 {
 	title: "Jupin", artist: "Sobrem", channel: ORIGINAL, bpm: "173",
-	//sortingID: "",
 	sortingBetween: ["17__Halloween_Party_Multiverse", "17__Ghroth"],
 
 	charts: {
@@ -477,7 +461,6 @@ export const newTunes__17__Phoenix = {
 "17__Ghroth":
 {
 	title: "Ghroth", artist: "nato", channel: ORIGINAL, bpm: "212",
-	//sortingID: "",
 	sortingBetween: ["17__Jupin", "17__Kugutsu"],
 
 	charts: {
@@ -490,7 +473,6 @@ export const newTunes__17__Phoenix = {
 "17__Kugutsu":
 {
 	title: "KUGUTSU", artist: "onoken", channel: ORIGINAL, bpm: "220",
-	//sortingID: "",
 	sortingBetween: ["17__Ghroth", "17__Flavor_Step"],
 
 	charts: {
@@ -551,7 +533,6 @@ export const newTunes__17__Phoenix = {
 "17__Etude_Op_10_4":
 {
 	title: "Etude Op 10-4", artist: "MAX", channel: ORIGINAL, bpm: "176",
-	//sortingID: "",
 	sortingBetween: ["17__See", "17__Stardream_Eurobeat_Remix"],
 
 	charts: {
@@ -638,7 +619,6 @@ export const newTunes__17__Phoenix = {
 {
 	title: "MURDOCH", artist: "WONDERTRAVELER Project", channel: ORIGINAL, bpm: "179",
 	shortTitle: "Murdoch",
-	//sortingID: "",
 	sortingBetween: ["17__Solfeggietto", "17__Little_Munchkin"],
 
 	charts: {
@@ -737,7 +717,6 @@ export const newTunes__17__Phoenix = {
 "17__Lohxia":
 {
 	title: "Lohxia", artist: "The Musical Ghost", channel: ORIGINAL, bpm: "155",
-	//sortingID: "",
 	sortingBetween: ["17__Bluish_Rose", "17__PRiMA_MATERiA"],
 
 	charts: {
@@ -870,7 +849,6 @@ export const newTunes__17__Phoenix = {
 "17__Chaos_Again":
 {
 	title: "Chaos Again", artist: "NAOKI underground -Ω-", channel: ORIGINAL, bpm: "150~260",
-	//sortingID: "",
 	sortingBetween: ["17__E_O_N", "17__Solve_My_Hurt"],
 
 	charts: {
@@ -1199,7 +1177,6 @@ export const newTunes__17__Phoenix = {
 "17__Goodtek":
 {
 	title: "GOODTEK", artist: "EBIMAYO", channel: WORLD, bpm: "190",
-	//sortingID: "",
 	sortingBetween: ["17__Nade_Nade", "17__Co5m1c_R4ilr0ad"],
 
 	charts: {
@@ -1212,7 +1189,6 @@ export const newTunes__17__Phoenix = {
 "17__Co5m1c_R4ilr0ad":
 {
 	title: "CO5M1C R4ILR0AD", artist: "kanone", channel: WORLD, bpm: "155",
-	//sortingID: "",
 	sortingBetween: ["17__Goodtek", "17__Energy_Synergy_Matrix"],
 
 	charts: {
@@ -1225,7 +1201,6 @@ export const newTunes__17__Phoenix = {
 "17__Energy_Synergy_Matrix":
 {
 	title: "Energy Synergy Matrix", artist: "Tanchiky", channel: WORLD, bpm: "160",
-	//sortingID: "",
 	sortingBetween: ["17__Co5m1c_R4ilr0ad", "17__Milk"],
 
 	charts: {
@@ -1238,7 +1213,6 @@ export const newTunes__17__Phoenix = {
 "17__Milk":
 {
 	title: "MilK", artist: "Morimori Atsushi", channel: WORLD, bpm: "150",
-	//sortingID: "",
 	sortingBetween: ["17__Energy_Synergy_Matrix", "17__Acquire"],
 
 	charts: {
@@ -1251,7 +1225,6 @@ export const newTunes__17__Phoenix = {
 "17__Acquire":
 {
 	title: "Acquire", artist: "ryhki", channel: WORLD, bpm: "155",
-	//sortingID: "",
 	sortingBetween: ["17__Milk", "17__Pneumonoultramicroscopicsilicovolcanoconiosis"],
 
 	charts: {
@@ -1266,7 +1239,6 @@ export const newTunes__17__Phoenix = {
 	title: "Pneumonoultramicroscopicsilicovolcanoconiosis", artist: "DASU", channel: WORLD, bpm: "156",
 	shortTitle: "Pneumonoultramicroscopic...",
 	arcadeName: "Pneumonoultramicroscopicsilicovolcanoconiosis ft. Kagamine Len/GUMI",
-	//sortingID: "",
 	sortingBetween: ["17__Acquire", "17__Altale"],
 
 	charts: {
@@ -1279,7 +1251,6 @@ export const newTunes__17__Phoenix = {
 "17__Altale":
 {
 	title: "Altale", artist: "sakuzyo", channel: WORLD, bpm: "90",
-	//sortingID: "",
 	sortingBetween: ["17__Pneumonoultramicroscopicsilicovolcanoconiosis", "17__Irellia"],
 
 	charts: {
@@ -1304,7 +1275,6 @@ export const newTunes__17__Phoenix = {
 "17__Goodbounce":
 {
 	title: "GOODBOUNCE", artist: "EBIMAYO", channel: WORLD, bpm: "180",
-	//sortingID: "",
 	sortingBetween: ["17__Irellia", "17__Alice_in_Misanthrope"],
 
 	charts: {
@@ -1329,7 +1299,6 @@ export const newTunes__17__Phoenix = {
 "17__R_I_P":
 {
 	title: "R.I.P.", artist: "eicateve", channel: WORLD, bpm: "192",
-	//sortingID: "",
 	sortingBetween: ["17__Alice_in_Misanthrope", "17__Emomomo"],
 
 	charts: {
@@ -1462,7 +1431,6 @@ export const newTunes__17__Phoenix = {
 "17__Halcyon":
 {
 	title: "Halcyon", artist: "xi", channel: WORLD, bpm: "40-191",
-	//sortingID: "",
 	sortingBetween: ["17__Aragami", "17__Destr0yer"],
 
 	charts: {
@@ -1648,7 +1616,6 @@ export const newTunes__17__Phoenix = {
 {
 	title: "BATTLE NO.1", artist: "TANO*C Sound Team", channel: WORLD, bpm: "200",
 	shortTitle: "Battle No.1",
-	//sortingID: "",
 	sortingBetween: ["17__Extreme_Music_School_2nd_period", "17__Soldiers"],
 
 	charts: {
@@ -1856,7 +1823,7 @@ export const newTunes__17__Phoenix = {
 {
 	title: "Solve My Hurt  [SHORT]", artist: "Doin", channel: ORIGINAL, bpm: "234",
 	arcadeTitle: "Solve My Hurt - SHORT CUT -",
-	sortingBetween: ["17__Murdoch_vs_Otada__SHORT", "16__Paradoxx__SHORT"],
+	sortingBetween: ["17__Murdoch_vs_Otada__SHORT", null],
 
 	charts: {
 		Phoenix2: "=",
@@ -1869,7 +1836,6 @@ export const newTunes__17__Phoenix = {
 {
 	title: "DISTRICT V", artist: "Zekk vs MAX", channel: ORIGINAL, bpm: "178", duration: REMIX,
 	sortingID: "17__REMIX_",
-	sortingBetween: [null, "16__Brown_Sky"],
 
 	charts: {
 		Phoenix2: "=",
@@ -1882,7 +1848,6 @@ export const newTunes__17__Phoenix = {
 {
 	title: "Teddy Bear  [FULL]", artist: "STAYC", channel: KPOP, bpm: "119",
 	sortingID: "17__FULL_",
-	sortingBetween: [null, "16__Good_Night__FULL"],
 	arcadeName: "Teddy Bear - FULL SONG -",
 
 	charts: {

@@ -851,6 +851,7 @@ export const newTunes__0E__NX2 = {
 	arcadeName: "EXTRA BanYa Remix",
 	shortTitle: "Extra BanYa Remix",
 	arcadeID: "E928",
+	sortingBetween: ['09__Final_Audition_ep_1', null],
 
 	charts: {
 		Phoenix2: "=",

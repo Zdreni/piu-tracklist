@@ -188,6 +188,7 @@ export const newTunes__09__Extra = {
 	shortTitle: "Final Audition ep. 1",
 	arcadeName: "Final Audition Ep. 1",
 	arcadeID: "922",
+	sortingBetween: [null, '0E__Extra_BanYa_Remix'],
 
 	charts: {
 		Phoenix2: "= s10`9  hd12 hd20 hd22",

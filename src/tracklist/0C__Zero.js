@@ -438,7 +438,7 @@ export const newTunes__0C__Zero = {
 	arcadeName: "Love is a Danger Zone pt.2 another",
 	altID: "DC04",
 	arcadeID: "C1C04",
-	sortingBetween: ["0C__Love_is_a_Danger_Zone_try_to_B_P_M", null],
+	sortingBetween: ['0C__Love_is_a_Danger_Zone_try_to_B_P_M', null],
 
 	charts: {
 		Phoenix2: "=",

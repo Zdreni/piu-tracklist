@@ -1,5 +1,5 @@
 import {
-	ORIGINAL, WORLD,
+	WORLD,
 } from '../constants.js';
 
 
@@ -208,8 +208,11 @@ export const newTunes__12__Pro2 = {
 "12__Dream_to_Nightmare":
 {
 	title: "Dream to Nightmare", artist: "Nightmare", channel: WORLD, bpm: "178",
-	sortingID: "1300__1",  // before any of 13xx charts
 	arcadeID: "1228",
+
+	changes: {
+		Phoenix: { fromMix: "Pro2" }
+	},
 
 	charts: {
 		Phoenix2: "=",
@@ -293,8 +296,11 @@ export const newTunes__12__Pro2 = {
 "12__VVV":
 {
 	title: "VVV", artist: "Zig Zag", channel: WORLD, bpm: "310",
-	sortingID: "1300__2",  // before any of 13xx charts, after Dream to Nightmare (1228)
 	arcadeID: "1240",
+
+	changes: {
+		Phoenix: { fromMix: "Pro2" }
+	},
 
 	charts: {
 		Phoenix2: "= D20`19",

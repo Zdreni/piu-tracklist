@@ -13,7 +13,7 @@ export const newTunes__16__XX = {
 	shortTitle: "God Mode 2.0",
 	altID: "16_God_Mode_2_0",
 	arcadeID: "1702",
-	sortingBetween: ["16__Switronic__SHORT", "16__Club_Night"],
+	sortingBetween: ['16__Switronic__SHORT', '15__Last_Rebirth'],
 
 	charts: {
 		Phoenix2: "=  hd12 hd17 hd18 hd20",
@@ -27,7 +27,7 @@ export const newTunes__16__XX = {
 {
 	title: "Ultimatum", artist: "Cosmograph", channel: WORLD, bpm: "202",
 	arcadeID: "1705",
-	sortingBetween: ["16__Cross_Ray", "16__Kokugen_Kairou_Labyrinth"],
+	sortingBetween: ['16__Baroque_Virus__FULL', '16__Kokugen_Kairou_Labyrinth'],
 
 	charts: {
 		Phoenix2: "=",
@@ -42,7 +42,7 @@ export const newTunes__16__XX = {
 	title: "Kokugen Kairou Labyrinth", artist: "A:llha (ANE + 2riA)", channel: WORLD, bpm: "215",
 	altID: "16_Kokugen_Kairou_Labyrinth",
 	arcadeID: "1718",
-	sortingBetween: ["16__Ultimatum", "16__Imagination"],
+	sortingBetween: ['16__Ultimatum', null],
 
 	charts: {
 		Phoenix2: "= S10`9",
@@ -903,7 +903,6 @@ export const newTunes__16__XX = {
 	title: "Club Night", artist: "Matduke", channel: WORLD, bpm: "170",
 	altID: "16_Club_Night",
 	arcadeID: "1668",
-	sortingBetween: ["16__God_Mode_2_0", null],
 
 	charts: {
 		Phoenix2: "= D19`18 D22`21 D24`23",
@@ -1047,7 +1046,6 @@ export const newTunes__16__XX = {
 	title: "Imagination", artist: "SHK", channel: XROSS, bpm: "180",
 	altID: "16_Imagination",
 	arcadeID: "1678",
-	sortingBetween: ["16__Kokugen_Kairou_Labyrinth", null],
 
 	charts: {
 		Phoenix2: "= D17`16",
@@ -1502,7 +1500,6 @@ export const newTunes__16__XX = {
 	title: "Cross Ray", artist: "HyuN", channel: WORLD, bpm: "176",
 	arcadeID: "16B3",
 	arcadeName: "CROSS RAY",
-	sortingBetween: [null, "16__Ultimatum"],
 
 	charts: {
 		Phoenix2: "= D15`14 D24`23",
@@ -1542,7 +1539,6 @@ export const newTunes__16__XX = {
 {
 	title: "Paradoxx  [SHORT]", artist: "SLAM & NATO", channel: ORIGINAL, bpm: "220",
 	arcadeID: "16B6",
-	sortingBetween: ["17__Solve_My_Hurt__SHORT", null],
 	arcadeName: "Paradoxx - SHORT CUT -",
 
 	charts: {
@@ -1556,7 +1552,6 @@ export const newTunes__16__XX = {
 "16__Brown_Sky":
 {
 	title: "Brown Sky", artist: "Doin", channel: ORIGINAL, bpm: "200", duration: REMIX,
-	sortingBetween: ["17__District_V", null],
 	arcadeID: "16B7",
 
 	charts: {
@@ -1570,7 +1565,6 @@ export const newTunes__16__XX = {
 "16__Good_Night__FULL":
 {
 	title: "Good Night  [FULL]", artist: "Dreamcatcher", channel: KPOP, bpm: "196",
-	sortingBetween: ["17__Teddy_Bear__FULL", null],
 	arcadeName: "GOOD NIGHT - FULL SONG -",
 	arcadeID: "16B8",
 
@@ -1910,7 +1904,7 @@ export const newTunes__16__XX = {
 	arcadeName: "Switronic - SHORT CUT -",
 	altID: "16_Switronic_SHORT",
 	arcadeID: "16F6",
-	sortingBetween: [null, "16__God_Mode_2_0"],
+	sortingBetween: [null, '16__God_Mode_2_0'],
 
 	charts: {
 		Phoenix2: "=",
@@ -1941,6 +1935,7 @@ export const newTunes__16__XX = {
 	arcadeName: "Baroque Virus - FULL SONG -",
 	altID: "16_Baroque_Virus_FULL",
 	arcadeID: "16F9",
+	sortingBetween: [null, '16__Ultimatum'],
 
 	charts: {
 		Phoenix2: "=",

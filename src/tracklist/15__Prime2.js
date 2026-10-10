@@ -12,6 +12,7 @@ export const newTunes__15__Prime2 = {
 {
 	title: "Last Rebirth", artist: "SHK", channel: ORIGINAL, bpm: "120",
 	arcadeID: "1501",
+	sortingBetween: ['16__God_Mode_2_0', null],
 
 	charts: {
 		Phoenix2: "=  hd8 hd14 hd16 hd17",

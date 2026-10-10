@@ -1,22 +1,23 @@
 "use strict";
 
 
-import { CheckInitialTracklistOfNewMix } from './check.js';
+import { CheckInitialTracklistOfNewMix, CheckTracksOrder } from './check.js';
 
-
-const checkPhoenixTable = {
 
 // verified according to https://www.youtube.com/watch?v=kbqvvlw9ED4,
 // track order is sorted as in "all tunes"
 // also differences recorded by https://www.youtube.com/@NEVSISTER/videos
 
 
-// 1st ~ Zero:
+const checkPhoenixTable_1ST_ZERO = {
 
+// KPOP
 "0B__Dignity__FULL":  "S15 S19  D18 D22",
 "0A__Dignity":  "S4 S6 S15 S17 S21 S22  D17 D20 D24 D26",
 "05__Slam":  "S5 S7 S9 S18 S20  D9 D22 D24",
 "01__Another_Truth":  "S4 S6 S8 S16  D9 D18 D19 D21  CoOp(x2)",
+
+// ORIGINAL
 "0C__Beat_of_the_War_2":  "S4 S5 S7 S11 S17 S21  D15 D20",
 "0C__Moonlight":  "S4 S8 S11 S18 S19  D12 D20 D21",
 "0C__Witch_Doctor":  "S4 S6 S11 S17 S19 S21  D19 D22 D23",
@@ -95,9 +96,13 @@ const checkPhoenixTable = {
 "02__Extravaganza":  "S4 S8 S11 S13 S19 S22  D15 D18 D21",
 "02__Repeatorment_Remix":  "S18  D22",
 
+};
 
-// NX ~ NXA:
 
+
+const checkPhoenixTable_NX_NXA = {
+
+// ORIGINAL
 "0F__Blaze_Emotion":  "S2 S3 S6 S7 S9 S16 S17  D11 D18 D19",
 "0F__Cannon_X_1":  "S3 S7 S13 S20 S21  D15 D22",
 "0F__Chopsticks_Challenge":  "S6 S12 S17  D16",
@@ -142,9 +147,12 @@ const checkPhoenixTable = {
 "0D__Love_is_a_Danger_Zone_2__FULL":  "S20  D21",
 "0D__Beat_of_the_War_2__FULL":  "S21  D21",
 
+};
 
-// Fiesta ~ Fiesta 2:
 
+const checkPhoenixTable_FIESTA_FIESTA2 = {
+
+// ORIGINAL
 "13__Elise":  "S4 S7 S11 S16 S18 S21  D12 D17 D23  CoOp(x2)",
 "13__Ignis_Fatuus":  "S12 S16 S19 S22  D17 D18 D23 D25  CoOp(x2)",
 "13__Love_is_a_Danger_Zone_Cranky_Mix":  "S7 S14 S17 S20 S21  D11 D16 D20 D23  CoOp(x2)",
@@ -227,8 +235,12 @@ const checkPhoenixTable = {
 "10__Destination__SHORT":  "S11 S15  D20 D21",
 "10__Tepris":  "S2 S4 S7 S17  D11 D20  CoOp(x2)",
 "10__Napalm":  "S15 S19 S21  D16 D22",
+
+// WORLD - PRO2
 "12__Dream_to_Nightmare":  "S19 S21  D22 D23",
 "12__VVV":  "S18 S23  D17 D19",
+
+// WORLD
 "13__Pop_the_Track":  "S2 S4 S7 S10 S16 S18  D11 D18 D20  CoOp(x2)",
 "13__Passacaglia":  "S4 S8 S12 S17 S19  D14 D18 D22 D23",
 "13__Baroque_Virus":  "S5 S10 S17  D13 D18 D20",
@@ -251,9 +263,14 @@ const checkPhoenixTable = {
 "11__Necromancy":  "S4 S7 S10 S18 S20  D15 D19 D23",
 "11__X_Rave__SHORT":  "S16  D18",
 
+};
+
+
 
 // Prime:
+const checkPhoenixTable_PRIME = {
 
+// ORIGINAL
 "14__Nemesis":  "S4 S7 S10 S16 S18  D12 D20  CoOp(x2)",
 "14__Katkoi":  "S8 S11 S14 S18  D12 D15 D19",
 "14__Latino_Virus":  "S3 S7 S9 S17  D13 D19  CoOp(x2)",
@@ -302,6 +319,8 @@ const checkPhoenixTable = {
 "14__Silhouette_Effect__SHORT":  "S18  D17",
 "14__Move_That_Body__SHORT":  "S17  D18",
 "14__Prime_Opening__SHORT":  "S15  D15  CoOp(x5)",
+
+// WORLD
 "14__Rock_the_House":  "S8 S10 S16  D11 D13 D18 D22",
 "14__The_Revolution":  "S7 S12 S17 S19  D12 D19 D22",
 "14__Selfishness":  "S3 S6 S11 S17  D12 D18 D20",
@@ -318,6 +337,8 @@ const checkPhoenixTable = {
 "14__Selfishness__SHORT":  "S17  D18",
 "14__Rock_the_House__SHORT":  "S15 S18  D20",
 "14__Stardust_Overdrive__SHORT":  "S16  D17",
+
+// JMUSIC
 "14__Amai_Yuuwaku_Dangerous":  "S1 S3 S6 S11 S14  D6 D10 D15",
 "14__Yoropiku_Pikuyoro":  "S3 S5 S10 S15  D5 D16  CoOp(x2)",
 "14__Imprinting":  "S4 S8 S11 S17 S21  D14 D16 D21 D24",
@@ -331,12 +352,18 @@ const checkPhoenixTable = {
 "14__Just_Hold_On":  "S4 S7 S11 S16 S21  D15 D19 D22 D25",
 "14__Bad_Apple__FULL":  "S10 S14 S17  D12 D18 D22  CoOp(x4)",
 
+};
 
-// Prime 2:
 
+
+const checkPhoenixTable_PRIME2 = {
+
+// KPOP
 "15__Chase_Me":  "S3 S5 S9 S15 S17 S20  D11 D18 D23  CoOp(x2)",
 "15__Good_Night":  "S3 S6 S9 S17 S20 S23  D6 D19 D22 D24",
 "15__Chase_Me__FULL":  "S19  D25",
+
+// ORIGINAL
 "15__Last_Rebirth":  "S3 S5 S9 S13 S16  D8 D14 D17 D18",
 "15__Super_Capriccio":  "S4 S7 S12 S16 S19  D11 D19 D23",
 "15__Hellfire":  "S7 S11 S15 S18 S22  D10 D19 D23",
@@ -374,12 +401,16 @@ const checkPhoenixTable = {
 "15__Prime2_Opening__SHORT":  "S7 S12 S17  D19",
 "15__Shub_Niggurath__SHORT":  "S18 S21  D23",
 "15__Kasou_Shinja__SHORT":  "S20  D21",
+
+// WORLD
 "15__Step":  "S7 S13 S17  D12 D18 D20",
 "15__Nakakapagpabagabag":  "S11 S15 S19  D16 D20  CoOp(x2)",
 "15__Hush":  "S3 S5 S8 S15  D7 D15",
 "15__Fallen_Angel":  "S6 S11 S17 S19  D11 D16 D20",
 "15__Gargoyle__FULL":  "S21 S23  D22 D25  CoOp(x2)",
 "15__Hush__FULL":  "S15  D16",
+
+// XROSS
 "15__V3":  "S6 S9 S14 S17  D10 D18 D21 D24",
 "15__Cross_Time":  "S3 S7 S12 S16 S18  D11 D17 D20 D22",
 "15__The_Festival_of_Ghost2":  "S11 S16 S18 S20  D11 D17 D20",
@@ -408,9 +439,13 @@ const checkPhoenixTable = {
 "15__Death_Moon__SHORT":  "S9 S16 S19 S22  D19 D23",
 "15__Hyperion__SHORT":  "S16 S20  D21",
 
+};
 
-// XX:
 
+
+const checkPhoenixTable_XX = {
+
+// KPOP
 "16__Jogging":  "S3 S5 S9 S16 S18  D7 D16 D18 D22",
 "16__Full_Moon":  "S2 S4 S6 S16 S20 S22  D14 D20 D24  CoOp(x2)",
 "16__Timing":  "S2 S4 S7 S15 S18  D11 D16 D19",
@@ -522,7 +557,11 @@ const checkPhoenixTable = {
 //"16__Conflict":  "S6, S11, S15, S17, S19, S22, D12, D21, D25, CO-OP(X2)",
 
 
+};
+
+
 // Phoenix:
+const checkPhoenixTable_PHOENIX = {
 
 "17__Boca":  "S3 S5 S9 S14 S17 S19 S21  D15 D19 D21 D23",
 "17__Nxde":  "S2 S4 S6 S11 S14 S16  D8 D15 D17  CoOp(x2)",
@@ -547,7 +586,30 @@ const checkPhoenixTable = {
 };
 
 
+const checkPhoenixTable = {
+	...checkPhoenixTable_1ST_ZERO,
+	...checkPhoenixTable_NX_NXA,
+	...checkPhoenixTable_FIESTA_FIESTA2,
+	...checkPhoenixTable_PRIME,
+	...checkPhoenixTable_PRIME2,
+	...checkPhoenixTable_XX,
+	...checkPhoenixTable_PHOENIX,
+};
+
+
 export function CheckInitialTracklistOfPhoenix()
 {
 	CheckInitialTracklistOfNewMix( "Phoenix", checkPhoenixTable );
+}
+
+
+export function CheckTracksOrderOfPhoenix()
+{
+	CheckTracksOrder( "Phoenix", checkPhoenixTable_1ST_ZERO );
+	CheckTracksOrder( "Phoenix", checkPhoenixTable_NX_NXA );
+	CheckTracksOrder( "Phoenix", checkPhoenixTable_FIESTA_FIESTA2 );
+	CheckTracksOrder( "Phoenix", checkPhoenixTable_PRIME );
+	CheckTracksOrder( "Phoenix", checkPhoenixTable_PRIME2 );
+	CheckTracksOrder( "Phoenix", checkPhoenixTable_XX );
+	CheckTracksOrder( "Phoenix", checkPhoenixTable_PHOENIX );
 }

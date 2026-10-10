@@ -4,6 +4,7 @@
 import _ from 'underscore';
 import { mixes, mixesOrder, firstNewMixIndex } from '../mixes.js';
 import { tracklist, NormalizeChartText } from '../tracklist_src.js';
+import { GetMixTracksOrder } from '../tracks_arcade_order.js';
 
 
 //var oldMixes = [ "Exceed", "Exceed2", "Zero", "NX", "NX2", "NXA" ];
@@ -292,9 +293,11 @@ export function CheckInitialTracklistOfNewMix( mixName, checkTable )
 }
 
 
-// each next track in check table should have higher xxOrder than previous one
+// each next track in check table should go later in arcade sorting of given mix than previous one
 export function CheckTracksOrder( mixName, checkTable )
 {
+	var order = GetMixTracksOrder( tracklist, mixName );
+
 	var exceptions = [];
 	var prevTrackID = null;
 	for( var trackID of Object.keys( checkTable ) )
@@ -304,8 +307,8 @@ export function CheckTracksOrder( mixName, checkTable )
 			if( ! tracklist[ trackID ] )
 				throw new Error( `${mixName} order check:  track '${trackID}' not found in tracklist` );
 
-			if( prevTrackID  &&  tracklist[ trackID ].xxOrder <= tracklist[ prevTrackID ].xxOrder )
-				throw new Error( `${mixName} order check:  '${trackID}' ('${tracklist[ trackID ].sortingID}' #${tracklist[ trackID ].xxOrder}) should go after '${prevTrackID}' ('${tracklist[ prevTrackID ].sortingID}' #${tracklist[ prevTrackID ].xxOrder})` );
+			if( prevTrackID  &&  order[ trackID ] <= order[ prevTrackID ] )
+				throw new Error( `${mixName} order check:  '${trackID}' ('${tracklist[ trackID ].sortingID}' #${order[ trackID ]}) should go after '${prevTrackID}' ('${tracklist[ prevTrackID ].sortingID}' #${order[ prevTrackID ]})` );
 		}
 		catch( exc )
 		{

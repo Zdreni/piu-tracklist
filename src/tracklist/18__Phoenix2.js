@@ -10,8 +10,7 @@ import {
 {
 	title: "", artist: "", channel: , bpm: "", //duration: ,
 	// shortTitle: "",
-	// sortingID: "",
-	// sortingBetween: ["", ""],
+	// sortingBetween: ['', ''],
 
 	charts: {
 		Phoenix2: "",

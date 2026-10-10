@@ -22,29 +22,38 @@ export const mixes =
 	'Prex3':     {},  // PREX 3
 
 	'Exceed':   { style: "old" },
+
 	'Exceed2':  { style: "old" },
+
 	'Zero':     { style: "old",
 	              anothers: true },
 
 	'NX':       { style: "old",
 	              anothers: true },  // NX –NEW XENESIS-
+
 	'NX2':      { style: "old",
 	              anothers: true, regions: [ CHINESE ] },  // NX2 –NEXT XENESIS-
+
 	'NXA':      { style: "old",
 	              anothers: true },  // NX –ABSOLUTE-
 
 	'Fiesta':   { style: "new",
 	              patches: ["1.00", "1.01", "1.02", "1.03", "1.04", "1.05", "1.06", "1.07", "1.10", "1.20"] },
+
 	'FiestaEX': { style: "new",
 	              patches: ["1.00", "1.10", "1.20", "1.30", "1.40", "1.50", "1.51"] },
+
 	'Fiesta2':  { style: "new",
 	              regions: [ LATIN ],
 	              patches: ["1.00", "1.01", "1.02", "1.10", "1.20", "1.30", "1.40", "1.50", "1.51", "1.60", "1.61"] },
+
+	'Pro2':	    { style: "new" },
 
 	'Prime':    { style: "new",
 	              regions: [ LATIN ],
 	              patches: ["1.00", "1.01", "1.02", "1.03", "1.04", "1.05", "1.06", "1.07", "1.08", "1.09", "1.10",
 	                        "1.11", "1.12", "1.13", "1.14", "1.15", "1.16", "1.17", "1.18", "1.19", "1.20", "1.21"] },
+
 	'Prime2':   { style: "new",
 	              regions: [ LATIN, JAPAN, PHILIPPINES ],
 	              patches: ["1.00", "1.01", "1.02", "1.03", "1.04", "1.05", "1.06", "1.07", "1.08", "1.09", "1.10",
