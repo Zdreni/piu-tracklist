@@ -47,7 +47,7 @@ export const mixes =
 	              regions: [ LATIN ],
 	              patches: ["1.00", "1.01", "1.02", "1.10", "1.20", "1.30", "1.40", "1.50", "1.51", "1.60", "1.61"] },
 
-	'Pro2':	    { style: "new" },
+	'Pro2':	    { style: "new", hidden: true },
 
 	'Prime':    { style: "new",
 	              regions: [ LATIN ],

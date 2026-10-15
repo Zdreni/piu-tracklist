@@ -238,6 +238,9 @@ function DumpMixes()
 	for( var k in mixes )
 	{
 		var v = mixes[ k ];
+		if( v.hidden )
+			continue;
+
 		if( ! v.patches )
 			v.patches = ["1.0"];
 		//	continue;
@@ -297,6 +300,17 @@ function DumpTracklist( shortenData )
 
 			var changes = track.changes;
 			delete track.changes;
+
+			// hidden mixes are not exported, so drop fromMix pointing to them
+			if( changes )
+				for( var changeKey in changes )
+				{
+					var fromMix = changes[ changeKey ].fromMix;
+					if( fromMix  &&  mixes[ fromMix ]  &&  mixes[ fromMix ].hidden )
+						delete changes[ changeKey ].fromMix;
+					if( Object.keys( changes[ changeKey ] ).length === 0 )
+						delete changes[ changeKey ];
+				}
 
 			result += _S + JStr( trackID ) + ": {<br>";
 			result += __S + JStrNoQuotes( track ) + ",<br>";
