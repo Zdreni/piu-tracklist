@@ -385,7 +385,7 @@ export const newTunes__10__Fiesta = {
 	arcadeID: "1025",
 
 	charts: {
-		Phoenix2: "=  hd12 hd20",
+		Phoenix2: "=  hd12 hd20",  // TODO: D20 modified on 1.02
 		Phoenix: "= S10`9 D12`9",
 			// TODO.Phoenix: D12`9
 		XX: "= D20`21",

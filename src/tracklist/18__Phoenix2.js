@@ -36,7 +36,7 @@ export const newTunes__18__Phoenix2 = {
 "18__T_B_H":
 {
 	title: "T.B.H.", artist: "QWER", channel: KPOP, bpm: "178",
-	sortingBetween: ['18__The_Stranger', '18__Do_the_Dance'],
+	sortingBetween: ['18__The_Stranger', '18__Nemonemo'],
 
 	charts: {
 		Phoenix2: "s2 s4 s6 s14 s17 s20 s22  d18 d22 d24",
@@ -44,10 +44,21 @@ export const newTunes__18__Phoenix2 = {
 },
 
 
+"18__Nemonemo":
+{
+	title: "NEMONEMO", artist: "YENA", channel: KPOP, bpm: "138",
+	sortingBetween: ['18__T_B_H', '18__Do_the_Dance'],
+
+	charts: {
+		Phoenix2: "@1.02  s2 s4 s6 s10 s15 s18 s21  d11 d16 d19 d22  CoOp(x2)",
+	},
+},
+
+
 "18__Do_the_Dance":
 {
 	title: "Do the Dance", artist: "ILLIT", channel: KPOP, bpm: "130",
-	sortingBetween: ['18__T_B_H', '18__Bang_Bang'],
+	sortingBetween: ['18__Nemonemo', '18__Bang_Bang'],
 
 	charts: {
 		Phoenix2: "s1 s3 s5 s8 s15 s17 s20  d7 d16 d18 d22 CoOp(x2)",
@@ -102,7 +113,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Enjoy_the_Show":
 {
 	title: "Enjoy The Show", artist: "RiraN ft. Negoto Bunnyla", channel: ORIGINAL, bpm: "160",
-	sortingBetween: ['18__Die_Another_Day', '18__Punishment_Restaurant'],
+	sortingBetween: ['18__Die_Another_Day', '18__Mephitz'],
 
 	charts: {
 		Phoenix2: "s10 s18 s21 s23  d19 d23 d25",
@@ -110,10 +121,21 @@ export const newTunes__18__Phoenix2 = {
 },
 
 
+"18__Mephitz":
+{
+	title: "Mephitz", artist: "litmus* as Ester", channel: ORIGINAL, bpm: "195",
+	sortingBetween: ['18__Enjoy_the_Show', '18__Punishment_Restaurant'],
+
+	charts: {
+		Phoenix2: "@1.02  s12 s16 s18 s20 s22  d15 d18 d21 d24",
+	},
+},
+
+
 "18__Punishment_Restaurant":
 {
 	title: "Punishment Restaurant", artist: "memme", channel: ORIGINAL, bpm: "175",
-	sortingBetween: ['18__Enjoy_the_Show', '18__Ghost_Bloody_Train'],
+	sortingBetween: ['18__Mephitz', '18__Falling_Stars'],
 
 	charts: {
 		Phoenix2: "s4 s8 s11 s17 s21  d14 d18 d22",
@@ -121,10 +143,21 @@ export const newTunes__18__Phoenix2 = {
 },
 
 
+"18__Falling_Stars":
+{
+	title: "Falling Stars", artist: "WyvernP", channel: ORIGINAL, bpm: "200",
+	sortingBetween: ['18__Punishment_Restaurant', '18__Ghost_Bloody_Train'],
+
+	charts: {
+		Phoenix2: "@1.02  s9 s13 s17 s20 s22  d16 d20 d24",
+	},
+},
+
+
 "18__Ghost_Bloody_Train":
 {
 	title: "Ghost Bloody Train", artist: "Fiverwater", channel: ORIGINAL, bpm: "192",
-	sortingBetween: ['18__Punishment_Restaurant', '18__Blazor'],
+	sortingBetween: ['18__Falling_Stars', '18__Blazor'],
 
 	charts: {
 		Phoenix2: "@1.01  s11 s15 s18 s21 s23  d17 d20 d23 d25",
@@ -135,7 +168,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Blazor":
 {
 	title: "Blazor", artist: "WONDERTRAVELER Project", channel: ORIGINAL, bpm: "161",
-	sortingBetween: ['18__Ghost_Bloody_Train', '18__B3'],
+	sortingBetween: ['18__Ghost_Bloody_Train', '18__Until_Defined'],
 
 	charts: {
 		Phoenix2: "s11 s15 s18 s20 s22  d18 d20 d22 d24",
@@ -143,10 +176,21 @@ export const newTunes__18__Phoenix2 = {
 },
 
 
+"18__Until_Defined":
+{
+	title: "Until Defined", artist: "Palami feat. Dyon Joo & neur6sia", channel: ORIGINAL, bpm: "180",
+	sortingBetween: ['18__Blazor', '18__B3'],
+
+	charts: {
+		Phoenix2: "@1.02  s12 s15 s19 s21  d16 d21 d23  CoOp(x2)",
+	},
+},
+
+
 "18__B3":
 {
 	title: "B3", artist: "MAX", channel: ORIGINAL, bpm: "160",
-	sortingBetween: ['18__Blazor', '18__Digitalis'],
+	sortingBetween: ['18__Until_Defined', '18__Digitalis'],
 
 	charts: {
 		Phoenix2: "s7 s11 s16 s18 s20  d12 d18 d21",
@@ -190,10 +234,22 @@ export const newTunes__18__Phoenix2 = {
 "18__Legendary_Dominion":
 {
 	title: "Legendary Dominion", artist: "Laur", channel: ORIGINAL, bpm: "210",
-	sortingBetween: ['18__Overnight_Flower', '18__L'],
+	sortingBetween: ['18__Overnight_Flower', '18__Physalis'],
 
 	charts: {
 		Phoenix2: "s16 s20 s22 s25  d21 d25 d27",
+	},
+},
+
+
+"18__Physalis":
+{
+	title: "Physalis", artist: "TAG", channel: WORLD, bpm: "200",
+	arcadeName: "PHYSALIS",
+	sortingBetween: ['18__Legendary_Dominion', '18__L'],
+
+	charts: {
+		Phoenix2: "@1.02  s15 s19 s22 s24  d17 d20 d24 d26",
 	},
 },
 
@@ -202,7 +258,7 @@ export const newTunes__18__Phoenix2 = {
 {
 	title: "L (PIU Edit)", artist: "Ice", channel: WORLD, bpm: "155",
 	shortTitle: "L",
-	sortingBetween: ['18__Legendary_Dominion', '18__Can_I_friend_you_on_Bassbook_lol'],
+	sortingBetween: ['18__Physalis', '18__Can_I_friend_you_on_Bassbook_lol'],
 
 	charts: {
 		Phoenix2: "@1.01  s12 s18 s22 s24  d19 d24 d27",
@@ -257,8 +313,10 @@ export const newTunes__18__Phoenix2 = {
 
 "18__Infinite_Energy_Overdoze":
 {
-	title: "INFiNiTE ENERGY -Overdoze-", artist: "Reku Mochizuki", channel: WORLD, bpm: "180",
-	sortingBetween: ['18__Nighttheater', '18__Freedom_Dive'],
+	title: "Infinity Energy -Overdoze-", artist: "Reku Mochizuki", channel: WORLD, bpm: "180",
+	shortTitle: "Infinite Energy",
+	arcadeName: "INFiNiTE ENERGY -Overdoze-",
+	sortingBetween: ['18__Nighttheater', '18__Assault_Taxi'],
 
 	charts: {
 		Phoenix2: "s13 s16 s18 s21 s23  d19 d22 d25",
@@ -266,10 +324,22 @@ export const newTunes__18__Phoenix2 = {
 },
 
 
+"18__Assault_Taxi":
+{
+	title: "Assault Taxi", artist: "ASA", channel: WORLD, bpm: "154",
+	arcadeName: "Assault TAXI",
+	sortingBetween: ['18__Infinite_Energy_Overdoze', '18__Freedom_Dive'],
+
+	charts: {
+		Phoenix2: "@1.02  s13 s15 s18 s21  d14 d20 d23",
+	},
+},
+
+
 "18__Freedom_Dive":
 {
 	title: "FREEDOM DiVE", artist: "xi", channel: WORLD, bpm: "222.22",
-	sortingBetween: ['18__Infinite_Energy_Overdoze', '18__Dreamchasers'],
+	sortingBetween: ['18__Assault_Taxi', '18__Dreamchasers'],
 
 	charts: {
 		Phoenix2: "s13 s17 s22 s25  d18 d24 d27",
