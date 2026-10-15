@@ -65,20 +65,49 @@ If the machine is connected with internet, update file will be downloaded automa
 New charts will be added to the R!SE Vol.1 channel in ARCADE MIX.
 
 - Transmission
+  s9 s15 s21 s23  d17 d22 d25
+
 - Chess and Chase
+  s7 s10 s14 s17 s20  d12 d16 d18 d22
+
 - Sylaphz
+  s14 s18 s21 s24  d16 d20 d23 d26
+
 - Pastry mix
+  s14 s17 s20 s23  d19 d22 d25
+
 - Love Witch
+  s13 s16 s18 s21  d16 d18 d20 d23
+
 - Galactic Metronome
+  s10 s15 s19 s22 s24  d17 d21 d24 d26
+
 - Under the Christmas Stars
+	s2 s4 s7 s11 s15 s18  d5 d13 d16 d19  CoOp(x2)
+
 - Skybound
+	s16 s18 s20 s22  d20 d22 d24
+
 - DROP FRONT!ER
+  s16 s19 s22 s25  d18 d24 d27
+
 - Morrighan
+  s16 s18 s20 s22  d20 d22 d24
+
 - Galactic Terminus
+  s3 s7 s11 s16 s18 s20  d13 d19 d22
+
 - The Last Stand
+  s4 s7 s11 s16 s19 s21  d14 d20 d24
+
 - The Deconstruction
+  s13 s17 s19 s22  d17 d20 d24
+
 - Reincarnate in “A”
+  s16 s19 s22 s25  d21 d24 d27
+
 - Burning SuperNova feat. neur6sia
+  s13 s16 s19 s21 s23  d17 d22 d25
 
 
 

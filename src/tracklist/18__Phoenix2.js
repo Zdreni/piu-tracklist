@@ -515,7 +515,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "hd15 hd21 hd24",
+		Phoenix2: "hd15 hd21 hd24  @1.02  s9 s15 s21 s23  d17 d22 d25",
 	}
 },
 
@@ -528,7 +528,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "hd10 hd15 hd17 hd21",
+		Phoenix2: "hd10 hd15 hd17 hd21  @1.02  s7 s10 s14 s17 s20  d12 d16 d18 d22",
 	}
 },
 
@@ -541,7 +541,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "hd13 hd18 hd22 hd24",
+		Phoenix2: "hd13 hd18 hd22 hd24  @1.02  s14 s18 s21 s24  d16 d20 d23 d26",
 	}
 },
 
@@ -554,7 +554,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "hd17 hd21 hd25",
+		Phoenix2: "hd17 hd21 hd25  @1.02  s14 s17 s20 s23  d19 d22 d25",
 	}
 },
 
@@ -567,7 +567,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "hd14 hd17 hd18 hd20",
+		Phoenix2: "hd14 hd17 hd18 hd20  @1.02  s13 s16 s18 s21  d16 d18 d20 d23",
 	}
 },
 
@@ -580,7 +580,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "hd16 hd20 hd24 hd25",
+		Phoenix2: "hd16 hd20 hd24 hd25  @1.02  s10 s15 s19 s22 s24  d17 d21 d24 d26",
 	}
 },
 
@@ -593,7 +593,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "hd7 hd12 hd16 hd18",
+		Phoenix2: "hd7 hd12 hd16 hd18  @1.02  s2 s4 s7 s11 s15 s18  d5 d13 d16 d19  CoOp(x2)",
 	}
 },
 
@@ -606,7 +606,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "hd20 hd21",
+		Phoenix2: "hd20 hd21  @1.02  s16 s18 s20 s22  d20 d22 d24",
 	}
 },
 
@@ -619,7 +619,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "hd16 hd24 hd26",
+		Phoenix2: "hd16 hd24 hd26  @1.02  s16 s19 s22 s25  d18 d24 d27",
 	}
 },
 
@@ -632,7 +632,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "hd20 hd21 hd23",
+		Phoenix2: "hd20 hd21 hd23  @1.02  s16 s18 s20 s22  d20 d22 d24",
 	}
 },
 
@@ -645,7 +645,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "hd12 hd18 hd20",
+		Phoenix2: "hd12 hd18 hd20  @1.02  s3 s7 s11 s16 s18 s20  d13 d19 d22",
 	}
 },
 
@@ -658,7 +658,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "hd13 hd19 hd22",
+		Phoenix2: "hd13 hd19 hd22  @1.02  s4 s7 s11 s16 s19 s21  d14 d20 d24",
 	}
 },
 
@@ -671,7 +671,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "hd16 hd19 hd22",
+		Phoenix2: "hd16 hd19 hd22  @1.02  s13 s17 s19 s22  d17 d20 d24",
 	}
 },
 
@@ -684,7 +684,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "hd20 hd23 hd26",
+		Phoenix2: "hd20 hd23 hd26  @1.02  s16 s19 s22 s25  d21 d24 d27",
 	}
 },
 
@@ -698,7 +698,7 @@ export const newTunes__18__Phoenix2 = {
 	steamLinkExclusive: true,
 
 	charts: {
-		Phoenix2: "hd15 hd22 hd25",
+		Phoenix2: "hd15 hd22 hd25  @1.02  s13 s16 s19 s21 s23  d17 d22 d25",
 	}
 },
 
