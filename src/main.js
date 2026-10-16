@@ -4,6 +4,7 @@ import { mixes, mixesOrder, MixHasNewTags } from './mixes.js';
 import {
 	STANDARD, REMIX, FULL,
 	ARCADE, SPECIAL,
+	SINGLE, DOUBLE, COUPLE, HALFDOUBLE,
 	NewTags, OldTagTypes, NewTagTypes, OldArcadeTags, OldSpecialTags,
 } from './constants.js';
 import { tracklist, PreprocessTracklist } from './tracklist_src.js';
@@ -262,6 +263,23 @@ function DumpMixes()
 }
 
 
+const ChartTypesForDB = {
+	[ SINGLE ]:     "S",
+	[ DOUBLE ]:     "D",
+	[ HALFDOUBLE ]: "HD",
+	[ COUPLE ]:     "COOP",
+};
+
+
+function ChartTypeForDB( track, chartIndex, type )
+{
+	const dbType = ChartTypesForDB[ type ];
+	if( ! dbType )
+		throw new Error( `Track ${track.id} shared chart ${chartIndex} has unexpected type '${type}'` );
+	return dbType;
+}
+
+
 function DumpTracklist( shortenData )
 {
 	var result = "";
@@ -293,7 +311,10 @@ function DumpTracklist( shortenData )
 			{
 				var shared = trackCharts[ chartIndex ];
 				delete shared.index;
-				delete shared.type;
+				if( shortenData )
+					delete shared.type;
+				else
+					shared.type = ChartTypeForDB( track, chartIndex, shared.type );
 				if( shortenData  &&  Object.keys(shared).length === 0 )
 					delete trackCharts[ chartIndex ];
 			}
