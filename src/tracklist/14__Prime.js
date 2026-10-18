@@ -889,7 +889,8 @@ export const newTunes__14__Prime = {
 
 "14__video_out_c":
 {
-	title: "video out c", artist: "Vospi", channel: WORLD, bpm: "198",
+	title: "Video out c", artist: "Vospi", channel: WORLD, bpm: "198",
+	arcadeName: "video out c",
 	arcadeID: "1465",
 
 	charts: {

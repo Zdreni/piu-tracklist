@@ -726,7 +726,8 @@ export const newTunes__15__Prime2 = {
 
 "15__Hush":
 {
-	title: "HUSH", artist: "Yassi Pressman & Nadine Lustre", channel: WORLD, bpm: "82",
+	title: "Hush", artist: "Yassi Pressman & Nadine Lustre", channel: WORLD, bpm: "82",
+	arcadeName: "HUSH",
 	region: PHILIPPINES,
 	altID: "15_Hush",
 	arcadeID: "1584",

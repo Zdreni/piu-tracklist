@@ -364,7 +364,8 @@ export const newTunes__17__Phoenix = {
 
 "17__Vector":
 {
-	title: "VECTOR", artist: "Zekk", channel: ORIGINAL, bpm: "178",
+	title: "Vector", artist: "Zekk", channel: ORIGINAL, bpm: "178",
+	arcadeName: "VECTOR",
 	sortingBetween: ["17__Nyan_turne", "17__Versailles"],
 
 	charts: {
@@ -412,7 +413,8 @@ export const newTunes__17__Phoenix = {
 
 "17__Booom":
 {
-	title: "BOOOM!!", artist: "RiraN", channel: ORIGINAL, bpm: "160",
+	title: "Booom!!", artist: "RiraN", channel: ORIGINAL, bpm: "160",
+	arcadeName: "BOOOM!!",
 	sortingBetween: ["17__Showdown", "17__Euphorianic"],
 
 	charts: {
@@ -437,6 +439,7 @@ export const newTunes__17__Phoenix = {
 "17__Halloween_Party_Multiverse":
 {
 	title: "Halloween Party ~Multiverse~", artist: "SHK", channel: ORIGINAL, bpm: "160",
+	shortTitle: "Halloween Party",
 	sortingBetween: ["17__Euphorianic", "17__Jupin"],
 
 	charts: {
@@ -582,6 +585,7 @@ export const newTunes__17__Phoenix = {
 "17__Vanish_2_Roar_of_the_invisible_dragon":
 {
 	title: "Vanish 2 - Roar of the invisible dragon", artist: "Applesoda", channel: ORIGINAL, bpm: "190",
+	shortTitle: "Vanish 2 - Roar",
 	sortingBetween: ["17__Duel", "17__Lacrimosa"],
 
 	charts: {
@@ -812,7 +816,8 @@ export const newTunes__17__Phoenix = {
 
 "17__Megaheartz":
 {
-	title: "MEGAHEARTZ", artist: "DJ Noriken", channel: ORIGINAL, bpm: "200",
+	title: "Megaheartz", artist: "DJ Noriken", channel: ORIGINAL, bpm: "200",
+	arcadeName: "MEGAHEARTZ",
 	sortingBetween: ["17__Sonic_Boom", "17__Darkside_of_the_Mind"],
 
 	charts: {
@@ -824,7 +829,8 @@ export const newTunes__17__Phoenix = {
 
 "17__Darkside_of_the_Mind":
 {
-	title: "Darkside Of The Mind", artist: "DJ Myosuke", channel: ORIGINAL, bpm: "220",
+	title: "Darkside Of the Mind", artist: "DJ Myosuke", channel: ORIGINAL, bpm: "220",
+	arcadeName: "Darkside Of The Mind",
 	sortingBetween: ["17__Megaheartz", "17__E_O_N"],
 
 	charts: {
@@ -1176,7 +1182,8 @@ export const newTunes__17__Phoenix = {
 
 "17__Goodtek":
 {
-	title: "GOODTEK", artist: "EBIMAYO", channel: WORLD, bpm: "190",
+	title: "Goodtek", artist: "EBIMAYO", channel: WORLD, bpm: "190",
+	arcadeName: "GOODTEK",
 	sortingBetween: ["17__Nade_Nade", "17__Co5m1c_R4ilr0ad"],
 
 	charts: {
@@ -1188,7 +1195,8 @@ export const newTunes__17__Phoenix = {
 
 "17__Co5m1c_R4ilr0ad":
 {
-	title: "CO5M1C R4ILR0AD", artist: "kanone", channel: WORLD, bpm: "155",
+	title: "Co5m1c R4ilr0ad", artist: "kanone", channel: WORLD, bpm: "155",
+	arcadeName: "CO5M1C R4ILR0AD",
 	sortingBetween: ["17__Goodtek", "17__Energy_Synergy_Matrix"],
 
 	charts: {
@@ -1262,7 +1270,8 @@ export const newTunes__17__Phoenix = {
 
 "17__Irellia":
 {
-	title: "iRELLiA", artist: "HyuN", channel: WORLD, bpm: "204",
+	title: "Irellia", artist: "HyuN", channel: WORLD, bpm: "204",
+	arcadeName: "iRELLiA",
 	sortingBetween: ["17__Altale", "17__Goodbounce"],
 
 	charts: {
@@ -1370,7 +1379,8 @@ export const newTunes__17__Phoenix = {
 
 "17__This_game_does_not_exist":
 {
-	title: "* this game does not exist *", artist: "litmus* x Ester", channel: WORLD, bpm: "40~240",
+	title: "This game does not exist", artist: "litmus* x Ester", channel: WORLD, bpm: "40~240",
+	arcadeName: "* this game does not exist *",
 	sortingBetween: ["17__Rush_Hour", "17__Mahika"],
 
 	charts: {
@@ -1466,7 +1476,8 @@ export const newTunes__17__Phoenix = {
 
 "17__Flvsh_Out":
 {
-	title: "FLVSH OUT", artist: "Getty", channel: WORLD, bpm: "160",
+	title: "Flvsh Out", artist: "Getty", channel: WORLD, bpm: "160",
+	arcadeName: "FLVSH OUT",
 	sortingBetween: ["17__Big_Daddy", "17__Odin"],
 
 	charts: {
@@ -1502,7 +1513,7 @@ export const newTunes__17__Phoenix = {
 
 "17__Doof_Senc":
 {
-	title: "DOOF SENC", artist: "Kobaryo", channel: WORLD, bpm: "200",
+	title: "Doof Senc", artist: "Kobaryo", channel: WORLD, bpm: "200",
 	arcadeName: "†DOOF†SENC†",
 	sortingBetween: ["17__Becouse_of_You", "17__Poppin_Shower"],
 
@@ -1564,7 +1575,8 @@ export const newTunes__17__Phoenix = {
 
 "17__ALiVE":
 {
-	title: "ALiVE", artist: "REDALiCE", channel: WORLD, bpm: "170", //duration: ,
+	title: "Alive", artist: "REDALiCE", channel: WORLD, bpm: "170",
+	arcadeName: "ALiVE",
 	sortingBetween: ["17__Chobit_Flavor", "17__Trickl4sh_220"],
 
 	charts: {
@@ -1576,7 +1588,8 @@ export const newTunes__17__Phoenix = {
 
 "17__Trickl4sh_220":
 {
-	title: "TRICKL4SH 220", artist: "Lite Show Magic", channel: WORLD, bpm: "220",
+	title: "Trickl4sh 220", artist: "Lite Show Magic", channel: WORLD, bpm: "220",
+	arcadeName: "TRICKL4SH 220",
 	sortingBetween: ["17__ALiVE", "17__Extreme_Music_School_1st_period"],
 
 	charts: {
@@ -1756,6 +1769,7 @@ export const newTunes__17__Phoenix = {
 "17__Halloween_Party_Multiverse__SHORT":
 {
 	title: "Halloween Party ~Multiverse~  [SHORT]", artist: "SHK", channel: ORIGINAL, bpm: "160", duration: SHORT,
+	shortTitle: "Halloween Party",
 	sortingBetween: ["17__Hymn_of_Golden_Glory__SHORT", "17__Stardream_Eurobeat_Remix__SHORT"],
 	arcadeName: "Halloween Party ~Multiverse~ - SHORT CUT -",
 
@@ -1768,7 +1782,8 @@ export const newTunes__17__Phoenix = {
 
 "17__Stardream_Eurobeat_Remix__SHORT":
 {
-	title: "Stardream -Eurobeat Remix-  [SHORT]", artist: "MAX x Cashew x Dave Rodgers", channel: ORIGINAL, bpm: "160", //duration: SHORT,
+	title: "Stardream -Eurobeat Remix-  [SHORT]", artist: "MAX x Cashew x Dave Rodgers", channel: ORIGINAL, bpm: "160", duration: SHORT,
+	shortTitle: "Stardream -Eurobeat-  [SHORT]",
 	arcadeName: "Stardream -Eurobeat Remix- - SHORT CUT -",
 	sortingBetween: ["17__Halloween_Party_Multiverse__SHORT", "17__PRiMA_MATERiA__SHORT"],
 
@@ -1781,8 +1796,8 @@ export const newTunes__17__Phoenix = {
 
 "17__PRiMA_MATERiA__SHORT":
 {
-	title: "PRiMA MATERiA  [SHORT]", artist: "xi", channel: ORIGINAL, bpm: "187",
-	shortTitle: "Prima Materia  [SHORT]",
+	title: "PRiMA MATERiA  [SHORT]", artist: "xi", channel: ORIGINAL, bpm: "187", duration: SHORT,
+	shortTitle: "Prima Materia",
 	arcadeName: "PRiMA MATERiA - SHORT CUT -",
 	sortingBetween: ["17__Stardream_Eurobeat_Remix__SHORT", "17__Duel__SHORT"],
 
@@ -1834,7 +1849,8 @@ export const newTunes__17__Phoenix = {
 
 "17__District_V":
 {
-	title: "DISTRICT V", artist: "Zekk vs MAX", channel: ORIGINAL, bpm: "178", duration: REMIX,
+	title: "District V", artist: "Zekk vs MAX", channel: ORIGINAL, bpm: "178", duration: REMIX,
+	arcadeName: "DISTRICT V",
 	sortingID: "17__REMIX_",
 
 	charts: {

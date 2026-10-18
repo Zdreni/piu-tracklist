@@ -1001,7 +1001,8 @@ export const newTunes__16__XX = {
 
 "16__F_r_iend":
 {
-	title: "F(R)IEND", artist: "D_AAN", channel: WORLD, bpm: "200",
+	title: "F(r)iend", artist: "D_AAN", channel: WORLD, bpm: "200",
+	arcadeName: "F(R)IEND",
 	altID: "16_F_R_IEND",
 	arcadeID: "1675",
 
@@ -1285,6 +1286,7 @@ export const newTunes__16__XX = {
 "16__Phalanx_RS2018":
 {
 	title: "Phalanx \"RS2018 edit\"", artist: "Cranky", channel: WORLD, bpm: "145",
+	shortTitle: "Phalanx \"RS2018\"",
 	altID: "16_Phalanx_RS2018",
 	arcadeID: "1695",
 
@@ -1622,7 +1624,8 @@ export const newTunes__16__XX = {
 
 "16__Errorcode_0":
 {
-	title: "ERRORCODE: 0", artist: "DOIN && SUNNY", channel: ORIGINAL, bpm: "200.1", duration: REMIX,
+	title: "Errorcode: 0", artist: "DOIN && SUNNY", channel: ORIGINAL, bpm: "200.1", duration: REMIX,
+	arcadeName: "ERRORCODE: 0",
 	altID: "16_Errorcode_0",
 	arcadeID: "16D1",
 

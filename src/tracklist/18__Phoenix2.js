@@ -46,7 +46,8 @@ export const newTunes__18__Phoenix2 = {
 
 "18__Nemonemo":
 {
-	title: "NEMONEMO", artist: "YENA", channel: KPOP, bpm: "138",
+	title: "Nemonemo", artist: "YENA", channel: KPOP, bpm: "138",
+	arcadeName: "NEMONEMO",
 	sortingBetween: ['18__T_B_H', '18__Do_the_Dance'],
 
 	charts: {
@@ -68,7 +69,8 @@ export const newTunes__18__Phoenix2 = {
 
 "18__Bang_Bang":
 {
-	title: "BANG BANG", artist: "IVE", channel: KPOP, bpm: "152",
+	title: "Bang Bang", artist: "IVE", channel: KPOP, bpm: "152",
+	arcadeName: "BANG BANG",
 	sortingBetween: ['18__Do_the_Dance', '18__404_New_Era'],
 
 	charts: {
@@ -222,7 +224,8 @@ export const newTunes__18__Phoenix2 = {
 
 "18__Overnight_Flower":
 {
-	title: "OVERNIGHT FLOWER", artist: "P*Light", channel: ORIGINAL, bpm: "210",
+	title: "Overnight Flower", artist: "P*Light", channel: ORIGINAL, bpm: "210",
+	arcadeName: "OVERNIGHT FLOWER",
 	sortingBetween: ['18__The_Last_Rebellion', '18__Legendary_Dominion'],
 
 	charts: {
@@ -291,7 +294,8 @@ export const newTunes__18__Phoenix2 = {
 
 "18__Quattuorux":
 {
-	title: "QUATTUORUX", artist: "D-D-Dice Vs. Tanchiky Vs. Karameru", channel: WORLD, bpm: "220",
+	title: "Quattuorux", artist: "D-D-Dice Vs. Tanchiky Vs. Karameru", channel: WORLD, bpm: "220",
+	arcadeName: "QUATTUORUX",
 	sortingBetween: ['18__Crash_Landing_Rendezvous', '18__Nighttheater'],
 
 	charts: {
@@ -338,7 +342,8 @@ export const newTunes__18__Phoenix2 = {
 
 "18__Freedom_Dive":
 {
-	title: "FREEDOM DiVE", artist: "xi", channel: WORLD, bpm: "222.22",
+	title: "Freedom Dive", artist: "xi", channel: WORLD, bpm: "222.22",
+	arcadeName: "FREEDOM DiVE",
 	sortingBetween: ['18__Assault_Taxi', '18__Dreamchasers'],
 
 	charts: {
