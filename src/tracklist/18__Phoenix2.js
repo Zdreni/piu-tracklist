@@ -36,10 +36,22 @@ export const newTunes__18__Phoenix2 = {
 "18__T_B_H":
 {
 	title: "T.B.H.", artist: "QWER", channel: KPOP, bpm: "178",
-	sortingBetween: ['18__The_Stranger', '18__Nemonemo'],
+	sortingBetween: ['18__The_Stranger', '18__I_Dont_Care'],
 
 	charts: {
 		Phoenix2: "s2 s4 s6 s14 s17 s20 s22  d18 d22 d24",
+	},
+},
+
+
+"18__I_Dont_Care":
+{
+	title: "I Dont Care", artist: "Baby DONT Cry", channel: KPOP, bpm: "165",
+	arcadeName: "I DONT CARE",
+	sortingBetween: ['18__T_B_H', '18__Nemonemo'],
+
+	charts: {
+		Phoenix2: "@1.03  s2 s4 s7 s10 s16 s18 s21  d6 d14 d19 d23  CoOp(x2)",
 	},
 },
 
@@ -48,7 +60,7 @@ export const newTunes__18__Phoenix2 = {
 {
 	title: "Nemonemo", artist: "YENA", channel: KPOP, bpm: "138",
 	arcadeName: "NEMONEMO",
-	sortingBetween: ['18__T_B_H', '18__Do_the_Dance'],
+	sortingBetween: ['18__I_Dont_Care', '18__Do_the_Dance'],
 
 	charts: {
 		Phoenix2: "@1.02  s2 s4 s6 s10 s15 s18 s21  d11 d16 d19 d22  CoOp(x2)",
@@ -181,7 +193,7 @@ export const newTunes__18__Phoenix2 = {
 "18__Until_Defined":
 {
 	title: "Until Defined", artist: "Palami feat. Dyon Joo & neur6sia", channel: ORIGINAL, bpm: "180",
-	sortingBetween: ['18__Blazor', '18__B3'],
+	sortingBetween: ['18__Blazor', '18__Storm_Chaser'],
 
 	charts: {
 		Phoenix2: "@1.02  s12 s15 s19 s21  d16 d21 d23  CoOp(x2)",
@@ -189,10 +201,21 @@ export const newTunes__18__Phoenix2 = {
 },
 
 
+"18__Storm_Chaser":
+{
+	title: "Storm Chaser", artist: "r300k", channel: ORIGINAL, bpm: "123.45",
+	sortingBetween: ['18__Until_Defined', '18__B3'],
+
+	charts: {
+		Phoenix2: "@1.03  s7 s10 s15 s18 s22  d11 d16 d20 d24",
+	},
+},
+
+
 "18__B3":
 {
 	title: "B3", artist: "MAX", channel: ORIGINAL, bpm: "160",
-	sortingBetween: ['18__Until_Defined', '18__Digitalis'],
+	sortingBetween: ['18__Storm_Chaser', '18__Digitalis'],
 
 	charts: {
 		Phoenix2: "s7 s11 s16 s18 s20  d12 d18 d21",
@@ -214,10 +237,22 @@ export const newTunes__18__Phoenix2 = {
 "18__The_Last_Rebellion":
 {
 	title: "The Last Rebellion", artist: "MonstDeath", channel: ORIGINAL, bpm: "199",
-	sortingBetween: ['18__Digitalis', '18__Overnight_Flower'],
+	sortingBetween: ['18__Digitalis', '18__Point_Nemo'],
 
 	charts: {
 		Phoenix2: "s16 s19 s21 s23  d21 d23 d25",
+	},
+},
+
+
+"18__Point_Nemo":
+{
+	title: "Point Nemo", artist: "xi", channel: ORIGINAL, bpm: "100~440",
+	arcadeName: "::POINT_NEMO::",
+	sortingBetween: ['18__The_Last_Rebellion', '18__Overnight_Flower'],
+
+	charts: {
+		Phoenix2: "@1.03  s15 s17 s21 s23  d19 d23 d26",
 	},
 },
 
@@ -226,7 +261,7 @@ export const newTunes__18__Phoenix2 = {
 {
 	title: "Overnight Flower", artist: "P*Light", channel: ORIGINAL, bpm: "210",
 	arcadeName: "OVERNIGHT FLOWER",
-	sortingBetween: ['18__The_Last_Rebellion', '18__Legendary_Dominion'],
+	sortingBetween: ['18__Point_Nemo', '18__Legendary_Dominion'],
 
 	charts: {
 		Phoenix2: "s12 s16 s19 s22 s24  d18 d20 d24 d26",
@@ -237,10 +272,33 @@ export const newTunes__18__Phoenix2 = {
 "18__Legendary_Dominion":
 {
 	title: "Legendary Dominion", artist: "Laur", channel: ORIGINAL, bpm: "210",
-	sortingBetween: ['18__Overnight_Flower', '18__Physalis'],
+	sortingBetween: ['18__Overnight_Flower', '18__Passacaglia_II'],
 
 	charts: {
 		Phoenix2: "s16 s20 s22 s25  d21 d25 d27",
+	},
+},
+
+
+"18__Passacaglia_II":
+{
+	title: "Passacaglia II", artist: "SYNTHWULF", channel: ORIGINAL, bpm: "170~400",
+	sortingBetween: ['18__Legendary_Dominion', '18__Elevate'],
+
+	charts: {
+		Phoenix2: "@1.03  s13 s16 s19 s22  d16 d20 d24",
+	},
+},
+
+
+"18__Elevate":
+{
+	title: "Elevate", artist: "Jorts", channel: ORIGINAL, bpm: "174",
+	arcadeName: "ELEVATE",
+	sortingBetween: ['18__Passacaglia_II', '18__Physalis'],
+
+	charts: {
+		Phoenix2: "@1.03  s4 s7 s11 s16 s18 s21  d13 d18 d20 d23",
 	},
 },
 
@@ -249,10 +307,10 @@ export const newTunes__18__Phoenix2 = {
 {
 	title: "Physalis", artist: "TAG", channel: WORLD, bpm: "200",
 	arcadeName: "PHYSALIS",
-	sortingBetween: ['18__Legendary_Dominion', '18__L'],
+	sortingBetween: ['18__Elevate', '18__L'],
 
 	charts: {
-		Phoenix2: "@1.02  s15 s19 s22 s24  d17 d20 d24 d26",
+		Phoenix2: "@1.02  s15 s19 s22 s24  d17 d20 d24 d26  @1.03  hd17 hd20 hd24 hd26",
 	},
 },
 
@@ -261,10 +319,21 @@ export const newTunes__18__Phoenix2 = {
 {
 	title: "L (PIU Edit)", artist: "Ice", channel: WORLD, bpm: "155",
 	shortTitle: "L",
-	sortingBetween: ['18__Physalis', '18__Can_I_friend_you_on_Bassbook_lol'],
+	sortingBetween: ['18__Physalis', '18__Bamboo'],
 
 	charts: {
-		Phoenix2: "@1.01  s12 s18 s22 s24  d19 d24 d27",
+		Phoenix2: "@1.01  s12 s18 s22 s24  d19 d24 d27  @1.03  hd19 hd23 hd26",
+	},
+},
+
+
+"18__Bamboo":
+{
+	title: "Bamboo", artist: "RISH feat.Choko", channel: WORLD, bpm: "5~315",
+	sortingBetween: ['18__L', '18__Can_I_friend_you_on_Bassbook_lol'],
+
+	charts: {
+		Phoenix2: "@1.03  s17 s19 s21 s23  d18 d22 d25  hd18 hd22 hd24",
 	},
 },
 
@@ -272,10 +341,10 @@ export const newTunes__18__Phoenix2 = {
 "18__Can_I_friend_you_on_Bassbook_lol":
 {
 	title: "Can I friend you on Bassbook? lol", artist: "Camellia & Nanahira", channel: WORLD, bpm: "128",
-	sortingBetween: ['18__L', '18__Crash_Landing_Rendezvous'],
+	sortingBetween: ['18__Bamboo', '18__Crash_Landing_Rendezvous'],
 
 	charts: {
-		Phoenix2: "@1.01  s4 s7 s11 s17 s19 s22  d11 d20 d25",
+		Phoenix2: "@1.01  s4 s7 s11 s17 s19 s22  d11 d20 d25  @1.03  hd11 hd20 hd24",
 	},
 },
 
@@ -284,10 +353,22 @@ export const newTunes__18__Phoenix2 = {
 {
 	title: "Crash-Landing Rendezvous", artist: "Xyris", channel: WORLD, bpm: "128~190",
 	altID: "18__Crash_Landing_Rengezvous",
-	sortingBetween: ['18__Can_I_friend_you_on_Bassbook_lol', '18__Quattuorux'],
+	sortingBetween: ['18__Can_I_friend_you_on_Bassbook_lol', '18__Ultra_Synergy_Matrix'],
 
 	charts: {
 		Phoenix2: "s13 s16 s19 s22  d17 d21 d24  hd16 hd20 hd23",
+	},
+},
+
+
+"18__Ultra_Synergy_Matrix":
+{
+	title: "Ultra Synergy Matrix", artist: "Tanchiky", channel: WORLD, bpm: "160",
+	arcadeName: "ULTRA SYNERGY MATRIX",
+	sortingBetween: ['18__Crash_Landing_Rendezvous', '18__Quattuorux'],
+
+	charts: {
+		Phoenix2: "@1.03  s4 s7 s10 s16 s18 s21  d15 d20 d23  hd12 hd20 hd23",
 	},
 },
 
@@ -296,7 +377,7 @@ export const newTunes__18__Phoenix2 = {
 {
 	title: "Quattuorux", artist: "D-D-Dice Vs. Tanchiky Vs. Karameru", channel: WORLD, bpm: "220",
 	arcadeName: "QUATTUORUX",
-	sortingBetween: ['18__Crash_Landing_Rendezvous', '18__Nighttheater'],
+	sortingBetween: ['18__Ultra_Synergy_Matrix', '18__Nighttheater'],
 
 	charts: {
 		Phoenix2: "s15 s19 s22 s24  d17 d21 d24 d26",
@@ -335,7 +416,7 @@ export const newTunes__18__Phoenix2 = {
 	sortingBetween: ['18__Infinite_Energy_Overdoze', '18__Freedom_Dive'],
 
 	charts: {
-		Phoenix2: "@1.02  s13 s15 s18 s21  d14 d20 d23",
+		Phoenix2: "@1.02  s13 s15 s18 s21  d14 d20 d23  @1.03  hd14 hd20 hd23",
 	},
 },
 
@@ -698,12 +779,66 @@ export const newTunes__18__Phoenix2 = {
 {
 	title: "Burning SuperNova feat. neur6sia", artist: "Palami", channel: RISE, bpm: "210",
 	shortTitle: "Burning SuperNova",
-	sortingBetween: ['18__Reincarnate_in_A', null],
+	sortingBetween: ['18__Reincarnate_in_A', '18__Untitled'],
 
 	steamLinkExclusive: true,
 
 	charts: {
 		Phoenix2: "hd15 hd22 hd25  @1.02  s13 s16 s19 s21 s23  d17 d22 d25",
+	}
+},
+
+
+"18__Untitled":
+{
+	title: "Untitled", artist: "Apo11o program & NOMA ft.Hana Kagenui & K", channel: RISE, bpm: "200",
+	arcadeName: "untitled",
+	sortingBetween: ['18__Burning_SuperNova', '18__Time_Wanderer'],
+
+	steamLinkExclusive: true,
+
+	charts: {
+		Phoenix2: "@1.03  s13 s16 s18 s21  d17 d21 d24  hd17 hd21 hd24",
+	}
+},
+
+
+"18__Time_Wanderer":
+{
+	title: "Time Wanderer", artist: "uma", channel: RISE, bpm: "183",
+	arcadeName: "Time wanderer",
+	sortingBetween: ['18__Untitled', '18__Whitemare'],
+
+	steamLinkExclusive: true,
+
+	charts: {
+		Phoenix2: "@1.03  s13 s16 s19 s21  d15 d18 d21 d24  hd14 hd18 hd21 hd23",
+	}
+},
+
+
+"18__Whitemare":
+{
+	title: "Whitemare", artist: "Apo11o program ft.ChumuNote", channel: RISE, bpm: "153",
+	sortingBetween: ['18__Time_Wanderer', '18__Eagle_Strike'],
+
+	steamLinkExclusive: true,
+
+	charts: {
+		Phoenix2: "@1.03  s4 s7 s11 s16 s18 s21  d14 d20 d23  hd14 hd19 hd22",
+	}
+},
+
+
+"18__Eagle_Strike":
+{
+	title: "Eagle Strike", artist: "kanone", channel: RISE, bpm: "169",
+	sortingBetween: ['18__Whitemare', null],
+
+	steamLinkExclusive: true,
+
+	charts: {
+		Phoenix2: "@1.03  s15 s17 s19 s21  d17 d19 d21 d24  hd17 hd18 hd21 hd24",
 	}
 },
 
